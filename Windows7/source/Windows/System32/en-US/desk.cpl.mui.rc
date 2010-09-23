@@ -1,0 +1,70 @@
+1 MUI "Data_352.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+41, 	"Display Settings"
+42, 	"Change display settings for this computer."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+102, 	"Your system administrator has disabled launching of the Display Control Panel."
+103, 	"The file can't be opened since this edition of Windows doesn't support themes."
+104, 	"This edition of Windows doesn't support themes."
+105, 	"Your system administrator has disabled changing of the theme."
+110, 	"Display Settings"
+111, 	"Theme Settings"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+112, 	"Desktop Icon Settings"
+113, 	"Screen Saver Settings"
+114, 	"Window Color and Appearance"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1241, 	"Desktop Icons"
+1242, 	"Screen Saver"
+1243, 	"Color Scheme"
+1244, 	"Settings "
+1245, 	"Window Color and Appearance"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Desktop Settings Control Panel"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "DESK"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "DESK.CPL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
