@@ -1,0 +1,55 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 12,0,7600,16385
+PRODUCTVERSION 12,0,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x2
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Windows Media Player Visualization"
+      VALUE "FileVersion", "12.0.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "mpvis.dll"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "mpvis.dll.mui"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "12.0.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Alchemy"
+  101,  "Blur"
+  102,  "SwitchBlur"
+  103,  "Shift"
+  104,  "Standard Render Cycle"
+  105,  "Linear Shift"
+  106,  "Stretch Shift"
+  107,  "SuperStar"
+  108,  "WonderWave"
+  109,  "Shift O' Scope"
+  110,  "Funktional"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  115,  "Bass Bounce"
+  117,  "Random"
+}
+

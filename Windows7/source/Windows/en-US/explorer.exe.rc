@@ -1,0 +1,544 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x1
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Windows Explorer"
+      VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "explorer"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "EXPLORER.EXE.MUI"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "6.1.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+205 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Adjust date/time", 408
+    MENUITEM "&Customize notification icons", 421
+    MENUITEM SEPARATOR
+    MENUITEM "Casca&de windows", 403
+    MENUITEM "Show windows s&tacked", 405
+    MENUITEM "Show windows s&ide by side", 404
+    MENUITEM "&Show the desktop", 407
+    MENUITEM "&Undo", 416
+    MENUITEM SEPARATOR
+    MENUITEM "Start Tas&k Manager", 420
+    MENUITEM SEPARATOR
+    MENUITEM "&Lock the taskbar", 424
+    MENUITEM "P&roperties", 413
+  }
+}
+
+211 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", -1, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "P&roperties", 32755, MFT_STRING, MFS_ENABLED
+    MENUITEM "E&xit Explorer", 32756, MFT_STRING, MFS_ENABLED
+  }
+}
+
+212 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Show or remove blocked startup programs", 6601, MFT_STRING, MFS_ENABLED
+    POPUP "&Run blocked program", 6602, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    }
+    MENUITEM "View &help", 6603, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "E&xit", 6604, MFT_STRING, MFS_ENABLED
+  }
+}
+
+213 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Show desktop", 6701, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Peek at desktop", 6702, MFT_STRING, MFS_ENABLED
+  }
+}
+
+6003 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "Search the I&ndex", 1
+    MENUITEM "Search the &Internet", 2
+  }
+}
+
+12000 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", -1, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Ca&scade", 403, MFT_STRING, MFS_ENABLED
+    MENUITEM "Show windows s&tacked", 405, MFT_STRING, MFS_ENABLED
+    MENUITEM "Show windows s&ide by side", 404, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Restore all windows", 65493, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Minimize all windows", 65492, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Close all windows", 65491, MFT_STRING, MFS_ENABLED
+  }
+}
+
+6 DIALOGEX 0, 0, 252, 218
+CAPTION "Taskbar"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Lock the taskbar", 1105, Button, 0x50010003, 13, 18, 200, 10, 0x0
+  CONTROL "A&uto-hide the taskbar", 1102, Button, 0x50010003, 13, 32, 200, 10, 0x0
+  CONTROL "Use small &icons", 1139, Button, 0x50010003, 13, 46, 200, 10, 0x0
+  CONTROL "&Taskbar location on screen:", 65535, Static, 0x50020000, 13, 63, 100, 10, 0x0
+  CONTROL "", 1142, ComboBox, 0x50210003, 117, 60, 110, 14, 0x0
+  CONTROL "Taskbar &buttons:", 65535, Static, 0x50020000, 13, 81, 100, 10, 0x0
+  CONTROL "", 1143, ComboBox, 0x50210003, 117, 78, 110, 14, 0x0
+  CONTROL "Taskbar appearance", 65535, Button, 0x50000007, 7, 7, 238, 91, 0x0
+  CONTROL "Customize which icons and notifications appear in the notification area.", 65535, Static, 0x50020080, 13, 113, 171, 16, 0x0
+  CONTROL "&Customize...", 1140, Button, 0x50010000, 188, 113, 50, 14, 0x0
+  CONTROL "Notification area", 65535, Button, 0x50000007, 7, 102, 238, 34, 0x0
+  CONTROL "Temporarily view the desktop when you move your mouse to the Show desktop button at end of the taskbar.", 1144, Static, 0x50020080, 13, 151, 220, 16, 0x0
+  CONTROL "Use Aero &Peek to preview the desktop", 1141, Button, 0x50010003, 13, 171, 200, 10, 0x0
+  CONTROL "Preview desktop with Aero Peek", 1145, Button, 0x50000007, 7, 140, 238, 48, 0x0
+  CONTROL "<A>How do I customize the taskbar?</A>", 1114, "SysLink", 0x50010000, 7, 200, 256, 8, 0x0
+}
+
+10 DIALOGEX 0, 0, 252, 218
+CAPTION "Toolbars"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select which toolbars to add to the taskbar.", 1106, Static, 0x50020000, 7, 7, 223, 12, 0x0
+  CONTROL "DeskBandList", 1137, "SysTreeView32", 0x50810000, 7, 20, 236, 160, 0x200
+  CONTROL "Dummy", 1138, "SysTreeView32", 0x58800000, 0, 0, 0, 0, 0x0
+}
+
+20 DIALOGEX 0, 0, 272, 81
+CAPTION "File Name Warning"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Don't perform this check at startup", 4610, Button, 0x50010003, 7, 62, 139, 10, 0x0
+  CONTROL "&Rename", 1006, Button, 0x50010000, 159, 60, 50, 14, 0x0
+  CONTROL "&Ignore", 5, Button, 0x50010001, 215, 60, 50, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 7, 51, 258, 1, 0x0
+  CONTROL 32515, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "There is a file or folder on your computer called ""%s"" which could cause certain applications to not function correctly.  Renaming it to ""%s"" would solve this problem.  Would you like to rename it now?", 1007, Static, 0x50020000, 34, 7, 224, 37, 0x0
+}
+
+23 DIALOGEX 0, 0, 320, 137
+CAPTION "Microsoft Windows"
+STYLE 0x80c809cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Maximum number of programs is already open.", 4294967295, Static, 0x50020080, 48, 18, 256, 8, 0x0
+  CONTROL "To open another program, save your work and then close one of the programs that are currently open.", 4294967295, Static, 0x50020080, 48, 37, 256, 18, 0x0
+  CONTROL 32515, 4294967295, Static, 0x50000003, 14, 12, 20, 20, 0x0
+  CONTROL "Close", 1, Button, 0x50030001, 256, 112, 50, 16, 0x0
+  CONTROL "<A>See more information about opening multiple programs at the same time.</A>", 1009, "SysLink", 0x50010000, 48, 67, 256, 18, 0x0
+  CONTROL "&Next time, show this message as a notification", 1008, Button, 0x50012003, 48, 93, 256, 18, 0x0
+}
+
+205 DIALOGEX 0, 0, 252, 218
+CAPTION "Start Menu"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "To customize how links, icons, and menus look and behave in the Start menu, click Customize.", 1134, Static, 0x50020000, 7, 7, 170, 16, 0x0
+  CONTROL "&Customize...", 1131, Button, 0x50010000, 192, 4, 53, 14, 0x0
+  CONTROL "Power &button action:", 65535, Static, 0x50020000, 7, 35, 72, 8, 0x0
+  CONTROL "", 1133, ComboBox, 0x50210003, 83, 32, 100, 14, 0x0
+  CONTROL "Store and display recently opened &programs in the Start menu ", 1136, Button, 0x50012503, 14, 68, 224, 10, 0x0
+  CONTROL "Store and display recently opened items in the Start &menu and the taskbar", 1135, Button, 0x50012503, 14, 82, 224, 20, 0x0
+  CONTROL "Privacy", 300, Button, 0x50000007, 7, 55, 238, 50, 0x0
+  CONTROL "<A>How do I change the way the Start menu looks?</A>", 1116, "SysLink", 0x50010000, 7, 200, 256, 8, 0x0
+}
+
+1036 DIALOGEX 0, 0, 251, 274
+CAPTION "Customize Start Menu"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You can customize how links, icons, and menus look and behave on the Start menu.", 4294967295, Static, 0x50020000, 7, 7, 238, 16, 0x0
+  CONTROL "StartMenuSe&ttings", 1123, "SysTreeView32", 0x50810001, 7, 26, 238, 169, 0x200
+  CONTROL "Start menu size ", 4294967295, Button, 0x50000007, 7, 202, 238, 44, 0x0
+  CONTROL "&Number of recent programs to display:", 4294967295, Static, 0x50020000, 14, 214, 191, 8, 0x0
+  CONTROL "", 1307, Edit, 0x50832002, 211, 212, 27, 12, 0x0
+  CONTROL "", 1305, "msctls_updown32", 0x508200b6, 221, 212, 11, 12, 0x0
+  CONTROL "Number of recent items to display in &Jump Lists:", 4294967295, Static, 0x50020000, 14, 230, 191, 8, 0x0
+  CONTROL "", 1309, Edit, 0x50832002, 211, 228, 27, 12, 0x0
+  CONTROL "", 1308, "msctls_updown32", 0x508200b6, 221, 228, 11, 12, 0x0
+  CONTROL "Use &Default Settings", 1037, Button, 0x50010000, 7, 253, 80, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 140, 253, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 194, 253, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Access letters, reports, notes, and other kinds of documents."
+  301,  "Displays recently opened documents and folders."
+  302,  "Play music and other audio files."
+  303,  "View and organize digital pictures."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "See the disk drives and other hardware connected to your computer."
+  305,  "Access libraries and folders shared by other people in your homegroup."
+  307,  "Change settings and customize the functionality of your computer."
+  312,  "Play and manage games on your computer."
+  316,  "Choose default programs for web browsing, e-mail, playing music, and other activities."
+  317,  "Open your personal folder."
+  318,  "See the available wireless networks, dial-up, and VPN connections that you can connect to."
+  319,  "See installed printers and add new ones."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Pinned"
+  321,  "Frequently used programs"
+  322,  "Use tab to move between sections, including the first and second panes and the power buttons."
+  323,  "Pin %s"
+  324,  "Unpin %s"
+  325,  "Launch Windows Security Options to Change Password, Switch User, or Start Task Manager."
+  326,  "Pinned"
+  327,  "Recent"
+  328,  "Frequent"
+  329,  "Tasks"
+  330,  "&Unpin from this list"
+  331,  "P&in to this list"
+  332,  "Unpin from Start menu"
+  333,  "Pin to Start menu"
+  334,  "Show recent or related items for %s"
+  335,  "Show recent or related items."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  336,  "Hide recent or related items for %s"
+  337,  "Hide recent or related items."
+  338,  "Pin this program to taskbar"
+  339,  "Unpin this program from taskbar"
+  340,  "Location: %s (%s)"
+  341,  "Open"
+  342,  "Use tab to move between sections, including the first and second panes and the power buttons. Use up and down arrows to move between list items."
+  343,  "Windows Places"
+  344,  "Jump List for %s"
+  349,  "Find Internet downloads and links to favorite websites."
+  350,  "Watch TV programs recorded on your computer."
+  351,  "Watch home movies and other digital videos."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  352,  "Close window"
+  353,  "Close all windows"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  510,  "Start menu"
+  511,  "Pin to %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "Jump List"
+  518,  "Taskbar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  530,  "Unable to run command.\nThe folder '%1' has been removed."
+  533,  "Start"
+  534,  "&Undo %s"
+  535,  "Cascade"
+  536,  "Show side by side"
+  537,  "Minimize all"
+  538,  "Show stacked"
+  542,  "Hide"
+  543,  "Show hidden icons"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  580,  "Restrictions"
+  581,  "This operation has been cancelled due to restrictions in effect on this computer. Please contact your system administrator."
+  590,  "System Promoted Notification Area"
+  591,  "Overflow Notification Area"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  593,  "User Promoted Notification Area"
+  594,  "Running applications"
+  595,  "Start"
+  596,  "Some notification icons can't be displayed"
+  597,  "There is not enough room to show all of the items in your system tray. Please uninstall some programs, or try a higher screen resolution."
+  598,  "Click here to select what icons appear on the taskbar."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  610,  "Do you want the %s toolbar on your taskbar?"
+  611,  "You can show or hide toolbars by changing Taskbar and Start menu properties."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  705,  "A toolbar is already hidden on this side of your screen.\nYou can have only one auto-hide toolbar per side."
+  711,  "You cannot drop an item onto a button on the taskbar.\n\nHowever, if you drag the item over a button without releasing the mouse button, the window will open after a moment, allowing you to drop the item inside the window."
+  718,  "O&pen All Users"
+  719,  "O&pen Windows Explorer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "P&roperties"
+  722,  "Run"
+  731,  "Playing logoff sound..."
+  733,  "<no title>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  810,  "Taskbar and Start Menu Properties"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  850,  "&Show open windows"
+  851,  "|Go||"
+  852,  "Clock"
+  853,  "Open"
+  854,  "NotificationChevron"
+  855,  "NotificationOverflow"
+  856,  "Customize..."
+  857,  "Show desktop"
+  858,  "Show desktop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Icon"
+  1001,  "Behavior"
+  1002,  "Notifications Only"
+  1003,  "Hide"
+  1004,  "Show"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1403,  "Current Items"
+  1404,  "Past Items"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1410,  "Always combine, hide labels"
+  1411,  "Combine when taskbar is full"
+  1412,  "Never combine"
+  1420,  "Bottom"
+  1421,  "Left"
+  1422,  "Right"
+  1423,  "Top"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6010,  "Windows Search protocol"
+  6011,  "Windows Search Explorer"
+  6012,  "Windows Search Explorer allows you to quickly search for files and folders anywhere on your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6500,  "Windows has blocked some startup programs"
+  6501,  "Windows blocks programs that require permission to run when Windows starts. Click to view blocked programs."
+  6502,  "Blocked startup programs"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7000,  "Search for documents, music, pictures, email and more."
+  7001,  "Find Help topics, tutorials, troubleshooting, and other support services."
+  7003,  "Opens a program, folder, document, or web site."
+  7004,  "Find information and websites on the Internet."
+  7005,  "Send or receive e-mail messages."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7020,  "Search"
+  7021,  "Help and Support"
+  7022,  "Windows Security"
+  7023,  "Run..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7024,  "Internet"
+  7025,  "E-mail"
+  7028,  "No items match your search."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7050,  "Search failed to initialize."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8224,  "The item you selected is unavailable.  It might have been moved, renamed, or removed.  Do you want to remove it from the list?"
+  8225,  "Remove &from this list"
+  8226,  "All Programs"
+  8227,  "Opens a list of your programs."
+  8230,  "If you want to put the Internet or E-mail icons back on your Start menu, right-click the Start button, click Properties, click Customize, and select the appropriate check box."
+  8233,  "Network"
+  8234,  "Control Panel"
+  8235,  "Favorites"
+  8236,  "Recent Items"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8241,  "Back"
+  8242,  "See more results"
+  8243,  "Search Everywhere"
+  8244,  "Search the Internet"
+  8245,  "Return to previous view."
+  8246,  " Search programs and files"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8258,  "75"
+  8259,  "40"
+  8260,  "40"
+  8261,  "64"
+  8262,  "405"
+  8263,  "405"
+  8264,  "405"
+  8265,  "480"
+  8266,  "230"
+  8267,  "26"
+  8268,  "16"
+  8269,  "5"
+  8270,  "10"
+  8271,  "2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8272,  "&Show on Desktop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11100,  "Task Switcher"
+  11101,  "Switch"
+  11102,  "Press"
+  11103,  "Open"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11104,  "Windows"
+  11105,  "Can't open this item"
+  11106,  "It might have been moved, renamed, or deleted. Do you want to remove this item?"
+  11107,  "Close"
+  11108,  "Thumbnail Toolbar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  19650,  "Maximum number of programs is already open"
+  19651,  "To open another program, save your work and then close one of the programs that are currently open.\n\nClick to see more information."
+  19652,  "Maximum number of windows is already open"
+  19653,  "To open another window, save your work and then close one of the windows in this application that is currently open.\nClick here to learn more about the three window limitation."
+}
+
+251 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  "s"  , 305, ASCII, ALT
+  VK_TAB  , 41008, VIRTKEY, NOINVERT
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, SHIFT
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, CONTROL
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_F5  , 41061, VIRTKEY, NOINVERT
+  VK_F6  , 41008, VIRTKEY, NOINVERT
+  VK_RETURN  , 413, VIRTKEY, NOINVERT, ALT
+  VK_Z  , 416, VIRTKEY, NOINVERT, CONTROL
+  VK_F3  , 41093, VIRTKEY, NOINVERT
+  VK_M  , 419, VIRTKEY, NOINVERT, ALT
+}
+

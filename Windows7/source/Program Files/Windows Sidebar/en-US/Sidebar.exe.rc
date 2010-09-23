@@ -1,0 +1,439 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 1,0,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x1
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Windows Desktop Gadgets"
+      VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "Windows Desktop Gadgets"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "sidebar.EXE.MUI"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "1.0.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+2001 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Add gadgets...", 3000
+    MENUITEM SEPARATOR
+    MENUITEM "&Move", 2511
+    MENUITEM SEPARATOR
+    POPUP "Si&ze"
+    {
+      MENUITEM "Small size", 2512
+      MENUITEM "Large size", 2513
+    }
+    MENUITEM "Al&ways on top", 2500
+    POPUP "Opac&ity"
+    {
+      MENUITEM "20%", 2506
+      MENUITEM "40%", 2507
+      MENUITEM "60%", 2508
+      MENUITEM "80%", 2509
+      MENUITEM "100%", 2510
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "&Options", 2504
+    MENUITEM "&Close gadget", 2503
+  }
+}
+
+9100 DIALOGEX 0, 0, 265, 140
+CAPTION "Desktop Gadgets - Security Warning"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Do you want to install this gadget?", 9103, Static, 0x50020000, 10, 10, 245, 28, 0x0
+  CONTROL 103, 9104, Static, 0x50000003, 10, 35, 32, 32, 0x0
+  CONTROL "Name:", 9105, Static, 0x50020002, 35, 30, 40, 10, 0x0
+  CONTROL "Publisher:", 9106, Static, 0x50020002, 35, 45, 40, 10, 0x0
+  CONTROL "<A>gadget name</A>", 9107, "SysLink", 0x50010000, 80, 30, 170, 8, 0x0
+  CONTROL "<A>publisher</A>", 9108, "SysLink", 0x50010000, 80, 44, 170, 9, 0x0
+  CONTROL "&Install", 9109, Button, 0x50010000, 140, 65, 53, 16, 0x0
+  CONTROL "&Don't Install", 9110, Button, 0x50010001, 200, 65, 53, 16, 0x0
+  CONTROL "", 9111, Static, 0x50001010, 0, 95, 285, 2, 0x0
+  CONTROL 102, 9113, Static, 0x50000003, 10, 105, 32, 32, 0x0
+  CONTROL "While files from the Internet can be useful, this file type can potentially harm your computer. Only run software from publishers you trust. <A id=""Help"">What's the risk?</A>", 9115, "SysLink", 0x50010000, 40, 105, 215, 40, 0x0
+}
+
+9101 DIALOGEX 0, 0, 265, 140
+CAPTION "Desktop Gadgets - Security Warning"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "The publisher could not be verified. Are you sure you want to install this gadget?", 9102, Static, 0x50020000, 10, 5, 245, 28, 0x0
+  CONTROL 103, 9104, Static, 0x50000003, 10, 35, 32, 32, 0x0
+  CONTROL "Name:", 9105, Static, 0x50020002, 35, 30, 40, 10, 0x0
+  CONTROL "Publisher:", 9106, Static, 0x50020002, 35, 45, 40, 10, 0x0
+  CONTROL "<A>gadget name</A>", 9107, "SysLink", 0x50010000, 80, 30, 170, 8, 0x0
+  CONTROL "<A>publisher</A>", 9108, "SysLink", 0x50010000, 80, 44, 170, 8, 0x0
+  CONTROL "&Install", 9109, Button, 0x50010000, 140, 65, 53, 16, 0x0
+  CONTROL "&Don't Install", 9110, Button, 0x50010001, 200, 65, 53, 16, 0x0
+  CONTROL "", 9111, Static, 0x50001010, 0, 95, 285, 2, 0x0
+  CONTROL 101, 9112, Static, 0x50000003, 10, 105, 32, 32, 0x0
+  CONTROL "This file does not have a valid digital signature that verifies its publisher. You should only run software from publishers you trust. <A id=""Help"">How can I decide what software to run?</A>", 9114, "SysLink", 0x50010000, 40, 105, 215, 40, 0x0
+}
+
+9200 DIALOGEX 0, 0, 265, 122
+CAPTION "Desktop Gadgets - Security Warning"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "This gadget has been blocked", 9202, Static, 0x50020000, 10, 5, 245, 15, 0x0
+  CONTROL 101, 9205, Static, 0x50000003, 10, 25, 32, 32, 0x0
+  CONTROL "This gadget is a security risk to your computer.", 9203, Static, 0x50020000, 40, 20, 220, 20, 0x0
+  CONTROL "Blocked Gadget", 9213, Static, 0x50024000, 55, 40, 140, 12, 0x0
+  CONTROL "Unknown Publisher", 9214, Static, 0x50024000, 55, 52, 140, 12, 0x0
+  CONTROL "&Close", 9206, Button, 0x50010001, 200, 45, 53, 16, 0x0
+  CONTROL "", 9111, Static, 0x50001010, 0, 75, 285, 2, 0x0
+  CONTROL "Description:", 9207, Static, 0x50020002, 10, 85, 70, 10, 0x0
+  CONTROL "", 9210, Static, 0x50024000, 85, 85, 170, 10, 0x0
+  CONTROL "More information:", 9208, Static, 0x50020002, 10, 95, 70, 10, 0x0
+  CONTROL "", 9211, "SysLink", 0x50010000, 85, 95, 170, 10, 0x0
+  CONTROL "Support:", 9209, Static, 0x50020002, 10, 105, 70, 10, 0x0
+  CONTROL "", 9212, "SysLink", 0x50010000, 85, 105, 170, 10, 0x0
+}
+
+9201 DIALOGEX 0, 0, 265, 132
+CAPTION "Desktop Gadgets - Security Warning"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "This gadget has been blocked", 9202, Static, 0x50020000, 10, 5, 245, 15, 0x0
+  CONTROL 101, 9205, Static, 0x50000003, 10, 25, 32, 32, 0x0
+  CONTROL "This gadget is a security risk to your computer. To uninstall it, right-click the gadget and then click Uninstall.", 9204, Static, 0x50020000, 40, 20, 220, 30, 0x0
+  CONTROL "Blocked Gadget", 9213, Static, 0x50024000, 55, 50, 140, 12, 0x0
+  CONTROL "Unknown Publisher", 9214, Static, 0x50024000, 55, 62, 140, 12, 0x0
+  CONTROL "&Close", 9206, Button, 0x50010001, 200, 55, 53, 16, 0x0
+  CONTROL "", 9111, Static, 0x50001010, 0, 85, 285, 2, 0x0
+  CONTROL "Description:", 9207, Static, 0x50020002, 10, 95, 70, 10, 0x0
+  CONTROL "", 9210, Static, 0x50024000, 85, 95, 170, 10, 0x0
+  CONTROL "More information:", 9208, Static, 0x50020002, 10, 105, 70, 10, 0x0
+  CONTROL "", 9211, "SysLink", 0x50010000, 85, 105, 170, 10, 0x0
+  CONTROL "Support:", 9209, Static, 0x50020002, 10, 115, 70, 10, 0x0
+  CONTROL "", 9212, "SysLink", 0x50010000, 85, 115, 170, 10, 0x0
+}
+
+9500 DIALOGEX 0, 0, 324, 276
+CAPTION "View Gadgets"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Close", 9505, Button, 0x50010000, 257, 255, 60, 14, 0x0
+  CONTROL "", 9501, "SysListView32", 0x5081080d, 7, 44, 242, 208, 0x0
+  CONTROL "To stop a gadget from running, you must remove it from the desktop. Removing a gadget won't uninstall it from your computer.", 9504, Static, 0x50020000, 7, 7, 310, 28, 0x0
+  CONTROL "&Remove", 9502, Button, 0x50010000, 257, 44, 60, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1005,  "Desktop Gadget Gallery"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1011,  "Unknown Publisher"
+  1012,  "Add Desktop Gadgets that display personalized slideshows, news feeds, and other customized information."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6000,  "Desktop Gadget Error"
+  6001,  "Hide Error Details"
+  6002,  "Show Error Details"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7001,  "Search gadgets"
+  7002,  "All gadgets"
+  7003,  "Get more gadgets online"
+  7005,  "Recently installed gadgets"
+  7006,  "Gadget Gallery"
+  7007,  "Show details"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7008,  "Hide details"
+  7009,  "Page %1!ld! of %2!ld!"
+  7011,  "To uninstall a gadget, right-click it, and then click Uninstall."
+  7012,  "Type to search the current view"
+  7013,  "All Windows and administrator installed gadgets have been restored."
+  7014,  "There were no Windows or administrator gadgets to restore."
+  7015,  "Some gadgets access the Internet.  For more information, see the privacy statement online."
+  7016,  "Read the privacy statement online"
+  7017,  "http://go.microsoft.com/fwlink/?LinkId=104288"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7100,  "Do you want to uninstall %s?"
+  7101,  "Desktop Gadgets"
+  7102,  "Uninstall"
+  7103,  "Don't uninstall"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7150,  "Settings.ini is being used by another process. Close the other program and then click Retry, or click Cancel to exit."
+  7151,  "Desktop Gadgets"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7200,  "Unable to terminate the '%s' gadget. It will be removed after the next system restart."
+  7201,  "Desktop Gadgets"
+  7202,  "Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7300,  "Desktop gadgets are managed by your system administrator."
+  7301,  "Desktop Gadgets"
+  7302,  "Contact your system administrator for more information."
+  7303,  "<a href=""mshelp://windows/?id=ca607790-adf6-41a7-abd8-0a1f2feb70b1"">Why can't I change these settings?</a>"
+  7304,  "Installation of desktop gadgets is managed by your system administrator"
+  7305,  "Desktop gadgets are not available in safe mode."
+  7306,  "Installing this type of gadget is restricted by your system administrator"
+  7307,  "This gadget is unsigned. Contact your system administrator for more information."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7400,  "You currently have a version of %s installed. Do you want to replace it with %s %s?"
+  7401,  "Desktop Gadgets"
+  7402,  "Replace"
+  7403,  "Cancel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7500,  "You can't install %s because it is currently running on your desktop. Close the gadget and try again."
+  7501,  "Desktop Gadgets"
+  7502,  "Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7600,  "This gadget is a security risk to your computer, and has been blocked from running.  To uninstall it, right-click the gadget, and then click Uninstall."
+  7601,  "Blocked Gadget"
+  7602,  "Click this link for more information"
+  7603,  " (Disabled Gadget)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8001,  "Remove"
+  8002,  "Options"
+  8006,  "Add Gadget Dialog"
+  8007,  "Allows you to add gadgets to your desktop"
+  8008,  "%1!ls!"
+  8009,  "Click to add %1!ls!"
+  8010,  "%1!ls! icon"
+  8011,  "%1!ls!"
+  8012,  "View available gadgets"
+  8013,  "Search Box"
+  8014,  "Layout Object"
+  8015,  "Invoke"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8016,  "Scroll Left"
+  8017,  "Scroll Right"
+  8018,  "Checkbox"
+  8019,  "Disabled Gadget"
+  8020,  "Button"
+  8021,  "Move"
+  8022,  "Gadgets Gallery Layout Object"
+  8023,  "Client Area Layout Object"
+  8024,  "Preview Pane Layout Object"
+  8025,  "View Control Layout Object"
+  8026,  "Scroller Arrow Layout Object"
+  8027,  "Scroller Text Layout Object"
+  8028,  "Selection Control Layout Object"
+  8029,  "Scroller Divider Layout Object"
+  8030,  "Preview Pane Divider Layout Object"
+  8031,  "Preview Pane Expandable Layout Object"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8032,  "Link View Layout Object"
+  8033,  "Grid Image Object"
+  8034,  "Sidebar Layout Object"
+  8035,  "Gadgets Layout Object"
+  8036,  "Control Layout Object"
+  8037,  "Bullet Layout Object"
+  8038,  "Gadgets"
+  8039,  "Scrolling Control Layout Object"
+  8040,  "Preview Pane Control Layout Object"
+  8041,  "Preview Pane Left Text Layout Object"
+  8042,  "Preview Pane Right Text Layout Object"
+  8043,  "Preview Pane Security Warning Text Layout Object"
+  8044,  "Larger size"
+  8045,  "Smaller size"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9600,  "Sidebar experienced a problem with one of the gadgets in the list below. Try to find the gadget that you think caused the problem and remove it from Sidebar."
+  9601,  "Desktop Gadgets"
+  9602,  "&Restart Gadgets"
+  9603,  "Gadget"
+  9604,  "Version"
+  9605,  "Author"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9700,  "%s (Desktop Gadget)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11002,  "View the desktop gadgets installed on your computer."
+  11003,  "Desktop Gadgets"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11100,  "&Gadgets"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30001,  "Could not locate automation class named ""%1!ls!""."
+  30002,  "Could not create object named ""%1!ls!""."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40000,  "OK"
+  40001,  "Cancel"
+  40002,  "SegoeUI, Tahoma"
+  40003,  "9pt"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41258,  "Unknown tag. ""%1!ls!"" expected."
+  41260,  "Attribute ""%1!ls!"" cannot be set to ""%2!ls!""."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41267,  "The %1!ls! gadget cannot be loaded because it is configured incorrectly. The element ""permissions"" has an unsupported value. Please contact the developer for more information."
+  41268,  "The required 'name' tag is empty or missing from the gadget manifest file."
+  41269,  "The gadget you are trying to add is missing file %1!ls! and cannot be run. To uninstall this gadget, right-click the gadget and then click Uninstall."
+  41270,  "The gadget you are trying to run has the following invalid version attribute ""%1!ls!"""
+  41271,  "The gadget you are trying to install has the following invalid version attribute ""%1!ls!"""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  42251,  "Unable to load ""%1!ls!""."
+  42252,  "Unable to load %1!ls!."
+  42255,  "Failed to open %1!ls!."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  42258,  "This is not a valid gadget package."
+  42259,  "The gadget you are trying to run is not compatible with this version of Windows."
+  42260,  "The gadget you are trying to install is not compatible with this version of Windows."
+  42261,  "Unable to load the gadget."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  45249,  "This evaluation version of Windows Sidebar has expired."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  46248,  "&Add"
+  46249,  "&Uninstall"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  47248,  "Close"
+  47249,  "Options"
+  47250,  "Larger size"
+  47251,  "Smaller size"
+  47252,  "Drag gadget"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50024,  "Invalid gadget found"
+  50025,  "This gadget has an invalid manifest file, and cannot be used. You will need to obtain an updated version of this gadget in order to use it."
+  50026,  "Path: %1!s!\nFile: %2!s!\nLine: %3!ld!\nChar: %4!ld!\nError: %5!s!"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Sidebar\r\n"
+}
