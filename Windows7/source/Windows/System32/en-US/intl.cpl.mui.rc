@@ -1,0 +1,453 @@
+1 MUI "Data_1147.bin"
+
+101 DIALOGEX 0, 0, 252, 236
+STYLE DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Formats"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "", 1039, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 7, 235, 8 
+   CONTROL "", 1021, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 7, 17, 238, 60 
+   CONTROL "<A>Change sorting method</A>", 1033, "SysLink", 0x50010000, 7, 30, 119, 8 
+   CONTROL "Date and time formats", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 42, 238, 99 
+   CONTROL "&Short date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 56, 64, 8 
+   CONTROL "", 1028, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 54, 163, 60 
+   CONTROL "&Long date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 71, 64, 8 
+   CONTROL "", 1029, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 69, 163, 60 
+   CONTROL "S&hort time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 86, 64, 8 
+   CONTROL "", 1030, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 84, 163, 60 
+   CONTROL "L&ong time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 101, 64, 8 
+   CONTROL "", 1031, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 99, 163, 60 
+   CONTROL "First day of &week:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 116, 64, 8 
+   CONTROL "", 1032, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 114, 163, 60 
+   CONTROL "<A>What does the notation mean?</A>", 1034, "SysLink", 0x50010000, 12, 129, 228, 8 
+   CONTROL "Examples", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 144, 238, 60 
+   CONTROL "Short date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 154, 64, 8 
+   CONTROL "", 1035, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 154, 163, 8 
+   CONTROL "Long date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 166, 64, 8 
+   CONTROL "", 1036, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 166, 163, 8 
+   CONTROL "Short time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 178, 64, 8 
+   CONTROL "", 1037, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 178, 163, 8 
+   CONTROL "Long time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 190, 64, 8 
+   CONTROL "", 1038, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 77, 190, 163, 8 
+   CONTROL "A&dditional settings...", 1024, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 165, 208, 80, 13 
+   CONTROL "<A>Go online to learn about changing languages and regional formats</A>", 1040, "SysLink", 0x50010000, 7, 223, 238, 13 
+}
+
+102 DIALOGEX 0, 0, 252, 236
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Keyboards and Languages"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Keyboards and other input languages", 1001, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 8, 242, 52 
+   CONTROL "To change your keyboard or input language click Change keyboards.", 1171, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 18, 230, 10 
+   CONTROL "&Change keyboards...", 1172, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 145, 32, 95, 14 
+   CONTROL "<A>How do I change the keyboard layout for the Welcome screen?</A>", 1042, "SysLink", 0x50010000, 12, 48, 233, 10 
+   CONTROL "Display language", 1180, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 62, 242, 156 
+   CONTROL "Install or uninstall languages that Windows can use to display text and where supported recognize speech and handwriting.", 1181, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 74, 225, 20 
+   CONTROL "&Install/uninstall languages...", 1182, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 125, 96, 115, 14 
+   CONTROL "As a guest user you cannot change the display language:", 1150, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 113, 225, 10 
+   CONTROL "Display language selection is blocked by group policy.", 1179, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 113, 225, 10 
+   CONTROL "C&hoose a display language:", 1177, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 113, 225, 10 
+   CONTROL "", 1178, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 14, 125, 225, 40 
+   CONTROL "&Some text is not translated into the language you selected. Select another language for Windows to use to display this text:", 1173, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 143, 225, 17 
+   CONTROL "This language is only partially translated and you might see some text displayed in:", 1151, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 143, 225, 20 
+   CONTROL "", 1174, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 14, 163, 225, 40 
+   CONTROL "&This language is also only partially translated. Select a third language for Windows to use when displaying the remaining text:", 1175, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 180, 225, 17 
+   CONTROL "This language is also only partially translated and you might see some text displayed in: ", 1152, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 180, 225, 20 
+   CONTROL "", 1176, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 14, 199, 225, 40 
+   CONTROL "<A>How can I install additional languages?</A>", 1041, "SysLink", 0x50010000, 7, 223, 238, 13 
+}
+
+104 DIALOGEX 0, 0, 252, 236
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Administrative"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Welcome screen and new user accounts", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 8, 242, 73 
+   CONTROL "View and copy your international settings to the welcome screen, system accounts and new user accounts.", 2107, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 20, 223, 23 
+   CONTROL "C&opy settings...", 2104, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 160, 51, 80, 14 
+   CONTROL "<A>Tell me more about these accounts</A>", 1044, "SysLink", 0x50010000, 14, 69, 223, 10 
+   CONTROL "Language for non-Unicode programs", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 83, 242, 91 
+   CONTROL "This setting (system locale) controls the language used when displaying text in programs that do not support Unicode.", 1050, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 95, 225, 26 
+   CONTROL "Current language for non-Unicode programs:", 1051, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 14, 120, 223, 10 
+   CONTROL "<systemLocale>", 2100, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 132, 200, 10 
+   CONTROL "&Change system locale...", 2102, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 140, 144, 100, 14 
+   CONTROL "<A>What is system locale?</A>", 1043, "SysLink", 0x50010000, 14, 162, 223, 10 
+}
+
+105 DIALOGEX 0, 0, 252, 254
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Numbers"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Example", 1009, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 7, 242, 48 
+   CONTROL "Positive:", 1007, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 20, 30, 10 
+   CONTROL "", 1005, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 42, 18, 80, 14 
+   CONTROL "Negative:", 1008, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 20, 31, 10 
+   CONTROL "", 1006, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 162, 18, 80, 14 
+   CONTROL "Positive:", 1012, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 38, 30, 10 
+   CONTROL "", 1010, EDIT, ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 42, 36, 80, 14 , 0x00003000
+   CONTROL "Negative:", 1013, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 38, 31, 10 
+   CONTROL "", 1011, EDIT, ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 162, 36, 80, 14 , 0x00003000
+   CONTROL "&Decimal symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 61, 96, 9 
+   CONTROL "", 1070, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 59, 100, 100 
+   CONTROL "&No. of digits after decimal:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 77, 96, 9 
+   CONTROL "", 1072, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 75, 100, 100 
+   CONTROL "D&igit grouping symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 93, 96, 9 
+   CONTROL "", 1073, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 91, 100, 100 
+   CONTROL "Di&git grouping:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 109, 96, 9 
+   CONTROL "", 1074, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 107, 100, 100 
+   CONTROL "N&egative sign symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 125, 96, 9 
+   CONTROL "", 1076, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 123, 100, 100 
+   CONTROL "Nega&tive number format:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 141, 96, 9 
+   CONTROL "", 1078, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 139, 100, 100 
+   CONTROL "Dis&play leading zeros:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 157, 96, 9 
+   CONTROL "", 1080, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 155, 100, 100 
+   CONTROL "&List separator:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 173, 96, 9 
+   CONTROL "", 1079, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 171, 100, 100 
+   CONTROL "&Measurement system:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 189, 96, 9 
+   CONTROL "", 1081, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 187, 100, 100 
+   CONTROL "&Standard digits:", 1082, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 205, 96, 9 
+   CONTROL "", 1083, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 203, 100, 100 
+   CONTROL "&Use native digits:", 1084, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 221, 96, 9 
+   CONTROL "", 1085, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 219, 100, 100 
+   CONTROL "Click Reset to restore the system default settings for numbers, currency, time, and date.", 1047, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 236, 185, 16 
+   CONTROL "&Reset", 1046, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 237, 50, 13 
+}
+
+106 DIALOGEX 0, 0, 252, 254
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Currency"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Example", 1009, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 7, 242, 40 
+   CONTROL "Positive:", 1007, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 25, 30, 10 
+   CONTROL "", 1005, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 42, 23, 80, 14 
+   CONTROL "Negative:", 1008, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 128, 25, 31, 10 
+   CONTROL "", 1006, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 162, 23, 80, 14 
+   CONTROL "&Currency symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 61, 96, 9 
+   CONTROL "", 1071, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 59, 100, 100 
+   CONTROL "&Positive currency format:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 78, 96, 9 
+   CONTROL "", 1077, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 76, 100, 100 
+   CONTROL "&Negative currency format:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 95, 96, 9 
+   CONTROL "", 1078, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 93, 100, 100 
+   CONTROL "&Decimal symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 121, 96, 9 
+   CONTROL "", 1070, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 119, 100, 100 
+   CONTROL "N&o. of digits after decimal:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 138, 96, 9 
+   CONTROL "", 1072, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 136, 100, 100 
+   CONTROL "Di&git grouping symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 166, 96, 9 
+   CONTROL "", 1073, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 164, 100, 100 
+   CONTROL "D&igit grouping:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 20, 183, 96, 9 
+   CONTROL "", 1074, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 128, 181, 100, 100 
+   CONTROL "Click Reset to restore the system default settings for numbers, currency, time, and date.", 1047, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 236, 185, 16 
+   CONTROL "&Reset", 1046, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 237, 50, 13 
+}
+
+107 DIALOGEX 0, 0, 252, 254
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Time"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Examples", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 7, 242, 47 
+   CONTROL "Short time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 20, 54, 10 
+   CONTROL "", 1006, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 68, 18, 84, 14 
+   CONTROL "", 1011, EDIT, ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 156, 18, 84, 14 , 0x00002000
+   CONTROL "Long time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 36, 54, 10 
+   CONTROL "", 1005, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 68, 34, 84, 14 
+   CONTROL "", 1010, EDIT, ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 156, 34, 84, 14 , 0x00002000
+   CONTROL "Time formats", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 57, 242, 82 
+   CONTROL "&Short time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 70, 54, 10 
+   CONTROL "", 1093, COMBOBOX, CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 68, 68, 84, 100 
+   CONTROL "&Long time:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 86, 54, 10 
+   CONTROL "", 1090, COMBOBOX, CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 68, 84, 84, 100 
+   CONTROL "A&M symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 106, 54, 10 
+   CONTROL "", 1091, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 68, 104, 84, 100 
+   CONTROL "&PM symbol:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 123, 54, 10 
+   CONTROL "", 1092, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 68, 121, 84, 100 
+   CONTROL "What the notations mean:\n\nh = hour   m = minute\ns = second (long time only)\ntt = A.M. or P.M.\n\nh/H = 12/24 hour\n\nhh, mm, ss = display leading zero\nh, m, s = do not display leading zero", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 144, 226, 89 
+   CONTROL "Click Reset to restore the system default settings for numbers, currency, time, and date.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 236, 185, 16 
+   CONTROL "&Reset", 1046, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 237, 50, 13 
+}
+
+108 DIALOGEX 0, 0, 252, 254
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Date"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Example", 1001, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 7, 242, 51 
+   CONTROL "Short date:", 1007, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 20, 63, 10 
+   CONTROL "", 1005, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 77, 18, 110, 14 
+   CONTROL "Long date:", 1008, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 37, 61, 10 
+   CONTROL "", 1006, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER, 77, 35, 110, 14 
+   CONTROL "Date formats", 1002, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 65, 242, 70 
+   CONTROL "&Short date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 77, 60, 10 
+   CONTROL "", 1106, COMBOBOX, CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 75, 161, 100 
+   CONTROL "&Long date:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 95, 60, 10 
+   CONTROL "", 1107, COMBOBOX, CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 92, 161, 100 
+   CONTROL "What the notations mean:\nd, dd = day;  ddd, dddd = day of week;  M = month;  y = year", 1009, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 111, 226, 20 
+   CONTROL "Calendar", 1003, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 5, 143, 242, 85 
+   CONTROL "W&hen a two-digit year is entered, interpret it as a year between:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 154, 225, 8 
+   CONTROL "", 1102, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_BORDER | WS_TABSTOP, 18, 165, 36, 12 
+   CONTROL "and", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 58, 167, 17, 8 
+   CONTROL "", 1103, EDIT, ES_LEFT | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 77, 165, 37, 12 
+   CONTROL "", 1104, "msctls_updown32", UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_CHILD | WS_VISIBLE, 113, 165, 10, 12 
+   CONTROL "&First day of week:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 183, 60, 10 
+   CONTROL "", 1109, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 181, 161, 100 
+   CONTROL "&Calendar type:", 1100, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 199, 56, 10 
+   CONTROL "", 1101, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 197, 161, 100 
+   CONTROL "A&djust Hijri date to:", 1108, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 215, 63, 10 
+   CONTROL "", 1105, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 77, 213, 161, 100 
+   CONTROL "Click Reset to restore the system default settings for numbers, currency, time, and date.", 1047, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 236, 185, 16 
+   CONTROL "&Reset", 1046, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 237, 50, 13 
+}
+
+109 DIALOGEX 0, 0, 252, 254
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Sorting"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "You can control the way some programs sort characters, words, files, and folders.", 1121, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 15, 227, 20 
+   CONTROL "&Select the sorting method:", 1122, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 38, 228, 8 
+   CONTROL "", 1120, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 7, 48, 230, 40 
+   CONTROL "Click Reset to restore the system default settings for numbers, currency, time, and date.", 1047, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 236, 185, 16 
+   CONTROL "&Reset", 1046, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 196, 237, 50, 13 
+}
+
+600 DIALOGEX 0, 0, 252, 236
+STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Location"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Some software, including Windows, may provide you with additional content for a particular location. Some services provide local information such as news and weather.", 1022, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 8, 242, 24 
+   CONTROL "&Current location:", 1027, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 38, 150, 10 
+   CONTROL "", 1023, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 5, 50, 237, 60 
+   CONTROL "See also", 1014, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 203, 150, 10 
+   CONTROL "<A>Default location</A>", 1045, "SysLink", 0x50010000, 5, 215, 238, 13 
+}
+
+700 DIALOGEX 0, 0, 260, 298
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Welcome screen and new user accounts settings"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "The &settings for the current user, welcome screen (system accounts) and new user accounts are displayed below.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 7, 244, 16 
+   CONTROL "", 2110, "SysListView32", LVS_REPORT | LVS_NOCOLUMNHEADER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 26, 244, 180 
+   CONTROL "* Custom locale", 1026, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 206, 244, 8 
+   CONTROL "Copy your current settings to:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 220, 244, 8 
+   CONTROL "&Welcome screen and system accounts", 1055, BUTTON, BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 18, 232, 232, 10 
+   CONTROL "&New user accounts", 1054, BUTTON, BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 18, 244, 232, 10 
+   CONTROL "The new user accounts display language is currently inherited from the welcome screen display language.", 3040, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 18, 256, 234, 16 
+   CONTROL "OK", 1, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 144, 276, 50, 14 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 202, 276, 50, 14 
+}
+
+800 DIALOGEX 0, 0, 252, 100
+STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Region and Language Settings"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Segoe UI"
+{
+   CONTROL "Select which language (system locale) to use when displaying text in programs that do not support Unicode. This setting affects all user accounts on the computer.", 1050, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 7, 239, 26 
+   CONTROL "&Current system locale:", 2101, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 37, 239, 10 
+   CONTROL "", 1052, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 5, 47, 239, 100 
+   CONTROL "* Custom locale", 1026, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 5, 67, 225, 16 
+   CONTROL "OK", 1, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 80, 50, 14 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 194, 80, 50, 14 
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1, 	"Region and Language"
+2, 	"Customize settings for the display of languages, numbers, times, and dates."
+3, 	"Customize Format"
+4, 	"One or more of your regional settings are invalid. To fix this problem review and correct the customizable settings."
+8, 	".7"
+9, 	"0.7"
+10, 	"Metric"
+11, 	"U.S."
+12, 	"One or more of the characters you entered in this field are invalid. Try using different characters."
+13, 	"One or more of the characters you entered for %s are invalid. Try using a different character or enter a blank space."
+14, 	"Decimal Symbol"
+15, 	"Negative Sign"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+16, 	"Grouping Symbol"
+18, 	"AM Symbol"
+19, 	"PM Symbol"
+21, 	"Currency Symbol"
+22, 	"Currency Decimal Symbol"
+23, 	"Currency Grouping Symbol"
+24, 	"One or more of the characters you entered for the %s format are invalid. Try using different characters."
+25, 	"Long Time"
+26, 	"Short Date"
+27, 	"Long Date"
+28, 	"The value in this field must be a number between 99 and 9999. Try using a different number."
+29, 	"Short Time"
+30, 	"&Format:"
+31, 	"&Format: (* Custom Locale)"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+55, 	"H"
+56, 	"h"
+57, 	"M"
+58, 	"m"
+59, 	"s"
+60, 	"t"
+61, 	"d"
+62, 	"y"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+69, 	"System locale has been changed. You must restart Windows for the changes to take effect."
+70, 	"Change Regional Options"
+71, 	"Setup was unable to install the chosen locale.  Please contact your system Administrator."
+72, 	"System display language has been changed. You must restart Windows for the changes to take effect."
+77, 	"Remove all customizations for the current format?"
+78, 	"Would you like to apply your region and language changes?"
+79, 	"Restart now"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+80, 	"Cancel"
+81, 	"Make sure you save your work and close all open programs before restarting."
+82, 	"Change System Locale"
+83, 	"Windows could not properly load the %s keyboard layout."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+96, 	"Spanish (Spain)"
+100, 	"You must log off for display language changes to take effect"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+201, 	"Make sure you save your work and close all open programs before you log off."
+202, 	"Log off now"
+203, 	"Cancel"
+204, 	"Change Display Language"
+205, 	"To ensure that the computer reflects these changes we recommend that you apply them before making any further system changes."
+206, 	"Apply"
+207, 	"Cancel"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+208, 	"The task cannot be completed"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+250, 	"Current user"
+251, 	"Welcome screen"
+252, 	"New user accounts"
+253, 	"Display language:"
+254, 	"Input language:"
+255, 	"Format:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+256, 	"Location:"
+257, 	"Setting could not be read"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+900, 	"Context"
+901, 	"Never"
+902, 	"National"
+}
+
+1 MESSAGETABLE
+{
+805306388,  	"RLOUI operations"
+1342177282,  	"Error"
+1342177284,  	"Information"
+1879048222,  	"Region and Language control panel"
+-1879048191,  	"Microsoft-Windows-International-RegionalOptionsControlPanel"
+-1879048190,  	"Operational"
+-1342162280,  	"The user changed their user locale to \"%1\"."
+-1342162279,  	"The user reset all customizations for the user locale \"%1\" to the system default."
+-1342162278,  	"The user changed the user locale setting \"%1\" to \"%2\"."
+-1342162277,  	"The user changed their alternate sort to \"%1\"."
+-1342162276,  	"The user changed their calendar to \"%1\"."
+-1342162275,  	"The user changed their TwoDigitYearMax to %1."
+-1342162274,  	"The user changed their location preference (GeoID) to %1."
+-1342162273,  	"The system locale was changed to \"%1\"."
+-1342162272,  	"The user chose to copy their settings to the default user account."
+-1342162271,  	"The user chose to copy their settings to the system accounts."
+-1342162270,  	"The user has changed their UI Language to \"%1\"."
+-1342162269,  	"The user has changed their UI Language fallback order to \"%1\"."
+-1342161280,  	"Failed to change UI Language to \"%1\". Status code is: %2."
+-1342161279,  	"Failed to change UI Language fallback order to \"%1\". Status code is: %2."
+-1342161278,  	"The system locale could not be changed to \"%1\"."
+-1342161277,  	"The user does not have permission to change the calendar."
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Control Panel DLL"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "CONTROL"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "INTL.CPL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
