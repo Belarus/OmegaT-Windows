@@ -4,7 +4,7 @@
 1 VERSIONINFO
 FILEVERSION 6,1,7600,16385
 PRODUCTVERSION 6,1,7600,16385
-FILEFLAGSMASK 0x0
+FILEFLAGSMASK 0x3f
 FILEFLAGS 0x0
 FILEOS 0x40004
 FILETYPE 0x1
@@ -19,7 +19,7 @@ FILESUBTYPE 0x0
       VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
       VALUE "InternalName", "Notepad"
       VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-      VALUE "OriginalFilename", "NOTEPAD.EXE.MUI.MUI"
+      VALUE "OriginalFilename", "NOTEPAD.EXE.MUI"
       VALUE "ProductName", "Microsoft® Windows® Operating System"
       VALUE "ProductVersion", "6.1.7600.16385"
     }
@@ -69,9 +69,9 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
   }
   POPUP "&View"
   {
-    MENUITEM "&Status barra", 27
+    MENUITEM "&Status Bar", 27
   }
-  POPUP "&Дапамога"
+  POPUP "&Help"
   {
     MENUITEM "View &Help", 64
     MENUITEM SEPARATOR
@@ -83,19 +83,19 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 CAPTION "Notepad"
 STYLE 0x90c800c0
 EXSTYLE 0x0
-FONT 8, "MS Shell Dlg", 0, 0, 1
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
   CONTROL "Cancel", 2, Button, 0x50030001, 84, 44, 32, 14, 0x0
-  CONTROL "Now Printing", 4294967295, Static, 0x50020001, 0, 8, 200, 8, 0x0
+  CONTROL "Now Printing", 65535, Static, 0x50020001, 0, 8, 200, 8, 0x0
   CONTROL "", 20, Static, 0x50028001, 0, 18, 200, 8, 0x0
   CONTROL "", 21, Static, 0x50020001, 0, 28, 200, 8, 0x0
 }
 
 12 DIALOGEX 0, 0, 356, 196
 CAPTION "Page Setup"
-STYLE 0x90c800c0
+STYLE 0x90c800c4
 EXSTYLE 0x0
-FONT 8, "MS Shell Dlg", 0, 0, 1
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
   CONTROL "Paper", 1073, Button, 0x50020007, 8, 8, 224, 56, 0x0
   CONTROL "Si&ze:", 1089, Static, 0x50020000, 16, 24, 36, 8, 0x0
@@ -121,7 +121,7 @@ FONT 8, "MS Shell Dlg", 0, 0, 1
   CONTROL "OK", 1, Button, 0x50030001, 190, 174, 50, 14, 0x0
   CONTROL "Cancel", 2, Button, 0x50010000, 244, 174, 50, 14, 0x0
   CONTROL "&Printer...", 1026, Button, 0x50010000, 298, 174, 50, 14, 0x0
-  CONTROL "Preview", 4294967295, Button, 0x50000007, 240, 8, 108, 158, 0x0
+  CONTROL "Preview", 65535, Button, 0x50000007, 240, 8, 108, 158, 0x0
   CONTROL "", 1080, Static, 0x50000006, 254, 46, 80, 80, 0x0
   CONTROL "", 1081, Static, 0x50000005, 334, 50, 4, 80, 0x0
   CONTROL "", 1082, Static, 0x50000005, 262, 122, 80, 4, 0x0
@@ -131,7 +131,7 @@ FONT 8, "MS Shell Dlg", 0, 0, 1
 CAPTION "Go To Line"
 STYLE 0x80c800c0
 EXSTYLE 0x0
-FONT 8, "MS Shell Dlg", 0, 0, 1
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
   CONTROL "&Line number:", 1200, Static, 0x50020000, 7, 7, 115, 8, 0x0
   CONTROL "", 258, Edit, 0x50812080, 7, 18, 151, 14, 0x0
@@ -141,9 +141,9 @@ FONT 8, "MS Shell Dlg", 0, 0, 1
 
 15 DIALOGEX 30, 17, 300, 22
 CAPTION ""
-STYLE 0x44c00440
+STYLE 0x44000444 | NOT WS_CAPTION
 EXSTYLE 0x0
-FONT 8, "MS Shell Dlg", 0, 0, 1
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
   CONTROL "&Encoding:", 259, Static, 0x50000000, 68, 1, 40, 40, 0x0
   CONTROL "", 257, ComboBox, 0x50230003, 130, 0, 164, 100, 0x0
@@ -151,15 +151,15 @@ FONT 8, "MS Shell Dlg", 0, 0, 1
 
 51200 DIALOGEX 0, 0, 324, 140
 CAPTION "Software Licensing"
-STYLE 0x40c00040
+STYLE 0x40c00044
 EXSTYLE 0x0
-FONT 9, "Segoe UI", 0, 0, 1
+FONT 9, "Segoe UI", 0, 0, 0
 {
   CONTROL "To use this feature without interruption, this computer needs to be running genuine Windows.", 4294967295, Static, 0x50020000, 0, 10, 250, 20, 0x0
   CONTROL "With genuine Windows you have access to all Windows updates and can be confident that your Windows software has the latest security and reliability enhancements from Microsoft.", 4294967295, Static, 0x50020000, 0, 35, 250, 30, 0x0
   CONTROL 51209, 4294967295, Static, 0x5000000e, 260, 10, 100, 55, 0x0
-  CONTROL "&Resolve online now", 4294952961, Button, 0x50000000, 256, 0, 75, 250, 0x18
-  CONTROL "<a>Read the privacy statement online</a>", 4294952962, "SysLink", 0x50010000, 0, 128, 120, 10, 0x0
+  CONTROL "&Resolve online now", 51201, Button, 0x5001010e, 0, 75, 250, 24, 0x0
+  CONTROL "<a>Read the privacy statement online</a>", 51202, "SysLink", 0x50010000, 0, 128, 120, 10, 0x0
 }
 
 STRINGTABLE
@@ -170,7 +170,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
   3,  "The text in the %% file has changed.\n\nDo you want to save the changes?"
   4,  "Untitled"
   5,  "%1 - Notepad"
-  6,  "Cannot find zz"
+  6,  "Cannot find ""%%"""
   7,  "Not enough memory available to complete this operation. Quit one or more applications to increase available memory, and then try again."
   8,  "The %% file is too large for Notepad.\n\nUse another editor to edit the file."
   9,  "Notepad"
@@ -195,8 +195,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
   23,  "Save As"
   24,  "You cannot shut down or log off Windows because\nthe Save As dialog box in Notepad is open. Switch to\nNotepad, close this dialog box, and then try shutting\ndown or logging off Windows again."
   25,  "Cannot access your printer.\nBe sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly."
-  26,  "zznYou do not have permission to open this file.  See the owner of the file or an administrator to obtain permission."
-  27,  "zzn This file contains characters in Unicode format which will be lost if you save this file as an ANSI encoded text file. To keep the Unicode information, click Cancel below and then select one of the Unicode options from the Encoding drop down list. Continue?"
+  26,  "%%\nYou do not have permission to open this file.  See the owner of the file or an administrator to obtain permission."
+  27,  "%%\n This file contains characters in Unicode format which will be lost if you save this file as an ANSI encoded text file. To keep the Unicode information, click Cancel below and then select one of the Unicode options from the Encoding drop down list. Continue?"
   28,  "Page too small to print one line.\nTry printing using smaller font."
   29,  "Common Dialog error (0x%04x)"
   30,  "Notepad - Goto Line"
@@ -254,18 +254,48 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 MAINACC ACCELERATORS
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
+  VK_N  , 1, VIRTKEY, CONTROL
+  VK_O  , 2, VIRTKEY, CONTROL
+  VK_S  , 3, VIRTKEY, CONTROL
+  VK_P  , 6, VIRTKEY, CONTROL
   VK_INSERT  , 769, VIRTKEY, CONTROL
   VK_F1  , 64, VIRTKEY
   VK_F3  , 22, VIRTKEY
   VK_F5  , 26, VIRTKEY
+  VK_G  , 24, VIRTKEY, CONTROL
+  VK_F  , 21, VIRTKEY, NOINVERT, CONTROL
+  VK_H  , 23, VIRTKEY, NOINVERT, CONTROL
+  VK_BACK  , 16, VIRTKEY, ALT
+  VK_Z  , 16, VIRTKEY, CONTROL
+  VK_X  , 768, VIRTKEY, CONTROL
+  VK_C  , 769, VIRTKEY, CONTROL
+  VK_V  , 770, VIRTKEY, CONTROL
+  VK_A  , 25, VIRTKEY, CONTROL
 }
 
 SLIPUPACC ACCELERATORS
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
+  VK_N  , 1, VIRTKEY, CONTROL
+  VK_O  , 2, VIRTKEY, CONTROL
+  VK_S  , 3, VIRTKEY, CONTROL
+  VK_P  , 6, VIRTKEY, CONTROL
   VK_INSERT  , 769, VIRTKEY, CONTROL
   VK_F1  , 64, VIRTKEY
   VK_F3  , 22, VIRTKEY
   VK_F5  , 26, VIRTKEY
+  VK_G  , 24, VIRTKEY, CONTROL
+  VK_F  , 21, VIRTKEY, NOINVERT, CONTROL
+  VK_H  , 23, VIRTKEY, NOINVERT, CONTROL
+  VK_BACK  , 16, VIRTKEY, ALT
+  VK_Z  , 16, VIRTKEY, CONTROL
+  VK_X  , 768, VIRTKEY, CONTROL
+  VK_C  , 769, VIRTKEY, CONTROL
+  VK_V  , 770, VIRTKEY, CONTROL
+  VK_A  , 25, VIRTKEY, CONTROL
+  27  , 7, VIRTKEY
+  VK_C  , 7, VIRTKEY, CONTROL
+  VK_D  , 7, VIRTKEY, CONTROL
+  VK_Z  , 7, VIRTKEY, CONTROL
 }
 

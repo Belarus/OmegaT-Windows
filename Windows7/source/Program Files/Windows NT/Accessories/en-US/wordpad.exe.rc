@@ -1,0 +1,1199 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x1
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Windows Wordpad Application"
+      VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "wordpad"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "WORDPAD.EXE.MUI"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "6.1.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+128 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&Help"
+  {
+    MENUITEM "View &Help", 57666
+    MENUITEM SEPARATOR
+    MENUITEM "&About WordPad", 57664
+  }
+}
+
+143 DIALOGEX 0, 0, 172, 183
+CAPTION "Paragraph"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Indentation", 1022, Button, 0x50000007, 7, 7, 158, 75, 0x0
+  CONTROL "&Left:", 65535, Static, 0x50020000, 13, 21, 29, 8, 0x0
+  CONTROL "", 1000, Edit, 0x50810080, 66, 19, 92, 14, 0x0
+  CONTROL "&Right:", 65535, Static, 0x50000000, 13, 42, 29, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50810080, 66, 40, 92, 14, 0x0
+  CONTROL "&First line:", 65535, Static, 0x50000000, 13, 63, 32, 8, 0x0
+  CONTROL "", 1002, Edit, 0x50810080, 66, 60, 92, 14, 0x0
+  CONTROL "Spacing", 65535, Button, 0x50000007, 7, 87, 158, 48, 0x0
+  CONTROL "Line &spacing:", 65535, Static, 0x50020000, 13, 101, 48, 8, 0x0
+  CONTROL "", 218, ComboBox, 0x50210003, 66, 99, 92, 45, 0x0
+  CONTROL "&Add 10pt space after paragraphs", 233, Button, 0x50010005, 13, 119, 134, 8, 0x0
+  CONTROL "&Alignment:", 1017, Static, 0x50020000, 13, 146, 37, 8, 0x0
+  CONTROL "", 111, ComboBox, 0x50210003, 66, 144, 92, 45, 0x0
+  CONTROL "&Tabs...", 1065, Button, 0x50010000, 7, 163, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 61, 163, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 115, 163, 50, 14, 0x0
+}
+
+145 DIALOGEX 0, 0, 192, 136
+CAPTION "Tabs"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Tab stop position", 1022, Button, 0x50000007, 7, 7, 178, 101, 0x0
+  CONTROL "", 1019, ComboBox, 0x50210001, 14, 18, 101, 68, 0x0
+  CONTROL "&Set", 1005, Button, 0x50010000, 14, 87, 48, 14, 0x0
+  CONTROL "Cl&ear", 1006, Button, 0x50010000, 66, 87, 48, 14, 0x0
+  CONTROL "Clear a&ll", 1007, Button, 0x50010000, 118, 87, 60, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 81, 115, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 135, 115, 50, 14, 0x0
+}
+
+150 DIALOGEX 0, 0, 185, 112
+CAPTION "Page Setup"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Page Margins", 1022, Button, 0x50000007, 7, 7, 114, 98, 0x0
+  CONTROL "&Top:", 65535, Static, 0x50020000, 13, 21, 31, 8, 0x0
+  CONTROL "", 1016, Edit, 0x50810080, 52, 19, 60, 14, 0x0
+  CONTROL "&Bottom:", 65535, Static, 0x50020000, 13, 42, 30, 8, 0x0
+  CONTROL "", 1005, Edit, 0x50810080, 52, 40, 60, 14, 0x0
+  CONTROL "&Left:", 65535, Static, 0x50020000, 13, 63, 30, 8, 0x0
+  CONTROL "", 1006, Edit, 0x50810080, 52, 61, 60, 14, 0x0
+  CONTROL "&Right:", 65535, Static, 0x50020000, 13, 84, 30, 8, 0x0
+  CONTROL "", 1007, Edit, 0x50810080, 52, 82, 60, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 128, 10, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 128, 27, 50, 14, 0x0
+}
+
+151 DIALOGEX 0, 0, 214, 207
+CAPTION "Date and Time"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Available formats:", 1009, Static, 0x50000000, 7, 7, 111, 8, 0x0
+  CONTROL "", 1018, ListBox, 0x50a10101, 7, 17, 200, 162, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 103, 186, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 157, 186, 50, 14, 0x0
+}
+
+231 DIALOGEX 18, 48, 232, 113
+CAPTION "Resize"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Resize relative to original picture size", 1062, Static, 0x50020000, 15, 8, 205, 15, 0x0
+  CONTROL 229, 1050, Static, 0x50000003, 15, 26, 18, 20, 0x0
+  CONTROL "&Horizontal:", 1057, Static, 0x50020000, 53, 33, 40, 8, 0x0
+  CONTROL "", 1055, Edit, 0x50812080, 95, 32, 32, 12, 0x0
+  CONTROL "", 1060, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "%", 1053, Static, 0x50020000, 130, 34, 8, 8, 0x0
+  CONTROL 230, 1051, Static, 0x50000003, 15, 51, 18, 20, 0x0
+  CONTROL "&Vertical:", 1058, Static, 0x50020000, 53, 58, 40, 8, 0x0
+  CONTROL "", 1056, Edit, 0x50812080, 95, 57, 32, 12, 0x0
+  CONTROL "", 1061, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "%", 1054, Static, 0x50020000, 130, 59, 8, 8, 0x0
+  CONTROL "&Lock Aspect Ratio", 1059, Button, 0x50010003, 15, 81, 75, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 175, 7, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 175, 24, 50, 14, 0x0
+}
+
+1035 DIALOGEX 0, 0, 300, 60
+CAPTION "Windows Security Warning"
+STYLE 0x80c80ac0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL 0, 1036, Static, 0x50000003, 7, 7, 32, 32, 0x0
+  CONTROL "This document contains code that your security settings do not allow, so it might not display correctly.", 65535, Static, 0x50000080, 39, 7, 254, 22, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 125, 40, 50, 14, 0x0
+}
+
+7000 DIALOGEX 0, 0, 222, 66
+CAPTION "Wordpad"
+STYLE 0x90c000c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Please wait while Wordpad converts the document.", 7002, Static, 0x50020000, 7, 7, 208, 24, 0x0
+  CONTROL "", 7001, "msctls_progress32", 0x50800008, 8, 28, 208, 8, 0x0
+}
+
+7003 DIALOGEX 0, 0, 201, 71
+CAPTION "Unsupported Save Format"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 42, 32, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 108, 32, 50, 14, 0x0
+  CONTROL "WordPad can't save this document in its current format.  The document will be converted to Rich Text format.", 65535, Static, 0x50020000, 7, 7, 186, 18, 0x0
+  CONTROL "&Always convert to Rich Text", 1034, Button, 0x50010003, 7, 54, 119, 10, 0x0
+}
+
+7007 DIALOGEX 32, 32, 240, 255
+CAPTION "Page Setup"
+STYLE 0x90c800c4
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 1080, Static, 0x50020006, 80, 8, 80, 80, 0x0
+  CONTROL "", 1081, Static, 0x50020005, 160, 12, 4, 80, 0x0
+  CONTROL "", 1082, Static, 0x50020005, 84, 88, 80, 4, 0x0
+  CONTROL "Paper", 1073, Button, 0x50020007, 8, 96, 224, 56, 0x0
+  CONTROL "Si&ze:", 1089, Static, 0x50020000, 16, 112, 36, 8, 0x0
+  CONTROL "", 1137, ComboBox, 0x50230103, 64, 110, 160, 160, 0x0
+  CONTROL "&Source:", 1090, Static, 0x50020000, 16, 132, 36, 8, 0x0
+  CONTROL "", 1138, ComboBox, 0x50230103, 64, 130, 160, 160, 0x0
+  CONTROL "Orientation", 1072, Button, 0x50020007, 8, 156, 64, 56, 0x0
+  CONTROL "P&ortrait", 1056, Button, 0x50030004, 16, 170, 52, 12, 0x0
+  CONTROL "L&andscape", 1057, Button, 0x50000004, 16, 190, 52, 12, 0x0
+  CONTROL "Margins", 1075, Button, 0x50020007, 80, 156, 152, 56, 0x0
+  CONTROL "&Left:", 1102, Static, 0x50020000, 88, 172, 32, 8, 0x0
+  CONTROL "", 1155, Edit, 0x50830000, 118, 170, 32, 12, 0x0
+  CONTROL "&Right:", 1103, Static, 0x50020000, 164, 172, 32, 8, 0x0
+  CONTROL "", 1157, Edit, 0x50830000, 194, 170, 32, 12, 0x0
+  CONTROL "&Top:", 1104, Static, 0x50020000, 88, 192, 32, 8, 0x0
+  CONTROL "", 1156, Edit, 0x50830000, 118, 190, 32, 12, 0x0
+  CONTROL "&Bottom:", 1105, Static, 0x50020000, 164, 192, 32, 8, 0x0
+  CONTROL "", 1158, Edit, 0x50830000, 194, 190, 32, 12, 0x0
+  CONTROL "Print Page &Numbers", 7006, Button, 0x50010003, 8, 220, 79, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 132, 236, 48, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 184, 236, 48, 14, 0x0
+  CONTROL "&Help", 1038, Button, 0x50010000, 8, 236, 48, 14, 0x0
+}
+
+7008 DIALOGEX 0, 0, 330, 16
+CAPTION ""
+STYLE 0x40000044 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Close", 58112, Button, 0x50010000, 278, 2, 44, 12, 0x0
+}
+
+51200 DIALOGEX 0, 0, 324, 140
+CAPTION "Software Licensing"
+STYLE 0x40c00044
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "To use this feature without interruption, this computer needs to be running genuine Windows.", 4294967295, Static, 0x50020000, 0, 10, 250, 20, 0x0
+  CONTROL "With genuine Windows you have access to all Windows updates and can be confident that your Windows software has the latest security and reliability enhancements from Microsoft.", 4294967295, Static, 0x50020000, 0, 35, 250, 30, 0x0
+  CONTROL 51209, 4294967295, Static, 0x5000000e, 260, 10, 100, 55, 0x0
+  CONTROL "&Resolve online now", 51201, Button, 0x5001010e, 0, 75, 250, 24, 0x0
+  CONTROL "<a>Read the privacy statement online</a>", 51202, "SysLink", 0x50010000, 0, 128, 120, 10, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "OLE initialization failed.  WordPad can't continue."
+  103,  "This is not a valid measurement."
+  104,  "%d%% complete  Formatting ... please wait."
+  105,  "%d%% complete."
+  108,  "Could not load the RichEdit control DLL.  The system may be low on memory or the file MSFTEDIT.DLL may be missing or corrupt."
+  111,  "Courier New"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "You are about to save the document in a Text-Only format, which will remove all formatting. Are you sure you want to do this?\n\nTo save in other format, click No."
+  113,  "Saving file... "
+  115,  "Formatting... "
+  116,  "Left"
+  117,  "Center"
+  118,  "Right"
+  119,  "The measurement must be between %1 and %2."
+  120,  "This is not a valid number."
+  121,  "The number must be between 1 and 1638."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "WordPad\nDocument\nWordPad Document\nWord for Windows 6.0 (*.doc)\n.DOC\nWordPad.Document.1\nWordPad Document"
+  129,  "Text Document\nText Documents (*.txt)\n*.txt\nText Document"
+  130,  "Rich Text Format (RTF)\nRich Text Format (*.rtf)\n*.rtf\nRich Text Document"
+  132,  "All\nAll Documents (*.*)\n*.*"
+  137,  "Text Document - MS-DOS Format\nText Documents - MS-DOS Format (*.txt)\n*.txt\nMS-DOS Text Document"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  164,  "WordPad has finished searching the document."
+  165,  "Changes the font of the selection.\nFont"
+  166,  "Changes the font size of the selection.\nFont Size"
+  169,  """"
+  170,  "in"
+  171,  "inch"
+  172,  "inches"
+  173,  "cm"
+  174,  "pt"
+  175,  "pi"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "There are too many tab stops set in this paragraph."
+  179,  "Can't load %1 files."
+  180,  "Unable to open %1.  There are too many files already open."
+  181,  "Unable to create %1. This folder is full. Use another folder or delete some files from this folder."
+  182,  "The document %1 is in use by another application and cannot be accessed."
+  189,  "Text Document"
+  190,  "Rich Text Document"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Unable to write to %1.\nThe disk is write-protected.\nA file cannot be saved on a write-protected disk."
+  193,  "Unicode Text Document\nUnicode Text Documents (*.txt)\n*.txt\nUnicode Text Document"
+  194,  "Unicode Text Document"
+  195,  "An unexpected error occurred while loading the document.  It may appear truncated."
+  199,  """"
+  200,  "in"
+  201,  "inch"
+  202,  "inches"
+  203,  "cm"
+  204,  "pt"
+  205,  "pi"
+  206,  "%1\r\nThe above filename is too long."
+  207,  "Changes the font script of the selection.\nFont Script"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  209,  "Wordpad Document"
+  210,  "This document contains one or more links to other files.  Do you want to update this document with the data from the linked files?"
+  211,  "Save in this format by &default"
+  212,  "Rich Text Window"
+  213,  "New Rich Text Document"
+  215,  "&Save"
+  216,  "Do&n't Save"
+  217,  "Do you want to save changes to %1?"
+  219,  "Calibri"
+  220,  "Files"
+  221,  "Select Picture"
+  222,  "All Picture Files"
+  223,  "All Files"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "Invalid Picture File."
+  225,  "WordPad can’t insert the picture."
+  226,  "Error! Hyperlink reference not valid."
+  227,  "Do you want to open this link?\n\n%1\n"
+  228,  "WordPad was unable to open the URL. Check the URL and try again. If you continue to see this problem, you might not have access to the URL."
+  232,  "There was an error resizing picture."
+  234,  "OpenDocument Text\nOpenDocument Text (*.odt)\n*.odt\nOpenDocument Text"
+  235,  "Office Open XML Document\nOffice Open XML Document (*.docx)\n*.docx\nOffice Open XML Document"
+  236,  "Some content might be lost"
+  237,  "Nested tables not supported! Please try saving as RTF format"
+  238,  "Saving this document will cause some content that can't be displayed in WordPad to be lost. You can save a copy to preserve the original document."
+  239,  "Justified"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  240,  "Security warning"
+  241,  "Some content is blocked"
+  242,  "Some content of this document has been blocked because the source of this document might not be trusted. If you trust the source of this document, click Unblock to show all content."
+  243,  "Unblock\nShow all content"
+  244,  "Ok\nDon't show blocked content"
+  246,  "WordPad was unable to unblock the file. Blocked content will not be shown."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Office Open XML Document"
+  301,  "OpenDocument Text"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "All Wordpad Documents\nAll Wordpad Documents (*.rtf, *.docx, *.odt, *.txt)\n*.rtf;*.docx;*.odt;*.txt"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1063,  "Enter a value from %d%% to %d%%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6300,  "&Edit"
+  6301,  "&Open"
+  6302,  "%1 Linked %2 &Object"
+  6303,  "%1 %2 &Object"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6313,  "Save\nSome content might be lost."
+  6314,  "Save a copy\nThe original document will be preserved."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6320,  " "
+  6321,  " "
+  6322,  "Zoo&m"
+  6323,  "+"
+  6324,  "-"
+  6325,  "%s%%"
+  6326,  "Zoom Slider"
+  6327,  "Zoom level"
+  6328,  "Zoom in"
+  6329,  "Zoom out"
+  6330,  "Zoom"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10000,  "Wordpad"
+  10001,  "Recent documents"
+  10002,  "&New"
+  10003,  "&Open"
+  10004,  "&Save"
+  10005,  "&Update document"
+  10006,  "Sa&ve as"
+  10007,  "Sa&ve copy as"
+  10008,  "Save a copy of the document"
+  10009,  "&Rich Text document"
+  10010,  "&Plain text document"
+  10011,  "&Other formats"
+  10012,  "&Rich Text document"
+  10013,  "&Plain text document"
+  10014,  "&Other formats"
+  10015,  "&Print"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10016,  "Preview and print the document"
+  10017,  "&Quick print"
+  10018,  "Print pre&view"
+  10019,  "Pa&ge setup"
+  10020,  "Sen&d in e-mail"
+  10022,  "Abou&t WordPad"
+  10023,  "E&xit"
+  10024,  "E&xit and Return to Document"
+  10025,  "Save &as"
+  10026,  "Save copy &as"
+  10027,  "P&rint"
+  10028,  "Office Open &XML document"
+  10029,  "Open&Document text"
+  10030,  "Office Open &XML document"
+  10031,  "Open&Document text"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21000,  "Home"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21100,  "Clipboard"
+  21101,  "Paste"
+  21102,  "&Paste"
+  21103,  "Paste &special"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21104,  "Cu&t"
+  21105,  "&Copy"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21200,  "Font"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21300,  "Paragraph"
+  21301,  "Decrease indent"
+  21302,  "Increase indent"
+  21304,  "&Lists"
+  21305,  "Align text left"
+  21306,  "Align text center"
+  21307,  "Align text right"
+  21308,  "P&aragraph"
+  21309,  "Change line spacing"
+  21310,  "1.0"
+  21311,  "1.15"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21312,  "1.5"
+  21313,  "2"
+  21314,  "&Add 10pt space after paragraphs"
+  21315,  "Justify text"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21400,  "Insert"
+  21401,  "Picture"
+  21402,  "&Picture"
+  21403,  "Chan&ge picture"
+  21404,  "&Resize picture"
+  21405,  "Paint drawing"
+  21406,  "Date and time"
+  21407,  "Insert object"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21500,  "Editing"
+  21501,  "Find"
+  21502,  "Replace"
+  21503,  "Select all"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22000,  "Print preview"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22100,  "Print"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22200,  "Zoom"
+  22201,  "100%"
+  22202,  "One page"
+  22203,  "Two pages"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22300,  "Preview"
+  22301,  "Next page"
+  22302,  "Previous page"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22400,  "Close"
+  22401,  "Close print preview"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23000,  "View"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23100,  "Zoom"
+  23101,  "Zoom in"
+  23102,  "Zoom out"
+  23103,  "100%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23200,  "Show or hide"
+  23201,  "Ruler"
+  23202,  "Status bar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23300,  "Settings"
+  23301,  "Word wrap"
+  23302,  "&No wrap"
+  23303,  "Wrap to &window"
+  23304,  "Wrap to &ruler"
+  23305,  "Measurement units"
+  23306,  "&Inches"
+  23307,  "&Centimeters"
+  23308,  "&Points"
+  23309,  "Pica&s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  27857,  "Lin&ks"
+  27860,  "O&bject properties"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  31001,  "Undo"
+  31002,  "Redo"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32000,  "Help"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32815,  "None"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32816,  "Bullet"
+  32817,  "Numbering"
+  32818,  "Alphabet - Lower case"
+  32819,  "Alphabet - Upper case"
+  32820,  "Roman Numeral - Lower case"
+  32821,  "Roman Numeral - Upper case"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32836,  "Object P&roperties"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40128,  "Microsoft WordPad is a word processing program that you can use to create and edit text documents with rich formatting and pictures. WordPad can open .docx, .odt, .rtf or .txt files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41001,  "New (Ctrl+N)"
+  41002,  "Open (Ctrl+O)"
+  41003,  "Save (Ctrl+S)"
+  41004,  "Send in e-mail"
+  41005,  "Quick print"
+  41006,  "Print preview"
+  41007,  "Undo (Ctrl+Z)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41008,  "Redo (Ctrl+Y)"
+  41009,  "WordPad"
+  41010,  "Update (Ctrl+S)"
+  41011,  "Save as"
+  41012,  "Save copy as"
+  41013,  "Rich Text document"
+  41014,  "Plain text document"
+  41015,  "Other formats"
+  41016,  "Rich Text document"
+  41017,  "Plain text document"
+  41018,  "Other formats"
+  41019,  "Print (Ctrl+P)"
+  41020,  "Save as"
+  41021,  "Save as"
+  41022,  "Print (Ctrl+P)"
+  41023,  "Paste (Ctrl+V)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41024,  "Paste (Ctrl+V)"
+  41025,  "Paste special (Alt+Ctrl+V)"
+  41026,  "Cut (Ctrl+X)"
+  41027,  "Copy (Ctrl+C)"
+  41028,  "Decrease indent"
+  41029,  "Increase indent"
+  41030,  "Start a list"
+  41031,  "Align text left (Ctrl+L)"
+  41032,  "Center (Ctrl+E)"
+  41033,  "Align text right (Ctrl+R)"
+  41034,  "Paragraph"
+  41035,  "Insert picture"
+  41036,  "Insert picture"
+  41037,  "Change picture"
+  41038,  "Resize picture"
+  41039,  "Insert Paint drawing (Ctrl+D)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41040,  "Insert date and time"
+  41041,  "Insert object"
+  41042,  "Find (Ctrl+F)"
+  41043,  "Replace (Ctrl+H)"
+  41044,  "Select all (Ctrl+A)"
+  41045,  "100%"
+  41046,  "One page"
+  41047,  "Two pages"
+  41048,  "Next page"
+  41049,  "Previous page"
+  41050,  "Close print preview"
+  41051,  "Zoom in"
+  41052,  "Zoom out"
+  41053,  "100%"
+  41054,  "Ruler"
+  41055,  "Status bar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41056,  "Word wrap"
+  41060,  "Measurement units"
+  41061,  "WordPad Help (F1)"
+  41062,  "Page setup"
+  41063,  "Exit WordPad"
+  41064,  "Office Open XML document"
+  41065,  "OpenDocument text"
+  41066,  "Office Open XML document"
+  41067,  "OpenDocument text"
+  41068,  "Line spacing"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41083,  "Justify (Ctrl+J)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41101,  "Create a new document."
+  41102,  "Open an existing document."
+  41103,  "Save the active document."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41104,  "Send a copy of the document in an e-mail message as an attachment."
+  41105,  "Send the document directly to the default printer without making changes."
+  41106,  "Preview and make changes to pages before printing."
+  41107,  "Reverses the last action."
+  41108,  "Repeats the last action."
+  41109,  "Click here to open, save, or print, and to see everything else you can do with your document."
+  41110,  "Update the container to show any changes."
+  41111,  "Save the document with a new name or format."
+  41112,  "Save a copy of the document with a new name or format."
+  41113,  "Save the document in the Rich Text format."
+  41114,  "Save the document as plain text without line breaks or formatting."
+  41115,  "Open the Save as dialog box to select from all possible file types."
+  41116,  "Save the document in the Rich Text format."
+  41117,  "Save the document as plain text without line breaks or formatting."
+  41118,  "Open the Save as dialog box to select from all possible file types."
+  41119,  "Select printer, number of copies, and other printing options before printing."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41120,  "Save the document with a new name or format."
+  41121,  "Save a copy of the document with a new name or format."
+  41122,  "Select  printer, number of copies, and other printing options before printing."
+  41123,  "Click here for more options such as pasting only plain text."
+  41124,  "Paste the contents of the Clipboard."
+  41126,  "Cut the selection from the document and put it on the Clipboard."
+  41127,  "Copy the selection and put it on the Clipboard."
+  41128,  "Decrease the indent level of the paragraph."
+  41129,  "Increase the indent level of the paragraph."
+  41130,  "Click the arrow to choose different list styles."
+  41131,  "Align text to the left."
+  41132,  "Center text."
+  41133,  "Align text to the right."
+  41134,  "Show the Paragraph dialog box."
+  41135,  "Click here for more options such as change picture and resize picture."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41136,  "Insert a picture from a file."
+  41137,  "Change to a different picture, preserving the formatting and size of the current picture."
+  41138,  "Scale height and width of current picture with aspect ratio locked or independently."
+  41139,  "Insert drawing created in Microsoft Paint."
+  41140,  "Click here for date and time format options."
+  41141,  "Show the Insert object dialog box."
+  41142,  "Find text in the document."
+  41143,  "Replace text in the document."
+  41145,  "Zoom the document to 100% of the normal size."
+  41146,  "Zoom the document so that an entire page fits in the window."
+  41147,  "Zoom the document so that two pages fit in the window."
+  41148,  "Navigate to the next page of the document."
+  41149,  "Navigate to the previous page of the document."
+  41150,  "Close print preview and return to editing the document."
+  41151,  "Zoom in on the document."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41152,  "Zoom out on the document."
+  41153,  "Zoom the document to 100% of the normal size."
+  41154,  "Show or hide ruler. You can use ruler to measure and line up text and objects in the document."
+  41155,  "Show or hide status bar at the bottom of the window."
+  41156,  "Select word wrapping option to change how text appears on your screen. This does not affect how document looks when you print it."
+  41157,  "No text wrapping."
+  41158,  "Wrap text to window."
+  41159,  "Wrap text to ruler."
+  41160,  "Select measurement units for ruler and page setup."
+  41161,  "Get help using WordPad."
+  41162,  "Change page layout settings."
+  41164,  "Save the document in the Office Open XML format."
+  41165,  "Save the document in the OpenDocument format."
+  41166,  "Save the document in the Office Open XML format."
+  41167,  "Save the document in the OpenDocument format."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41168,  "Change the spacing between lines of text. Add or remove the space after paragraphs."
+  41183,  "Align text to both left and right margins, adding extra space between words as necessary.\nThis creates a clean look along the left and right side of the page."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41201,  "F"
+  41202,  "N"
+  41203,  "O"
+  41204,  "S"
+  41205,  "U"
+  41206,  "A"
+  41207,  "A"
+  41208,  "F"
+  41209,  "R"
+  41210,  "P"
+  41211,  "O"
+  41212,  "R"
+  41213,  "P"
+  41214,  "O"
+  41215,  "P"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41216,  "W"
+  41217,  "Q"
+  41218,  "V"
+  41219,  "G"
+  41220,  "D"
+  41221,  "X"
+  41222,  "X"
+  41223,  "A"
+  41224,  "A"
+  41225,  "R"
+  41226,  "H"
+  41227,  "P"
+  41228,  "V"
+  41229,  "V"
+  41230,  "P"
+  41231,  "S"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41232,  "T"
+  41233,  "C"
+  41234,  "AO"
+  41235,  "AI"
+  41236,  "L"
+  41237,  "AL"
+  41238,  "AC"
+  41239,  "AR"
+  41240,  "PG"
+  41241,  "PI"
+  41242,  "P"
+  41243,  "C"
+  41244,  "R"
+  41245,  "W"
+  41246,  "D"
+  41247,  "O"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41248,  "FD"
+  41249,  "R"
+  41250,  "SA"
+  41251,  "J"
+  41252,  "J"
+  41253,  "J"
+  41254,  "X"
+  41255,  "V"
+  41256,  "C"
+  41257,  "I"
+  41258,  "O"
+  41259,  "J"
+  41260,  "R"
+  41261,  "S"
+  41262,  "W"
+  41263,  "W"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41264,  "R"
+  41265,  "M"
+  41266,  "I"
+  41267,  "C"
+  41268,  "P"
+  41269,  "S"
+  41270,  "N"
+  41272,  "X"
+  41273,  "D"
+  41274,  "X"
+  41275,  "D"
+  41276,  "PS"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41281,  "A"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41319,  "Print the current document."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41499,  "AJ"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  51203,  "This computer is not running genuine Windows"
+  51204,  "Software Licensing"
+  51205,  "mshelp://windows/?id=6f58b1c8-e296-4498-8454-99558fde70bf"
+  51206,  "http://go.microsoft.com/fwlink/?LinkId=125824"
+  51207,  "http://go.microsoft.com/fwlink/?LinkId=125723"
+  51208,  "http://go.microsoft.com/fwlink/?LinkId=122082"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57344,  "WordPad"
+  57346,  "Select an object you want to get Help on."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57602,  "Closes the active document.\nClose"
+  57605,  "Changes the printing options.\nPage Setup"
+  57606,  "Changes the printer and printing options.\nPrint Setup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57632,  "Erases the selection.\nErase"
+  57633,  "Erases everything.\nErase All"
+  57638,  "Inserts Clipboard contents and a link to its source.\nPaste Link"
+  57640,  "Repeats the last find.\nFind Next"
+  57643,  "Reverses the last action.\nUndo"
+  57644,  "Carries out the previously undone action.\nRedo"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57653,  "Splits the active window into panes.\nSplit"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57664,  "Displays program information, version number, and copyright.\nAbout"
+  57668,  "Displays instructions about how to use help.\nHelp"
+  57669,  "Displays Help for the button, menu, or window you click.\nHelp"
+  57670,  "Displays Help for current task or command.\nHelp"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57680,  "Switches to the next window pane.\nNext Pane"
+  57681,  "Switches back to the previous window pane.\nPrevious Pane"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57858,  "Converts object to different type.\nConvert Object"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  59136,  "EXT"
+  59137,  "CAP"
+  59138,  "NUM"
+  59139,  "SCRL"
+  59140,  "OVR"
+  59141,  "REC"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  59400,  "Object"
+  59402,  "%1 (Recovered)"
+  59404,  "Wordpad can't open this document. \nThis document is either corrupt \nor protected under Rights Management."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  61184,  "Changes the window size."
+  61185,  "Changes the window position."
+  61186,  "Reduces the window to an icon."
+  61187,  "Enlarges the window to full size."
+  61188,  "Switches to the next document window."
+  61189,  "Switches to the previous document window."
+  61190,  "Closes the active window and prompts to save the documents."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  61202,  "Restores the window to normal size."
+  61203,  "Activates Task List."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  61445,  "Closes print preview mode\nCancel Preview."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  61500,  "Opening document... "
+  61501,  "WordPad does not support all of the features of this document’s format. Some content might be missing or displayed improperly."
+  61502,  "Segoe UI"
+}
+
+5 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_B  , 32799, VIRTKEY, NOINVERT, CONTROL
+  VK_B  , 32799, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_C  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_D  , 32814, VIRTKEY, NOINVERT, CONTROL
+  VK_E  , 32804, VIRTKEY, NOINVERT, CONTROL
+  VK_J  , 32841, VIRTKEY, NOINVERT, CONTROL
+  VK_F  , 57636, VIRTKEY, NOINVERT, CONTROL
+  VK_H  , 57641, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 32800, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 32800, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_L  , 32803, VIRTKEY, NOINVERT, CONTROL
+  VK_M  , 6306, VIRTKEY, NOINVERT, ALT
+  VK_P  , 57607, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 32805, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 57610, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 32802, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 32802, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_V  , 57637, VIRTKEY, NOINVERT, CONTROL
+  VK_BACK  , 57643, VIRTKEY, NOINVERT, ALT
+  VK_DELETE  , 57635, VIRTKEY, NOINVERT, SHIFT
+  27  , 32768, VIRTKEY, NOINVERT
+  VK_F1  , 57669, VIRTKEY, NOINVERT, SHIFT
+  VK_F3  , 57640, VIRTKEY, NOINVERT
+  VK_F6  , 57680, VIRTKEY, NOINVERT
+  VK_F6  , 57681, VIRTKEY, NOINVERT, SHIFT
+  VK_INSERT  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_INSERT  , 57637, VIRTKEY, NOINVERT, SHIFT
+  VK_RETURN  , 57860, VIRTKEY, NOINVERT, ALT
+  VK_X  , 57635, VIRTKEY, NOINVERT, CONTROL
+  VK_Z  , 57643, VIRTKEY, NOINVERT, CONTROL
+  49  , 32806, VIRTKEY, NOINVERT, CONTROL
+  50  , 32808, VIRTKEY, NOINVERT, CONTROL
+  53  , 32807, VIRTKEY, NOINVERT, CONTROL
+}
+
+128 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_A  , 57642, VIRTKEY, NOINVERT, CONTROL
+  VK_B  , 32799, VIRTKEY, NOINVERT, CONTROL
+  VK_B  , 32799, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_C  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_D  , 32814, VIRTKEY, NOINVERT, CONTROL
+  VK_E  , 32804, VIRTKEY, NOINVERT, CONTROL
+  VK_J  , 32841, VIRTKEY, NOINVERT, CONTROL
+  VK_F  , 57636, VIRTKEY, NOINVERT, CONTROL
+  VK_H  , 57641, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 32800, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 32800, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_L  , 32803, VIRTKEY, NOINVERT, CONTROL
+  VK_M  , 6306, VIRTKEY, NOINVERT, ALT
+  VK_N  , 57600, VIRTKEY, NOINVERT, CONTROL
+  VK_O  , 57601, VIRTKEY, NOINVERT, CONTROL
+  VK_P  , 57607, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 32805, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 57603, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 32802, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 32802, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_V  , 57637, VIRTKEY, NOINVERT, CONTROL
+  VK_V  , 57639, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_BACK  , 57643, VIRTKEY, NOINVERT, ALT
+  VK_DELETE  , 57635, VIRTKEY, NOINVERT, SHIFT
+  27  , 32768, VIRTKEY, NOINVERT
+  VK_F1  , 57669, VIRTKEY, NOINVERT, SHIFT
+  VK_F3  , 57640, VIRTKEY, NOINVERT
+  VK_F6  , 57680, VIRTKEY, NOINVERT
+  VK_F6  , 57681, VIRTKEY, NOINVERT, SHIFT
+  VK_INSERT  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_INSERT  , 57637, VIRTKEY, NOINVERT, SHIFT
+  VK_RETURN  , 57860, VIRTKEY, NOINVERT, ALT
+  VK_X  , 57635, VIRTKEY, NOINVERT, CONTROL
+  VK_Z  , 57643, VIRTKEY, NOINVERT, CONTROL
+  49  , 32806, VIRTKEY, NOINVERT, CONTROL
+  50  , 32808, VIRTKEY, NOINVERT, CONTROL
+  53  , 32807, VIRTKEY, NOINVERT, CONTROL
+}
+
+1 MESSAGETABLE
+{
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Wordpad\r\n"
+  2952790017,  "Intializing current instance of the application\r\n"
+  2952790018,  "Exiting current Instance of the application\r\n"
+  2952790019,  "Failed to Initialize\r\n"
+  2952790020,  "OLE initialization failed\r\n"
+  2952790021,  "Failed to load msftedit.dll\r\n"
+  2952790022,  "Wordpad is initialized as OLE Server\r\n"
+  2952790023,  "Creation of Window:%1 failed\r\n"
+  2952790024,  "Intent Load Failed: %1\r\n"
+  2952790025,  "New Document Failed: %1\r\n"
+  2952790026,  "Create Font Indirect Failed\r\n"
+  2952790027,  "Insert Picture Failed with HRESULT:%1.\r\n"
+  2952790028,  "Insert Picture Failed with HRESULT:%1 and Msg:%2.\r\n"
+  2952790029,  "GDIPlus Error:%1.\r\n"
+  2952790030,  "Wordpad Launch Start.\r\n"
+  2952790031,  "Wordpad Launch End.\r\n"
+  2952790032,  "Insert Picture Start.\r\n"
+  2952790033,  "Insert Picture End.\r\n"
+  2952790034,  "Resize Picture Start.\r\n"
+  2952790035,  "Resize Picture End.\r\n"
+  2952790036,  "%1 failed since the system is low on memory.\r\n"
+  2952790037,  "Msg:%1 .HRESULT:%2\r\n"
+  2952790039,  "Live Preview Show (Type: %1) Start.\r\n"
+  2952790040,  "Live Preview Show End.\r\n"
+  2952790041,  "Live Preview Cancel (Type: %1) Start.\r\n"
+  2952790042,  "Live Preview Cancel End.\r\n"
+  2952790043,  "Live Preview Execute (Type: %1) Start.\r\n"
+  2952790044,  "Live Preview Execute End.\r\n"
+  2952790045,  "File Open Start.\r\n"
+  2952790046,  "File Open End.\r\n"
+  2952790047,  "File Save Start.\r\n"
+  2952790048,  "File Save End.\r\n"
+  2952790049,  "Zoom Start.\r\n"
+  2952790050,  "Zoom End.\r\n"
+  2952790051,  "ParseError:%1.\r\n"
+  2952790052,  "ParseError: HResult: %1, Error: %2.\r\n"
+  2952790053,  "ParseError:%1.\r\n"
+  2952790054,  "UnSupported Element:%1.\r\n"
+  2952790055,  "Start reading TOM.\r\n"
+  2952790056,  "End reading TOM.\r\n"
+  2952790057,  "Start saving Ole or Picture.\r\n"
+  2952790058,  "End saving Ole or Picture.\r\n"
+  2952790059,  "Begin reading Ole or Picture.\r\n"
+  2952790060,  "End reading Ole or Picture.\r\n"
+  2952790061,  "Indexed Search String\r\n"
+  2952790062,  "Wordpad Search Filter Encountered an error\r\n"
+}
