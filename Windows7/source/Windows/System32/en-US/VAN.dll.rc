@@ -1,0 +1,176 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x1
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "View Available Networks"
+      VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "Van.dll"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "Van.dll.mui"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "6.1.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2001,  "No connections are available\0"
+  2002,  "Connections are available\0"
+  2003,  "Connect or disconnect:\0"
+  2004,  "Currently connected to:\0"
+  2005,  "Not connected\0"
+  2007,  "Unified Connection Manager\0"
+  2008,  "Please select a network first before creating a connection profile.\0"
+  2009,  "Not connected - Connections are available\0"
+  2010,  "Not connected - No connections are available\0"
+  2012,  "Information sent over this network might be visible to others.\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2100,  "Open Network and Sharing Center\0"
+  2101,  "Connect or disconnect...\0"
+  2102,  "Troubleshoot\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2200,  "No Signal\0"
+  2201,  "Low\0"
+  2202,  "Poor\0"
+  2203,  "Fair\0"
+  2204,  "Good\0"
+  2205,  "Excellent\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2210,  "Signal Strength: %1!s!\0"
+  2211,  "Name: %1!s!\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2300,  "Connect\0"
+  2301,  "Disconnect\0"
+  2302,  "Turn off wireless\0"
+  2303,  "Diagnose\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2304,  "Status\0"
+  2305,  "Properties\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2400,  "Connect To\0"
+  2401,  "Shows available wireless networks and dial-up and VPN connections that you can connect to.\0"
+  2402,  "Open Without Diagnostics\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3001,  "&Connect\0"
+  3002,  "&Disconnect\0"
+  3003,  "Connect automatically\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3010,  "Access: \0"
+  3011,  "Internet access\0"
+  3012,  "No Internet access\0"
+  3013,  "Internet and domain access\0"
+  3014,  "Domain access only\0"
+  3015,  "No network access\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3100,  "This is a new router that has not been configured.\0"
+  3101,  "&Configure\0"
+  3102,  "Configure\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4001,  "View Available Network\0"
+  4005,  "Media Manager List\0"
+  4006,  "Network Adapter Header\0"
+  4007,  "Available Network List\0"
+  4010,  "Configure\0"
+  4011,  "Connect\0"
+  4012,  "Disconnect\0"
+  4013,  "Connect automatically checkbox\0"
+  4014,  "%1!s!\n%2!s!\0"
+  4015,  "Refresh\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4019,  "Link Pane\0"
+  4025,  "Connected Network List\0"
+  4030,  "Connect to a Network\0"
+  4031,  "Disconnect from a Network\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4032,  "Not Connectable\0"
+  4033,  "Configure a Network\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4100,  "Connect to a Network\0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4200,  "Network access might be limited. Open Network and Sharing Center for more information.\0"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-VAN\r\n"
+  2415919106,  "Microsoft-Windows-VAN/Diagnostic\r\n"
+}

@@ -1,0 +1,136 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEFLAGSMASK 0x3f
+FILEFLAGS 0x0
+FILEOS 0x40004
+FILETYPE 0x2
+FILESUBTYPE 0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Systray shell service object"
+      VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+      VALUE "InternalName", "stobject"
+      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+      VALUE "OriginalFilename", "stobject.dll.mui"
+      VALUE "ProductName", "Microsoft® Windows® Operating System"
+      VALUE "ProductVersion", "6.1.7600.16385"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409 0x4b0
+  }
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  150,  "Power Options"
+  151,  "Windows Mobility Center"
+  152,  "Turn system icons on or off"
+  153,  "Adjust screen brightness"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  165,  "Battery Meter"
+  170,  "Current power plan: "
+  171,  "Unknown"
+  172,  "Your current plan might reduce system performance."
+  173,  "Your current plan might reduce battery life."
+  174,  "Your current brightness setting might reduce battery life."
+  175,  "There is a problem with your battery, so your computer might shut down suddenly."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  190,  "Battery Meter"
+  191,  "Learn how to conserve power"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Select a power plan:"
+  193,  "More power options"
+  194,  "Power schemes"
+  195,  "Some settings are managed by your system administrator."
+  196,  "Why can't I change some settings?"
+  197,  "Batteries"
+  198,  "Some settings are managed by your system administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  211,  "Safely Remove Hardware and Eject Media"
+  215,  "&Open Devices and Printers"
+  222,  "%s"
+  223,  "Eject %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "   -   %s"
+  225,  "   -   Eject %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  330,  "StickyKeys"
+  331,  "MouseKeys"
+  332,  "FilterKeys"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  401,  "Battery %s: %s"
+  402,  "Short-term battery %s: %s"
+  403,  "Not present"
+  404,  "#%1!u!"
+  405,  "Your battery can’t hold a full charge and is low (%1!u!%%).  To continue using your computer, either plug it in, or shut it down and then replace your battery."
+  406,  "Consider replacing your battery"
+  407,  "Your battery is low (%1!u!%%). If you need to continue using your computer, either plug in your computer, or shut it down and then change the battery."
+  408,  "Desktop background settings"
+  409,  "Change power management settings for your desktop background."
+  410,  "Slide show"
+  411,  "Specify when you want the desktop background slide show to be available."
+  412,  "Paused"
+  413,  "The slide show is paused to save power."
+  414,  "Available"
+  415,  "Available"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  416,  "&Next desktop background"
+  417,  "Set as desktop &background"
+  420,  "Reserved Battery Level"
+  421,  "Plug in or find another power source"
+  422,  "Your battery power is low (%1!u!%%). If you don't plug in your computer soon, it will shut down automatically."
+  423,  "Your battery power is low (%1!u!%%). If you don't plug in your computer soon, it will hibernate automatically."
+  424,  "Your battery power is low (%1!u!%%). If you don't plug in your computer soon, it will sleep automatically."
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+}
