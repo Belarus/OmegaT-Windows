@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T155921Z" changeid="eratyk">
+        <seg>!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&quot;</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T080711Z" changeid="eratyk">
@@ -88,7 +96,7 @@
       <tuv lang="en">
         <seg>%1 (Bluetooth): %2!d!%%</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162523Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162523Z" changeid="eratyk">
         <seg>%1 (Bluetooth): %2!d!%%</seg>
       </tuv>
     </tu>
@@ -96,7 +104,7 @@
       <tuv lang="en">
         <seg>%1 (Bluetooth): Muted</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162458Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162458Z" changeid="eratyk">
         <seg>%1 (Bluetooth): без гуку</seg>
       </tuv>
     </tu>
@@ -112,7 +120,7 @@
       <tuv lang="en">
         <seg>%1 (USB): %2!d!%%</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162526Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162526Z" changeid="eratyk">
         <seg>%1 (USB): %2!d!%%</seg>
       </tuv>
     </tu>
@@ -120,7 +128,7 @@
       <tuv lang="en">
         <seg>%1 (USB): Muted</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162512Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162512Z" changeid="eratyk">
         <seg>%1 (USB): без гуку</seg>
       </tuv>
     </tu>
@@ -1200,7 +1208,7 @@
       <tuv lang="en">
         <seg>%1: %2!d!%%</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162518Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162518Z" changeid="eratyk">
         <seg>%1: %2!d!%%</seg>
       </tuv>
     </tu>
@@ -1208,7 +1216,7 @@
       <tuv lang="en">
         <seg>%1: Muted</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162446Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162446Z" changeid="eratyk">
         <seg>%1: без гуку</seg>
       </tuv>
     </tu>
@@ -1249,6 +1257,14 @@
         <seg>%1\nCant access this file.\nCheck security privileges over the network drive.</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T132153Z" changeid="eratyk">
+        <seg>%1\nНемагчыма атрымаць доступ да файла.\nПраверце прывілеі бяспекі сеткавага дыска.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\nCan’t access this file.\nCheck security privileges over the network drive.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145253Z" changeid="eratyk">
         <seg>%1\nНемагчыма атрымаць доступ да файла.\nПраверце прывілеі бяспекі сеткавага дыска.</seg>
       </tuv>
     </tu>
@@ -1318,9 +1334,25 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1\nThis file doesn’t exist.\n\nCreate the file?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145334Z" changeid="eratyk">
+        <seg>%1\nГэты файл не існуе.\n\nСтварыць файл?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1\nThis file is in use.\nEnter a new name or close the file thats open in another program.</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T130935Z" changeid="eratyk">
+        <seg>%1\nФайл выкарыстоўваецца.\nУвядзіце іншую назву ці зачыніце гэты файл у праграме, дзе ён адчынены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\nThis file is in use.\nEnter a new name or close the file that’s open in another program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145251Z" changeid="eratyk">
         <seg>%1\nФайл выкарыстоўваецца.\nУвядзіце іншую назву ці зачыніце гэты файл у праграме, дзе ён адчынены.</seg>
       </tuv>
     </tu>
@@ -1374,9 +1406,41 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1\nYou don’t have permission to modify files in this network location.\n\nContact the administrator per permission to make these changes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145338Z" changeid="eratyk">
+        <seg>%1\nВы не маеце дазволу на змяненне файлаў у гэтым сеткавым размяшчэнні.\n\nЗвярніцеся да адміністратара, каб здзейсніць гэтыя змены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\nYou don’t have permission to open this file. \n\n Contact the file owner or an administrator to obtain permission.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145341Z" changeid="eratyk">
+        <seg>%1\nВы не маеце дазволу на адчыненне гэтага файла. \n\n Звяжыцеся з уладальнікам файла ці адміністратарам для атрымання дазволу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\nYou don’t have permission to open this location. \n\n Contact the location’s owner or an administrator to obtain permission.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145348Z" changeid="eratyk">
+        <seg>%1\nВы не маеце дазволу на адчыненне гэтага размяшчэння. \n\n Звяжыцеся з уладальнікам размяшчэння ці адміністратарам для атрымання дазволу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\nYou don’t have permission to save in this location. \nContact the administrator to obtain permission.\n\nWould you like to save in the %2 folder instead?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145409Z" changeid="eratyk">
+        <seg>%1\nВы не маеце дазволу на захаванне ў гэтым размяшчэнні. \nЗвяжыцеся з адміністратарам, каб атрымаць дазвол.\n\nЦі жадаеце захаваць ў каталогу &quot;%2&quot; замест гэтага?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1\n\nTo add a toolbar to your desktop, right-click an existing toolbar, click Toolbars, and then click an item.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155535Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155535Z" changeid="eratyk">
         <seg>%1\n\nКаб дадаць паліцу інструментаў на стальніцу, пстрыкніце правай клавішай па існай паліцы, абярыце &quot;Паліцы інструментаў&quot; і пстрыкніце па элеменце.</seg>
       </tuv>
     </tu>
@@ -1417,7 +1481,7 @@
         <seg>%2!ls! refers to a location that is unavailable. It could be on a hard drive on this computer, or on a network. Check to make sure that the disk is properly inserted, or that you are connected to the Internet or your network, and then try again. If it still can't be located, the information might have been moved to a different location.</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T190324Z" changeid="eratyk">
-        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютары, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы злучаныя з сеткаю альбо Сецівам, і потым паўтарыце спробу. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
+        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютары, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы злучаныя з сеткаю альбо сецівам, і потым паўтарыце спробу. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1425,7 +1489,7 @@
         <seg>%2!ls! refers to a location that is unavailable. It could be on a hard drive on this computer, or on a network. Check to make sure that the disk is properly inserted, or that you are connected to the Internet or your network, and then try again. If it still cannot be located, the information might have been moved to a different location.</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T190404Z" changeid="eratyk">
-        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютары, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы злучаныя з сеткаю альбо Сецівам, і потым паўтарыце спробу. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
+        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютары, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы злучаныя з сеткаю альбо сецівам, і потым паўтарыце спробу. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1464,7 +1528,7 @@
       <tuv lang="en">
         <seg>%d programs still need to close:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152752Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152752Z" changeid="eratyk">
         <seg>%d праграм неабходна зачыніць:</seg>
       </tuv>
     </tu>
@@ -2096,7 +2160,7 @@
       <tuv lang="en">
         <seg>&amp;All devices currently playing sound</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164147Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164147Z" changeid="eratyk">
         <seg>Усе прылады, што граюць гук</seg>
       </tuv>
     </tu>
@@ -2186,6 +2250,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T132557Z" changeid="eratyk">
         <seg>наўпрост</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Attached</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160034Z" changeid="eratyk">
+        <seg>Прычэплены</seg>
       </tuv>
     </tu>
     <tu>
@@ -2353,7 +2425,7 @@
         <seg>&amp;Browse the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T112932Z" changeid="eratyk">
-        <seg>Агляд Сеціва</seg>
+        <seg>Агляд сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -2552,7 +2624,7 @@
       <tuv lang="en">
         <seg>&amp;Clear all</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200437Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200437Z" changeid="eratyk">
         <seg>Ачысціць усё</seg>
       </tuv>
     </tu>
@@ -2616,7 +2688,7 @@
       <tuv lang="en">
         <seg>&amp;Close\tAlt+F4</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055449Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055449Z" changeid="eratyk">
         <seg>Зачыніць\tAlt+F4</seg>
       </tuv>
     </tu>
@@ -2624,7 +2696,7 @@
       <tuv lang="en">
         <seg>&amp;Close\tCtrl+F4</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055547Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055547Z" changeid="eratyk">
         <seg>Зачыніць\tCtrl+F4</seg>
       </tuv>
     </tu>
@@ -2638,10 +2710,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Color scheme:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160124Z" changeid="eratyk">
+        <seg>Каляровая схема:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Color:</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T110218Z" changeid="eratyk">
         <seg>Колер:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Colors:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171811Z" changeid="eratyk">
+        <seg>Колеры:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2792,8 +2880,8 @@
       <tuv lang="en">
         <seg>&amp;Custom</seg>
       </tuv>
-      <tuv lang="be" changedate="20100922T091535Z" changeid="eratyk">
-        <seg>Карыстальніцкі</seg>
+      <tuv lang="be" changedate="20101011T174421Z" changeid="eratyk">
+        <seg>Замоўны</seg>
       </tuv>
     </tu>
     <tu>
@@ -2802,6 +2890,14 @@
       </tuv>
       <tuv lang="be" changedate="20100921T193742Z" changeid="eratyk">
         <seg>Карыстальніцкі - %1!d!%%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Custom DPI...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T174045Z" changeid="eratyk">
+        <seg>Замоўная разрознасць...</seg>
       </tuv>
     </tu>
     <tu>
@@ -2816,8 +2912,8 @@
       <tuv lang="en">
         <seg>&amp;Custom scan...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T064042Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Выбарковая праве&amp;рка</seg>
+      <tuv lang="be" changedate="20101011T174131Z" changeid="eratyk">
+        <seg>Замоўная праверка...</seg>
       </tuv>
     </tu>
     <tu>
@@ -2858,6 +2954,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T125636Z" changeid="eratyk">
         <seg>Аддзяляльнік дробнай часткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Default scale (96 DPI) - fit more information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T173841Z" changeid="eratyk">
+        <seg>Перадвызначаная разрознасць (96 кропак на цалю) - больш інфармацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2936,7 +3040,7 @@
       <tuv lang="en">
         <seg>&amp;Desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155507Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155507Z" changeid="eratyk">
         <seg>Стальніца</seg>
       </tuv>
     </tu>
@@ -2960,7 +3064,7 @@
       <tuv lang="en">
         <seg>&amp;Device</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163725Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163725Z" changeid="eratyk">
         <seg>Прылада</seg>
       </tuv>
     </tu>
@@ -3025,7 +3129,7 @@
         <seg>&amp;Display media information from the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T112336Z" changeid="eratyk">
-        <seg>Адлюстроўваць медыяінфармацыю з Сеціва</seg>
+        <seg>Адлюстроўваць медыяінфармацыю з сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -3074,6 +3178,14 @@
       </tuv>
       <tuv lang="be" changedate="20100717T112042Z" changeid="eratyk">
         <seg>Рабіць гэта для наступных %1!d! канфліктаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Docked in the taskbar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074635Z" changeid="eratyk">
+        <seg>Прычэплена на паліцы задач</seg>
       </tuv>
     </tu>
     <tu>
@@ -3192,8 +3304,8 @@
       <tuv lang="en">
         <seg>&amp;End Now</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T150851Z" changeid="Усевалад">
-        <seg>Закончыць зараз</seg>
+      <tuv lang="be" changedate="20101009T150851Z" changeid="eratyk">
+        <seg>Скончыць зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -3210,6 +3322,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T114239Z" changeid="eratyk">
         <seg>Паліца вандроўніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Extend the desktop onto this monitor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171611Z" changeid="eratyk">
+        <seg>Пашырыць стальніцу на гэты манітор</seg>
       </tuv>
     </tu>
     <tu>
@@ -3294,6 +3414,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Floating On Desktop</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074456Z" changeid="eratyk">
+        <seg>Перамяшчаецца па стальніцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T111358Z" changeid="eratyk">
@@ -3368,7 +3496,7 @@
       <tuv lang="en">
         <seg>&amp;Force log off</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151732Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151732Z" changeid="eratyk">
         <seg>Выйсці прымусова</seg>
       </tuv>
     </tu>
@@ -3376,7 +3504,7 @@
       <tuv lang="en">
         <seg>&amp;Force restart</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151837Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151837Z" changeid="eratyk">
         <seg>Перазапусціць прымусова</seg>
       </tuv>
     </tu>
@@ -3384,7 +3512,7 @@
       <tuv lang="en">
         <seg>&amp;Force shut down</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151248Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151248Z" changeid="eratyk">
         <seg>Выключыць прымусова</seg>
       </tuv>
     </tu>
@@ -3606,6 +3734,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Identify Monitors</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171517Z" changeid="eratyk">
+        <seg>Ідэнтыфікаваць маніторы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;If your operating system is not listed, enter the Windows folder or click Browse:</seg>
       </tuv>
       <tuv lang="be" changedate="20100710T074514Z" changeid="eratyk">
@@ -3697,7 +3833,7 @@
         <seg>&amp;Internet options...</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T114615Z" changeid="eratyk">
-        <seg>Налады Сеціва...</seg>
+        <seg>Налады сеціва...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3706,6 +3842,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T093935Z" changeid="alex">
         <seg>Інвертаваць вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Item:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160721Z" changeid="eratyk">
+        <seg>Элемент:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3762,6 +3906,14 @@
       </tuv>
       <tuv lang="be" changedate="20100921T193156Z" changeid="eratyk">
         <seg>Найвялікшы - 150% (перадвызначана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Larger scale (120 DPI) - make text more readable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T173837Z" changeid="eratyk">
+        <seg>Вышэйшая разрознасць (120 кропак на цалю) - чытабельнасць</seg>
       </tuv>
     </tu>
     <tu>
@@ -4398,6 +4550,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Other...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171010Z" changeid="eratyk">
+        <seg>Іншы...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;PM symbol:</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T165258Z" changeid="eratyk">
@@ -4432,7 +4592,7 @@
       <tuv lang="en">
         <seg>&amp;Peek at desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155111Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155111Z" changeid="eratyk">
         <seg>Зірнуць на стальніцу</seg>
       </tuv>
     </tu>
@@ -4496,7 +4656,7 @@
       <tuv lang="en">
         <seg>&amp;Playback devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162150Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162150Z" changeid="eratyk">
         <seg>Прылады прайгравання</seg>
       </tuv>
     </tu>
@@ -4546,6 +4706,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T130140Z" changeid="eratyk">
         <seg>Націснуць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Preview...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074257Z" changeid="eratyk">
+        <seg>Перадпрагляд...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4680,7 +4848,7 @@
       <tuv lang="en">
         <seg>&amp;Recording devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162210Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162210Z" changeid="eratyk">
         <seg>Прылады запісу</seg>
       </tuv>
     </tu>
@@ -4865,7 +5033,7 @@
         <seg>&amp;Resolve online now</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T125715Z" changeid="eratyk">
-        <seg>Вырашыць праблему праз Сеціва</seg>
+        <seg>Вырашыць праблему праз сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -5000,7 +5168,7 @@
       <tuv lang="en">
         <seg>&amp;Right to left Reading order</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055919Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055919Z" changeid="eratyk">
         <seg>Парадак чытання - справа налева</seg>
       </tuv>
     </tu>
@@ -5288,7 +5456,7 @@
       <tuv lang="en">
         <seg>&amp;Show Unicode control characters</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T060013Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T060013Z" changeid="eratyk">
         <seg>Адлюстраваць кіруючыя сімвалы Unicode</seg>
       </tuv>
     </tu>
@@ -5296,7 +5464,7 @@
       <tuv lang="en">
         <seg>&amp;Show desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155028Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155028Z" changeid="eratyk">
         <seg>Адлюстраваць стальніцу</seg>
       </tuv>
     </tu>
@@ -5305,7 +5473,7 @@
         <seg>&amp;Show on Desktop</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T090819Z" changeid="eratyk">
-        <seg>Адлюстраваць на стальцы</seg>
+        <seg>Адлюстраваць на стальніцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -5328,7 +5496,7 @@
       <tuv lang="en">
         <seg>&amp;Show the desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155014Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155014Z" changeid="eratyk">
         <seg>Адлюстраваць стальніцу</seg>
       </tuv>
     </tu>
@@ -5336,7 +5504,7 @@
       <tuv lang="en">
         <seg>&amp;Shuffle</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201118Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201118Z" changeid="eratyk">
         <seg>Перамяшаць</seg>
       </tuv>
     </tu>
@@ -5456,7 +5624,7 @@
       <tuv lang="en">
         <seg>&amp;Sounds</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162214Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162214Z" changeid="eratyk">
         <seg>Гукі</seg>
       </tuv>
     </tu>
@@ -5614,6 +5782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;This is my main monitor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171539Z" changeid="eratyk">
+        <seg>Гэта мой галоўны манітор</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;This language is also only partially translated. Select a third language for Windows to use when displaying the remaining text:</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T155315Z" changeid="eratyk">
@@ -5688,7 +5864,7 @@
       <tuv lang="en">
         <seg>&amp;Troubleshoot sound problems</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162929Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162929Z" changeid="eratyk">
         <seg>Ліквідаваць праблемы гуку</seg>
       </tuv>
     </tu>
@@ -5849,7 +6025,7 @@
         <seg>&amp;Update music files by retrieving media information from the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T112457Z" changeid="eratyk">
-        <seg>Абнаўляць музычныя файлы праз атрыманне медыяінфармацыі з Сеціва</seg>
+        <seg>Абнаўляць музычныя файлы праз атрыманне медыяінфармацыі з сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -5952,7 +6128,7 @@
       <tuv lang="en">
         <seg>&amp;Volume control options</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162229Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162229Z" changeid="eratyk">
         <seg>Налады кіравання гучнасцю</seg>
       </tuv>
     </tu>
@@ -5969,7 +6145,7 @@
         <seg>&amp;Web Help</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T111707Z" changeid="eratyk">
-        <seg>Вэб-даведка</seg>
+        <seg>Даведка ў сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -5992,7 +6168,7 @@
       <tuv lang="en">
         <seg>&amp;When using battery power, pause the slide show to save power</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201245Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201245Z" changeid="eratyk">
         <seg>Прыпыняць паказ слайдаў падчас карыстання энергіі батарэі</seg>
       </tuv>
     </tu>
@@ -6328,7 +6504,7 @@
       <tuv lang="en">
         <seg>(Waiting for)</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152514Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152514Z" changeid="eratyk">
         <seg>(чаканне)</seg>
       </tuv>
     </tu>
@@ -6376,7 +6552,7 @@
       <tuv lang="en">
         <seg>(or press the</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081315Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081315Z" changeid="eratyk">
         <seg>(ці націсніце</seg>
       </tuv>
     </tu>
@@ -6576,7 +6752,7 @@
       <tuv lang="en">
         <seg>1 program still needs to close:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152819Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152819Z" changeid="eratyk">
         <seg>1 праграму неабходна зачыніць:</seg>
       </tuv>
     </tu>
@@ -7174,6 +7350,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>9999 X 9999 pixels</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171802Z" changeid="eratyk">
+        <seg>9999 X 9999 пікселяў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>9;bold;none;Segoe UI</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T080043Z" changeid="eratyk">
@@ -7265,7 +7449,8 @@
         <seg>&lt;A HREF=&quot;Command://ActionExceptionList&quot;&gt;Allowed items&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100319T081057Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>&lt;A HREF=&quot;Command://ActionExceptionList&quot;&gt;Дазволеныя аб'екты&lt;/A&gt;</seg>
+        <seg>
+&lt;A HREF=&quot;Command://ActionExceptionList&quot;&gt;Дазволеныя аб'екты&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7281,7 +7466,7 @@
         <seg>&lt;A HREF=&quot;DRAGDROP_QUERY&quot;&gt;How do I know if I can trust this website?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T171529Z" changeid="eratyk">
-        <seg>&lt;A HREF=&quot;DRAGDROP_QUERY&quot;&gt;Як даведацца, ці можна давяраць вэб-сайту?&lt;/A&gt;</seg>
+        <seg>&lt;A HREF=&quot;DRAGDROP_QUERY&quot;&gt;Як даведацца, ці можна давяраць сайту?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7345,7 +7530,7 @@
         <seg>&lt;A HREF=&quot;VERB_DENY&quot;&gt;Why is this website not trusted?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T154915Z" changeid="eratyk">
-        <seg>&lt;A HREF=&quot;VERB_DENY&quot;&gt;Чаму гэты вэб-сайт ненадзейны?&lt;/A&gt;</seg>
+        <seg>&lt;A HREF=&quot;VERB_DENY&quot;&gt;Чаму гэты сайт ненадзейны?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7353,7 +7538,7 @@
         <seg>&lt;A HREF=&quot;VERB_QUERY&quot;&gt;How do I know if I can trust this website?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T155256Z" changeid="eratyk">
-        <seg>&lt;A HREF=&quot;VERB_QUERY&quot;&gt;Як даведацца, ці можна давяраць вэб-сайту?&lt;/A&gt;</seg>
+        <seg>&lt;A HREF=&quot;VERB_QUERY&quot;&gt;Як даведацца, ці можна давяраць сайту?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7369,7 +7554,7 @@
         <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?LinkId=55273&quot;&gt;Windows Defender website&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T122808Z" changeid="eratyk">
-        <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?LinkId=55273&quot;&gt;Вэб-сат абаронцы Windows&lt;/A&gt;</seg>
+        <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?LinkId=55273&quot;&gt;Сайт абаронцы Windows&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7377,7 +7562,7 @@
         <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?linkid=104288&quot;&gt;Read the privacy statement online.&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090711Z" changeid="eratyk">
-        <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?linkid=104288&quot;&gt;Прачытаць палітыку прыватнасці ў Сеціве.&lt;/A&gt;</seg>
+        <seg>&lt;A HREF=&quot;http://go.microsoft.com/fwlink/?linkid=104288&quot;&gt;Прачытаць палітыку прыватнасці ў сеціве.&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7446,6 +7631,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A ID=&quot;idBestDisplay&quot;&gt;How do I get the best display?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T172128Z" changeid="eratyk">
+        <seg>&lt;A ID=&quot;idBestDisplay&quot;&gt;Як атрымаць найлепшае адлюстраванне?&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A href=&quot;Settings&quot;&gt;Change when these notifications appear&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T080355Z" changeid="eratyk">
@@ -7481,7 +7674,7 @@
         <seg>&lt;A&gt;Go online to learn about changing languages and regional formats&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T063143Z" changeid="eratyk">
-        <seg>&lt;A&gt;Даведацца ў Сеціве пра змяненне моваў і рэгіянальных фарматаў&lt;/A&gt;</seg>
+        <seg>&lt;A&gt;Даведацца ў сеціве пра змяненне моваў і рэгіянальных фарматаў&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7665,7 +7858,7 @@
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=52661&quot;&gt;View more information about this program online&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100915T143636Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=52661&quot;&gt;Паглядзець дадатковую інфармацыю аб гэтай праграме ў Сеціве&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=52661&quot;&gt;Паглядзець дадатковую інфармацыю аб гэтай праграме ў сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7673,7 +7866,7 @@
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090702Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Прагляд па ліквідаванню непаладак у Сеціве.&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Прагляд па ліквідаванню непаладак у сеціве.&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7681,7 +7874,7 @@
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090717Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Паказаць парады па ліквідаванню праблемы ў Сеціве&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7689,7 +7882,7 @@
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090731Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Паказаць парады па ліквідаванню праблемы ў Сеціве&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7697,7 +7890,7 @@
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090810Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Паказаць парады па ліквідаванню праблемы ў Сеціве&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7721,7 +7914,7 @@
         <seg>&lt;a&gt;Read the privacy statement online&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T125811Z" changeid="eratyk">
-        <seg>&lt;a&gt;Чытаць заяву прыватнасці ў Сеціве&lt;/a&gt;</seg>
+        <seg>&lt;a&gt;Чытаць заяву прыватнасці ў сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8200,8 +8393,8 @@
       <tuv lang="en">
         <seg>A program that collects information, such as the websites a user visits, without adequate consent. Unauthorized actions may include installing without prominent notice or running without a clear method to disable the program.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100310T121009Z" changeid="alex">
-        <seg>Праграма, якая выконвае збор, інфармацыі, напрыклад, звесткі аб вэб-сайтах, якія наведвае карыстальнік без яго згоды. Да дзеянняў, якія забараняюцца адносяцца: усталёўка праграм без апавяшчэння і запуск праграм без магчымасці іх адключэння.</seg>
+      <tuv lang="be" changedate="20101020T061844Z" changeid="eratyk">
+        <seg>Праграма, якая выконвае збор, інфармацыі, напрыклад, звесткі аб сайтах, якія наведвае карыстальнік без яго згоды. Да дзеянняў, якія забараняюцца адносяцца: усталёўка праграм без апавяшчэння і запуск праграм без магчымасці іх адключэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8566,6 +8759,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>AaBbБбФф</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145159Z" changeid="eratyk">
+        <seg>AaBbБбФф</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Abou&amp;t WordPad</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092145Z" changeid="eratyk">
@@ -8806,6 +9007,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ad&amp;vanced Settings...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T172002Z" changeid="eratyk">
+        <seg>Дадатковыя налады...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add Desktop Gadgets that display personalized slideshows, news feeds, and other customized information.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T071016Z" changeid="alex">
@@ -8818,6 +9027,14 @@
       </tuv>
       <tuv lang="be" changedate="20100729T114137Z" changeid="eratyk">
         <seg>Дыялог дадавання гаджэта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add Input Language</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074051Z" changeid="eratyk">
+        <seg>Дадаць мову ўводу</seg>
       </tuv>
     </tu>
     <tu>
@@ -9304,8 +9521,8 @@
       <tuv lang="en">
         <seg>Advanced</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T071057Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Падрабязна</seg>
+      <tuv lang="be" changedate="20101011T170134Z" changeid="eratyk">
+        <seg>Дадаткова</seg>
       </tuv>
     </tu>
     <tu>
@@ -9322,6 +9539,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T045600Z" changeid="alex">
         <seg>Дадатковыя ўласцівасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced Window Color and Appearance</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T161000Z" changeid="eratyk">
+        <seg>Колер і вонкавы выгляд акна, дадаткова</seg>
       </tuv>
     </tu>
     <tu>
@@ -9816,7 +10041,7 @@
       <tuv lang="en">
         <seg>AllowBlockingAppsAtShutdown</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153509Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153509Z" changeid="eratyk">
         <seg>AllowBlockingAppsAtShutdown</seg>
       </tuv>
     </tu>
@@ -9840,7 +10065,7 @@
       <tuv lang="en">
         <seg>Allows you to add gadgets to your desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T154937Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T154937Z" changeid="eratyk">
         <seg>Дазваляе Вам дадаваць гаджэты на Вашу стальніцу</seg>
       </tuv>
     </tu>
@@ -10600,7 +10825,7 @@
       <tuv lang="en">
         <seg>Application Initialization DLLs</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081404Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081404Z" changeid="eratyk">
         <seg>Бібліятэкі DLL ініцыялізацыі праграм праграм</seg>
       </tuv>
     </tu>
@@ -10664,7 +10889,7 @@
       <tuv lang="en">
         <seg>Application Volume</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163740Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163740Z" changeid="eratyk">
         <seg>Гучнасць праграмы</seg>
       </tuv>
     </tu>
@@ -10688,7 +10913,7 @@
       <tuv lang="en">
         <seg>Application failed to initialize: 0x%1!0x!.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083234Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083234Z" changeid="eratyk">
         <seg>Не атрымалася ініцыялізаваць праграму: 0x%1!0x!.</seg>
       </tuv>
     </tu>
@@ -10696,7 +10921,7 @@
       <tuv lang="en">
         <seg>Applications</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163720Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163720Z" changeid="eratyk">
         <seg>Праграмы</seg>
       </tuv>
     </tu>
@@ -11624,7 +11849,7 @@
       <tuv lang="en">
         <seg>AutoEndTasks</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153506Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153506Z" changeid="eratyk">
         <seg>AutoEndTasks</seg>
       </tuv>
     </tu>
@@ -11758,6 +11983,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>B</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160807Z" changeid="eratyk">
+        <seg>Т</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>B&amp;lue:</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T123925Z" changeid="eratyk">
@@ -11856,7 +12089,7 @@
       <tuv lang="en">
         <seg>Background Position</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200515Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200515Z" changeid="eratyk">
         <seg>Пазіцыя фону</seg>
       </tuv>
     </tu>
@@ -12792,8 +13025,8 @@
       <tuv lang="en">
         <seg>Cabinet File</seg>
       </tuv>
-      <tuv lang="be" changedate="20100904T192955Z" changeid="eratyk">
-        <seg>САИ-файл</seg>
+      <tuv lang="be" changedate="20101020T061636Z" changeid="eratyk">
+        <seg>CAB-файл</seg>
       </tuv>
     </tu>
     <tu>
@@ -13105,7 +13338,7 @@
         <seg>Cannot find '%1!ws!'. Make sure the path or Internet address is correct.</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T115111Z" changeid="eratyk">
-        <seg>Немагчыма знайсці '%1!ws!'. Пераканайцеся, што шлях ці адрас Сеціва правільныя.</seg>
+        <seg>Немагчыма знайсці '%1!ws!'. Пераканайцеся, што шлях ці адрас сеціва правільныя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13177,7 +13410,7 @@
         <seg>Cannot query the properties for this program. There may not be enough memory available.\nExit one or more programs, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T163314Z" changeid="eratyk">
-        <seg>Немагчыма высветліць уласцівасці гэтай праграмы. Магчыма, не хапае памяці.\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
+        <seg>Немагчыма высветліць уласцівасці гэтай праграмы. Магчыма, бракуе памяці.\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13209,6 +13442,14 @@
         <seg>Cant open %1.  The maximum number of files are already open.\nClose a file or program in order to open this file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T133138Z" changeid="eratyk">
+        <seg>Немагчыма адчыніць '%1'.  Ужо адчыненая максімальная колькасць файлаў.\nКаб адчыніць файл, зачыніце іншы файл ці праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Can’t open %1.  The maximum number of files are already open.\nClose a file or program in order to open this file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145328Z" changeid="eratyk">
         <seg>Немагчыма адчыніць '%1'.  Ужо адчыненая максімальная колькасць файлаў.\nКаб адчыніць файл, зачыніце іншы файл ці праграму.</seg>
       </tuv>
     </tu>
@@ -13360,7 +13601,7 @@
       <tuv lang="en">
         <seg>Cha&amp;nge picture every:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200935Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200935Z" changeid="eratyk">
         <seg>Змяняць малюнак кожныя:</seg>
       </tuv>
     </tu>
@@ -13632,7 +13873,7 @@
       <tuv lang="en">
         <seg>Change background color</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200524Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200524Z" changeid="eratyk">
         <seg>Змяніць фонавы колер</seg>
       </tuv>
     </tu>
@@ -13665,7 +13906,7 @@
         <seg>Change cursor blink rate</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T100526Z" changeid="eratyk">
-        <seg>Змяненне часціні мігацення курсора</seg>
+        <seg>Змяненне часціні мігацення паказальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -13769,7 +14010,7 @@
         <seg>Change how web pages are displayed in tabs</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T063045Z" changeid="eratyk">
-        <seg>Змяненне выгляду вэб-старонак ува ўкладках</seg>
+        <seg>Змяненне выгляду старонак сеціва ва ўкладках</seg>
       </tuv>
     </tu>
     <tu>
@@ -13888,7 +14129,7 @@
       <tuv lang="en">
         <seg>Change picture every</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200938Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200938Z" changeid="eratyk">
         <seg>Змяняць малюнак кожныя</seg>
       </tuv>
     </tu>
@@ -14001,7 +14242,7 @@
         <seg>Change temporary Internet file settings</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T063148Z" changeid="eratyk">
-        <seg>Змяненне наладаў часовых файлаў Сеціва</seg>
+        <seg>Змяненне наладаў часовых файлаў сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -14586,7 +14827,7 @@
         <seg>Check network status and change settings, set preferences for sharing files and computers, configure Internet display and connection, and more.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T114305Z" changeid="eratyk">
-        <seg>Праверка стану сеткі і змяненне наладаў, вызначэнне параметраў для агульнадаступных файлаў і камп'ютараў, наладжванне адлюстравання і злучэння з Сецівам і г.д.</seg>
+        <seg>Праверка стану сеткі і змяненне наладаў, вызначэнне параметраў для агульнадаступных файлаў і камп'ютараў, наладжванне адлюстравання і злучэння з сецівам і г.д.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14753,7 +14994,7 @@
       <tuv lang="en">
         <seg>Choose a different color</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200906Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200906Z" changeid="eratyk">
         <seg>Абярыце іншы колер</seg>
       </tuv>
     </tu>
@@ -14775,6 +15016,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Choose a smaller scale to fit more information on the screen or a larger scale to make text more readable.  &lt;A ID=&quot;idBestDPI&quot;&gt;How do I know which DPI to choose?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T173522Z" changeid="eratyk">
+        <seg>Абярыце ніжэйшую разрознасць, каб змяшчаць больш інфармацыі на экране, ці вышэйшую, каб зрабіць тэкст больш чытабельным.  &lt;A ID=&quot;idBestDPI&quot;&gt;Як даведацца, якую разрознасць абраць?&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Choose background for the Welcome screen</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T083821Z" changeid="eratyk">
@@ -14786,7 +15035,7 @@
         <seg>Choose default programs for web browsing, e-mail, playing music, and other activities.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064250Z" changeid="eratyk">
-        <seg>Перадвызначэнне праграм для агляду Сеціва, э-пошты, прайгравання музыкі і іншай дзейнасці.</seg>
+        <seg>Перадвызначэнне праграм для агляду сеціва, э-пошты, прайгравання музыкі і іншай дзейнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14945,7 +15194,7 @@
       <tuv lang="en">
         <seg>Choose your desktop background</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200209Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200209Z" changeid="eratyk">
         <seg>Абярыце фон стальніцы</seg>
       </tuv>
     </tu>
@@ -15226,7 +15475,7 @@
         <seg>Click 'Add' to include folders in this library.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T180919Z" changeid="eratyk">
-        <seg>Пстрыкніце 'Дадаць' каб дадаць каталогі ў бібліятэку.</seg>
+        <seg>Пстрыкніце 'Дадаць', каб дадаць каталогі ў бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15281,7 +15530,7 @@
       <tuv lang="en">
         <seg>Click Reset to restore the system default settings for numbers, currency, time, and date.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081352Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081352Z" changeid="eratyk">
         <seg>Націсніце &quot;Скінуць&quot; для аднаўлення сістэмных перадвызначэнняў для лікаў, валюты, часу і даты.</seg>
       </tuv>
     </tu>
@@ -15297,7 +15546,7 @@
       <tuv lang="en">
         <seg>Click a picture to make it your desktop background, or select more than one picture to create a slide show.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200405Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200405Z" changeid="eratyk">
         <seg>Пстрыкніце малюнак, каб зрабіць яго фонам стальніцы, ці вылучце некалькі малюнкаў, каб стварыць паказ слайдаў.</seg>
       </tuv>
     </tu>
@@ -15305,7 +15554,7 @@
       <tuv lang="en">
         <seg>Click a picture to make it your desktop background.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200319Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200319Z" changeid="eratyk">
         <seg>Пстрыкніце малюнак, каб зрабіць яго фонам стальніцы.</seg>
       </tuv>
     </tu>
@@ -15337,7 +15586,7 @@
       <tuv lang="en">
         <seg>Click here for more information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163024Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163024Z" changeid="eratyk">
         <seg>Пстрыкніце тут для дадатковай інфармацыі</seg>
       </tuv>
     </tu>
@@ -15401,7 +15650,7 @@
       <tuv lang="en">
         <seg>Click on CANCEL to debug the program</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153257Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153257Z" changeid="eratyk">
         <seg>Пстрыкніце &quot;Скасаваць&quot;, каб адладзіць праграму</seg>
       </tuv>
     </tu>
@@ -15409,7 +15658,7 @@
       <tuv lang="en">
         <seg>Click on OK to terminate the program</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153117Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153117Z" changeid="eratyk">
         <seg>Пстрыкніце &quot;Добра&quot;, каб скончыць праграму</seg>
       </tuv>
     </tu>
@@ -15705,7 +15954,7 @@
       <tuv lang="en">
         <seg>Closing programs and logging off.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152442Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152442Z" changeid="eratyk">
         <seg>Зачыненне праграм і выйсце.</seg>
       </tuv>
     </tu>
@@ -15713,7 +15962,7 @@
       <tuv lang="en">
         <seg>Closing programs and restarting.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152500Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152500Z" changeid="eratyk">
         <seg>Зачыненне праграм і перазапуск.</seg>
       </tuv>
     </tu>
@@ -15721,7 +15970,7 @@
       <tuv lang="en">
         <seg>Closing programs and shutting down.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152421Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152421Z" changeid="eratyk">
         <seg>Зачыненне праграм і выключэнне.</seg>
       </tuv>
     </tu>
@@ -15763,6 +16012,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T095111Z" changeid="alex">
         <seg>Згарнуць групу\tЛевая стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Co&amp;lor 1:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160735Z" changeid="eratyk">
+        <seg>Колер 1:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15831,10 +16088,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Colo&amp;r:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160750Z" changeid="eratyk">
+        <seg>Колер:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Color</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T063705Z" changeid="eratyk">
         <seg>Колер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Color &amp;2:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160742Z" changeid="eratyk">
+        <seg>Колер 2:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15873,7 +16146,7 @@
       <tuv lang="en">
         <seg>Color swatch</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200853Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200853Z" changeid="eratyk">
         <seg>Калекцыя колераў</seg>
       </tuv>
     </tu>
@@ -15883,6 +16156,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T123411Z" changeid="eratyk">
         <seg>Колеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Colors and sizes selected here might not apply if you select the Windows 7 Standard or Basic color schemes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T170954Z" changeid="eratyk">
+        <seg>Абраныя тут колеры і памеры могуць не ўжыцца, калі Вы абераце базавую ці стандартавую тэму Windows 7.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16537,8 +16818,8 @@
       <tuv lang="en">
         <seg>Connect to the Internet</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T172933Z" changeid="Усевалад">
-        <seg>Злучыць з Сецівам</seg>
+      <tuv lang="be" changedate="20101009T172933Z" changeid="eratyk">
+        <seg>Злучыць з сецівам</seg>
       </tuv>
     </tu>
     <tu>
@@ -16810,7 +17091,7 @@
         <seg>Connects to other computers, Internet telnet sites, bulletin board systems, online services, and host computers using either a modem or a null-modem cable.</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T161457Z" changeid="eratyk">
-        <seg>Злучае з іншымі камп'ютарамі, сайтамі Telnet, сістэмамі BBS, службамі Сеціва і хост-камп'ютарамі праз мадэмны ці нуль-мадэмны кабель.</seg>
+        <seg>Злучае з іншымі камп'ютарамі, сайтамі Telnet, сістэмамі BBS, службамі сеціва і хост-камп'ютарамі праз мадэмны ці нуль-мадэмны кабель.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17521,7 +17802,7 @@
       <tuv lang="en">
         <seg>Create Desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155557Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155557Z" changeid="eratyk">
         <seg>Стварыць стальніцу</seg>
       </tuv>
     </tu>
@@ -17889,7 +18170,7 @@
       <tuv lang="en">
         <seg>CriticalAppShutdownCleanupTimeout</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T154113Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T154113Z" changeid="eratyk">
         <seg>CriticalAppShutdownCleanupTimeout</seg>
       </tuv>
     </tu>
@@ -17897,7 +18178,7 @@
       <tuv lang="en">
         <seg>CriticalAppShutdownTimeout</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T154111Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T154111Z" changeid="eratyk">
         <seg>CriticalAppShutdownTimeout</seg>
       </tuv>
     </tu>
@@ -18066,7 +18347,7 @@
         <seg>Cursor</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T060738Z" changeid="eratyk">
-        <seg>Курсор</seg>
+        <seg>Паказальнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -18089,8 +18370,8 @@
       <tuv lang="en">
         <seg>Custom</seg>
       </tuv>
-      <tuv lang="be" changedate="20100915T145440Z" changeid="eratyk">
-        <seg>Карыстальніцкі</seg>
+      <tuv lang="be" changedate="20101011T174354Z" changeid="eratyk">
+        <seg>Замоўны</seg>
       </tuv>
     </tu>
     <tu>
@@ -18113,7 +18394,7 @@
       <tuv lang="en">
         <seg>Custom MS-DOS initialization files</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081907Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081907Z" changeid="eratyk">
         <seg>Файлы ініцыялізацыі MS-DOS</seg>
       </tuv>
     </tu>
@@ -18121,24 +18402,24 @@
       <tuv lang="en">
         <seg>Custom Scan%0</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T064946Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Праверка па выбару%0</seg>
+      <tuv lang="be" changedate="20101011T174206Z" changeid="eratyk">
+        <seg>Замоўная праверка%0</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Custom scan</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T070848Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Выбарковая праверка</seg>
+      <tuv lang="be" changedate="20101011T174123Z" changeid="eratyk">
+        <seg>Замоўная праверка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Custom...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T163450Z" changeid="eratyk">
-        <seg>Выбаркова...</seg>
+      <tuv lang="be" changedate="20101011T174328Z" changeid="eratyk">
+        <seg>Замоўна...</seg>
       </tuv>
     </tu>
     <tu>
@@ -18363,6 +18644,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T162206Z" changeid="eratyk">
         <seg>Выключыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>DPI Scaling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T173133Z" changeid="eratyk">
+        <seg>Разрозненне кропак на цалі</seg>
       </tuv>
     </tu>
     <tu>
@@ -18786,7 +19075,7 @@
         <seg>Definition file</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T135540Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Файл вызначэння:</seg>
+        <seg>Файл азначэння:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18794,7 +19083,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\n&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=96776&quot;&gt;http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090517Z" changeid="eratyk">
-        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіюйце пакет усталёўкі з камп'ютара, які падключаны да Сеціва, на здымны носьбіт, напрыклад, флэш-карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
+        <seg>Абнаўленне вызначэнняў можна знайсці на сайце, які азначаны ніжэй. Скапіюйце пакет усталёўкі з камп'ютара, які злучаны з сецівам, на здымны носьбіт, напрыклад, флэш-карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18802,7 +19091,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\n&lt;a href=\</seg>
       </tuv>
       <tuv lang="be" changedate="20100318T110043Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Абнаўленні вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютара, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\n&lt;a href=\</seg>
+        <seg>Абнаўленні вызначэнняў можна знайсці на сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютара, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\n&lt;a href=\</seg>
       </tuv>
     </tu>
     <tu>
@@ -18810,7 +19099,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090538Z" changeid="eratyk">
-        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіюйце пакет усталёўкі з камп'ютара, які падключаны да Сеціва, на здымны носьбіт, напрыклад, флэш-карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
+        <seg>Абнаўленне вызначэнняў можна знайсці на сайце, які азначаны ніжэй. Скапіюйце пакет усталёўкі з камп'ютара, які злучаны з сецівам, на здымны носьбіт, напрыклад, флэш-карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
       </tuv>
     </tu>
     <tu>
@@ -19065,7 +19354,7 @@
       <tuv lang="en">
         <seg>Desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T154948Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T154948Z" changeid="eratyk">
         <seg>Стальніца</seg>
       </tuv>
     </tu>
@@ -19807,6 +20096,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Disk %1!c!: is write-protected.\nFiles can’t be saved on a write-protected disk.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145256Z" changeid="eratyk">
+        <seg>Дыск %1!c!: абаронены ад запісу.\nФайлы немагчыма захоўваць на такі дыск.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disk Cleanup</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T102009Z" changeid="eratyk">
@@ -20387,7 +20684,7 @@
         <seg>Do you want to allow files from this website to be copied to your computer?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T171419Z" changeid="eratyk">
-        <seg>Жадаеце дазволіць файлам з гэтага вэб-сайта скапіявацца на Ваш камп'ютар?</seg>
+        <seg>Жадаеце дазволіць файлам з гэтага сайта скапіявацца на Ваш камп'ютар?</seg>
       </tuv>
     </tu>
     <tu>
@@ -20395,7 +20692,7 @@
         <seg>Do you want to allow files from this website to run on your computer?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T155035Z" changeid="eratyk">
-        <seg>Жадаеце дазволіць файлам з гэтага вэб-сайта запускацца на Вашым камп'ютары?</seg>
+        <seg>Жадаеце дазволіць файлам з гэтага сайта запускацца на Вашым камп'ютары?</seg>
       </tuv>
     </tu>
     <tu>
@@ -20939,7 +21236,7 @@
         <seg>Downloaded from the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T100710Z" changeid="eratyk">
-        <seg>Спампавана з Сеціва</seg>
+        <seg>Спампавана з сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -21000,6 +21297,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Drag the icons to match your monitors.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171331Z" changeid="eratyk">
+        <seg>Перацягніце значкі на адпаведныя маніторы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dri&amp;ves:</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T104901Z" changeid="eratyk">
@@ -21042,7 +21347,7 @@
       <tuv lang="en">
         <seg>Duplicate desktop on %d and %d</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155447Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155447Z" changeid="eratyk">
         <seg>Падвоіць стальніцу на %d і %d</seg>
       </tuv>
     </tu>
@@ -21634,7 +21939,7 @@
       <tuv lang="en">
         <seg>End Program -</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T150551Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T150551Z" changeid="eratyk">
         <seg>Заканчэнне праграмы -</seg>
       </tuv>
     </tu>
@@ -21666,7 +21971,7 @@
       <tuv lang="en">
         <seg>Ending Program...Please wait</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153711Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153711Z" changeid="eratyk">
         <seg>Заканчэнне праграмы...Пачакайце, калі ласка</seg>
       </tuv>
     </tu>
@@ -21882,7 +22187,7 @@
       <tuv lang="en">
         <seg>Error %1 occurred while initializing known folder %2 with ini file path '%3'.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083130Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083130Z" changeid="eratyk">
         <seg>Памылка %1 адбылася падчас ініцыялізацыі вядомага каталога %2 са шляхам ini-файла '%3'.</seg>
       </tuv>
     </tu>
@@ -21890,7 +22195,7 @@
       <tuv lang="en">
         <seg>Error %1 occurred while initializing known folder %2 with path '%3'.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083215Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083215Z" changeid="eratyk">
         <seg>Памылка %1 адбылася падчас ініцыялізацыі вядомага каталога %2 са шляхам '%3'.</seg>
       </tuv>
     </tu>
@@ -22346,7 +22651,7 @@
       <tuv lang="en">
         <seg>Extend desktop on %d and %d</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155326Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155326Z" changeid="eratyk">
         <seg>Пашырыць стальніцу на %d і %d</seg>
       </tuv>
     </tu>
@@ -22354,7 +22659,7 @@
       <tuv lang="en">
         <seg>Extend desktop to this display</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155317Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155317Z" changeid="eratyk">
         <seg>Пашырыць стальніцу на гэты экран</seg>
       </tuv>
     </tu>
@@ -22426,7 +22731,7 @@
       <tuv lang="en">
         <seg>F</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083821Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083821Z" changeid="eratyk">
         <seg>Ф</seg>
       </tuv>
     </tu>
@@ -22498,7 +22803,7 @@
       <tuv lang="en">
         <seg>Failed to Initialize</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081445Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081445Z" changeid="eratyk">
         <seg>Не атрымалася ініцыялізаваць</seg>
       </tuv>
     </tu>
@@ -22570,7 +22875,7 @@
       <tuv lang="en">
         <seg>Failed to initialize file dialogs. Change the file name and try again.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081742Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081742Z" changeid="eratyk">
         <seg>Не ўдалося ініцыялізаваць дыялог. Змяніце назву файла і паспрабуйце яшчэ.</seg>
       </tuv>
     </tu>
@@ -22578,7 +22883,7 @@
       <tuv lang="en">
         <seg>Failed to initialize print dialogs. Make sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081757Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081757Z" changeid="eratyk">
         <seg>Не ўдалося ініцыялізаваць дыялогі друку. Пераканайцеся, што Ваша друкарка падключаная правільна, і выкарыстайце панэль кіравання для праверкі правільнасці наладаў друкаркі.</seg>
       </tuv>
     </tu>
@@ -22643,7 +22948,7 @@
         <seg>Failed to redirect because there is not enough disk space on the target folder &quot;%s&quot;.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T130331Z" changeid="eratyk">
-        <seg>Не ўдалося перанакіраваць, бо не хапае дыскавай прасторы ў мэтавым каталогу &quot;%s&quot;.</seg>
+        <seg>Не ўдалося перанакіраваць, бо бракуе дыскавай прасторы ў мэтавым каталогу &quot;%s&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23075,7 +23380,7 @@
         <seg>Files from this website are not allowed to run on your computer</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T154750Z" changeid="eratyk">
-        <seg>Файлы з гэтага вэб-сайта забаронена запускаць на Вашым камп'ютары</seg>
+        <seg>Файлы з гэтага сайта забаронена запускаць на Вашым камп'ютары</seg>
       </tuv>
     </tu>
     <tu>
@@ -23251,7 +23556,7 @@
         <seg>Find Internet downloads and links to favorite websites.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T051958Z" changeid="eratyk">
-        <seg>Пошук спамповак з Сеціва і спасылак на абраныя вэб-сайты.</seg>
+        <seg>Пошук спамповак з сеціва і спасылак на абраныя сайты.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23331,7 +23636,7 @@
         <seg>Find information and websites on the Internet.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T074709Z" changeid="eratyk">
-        <seg>Пошук інфармацыі і вэб-сайтаў у Сеціве.</seg>
+        <seg>Пошук інфармацыі і сайтаў у сеціве.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23379,7 +23684,7 @@
         <seg>Finds and displays information and Web sites on the Internet.</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T161957Z" changeid="eratyk">
-        <seg>Знаходзіць і адлюстроўвае інфармацыю і вэб-сайты ў Сеціве.</seg>
+        <seg>Знаходзіць і адлюстроўвае інфармацыю і сайты ў сеціве.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23795,7 +24100,7 @@
         <seg>For more assistance, click Web Help.</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T111659Z" changeid="eratyk">
-        <seg>Для дадатковай дапамогі пстрыкніце 'Вэб-даведка'</seg>
+        <seg>Для дадатковай дапамогі пстрыкніце 'Даведка ў сеціве'</seg>
       </tuv>
     </tu>
     <tu>
@@ -24307,7 +24612,7 @@
         <seg>Get more gadgets online</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T101245Z" changeid="eratyk">
-        <seg>Атрымаць больш гаджэтаў у Сеціве</seg>
+        <seg>Атрымаць больш гаджэтаў у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -24315,7 +24620,7 @@
         <seg>Get more themes online</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T102103Z" changeid="eratyk">
-        <seg>Утрымаць больш тэмаў у Сеціве</seg>
+        <seg>Утрымаць больш тэмаў у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -24323,7 +24628,7 @@
         <seg>Get more tools and the latest security information online.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090407Z" changeid="eratyk">
-        <seg>Атрымаць дадатковыя сродкі і праглядзець апошнія навіны па бяспецы ў Сеціве.</seg>
+        <seg>Атрымаць дадатковыя сродкі і праглядзець апошнія навіны па бяспецы ў сеціве.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24395,7 +24700,7 @@
         <seg>Go online to find out whats new in Windows 7</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T060817Z" changeid="eratyk">
-        <seg>Даведацца ў Сеціве, што новага ў Windows 7</seg>
+        <seg>Даведацца ў сеціве, што новага ў Windows 7</seg>
       </tuv>
     </tu>
     <tu>
@@ -24403,7 +24708,7 @@
         <seg>Go online to get Windows Live Essentials</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T060612Z" changeid="eratyk">
-        <seg>Атрыманне кампанентаў Windows Live у Сеціве</seg>
+        <seg>Атрыманне кампанентаў Windows Live у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -24466,7 +24771,7 @@
       <tuv lang="en">
         <seg>Graphic</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054109Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054109Z" changeid="eratyk">
         <seg>Графіка</seg>
       </tuv>
     </tu>
@@ -25090,15 +25395,15 @@
       <tuv lang="en">
         <seg>High</seg>
       </tuv>
-      <tuv lang="be" changedate="20100311T160658Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Высокі</seg>
+      <tuv lang="be" changedate="20101011T171949Z" changeid="eratyk">
+        <seg>Высока</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>High Contrast</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T153623Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T153623Z" changeid="eratyk">
         <seg>Высокакантрасная</seg>
       </tuv>
     </tu>
@@ -25284,6 +25589,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T104726Z" changeid="eratyk">
         <seg>HyperTerminal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160814Z" changeid="eratyk">
+        <seg>К</seg>
       </tuv>
     </tu>
     <tu>
@@ -25547,7 +25860,7 @@
         <seg>If the program you want is not in the list or on your computer, you can &lt;A ID=&quot;Browse&quot;&gt;look for the appropriate program on the Web&lt;/A&gt;.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T062040Z" changeid="eratyk">
-        <seg>Калі патрэбнай Вам праграмы няма ў спісе ці на Вашым камп'ютары, Вы можаце &lt;A ID=&quot;Browse&quot;&gt;знайсці адпаведную праграму на вэб-сайце&lt;/a&gt; .</seg>
+        <seg>Калі патрэбнай Вам праграмы няма ў спісе ці на Вашым камп'ютары, Вы можаце &lt;A ID=&quot;Browse&quot;&gt;знайсці адпаведную праграму на сайце&lt;/a&gt; .</seg>
       </tuv>
     </tu>
     <tu>
@@ -25586,8 +25899,8 @@
       <tuv lang="en">
         <seg>If you choose to end the program immediately, you will lose any unsaved data. To end the program now, click End Now.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T150844Z" changeid="Усевалад">
-        <seg>Калі Вы абераце неадкладнае заканчэнне праграмы, Вы згубіце ўсе незахаваныя звесткі. Каб закончыць праграму зараз, націсніце &quot;Закончыць зараз&quot;.</seg>
+      <tuv lang="be" changedate="20101009T150844Z" changeid="eratyk">
+        <seg>Калі Вы абераце неадкладнае заканчэнне праграмы, Вы згубіце ўсе незахаваныя звесткі. Каб скончыць праграму зараз, націсніце &quot;Скончыць зараз&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25634,7 +25947,7 @@
       <tuv lang="en">
         <seg>If you force log off you may lose work that you haven't saved.\nDo you still want to force log off?</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152622Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152622Z" changeid="eratyk">
         <seg>Калі Вы прымусова выйдзеце, то можаце страціць незахаваную працу.\nУсё яшчэ жадаеце выйсці прымусова?</seg>
       </tuv>
     </tu>
@@ -25642,7 +25955,7 @@
       <tuv lang="en">
         <seg>If you force restart you may lose work that you haven't saved.\nDo you still want to force restart?</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152710Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152710Z" changeid="eratyk">
         <seg>Калі Вы прымусова перазапусціце камп'ютар, то можаце страціць незахаваную працу.\nУсё яшчэ жадаеце перазапусціць камп'ютар прымусова?</seg>
       </tuv>
     </tu>
@@ -25650,7 +25963,7 @@
       <tuv lang="en">
         <seg>If you force shut down you may lose work that you haven't saved.\nDo you still want to force shutdown?</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151625Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151625Z" changeid="eratyk">
         <seg>Калі Вы прымусова выключыце камп'ютар, то можаце страціць незахаваную працу.\nУсё яшчэ жадаеце выключыць камп'ютар прымусова?</seg>
       </tuv>
     </tu>
@@ -25715,7 +26028,7 @@
         <seg>If you want to put the Internet or E-mail icons back on your Start menu, right-click the Start button, click Properties, click Customize, and select the appropriate check box.</seg>
       </tuv>
       <tuv lang="be" changedate="20100904T191547Z" changeid="eratyk">
-        <seg>Калі Вы пажадаеце вярнуць значкі Сеціва і э-пошты ў Пачатковае меню, пстрыкніце па ім правай клавішай, абярыце &quot;Уласцівасці&quot;, пстрыкніце &quot;Наладзіць&quot; і пастаўце адпаведныя сцяжкі.</seg>
+        <seg>Калі Вы пажадаеце вярнуць значкі сеціва і э-пошты ў Пачатковае меню, пстрыкніце па ім правай клавішай, абярыце &quot;Уласцівасці&quot;, пстрыкніце &quot;Наладзіць&quot; і пастаўце адпаведныя сцяжкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25819,7 +26132,7 @@
         <seg>In Folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T071448Z" changeid="eratyk">
-        <seg>У каталоге</seg>
+        <seg>У каталогу</seg>
       </tuv>
     </tu>
     <tu>
@@ -25906,8 +26219,8 @@
       <tuv lang="en">
         <seg>Include s&amp;ystem directories</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T120645Z" changeid="eratyk">
-        <seg>Уключаць сістэмныя тэчкі</seg>
+      <tuv lang="be" changedate="20101020T062400Z" changeid="eratyk">
+        <seg>Уключаць сістэмныя каталогі</seg>
       </tuv>
     </tu>
     <tu>
@@ -26098,7 +26411,7 @@
       <tuv lang="en">
         <seg>Initialize</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083633Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083633Z" changeid="eratyk">
         <seg>Ініцыялізаваць</seg>
       </tuv>
     </tu>
@@ -26138,7 +26451,7 @@
       <tuv lang="en">
         <seg>Initializing the disc image...</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083038Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083038Z" changeid="eratyk">
         <seg>Ініцыялізацыя выявы кружэлкі...</seg>
       </tuv>
     </tu>
@@ -26146,7 +26459,7 @@
       <tuv lang="en">
         <seg>Initializing...</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083317Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083317Z" changeid="eratyk">
         <seg>Ініцыялізацыя...</seg>
       </tuv>
     </tu>
@@ -26154,7 +26467,7 @@
       <tuv lang="en">
         <seg>Initializing;</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081846Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081846Z" changeid="eratyk">
         <seg>Ініцыялізацыя;</seg>
       </tuv>
     </tu>
@@ -26235,7 +26548,7 @@
         <seg>Insert a new disc\n\n%3 is needed to copy these files. %1 is full. Please insert a new disc to continue copying these files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T064410Z" changeid="eratyk">
-        <seg>Устаўце новы дыск\n\n%3 патрэбна для капіявання гэтых файлаў. На %1 не хапае месца. Калі ласка, устаўце новы дыск для працягу капіявання файлаў.</seg>
+        <seg>Устаўце новы дыск\n\n%3 патрэбна для капіявання гэтых файлаў. На %1 бракуе месца. Калі ласка, устаўце новы дыск для працягу капіявання файлаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26427,7 +26740,7 @@
         <seg>Internet &amp;options...</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T152126Z" changeid="eratyk">
-        <seg>Налады Сеціва...</seg>
+        <seg>Налады сеціва...</seg>
       </tuv>
     </tu>
     <tu>
@@ -26435,7 +26748,7 @@
         <seg>Internet Connection Wizard</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T185638Z" changeid="eratyk">
-        <seg>Дапаможнік злучэння з Сецівам</seg>
+        <seg>Дапаможнік злучэння з сецівам</seg>
       </tuv>
     </tu>
     <tu>
@@ -26483,7 +26796,7 @@
         <seg>Internet Explorer Downloads</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090426Z" changeid="eratyk">
-        <seg>Спампаваныя з Сеціва</seg>
+        <seg>Спампаваныя з сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -26571,7 +26884,7 @@
         <seg>Internet Options</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163836Z" changeid="eratyk">
-        <seg>Налады Сеціва</seg>
+        <seg>Налады сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -26579,7 +26892,7 @@
         <seg>Internet P&amp;roperties</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T112920Z" changeid="eratyk">
-        <seg>Уласцівасці Сеціва</seg>
+        <seg>Уласцівасці сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -26587,7 +26900,7 @@
         <seg>Internet Services Manager</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T105244Z" changeid="eratyk">
-        <seg>Кіраўнік службаў Сеціва</seg>
+        <seg>Кіраўнік службаў сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -26595,7 +26908,7 @@
         <seg>Internet access</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053710Z" changeid="eratyk">
-        <seg>Доступ да Сеціва</seg>
+        <seg>Доступ да сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -26603,14 +26916,14 @@
         <seg>Internet and domain access</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053849Z" changeid="eratyk">
-        <seg>Доступ да Сеціва і дамена</seg>
+        <seg>Доступ да сеціва і дамена</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Intializing current instance of the application</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081435Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081435Z" changeid="eratyk">
         <seg>Ініцыялізацыя бягучага асобніка праграмы</seg>
       </tuv>
     </tu>
@@ -27096,6 +27409,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Language Bar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074312Z" changeid="eratyk">
+        <seg>Моўная паліца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Language Neutral$$$$$$$Default</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T200707Z" changeid="eratyk">
@@ -27531,7 +27852,7 @@
         <seg>Link online IDs</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T120119Z" changeid="eratyk">
-        <seg>Спалучэнне ID карыстальнікаў Сеціва</seg>
+        <seg>Спалучэнне ID карыстальнікаў сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -27578,7 +27899,7 @@
       <tuv lang="en">
         <seg>Listening to %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T165004Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T165004Z" changeid="eratyk">
         <seg>Праслухоўванне на %1</seg>
       </tuv>
     </tu>
@@ -28042,8 +28363,8 @@
       <tuv lang="en">
         <seg>Low</seg>
       </tuv>
-      <tuv lang="be" changedate="20100311T160648Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Нізкі</seg>
+      <tuv lang="be" changedate="20101011T171945Z" changeid="eratyk">
+        <seg>Нізка</seg>
       </tuv>
     </tu>
     <tu>
@@ -28122,7 +28443,7 @@
       <tuv lang="en">
         <seg>Ma&amp;ximize</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055512Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055512Z" changeid="eratyk">
         <seg>Разгарнуць</seg>
       </tuv>
     </tu>
@@ -28186,7 +28507,7 @@
       <tuv lang="en">
         <seg>Main &amp;Volume</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163713Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163713Z" changeid="eratyk">
         <seg>Галоўная гучнасць</seg>
       </tuv>
     </tu>
@@ -28267,7 +28588,7 @@
         <seg>Make sure that you have an active connection to the Internet before choosing this option.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T085514Z" changeid="eratyk">
-        <seg>Пераканайцеся, што Вы не падключаныя да Сеціва, перад выбарам гэтага параметра. </seg>
+        <seg>Пераканайцеся, што Вы не падключаныя да сеціва, перад выбарам гэтага параметра. </seg>
       </tuv>
     </tu>
     <tu>
@@ -28363,7 +28684,7 @@
         <seg>Manage Information Cards that are used to log on to online services</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T162627Z" changeid="eratyk">
-        <seg>Кіраваць інфармацыйнымі карткамі для злучэння з службамі Сеціва</seg>
+        <seg>Кіраваць інфармацыйнымі карткамі для злучэння з службамі сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -28443,7 +28764,7 @@
         <seg>Manage web passwords</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T082255Z" changeid="eratyk">
-        <seg>Кіраванне вэб-паролямі</seg>
+        <seg>Кіраванне сеціўнымі паролямі</seg>
       </tuv>
     </tu>
     <tu>
@@ -28499,7 +28820,7 @@
         <seg>Manually browse my system for definition updates</seg>
       </tuv>
       <tuv lang="be" changedate="20100318T104438Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Пошук абнаўленняў вызначэнняў у ручную</seg>
+        <seg>Пошук абнаўленняў вызначэнняў уручную</seg>
       </tuv>
     </tu>
     <tu>
@@ -28754,7 +29075,7 @@
       <tuv lang="en">
         <seg>Mi&amp;nimize</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055501Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055501Z" changeid="eratyk">
         <seg>Згарнуць</seg>
       </tuv>
     </tu>
@@ -28762,7 +29083,7 @@
       <tuv lang="en">
         <seg>Mi&amp;xer</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163732Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163732Z" changeid="eratyk">
         <seg>Змяшальнік</seg>
       </tuv>
     </tu>
@@ -28906,7 +29227,7 @@
       <tuv lang="en">
         <seg>Microsoft-Windows-AudioUI</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163029Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163029Z" changeid="eratyk">
         <seg>Microsoft-Windows-AudioUI</seg>
       </tuv>
     </tu>
@@ -29082,7 +29403,7 @@
       <tuv lang="en">
         <seg>Microsoft-Windows-ThemeCPL</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201323Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201323Z" changeid="eratyk">
         <seg>Microsoft-Windows-ThemeCPL</seg>
       </tuv>
     </tu>
@@ -29122,7 +29443,7 @@
       <tuv lang="en">
         <seg>Microsoft-Windows-Winsrv</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152830Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152830Z" changeid="eratyk">
         <seg>Microsoft-Windows-Winsrv</seg>
       </tuv>
     </tu>
@@ -29244,6 +29565,14 @@
       </tuv>
       <tuv lang="be" changedate="20100726T130503Z" changeid="eratyk">
         <seg>Панядзелак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Monitor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T171021Z" changeid="eratyk">
+        <seg>Манітор</seg>
       </tuv>
     </tu>
     <tu>
@@ -29618,7 +29947,7 @@
       <tuv lang="en">
         <seg>Mute %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164427Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164427Z" changeid="eratyk">
         <seg>Выключыць гук %1</seg>
       </tuv>
     </tu>
@@ -29626,7 +29955,7 @@
       <tuv lang="en">
         <seg>Mute for %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164454Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164454Z" changeid="eratyk">
         <seg>Выключыць гук %1</seg>
       </tuv>
     </tu>
@@ -29714,7 +30043,7 @@
       <tuv lang="en">
         <seg>N</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083825Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083825Z" changeid="eratyk">
         <seg>Н</seg>
       </tuv>
     </tu>
@@ -29738,7 +30067,7 @@
       <tuv lang="en">
         <seg>NESW size</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054455Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054455Z" changeid="eratyk">
         <seg>Памер ПнУПдЗ</seg>
       </tuv>
     </tu>
@@ -29762,7 +30091,7 @@
       <tuv lang="en">
         <seg>NWSE size</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054255Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054255Z" changeid="eratyk">
         <seg>Памер ПнЗПдУ</seg>
       </tuv>
     </tu>
@@ -29778,7 +30107,7 @@
       <tuv lang="en">
         <seg>Name Not Available</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164524Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164524Z" changeid="eratyk">
         <seg>Назва недаступная</seg>
       </tuv>
     </tu>
@@ -30043,7 +30372,7 @@
         <seg>Network and Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T113928Z" changeid="eratyk">
-        <seg>Сетка і Сеціва</seg>
+        <seg>Сетка і сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -30306,7 +30635,7 @@
       <tuv lang="en">
         <seg>Nex&amp;t\tCtrl+F6</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055713Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055713Z" changeid="eratyk">
         <seg>Наступнае\tCtrl+F6</seg>
       </tuv>
     </tu>
@@ -30338,7 +30667,7 @@
       <tuv lang="en">
         <seg>No Audio Output Device is enabled.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162848Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162848Z" changeid="eratyk">
         <seg>Прылада аўдыявыхаду не ўключаная.</seg>
       </tuv>
     </tu>
@@ -30346,7 +30675,7 @@
       <tuv lang="en">
         <seg>No Audio Output Device is installed.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162719Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162719Z" changeid="eratyk">
         <seg>Прылада аўдыявыхаду не ўсталяваная.</seg>
       </tuv>
     </tu>
@@ -30355,7 +30684,7 @@
         <seg>No Internet access</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053806Z" changeid="eratyk">
-        <seg>Без доступу да Сеціва</seg>
+        <seg>Без доступу да сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -30378,7 +30707,7 @@
       <tuv lang="en">
         <seg>No audio device is installed</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164314Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164314Z" changeid="eratyk">
         <seg>Гукавая прылада не ўсталяваная</seg>
       </tuv>
     </tu>
@@ -30530,7 +30859,7 @@
       <tuv lang="en">
         <seg>No speakers or headphones are plugged in.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162827Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162827Z" changeid="eratyk">
         <seg>Дынамікі ці слухаўкі не падключаныя.</seg>
       </tuv>
     </tu>
@@ -30586,7 +30915,7 @@
       <tuv lang="en">
         <seg>Normal</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054036Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054036Z" changeid="eratyk">
         <seg>Звычайны</seg>
       </tuv>
     </tu>
@@ -30674,7 +31003,7 @@
       <tuv lang="en">
         <seg>Not available</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164554Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164554Z" changeid="eratyk">
         <seg>Недаступна</seg>
       </tuv>
     </tu>
@@ -30715,7 +31044,7 @@
         <seg>Not enough hard disk space</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T093645Z" changeid="eratyk">
-        <seg>Не хапае прасторы на раздзеле дыска</seg>
+        <seg>Бракуе прасторы на раздзеле дыска</seg>
       </tuv>
     </tu>
     <tu>
@@ -30874,7 +31203,7 @@
       <tuv lang="en">
         <seg>O</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083830Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083830Z" changeid="eratyk">
         <seg>А</seg>
       </tuv>
     </tu>
@@ -30930,7 +31259,7 @@
       <tuv lang="en">
         <seg>OLE initialization failed</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081456Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081456Z" changeid="eratyk">
         <seg>Не атрымалася ініцыялізаваць OLE</seg>
       </tuv>
     </tu>
@@ -30938,7 +31267,7 @@
       <tuv lang="en">
         <seg>OLE initialization failed.  WordPad can't continue.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081419Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081419Z" changeid="eratyk">
         <seg>Не ўдалося ініцыялізаваць OLE. WordPad не можа працягваць працу.</seg>
       </tuv>
     </tu>
@@ -31298,7 +31627,7 @@
       <tuv lang="en">
         <seg>One or more of the settings on this page has been disabled by the system administrator.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T154115Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T154115Z" changeid="eratyk">
         <seg>Адна ці болей з наладаў на гэтай старонцы былі выключаныя сістэмным адміністратарам.</seg>
       </tuv>
     </tu>
@@ -31306,7 +31635,7 @@
       <tuv lang="en">
         <seg>One or more of the themes has been disabled by Remote Desktop Connection settings.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T154922Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T154922Z" changeid="eratyk">
         <seg>Адна ці болей з гэтых тэмаў былі выключаныя ў адпаведнасці з наладамі злучэння з аддаленай стальніцай.</seg>
       </tuv>
     </tu>
@@ -31355,7 +31684,7 @@
         <seg>Online Services</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T105254Z" changeid="eratyk">
-        <seg>Службы Сеціва</seg>
+        <seg>Службы сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -31490,7 +31819,7 @@
       <tuv lang="en">
         <seg>Open Volume &amp;Mixer</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162132Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162132Z" changeid="eratyk">
         <seg>Адчыніць змяшальнік гучнасці</seg>
       </tuv>
     </tu>
@@ -31698,8 +32027,8 @@
       <tuv lang="en">
         <seg>Open the website to view all search results.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T095336Z" changeid="eratyk">
-        <seg>Адчыненне вэб-сайта для прагляду ўсіх вынікаў пошуку.</seg>
+      <tuv lang="be" changedate="20101020T061742Z" changeid="eratyk">
+        <seg>Адчыненне сайта для прагляду ўсіх вынікаў пошуку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31859,7 +32188,7 @@
         <seg>Opens a program, folder, document, or web site.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T074626Z" changeid="eratyk">
-        <seg>Адчыняе праграму, каталог, дакумент альбо вэб-сайт.</seg>
+        <seg>Адчыняе праграму, каталог, дакумент альбо сайт.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32224,6 +32553,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>P&amp;rimary</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160051Z" changeid="eratyk">
+        <seg>Галоўны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>P&amp;rint</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092218Z" changeid="eratyk">
@@ -32450,8 +32787,8 @@
       <tuv lang="en">
         <seg>Paper jam;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T144213Z" changeid="eratyk">
-        <seg>Заела папера;</seg>
+      <tuv lang="be" changedate="20101014T145150Z" changeid="eratyk">
+        <seg>Заціск паперы;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32642,7 +32979,7 @@
       <tuv lang="en">
         <seg>PauseSlideshow</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201310Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201310Z" changeid="eratyk">
         <seg>Прыпыніць паказ слайдаў</seg>
       </tuv>
     </tu>
@@ -32962,7 +33299,7 @@
       <tuv lang="en">
         <seg>Picture &amp;location:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200423Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200423Z" changeid="eratyk">
         <seg>Размяшчэнне малюнка:</seg>
       </tuv>
     </tu>
@@ -32970,7 +33307,7 @@
       <tuv lang="en">
         <seg>Picture &amp;position:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200457Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200457Z" changeid="eratyk">
         <seg>Пазіцыя малюнка:</seg>
       </tuv>
     </tu>
@@ -32978,7 +33315,7 @@
       <tuv lang="en">
         <seg>Picture Location</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200429Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200429Z" changeid="eratyk">
         <seg>Размяшчэнне малюнка</seg>
       </tuv>
     </tu>
@@ -33834,7 +34171,7 @@
       <tuv lang="en">
         <seg>Primary desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155309Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155309Z" changeid="eratyk">
         <seg>Галоўная стальніца</seg>
       </tuv>
     </tu>
@@ -34058,7 +34395,7 @@
       <tuv lang="en">
         <seg>ProcessTerminateTimeout</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153821Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153821Z" changeid="eratyk">
         <seg>ProcessTerminateTimeout</seg>
       </tuv>
     </tu>
@@ -34344,6 +34681,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Provides user experience theme management.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T155711Z" changeid="eratyk">
+        <seg>Дастаўляе кіраванне тэмамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Proxy</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T161911Z" changeid="eratyk">
@@ -34578,7 +34923,7 @@
       <tuv lang="en">
         <seg>QuickResolverTimeout</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153511Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153511Z" changeid="eratyk">
         <seg>QuickResolverTimeout</seg>
       </tuv>
     </tu>
@@ -34723,7 +35068,7 @@
         <seg>Read the privacy statement online</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T105921Z" changeid="eratyk">
-        <seg>Чытаць заяву пра прыватнасць у Сеціве</seg>
+        <seg>Чытаць заяву пра прыватнасць у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -35210,7 +35555,7 @@
       <tuv lang="en">
         <seg>Remote Desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155002Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155002Z" changeid="eratyk">
         <seg>Аддаленая стальніца</seg>
       </tuv>
     </tu>
@@ -35219,7 +35564,7 @@
         <seg>Remote Desktop Connection</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T080650Z" changeid="eratyk">
-        <seg>Злучэнне з аддаленым стальцом</seg>
+        <seg>Злучэнне з аддаленай стальніцай</seg>
       </tuv>
     </tu>
     <tu>
@@ -35682,7 +36027,7 @@
       <tuv lang="en">
         <seg>Request for Connection</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153833Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153833Z" changeid="eratyk">
         <seg>Запыт на злучэнне</seg>
       </tuv>
     </tu>
@@ -36570,7 +36915,7 @@
       <tuv lang="en">
         <seg>S</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083835Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083835Z" changeid="eratyk">
         <seg>З</seg>
       </tuv>
     </tu>
@@ -36722,7 +37067,7 @@
       <tuv lang="en">
         <seg>SQM</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201318Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201318Z" changeid="eratyk">
         <seg>SQM</seg>
       </tuv>
     </tu>
@@ -37522,7 +37867,7 @@
       <tuv lang="en">
         <seg>Scroll Here</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055750Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055750Z" changeid="eratyk">
         <seg>Прагарнуць сюды</seg>
       </tuv>
     </tu>
@@ -37530,7 +37875,7 @@
       <tuv lang="en">
         <seg>Scroll Left</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055802Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055802Z" changeid="eratyk">
         <seg>Прагарнуць улева</seg>
       </tuv>
     </tu>
@@ -37538,7 +37883,7 @@
       <tuv lang="en">
         <seg>Scroll Right</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T055815Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T055815Z" changeid="eratyk">
         <seg>Прагарнуць управа</seg>
       </tuv>
     </tu>
@@ -37715,7 +38060,7 @@
         <seg>Search Internet library</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T134915Z" changeid="eratyk">
-        <seg>Шукаць па бібліятэцы Сеціва</seg>
+        <seg>Шукаць па бібліятэцы сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -37826,7 +38171,7 @@
       <tuv lang="en">
         <seg>Search failed to initialize.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081727Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081727Z" changeid="eratyk">
         <seg>Не атрымалася ініцыялізаваць пошук.</seg>
       </tuv>
     </tu>
@@ -37906,8 +38251,8 @@
       <tuv lang="en">
         <seg>Search on website</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T095252Z" changeid="eratyk">
-        <seg>Пошук на вэб-сайце</seg>
+      <tuv lang="be" changedate="20101020T061828Z" changeid="eratyk">
+        <seg>Пошук на сайце</seg>
       </tuv>
     </tu>
     <tu>
@@ -37939,7 +38284,7 @@
         <seg>Search the &amp;Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T194339Z" changeid="eratyk">
-        <seg>Шукаць у Сеціве</seg>
+        <seg>Шукаць у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -37971,7 +38316,7 @@
         <seg>Search the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T090650Z" changeid="eratyk">
-        <seg>Пошук па Сеціве</seg>
+        <seg>Пошук па сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -38043,7 +38388,7 @@
         <seg>Searching internet for</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T125113Z" changeid="eratyk">
-        <seg>Пошук у Сеціве</seg>
+        <seg>Пошук у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -38560,6 +38905,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select the language to add using the checkboxes below.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101020T074241Z" changeid="eratyk">
+        <seg>Абярыце мову для дадання праз усталяванне сцяжкоў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select the option that best describes why you want to shut down the computer</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T131434Z" changeid="eratyk">
@@ -38650,7 +39003,7 @@
       <tuv lang="en">
         <seg>Select which devices show their own volume control</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163924Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163924Z" changeid="eratyk">
         <seg>Абярыце прылады, якія адлюстроўваюць уласнае кіраванне гучнасцю.</seg>
       </tuv>
     </tu>
@@ -38676,6 +39029,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T100657Z" changeid="eratyk">
         <seg>Абярыце магчымасць пераносу тэксту, каб змяніць выгляд яго адлюстравання на Вашым экране. Гэта не паўплывае на вонкавы выгляд надрукаванага дакумента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selected</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T155916Z" changeid="eratyk">
+        <seg>Абрана</seg>
       </tuv>
     </tu>
     <tu>
@@ -39115,7 +39476,7 @@
         <seg>Set up a new connection with RemoteApp and Desktop Connections</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T164208Z" changeid="eratyk">
-        <seg>Усталяваць новае злучэння праз злучэнне з аддаленымі App і стальцом</seg>
+        <seg>Усталяваць новае злучэння праз злучэнне з аддаленымі App і стальніцай</seg>
       </tuv>
     </tu>
     <tu>
@@ -39162,7 +39523,7 @@
       <tuv lang="en">
         <seg>Set up iSCSI initiator</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083115Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083115Z" changeid="eratyk">
         <seg>Наладзіць ініцыятар iSCSI</seg>
       </tuv>
     </tu>
@@ -39203,7 +39564,7 @@
         <seg>Sets up your computer to access the Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T161906Z" changeid="eratyk">
-        <seg>Наладжвае камп'ютар для доступу да Сеціва.</seg>
+        <seg>Наладжвае камп'ютар для доступу да сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39378,7 +39739,7 @@
       <tuv lang="en">
         <seg>ShellContextMenu</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162100Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162100Z" changeid="eratyk">
         <seg>ShellContextMenu</seg>
       </tuv>
     </tu>
@@ -39546,7 +39907,7 @@
       <tuv lang="en">
         <seg>Show Application Volume Controls for %s</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164856Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164856Z" changeid="eratyk">
         <seg>Адлюстраваць элементы кіравання гучнасцю для &quot;%s&quot;</seg>
       </tuv>
     </tu>
@@ -39626,7 +39987,7 @@
       <tuv lang="en">
         <seg>Show desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155258Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155258Z" changeid="eratyk">
         <seg>Адлюстраваць стальніцу</seg>
       </tuv>
     </tu>
@@ -39642,7 +40003,7 @@
       <tuv lang="en">
         <seg>Show desktop only on %d</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155458Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155458Z" changeid="eratyk">
         <seg>Адлюстраваць стальніцу толькі на %d</seg>
       </tuv>
     </tu>
@@ -39771,7 +40132,7 @@
         <seg>Show or hide common icons on the desktop</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T071251Z" changeid="eratyk">
-        <seg>Паказваць ці хаваць звычайныя значкі на стальцы</seg>
+        <seg>Паказваць ці хаваць звычайныя значкі на стальніцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -39795,7 +40156,7 @@
         <seg>Show or hide ruler. You can use ruler to measure and line up text and objects in the document.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T100216Z" changeid="eratyk">
-        <seg>Паказаць ці схаваць лінейку. Вы можаце карыстаць яе каб вымяраць і выраўноўваць тэкст і аб'екты дакумента.</seg>
+        <seg>Паказаць ці схаваць лінейку. Вы можаце карыстаць яе, каб вымяраць і выраўноўваць тэкст і аб'екты дакумента.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40171,7 +40532,7 @@
         <seg>Shows shortcuts to websites, network computers, and FTP sites.</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T094640Z" changeid="eratyk">
-        <seg>Адлюстроўвае цэтлікі вэб-сайтаў, сеткавых камп'ютараў і FTP-сайтаў.</seg>
+        <seg>Адлюстроўвае цэтлікі сайтаў, сеткавых камп'ютараў і FTP-сайтаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40187,7 +40548,7 @@
         <seg>Shows the files, folders, program shortcuts, and other items on the desktop.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T112902Z" changeid="eratyk">
-        <seg>Адлюстроўвае файлы, каталогі, цэтлікі праграм і іншыя элементы на стальцы.</seg>
+        <seg>Адлюстроўвае файлы, каталогі, цэтлікі праграм і іншыя элементы на стальніцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40210,7 +40571,7 @@
       <tuv lang="en">
         <seg>Shuffle</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201121Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201121Z" changeid="eratyk">
         <seg>Перамяшаць</seg>
       </tuv>
     </tu>
@@ -40218,7 +40579,7 @@
       <tuv lang="en">
         <seg>Shuffle pictures in the slide show.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201202Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T201202Z" changeid="eratyk">
         <seg>Перамяшаць малюнкі паказу слайдаў.</seg>
       </tuv>
     </tu>
@@ -40368,6 +40729,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Siz&amp;e:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160746Z" changeid="eratyk">
+        <seg>Памер:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Size</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T071457Z" changeid="eratyk">
@@ -40474,7 +40843,7 @@
       <tuv lang="en">
         <seg>Slide Show</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T153633Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T153633Z" changeid="eratyk">
         <seg>Паказ слайдаў</seg>
       </tuv>
     </tu>
@@ -40610,7 +40979,7 @@
       <tuv lang="en">
         <seg>Solid Color</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T153648Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T153648Z" changeid="eratyk">
         <seg>Суцэльны колер</seg>
       </tuv>
     </tu>
@@ -40707,7 +41076,7 @@
         <seg>Some gadgets access the Internet.  For more information, see the privacy statement online.</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T105900Z" changeid="eratyk">
-        <seg>Некаторыя гаджэты патрабуюць доступу да Сеціва.  Для дадатковай інфармацыі, праглядзіце заяву пра прыватнасць у Сеціве.</seg>
+        <seg>Некаторыя гаджэты патрабуюць доступу да сеціва.  Для дадатковай інфармацыі, праглядзіце заяву пра прыватнасць у сеціве.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40938,7 +41307,7 @@
       <tuv lang="en">
         <seg>Sound devices:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164323Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164323Z" changeid="eratyk">
         <seg>Гукавыя прылады:</seg>
       </tuv>
     </tu>
@@ -41546,7 +41915,7 @@
       <tuv lang="en">
         <seg>Success</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153424Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153424Z" changeid="eratyk">
         <seg>Поспех</seg>
       </tuv>
     </tu>
@@ -41850,7 +42219,7 @@
       <tuv lang="en">
         <seg>System Error</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153502Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153502Z" changeid="eratyk">
         <seg>Памылка сістэмы</seg>
       </tuv>
     </tu>
@@ -41922,7 +42291,7 @@
       <tuv lang="en">
         <seg>System Warning</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153450Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153450Z" changeid="eratyk">
         <seg>Папярэджванне сістэмы</seg>
       </tuv>
     </tu>
@@ -42243,7 +42612,7 @@
         <seg>Tell if an RSS feed is available on a website</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T100250Z" changeid="eratyk">
-        <seg>Казаць, калі навіны RSS даступныя на вэб-сайце</seg>
+        <seg>Казаць, калі навіны RSS даступныя на сайце</seg>
       </tuv>
     </tu>
     <tu>
@@ -42266,7 +42635,7 @@
       <tuv lang="en">
         <seg>Temporarily view the desktop when you move your mouse to the Show desktop button at end of the taskbar.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155145Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155145Z" changeid="eratyk">
         <seg>Часовы прагляд стальніцы падчас навядзення паказальніка на кнопку &quot;Адлюстраваць стальніцу&quot; напрыканцы паліцы задач.</seg>
       </tuv>
     </tu>
@@ -42482,7 +42851,7 @@
       <tuv lang="en">
         <seg>The Audio Service is not running.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162629Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T162629Z" changeid="eratyk">
         <seg>Аўдыяслужба не запушчаная.</seg>
       </tuv>
     </tu>
@@ -42795,14 +43164,14 @@
         <seg>The contents of this folder will not be deleted. You can restore this icon to the desktop by right-clicking on its icon in the Start menu.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T071004Z" changeid="eratyk">
-        <seg>Змесціва гэтага каталога не будзе выдаленае. Вы можаце аднавіць гэты значак на стальцы, калі клікнеце правай клавішай мышы па ёй у Пачатковым меню.</seg>
+        <seg>Змесціва гэтага каталога не будзе выдаленае. Вы можаце аднавіць гэты значак на стальніцы, калі пстрыкніце правай клавішай мышы па ёй у Пачатковым меню.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>The default &amp;communication device</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164238Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164238Z" changeid="eratyk">
         <seg>Перадвызначаная прылада сувязі</seg>
       </tuv>
     </tu>
@@ -42810,7 +43179,7 @@
       <tuv lang="en">
         <seg>The default sound device will always show its own volume control.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164304Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164304Z" changeid="eratyk">
         <seg>Перадвызначаная гукавая прылада заўсёды адлюстроўвае уласнае кіраванне гучнасцю.</seg>
       </tuv>
     </tu>
@@ -42859,7 +43228,7 @@
         <seg>The disc doesn't have enough free space for all of the selected files. Remove some files or insert another disc with more space, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T082329Z" changeid="eratyk">
-        <seg>На кружэлцы не хапае вольнай прасторы для ўсіх абраных файлаў. Прыбярыце некаторыя файлы ці ўстаўце кружэлку з большай вольнай прасторай і паўтарыце спробу.</seg>
+        <seg>На кружэлцы бракуе вольнай прасторы для ўсіх абраных файлаў. Прыбярыце некаторыя файлы ці ўстаўце кружэлку з большай вольнай прасторай і паўтарыце спробу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43112,6 +43481,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The file can’t be saved to %1 because there is not enough space.  Free up space and try again, or try saving to another location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145417Z" changeid="eratyk">
+        <seg>Файл не можа быць захаваны на %1 з-за нястачы вольнай прасторы.  Вызваліце прастору і паўтарыце спробу ці паспрабуйце захаваць у іншым размяшчэнні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The file name &quot;%1!s!&quot; contains a semicolon (;) and the file can't be burned to a disc.\n\nDo you want this copy of the file to be renamed automatically, and then burned to disc?</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T094209Z" changeid="eratyk">
@@ -43203,7 +43580,7 @@
         <seg>The file was not downloaded because the server where the file is stored redirected the request to a web page.\n\nThis might be because the file is unavailable, or because you dont have permission to access it.</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T100814Z" changeid="eratyk">
-        <seg>Файл не спампаваны, бо яго сервер перанакіраваў запыт на вэб-старонку.\n\nТакое можа быць, калі файл недаступны, альбо калі Вы не маеце дазволу на доступ да яго.</seg>
+        <seg>Файл не спампаваны, бо яго сервер перанакіраваў запыт на старонку сеціва.\n\nТакое можа быць, калі файл недаступны, альбо калі Вы не маеце дазволу на доступ да яго.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43402,7 +43779,7 @@
       <tuv lang="en">
         <seg>The following application attempted to veto the shutdown: %1.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152934Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152934Z" changeid="eratyk">
         <seg>Наступная праграма спрабавала накласці вета на выключэнне: %1.</seg>
       </tuv>
     </tu>
@@ -43410,7 +43787,7 @@
       <tuv lang="en">
         <seg>The following application was terminated because it was hung: %1.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153038Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153038Z" changeid="eratyk">
         <seg>Наступная праграма была скончаная з-за завісання: %1.</seg>
       </tuv>
     </tu>
@@ -43418,7 +43795,7 @@
       <tuv lang="en">
         <seg>The following programs need to close:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T150934Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T150934Z" changeid="eratyk">
         <seg>Патрэбна зачыніць наступныя праграмы:</seg>
       </tuv>
     </tu>
@@ -44018,7 +44395,7 @@
       <tuv lang="en">
         <seg>The system cannot end this program because it is waiting for a response from you.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153814Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153814Z" changeid="eratyk">
         <seg>Сістэма не можа скончыць гэтую праграму, бо яна чакае ад Вас адказу.</seg>
       </tuv>
     </tu>
@@ -44500,7 +44877,7 @@
         <seg>There is not enough free memory to run this program. Exit one or more programs, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T202724Z" changeid="eratyk">
-        <seg>Не хапае вольнай памяці каб запусціць праграму. Зачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
+        <seg>Бракуе вольнай памяці, каб запусціць праграму. Зачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44508,7 +44885,7 @@
         <seg>There is not enough free memory.\n\nQuit one or more programs, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T072536Z" changeid="eratyk">
-        <seg>Не хапае вольнай памяці.\n\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
+        <seg>Бракуе вольнай памяці.\n\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44516,7 +44893,7 @@
         <seg>There is not enough memory available to perform this task.\nExit one or more programs, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100714T091718Z" changeid="eratyk">
-        <seg>Не хапае памяці для выканання гэтай задачы.\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
+        <seg>Бракуе памяці для выканання гэтай задачы.\nЗачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44548,7 +44925,7 @@
         <seg>There is not enough space on %1. You need an additional %3 to copy these files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T100849Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1.Вам патрэбна дадаткова %3, каб скапіяваць гэтыя файлы.</seg>
+        <seg>Бракуе прасторы на %1.Вам патрэбна дадаткова %3, каб скапіяваць гэтыя файлы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44556,7 +44933,7 @@
         <seg>There is not enough space on %1.\n\n%3 is needed to move this item. Delete or move files so you have enough space.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T200352Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1.\n\n%3 неабходна для перамяшчэння элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
+        <seg>Бракуе прасторы на %1.\n\n%3 неабходна для перамяшчэння элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44564,7 +44941,7 @@
         <seg>There is not enough space on %1.\n\nYou need an additional %3 to copy these files.\nDisk Cleanup can help delete unneeded files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T101020Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1.\n\nВам патрэбна дадаткова %3, каб скапіяваць гэтыя файлы.\nЧыстка дыска можа дапамагчы пазбавіцца ад непатрэбных файлаў.</seg>
+        <seg>Бракуе прасторы на %1.\n\nВам патрэбна дадаткова %3, каб скапіяваць гэтыя файлы.\nЧыстка дыска можа дапамагчы пазбавіцца ад непатрэбных файлаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44572,7 +44949,7 @@
         <seg>There is not enough space on %1\n\n%3 is needed to copy this item. Delete or move files so you have enough space.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T200014Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1\n\n%3 неабходна для капіявання элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
+        <seg>Бракуе прасторы на %1\n\n%3 неабходна для капіявання элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44580,7 +44957,7 @@
         <seg>There is not enough space on %1\n\n%3 is needed to move this item. Delete or move files so you have enough space.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T200215Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1\n\n%3 неабходна для перамяшчэння элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
+        <seg>Бракуе прасторы на %1\n\n%3 неабходна для перамяшчэння элемента. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44588,7 +44965,7 @@
         <seg>There is not enough space on %1\n\n%3 is needed to perform this operation. Delete or move files so you have enough space.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T200437Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1\n\n%3 неабходна для выканання аперацыі. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
+        <seg>Бракуе прасторы на %1\n\n%3 неабходна для выканання аперацыі. Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44596,7 +44973,7 @@
         <seg>There is not enough space on %1\n\n%3 is needed to recycle this item. Click Delete to delete the file instead of sending it to the Recycle Bin.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T101538Z" changeid="eratyk">
-        <seg>Не хапае прасторы на %1\n\n%3 неабходна для перамяшчэння файла ў сметніцу. Націсніце 'Выдаліць', каб выдаліць файл не перамяшчаючы яго ў сметніцу.</seg>
+        <seg>Бракуе прасторы на %1\n\n%3 неабходна для перамяшчэння файла ў сметніцу. Націсніце 'Выдаліць', каб выдаліць файл не перамяшчаючы яго ў сметніцу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44684,7 +45061,7 @@
         <seg>There was not enough space for this item:</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T094204Z" changeid="eratyk">
-        <seg>Не хапае прасторы для гэтага элемента:</seg>
+        <seg>Бракуе прасторы для гэтага элемента:</seg>
       </tuv>
     </tu>
     <tu>
@@ -44876,7 +45253,7 @@
         <seg>This disc doesn't have enough free space for all the selected files.\n\nSpace needed to burn: %1!10s!\nFree space on disc: %2!10s!\n\nYou should remove files or insert a disc with more available space, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T063531Z" changeid="eratyk">
-        <seg>На гэтай кружэлцы не хапае вольнай прасторы для ўсіх абраных файлаў.\n\nНеабходная прастора на кружэлцы: %1!10s!\nВольная прастора на кружэлцы: %2!10s!\n\nВы павінны прыбраць некаторыя файлы ці ўставіць кружэлку з большай вольнай прасторай і паўтарыць спробу.</seg>
+        <seg>На гэтай кружэлцы бракуе вольнай прасторы для ўсіх абраных файлаў.\n\nНеабходная прастора на кружэлцы: %1!10s!\nВольная прастора на кружэлцы: %2!10s!\n\nВы павінны прыбраць некаторыя файлы ці ўставіць кружэлку з большай вольнай прасторай і паўтарыць спробу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45212,7 +45589,7 @@
         <seg>This is not a trusted website.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T154817Z" changeid="eratyk">
-        <seg>Гэты вэб-сайт ненадзейны.</seg>
+        <seg>Гэты сайт ненадзейны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45476,7 +45853,7 @@
         <seg>This program changes Web page links.</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T140939Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма змяняе спасылкі вэб-старонкі.</seg>
+        <seg>Гэта праграма змяняе спасылкі старонкі сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45572,7 +45949,7 @@
         <seg>This program connects to the Internet in the background.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090251Z" changeid="eratyk">
-        <seg>Гэта праграма падключаецца да Сеціва ў фоне.</seg>
+        <seg>Гэта праграма падключаецца да сеціва ў фоне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45652,7 +46029,7 @@
         <seg>This program displays advertisements and may be difficult to remove.</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T134810Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма адлюстроўвае рэкламу і каб яе выдаліць трэба прыкласці намаганні.</seg>
+        <seg>Гэта праграма адлюстроўвае рэкламу, і каб яе выдаліць, трэба прыкласці намаганні.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45676,7 +46053,7 @@
         <seg>This program displays advertisements based on Web browsing habits.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090227Z" changeid="eratyk">
-        <seg>Гэта праграма адлюстроўвае рэкламу на падставе Вашых пераваг Сеціва.</seg>
+        <seg>Гэта праграма адлюстроўвае рэкламу на падставе Вашых пераваг сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45684,7 +46061,7 @@
         <seg>This program displays advertisements based on Web search habits.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090236Z" changeid="eratyk">
-        <seg>Гэта праграма адлюстроўвае рэкламу на падставе Вашых пераваг Сеціва.</seg>
+        <seg>Гэта праграма адлюстроўвае рэкламу на падставе Вашых пераваг сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45915,7 +46292,7 @@
       <tuv lang="en">
         <seg>This program is not responding.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153643Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153643Z" changeid="eratyk">
         <seg>Праграма не адказвае.</seg>
       </tuv>
     </tu>
@@ -45939,7 +46316,7 @@
       <tuv lang="en">
         <seg>This program is preventing Windows from logging off.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151923Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151923Z" changeid="eratyk">
         <seg>Гэтая праграма перашкаджае выйсці з Windows.</seg>
       </tuv>
     </tu>
@@ -45947,7 +46324,7 @@
       <tuv lang="en">
         <seg>This program is preventing Windows from restarting.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152324Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152324Z" changeid="eratyk">
         <seg>Гэтая праграма перашкаджае Windows перазапусціцца.</seg>
       </tuv>
     </tu>
@@ -45955,7 +46332,7 @@
       <tuv lang="en">
         <seg>This program is preventing Windows from shutting down.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151910Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151910Z" changeid="eratyk">
         <seg>Гэтая праграма перашкаджае Windows выключыцца.</seg>
       </tuv>
     </tu>
@@ -46020,7 +46397,7 @@
         <seg>This program modifies Web page content.</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T140913Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма мадыфікуе змесціва вэб-старонкі.</seg>
+        <seg>Гэта праграма мадыфікуе змесціва старонкі сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46044,7 +46421,7 @@
         <seg>This program monitors user information, such as Web browsing habits.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090310Z" changeid="eratyk">
-        <seg>Гэта праграма сочыць за актыўнасцю карыстальніка, напрыклад, улічваючы яго перавагі Сеціва.</seg>
+        <seg>Гэта праграма сочыць за актыўнасцю карыстальніка, напрыклад, улічваючы яго перавагі сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46075,8 +46452,8 @@
       <tuv lang="en">
         <seg>This program redirects access to Web pages.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100311T140815Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма перанакіроўвае карыстальніка на іншыя вэб-старонкі.</seg>
+      <tuv lang="be" changedate="20101020T062344Z" changeid="eratyk">
+        <seg>Гэта праграма перанакіроўвае карыстальніка на іншыя старонкі сеціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46148,7 +46525,7 @@
         <seg>This program tracks activity and all Web page content, including secure pages.</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T152238Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма сочыць за дзеяннямі карыстальніка і змесцівам усіх вэб-старонак, у тым ліку абароненых.</seg>
+        <seg>Гэта праграма сочыць за дзеяннямі карыстальніка і змесцівам усіх старонак сеціва, у тым ліку абароненых.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46172,7 +46549,7 @@
         <seg>This program tracks activity and may be difficult to remove.</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T150144Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Гэта праграма сочыць за дзеяннямі карыстальніка і каб яе выдаліць трэба прыкласці намаганні.</seg>
+        <seg>Гэта праграма сочыць за дзеяннямі карыстальніка, і каб яе выдаліць, трэба прыкласці намаганні.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46443,7 +46820,7 @@
       <tuv lang="en">
         <seg>To close the program that is preventing Windows from\nlogging off, click Cancel, and then close the program.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151703Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151703Z" changeid="eratyk">
         <seg>Каб зачыніць праграмы, што перашкаджаюць выйсці з\nWindows, націсніце &quot;Скасаваць&quot; і зачыніце іх.</seg>
       </tuv>
     </tu>
@@ -46451,7 +46828,7 @@
       <tuv lang="en">
         <seg>To close the program that is preventing Windows from\nrestarting, click Cancel, and then close the program.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151822Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151822Z" changeid="eratyk">
         <seg>Каб зачыніць праграмы, што перашкаджаюць Windows\nперазапусціцца, націсніце &quot;Скасаваць&quot; і зачыніце іх.</seg>
       </tuv>
     </tu>
@@ -46459,7 +46836,7 @@
       <tuv lang="en">
         <seg>To close the program that is preventing Windows from\nshutting down, click Cancel, and then close the program.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T151433Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T151433Z" changeid="eratyk">
         <seg>Каб зачыніць праграмы, што перашкаджаюць Windows\nвыключыцца, націсніце &quot;Скасаваць&quot; і зачыніце іх.</seg>
       </tuv>
     </tu>
@@ -46620,7 +46997,7 @@
         <seg>To open this file, Windows needs to know what program you want to use to open it. Windows can go online to look it up automatically, or you can manually select from a list of programs that are installed on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T095554Z" changeid="eratyk">
-        <seg>Каб адчыніць гэты файл, Windows неабходна ведаць, якую праграму Вы жадаеце выкарыстоўваць для гэтага. Windows можа выйсці ў Сеціва, каб знайсці яе аўтаматычна, альбо Вы можаце ўручную абраць яе са спісу праграм, усталяваных на Вашым камп'ютары.</seg>
+        <seg>Каб адчыніць гэты файл, Windows неабходна ведаць, якую праграму Вы жадаеце выкарыстоўваць для гэтага. Windows можа выйсці ў сеціва, каб знайсці яе аўтаматычна, альбо Вы можаце ўручную абраць яе са спісу праграм, усталяваных на Вашым камп'ютары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46675,7 +47052,7 @@
       <tuv lang="en">
         <seg>To return to Windows and check the status of the program, click Cancel.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T150638Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T150638Z" changeid="eratyk">
         <seg>Каб вярнуцца ў Windows і праверыць стан праграм, націсніце &quot;Скасаваць&quot;.</seg>
       </tuv>
     </tu>
@@ -46692,7 +47069,7 @@
         <seg>To see how to finish removing spyware and other potentially unwanted software, see this support article on the Microsoft Security website.</seg>
       </tuv>
       <tuv lang="be" changedate="20100312T112733Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Звесткі аб выдаленні шпіёнскіх праграмаў і іншага небяспечнага апраграмавання можна знайсці ў наступным артыкуле на вэб-сайце карпарацыі Microsoft.</seg>
+        <seg>Звесткі аб выдаленні шпіёнскіх праграмаў і іншага небяспечнага апраграмавання можна знайсці ў наступным артыкуле на сайце карпарацыі Microsoft.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46700,14 +47077,14 @@
         <seg>To see how to finish removing spyware and other potentially unwanted software, see this support article on the Microsoft Security website.\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101001T143538Z" changeid="eratyk">
-        <seg>Звесткі аб выдаленні шпіёнскіх праграмаў і іншага небяспечнага апраграмавання можна знайсці ў наступным артыкуле на вэб-сайце карпарацыі Microsoft.\r\n</seg>
+        <seg>Звесткі аб выдаленні шпіёнскіх праграмаў і іншага небяспечнага апраграмавання можна знайсці ў наступным артыкуле на сайце карпарацыі Microsoft.\r\n</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>To show the desktop background, open Remote Desktop Connection settings and select the Desktop background check box. If you can't change your settings, they might be managed by Group Policy. Contact your administrator for assistance.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T200152Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101006T200152Z" changeid="eratyk">
         <seg>Каб адлюстраваць фон стальніцы, адчыніце налады злучэння з аддаленай стальніцай і пастаўце сцяжок 'Фон стальніцы'. Калі Вы не можаце змяняць Вашыя налады, яны могуць кіравацца групавой палітыкай. Звяжыцеся з Вашым адміністратарам па дапамогу.</seg>
       </tuv>
     </tu>
@@ -46717,6 +47094,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T070952Z" changeid="alex">
         <seg>Каб спыніць працу гаджэта, Вы павінны выдаліць яго са стальніцы. Гэта не выкліча яго выдалення з Вашага камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To turn on Windows Aero, select a Windows theme.  Colors and sizes selected here apply only if you have selected the Windows 7 Basic theme or an Ease of Access theme.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101011T160710Z" changeid="eratyk">
+        <seg>Каб уключыць Windows Aero, абярыце тэму Windows. Абраныя тут колеры і памеры будуць ужытыя толькі тады, калі Вы абераце базавую тэму Windows 7 ці тэму &quot;Прастаты доступу&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46732,7 +47117,7 @@
         <seg>To use the Language bar later, check &quot;Show the Language bar on the desktop&quot; in the Language Bar Settings dialog, which you can find within the Regional and Language Options control panel.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T204433Z" changeid="eratyk">
-        <seg>Каб скарыстаць моўную паліцу пазней, пастаўце сцяжок &quot;Адлюстроўваць моўную паліцу на стальцы&quot; ў дыялогу наладаў моўнай паліцы, які Вы можаце знайсці ў рэгіянальных і моўных наладах панэлі кіравання.</seg>
+        <seg>Каб скарыстаць моўную паліцу пазней, пастаўце сцяжок &quot;Адлюстроўваць моўную паліцу на стальніцы&quot; ў дыялогу наладаў моўнай паліцы, які Вы можаце знайсці ў рэгіянальных і моўных наладах панэлі кіравання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47372,7 +47757,7 @@
         <seg>Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.</seg>
       </tuv>
       <tuv lang="be" changedate="20100710T075156Z" changeid="eratyk">
-        <seg>Увядзіце назву праграмы, каталога, дакумента альбо рэсурсу Сеціва, і Windows адчыніць гэта для Вас.</seg>
+        <seg>Увядзіце назву праграмы, каталога, дакумента альбо рэсурсу сеціва, і Windows адчыніць гэта для Вас.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47700,7 +48085,7 @@
         <seg>Under Network and Internet, click Choose homegroup and sharing options.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T081754Z" changeid="eratyk">
-        <seg>Пстрыкніце 'Абранне параметраў хатняй групы і агульнага доступу' пад 'Сетка і Сеціва'.</seg>
+        <seg>Пстрыкніце 'Абранне параметраў хатняй групы і агульнага доступу' пад 'Сетка і сеціва'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47779,8 +48164,8 @@
       <tuv lang="en">
         <seg>Undocking and going to sleep...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100925T060545Z" changeid="eratyk">
-        <seg>Выманне з доку і засынанне...</seg>
+      <tuv lang="be" changedate="20101020T074843Z" changeid="eratyk">
+        <seg>Адчапленне і засынанне...</seg>
       </tuv>
     </tu>
     <tu>
@@ -47900,7 +48285,7 @@
         <seg>Uninstall programs or Windows features, uninstall gadgets, get new programs from the network or online, and more.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T113102Z" changeid="eratyk">
-        <seg>Выдаленне праграм, кампанентаў Windows і гаджэтаў, атрыманне новых праграм з сеткі ці Сеціва і г.д.</seg>
+        <seg>Выдаленне праграм, кампанентаў Windows і гаджэтаў, атрыманне новых праграм з сеткі ці сеціва і г.д.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48043,7 +48428,7 @@
       <tuv lang="en">
         <seg>Unmute %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164932Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164932Z" changeid="eratyk">
         <seg>Уключыць гук %1</seg>
       </tuv>
     </tu>
@@ -48139,7 +48524,7 @@
       <tuv lang="en">
         <seg>Up</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054115Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054115Z" changeid="eratyk">
         <seg>Уверх</seg>
       </tuv>
     </tu>
@@ -48355,7 +48740,7 @@
       <tuv lang="en">
         <seg>Use Aero &amp;Peek to preview the desktop</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T155251Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T155251Z" changeid="eratyk">
         <seg>Выкарыстоўваць Aero Peek для перадпрагляду стальніцы</seg>
       </tuv>
     </tu>
@@ -48460,7 +48845,7 @@
         <seg>Use drop shadows for icon labels on the desktop</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T071514Z" changeid="eratyk">
-        <seg>Адлюстраванне ценяў подпісаў значкаў на стальцы</seg>
+        <seg>Адлюстраванне ценяў подпісаў значкаў на стальніцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -48524,7 +48909,7 @@
         <seg>Use the &amp;Web service to find the correct program</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T095708Z" changeid="eratyk">
-        <seg>Выкарыстанне вэб-службы каб знайсці адпаведную праграму</seg>
+        <seg>Выкарыстаць сеціўную службу, каб знайсці адпаведную праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -48532,7 +48917,7 @@
         <seg>Use the Accessibility Wizard to configure your system to meet your vision, hearing, and mobility needs.</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T140019Z" changeid="eratyk">
-        <seg>Выкарыстайце дапаможнік па даступнасці каб наладзіць сістэму па Вашым патрабаванням зроку, слыху і рухавасці.</seg>
+        <seg>Выкарыстайце дапаможнік па даступнасці, каб наладзіць сістэму па Вашым патрабаванням зроку, слыху і рухавасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49252,7 +49637,7 @@
         <seg>View more information about this item online</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090343Z" changeid="eratyk">
-        <seg>Даведацца больш аб гэтым элеменце ў Сеціве</seg>
+        <seg>Даведацца больш аб гэтым элеменце ў сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -49372,7 +49757,7 @@
         <seg>View the Microsoft error reporting privacy statement online</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T102712Z" changeid="eratyk">
-        <seg>Прагляд заявы Microsoft пра прыватнасць справаздач аб памылках у Сеціве</seg>
+        <seg>Прагляд заявы Microsoft пра прыватнасць справаздач аб памылках у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -49451,7 +49836,7 @@
       <tuv lang="en">
         <seg>Volume</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164341Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164341Z" changeid="eratyk">
         <seg>Гучнасць</seg>
       </tuv>
     </tu>
@@ -49483,7 +49868,7 @@
       <tuv lang="en">
         <seg>Volume Control Options</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163759Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163759Z" changeid="eratyk">
         <seg>Налады кіравання гучнасцю</seg>
       </tuv>
     </tu>
@@ -49491,7 +49876,7 @@
       <tuv lang="en">
         <seg>Volume Mixer</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163636Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163636Z" changeid="eratyk">
         <seg>Змяшальнік гучнасці</seg>
       </tuv>
     </tu>
@@ -49499,7 +49884,7 @@
       <tuv lang="en">
         <seg>Volume Mixer - %s</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164917Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164917Z" changeid="eratyk">
         <seg>Змяшальнік гучнасці - %s</seg>
       </tuv>
     </tu>
@@ -49507,7 +49892,7 @@
       <tuv lang="en">
         <seg>Volume for %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T164447Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T164447Z" changeid="eratyk">
         <seg>Гучнасць %1</seg>
       </tuv>
     </tu>
@@ -49563,7 +49948,7 @@
       <tuv lang="en">
         <seg>Wait</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054056Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054056Z" changeid="eratyk">
         <seg>Чакаць</seg>
       </tuv>
     </tu>
@@ -49579,7 +49964,7 @@
       <tuv lang="en">
         <seg>Waiting for background programs to close.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T152537Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T152537Z" changeid="eratyk">
         <seg>Чаканне зачынення фонавых праграм.</seg>
       </tuv>
     </tu>
@@ -49651,8 +50036,8 @@
       <tuv lang="en">
         <seg>Web</seg>
       </tuv>
-      <tuv lang="be" changedate="20100904T194712Z" changeid="eratyk">
-        <seg>Вэб</seg>
+      <tuv lang="be" changedate="20101020T061656Z" changeid="eratyk">
+        <seg>Сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -49924,7 +50309,7 @@
         <seg>While files from the Internet can be useful, this file type can potentially harm your computer. Only run software from publishers you trust. &lt;A id=&quot;Help&quot;&gt;What's the risk?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T103250Z" changeid="eratyk">
-        <seg>Хоць файлы з Сеціва могуць быць карыснымі, гэты файл патэнцыйна можа пашкодзіць камп'ютар. Запускайце толькі праграмы выдаўца, якому давяраеце. &lt;A id=&quot;Help&quot;&gt;Якая існуе рызыка?&lt;/A&gt;</seg>
+        <seg>Хоць файлы з сеціва могуць быць карыснымі, гэты файл патэнцыйна можа пашкодзіць камп'ютар. Запускайце толькі праграмы выдаўца, якому давяраеце. &lt;A id=&quot;Help&quot;&gt;Якая існуе рызыка?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -50211,7 +50596,7 @@
       <tuv lang="en">
         <seg>Windows Classic</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T153303Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T153303Z" changeid="eratyk">
         <seg>Класічная Windows</seg>
       </tuv>
     </tu>
@@ -50540,7 +50925,7 @@
         <seg>Windows can check for a solution when you go online. If you close the program, it will try to recover your information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080546Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50548,7 +50933,7 @@
         <seg>Windows can check for a solution when you go online. If you close the program, you might lose information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T075706Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50556,7 +50941,7 @@
         <seg>Windows can check for a solution when you go online. If you restart or close the program, it will try to recover your information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080727Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50564,7 +50949,7 @@
         <seg>Windows can check for a solution when you go online. If you restart or close the program, you might lose information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080042Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50572,7 +50957,7 @@
         <seg>Windows can check online for a solution. If you close the program, it will try to recover your information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080520Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50580,7 +50965,7 @@
         <seg>Windows can check online for a solution. If you close the program, you might lose information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T075656Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50588,7 +50973,7 @@
         <seg>Windows can check online for a solution. If you restart or close the program, it will try to recover your information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080706Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць Вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50596,14 +50981,14 @@
         <seg>Windows can check online for a solution. If you restart or close the program, you might lose information.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T080017Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў Сеціве. Калі Вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
+        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі Вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can now play sounds from this device</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163007Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T163007Z" changeid="eratyk">
         <seg>Windows не можа граць гукі з гэтае прылады</seg>
       </tuv>
     </tu>
@@ -50652,7 +51037,7 @@
         <seg>Windows can't create a shortcut here.\nDo you want the shortcut to be placed on the desktop instead?</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T065341Z" changeid="eratyk">
-        <seg>Windows не можа стварыць цэтлік тут.\nЖадаеце замест гэтага змясціць яго на стальцы?</seg>
+        <seg>Windows не можа стварыць цэтлік тут.\nЖадаеце замест гэтага змясціць яго на стальніцы?</seg>
       </tuv>
     </tu>
     <tu>
@@ -50747,7 +51132,7 @@
       <tuv lang="en">
         <seg>Windows cannot end this program. It may need more time to complete an operation.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153626Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153626Z" changeid="eratyk">
         <seg>Windows не можа скончыць праграму. Магчыма, спатрэбіцца дадатковы час на заканчэнне аперацыі.</seg>
       </tuv>
     </tu>
@@ -50833,6 +51218,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows can’t read drive %1!c!:. Make sure there is a disk in the drive and that the disk is formatted and free of errors.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145241Z" changeid="eratyk">
+        <seg>Windows не можа прачытаць дыск %1!c!:. Пераканайцеся, што дыск падключаны, адфарматаваны і не змяшчае памылкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows could not change your display to this resolution. Try a different resolution.</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T075213Z" changeid="eratyk">
@@ -50883,7 +51276,7 @@
       <tuv lang="en">
         <seg>Windows could not save your theme. You may need to save the theme to a different location or free up disk space. You can also try searching Help and Support for more information about this error: %1\n\nSelected location: %2</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T153153Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101005T153153Z" changeid="eratyk">
         <seg>Windows не можа захаваць Вашую тэму. Магчыма, Вам неабходна захаваць тэму ў іншым размяшчэнні ці вызваліць дыскавую прастору. Вы таксама можаце пашукаць дадатковую інфармацыю пра гэтую памылку ў даведцы і падтрымцы: %1\n\nАбранае размяшчэнне: %2</seg>
       </tuv>
     </tu>
@@ -50955,7 +51348,7 @@
       <tuv lang="en">
         <seg>Windows failed to load because Code Integrity failed to initialize.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083355Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083355Z" changeid="eratyk">
         <seg>Не ўдалося заладаваць Windows, бо не ўдалося ініцыялізаваць цэласнасць коду .</seg>
       </tuv>
     </tu>
@@ -51347,7 +51740,7 @@
       <tuv lang="en">
         <seg>WordPad can’t insert the picture.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083808Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T083808Z" changeid="eratyk">
         <seg>WordPad не можа ўставіць малюнак.</seg>
       </tuv>
     </tu>
@@ -51443,7 +51836,7 @@
       <tuv lang="en">
         <seg>Wordpad is initialized as OLE Server</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081716Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T081716Z" changeid="eratyk">
         <seg>WordPad ініцыялізавана як сервер</seg>
       </tuv>
     </tu>
@@ -51612,7 +52005,7 @@
         <seg>You already have active remote desktop connections on this computer</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T075334Z" changeid="eratyk">
-        <seg>Вы ўжо маеце актыўныя злучэнні з аддаленым стальцом на гэтым камп'ютары</seg>
+        <seg>Вы ўжо маеце актыўныя злучэнні з аддаленай стальніцай на гэтым камп'ютары</seg>
       </tuv>
     </tu>
     <tu>
@@ -51836,7 +52229,7 @@
         <seg>You can't install %s because it is currently running on your desktop. Close the gadget and try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T113845Z" changeid="eratyk">
-        <seg>Вы не можаце ўсталяваць '%s', бо ён зараз працуе на стальцы. Зачыніце гаджэт і паўтарыце спробу.</seg>
+        <seg>Вы не можаце ўсталяваць '%s', бо ён зараз працуе на стальніцы. Зачыніце гаджэт і паўтарыце спробу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51924,6 +52317,38 @@
         <seg>You cant save in this location. Please choose another location.</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T172524Z" changeid="eratyk">
+        <seg>Вы не можаце захаваць у гэтым размяшчэнні. Калі ласка, абярыце іншае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can’t open this location using this program.\n Please try a different location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145427Z" changeid="eratyk">
+        <seg>Вы не можаце адчыніць гэтае размяшчэнне, карыстаючы гэтую праграму.\n Калі ласка, паспрабуйце іншае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can’t save here. Please choose another location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145351Z" changeid="eratyk">
+        <seg>Вы не можаце захаваць тут. Калі ласка, абярыце іншае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can’t save in this location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145423Z" changeid="eratyk">
+        <seg>Вы не можаце захаваць у гэтым размяшчэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can’t save in this location. Please choose another location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145402Z" changeid="eratyk">
         <seg>Вы не можаце захаваць у гэтым размяшчэнні. Калі ласка, абярыце іншае размяшчэнне.</seg>
       </tuv>
     </tu>
@@ -52228,7 +52653,7 @@
         <seg>You should only copy files to your computer that come from websites that you trust.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T171448Z" changeid="eratyk">
-        <seg>Трэба капіяваць файлы толькі з надзейных вэб-сайтаў.</seg>
+        <seg>Трэба капіяваць файлы толькі з надзейных сайтаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52236,7 +52661,7 @@
         <seg>You should only run files that come from websites that you trust.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T155201Z" changeid="eratyk">
-        <seg>Трэба запускаць файлы толькі з надзейных вэб-сайтаў.</seg>
+        <seg>Трэба запускаць файлы толькі з надзейных сайтаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52420,7 +52845,7 @@
         <seg>Your Internet security settings blocked one or more files from being copied. Do you want to copy these files anyway?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T152125Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва заблакавалі капіяванне некаторых файлаў. Усё роўна жадаеце скапіяваць гэтыя файлы?</seg>
+        <seg>Вашыя параметры бяспекі сеціва заблакавалі капіяванне некаторых файлаў. Усё роўна жадаеце скапіяваць гэтыя файлы?</seg>
       </tuv>
     </tu>
     <tu>
@@ -52428,7 +52853,7 @@
         <seg>Your Internet security settings blocked one or more files from being opened. Do you want to open these files anyway?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T152347Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва заблакавалі адчыненне некаторых файлаў. Усё роўна жадаеце адчыніць гэтыя файлы?</seg>
+        <seg>Вашыя параметры бяспекі сеціва заблакавалі адчыненне некаторых файлаў. Усё роўна жадаеце адчыніць гэтыя файлы?</seg>
       </tuv>
     </tu>
     <tu>
@@ -52436,7 +52861,7 @@
         <seg>Your Internet security settings prevented one or more files from being copied.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T150855Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва не дазволілі скапіявацца некаторым файлам.</seg>
+        <seg>Вашыя параметры бяспекі сеціва не дазволілі скапіявацца некаторым файлам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52444,7 +52869,7 @@
         <seg>Your Internet security settings prevented one or more files from being opened.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T152158Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва не дазволілі адчыніцца некаторым файлам.</seg>
+        <seg>Вашыя параметры бяспекі сеціва не дазволілі адчыніцца некаторым файлам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52452,7 +52877,7 @@
         <seg>Your Internet security settings suggest that one or more files may be harmful.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T170821Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва падказалі, што некаторыя файлы могуць быць шкоднымі.</seg>
+        <seg>Вашыя параметры бяспекі сеціва падказалі, што некаторыя файлы могуць быць шкоднымі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52460,7 +52885,7 @@
         <seg>Your Internet security settings suggest that one or more files may be harmful. Do you want to use it anyway?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T171145Z" changeid="eratyk">
-        <seg>Вашыя параметры бяспекі Сеціва падказалі, што некаторыя файлы могуць быць шкоднымі. Усё роўна жадаеце карыстаць іх?</seg>
+        <seg>Вашыя параметры бяспекі сеціва падказалі, што некаторыя файлы могуць быць шкоднымі. Усё роўна жадаеце карыстаць іх?</seg>
       </tuv>
     </tu>
     <tu>
@@ -52507,7 +52932,7 @@
       <tuv lang="en">
         <seg>Your battery can’t hold a full charge and is low (%1!u!%%).  To continue using your computer, either plug it in, or shut it down and then replace your battery.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T161716Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T161716Z" changeid="eratyk">
         <seg>Ваша батарэя не можа ўтрымліваць поўны зарад і зараз не поўная (%1!u!%%).  Каб працягваць карыстацца камп'ютарам, падключыце яго да электрасеткі ці выключце яго і замяніце батарэю.</seg>
       </tuv>
     </tu>
@@ -52828,6 +53253,14 @@
         <seg>Youve selected a library. Please choose a folder instead.</seg>
       </tuv>
       <tuv lang="be" changedate="20100913T202234Z" changeid="eratyk">
+        <seg>Вы абралі бібліятэку. Калі ласка, замест абярыце каталог.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You’ve selected a library. Please choose a folder instead.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101014T145431Z" changeid="eratyk">
         <seg>Вы абралі бібліятэку. Калі ласка, замест абярыце каталог.</seg>
       </tuv>
     </tu>
@@ -53563,7 +53996,7 @@
       <tuv lang="en">
         <seg>is trying to connect to this computer. If you allow, you will be disconnected, but you can resume later. Do you want to allow this connection?</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T154109Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T154109Z" changeid="eratyk">
         <seg>спрабуе злучыцца з гэтым камп'ютарам. Калі Вы дазволіце, камп'ютар будзе адлучаны, але Вы можаце працягнуць пазней. Жадаеце дазволіць гэтае злучэнне?</seg>
       </tuv>
     </tu>
@@ -53659,7 +54092,7 @@
       <tuv lang="en">
         <seg>null</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T054016Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101010T054016Z" changeid="eratyk">
         <seg>null</seg>
       </tuv>
     </tu>
@@ -53780,7 +54213,7 @@
         <seg>search internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T125324Z" changeid="eratyk">
-        <seg>пошук у Сеціве</seg>
+        <seg>пошук у сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -53867,7 +54300,7 @@
       <tuv lang="en">
         <seg>unknown software exception</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T153419Z" changeid="Усевалад">
+      <tuv lang="be" changedate="20101009T153419Z" changeid="eratyk">
         <seg>невядомае выключэнне апраграмавання</seg>
       </tuv>
     </tu>
