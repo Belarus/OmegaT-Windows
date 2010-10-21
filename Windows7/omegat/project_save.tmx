@@ -1830,6 +1830,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%s is available only on 32 bit processes.\nDo you want to make this as a default input item?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062441Z" changeid="eratyk">
+        <seg>%s даступна толькі для 32-бітавых працэсаў.\nЖадаеце зрабіць гэта перадвызначаным элементам уводу?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%s item</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T084219Z" changeid="eratyk">
@@ -2518,6 +2526,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Change Key Sequence...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060321Z" changeid="eratyk">
+        <seg>Змяніць камбінацыю клавіш...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Change a password...</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T095329Z" changeid="eratyk">
@@ -2842,6 +2858,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T074225Z" changeid="eratyk">
         <seg>Стварыць копію з выдаленнем усіх магчымых уласцівасцяў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Ctrl + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060424Z" changeid="eratyk">
+        <seg>Ctrl + Shift</seg>
       </tuv>
     </tu>
     <tu>
@@ -3278,6 +3302,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Enable Key Sequence</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060638Z" changeid="eratyk">
+        <seg>Уключыць камбінацыю клавіш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Encoding:</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T065544Z" changeid="eratyk">
@@ -3614,6 +3646,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Grave Accent (`)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060529Z" changeid="eratyk">
+        <seg>Апостраф (`) ці Ё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Green</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T175745Z" changeid="eratyk">
@@ -3830,6 +3870,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Installed services</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061210Z" changeid="eratyk">
+        <seg>Усталяваныя службы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Internet options...</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T114615Z" changeid="eratyk">
@@ -3858,6 +3906,22 @@
       </tuv>
       <tuv lang="be" changedate="20100922T090352Z" changeid="eratyk">
         <seg>Захаваць змены</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Key sequence</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060232Z" changeid="eratyk">
+        <seg>Камбінацыя клавіш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Key:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060703Z" changeid="eratyk">
+        <seg>Клавіша:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3922,6 +3986,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T092542Z" changeid="eratyk">
         <seg>Больш інфармацыі пра бібліятэкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Left Alt + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060444Z" changeid="eratyk">
+        <seg>Левая Alt + Shift</seg>
       </tuv>
     </tu>
     <tu>
@@ -4362,6 +4434,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T125727Z" changeid="eratyk">
         <seg>Даўжыня дробнай часткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Not Assigned</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060416Z" changeid="eratyk">
+        <seg>Не прызначана</seg>
       </tuv>
     </tu>
     <tu>
@@ -5440,8 +5520,8 @@
       <tuv lang="en">
         <seg>&amp;Shortcut key:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100705T192319Z" changeid="eratyk">
-        <seg>Хуткі выклік:</seg>
+      <tuv lang="be" changedate="20101021T060752Z" changeid="eratyk">
+        <seg>Клавіятурны скарот:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6358,6 +6438,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>'`'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075306Z" changeid="eratyk">
+        <seg>'`'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(%1!s!)</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T125949Z" changeid="eratyk">
@@ -6398,6 +6486,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(32Bit Only)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062308Z" changeid="eratyk">
+        <seg>(толькі 32-бітавыя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(64Bit Only)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062257Z" changeid="eratyk">
+        <seg>(толькі 64-бітавыя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(All Files and Folders)</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T055643Z" changeid="eratyk">
@@ -6418,6 +6522,14 @@
       </tuv>
       <tuv lang="be" changedate="20100709T063106Z" changeid="eratyk">
         <seg>(Адладка)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(Default)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063618Z" changeid="eratyk">
+        <seg>(перадвызначана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6474,6 +6586,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T135650Z" changeid="Ales Koshal [icq#:706101]">
         <seg>(Новы)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(None)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063008Z" changeid="eratyk">
+        <seg>(Адсутнічае)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6678,6 +6798,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063301Z" changeid="eratyk">
+        <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>0 - 10 KB</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T060720Z" changeid="eratyk">
@@ -6706,6 +6834,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T180501Z" changeid="eratyk">
         <seg>0.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063302Z" changeid="eratyk">
+        <seg>1</seg>
       </tuv>
     </tu>
     <tu>
@@ -7030,6 +7166,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>3</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063303Z" changeid="eratyk">
+        <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>3 hours</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061536Z" changeid="alex">
@@ -7122,6 +7266,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T061344Z" changeid="alex">
         <seg>30 секунд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>4</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063303Z" changeid="eratyk">
+        <seg>4</seg>
       </tuv>
     </tu>
     <tu>
@@ -7254,6 +7406,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>6</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063305Z" changeid="eratyk">
+        <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>6 hours</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061549Z" changeid="alex">
@@ -7294,6 +7454,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>7</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063306Z" changeid="eratyk">
+        <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>720KB,  512 bytes/sector</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T150647Z" changeid="eratyk">
@@ -7318,6 +7486,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>8</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063308Z" changeid="eratyk">
+        <seg>8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>80 GB - 250 GB</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T061030Z" changeid="eratyk">
@@ -7338,6 +7514,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T175558Z" changeid="eratyk">
         <seg>85%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>9</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063309Z" changeid="eratyk">
+        <seg>9</seg>
       </tuv>
     </tu>
     <tu>
@@ -8171,6 +8355,22 @@
       </tuv>
       <tuv lang="be" changedate="20100310T124118Z" changeid="alex">
         <seg>Троян, які выкарыстоўвае апавяшчэнне злачынца аб паспяховым усталяванні праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A critical system process, %1, failed with status code %2.  The machine must now be restarted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T143449Z" changeid="eratyk">
+        <seg>Крытычны сістэмны працэс, %1, перарваўся з кодам %2. Машына мусіць быць перазапушчаная зараз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A fatal error occurred processing the restoration data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T144213Z" changeid="eratyk">
+        <seg>Адбылася згубная памылка падчас апрацоўкі звестак аднаўлення.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9535,6 +9735,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Advanced Key Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T055934Z" changeid="eratyk">
+        <seg>Дадатковыя налады клавіш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Advanced Properties</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T045600Z" changeid="alex">
@@ -9631,6 +9839,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Albanian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064234Z" changeid="eratyk">
+        <seg>Албанская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Album</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T063541Z" changeid="eratyk">
@@ -9643,6 +9859,14 @@
       </tuv>
       <tuv lang="be" changedate="20100810T110517Z" changeid="eratyk">
         <seg>Алхімія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alcohol</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130307Z" changeid="eratyk">
+        <seg>Алкаголь</seg>
       </tuv>
     </tu>
     <tu>
@@ -10195,6 +10419,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T134042Z" changeid="eratyk">
         <seg>Заўсёды адлюстроўваць меню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Amharic Input Method</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075239Z" changeid="eratyk">
+        <seg>Amharic Input Method</seg>
       </tuv>
     </tu>
     <tu>
@@ -11183,6 +11415,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Arabic (101)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070721Z" changeid="eratyk">
+        <seg>Арабская (101)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Arabic (102)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070722Z" changeid="eratyk">
+        <seg>Арабская (102)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Arabic (102) AZERTY</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070726Z" changeid="eratyk">
+        <seg>Арабская (102) AZERTY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Arabic$Arabic$Saudi Arabia$Western Europe and United States</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T200928Z" changeid="eratyk">
@@ -11615,6 +11871,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Armenian Eastern</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071541Z" changeid="eratyk">
+        <seg>Армянская (усходняя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Armenian Western</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071552Z" changeid="eratyk">
+        <seg>Армянская (заходняя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Arrange &amp;Icons</seg>
       </tuv>
       <tuv lang="be" changedate="20100904T191740Z" changeid="eratyk">
@@ -11715,6 +11987,22 @@
       </tuv>
       <tuv lang="be" changedate="20100718T071037Z" changeid="eratyk">
         <seg>Пытаць мяне кожны раз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assamese</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070951Z" changeid="eratyk">
+        <seg>Асамская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assamese - INSCRIPT</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074648Z" changeid="eratyk">
+        <seg>Асамская - INSCRIPT</seg>
       </tuv>
     </tu>
     <tu>
@@ -11983,10 +12271,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>B</seg>
+        <seg>Azeri Cyrillic</seg>
       </tuv>
-      <tuv lang="be" changedate="20101011T160807Z" changeid="eratyk">
-        <seg>Т</seg>
+      <tuv lang="be" changedate="20101021T071459Z" changeid="eratyk">
+        <seg>Азербайджанская (кірыліца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Azeri Latin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071454Z" changeid="eratyk">
+        <seg>Азербайджанскай (лаціна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12019,6 +12315,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T123059Z" changeid="eratyk">
         <seg>Кружэльнік BD-ROM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>BSLASH</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075308Z" changeid="eratyk">
+        <seg>BSLASH</seg>
       </tuv>
     </tu>
     <tu>
@@ -12059,6 +12363,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T201143Z" changeid="eratyk">
         <seg>Рэзерваванне звестак камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>BackSp</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061625Z" changeid="eratyk">
+        <seg>BackSp</seg>
       </tuv>
     </tu>
     <tu>
@@ -12111,6 +12423,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Backup date</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T094108Z" changeid="eratyk">
+        <seg>Дата рэзервавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Backup of %1!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T094130Z" changeid="eratyk">
+        <seg>Рэзерваванне %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Backup on %1!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T094054Z" changeid="eratyk">
+        <seg>Рэзерваванне на %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Backup%0</seg>
       </tuv>
       <tuv lang="be" changedate="20100313T065555Z" changeid="Ales Koshal [icq#:706101]">
@@ -12123,6 +12459,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T202648Z" changeid="eratyk">
         <seg>Балтыйскі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bashkir</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073754Z" changeid="eratyk">
+        <seg>Башкірская</seg>
       </tuv>
     </tu>
     <tu>
@@ -12303,6 +12647,62 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Belgian (Comma)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070758Z" changeid="eratyk">
+        <seg>Бельгійская (з коскай)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Belgian (Period)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063650Z" changeid="eratyk">
+        <seg>Бельгійская (з кропкай)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Belgian French</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063715Z" changeid="eratyk">
+        <seg>Бельгійская французская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bengali</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071000Z" changeid="eratyk">
+        <seg>Бенгальская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bengali - INSCRIPT</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074658Z" changeid="eratyk">
+        <seg>Бенгальская - INSCRIPT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bengali - INSCRIPT (Legacy)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073405Z" changeid="eratyk">
+        <seg>Бенгальская - INSCRIPT (успадкаваная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Between input languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061815Z" changeid="eratyk">
+        <seg>Паміж мовамі ўводу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bitmap Files (*.BMP)|*.BMP|GIF (*.GIF)|*.GIF|JPEG (*.JPEG;*.JPG;*.JPE;*.JFIF)|*.JPEG;*.JPG;*.JPE;*.JFIF|PNG (*.PNG)|*.PNG|All Picture Files|*.BMP;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.ICO|All Files|*|||</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T162518Z" changeid="eratyk">
@@ -12463,10 +12863,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Bomb making</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130438Z" changeid="eratyk">
+        <seg>Выраб бомбаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Booting from a VHD is not supported on this system</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T185213Z" changeid="eratyk">
         <seg>Стартаванне з віртуальнага хард-дыска не падтрымліваецца ў гэтай сістэме</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bosnian (Cyrillic)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073859Z" changeid="eratyk">
+        <seg>Баснійская (кірыліца)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12515,6 +12931,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T065344Z" changeid="alex">
         <seg>Яркасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bring up the previous string to the application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075621Z" changeid="eratyk">
+        <seg>Перанесці мінулы радок у праграму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12635,6 +13059,54 @@
       </tuv>
       <tuv lang="be" changedate="20100310T113235Z" changeid="alex">
         <seg>Мадыфікатар браўзера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>BugCheck</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T140103Z" changeid="eratyk">
+        <seg>Крытычная памылка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bulgarian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074713Z" changeid="eratyk">
+        <seg>Балгарская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bulgarian (Latin)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074104Z" changeid="eratyk">
+        <seg>Балгарская (лаціна)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bulgarian (Phonetic Traditional)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075204Z" changeid="eratyk">
+        <seg>Балгарская (фанетычная традыцыйная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bulgarian (Phonetic)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074549Z" changeid="eratyk">
+        <seg>Балгарская (фанетычная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bulgarian (Typewriter)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064842Z" changeid="eratyk">
+        <seg>Балгарская (друкавальная машынка)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12903,6 +13375,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>C&amp;trl + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060559Z" changeid="eratyk">
+        <seg>Ctrl + Shift</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>C&amp;urrent Page</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T111758Z" changeid="eratyk">
@@ -12987,6 +13467,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T100454Z" changeid="eratyk">
         <seg>CLSID:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>COMMA</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075255Z" changeid="eratyk">
+        <seg>COMMA</seg>
       </tuv>
     </tu>
     <tu>
@@ -13263,6 +13751,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Canadian French</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063803Z" changeid="eratyk">
+        <seg>Канадская французская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Canadian French (Legacy)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063838Z" changeid="eratyk">
+        <seg>Канадская французская (успадкаваная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Canadian Multilingual Standard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071247Z" changeid="eratyk">
+        <seg>Канадская (шматмоўная, стандартавая)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Cancel</seg>
       </tuv>
       <tuv lang="be" changedate="20100703T174714Z" changeid="alex">
@@ -13439,6 +13951,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Cantonese Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071200Z" changeid="eratyk">
+        <seg>Кантонская фанетычная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Cant open %1.  The maximum number of files are already open.\nClose a file or program in order to open this file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T133138Z" changeid="eratyk">
@@ -13459,6 +13979,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T091850Z" changeid="eratyk">
         <seg>Аб'ём</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Caps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061551Z" changeid="eratyk">
+        <seg>Caps</seg>
       </tuv>
     </tu>
     <tu>
@@ -13715,6 +14243,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T071144Z" changeid="eratyk">
         <seg>Змяніць значак для каталога %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Change Key Sequence</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060318Z" changeid="eratyk">
+        <seg>Змяніць камбінацыю клавіш</seg>
       </tuv>
     </tu>
     <tu>
@@ -14924,6 +15460,254 @@
       </tuv>
       <tuv lang="be" changedate="20100315T125619Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Кантрольны пункт:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - Microsoft Pinyin ABC Input Style</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070547Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - алфавітны стыль уводу Microsoft Pinyin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - Microsoft Pinyin New Experience Input Style</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070842Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - алфавітны стыль уводу Microsoft Pinyin New Experience</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - NeiMa</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070628Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - NeiMa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - QuanPin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065641Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - QuanPin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - ShuangPin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070442Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - ShuangPin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - US Keyboard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065601Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - клавіятура ЗША</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) - ZhengMa</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070452Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) - ZhengMa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) IME - Ime/NonIme Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081313Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) IME - Пераключэнне IME/без IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) IME - Punctuation Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081343Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) IME - Пераключэнне пунктуацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified) IME - Shape Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081327Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная) IME - Пераключэнне формы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Simplified, Singapore) - US Keyboard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075119Z" changeid="eratyk">
+        <seg>Кітайская (спрошчаная, Сінгапур) - клавіятура ЗША</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Alphanumeric</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065450Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - літарна-лічбавая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Array</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071337Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - масіў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Big5 Code</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065349Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - Big5 Code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - ChangJie</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065331Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - ChangJie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - DaYi</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065358Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - DaYi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - New ChangJie</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070939Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - новая ChangJie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - New Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070811Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - новафанетычная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - New Quick</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073814Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - новая хуткая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065316Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - фанетычная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Quick</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071341Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - хуткая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - US Keyboard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065251Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - клавіятура ЗША</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) - Unicode</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065417Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) - Unicode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - Ime/NonIme Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T080618Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Пераключэнне IME/без IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - Previous Composition</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075551Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Мінулы склад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - Punctuation Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081239Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Пераключэнне пунктуацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - Resend result string</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075428Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Перадаслаць выніковы радок</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - Shape Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081121Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Пераключэнне формы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional) IME - UI Style Toggle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075751Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная) IME - Пераключэнне стыля КІ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional, Hong Kong S.A.R.) - US Keyboard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075057Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная, Ганконг S.A.R.) - клавіятура ЗША</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chinese (Traditional, Macao S.A.R.) - US Keyboard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075147Z" changeid="eratyk">
+        <seg>Кітайская (традыцыйная, Макаа S.A.R.) - клавіятура ЗША</seg>
       </tuv>
     </tu>
     <tu>
@@ -18184,6 +18968,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Croatian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064237Z" changeid="eratyk">
+        <seg>Харвацкая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ctrl</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062945Z" changeid="eratyk">
+        <seg>Ctrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ctrl + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062949Z" changeid="eratyk">
+        <seg>Ctrl + Shift</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ctrl+</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061841Z" changeid="eratyk">
+        <seg>Ctrl+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ctrl+Esc</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T073642Z" changeid="eratyk">
@@ -18408,6 +19224,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Custom dynamic link libraries are being loaded for every application. The system administrator should review the list of libraries to ensure they are related to trusted applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T142427Z" changeid="eratyk">
+        <seg>Замоўныя бібліятэкі дынамічнага кампанавання ладуюцца для кожнае праграмы. Сістэмны адміністратар павінен перагледзець спіс бібліятэк, каб упэўніцца, што яны адносяцца да надзейных праграмаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Custom scan</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174123Z" changeid="eratyk">
@@ -18552,6 +19376,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Customizes settings for text input of languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061735Z" changeid="eratyk">
+        <seg>Наладжвае тэкставы ўвод моваў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Customizes the view of this folder.</seg>
       </tuv>
       <tuv lang="be" changedate="20100710T080912Z" changeid="eratyk">
@@ -18596,6 +19428,30 @@
       </tuv>
       <tuv lang="be" changedate="20100918T202931Z" changeid="eratyk">
         <seg>Кірылічны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Czech</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064243Z" changeid="eratyk">
+        <seg>Чэшская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Czech (QWERTY)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064253Z" changeid="eratyk">
+        <seg>Чэшская (QWERTY)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Czech Programmers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070742Z" changeid="eratyk">
+        <seg>Чэшская (праграмісцкая)</seg>
       </tuv>
     </tu>
     <tu>
@@ -18780,6 +19636,14 @@
       </tuv>
       <tuv lang="be" changedate="20101002T183500Z" changeid="eratyk">
         <seg>Назва пашкоджанага файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Danish</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063846Z" changeid="eratyk">
+        <seg>Дацкая</seg>
       </tuv>
     </tu>
     <tu>
@@ -19052,6 +19916,14 @@
       </tuv>
       <tuv lang="be" changedate="20100920T072536Z" changeid="eratyk">
         <seg>Перадвызначаны памер размеркавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default input &amp;language</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060912Z" changeid="eratyk">
+        <seg>Перадвызначаныя мовы ўводу</seg>
       </tuv>
     </tu>
     <tu>
@@ -19580,6 +20452,14 @@
       </tuv>
       <tuv lang="be" changedate="20100318T111523Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Выяўленыя элементы ачышчаныя аўтаматычна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Devanagari - INSCRIPT</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071006Z" changeid="eratyk">
+        <seg>Дэванагары - Inscript</seg>
       </tuv>
     </tu>
     <tu>
@@ -20608,6 +21488,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Divehi Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073314Z" changeid="eratyk">
+        <seg>Дывехі фанетычная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Divehi Typewriter</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073341Z" changeid="eratyk">
+        <seg>Дывехі (друкавальная машынка)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do not auto scan</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T080650Z" changeid="Ales Koshal [icq#:706101]">
@@ -21337,6 +22233,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Drugs</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130314Z" changeid="eratyk">
+        <seg>Наркотыкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dummy</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T202543Z" changeid="eratyk">
@@ -21357,6 +22261,14 @@
       </tuv>
       <tuv lang="be" changedate="20100922T074255Z" changeid="eratyk">
         <seg>Падвоіць гэтыя экраны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dutch</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063858Z" changeid="eratyk">
+        <seg>Галандская</seg>
       </tuv>
     </tu>
     <tu>
@@ -21477,6 +22389,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T083419Z" changeid="eratyk">
         <seg>Паштовы прычэпак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>EQUAL</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075254Z" changeid="eratyk">
+        <seg>EQUAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -21899,8 +22819,8 @@
       <tuv lang="en">
         <seg>Encrypt your offline files</seg>
       </tuv>
-      <tuv lang="be" changedate="20100720T101654Z" changeid="eratyk">
-        <seg>Шыфраванне мясцовых файлаў</seg>
+      <tuv lang="be" changedate="20101021T093425Z" changeid="eratyk">
+        <seg>Шыфраваць пазасеціўныя файлы</seg>
       </tuv>
     </tu>
     <tu>
@@ -21933,6 +22853,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T103703Z" changeid="eratyk">
         <seg>Папярэджванне падчас шыфравання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>End</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063032Z" changeid="eratyk">
+        <seg>End</seg>
       </tuv>
     </tu>
     <tu>
@@ -22061,6 +22989,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T122359Z" changeid="eratyk">
         <seg>Павялічвае акно да поўнага памеру.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enter</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061617Z" changeid="eratyk">
+        <seg>Enter</seg>
       </tuv>
     </tu>
     <tu>
@@ -22305,6 +23241,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error reporting was unable to report a dirty shutdown.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T135505Z" changeid="eratyk">
+        <seg>Не ўдалося паведаміць аб некарэктным выключэнні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to report the bugcheck.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T135223Z" changeid="eratyk">
+        <seg>Не ўдалося паведаміць аб крытычнай памылцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error! Hyperlink reference not valid.</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224440Z" changeid="eratyk">
@@ -22341,6 +23293,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T083148Z" changeid="eratyk">
         <seg>Разлік патрэбнага часу: %d сек.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Estonian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064617Z" changeid="eratyk">
+        <seg>Эстонская</seg>
       </tuv>
     </tu>
     <tu>
@@ -22729,14 +23689,6 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>F</seg>
-      </tuv>
-      <tuv lang="be" changedate="20101010T083821Z" changeid="eratyk">
-        <seg>Ф</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
         <seg>F&amp;avorites</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T123910Z" changeid="eratyk">
@@ -22777,6 +23729,102 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>F1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063037Z" changeid="eratyk">
+        <seg>F1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F10</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063111Z" changeid="eratyk">
+        <seg>F10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F11</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063114Z" changeid="eratyk">
+        <seg>F11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F12</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063144Z" changeid="eratyk">
+        <seg>F12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063041Z" changeid="eratyk">
+        <seg>F2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F3</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063043Z" changeid="eratyk">
+        <seg>F3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F4</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063045Z" changeid="eratyk">
+        <seg>F4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F5</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063047Z" changeid="eratyk">
+        <seg>F5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F6</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063052Z" changeid="eratyk">
+        <seg>F6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F7</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063054Z" changeid="eratyk">
+        <seg>F7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F8</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063103Z" changeid="eratyk">
+        <seg>F8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>F9</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063107Z" changeid="eratyk">
+        <seg>F9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Fade or slide ToolTips into view</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T132813Z" changeid="eratyk">
@@ -22797,6 +23845,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T132716Z" changeid="eratyk">
         <seg>Слабенне меню пасля пстрычкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Faeroese</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071203Z" changeid="eratyk">
+        <seg>Фарэрская</seg>
       </tuv>
     </tu>
     <tu>
@@ -23093,6 +24149,14 @@
       </tuv>
       <tuv lang="be" changedate="20100716T054337Z" changeid="eratyk">
         <seg>Адмоўлена ў доступе да файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>File Backup Index</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T094029Z" changeid="eratyk">
+        <seg>Індэкс рэзервавання файлаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -23633,6 +24697,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find files which were backed up and restore them.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T094003Z" changeid="eratyk">
+        <seg>Знайсці зарэзерваваныя файлы і аднавіць іх.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Find information and websites on the Internet.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T074709Z" changeid="eratyk">
@@ -23693,6 +24765,22 @@
       </tuv>
       <tuv lang="be" changedate="20100715T062947Z" changeid="eratyk">
         <seg>Гатова.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Finnish</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063905Z" changeid="eratyk">
+        <seg>Фінская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Finnish with Sami</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073442Z" changeid="eratyk">
+        <seg>Фінская з саамскай</seg>
       </tuv>
     </tu>
     <tu>
@@ -24361,6 +25449,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>French</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063914Z" changeid="eratyk">
+        <seg>Французская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Frequent</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T163421Z" changeid="eratyk">
@@ -24449,6 +25545,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>G&amp;rave Accent (`)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060608Z" changeid="eratyk">
+        <seg>Апостраф (`) ці Ё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>GDIPlus Error:%1.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062205Z" changeid="eratyk">
@@ -24505,6 +25609,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Gaelic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T072621Z" changeid="eratyk">
+        <seg>Гайдэльская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Gambling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130326Z" changeid="eratyk">
+        <seg>Азартныя гульні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Games</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T090241Z" changeid="eratyk">
@@ -24557,6 +25677,46 @@
       </tuv>
       <tuv lang="be" changedate="20100725T063559Z" changeid="eratyk">
         <seg>Жанр</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Georgian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071525Z" changeid="eratyk">
+        <seg>Грузінская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Georgian (Ergonomic)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074727Z" changeid="eratyk">
+        <seg>Грузінская (эрганамічная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Georgian (QWERTY)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074735Z" changeid="eratyk">
+        <seg>Грузінская (QWERTY)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>German</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063920Z" changeid="eratyk">
+        <seg>Нямецкая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>German (IBM)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063928Z" changeid="eratyk">
+        <seg>Нямецкая (IBM)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24777,6 +25937,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Grave Accent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063328Z" changeid="eratyk">
+        <seg>Апостраф ці Ё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Gray</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T164726Z" changeid="eratyk">
@@ -24787,8 +25955,56 @@
       <tuv lang="en">
         <seg>Greek</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T202900Z" changeid="eratyk">
-        <seg>Грэчаскі</seg>
+      <tuv lang="be" changedate="20101021T064654Z" changeid="eratyk">
+        <seg>Грэчаская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek (220)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064729Z" changeid="eratyk">
+        <seg>Грэчаская (220)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek (220) Latin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074028Z" changeid="eratyk">
+        <seg>Грэчаская (220, лаціна)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek (319)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064736Z" changeid="eratyk">
+        <seg>Грэчаская (319)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek (319) Latin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074034Z" changeid="eratyk">
+        <seg>Грэчаская (319, лаціна)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek Latin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074039Z" changeid="eratyk">
+        <seg>Грэчаская (лаціна)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greek Polytonic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071620Z" changeid="eratyk">
+        <seg>Грэчаская (палітанічная)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24797,6 +26013,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164756Z" changeid="eratyk">
         <seg>Зялёны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Greenlandic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074459Z" changeid="eratyk">
+        <seg>Грэнландская</seg>
       </tuv>
     </tu>
     <tu>
@@ -24905,10 +26129,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>H</seg>
+        <seg>Gujarati</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T181731Z" changeid="eratyk">
-        <seg>H</seg>
+      <tuv lang="be" changedate="20101021T071013Z" changeid="eratyk">
+        <seg>Гуяраці</seg>
       </tuv>
     </tu>
     <tu>
@@ -24933,6 +26157,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T064401Z" changeid="alex">
         <seg>Адценне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>HB_MSG_FIRST</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T144038Z" changeid="eratyk">
+        <seg>HB_MSG_FIRST</seg>
       </tuv>
     </tu>
     <tu>
@@ -24965,6 +26197,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T115608Z" changeid="eratyk">
         <seg>Гарнітура</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Handwriting</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062025Z" changeid="eratyk">
+        <seg>Рукапісны ўвод</seg>
       </tuv>
     </tu>
     <tu>
@@ -25065,6 +26305,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hate speech</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130358Z" changeid="eratyk">
+        <seg>Непрыстойная гаворка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hausa</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074932Z" changeid="eratyk">
+        <seg>Хаўса (Hausa)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Header</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T055755Z" changeid="eratyk">
@@ -25115,8 +26371,8 @@
       <tuv lang="en">
         <seg>Hebrew</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T203528Z" changeid="eratyk">
-        <seg>Яўрэйскі</seg>
+      <tuv lang="be" changedate="20101021T070714Z" changeid="eratyk">
+        <seg>Яўрэйская</seg>
       </tuv>
     </tu>
     <tu>
@@ -25417,6 +26673,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hindi Traditional</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071148Z" changeid="eratyk">
+        <seg>Хіндзі (традыцыйныя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>History</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T124125Z" changeid="eratyk">
@@ -25477,6 +26741,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T133548Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Файлы Hosts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hot keys for input languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060148Z" changeid="eratyk">
+        <seg>Скароты для моваў уводу</seg>
       </tuv>
     </tu>
     <tu>
@@ -25585,18 +26857,26 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>HyperTerminal</seg>
+        <seg>Hungarian</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T104726Z" changeid="eratyk">
-        <seg>HyperTerminal</seg>
+      <tuv lang="be" changedate="20101021T064301Z" changeid="eratyk">
+        <seg>Венгерская</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>I</seg>
+        <seg>Hungarian 101-key</seg>
       </tuv>
-      <tuv lang="be" changedate="20101011T160814Z" changeid="eratyk">
-        <seg>К</seg>
+      <tuv lang="be" changedate="20101021T064322Z" changeid="eratyk">
+        <seg>Венгерская, 101 клавіша</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>HyperTerminal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20100719T104726Z" changeid="eratyk">
+        <seg>HyperTerminal</seg>
       </tuv>
     </tu>
     <tu>
@@ -25677,6 +26957,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T105318Z" changeid="eratyk">
         <seg>Дапаможнік наладжвання ISDN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Icelandic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063931Z" changeid="eratyk">
+        <seg>Ісландская</seg>
       </tuv>
     </tu>
     <tu>
@@ -26053,6 +27341,14 @@
       </tuv>
       <tuv lang="be" changedate="20100922T075448Z" changeid="eratyk">
         <seg>Калі Вашая разрознасць меншая за %d x %d, некаторыя элементы могуць не змясціцца на экране.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Igbo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074918Z" changeid="eratyk">
+        <seg>Ігба (Igbo)</seg>
       </tuv>
     </tu>
     <tu>
@@ -26929,6 +28225,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Inuktitut - Latin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074020Z" changeid="eratyk">
+        <seg>Інукітут (лаціна)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Inuktitut - Naqittaut</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074515Z" changeid="eratyk">
+        <seg>Інукітут  - Naqittaut</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Invalid MS-DOS function.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T065555Z" changeid="eratyk">
@@ -27017,6 +28329,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Irish</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063942Z" changeid="eratyk">
+        <seg>Ірландская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Is this copy of Windows &amp;legal?</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T114734Z" changeid="eratyk">
@@ -27037,6 +28357,22 @@
       </tuv>
       <tuv lang="be" changedate="20100723T091001Z" changeid="eratyk">
         <seg>Магчыма, ён быў перамешчаны, пераназваны альбо выдалены. Жадаеце выдаліць элемент?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Italian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063945Z" changeid="eratyk">
+        <seg>Італьянская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Italian (142)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063954Z" changeid="eratyk">
+        <seg>Італьянская (142)</seg>
       </tuv>
     </tu>
     <tu>
@@ -27107,8 +28443,16 @@
       <tuv lang="en">
         <seg>Japanese</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T202943Z" changeid="eratyk">
-        <seg>Японскі</seg>
+      <tuv lang="be" changedate="20101021T065120Z" changeid="eratyk">
+        <seg>Японская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Japanese Input System (MS-IME2002)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065139Z" changeid="eratyk">
+        <seg>Японская сістэма ўводу (MS-IME2002)</seg>
       </tuv>
     </tu>
     <tu>
@@ -27249,6 +28593,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Kannada</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071108Z" changeid="eratyk">
+        <seg>Каннада (Kannada)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Kazakh</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071347Z" changeid="eratyk">
+        <seg>Казахская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ke&amp;ys:</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T130259Z" changeid="eratyk">
@@ -27321,6 +28681,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Keyboard Layout Preview</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061529Z" changeid="eratyk">
+        <seg>Перадпрагляд пабудовы клавіятуры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Keyboards and Languages</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T063159Z" changeid="eratyk">
@@ -27353,6 +28721,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Khmer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074218Z" changeid="eratyk">
+        <seg>Кхмерская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Korean</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065144Z" changeid="eratyk">
+        <seg>Карэйская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Korean Input System (MS-IME2002)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065200Z" changeid="eratyk">
+        <seg>Карэйская сістэма ўводу (MS-IME2002)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Kyrgyz Cyrillic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T072732Z" changeid="eratyk">
+        <seg>Кіргізская (кірыліца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>L&amp;andscape</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T064156Z" changeid="eratyk">
@@ -27373,6 +28773,14 @@
       </tuv>
       <tuv lang="be" changedate="20100923T062848Z" changeid="eratyk">
         <seg>Доўгі час:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>LBRACKET</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075308Z" changeid="eratyk">
+        <seg>LBRACKET</seg>
       </tuv>
     </tu>
     <tu>
@@ -27449,6 +28857,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Lao</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074223Z" changeid="eratyk">
+        <seg>Лаоская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Lar&amp;ge Icons</seg>
       </tuv>
       <tuv lang="be" changedate="20100904T191558Z" changeid="eratyk">
@@ -27521,6 +28937,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Latin American</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064012Z" changeid="eratyk">
+        <seg>Лацінаамерыканская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Latvian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064619Z" changeid="eratyk">
+        <seg>Латышская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Latvian (QWERTY)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064633Z" changeid="eratyk">
+        <seg>Латвійская (QWERTY)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Latvian$Latvian$Latvia$$$Burundi$Republic of Burundi</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T201956Z" changeid="eratyk">
@@ -27577,10 +29017,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Layout Name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061643Z" changeid="eratyk">
+        <seg>Назва пабудовы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Layout Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T114723Z" changeid="eratyk">
         <seg>Аб'ект пабудовы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Le&amp;ft Alt + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060604Z" changeid="eratyk">
+        <seg>Левая Alt + Shift</seg>
       </tuv>
     </tu>
     <tu>
@@ -27613,6 +29069,22 @@
       </tuv>
       <tuv lang="be" changedate="20100723T055801Z" changeid="eratyk">
         <seg>Злева</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Left Alt + Shift</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062952Z" changeid="eratyk">
+        <seg>Левая Alt + Shift</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Left Alt+</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061848Z" changeid="eratyk">
+        <seg>Левая Alt+</seg>
       </tuv>
     </tu>
     <tu>
@@ -27901,6 +29373,30 @@
       </tuv>
       <tuv lang="be" changedate="20101009T165004Z" changeid="eratyk">
         <seg>Праслухоўванне на %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lithuanian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070748Z" changeid="eratyk">
+        <seg>Літоўскія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lithuanian IBM</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064641Z" changeid="eratyk">
+        <seg>Літоўская IBM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lithuanian Standard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074528Z" changeid="eratyk">
+        <seg>Літоўская стандартавая</seg>
       </tuv>
     </tu>
     <tu>
@@ -28385,10 +29881,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>M</seg>
+        <seg>Luxembourgish</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T181733Z" changeid="eratyk">
-        <seg>M</seg>
+      <tuv lang="be" changedate="20101021T074436Z" changeid="eratyk">
+        <seg>Люксембургская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MINUS</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075257Z" changeid="eratyk">
+        <seg>MINUS</seg>
       </tuv>
     </tu>
     <tu>
@@ -28461,6 +29965,22 @@
       </tuv>
       <tuv lang="be" changedate="20100918T203557Z" changeid="eratyk">
         <seg>Mac</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Macedonian (FYROM)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071219Z" changeid="eratyk">
+        <seg>Македонская (FYROM)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Macedonian (FYROM) - Standard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074602Z" changeid="eratyk">
+        <seg>Македонская (FYROM) - стандартавая</seg>
       </tuv>
     </tu>
     <tu>
@@ -28649,10 +30169,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Malayalam</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071037Z" changeid="eratyk">
+        <seg>Малаяламская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Malicious code that attempts to spread from computer to computer by attaching itself to a host program.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T113306Z" changeid="eratyk">
         <seg>Шкодны код, які спрабуе заразіць іншыя камп'ютары шляхам прымацавання сябе да галоўнай праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Maltese 47-Key</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073601Z" changeid="eratyk">
+        <seg>Мальтыйская, 47 клавіш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Maltese 48-Key</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073617Z" changeid="eratyk">
+        <seg>Мальтыйская, 48 клавіш</seg>
       </tuv>
     </tu>
     <tu>
@@ -28747,8 +30291,8 @@
       <tuv lang="en">
         <seg>Manage offline files</seg>
       </tuv>
-      <tuv lang="be" changedate="20100720T101632Z" changeid="eratyk">
-        <seg>Кіраванне мясцовымі файламі</seg>
+      <tuv lang="be" changedate="20101021T093353Z" changeid="eratyk">
+        <seg>Кіраваць пазасеціўнымі файламі</seg>
       </tuv>
     </tu>
     <tu>
@@ -28825,6 +30369,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Maori</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073745Z" changeid="eratyk">
+        <seg>Маоры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Map &amp;network drive...</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T183750Z" changeid="eratyk">
@@ -28837,6 +30389,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T183849Z" changeid="eratyk">
         <seg>Падлучэнне сеткавага дыска</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Marathi</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071134Z" changeid="eratyk">
+        <seg>Маратхі</seg>
       </tuv>
     </tu>
     <tu>
@@ -28893,6 +30453,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T105549Z" changeid="eratyk">
         <seg>Толькі слова цалкам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Mature content</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130412Z" changeid="eratyk">
+        <seg>Змесціва для дарослых</seg>
       </tuv>
     </tu>
     <tu>
@@ -29105,6 +30673,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft ABC IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075230Z" changeid="eratyk">
+        <seg>Microsoft ABC IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft Access Databases (*.mdb)|*.mdb|All Files (*.*)|*.*|</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T135506Z" changeid="eratyk">
@@ -29113,10 +30689,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft Array IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075234Z" changeid="eratyk">
+        <seg>Microsoft Array IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft ChangJie IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075221Z" changeid="eratyk">
+        <seg>Microsoft ChangJie IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft Corporation</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T125350Z" changeid="eratyk">
         <seg>Карпарацыя Microsoft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft DaYi IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075231Z" changeid="eratyk">
+        <seg>Microsoft DaYi IME</seg>
       </tuv>
     </tu>
     <tu>
@@ -29133,6 +30733,70 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164903Z" changeid="eratyk">
         <seg>Microsoft Exchange</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074746Z" changeid="eratyk">
+        <seg>Microsoft IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft New ChangJie IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075219Z" changeid="eratyk">
+        <seg>Microsoft New ChangJie IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft New Phonetic IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075213Z" changeid="eratyk">
+        <seg>Microsoft New Phonetic IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft New Quick IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075224Z" changeid="eratyk">
+        <seg>Microsoft New Quick IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft Phonetic IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075215Z" changeid="eratyk">
+        <seg>Microsoft Phonetic IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft Pinyin IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075228Z" changeid="eratyk">
+        <seg>Microsoft Pinyin IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft QuanPin IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075235Z" changeid="eratyk">
+        <seg>Microsoft QuanPin IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft Quick IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075226Z" changeid="eratyk">
+        <seg>Microsoft Quick IME</seg>
       </tuv>
     </tu>
     <tu>
@@ -29161,6 +30825,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft ShuangPin IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075238Z" changeid="eratyk">
+        <seg>Microsoft ShuangPin IME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft Software License Terms</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T191115Z" changeid="eratyk">
@@ -29185,6 +30857,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft Web Rating System</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130241Z" changeid="eratyk">
+        <seg>Сістэма рэйтынгу сеціва Microsoft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft Windows</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T070912Z" changeid="eratyk">
@@ -29205,6 +30885,14 @@
       </tuv>
       <tuv lang="be" changedate="20100902T193552Z" changeid="eratyk">
         <seg>Microsoft WordPad - праграма апрацоўкі тэксту, якую Вы можаце выкарыстоўваць для стварэння і рэдагавання тэкставых дакументаў з аздабленнем тэксту і малюнкамі. WordPad можа адчыняць .docx, .odt, .rtf і .txt файлы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft ZhengMa IME</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075236Z" changeid="eratyk">
+        <seg>Microsoft ZhengMa IME</seg>
       </tuv>
     </tu>
     <tu>
@@ -29433,6 +31121,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft-Windows-Wininit</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T143053Z" changeid="eratyk">
+        <seg>Microsoft-Windows-Wininit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft-Windows-Winlogon</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T185710Z" changeid="eratyk">
@@ -29565,6 +31261,22 @@
       </tuv>
       <tuv lang="be" changedate="20100726T130503Z" changeid="eratyk">
         <seg>Панядзелак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Mongolian (Mongolian Script)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074145Z" changeid="eratyk">
+        <seg>Мангольская (мангольскі рукапіс)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Mongolian Cyrillic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T072705Z" changeid="eratyk">
+        <seg>Мангольская (кірыліца)</seg>
       </tuv>
     </tu>
     <tu>
@@ -29733,6 +31445,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T160240Z" changeid="alex">
         <seg>Пасунуць уверх</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Move D&amp;own</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061455Z" changeid="eratyk">
+        <seg>Уніз</seg>
       </tuv>
     </tu>
     <tu>
@@ -30041,14 +31761,6 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>N</seg>
-      </tuv>
-      <tuv lang="be" changedate="20101010T083825Z" changeid="eratyk">
-        <seg>Н</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
         <seg>N&amp;egative sign symbol:</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T131202Z" changeid="eratyk">
@@ -30061,6 +31773,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T132929Z" changeid="eratyk">
         <seg>Даўжыня дробнай часткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>N&amp;ot Assigned</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060556Z" changeid="eratyk">
+        <seg>Не прызначана</seg>
       </tuv>
     </tu>
     <tu>
@@ -30253,6 +31973,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T125551Z" changeid="eratyk">
         <seg>Адмоўны:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Nepali</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074439Z" changeid="eratyk">
+        <seg>Непальская</seg>
       </tuv>
     </tu>
     <tu>
@@ -30929,6 +32657,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Norwegian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064016Z" changeid="eratyk">
+        <seg>Нарвежская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Norwegian with Sami</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073452Z" changeid="eratyk">
+        <seg>Нарвежская з саамскай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Not Applicable</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T181256Z" changeid="eratyk">
@@ -31153,6 +32897,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Notifying services that Windows is shutting down...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T140309Z" changeid="eratyk">
+        <seg>Апавяшчэнне службаў аб выключэнні Windows...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Now Printing</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T063906Z" changeid="eratyk">
@@ -31197,14 +32949,6 @@
       </tuv>
       <tuv lang="be" changedate="20100904T194703Z" changeid="eratyk">
         <seg>Лікі</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>O</seg>
-      </tuv>
-      <tuv lang="be" changedate="20101010T083830Z" changeid="eratyk">
-        <seg>А</seg>
       </tuv>
     </tu>
     <tu>
@@ -31411,48 +33155,48 @@
       <tuv lang="en">
         <seg>Offline</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T122423Z" changeid="eratyk">
-        <seg>'Адлучаны'</seg>
+      <tuv lang="be" changedate="20101021T093151Z" changeid="eratyk">
+        <seg>Па-за сецівам</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Offline Availability</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T122656Z" changeid="eratyk">
-        <seg>'Адлучаная' даступнасць</seg>
+      <tuv lang="be" changedate="20101021T093245Z" changeid="eratyk">
+        <seg>Даступнасць па-за сецівам</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Offline Files</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T093200Z" changeid="eratyk">
-        <seg>Адлучаныя файлы</seg>
+      <tuv lang="be" changedate="20101021T093333Z" changeid="eratyk">
+        <seg>Пазасеціўныя файлы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Offline Status</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T122630Z" changeid="eratyk">
-        <seg>'Адлучаны' стан</seg>
+      <tuv lang="be" changedate="20101021T093309Z" changeid="eratyk">
+        <seg>Стан па-за сецівам</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Offline,</seg>
       </tuv>
-      <tuv lang="be" changedate="20100726T074557Z" changeid="eratyk">
-        <seg>адлучаны,</seg>
+      <tuv lang="be" changedate="20101021T093206Z" changeid="eratyk">
+        <seg>пазасеціўны,</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Offline;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T144406Z" changeid="eratyk">
-        <seg>Адлучаны;</seg>
+      <tuv lang="be" changedate="20101021T093222Z" changeid="eratyk">
+        <seg>Пазасеціўны;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31675,8 +33419,8 @@
       <tuv lang="en">
         <seg>Online</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T122519Z" changeid="eratyk">
-        <seg>'Далучаны'</seg>
+      <tuv lang="be" changedate="20101021T093132Z" changeid="eratyk">
+        <seg>У сеціве</seg>
       </tuv>
     </tu>
     <tu>
@@ -32393,6 +34137,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Oriya</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071048Z" changeid="eratyk">
+        <seg>Орыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Other</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T073210Z" changeid="eratyk">
@@ -32405,6 +34157,14 @@
       </tuv>
       <tuv lang="be" changedate="20100727T083022Z" changeid="eratyk">
         <seg>Іншыя пасведчанні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Other Languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063001Z" changeid="eratyk">
+        <seg>Іншыя мовы</seg>
       </tuv>
     </tu>
     <tu>
@@ -32573,6 +34333,14 @@
       </tuv>
       <tuv lang="be" changedate="20100703T181322Z" changeid="alex">
         <seg>Уласцівасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PERIOD</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075258Z" changeid="eratyk">
+        <seg>PERIOD</seg>
       </tuv>
     </tu>
     <tu>
@@ -32761,6 +34529,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Page_Down</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063026Z" changeid="eratyk">
+        <seg>Page_Down</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Page_Up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063023Z" changeid="eratyk">
+        <seg>Page_Up</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Paint</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T122006Z" changeid="eratyk">
@@ -32829,6 +34613,14 @@
       </tuv>
       <tuv lang="be" changedate="20100909T063413Z" changeid="eratyk">
         <seg>Памылка аналізу: %1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pashto (Afghanistan)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074154Z" changeid="eratyk">
+        <seg>Пушту (Афганістан)</seg>
       </tuv>
     </tu>
     <tu>
@@ -33181,6 +34973,14 @@
       </tuv>
       <tuv lang="be" changedate="20100310T115044Z" changeid="alex">
         <seg>Дазволена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Persian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071822Z" changeid="eratyk">
+        <seg>Персідская</seg>
       </tuv>
     </tu>
     <tu>
@@ -33729,10 +35529,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Polish (214)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064534Z" changeid="eratyk">
+        <seg>Польская (214)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Polish (Poland)$Polish$Poland</seg>
       </tuv>
       <tuv lang="be" changedate="20100714T151448Z" changeid="eratyk">
         <seg>Польская (Польшча)$Польская$Польшча</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Polish (Programmers)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064525Z" changeid="eratyk">
+        <seg>Польская (праграмісцкая)</seg>
       </tuv>
     </tu>
     <tu>
@@ -33769,6 +35585,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pornography</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130417Z" changeid="eratyk">
+        <seg>Парнаграфія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Portable Devices</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T122931Z" changeid="eratyk">
@@ -33797,6 +35621,30 @@
       </tuv>
       <tuv lang="be" changedate="20100921T194952Z" changeid="eratyk">
         <seg>Партрэтная (перакуленая)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Portuguese</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064019Z" changeid="eratyk">
+        <seg>Партугальская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Portuguese (Brazilian ABNT)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063737Z" changeid="eratyk">
+        <seg>Партугальская (Бразільская ABNT)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Portuguese (Brazilian ABNT2)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T072637Z" changeid="eratyk">
+        <seg>Партугальская (Бразільская ABNT2)</seg>
       </tuv>
     </tu>
     <tu>
@@ -34005,6 +35853,22 @@
       </tuv>
       <tuv lang="be" changedate="20100719T193127Z" changeid="eratyk">
         <seg>Націскаць камбінацыі клавіш па чарзе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Press the CAPS &amp;LOCK key</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060034Z" changeid="eratyk">
+        <seg>Клавішай Caps Lock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Press the SHI&amp;FT key</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060050Z" changeid="eratyk">
+        <seg>Клавішай Shift</seg>
       </tuv>
     </tu>
     <tu>
@@ -34385,6 +36249,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Process Exit Monitor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T140132Z" changeid="eratyk">
+        <seg>Манітор выйсця з працэсу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Process exclusions</seg>
       </tuv>
       <tuv lang="be" changedate="20100318T103254Z" changeid="Ales Koshal [icq#:706101]">
@@ -34557,6 +36429,14 @@
       </tuv>
       <tuv lang="be" changedate="20100928T134414Z" changeid="eratyk">
         <seg>Налады праектавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Proofing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062200Z" changeid="eratyk">
+        <seg>Праверка</seg>
       </tuv>
     </tu>
     <tu>
@@ -34857,6 +36737,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Punjabi</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071117Z" changeid="eratyk">
+        <seg>Панджабі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Purple</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T164736Z" changeid="eratyk">
@@ -34869,6 +36757,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T072938Z" changeid="eratyk">
         <seg>Націснуць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>QUOTE</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075311Z" changeid="eratyk">
+        <seg>QUOTE</seg>
       </tuv>
     </tu>
     <tu>
@@ -34961,6 +36857,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>RBRACKET</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075309Z" changeid="eratyk">
+        <seg>RBRACKET</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>REC</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T121517Z" changeid="eratyk">
@@ -35005,6 +36909,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T063618Z" changeid="eratyk">
         <seg>Адзнака</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rating System for Websites</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130259Z" changeid="eratyk">
+        <seg>Сістэма рэйтынгу для сайтаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -35445,6 +37357,14 @@
       </tuv>
       <tuv lang="be" changedate="20100921T184034Z" changeid="eratyk">
         <seg>Змяншае акно ў значак.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Reference</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062148Z" changeid="eratyk">
+        <seg>Даведка</seg>
       </tuv>
     </tu>
     <tu>
@@ -36049,6 +37969,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Resend the previous result string to this application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075531Z" changeid="eratyk">
+        <seg>Перадаслаць мінулы выніковы радок у гэтую праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Reserved Battery Level</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T171937Z" changeid="eratyk">
@@ -36505,6 +38433,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Resuming Windows</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T144231Z" changeid="eratyk">
+        <seg>Узнаўленне Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Retrieving SpyNet Community Rating...</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T082320Z" changeid="Ales Koshal [icq#:706101]">
@@ -36721,6 +38657,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Romanian (Legacy)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064549Z" changeid="eratyk">
+        <seg>Румынская (успадкаваная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Romanian (Programmers)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074628Z" changeid="eratyk">
+        <seg>Румынская (праграмісцкая)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Romanian (Standard)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074613Z" changeid="eratyk">
+        <seg>Румынская (стандартавая)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Root</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T145704Z" changeid="eratyk">
@@ -36905,6 +38865,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Russian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065025Z" changeid="eratyk">
+        <seg>Расійская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Russian (Russia)$Russian$Russia</seg>
       </tuv>
       <tuv lang="be" changedate="20100714T151354Z" changeid="eratyk">
@@ -36913,10 +38881,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>S</seg>
+        <seg>Russian (Typewriter)</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T083835Z" changeid="eratyk">
-        <seg>З</seg>
+      <tuv lang="be" changedate="20101021T065041Z" changeid="eratyk">
+        <seg>Расійская (друкавальная машынка)</seg>
       </tuv>
     </tu>
     <tu>
@@ -37065,6 +39033,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>SEMICLN</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075253Z" changeid="eratyk">
+        <seg>SEMICLN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SLASH</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075305Z" changeid="eratyk">
+        <seg>SLASH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>SQM</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T201318Z" changeid="eratyk">
@@ -37117,6 +39101,22 @@
       </tuv>
       <tuv lang="be" changedate="20100927T165626Z" changeid="eratyk">
         <seg>Бяспечнае выманне абсталявання і носьбітаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sami Extended Finland-Sweden</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073652Z" changeid="eratyk">
+        <seg>Саамская пашыраная (фінска-шведская)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sami Extended Norway</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073712Z" changeid="eratyk">
+        <seg>Саамская пашыраная (нарвежская)</seg>
       </tuv>
     </tu>
     <tu>
@@ -38491,8 +40491,8 @@
       <tuv lang="en">
         <seg>See also</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T174158Z" changeid="eratyk">
-        <seg>Гл. таксама</seg>
+      <tuv lang="be" changedate="20101021T093030Z" changeid="eratyk">
+        <seg>Глядзіце таксама</seg>
       </tuv>
     </tu>
     <tu>
@@ -38849,6 +40849,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select one of the installed input languages to use as the default for all input fields.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061157Z" changeid="eratyk">
+        <seg>Абярыце адну з усталяваных моваў уводу, каб скарыстаць яе як перадвызначаную для ўсіх палёў уводу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select only one file to rename, or use MS-DOS wildcards (for example, *.txt) to rename a group of files with similar names.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T075704Z" changeid="eratyk">
@@ -38981,6 +40989,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T073806Z" changeid="eratyk">
         <seg>Абярыце профіль, да якога Вы жадаеце падключыцца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the services that you want for each input language shown in the list. Use the Add and Remove buttons to modify this list.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061440Z" changeid="eratyk">
+        <seg>Абярыце пажаданыя службы для кожнай мовы ўводу ў спісе. Карыстайце кнопкі &quot;Дадаць&quot; і &quot;Выдаліць&quot;, каб змяняць гэты спіс.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39225,6 +41241,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Serbian (Cyrillic)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065053Z" changeid="eratyk">
+        <seg>Сербская (кірыліца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Serbian (Latin)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064605Z" changeid="eratyk">
+        <seg>Сербская (лацінай)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Service has stopped</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T145451Z" changeid="Ales Koshal [icq#:706101]">
@@ -39253,6 +41285,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T114111Z" changeid="eratyk">
         <seg>Службы і драйверы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sesotho sa Leboa</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074852Z" changeid="eratyk">
+        <seg>Паўночная сэсота (Sesotho sa Leboa)</seg>
       </tuv>
     </tu>
     <tu>
@@ -39569,6 +41609,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Setswana</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075017Z" changeid="eratyk">
+        <seg>Сетсвана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Setting could not be read</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T185155Z" changeid="eratyk">
@@ -39637,6 +41685,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T140651Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Крытычны/высокі ўзровень: %1!d!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sex education</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130423Z" changeid="eratyk">
+        <seg>Палавое выхаванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -39747,8 +41803,8 @@
       <tuv lang="en">
         <seg>Shift</seg>
       </tuv>
-      <tuv lang="be" changedate="20100810T110800Z" changeid="eratyk">
-        <seg>Ссоўванне</seg>
+      <tuv lang="be" changedate="20101021T061612Z" changeid="eratyk">
+        <seg>Shift</seg>
       </tuv>
     </tu>
     <tu>
@@ -39757,6 +41813,14 @@
       </tuv>
       <tuv lang="be" changedate="20100810T111119Z" changeid="eratyk">
         <seg>Калейдаскоп</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shift+</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061851Z" changeid="eratyk">
+        <seg>Shift+</seg>
       </tuv>
     </tu>
     <tu>
@@ -39827,8 +41891,8 @@
       <tuv lang="en">
         <seg>Shortcut &amp;key:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T193726Z" changeid="alex">
-        <seg>Хуткі выклік</seg>
+      <tuv lang="be" changedate="20101021T060730Z" changeid="eratyk">
+        <seg>Клавіятурны скарот:</seg>
       </tuv>
     </tu>
     <tu>
@@ -39945,10 +42009,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Show More...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062856Z" changeid="eratyk">
+        <seg>Больш...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Show Te&amp;xt</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T183603Z" changeid="alex">
         <seg>Паказваць подпісы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show add&amp;itional Language bar icons in the taskbar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T055645Z" changeid="eratyk">
+        <seg>Адлюстроўваць дадатковыя значкі моўнай паліцы на паліцы задач</seg>
       </tuv>
     </tu>
     <tu>
@@ -40059,8 +42139,8 @@
       <tuv lang="en">
         <seg>Show hidden icons</seg>
       </tuv>
-      <tuv lang="be" changedate="20100904T191426Z" changeid="eratyk">
-        <seg>Адлюстроўваць схаваныя значкі</seg>
+      <tuv lang="be" changedate="20101021T055907Z" changeid="eratyk">
+        <seg>Адлюстраваць схаваныя значкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -40329,6 +42409,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Show t&amp;ext labels on the Language bar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T055811Z" changeid="eratyk">
+        <seg>Адлюстроўваць тэкставыя цэтлікі на моўнай паліцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Show text labels</seg>
       </tuv>
       <tuv lang="be" changedate="20100904T191220Z" changeid="eratyk">
@@ -40341,6 +42429,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T094724Z" changeid="eratyk">
         <seg>Адчыніць дыялог &quot;Устаўка аб'екта&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show the Language bar as transparent when i&amp;nactive</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T055523Z" changeid="eratyk">
+        <seg>Моўная паліца празрыстая, калі неактыўная</seg>
       </tuv>
     </tu>
     <tu>
@@ -40729,6 +42825,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Sinhala</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074415Z" changeid="eratyk">
+        <seg>Сінгальская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sinhala - Wij 9</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074419Z" changeid="eratyk">
+        <seg>Сінгальская - Wij 9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Siz&amp;e:</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T160746Z" changeid="eratyk">
@@ -40881,6 +42993,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Slovak</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064610Z" changeid="eratyk">
+        <seg>Славацкая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Slovak (QWERTY)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064613Z" changeid="eratyk">
+        <seg>Славацкая (QWERTY)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Slovenian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064615Z" changeid="eratyk">
+        <seg>Славенская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Slow</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T130113Z" changeid="eratyk">
@@ -40933,6 +43069,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T192057Z" changeid="eratyk">
         <seg>Меншы памер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Smart Tag</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062213Z" changeid="eratyk">
+        <seg>Смарт-тэгі</seg>
       </tuv>
     </tu>
     <tu>
@@ -41217,6 +43361,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Sorbian Extended</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074352Z" changeid="eratyk">
+        <seg>Сербская пашыраная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorbian Standard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074755Z" changeid="eratyk">
+        <seg>Сербская стандартавая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorbian Standard (Legacy)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074333Z" changeid="eratyk">
+        <seg>Сербская стандартавая (успадкаваная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sort &amp;by Name</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T183621Z" changeid="alex">
@@ -41337,6 +43505,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Space</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063015Z" changeid="eratyk">
+        <seg>Прагал</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Space Available</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T064330Z" changeid="eratyk">
@@ -41361,10 +43537,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Spanish</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064021Z" changeid="eratyk">
+        <seg>Іспанская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Spanish (Spain)</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T183150Z" changeid="eratyk">
         <seg>Іспанская (Іспанія)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Spanish Variation</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064039Z" changeid="eratyk">
+        <seg>Іспанская, змененая</seg>
       </tuv>
     </tu>
     <tu>
@@ -41397,6 +43589,14 @@
       </tuv>
       <tuv lang="be" changedate="20100720T192709Z" changeid="eratyk">
         <seg>Абярыце, якой рукой Вы пішаце</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Speech</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062014Z" changeid="eratyk">
+        <seg>Гаворка</seg>
       </tuv>
     </tu>
     <tu>
@@ -42009,6 +44209,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Swedish</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064044Z" changeid="eratyk">
+        <seg>Шведская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Swedish with Sami</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073723Z" changeid="eratyk">
+        <seg>Шведская з саамскай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Swedish$Swedish$Sweden$$$Belarus$Republic of Belarus</seg>
       </tuv>
       <tuv lang="be" changedate="20100714T151720Z" changeid="eratyk">
@@ -42017,10 +44233,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Swiss French</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064054Z" changeid="eratyk">
+        <seg>Швейцарская французская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Swiss German</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064112Z" changeid="eratyk">
+        <seg>Швейцарская нямецкая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Switch</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T173311Z" changeid="eratyk">
         <seg>Пераключыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Switch Input Language</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060403Z" changeid="eratyk">
+        <seg>Мова ўводу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Switch Keyboard Layout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060550Z" changeid="eratyk">
+        <seg>Пабудова клавіятуры</seg>
       </tuv>
     </tu>
     <tu>
@@ -42181,6 +44429,22 @@
       </tuv>
       <tuv lang="be" changedate="20100722T101802Z" changeid="eratyk">
         <seg>Сінхранізуе файлы, з якімі працуюць два камп'ютары.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Syriac</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073239Z" changeid="eratyk">
+        <seg>Сірыйская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Syriac Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073252Z" changeid="eratyk">
+        <seg>Сірыйская фанетычная</seg>
       </tuv>
     </tu>
     <tu>
@@ -42449,6 +44713,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tab</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061544Z" changeid="eratyk">
+        <seg>Tab</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tabs</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T072600Z" changeid="eratyk">
@@ -42461,6 +44733,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T070230Z" changeid="eratyk">
         <seg>Цэтлік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tajik</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073836Z" changeid="eratyk">
+        <seg>Таджыкская</seg>
       </tuv>
     </tu>
     <tu>
@@ -42493,6 +44773,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T070205Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Выконваюцца дзеянні...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tamil</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071123Z" changeid="eratyk">
+        <seg>Тамільская</seg>
       </tuv>
     </tu>
     <tu>
@@ -42585,6 +44873,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tatar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071412Z" changeid="eratyk">
+        <seg>Татарская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Taupe</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T055127Z" changeid="alex">
@@ -42629,6 +44925,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T122922Z" changeid="eratyk">
         <seg>Адміністраванне сервера Telnet </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Telugu</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071129Z" changeid="eratyk">
+        <seg>Тэлугу</seg>
       </tuv>
     </tu>
     <tu>
@@ -42713,6 +45017,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Text Services and Input Languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T060823Z" changeid="eratyk">
+        <seg>Тэкставыя службы і мовы ўводу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Textures</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053804Z" changeid="alex">
@@ -42725,6 +45037,38 @@
       </tuv>
       <tuv lang="be" changedate="20100918T203536Z" changeid="eratyk">
         <seg>Тайскі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thai Kedmanee</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070638Z" changeid="eratyk">
+        <seg>Тайская Kedmanee</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thai Kedmanee (non-ShiftLock)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070656Z" changeid="eratyk">
+        <seg>Тайская Kedmanee (без ShiftLock)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thai Pattachote</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070641Z" changeid="eratyk">
+        <seg>Тайская Pattachote</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thai Pattachote (non-ShiftLock)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070703Z" changeid="eratyk">
+        <seg>Тайская Pattachote (без ShiftLock)</seg>
       </tuv>
     </tu>
     <tu>
@@ -43149,6 +45493,30 @@
       </tuv>
       <tuv lang="be" changedate="20100717T101427Z" changeid="eratyk">
         <seg>Немагчыма выявіць прычыну праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The computer has rebooted from a bugcheck.  A dump was not saved.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133850Z" changeid="eratyk">
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Дамп не быў захаваны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The computer has rebooted from a bugcheck.  The bugcheck was: %1. A dump was saved in: %2. Report Id: %3.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133137Z" changeid="eratyk">
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Дамп захаваны ў: %2. Ідэнтыфікатар справаздачы: %3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The computer has rebooted from a bugcheck.  The bugcheck was: %1. A full dump was not saved.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T132953Z" changeid="eratyk">
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Поўны дамп не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43793,6 +46161,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The following input methods are available only on 32 bit processes.\n%sDo you want to include them in Default User Account?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062729Z" changeid="eratyk">
+        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\n%sЖадаеце дадаць іх да перадвызначанага рахунка карыстальніка?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The following input methods are available only on 32 bit processes.\n%sThese can not be applied to System Accounts.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062834Z" changeid="eratyk">
+        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\n%sЯны не могуць быць ужытыя да сістэмных рахункаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The following programs need to close:</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T150934Z" changeid="eratyk">
@@ -44193,6 +46577,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The property setting for %s is not available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062939Z" changeid="eratyk">
+        <seg>Налада ўласцівасцяў для %s недаступная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The publisher could not be verified. Are you sure you want to install this gadget?</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T103335Z" changeid="eratyk">
@@ -44245,6 +46637,14 @@
       </tuv>
       <tuv lang="be" changedate="20100712T201850Z" changeid="eratyk">
         <seg>Корань дыску %3 мае файлавую сістэму FAT і таму можа змяшчаць толькі абмежаваны лік элементаў. Захавайце элементы ў падкаталогу альбо адфарматуйце дыск у фармаце NTFS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The scheduled shutdown has been cancelled.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T141225Z" changeid="eratyk">
+        <seg>Запланаванае выключэнне было скасавана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44413,6 +46813,22 @@
       </tuv>
       <tuv lang="be" changedate="20100924T195351Z" changeid="eratyk">
         <seg>Сістэмная лакалізацыя была змененая на &quot;%1&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The system process '%s' terminated unexpectedly with status code %d.  The system will now shut down and restart.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T140817Z" changeid="eratyk">
+        <seg>Сістэмны працэс '%s' нечакана перарваўся з кодам стану %d.  Зараз сістэма перазапусціцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The system was unable to convert a saved dump to a minidump.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133211Z" changeid="eratyk">
+        <seg>Сістэма не змагла пераўтварыць захаваны дамп у мінідамп.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44750,6 +47166,22 @@
       </tuv>
       <tuv lang="be" changedate="20100725T081149Z" changeid="eratyk">
         <seg>У хатняй групе няма іншых людзей.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are profiles that will be disabled with your change\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T062001Z" changeid="eratyk">
+        <seg>Ёсць профілі, якія выключацца пасля змянення\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are profiles that will be enabled with your change\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061951Z" changeid="eratyk">
+        <seg>Ёсць профілі, якія уключацца пасля змянення\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -46690,6 +49122,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tibetan (PRC)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073849Z" changeid="eratyk">
+        <seg>Тыбецкая (КНР)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tile</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061332Z" changeid="alex">
@@ -46758,6 +49198,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164001Z" changeid="eratyk">
         <seg>Назва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To %s - %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T061838Z" changeid="eratyk">
+        <seg>Да %s - %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -47098,6 +49546,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To turn off Caps Lock</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T055955Z" changeid="eratyk">
+        <seg>Выключэнне Caps Lock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>To turn on Windows Aero, select a Windows theme.  Colors and sizes selected here apply only if you have selected the Windows 7 Basic theme or an Ease of Access theme.</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T160710Z" changeid="eratyk">
@@ -47170,6 +49626,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tobacco</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130430Z" changeid="eratyk">
+        <seg>Тытунь</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Today</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T070131Z" changeid="Ales Koshal [icq#:706101]">
@@ -47178,10 +49642,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Toggle between IME and non IME.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081031Z" changeid="eratyk">
+        <seg>Пераключэнне паміж рэжымамі з IME і без.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Toggle color mixer</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T064251Z" changeid="alex">
         <seg>Пераключыць змяшальнік колераў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Toggle the UI style between caret unrelated UI and the caret related UI.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T080626Z" changeid="eratyk">
+        <seg>Пераключэнне стыля КІ паміж звязаным і незвязаным са знакам устаўкі КІ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Toggle the shape conversion mode of IME.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081221Z" changeid="eratyk">
+        <seg>Пераключэнне рэжыму пераўтварэння формы IME.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Toggle the symbol conversion mode of IME.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T081259Z" changeid="eratyk">
+        <seg>Пераключэнне рэжыму пераўтварэння сімвалаў IME.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47530,6 +50026,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Turkish F</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065106Z" changeid="eratyk">
+        <seg>Турэцкая F</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turkish Q</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065108Z" changeid="eratyk">
+        <seg>Турэцкая Q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turkmen</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073829Z" changeid="eratyk">
+        <seg>Туркменская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Turn High Contrast on or off</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T193212Z" changeid="eratyk">
@@ -47756,8 +50276,8 @@
       <tuv lang="en">
         <seg>Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T075156Z" changeid="eratyk">
-        <seg>Увядзіце назву праграмы, каталога, дакумента альбо рэсурсу сеціва, і Windows адчыніць гэта для Вас.</seg>
+      <tuv lang="be" changedate="20101021T101633Z" changeid="eratyk">
+        <seg>Увядзіце назву праграмы, каталога, дакумента альбо рэсурсу сеціва, і Windows адчыніць гэта.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47850,10 +50370,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>US</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063622Z" changeid="eratyk">
+        <seg>ЗША</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>US English Table for IBM Arabic 238_L</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071809Z" changeid="eratyk">
+        <seg>ЗША ангельская табліца для IBM арабскай 238_L</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>UTF-8</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T074326Z" changeid="eratyk">
         <seg>UTF-8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ukrainian</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T065100Z" changeid="eratyk">
+        <seg>Украінская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ukrainian (Enhanced)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074706Z" changeid="eratyk">
+        <seg>Украінская (пашыраная)</seg>
       </tuv>
     </tu>
     <tu>
@@ -48010,10 +50562,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unable to move dump file from the temporary location to the final location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133731Z" changeid="eratyk">
+        <seg>Немагчыма перамясціць файл дампа з часовага ў канчатковае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unable to open %1.  There are too many files already open.</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T083129Z" changeid="eratyk">
         <seg>Немагчыма адчыніць %1. Ужо адчынена зашмат файлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to produce a minidump file from the full dump file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133828Z" changeid="eratyk">
+        <seg>Немагчыма зрабіць файл мінідампа з файла поўнага дампа.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to read system shutdown configuration information from the registry.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T133353Z" changeid="eratyk">
+        <seg>Немагчыма прачытаць інфармацыю наладаў выключэння сістэмы з рэестра.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48286,6 +50862,54 @@
       </tuv>
       <tuv lang="be" changedate="20100724T113102Z" changeid="eratyk">
         <seg>Выдаленне праграм, кампанентаў Windows і гаджэтаў, атрыманне новых праграм з сеткі ці сеціва і г.д.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United Kingdom</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064121Z" changeid="eratyk">
+        <seg>Брытанская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United Kingdom Extended</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073737Z" changeid="eratyk">
+        <seg>Брытанская пашыраная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United States-Dvorak</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T070911Z" changeid="eratyk">
+        <seg>ЗША - Дварак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United States-Dvorak for left hand</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064217Z" changeid="eratyk">
+        <seg>ЗША - Дварак, левая рука</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United States-Dvorak for right hand</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064228Z" changeid="eratyk">
+        <seg>ЗША - Дварак, правая рука</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>United States-International</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T064136Z" changeid="eratyk">
+        <seg>ЗША міжнародная</seg>
       </tuv>
     </tu>
     <tu>
@@ -48706,6 +51330,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Urdu</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T073230Z" changeid="eratyk">
+        <seg>Урду</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Usage</seg>
       </tuv>
       <tuv lang="be" changedate="20100706T135504Z" changeid="eratyk">
@@ -49012,8 +51644,8 @@
       <tuv lang="en">
         <seg>User Accounts</seg>
       </tuv>
-      <tuv lang="be" changedate="20100714T165936Z" changeid="eratyk">
-        <seg>Рахунак карыстальніка</seg>
+      <tuv lang="be" changedate="20101021T091450Z" changeid="eratyk">
+        <seg>Рахункі карыстальнікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -49202,6 +51834,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Uyghur</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074801Z" changeid="eratyk">
+        <seg>Уйгурская</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Uyghur (Legacy)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074409Z" changeid="eratyk">
+        <seg>Уйгурская (успадкаваная)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Uzbek Cyrillic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T071505Z" changeid="eratyk">
+        <seg>Узбекская (кірыліца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>VCDs</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T202658Z" changeid="eratyk">
@@ -49356,8 +52012,8 @@
       <tuv lang="en">
         <seg>Vietnamese</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T203441Z" changeid="eratyk">
-        <seg>В'етнамскі</seg>
+      <tuv lang="be" changedate="20101021T071512Z" changeid="eratyk">
+        <seg>В'етнамская</seg>
       </tuv>
     </tu>
     <tu>
@@ -50030,6 +52686,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T052144Z" changeid="eratyk">
         <seg>Прагляд фільмаў і іншых лічбавых відэафайлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Weapons</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130311Z" changeid="eratyk">
+        <seg>Зброя</seg>
       </tuv>
     </tu>
     <tu>
@@ -51458,6 +54122,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows has encountered a critical problem and will restart automatically in one minute. Please save your work now.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T141333Z" changeid="eratyk">
+        <seg>Windows выявіла крытычную праблему і аўтаматычна перазапусціцца праз 1 хвіліну. Калі ласка, захавайце зараз Вашу працу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows has recovered from an unexpected shutdown</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T154026Z" changeid="eratyk">
@@ -51610,6 +54282,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows start-up process has failed to start the remote shutdown server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T142829Z" changeid="eratyk">
+        <seg>Працэсу запуску Windows не ўдалося запусціць аддалены сервер выключэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows start-up process has failed to synchronize with the local security subsystem during setup.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T143048Z" changeid="eratyk">
+        <seg>Працэсу запуску Windows не ўдалося сінхранізавацца з мясцовай падсістэмай бяспекі падчас наладжвання..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows start-up process has failed to terminate system processes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T143636Z" changeid="eratyk">
+        <seg>Працэсу запуску Windows не ўдалося скончыць сістэмныя працэсы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows start-up process has unexpectedly terminated.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T143535Z" changeid="eratyk">
+        <seg>Працэс запуску Windows раптоўна перарваўся.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows was unable to complete the disk check.</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T155705Z" changeid="eratyk">
@@ -51650,6 +54354,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows will shut down in %d minutes.\n\n Shutdown will start on %s.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T141318Z" changeid="eratyk">
+        <seg>Windows выключыцца праз %d хвілін.\n\n Заканчэнне працы на %s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows will shut down in 1 minute.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T141354Z" changeid="eratyk">
+        <seg>Windows выключыцца праз 1 хвіліну.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows will shut down in less than a minute.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T141406Z" changeid="eratyk">
+        <seg>Windows выключыцца цягам 1 хвіліны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Winsock Layered Service Provider</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T180817Z" changeid="eratyk">
@@ -51686,6 +54414,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T125615Z" changeid="eratyk">
         <seg>З сапраўднай Windows ў Вас ёсць доступ да ўсіх абнаўленняў Windows, і Вы можаце быць упэўненыя, што Вашае апраграмаванне Windows працуе з апошнімі магчымасцямі бяспекі і надзейнасці ад Microsoft.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wolof</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075001Z" changeid="eratyk">
+        <seg>Волаф (Wolof)</seg>
       </tuv>
     </tu>
     <tu>
@@ -51970,6 +54706,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Yakut</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074202Z" changeid="eratyk">
+        <seg>Якуцкая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Year</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T063910Z" changeid="eratyk">
@@ -51998,6 +54742,22 @@
       </tuv>
       <tuv lang="be" changedate="20100705T173953Z" changeid="eratyk">
         <seg>Так, прапаліць іх яшчэ раз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yi Input Method</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T075242Z" changeid="eratyk">
+        <seg>Yi Input Method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yoruba</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T074950Z" changeid="eratyk">
+        <seg>Ёруба (Yoruba)</seg>
       </tuv>
     </tu>
     <tu>
@@ -53946,6 +56706,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>http://www.microsoft.com</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T130302Z" changeid="eratyk">
+        <seg>http://www.microsoft.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>ico</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T072823Z" changeid="eratyk">
@@ -54526,6 +57294,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T202541Z" changeid="eratyk">
         <seg>|У верхні каталог|Новы каталог|Змяніць каталог|Вось||</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>~</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101021T063311Z" changeid="eratyk">
+        <seg>~</seg>
       </tuv>
     </tu>
     <tu>
