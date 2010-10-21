@@ -1,0 +1,77 @@
+1 MUI "Data_1803.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1000, 	"Notifying services that Windows is shutting down..."
+1001, 	"Stopping services..."
+1002, 	"Shutting down..."
+1003, 	"Windows is preparing to shut down..."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+3000, 	"The system process '%s' terminated unexpectedly with status code %d.  The system will now shut down and restart."
+3001, 	"Windows has encountered a critical problem and will restart automatically in one minute. Please save your work now."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+4000, 	"Windows will shut down in %d minutes.\n\n Shutdown will start on %s."
+4001, 	"The scheduled shutdown has been cancelled."
+4002, 	"Windows will shut down in less than a minute."
+4003, 	"Windows will shut down in 1 minute."
+}
+
+1 MESSAGETABLE
+{
+11,  	"Custom dynamic link libraries are being loaded for every application. The system administrator should review the list of libraries to ensure they are related to trusted applications."
+268435512,  	"Classic"
+805306368,  	"Info"
+805306369,  	"Start"
+805306370,  	"Stop"
+1073742825,  	"%1"
+1342177283,  	"Warning"
+1342177284,  	"Information"
+-2147480645,  	"Windows start-up process has failed to start the remote shutdown server."
+-2147480644,  	"Windows start-up process has failed to synchronize with the local security subsystem during setup."
+-1879048191,  	"Microsoft-Windows-Wininit"
+-1879048190,  	"System"
+-1073740809,  	"A critical system process, %1, failed with status code %2.  The machine must now be restarted."
+-1073738822,  	"Windows start-up process has unexpectedly terminated."
+-1073738819,  	"Windows start-up process has failed to terminate system processes."
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Windows Start-Up Application"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "WinInit"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "WinInit.exe.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
