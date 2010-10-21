@@ -1,0 +1,112 @@
+1 MUI "Data_1510.bin"
+
+110 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Properties",  108
+}
+}
+
+111 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Open",  105
+	MENUITEM "&Explore",  106
+	MENUITEM SEPARATOR
+	MENUITEM "&Properties",  108
+}
+}
+
+112 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Properties",  108
+}
+}
+
+113 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Open",  105
+	MENUITEM "&Explore",  106
+	MENUITEM SEPARATOR
+	MENUITEM "&Properties",  108
+}
+}
+
+114 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Restore",  107
+}
+}
+
+115 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&Properties",  108
+}
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+102, 	"Find files which were backed up and restore them."
+103, 	"File Backup Index"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+117, 	"Backup"
+118, 	"Backup on %1!s!"
+120, 	"Name"
+121, 	"Size"
+122, 	"Date created"
+123, 	"Date modified"
+124, 	"Backup date"
+125, 	"Backup of %1!s!"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Microsoft® Windows Backup Shell Extension"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "SDSHEXT.DLL"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "SDSHEXT.DLL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
