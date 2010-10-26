@@ -1,0 +1,488 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+103 DIALOGEX 0, 0, 227, 215
+CAPTION "Security"
+STYLE 0x50c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Object name:", 1014, Static, 0x48020000 | NOT WS_VISIBLE, 7, 7, 50, 8, 0x0
+  CONTROL "", 1015, Edit, 0x48000880 | NOT WS_VISIBLE, 60, 7, 160, 8, 0x0
+  CONTROL "", 1016, Static, 0x48000003 | NOT WS_VISIBLE, 7, 30, 8, 8, 0x0
+  CONTROL "The requested security information is either unavailable or can’t be displayed.", 1012, Static, 0x40020000 | NOT WS_VISIBLE, 20, 30, 199, 32, 0x0
+  CONTROL "&Group or user names:", 1013, Static, 0x50020000, 7, 25, 213, 8, 0x0
+  CONTROL "", 1000, "SysListView32", 0x50a1c01d, 7, 35, 213, 43, 0x0
+  CONTROL "", 6040, Edit, 0x40a00804 | NOT WS_VISIBLE, 7, 35, 213, 43, 0x0
+  CONTROL "To change permissions, click Edit.", 6027, Static, 0x48020000 | NOT WS_VISIBLE, 7, 82, 150, 8, 0x0
+  CONTROL "A&dd...", 1001, Button, 0x50010000, 116, 82, 50, 14, 0x0
+  CONTROL "&Remove", 1002, Button, 0x50010000, 170, 82, 50, 14, 0x0
+  CONTROL "&Edit...", 1003, Button, 0x48010000 | NOT WS_VISIBLE, 160, 82, 60, 14, 0x0
+  CONTROL "Deny", 1010, Static, 0x50020001, 176, 104, 32, 8, 0x0
+  CONTROL "Allow", 1009, Static, 0x50020001, 135, 104, 32, 8, 0x0
+  CONTROL "", 6024, Static, 0x50020000, 7, 96, 105, 16, 0x0
+  CONTROL "", 1008, Static, 0x50020000, 7, 104, 105, 8, 0x0
+  CONTROL "", 1004, "CHECKLIST_ACLUI", 0x50800002, 7, 114, 213, 61, 0x10000
+  CONTROL "Ad&vanced", 1005, Button, 0x50010000, 160, 179, 60, 14, 0x0
+  CONTROL "For special permissions or advanced settings, click Advanced.", 6026, Static, 0x50020000, 7, 179, 148, 24, 0x0
+  CONTROL "<A>Learn about access control and permissions</A>", 6021, "Link Window", 0x50010000, 7, 204, 213, 8, 0x0
+}
+
+104 DIALOGEX 0, 0, 400, 231
+CAPTION "Permissions"
+STYLE 0x50c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "To view or edit details for a permission entry, select the entry and then click Edit.", 6020, Static, 0x50020000, 7, 7, 386, 8, 0x0
+  CONTROL "Object name:", 1014, Static, 0x48020000 | NOT WS_VISIBLE, 7, 29, 56, 8, 0x0
+  CONTROL "", 1015, Edit, 0x48000880 | NOT WS_VISIBLE, 66, 29, 330, 8, 0x0
+  CONTROL "", 1016, Static, 0x48000003 | NOT WS_VISIBLE, 7, 34, 8, 8, 0x0
+  CONTROL "The requested security information is either unavailable or can’t be displayed.", 1012, Static, 0x40020000 | NOT WS_VISIBLE, 20, 34, 360, 32, 0x0
+  CONTROL "Permission en&tries:", 2009, Static, 0x50020000, 7, 46, 386, 8, 0x0
+  CONTROL "", 2001, "SysListView32", 0x50b10009, 7, 58, 386, 83, 0x0
+  CONTROL "", 6044, Edit, 0x40a00804 | NOT WS_VISIBLE, 7, 58, 386, 83, 0x0
+  CONTROL "A&dd...", 2002, Button, 0x50010000, 7, 148, 62, 14, 0x0
+  CONTROL "&Edit...", 2004, Button, 0x50010000, 74, 148, 62, 14, 0x0
+  CONTROL "&Remove", 2003, Button, 0x50010000, 140, 148, 62, 14, 0x0
+  CONTROL "&Change Permissions...", 1003, Button, 0x48010000 | NOT WS_VISIBLE, 7, 148, 87, 14, 0x0
+  CONTROL "Restore de&faults", 2005, Button, 0x50010000, 306, 148, 87, 14, 0x0
+  CONTROL "&Include inheritable permissions from this object's parent", 2006, Button, 0x50012c03, 7, 174, 386, 8, 0x0
+  CONTROL "Re&place all child object permissions with inheritable permissions from this object", 2008, Button, 0x50012c03, 7, 186, 386, 16, 0x0
+  CONTROL "<A>Managing permission entries</A>", 6021, "Link Window", 0x50010000, 7, 216, 386, 8, 0x0
+}
+
+105 DIALOGEX 0, 0, 400, 231
+CAPTION "Auditing"
+STYLE 0x50c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "To view or edit details for an auditing entry, select the entry and then click Edit.", 6020, Static, 0x50020000, 7, 7, 386, 8, 0x0
+  CONTROL "Object name:", 1014, Static, 0x48020000 | NOT WS_VISIBLE, 7, 29, 56, 8, 0x0
+  CONTROL "", 1015, Edit, 0x48000880 | NOT WS_VISIBLE, 66, 29, 330, 8, 0x0
+  CONTROL "", 1016, Static, 0x48000003 | NOT WS_VISIBLE, 7, 34, 8, 8, 0x0
+  CONTROL "The requested security information is either unavailable or can’t be displayed.", 1012, Static, 0x40020000 | NOT WS_VISIBLE, 20, 34, 360, 32, 0x0
+  CONTROL "Auditing en&tries:", 2009, Static, 0x50020000, 7, 46, 386, 8, 0x0
+  CONTROL "This object contains callback auditing entries that can't be viewed or edited in this dialog box.", 6038, Static, 0x40020000 | NOT WS_VISIBLE, 7, 51, 386, 39, 0x0
+  CONTROL "", 2001, "SysListView32", 0x50b10009, 7, 58, 386, 83, 0x0
+  CONTROL "A&dd...", 2002, Button, 0x50010000, 7, 148, 62, 14, 0x0
+  CONTROL "&Edit...", 2004, Button, 0x50010000, 73, 148, 62, 14, 0x0
+  CONTROL "&Remove", 2003, Button, 0x50010000, 139, 148, 62, 14, 0x0
+  CONTROL "&Edit...", 1003, Button, 0x48010000 | NOT WS_VISIBLE, 7, 148, 62, 14, 0x0
+  CONTROL "Restore de&faults", 2005, Button, 0x50010000, 306, 148, 87, 14, 0x0
+  CONTROL "&Include inheritable auditing entries from this object's parent", 2006, Button, 0x50012c03, 7, 174, 386, 8, 0x0
+  CONTROL "Re&place all existing inheritable auditing entries on all descendants with inheritable auditing entries from this object", 2008, Button, 0x50012c03, 7, 186, 386, 16, 0x0
+  CONTROL "<A>What are the requirements for auditing object access?</A>", 6021, "Link Window", 0x50010000, 7, 216, 386, 8, 0x0
+}
+
+106 DIALOGEX 0, 0, 227, 230
+CAPTION "Object"
+STYLE 0x50c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This permission is inherited from the parent object. Make changes here to override the inherited permissions.", 3012, Static, 0x50020000, 7, 7, 213, 32, 0x0
+  CONTROL "&Name:", 3010, Static, 0x50020000, 8, 45, 22, 8, 0x0
+  CONTROL "", 3001, Edit, 0x50810880, 35, 43, 130, 12, 0x0
+  CONTROL "&Change...", 3000, Button, 0x50010000, 170, 42, 50, 14, 0x0
+  CONTROL "Apply t&o:", 3011, Static, 0x50020000, 7, 64, 40, 8, 0x0
+  CONTROL "", 3002, ComboBox, 0x50210003, 47, 62, 173, 80, 0x0
+  CONTROL "Allow", 3006, Static, 0x50020001, 132, 81, 40, 8, 0x0
+  CONTROL "Deny", 3007, Static, 0x50020001, 172, 81, 40, 8, 0x0
+  CONTROL "&Permissions:", 3005, Static, 0x50020000, 7, 81, 50, 8, 0x0
+  CONTROL "", 3004, "CHECKLIST_ACLUI", 0x50800002, 7, 91, 213, 96, 0x10000
+  CONTROL "Apply &these permissions to objects and/or containers within this container only", 3003, Button, 0x50012003, 7, 189, 150, 24, 0x0
+  CONTROL "C&lear All", 3009, Button, 0x50010000, 170, 190, 50, 14, 0x0
+  CONTROL "<A>Managing permissions</A>", 6046, "Link Window", 0x50010000, 7, 219, 213, 16, 0x0
+}
+
+107 DIALOGEX 0, 0, 227, 230
+CAPTION "Object"
+STYLE 0x50c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This auditing entry is inherited from the parent object. Make changes here to create a new auditing entry that overrides the inherited permissions.", 3012, Static, 0x50020000, 7, 7, 213, 32, 0x0
+  CONTROL "&Name:", 3010, Static, 0x50020000, 8, 45, 22, 8, 0x0
+  CONTROL "", 3001, Edit, 0x50810880, 35, 43, 130, 12, 0x0
+  CONTROL "&Change...", 3000, Button, 0x50010000, 170, 42, 50, 14, 0x0
+  CONTROL "Apply &onto:", 3011, Static, 0x50020000, 7, 64, 40, 8, 0x0
+  CONTROL "", 3002, ComboBox, 0x50210003, 47, 62, 173, 80, 0x0
+  CONTROL "Successful", 3006, Static, 0x50020001, 132, 81, 40, 8, 0x0
+  CONTROL "Failed", 3007, Static, 0x50020001, 172, 81, 40, 8, 0x0
+  CONTROL "Acce&ss:", 3005, Static, 0x50020000, 7, 81, 50, 8, 0x0
+  CONTROL "", 3004, "CHECKLIST_ACLUI", 0x50800002, 7, 91, 213, 96, 0x10000
+  CONTROL "Apply &these auditing entries to objects and/or containers within this container only", 3003, Button, 0x50012003, 7, 189, 150, 24, 0x0
+  CONTROL "C&lear All", 3009, Button, 0x50010000, 170, 190, 50, 14, 0x0
+  CONTROL "<A>Managing auditing</A>", 6046, "Link Window", 0x50010000, 7, 215, 213, 16, 0x0
+}
+
+108 DIALOGEX 0, 0, 400, 231
+CAPTION "Owner"
+STYLE 0x50c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You can take or assign ownership of this object if you have the required permissions or privileges.", 6020, Static, 0x50020000, 7, 7, 386, 16, 0x0
+  CONTROL "Object name:", 1014, Static, 0x48020000 | NOT WS_VISIBLE, 7, 37, 56, 8, 0x0
+  CONTROL "", 1015, Edit, 0x48000880 | NOT WS_VISIBLE, 66, 37, 330, 8, 0x0
+  CONTROL "", 1016, Static, 0x48000003 | NOT WS_VISIBLE, 7, 34, 8, 8, 0x0
+  CONTROL "The requested security information is either unavailable or can’t be displayed.", 1012, Static, 0x40020000 | NOT WS_VISIBLE, 20, 34, 360, 32, 0x0
+  CONTROL "&Current owner:", 4005, Static, 0x50020000, 7, 54, 386, 8, 0x0
+  CONTROL "", 4001, Edit, 0x50810880, 7, 66, 386, 13, 0x0
+  CONTROL "Change &owner to:", 4006, Static, 0x50020000, 7, 86, 386, 8, 0x0
+  CONTROL "", 4002, "SysListView32", 0x5081800d, 7, 98, 386, 70, 0x0
+  CONTROL "Other &users or groups...", 4007, Button, 0x50010000, 7, 174, 110, 14, 0x0
+  CONTROL "&Edit...", 1003, Button, 0x48010000 | NOT WS_VISIBLE, 7, 175, 62, 14, 0x0
+  CONTROL "Restore de&fault", 4003, Button, 0x50010000, 306, 175, 87, 14, 0x0
+  CONTROL "&Replace owner on subcontainers and objects", 4004, Button, 0x50010003, 7, 201, 386, 8, 0x0
+  CONTROL "<A>Learn about object ownership</A>", 6021, "Link Window", 0x50010000, 7, 216, 386, 8, 0x0
+}
+
+109 DIALOGEX 0, 0, 292, 109
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Warning: If you proceed, inheritable parent permissions will no longer propagate to this object.", 5005, Static, 0x50020000, 48, 4, 232, 16, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "- Click Add to convert and add inherited parent permissions as explicit permissions on this object.", 5006, Static, 0x50020000, 48, 28, 232, 16, 0x0
+  CONTROL "- Click Remove to remove inherited parent permissions from this object.", 5007, Static, 0x50020000, 48, 53, 232, 16, 0x0
+  CONTROL "- Click Cancel if you do not want to modify inheritance settings at this time.", 5008, Static, 0x50020000, 48, 70, 232, 8, 0x0
+  CONTROL "&Add", 5003, Button, 0x50010000, 64, 88, 50, 14, 0x0
+  CONTROL "&Remove", 5004, Button, 0x50010000, 119, 88, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 175, 88, 50, 14, 0x0
+}
+
+110 DIALOGEX 0, 0, 292, 109
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Warning: If you proceed, inheritable auditing entries will no longer propagate to this object.", 5005, Static, 0x50020000, 48, 4, 232, 16, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "- Click Add to convert and add inherited auditing entries as explicit auditing entries on this object.", 5006, Static, 0x50020000, 48, 28, 232, 16, 0x0
+  CONTROL "- Click Remove to remove all inherited auditing entries from this object.", 5007, Static, 0x50020000, 48, 53, 232, 16, 0x0
+  CONTROL "- Click Cancel if you do not want to modify inheritance settings at this time.", 5008, Static, 0x50020000, 48, 70, 232, 8, 0x0
+  CONTROL "&Add", 5003, Button, 0x50010000, 64, 88, 50, 14, 0x0
+  CONTROL "&Remove", 5004, Button, 0x50010000, 119, 88, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 175, 88, 50, 14, 0x0
+}
+
+111 DIALOGEX 0, 0, 400, 231
+CAPTION "Effective Permissions"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The following list displays the permissions that would be granted to the selected group or user, based solely on the permissions granted directly through group membership.", 6020, Static, 0x50020000, 7, 7, 386, 24, 0x0
+  CONTROL "Object name:", 1014, Static, 0x48020000 | NOT WS_VISIBLE, 7, 45, 56, 8, 0x0
+  CONTROL "", 1015, Edit, 0x48000880 | NOT WS_VISIBLE, 66, 45, 330, 8, 0x0
+  CONTROL "", 1016, Static, 0x48000003 | NOT WS_VISIBLE, 7, 34, 8, 8, 0x0
+  CONTROL "This application does not support displaying effective permissions.", 1012, Static, 0x40020000 | NOT WS_VISIBLE, 20, 34, 360, 32, 0x0
+  CONTROL "&Group or user name:", 6014, Static, 0x50020000, 7, 62, 386, 8, 0x0
+  CONTROL "", 6013, Edit, 0x58800880, 7, 74, 335, 13, 0x0
+  CONTROL "&Select...", 6007, Button, 0x50010000, 348, 73, 45, 14, 0x0
+  CONTROL "&Effective permissions:", 6015, Static, 0x50020000, 7, 91, 386, 8, 0x0
+  CONTROL "List3", 6009, "SysListView32", 0x50814001, 7, 103, 386, 94, 0x0
+  CONTROL "<A>How are effective permissions determined?</A>", 6021, "Link Window", 0x50010000, 7, 219, 386, 8, 0x0
+  CONTROL "&Edit...", 1003, Button, 0x48010000 | NOT WS_VISIBLE, 7, 173, 62, 14, 0x0
+  CONTROL "Windows can't calculate the effective permissions for %1", 6023, Static, 0x40820000 | NOT WS_VISIBLE, 7, 103, 386, 94, 0x0
+}
+
+113 DIALOGEX 0, 0, 256, 242
+CAPTION "Dialog"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Yes", 1, Button, 0x50010001, 91, 220, 50, 14, 0x0
+  CONTROL "No", 2, Button, 0x50010000, 145, 220, 50, 14, 0x0
+  CONTROL "", 6028, "SysListView32", 0x50b1c009, 7, 45, 242, 84, 0x0
+  CONTROL "&Help", 9, Button, 0x50010000, 199, 220, 50, 14, 0x0
+  CONTROL "Warning", 6029, Static, 0x50020000, 36, 7, 203, 8, 0x0
+  CONTROL "The change you are about to make will result in the following permissions being added to the access control list:", 6030, Static, 0x50020000, 37, 17, 212, 23, 0x0
+  CONTROL "Since these permissions propagate to all child objects, making this change will require more storage and time to evaluate. The higher this container is in the directory hierarchy, the more significant the performance degradation.", 6032, Static, 0x50020000, 7, 132, 240, 32, 0x0
+  CONTROL "Consequently, you should consider either replacing the above permissions with fewer, more inclusive permissions, not applying the permissions to child objects, or not proceeding with this change. Click Help for more information.", 6033, Static, 0x50020000, 7, 168, 240, 32, 0x0
+  CONTROL "Do you want to continue making this change?", 6035, Static, 0x50020000, 7, 204, 235, 11, 0x0
+  CONTROL "", 6031, Static, 0x50000003, 7, 7, 20, 20, 0x0
+}
+
+126 DIALOGEX 0, 0, 255, 156
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Yes", 1, Button, 0x50010001, 90, 134, 50, 14, 0x0
+  CONTROL "No", 2, Button, 0x50010000, 144, 134, 50, 14, 0x0
+  CONTROL "", 6031, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Warning", 6029, Static, 0x50020000, 36, 7, 158, 8, 0x0
+  CONTROL "The change you are about to make will result in 9 or more permissions that propagate to child objects being added to the access control list.", 1008, Static, 0x50020000, 36, 17, 212, 16, 0x0
+  CONTROL "Because these permissions propagate to child objects, making this change will require more storage and time to evaluate. The higher this container is in the directory hierarchy, the more significant the performance degradation.", 65535, Static, 0x50020000, 7, 46, 241, 32, 0x0
+  CONTROL "Consider either replacing these permissions with fewer, more inclusive permissions, not applying the permissions to child objects, or not proceeding with this change. For more options, click Help.", 6037, Static, 0x50020000, 7, 82, 240, 32, 0x0
+  CONTROL "Do you want to continue making this change?", 65535, Static, 0x50020000, 8, 118, 237, 8, 0x0
+  CONTROL "&Help", 9, Button, 0x50010000, 198, 134, 50, 14, 0x0
+}
+
+127 DIALOGEX 0, 0, 255, 163
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Yes", 1, Button, 0x50010001, 90, 142, 50, 14, 0x0
+  CONTROL "No", 2, Button, 0x50010000, 144, 142, 50, 14, 0x0
+  CONTROL "", 6031, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Warning", 6029, Static, 0x50020000, 36, 7, 212, 8, 0x0
+  CONTROL "The change you are about to make will result in auditing entries being added to the access control list.", 1008, Static, 0x50020000, 36, 17, 212, 16, 0x0
+  CONTROL "Because these auditing entries propagate to child objects, making this change will require more storage and time to evaluate. The higher this container is in the directory hierarchy, the more significant the performance degradation.", 65535, Static, 0x50020000, 7, 46, 240, 40, 0x0
+  CONTROL "Consider either replacing these auditing entries with fewer, more inclusive auditing entries, not applying the auditing entries to child objects, or not proceeding with this change. For more options, click Help.", 6037, Static, 0x50020000, 7, 90, 240, 32, 0x0
+  CONTROL "Do you want to continue making this change?", 65535, Static, 0x50020000, 8, 126, 230, 8, 0x0
+  CONTROL "&Help", 9, Button, 0x50010000, 198, 142, 50, 14, 0x0
+}
+
+128 DIALOGEX 0, 0, 292, 101
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The permissions on %s are incorrectly ordered, which may cause some entries to be ineffective.", 5005, Static, 0x50020000, 48, 7, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To order the permissions correctly, click Reorder.", 5006, Static, 0x50020000, 48, 36, 232, 16, 0x0
+  CONTROL "-To leave the permissions unchanged (the view will be read-only), click Cancel.", 5008, Static, 0x50020000, 48, 53, 232, 16, 0x0
+  CONTROL "&Reorder", 1, Button, 0x50010000, 94, 80, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 149, 80, 50, 14, 0x0
+}
+
+129 DIALOGEX 0, 0, 292, 117
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The permissions on %s are incorrectly ordered, which may cause some entries to be ineffective.", 5005, Static, 0x50020000, 48, 7, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To order the permissions correctly, click Reorder.", 5006, Static, 0x50020000, 48, 36, 232, 16, 0x0
+  CONTROL "-To restore the default permission values, click Restore defaults.", 5007, Static, 0x50020000, 48, 53, 232, 16, 0x0
+  CONTROL "-To leave the permissions unchanged (the view will be read-only), click Cancel.", 5008, Static, 0x50020000, 48, 70, 232, 16, 0x0
+  CONTROL "&Reorder", 1, Button, 0x50010000, 58, 96, 50, 14, 0x0
+  CONTROL "Restore &defaults", 6038, Button, 0x50010000, 113, 96, 62, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 181, 96, 50, 14, 0x0
+}
+
+130 DIALOGEX 0, 0, 292, 136
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "One or more of the permission entries attached to %s has an unrecognized or application-specific (callback) type and can not be displayed.", 5005, Static, 0x50020000, 48, 4, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To remove the unrecognized and callback permission entries, click Remove. Note that inherited permission entries will not be removed, because they can be removed only on the corresponding ancestor's level or inheritance can be disabled for this object.", 5006, Static, 0x50020000, 48, 36, 232, 40, 0x0
+  CONTROL "-To leave the permissions unchanged and display only the recognized permission entries in a read-only view, click Cancel.", 5008, Static, 0x50020000, 48, 79, 232, 24, 0x0
+  CONTROL "&Remove", 1, Button, 0x50010000, 94, 115, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 149, 115, 50, 14, 0x0
+}
+
+131 DIALOGEX 0, 0, 292, 151
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "One or more of the permission entries attached to %s has an unrecognized or application-specific (callback) type and can not be displayed.", 5005, Static, 0x50020000, 48, 4, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To remove the unrecognized and callback permission entries, click Remove. Note that inherited permission entries will not be removed, because they can be removed only on the corresponding ancestor's level or inheritance can be disabled for this object.", 5006, Static, 0x50020000, 48, 36, 232, 40, 0x0
+  CONTROL "-To restore the default permission entries, click Restore defaults.", 5007, Static, 0x50020000, 48, 79, 232, 16, 0x0
+  CONTROL "-To leave the permissions unchanged and display only the recognized permission entries in a read-only view, click Cancel.", 5008, Static, 0x50020000, 48, 98, 232, 24, 0x0
+  CONTROL "&Remove", 1, Button, 0x50010000, 58, 130, 50, 14, 0x0
+  CONTROL "Restore &defaults", 6038, Button, 0x50010000, 113, 130, 62, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 181, 130, 50, 14, 0x0
+}
+
+132 DIALOGEX 0, 0, 292, 136
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "One or more of the auditing entries attached to %s has an unrecognized or application-specific (callback) type and can not be displayed.", 5005, Static, 0x50020000, 48, 4, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To remove the unrecognized and callback auditing entries, click Remove. Note that inherited auditing entries will not be removed, because they can be removed only on the corresponding ancestor's level or inheritance can be disabled for this object.", 5006, Static, 0x50020000, 48, 36, 232, 40, 0x0
+  CONTROL "-To leave the auditing entries unchanged and display only the recognized auditing entries in a read-only view, click Cancel.", 5008, Static, 0x50020000, 48, 79, 232, 24, 0x0
+  CONTROL "&Remove", 1, Button, 0x50010000, 94, 115, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 149, 115, 50, 14, 0x0
+}
+
+133 DIALOGEX 0, 0, 292, 151
+CAPTION "Windows Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "One or more of the auditing entries attached to %s has an unrecognized or application-specific (callback) type and can not be displayed.", 5005, Static, 0x50020000, 48, 4, 232, 24, 0x0
+  CONTROL "", 5001, Static, 0x50000003, 12, 12, 20, 20, 0x0
+  CONTROL "-To remove the unrecognized and callback auditing entries, click Remove. Note that inherited auditing entries will not be removed, because they can be removed only on the corresponding ancestor's level or inheritance can be disabled for this object.", 5006, Static, 0x50020000, 48, 36, 232, 40, 0x0
+  CONTROL "-To restore the default auditing entries, click Restore defaults.", 5007, Static, 0x50020000, 48, 79, 232, 16, 0x0
+  CONTROL "-To leave the auditing entries unchanged and display only the recognized auditing entries in a read-only view, click Cancel.", 5008, Static, 0x50020000, 48, 98, 232, 24, 0x0
+  CONTROL "&Remove", 1, Button, 0x50010000, 58, 130, 50, 14, 0x0
+  CONTROL "Restore &defaults", 6038, Button, 0x50010000, 113, 130, 62, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 181, 130, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Windows Security"
+  2,  "Name"
+  3,  "&View..."
+  5,  "Not enough memory is available to complete the requested operation."
+  6,  "Unable to complete the requested operation.%n%n%1"
+  9,  "Unable to display the user selection dialog.%n%n%1"
+  10,  "Unable to lookup user names for display."
+  11,  "This will replace explicitly defined permissions on all descendants of this object with inheritable permissions from %1.\n\nDo you wish to continue?"
+  12,  "%1 (%2)"
+  13,  "%2 %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17,  "Unable to save permission changes on %2.%n%n%1"
+  18,  "The permissions on %1 are incorrectly ordered, which may cause some entries to be ineffective."
+  19,  "You have denied the Everyone group access to %1. No one will be able to access %1 and only the owner will be able to change the permissions.\n\nDo you want to continue?"
+  20,  "You can't remove %1 because this object is inheriting permissions from its parent. To remove %1, you must prevent this object from inheriting permissions.  Turn off the option for inheriting permissions, and then try removing %1 again."
+  21,  "You do not have permission to view the current permission settings for %1, but you can make permission changes."
+  22,  "You do not have permission to view or edit this object’s permission settings.\n\nTo take ownership of the object, which includes permission to view its properties, click Advanced."
+  23,  "You do not have permission to view or edit this object’s permission settings.\n\nTo change auditing settings of the object, click Advanced."
+  24,  "You do not have permission to view or edit this object’s permission settings.\n\nTo take ownership of the object, which includes permission to view its properties, or to change auditing settings, click Advanced."
+  25,  "You do not have permission to view or edit this object’s permission settings."
+  26,  "Unable to save auditing changes on %2.%n%n%1"
+  27,  "The current Audit Policy for this computer does not have auditing turned on.  If this computer gets audit policy from the domain, please ask a domain administrator to turn on auditing using Group Policy Editor.  Otherwise, use the Local Computer Policy Editor to configure the audit policy locally on this computer."
+  28,  "You only have permission to view the current owner on %1."
+  29,  "Unable to set new owner on %2.%n%n%1"
+  30,  "Unable to display current owner."
+  31,  "You are setting a deny permissions entry. Deny entries take precedence over allow entries. This means that if a user is a member of two groups, one that is allowed a permission and another that is denied the same permission, the user is denied that permission.\nDo you want to continue?\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "Permissions for %1"
+  33,  "Advanced Security Settings for %1"
+  34,  "Permission Entry for %1"
+  35,  "Auditing Entry for %1"
+  36,  "Properties"
+  37,  "Type"
+  38,  "Name"
+  39,  "Permission"
+  40,  "Apply To"
+  41,  "Type"
+  42,  "Name"
+  43,  "Access"
+  44,  "Apply To"
+  45,  "To view details for a permission entry, select the entry and then click View."
+  46,  "To view details for an auditing entry, select the entry and then click View."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Allow"
+  49,  "Deny"
+  50,  "Audit"
+  51,  "Alarm"
+  52,  "Unknown"
+  53,  "Special"
+  54,  "Success"
+  55,  "Fail"
+  56,  "All"
+  57,  "Read property"
+  58,  "Write property"
+  59,  "Read/write property"
+  60,  "This object only"
+  61,  "This object and child objects"
+  62,  "Child objects only"
+  63,  "Nothing"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  76,  "Special permissions"
+  77,  "Special permissions can't be defined here. Use Advanced page to define special permissions."
+  78,  "You do not have permission to view the current permission settings for %1.  It can not be determined if you have the permission to make changes. Permission changes will be allowed but it can not be guaranteed that the changes will successfully apply."
+  79,  "One or more of selected permissions are inherited from parent. Inherited permissions can't be deleted at this object.\n Do you want to delete other selected permissions."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Permissions"
+  84,  "<a>Learn about access control and permissions</a>"
+  85,  "&Permissions for %1"
+  86,  "Inherited From"
+  87,  "Parent Object"
+  88,  "<not inherited>"
+  89,  "Windows can't calculate the effective permissions for %1."
+  90,  "Account Deleted(%1)"
+  91,  "Account Unknown(%1)"
+  92,  "Object Permissions are not available for this object type."
+  93,  "The change you just made resulted in an access control list that exceeds the maximum size. You must remove approximately %1 access control entries before the changes can be saved.\n"
+  94,  "The access control list size exceeds the maximum size. You must remove approximately %1 access control entries before the changes can be saved or the advanced page can be opened.\n"
+  95,  "The change you are about to make will result in  %1 auditing entries being added to the access control list."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "The change you are about to make will result in %1 permissions being added to the access control list."
+  97,  "Because these auditing entries propagate to child objects, making this change will require more storage and time to evaluate. The higher this container is in the directory hierarchy, the more significant the performance degradation."
+  98,  "Because these permissions propagate to child objects, making this change will require more storage and time to evaluate. The higher this container is in the directory hierarchy, the more significant the performance degradation."
+  99,  "Consider either replacing the above auditing entries with fewer, more inclusive auditing entries, not applying the auditing entries to child objects, or not proceeding with this change. Click Help for more information."
+  100,  "Consider either replacing the above permissions with fewer, more inclusive permissions, not applying the permissions to child objects, or not proceeding with this change. Click Help for more information."
+  101,  "Auditing"
+  102,  "The change you are about to make will result in %1 permissions being added to the access control list."
+  103,  "The change you are about to make will result in %1 auditing entries being added to the access control list."
+  104,  "Consider either replacing these auditing entries with fewer, more inclusive auditing entries, not applying the auditing entries to child objects, or not proceeding with this change."
+  105,  "Consider either replacing these permissions with fewer, more inclusive permissions, not applying the permissions to child objects, or not proceeding with this change."
+  106,  "You are about to add a disabled object. If you want to add an enabled object, try selecting the object from another location.\n"
+  108,  "Other users and groups (double-click to add)..."
+  109,  "One or more of the auditing entries attached to %1 has an unrecognized type and can not be displayed."
+  111,  "Unable to set new owner on %1. You do not have the Restore privilege required to set this user/group as owner."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "You have denied all users access to %1. No one will be able to access %1 and only the owner will be able to change the permissions.\n\nDo you want to continue?"
+  113,  "If you have just taken ownership of this object, you will need to close and reopen this object's properties before you can view or change permissions."
+  115,  "No groups or users have permission to access this object. However, the owner of this object can assign permissions."
+  116,  "No permissions have been assigned for this object.\r\n\r\nWarning: this is a potential security risk because anyone who can access this object can take ownership of it. The object’s owner should assign permissions as soon as possible."
+  117,  "One or more of the permission entries attached to %1 has an unrecognized type and can not be displayed."
+  119,  "To display the requested security information on this page, the software developer needs to fix the following problem:\nISecurityInformation3 interface is not implemented."
+  120,  "To continue, you must be an administrative user with permission to view this object's security properties.\n\nDo you want to continue?"
+  121,  "&Continue"
+  122,  "You do not have permission to view this object’s security properties, even as an administrative user.\n\nTo try taking ownership of the object, which includes permission to view its properties, click Advanced."
+  123,  "To continue, you must be an administrative user with privileges to view this object's auditing properties.\n\nDo you want to continue?"
+  124,  "To display the requested security information on this page, the software developer needs to fix the following problem:\nInvalid combination of display options."
+  125,  "You do not have permission to view this object’s security properties, even as an administrative user.\n\nTo try taking ownership of the object, which includes permission to view its properties, click OK to close this dialog, and then go to the Owner tab."
+  126,  "To display the requested security information on this page, the software developer needs to fix the following problem:\nFull object name is empty."
+  127,  "You do not have privileges to view this object’s auditing properties, even as an administrative user.\n\nTo try taking ownership of the object, which includes permission to view its properties, click OK to close this dialog, and then go to the Owner tab."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "You do not have permission to view this object’s owner, even as an administrative user."
+  129,  "Can't open access control editor. %1"
+  130,  "You do not have permission to view or edit this object’s permission settings. To try again using a different administrator account, close this dialog box and log on using the other account.\n\nTo try changing or viewing this object's auditing settings, click Advanced."
+  131,  "You do not have permission to view this object’s security properties. To view its security properties, you can try taking ownership of the object. As the owner, you can also control who gets permissions on the object. Please note that once you take ownership, the previous owner might not have access to the object.\n\nTo try taking ownership of the object, select an account from the list, and then click OK."
+  132,  "To view details of a permission entry, double-click the entry. To modify permissions, click Change Permissions."
+}
+

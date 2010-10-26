@@ -1,0 +1,777 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 350, 227
+CAPTION "Welcome"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 1246, Static, 0x5000020e, 166, 23, 48, 77, 0x20
+  CONTROL "Install Windows", 1023, Static, 0x50020001, 20, 86, 320, 16, 0x0
+  CONTROL "The installation process consists of a few easy steps, then\r\nWindows will finish installing on its own.", 4294967295, Static, 0x50020001, 20, 109, 320, 24, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+103 DIALOGEX 0, 0, 350, 227
+CAPTION "Finish"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Windows needs to restart to continue", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1009, "msctls_progress32", 0x50800001, 20, 33, 300, 6, 0x0
+  CONTROL "Restarting in 10 seconds", 2006, Static, 0x50020000, 20, 41, 300, 30, 0x0
+  CONTROL "After you restart the computer, Setup will continue automatically.", 5035, Static, 0x40020000 | NOT WS_VISIBLE, 20, 41, 300, 30, 0x0
+  CONTROL "", 4102, Button, 0x5001000b, 287, 210, 62, 13, 0x0
+}
+
+110 DIALOGEX 0, 0, 350, 227
+CAPTION "EULA"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Please read the license terms", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1086, "RichEdit50W", 0x50a10844, 20, 33, 310, 145, 0x0
+  CONTROL "I &accept the license terms", 1007, Button, 0x50030003, 20, 186, 300, 11, 0x0
+  CONTROL "&Next", 1012, Button, 0x5003000b, 302, 210, 43, 13, 0x0
+}
+
+111 DIALOGEX 0, 0, 350, 227
+CAPTION "Install Type"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Which type of installation do you want?", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1004, Button, 0x5001000b, 20, 33, 300, 53, 0x0
+  CONTROL "", 1003, Button, 0x5001000b, 20, 88, 300, 63, 0x0
+  CONTROL "", 5006, Button, 0x5001000b, 15, 165, 300, 14, 0x0
+  CONTROL "Upgrade has been disabled", 112, Static, 0x40020000 | NOT WS_VISIBLE, 20, 168, 300, 8, 0x0
+  CONTROL "Static", 110, Static, 0x40020000 | NOT WS_VISIBLE, 20, 182, 300, 68, 0x0
+}
+
+112 DIALOGEX 0, 0, 350, 227
+CAPTION "Progress"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Installing Windows...", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "Status", 1103, Static, 0x50020000, 20, 35, 300, 28, 0x2e
+  CONTROL "", 1170, Static, 0x5000020e, 20, 65, 10, 10, 0x0, 0x20
+  CONTROL "", 1130, Static, 0x50020000, 32, 65, 300, 10, 0x0
+  CONTROL "", 5020, Static, 0x50020000, 20, 177, 300, 20, 0x0
+}
+
+139 DIALOGEX 0, 0, 350, 227
+CAPTION "Cancel"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "The installation was canceled", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "Any changes that were made to your computer during the installation process will not be saved.", 332, Static, 0x50020000, 20, 33, 300, 24, 0x0
+}
+
+143 DIALOGEX 0, 0, 304, 78
+CAPTION "Windows Setup Confirmation"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Back", 2, Button, 0x50010001, 95, 57, 50, 14, 0x0
+  CONTROL "&Next", 1, Button, 0x50010000, 157, 57, 50, 14, 0x0
+  CONTROL "To select a different partition or drive, click Back. To proceed with Setup and delete everything on this drive, click Next.", 4294967295, Static, 0x50020000, 45, 33, 250, 20, 0x0
+  CONTROL "You chose to install Windows on drive %d.  If you proceed, Setup will delete all partitions and data contained on this drive.", 1027, Static, 0x50020000, 45, 10, 250, 20, 0x0
+  CONTROL "", 1028, Static, 0x50000003, 13, 10, 20, 20, 0x0
+}
+
+144 DIALOGEX 0, 0, 304, 78
+CAPTION "Windows Setup Confirmation"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Back", 2, Button, 0x50010001, 94, 57, 50, 14, 0x0
+  CONTROL "&Next", 1, Button, 0x50010000, 159, 57, 50, 14, 0x0
+  CONTROL "To select a different partition or drive, click Back. To proceed with Setup and delete everything on this partition, click Next.", 4294967295, Static, 0x50020000, 45, 33, 250, 20, 0x0
+  CONTROL "You chose to format partition %d on drive %d.  If you proceed, Setup will delete all information contained on this partition.", 1027, Static, 0x50020000, 45, 10, 250, 20, 0x0
+  CONTROL "", 1028, Static, 0x50000003, 13, 10, 20, 20, 0x0
+}
+
+145 DIALOGEX 0, 0, 350, 227
+CAPTION "Drive Selection"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Where do you want to install Windows?", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "Listview Control", 4294967295, Static, 0x40020000 | NOT WS_VISIBLE, 0, 0, 0, 0, 0x0
+  CONTROL "DriveListing", 1032, "SysListView32", 0x50818805, 20, 38, 314, 104, 0x0
+  CONTROL "", 1039, Button, 0x5001000b, 17, 145, 75, 14, 0x0
+  CONTROL "", 1037, Button, 0x4801000b | NOT WS_VISIBLE, 97, 145, 65, 14, 0x0
+  CONTROL "", 1040, Button, 0x4801000b | NOT WS_VISIBLE, 164, 145, 75, 14, 0x0
+  CONTROL "", 1033, Button, 0x4801000b | NOT WS_VISIBLE, 241, 145, 75, 14, 0x0
+  CONTROL "", 1038, Button, 0x4801000b | NOT WS_VISIBLE, 97, 160, 65, 14, 0x0
+  CONTROL "", 4109, Button, 0x5001000b, 234, 145, 100, 14, 0x0
+  CONTROL "&Size:", 1099, Static, 0x50020000, 167, 162, 31, 11, 0x0
+  CONTROL "Edit Control", 4294967295, Static, 0x40020000 | NOT WS_VISIBLE, 0, 0, 0, 0, 0x0
+  CONTROL "", 1055, Edit, 0x50812080, 196, 161, 37, 12, 0x0
+  CONTROL "SizeSelect", 1098, "msctls_updown32", 0x40000010 | NOT WS_VISIBLE, 232, 161, 56, 11, 0x0
+  CONTROL "MB", 1058, Static, 0x50020000, 245, 162, 20, 11, 0x0
+  CONTROL "A&pply", 1053, Button, 0x5001000b, 260, 161, 44, 12, 0x0
+  CONTROL "&Cancel", 1054, Button, 0x5001000b, 308, 161, 37, 12, 0x0
+  CONTROL "", 1088, Button, 0x5001000b, 17, 160, 75, 14, 0x0
+  CONTROL "To make changes to partitions, restart Windows from the installation disc.", 205, Static, 0x40020000 | NOT WS_VISIBLE, 20, 173, 300, 20, 0x0
+  CONTROL "Size must be at least 9800 MB", 1080, Static, 0x40020000 | NOT WS_VISIBLE, 35, 182, 200, 40, 0x0
+  CONTROL "", 5008, Static, 0x5000000e, 4, 184, 10, 10, 0x0
+  CONTROL "The selected partition does not have enough available space to install Windows. Please clear additional space on the partition (delete files, uninstall programs, extend the partition, or format it), or select a different partition.", 1059, Static, 0x40020020 | NOT WS_VISIBLE, 20, 184, 300, 28, 0x0
+  CONTROL "", 1172, Button, 0x5001000b, 15, 182, 300, 14, 0x0
+  CONTROL "", 5000, Button, 0x4000000b | NOT WS_VISIBLE, 20, 186, 211, 14, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+146 DIALOGEX 0, 0, 400, 35
+CAPTION "Progress Window"
+STYLE 0x42c00440
+EXSTYLE 0x10000
+FONT 8, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 1100, "msctls_progress32", 0x50800001, 0, 0, 119, 6, 0x0
+  CONTROL "", 1101, "msctls_progress32", 0x50800001, 120, 0, 280, 6, 0x0
+}
+
+191 DIALOGEX 0, 0, 310, 110
+CAPTION "Install Windows"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Close", 2, Button, 0x50010001, 99, 88, 50, 14, 0x0
+  CONTROL "&Continue", 1, Button, 0x50010000, 161, 88, 50, 14, 0x0
+  CONTROL "", 1027, Static, 0x50020000, 45, 10, 258, 60, 0x0
+  CONTROL "", 1028, Static, 0x50000003, 13, 10, 21, 20, 0x0
+}
+
+269 DIALOGEX 0, 0, 350, 227
+CAPTION "Driver Selection"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Select the driver to be installed.", 1023, Static, 0x50020000, 20, 15, 300, 16, 0x0
+  CONTROL "DriverList", 2007, "SysListView32", 0x5081c819, 20, 33, 300, 134, 0x0
+  CONTROL "&Hide drivers that are not compatible with hardware on this computer.", 5009, Button, 0x50010003, 20, 178, 300, 16, 0x0
+  CONTROL "Br&owse", 340, Button, 0x5001000b, 20, 210, 43, 13, 0x0
+  CONTROL "&Rescan", 342, Button, 0x5001000b, 90, 210, 53, 13, 0x0
+  CONTROL "", 1006, "msctls_progress32", 0x40800001 | NOT WS_VISIBLE, 20, 194, 300, 6, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+338 DIALOGEX 0, 0, 350, 227
+CAPTION "Application Compatibility Progress Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Checking compatibility...", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1006, "msctls_progress32", 0x50800001, 20, 38, 250, 6, 0x0
+}
+
+339 DIALOGEX 0, 0, 350, 227
+CAPTION "App Compat"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Compatibility Report", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1088, Button, 0x4001000b | NOT WS_VISIBLE, 22, 178, 75, 14, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+2004 DIALOGEX 0, 0, 350, 227
+CAPTION "Cancel"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+}
+
+2006 DIALOGEX 0, 0, 310, 84
+CAPTION "Load Driver"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1028, Static, 0x50000003, 13, 10, 21, 20, 0x0
+  CONTROL "", 1027, Static, 0x50020000, 45, 10, 250, 46, 0x0
+  CONTROL "", 1052, Static, 0x50020000, 45, 84, 258, 30, 0x0
+  CONTROL "&Back", 2, Button, 0x50010000, 99, 62, 50, 14, 0x0
+  CONTROL "&Next", 1, Button, 0x50010001, 161, 62, 50, 14, 0x0
+}
+
+2012 DIALOGEX 0, 0, 350, 227
+CAPTION "Dynamic Update Welcome Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Get important updates for installation", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1091, Button, 0x5003000b, 20, 33, 290, 57, 0x0
+  CONTROL "", 1092, Button, 0x5001000b, 20, 91, 290, 36, 0x0
+  CONTROL "", 1093, Button, 0x5001000b, 57, 131, 200, 14, 0x0
+  CONTROL "&I want to help make Windows installation better", 1095, Button, 0x50010003, 20, 159, 290, 11, 0x0
+  CONTROL "", 1096, Button, 0x5001000b, 15, 172, 290, 14, 0x0
+  CONTROL "", 1094, Button, 0x5001000b, 4, 210, 290, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x40020000 | NOT WS_VISIBLE, 20, 200, 290, 8, 0x0
+}
+
+2014 DIALOGEX 0, 0, 350, 227
+CAPTION "Dynamic Update Progress Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Searching for installation updates...", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1006, "msctls_progress32", 0x50800001, 20, 30, 250, 6, 0x0
+  CONTROL "Download Size Display", 2016, Static, 0x50020000, 20, 40, 258, 10, 0x0
+  CONTROL "Time Display", 2020, Static, 0x50020000, 20, 54, 258, 10, 0x0
+  CONTROL "Your computer will need to remain connected to the Internet throughout the installation process.", 4294967295, Static, 0x50020000, 20, 67, 258, 30, 0x0
+}
+
+2025 DIALOGEX 0, 0, 300, 100
+CAPTION "Windows Installation"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Try again", 2017, Button, 0x50010001, 170, 75, 50, 14, 0x0
+  CONTROL "&Continue", 1012, Button, 0x50010000, 230, 75, 50, 14, 0x0
+  CONTROL "Please make sure that your computer is connected to the Internet.  Do you want to try to get updates again or continue installing without updates?", 1052, Static, 0x50020000, 45, 40, 243, 30, 0x0
+  CONTROL "The update process was interrupted", 1027, Static, 0x50020000, 45, 20, 240, 14, 0x0
+  CONTROL "", 2028, Static, 0x50000003, 13, 10, 21, 20, 0x0
+}
+
+2026 DIALOGEX 0, 0, 300, 100
+CAPTION "Windows Installation"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Reconnect", 2017, Button, 0x50010001, 170, 75, 50, 14, 0x0
+  CONTROL "&Continue", 1012, Button, 0x50010000, 230, 75, 50, 14, 0x0
+  CONTROL "Do you want to reconnect and resume getting updates or continue installing without updates?", 1052, Static, 0x50020000, 45, 40, 243, 30, 0x0
+  CONTROL "Your computer is disconnected from the Internet", 1027, Static, 0x50020000, 45, 20, 240, 14, 0x0
+  CONTROL "", 2028, Static, 0x50000003, 13, 10, 21, 20, 0x0
+}
+
+2027 DIALOGEX 0, 0, 300, 100
+CAPTION "Windows Installation"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Try again", 2017, Button, 0x50010001, 170, 75, 50, 14, 0x0
+  CONTROL "&Continue", 1012, Button, 0x50010000, 230, 75, 50, 14, 0x0
+  CONTROL "To get updates, your computer must be connected to the Internet.  Do you want to try getting updates again or continue installing without updates?", 1052, Static, 0x50020000, 45, 40, 243, 30, 0x0
+  CONTROL "Cannot connect to the Internet", 1027, Static, 0x50020000, 45, 20, 240, 14, 0x0
+  CONTROL "", 2028, Static, 0x50000003, 13, 10, 21, 20, 0x0
+}
+
+3002 DIALOGEX 0, 0, 350, 227
+CAPTION "Welcome"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Windows Deployment Services", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "Click Next to begin...", 4003, Static, 0x50020000, 20, 78, 277, 18, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+3005 DIALOGEX 0, 0, 350, 227
+CAPTION "Image Selection"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Select the operating system you want to install", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "ImageListing", 3007, "SysListView32", 0x5081880d, 20, 33, 300, 90, 0x0
+  CONTROL "", 3009, Static, 0x50020000, 20, 124, 300, 45, 0x0
+  CONTROL "Select &language to install:", 4128, Static, 0x50020000, 20, 172, 200, 15, 0x0
+  CONTROL "", 4127, ComboBox, 0x50210003, 20, 186, 95, 40, 0x0
+  CONTROL "&Next", 1012, Button, 0x5001000b, 302, 210, 43, 13, 0x0
+}
+
+3020 DIALOGEX 0, 0, 350, 227
+CAPTION "Waiting for Server"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Waiting for server...", 1023, Static, 0x50020000, 20, 9, 300, 14, 0x0
+  CONTROL "", 1006, "msctls_progress32", 0x50800001, 20, 38, 250, 6, 0x0
+  CONTROL "Installation will continue automatically once the server initiates your session.", 4294967295, Static, 0x50020000, 20, 55, 250, 18, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  99,  "WIN32UI"
+  101,  "Install Windows"
+  102,  "Welcome to ""Windows"" Setup"
+  103,  "Windows Setup is now configuring your drive."
+  104,  "Restarting the Computer"
+  105,  "Windows Setup is now applying migration settings."
+  107,  "Microsoft Software License Terms"
+  108,  "Installation Type"
+  109,  "Windows Setup is now copying files."
+  110,  "Copying Installation Files"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Install Windows"
+  113,  "Windows Setup - %s"
+  114,  "The partition you selected might contain files from a previous Windows installation. If it does, these files and folders will be moved to a folder named Windows.old. You will be able to access the information in Windows.old, but you will not be able to use your previous version of Windows."
+  115,  "Setup is now gathering migration data..."
+  116,  "Installation Destination"
+  117,  "Setup is now copying setup files..."
+  118,  "Setup is now installing Windows PE..."
+  119,  "To install or upgrade Windows, you must run Windows installation. Are you sure you want to cancel Windows installation?"
+  120,  "That's all the information we need right now. Your computer will restart several times during installation."
+  121,  "Please stay at your computer until all discs have been read."
+  122,  "Please insert Windows installation disc %1!d!."
+  123,  "The wrong disc was inserted. Please insert Windows installation disc %1!d!."
+  124,  "Install Windows - Insert Disc"
+  126,  " "
+  127,  "To select a different partition, click Back."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "%d minute left..."
+  129,  "%d minutes left..."
+  130,  "Windows cannot install to a non-NTFS partition.  Please format the partition, select a different partition, or use convert.exe to make it NTFS."
+  131,  "Windows cannot be installed to the selected location because it has one or more dynamic volumes."
+  132,  "Please restart your computer and verify that your disks are enabled in BIOS."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  150,  "&Upgrade"
+  151,  "Upgrade to a newer version of Windows and keep your files, settings, and programs. The option to upgrade is only available when an existing version of Windows is running. We recommend backing up your files before you proceed."
+  156,  "&Custom (advanced)"
+  157,  "Install a new copy of Windows. This option does not keep your files, settings, and programs. The option to make changes to disks and partitions is available when you start your computer using the installation disc. We recommend backing up your files before you proceed."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  162,  "N&ew"
+  168,  "&Delete"
+  174,  "E&xtend"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  180,  "&Refresh"
+  186,  "&Format"
+  187,  "The selected partition requires at least %1!u! MB free space."
+  190,  "The selected partition type is not supported. Please select a different partition."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "The partition might contain recovery files, system files, or important software from your computer manufacturer. If you delete this partition, any data stored on it will be lost."
+  194,  "Extending a partition is not a reversible action. If you proceed, you will not be able to undo this action later."
+  196,  "The partition might contain recovery files, system files, or important software from your computer manufacturer. If you format this partition, any data stored on it will be lost."
+  200,  "Disk %1!d! Unallocated Space"
+  202,  "Unavailable"
+  203,  "The size must be at least %1!d! MB."
+  204,  "The size must be at most %1!d! MB."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  225,  "Disk %1!d!"
+  226,  "Partition %1!d!"
+  227,  "Partition %1!d! (%2!c!:)"
+  228,  "%1!s!, %2!s!"
+  229,  "..."
+  230,  "Click here to add user accounts"
+  231,  "Disk %1!d! %2!s!"
+  232,  "Disk %1!d!"
+  233,  ", "
+  237,  "&Tell me more about these options"
+  238,  "Click here to select where to install Windows"
+  239,  "Click here to specify computer name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  242,  "&What do these settings mean?"
+  244,  "&OK"
+  245,  "What do these settings mean?"
+  246,  "Disk %1!d! %2!s! (%3!c!:)"
+  250,  "&Help me decide"
+  251,  "Help me decide"
+  253,  "Tell me more about these options"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  261,  "Setup cannot be canceled at this point. Doing so could leave your computer in a potentially unusable state."
+  263,  "&Load Driver"
+  270,  "&Go online to get the latest updates for installation (recommended)"
+  271,  "&Do not get the latest updates for installation"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  272,  "W&hy should I get updates for installation?"
+  273,  "Why should I get updates for installation?"
+  274,  "&Read our privacy statement"
+  275,  "Windows Privacy Statement"
+  276,  "&What information will be sent to Microsoft?"
+  277,  "Get the latest updates, such as security updates and hardware drivers, to help successfully install Windows. (Your computer will remain connected to the Internet throughout the installation process.)"
+  278,  "Without these updates, installation might fail and your computer could be more vulnerable to security threats."
+  284,  "Get important updates for installation"
+  286,  "Volume"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  288,  "%1!s! MB"
+  289,  "%1!d! MB"
+  290,  "Partition %1!d!"
+  291,  "Name"
+  292,  "Total Size"
+  293,  "Free Space"
+  294,  "What information will be sent to Microsoft?"
+  295,  "Name"
+  296,  "Total Size"
+  297,  "Free Space"
+  298,  "Type"
+  299,  "Primary"
+  300,  "Logical"
+  301,  "Unknown"
+  302,  "Extended"
+  303,  "Dynamic"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "System"
+  305,  "Basic"
+  306,  "Setup was unable to create a new system partition or locate an existing system partition. See the Setup log files for more information."
+  309,  "%1!s! GB"
+  311,  "Partition %1!d!: %3!s!"
+  312,  "The recommended free space for installation is %1!u! MB."
+  313,  "OEM (Reserved)"
+  314,  "MSR (Reserved)"
+  315,  "Volume %2!s!%3!s!"
+  316,  "A required CD/DVD drive device driver is missing. If you have a driver floppy disk, CD, DVD, or USB flash drive, please insert it now.\r\n\r\nNote: If the Windows installation media is in the CD/DVD drive, you can safely remove it for this step."
+  317,  "No device drivers were found. Make sure that the installation media contains the correct drivers, and then click OK."
+  318,  "No new devices could be found. Make sure the driver files are correct and located on the driver installation media."
+  319,  "No signed device drivers were found. Make sure that the installation media contains the correct drivers, and then click OK."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Beginning installation..."
+  321,  "Installing Windows..."
+  322,  "Upgrading Windows..."
+  323,  "Installing Windows"
+  324,  "Upgrading Windows"
+  325,  "That's all the information we need right now. Your computer will restart several times during the upgrade."
+  326,  "1"
+  327,  "Collecting information"
+  328,  "2"
+  330,  "The upgrade was canceled"
+  331,  "Any changes that were made to your computer during the upgrade process will not be saved."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  337,  "Checking compatibility..."
+  341,  "Install Windows"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  360,  "The specified drive [%1!c!:] cannot be used to store temporary installation files. To install Windows, select another drive and restart the installation."
+  361,  "The specified drive [%1!c!:] cannot be found. Windows requires a valid drive to store temporary installation files. To install Windows, select another drive and restart the installation."
+  362,  "The specified drive [%1!c!:] is not a fixed disk. Windows requires a local, non-removable disk to store temporary installation files. To install Windows, select another drive and restart the installation."
+  363,  "The specified drive [%1!c!:] cannot be used to store temporary installation files because all partitions were selected to be deleted. To install Windows, select another drive and restart the installation."
+  364,  "The specified drive [%1!c!:] cannot be used to store temporary installation files because the partition was selected to be formatted. To install Windows, select another drive and restart the installation."
+  365,  "The specified drive [%1!c!:] does not have enough free disk space to store temporary installation files. To install Windows, select another drive and restart the installation."
+  366,  "Windows Setup is unable to locate a valid hard drive to store temporary installation files. To install Windows, create more free space on the hard drive or add a new hard drive."
+  367,  "The specified drive [%1!c!:] does not meet all requirements necessary to store temporary installation files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  376,  "To use the product key you entered, start the installation on a computer that is running a genuine version of Windows."
+  380,  "No drives were found. Click Load Driver to provide a mass storage driver for installation."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  550,  "&Back"
+  551,  "Cancel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  729,  "Help and Support"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1017,  "To install the device driver needed to access your hard drive, insert the installation media containing the driver files, and then click OK.\r\n\r\nNote: The installation media can be a floppy disk, CD, DVD, or USB flash drive."
+  1019,  "Browse to the driver(s), and then click OK"
+  1020,  "Driver list selection"
+  1021,  "No device drivers were found. Make sure that the installation media contains the correct drivers, and then click Retry."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2011,  "%1!s! - %2!s!"
+  2013,  "Welcome to Dynamic Update"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2018,  "Estimated time left: %u minutes"
+  2019,  "%u KB of %u KB downloaded"
+  2021,  "Estimated time left: %u second(s)"
+  2022,  "Searching for installation updates..."
+  2023,  "Downloading installation updates..."
+  2024,  "Installation is restarting..."
+  2029,  "Cannot connect to the Internet"
+  2030,  "To get updates, your computer must be connected to the Internet.  Do you want to try getting updates again or continue installing without updates?"
+  2031,  "The update process was interrupted"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2032,  "Windows setup was unable to download update files at this time.  The latest updates are available through Microsoft Update when setup is complete.  Click Ok to continue."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3001,  "Welcome to Windows Deployment Services"
+  3003,  "Windows Deployment Services"
+  3004,  "This will exit the Windows Deployment Services application. You will need to run it again later to install an operating system. Are you sure you want to cancel?"
+  3006,  "Image Selection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3008,  "Description:\r\n%1!s!"
+  3010,  "There are no images available."
+  3011,  "Enter your user name in the format domain\\user or user@domain.com."
+  3012,  "Connect to %1!s!"
+  3013,  "An unknown error has occurred while processing your request. The system returned the following error: 0x%1!x!."
+  3015,  "Restarting in %1!ld! seconds"
+  3016,  "Restarting in 1 second"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4005,  "The [%1!s!] device driver could not be installed.  Contact your vendor for an updated driver."
+  4006,  "(Unknown Driver)"
+  4007,  "Load Driver"
+  4008,  "Only numeric values are allowed for this field."
+  4009,  "Failed to format the selected partition. [Error: 0x%1!x!]."
+  4010,  "Failed to extend the selected partition. [Error: 0x%1!x!]."
+  4011,  "Failed to delete the selected partition. [Error: 0x%1!x!]."
+  4012,  "Failed to create a new partition on the selected unused space. [Error: 0x%1!x!]."
+  4013,  "Windows cannot be installed to the selected location. Please select a different partition."
+  4014,  "The previously selected installation location is no longer valid. Please reselect where to install Windows and click Next."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4016,  "The selected partition requires at least %1!u! MB free space."
+  4017,  "Windows is unable to install to the selected location.  Error: 0x%1!x!."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4103,  "&Restart now"
+  4110,  "Drive options (&advanced)"
+  4111,  "x86"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4112,  "MIPS"
+  4113,  "ALPHA"
+  4114,  "PPC"
+  4115,  "SHX"
+  4116,  "ARM"
+  4117,  "IA64"
+  4118,  "ALPHA64"
+  4119,  "MSIL"
+  4120,  "x64"
+  4121,  "IA32_ON_WIN64"
+  4122,  "Unknown"
+  4123,  "Operating system"
+  4124,  "Language"
+  4125,  "Architecture"
+  4126,  "Date modified"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4141,  "Install Windows"
+  4142,  "Upgrading Windows will affect the following devices and/or programs:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4144,  "These issues do not prevent your upgrade, but some software and/or devices might not work once your upgrade completes."
+  4145,  "Close Windows installation and then do the following:"
+  4148,  "The following devices will not work until the device driver software is updated.  After the installation is complete, run Windows Update and check to see if there are any available updates for your devices.  If this does not resolve your problem(s), contact the device manufacturer for updated driver software for these devices. \n:"
+  4150,  "You should resolve these problems or installation might fail"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4500,  "Gathering files"
+  4501,  "Copying Windows files"
+  4502,  "Expanding boot files"
+  4503,  "Expanding Windows installation"
+  4504,  "Assembling Windows features"
+  4505,  "Assembling language features"
+  4506,  "Applying Windows updates"
+  4507,  "Applying other updates"
+  4508,  "Identifying hardware"
+  4509,  "Initializing Windows"
+  4510,  "Performing machine-specific upgrade"
+  4511,  "Performing Windows upgrade"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4512,  "Performing machine-specific initialization"
+  4513,  "Cleaning temporary files"
+  4514,  "Deleting boot folder"
+  4515,  "Send diagnostic information"
+  4516,  "Gathering files, settings, and programs"
+  4517,  "Expanding Windows files"
+  4518,  "Installing features"
+  4519,  "Installing updates"
+  4520,  "Installing features and updates"
+  4521,  "Completing installation"
+  4522,  "Transferring files, settings, and programs"
+  4523,  "%1!s! %2!s!"
+  4524,  "%1!s! (%2!d!%%) %3!s!"
+  4525,  "Installing drivers"
+  4526,  "Installing drivers"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5016,  "&Close"
+  5019,  "Your upgrade may take several hours to complete."
+  5022,  "Click here for more information"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5024,  "&Next"
+  5025,  "Program: %1!s!<br />Publisher: %2!s!<br />Path: %3!s!"
+  5026,  "Not Available"
+  5027,  "Potential issues were detected with installed applications/devices. Fix the problems listed in %1!s!, and then start the installation again"
+  5028,  "CompatibilityIssues.txt"
+  5030,  "&Windows cannot be installed to this disk.  (Show details)"
+  5031,  "&Windows cannot be installed to Disk %1!d! Partition %2!d!.  (Show details)"
+  5032,  "The selected disk is offline.  To install to this disk Windows needs to bring the disk online.  Click OK to bring the disk online or Cancel to go back to the previous screen."
+  5033,  "Offline"
+  5034,  "Failed to bring the disk online. [Error: 0x%1!x!]."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5042,  "Upgrading Windows will affect the following features:"
+  5043,  "You can still upgrade, but the following Windows features and/or Ultimate Extras have been discontinued or might not work after the upgrade:"
+  5044,  "For these items, make the following changes:"
+  5045,  "These devices might not work properly after the upgrade. Before upgrading, we recommend updating the drivers for these devices. Cancel the upgrade, open Control Panel and search for ""update device drivers"", or go to the device manufacturer's website to search for updated drivers."
+  5046,  "These programs might not work properly after the upgrade. We recommend uninstalling these programs before upgrading. Cancel the upgrade, open Control Panel, and search for ""uninstall a program"". (Note: Programs marked as * can be safely reinstalled after the upgrade.)"
+  5047,  "Setup was unable to use the existing system partition because it does not contain the required free space."
+  5048,  "Compatibility Report (saved to desktop)"
+  5049,  "Compatibility Report"
+  5050,  "These devices might not work properly after the upgrade. Before upgrading, we recommend updating the drivers for these devices."
+  5051,  "Install updated drivers for the following devices. If you already have updated device drivers, click <B>Load Driver</B> if available and follow the instructions."
+  5052,  "Turn off these Windows features."
+  5053,  "Uninstall these programs."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6001,  "Windows cannot find a Microsoft Reserved partition on the disk selected for installation. Although recommended, this partition is not required to complete installation."
+  6002,  "The partitions on the disk selected for installation are not in the recommended order. For information about installing to GPT disks go to the Microsoft website (www.microsoft.com) and search for GPT."
+  6003,  "The following issues are preventing Windows from upgrading. Cancel the upgrade, complete each task, and then restart the upgrade to continue."
+  6004,  "Install updated drivers for the following devices. If you already have updated device drivers, click <B>Load Driver</B> if available and follow the instructions. Or, open Control Panel and search for ""update device drivers""."
+  6005,  "Uninstall these programs. Open Control Panel and search for ""uninstall a program""."
+  6007,  "Before continuing with the upgrade, make sure software vendors support your software on Windows Server 2008 R2. Follow their software specific recommendations before and after the upgrade. To verify software compatibility on the Windows Server Catalog and to download tools and documentation, go to http://go.microsoft.com/fwlink/?LinkID=85172 <br></br><br></br>Important: If the software isn’t supported on Windows Server 2008 R2, or if the software vendor does not support software that is installed during the upgrade of the operating system, uninstall that software before you upgrade. If you do not uninstall the software, your system will be unsupported, the software might not work, and software settings or other information might be lost."
+  6008,  "Upgrading Windows will affect the following devices:"
+  6009,  "Turn off these Windows features. Open Control Panel and search for ""turn Windows features on or off""."
+  6010,  "Upgrading Windows will affect the following features:"
+  6011,  "Turn off these Windows features."
+  6012,  "Uninstall these unsigned system drivers:"
+  6013,  "Copying multicast files"
+  6014,  "Copying Windows files"
+  6015,  "This compatibility report will be saved to your current desktop."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6017,  "Windows Compatibility Report.htm"
+  6018,  "To continue installation, use the Load Driver option to install 32-bit and signed 64-bit drivers.  Installing an unsigned 64-bit device driver is not supported and might result in an unusable Windows installation."
+  6019,  "Install updated drivers for the following devices. Open Control Panel and search for ""update device drivers""."
+  6020,  "Before continuing with the upgrade, make sure software vendors support your software on Windows Server 2008 R2. Follow their software specific recommendations before and after the upgrade. To verify software compatibility on the Windows Server Catalog and to download tools and documentation, go to http://go.microsoft.com/fwlink/?LinkID=85172 <br></br><br></br>Important: If software isn’t supported on Windows Server 2008 R2, or if the software vendor does not support software that is installed during the upgrade of the operating system, uninstall that software before you upgrade. If you do not uninstall the software, your system will be unsupported, the software might not work, and software settings or other information might be lost. <br></br><br></br>Note: To continue to use some desktop features, you will need to install Desktop Experience after the upgrade. When the upgrade is complete, run Server Manager, select Add Features, and then install Desktop Experience."
+  6021,  "This compatibility report will be saved as"
+}
+

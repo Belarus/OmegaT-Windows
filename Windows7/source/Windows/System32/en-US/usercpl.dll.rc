@@ -1,0 +1,262 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "User Accounts"
+  2,  "Change user account settings and passwords for people who share this computer."
+  3,  "Click here to type"
+  4,  "Change this person's account information, such as the account type, name, password, or picture, or delete this account."
+  5,  "Change the guest account picture or prevent guest access to this computer."
+  6,  "Provide computer access for people without a user account on this computer."
+  7,  "The Welcome screen shows the names of everyone with a user account for this computer. This screen appears when you start the computer or switch users."
+  8,  "In the Start menu you can choose a computer activity, such as reading new e-mail messages or browsing the Web. This menu is personalized for everyone who shares this computer."
+  9,  "A password hint can help you remember your password."
+  10,  "A password hint can help this person remember his or her password."
+  11,  "Windows cannot open the User Accounts control panel."
+  12,  "The current user account is not recognized. Restart the computer and then open User Accounts."
+  13,  "The passwords you typed do not match. Please retype the new password in both boxes."
+  14,  "The password you typed is incorrect. Please retype your current password."
+  15,  "The password you typed does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Windows cannot change the password."
+  17,  "Windows cannot remove the password.  Password and/or account policies require the account to have a password."
+  18,  "The specified account name is not valid, because account names cannot contain the following characters: /\\[]"":;|<>+=,?*\n\nPlease type a different name."
+  19,  "The specified account name cannot be used, because it is a reserved name. Please type a different name."
+  20,  "The user name cannot be the same as the computer name.\n\nPlease type a different name."
+  21,  "The specified group does not exist."
+  22,  "An account named '%s' already exists. Type a different name."
+  23,  "The specified picture is an unknown type or is not valid. Select a different picture."
+  24,  "No camera or scanner is available. Make sure the camera is connected and is turned on, and then try again."
+  30,  "The account you want to delete is logged on.  Before you delete it, you should switch to that user account and log off of that account.  If you continue without doing this, there is a risk of data loss.  Do you still wish to continue?"
+  31,  "The Guest account is logged on. Before you can turn off the Guest account, you must switch to the Guest account and log it off."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  34,  "Windows cannot delete the account that is currently logged in."
+  37,  "Password protected"
+  38,  "Guest account"
+  39,  "Standard user"
+  40,  "Unknown account type"
+  41,  "Administrator"
+  42,  "Guest account is on"
+  43,  "Guest account is off"
+  44,  "Windows cannot remove the password."
+  45,  "User Accounts"
+  46,  "This action cannot be performed due to an account restriction. Please contact your administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Create New Account"
+  49,  "Change an Account"
+  50,  "Choose Picture"
+  51,  "Rename Account"
+  52,  "Turn on Guest Account"
+  53,  "Change Guest Options"
+  54,  "Manage Accounts"
+  55,  "Change Your Name"
+  56,  "Delete Account"
+  57,  "Confirm Deletion"
+  58,  "Change Password"
+  59,  "Change Account Type"
+  60,  "Change Your Password"
+  61,  "Change Your Picture"
+  62,  "Create Password"
+  63,  "Create Your Password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "Remove Password"
+  65,  "Remove Your Password"
+  66,  "Change Your Account Type"
+  67,  "Windows failed to start the advanced options dialog."
+  68,  "The specified account name is not valid, because there is already an account with that name.\n\nPlease type a different name."
+  69,  "User account picture"
+  70,  "User account tile"
+  71,  "User Accounts Control Panel"
+  72,  "Administrator privileges required"
+  73,  "New password"
+  74,  "Confirm new password"
+  75,  "Type a password hint"
+  76,  "Current password"
+  78,  "New account name"
+  79,  "Help"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Image Files (*.bmp,*.gif,*.jpg,*.png)|*.bmp;*.dib;*.gif;*.jpg;*.jpe;*.jpeg;*.png;*.rle|Bitmap (*.bmp,*.dib,*.rle)|*.bmp;*.dib;*.rle|GIF (*.gif)|*.gif|JPEG (*.jpg)|*.jpg|PNG (*.png)|*.png|All Files (*.*)|*"
+  91,  "This program is blocked by group policy. For more information, contact your system administrator."
+  92,  "User Accounts Related Tasks Pane"
+  93,  "User Accounts Main Task Pane"
+  94,  "List of users"
+  95,  "User Account Control Panel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Create a password reset disk"
+  101,  "Link online IDs"
+  102,  "Manage your file encryption certificates"
+  103,  "Configure advanced user profile properties"
+  104,  "Change my environment variables"
+  105,  "Parental Controls"
+  106,  "Manage your credentials"
+  107,  "Manage your fingerprint data"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "&Standard user"
+  1101,  "&Administrator"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1108,  "Make changes to your user account"
+  1109,  "Change your account name"
+  1110,  "Create a password for your account"
+  1111,  "Change your password"
+  1112,  "Remove your password"
+  1113,  "Change your picture"
+  1114,  "Change your account type"
+  1115,  "Manage another account"
+  1116,  "Manage User Accounts"
+  1117,  "To change your password, press Ctrl+Alt+Del and select Change a password."
+  1119,  "Make changes to %username%'s account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "Change Name"
+  1121,  "Create password"
+  1122,  "Change password"
+  1123,  "Remove Password"
+  1124,  "Change the picture"
+  1128,  "Create a new account"
+  1129,  "What do you want to change about the guest account?"
+  1130,  "Turn off the guest account"
+  1131,  "Name the account and choose an account type"
+  1133,  "This name will appear on the Welcome screen and on the Start menu."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Cancel"
+  1137,  "Create Account"
+  1138,  "Choose a new picture for %username%'s account"
+  1139,  "The picture you choose will appear on the Welcome screen and on the Start menu."
+  1140,  "Browse for more pictures..."
+  1141,  "Change Picture"
+  1142,  "Type a new account name for %username%'s account"
+  1145,  "Do you want to turn on the guest account?"
+  1146,  "If you turn on the guest account, people who do not have an account can use the guest account to log on to the computer. Password-protected files, folders, or settings are not accessible to guest users."
+  1147,  "Turn On"
+  1148,  "Choose the account you would like to change"
+  1149,  "What is a user account?"
+  1150,  "Additional things you can do"
+  1151,  "Set up Parental Controls"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1155,  "Type a new account name"
+  1157,  "Do you want to keep %username%'s files?"
+  1158,  "Before you delete %username%'s account, Windows can automatically save the contents of %username%'s desktop and Documents, Favorites, Music, Pictures and Videos folders to a new folder called '%username%' on your desktop. However, Windows cannot save %username%'s e-mail messages and other settings."
+  1159,  "Delete Files"
+  1160,  "Keep Files"
+  1161,  "Are you sure you want to delete %username%'s account?"
+  1162,  "You are deleting the account, but keeping the files."
+  1163,  "%username% will no longer be able to log on, and all of %username%'s settings will be deleted. However, %username%'s files will be saved on your desktop in a folder called '%username%'"
+  1164,  "Delete Account"
+  1165,  "Change %username%'s password"
+  1166,  "You are resetting the password for %username%.  If you do this, %username% will lose all personal certificates and stored passwords for Web sites or network resources."
+  1167,  "You are changing the password for %username%.  If you do this, %username% will lose all EFS-encrypted files, personal certificates, and stored passwords for Web sites or network resources."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1168,  "If %username% has forgotten the password, he or she can use the password reset floppy disk."
+  1169,  "To avoid losing data in the future, ask %username% to make a password reset floppy disk."
+  1172,  "If your password contains capital letters, they must be typed the same way every time you log on."
+  1174,  "The password hint will be visible to everyone who uses this computer."
+  1175,  "Change Account Type"
+  1176,  "Change your password"
+  1181,  "Choose a new picture for your account"
+  1182,  "Create a password for %username%'s account"
+  1183,  "You are creating a password for %username%."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184,  "If you do this, %username% will lose all EFS-encrypted files, personal certificates and stored passwords for Web sites or network resources."
+  1185,  "To avoid losing data in the future, ask %username% to make a password reset floppy disk."
+  1186,  "Create a password for your account"
+  1188,  "You are removing the password for %username%.  If you do this, %username% will lose all personal certificates and stored passwords for Web sites or network resources."
+  1189,  "You are removing the password for %username%.  If you do this, %username% will lose all EFS-encrypted files, personal certificates, and stored passwords for Web sites or network resources."
+  1190,  "If %username% has forgotten the password, he or she can use the password reset floppy disk."
+  1191,  "Remove your password"
+  1192,  "Are you sure you want to remove your password?"
+  1193,  "If you remove your password, other people can gain access to your account and change settings."
+  1194,  "If you remove your password, other people can gain access to your account and change settings."
+  1195,  "If you have forgotten your password, you can use the password reset floppy disk."
+  1196,  "Remove a password"
+  1197,  "Choose a new account type for %username%"
+  1198,  "Standard account users can use most software and change system settings that do not affect other users or the security of the computer."
+  1199,  "Administrators have complete access to the computer and can make any desired changes. Based on notification settings, administrators may be asked to provide their password or confirmation before making changes that affect other users.\n\nWe recommend that you protect every account with a strong password."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Select your new account type"
+  1201,  "Go to the main User Accounts page"
+  1203,  "You must assign another user on this computer to have an administrator account before you can change this user's account type. This ensures that there is always at least one user with a computer administrator account on this computer."
+  1204,  "What is a password hint?"
+  1205,  "How to create a strong password"
+  1206,  "Why is a standard account recommended?"
+  1207,  "Windows will delete all of %username%'s files, and then delete %username%'s account."
+  1213,  "Change User Account Control settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216,  "Change the account name"
+  1217,  "Create a password"
+  1218,  "Change the password"
+  1219,  "Remove the password"
+  1220,  "Change the picture"
+  1221,  "Change the account type"
+  1222,  "Delete the account"
+  1223,  "Manage another account"
+  1226,  "If the password contains capital letters, they must be typed the same way every time."
+}
+
+1 MESSAGETABLE
+{
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-User Control Panel\r\n"
+}

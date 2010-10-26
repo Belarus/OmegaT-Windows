@@ -1,0 +1,186 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 317, 186
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "BaseWindow", 1017, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+102 DIALOGEX 0, 0, 167, 55
+CAPTION "Dialog"
+STYLE 0x80c800c8
+EXSTYLE 0x8
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Cancel", 2, Button, 0x50010001, 53, 31, 50, 14, 0x0
+  CONTROL "", 1001, "msctls_progress32", 0x50800000, 7, 18, 153, 10, 0x0
+}
+
+110 DIALOGEX 0, 0, 317, 186
+CAPTION ""
+STYLE 0x46080448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Report Pane", 1018, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+125 DIALOGEX 0, 0, 316, 189
+CAPTION ""
+STYLE 0x46080448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Function View Wnd", 1019, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "function list control", 1011, "SysListView32", 0x56010809, 0, 0, 316, 189, 0x0
+}
+
+128 DIALOGEX 0, 0, 316, 189
+CAPTION ""
+STYLE 0x46080448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Call Tree Wnd", 1021, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "call Tree Control", 1015, "SysTreeView32", 0x50011003, 7, 22, 110, 155, 0x0
+}
+
+129 DIALOGEX 0, 0, 317, 186
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "CallTree View", 1022, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+130 DIALOGEX 0, 0, 316, 189
+CAPTION ""
+STYLE 0x46080448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Report", 1020, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1456,  "No Report Loaded"
+  1457,  "No View Available"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2141,  "Call Tree"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3001,  "Start Profiling"
+  3002,  "Stop Profiling"
+  3003,  "Save Report"
+  3004,  "Open Report"
+  3005,  "Function List"
+  3006,  "Call Tree"
+  3007,  "Close Report"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3012,  "Start/Stop Profiling"
+  3013,  "Profile"
+  3014,  "Report"
+  3017,  "&Copy"
+  3018,  "Select Element by Click (Ctrl + B)"
+  3019,  "Clear Browser Cache... (Ctrl + R)"
+  3020,  "Export Data"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3121,  "Functions"
+  3122,  "Current View:"
+  3123,  "Current view"
+  3124,  "Select &All"
+  3125,  "Sort By"
+  3126,  "Add / Remove Columns"
+  3127,  "Start Profiling (F5)"
+  3128,  "Stop Profiling (Shift + F5)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "Function"
+  5001,  "Count"
+  5002,  "Inclusive Time (ms)"
+  5003,  "Inclusive Time %"
+  5004,  "Exclusive Time (ms)"
+  5005,  "Exclusive Time %"
+  5006,  "Line Number"
+  5007,  "URL"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5008,  "Avg Time (ms)"
+  5009,  "Max Time (ms)"
+  5010,  "Min Time (ms)"
+  5020,  "The name of the function"
+  5021,  "The total number of calls made to this function"
+  5022,  "The time spent in this function and its children (msec)"
+  5023,  "The percentage of time spent in this function and its children"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5024,  "The time spent in this function (msec)"
+  5025,  "The percentage of time spent in this function"
+  5026,  "The line number of the beginning of this function in the source file"
+  5027,  "The URL of the source file where this function is defined"
+  5028,  "The average time spent in this function and its children (msec)"
+  5029,  "The maximum time spent in this function and its children (msec)"
+  5030,  "The minimum time spent in this function and its children (msec)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7001,  "Profiler Error"
+  7002,  "Unable to export profile data"
+  7003,  "Source code is not available for this location"
+  7004,  "Unable to start profiling"
+  7005,  "Unable to stop profiling"
+  7006,  "Profiler"
+  7007,  "No profile data generated"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8000,  "Tree View"
+  8001,  "Developer Tools Profiler Toolbar"
+  8002,  "Current Report"
+  8003,  "Current View"
+  8004,  "Close Button"
+  8005,  "View Label"
+}
+
+9000 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F5  , 9001, VIRTKEY, NOINVERT
+  VK_F5  , 9002, VIRTKEY, NOINVERT, SHIFT
+}
+

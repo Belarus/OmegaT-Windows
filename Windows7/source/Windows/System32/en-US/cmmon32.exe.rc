@@ -1,35 +1,6 @@
 #pragma code_page(65001)
 #include <resources.h>
 
-1 VERSIONINFO
-FILEVERSION 7,2,7600,16385
-PRODUCTVERSION 7,2,7600,16385
-FILEFLAGSMASK 0x3f
-FILEFLAGS 0x0
-FILEOS 0x40004
-FILETYPE 0x1
-FILESUBTYPE 0x0
-{
-  BLOCK "StringFileInfo"
-  {
-    BLOCK "040904B0"
-    {
-      VALUE "CompanyName", "Microsoft Corporation"
-      VALUE "FileDescription", "Microsoft Connection Manager Monitor"
-      VALUE "FileVersion", "7.02.7600.16385 (win7_rtm.090713-1255)"
-      VALUE "InternalName", "CMMON32"
-      VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-      VALUE "OriginalFilename", "CMMON32.exe.mui"
-      VALUE "ProductName", "Microsoft(R) Connection Manager"
-      VALUE "ProductVersion", "7.02.7600.16385"
-    }
-  }
-  BLOCK "VarFileInfo"
-  {
-    VALUE "Translation", 0x409 0x4b0
-  }
-}
-
 120 MENU
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
