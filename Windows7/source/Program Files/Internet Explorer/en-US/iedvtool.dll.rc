@@ -4,13 +4,13 @@
 5000 MENU
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-  MENUITEM "&Delete Attribute", 5100
-  MENUITEM "&Add Attribute", 5101
-  MENUITEM "DevToolbar", 5102
-  MENUITEM "&Select Element by Click", 5103
-  MENUITEM "&Refresh Data", 5104
-  MENUITEM "&Clear Cache", 5105
-  MENUITEM "&View Source and Style", 5106
+  MENUITEM "&Delete Attribute", 5100, INACTIVE
+  MENUITEM "&Add Attribute", 5101, INACTIVE
+  MENUITEM "DevToolbar", 5102, INACTIVE
+  MENUITEM "&Select Element by Click", 5103, INACTIVE
+  MENUITEM "&Refresh Data", 5104, INACTIVE
+  MENUITEM "&Clear Cache", 5105, INACTIVE
+  MENUITEM "&View Source and Style", 5106, INACTIVE
   MENUITEM "&Pin", 5107
   MENUITEM "&UnPin", 5108
 }

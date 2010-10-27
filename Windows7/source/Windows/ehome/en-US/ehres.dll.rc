@@ -31,7 +31,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
     MENUITEM "Update Data Now", 127, GRAYED
     MENUITEM "Cancel Update", 128, GRAYED
     MENUITEM SEPARATOR
-    MENUITEM "Enable Automatic Updates", 129
+    MENUITEM "Enable Automatic Updates", 129, CHECKED
   }
 }
 

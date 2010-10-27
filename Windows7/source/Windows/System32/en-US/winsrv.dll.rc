@@ -1,6 +1,38 @@
 #pragma code_page(65001)
 #include <resources.h>
 
+10 DIALOGEX 20, 20, 232, 134
+CAPTION "End Program - "
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 257, Static, 0x50020000, 36, 8, 185, 16, 0x0
+  CONTROL "To return to Windows and check the status of the program, click Cancel.", 258, Static, 0x50020000, 36, 32, 185, 16, 0x0
+  CONTROL "If you choose to end the program immediately, you will lose any unsaved data. To end the program now, click End Now.", 65535, Static, 0x50020000, 36, 60, 185, 30, 0x0
+  CONTROL "&End Now", 259, Button, 0x50010000, 123, 112, 46, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010001, 175, 112, 46, 14, 0x0
+}
+
+20 DIALOGEX 0, 0, 266, 224
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 10, "Segoe UI", 0, 0, 0
+{
+  CONTROL "The following programs need to close:", 261, Static, 0x50020000, 0, 20, 266, 14, 0x0
+  CONTROL "", 269, Static, 0x5000000d, 0, 46, 266, 1, 0x0
+  CONTROL "", 266, Static, 0x5000000a, 0, 52, 256, 85, 0x0
+  CONTROL "", 268, ScrollBar, 0x50000001, 256, 52, 10, 85, 0x0
+  CONTROL "", 270, Static, 0x5000000d, 0, 143, 266, 1, 0x0
+  CONTROL "To close the program that is preventing Windows from\nshutting down, click Cancel, and then close the program.", 262, Static, 0x50020000, 0, 152, 266, 30, 0x0
+  CONTROL "&Cancel", 2, Button, 0x5003000b, 193, 191, 70, 13, 0x0
+  CONTROL "&Force shut down", 260, Button, 0x5001000b, 115, 191, 70, 13, 0x0
+  CONTROL "If you force shut down you may lose work that you haven't saved.\nDo you still want to force shutdown?", 271, Static, 0x50020000, 0, 152, 266, 30, 0x0
+  CONTROL "&No", 7, Button, 0x5003000b, 193, 191, 70, 13, 0x0
+  CONTROL "&Yes", 6, Button, 0x5001000b, 115, 191, 70, 13, 0x0
+}
+
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
