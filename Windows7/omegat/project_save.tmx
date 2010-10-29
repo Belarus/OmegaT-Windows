@@ -3,7 +3,7 @@
 <tmx version="1.1">
   <header
     creationtool="OmegaT"
-    creationtoolversion="2.2.0"
+    creationtoolversion="2.2.0_2"
     segtype="paragraph"
     o-tmf="OmegaT TMX"
     adminlang="EN-US"
@@ -9518,6 +9518,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Account name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051758Z" changeid="eratyk">
+        <seg>Назва рахунка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Action</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T071736Z" changeid="Ales Koshal [icq#:706101]">
@@ -10234,6 +10242,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T063022Z" changeid="alex">
         <seg>Дадатковыя налады вонкавага выгляду...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced photo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051743Z" changeid="eratyk">
+        <seg>Дадатковае фота</seg>
       </tuv>
     </tu>
     <tu>
@@ -11294,6 +11310,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Anniversary</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053401Z" changeid="eratyk">
+        <seg>Угодкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Another display\nnot detected</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T194902Z" changeid="eratyk">
@@ -11410,6 +11434,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T130641Z" changeid="eratyk">
         <seg>Усе файлы з гэтаю праблемаю былі перамешчаныя ў каталог &quot;Знойдзена&quot; на прыладзе ці дыску. Прылада ці дыск падрыхтаваны да працы.\n\nКалі Вы выміце прыладу ці дыск перад тым, як файлы будуць поўнасцю запісаныя, іх часткі, магчыма, згубяцца. Калі так, то перакапіюйце файлы на прыладу ці дыск.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Any text</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051536Z" changeid="eratyk">
+        <seg>Любы тэкст</seg>
       </tuv>
     </tu>
     <tu>
@@ -12510,6 +12542,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Assistant's name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053504Z" changeid="eratyk">
+        <seg>Імя памочніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assistant's phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053514Z" changeid="eratyk">
+        <seg>Тэлефон памочніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Attach:</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T080731Z" changeid="eratyk">
@@ -12610,6 +12658,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T063135Z" changeid="eratyk">
         <seg>Аўтар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Authors</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181847Z" changeid="eratyk">
+        <seg>Аўтары</seg>
       </tuv>
     </tu>
     <tu>
@@ -13230,6 +13286,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Birthday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053525Z" changeid="eratyk">
+        <seg>Дзень народзінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bitmap Files (*.BMP)|*.BMP|GIF (*.GIF)|*.GIF|JPEG (*.JPEG;*.JPG;*.JPE;*.JFIF)|*.JPEG;*.JPG;*.JPE;*.JFIF|PNG (*.PNG)|*.PNG|All Picture Files|*.BMP;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.ICO|All Files|*|||</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T162518Z" changeid="eratyk">
@@ -13766,10 +13830,74 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Business P.O. box</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053853Z" changeid="eratyk">
+        <seg>Паштовая скрыня працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business city</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053539Z" changeid="eratyk">
+        <seg>Горад працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business country/region</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053603Z" changeid="eratyk">
+        <seg>Краіна/рэгіён працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business fax</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053947Z" changeid="eratyk">
+        <seg>Факс працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business home page</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053958Z" changeid="eratyk">
+        <seg>Хатняя старонка працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Business phone</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T195229Z" changeid="eratyk">
         <seg>Працоўны тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business postal code</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053621Z" changeid="eratyk">
+        <seg>Паштовы індэкс працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business state or province</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053930Z" changeid="eratyk">
+        <seg>Вобласць ці раён працы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Business street</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053940Z" changeid="eratyk">
+        <seg>Вуліца працы</seg>
       </tuv>
     </tu>
     <tu>
@@ -14206,6 +14334,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Callback number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054026Z" changeid="eratyk">
+        <seg>Нумар зваротнага выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Camera</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051748Z" changeid="eratyk">
+        <seg>Камера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Can Windows collect more information about this problem?</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T075341Z" changeid="eratyk">
@@ -14614,6 +14758,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Car phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054039Z" changeid="eratyk">
+        <seg>Тэлефон у машыне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Carries out the previously undone action.\nRedo</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T124940Z" changeid="eratyk">
@@ -14654,6 +14806,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Categories</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181917Z" changeid="eratyk">
+        <seg>Катэгорыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Category</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T062041Z" changeid="eratyk">
@@ -14674,6 +14834,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T102618Z" changeid="eratyk">
         <seg>Увага!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cell phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055947Z" changeid="eratyk">
+        <seg>Мабільны тэлефон</seg>
       </tuv>
     </tu>
     <tu>
@@ -16051,6 +16219,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T125619Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Кантрольны пункт:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Children</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054046Z" changeid="eratyk">
+        <seg>Дзеці</seg>
       </tuv>
     </tu>
     <tu>
@@ -17695,6 +17871,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Company main phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054059Z" changeid="eratyk">
+        <seg>Галоўны тэлефон кампаніі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Compatibility files</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T095201Z" changeid="eratyk">
@@ -18719,6 +18903,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Content type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182258Z" changeid="eratyk">
+        <seg>Тып змесціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Context</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T185213Z" changeid="eratyk">
@@ -19075,6 +19267,14 @@
       </tuv>
       <tuv lang="be" changedate="20100711T065030Z" changeid="eratyk">
         <seg>Капіяванне...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Copyright</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181955Z" changeid="eratyk">
+        <seg>Аўтарскія правы</seg>
       </tuv>
     </tu>
     <tu>
@@ -19563,6 +19763,14 @@
       </tuv>
       <tuv lang="be" changedate="20100909T061853Z" changeid="eratyk">
         <seg>Памылка стварэння акна: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Creation software</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192527Z" changeid="eratyk">
+        <seg>Стваральнае апраграмаванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -20407,6 +20615,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Date accessed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182005Z" changeid="eratyk">
+        <seg>Дата доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date acquired</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182048Z" changeid="eratyk">
+        <seg>Дата атрымання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Date added</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T063827Z" changeid="eratyk">
@@ -20435,6 +20659,22 @@
       </tuv>
       <tuv lang="be" changedate="20100923T062741Z" changeid="eratyk">
         <seg>Фарматы даты і часу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date archived</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182102Z" changeid="eratyk">
+        <seg>Дата архівавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date completed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180742Z" changeid="eratyk">
+        <seg>Дата заканчэння</seg>
       </tuv>
     </tu>
     <tu>
@@ -21315,6 +21555,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T165556Z" changeid="eratyk">
         <seg>Каталог</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Directory server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051828Z" changeid="eratyk">
+        <seg>Сервер каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -23104,6 +23352,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>E-mail address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054107Z" changeid="eratyk">
+        <seg>Э-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>E-mail display name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054125Z" changeid="eratyk">
+        <seg>Э-адрас, імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>EQUAL</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T075254Z" changeid="eratyk">
@@ -24600,6 +24864,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>FM Broadcast (32 - 64 Kbps)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T175601Z" changeid="eratyk">
+        <seg>FM-вяшчанне (32 - 64 кб/с)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Fade or slide ToolTips into view</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T132813Z" changeid="eratyk">
@@ -24880,6 +25152,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Feed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181938Z" changeid="eratyk">
+        <seg>Стужка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Feeds</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T120756Z" changeid="eratyk">
@@ -25080,10 +25360,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>File as</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054142Z" changeid="eratyk">
+        <seg>Захоўваецца як</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>File attributes</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T050540Z" changeid="alex">
         <seg>Атрыбуты файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>File count</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182233Z" changeid="eratyk">
+        <seg>Лік файлаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -25156,6 +25452,14 @@
       </tuv>
       <tuv lang="be" changedate="20100913T202401Z" changeid="eratyk">
         <seg>FileSave</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Filename</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182114Z" changeid="eratyk">
+        <seg>Назва файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -25624,6 +25928,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>First name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054155Z" changeid="eratyk">
+        <seg>Імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Fit</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061305Z" changeid="alex">
@@ -25832,6 +26144,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Folder name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182106Z" changeid="eratyk">
+        <seg>Назва каталога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Folder name:</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T112756Z" changeid="eratyk">
@@ -25852,6 +26172,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T090217Z" changeid="eratyk">
         <seg>Налады каталогаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Folder path</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T184109Z" changeid="eratyk">
+        <seg>Шлях каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -26368,6 +26696,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Full name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054201Z" changeid="eratyk">
+        <seg>Поўнае імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Full scan</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T070121Z" changeid="Ales Koshal [icq#:706101]">
@@ -26412,6 +26748,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T135255Z" changeid="eratyk">
         <seg>GIF-выява</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>GPS</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180706Z" changeid="eratyk">
+        <seg>GPS</seg>
       </tuv>
     </tu>
     <tu>
@@ -26472,10 +26816,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Game</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T193056Z" changeid="eratyk">
+        <seg>Гульня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Games</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T090241Z" changeid="eratyk">
         <seg>Гульні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Gender</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054205Z" changeid="eratyk">
+        <seg>Пол</seg>
       </tuv>
     </tu>
     <tu>
@@ -27008,6 +27368,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>G|Gb|Gbyte|Gbytes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T183906Z" changeid="eratyk">
+        <seg>Г|ГБ|Гбайт|Гбайтаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>H&amp;eight:</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T123147Z" changeid="eratyk">
@@ -27536,6 +27904,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>High Quality (64 - 128 Kbps)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T175647Z" changeid="eratyk">
+        <seg>Высокая якасць (64 - 128 кб/с)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>High gain up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051841Z" changeid="eratyk">
+        <seg>Вялікае павелічэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Higher</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T180047Z" changeid="eratyk">
@@ -27584,10 +27968,82 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hobbies</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054222Z" changeid="eratyk">
+        <seg>Захапленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Home</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T071449Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Дамоў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home P.O. box</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054324Z" changeid="eratyk">
+        <seg>Хатняя паштовая скрыня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home city</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054236Z" changeid="eratyk">
+        <seg>Хатні горад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home country/region</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054353Z" changeid="eratyk">
+        <seg>Хатнія краіна/рэгіён</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home fax</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054409Z" changeid="eratyk">
+        <seg>Хатні факс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054416Z" changeid="eratyk">
+        <seg>Хатні тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home postal code</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054314Z" changeid="eratyk">
+        <seg>Хатні паштовы індэкс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home state or province</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054346Z" changeid="eratyk">
+        <seg>Хатнія вобласць ці раён</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home street</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T054400Z" changeid="eratyk">
+        <seg>Хатняя вуліца</seg>
       </tuv>
     </tu>
     <tu>
@@ -27852,6 +28308,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T080235Z" changeid="eratyk">
         <seg>Спампоўкі IE і прычэпкі Outlook Express%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IM addresses</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055317Z" changeid="eratyk">
+        <seg>IM адрасы</seg>
       </tuv>
     </tu>
     <tu>
@@ -28488,6 +28952,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Includes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181948Z" changeid="eratyk">
+        <seg>Змяшчае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Includes:</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T091050Z" changeid="eratyk">
@@ -28708,6 +29180,14 @@
       </tuv>
       <tuv lang="be" changedate="20101010T081846Z" changeid="eratyk">
         <seg>Ініцыялізацыя;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Initials</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055757Z" changeid="eratyk">
+        <seg>Ініцыялы</seg>
       </tuv>
     </tu>
     <tu>
@@ -28956,6 +29436,14 @@
       </tuv>
       <tuv lang="be" changedate="20100726T132833Z" changeid="eratyk">
         <seg>Усталёўвае абнаўленні і выключае камп'ютар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Instant Message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051724Z" changeid="eratyk">
+        <seg>Імгненнае паведамленне</seg>
       </tuv>
     </tu>
     <tu>
@@ -29288,6 +29776,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Is attachment</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182331Z" changeid="eratyk">
+        <seg>Ёсць прычэпкам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is deleted</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051903Z" changeid="eratyk">
+        <seg>Ёсць выдаленым</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Is online</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T195211Z" changeid="eratyk">
@@ -29448,6 +29952,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Job title</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055902Z" changeid="eratyk">
+        <seg>Назва пасады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Join Microsoft SpyNet</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T075356Z" changeid="Ales Koshal [icq#:706101]">
@@ -29500,6 +30012,14 @@
       </tuv>
       <tuv lang="be" changedate="20100310T113246Z" changeid="alex">
         <seg>Праграма-жарт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Journal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051811Z" changeid="eratyk">
+        <seg>Журнал</seg>
       </tuv>
     </tu>
     <tu>
@@ -29832,6 +30352,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Language</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182405Z" changeid="eratyk">
+        <seg>Мова</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Language &amp;bar</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T203614Z" changeid="eratyk">
@@ -29972,6 +30500,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T165332Z" changeid="eratyk">
         <seg>Апошні доступ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055919Z" changeid="eratyk">
+        <seg>Прозвішча</seg>
       </tuv>
     </tu>
     <tu>
@@ -30180,6 +30716,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T061848Z" changeid="eratyk">
         <seg>Левая Alt+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Legal trademarks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T193026Z" changeid="eratyk">
+        <seg>Легальныя таварныя знакі</seg>
       </tuv>
     </tu>
     <tu>
@@ -30904,6 +31448,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Long (30 - 60 mins)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180218Z" changeid="eratyk">
+        <seg>Доўгія (30 - 60 хвілін)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Long Date</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T181326Z" changeid="eratyk">
@@ -30972,6 +31524,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T161200Z" changeid="eratyk">
         <seg>Мала вольнай дыскавай прасторы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low gain up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051528Z" changeid="eratyk">
+        <seg>Невялікае павелічэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -31696,6 +32256,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Medium (5 - 30 mins)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180154Z" changeid="eratyk">
+        <seg>Сярэднія (5 - 30 хвілін)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Medium Icons</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T061357Z" changeid="eratyk">
@@ -32296,6 +32864,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Middle name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055930Z" changeid="eratyk">
+        <seg>Імя па бацьку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Minesweeper</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T120618Z" changeid="eratyk">
@@ -32712,6 +33288,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Movie</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051909Z" changeid="eratyk">
+        <seg>Фільм</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Moving</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T124651Z" changeid="eratyk">
@@ -32912,6 +33496,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>M|Mb|Mbyte|Mbytes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181843Z" changeid="eratyk">
+        <seg>М|МБ|Мбайт|Мбайтаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>N&amp;egative sign symbol:</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T131202Z" changeid="eratyk">
@@ -33096,6 +33688,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Near CD Quality (over 128 Kbps)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180003Z" changeid="eratyk">
+        <seg>Якасць блізу CD (больш за 128 кб/с)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Nearest match based on size, date, and type:</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T190917Z" changeid="alex">
@@ -33268,6 +33868,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T100547Z" changeid="eratyk">
         <seg>Сеткавы дыск</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T183910Z" changeid="eratyk">
+        <seg>Сеткавае размяшчэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -33556,6 +34164,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T175136Z" changeid="eratyk">
         <seg>На наступным тыдні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Nickname</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T055956Z" changeid="eratyk">
+        <seg>Мянушка</seg>
       </tuv>
     </tu>
     <tu>
@@ -34008,6 +34624,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Note</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051916Z" changeid="eratyk">
+        <seg>Нататка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Note: Media information that is retrieved may not be in your language.</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T112809Z" changeid="eratyk">
@@ -34336,6 +34960,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Office location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T060017Z" changeid="eratyk">
+        <seg>Размяшчэнне офіса</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Offline</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T093151Z" changeid="eratyk">
@@ -34362,8 +34994,8 @@
       <tuv lang="en">
         <seg>Offline Availability</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T093245Z" changeid="eratyk">
-        <seg>Даступнасць па-за сецівам</seg>
+      <tuv lang="be" changedate="20101028T183950Z" changeid="eratyk">
+        <seg>Пазасеціўная даступнасць</seg>
       </tuv>
     </tu>
     <tu>
@@ -34378,8 +35010,24 @@
       <tuv lang="en">
         <seg>Offline Status</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T093309Z" changeid="eratyk">
-        <seg>Стан па-за сецівам</seg>
+      <tuv lang="be" changedate="20101028T184011Z" changeid="eratyk">
+        <seg>Пазасеціўны стан</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Offline availability</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T183931Z" changeid="eratyk">
+        <seg>Пазасеціўная даступнасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Offline status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T184041Z" changeid="eratyk">
+        <seg>Пазасеціўны стан</seg>
       </tuv>
     </tu>
     <tu>
@@ -35328,6 +35976,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Origin</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T051732Z" changeid="eratyk">
+        <seg>Крыніца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Origin:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T045249Z" changeid="alex">
@@ -35784,6 +36440,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pager</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T060030Z" changeid="eratyk">
+        <seg>Пэйджар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Paint</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T122006Z" changeid="eratyk">
@@ -35836,6 +36500,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T200506Z" changeid="eratyk">
         <seg>Абзац</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Parental rating</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T184100Z" changeid="eratyk">
+        <seg>Бацькоўская ацэнка</seg>
       </tuv>
     </tu>
     <tu>
@@ -36120,6 +36792,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Perceived type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T184115Z" changeid="eratyk">
+        <seg>Адчувальны тып</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Percent Full</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T123050Z" changeid="eratyk">
@@ -36248,6 +36928,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Personal title</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T060347Z" changeid="eratyk">
+        <seg>Асабісты зварот</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Personalization</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T193008Z" changeid="eratyk">
@@ -36324,6 +37012,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T061101Z" changeid="alex">
         <seg>Спіс прагляду фота</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Photometric interpretation</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180326Z" changeid="eratyk">
+        <seg>Фотаметрычная інтэрпрэтацыя</seg>
       </tuv>
     </tu>
     <tu>
@@ -37344,6 +38040,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Primary phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T060401Z" changeid="eratyk">
+        <seg>Галоўны тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Print</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T164221Z" changeid="eratyk">
@@ -37592,6 +38296,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Processor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182334Z" changeid="eratyk">
+        <seg>Працэсар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Processor:</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T111827Z" changeid="eratyk">
@@ -37604,6 +38316,14 @@
       </tuv>
       <tuv lang="be" changedate="20100710T075325Z" changeid="eratyk">
         <seg>Назва прадукта:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Profession</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T060407Z" changeid="eratyk">
+        <seg>Прафесія</seg>
       </tuv>
     </tu>
     <tu>
@@ -37636,6 +38356,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T073255Z" changeid="eratyk">
         <seg>Размяшчэнне праграмы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Program name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180909Z" changeid="eratyk">
+        <seg>Назва праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -43184,6 +43912,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Shared user rating</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192433Z" changeid="eratyk">
+        <seg>Агульнадаступная ацэнка карыстальнікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shared with</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192414Z" changeid="eratyk">
+        <seg>Агульны доступ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sharpness</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180546Z" changeid="eratyk">
+        <seg>Рэзкасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Shell Execute Hooks</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T180552Z" changeid="eratyk">
@@ -43252,6 +44004,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164429Z" changeid="eratyk">
         <seg>Кароткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Short (1 - 5 mins)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180104Z" changeid="eratyk">
+        <seg>Кароткія (1 - 5 хвілін)</seg>
       </tuv>
     </tu>
     <tu>
@@ -45024,6 +45784,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Space free</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182250Z" changeid="eratyk">
+        <seg>Вольная прастора</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Space used</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T184129Z" changeid="eratyk">
+        <seg>Скарыстаная прастора</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Spacing</seg>
       </tuv>
       <tuv lang="be" changedate="20100827T201534Z" changeid="eratyk">
@@ -45192,6 +45968,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify path</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182203Z" changeid="eratyk">
+        <seg>Азначыць шлях</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify single- or double-click to open</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T061523Z" changeid="eratyk">
@@ -45288,6 +46072,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181855Z" changeid="eratyk">
+        <seg>Азначыць тып</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify when you want the desktop background slide show to be available.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T171809Z" changeid="eratyk">
@@ -45340,6 +46132,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T201936Z" changeid="eratyk">
         <seg>Плямісты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Spouse/Partner</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T131927Z" changeid="eratyk">
+        <seg>Сужэнец(а)/Партнёр</seg>
       </tuv>
     </tu>
     <tu>
@@ -45844,6 +46644,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T163720Z" changeid="eratyk">
         <seg>Падкаталогі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192532Z" changeid="eratyk">
+        <seg>Тэма</seg>
       </tuv>
     </tu>
     <tu>
@@ -46488,6 +47296,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tags</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T182400Z" changeid="eratyk">
+        <seg>Цэтлікі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tajik</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T073836Z" changeid="eratyk">
@@ -46576,6 +47392,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Task status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T053341Z" changeid="eratyk">
+        <seg>Стан задачы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Taskbar</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T181038Z" changeid="eratyk">
@@ -46652,6 +47476,14 @@
       </tuv>
       <tuv lang="be" changedate="20100913T215543Z" changeid="eratyk">
         <seg>Марской хвалі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Telex</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101029T131936Z" changeid="eratyk">
+        <seg>Тэлекс</seg>
       </tuv>
     </tu>
     <tu>
@@ -51601,6 +52433,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Total file size</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192542Z" changeid="eratyk">
+        <seg>Агульны памер файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Total size</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181911Z" changeid="eratyk">
+        <seg>Агульны памер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Total&amp;:</seg>
       </tuv>
       <tuv lang="be" changedate="20100706T135257Z" changeid="eratyk">
@@ -52097,6 +52945,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>T|Tb|Tbyte|Tbytes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T192316Z" changeid="eratyk">
+        <seg>Т|ТБ|Тбайт|Тбайтаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>U&amp;ndock</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T133238Z" changeid="eratyk">
@@ -52165,6 +53021,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164014Z" changeid="eratyk">
         <seg>URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>URL scheme</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T193048Z" changeid="eratyk">
+        <seg>URL-схема</seg>
       </tuv>
     </tu>
     <tu>
@@ -52917,6 +53781,22 @@
       </tuv>
       <tuv lang="be" changedate="20100711T064637Z" changeid="eratyk">
         <seg>Адмацоўвае элемент з паліцы задач.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unrated</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180703Z" changeid="eratyk">
+        <seg>Неацэненыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unresolved</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180858Z" changeid="eratyk">
+        <seg>Неўрэгуляваны</seg>
       </tuv>
     </tu>
     <tu>
@@ -53761,6 +54641,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Very Long (over 60 mins)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180243Z" changeid="eratyk">
+        <seg>Вельмі доўгія (больш за 60 хвілін)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Very Short (under 1 min)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180046Z" changeid="eratyk">
+        <seg>Вельмі кароткія (менш за хвіліну)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Video</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T134506Z" changeid="eratyk">
@@ -54307,8 +55203,8 @@
       <tuv lang="en">
         <seg>Voice and AM Broadcast (0 - 32 Kbps)</seg>
       </tuv>
-      <tuv lang="be" changedate="20101028T083253Z" changeid="eratyk">
-        <seg>Voice and AM Broadcast (0 - 32 Kbps)</seg>
+      <tuv lang="be" changedate="20101028T175541Z" changeid="eratyk">
+        <seg>Гаворка і AM-вяшчанне (0 - 32 кб/с)</seg>
       </tuv>
     </tu>
     <tu>
@@ -58241,6 +59137,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>b|byte|bytes|bps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180611Z" changeid="eratyk">
+        <seg>Б|байт|байтаў|Б/c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>calculate</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T125333Z" changeid="eratyk">
@@ -58473,6 +59377,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>frequently</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180904Z" changeid="eratyk">
+        <seg>часта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>from</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T130808Z" changeid="eratyk">
@@ -58665,6 +59577,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>k|kb|kbyte|kbytes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T181814Z" changeid="eratyk">
+        <seg>к|кБ|кбайт|кбайтаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>m</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T181734Z" changeid="eratyk">
@@ -58737,6 +59657,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>occasionally</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180649Z" changeid="eratyk">
+        <seg>час ад часу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>on</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T142434Z" changeid="eratyk">
@@ -58797,6 +59725,14 @@
       </tuv>
       <tuv lang="be" changedate="20100828T081011Z" changeid="eratyk">
         <seg>пкс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>rarely</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101028T180636Z" changeid="eratyk">
+        <seg>рэдка</seg>
       </tuv>
     </tu>
     <tu>
