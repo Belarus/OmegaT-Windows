@@ -1,0 +1,236 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+900 DIALOGEX 37, 79, 223, 85
+CAPTION "Startup Password"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This computer is configured to require a password in order to start up.  Please enter the Startup Password below.", 901, Static, 0x50020000, 54, 7, 157, 29, 0x0
+  CONTROL "&Password:", 902, Static, 0x50020000, 54, 47, 51, 8, 0x0
+  CONTROL "", 903, Edit, 0x508100a0, 96, 46, 109, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 61, 68, 47, 14, 0x0
+  CONTROL "&Restart", 2, Button, 0x50010000, 114, 68, 47, 14, 0x0
+  CONTROL "", 904, Static, 0x50000003, 10, 9, 38, 51, 0x0
+}
+
+910 DIALOGEX 65, 39, 206, 86
+CAPTION "Startup Key Disk"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This computer has been configured to require a disk to be present during startup.  Please insert the disk and press OK.", 911, Static, 0x50020000, 54, 7, 145, 29, 0x0
+  CONTROL "If you do not have the disk, contact your administrator or select the Restart button to restart the computer.", 912, Static, 0x50020000, 54, 34, 144, 36, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 77, 66, 47, 14, 0x0
+  CONTROL "&Restart", 2, Button, 0x50010000, 128, 66, 47, 14, 0x0
+  CONTROL "", 913, Static, 0x50000003, 9, 10, 38, 51, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1001,  "Error"
+  1002,  "Welcome"
+  1003,  "Logging off..."
+  1004,  "Changing password..."
+  1005,  "Welcome"
+  1006,  "Locking your computer..."
+  1007,  "Preparing security options..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "Please wait..."
+  1009,  "Preparing your desktop..."
+  1010,  "Closing your desktop..."
+  1011,  "Preparing your desktop..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Windows is shutting down..."
+  1101,  "Going to sleep..."
+  1102,  "Hibernating..."
+  1103,  "Undocking and going to sleep..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "You are attempting to shut down another computer to which you are connected. As a result nobody will be able to use this computer until it is manually restarted.\r\n\r\nDo you want to continue?"
+  1201,  "You are attempting to shut down another computer to which you and other users are connected. As a result, nobody will be able to use this computer until it is manually restarted.\r\n\r\nDo you want to continue?"
+  1202,  "You are shutting down this computer while there are other users still using it. Those users may lose data.\r\n\r\nDo you want to continue?"
+  1203,  "You are restarting this computer while there are other users still using it. Those users may lose data.\r\n\r\nDo you want to continue?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1301,  "Your password has been changed."
+  1302,  "The system cannot change your password now because the domain %s is not available."
+  1303,  "The User name or old password is incorrect.  Letters in passwords must be typed using the correct case."
+  1304,  "You do not have permission to change your password."
+  1305,  "The password on this account cannot be changed at this time."
+  1306,  "Unable to change your password because the computer you selected is not the Domain Controller of the domain.  Type the name of the domain or the name of the Domain Controller and try again."
+  1307,  "Please type a password which meets these requirements."
+  1308,  "Your new password does not meet the minimum length or password history and complexity requirements.  Please type a different password."
+  1309,  "Your password must be at least %hu characters; cannot repeat any of your previous %hu passwords; must be at least %ld days old; must contain capitals, numerals or punctuation; and cannot contain your account or full name."
+  1310,  "Your password must be at least %hu characters, cannot repeat any of your previous %hu passwords and must be at least %ld days old."
+  1311,  "Unable to change the password on this account due to the following error:\n\n%d : %s\n\nPlease consult your system administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1312,  "Unable to change your network provider password."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1400,  "This computer is locked. Only the logged on user can unlock the computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1540,  "The Startup Key File was not found on the disk in drive A:.  Please insert the correct disk."
+  1541,  "Key File Not Found"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1900,  "Windows could not connect to the %s service.\n\nPlease consult your system administrator."
+  1901,  "Windows could not connect to the %s service. This problem prevents standard users from logging on to the system.\nAs an administrative user, you can review the System Event Log for details about why the service didn't respond."
+  1902,  "Failed to connect to a windows service"
+  1903,  "The %s service failed the logon.\n\n%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1904,  "Please wait for the %s..."
+  1905,  "Local Session Manager"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "Could not reconnect all network drives"
+  2001,  "Click here to check the status of your network drives."
+  2010,  "Consider changing your password"
+  2011,  "Your password will expire in %ld days."
+  2012,  "Your password expires today."
+  2013,  "Auditing log is full"
+  2014,  "The security log on this system is full. When the security log is full, only administrators can logon to the system."
+  2015,  "Logon Hours Restrictions"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2016,  "Your session will be disconnected in %ld minutes due to logon hours restriction policy."
+  2017,  "You are about to be logged off"
+  2018,  "Interactive logon process initialization has failed.\n\nPlease consult the event log for more details."
+  2019,  "Logon Process Initialization Failure"
+  2020,  "Only the currently logged on user or an administrator can log on to this session."
+  2021,  "%s\\%s denied your disconnect request."
+  2022,  "Please wait for %s\\%s to respond."
+  2023,  "The logon process was unable to display security and logon options when CTRL+ALT+DELETE was pressed. If the operating system does not respond, press ESC or restart the computer by using the power switch."
+  2024,  "Failure to display security and shut down options"
+  2025,  "Your session will be locked in %ld minutes due to logon hours restriction policy."
+  2026,  "Your session will be logged off in %ld minutes due to logon hours restriction policy."
+  2027,  "Your password will expire tomorrow."
+  2028,  "\nTo change your password, press CTRL+ALT+DELETE and then click ""Change a password...""."
+  2029,  "Your system is running low on resources. You cannot log on as a new user. Please use an account that has already been logged on."
+  2030,  "The security log on this system is full. Only administrators can log on to fix the problem."
+  2031,  "Security policies on this computer are set to display information about the last interactive logon. Windows could not retrieve this information. Please contact your network administrator for assistance."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2032,  "%s (%s)\n\nThis is the first time you have interactively logged on to this account.\n\n\n"
+  2033,  "%s (%s)\n\nSuccessful Logon\nThe last time you interactively logged on to this account was: %s\n\nUnsuccessful Logon\nThere have been no unsuccessful interactive logon attempts with this account since your last interactive logon.\n\n\n"
+  2034,  "%s (%s)\n\nSuccessful Logon\nThe last time you interactively logged on to this account was: %s\n\nUnsuccessful Logon\nThe last unsuccessful interactive logon attempt on this account was: %s\nThe number of unsuccessful interactive logon attempts since your last interactive logon: %d.\n\n\n"
+  2035,  "%s (%s)\n\nThis is the first time you have interactively logged on to this account.\n\nUnsuccessful Logon\nThe last unsuccessful interactive logon attempt on this account was: %s\nThe number of unsuccessful interactive logon attempts since your account was created: %d.\n\n\n"
+  2036,  "%s (%s)\n\nSecurity policies on this computer are set to display information about the last interactive logon. Windows could not retrieve this information since you have been logged on using previously stored account information."
+  2040,  "Windows needs your current credentials to ensure network connectivity."
+  2041,  "Windows needs your current credentials"
+  2042,  "Please lock this computer, then unlock it using your most recent password or smart card."
+  2043,  "Cannot connect to a logon server"
+  2044,  "You have been logged on using previously stored account information. If you changed your account information since you last logged on to this computer, those changes will not be reflected in this session."
+  2045,  "Logoff is cancelled"
+  2046,  "\nTo change your password, press CTRL+ALT+END and then click ""Change a password...""."
+  2047,  "The logon process was unable to display security and logon options when CTRL+ALT+END was pressed. If the operating system does not respond, press ESC or restart the computer by using the power switch."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2048,  "Windows needs your smart card credentials to access your corporate network. Click to enter your credentials or lock this computer, and then unlock it using your smart card."
+  2049,  "Windows needs your smart card credentials"
+  2050,  "Windows needs different credentials to access your corporate network. Lock your computer and then unlock it using those credentials"
+  2051,  "Windows needs different credentials"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3000,  "Windows is resuming..."
+  3001,  "Windows is resuming..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4000,  "Do you want to allow this application to read your stored user name and password?"
+  4001,  "Credential Confirmation"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "License Error"
+  5001,  "Booting from a VHD is not supported on this system"
+}
+
+1 MESSAGETABLE
+{
+  7001,  "User Logon Notification for Customer Experience Improvement Program\r\n"
+  7002,  "User Logoff Notification for Customer Experience Improvement Program\r\n"
+  268435505,  "Response Time\r\n"
+  268435512,  "Classic\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1073742826,  "The shell stopped unexpectedly and %1 was restarted.\r\n"
+  1073745826,  "The logon hours restriction policy is applied to the logged on user. The user's session has been locked, disconnected or logged off depending on the policy setting. User Name: %1 Domain Name: %2\r\n"
+  1073745925,  "Windows license validated.\r\n"
+  1073745928,  "Accessing Windows in Notification period.\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  2147487654,  "The Windows logon process has failed to spawn a user application. Application name: %1. Command line parameters: %2.\r\n"
+  2147487655,  "The Windows logon process has failed to disconnect the user session.\r\n"
+  2147487753,  "Windows is in Notification period.\r\n"
+  2147489648,  "The winlogon notification subscriber <%1> was unavailable to handle a notification event.\r\n"
+  2147489649,  "The winlogon notification subscriber <%1> failed a notification event.\r\n"
+  2147489650,  "The winlogon notification subscriber registration database cannot be loaded. Reason: <%1>.\r\n"
+  2147489651,  "The winlogon notification subscriber <%1> was unavailable to handle a critical notification event.\r\n"
+  2147489652,  "The winlogon notification subscriber <%1> failed a critical notification event.\r\n"
+  2147489653,  "The winlogon notification subscriber <%1> is taking long time to handle the notification event (%2).\r\n"
+  2147489654,  "The winlogon notification subscriber <%1> took %2 second(s) to handle the notification event (%3).\r\n"
+  2415919105,  "Microsoft-Windows-Winlogon\r\n"
+  2415919106,  "System\r\n"
+  2952791017,  "Logon hours expiration warning.\r\n"
+  3221229475,  "The Windows logon process has failed to switch the desktop.\r\n"
+  3221229476,  "The Windows logon process has failed to terminate the currently logged on user's processes.\r\n"
+  3221229477,  "The Windows logon process has unexpectedly terminated.\r\n"
+  3221229574,  "Windows license is invalid. Error %1. Policy Value %2.\r\n"
+  3221229575,  "Windows license activation failed. Error %1.\r\n"
+}

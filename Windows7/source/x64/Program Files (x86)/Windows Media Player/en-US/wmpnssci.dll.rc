@@ -1,0 +1,57 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1000 DIALOGEX 0, 0, 278, 249
+CAPTION ""
+STYLE 0x500001cc | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1001, Static, 0x5000000e, 12, 7, 20, 20, 0x20
+  CONTROL "", 1002, Edit, 0x50010880, 10000, 10000, 1, 1, 0x0
+  CONTROL "", 1003, Edit, 0x58010880, 40, 12, 224, 8, 0x0
+  CONTROL "", 1027, Static, 0x50030000, 40, 12, 224, 8, 0x0
+  CONTROL "Device Details", 1004, Button, 0x50000007, 7, 34, 264, 107, 0x0
+  CONTROL "Manufacturer:", 1005, Static, 0x50020000, 14, 52, 72, 8, 0x0
+  CONTROL "", 1006, Edit, 0x58010880, 91, 52, 173, 8, 0x0
+  CONTROL "", 1007, Static, 0x50030000, 93, 60, 173, 8, 0x0
+  CONTROL "Model:", 1009, Static, 0x50020000, 14, 77, 72, 8, 0x0
+  CONTROL "", 1010, Edit, 0x58010880, 91, 77, 173, 8, 0x0
+  CONTROL "", 1011, Static, 0x50030000, 93, 85, 173, 8, 0x0
+  CONTROL "Model number:", 1013, Static, 0x50020000, 14, 102, 72, 8, 0x0
+  CONTROL "", 1014, Edit, 0x58010880, 91, 102, 173, 8, 0x0
+  CONTROL "Device webpage:", 1015, Static, 0x50020000, 14, 117, 72, 8, 0x0
+  CONTROL "", 1016, Static, 0x50030000, 93, 117, 173, 8, 0x0
+  CONTROL "Troubleshooting Information", 1018, Button, 0x50000007, 7, 148, 264, 94, 0x0
+  CONTROL "Serial number:", 1019, Static, 0x50020000, 14, 166, 72, 8, 0x0
+  CONTROL "", 1020, Edit, 0x58010880, 91, 166, 173, 8, 0x0
+  CONTROL "MAC address:", 1021, Static, 0x50020000, 14, 181, 72, 8, 0x0
+  CONTROL "", 1022, Edit, 0x58010880, 91, 181, 173, 8, 0x0
+  CONTROL "Unique identifier:", 1023, Static, 0x50020000, 14, 196, 72, 8, 0x0
+  CONTROL "", 1024, Edit, 0x58010880, 91, 196, 173, 8, 0x0
+  CONTROL "IP address:   ", 1025, Static, 0x50020000, 14, 211, 72, 8, 0x0
+  CONTROL "", 1026, Edit, 0x580108c4, 91, 211, 173, 24, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  199,  "Unknown Device (%1)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  701,  "Network Device"
+  702,  "Unavailable"
+  703,  "Manufacturer webpage unavailable"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "Model webpage unavailable"
+  705,  "Presentation webpage unavailable"
+  706,  "Unknown Device"
+}
+

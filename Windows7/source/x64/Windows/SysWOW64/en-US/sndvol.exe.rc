@@ -1,0 +1,89 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+200 DIALOGEX 0, 0, 270, 166
+CAPTION "Volume Mixer"
+STYLE 0x86cc0040
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "No audio device is installed", 306, Static, 0x46020000 | NOT WS_VISIBLE, 4, 4, 300, 12, 0x0
+  CONTROL "", 301, "ToolbarWindow32", 0x5601994c, 10, 36, 56, 16, 0x0
+  CONTROL "Main &Volume", 303, Static, 0x46020001 | NOT WS_VISIBLE, 13, 39, 48, 16, 0x0
+  CONTROL "", 300, "ToolbarWindow32", 0x5601a94c, 25, 16, 25, 20, 0x0
+  CONTROL "Main &Volume", 302, Static, 0x40020001 | NOT WS_VISIBLE, 12, 32, 40, 10, 0x0
+  CONTROL "", 304, "msctls_trackbar32", 0x56010312, 28, 55, 17, 75, 0x0
+  CONTROL "", 305, "ToolbarWindow32", 0x5601a948, 27, 130, 24, 24, 0x0
+  CONTROL "", 412, Static, 0x40000007 | NOT WS_VISIBLE, 73, 18, 189, 139, 0x0
+  CONTROL "Applications", 411, Button, 0x56000007, 71, 6, 193, 153, 0x10000
+  CONTROL "&Device", 410, Button, 0x56000007, 6, 6, 64, 153, 0x0
+}
+
+201 DIALOGEX 0, 0, 39, 154
+CAPTION ""
+STYLE 0x40000440 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL " ", 306, Static, 0x40020000 | NOT WS_VISIBLE, 2, 4, 300, 12, 0x0
+  CONTROL "", 300, "ToolbarWindow32", 0x5601a948, 8, 6, 24, 24, 0x0
+  CONTROL "Main &Volume", 301, Static, 0x46020201 | NOT WS_VISIBLE, 2, 27, 42, 16, 0x0
+  CONTROL "Main &Volume", 302, Static, 0x40020001 | NOT WS_VISIBLE, 2, 7, 40, 10, 0x0
+  CONTROL "", 304, "msctls_trackbar32", 0x56010312, 11, 30, 17, 75, 0x0
+  CONTROL "", 305, "ToolbarWindow32", 0x5601a948, 10, 105, 24, 24, 0x0
+  CONTROL "Mi&xer", 307, Button, 0x56010000, 0, 129, 39, 16, 0x0
+}
+
+202 DIALOGEX 0, 0, 63, 131
+CAPTION ""
+STYLE 0x46080040 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 400, Static, 0x56000003, 20, 0, 18, 17, 0x0
+  CONTROL "", 401, "ToolbarWindow32", 0x5601a94c, 19, 0, 25, 20, 0x0
+  CONTROL "Application Volume", 301, Static, 0x56020001, 3, 20, 58, 16, 0x0
+  CONTROL "Application Volume", 302, Static, 0x46020001 | NOT WS_VISIBLE, 0, 16, 62, 16, 0x0
+  CONTROL "", 304, "msctls_trackbar32", 0x56010312, 21, 37, 17, 75, 0x0
+  CONTROL "", 305, "ToolbarWindow32", 0x5601a948, 20, 112, 24, 24, 0x0
+}
+
+203 DIALOGEX 0, 0, 266, 232
+CAPTION "Volume Control Options"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Select which devices show their own volume control", 430, Static, 0x40024000 | NOT WS_VISIBLE, 10, 10, 242, 11, 0x0
+  CONTROL "The default sound device will always show its own volume control.", 431, Static, 0x40024000 | NOT WS_VISIBLE, 10, 32, 242, 20, 0x0
+  CONTROL "&All devices currently playing sound", 425, Button, 0x50010003, 10, 58, 242, 10, 0x0
+  CONTROL "The default &communication device", 426, Button, 0x50010003, 10, 78, 230, 10, 0x0
+  CONTROL "Sound devices:", 432, Static, 0x50024000, 10, 97, 235, 10, 0x0
+  CONTROL "", 428, "SysListView32", 0x5003010f, 8, 107, 250, 100, 0x200
+  CONTROL "OK", 1, Button, 0x50010001, 97, 213, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 153, 213, 50, 14, 0x0
+  CONTROL "Apply", 429, Button, 0x50010000, 210, 213, 50, 14, 0x0
+}
+
+204 DIALOGEX 0, 0, 88, 146
+CAPTION ""
+STYLE 0x82840048
+EXSTYLE 0x8
+FONT 9, "Segoe UI", 0, 0, 0
+{
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Volume"
+  501,  "Mute %1"
+  502,  "Volume for %1"
+  503,  "Mute for %1"
+  504,  "Name Not Available"
+  505,  "Show Application Volume Controls for %s"
+  506,  "Volume Mixer - %s"
+  508,  "Unmute %1"
+  509,  "Listening to %1"
+}
+

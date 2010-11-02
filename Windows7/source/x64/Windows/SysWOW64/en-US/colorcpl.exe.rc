@@ -1,0 +1,10 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6,  "Color Management"
+  7,  "Change advanced color management settings for displays, scanners, and printers."
+}
+

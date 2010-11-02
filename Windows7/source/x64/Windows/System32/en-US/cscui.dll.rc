@@ -1,0 +1,460 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1354 DIALOGEX 0, 0, 240, 220
+CAPTION "Offline Files"
+STYLE 0x90c800c8
+EXSTYLE 0x20
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 2201, Static, 0x50020000, 45, 36, 184, 26, 0x0
+  CONTROL "Always available &offline", 2202, Button, 0x50010003, 19, 72, 210, 10, 0x0
+  CONTROL "&Sync now...", 2172, Button, 0x50010000, 19, 122, 54, 14, 0x0
+  CONTROL 1356, 2206, Static, 0x50000003, 9, 14, 20, 20, 0x0
+  CONTROL "", 2207, Static, 0x50020000, 45, 10, 184, 8, 0x0
+  CONTROL "", 2209, Static, 0x50020000, 78, 20, 151, 8, 0x0
+  CONTROL "", 2208, Static, 0x50020000, 31, 85, 198, 28, 0x0
+  CONTROL "Location:", 4294967295, Static, 0x50020000, 45, 20, 33, 8, 0x0
+  CONTROL "<A>How do offline files work?</A>", 1355, "SysLink", 0x50010000, 14, 198, 168, 8, 0x0
+}
+
+1358 DIALOGEX 0, 0, 250, 220
+CAPTION "General"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1200, 2210, Static, 0x50000003, 7, 14, 21, 20, 0x0
+  CONTROL "Use offline files to keep copies on your computer of files stored on the network.  This allows you to work with them even when you are not connected or a server is unavailable.", 4294967295, Static, 0x50020000, 38, 14, 205, 24, 0x0
+  CONTROL "Static", 2235, Static, 0x50020000, 14, 71, 228, 16, 0x0
+  CONTROL "&Enable offline files", 2233, Button, 0x50010000, 14, 50, 85, 14, 0x0
+  CONTROL "&Disable offline files", 2234, Button, 0x50010000, 105, 50, 85, 14, 0x0
+  CONTROL "Open &Sync Center", 2212, Button, 0x50010000, 14, 101, 85, 14, 0x0
+  CONTROL "Use Sync Center if you want to sync your offline files now or check for sync conflicts.", 4294967295, Static, 0x50020000, 14, 122, 220, 16, 0x0
+  CONTROL "&View your offline files", 2214, Button, 0x50010000, 14, 152, 85, 14, 0x0
+  CONTROL "<A>How do offline files work?</A>", 2216, "SysLink", 0x50010000, 14, 198, 168, 8, 0x0
+}
+
+1359 DIALOGEX 0, 0, 250, 220
+CAPTION "Disk Usage"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This is how much disk space is currently used and available for storing offline files on this computer.", 4294967295, Static, 0x50020000, 14, 7, 229, 16, 0x0
+  CONTROL "All offline files:", 4294967295, Static, 0x50020000, 14, 30, 229, 8, 0x0
+  CONTROL "99 GB in use (99 GB available)", 2238, Static, 0x50020000, 35, 42, 206, 8, 0x0
+  CONTROL "", 2138, "msctls_progress32", 0x50800001, 35, 54, 100, 8, 0x0
+  CONTROL "99 GB limit", 2242, Static, 0x50020000, 142, 54, 100, 8, 0x0
+  CONTROL "(10% of 999 GB disk)", 2245, Static, 0x50020000, 142, 66, 100, 8, 0x0
+  CONTROL "Temporary files:", 4294967295, Static, 0x50020000, 14, 78, 229, 8, 0x0
+  CONTROL "99 GB in use (99 GB available)", 2243, Static, 0x50020000, 35, 90, 206, 8, 0x0
+  CONTROL "", 2240, "msctls_progress32", 0x50800001, 35, 103, 100, 8, 0x0
+  CONTROL "99 GB limit", 2244, Static, 0x50020000, 142, 103, 100, 8, 0x0
+  CONTROL "(10% of 999 GB disk)", 2246, Static, 0x50020000, 142, 115, 100, 8, 0x0
+  CONTROL "Change &limits", 2236, Button, 0x50010000, 21, 122, 72, 14, 0x0
+  CONTROL "&Delete temporary files", 2235, Button, 0x50010000, 21, 155, 100, 14, 0x0
+  CONTROL "<A>How do offline files use disk space?</A>", 2218, "SysLink", 0x50010000, 14, 198, 168, 8, 0x0
+}
+
+1360 DIALOGEX 0, 0, 250, 220
+CAPTION "Encryption"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1200, 2210, Static, 0x50000003, 7, 14, 20, 20, 0x0
+  CONTROL "Static", 2218, Static, 0x50020000, 38, 14, 205, 24, 0x0
+  CONTROL "&Encrypt", 2229, Button, 0x50010000, 38, 45, 50, 14, 0x0
+  CONTROL "U&nencrypt", 2213, Button, 0x50010000, 98, 45, 50, 14, 0x0
+  CONTROL "&Encrypt", 2221, Button, 0x50010000, 38, 60, 50, 14, 0x0
+  CONTROL "U&nencrypt remaining files", 2222, Button, 0x50010000, 98, 60, 107, 14, 0x0
+  CONTROL "&Encrypt remaining files", 2223, Button, 0x50010000, 38, 76, 96, 14, 0x0
+  CONTROL "U&nencrypt", 2214, Button, 0x50010000, 144, 76, 50, 14, 0x0
+  CONTROL "<A>Why should I encrypt my offline files?</A>", 2220, "SysLink", 0x50010000, 14, 198, 168, 8, 0x0
+}
+
+1361 DIALOGEX 0, 0, 250, 220
+CAPTION "Network"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "On &slow connections, automatically work offline", 2226, Button, 0x50010003, 14, 18, 203, 10, 0x0
+  CONTROL "&Check for a slow connection every", 2229, Static, 0x50020000, 26, 38, 112, 8, 0x0
+  CONTROL "", 2227, Edit, 0x50812080, 141, 35, 28, 14, 0x0
+  CONTROL "", 2159, "msctls_updown32", 0x50000032, 172, 35, 10, 14, 0x0
+  CONTROL "minutes", 2230, Static, 0x50020000, 189, 38, 54, 8, 0x0
+  CONTROL "<A>How do offline files work?</A>", 2232, "SysLink", 0x50010000, 14, 198, 168, 8, 0x0
+  CONTROL "Static", 2231, Static, 0x50020000, 25, 59, 218, 70, 0x0
+}
+
+1362 DIALOGEX 0, 0, 237, 126
+CAPTION "Offline Files Disk Usage Limits"
+STYLE 0x80c800c8
+EXSTYLE 0x200
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Ma&ximum amount of space all offline files can use:", 2224, Static, 0x50020000, 14, 14, 216, 8, 0x0
+  CONTROL "", 2231, "msctls_trackbar32", 0x50010010, 21, 26, 120, 15, 0x0
+  CONTROL "99 GB limit", 2233, Static, 0x50020000, 142, 29, 88, 8, 0x0
+  CONTROL "(10% of 999 GB disk)", 2246, Static, 0x50020000, 142, 41, 88, 8, 0x0
+  CONTROL "Maximum amount of space &temporary files can use:", 2225, Static, 0x50020000, 14, 58, 216, 8, 0x0
+  CONTROL "", 2232, "msctls_trackbar32", 0x50010010, 21, 70, 119, 15, 0x0
+  CONTROL "99 GB limit", 2234, Static, 0x50020000, 142, 73, 88, 8, 0x0
+  CONTROL "(10% of 999 GB disk)", 2247, Static, 0x50020000, 142, 85, 88, 8, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 126, 105, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 180, 105, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  38,  "Always &available offline"
+  39,  "Sync selected offline files"
+  40,  "Guarantee that this item will be available offline."
+  41,  "S&ync"
+  42,  "Sync files with your computer so you can work offline with the latest files."
+  45,  "Offline Files"
+  47,  "%1 (%2 v%3!d!)%4"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "%1 (%2 v*)%3"
+  50,  "Your offline files are not encrypted."
+  53,  "Some of your offline files are still encrypted.\nFurther items added to offline files will not be encrypted."
+  55,  "Remove the guarantee that this item will be available offline."
+  56,  "Sync the selected item(s)."
+  57,  "You can keep a copy of this network file on your computer so you can access the file when the server is not available"
+  58,  "You can keep a copy of this network folder on your computer so you can access its files when the server is not available"
+  60,  "Your offline files are encrypted.\nFurther items added to offline files will be encrypted."
+  61,  "Not all of your offline files are encrypted.\nFurther items added to offline files will be encrypted."
+  62,  "Your offline files are not encrypted.\nEncryption is configured by system policy.  Contact your system Administrator to encrypt your offline files."
+  63,  "Not all of your offline files are unencrypted.\nEncryption is configured by system policy.  Contact your system Administrator to encrypt or unencrypt your offline files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "Your offline files are encrypted.\nEncryption is configured by system policy.  Contact your system Administrator to unencrypt your offline files."
+  65,  "Not all of your offline files are encrypted.\nEncryption is configured by system policy.  Contact your system Administrator to encrypt or unencrypt your offline files."
+  66,  "Reconfigure Offline Files"
+  67,  "Configure Offline Files to work with network files when you are not connected or a server is unavailable."
+  68,  "Delete Offline Copy"
+  69,  "Deletes the offline copy from the Offline Files cache.  Network copies are not affected."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "System policy prohibits use of the Offline Files folder."
+  168,  "%1 bytes"
+  169,  "%1 KB"
+  170,  "%1 MB"
+  171,  "%1 GB"
+  172,  "%1 TB"
+  173,  "%1 PB"
+  174,  "%1 EB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  222,  "You must restart your computer before the new settings will take effect.\n\nDo you want to restart your computer now?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  229,  "Name"
+  230,  "Type"
+  234,  "Size"
+  235,  "Date modified"
+  237,  "Comment"
+  238,  "Suspended"
+  239,  "Suspended root"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  240,  "Sparse"
+  241,  "Pinned"
+  242,  "Pinned (user)"
+  243,  "Pinned (user policy)"
+  244,  "Pinned (computer)"
+  245,  "Pinned (redirection)"
+  246,  "Created offline"
+  247,  "Deleted offline"
+  248,  "Modified"
+  249,  "Modified data"
+  250,  "Modified attributes"
+  251,  "Modified time"
+  252,  "Offline status"
+  253,  "Offline availability"
+  254,  "Encrypted"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  302,  "Updated"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2236,  "When working offline on a slow connection, you can work online again by pressing the ""Work online"" button in Windows Explorer.  After doing so, Offline Files will wait %1 before checking for a slow connection."
+  2237,  "%1!d! minute"
+  2238,  "%1!d! minutes"
+  2239,  "%1!d! hour"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2240,  "%1!d! hours"
+  2241,  "%1!d! hour and %2!d! minute"
+  2242,  "%1!d! hour and %2!d! minutes"
+  2243,  "%1!d! hours and %2!d! minute"
+  2244,  "%1!d! hours and %2!d! minutes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4182,  "Offline Files cannot be disabled."
+  4183,  "Offline Files cannot be enabled."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4304,  "The computer failed to automatically restart.  Please shutdown and restart the computer to apply changes."
+  4311,  "A directory on this computer and a file on the server have the same name."
+  4312,  "A directory on this computer has the same name as a file changed on the server."
+  4313,  "A file created on this computer while offline has the same name as an existing file changed on the server."
+  4314,  "A file created on this computer while offline has the same name as an existing directory changed on the server."
+  4315,  "A file created on this computer while offline has the same name as an existing file on the server."
+  4316,  "A file created on this computer while offline has the same name as an existing directory on the server."
+  4317,  "A file created on this computer while offline has the same name as a file deleted or renamed on the server."
+  4318,  "A file was changed on this computer and the server while this computer was offline."
+  4319,  "A file changed on this computer while offline has the same name as an existing directory on the server."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4320,  "A file changed on this computer while offline has the same name as an existing directory changed on the server."
+  4321,  "A file changed on this computer while offline has been deleted or renamed on the server."
+  4322,  "A directory created on this computer while offline has the same name as an existing directory on the server."
+  4323,  "A directory created on this computer while offline has the same name as an existing file on the server."
+  4324,  "A directory created on this computer while offline has the same name as an existing file changed on the server."
+  4325,  "A directory created on this computer while offline has the same name as an existing directory changed on the server."
+  4326,  "A directory created on this computer while offline has been deleted or renamed on the server."
+  4327,  "A directory changed on this computer while offline has the same name as an existing file on the server."
+  4328,  "A directory changed on this computer while offline has the same name as an existing file changed on the server."
+  4329,  "A directory was changed on this computer and the server while this computer was offline."
+  4330,  "A directory changed on this computer while offline has been deleted or renamed on the server."
+  4331,  "A file was deleted on this computer and changed on the server while this computer was offline."
+  4332,  "A directory was deleted on this computer and changed on the server while this computer was offline."
+  4333,  "A file was replaced then deleted on the client."
+  4334,  "A file was replaced then deleted on the client and also changed on the server."
+  4335,  "A file replaced then deleted on the client has the same name as an existing directory on the server."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4336,  "A file replaced then deleted on the client has the same name as an existing directory changed on the server."
+  4337,  "Offline Files allows you to access network files while working offline.\n\nTo set up Offline Files open a network folder, right click on a file or folder, and select Always Available Offline."
+  4338,  "Network files available offline"
+  4350,  "(Local) %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4355,  "On this computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4382,  "This file is online."
+  4383,  "This folder is online."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4384,  "This file is offline."
+  4385,  "This folder is offline."
+  4386,  "This file is offline because a user chose to work offline."
+  4387,  "This folder is offline because a user chose to work offline."
+  4388,  "This file is offline because of a network disconnection or unavailable shared folder."
+  4389,  "This folder is offline because of a network disconnection or unavailable shared folder."
+  4390,  "This file is offline because of a slow network connection."
+  4391,  "This folder is offline because of a slow network connection."
+  4392,  "This file is offline with unsynced changes."
+  4393,  "This folder is offline with unsynced changes."
+  4394,  "This file is offline with unsynced changes.  Press ""Sync"" to synchronize."
+  4395,  "This folder is offline with unsynced changes.  Press ""Sync"" to synchronize."
+  4396,  "This file is offline with unresolved sync conflicts.  Press ""Sync"" to synchronize and resolve conflicts."
+  4397,  "This folder is offline with unresolved sync conflicts.  Press ""Sync"" to synchronize and resolve conflicts."
+  4398,  "This file is configured to be always offline."
+  4399,  "This folder is configured to be always offline."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4401,  "Encrypting offline files..."
+  4402,  "This may take some time, depending on how many files you need to encrypt."
+  4403,  "Error encrypting offline files"
+  4404,  "Try again\nAttempts to encrypt this file again."
+  4405,  "Skip\nIgnores this error and continues encrypting."
+  4406,  "Stop\nStops encrypting."
+  4407,  "Do not show this error again."
+  4408,  "Skip\nIgnores this error and continues unencrypting."
+  4409,  "Stop\nStops unencrypting."
+  4410,  "Unencrypting offline files..."
+  4411,  "This may take some time, depending on how many files you need to unencrypt."
+  4412,  "Error unencrypting offline files"
+  4413,  "Unable to encrypt the following file:\n\n%1\n\n%2"
+  4414,  "Unable to unencrypt the following file:\n\n%1\n\n%2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4417,  "%1 errors."
+  4418,  "%1 errors."
+  4419,  "Unable to determine if your offline files are encrypted."
+  4420,  "Unable to encrypt offline files."
+  4421,  "Unable to unencrypt offline files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4450,  "Always Available Offline"
+  4451,  "Preparing files so they are always available offline..."
+  4452,  "Changing files so they are not always available offline..."
+  4453,  "If you click Close, this operation will continue.  You can continue working while this completes, and monitor progress in <a href=""shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\\11\\::{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}"">Sync Center.</a>\n\nPreparing to sync..."
+  4454,  "%1 error.  View errors in <a href=""shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\\11\\::{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}\\::{BC48B32F-5910-47F5-8570-5074A8A5636A}"">Sync Center</a>."
+  4455,  "%1 errors.  View errors in <a href=""shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\\11\\::{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}\\::{BC48B32F-5910-47F5-8570-5074A8A5636A}"">Sync Center</a>."
+  4456,  "Unable to complete the operation.\n\n%1"
+  4457,  "One or more errors occurred.  See below for details."
+  4458,  "Completed preparing files so they are always available offline."
+  4459,  "Completed changing files so they are not always available offline."
+  4460,  "If you click Close, this operation will continue.  You can continue working while this completes, and monitor progress in <a href=""shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\\11\\::{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}"">Sync Center.</a>\n\n%1"
+  4461,  "Delete offline copies"
+  4462,  "Deleting offline copies of selected files..."
+  4463,  "Only offline copies are deleted.  Network copies are not affected."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4464,  "Completed deleting offline copies."
+  4465,  "Delete temporary offline copies"
+  4466,  "Deleting offline copies of your temporary offline files..."
+  4467,  "Only temporary offline copies are deleted.  Network copies are not affected."
+  4468,  "Completed deleting temporary offline copies."
+  4470,  "Only offline copies are deleted.  Network copies are not affected.\n\n%1"
+  4471,  "Only temporary offline copies are deleted.  Network copies are not affected.\n\n%1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4500,  "Offline Files is currently enabled."
+  4502,  "Offline Files is enabled but not yet active.  Restart this computer to activate Offline Files."
+  4503,  "Offline Files is currently disabled."
+  4505,  "Offline Files is disabled but active.  Restart this computer to deactivate Offline Files."
+  4506,  "%1 in use (%2 available)"
+  4507,  "%1 limit"
+  4508,  "(%1%% of %2 disk)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4600,  "Computers"
+  4601,  "Computers for which shared network folders are available offline"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4610,  "Mapped Network Drives"
+  4611,  "Mapped network drives available offline"
+  4621,  "Your personal folders available offline"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4650,  "Cannot synchronize."
+  4651,  "Cannot make 'always available offline.'"
+  4652,  "Cannot make 'not always available offline.'"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4660,  "Offline Files Setup"
+  4661,  "<a href=""mshelp://windows/?id=93a550df-34cd-4497-85d0-8732602f5959"">How do offline files work?</a>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4700,  "Unable to sync at this time.  Please try again."
+  4701,  "The Offline Files cache is full.  Use the Offline Files control panel to change the size of the cache."
+  4702,  "Change cache size."
+  4703,  "{fac8a598-9740-40da-a8c8-6c4f79b6bc62}"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "Microsoft Corporation"
+  5001,  "Microsoft Corporation"
+  5002,  "This task initiates synchronization of Offline Files when a user logs onto the system."
+  5003,  "This task controls periodic background synchronization of Offline Files when the user is working in an offline mode."
+}
+
+1 MESSAGETABLE
+{
+  1,  "Server '%1' is now offline.%0\r\n"
+  2,  "Server '%1' is now available for synchronizing.%0\r\n"
+  3,  "Network interface has been disconnected.%0\r\n"
+  4,  "Network interface has been reconnected.%0\r\n"
+  5,  "A portion of the Offline Files cache has become corrupted.  Restart the computer to clean up the cache.%0\r\n"
+  6,  "Server '%1' automatically transitioned to online.%0\r\n"
+  7,  "User %1%0\r\n"
+  8,  "Guest %1%0\r\n"
+  9,  "Other %1%0\r\n"
+  10,  "User %1, Guest %2%0\r\n"
+  11,  "User %1, Other %2%0\r\n"
+  12,  "Guest %1, Other %2%0\r\n"
+  13,  "User %1, Guest %2, Other %3%0\r\n"
+  14,  "Encryption of the Offline Files cache completed successfully.%0\r\n"
+  15,  "Decryption of the Offline Files cache completed successfully.%0\r\n"
+  16,  "Encryption of the Offline Files cache failed with error %1.%n%n%2%0\r\n"
+  17,  "Decryption of the Offline Files cache failed with error %1.%n%n%2%0\r\n"
+  18,  "Encryption of the Offline Files cache failed with error %1.%n%nFile: %2%n%n%3%0\r\n"
+  19,  "Decryption of the Offline Files cache failed with error %1.%n%nFile: %2%n%n%3%0\r\n"
+  20,  "User logoff interrupted encryption of the Offline Files cache.%0\r\n"
+  21,  "User logoff interrupted decryption of the Offline Files cache.%0\r\n"
+  22,  "System policy is set to encrypt the Offline Files cache but the volume containing the cache does not support encryption.%0\r\n"
+  23,  "Synchronization on computer suspend was not performed.  The network is not available.%0\r\n"
+  24,  "Synchronization on computer suspend failed with error %1.%0\r\n"
+  25,  "The registry value '%1' in key '%2\\%3' is not, or does not expand to, a valid UNC path.%0\r\n"
+  26,  "Errors occured while encrypting the Offline Files cache.  Increase the Offline Files event logging level policy to level 2 or greater to log failure events for individual files.%0\r\n"
+  27,  "Errors occured while decrypting the Offline Files cache.  Increase the Offline Files event logging level policy to level 2 or greater to log failure events for individual files.%0\r\n"
+}
