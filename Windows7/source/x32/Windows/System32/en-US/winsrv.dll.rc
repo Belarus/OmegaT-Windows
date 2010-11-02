@@ -65,14 +65,6 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 1 MESSAGETABLE
 {
-  100,  "Microsoft-Windows-Winsrv\r\n"
-  10001,  "The following application attempted to veto the shutdown: %1.\r\n"
-  10002,  "The following application was terminated because it was hung: %1.\r\n"
-  805306368,  "Info\r\n"
-  805306369,  "Start\r\n"
-  805306370,  "Stop\r\n"
-  1342177284,  "Information\r\n"
-  2415919105,  "Application\r\n"
   1,  "Click on OK to terminate the program\r\n"
   2,  "Click on CANCEL to debug the program\r\n"
   3,  "Windows\r\n"
@@ -93,4 +85,12 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
   24,  "is trying to connect to this computer. If you allow, you will be disconnected, but you can resume later. Do you want to allow this connection?\r\n"
   25,  "CriticalAppShutdownTimeout\r\n"
   26,  "CriticalAppShutdownCleanupTimeout\r\n"
+  100,  "Microsoft-Windows-Winsrv\r\n"
+  10001,  "The following application attempted to veto the shutdown: %1.\r\n"
+  10002,  "The following application was terminated because it was hung: %1.\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Application\r\n"
 }
