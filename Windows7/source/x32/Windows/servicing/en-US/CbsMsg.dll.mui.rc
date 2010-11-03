@@ -1,0 +1,185 @@
+1 MUI "Data_213.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+50, 	"Unknown"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+82, 	"Cancel"
+83, 	"Superseded"
+84, 	"Default"
+92, 	"Permanent Invalid"
+93, 	"Installed Invalid"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+96, 	"Staged Invalid"
+99, 	"Resolved Invalid"
+100, 	"Absent"
+101, 	"Resolving"
+102, 	"Resolved"
+103, 	"Staging"
+104, 	"Staged"
+105, 	"Uninstall Requested"
+106, 	"Install Requested"
+107, 	"Installed"
+108, 	"Permanent"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+300, 	"Windows Modules Installer"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"Install or uninstall of one or more Windows Features or Updates was not successful."
+401, 	"Programs and Features"
+402, 	"Programs and Features Reminder"
+403, 	"Uninstall of the Service Pack was not successful."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+500, 	"Stage %d of %d\n"
+501, 	"Do not turn off your computer."
+502, 	"%d%% complete\n"
+503, 	".  \n"
+504, 	" . \n"
+505, 	"  .\n"
+506, 	"Preparing to configure Windows"
+507, 	"Assembling Windows"
+508, 	"Assembling Service Pack"
+509, 	"Assembling Windows features"
+510, 	"Assembling Windows updates"
+511, 	"Upgrading Windows\n"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+512, 	"Configuring Service Pack\n"
+513, 	"Configuring Windows features\n"
+514, 	"Configuring Windows updates\n"
+515, 	"Reverting changes"
+516, 	"Preparing to retry"
+517, 	"Failure upgrading Windows\n"
+518, 	"Failure configuring Service Pack\n"
+519, 	"Failure configuring Windows features\n"
+520, 	"Failure configuring Windows updates\n"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+530, 	"Cleaning up"
+}
+
+1 MESSAGETABLE
+{
+268435512,  	"Classic"
+1073746195,  	"Windows Servicing started a process of changing package %1(%2) state from %3(%4) to %5(%6)"
+1073746196,  	"Windows Servicing is setting package %1(%2) state to %3(%4)"
+1073746197,  	"Windows Servicing successfully set package %1(%2) state to %3(%4)"
+1073746207,  	"Windows Servicing completed the process of changing update %1 from package %2 (%3) into %4(%5) state"
+1073746224,  	"Windows Servicing is processing hotpatch package %1(%2)."
+1073746225,  	"Windows Servicing disabled hotpatching for package %2(%3) because update %1 is not enabled for hotpatching."
+1073746226,  	"Windows Servicing disabled hotpatching for package %1(%2) because servicing is being performed offline."
+1073746227,  	"Windows Servicing disabled hotpatching for package %1(%2) because a reboot is required to complete a prior operation."
+1073746228,  	"Windows Servicing successfully installed hotpatching package %1(%2)."
+1073746229,  	"Windows Servicing has required a reboot to complete the installation of hotpatching package %1(%2)."
+1073746240,  	"Windows Servicing disabled hotpatching for package %2(%3) because update %1 is being set to state %4(%5)."
+-2147479274,  	"Windows Servicing identified that package %1(%2) is not applicable for this system"
+-2147479272,  	"Servicing has required reboot to complete the operation of setting package %1(%2) into %3(%4) state"
+-2147479262,  	"Windows Servicing required reboot to complete the process of changing update %1 from package %2(%3) into %4(%5) state"
+-2147479242,  	"Windows Servicing disabled hotpatching for package %1(%2) because a file could not be replaced immediately."
+-2147479241,  	"Windows Servicing disabled hotpatching for package %1(%2) because required files or custom actions are incompatible with hotpatching."
+-2147479240,  	"Windows Servicing failed to perform hotpatching for package %1(%2) because the hotpatch installer required a reboot."
+-2147479239,  	"Windows Servicing failed to perform hotpatching for package %1(%2) because of an error (%8)."
+-2147479231,  	"Windows Servicing disabled hotpatching for package %2(%3) because hotpatch update %1 will not be installed."
+-2147479230,  	"Windows Servicing disabled hotpatching for package %2(%3) to process regular update %1."
+-1879048191,  	"Microsoft-Windows-Servicing"
+-1342177279,  	"Initiating changes for package %1. Current state is %2. Target state is %4. Client id: %6."
+-1342177278,  	"Package %1 was successfully changed to the %2 state."
+-1342177277,  	"Package %1 failed to be changed to the %2 state. Status: %4."
+-1342177276,  	"A reboot is necessary before package %1 can be changed to the %2 state."
+-1342177275,  	"The servicing request received for package %1 cannot be satisfied since the package is not applicable."
+-1342177274,  	"Package %1 failed to be changed to the %2 state and is now partially installed. Status: %4."
+-1342177273,  	"Initiating changes to turn on update %1 of package %2. Client id: %4."
+-1342177272,  	"Initiating changes to turn off update %1 of package %2. Client id: %4."
+-1342177271,  	"Selectable update %1 of package %2 was successfully turned on."
+-1342177270,  	"Selectable update %1 of package %2 was successfully turned off."
+-1342177269,  	"Update %1 of package %2 failed to be turned on. Status: %3."
+-1342177268,  	"Update %1 of package %2 failed to be turned off. Status: %3."
+-1342177267,  	"A reboot is necessary before the selectable update %1 of package %2 can be turned on."
+-1342177266,  	"A reboot is necessary before the selectable update %1 of package %2 can be turned off."
+-1073737449,  	"Windows Servicing failed to complete the process of setting package %1 (%2) into %3(%4) state"
+-1073737439,  	"Windows Servicing failed to complete the process of changing update %1 from package %2(%3) into %4(%5) state"
+-805306367,  	"Absent"
+-805306366,  	"Uninstall Pending"
+-805306365,  	"Resolving"
+-805306364,  	"Resolved"
+-805306363,  	"Staging"
+-805306362,  	"Staged"
+-805306361,  	"Superseded"
+-805306360,  	"Install Pending"
+-805306359,  	"Partially Installed"
+-805306358,  	"Installed"
+-805306357,  	"Permanent"
+-805306356,  	"Invalid Resolved"
+-805306355,  	"Invalid Staged"
+-805306354,  	"Invalid Installed"
+-805306353,  	"Invalid Permanent"
+-805306352,  	"Default"
+-805306351,  	"Package"
+-805306350,  	"File Deltas"
+-805306349,  	"Download"
+-805306348,  	"Detect"
+-805306347,  	"Cancel"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Component Based Servicing Message DLL"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "cbsmsg.dll"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "cbsmsg.dll.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
