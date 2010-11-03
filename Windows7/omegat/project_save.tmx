@@ -1576,8 +1576,8 @@
       <tuv lang="en">
         <seg>%d%% Completed</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T142729Z" changeid="eratyk">
-        <seg>%d%% скончана</seg>
+      <tuv lang="be" changedate="20101102T170532Z" changeid="eratyk">
+        <seg>%d%% выканана</seg>
       </tuv>
     </tu>
     <tu>
@@ -1592,8 +1592,16 @@
       <tuv lang="en">
         <seg>%d%% complete.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100828T074728Z" changeid="eratyk">
-        <seg>%d%% завершана.</seg>
+      <tuv lang="be" changedate="20101102T170519Z" changeid="eratyk">
+        <seg>%d%% выканана.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d%% complete\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170507Z" changeid="eratyk">
+        <seg>%d%% выканана\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -3416,8 +3424,8 @@
       <tuv lang="en">
         <seg>&amp;Download</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T085526Z" changeid="eratyk">
-        <seg>Спампоўка</seg>
+      <tuv lang="be" changedate="20101103T080924Z" changeid="eratyk">
+        <seg>Спампаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -6942,6 +6950,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>.  \n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170542Z" changeid="eratyk">
+        <seg>.  \n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>. \n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170543Z" changeid="eratyk">
+        <seg>. \n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>...</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T060337Z" changeid="eratyk">
@@ -6954,6 +6978,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T180500Z" changeid="eratyk">
         <seg>.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>.\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170544Z" changeid="eratyk">
+        <seg>.\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -9158,6 +9190,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A reboot is necessary before package %1 can be changed to the %2 state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074652Z" changeid="eratyk">
+        <seg>Неабходна перазапусціць камп'ютар, перш чым стан пакунка %1 зможа быць зменены на %2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A reboot is necessary before the selectable update %1 of package %2 can be turned off.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080011Z" changeid="eratyk">
+        <seg>Неабходна перазапусціць камп'ютар, перш чым вылучальнае абнаўленне %1 пакунка %2 зможа быць выключанае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A reboot is necessary before the selectable update %1 of package %2 can be turned on.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075914Z" changeid="eratyk">
+        <seg>Неабходна перазапусціць камп'ютар, перш чым вылучальнае абнаўленне %1 пакунка %2 зможа быць уключанае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A scan is in progress, are you sure you want to exit?\nIf you exit, the scan will be cancelled.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T085626Z" changeid="eratyk">
@@ -9466,6 +9522,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T190032Z" changeid="eratyk">
         <seg>Пра &quot;%s&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Absent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150857Z" changeid="eratyk">
+        <seg>Адсутны</seg>
       </tuv>
     </tu>
     <tu>
@@ -12658,6 +12722,38 @@
       </tuv>
       <tuv lang="be" changedate="20101021T074648Z" changeid="eratyk">
         <seg>Асамская - INSCRIPT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assembling Service Pack</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T171017Z" changeid="eratyk">
+        <seg>Збіранне службовага пакунка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assembling Windows</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170856Z" changeid="eratyk">
+        <seg>Збіранне Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assembling Windows features</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T171029Z" changeid="eratyk">
+        <seg>Збіранне дадаткаў Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Assembling Windows updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T171041Z" changeid="eratyk">
+        <seg>Збіранне абнаўленняў Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -17239,6 +17335,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Cleaning up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070531Z" changeid="eratyk">
+        <seg>Ачыстка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clear</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T130023Z" changeid="eratyk">
@@ -18539,6 +18643,30 @@
       </tuv>
       <tuv lang="be" changedate="20100710T081006Z" changeid="eratyk">
         <seg>Наладжвае слупкі ў спісе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configuring Service Pack\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070056Z" changeid="eratyk">
+        <seg>Наладжванне службовага пакунка\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configuring Windows features\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070117Z" changeid="eratyk">
+        <seg>Наладжванне дадаткаў Windows\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configuring Windows updates\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070135Z" changeid="eratyk">
+        <seg>Наладжванне абнаўленняў Windows\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -21839,6 +21967,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Detect</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080903Z" changeid="eratyk">
+        <seg>Выявіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Detect malicious or unwanted software by looking at items that partially match an existing definition.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T163614Z" changeid="eratyk">
@@ -22999,6 +23135,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do not turn off your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170447Z" changeid="eratyk">
+        <seg>Не выключайце Ваш камп'ютар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do this for &amp;all current items</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T074704Z" changeid="eratyk">
@@ -23572,6 +23716,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T201817Z" changeid="eratyk">
         <seg>Накрыўка адчыненая;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Download</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080855Z" changeid="eratyk">
+        <seg>Спампаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -24308,6 +24460,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T161930Z" changeid="eratyk">
         <seg>Уключана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T081624Z" changeid="eratyk">
+        <seg>Дазваляе выконваць усталёўку, змяненне і выдаленне абнаўленняў Windows і адвольных кампанентаў. Калі гэтая служба выключаная, усталёўка і высталёўка абнаўленняў  Windows могуць быць недаступныя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25672,10 +25832,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Failure configuring Service Pack\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070442Z" changeid="eratyk">
+        <seg>Няўдалае наладжванне службовага пакунка\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Failure configuring Windows features\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070456Z" changeid="eratyk">
+        <seg>Няўдалае наладжванне дадаткаў Windows\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Failure configuring Windows updates\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070515Z" changeid="eratyk">
+        <seg>Няўдалае наладжванне абнаўленняў Windows\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Failure to display security and shut down options</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T185023Z" changeid="eratyk">
         <seg>Няўдача адлюстравання наладаў бяспекі і выключэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Failure upgrading Windows\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070431Z" changeid="eratyk">
+        <seg>Няўдалае абнаўленне Windows\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -25844,6 +26036,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T164254Z" changeid="eratyk">
         <seg>Змесціва файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>File Deltas</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080834Z" changeid="eratyk">
+        <seg>Змяненні файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -30032,6 +30232,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Initiating changes for package %1. Current state is %2. Target state is %4. Client id: %6.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074329Z" changeid="eratyk">
+        <seg>Ініцыяванне зменаў для пакунка %1. Бягучы стан: %2. Мэтавы стан: %4. ID кліента: %6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Initiating changes to turn off update %1 of package %2. Client id: %4.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075341Z" changeid="eratyk">
+        <seg>Ініцыяванне зменаў для выключэння абнаўлення %1 пакунка %2. ID кліента: %4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Initiating changes to turn on update %1 of package %2. Client id: %4.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075328Z" changeid="eratyk">
+        <seg>Ініцыяванне зменаў для ўключэння абнаўлення %1 пакунка %2. ID кліента: %4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>InkWatson.exe</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T162842Z" changeid="eratyk">
@@ -30184,6 +30408,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Install Pending</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080444Z" changeid="eratyk">
+        <seg>Чаканне ўсталёўкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Install Requested</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152535Z" changeid="eratyk">
+        <seg>Запатрабавана ўсталёўка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Install Windows</seg>
       </tuv>
       <tuv lang="be" changedate="20101026T104205Z" changeid="eratyk">
@@ -30224,6 +30464,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Install or uninstall of one or more Windows Features or Updates was not successful.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T165905Z" changeid="eratyk">
+        <seg>Некаторыя з дадаткаў і абнаўленняў Windows не атрымалася ўсталяваць ці высталяваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Install updates and shut down</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T095730Z" changeid="eratyk">
@@ -30244,6 +30492,22 @@
       </tuv>
       <tuv lang="be" changedate="20100729T112817Z" changeid="eratyk">
         <seg>Усталяваннем гаджэтаў стальніцы кіруе Ваш сістэмны адміністратар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080529Z" changeid="eratyk">
+        <seg>Усталявана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installed Invalid</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150718Z" changeid="eratyk">
+        <seg>Усталяваны недапушчальны</seg>
       </tuv>
     </tu>
     <tu>
@@ -30520,6 +30784,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Invalid Installed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080654Z" changeid="eratyk">
+        <seg>Недапушчальна ўсталявана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Invalid MS-DOS function.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T065555Z" changeid="eratyk">
@@ -30528,10 +30800,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Invalid Permanent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080717Z" changeid="eratyk">
+        <seg>Недапушчальна сталы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Invalid Picture File.</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224311Z" changeid="eratyk">
         <seg>Хібны файл малюнка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid Resolved</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080656Z" changeid="eratyk">
+        <seg>Недапушчальна ўрэгулявана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid Staged</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080629Z" changeid="eratyk">
+        <seg>Недапушчальнае прамежкавае захаванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -33700,6 +33996,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T195604Z" changeid="eratyk">
         <seg>Microsoft-Windows-Known Folders\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-Servicing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074102Z" changeid="eratyk">
+        <seg>Microsoft-Windows-Servicing</seg>
       </tuv>
     </tu>
     <tu>
@@ -37328,6 +37632,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Package</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080722Z" changeid="eratyk">
+        <seg>Пакунак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Package %1 failed to be changed to the %2 state and is now partially installed. Status: %4.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075058Z" changeid="eratyk">
+        <seg>Стан пакунка %1 не ўдалося змяніць на на %2. Пакунак усталяваны часткова. Статус: %4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Package %1 failed to be changed to the %2 state. Status: %4.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074455Z" changeid="eratyk">
+        <seg>Стан пакунка %1 не ўдалося змяніць на на %2. Статус: %4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Package %1 was successfully changed to the %2 state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074412Z" changeid="eratyk">
+        <seg>Стан пакунка %1 быў паспяхова зменены на %2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Page # of total pages</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T164053Z" changeid="eratyk">
@@ -37620,6 +37956,14 @@
       </tuv>
       <tuv lang="be" changedate="20101028T081251Z" changeid="eratyk">
         <seg>Частковы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Partially Installed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080523Z" changeid="eratyk">
+        <seg>Часткова ўсталявана</seg>
       </tuv>
     </tu>
     <tu>
@@ -37972,6 +38316,22 @@
       </tuv>
       <tuv lang="be" changedate="20101102T111952Z" changeid="eratyk">
         <seg>Перыяд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Permanent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152551Z" changeid="eratyk">
+        <seg>Сталы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Permanent Invalid</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150702Z" changeid="eratyk">
+        <seg>Сталы недапушчальны</seg>
       </tuv>
     </tu>
     <tu>
@@ -38872,6 +39232,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Preparing to configure Windows</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170738Z" changeid="eratyk">
+        <seg>Падрыхтоўка да наладжвання Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Preparing to eject</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T121229Z" changeid="eratyk">
@@ -38884,6 +39252,14 @@
       </tuv>
       <tuv lang="be" changedate="20100810T111524Z" changeid="eratyk">
         <seg>Падрыхтоўка да ўсталёўкі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Preparing to retry</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070401Z" changeid="eratyk">
+        <seg>Падрыхтоўка да паўтарэння</seg>
       </tuv>
     </tu>
     <tu>
@@ -39564,6 +39940,22 @@
       </tuv>
       <tuv lang="be" changedate="20100719T092008Z" changeid="eratyk">
         <seg>Праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Programs and Features</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T165924Z" changeid="eratyk">
+        <seg>Праграмы і дадаткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Programs and Features Reminder</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T165953Z" changeid="eratyk">
+        <seg>Напамін праграм і дадаткаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -41496,6 +41888,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Resolved Invalid</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150843Z" changeid="eratyk">
+        <seg>Урэгуляваны недапушчальны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Resolving</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150911Z" changeid="eratyk">
+        <seg>Урэгуляванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Resource:</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T145133Z" changeid="Ales Koshal [icq#:706101]">
@@ -41892,6 +42300,14 @@
       </tuv>
       <tuv lang="be" changedate="20100311T162618Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Вярнуць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Reverting changes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T070301Z" changeid="eratyk">
+        <seg>Касацыя зменаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -44488,6 +44904,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Selectable update %1 of package %2 was successfully turned off.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075656Z" changeid="eratyk">
+        <seg>Вылучальнае абнаўленне %1 пакунка %2 было паспяхова выключанае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selectable update %1 of package %2 was successfully turned on.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075545Z" changeid="eratyk">
+        <seg>Вылучальнае абнаўленне %1 пакунка %2 было паспяхова ўключанае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Selected</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T155916Z" changeid="eratyk">
@@ -44724,6 +45156,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T114111Z" changeid="eratyk">
         <seg>Службы і драйверы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Servicing has required reboot to complete the operation of setting package %1(%2) into %3(%4) state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072753Z" changeid="eratyk">
+        <seg>Servicing has запатрабавала перазапуск для сканчэння аперацыі прызначэння пакунку %1(%2) стану %3(%4)</seg>
       </tuv>
     </tu>
     <tu>
@@ -47496,6 +47936,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Stage %d of %d\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170427Z" changeid="eratyk">
+        <seg>Этап %d з %d\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Staged</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152441Z" changeid="eratyk">
+        <seg>Прамежкавы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Staged Invalid</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152425Z" changeid="eratyk">
+        <seg>Прамежкавы недапушчальны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Staging</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152435Z" changeid="eratyk">
+        <seg>Прамежкавае захаванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Standard Illuminant A</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T201342Z" changeid="eratyk">
@@ -48124,6 +48596,14 @@
       </tuv>
       <tuv lang="be" changedate="20100810T111014Z" changeid="eratyk">
         <seg>Суперзорка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Superseded</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T150502Z" changeid="eratyk">
+        <seg>Заменены</seg>
       </tuv>
     </tu>
     <tu>
@@ -50748,6 +51228,14 @@
       </tuv>
       <tuv lang="be" changedate="20100317T142355Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Выбраныя дзеянні ўжытыя. Вынікі адлюстраваныя ў слупку стану.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The servicing request received for package %1 cannot be satisfied since the package is not applicable.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074909Z" changeid="eratyk">
+        <seg>Запыт абслугоўвання, атрыманы для пакунка %1, не можа быць задаволены з-за непрыдатнасці пакунка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55121,6 +55609,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Uninstall Pending</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080431Z" changeid="eratyk">
+        <seg>Чаканне высталёўкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Uninstall Requested</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152521Z" changeid="eratyk">
+        <seg>Запатрабавана высталёўка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Uninstall a gadget</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T200118Z" changeid="eratyk">
@@ -55133,6 +55637,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T200045Z" changeid="eratyk">
         <seg>Высталяваць праграму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Uninstall of the Service Pack was not successful.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T170350Z" changeid="eratyk">
+        <seg>Службовы пакунак не атрымалася высталяваць.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55227,8 +55739,8 @@
       <tuv lang="en">
         <seg>Unknown</seg>
       </tuv>
-      <tuv lang="be" changedate="20100310T104738Z" changeid="alex">
-        <seg>Невядомы</seg>
+      <tuv lang="be" changedate="20101102T150449Z" changeid="eratyk">
+        <seg>Невядома</seg>
       </tuv>
     </tu>
     <tu>
@@ -55489,6 +56001,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Update %1 of package %2 failed to be turned off. Status: %3.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075800Z" changeid="eratyk">
+        <seg>Абнаўленне %1 пакунка %2 не ўдалося выключыць. Статус: %3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Update %1 of package %2 failed to be turned on. Status: %3.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T075751Z" changeid="eratyk">
+        <seg>Абнаўленне %1 пакунка %2 не ўдалося ўключыць. Статус: %3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Update &amp;all...</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T153219Z" changeid="alex">
@@ -55645,6 +56173,14 @@
       </tuv>
       <tuv lang="be" changedate="20100922T104714Z" changeid="eratyk">
         <seg>Абнаўленне выявы перадпрагляду</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Upgrading Windows\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T175801Z" changeid="eratyk">
+        <seg>Абнаўленне Windows\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -57881,10 +58417,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows Modules Installer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101102T152851Z" changeid="eratyk">
+        <seg>Усталёўнік модуляў Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows PIF Settings</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T193154Z" changeid="eratyk">
         <seg>Налады Windows PIF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Package Manager</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T081640Z" changeid="eratyk">
+        <seg>Кіраўнік пакункаў Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -57981,6 +58533,174 @@
       </tuv>
       <tuv lang="be" changedate="20100726T125159Z" changeid="eratyk">
         <seg>Windows Server 2008 R2%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing completed the process of changing update %1 from package %2 (%3) into %4(%5) state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071910Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows скончыла працэс змянення абнаўлення %1 з пакунка %2 (%3) у стан %4(%5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %1(%2) because a file could not be replaced immediately.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T073003Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо файл не можа быць заменены імгненна.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %1(%2) because a reboot is required to complete a prior operation.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072108Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо для сканчэння папярэдняй аперацыі патрэбны перазапуск.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %1(%2) because required files or custom actions are incompatible with hotpatching.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T073124Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо патрэбныя файлы ці замоўныя дзеянні несумяшчальныя з HotPatching.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %1(%2) because servicing is being performed offline.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071823Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо абслугоўванне выконваецца пазасеціўна.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %2(%3) because hotpatch update %1 will not be installed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T073837Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %2(%3), бо абнаўленне HotPatch %1 не будзе ўсталяванае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %2(%3) because update %1 is being set to state %4(%5).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072424Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %2(%3), бо абнаўленню %1 быў прызначаны стан %4(%5).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %2(%3) because update %1 is not enabled for hotpatching.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071923Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %2(%3), бо абнаўленне %1 не падтрымлівае HotPatching.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing disabled hotpatching for package %2(%3) to process regular update %1.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T074055Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %2(%3) для апрацоўкі звычайнага абнаўлення %1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing failed to complete the process of changing update %1 from package %2(%3) into %4(%5) state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080233Z" changeid="eratyk">
+        <seg>Абслугоўванню Windows не ўдалося скончыць працэс змянення абнаўлення %1 з пакунка %2 (%3) у стан %4(%5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing failed to complete the process of setting package %1 (%2) into %3(%4) state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T080122Z" changeid="eratyk">
+        <seg>Абслугоўванню Windows не ўдалося скончыць працэс прызначэння пакунку %1 (%2) стану %3(%4)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing failed to perform hotpatching for package %1(%2) because of an error (%8).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T073657Z" changeid="eratyk">
+        <seg>Абслугоўванню Windows не ўдалося выканаць HotPatching для пакунка %1(%2) з-за памылкі (%8).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing failed to perform hotpatching for package %1(%2) because the hotpatch installer required a reboot.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T073610Z" changeid="eratyk">
+        <seg>Абслугоўванню Windows не ўдалося выканаць HotPatching для пакунка %1(%2), бо ўсталёўнік HotPatch запатрабаваў перазапуск.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing has required a reboot to complete the installation of hotpatching package %1(%2).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072312Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows запатрабавала перазапуск для сканчэння ўсталёўкі пакунка HotPatch %1(%2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing identified that package %1(%2) is not applicable for this system</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072543Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows вызначыла, што пакунак %1(%2) непрыдатны для гэтае сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing is processing hotpatch package %1(%2).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071916Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows апрацоўвае пакунак HotPatch %1(%2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing is setting package %1(%2) state to %3(%4)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071852Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows прызначае пакунку %1(%2) стан %3(%4)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing required reboot to complete the process of changing update %1 from package %2(%3) into %4(%5) state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072913Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows запатрабавала перазапуск для сканчэння працэсу змянення абнаўлення %1 з пакунка %2 (%3) у стан %4(%5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing started a process of changing package %1(%2) state from %3(%4) to %5(%6)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071838Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows пачало працэс змянення пакунка %1(%2) стану %3(%4) у стан %5(%6)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing successfully installed hotpatching package %1(%2).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T072142Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows паспяхова ўсталявала пакунак HotPatch %1(%2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Servicing successfully set package %1(%2) state to %3(%4)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101103T071904Z" changeid="eratyk">
+        <seg>Абслугоўванне Windows паспяхова прызначыла пакунку %1(%2) стан %3(%4)</seg>
       </tuv>
     </tu>
     <tu>
@@ -61059,8 +61779,8 @@
       <tuv lang="en">
         <seg>download</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T125309Z" changeid="eratyk">
-        <seg>спампоўка</seg>
+      <tuv lang="be" changedate="20101103T080953Z" changeid="eratyk">
+        <seg>Спампаваць</seg>
       </tuv>
     </tu>
     <tu>
