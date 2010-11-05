@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Language ID
+1059
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+1251
+# RTL - anything else than RTL means LTR
+-
+# Translation by Sitnikov Vjacheslav [ glory_man@tut.by ]
+# Little edition by eratyk for Windows 7 translation installer
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+Усталёўка беларускага перакладу Windows 7
+# ^UninstallCaption
+Высталёўка беларускага перакладу Windows 7
+# ^LicenseSubCaption
+: Інструкцыя па ўсталяванні
+# ^ComponentsSubCaption
+: Параметры ўсталёўкі
+# ^DirSubCaption
+: Каталог усталёўкі
+# ^InstallingSubCaption
+: Капіяванне файлаў
+# ^CompletedSubCaption
+: Працэдура скончаная
+# ^UnComponentsSubCaption
+: Параметры высталёўкі
+# ^UnDirSubCaption
+: Каталог высталёўкі
+# ^ConfirmSubCaption
+: Пацверджанне
+# ^UninstallingSubCaption
+: Выдаленне файлаў
+# ^UnCompletedSubCaption
+: Працэдура скончаная
+# ^BackBtn
+< Назад
+# ^NextBtn
+Наперад >
+# ^AgreeBtn
+Усталяваць
+# ^AcceptBtn
+Я жадаю ўсталяваць пакунак
+# ^DontAcceptBtn
+Я не жадаю ўсталёўваць пакунак
+# ^InstallBtn
+Усталяваць
+# ^UninstallBtn
+Высталяваць
+# ^CancelBtn
+Скасаваць
+# ^CloseBtn
+Зачыніць
+# ^BrowseBtn
+Агляд...
+# ^ShowDetailsBtn
+Падрабязна...
+# ^ClickNext
+Націсніце кнопку "Наперад", каб працягнуць усталёўку пакунка.
+# ^ClickInstall
+Націсніце кнопку "Усталяваць", каб пачаць працэс ўсталёўкі пакунка.
+# ^ClickUninstall
+Націсніце кнопку "Высталяваць", каб пачаць працэс высталёўкі пакунка.
+# ^Name
+Назва
+# ^Completed
+Скончана
+# ^LicenseText
+Пасля прачытання інатрукцыі па ўсталёўцы $(^NameDA) націсніце кнопку "Усталяваць".
+# ^LicenseTextCB
+Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам устаноўкі $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, усталюйце сцяжок ніжэй. $_CLICK
+# ^LicenseTextRB
+Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам устаноўкі $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, вылучыце першы варыянт з прапанаваных нiжэй. $_CLICK
+# ^UnLicenseText
+Пасля прачытання інатрукцыі па высталёўцы $(^NameDA) націсніце кнопку "Усталяваць".
+# ^UnLicenseTextCB
+Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам выдалення $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, усталюйце сцяжок ніжэй. $_CLICK
+# ^UnLicenseTextRB
+Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам выдалення $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, вылучыце першы варыянт з прапанаваных нiжэй. $_CLICK
+# ^Custom
+Замоўна
+# ^ComponentsText
+Вызначце кампаненты праграмы, якiя Вы жадаеце ўстанавiць. $_CLICK
+# ^ComponentsSubText1
+Вызначце тып устаноўкi:
+# ^ComponentsSubText2_NoInstTypes
+Вызначце кампаненты праграмы, каб устанавiць iх:
+# ^ComponentsSubText2
+альбо вызначце кампаненты праграмы, каб устанавiць iх па свайму жаданню:
+# ^UnComponentsText
+Вызначце кампаненты, якiя Вы жадаеце выдалiць, i знiмiце сцяжкі, выбраныя для тых кампанентаў, якiя не трэба выдаляць. $_CLICK
+# ^UnComponentsSubText1
+Вызначце тып выдалення:
+# ^UnComponentsSubText2_NoInstTypes
+Вызначце кампаненты для выдалення:
+# ^UnComponentsSubText2
+альбо вызначце кампаненты праграмы для выдалення:
+# ^DirText
+Праграма ўсталюе $(^NameDA) у вызначаную папку. Каб устанавiць праграму ў iншай папкі, нацiснiце кнопку "Агляд" i вызначце патрэбную папку. $_CLICK
+# ^DirSubText
+Папка устаноўкi
+# ^DirBrowseText
+Вызначце папку для ўстаноўкi $(^NameDA):
+# ^UnDirText
+Праграма выдалiць $(^NameDA) з адзначанай папкі. Каб вырабіць выдаленне з iншай папкі, нацiснiце кнопку "Агляд" i вызначце патрэбную папку. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Вызначце папку, з якой Вы жадаеце выдалiць $(^NameDA):
+# ^SpaceAvailable
+"Дасяжна на дыску: "
+# ^SpaceRequired
+"Патрэбнае месца на дыску: "
+# ^UninstallingText
+Праграма выдалiць $(^NameDA) з Вашага кампутара. $_CLICK
+# ^UninstallingSubText
+Выдаленне з:
+# ^FileError
+Немагчыма адчыніць файл для запiсу: \r\n\r\n$0\r\n\r\nНацiснiце кнопку "Перапынiць", каб перапынiць устаноўку;\r\n"Паўтарыць", каб паўтарыць спробу запiсу ў файл;\r\n"Ігнараваць", каб прапусцiць гэта дзеянне.
+# ^FileError_NoIgnore
+Немагчыма адчыніць файл для запiсу: \r\n\r\n$0\r\n\r\nНацiснiце кнопку "Паўтарыць", каб паўтарыць спробу запiсу ў файл;\r\n"Адмяніць", каб перапынiць устаноўку.
+# ^CantWrite
+"Немагчыма запiсаць: "
+# ^CopyFailed
+Няўдалае капіяванне
+# ^CopyTo
+"Капiраванне ў "
+# ^Registering
+"Рэгiстрацыя: "
+# ^Unregistering
+"Выдаленне рэгiстрацыi: "
+# ^SymbolNotFound
+"Немагчыма адшукаць сiмвал: "
+# ^CouldNotLoad
+"Немагчыма загрузiць: "
+# ^CreateFolder
+"Стварэнне каталога: "
+# ^CreateShortcut
+"Стварэнне цэтліка: "
+# ^CreatedUninstaller
+"Стварэнне праграмы высталёўкі: "
+# ^Delete
+"Выдаленне файла: "
+# ^DeleteOnReboot
+"Выдаленне пасля перазапуску камп'ютара: "
+# ^ErrorCreatingShortcut
+"Памылка стварэння цэтліка: " 
+# ^ErrorCreating
+"Памылка стварэння: "
+# ^ErrorDecompressing
+Немагчыма выцягнуць звесткі. Магчыма, дыстрыбутыў пашкоджаны.
+# ^ErrorRegistering
+Немагчыма зарэгістраваць бібліятэку (DLL)
+# ^ExecShell
+"Выкананне каманды абалонкі: " 
+# ^Exec
+"Выкананне: "
+# ^Extract
+"Выманне: "
+# ^ErrorWriting
+"Выманне: памылка запiсу файла"
+# ^InvalidOpcode
+дыстрыбутыў пашкоджаны: код памылкi
+# ^NoOLE
+"Няма OLE для: " 
+# ^OutputFolder
+"Каталог усталёўкі: "
+# ^RemoveFolder
+"Выдаленне каталога: "
+# ^RenameOnReboot
+"Пераназванне пасля перазапуску камп'ютара: "
+# ^Rename
+"Пераназванне: "
+# ^Skipped
+"Прапушчана: "
+# ^CopyDetails
+Капiраваць звесткi ў буфер абмена 
+# ^LogInstall
+Запiсваць у лог працэс устаноўкi
+# byte
+Б
+# kilo
+К
+# mega
+М
+# giga
+Г
