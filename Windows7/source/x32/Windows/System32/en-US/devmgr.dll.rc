@@ -1,0 +1,884 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 331, 157
+CAPTION "Device Manager"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select the computer you want this Snap-in to manage. ", 353, Static, 0x50020000, 7, 6, 317, 8, 0x0
+  CONTROL "This snap-in will always manage:", 354, Button, 0x50000007, 7, 20, 317, 76, 0x0
+  CONTROL "&Local computer:  (the computer this console is running on)", 201, Button, 0x50030009, 16, 34, 297, 10, 0x0
+  CONTROL "&Another computer:", 202, Button, 0x50000009, 16, 51, 83, 10, 0x0
+  CONTROL "", 203, Edit, 0x50810080, 102, 50, 154, 12, 0x0
+  CONTROL "&Browse...", 205, Button, 0x58010000, 262, 49, 53, 14, 0x0
+  CONTROL "Allo&w the selected computer to be changed when launching from the command line.  This only applies if you save the console.", 208, Button, 0x50012403, 17, 71, 296, 20, 0x0
+}
+
+103 DIALOGEX 0, 0, 252, 218
+CAPTION "General"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 218, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 219, Static, 0x50020080, 37, 9, 174, 16, 0x0
+  CONTROL "Device type:", 349, Static, 0x50020080, 37, 36, 60, 8, 0x0
+  CONTROL "", 220, Edit, 0x50000880, 100, 36, 146, 12, 0x0
+  CONTROL "Manufacturer:", 350, Static, 0x50020080, 37, 50, 60, 8, 0x0
+  CONTROL "", 221, Edit, 0x50000880, 100, 50, 145, 12, 0x0
+  CONTROL "Location:", 356, Static, 0x50020080, 37, 64, 60, 8, 0x0
+  CONTROL "", 357, Edit, 0x50000804, 100, 64, 145, 16, 0x0
+  CONTROL "Device status", 352, Button, 0x50000007, 7, 85, 238, 108, 0x0
+  CONTROL "", 223, Edit, 0x50a10844, 14, 96, 224, 70, 0x0
+  CONTROL "&Troubleshoot...", 309, Button, 0x50010000, 148, 171, 90, 15, 0x0
+  CONTROL "Change settings", 217, Button, 0x50010000, 7, 195, 84, 14, 0x0
+}
+
+106 DIALOGEX 0, 0, 252, 218
+CAPTION "Driver"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 226, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 227, Static, 0x50020080, 37, 9, 174, 16, 0x0
+  CONTROL "Driver Provider:", 384, Static, 0x50020080, 37, 36, 55, 8, 0x0
+  CONTROL "", 385, Edit, 0x50000880, 100, 36, 150, 12, 0x0
+  CONTROL "Driver Date:", 386, Static, 0x50020080, 37, 50, 55, 8, 0x0
+  CONTROL "", 387, Edit, 0x50000880, 100, 50, 150, 12, 0x0
+  CONTROL "Driver Version:", 388, Static, 0x50020080, 37, 64, 55, 8, 0x0
+  CONTROL "", 389, Edit, 0x50000880, 100, 64, 150, 12, 0x0
+  CONTROL "Digital Signer:", 392, Static, 0x50020080, 37, 78, 55, 8, 0x0
+  CONTROL "", 393, Edit, 0x50000804, 100, 78, 150, 16, 0x0
+  CONTROL "Dr&iver Details", 390, Button, 0x50030000, 7, 100, 70, 15, 0x0
+  CONTROL "To view details about the driver files.", 391, Static, 0x50020000, 91, 104, 154, 16, 0x0
+  CONTROL "U&pdate Driver...", 380, Button, 0x50030000, 7, 123, 70, 15, 0x0
+  CONTROL "To update the driver software for this device.", 381, Static, 0x50020000, 91, 127, 154, 16, 0x0
+  CONTROL "&Roll Back Driver", 394, Button, 0x50030000, 7, 146, 70, 15, 0x0
+  CONTROL "If the device fails after updating the driver, roll back to the previously installed driver.", 395, Static, 0x50020000, 91, 146, 154, 16, 0x0
+  CONTROL "D&isable", 378, Button, 0x50030000, 7, 171, 70, 15, 0x0
+  CONTROL "To disable the driver (Advanced).", 379, Static, 0x50020000, 91, 175, 154, 16, 0x0
+  CONTROL "&Uninstall", 382, Button, 0x50030000, 7, 196, 70, 15, 0x0
+  CONTROL "To uninstall the driver (Advanced).", 383, Static, 0x50020000, 91, 195, 154, 16, 0x0
+}
+
+108 DIALOGEX 0, 0, 252, 218
+CAPTION "General"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 245, Static, 0x50020080, 7, 38, 237, 172, 0x0
+  CONTROL "", 243, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "", 244, Static, 0x50020080, 35, 12, 209, 16, 0x0
+}
+
+110 DIALOGEX 0, 0, 224, 250
+CAPTION "Driver File Details"
+STYLE 0x90c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 303, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 304, Static, 0x50020080, 37, 14, 174, 16, 0x0
+  CONTROL "&Driver files:", 305, Static, 0x50020000, 7, 36, 204, 8, 0x0
+  CONTROL "", 228, "SysListView32", 0x5083c85d, 7, 46, 209, 80, 0x0
+  CONTROL "Provider:", 306, Static, 0x50020000, 14, 134, 50, 8, 0x0
+  CONTROL "", 229, Static, 0x50020000, 66, 134, 155, 8, 0x0
+  CONTROL "File version:", 307, Static, 0x50020000, 14, 150, 50, 8, 0x0
+  CONTROL "", 230, Static, 0x50020000, 66, 150, 155, 8, 0x0
+  CONTROL "Copyright:", 308, Static, 0x50020000, 14, 166, 50, 8, 0x0
+  CONTROL "", 231, Static, 0x50020000, 66, 166, 155, 8, 0x0
+  CONTROL "Digital Signer:", 310, Static, 0x50020000, 14, 182, 50, 8, 0x0
+  CONTROL "", 232, Static, 0x50020000, 66, 182, 155, 8, 0x0
+  CONTROL "Windows did not start this device driver because it can cause your computer to become unstable. <A>Details</A>", 247, "SysLink", 0x50010000, 14, 198, 202, 20, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 167, 228, 50, 14, 0x0
+}
+
+210 DIALOGEX 0, 0, 224, 121
+CAPTION "Confirm Device Uninstall"
+STYLE 0x90c808c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 115, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 116, Static, 0x50020080, 40, 9, 174, 16, 0x0
+  CONTROL "", 117, Static, 0x50020000, 7, 37, 204, 16, 0x0
+  CONTROL "Delete the driver software for this device.", 118, Button, 0x50010003, 7, 65, 204, 14, 0x0
+  CONTROL "", 119, "msctls_progress32", 0x50800008, 7, 65, 204, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 110, 100, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 166, 100, 50, 14, 0x0
+}
+
+328 DIALOGEX 0, 0, 177, 31
+CAPTION "Device Manager"
+STYLE 0x90c000c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Scanning Plug and Play compliant hardware...", 65535, Static, 0x50020000, 10, 5, 149, 8, 0x0
+}
+
+330 DIALOGEX 0, 0, 252, 218
+CAPTION "Power Management"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 331, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Device description", 332, Static, 0x50020080, 37, 9, 208, 17, 0x0
+  CONTROL "&Allow the computer to turn off this device to save power", 338, Button, 0x50010003, 7, 38, 237, 10, 0x0
+  CONTROL "All&ow this device to wake the computer", 333, Button, 0x50010003, 7, 50, 237, 10, 0x0
+  CONTROL "O&nly allow a magic packet to wake the computer", 396, Button, 0x50010003, 15, 62, 237, 10, 0x0
+  CONTROL "", 343, Static, 0x50020000, 7, 87, 238, 103, 0x0
+}
+
+372 DIALOGEX 0, 0, 252, 218
+CAPTION "Details"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 373, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Device description", 374, Static, 0x50020080, 37, 9, 208, 17, 0x0
+  CONTROL "&Property", 65535, Static, 0x50020000, 7, 35, 239, 8, 0x0
+  CONTROL "", 375, ComboBox, 0x50210003, 7, 46, 239, 72, 0x0
+  CONTROL "&Value", 65535, Static, 0x50020000, 7, 67, 239, 8, 0x0
+  CONTROL "List1", 376, "SysListView32", 0x5081c041, 7, 78, 239, 135, 0x0
+}
+
+1410 DIALOGEX 0, 0, 210, 147
+CAPTION ""
+STYLE 0x50c00444
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Devices:", 1411, Static, 0x50020000, 7, 7, 196, 10, 0x0
+  CONTROL "", 1412, "SysListView32", 0x5081804d, 7, 18, 196, 27, 0x0
+  CONTROL "Device Properties", 1413, Button, 0x50000007, 7, 52, 196, 88, 0x0
+  CONTROL "Manufacturer:", 1416, Static, 0x50020000, 12, 66, 50, 10, 0x0
+  CONTROL "", 1417, Edit, 0x50000880, 64, 66, 132, 10, 0x0
+  CONTROL "Location:", 1418, Static, 0x50020000, 12, 80, 50, 10, 0x0
+  CONTROL "", 1419, Edit, 0x50000880, 64, 80, 132, 10, 0x0
+  CONTROL "Device status:", 1414, Static, 0x50020000, 12, 94, 50, 10, 0x0
+  CONTROL "", 1415, Edit, 0x50000804, 64, 94, 132, 20, 0x0
+  CONTROL "P&roperties", 1420, Button, 0x50010000, 136, 119, 60, 14, 0x0
+}
+
+1500 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c802c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The following device is disabled:", 65535, Static, 0x50020000, 21, 1, 274, 16, 0x0
+  CONTROL "", 1504, Static, 0x50000003, 21, 17, 20, 20, 0x0
+  CONTROL "", 1505, Static, 0x50020000, 52, 18, 255, 16, 0x0
+  CONTROL "Devices are normally disabled if they are not working properly or causing a resource conflict. You cannot use a device when it is disabled.", 65535, Static, 0x50020000, 31, 55, 274, 23, 0x0
+  CONTROL "If you would like to use this device again then you will need to enable it. Click next to enable this device, or click Cancel to leave this device disabled.", 65535, Static, 0x50020000, 31, 80, 274, 40, 0x0
+}
+
+1501 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c802c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1504, Static, 0x50000003, 21, 17, 20, 20, 0x0
+  CONTROL "", 1505, Static, 0x50020000, 52, 18, 255, 16, 0x0
+  CONTROL "Windows successfully enabled this device.", 1506, Static, 0x50020000, 31, 55, 274, 36, 0x0
+  CONTROL "&Restart the computer when I click Finish.", 1503, Button, 0x50010003, 21, 126, 200, 14, 0x0
+}
+
+1502 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c802c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1504, Static, 0x50000003, 21, 17, 20, 20, 0x0
+  CONTROL "", 1505, Static, 0x50020000, 52, 18, 255, 16, 0x0
+  CONTROL "In order for this device to work properly you will need to restart the computer.", 65535, Static, 0x50020000, 31, 55, 274, 36, 0x0
+  CONTROL "&Restart the computer when I click Finish.", 1503, Button, 0x50010003, 21, 126, 200, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4,  "Device Manager"
+  5,  "View and update your hardware's settings and driver software."
+  6,  "Class"
+  8,  "Device"
+  10,  "Computer"
+  12,  "Unable to access the computer %s\nMake sure that this computer is on the network, has remote administration enabled,\nand is running the ""Plug and Play"" and ""Remote registry"" services.\n\nThe error was: %s"
+  13,  "Resources"
+  15,  "IRQs"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17,  "I/Os"
+  19,  "DMAs"
+  21,  "Memory"
+  23,  "Large Memory"
+  29,  "No device ID is given."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  38,  "Unknown device"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  102,  "Add &legacy hardware"
+  103,  "&Uninstall"
+  104,  "Sc&an for hardware changes"
+  107,  "P&roperties"
+  111,  "&Enable"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "&Disable"
+  113,  "U&pdate Driver Software..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  167,  "Large Memory"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  359,  "Scan for hardware changes"
+  360,  "Scan for hardware changes"
+  361,  "Enable"
+  362,  "Enable"
+  363,  "Disable"
+  364,  "Disable"
+  365,  "Uninstall"
+  366,  "Uninstall"
+  367,  "Update Driver Software"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  368,  "Update Driver Software"
+  370,  "devmgr.chm"
+  371,  "/html/80acd63d-7111-42b5-8272-a9dff9edcec2.htm"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "DN_ROOT_ENUMERATED"
+  401,  "DN_DRIVER_LOADED"
+  402,  "DN_ENUM_LOADED"
+  403,  "DN_STARTED"
+  404,  "DN_MANUAL"
+  405,  "DN_NEED_TO_ENUM"
+  406,  "DN_DRIVER_BLOCKED"
+  407,  "DN_HARDWARE_ENUM"
+  408,  "DN_NEED_RESTART"
+  409,  "DN_HAS_MARK"
+  410,  "DN_HAS_PROBLEM"
+  411,  "DN_FILTERED"
+  412,  "DN_MOVED"
+  413,  "DN_DISABLEABLE"
+  414,  "DN_REMOVABLE"
+  415,  "DN_PRIVATE_PROBLEM"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  416,  "DN_MF_PARENT"
+  417,  "DN_MF_CHILD"
+  418,  "DN_WILL_BE_REMOVED"
+  419,  "DN_NOT_FIRST_TIMEE"
+  420,  "DN_STOP_FREE_RES"
+  421,  "DN_REBAL_CANDIADATE"
+  422,  "DN_BAD_PARTIAL"
+  423,  "DN_NT_ENUMERATOR"
+  424,  "DN_NT_DRIVER"
+  425,  "DN_NEEDS_LOCKING"
+  426,  "DN_ARM_WAKEUP"
+  427,  "DN_APM_ENUMERATOR"
+  428,  "DN_APM_DRIVER"
+  429,  "DN_SILENT_INSTALL"
+  430,  "DN_NO_SHOW_IN_DM"
+  431,  "DN_BOOT_LOG_PROB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  440,  "CM_DEVCAP_LOCKSUPPORTED"
+  441,  "CM_DEVCAP_EJECTSUPPORTED"
+  442,  "CM_DEVCAP_REMOVABLE"
+  443,  "CM_DEVCAP_DOCKDEVICE"
+  444,  "CM_DEVCAP_UNIQUEID"
+  445,  "CM_DEVCAP_SILENTINSTALL"
+  446,  "CM_DEVCAP_RAWDEVICEOK"
+  447,  "CM_DEVCAP_SURPRISEREMOVALOK"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  448,  "CM_DEVCAP_HARDWAREDISABLED"
+  449,  "CM_DEVCAP_NONDYNAMIC"
+  460,  "CONFIGFLAG_DISABLED"
+  461,  "CONFIGFLAG_REMOVED"
+  462,  "CONFIGFLAG_MANUAL_INSTALL"
+  463,  "CONFIGFLAG_IGNORE_BOOT_LC"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  464,  "CONFIGFLAG_NET_BOOT"
+  465,  "CONFIGFLAG_REINSTALL"
+  466,  "CONFIGFLAG_FAILEDINSTALL"
+  467,  "CONFIGFLAG_CANTSTOPACHILD"
+  468,  "CONFIGFLAG_OKREMOVEROM"
+  469,  "CONFIGFLAG_NOREMOVEEXIT"
+  470,  "CONFIGFLAG_FINISH_INSTALL"
+  471,  "CONFIGFLAG_NEEDS_FORCED_CONFIG"
+  472,  "CONFIGFLAG_NETBOOT_CARD"
+  473,  "CONFIGFLAG_PARTIAL_LOG_CONF"
+  474,  "CSCONFIGFLAG_DISABLED"
+  475,  "CSCONFIGFLAG_DO_NOT_CREATE"
+  476,  "CSCONFIGFLAG_DO_NOT_START"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  480,  "Unspecified"
+  481,  "D0"
+  482,  "D1"
+  483,  "D2"
+  484,  "D3"
+  490,  "PDCAP_D0_SUPPORTED"
+  491,  "PDCAP_D1_SUPPORTED"
+  492,  "PDCAP_D2_SUPPORTED"
+  493,  "PDCAP_D3_SUPPORTED"
+  494,  "PDCAP_WAKE_FROM_D0_SUPPORTED"
+  495,  "PDCAP_WAKE_FROM_D1_SUPPORTED"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  496,  "PDCAP_WAKE_FROM_D2_SUPPORTED"
+  497,  "PDCAP_WAKE_FROM_D3_SUPPORTED"
+  498,  "PDCAP_WARM_EJECT_SUPPORTED"
+  500,  "FILE_REMOVABLE_MEDIA"
+  501,  "FILE_READ_ONLY_DEVICE"
+  502,  "FILE_FLOPPY_DISKETTE"
+  503,  "FILE_WRITE_ONCE_MEDIA"
+  504,  "FILE_REMOTE_DEVICE"
+  505,  "FILE_DEVICE_IS_MOUNTED"
+  506,  "FILE_VIRTUAL_VOLUME"
+  507,  "FILE_AUTOGENERATED_DEVICE_NAME"
+  508,  "FILE_DEVICE_SECURE_OPEN"
+  509,  "FILE_CHARACTERISTIC_PNP_DEVICE"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  594,  "Current power state:"
+  595,  "Power capabilities:"
+  596,  "Power state mappings:"
+  597,  "<empty>"
+  598,  "<true>"
+  599,  "<false>"
+  600,  "Device description"
+  601,  "Hardware Ids"
+  602,  "Compatible Ids"
+  603,  "Service"
+  604,  "Device class"
+  605,  "Device class guid"
+  606,  "Driver key"
+  607,  "ConfigFlags"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  608,  "Manufacturer"
+  609,  "Friendly name"
+  610,  "Location information"
+  611,  "Physical Device Object name"
+  612,  "Capabilities"
+  613,  "UI number"
+  614,  "Device upper filters"
+  615,  "Device lower filters"
+  616,  "Bus type guid"
+  617,  "Legacy bus type"
+  618,  "Bus number"
+  619,  "Enumerator"
+  620,  "Security"
+  621,  "Security SDS"
+  622,  "Device type"
+  623,  "Exclusive"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  624,  "Characteristics"
+  625,  "Address"
+  626,  "UI number description format"
+  627,  "Power data"
+  628,  "Removal policy"
+  629,  "Removal policy default"
+  630,  "Removal policy override"
+  631,  "Install state"
+  632,  "Location paths"
+  633,  "DevNode status"
+  634,  "Problem code"
+  635,  "Ejection relations"
+  636,  "Removal relations"
+  637,  "Power relations"
+  638,  "Bus relations"
+  639,  "Parent"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  640,  "Children"
+  641,  "Siblings"
+  642,  "Driver assembly date"
+  643,  "Driver assembly version"
+  644,  "Driver assembly description"
+  645,  "Inf name"
+  646,  "Inf section"
+  647,  "Inf section extension"
+  648,  "Matching device Id"
+  649,  "Provider"
+  650,  "Property page provider"
+  651,  "Device co-installers"
+  652,  "Resource picker tags"
+  653,  "Resource picker exceptions"
+  654,  "Display name"
+  655,  "Device Instance Path"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  656,  "Install Error"
+  657,  "Driver Node Strong Name"
+  658,  "Rollback Driver Node Strong Name"
+  659,  "Rank of Installed Driver"
+  660,  "WHQL Logo Level"
+  661,  "Device for Legacy Driver"
+  662,  "Detected Device Reported by Driver"
+  663,  "No Connect Sound"
+  664,  "Generic driver installed"
+  665,  "Container Id"
+  666,  "Base Container Id"
+  667,  "Override Container Id"
+  668,  "Model Id"
+  670,  "Transport relations"
+  671,  "Install Date"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  672,  "First Install Date"
+  673,  "Bus reported device description"
+  674,  "Safe Removal Required"
+  675,  "Safe Removal Required Override"
+  676,  "Bluetooth Device Address"
+  677,  "Bluetooth Service Guid"
+  678,  "Friendly name attributes"
+  679,  "Remote Desktop Session Id"
+  680,  "Install Inf"
+  681,  "Install in progress"
+  682,  "Included Infs"
+  683,  "Manufacturer attributes"
+  684,  "Device Node not indicative of device presence"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "Model"
+  701,  "Vendor website"
+  702,  "Detailed description"
+  703,  "Documentation link"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "Icon"
+  705,  "Branding icon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "Class upper filters"
+  801,  "Class lower filters"
+  802,  "Class default security"
+  803,  "Class default security SDS"
+  804,  "Class default device type"
+  805,  "Class default exclusive"
+  806,  "Class default characteristics"
+  807,  "Class short name"
+  808,  "Class long name"
+  809,  "Class default icon"
+  810,  "Class installer"
+  811,  "Class property page provider"
+  812,  "No install class"
+  813,  "No display class"
+  815,  "Silent install class"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "No use class"
+  817,  "Class default service"
+  818,  "Class co-installers"
+  819,  "Class icon path"
+  820,  "Lower logo version"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  941,  "Unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  945,  "Not present"
+  946,  "Not available"
+  952,  "Warning: You are about to uninstall this device from your system."
+  953,  "Uninstalling devices..."
+  959,  "D&evices by type"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  960,  "De&vices by connection"
+  961,  "Resources by t&ype"
+  962,  "Resources by co&nnection"
+  969,  "Interrupt request (IRQ)"
+  970,  "Direct memory access (DMA)"
+  971,  "Input/output (IO)"
+  972,  "Memory"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  981,  "Device Manager extension"
+  982,  "#To finish removing your hardware, you must restart your computer.\n\nDo you want to restart your computer now?"
+  983,  "#Your hardware settings have changed. You must restart your computer for these changes to take effect.\n\nDo you want to restart your computer now?"
+  984,  "#You must shut down Windows and TURN YOUR COMPUTER OFF to continue setting up this PCMCIA device.\n\n"
+  985,  "Would you like to shut down your computer now?"
+  986,  "Device Manager on %s"
+  989,  "local computer"
+  990,  "Sho&w hidden devices"
+  991,  "The system does not have enough memory for this program to carry out the operation\r\r Please close one or more other applications to increase available memory."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  992,  "Not digitally signed"
+  1000,  "This device is not configured correctly.%s"
+  1001,  "Windows cannot load the driver for this device.%s"
+  1002,  "The driver for this device might be corrupted, or your system may be running low on memory or other resources.%s"
+  1003,  "This device is not working properly. One of its drivers or your registry might be corrupted.%s"
+  1004,  "The driver for this device needs a resource that Windows cannot manage.%s"
+  1005,  "The boot configuration for this device conflicts with other devices.%s"
+  1006,  "Cannot filter.%s"
+  1007,  "The driver loader for the device is missing.%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "Windows cannot identify this hardware because it does not have a valid hardware identification number.%s\r\n\r\nFor assistance, contact the hardware manufacturer."
+  1009,  "This device cannot start.%s"
+  1010,  "This device failed.%s"
+  1011,  "This device cannot find enough free resources that it can use.%s\r\n\r\nIf you want to use this device, you will need to disable one of the other devices on this system."
+  1012,  "Windows cannot verify this device's resources.%s"
+  1013,  "This device cannot work properly until you restart your computer.%s"
+  1014,  "This device is not working properly because there is probably a reenumeration problem.%s"
+  1015,  "Windows cannot identify all the resources this device uses.%s"
+  1016,  "This device is asking for an unknown resource type.%s"
+  1017,  "Reinstall the drivers for this device.%s"
+  1018,  "Windows cannot start this hardware device because its configuration information (in the registry) is incomplete or damaged.%s"
+  1019,  "Windows is uninstalling this device.%s"
+  1020,  "This device is disabled.%s"
+  1021,  "This device is not present, is not working properly, or does not have all its drivers installed.%s"
+  1022,  "Windows is still setting up this device.%s"
+  1023,  "Windows is still setting up this device.%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1024,  "This device does not have valid log configuration.%s"
+  1025,  "The drivers for this device are not installed.%s"
+  1026,  "This device is disabled because the firmware of the device did not give it the required resources.%s"
+  1027,  "This device is using an Interrupt Request (IRQ) resource that another device is using.%s"
+  1028,  "System failure: Try changing the driver for this device. If that doesn't work, see your hardware documentation.%s"
+  1030,  "This device is working properly."
+  1031,  "This device has a problem, but Windows cannot determine what the problem is."
+  1032,  "This device has a problem that Windows cannot identify.%s"
+  1035,  " (Code %d)"
+  1037,  "No drivers are installed for this device. "
+  1038,  "This device is no longer functioning properly and may need to be replaced.  Contact the manufacturer of this device for assistance."
+  1039,  "Status is not available for this device when Windows is running in Safe Mode."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1040,  "You cannot uninstall the device while it has a property sheet attached to it.\n Choosing OK will bring the property sheet to the foreground."
+  1042,  "Device Manager has its own General page. The page is not replaceable."
+  1044,  "Device Problems Troubleshooting Wizard"
+  1052,  "A driver (service) for this device has been disabled.  An alternate driver may be providing this functionality.%s"
+  1053,  "Windows cannot determine which resources are required for this device.%s"
+  1054,  "Windows cannot determine the settings for this device.  Consult the documentation that came with this device and use the Resource tab to set the configuration.%s"
+  1055,  "Your computer's system firmware does not include enough information to properly configure and use this device.  To use this device, contact your computer manufacturer to obtain a firmware or BIOS update.%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1056,  "This device is requesting a PCI interrupt but is configured for an ISA interrupt (or vice versa).  Please use the computer's system setup program to reconfigure the interrupt for this device.%s"
+  1061,  "Cannot uninstall this device because its descendants refused the request. This can happen if the device's descendants are required to boot up the computer. "
+  1062,  "Windows was not able to uninstall this device because your computer might not start without it."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1333,  "\r\n\r\nClick Enable Device to enable this device."
+  1335,  "\r\n\r\nClick Restart Computer to restart your computer."
+  1336,  "\r\n\r\nTo reinstall the drivers for this device, click Reinstall Driver."
+  1339,  "\r\n\r\nClick 'Check for solutions' to send data about this device to Microsoft and to see if there is a solution available."
+  1340,  "\r\n\r\nIf you are having problems with this device, click 'Check for solutions' to send data about this device to Microsoft and to see if there is a solution available."
+  1341,  "\r\n\r\nTo find a driver for this device, click Update Driver."
+  1342,  "E&nable Device"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1344,  "Restart &Computer..."
+  1345,  "Re&install Driver..."
+  1347,  "&Check for solutions..."
+  1348,  "&Update Driver..."
+  1353,  "Microsoft Corporation"
+  1355,  "You can use Device Manager to view a list of hardware devices installed on your computer and set properties for each device."
+  1356,  "About Device Manager"
+  1357,  "You are logged on as a standard user. You can view device settings in Device Manager, but you must be logged on as an administrator to make changes."
+  1358,  "Device Manager is running in read-only mode because you are running it on a remote computer. "
+  1359,  "This device is not working properly because Windows cannot load the drivers required for this device.%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1362,  " Devices(view by type) on %s"
+  1363,  " Devices(view by connection) on %s"
+  1364,  " Resources(view by type) on %s"
+  1365,  " Resources(view by connection) on %s"
+  1375,  "To uninstall devices or to change device properties or drivers, you must run Device Manager on the computer where you wish to make changes."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1385,  "Displays devices by hardware type."
+  1386,  "Displays devices by connection."
+  1387,  "Displays resources by type."
+  1388,  "Displays resources by connection."
+  1389,  "Displays legacy devices and devices that are no longer installed."
+  1390,  "Scan for changed or new Plug and Play devices."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1392,  "Uninstalls the driver for the selected device."
+  1393,  "Opens property sheet for the current selection."
+  1394,  "Enables the selected device."
+  1395,  "Disables the selected device."
+  1396,  "Launches the Update Driver Software Wizard for the selected device."
+  1397,  "Add a legacy (non Plug and Play) device to the computer."
+  1398,  "Disabling this device will cause it to stop functioning. Do you really want to disable it?"
+  1400,  "%s"
+  1402,  "on %s"
+  1405,  "Location %1!u!"
+  1407,  "No driver files are required or have been loaded for this device."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1507,  "Enabling a device"
+  1508,  "Do you want to enable this device?"
+  1509,  "Enabling a device"
+  1510,  "Windows has finished attempting to enable this device."
+  1511,  "Windows successfully enabled this device."
+  1512,  "Windows was not able to enable this device."
+  1513,  "You will need to restart the computer to finish enabling this device."
+  1514,  "Windows successfully enabled this device, however, this device is still not working properly."
+  1515,  "Restart your computer"
+  1516,  "Windows will now restart your computer."
+  1517,  "\r\n\r\nYou need to restart your computer before the changes you made to this device will take effect."
+  1518,  "\r\n\r\nThe drivers for this device will be uninstalled when the machine is restarted. Any changes you make to this device will not be preserved."
+  1519,  "(PCI) "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1520,  "(ISA) "
+  1521,  "Use this device (enable)"
+  1522,  "Do not use this device (disable)"
+  1525,  "You cannot update the driver for this device at this time because it is in the process of being uninstalled.\r\n\r\n"
+  1526,  "You cannot roll back the driver for this device at this time because it is in the process of being uninstalled.\r\n\r\n"
+  1527,  "You cannot change the settings of this device at this time because it is in the process of being uninstalled.\r\n\r\n"
+  1528,  "\r\n\r\nWindows did not start a related device driver. To learn more, click the Driver tab and then click Driver Details."
+  1529,  "There is a secondary device connected to this hardware that Windows cannot identify because it does not have a valid hardware identification number.\r\n\r\nFor assistance, contact the hardware manufacturer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1537,  "Manufacturer: %s"
+  1538,  "Location: %s"
+  1539,  "Device Status: %s"
+  1540,  "Name"
+  1541,  "Type"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1600,  "Windows cannot initialize the device driver for this hardware.%s"
+  1601,  "Windows cannot load the device driver for this hardware because a previous instance of the device driver is still in memory.%s"
+  1602,  "Windows cannot load the device driver for this hardware. The driver may be corrupted or missing.%s"
+  1603,  "Windows cannot access this hardware because its service key information in the registry is missing or recorded incorrectly.%s"
+  1604,  "Windows successfully loaded the device driver for this hardware but cannot find the hardware device.%s"
+  1605,  "Windows cannot load the device driver for this hardware because there is a duplicate device already running in the system.%s"
+  1606,  "Windows has stopped this device because it has reported problems.%s"
+  1607,  "An application or service has shut down this hardware device.%s"
+  1608,  "Currently, this hardware device is not connected to the computer.%s\r\n\r\nTo fix this problem, reconnect this hardware device to the computer."
+  1609,  "Windows cannot gain access to this hardware device because the operating system is in the process of shutting down.%s\r\n\r\nThe hardware device should work correctly next time you start your computer."
+  1610,  "Windows cannot use this hardware device because it has been prepared for ""safe removal"", but it has not been removed from the computer.%s\r\n\r\nTo fix this problem, unplug this device from your computer and then plug it in again."
+  1611,  "The software for this device has been blocked from starting because it is known to have problems with Windows. Contact the hardware vendor for a new driver.%s"
+  1612,  "Windows cannot start new hardware devices because the system hive is too large (exceeds the Registry Size Limit).%s\r\n\r\nTo fix this problem, you should first try uninstalling any hardware devices that you are no longer using. If that doesn't solve the problem, then you will have to reinstall Windows."
+  1613,  "Windows cannot apply all of the properties for this device. Device properties may include information that describes the device's capabilities and settings (such as security settings for example). %s\r\n\r\nTo fix this problem, you can try reinstalling this device. However, it is recommended that you contact the hardware manufacturer for a new driver."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1700,  "This device is working properly"
+  1701,  "This device has a problem"
+  1702,  "This device is disabled"
+  1703,  "This device has a forced configuration"
+  1710,  "&Copy"
+  1711,  "Select &All"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1715,  "This device is currently waiting on another device or set of devices to start.%s"
+  1716,  "Windows cannot verify the digital signature for the drivers required for this device. A recent hardware or software change might have installed a file that is signed incorrectly or damaged, or that might be malicious software from an unknown source.%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1750,  "CM_NAME_ATTRIBUTE_NAME_RETRIEVED_FROM_DEVICE"
+  1751,  "CM_NAME_ATTRIBUTE_USER_ASSIGNED_NAME"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1900,  "PnP-X global identity"
+  1901,  "PnP-X types value"
+  1902,  "PnP-X scopes value"
+  1903,  "PnP-X transport address"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1904,  "PnP-X metadata version"
+  1905,  "PnP-X device Id"
+  1906,  "PnP-X remote address"
+  1907,  "PnP-X manufacturer name"
+  1908,  "PnP-X manufacturer URL"
+  1909,  "PnP-X model name"
+  1910,  "PnP-X model number"
+  1911,  "PnP-X model URL"
+  1912,  "PnP-X universal product code"
+  1913,  "PnP-X presentation URL"
+  1914,  "PnP-X device friendly name"
+  1915,  "PnP-X firmware version"
+  1916,  "PnP-X serial number"
+  1918,  "PnP-X device category"
+  1919,  "PnP-X device category description"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1920,  "PnP-X physical address"
+  1921,  "PnP-X network interface LUID"
+  1922,  "PnP-X network interface GUID"
+  1923,  "PnP-X IP address"
+  1924,  "PnP-X service address"
+  1925,  "PnP-X service Id"
+  1926,  "PnP-X service Types"
+  1927,  "PnP-X root proxy"
+  1928,  "WSDMon print port name"
+  1929,  "WSD print service comment"
+  1930,  "WSD print service location"
+  1931,  "WSD print service friendly name"
+  1932,  "Device Categories"
+  1933,  "Unpair uninstall"
+  1934,  "Uninstall requires elevation"
+  1935,  "Don't show in Devices and Printers"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1936,  "Show the device even when it is disconnected"
+  1937,  "Always show the device as connected"
+}
+
