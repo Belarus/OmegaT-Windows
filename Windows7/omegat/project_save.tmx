@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1!s!\n%2!s!\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114148Z" changeid="eratyk">
+        <seg>%1!s!\n%2!s!\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1!ws! (%2!ws!)</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T112045Z" changeid="eratyk">
@@ -2934,10 +2942,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Configure\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114118Z" changeid="eratyk">
+        <seg>Наладзіць\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Connect</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053632Z" changeid="eratyk">
         <seg>Злучыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Connect\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114043Z" changeid="eratyk">
+        <seg>Злучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -3274,6 +3298,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T114522Z" changeid="eratyk">
         <seg>Адлучыць сеткавы дыск...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Disconnect\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114050Z" changeid="eratyk">
+        <seg>Адлучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -9710,6 +9742,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Access: \0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114100Z" changeid="eratyk">
+        <seg>Доступ:\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Accessed:</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T195109Z" changeid="alex">
@@ -13426,6 +13466,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T054726Z" changeid="eratyk">
         <seg>Спіс даступных сетак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Available Network List\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114145Z" changeid="eratyk">
+        <seg>Спіс даступных сетак\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19135,6 +19183,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Configure a Network\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114202Z" changeid="eratyk">
+        <seg>Наладзіць сетку\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Configure administrative settings for your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T101939Z" changeid="eratyk">
@@ -19163,6 +19219,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T173137Z" changeid="eratyk">
         <seg>Наладзіць пабудову гэтага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configure\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114134Z" changeid="eratyk">
+        <seg>Наладзіць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19343,6 +19407,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect To\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114025Z" changeid="eratyk">
+        <seg>Злучыць з\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connect automatically</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053644Z" changeid="eratyk">
@@ -19359,6 +19431,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect automatically checkbox\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114146Z" changeid="eratyk">
+        <seg>Сцяжок аўтаматычнага злучэння\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect automatically\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114057Z" changeid="eratyk">
+        <seg>Злучаць аўтаматычна\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connect or disconnect...</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053246Z" changeid="eratyk">
@@ -19367,10 +19455,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect or disconnect...\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113921Z" changeid="eratyk">
+        <seg>Злучыць ці адлучыць...\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connect or disconnect:</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053231Z" changeid="eratyk">
         <seg>Злучыць ці адлучыць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect or disconnect:\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113834Z" changeid="eratyk">
+        <seg>Злучыць ці адлучыць:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19387,6 +19491,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T054931Z" changeid="eratyk">
         <seg>Злучыцца з сеткай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect to a Network\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114158Z" changeid="eratyk">
+        <seg>Злучыць з сеткай\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19431,6 +19543,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114016Z" changeid="eratyk">
+        <seg>Злучыць\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connected</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T190434Z" changeid="eratyk">
@@ -19443,6 +19563,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T054919Z" changeid="eratyk">
         <seg>Спіс злучаных сетак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connected Network List\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114157Z" changeid="eratyk">
+        <seg>Спіс злучаных сетак\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19675,6 +19803,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T051645Z" changeid="eratyk">
         <seg>Ёсць даступныя злучэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connections are available\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113820Z" changeid="eratyk">
+        <seg>Ёсць даступныя злучэнні\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -21139,6 +21275,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T051723Z" changeid="eratyk">
         <seg>Зараз злучана з:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Currently connected to:\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113847Z" changeid="eratyk">
+        <seg>Зараз злучана з:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -22815,6 +22959,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Diagnose\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114020Z" changeid="eratyk">
+        <seg>Дыягностыка\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dial-up Adapter</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T193346Z" changeid="eratyk">
@@ -23063,6 +23215,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Disconnect from a Network\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114200Z" changeid="eratyk">
+        <seg>Адлучыцца ад сеткі\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disconnect from the server so you can work offline with these files.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T163030Z" changeid="eratyk">
@@ -23075,6 +23235,14 @@
       </tuv>
       <tuv lang="be" changedate="20100922T074309Z" changeid="eratyk">
         <seg>Адключыць гэты экран</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disconnect\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114017Z" changeid="eratyk">
+        <seg>Адлучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -24292,6 +24460,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053900Z" changeid="eratyk">
         <seg>Доступ толькі да дамена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Domain access only\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114109Z" changeid="eratyk">
+        <seg>Доступ толькі да дамена\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25928,6 +26104,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Excellent\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113951Z" changeid="eratyk">
+        <seg>Выдатны\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Exception Data</seg>
       </tuv>
       <tuv lang="be" changedate="20101002T094346Z" changeid="eratyk">
@@ -26692,6 +26876,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T052818Z" changeid="eratyk">
         <seg>Неблагі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fair\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113948Z" changeid="eratyk">
+        <seg>Неблагі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -29256,6 +29448,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Good\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113950Z" changeid="eratyk">
+        <seg>Добры\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Graphic</seg>
       </tuv>
       <tuv lang="be" changedate="20101010T054109Z" changeid="eratyk">
@@ -31368,6 +31568,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Information sent over this network might be visible to others.\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113915Z" changeid="eratyk">
+        <seg>Інфармацыя, дасланая праз гэтую сетку, можа быць бачнаю для іншых.\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Information\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101001T144553Z" changeid="eratyk">
@@ -32040,10 +32248,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Internet access\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114102Z" changeid="eratyk">
+        <seg>Доступ да сеціва\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Internet and domain access</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053849Z" changeid="eratyk">
         <seg>Доступ да сеціва і дамена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet and domain access\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114107Z" changeid="eratyk">
+        <seg>Доступ да сеціва і дамена\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -33592,6 +33816,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Link Pane\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114155Z" changeid="eratyk">
+        <seg>Панэль спасылак\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Link View Layout Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T115832Z" changeid="eratyk">
@@ -34260,6 +34492,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T181417Z" changeid="eratyk">
         <seg>Нізкая насычанасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113942Z" changeid="eratyk">
+        <seg>Нізкі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -35008,6 +35248,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Media Manager List\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114137Z" changeid="eratyk">
+        <seg>Спіс кіраўніка носьбітаў\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Media Player</seg>
       </tuv>
       <tuv lang="be" changedate="20101104T065434Z" changeid="eratyk">
@@ -35700,6 +35948,22 @@
       </tuv>
       <tuv lang="be" changedate="20101005T055223Z" changeid="eratyk">
         <seg>Microsoft-Windows-VAN/Дыягностыка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-VAN/Diagnostic\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114327Z" changeid="eratyk">
+        <seg>Microsoft-Windows-VAN/Дыягностыка\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-VAN\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114312Z" changeid="eratyk">
+        <seg>Microsoft-Windows-VAN\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -36576,6 +36840,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Name: %1!s!\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114001Z" changeid="eratyk">
+        <seg>Назва: %1!s!\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Namespace</seg>
       </tuv>
       <tuv lang="be" changedate="20101002T093217Z" changeid="eratyk">
@@ -36752,6 +37024,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network Adapter Header\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114141Z" changeid="eratyk">
+        <seg>Загаловак сеткавага адаптара\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network Connections</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T183532Z" changeid="eratyk">
@@ -36820,6 +37100,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T055153Z" changeid="eratyk">
         <seg>Доступ да сеткі можа быць абмежаваны. Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network access might be limited. Open Network and Sharing Center for more information.\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114205Z" changeid="eratyk">
+        <seg>Доступ да сеткі можа быць абмежаваны. Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -37192,6 +37480,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No Internet access\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114104Z" changeid="eratyk">
+        <seg>Без доступу да сеціва\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No Password</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T194859Z" changeid="eratyk">
@@ -37204,6 +37500,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T052709Z" changeid="eratyk">
         <seg>Няма сігналу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No Signal\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113926Z" changeid="eratyk">
+        <seg>Няма сігналу\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -37236,6 +37540,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T051630Z" changeid="eratyk">
         <seg>Няма даступных злучэнняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No connections are available\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113814Z" changeid="eratyk">
+        <seg>Няма даступных злучэнняў\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -37364,6 +37676,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053916Z" changeid="eratyk">
         <seg>Без доступу да сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No network access\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114113Z" changeid="eratyk">
+        <seg>Без доступу да сеткі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -37528,6 +37848,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Not Connectable\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114201Z" changeid="eratyk">
+        <seg>Незлучальна\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Not Responded</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T190947Z" changeid="eratyk">
@@ -37624,10 +37952,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Not connected - Connections are available\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113908Z" changeid="eratyk">
+        <seg>Не злучана - Ёсць даступныя злучэнні\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Not connected - No connections are available</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T052412Z" changeid="eratyk">
         <seg>Не злучана - Няма даступных злучэнняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not connected - No connections are available\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113912Z" changeid="eratyk">
+        <seg>Не злучана - Няма даступных злучэнняў\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not connected\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113849Z" changeid="eratyk">
+        <seg>Не злучана\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -38560,6 +38912,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Open Network and Sharing Center\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113918Z" changeid="eratyk">
+        <seg>Адчыніць цэнтр сетак і агульнага доступу\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Open Volume &amp;Mixer</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T162132Z" changeid="eratyk">
@@ -38572,6 +38932,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053630Z" changeid="eratyk">
         <seg>Адчыніць без дыягностыкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open Without Diagnostics\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114032Z" changeid="eratyk">
+        <seg>Адчыніць без дыягностыкі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -41000,6 +41368,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please select a network first before creating a connection profile.\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113905Z" changeid="eratyk">
+        <seg>Калі ласка, абярыце сетку перш чым ствараць злучэнне.\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please type a password which meets these requirements.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T060234Z" changeid="eratyk">
@@ -41108,6 +41484,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T052814Z" changeid="eratyk">
         <seg>Дрэнны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Poor\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113932Z" changeid="eratyk">
+        <seg>Дрэнны\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -42288,6 +42672,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Properties\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114024Z" changeid="eratyk">
+        <seg>Уласцівасці\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Property</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T182400Z" changeid="eratyk">
@@ -43388,6 +43780,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T130224Z" changeid="eratyk">
         <seg>Абнавіць гэтую стужку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Refresh\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114150Z" changeid="eratyk">
+        <seg>Абнавіць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -49000,6 +49400,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Shows available wireless networks and dial-up and VPN connections that you can connect to.\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114028Z" changeid="eratyk">
+        <seg>Адлюстроўвае даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі Вы можаце злучыцца.\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Shows firewall configuration.\n</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T164536Z" changeid="eratyk">
@@ -49252,6 +49660,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053148Z" changeid="eratyk">
         <seg>Моц сігналу: %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal Strength: %1!s!\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113957Z" changeid="eratyk">
+        <seg>Моц сігналу: %1!s!\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -51012,6 +51428,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T095947Z" changeid="eratyk">
         <seg>Стан: %08X/%08X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Status\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114022Z" changeid="eratyk">
+        <seg>Стан:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -55465,6 +55889,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This is a new router that has not been configured.\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114116Z" changeid="eratyk">
+        <seg>Гэта - новы рутэр, які яшчэ не наладжаны.\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is a screen font. The closest matching printer font will be used for printing.</seg>
       </tuv>
       <tuv lang="be" changedate="20100915T180110Z" changeid="eratyk">
@@ -57585,6 +58017,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Troubleshoot\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113924Z" changeid="eratyk">
+        <seg>Вырашэнне праблем\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Troubleshooting History</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T104744Z" changeid="eratyk">
@@ -57789,6 +58229,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053420Z" changeid="eratyk">
         <seg>Выключыць радыё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turn off wireless\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114019Z" changeid="eratyk">
+        <seg>Выключыць радыё\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -58509,6 +58957,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T051955Z" changeid="eratyk">
         <seg>Аб'яднаны кіраўнік злучэнняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unified Connection Manager\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T113902Z" changeid="eratyk">
+        <seg>Аб'яднаны кіраўнік злучэнняў\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -59957,6 +60413,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T194507Z" changeid="eratyk">
         <seg>Прагледзець даступныя сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View Available Network\0</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101108T114136Z" changeid="eratyk">
+        <seg>Прагледзець даступныя сеткі\0</seg>
       </tuv>
     </tu>
     <tu>
