@@ -248,8 +248,8 @@
       <tuv lang="en">
         <seg>%1 engine version has been updated.%n %tCurrent Engine Version:%3%n %tPrevious Engine Version:%4%n %tUpdate Source:%6%n %tUser:%8\\%9</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T083646Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Версія падсістэмы %1 абноўлена.%n %tБягучая версія падсістэмы:%3%n %tПапярэдняя версія падсістэмы:%4%n %tКрыніца абнаўлення:%6%n %tКарыстальнік:%8\\%9</seg>
+      <tuv lang="be" changedate="20101107T171217Z" changeid="eratyk">
+        <seg>Версія падсістэмы %1 абноўлена.%n %tДзейная версія падсістэмы:%3%n %tПапярэдняя версія падсістэмы:%4%n %tКрыніца абнаўлення:%6%n %tКарыстальнік:%8\\%9</seg>
       </tuv>
     </tu>
     <tu>
@@ -288,8 +288,8 @@
       <tuv lang="en">
         <seg>%1 has created another homegroup on the network.\n\nTo combine the new homegroup with your current one, type the new password.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T081038Z" changeid="eratyk">
-        <seg>%1 стварыў новую хатнюю групу ў Вашай сетцы.\n\nКаб спалучыць бягучую хатнюю групу з новай, увядзіце новы пароль.</seg>
+      <tuv lang="be" changedate="20101107T172210Z" changeid="eratyk">
+        <seg>%1 стварыў новую хатнюю групу ў Вашай сетцы.\n\nКаб спалучыць дзейную хатнюю групу з новай, увядзіце новы пароль.</seg>
       </tuv>
     </tu>
     <tu>
@@ -344,8 +344,8 @@
       <tuv lang="en">
         <seg>%1 has encountered an error trying to update signatures.%n %tNew Signature Version:%3%n %tPrevious Signature Version:%4%n %tUpdate Source:%6%n %tSignature Type:%12%n %tUpdate Type:%14%n %tUser:%8\\%9%n %tCurrent Engine Version:%15%n %tPrevious Engine Version:%16%n %tError code:%17%n %tError description:%18</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T083444Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Пры спробе %1 абнавіць подпісы адбылася памылка.%n %tНовая версія подпісу:%3%n %tПапярэдняя версія подпісу:%4%n %tКрыніца абнаўлення:%6%n %tТып подпіса:%12%n %tТып абнаўлення:%14%n %tКарыстальнік:%8\\%9%n %tБягучая версія падсістэмы:%15%n %tПапярэдняя версія падсістэмы:%16%n %tКод памылкі:%17%n %tАпісанне памылкі:%18</seg>
+      <tuv lang="be" changedate="20101107T171206Z" changeid="eratyk">
+        <seg>Пры спробе %1 абнавіць подпісы адбылася памылка.%n %tНовая версія подпісу:%3%n %tПапярэдняя версія подпісу:%4%n %tКрыніца абнаўлення:%6%n %tТып подпіса:%12%n %tТып абнаўлення:%14%n %tКарыстальнік:%8\\%9%n %tДзейная версія падсістэмы:%15%n %tПапярэдняя версія падсістэмы:%16%n %tКод памылкі:%17%n %tАпісанне памылкі:%18</seg>
       </tuv>
     </tu>
     <tu>
@@ -512,8 +512,8 @@
       <tuv lang="en">
         <seg>%1 signature version has been updated.%n %tCurrent Signature Version:%3%n %tPrevious Signature Version:%4%n %tUpdate Source:%6%n %tSignature Type:%12%n %tUpdate Type:%14%n %tUser:%8\\%9%n %tCurrent Engine Version:%15%n %tPrevious Engine Version:%16</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T083103Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>%1 абноўлена версія подпісу.%n %tБягучая версія подпісу:%3%n %tПапярэдняя версія подпісу:%4%n %tКрыніца абнаўлення:%6%n %tТып подпісу:%12%n %tТып абнаўлення:%14%n %tКарыстальнік:%8\\%9%n %tБягучая версія падсістэмы:%15%n %tПапярэдняя версія падсістэмы:%16</seg>
+      <tuv lang="be" changedate="20101107T170912Z" changeid="eratyk">
+        <seg>%1 абноўлена версія подпісу.%n %tДзейная версія подпісу:%3%n %tПапярэдняя версія подпісу:%4%n %tКрыніца абнаўлення:%6%n %tТып подпісу:%12%n %tТып абнаўлення:%14%n %tКарыстальнік:%8\\%9%n %tДзейная версія падсістэмы:%15%n %tПапярэдняя версія падсістэмы:%16</seg>
       </tuv>
     </tu>
     <tu>
@@ -2216,8 +2216,8 @@
       <tuv lang="en">
         <seg>&amp;Add current location to Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T180559Z" changeid="alex">
-        <seg>Дадаць бягучае размяшчэнне да Абранага</seg>
+      <tuv lang="be" changedate="20101107T171727Z" changeid="eratyk">
+        <seg>Дадаць дзейнае размяшчэнне да Абранага</seg>
       </tuv>
     </tu>
     <tu>
@@ -3032,24 +3032,24 @@
       <tuv lang="en">
         <seg>&amp;Current code page</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T122147Z" changeid="eratyk">
-        <seg>Бягучая кодавая старонка</seg>
+      <tuv lang="be" changedate="20101107T171829Z" changeid="eratyk">
+        <seg>Дзейная кодавая старонка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Current location:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T172731Z" changeid="eratyk">
-        <seg>Бягучае размяшчэнне:</seg>
+      <tuv lang="be" changedate="20101107T171535Z" changeid="eratyk">
+        <seg>Дзейнае размяшчэнне:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Current system locale:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T175316Z" changeid="eratyk">
-        <seg>Бягучая сістэмная лакалізацыя:</seg>
+      <tuv lang="be" changedate="20101107T171626Z" changeid="eratyk">
+        <seg>Дзейная сістэмная лакалізацыя:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3408,8 +3408,8 @@
       <tuv lang="en">
         <seg>&amp;Double-click to open an item (single-click to select)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T104601Z" changeid="eratyk">
-        <seg>Адчыняць двума пстрыкамі, вылучаць адным</seg>
+      <tuv lang="be" changedate="20101107T165729Z" changeid="eratyk">
+        <seg>Адчыняць падвойным пстрыкам, вылучаць адным</seg>
       </tuv>
     </tu>
     <tu>
@@ -4768,8 +4768,8 @@
       <tuv lang="en">
         <seg>&amp;Orange</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T184848Z" changeid="eratyk">
-        <seg>Аранжавы</seg>
+      <tuv lang="be" changedate="20101107T160218Z" changeid="eratyk">
+        <seg>Памаранчовы</seg>
       </tuv>
     </tu>
     <tu>
@@ -5656,8 +5656,8 @@
       <tuv lang="en">
         <seg>&amp;Set save location</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T124250Z" changeid="eratyk">
-        <seg>Прызначыць каталог захавання</seg>
+      <tuv lang="be" changedate="20101107T185322Z" changeid="eratyk">
+        <seg>Прызначыць размяшчэнне захавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -5736,8 +5736,8 @@
       <tuv lang="en">
         <seg>&amp;Show or remove blocked startup programs</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T194224Z" changeid="eratyk">
-        <seg>Паказаць ці выдаліць заблакаваныя праграмы запуску</seg>
+      <tuv lang="be" changedate="20101107T190011Z" changeid="eratyk">
+        <seg>Адлюстраваць ці выдаліць заблакаваныя праграмы запуску</seg>
       </tuv>
     </tu>
     <tu>
@@ -6768,8 +6768,8 @@
       <tuv lang="en">
         <seg>(Show all %1!d!)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100911T061344Z" changeid="eratyk">
-        <seg>(Паказаць усе %1!d!)</seg>
+      <tuv lang="be" changedate="20101107T190223Z" changeid="eratyk">
+        <seg>(Адлюстраваць усе %1!d!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6800,8 +6800,8 @@
       <tuv lang="en">
         <seg>(currently %s)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100915T145750Z" changeid="eratyk">
-        <seg>(бягучы %s)</seg>
+      <tuv lang="be" changedate="20101107T171421Z" changeid="eratyk">
+        <seg>(дзейна %s)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8280,8 +8280,8 @@
       <tuv lang="en">
         <seg>&lt;A href=&quot;ShowCertificate&quot;&gt;Show information about this publisher's certificate&lt;/A&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T080602Z" changeid="eratyk">
-        <seg>&lt;A href=&quot;ShowCertificate&quot;&gt;Паказаць інфармацыю пра сертыфікат выдаўца&lt;/A&gt;</seg>
+      <tuv lang="be" changedate="20101107T190119Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowCertificate&quot;&gt;Адлюстраваць інфармацыю пра сертыфікат выдаўца&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8368,16 +8368,16 @@
       <tuv lang="en">
         <seg>&lt;A&gt;See more information about opening multiple programs at the same time.&lt;/A&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T203727Z" changeid="eratyk">
-        <seg>&lt;A&gt;Паказаць больш інфармацыі пра адчыненне шматлікіх праграм адначасова.&lt;/A&gt;</seg>
+      <tuv lang="be" changedate="20101107T190104Z" changeid="eratyk">
+        <seg>&lt;A&gt;Пабачыць больш інфармацыі пра адчыненне шматлікіх праграм адначасова.&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&lt;A&gt;Show more fonts&lt;/A&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T112338Z" changeid="eratyk">
-        <seg>&lt;A&gt;Паказаць больш шрыфтоў&lt;/A&gt;</seg>
+      <tuv lang="be" changedate="20101107T190133Z" changeid="eratyk">
+        <seg>&lt;A&gt;Адлюстраваць больш шрыфтоў&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9464,8 +9464,8 @@
       <tuv lang="en">
         <seg>A:0:0:Extra Large Icons:28:Large Icons:48:Medium Icons:78:Small Icons:99:List:120:Details:140:Tiles:160:Content:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T071724Z" changeid="eratyk">
-        <seg>A:0:0:Велізарныя значкі:28:Вялікія значкі:48:Сярэднія значкі:78:Малыя значкі:99:Спіс:120:Дэталі:140:Брукаванка:160:Змесціва:</seg>
+      <tuv lang="be" changedate="20101107T163434Z" changeid="eratyk">
+        <seg>A:0:0:Велізарныя значкі:28:Вялікія значкі:48:Сярэднія значкі:78:Малыя значкі:99:Спіс:120:Дэталі:140:Брук:160:Змесціва:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10774,6 +10774,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Album ID</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183955Z" changeid="eratyk">
+        <seg>ID альбома</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Album artist</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T064155Z" changeid="eratyk">
@@ -10880,8 +10888,8 @@
       <tuv lang="en">
         <seg>Align text to the right.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T174227Z" changeid="eratyk">
-        <seg>Ураўнаваць тэкст справа.</seg>
+      <tuv lang="be" changedate="20101107T164925Z" changeid="eratyk">
+        <seg>Зраўнаваць тэкст справа.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11792,8 +11800,8 @@
       <tuv lang="en">
         <seg>Another homegroup has been created on your network.\n\nTo combine the new homegroup with your current one, type the new password.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T081106Z" changeid="eratyk">
-        <seg>Створаная новая хатняя група ў Вашай сетцы.\n\nКаб спалучыць бягучую хатнюю групу з новай, увядзіце новы пароль.</seg>
+      <tuv lang="be" changedate="20101107T172243Z" changeid="eratyk">
+        <seg>Створаная новая хатняя група ў Вашай сетцы.\n\nКаб спалучыць дзейную хатнюю групу з новай, увядзіце новы пароль.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13022,6 +13030,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Artists</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T184003Z" changeid="eratyk">
+        <seg>Выканаўцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>As a guest user you cannot change the display language:</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T064353Z" changeid="eratyk">
@@ -13360,16 +13376,16 @@
       <tuv lang="en">
         <seg>Automatically close the current UDF session when:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T180522Z" changeid="eratyk">
-        <seg>Аўтаматычна зачыняць бягучую UDF сесію калі:</seg>
+      <tuv lang="be" changedate="20101107T171952Z" changeid="eratyk">
+        <seg>Аўтаматычна зачыняць дзейную UDF-сесію калі:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Automatically e&amp;xpand to current folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T114727Z" changeid="eratyk">
-        <seg>Аўтаматычна разгортваць да бягучага каталога</seg>
+      <tuv lang="be" changedate="20101107T171824Z" changeid="eratyk">
+        <seg>Аўтаматычна разгортваць да дзейнага каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -13450,6 +13466,22 @@
       </tuv>
       <tuv lang="be" changedate="20101027T201426Z" changeid="eratyk">
         <seg>Сярэдні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Average battery</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185115Z" changeid="eratyk">
+        <seg>Сярэдні ўзровень батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Average battery (charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185158Z" changeid="eratyk">
+        <seg>Сярэдні ўзровень батарэі (зараджаецца)</seg>
       </tuv>
     </tu>
     <tu>
@@ -13710,6 +13742,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Battery plus charging</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185024Z" changeid="eratyk">
+        <seg>Зараджанне батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bcc</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T180951Z" changeid="eratyk">
@@ -13954,6 +13994,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T204510Z" changeid="eratyk">
         <seg>Хуткасць бітаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>BitLocker status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183851Z" changeid="eratyk">
+        <seg>Стан BitLocker</seg>
       </tuv>
     </tu>
     <tu>
@@ -14630,6 +14678,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>By location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183834Z" changeid="eratyk">
+        <seg>Па размяшчэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Byte count</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T181613Z" changeid="eratyk">
@@ -14760,8 +14816,8 @@
       <tuv lang="en">
         <seg>C&amp;urrent Page</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T111758Z" changeid="eratyk">
-        <seg>Бягучая старонка</seg>
+      <tuv lang="be" changedate="20101107T171406Z" changeid="eratyk">
+        <seg>Дзейная старонка</seg>
       </tuv>
     </tu>
     <tu>
@@ -15184,8 +15240,8 @@
       <tuv lang="en">
         <seg>Can't remove the current folder (internal error).</seg>
       </tuv>
-      <tuv lang="be" changedate="20100711T072800Z" changeid="eratyk">
-        <seg>Не ўдаецца выдаліць бягучы каталог (унутраная памылка)</seg>
+      <tuv lang="be" changedate="20101107T171842Z" changeid="eratyk">
+        <seg>Не ўдаецца выдаліць дзейны каталог (унутраная памылка)</seg>
       </tuv>
     </tu>
     <tu>
@@ -16497,8 +16553,8 @@
       <tuv lang="en">
         <seg>Change to a different picture, preserving the formatting and size of the current picture.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T093850Z" changeid="eratyk">
-        <seg>Замяніць малюнак, захаваўшы фарматаванне і памер бягучага малюнка.</seg>
+      <tuv lang="be" changedate="20101107T171241Z" changeid="eratyk">
+        <seg>Замяніць малюнак, захаваўшы фарматаванне і памер дзейнага малюнка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17719,6 +17775,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Classification</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185403Z" changeid="eratyk">
+        <seg>Класіфікацыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clean</seg>
       </tuv>
       <tuv lang="be" changedate="20100311T162531Z" changeid="Ales Koshal [icq#:706101]">
@@ -18113,16 +18177,16 @@
       <tuv lang="en">
         <seg>Clipboard</seg>
       </tuv>
-      <tuv lang="be" changedate="20100831T092240Z" changeid="eratyk">
-        <seg>Буфер абмену</seg>
+      <tuv lang="be" changedate="20101107T164942Z" changeid="eratyk">
+        <seg>Кішэня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Clipboard Viewer</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T135048Z" changeid="eratyk">
-        <seg>Праглядальнік буферу абмену</seg>
+      <tuv lang="be" changedate="20101107T165249Z" changeid="eratyk">
+        <seg>Праглядальнік кішэні</seg>
       </tuv>
     </tu>
     <tu>
@@ -18209,8 +18273,8 @@
       <tuv lang="en">
         <seg>Close the current session so the disc can be used in another computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T174144Z" changeid="eratyk">
-        <seg>Зачыніць бягучую сесію, каб было магчыма скарыстаць дыск на іншым камп'ютары.</seg>
+      <tuv lang="be" changedate="20101107T172054Z" changeid="eratyk">
+        <seg>Зачыніць дзейную сесію, каб было магчыма скарыстаць дыск на іншым камп'ютары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18281,8 +18345,8 @@
       <tuv lang="en">
         <seg>Closes the active document.\nClose</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T113651Z" changeid="eratyk">
-        <seg>Зачыняе бягучы дакумент.\nЗачыніць</seg>
+      <tuv lang="be" changedate="20101107T171305Z" changeid="eratyk">
+        <seg>Зачыняе дзейны дакумент.\nЗачыніць</seg>
       </tuv>
     </tu>
     <tu>
@@ -20057,8 +20121,8 @@
       <tuv lang="en">
         <seg>Copies the current selection onto the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T140926Z" changeid="eratyk">
-        <seg>Капіюе бягучае вылучэнне ў буфер абмену.</seg>
+      <tuv lang="be" changedate="20101107T171509Z" changeid="eratyk">
+        <seg>Капіюе дзейнае вылучэнне ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20073,16 +20137,16 @@
       <tuv lang="en">
         <seg>Copies the selected items to the Clipboard.  Use Paste to put them in the new location.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100904T193231Z" changeid="eratyk">
-        <seg>Капіюе абраныя элементы ў буфер абмену.  Карыстайце 'Уставіць', каб змясціць іх у новым размяшчэнні.</seg>
+      <tuv lang="be" changedate="20101107T165649Z" changeid="eratyk">
+        <seg>Капіюе абраныя элементы ў кішэню. Карыстайце 'Уставіць', каб змясціць іх у новае размяшчэнне.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copies the selected items to the Clipboard. To put them in the new location, use the Paste command.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T100306Z" changeid="eratyk">
-        <seg>Капіюе вылучаныя элементы ў буфер абмену. Каб уставіць іх у новае размяшчэнне, выкарыстайце каманду 'Уставіць'.</seg>
+      <tuv lang="be" changedate="20101107T165241Z" changeid="eratyk">
+        <seg>Капіюе вылучаныя элементы ў кішэню. Каб уставіць іх у новае размяшчэнне, выкарыстайце каманду 'Уставіць'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20209,16 +20273,16 @@
       <tuv lang="en">
         <seg>Copy the selected items to the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100928T135915Z" changeid="eratyk">
-        <seg>Капіяваць абраныя элементы ў буфер абмену.</seg>
+      <tuv lang="be" changedate="20101107T165507Z" changeid="eratyk">
+        <seg>Капіяваць абраныя элементы ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copy the selection and put it on the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T092739Z" changeid="eratyk">
-        <seg>Капіяваць вылучэнне і змясціць яго ў буферы абмену.</seg>
+      <tuv lang="be" changedate="20101107T165032Z" changeid="eratyk">
+        <seg>Капіяваць вылучэнне і змясціць яго ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20241,8 +20305,8 @@
       <tuv lang="en">
         <seg>Copy your current settings to:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T173951Z" changeid="eratyk">
-        <seg>Капіяваць Вашыя бягучыя налады ў:</seg>
+      <tuv lang="be" changedate="20101107T171616Z" changeid="eratyk">
+        <seg>Капіяваць Вашыя дзейныя налады ў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -20887,6 +20951,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Critically low battery</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185048Z" changeid="eratyk">
+        <seg>Крытычна нізкі ўзровень батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Critically low battery (charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185133Z" changeid="eratyk">
+        <seg>Крытычна нізкі ўзровень батарэі (зараджаецца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Croatian</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T064237Z" changeid="eratyk">
@@ -20977,80 +21057,80 @@
       <tuv lang="en">
         <seg>Current Date/Time:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T114822Z" changeid="eratyk">
-        <seg>Бягучыя дата і час</seg>
+      <tuv lang="be" changedate="20101107T171455Z" changeid="eratyk">
+        <seg>Дзейныя дата і час</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current Items</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T055554Z" changeid="eratyk">
-        <seg>Бягучыя элементы</seg>
+      <tuv lang="be" changedate="20101107T171340Z" changeid="eratyk">
+        <seg>Дзейныя элементы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current User</seg>
       </tuv>
-      <tuv lang="be" changedate="20100709T080432Z" changeid="eratyk">
-        <seg>Бягучы карыстальнік</seg>
+      <tuv lang="be" changedate="20101107T171835Z" changeid="eratyk">
+        <seg>Дзейны карыстальнік</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current color:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T063029Z" changeid="alex">
-        <seg>Бягучы колер:</seg>
+      <tuv lang="be" changedate="20101107T172514Z" changeid="eratyk">
+        <seg>Дзейны колер:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current default</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T070759Z" changeid="eratyk">
-        <seg>Бягучае перадвызначэнне</seg>
+      <tuv lang="be" changedate="20101107T172012Z" changeid="eratyk">
+        <seg>Дзейнае перадвызначэнне</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current language for non-Unicode programs:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T125426Z" changeid="eratyk">
-        <seg>Бягучая мова для не-Unicode праграм:</seg>
+      <tuv lang="be" changedate="20101107T171528Z" changeid="eratyk">
+        <seg>Дзейная мова для не-Unicode праграм:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current password</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T170251Z" changeid="eratyk">
-        <seg>Бягучы пароль</seg>
+      <tuv lang="be" changedate="20101107T171357Z" changeid="eratyk">
+        <seg>Дзейны пароль</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current power plan:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T164726Z" changeid="eratyk">
-        <seg>Бягучы план сілкавання:</seg>
+      <tuv lang="be" changedate="20101107T172313Z" changeid="eratyk">
+        <seg>Дзейны план сілкавання:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current user</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T185102Z" changeid="eratyk">
-        <seg>Бягучы карыстальнік</seg>
+      <tuv lang="be" changedate="20101107T171713Z" changeid="eratyk">
+        <seg>Дзейны карыстальнік</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Current%0</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T065543Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Бягучы%0</seg>
+      <tuv lang="be" changedate="20101107T170815Z" changeid="eratyk">
+        <seg>Дзейны%0</seg>
       </tuv>
     </tu>
     <tu>
@@ -21065,16 +21145,16 @@
       <tuv lang="en">
         <seg>Currently searching: %1!s!</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T095516Z" changeid="eratyk">
-        <seg>Бягучы пошук па: %1!s!</seg>
+      <tuv lang="be" changedate="20101107T172152Z" changeid="eratyk">
+        <seg>Дзейны пошук: %1!s!</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Currently searching: %1!s!...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T095532Z" changeid="eratyk">
-        <seg>Бягучы пошук: %1!s!...</seg>
+      <tuv lang="be" changedate="20101107T172136Z" changeid="eratyk">
+        <seg>Дзейны пошук: %1!s!...</seg>
       </tuv>
     </tu>
     <tu>
@@ -21329,8 +21409,8 @@
       <tuv lang="en">
         <seg>Cut the selection from the document and put it on the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T161740Z" changeid="eratyk">
-        <seg>Выняць вылучэнне з дакумента і змясціць яго ў буферы абмену.</seg>
+      <tuv lang="be" changedate="20101107T165022Z" changeid="eratyk">
+        <seg>Выняць вылучэнне з дакумента і змясціць яго ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22019,6 +22099,14 @@
       </tuv>
       <tuv lang="be" changedate="20100920T064335Z" changeid="eratyk">
         <seg>Перадвызначаная друкарка;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default save location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185350Z" changeid="eratyk">
+        <seg>Перадвызначанае размяшчэнне захавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -23353,8 +23441,8 @@
       <tuv lang="en">
         <seg>Display all or the selected pictures and videos in this folder as a slide show.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100928T140424Z" changeid="eratyk">
-        <seg>Паказаць усе ці вылучаныя малюнкі і відэазапісы ў гэтым каталогу ў выглядзе слайдаў.</seg>
+      <tuv lang="be" changedate="20101107T190256Z" changeid="eratyk">
+        <seg>Адлюстраваць усе ці вылучаныя малюнкі і відэазапісы ў гэтым каталогу ў выглядзе слайдаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23377,8 +23465,8 @@
       <tuv lang="en">
         <seg>Display current System Information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T084505Z" changeid="eratyk">
-        <seg>Адлюстраванне бягучай сістэмнай інфармацыі.</seg>
+      <tuv lang="be" changedate="20101107T172021Z" changeid="eratyk">
+        <seg>Адлюстраванне дзейнай сістэмнай інфармацыі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23489,8 +23577,8 @@
       <tuv lang="en">
         <seg>Displays Help for current task or command.\nHelp</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T120249Z" changeid="eratyk">
-        <seg>Адлюстроўвае даведку пра бягучую задачу ці каманду.\nДаведка</seg>
+      <tuv lang="be" changedate="20101107T171318Z" changeid="eratyk">
+        <seg>Адлюстроўвае даведку пра дзейную задачу ці каманду.\nДаведка</seg>
       </tuv>
     </tu>
     <tu>
@@ -23553,8 +23641,8 @@
       <tuv lang="en">
         <seg>Displays information about each item in the window using a tile.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T110758Z" changeid="eratyk">
-        <seg>Адлюстроўвае інфармацыю пра кожны элемент у акне ў форме брукаванкі.</seg>
+      <tuv lang="be" changedate="20101107T163407Z" changeid="eratyk">
+        <seg>Адлюстроўвае інфармацыю пра кожны элемент у акне ў форме бруку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23769,16 +23857,16 @@
       <tuv lang="en">
         <seg>Do this for &amp;all current items</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T074704Z" changeid="eratyk">
-        <seg>Выконваць гэта для ўсіх бягучых элементаў</seg>
+      <tuv lang="be" changedate="20101107T171818Z" changeid="eratyk">
+        <seg>Выконваць гэта для ўсіх дзейных элементаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Do this for &amp;all current items (%1!u! found)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100717T101517Z" changeid="eratyk">
-        <seg>Зрабіць гэта для ўсіх бягучых элементаў (%1!u! знойдзена)
+      <tuv lang="be" changedate="20101107T172001Z" changeid="eratyk">
+        <seg>Зрабіць гэта для ўсіх дзейных элементаў (%1!u! знойдзена)
 </seg>
       </tuv>
     </tu>
@@ -24492,6 +24580,14 @@
       </tuv>
       <tuv lang="be" changedate="20100709T070809Z" changeid="eratyk">
         <seg>Дыск %c:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Driver name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185508Z" changeid="eratyk">
+        <seg>Назва драйвера</seg>
       </tuv>
     </tu>
     <tu>
@@ -25914,8 +26010,8 @@
       <tuv lang="en">
         <seg>Exiting current Instance of the application</seg>
       </tuv>
-      <tuv lang="be" changedate="20100908T191252Z" changeid="eratyk">
-        <seg>Зачыненне бягучага асобніка праграмы</seg>
+      <tuv lang="be" changedate="20101107T171332Z" changeid="eratyk">
+        <seg>Зачыненне дзейнага асобніка праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -26010,8 +26106,8 @@
       <tuv lang="en">
         <seg>Expand to &amp;current folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T114022Z" changeid="eratyk">
-        <seg>Разгарнуць да бягучага каталога</seg>
+      <tuv lang="be" changedate="20101107T171721Z" changeid="eratyk">
+        <seg>Разгарнуць да дзейнага каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -26154,8 +26250,8 @@
       <tuv lang="en">
         <seg>Extended Tile&amp;s</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T120813Z" changeid="eratyk">
-        <seg>Пашыраная брукаванка</seg>
+      <tuv lang="be" changedate="20101107T163448Z" changeid="eratyk">
+        <seg>Пашыраны брук</seg>
       </tuv>
     </tu>
     <tu>
@@ -28218,8 +28314,8 @@
       <tuv lang="en">
         <seg>For more information, click See details.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T133006Z" changeid="eratyk">
-        <seg>Для дадатковай інфармацыі пстрыкніце &quot;Глядзець дэталі&quot;</seg>
+      <tuv lang="be" changedate="20101107T190505Z" changeid="eratyk">
+        <seg>Для дадатковай інфармацыі пстрыкніце &quot;Пабачыць дэталі&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28538,8 +28634,8 @@
       <tuv lang="en">
         <seg>Fri</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T164719Z" changeid="eratyk">
-        <seg>Птн</seg>
+      <tuv lang="be" changedate="20101107T162511Z" changeid="eratyk">
+        <seg>Пят</seg>
       </tuv>
     </tu>
     <tu>
@@ -28554,8 +28650,8 @@
       <tuv lang="en">
         <seg>Friday|Fri</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T165117Z" changeid="eratyk">
-        <seg>Пятніца|Птн</seg>
+      <tuv lang="be" changedate="20101107T160502Z" changeid="eratyk">
+        <seg>Пятніца|Пят</seg>
       </tuv>
     </tu>
     <tu>
@@ -28620,6 +28716,22 @@
       </tuv>
       <tuv lang="be" changedate="20100313T064846Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Поўная праверка%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Full battery</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185124Z" changeid="eratyk">
+        <seg>Батарэя поўная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Full battery (charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185210Z" changeid="eratyk">
+        <seg>Батарэя поўная (зараджаецца)</seg>
       </tuv>
     </tu>
     <tu>
@@ -29260,6 +29372,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T132621Z" changeid="eratyk">
         <seg>Групаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Group</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185515Z" changeid="eratyk">
+        <seg>Група</seg>
       </tuv>
     </tu>
     <tu>
@@ -31362,8 +31482,8 @@
       <tuv lang="en">
         <seg>Initiating changes for package %1. Current state is %2. Target state is %4. Client id: %6.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101103T074329Z" changeid="eratyk">
-        <seg>Ініцыяванне зменаў для пакунка %1. Бягучы стан: %2. Мэтавы стан: %4. ID кліента: %6.</seg>
+      <tuv lang="be" changedate="20101107T171352Z" changeid="eratyk">
+        <seg>Ініцыяванне зменаў для пакунка %1. Дзейны стан: %2. Мэтавы стан: %4. ID кліента: %6.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31522,8 +31642,8 @@
       <tuv lang="en">
         <seg>Inserts Clipboard contents and a link to its source.\nPaste Link</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T114051Z" changeid="eratyk">
-        <seg>Устаўляе змесціва буфера абмену і спасылку на яго крыніцу.\nУставіць спасылку</seg>
+      <tuv lang="be" changedate="20101107T165056Z" changeid="eratyk">
+        <seg>Устаўляе змесціва кішэні і спасылку на яго крыніцу.\nУставіць спасылку</seg>
       </tuv>
     </tu>
     <tu>
@@ -31930,8 +32050,8 @@
       <tuv lang="en">
         <seg>Intializing current instance of the application</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081435Z" changeid="eratyk">
-        <seg>Ініцыялізацыя бягучага асобніка праграмы</seg>
+      <tuv lang="be" changedate="20101107T171326Z" changeid="eratyk">
+        <seg>Ініцыялізацыя дзейнага асобніка праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -32372,6 +32492,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T051811Z" changeid="eratyk">
         <seg>Журнал</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Journal duration</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183844Z" changeid="eratyk">
+        <seg>Працягласць журналу</seg>
       </tuv>
     </tu>
     <tu>
@@ -34092,6 +34220,22 @@
       </tuv>
       <tuv lang="be" changedate="20100713T161200Z" changeid="eratyk">
         <seg>Мала вольнай дыскавай прасторы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low battery</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185059Z" changeid="eratyk">
+        <seg>Нізкі ўзровень батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low battery (charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185141Z" changeid="eratyk">
+        <seg>Нізкі ўзровень батарэі (зараджаецца)</seg>
       </tuv>
     </tu>
     <tu>
@@ -36074,8 +36218,8 @@
       <tuv lang="en">
         <seg>Move the selected items to the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100928T135900Z" changeid="eratyk">
-        <seg>Перамясціць абраныя элементы ў буфер абмену.</seg>
+      <tuv lang="be" changedate="20101107T165453Z" changeid="eratyk">
+        <seg>Перамясціць абраныя элементы ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36914,8 +37058,8 @@
       <tuv lang="en">
         <seg>New options are available. You can keep the current default or choose a new default below. Defaults can always be changed later in Control Panel.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064930Z" changeid="eratyk">
-        <seg>Даступны новыя магчымасці. Вы можаце пакінуць бягучыя параметры альбо абраць новыя. Перадвызначыць іх можна ў панэлі кіравання.</seg>
+      <tuv lang="be" changedate="20101107T171811Z" changeid="eratyk">
+        <seg>Даступны новыя магчымасці. Вы можаце пакінуць дзейныя параметры альбо абраць новыя. Перадвызначыць іх можна ў панэлі кіравання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38938,8 +39082,8 @@
       <tuv lang="en">
         <seg>Orange</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T184912Z" changeid="eratyk">
-        <seg>Аранжавы</seg>
+      <tuv lang="be" changedate="20101107T160300Z" changeid="eratyk">
+        <seg>Памаранчовы</seg>
       </tuv>
     </tu>
     <tu>
@@ -39938,16 +40082,16 @@
       <tuv lang="en">
         <seg>Paste the contents of the Clipboard to the current location.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T173222Z" changeid="eratyk">
-        <seg>Уставіць змесціва буфера абмену ў бягучае размяшчэнне.</seg>
+      <tuv lang="be" changedate="20101107T172045Z" changeid="eratyk">
+        <seg>Уставіць змесціва кішэні ў дзейнае размяшчэнне.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Paste the contents of the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T092610Z" changeid="eratyk">
-        <seg>Уставіць змесціва буфера абмену.</seg>
+      <tuv lang="be" changedate="20101107T164955Z" changeid="eratyk">
+        <seg>Уставіць змесціва кішэні.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41570,8 +41714,8 @@
       <tuv lang="en">
         <seg>Print the current document.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T112955Z" changeid="eratyk">
-        <seg>Надрукаваць бягучы дакумент.</seg>
+      <tuv lang="be" changedate="20101107T171256Z" changeid="eratyk">
+        <seg>Надрукаваць дзейны дакумент.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41644,6 +41788,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T163116Z" changeid="eratyk">
         <seg>Файлы друкаркі (*.prn)|*.prn|Усе файлы (*.*)|*.*||</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Printer name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185410Z" changeid="eratyk">
+        <seg>Назва друкаркі</seg>
       </tuv>
     </tu>
     <tu>
@@ -41844,6 +41996,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T060407Z" changeid="eratyk">
         <seg>Прафесія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Profile GUID</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183824Z" changeid="eratyk">
+        <seg>GUID профілю</seg>
       </tuv>
     </tu>
     <tu>
@@ -43458,8 +43618,8 @@
       <tuv lang="en">
         <seg>Remove all customizations for the current format?</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T182459Z" changeid="eratyk">
-        <seg>Прыбраць усе наладжванні бягучага фармату?</seg>
+      <tuv lang="be" changedate="20101107T171706Z" changeid="eratyk">
+        <seg>Прыбраць усе наладжванні дзейнага фармату?</seg>
       </tuv>
     </tu>
     <tu>
@@ -43594,16 +43754,16 @@
       <tuv lang="en">
         <seg>Removes the current selection and copies it onto the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T140856Z" changeid="eratyk">
-        <seg>Выдаляе бягучае вылучэнне і капіюе яго ў буфер абмену.</seg>
+      <tuv lang="be" changedate="20101107T171502Z" changeid="eratyk">
+        <seg>Выдаляе дзейнае вылучэнне і капіюе яго ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Removes the selected items and copies them onto the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T100059Z" changeid="eratyk">
-        <seg>Выдаляе вылучаныя элементы і капіюе іх у буфер абмену.</seg>
+      <tuv lang="be" changedate="20101107T165219Z" changeid="eratyk">
+        <seg>Выдаляе вылучаныя элементы і капіюе іх у кішэню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44970,8 +45130,8 @@
       <tuv lang="en">
         <seg>S&amp;how more fonts</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T112326Z" changeid="eratyk">
-        <seg>Паказаць больш шрыфтоў</seg>
+      <tuv lang="be" changedate="20101107T190126Z" changeid="eratyk">
+        <seg>Адлюстраваць больш шрыфтоў</seg>
       </tuv>
     </tu>
     <tu>
@@ -45116,6 +45276,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T133941Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Загрузка ў бяспечным рэжыме</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Safe removal required</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T184033Z" changeid="eratyk">
+        <seg>Патрабуецца бяспечнае выманне</seg>
       </tuv>
     </tu>
     <tu>
@@ -45474,8 +45642,8 @@
       <tuv lang="en">
         <seg>Save the active document.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100902T194549Z" changeid="eratyk">
-        <seg>Захаваць бягучы дакумент.</seg>
+      <tuv lang="be" changedate="20101107T171234Z" changeid="eratyk">
+        <seg>Захаваць дзейны дакумент.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45642,8 +45810,8 @@
       <tuv lang="en">
         <seg>Scale height and width of current picture with aspect ratio locked or independently.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T094539Z" changeid="eratyk">
-        <seg>Змяніць вышыню і шырыню бягучага малюнка з ці без захавання суадносінаў.</seg>
+      <tuv lang="be" changedate="20101107T171249Z" changeid="eratyk">
+        <seg>Змяніць вышыню і шырыню дзейнага малюнка з ці без захавання суадносінаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45730,8 +45898,8 @@
       <tuv lang="en">
         <seg>Scan for malicious or unwanted software in the contents or attachments of e-mail.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T080345Z" changeid="eratyk">
-        <seg>Праверыць на наяўнасць шкодных і непажаданых праграмаў у прычэпцы ліста.</seg>
+      <tuv lang="be" changedate="20101107T170746Z" changeid="eratyk">
+        <seg>Прагледзець на шкоднае і непажаданае апраграмаванне ў змесціве і прычэпках э-ліста.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46594,8 +46762,8 @@
       <tuv lang="en">
         <seg>See a list of all program tasks.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T120556Z" changeid="eratyk">
-        <seg>Глядзець спіс задач усіх праграм.</seg>
+      <tuv lang="be" changedate="20101107T190530Z" changeid="eratyk">
+        <seg>Пабачыць спіс задач усіх праграм.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46610,16 +46778,16 @@
       <tuv lang="en">
         <seg>See details</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T133022Z" changeid="eratyk">
-        <seg>Глядзець дэталі</seg>
+      <tuv lang="be" changedate="20101107T190457Z" changeid="eratyk">
+        <seg>Пабачыць дэталі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>See installed printers and add new ones.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T165222Z" changeid="eratyk">
-        <seg>Прагледзець усталяваныя друкаркі і дадаць новыя.</seg>
+      <tuv lang="be" changedate="20101107T190437Z" changeid="eratyk">
+        <seg>Пабачыць усталяваныя друкаркі і дадаць новыя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46642,8 +46810,8 @@
       <tuv lang="en">
         <seg>See the available wireless networks, dial-up, and VPN connections that you can connect to.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T165200Z" changeid="eratyk">
-        <seg>Прагледзець даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі Вы можаце злучыцца.</seg>
+      <tuv lang="be" changedate="20101107T190419Z" changeid="eratyk">
+        <seg>Пабачыць даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі Вы можаце злучыцца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46666,8 +46834,8 @@
       <tuv lang="en">
         <seg>See the status and configure printers on this computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T173545Z" changeid="eratyk">
-        <seg>Паглядзець стан і наладзіць друкаркі на гэтым камп'ютары.</seg>
+      <tuv lang="be" changedate="20101107T190513Z" changeid="eratyk">
+        <seg>Пабачыць стан і наладзіць друкаркі на гэтым камп'ютары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47472,6 +47640,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Session</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T183748Z" changeid="eratyk">
+        <seg>Сесія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Session ID</seg>
       </tuv>
       <tuv lang="be" changedate="20101002T093515Z" changeid="eratyk">
@@ -47896,6 +48072,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Shadowing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185812Z" changeid="eratyk">
+        <seg>Зацяненне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Share</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T144511Z" changeid="eratyk">
@@ -48042,8 +48226,8 @@
       <tuv lang="en">
         <seg>Sho&amp;w title</seg>
       </tuv>
-      <tuv lang="be" changedate="20100909T165533Z" changeid="eratyk">
-        <seg>Паказаць загаловак</seg>
+      <tuv lang="be" changedate="20101107T190211Z" changeid="eratyk">
+        <seg>Адлюстраваць загаловак</seg>
       </tuv>
     </tu>
     <tu>
@@ -48170,24 +48354,24 @@
       <tuv lang="en">
         <seg>Show &amp;details</seg>
       </tuv>
-      <tuv lang="be" changedate="20100721T100339Z" changeid="eratyk">
-        <seg>Паказаць дэталі</seg>
+      <tuv lang="be" changedate="20101107T190110Z" changeid="eratyk">
+        <seg>Адлюстраваць дэталі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Show &amp;details &gt;&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100721T100351Z" changeid="eratyk">
-        <seg>Паказаць дэталі &gt;&gt;</seg>
+      <tuv lang="be" changedate="20101107T185914Z" changeid="eratyk">
+        <seg>Адлюстраваць дэталі &gt;&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Show &amp;previous versions</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T173322Z" changeid="eratyk">
-        <seg>Паказаць папярэднія версіі</seg>
+      <tuv lang="be" changedate="20101107T190141Z" changeid="eratyk">
+        <seg>Адлюстраваць папярэднія версіі</seg>
       </tuv>
     </tu>
     <tu>
@@ -48210,8 +48394,8 @@
       <tuv lang="en">
         <seg>Show Error Details</seg>
       </tuv>
-      <tuv lang="be" changedate="20100729T104715Z" changeid="eratyk">
-        <seg>Паказаць дэталі памылкі</seg>
+      <tuv lang="be" changedate="20101107T190003Z" changeid="eratyk">
+        <seg>Адлюстраваць дэталі памылкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -48290,8 +48474,8 @@
       <tuv lang="en">
         <seg>Show color mi&amp;xer</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T064355Z" changeid="alex">
-        <seg>Паказаць змяшальнік колераў</seg>
+      <tuv lang="be" changedate="20101107T190335Z" changeid="eratyk">
+        <seg>Адлюстраваць змяшальнік колераў</seg>
       </tuv>
     </tu>
     <tu>
@@ -48322,8 +48506,8 @@
       <tuv lang="en">
         <seg>Show details</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T152400Z" changeid="eratyk">
-        <seg>Паказаць дэталі</seg>
+      <tuv lang="be" changedate="20101107T185924Z" changeid="eratyk">
+        <seg>Адлюстраваць дэталі</seg>
       </tuv>
     </tu>
     <tu>
@@ -48418,8 +48602,8 @@
       <tuv lang="en">
         <seg>Show or hide</seg>
       </tuv>
-      <tuv lang="be" changedate="20100831T093327Z" changeid="eratyk">
-        <seg>Паказаць ці схаваць</seg>
+      <tuv lang="be" changedate="20101107T185833Z" changeid="eratyk">
+        <seg>Адлюстраваць ці схаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -48466,8 +48650,8 @@
       <tuv lang="en">
         <seg>Show or hide ruler. You can use ruler to measure and line up text and objects in the document.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T100216Z" changeid="eratyk">
-        <seg>Паказаць ці схаваць лінейку. Вы можаце карыстаць яе, каб вымяраць і выраўноўваць тэкст і аб'екты дакумента.</seg>
+      <tuv lang="be" changedate="20101107T185956Z" changeid="eratyk">
+        <seg>Адлюстраваць ці схаваць лінейку. Вы можаце карыстаць яе, каб вымяраць і выраўноўваць тэкст і аб'екты дакумента.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48514,8 +48698,8 @@
       <tuv lang="en">
         <seg>Show or hide the color mixer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T064323Z" changeid="alex">
-        <seg>Паказаць ці схаваць змяшальнік колераў.</seg>
+      <tuv lang="be" changedate="20101107T185855Z" changeid="eratyk">
+        <seg>Адлюстраваць ці схаваць змяшальнік колераў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48538,8 +48722,8 @@
       <tuv lang="en">
         <seg>Show or hide this folderвЂ™s menu bar.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T195319Z" changeid="eratyk">
-        <seg>Паказаць ці схаваць паліцу меню гэтага каталога.</seg>
+      <tuv lang="be" changedate="20101107T190316Z" changeid="eratyk">
+        <seg>Адлюстраваць ці схаваць паліцу меню гэтага каталога.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48578,8 +48762,8 @@
       <tuv lang="en">
         <seg>Show preview image</seg>
       </tuv>
-      <tuv lang="be" changedate="20100922T104113Z" changeid="eratyk">
-        <seg>Паказаць выяву перадпрагляду</seg>
+      <tuv lang="be" changedate="20101107T190147Z" changeid="eratyk">
+        <seg>Адлюстраваць выяву перадпрагляду</seg>
       </tuv>
     </tu>
     <tu>
@@ -48610,8 +48794,8 @@
       <tuv lang="en">
         <seg>Show restart prompt</seg>
       </tuv>
-      <tuv lang="be" changedate="20100922T104555Z" changeid="eratyk">
-        <seg>Паказаць запыт пра перазапуск</seg>
+      <tuv lang="be" changedate="20101107T190203Z" changeid="eratyk">
+        <seg>Адлюстраваць запыт пра перазапуск</seg>
       </tuv>
     </tu>
     <tu>
@@ -48698,8 +48882,8 @@
       <tuv lang="en">
         <seg>Show the compatibility files for this directory.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T095236Z" changeid="eratyk">
-        <seg>Паказаць файлы сумяшчальнасці для гэтага каталога.</seg>
+      <tuv lang="be" changedate="20101107T190305Z" changeid="eratyk">
+        <seg>Адлюстраваць файлы сумяшчальнасці для гэтага каталога.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49586,8 +49770,8 @@
       <tuv lang="en">
         <seg>Some items may not fit on your screen if you choose this setting while your display is set to this resolution.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100922T103730Z" changeid="eratyk">
-        <seg>Некаторыя элементы, магчыма, не змесцяцца на Вашым экране, калі Вы абераце гэтую наладу пры бягучай разрознасці экрана.</seg>
+      <tuv lang="be" changedate="20101107T171449Z" changeid="eratyk">
+        <seg>Некаторыя элементы, магчыма, не змесцяцца на Вашым экране, калі Вы абераце гэтую наладу ў дзейнай разрознасці экрана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50930,8 +51114,8 @@
       <tuv lang="en">
         <seg>Stops the current page from loading.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T151006Z" changeid="eratyk">
-        <seg>Спыняе ладаванне бягучай старонкі.</seg>
+      <tuv lang="be" changedate="20101107T171521Z" changeid="eratyk">
+        <seg>Спыняе ладаванне дзейнай старонкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51106,8 +51290,8 @@
       <tuv lang="en">
         <seg>Sun</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T164346Z" changeid="eratyk">
-        <seg>Ндз</seg>
+      <tuv lang="be" changedate="20101107T162449Z" changeid="eratyk">
+        <seg>Няд</seg>
       </tuv>
     </tu>
     <tu>
@@ -51122,8 +51306,8 @@
       <tuv lang="en">
         <seg>Sunday|Sun</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T164329Z" changeid="eratyk">
-        <seg>Нядзеля|Ндз</seg>
+      <tuv lang="be" changedate="20101107T160429Z" changeid="eratyk">
+        <seg>Нядзеля|Няд</seg>
       </tuv>
     </tu>
     <tu>
@@ -52282,8 +52466,8 @@
       <tuv lang="en">
         <seg>The &amp;settings for the current user, welcome screen (system accounts) and new user accounts are displayed below.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T173704Z" changeid="eratyk">
-        <seg>Ніжэй адлюстраваныя налады бягучага карыстальніка, экрана вітання (сістэмных рахункаў) і новых рахункаў карыстальнікаў.</seg>
+      <tuv lang="be" changedate="20101107T171607Z" changeid="eratyk">
+        <seg>Ніжэй адлюстраваныя налады дзейнага карыстальніка, экрана вітання (сістэмных рахункаў) і новых рахункаў карыстальнікаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53650,8 +53834,8 @@
       <tuv lang="en">
         <seg>The other homegroup computers have the current homegroup password.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T083514Z" changeid="eratyk">
-        <seg>Іншыя камп'ютары хатняй групы маюць яе бягучы пароль.</seg>
+      <tuv lang="be" changedate="20101107T172255Z" changeid="eratyk">
+        <seg>Іншыя камп'ютары хатняй групы маюць яе дзейны пароль.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56363,24 +56547,24 @@
       <tuv lang="en">
         <seg>This version of the software is not compatible with the version of Windows you're running. Check your computer's system information to see whether you need a x86 (32-bit) or x64 (64-bit) version of the program, and then contact the software publisher.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T180343Z" changeid="eratyk">
-        <seg>Версія апраграмавання не сумяшчальная з бягучай версіяй Windows. З дапамогай звестак аб сістэме вызначце неабходную версію праграмы (32- або 64-разрадную) і звяжыцеся з выдаўцом праграмы.</seg>
+      <tuv lang="be" changedate="20101107T170757Z" changeid="eratyk">
+        <seg>Версія апраграмавання не сумяшчальная з дзейнай версіяй Windows. З дапамогай звестак аб сістэме вызначце неабходную версію праграмы (32- або 64-разрадную) і звяжыцеся з выдаўцом праграмы.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This version of the software is not compatible with the version of Windows you're running. Check your computer's system information to see whether you need a x86 (32-bit) or x64 (64-bit) version of the program, and then contact the software publisher.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101001T143406Z" changeid="eratyk">
-        <seg>Версія апраграмавання не сумяшчальная з бягучай версіяй Windows. З дапамогай звестак аб сістэме вызначце неабходную версію праграмы (32- або 64-разрадную) і звяжыцеся з выдаўцом праграмы.\r\n</seg>
+      <tuv lang="be" changedate="20101107T170805Z" changeid="eratyk">
+        <seg>Версія апраграмавання не сумяшчальная з дзейнай версіяй Windows. З дапамогай звестак аб сістэме вызначце неабходную версію праграмы (32- або 64-разрадную) і звяжыцеся з выдаўцом праграмы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Thu</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T164709Z" changeid="eratyk">
-        <seg>Чцв</seg>
+      <tuv lang="be" changedate="20101107T162505Z" changeid="eratyk">
+        <seg>Чац</seg>
       </tuv>
     </tu>
     <tu>
@@ -56411,8 +56595,8 @@
       <tuv lang="en">
         <seg>Thursday|Thur|Thu</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T165052Z" changeid="eratyk">
-        <seg>Чацвер|Чцв</seg>
+      <tuv lang="be" changedate="20101107T160449Z" changeid="eratyk">
+        <seg>Чацвер|Чац</seg>
       </tuv>
     </tu>
     <tu>
@@ -56451,8 +56635,8 @@
       <tuv lang="en">
         <seg>Tiles</seg>
       </tuv>
-      <tuv lang="be" changedate="20100911T061405Z" changeid="eratyk">
-        <seg>Брукаванка</seg>
+      <tuv lang="be" changedate="20101107T163356Z" changeid="eratyk">
+        <seg>Брук</seg>
       </tuv>
     </tu>
     <tu>
@@ -58131,8 +58315,8 @@
       <tuv lang="en">
         <seg>Unblock\nShow all content</seg>
       </tuv>
-      <tuv lang="be" changedate="20100831T070205Z" changeid="eratyk">
-        <seg>Разблакаваць\nПаказаць усё змесціва</seg>
+      <tuv lang="be" changedate="20101107T185939Z" changeid="eratyk">
+        <seg>Разблакаваць\nАдлюстраваць усё змесціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -58553,6 +58737,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unknown battery and charging status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185240Z" changeid="eratyk">
+        <seg>Узровень батарэі і стан зараджання невядомыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown capacity</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T151042Z" changeid="eratyk">
@@ -58851,8 +59043,8 @@
       <tuv lang="en">
         <seg>Update the container to show any changes.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100902T195530Z" changeid="eratyk">
-        <seg>Абнавіць кантэйнер, каб паказаць усе змены.</seg>
+      <tuv lang="be" changedate="20101107T185949Z" changeid="eratyk">
+        <seg>Абнавіць кантэйнер, каб адлюстраваць усе змены.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59011,8 +59203,8 @@
       <tuv lang="en">
         <seg>Use Clipboard Viewer to view, save, and share text that you have cut and/or copied from documents.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T193022Z" changeid="eratyk">
-        <seg>Выкарыстоўваць праглядальнік буфера абмену для праглядання, захавання і ўжывання тэксту, які Вы скапіявалі альбо вынялі з дакументаў.</seg>
+      <tuv lang="be" changedate="20101107T165443Z" changeid="eratyk">
+        <seg>Карыстаць праглядальнік кішэні для праглядання, захавання і надавання агульнага доступу тэксту, які Вы скапіявалі альбо вынялі з дакументаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59213,6 +59405,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T091322Z" changeid="eratyk">
         <seg>Ужыта:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>User</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101107T185512Z" changeid="eratyk">
+        <seg>Карыстальнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -59899,8 +60099,8 @@
       <tuv lang="en">
         <seg>View current accessibility settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20101028T084129Z" changeid="eratyk">
-        <seg>Прагледзець бягучыя налады даступнасці</seg>
+      <tuv lang="be" changedate="20101107T172028Z" changeid="eratyk">
+        <seg>Прагледзець дзейныя налады даступнасці</seg>
       </tuv>
     </tu>
     <tu>
@@ -60067,8 +60267,8 @@
       <tuv lang="en">
         <seg>View running processes with Task Manager</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T193237Z" changeid="eratyk">
-        <seg>Прагледзець бягучыя працэсы праз кіраўнік задач</seg>
+      <tuv lang="be" changedate="20101107T172036Z" changeid="eratyk">
+        <seg>Прагледзець дзейныя працэсы праз кіраўнік задач</seg>
       </tuv>
     </tu>
     <tu>
@@ -61643,8 +61843,8 @@
       <tuv lang="en">
         <seg>Windows can't burn to the current disc.\nPlease insert a writable disc into drive %1.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T121034Z" changeid="eratyk">
-        <seg>Windows не можа прапаліць бягучую кружэлку.\nКалі ласка, устаўце запісвальную кружэлку ў кружэльнік %1.</seg>
+      <tuv lang="be" changedate="20101107T172306Z" changeid="eratyk">
+        <seg>Windows не можа прапаліць дзейную кружэлку.\nКалі ласка, устаўце запісвальную кружэлку ў кружэльнік %1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62219,16 +62419,16 @@
       <tuv lang="en">
         <seg>Windows needs your current credentials</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T183414Z" changeid="eratyk">
-        <seg>Windows неабходны Вашыя бягучыя пасведчанні</seg>
+      <tuv lang="be" changedate="20101107T172543Z" changeid="eratyk">
+        <seg>Windows неабходны Вашыя дзейныя пасведчанні</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows needs your current credentials to ensure network connectivity.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T183425Z" changeid="eratyk">
-        <seg>Windows неабходны Вашыя бягучыя пасведчанні для гарантавання сеткавай злучальнасці.</seg>
+      <tuv lang="be" changedate="20101107T172531Z" changeid="eratyk">
+        <seg>Windows неабходны Вашыя дзейныя пасведчанні для гарантавання сеткавай злучальнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62443,8 +62643,8 @@
       <tuv lang="en">
         <seg>WordPad can't save this document in its current format.  The document will be converted to Rich Text format.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100828T073823Z" changeid="eratyk">
-        <seg>WordPad не можа захаваць гэты дакумент у яго бягучым фармаце. Дакумент будзе сканвертаваны ў фармат RTF.</seg>
+      <tuv lang="be" changedate="20101107T171228Z" changeid="eratyk">
+        <seg>WordPad не можа захаваць гэты дакумент у яго дзейным фармаце. Дакумент будзе сканвертаваны ў фармат RTF.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63035,8 +63235,8 @@
       <tuv lang="en">
         <seg>You can't specify a different folder or disk when you rename a file or folder.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100711T131243Z" changeid="eratyk">
-        <seg>Вы не можаце пераназываць дыск ці бягучы каталог падчас пераназвання ўнутраных файлаў альбо каталогаў.</seg>
+      <tuv lang="be" changedate="20101107T171916Z" changeid="eratyk">
+        <seg>Вы не можаце пераназываць дыск ці дзейны каталог падчас пераназвання ўнутраных файлаў альбо каталогаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63851,24 +64051,24 @@
       <tuv lang="en">
         <seg>Your current brightness setting might reduce battery life.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T164944Z" changeid="eratyk">
-        <seg>Ваша бягучая яркасць можа знізіць час працы батарэі.</seg>
+      <tuv lang="be" changedate="20101107T172335Z" changeid="eratyk">
+        <seg>Ваша дзейная яркасць можа знізіць час працы батарэі.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Your current plan might reduce battery life.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T164905Z" changeid="eratyk">
-        <seg>Ваш бягучы план сілкавання можа знізіць час працы батарэі.</seg>
+      <tuv lang="be" changedate="20101107T172327Z" changeid="eratyk">
+        <seg>Ваш дзейны план сілкавання можа знізіць час працы батарэі.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Your current plan might reduce system performance.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T164814Z" changeid="eratyk">
-        <seg>Ваш бягучы план сілкавання можа знізіць прадукцыйнасць сістэмы.</seg>
+      <tuv lang="be" changedate="20101107T172320Z" changeid="eratyk">
+        <seg>Ваш дзейны план сілкавання можа знізіць прадукцыйнасць сістэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65891,8 +66091,8 @@
       <tuv lang="en">
         <seg>|Extended Tiles||</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T175011Z" changeid="eratyk">
-        <seg>|Пашыраная брукаванка||</seg>
+      <tuv lang="be" changedate="20101107T163425Z" changeid="eratyk">
+        <seg>|Пашыраны брук||</seg>
       </tuv>
     </tu>
     <tu>
@@ -65971,8 +66171,8 @@
       <tuv lang="en">
         <seg>|Tiles||</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T174946Z" changeid="eratyk">
-        <seg>|Брукаванка||</seg>
+      <tuv lang="be" changedate="20101107T163415Z" changeid="eratyk">
+        <seg>|Брук||</seg>
       </tuv>
     </tu>
     <tu>
