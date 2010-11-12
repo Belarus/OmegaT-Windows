@@ -1,0 +1,149 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50,  "Unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  82,  "Cancel"
+  83,  "Superseded"
+  84,  "Default"
+  92,  "Permanent Invalid"
+  93,  "Installed Invalid"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "Staged Invalid"
+  99,  "Resolved Invalid"
+  100,  "Absent"
+  101,  "Resolving"
+  102,  "Resolved"
+  103,  "Staging"
+  104,  "Staged"
+  105,  "Uninstall Requested"
+  106,  "Install Requested"
+  107,  "Installed"
+  108,  "Permanent"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Windows Modules Installer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Install or uninstall of one or more Windows Features or Updates was not successful."
+  401,  "Programs and Features"
+  402,  "Programs and Features Reminder"
+  403,  "Uninstall of the Service Pack was not successful."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Stage %d of %d\n"
+  501,  "Do not turn off your computer."
+  502,  "%d%% complete\n"
+  503,  ".  \n"
+  504,  " . \n"
+  505,  "  .\n"
+  506,  "Preparing to configure Windows"
+  507,  "Assembling Windows"
+  508,  "Assembling Service Pack"
+  509,  "Assembling Windows features"
+  510,  "Assembling Windows updates"
+  511,  "Upgrading Windows\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "Configuring Service Pack\n"
+  513,  "Configuring Windows features\n"
+  514,  "Configuring Windows updates\n"
+  515,  "Reverting changes"
+  516,  "Preparing to retry"
+  517,  "Failure upgrading Windows\n"
+  518,  "Failure configuring Service Pack\n"
+  519,  "Failure configuring Windows features\n"
+  520,  "Failure configuring Windows updates\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  530,  "Cleaning up"
+}
+
+1 MESSAGETABLE
+{
+  268435512,  "Classic\r\n"
+  1073746195,  "Windows Servicing started a process of changing package %1(%2) state from %3(%4) to %5(%6)\r\n"
+  1073746196,  "Windows Servicing is setting package %1(%2) state to %3(%4)\r\n"
+  1073746197,  "Windows Servicing successfully set package %1(%2) state to %3(%4)\r\n"
+  1073746207,  "Windows Servicing completed the process of changing update %1 from package %2 (%3) into %4(%5) state\r\n"
+  1073746224,  "Windows Servicing is processing hotpatch package %1(%2).\r\n"
+  1073746225,  "Windows Servicing disabled hotpatching for package %2(%3) because update %1 is not enabled for hotpatching.\r\n"
+  1073746226,  "Windows Servicing disabled hotpatching for package %1(%2) because servicing is being performed offline.\r\n"
+  1073746227,  "Windows Servicing disabled hotpatching for package %1(%2) because a reboot is required to complete a prior operation.\r\n"
+  1073746228,  "Windows Servicing successfully installed hotpatching package %1(%2).\r\n"
+  1073746229,  "Windows Servicing has required a reboot to complete the installation of hotpatching package %1(%2).\r\n"
+  1073746240,  "Windows Servicing disabled hotpatching for package %2(%3) because update %1 is being set to state %4(%5).\r\n"
+  2147488022,  "Windows Servicing identified that package %1(%2) is not applicable for this system\r\n"
+  2147488024,  "Servicing has required reboot to complete the operation of setting package %1(%2) into %3(%4) state\r\n"
+  2147488034,  "Windows Servicing required reboot to complete the process of changing update %1 from package %2(%3) into %4(%5) state\r\n"
+  2147488054,  "Windows Servicing disabled hotpatching for package %1(%2) because a file could not be replaced immediately.\r\n"
+  2147488055,  "Windows Servicing disabled hotpatching for package %1(%2) because required files or custom actions are incompatible with hotpatching.\r\n"
+  2147488056,  "Windows Servicing failed to perform hotpatching for package %1(%2) because the hotpatch installer required a reboot.\r\n"
+  2147488057,  "Windows Servicing failed to perform hotpatching for package %1(%2) because of an error (%8).\r\n"
+  2147488065,  "Windows Servicing disabled hotpatching for package %2(%3) because hotpatch update %1 will not be installed.\r\n"
+  2147488066,  "Windows Servicing disabled hotpatching for package %2(%3) to process regular update %1.\r\n"
+  2415919105,  "Microsoft-Windows-Servicing\r\n"
+  2952790017,  "Initiating changes for package %1. Current state is %2. Target state is %4. Client id: %6.\r\n"
+  2952790018,  "Package %1 was successfully changed to the %2 state.\r\n"
+  2952790019,  "Package %1 failed to be changed to the %2 state. Status: %4.\r\n"
+  2952790020,  "A reboot is necessary before package %1 can be changed to the %2 state.\r\n"
+  2952790021,  "The servicing request received for package %1 cannot be satisfied since the package is not applicable.\r\n"
+  2952790022,  "Package %1 failed to be changed to the %2 state and is now partially installed. Status: %4.\r\n"
+  2952790023,  "Initiating changes to turn on update %1 of package %2. Client id: %4.\r\n"
+  2952790024,  "Initiating changes to turn off update %1 of package %2. Client id: %4.\r\n"
+  2952790025,  "Selectable update %1 of package %2 was successfully turned on.\r\n"
+  2952790026,  "Selectable update %1 of package %2 was successfully turned off.\r\n"
+  2952790027,  "Update %1 of package %2 failed to be turned on. Status: %3.\r\n"
+  2952790028,  "Update %1 of package %2 failed to be turned off. Status: %3.\r\n"
+  2952790029,  "A reboot is necessary before the selectable update %1 of package %2 can be turned on.\r\n"
+  2952790030,  "A reboot is necessary before the selectable update %1 of package %2 can be turned off.\r\n"
+  3221229847,  "Windows Servicing failed to complete the process of setting package %1 (%2) into %3(%4) state\r\n"
+  3221229857,  "Windows Servicing failed to complete the process of changing update %1 from package %2(%3) into %4(%5) state\r\n"
+  3489660929,  "Absent\r\n"
+  3489660930,  "Uninstall Pending\r\n"
+  3489660931,  "Resolving\r\n"
+  3489660932,  "Resolved\r\n"
+  3489660933,  "Staging\r\n"
+  3489660934,  "Staged\r\n"
+  3489660935,  "Superseded\r\n"
+  3489660936,  "Install Pending\r\n"
+  3489660937,  "Partially Installed\r\n"
+  3489660938,  "Installed\r\n"
+  3489660939,  "Permanent\r\n"
+  3489660940,  "Invalid Resolved\r\n"
+  3489660941,  "Invalid Staged\r\n"
+  3489660942,  "Invalid Installed\r\n"
+  3489660943,  "Invalid Permanent\r\n"
+  3489660944,  "Default\r\n"
+  3489660945,  "Package\r\n"
+  3489660946,  "File Deltas\r\n"
+  3489660947,  "Download\r\n"
+  3489660948,  "Detect\r\n"
+  3489660949,  "Cancel\r\n"
+}
