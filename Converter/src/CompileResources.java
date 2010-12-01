@@ -49,7 +49,7 @@ import resources.res.RESFile;
 import win7.SkipResources;
 
 /**
- * Гэты клясс абыходзіць .mui файлы ў каталёзе mui-bin/ і накладае на іх новыя
+ * Гэтая кляса абыходзіць .mui файлы ў каталёгу mui-bin/ і накладае на іх новыя
  * перакладзеныя рэсурсы.
  */
 public class CompileResources {

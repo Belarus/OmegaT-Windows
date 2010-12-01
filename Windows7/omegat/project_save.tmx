@@ -150,6 +150,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 (%2)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152301Z" changeid="eratyk">
+        <seg>%1 (%2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 (%2)\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164201Z" changeid="eratyk">
+        <seg>%1 (%2)\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 (Bluetooth): %2!d!%%</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T162523Z" changeid="eratyk">
@@ -226,6 +242,14 @@
       </tuv>
       <tuv lang="be" changedate="20100313T092630Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Канфігурацыя %1 была зменена. Калі гэта адбылося не чакана, то рэкамендавана праверыць налады сістэмы: магчыма змяненні выклікала праграма са шкодным кодам.%n %tСтарое значэнне:%3%n %tНовае значэнне:%4 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 Library</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141841Z" changeid="eratyk">
+        <seg>Бібліятэка &quot;%1&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1750,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1\n\nFolder:  %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141605Z" changeid="eratyk">
+        <seg>%1\n\nКаталог:  %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\n\nFolder:  %2\nShare Name:  %3</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T174116Z" changeid="eratyk">
+        <seg>%1\n\nКаталог:  %2\nНазва агульнага доступу:  %3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1\n\nFolder:  %2\nShare Names:  %3</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T174130Z" changeid="eratyk">
+        <seg>%1\n\nКаталог:  %2\nНазвы агульнага доступу:  %3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1\n\nTo add a toolbar to your desktop, right-click an existing toolbar, click Toolbars, and then click an item.</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T155535Z" changeid="eratyk">
@@ -1986,6 +2034,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T134523Z" changeid="eratyk">
         <seg>%s %s #%d</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%s &amp; %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T184051Z" changeid="eratyk">
+        <seg>%s &amp; %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -2374,6 +2430,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%s, %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141240Z" changeid="eratyk">
+        <seg>%s, %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%s, ...</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T064931Z" changeid="eratyk">
@@ -2674,6 +2738,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T123823Z" changeid="eratyk">
         <seg>Дадаць да абранага...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Add to index...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192701Z" changeid="eratyk">
+        <seg>Дадаць да індэкса...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3472,56 +3544,56 @@
       <tuv lang="en">
         <seg>&amp;Copy</seg>
       </tuv>
-      <tuv lang="be" changedate="20100703T180305Z" changeid="alex">
-        <seg>Капіяваць</seg>
+      <tuv lang="be" changedate="20101130T183453Z" changeid="eratyk">
+        <seg>Скапіяваць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy address</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T114902Z" changeid="eratyk">
-        <seg>Капіяваць адрас</seg>
+      <tuv lang="be" changedate="20101130T183542Z" changeid="eratyk">
+        <seg>Скапіяваць адрас</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy address as text</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T114909Z" changeid="eratyk">
-        <seg>Капіяваць адрас як тэкст</seg>
+      <tuv lang="be" changedate="20101130T183548Z" changeid="eratyk">
+        <seg>Скапіяваць адрас як тэкст</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy here</seg>
       </tuv>
-      <tuv lang="be" changedate="20100703T131936Z" changeid="alex">
-        <seg>Капіяваць сюды</seg>
+      <tuv lang="be" changedate="20101130T183613Z" changeid="eratyk">
+        <seg>Скапіяваць сюды</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy to group</seg>
       </tuv>
-      <tuv lang="be" changedate="20100703T132249Z" changeid="alex">
-        <seg>Капіяваць у групу</seg>
+      <tuv lang="be" changedate="20101130T183618Z" changeid="eratyk">
+        <seg>Скапіяваць у групу</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T162132Z" changeid="eratyk">
-        <seg>Капіяваць...</seg>
+      <tuv lang="be" changedate="20101130T183538Z" changeid="eratyk">
+        <seg>Скапіяваць...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Copy\tCtrl+C</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T093232Z" changeid="alex">
-        <seg>Капіяваць\tCtrl+C</seg>
+      <tuv lang="be" changedate="20101130T183442Z" changeid="eratyk">
+        <seg>Скапіяваць\tCtrl+C</seg>
       </tuv>
     </tu>
     <tu>
@@ -3798,6 +3870,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Diagnose network connectivity problem...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183831Z" changeid="eratyk">
+        <seg>Дыягназаваць праблему сеткавай злучальнасці...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Disc title:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T173001Z" changeid="eratyk">
@@ -3950,6 +4030,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Don't show this message again</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183137Z" changeid="eratyk">
+        <seg>Больш не паказваць гэтае паведамленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Done</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161441Z" changeid="eratyk">
+        <seg>Зроблена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Dont use the index when searching in file folders for system files (searches might take longer)</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T120552Z" changeid="eratyk">
@@ -3968,8 +4064,8 @@
       <tuv lang="en">
         <seg>&amp;Don’t use the index when searching in file folders for system files (searches might take longer)</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T174715Z" changeid="eratyk">
-        <seg>Не выкарыстоўваць індэкс падчас пошуку ў сістэмных каталогах (патрабуе больш часу)</seg>
+      <tuv lang="be" changedate="20101130T184505Z" changeid="eratyk">
+        <seg>Не выкарыстоўваць індэкс падчас шукання ў сістэмных каталогах (патрабуе больш часу)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4458,6 +4554,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T174619Z" changeid="eratyk">
         <seg>Дапамога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Help about search</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183319Z" changeid="eratyk">
+        <seg>Пошук у даведцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -5074,6 +5178,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T122043Z" changeid="eratyk">
         <seg>Згарнуць усе вокны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Modify index locations...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183348Z" changeid="eratyk">
+        <seg>Змяніць індэксаваныя размяшчэнні...</seg>
       </tuv>
     </tu>
     <tu>
@@ -6488,16 +6600,16 @@
       <tuv lang="en">
         <seg>&amp;Share name:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T073754Z" changeid="eratyk">
-        <seg>Агульнадаступная назва:</seg>
+      <tuv lang="be" changedate="20101130T174030Z" changeid="eratyk">
+        <seg>Назва агульнага доступу:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Share this folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T073610Z" changeid="eratyk">
-        <seg>Даць агульны доступ гэтаму каталогу</seg>
+      <tuv lang="be" changedate="20101130T142330Z" changeid="eratyk">
+        <seg>Даць агульны доступ да гэтага каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -7118,6 +7230,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Turn on index...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183132Z" changeid="eratyk">
+        <seg>Уключыць індэкс...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Two Page</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163243Z" changeid="eratyk">
@@ -7338,6 +7458,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T175747Z" changeid="eratyk">
         <seg>Прагледзець усё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;View indexing status...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183436Z" changeid="eratyk">
+        <seg>Прагледзець стан індэксавання...</seg>
       </tuv>
     </tu>
     <tu>
@@ -10014,6 +10142,150 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing these files.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153936Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да файлаў.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing these folders.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153947Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да каталогаў.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing these libraries.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T170900Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да бібліятэк.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing this drive.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153920Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да дыска.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing this file.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153843Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да файла.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing this folder.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153854Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да каталога.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when sharing this library.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165712Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас давання агульнага доступу да бібліятэкі.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing these files.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154324Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да файлаў.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing these folders.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154332Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да каталогаў.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing these libraries.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T170912Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да бібліятэк.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing this drive.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154153Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да дыска.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing this file.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154119Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да файла.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing this folder.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154138Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да каталога.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;%d error(s) occurred when trying to stop sharing this library.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165758Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Адбылося %d памылак падчас спынення агульнага доступу да бібліятэкі.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;More information&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153250Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowErrors&quot;&gt;Больш інфармацыі&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowFiles&quot;&gt;Show me all the files I'm sharing.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T154417Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowFiles&quot;&gt;Паказаць мне ўсе зробленыя агульнадаступнымі файлы.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowPowerCPL&quot;&gt;Shared items aren't accessible when your computer is asleep.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T155918Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowPowerCPL&quot;&gt;Агульнадаступныя элементы не будуць даступнымі падчас сну камп'ютара.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A href=&quot;ShowShares&quot;&gt;Show me all the network shares on this computer.&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T155620Z" changeid="eratyk">
+        <seg>&lt;A href=&quot;ShowShares&quot;&gt;Паказаць мне ўсе агульнадаступныя сеткавыя элементы для гэтага камп'ютара.&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A id=&quot;Help&quot;&gt;How can I decide what software to run?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T103642Z" changeid="eratyk">
@@ -10198,6 +10470,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;For details, open this link to view the feed.&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T195136Z" changeid="eratyk">
+        <seg>&lt;Для атрымання дэталяў адчыніце гэтую спасылку для прагляду стужкі.&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;No information available&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T195021Z" changeid="eratyk">
+        <seg>&lt;Няма даступнай інфармацыі&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;P&gt;Picture Attachments:&lt;/P&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T080944Z" changeid="eratyk">
@@ -10360,8 +10648,8 @@
       <tuv lang="en">
         <seg>&lt;no title&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T055241Z" changeid="eratyk">
-        <seg>&lt;няма назвы&gt;</seg>
+      <tuv lang="be" changedate="20101130T195001Z" changeid="eratyk">
+        <seg>&lt;без назвы&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11246,6 +11534,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A share name can't contain any of the following characters:\n\t %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T174043Z" changeid="eratyk">
+        <seg>Назва агульнага доступу не павінна змяшчаць гэтыя сімвалы:\n\t %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A single history graph shows total CPU usage</seg>
       </tuv>
       <tuv lang="be" changedate="20101125T200043Z" changeid="eratyk">
@@ -11352,8 +11648,8 @@
       <tuv lang="en">
         <seg>A&amp;dvanced Sharing...</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T073537Z" changeid="eratyk">
-        <seg>Дадатковая агульнадаступнасць...</seg>
+      <tuv lang="be" changedate="20101130T152225Z" changeid="eratyk">
+        <seg>Дадатковы агульны доступ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -12438,6 +12734,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Add to Index</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192706Z" changeid="eratyk">
+        <seg>Дадаць да індэкса</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add to index</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192746Z" changeid="eratyk">
+        <seg>Дадаць да індэкса</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add, change, and manage fonts on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T170340Z" changeid="eratyk">
@@ -12782,6 +13094,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Advanced Search</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T184120Z" changeid="eratyk">
+        <seg>Дадатковы пошук</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Advanced Sharing</seg>
       </tuv>
       <tuv lang="be" changedate="20101126T073259Z" changeid="eratyk">
@@ -12834,6 +13154,22 @@
       </tuv>
       <tuv lang="be" changedate="20100922T092532Z" changeid="eratyk">
         <seg>Дадатковыя налады:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced sharing settings...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171654Z" changeid="eratyk">
+        <seg>Дадатковыя налады агульнага доступу...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced sharing...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171405Z" changeid="eratyk">
+        <seg>Дадатковы агульны доступ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -13422,6 +13758,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows homegroup members to open or change the selected items.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171353Z" changeid="eratyk">
+        <seg>Дазваляе чальцам хатняй групы адчыняць і змяняць вылучаныя элементы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows homegroup members to open, but not change, the selected items.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164958Z" changeid="eratyk">
+        <seg>Дазваляе чальцам хатняй групы адчыняць вылучаныя элементы, але не змяняць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows you to add gadgets to your desktop</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T154937Z" changeid="eratyk">
@@ -13706,6 +14058,30 @@
       </tuv>
       <tuv lang="be" changedate="20100715T132158Z" changeid="eratyk">
         <seg>Памылка падчас перамяшчэння файла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while trying to delete share %1. %2\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T180927Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы выдалення агульнадаступнага элемента да %1. %2\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while trying to modify share %1. %2\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T180914Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы змянення агульнадаступнага элемента %1. %2\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while trying to share %1. %2\r\nThe shared resource was not created at this time.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T180710Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы давання агульнага доступу да %1. %2\r\nАгульнадаступны рэсурс зараз не створаны.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -14049,6 +14425,14 @@
         <seg>An unknown error has occurred.</seg>
       </tuv>
       <tuv lang="be" changedate="20100716T082959Z" changeid="eratyk">
+        <seg>Адбылася невядомая памылка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An unknown error occurred.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161500Z" changeid="eratyk">
         <seg>Адбылася невядомая памылка.</seg>
       </tuv>
     </tu>
@@ -17696,8 +18080,8 @@
       <tuv lang="en">
         <seg>C&amp;opy settings...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100923T162113Z" changeid="eratyk">
-        <seg>Капіяваць налады...</seg>
+      <tuv lang="be" changedate="20101130T183553Z" changeid="eratyk">
+        <seg>Скапіяваць налады...</seg>
       </tuv>
     </tu>
     <tu>
@@ -18162,6 +18546,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T120456Z" changeid="eratyk">
         <seg>Немагчыма абнавіць размяшчэнне каталога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Can't access library.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162144Z" changeid="eratyk">
+        <seg>Немагчыма атрымаць доступ да бібліятэкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19774,6 +20166,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Change your Public folder sharing options.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171735Z" changeid="eratyk">
+        <seg>Змяніць налады агульнага доступу вашага публічнага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Change your Windows password</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T161613Z" changeid="eratyk">
@@ -20758,6 +21158,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Choose people on your network to share with</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143502Z" changeid="eratyk">
+        <seg>Абярыце людзей у сетцы для агульнага доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose people to share with</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143513Z" changeid="eratyk">
+        <seg>Абярыце людзей для агульнага доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Choose resolution.</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T103135Z" changeid="eratyk">
@@ -21362,6 +21778,14 @@
       </tuv>
       <tuv lang="be" changedate="20100712T101538Z" changeid="eratyk">
         <seg>Націсніце 'Выдаліць', каб выдаліць файл не перамяшчаючы яго ў сметніцу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click Find to search for users to share with or OK to continue.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T144220Z" changeid="eratyk">
+        <seg>Націсніце &quot;Знайсці&quot;, каб знайсці карыстальнікаў для агульнага доступу, ці націсніце &quot;Добра&quot; для працягу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23862,6 +24286,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Contribute</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163212Z" changeid="eratyk">
+        <seg>Суаўтарства</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contribute allows people to create new files and change them, but only open other files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163549Z" changeid="eratyk">
+        <seg>Суаўтарства дазваляе людзям ствараць і змяняць свае файлы, але толькі чытаць іншыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Contributing artists</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T064332Z" changeid="eratyk">
@@ -24024,8 +24464,8 @@
       <tuv lang="en">
         <seg>Copy</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T175757Z" changeid="eratyk">
-        <seg>Капіяваць</seg>
+      <tuv lang="be" changedate="20101130T183458Z" changeid="eratyk">
+        <seg>Скапіяваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -24040,8 +24480,8 @@
       <tuv lang="en">
         <seg>Copy (Ctrl+C)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100902T193915Z" changeid="eratyk">
-        <seg>Капіяваць (Ctrl+C)</seg>
+      <tuv lang="be" changedate="20101130T183504Z" changeid="eratyk">
+        <seg>Скапіяваць (Ctrl+C)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24088,8 +24528,8 @@
       <tuv lang="en">
         <seg>Copy To &amp;folder...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T110450Z" changeid="eratyk">
-        <seg>Капіяваць у каталог...</seg>
+      <tuv lang="be" changedate="20101130T183629Z" changeid="eratyk">
+        <seg>Скапіяваць у каталог...</seg>
       </tuv>
     </tu>
     <tu>
@@ -24144,8 +24584,8 @@
       <tuv lang="en">
         <seg>Copy pictures from a camera or scanner to your computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100928T140351Z" changeid="eratyk">
-        <seg>Капіяваць малюнкі з камеры ці сканера на ваш камп'ютар.</seg>
+      <tuv lang="be" changedate="20101130T183707Z" changeid="eratyk">
+        <seg>Скапіяваць малюнкі з камеры ці сканера на ваш камп'ютар.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24160,40 +24600,40 @@
       <tuv lang="en">
         <seg>Copy the selected items to the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T165507Z" changeid="eratyk">
-        <seg>Капіяваць абраныя элементы ў кішэню.</seg>
+      <tuv lang="be" changedate="20101130T183658Z" changeid="eratyk">
+        <seg>Скапіяваць вылучаныя элементы ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copy the selection and put it on the Clipboard.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T165032Z" changeid="eratyk">
-        <seg>Капіяваць вылучэнне і змясціць яго ў кішэню.</seg>
+      <tuv lang="be" changedate="20101130T183519Z" changeid="eratyk">
+        <seg>Скапіяваць вылучэнне і змясціць яго ў кішэню.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copy to %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092746Z" changeid="eratyk">
-        <seg>Капіяваць у '%1'</seg>
+      <tuv lang="be" changedate="20101130T183728Z" changeid="eratyk">
+        <seg>Скапіяваць у '%1'</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copy to &amp;folder...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T113029Z" changeid="eratyk">
-        <seg>Капіяваць у каталог...</seg>
+      <tuv lang="be" changedate="20101130T183623Z" changeid="eratyk">
+        <seg>Скапіяваць у каталог...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Copy your current settings to:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T171616Z" changeid="eratyk">
-        <seg>Капіяваць вашыя дзейныя налады ў:</seg>
+      <tuv lang="be" changedate="20101130T183605Z" changeid="eratyk">
+        <seg>Скапіяваць вашыя дзейныя налады ў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -24208,8 +24648,8 @@
       <tuv lang="en">
         <seg>Copy\tCtrl+C</seg>
       </tuv>
-      <tuv lang="be" changedate="20100706T132914Z" changeid="eratyk">
-        <seg>Капіяваць\tCtrl+C</seg>
+      <tuv lang="be" changedate="20101130T183529Z" changeid="eratyk">
+        <seg>Скапіяваць\tCtrl+C</seg>
       </tuv>
     </tu>
     <tu>
@@ -24570,6 +25010,14 @@
       </tuv>
       <tuv lang="be" changedate="20100902T194500Z" changeid="eratyk">
         <seg>Стварыць новы дакумент.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create a new user...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143826Z" changeid="eratyk">
+        <seg>Стварыць новага карыстальніка...</seg>
       </tuv>
     </tu>
     <tu>
@@ -25128,16 +25576,16 @@
       <tuv lang="en">
         <seg>Currently searching: %1!s!</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T172152Z" changeid="eratyk">
-        <seg>Дзейны пошук: %1!s!</seg>
+      <tuv lang="be" changedate="20101130T184547Z" changeid="eratyk">
+        <seg>Дзейнае шуканне: %1!s!</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Currently searching: %1!s!...</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T172136Z" changeid="eratyk">
-        <seg>Дзейны пошук: %1!s!...</seg>
+      <tuv lang="be" changedate="20101130T184619Z" changeid="eratyk">
+        <seg>Дзейнае шуканне: %1!s!...</seg>
       </tuv>
     </tu>
     <tu>
@@ -25176,8 +25624,8 @@
       <tuv lang="en">
         <seg>Custom</seg>
       </tuv>
-      <tuv lang="be" changedate="20101011T174354Z" changeid="eratyk">
-        <seg>Замоўны</seg>
+      <tuv lang="be" changedate="20101130T163000Z" changeid="eratyk">
+        <seg>Замоўна</seg>
       </tuv>
     </tu>
     <tu>
@@ -27008,8 +27456,8 @@
       <tuv lang="en">
         <seg>Did you find what you were searching for?</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T164040Z" changeid="eratyk">
-        <seg>Ці знайшлі вы тое, што жадалі?</seg>
+      <tuv lang="be" changedate="20101130T184539Z" changeid="eratyk">
+        <seg>Ці знайшлі вы тое, што шукалі?</seg>
       </tuv>
     </tu>
     <tu>
@@ -28551,10 +28999,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want to give other people access to these folders?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T151133Z" changeid="eratyk">
+        <seg>Даць іншым людзям доступ да гэтых каталогаў?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want to help Microsoft solve this problem?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222908Z" changeid="eratyk">
         <seg>Дапамагчы Microsoft вырашыць гэтую праблему?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to index these locations?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192742Z" changeid="eratyk">
+        <seg>Праіндэксаваць гэтыя размяшчэнні?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to index this location?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192731Z" changeid="eratyk">
+        <seg>Праіндэксаваць гэтае размяшчэнне?</seg>
       </tuv>
     </tu>
     <tu>
@@ -28783,10 +29255,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want to share the selected items?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T142300Z" changeid="eratyk">
+        <seg>Даць агульны доступ да вылучаных элементаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to share this folder?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143358Z" changeid="eratyk">
+        <seg>Жадаеце даць агульны доступ да гэтага каталога?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want to shut down now?</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T173005Z" changeid="eratyk">
         <seg>Выключыць зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to stop sharing this folder?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143430Z" changeid="eratyk">
+        <seg>Жадаеце спыніць агульны доступ да гэтага каталога?</seg>
       </tuv>
     </tu>
     <tu>
@@ -28803,6 +29299,14 @@
       </tuv>
       <tuv lang="be" changedate="20101119T222852Z" changeid="eratyk">
         <seg>Уключыць дыягностыку?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to turn on the index?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194757Z" changeid="eratyk">
+        <seg>Уключыць індэкс?</seg>
       </tuv>
     </tu>
     <tu>
@@ -30519,10 +31023,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error %1 occurred while creating known folder %2 with path '%3'.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T142725Z" changeid="eratyk">
+        <seg>Памылка %1 адбылася падчас стварэння вядомага каталога %2 са шляхам '%3'.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error %1 occurred while initializing known folder %2 with ini file path '%3'.</seg>
       </tuv>
       <tuv lang="be" changedate="20101010T083130Z" changeid="eratyk">
         <seg>Памылка %1 адбылася падчас ініцыялізацыі вядомага каталога %2 са шляхам ini-файла '%3'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error %1 occurred while initializing known folder %2 with ini file path '%3'.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T142733Z" changeid="eratyk">
+        <seg>Памылка %1 адбылася падчас ініцыялізацыі вядомага каталога %2 са шляхам ini-файла '%3'.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -30535,10 +31055,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error %1 occurred while initializing known folder %2 with path '%3'.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143321Z" changeid="eratyk">
+        <seg>Памылка %1 адбылася падчас ініцыялізацыі вядомага каталога %2 са шляхам '%3'.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error %1 occurred while verifying known folder %2 with path '%3'.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T174944Z" changeid="eratyk">
         <seg>Памылка %1 адбылася падчас правярання вядомага каталога %2 са шляхам '%3'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error %1 occurred while verifying known folder %2 with path '%3'.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T142832Z" changeid="eratyk">
+        <seg>Памылка %1 адбылася падчас праверкі вядомага каталога %2 са шляхам '%3'.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -30587,6 +31123,14 @@
       </tuv>
       <tuv lang="be" changedate="20100711T065012Z" changeid="eratyk">
         <seg>Памылка падчас пераназвання элемента</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error Saving Search</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183841Z" changeid="eratyk">
+        <seg>Памылка захавання пошуку</seg>
       </tuv>
     </tu>
     <tu>
@@ -30643,6 +31187,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T115523Z" changeid="eratyk">
         <seg>Памылка ў %1!ls!\nНедапушчальнае значэнне: %2!ls!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error invoking the security editor.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T181436Z" changeid="eratyk">
+        <seg>Памылка выклікання рэдактара бяспекі.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -31985,16 +32537,16 @@
       <tuv lang="en">
         <seg>File Sharing</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T075359Z" changeid="eratyk">
-        <seg>Агульнадаступнасць файлаў</seg>
+      <tuv lang="be" changedate="20101130T141913Z" changeid="eratyk">
+        <seg>Агульны доступ да файлаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>File Sharing Program</seg>
       </tuv>
-      <tuv lang="be" changedate="20101118T201328Z" changeid="eratyk">
-        <seg>Праграма агульнадаступнасці файлаў</seg>
+      <tuv lang="be" changedate="20101130T141958Z" changeid="eratyk">
+        <seg>Праграма агульнага доступу да файлаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -32623,6 +33175,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find people...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143814Z" changeid="eratyk">
+        <seg>Знайсці людзей...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Find products made for Windows.</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T094508Z" changeid="eratyk">
@@ -32665,8 +33225,8 @@
       <tuv lang="en">
         <seg>Finished.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T062947Z" changeid="eratyk">
-        <seg>Гатова.</seg>
+      <tuv lang="be" changedate="20101130T162459Z" changeid="eratyk">
+        <seg>Скончана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34271,6 +34831,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Games Explorer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T184033Z" changeid="eratyk">
+        <seg>Вандроўнік па гульнях</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Gbps</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T151910Z" changeid="eratyk">
@@ -35767,6 +36335,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Homegroup (Read)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164623Z" changeid="eratyk">
+        <seg>Хатняя група (чытанне)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Homegroup (Read/Write)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164652Z" changeid="eratyk">
+        <seg>Хатняя група (чытанне і запісванне)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Horizontal Scroll Bar</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T055524Z" changeid="eratyk">
@@ -36067,6 +36651,30 @@
       </tuv>
       <tuv lang="be" changedate="20100705T085347Z" changeid="eratyk">
         <seg>Ігнараваць усе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I've shared a folder with you</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164002Z" changeid="eratyk">
+        <seg>Я даў вам доступ да каталога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I've shared files with you</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164016Z" changeid="eratyk">
+        <seg>Я даў вам доступ да файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I've shared some of my files or folders with you. To open them, just click the link(s) below.\n\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164155Z" changeid="eratyk">
+        <seg>Я даў вам доступ да некаторых файлаў ці каталогаў. Каб адчыніць іх, націсніце спасылку(і) унізе.\n\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -36503,6 +37111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If the share name is longer than 12 characters, this folder cannot be accessed by computers running Windows 98SE, Windows Millennium Edition, Windows NT 4.0, or earlier operating systems. To make the folder fully accessible, name it using 12 characters or fewer.\r\n\r\nDo you want to use the share name &quot;%1&quot; anyway?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T174019Z" changeid="eratyk">
+        <seg>Калі назва агульнага доступу даўжэй за 12 сімвалаў, гэты каталог не будзе даступным для камп'ютараў з Windows 98SE, Windows Millennium Edition, Windows NT 4.0 ці ранейшымі аперацыйнымі сістэмамі. Каб зрабіць каталог поўнадаступным, назва павінна змяшчаць 12 сімвалаў ці менш.\r\n\r\nУсё роўна скарыстаць назву &quot;%1&quot;?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If this file is modified, the editing software might store a temporary, unencrypted, copy of the file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T114354Z" changeid="eratyk">
@@ -36735,6 +37351,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you delete this folder, it will no longer be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141157Z" changeid="eratyk">
+        <seg>Калі вы выдаліце гэты каталог, ён больш не будзе агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you delete this folder, other people won't be able to access its shared content.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141535Z" changeid="eratyk">
+        <seg>Калі вы выдаліце гэты каталог, іншыя людзі не змогуць атрымаць доступ да яго агульнадаступнага змесціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you do not have the disk, contact your administrator or select the Restart button to restart the computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100925T060334Z" changeid="eratyk">
@@ -36839,10 +37471,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you index these locations, future searches will be faster. It might take a long time to index this location, and search results might be incomplete until indexing is finished.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194727Z" changeid="eratyk">
+        <seg>Калі вы праіндэксуеце гэтыя размяшчэнні, будучыя пошукі будуць хутчэйшымі. Індэксаванне гэтых размяшчэнняў можа заняць шмат часу, і вынікі пошуку будуць няпоўнымі, пакуль яно не скончыцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you index this location, future searches will be faster. It might take a long time to index this location, and search results might be incomplete until indexing is finished.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194606Z" changeid="eratyk">
+        <seg>Калі вы праіндэксуеце гэтае размяшчэнне, будучыя пошукі будуць хутчэйшымі. Індэксаванне гэтага размяшчэння можа заняць шмат часу, і вынікі пошуку будуць няпоўнымі, пакуль яно не скончыцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you log off a user, their unsaved data might be lost.</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T200616Z" changeid="eratyk">
         <seg>Калі вы прымусіце карыстальніка выйсці, ягоныя незахаваныя звесткі могуць страціцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you move this folder, it will no longer be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141222Z" changeid="eratyk">
+        <seg>Калі вы перамесціце гэты каталог, ён больш не будзе агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you move this folder, other people won't be able to access its shared content.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141546Z" changeid="eratyk">
+        <seg>Калі вы перамесціце гэты каталог, іншыя людзі не змогуць атрымаць доступ да яго агульнадаступнага змесціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36875,6 +37539,22 @@
       </tuv>
       <tuv lang="be" changedate="20101119T223140Z" changeid="eratyk">
         <seg>Калі вы пераназавеце гэты файл, ён больш не будзе належыць да каталога '%3!ls!'.\n\nКаб бяспечна пераназваць яго, адчыніце файл, захавайце яго з новаю назваю і выдаліце яго з каталога '%3!ls!'.\n\nУсё роўна пераназваць файл?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you rename this folder, it will no longer be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141238Z" changeid="eratyk">
+        <seg>Калі вы пераназавеце гэты каталог, ён больш не будзе агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you rename this folder, other people won't be able to access its shared content.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141558Z" changeid="eratyk">
+        <seg>Калі вы пераназавеце гэты каталог, іншыя людзі не змогуць атрымаць доступ да яго агульнадаступнага змесціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37331,6 +38011,14 @@
       </tuv>
       <tuv lang="be" changedate="20100909T123122Z" changeid="eratyk">
         <seg>Радок індэксаванага пошуку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Individual Items</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141815Z" changeid="eratyk">
+        <seg>Асобныя элементы</seg>
       </tuv>
     </tu>
     <tu>
@@ -38655,6 +39343,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Items Shared: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152034Z" changeid="eratyk">
+        <seg>Агульнадаступныя элементы: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Items View</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T055713Z" changeid="eratyk">
@@ -39495,6 +40191,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Latvian (Latvia)$Latvian$Latvia</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101126T213000Z" changeid="eratyk">
+        <seg>Латвійская (Латвія)$Латвійская$Латвія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Latvian (QWERTY)</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T064633Z" changeid="eratyk">
@@ -40059,6 +40763,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T070748Z" changeid="eratyk">
         <seg>Літоўскія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lithuanian (Lithuania)$Lithuanian$Lithuania</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101126T213039Z" changeid="eratyk">
+        <seg>Літоўская (Літва)$Літоўская$Літва</seg>
       </tuv>
     </tu>
     <tu>
@@ -41163,6 +41875,14 @@
       </tuv>
       <tuv lang="be" changedate="20100922T103624Z" changeid="eratyk">
         <seg>Змяніць памер тэксту і іншых элементаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Makes the selected items private so other people can’t access them.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164842Z" changeid="eratyk">
+        <seg>Робіць вылучаныя элементы прыватнымі, іншыя людзі не маюць да іх доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42399,6 +43119,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft-Windows-Sharing-Ntshrui\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T182911Z" changeid="eratyk">
+        <seg>Microsoft-Windows-Sharing-Ntshrui\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft-Windows-Shell-AuthUI-BootAnim/Diagnostic</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T081831Z" changeid="eratyk">
@@ -42763,6 +43491,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T185614Z" changeid="alex">
         <seg>Адсутнічае цэтлік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Mixed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162743Z" changeid="eratyk">
+        <seg>Змяшана</seg>
       </tuv>
     </tu>
     <tu>
@@ -43935,6 +44671,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network locations and connected devices are searched more slowly than indexed locations. Click to get help...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192240Z" changeid="eratyk">
+        <seg>Шуканне па сеткавых размяшчэннях і падключаных прыладах праходзіць павольней, чым па індэксаваных размяшчэннях. Пстрыкніце для атрымання дапамогі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network login</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T212504Z" changeid="eratyk">
@@ -44391,6 +45135,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No Title</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194931Z" changeid="eratyk">
+        <seg>Без назвы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No audio device is installed</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T164314Z" changeid="eratyk">
@@ -44699,6 +45451,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T144416Z" changeid="eratyk">
         <seg>Няма галасавых паведамленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Nobody</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164602Z" changeid="eratyk">
+        <seg>Ніхто</seg>
       </tuv>
     </tu>
     <tu>
@@ -45919,6 +46679,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>One or more locations cannot be searched.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191312Z" changeid="eratyk">
+        <seg>Немагчыма шукаць у адным ці болей размяшчэннях.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>One or more of the characters you entered for %s are invalid.</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T180957Z" changeid="eratyk">
@@ -46639,6 +47407,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Opens Windows HomeGroup in Control Panel.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165039Z" changeid="eratyk">
+        <seg>Адчыняе хатнюю групу Windows у панэлі кіравання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Opens a list of your programs.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T090029Z" changeid="eratyk">
@@ -46651,6 +47427,22 @@
       </tuv>
       <tuv lang="be" changedate="20100723T074626Z" changeid="eratyk">
         <seg>Адчыняе праграму, каталог, дакумент альбо сайт.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Opens the Advanced Sharing dialog to share the selected item.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171628Z" changeid="eratyk">
+        <seg>Адчыняе дыялог дадатковага агульнага доступу для давання агульнага доступу да элемента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Opens the Windows File Sharing wizard to choose specific people or permission levels.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165256Z" changeid="eratyk">
+        <seg>Адчыняе майстар агульнага доступу да файлаў Windows для абрання канкрэтных людзей ці ўзроўняў дазволу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47171,6 +47963,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T201307Z" changeid="eratyk">
         <seg>Уладальнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Owner allows people to open, change and create files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163629Z" changeid="eratyk">
+        <seg>Уладанне дазваляе людзям адчыняць, змяняць і ствараць файлы</seg>
       </tuv>
     </tu>
     <tu>
@@ -48119,6 +48919,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>People must have a user account and password for this computer to access shared folders.\n\nTo change this setting, use the &lt;a&gt;Network and Sharing Center&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164554Z" changeid="eratyk">
+        <seg>Людзі павінны мець рахунак і пароль да гэтага камп'ютара каб мець доступ да агульнадаступных каталогаў.\n\nКаб змяніць гэтую наладу, скарыстайце &lt;a&gt;цэнтр сетак і агульнага доступу&lt;/a&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>People without a user account and password for this computer can access folders shared with everyone.\n\nTo change this setting, use the &lt;a&gt;Network and Sharing Center&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164505Z" changeid="eratyk">
+        <seg>Людзі без рахунка і пароля да гэтага камп'ютара маюць доступ да агульнадаступных каталогаў.\n\nКаб змяніць гэтую наладу, скарыстайце &lt;a&gt;цэнтр сетак і агульнага доступу&lt;/a&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Perceived Type</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T062018Z" changeid="eratyk">
@@ -48243,6 +49059,22 @@
       </tuv>
       <tuv lang="be" changedate="20101102T150702Z" changeid="eratyk">
         <seg>Сталы недапушчальны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Permission Level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143803Z" changeid="eratyk">
+        <seg>Узровень дазволу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Permission: %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T144239Z" changeid="eratyk">
+        <seg>Дазвол: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -51393,8 +52225,8 @@
       <tuv lang="en">
         <seg>Read</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T170035Z" changeid="eratyk">
-        <seg>Прачытана</seg>
+      <tuv lang="be" changedate="20101130T163816Z" changeid="eratyk">
+        <seg>Чытаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -51403,6 +52235,14 @@
       </tuv>
       <tuv lang="be" changedate="20101126T073023Z" changeid="eratyk">
         <seg>Чытаць э-пошту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Read allows people to open, but not change files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163046Z" changeid="eratyk">
+        <seg>Чытанне дазваляе людзям адчыняць файлы, але не змяняць</seg>
       </tuv>
     </tu>
     <tu>
@@ -51433,8 +52273,16 @@
       <tuv lang="en">
         <seg>Read/Write</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T073058Z" changeid="eratyk">
-        <seg>Прачытаць/Запісаць</seg>
+      <tuv lang="be" changedate="20101130T163757Z" changeid="eratyk">
+        <seg>Чытаць і запісваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Read/Write allows people to open, change and create files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163830Z" changeid="eratyk">
+        <seg>Чытанне і запісванне дазваляе людзям адчыняць, змяняць і ствараць файлы</seg>
       </tuv>
     </tu>
     <tu>
@@ -53231,6 +54079,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Results might be incomplete because a location could not be reached: %1!s!.  Click to get help...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191944Z" changeid="eratyk">
+        <seg>Вынікі могуць быць няпоўнымі з прычыны немагчымасці дасягнення размяшчэння: %1!s!. Пстрыкніце для атрымання дапамогі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Resume</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T130056Z" changeid="eratyk">
@@ -53823,6 +54679,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>S&amp;ave search</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183748Z" changeid="eratyk">
+        <seg>Захаваць пошук</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>S&amp;can now</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T080639Z" changeid="Ales Koshal [icq#:706101]">
@@ -53875,6 +54739,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T094742Z" changeid="eratyk">
         <seg>Налады...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>S&amp;hare</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T144226Z" changeid="eratyk">
+        <seg>Даць агульны доступ</seg>
       </tuv>
     </tu>
     <tu>
@@ -55399,6 +56271,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Search results are incomplete because the server returned invalid data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191226Z" changeid="eratyk">
+        <seg>Вынікі пошуку няпоўныя з прычыны вяртання серверам недапушчальных звестак.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search results might be incomplete because files are being indexed.  Click to view indexing status...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192109Z" changeid="eratyk">
+        <seg>Вынікі пошуку могуць быць няпоўнымі з прычыны індэксаванасці файлаў. Пстрыкніце, каб прагледзець стан індэксавання...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Search the &amp;Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T194339Z" changeid="eratyk">
@@ -55471,6 +56359,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Searches might be slow in non-indexed locations: %1!s!. Click to add to index...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192356Z" changeid="eratyk">
+        <seg>Шуканне па неіндэксаваных размяшчэннях можа быць павольным: %1!s!. Пстрыкніце, каб дадаць да індэксу...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Searches sent to</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T150310Z" changeid="eratyk">
@@ -55479,58 +56375,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Searches will be faster if you turn on the index.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194844Z" changeid="eratyk">
+        <seg>Пошукі будуць хутчэйшымі, калі вы ўключыце індэкс.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Searching</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T125142Z" changeid="eratyk">
-        <seg>Пошук</seg>
+      <tuv lang="be" changedate="20101130T184403Z" changeid="eratyk">
+        <seg>Шуканне</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching for connected devices...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100726T124824Z" changeid="eratyk">
-        <seg>Пошук падключаных прылад...</seg>
+      <tuv lang="be" changedate="20101130T184431Z" changeid="eratyk">
+        <seg>Шуканне падключаных прылад...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching for content...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100705T120540Z" changeid="eratyk">
-        <seg>Пошук змесціва...</seg>
+      <tuv lang="be" changedate="20101130T184447Z" changeid="eratyk">
+        <seg>Шуканне змесціва...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching for items...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100712T200947Z" changeid="eratyk">
-        <seg>Пошук элементаў...</seg>
+      <tuv lang="be" changedate="20101130T184531Z" changeid="eratyk">
+        <seg>Шуканне элементаў...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching internet for</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T125113Z" changeid="eratyk">
-        <seg>Пошук у сеціве</seg>
+      <tuv lang="be" changedate="20101130T184636Z" changeid="eratyk">
+        <seg>Шуканне ў сеціве</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100712T195004Z" changeid="eratyk">
-        <seg>Пошук...</seg>
+      <tuv lang="be" changedate="20101130T184352Z" changeid="eratyk">
+        <seg>Шуканне...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Searching... (%1 found)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100712T195106Z" changeid="eratyk">
-        <seg>Пошук ... (знойдзена: %1)</seg>
+      <tuv lang="be" changedate="20101130T184415Z" changeid="eratyk">
+        <seg>Шуканне... (знойдзена: %1)</seg>
       </tuv>
     </tu>
     <tu>
@@ -56177,16 +57081,16 @@
       <tuv lang="en">
         <seg>Select the place where you want to copy '%1', then click the Copy button.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T114429Z" changeid="eratyk">
-        <seg>Абярыце месца, куды вы жадаеце скапіяваць '%1', і націсніце &quot;Капіяваць&quot;.</seg>
+      <tuv lang="be" changedate="20101130T183639Z" changeid="eratyk">
+        <seg>Абярыце месца, куды вы жадаеце скапіяваць '%1', і націсніце &quot;Скапіяваць&quot;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Select the place where you want to copy the selected item(s), then click the Copy button.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T114437Z" changeid="eratyk">
-        <seg>Абярыце месца, куды вы жадаеце скапіяваць абраныя элементы, і націсніце &quot;Капіяваць&quot;.</seg>
+      <tuv lang="be" changedate="20101130T183633Z" changeid="eratyk">
+        <seg>Абярыце месца, куды вы жадаеце скапіяваць абраныя элементы, і націсніце &quot;Скапіяваць&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56201,8 +57105,8 @@
       <tuv lang="en">
         <seg>Select the place where you want to copy these %1!d! items, then click the Copy button.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101124T142511Z" changeid="eratyk">
-        <seg>Абярыце месца, куды вы жадаеце скапіяваць гэтыя %1!d! элементаў, і націсніце &quot;Капіяваць&quot;.</seg>
+      <tuv lang="be" changedate="20101130T183644Z" changeid="eratyk">
+        <seg>Абярыце месца, куды вы жадаеце скапіяваць гэтыя %1!d! элементаў, і націсніце &quot;Скапіяваць&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57271,10 +58175,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Share the selected items with other people on the network.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165403Z" changeid="eratyk">
+        <seg>Даць агульны доступ да вылучаных элементаў людзям у сетцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Share with devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T172131Z" changeid="eratyk">
-        <seg>Даць агульны доступ прыладам</seg>
+      <tuv lang="be" changedate="20101130T142711Z" changeid="eratyk">
+        <seg>Даць агульны доступ да прылад</seg>
       </tuv>
     </tu>
     <tu>
@@ -57323,6 +58235,22 @@
       </tuv>
       <tuv lang="be" changedate="20101028T192414Z" changeid="eratyk">
         <seg>Агульны доступ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sharing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141859Z" changeid="eratyk">
+        <seg>Агульны доступ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sharing items...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152157Z" changeid="eratyk">
+        <seg>Даванне агульнага доступу да элементаў...</seg>
       </tuv>
     </tu>
     <tu>
@@ -59567,6 +60495,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specific people...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T164718Z" changeid="eratyk">
+        <seg>Канкрэтныя людзі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify a country/region</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T170900Z" changeid="eratyk">
@@ -60031,6 +60967,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Stack</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T184004Z" changeid="eratyk">
+        <seg>Стэк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Stage %d of %d\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T170427Z" changeid="eratyk">
@@ -60131,6 +61075,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T092118Z" changeid="eratyk">
         <seg>Пачатковае меню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Start Menu Search Results in %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191337Z" changeid="eratyk">
+        <seg>Вынікі пошуку Пачатковага меню ў %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -60571,6 +61523,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T152048Z" changeid="eratyk">
         <seg>Спыніць ладаванне &quot;%s&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Stop sharing...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152253Z" changeid="eratyk">
+        <seg>Спынення агульнага доступу да элементаў...</seg>
       </tuv>
     </tu>
     <tu>
@@ -62367,6 +63327,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The File Sharing wizard can't share system folders.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171919Z" changeid="eratyk">
+        <seg>Майстар агульнага доступу да файлаў не можа даць агульны доступ да сістэмных каталогаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The File Sharing wizard can't share the root of a drive.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T171900Z" changeid="eratyk">
+        <seg>Майстар агульнага доступу да файлаў не можа даць агульны доступ да кораня дыска.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Guide could not be downloaded.</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T184407Z" changeid="eratyk">
@@ -63001,8 +63977,8 @@
       <tuv lang="en">
         <seg>The disc wasn't burned because of a buffer under run. You can try burning again at the same speed or try a lower write speed if the error occurs again.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T135037Z" changeid="eratyk">
-        <seg>Кружэлка не была прапаленая з нагоды непадрыхтаванасці буферу. Вы можаце паспрабаваць прапальванне з той жа хуткасцю альбо з меншай, калі памылка паўтараецца.</seg>
+      <tuv lang="be" changedate="20101130T195326Z" changeid="eratyk">
+        <seg>Кружэлка не была прапаленая з-за непадрыхтаванасці буферу. Вы можаце паспрабаваць прапальванне з той жа хуткасцю альбо з меншай, калі памылка паўтараецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -64119,6 +65095,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The library couldn't be published.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162209Z" changeid="eratyk">
+        <seg>Бібліятэка не можа быць апублікаваная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The library couldn't be unpublished.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162232Z" changeid="eratyk">
+        <seg>Бібліятэка не можа быць дэпублікаваная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The license agreement of the bundling program may require these other components in order to function.</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T064904Z" changeid="eratyk">
@@ -64527,6 +65519,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The permissions don't match Read, Read/Write or Contribute</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163856Z" changeid="eratyk">
+        <seg>Дазволы не супадаюць з чытаннем, чытаннем і запісваннем ці суаўтарствам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The primary purpose of Briefcase is to sync files between a desktop computer and a mobile PC.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T202422Z" changeid="eratyk">
@@ -64783,6 +65783,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The search cannot be saved. Try using a different name or saving to a different location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T183929Z" changeid="eratyk">
+        <seg>Пошук не можа быць захаваны. Паспрабуйце скарыстаць іншую назву ці захаваць у іншае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The security log on this system is full.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T182910Z" changeid="eratyk">
@@ -64815,10 +65823,98 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The selected drive is no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153439Z" changeid="eratyk">
+        <seg>Вылучаны дыск больш не агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected file is no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153427Z" changeid="eratyk">
+        <seg>Вылучаны файл больш не агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected files are no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153453Z" changeid="eratyk">
+        <seg>Вылучаныя файлы больш не агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected folder is no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153434Z" changeid="eratyk">
+        <seg>Вылучаны каталог больш не агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected folders are no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153509Z" changeid="eratyk">
+        <seg>Вылучаныя каталогі больш не агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected libraries are no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165851Z" changeid="eratyk">
+        <seg>Вылучаныя бібліятэкі больш не агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected library is no longer shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165518Z" changeid="eratyk">
+        <seg>Вылучаная бібліятэка больш не агульнадаступная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The servicing request received for package %1 cannot be satisfied since the package is not applicable.</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T074909Z" changeid="eratyk">
         <seg>Запыт абслугоўвання, атрыманы для пакунка %1, не можа быць задаволены з-за непрыдатнасці пакунка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The share name %1 already exists for this resource. Please choose another share name.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T181839Z" changeid="eratyk">
+        <seg>Назва агульнага доступу %1 ужо існуе для гэтага рэсурсу. Калі ласка, абярыце іншую назву.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The share name %1 is not accessible from some MS-DOS workstations. Are you sure you want to use the share name?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T181741Z" changeid="eratyk">
+        <seg>Назва агульнага доступу %1 недаступная для некаторых працоўных станцыяў MS-DOS. Вы сапраўды жадаеце скарыстаць назву?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The share name contains invalid characters.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T181547Z" changeid="eratyk">
+        <seg>Назва агульнага доступу змяшчае недапушчальныя сімвалы.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The share names ADMIN$ and IPC$ are reserved and may not be used.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T182402Z" changeid="eratyk">
+        <seg>Назвы агульнага доступу ADMIN$ і IPC$ зарэзерваваныя і не могуць быць скарыстанымі.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -65639,6 +66735,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>There are %1!d! file(s) open by %2!d! user(s) connected to %3. If you stop sharing %3, the files will close, which may cause these users to lose data. Do you want to continue?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T172441Z" changeid="eratyk">
+        <seg>%1!d! файлаў адчынена %2!d! карыстальнікамі, злучанымі з %3. Калі вы спыніце агульны доступ да %3, файлы зачыняцца, што можа выклікаць страту звестак гэтымі карыстальнікамі. Працягнуць?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are %1!d! user(s) connected to %2. If you stop sharing %2, they will be disconnected. Do you want to continue?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T172303Z" changeid="eratyk">
+        <seg>%1!d! карыстальнікаў злучаныя з %2. Калі вы спыніце агульны доступ да %2, яны будуць адлучаныя. Працягнуць?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>There are more results than will fit in this view.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T090253Z" changeid="eratyk">
@@ -66199,6 +67311,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>These items can't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161807Z" changeid="eratyk">
+        <seg>Гэтыя элементы не могуць быць агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>These items have been prevented from running on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T071537Z" changeid="Ales Koshal [icq#:706101]">
@@ -66211,6 +67331,14 @@
       </tuv>
       <tuv lang="be" changedate="20101120T085047Z" changeid="eratyk">
         <seg>Такія праграмы звычайна ўсталяваныя ўладальнікам ці адміністратарам камп'ютара і з'яўляюцца рызыкоўнымі толькі калі гэта не так.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>These results might not be accurate because of a problem with this search.  Click to get help...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T195308Z" changeid="eratyk">
+        <seg>Гэтыя вынікі могуць быць недакладнымі з-за праблемы гэтага пошуку. Пстрыкніце для атрымання дапамогі...</seg>
       </tuv>
     </tu>
     <tu>
@@ -66283,6 +67411,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T170802Z" changeid="eratyk">
         <seg>Дзеянне не можа быць выканана ў сувязі з абмежаваннямі рахунку. Калі ласка, звярніцеся да адміністратара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This action requires permission.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T142029Z" changeid="eratyk">
+        <seg>Гэтае дзеянне патрабуе дазволу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66593,8 +67729,8 @@
       <tuv lang="en">
         <seg>This file can't be previewed because of an error in the %s.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T085606Z" changeid="eratyk">
-        <seg>Перадпрагляд недаступны з нагоды памылкі ў %s.</seg>
+      <tuv lang="be" changedate="20101130T195343Z" changeid="eratyk">
+        <seg>Перадпрагляд недаступны з-за памылкі ў %s.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66647,6 +67783,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This file is in a shared folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161742Z" changeid="eratyk">
+        <seg>Гэты файл у агульнадаступным каталогу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This file is not one of the supported file types, which include .bmp, .jpg, .jpeg and .dib.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053747Z" changeid="alex">
@@ -66659,6 +67803,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T053747Z" changeid="alex">
         <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія складаюцца з .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы малюнак для фону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This file is outside your user account folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161637Z" changeid="eratyk">
+        <seg>Гэты файл па-за каталогам вашага рахунка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66703,6 +67855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This folder has one or more of its subfolders shared with other people</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141326Z" changeid="eratyk">
+        <seg>Гэты каталог мае адзін ці болей агульнадаступных падкаталогаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This folder is empty.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T075828Z" changeid="eratyk">
@@ -66715,6 +67875,38 @@
       </tuv>
       <tuv lang="be" changedate="20100828T083243Z" changeid="eratyk">
         <seg>Каталог запоўнены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This folder is in a shared folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161903Z" changeid="eratyk">
+        <seg>Гэты каталог у агульнадаступным каталогу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This folder is outside your user account folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161859Z" changeid="eratyk">
+        <seg>Гэты каталог па-за каталогам вашага рахунка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This folder is shared more than once. Are you sure you wish to remove all these shares?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T173458Z" changeid="eratyk">
+        <seg>Да гэтага каталога ёсць больш за адзін шлях агульнага доступу. Вы сапраўды жадаеце выдаліць гэтыя шляхі?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This folder is shared with other people</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T141025Z" changeid="eratyk">
+        <seg>Гэта агульнадаступны каталог</seg>
       </tuv>
     </tu>
     <tu>
@@ -66835,6 +68027,14 @@
       </tuv>
       <tuv lang="be" changedate="20100717T111757Z" changeid="eratyk">
         <seg>Файл быў выдалены з аднаго размяшчэння і абноўлены ў іншым размяшчэнні пасля апошняй сінхранізацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This has been shared for administrative purposes. The permissions cannot be set.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T182226Z" changeid="eratyk">
+        <seg>Гэты элемент з'яўляецца агульнадаступным для адміністрацыйных мэтаў. Дазволы не могуць быць прызначаныя.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -66991,6 +68191,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This item was blocked because of your Internet security settings:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T195244Z" changeid="eratyk">
+        <seg>Элемент заблакаваны з-за вашых наладаў бяспекі сеціва:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This language is also only partially translated and you might see some text displayed in:</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T155342Z" changeid="eratyk">
@@ -67023,6 +68231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This library is in a shared folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162051Z" changeid="eratyk">
+        <seg>Гэтая бібліятэка ў агульнадаступным каталогу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This location can't be used to store temporary files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T062406Z" changeid="eratyk">
@@ -67035,6 +68251,30 @@
       </tuv>
       <tuv lang="be" changedate="20100715T062406Z" changeid="eratyk">
         <seg>Гэтае размяшчэнне нельга ўжываць для захоўвання часовых файлаў. Абярыце для гэтага іншае размяшчэнне і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This location cannot be searched because it no longer exists or is temporarily unavailable. Click to diagnose...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191036Z" changeid="eratyk">
+        <seg>Немагчыма шукаць у гэтым размяшчэнні, бо яно ці не існуе, ці часова недаступнае. Пстрыкніце для дыягностыкі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This location cannot be searched because of a web server error. Click to diagnose...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T195257Z" changeid="eratyk">
+        <seg>Немагчыма шукаць у гэтым размяшчэнні з-за памылкі сеціўнага сервера. Пстрыкніце для дыягностыкі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This location is restricted and cannot be searched.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T184334Z" changeid="eratyk">
+        <seg>Гэтае размяшчэнне абмежаванае і ў ім нельга праводзіць пошук.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67179,6 +68419,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T060654Z" changeid="alex">
         <seg>Гэтая старонка недаступна ў гэтай рэдакцыі Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This person has multiple permissions for the selected files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T163716Z" changeid="eratyk">
+        <seg>Гэтая асоба мае некалькі дазволаў для вылучаных файлаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -68079,6 +69327,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This search can't be completed because there is something wrong with this saved search.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T191752Z" changeid="eratyk">
+        <seg>Гэты пошук не можа быць скончаны, бо ёсць нешта няправільнае ў гэтым захаваным пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This setting (system locale) controls the language used when displaying text in programs that do not support Unicode.</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T125404Z" changeid="eratyk">
@@ -68091,6 +69347,22 @@
       </tuv>
       <tuv lang="be" changedate="20100924T175256Z" changeid="eratyk">
         <seg>Гэтая налада паўплывае на ўсе рахункі карыстальнікаў камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This share is required for the machine to act properly as a domain controller. Removing it will cause a loss of functionality on all clients that this domain controller serves.  Are you sure you wish to stop sharing %1?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T175251Z" changeid="eratyk">
+        <seg>Гэты элемент агульнага доступу патрабуецца камп'ютару для належнай працы ў якасці кантролера дамена. Ягонае выдаленне выкліча страту функцыянальнасці ўсіх кліентаў, што абслугоўваюць гэты кантролер дамена. Вы сапраўды жадаеце спыніць агульны доступ да %1?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This share was created for administrative purposes only.  The share will reappear when the Server service is stopped and restarted or the computer is rebooted.  Are you sure you wish to stop sharing %1?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T180141Z" changeid="eratyk">
+        <seg>Гэты элемент быў створаны толькі для адміністрацыйных мэтаў. Ён з'явіцца зноў, калі служба сервера будзе спыненая і перазапушчаная, ці калі перазапусціцца камп'ютар. Вы сапраўды жадаеце спыніць агульны доступ да %1?\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -68939,6 +70211,14 @@
       </tuv>
       <tuv lang="be" changedate="20101126T074522Z" changeid="eratyk">
         <seg>Каб даць агульны доступ гэтым элементам, Windows патрабуе вашага дазволу. Калі вы пстрыкнеце &quot;Не&quot;, вылучаныя элементы не стануць агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To share your files as Read/Write, Windows must give the folders listed below the same permissions.  If you continue, other people will be able to add additional files to them.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T151838Z" changeid="eratyk">
+        <seg>Каб даць агульны доступ да файлаў з чытаннем і запісваннем, Windows павінна даць пералічаным ніжэй каталогам аднолькавыя дазволы. Калі вы працягнеце, іншыя людзі змогуць дадаваць у іх свае файлы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69919,10 +71199,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Turn on Index</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194738Z" changeid="eratyk">
+        <seg>Уключыць індэкс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Turn on easy access keys</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T084108Z" changeid="eratyk">
         <seg>Уключыць клавішы простага доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turn on index</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194801Z" changeid="eratyk">
+        <seg>Уключыць індэкс</seg>
       </tuv>
     </tu>
     <tu>
@@ -70003,6 +71299,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T090655Z" changeid="eratyk">
         <seg>Увядзіце апісанне, якое вы жадаеце выкарыстоўваць для файлаў гэтага тыпу:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type a name and then click Add, or click the arrow to find someone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143741Z" changeid="eratyk">
+        <seg>Увядзіце назву і націсніце &quot;Дадаць&quot;, ці націсніце стрэлку, каб знайсці некага.</seg>
       </tuv>
     </tu>
     <tu>
@@ -70247,6 +71551,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ukrainian (Ukraine)$Ukrainian$Ukraine</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101126T212938Z" changeid="eratyk">
+        <seg>Украінская (Украіна)$Украінская$Украіна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ukrainian$Ukrainian$Ukraine$$$Bhutan$Kingdom of Bhutan</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T201651Z" changeid="eratyk">
@@ -70435,6 +71747,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T065612Z" changeid="eratyk">
         <seg>Немагчыма стварыць каталог '%2!ls!'\n\n%1!ls!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to exclude this item.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161834Z" changeid="eratyk">
+        <seg>Немагчыма выключыць гэты элемент.</seg>
       </tuv>
     </tu>
     <tu>
@@ -71135,6 +72455,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unknown error 0x%1!08lx!.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T180155Z" changeid="eratyk">
+        <seg>Невядомая памылка 0x%1!08lx!.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown printer driver.\nPlease verify that a driver is installed on %s.</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T113952Z" changeid="eratyk">
@@ -71427,6 +72755,14 @@
       </tuv>
       <tuv lang="be" changedate="20100710T174514Z" changeid="eratyk">
         <seg>Абнавіць усё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Update Indexer Status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192548Z" changeid="eratyk">
+        <seg>Абнавіць стан індэксавальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -74081,8 +75417,8 @@
       <tuv lang="en">
         <seg>Windows File Sharing</seg>
       </tuv>
-      <tuv lang="be" changedate="20101126T075603Z" changeid="eratyk">
-        <seg>Агульнадаступнасць файлаў Windows</seg>
+      <tuv lang="be" changedate="20101130T141932Z" changeid="eratyk">
+        <seg>Агульны доступ да файлаў Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -74543,6 +75879,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows added the location to your library, but couldn't share the location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T160216Z" changeid="eratyk">
+        <seg>Windows дадала размяшчэнне ў вашую бібліятэку, але не змагла зрабіць яго агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows added the locations to your library, but couldn't share one or more locations.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T160905Z" changeid="eratyk">
+        <seg>Windows дадала размяшчэнні ў вашую бібліятэку, але не змагла зрабіць усе з іх агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows adjusted these settings to match your hardware capabilities.</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T091303Z" changeid="eratyk">
@@ -74695,6 +76047,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows can't change this folder's sharing settings because it's on another computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161258Z" changeid="eratyk">
+        <seg>Windows не можа змяніць налады агульнага доступу гэтага каталога, бо ён на іншым камп'ютары.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows can't check the disk while it's in use</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T160213Z" changeid="eratyk">
@@ -74815,6 +76175,46 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows can't stop sharing the selected drive.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153654Z" changeid="eratyk">
+        <seg>Windows не можа спыніць агульны доступ да вылучанага дыска.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can't stop sharing the selected file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153542Z" changeid="eratyk">
+        <seg>Windows не можа спыніць агульны доступ да вылучанага файла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can't stop sharing the selected files.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153706Z" changeid="eratyk">
+        <seg>Windows не можа спыніць агульны доступ да вылучаных файлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can't stop sharing the selected folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153647Z" changeid="eratyk">
+        <seg>Windows не можа спыніць агульны доступ да вылучанага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can't stop sharing the selected folders.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153746Z" changeid="eratyk">
+        <seg>Windows не можа спыніць агульны доступ да вылучаных каталогаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows cannot access %s</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T133048Z" changeid="eratyk">
@@ -74835,6 +76235,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T054323Z" changeid="eratyk">
         <seg>Windows не можа атрымаць доступ да азначанага файла, шляху альбо прылады.  Магчыма, Вы не маеце патрэбных дазволаў на доступ да элемента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows cannot enable recycling for this share.  Make sure you have write permissions on this folder.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T182810Z" changeid="eratyk">
+        <seg>Windows не можа ўключыць выкідванне для гэтага элемента агульнага доступу. Пераканайцеся, што вы маеце дазвол на запісванне ў гэты каталог.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -74865,8 +76273,8 @@
       <tuv lang="en">
         <seg>Windows cannot find '%1!ls!'. Check the spelling and try again, or try searching for the item by clicking the Start button and then clicking Search.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100711T074854Z" changeid="eratyk">
-        <seg>Windows не можа знайсці '%1!ls!'. Праверце напісанне і паспрабуйце зноў, ці выкарыстайце пошук Пачатковага меню</seg>
+      <tuv lang="be" changedate="20101130T184518Z" changeid="eratyk">
+        <seg>Windows не можа знайсці '%1!ls!'. Праверце напісанне і паспрабуйце зноў, ці скарыстайце пошук Пачатковага меню</seg>
       </tuv>
     </tu>
     <tu>
@@ -74943,6 +76351,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows cannot turn off recycling for this share.  Make sure you have delete permissions on this folder\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T182906Z" changeid="eratyk">
+        <seg>Windows не можа выключыць выкідванне для гэтага элемента агульнага доступу. Пераканайцеся, што вы маеце дазвол на выдаленне з гэтага каталога\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows cannot verify the digital signature for this file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T091156Z" changeid="eratyk">
@@ -74979,6 +76395,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T120234Z" changeid="eratyk">
         <seg>Windows не можа прачытаць дыск %1!c!:. Пераканайцеся, што дыск падключаны, адфарматаваны і не змяшчае памылкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can’t find this folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161319Z" changeid="eratyk">
+        <seg>Windows не можа знайсці гэты каталог.</seg>
       </tuv>
     </tu>
     <tu>
@@ -75103,6 +76527,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows couldn't stop sharing the selected libraries.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165921Z" changeid="eratyk">
+        <seg>Windows не змагла спыніць агульны доступ да вылучаных бібліятэк.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows detected a homegroup on your network.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T075911Z" changeid="eratyk">
@@ -75195,6 +76627,14 @@
       </tuv>
       <tuv lang="be" changedate="20100716T090757Z" changeid="eratyk">
         <seg>Windows вынайшла праблему падчас спробы перамяшчэння гэтага каталога. Што павінна зрабіць Windows?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows encountered an error when trying to stop sharing this library.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165648Z" changeid="eratyk">
+        <seg>Windows вынайшла памылку падчас спробы спынення агульнага доступу да гэтай бібліятэкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -75543,6 +76983,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows removed the location from your library, but couldn't stop sharing the location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T160815Z" changeid="eratyk">
+        <seg>Windows выдаліла размяшчэнне з вашай бібліятэкі, але не змагла спыніць агульны доступ да яго.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows removed the locations from your library, but couldn't stop sharing one or more locations.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T160858Z" changeid="eratyk">
+        <seg>Windows выдаліла размяшчэнні з вашай бібліятэкі, але не змагла спыніць агульны доступ да ўсіх з іх.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows shortcut &amp;keys</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T073632Z" changeid="eratyk">
@@ -75595,6 +77051,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T121115Z" changeid="eratyk">
         <seg>Windows не змагла скончыць фарматаванне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows was unable to find %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T143904Z" changeid="eratyk">
+        <seg>Windows не змагла знайсці %1</seg>
       </tuv>
     </tu>
     <tu>
@@ -75849,8 +77313,8 @@
       <tuv lang="en">
         <seg>WordPad has finished searching the document.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100828T080558Z" changeid="eratyk">
-        <seg>WordPad скончыў пошук па дакуменце.</seg>
+      <tuv lang="be" changedate="20101130T184422Z" changeid="eratyk">
+        <seg>WordPad скончыў шуканне па дакуменце.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76287,6 +77751,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You are already sharing %1 using the name %2. Do you want to share %3 using the name %2 instead?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T173250Z" changeid="eratyk">
+        <seg>Вы ўжо даеце агульны доступ да %1 з назваю %2. Даць агульны доступ да %3 з назваю %2 замест гэтага?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You are attempting to open a file of type '%s' (%s)</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T102652Z" changeid="eratyk">
@@ -76375,6 +77847,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You are sharing %1 as %2. Others may be using files in this folder. If you delete the folder, it will no longer be shared. Are you sure you want to delete it?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T172850Z" changeid="eratyk">
+        <seg>Вы даеце агульны доступ да %1 як да %2. Іншыя могуць карыстаць файлы ў гэтым каталогу. Калі вы выдаліце гэты каталог, ён больш не будзе агульнадаступным. Вы сапраўды жадаеце выдаліць яго?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You are sharing %1 as %2. The folder will not be shared after you move or rename it. Are you sure you want to continue?\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T173101Z" changeid="eratyk">
+        <seg>Вы даеце агульны доступ да %1 як да %2. Калі вы перамесціце ці пераназавеце гэты каталог, ён больш не будзе агульнадаступным. Вы сапраўды жадаеце працягнуць?\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You are shutting down this computer while there are other users still using it.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T062653Z" changeid="eratyk">
@@ -76387,6 +77875,14 @@
       </tuv>
       <tuv lang="be" changedate="20100926T062653Z" changeid="eratyk">
         <seg>Вы выключаеце гэты камп'ютар, які яшчэ выкарыстоўваецца іншымі карыстальнікамі. Яны могуць страціць звесткі.\n\nЖадаеце працягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can &lt;A href=&quot;EmailLinks&quot;&gt;e-mail&lt;/A&gt; someone links to these shared items, or &lt;A href=&quot;CopyLinks&quot;&gt;copy&lt;/A&gt; and paste the links into another program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152848Z" changeid="eratyk">
+        <seg>Вы можаце &lt;A href=&quot;EmailLinks&quot;&gt;напісаць э-ліст&lt;/A&gt; камусьці спасылкі на гэтыя агульнадаступныя элементы, ці &lt;A href=&quot;CopyLinks&quot;&gt;скапіяваць іх&lt;/A&gt; і ўставіць у іншую праграму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76627,6 +78123,14 @@
       </tuv>
       <tuv lang="be" changedate="20100831T064241Z" changeid="eratyk">
         <seg>Вы можаце захаваць копію для захавання зыходнага дакумента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can share your files and folders with other people who use this computer. Select them below.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T151059Z" changeid="eratyk">
+        <seg>Вы можаце даць агульны доступ да файлаў і каталогаў іншым карыстальнікам камп'ютара. Абярыце іх унізе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77095,6 +78599,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You do not have permission to search this location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T190902Z" changeid="eratyk">
+        <seg>Вы не маеце дазволу шуканне ў гэтым размяшчэнні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You do not have permission to use the selected printer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T132810Z" changeid="eratyk">
@@ -77147,6 +78659,38 @@
       </tuv>
       <tuv lang="be" changedate="20100717T110404Z" changeid="eratyk">
         <seg>Вы не маеце дазволу на капіяванне файлаў у гэтае размяшчэнне па сетцы. Вы можаце скапіяваць іх у каталог &quot;Дакументы&quot; і потым перамясціць у гэтае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You don't have permission to share or stop sharing this file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161542Z" changeid="eratyk">
+        <seg>Вы не маеце дазволу на даванне і спыненне агульнага доступу да гэтага файла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You don't have permission to share or stop sharing this folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161853Z" changeid="eratyk">
+        <seg>Вы не маеце дазволу на даванне і спыненне агульнага доступу да гэтага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You don't have permission to share or stop sharing this library.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T161913Z" changeid="eratyk">
+        <seg>Вы не маеце дазволу на даванне і спыненне агульнага доступу да гэтага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You don't have permission to share this library.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162015Z" changeid="eratyk">
+        <seg>Вы не маеце дазволу на даванне агульнага доступу да гэтай бібліятэкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77483,6 +79027,14 @@
       </tuv>
       <tuv lang="be" changedate="20100710T075901Z" changeid="eratyk">
         <seg>Вы павінны ўвесці назву файла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must type a share name for this resource.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T181513Z" changeid="eratyk">
+        <seg>Вы павінны ўвесці назву агульнага доступу для гэтага рэсурсу.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -78183,6 +79735,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your drive can't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153120Z" changeid="eratyk">
+        <seg>Ваш дыск не можа быць агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your drive is shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152350Z" changeid="eratyk">
+        <seg>Ваш дыск агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your file could not be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153047Z" changeid="eratyk">
+        <seg>Ваш файл не можа быць агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your file is shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152338Z" changeid="eratyk">
+        <seg>Ваш файл агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your files are ready to be burned, but some of them will not have the same file system attributes (such as Hidden) as the original files.\n\nDo you want to continue burning these files to the disc?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T223311Z" changeid="eratyk">
@@ -78191,10 +79775,98 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your files are shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152412Z" changeid="eratyk">
+        <seg>Вашыя файлы агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your files can't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153209Z" changeid="eratyk">
+        <seg>Вашыя файлы не могуць быць агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your folder can't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153112Z" changeid="eratyk">
+        <seg>Ваш каталог не можа быць агульнадаступным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your folder is shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152343Z" changeid="eratyk">
+        <seg>Ваш каталог агульнадаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your folders are shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T152421Z" changeid="eratyk">
+        <seg>Вашыя каталогі агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your folders can't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T153234Z" changeid="eratyk">
+        <seg>Вашыя каталогі не могуць быць агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your homegroup password has been changed.\n\nTo continue using homegroup resources, make sure that someone who has already entered the new password is online, and then type the new password.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T163401Z" changeid="eratyk">
         <seg>Пароль вашай хатняй групы зменены.\n\nКаб працягваць карыстацца рэсурсамі хатняй групы, пераканайцеся, што той, хто ўвёў новы пароль, зараз у сетцы, і тады ўвядзіце новы пароль.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your items are shared, but other people might not see them in your library.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T162408Z" changeid="eratyk">
+        <seg>Вашыя элементы агульнадаступныя, але іншыя людзі могуць не ўбачыць іх у вашай бібліятэцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your libraries are now shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165810Z" changeid="eratyk">
+        <seg>Вашыя бібліятэкі не агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your libraries couldn't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165833Z" changeid="eratyk">
+        <seg>Вашыя бібліятэкі не могуць быць агульнадаступнымі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your library couldn't be shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165522Z" changeid="eratyk">
+        <seg>Вашая бібліятэка не можа быць агульнадаступнай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your library is now shared.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T165425Z" changeid="eratyk">
+        <seg>Вашая бібліятэка не агульнадаступная.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78299,6 +79971,22 @@
       </tuv>
       <tuv lang="be" changedate="20100723T173554Z" changeid="eratyk">
         <seg>У вашым пошуку перавышана максімальная колькасць вынікаў.\nКалі ласка, удасканальце запыт пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your searches might be slow because the index is not running.  Click to turn on the index...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T192521Z" changeid="eratyk">
+        <seg>Вашыя пошукі могуць быць павольнымі, бо індэксаванне не запушчанае. Пстрыкніце, каб уключыць індэксаванне...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your searches might be slow because the index is not running. Click to get help...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194914Z" changeid="eratyk">
+        <seg>Вашыя пошукі могуць быць павольнымі, бо індэксаванне не запушчанае. Пстрыкніце для атрымання дапамогі...</seg>
       </tuv>
     </tu>
     <tu>
@@ -78675,6 +80363,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T163243Z" changeid="eratyk">
         <seg>\nУ хуткім часе вы будзеце адлучаныя. Націсніце кнопку &quot;Застацца ў сеціве&quot;, каб застацца ў злучаным стане.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\n\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101130T194729Z" changeid="eratyk">
+        <seg>\n\n</seg>
       </tuv>
     </tu>
     <tu>

@@ -42,7 +42,7 @@ public class Installer {
 
     /** Трэба падаваць свае назвы, бо у JDK 1.6 назвы месяцаў няправільныя. */
     protected static final String[] MONTHS = new String[] { "студзеня", "лютага", "сакавіка", "красавіка", "траўня",
-            "чэрвеня", "ліпеня", "жніўня", "верасьня", "кастрычніка", "лістапада", "снежня" };
+            "чэрвеня", "ліпеня", "жніўня", "верасня", "кастрычніка", "лістапада", "снежня" };
 
     public static void main(String[] args) throws Exception {
         Map<String, String> SYSDIR32 = new TreeMap<String, String>();
