@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
   <header
@@ -3601,7 +3601,7 @@
         <seg>&amp;Create Dump File</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T100226Z" changeid="eratyk">
-        <seg>Стварыць файл дампа</seg>
+        <seg>Стварыць файл адбітка</seg>
       </tuv>
     </tu>
     <tu>
@@ -3665,7 +3665,7 @@
         <seg>&amp;Custom</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174421Z" changeid="eratyk">
-        <seg>Замоўны</seg>
+        <seg>Дапасаваны</seg>
       </tuv>
     </tu>
     <tu>
@@ -3681,7 +3681,7 @@
         <seg>&amp;Custom DPI...</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174045Z" changeid="eratyk">
-        <seg>Замоўная разрознасць...</seg>
+        <seg>Дапасаваная разрознасць...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3697,7 +3697,7 @@
         <seg>&amp;Custom scan...</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174131Z" changeid="eratyk">
-        <seg>Замоўная праверка...</seg>
+        <seg>Дапасаваная праверка...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3705,7 +3705,7 @@
         <seg>&amp;Custom size:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T044539Z" changeid="alex">
-        <seg>Замоўны памер:</seg>
+        <seg>Дапасаваны памер:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4624,8 +4624,8 @@
       <tuv lang="en">
         <seg>&amp;High alert items:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T083044Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>&amp;Высокі ўзровень апавяшчэння</seg>
+      <tuv lang="be" changedate="20101204T174436Z" changeid="eratyk">
+        <seg>Высокі ўзровень папярэджання:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5737,7 +5737,7 @@
         <seg>&amp;Picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092929Z" changeid="eratyk">
-        <seg>Малюнак</seg>
+        <seg>Відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -5745,7 +5745,7 @@
         <seg>&amp;Picture...</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T175738Z" changeid="eratyk">
-        <seg>Малюнак...</seg>
+        <seg>Відарыс...</seg>
       </tuv>
     </tu>
     <tu>
@@ -6161,7 +6161,7 @@
         <seg>&amp;Resize picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T093002Z" changeid="eratyk">
-        <seg>Змяніць памеры малюнка</seg>
+        <seg>Змяніць памеры відарыса</seg>
       </tuv>
     </tu>
     <tu>
@@ -6512,8 +6512,8 @@
       <tuv lang="en">
         <seg>&amp;Select an operating system to scan:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T065517Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Выбраць аперацыйную сістэму, якая будзе правярацца:</seg>
+      <tuv lang="be" changedate="20101204T174032Z" changeid="eratyk">
+        <seg>Абярыце аперацыйную сістэму для праверкі:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6984,8 +6984,8 @@
       <tuv lang="en">
         <seg>&amp;Start the HomeGroup troubleshooter</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T171957Z" changeid="eratyk">
-        <seg>Запусціць ліквідатар праблем хатняй групы</seg>
+      <tuv lang="be" changedate="20101204T152500Z" changeid="eratyk">
+        <seg>Запусціць вырашальнік праблем хатняй групы</seg>
       </tuv>
     </tu>
     <tu>
@@ -7200,8 +7200,8 @@
       <tuv lang="en">
         <seg>&amp;Troubleshoot sound problems</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T162929Z" changeid="eratyk">
-        <seg>Ліквідаваць праблемы гуку</seg>
+      <tuv lang="be" changedate="20101204T152510Z" changeid="eratyk">
+        <seg>Вырашыць праблемы гуку</seg>
       </tuv>
     </tu>
     <tu>
@@ -7234,6 +7234,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T183132Z" changeid="eratyk">
         <seg>Уключыць індэкс...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Turn this on</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183339Z" changeid="eratyk">
+        <seg>Уключыць</seg>
       </tuv>
     </tu>
     <tu>
@@ -7738,6 +7746,22 @@
       </tuv>
       <tuv lang="be" changedate="20100910T151312Z" changeid="eratyk">
         <seg>'%1!ls!' зараз недаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>'%1!s!' contain too many icons. Maximum number of icons that can be loaded is %2!d!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191812Z" changeid="eratyk">
+        <seg>'%1!s!' змяшчае зашмат значкаў. Максімальна магчымая колькасць заладаваных значкаў - %2!d!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>'%1!s!' does not contain any icon.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191652Z" changeid="eratyk">
+        <seg>'%1!s!' не змяшчае значкаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8441,7 +8465,7 @@
         <seg>1 new picture</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143714Z" changeid="eratyk">
-        <seg>1 новы малюнак</seg>
+        <seg>1 новы відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -8633,7 +8657,7 @@
         <seg>10+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143913Z" changeid="eratyk">
-        <seg>Больш за 10 новых малюнкаў</seg>
+        <seg>Больш за 10 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8681,7 +8705,7 @@
         <seg>100+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143936Z" changeid="eratyk">
-        <seg>Больш за 100 новых малюнкаў</seg>
+        <seg>Больш за 100 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8689,7 +8713,7 @@
         <seg>1000+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144111Z" changeid="eratyk">
-        <seg>Больш за 1000 новых малюнкаў</seg>
+        <seg>Больш за 1000 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8777,7 +8801,7 @@
         <seg>150+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143944Z" changeid="eratyk">
-        <seg>Больш за 150 новых малюнкаў</seg>
+        <seg>Больш за 150 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8873,7 +8897,7 @@
         <seg>2 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143721Z" changeid="eratyk">
-        <seg>2 новыя малюнкі</seg>
+        <seg>2 новыя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -8921,7 +8945,7 @@
         <seg>20+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143919Z" changeid="eratyk">
-        <seg>Больш за 20 новых малюнкаў</seg>
+        <seg>Больш за 20 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8929,7 +8953,7 @@
         <seg>200+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143950Z" changeid="eratyk">
-        <seg>Больш за 200 новых малюнкаў</seg>
+        <seg>Больш за 200 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -8993,7 +9017,7 @@
         <seg>250+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143957Z" changeid="eratyk">
-        <seg>Больш за 250 новых малюнкаў</seg>
+        <seg>Больш за 250 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9049,7 +9073,7 @@
         <seg>3 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143728Z" changeid="eratyk">
-        <seg>3 новыя малюнкі</seg>
+        <seg>3 новыя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -9153,7 +9177,7 @@
         <seg>30+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143922Z" changeid="eratyk">
-        <seg>Больш за 30 новых малюнкаў</seg>
+        <seg>Больш за 30 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9161,7 +9185,7 @@
         <seg>300+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144002Z" changeid="eratyk">
-        <seg>Больш за 300 новых малюнкаў</seg>
+        <seg>Больш за 300 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9177,7 +9201,7 @@
         <seg>350+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144010Z" changeid="eratyk">
-        <seg>Больш за 350 новых малюнкаў</seg>
+        <seg>Больш за 350 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9233,7 +9257,7 @@
         <seg>4 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143732Z" changeid="eratyk">
-        <seg>4 новыя малюнкі</seg>
+        <seg>4 новыя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -9273,7 +9297,7 @@
         <seg>40+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143926Z" changeid="eratyk">
-        <seg>Больш за 40 новых малюнкаў</seg>
+        <seg>Больш за 40 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9281,7 +9305,7 @@
         <seg>400+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144019Z" changeid="eratyk">
-        <seg>Больш за 400 новых малюнкаў</seg>
+        <seg>Больш за 400 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9305,7 +9329,7 @@
         <seg>450+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144024Z" changeid="eratyk">
-        <seg>Больш за 450 новых малюнкаў</seg>
+        <seg>Больш за 450 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9361,7 +9385,7 @@
         <seg>5 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143741Z" changeid="eratyk">
-        <seg>5 новых малюнкаў</seg>
+        <seg>5 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9449,7 +9473,7 @@
         <seg>50+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143931Z" changeid="eratyk">
-        <seg>Больш за 50 новых малюнкаў</seg>
+        <seg>Больш за 50 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9489,7 +9513,7 @@
         <seg>500+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144032Z" changeid="eratyk">
-        <seg>Больш за 500 новых малюнкаў</seg>
+        <seg>Больш за 500 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9521,7 +9545,7 @@
         <seg>6 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143753Z" changeid="eratyk">
-        <seg>6 новых малюнкаў</seg>
+        <seg>6 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9561,7 +9585,7 @@
         <seg>600+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144042Z" changeid="eratyk">
-        <seg>Больш за 600 новых малюнкаў</seg>
+        <seg>Больш за 600 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9609,7 +9633,7 @@
         <seg>7 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143800Z" changeid="eratyk">
-        <seg>7 новых малюнкаў</seg>
+        <seg>7 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9633,7 +9657,7 @@
         <seg>700+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144048Z" changeid="eratyk">
-        <seg>Больш за 700 новых малюнкаў</seg>
+        <seg>Больш за 700 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9681,7 +9705,7 @@
         <seg>8 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143815Z" changeid="eratyk">
-        <seg>8 новых малюнкаў</seg>
+        <seg>8 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9729,7 +9753,7 @@
         <seg>800+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144055Z" changeid="eratyk">
-        <seg>Больш за 800 новых малюнкаў</seg>
+        <seg>Больш за 800 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9769,7 +9793,7 @@
         <seg>9 new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143831Z" changeid="eratyk">
-        <seg>9 новых малюнкаў</seg>
+        <seg>9 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -9801,7 +9825,7 @@
         <seg>900+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144101Z" changeid="eratyk">
-        <seg>Больш за 900 новых малюнкаў</seg>
+        <seg>Больш за 900 новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -10334,6 +10358,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A&gt;Help me choose&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170709Z" changeid="eratyk">
+        <seg>&lt;A&gt;Дапамажыце мне абраць&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A&gt;How can I install additional languages?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T155414Z" changeid="eratyk">
@@ -10374,6 +10406,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A&gt;Merge or delete network locations&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T171037Z" changeid="eratyk">
+        <seg>&lt;A&gt;Аб'яднаць ці выдаліць сеткавыя размяшчэнні&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A&gt;Remove Properties and Personal Information&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T165402Z" changeid="eratyk">
@@ -10406,10 +10446,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A&gt;View computers and devices on the network&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170848Z" changeid="eratyk">
+        <seg>&lt;A&gt;Прагледзець камп'ютары і прылады ў сетцы&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A&gt;View more AutoPlay options in Control Panel&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T121458Z" changeid="eratyk">
         <seg>&lt;A&gt;Больш варыянтаў аўтазапуску ў панэлі кіравання&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A&gt;View or change HomeGroup settings&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170919Z" changeid="eratyk">
+        <seg>&lt;A&gt;Прагледзець ці змяніць налады хатняй групы&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A&gt;View or change settings in Network and Sharing Center&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170822Z" changeid="eratyk">
+        <seg>&lt;A&gt;Прагледзець ці змяніць налады ў цэнтры сетак і агульнага доступу&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10489,7 +10553,7 @@
         <seg>&lt;P&gt;Picture Attachments:&lt;/P&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T080944Z" changeid="eratyk">
-        <seg>&lt;P&gt;Малюнкі-прычэпкі:&lt;/P&gt;</seg>
+        <seg>&lt;P&gt;Відарысы-прычэпкі:&lt;/P&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10560,32 +10624,32 @@
       <tuv lang="en">
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T090702Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Прагляд па ліквідаванню непаладак у сеціве.&lt;/a&gt;</seg>
+      <tuv lang="be" changedate="20101204T151851Z" changeid="eratyk">
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=63849&quot;&gt;Прагледзець парады па вырашэнню праблем у сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T090717Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
+      <tuv lang="be" changedate="20101204T151900Z" changeid="eratyk">
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67233&quot;&gt;Прагледзець парады па вырашэнню праблем у сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T090731Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
+      <tuv lang="be" changedate="20101204T151913Z" changeid="eratyk">
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67234&quot;&gt;Прагледзець парады па вырашэнню праблем у сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Go online to view troubleshooting tips&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T090810Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Паказаць парады па ліквідаванню праблемы ў сеціве&lt;/a&gt;</seg>
+      <tuv lang="be" changedate="20101204T152044Z" changeid="eratyk">
+        <seg>&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=67235&quot;&gt;Прагледзець парады па вырашэнню праблем у сеціве&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11057,7 +11121,7 @@
         <seg>A dump was not saved.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133850Z" changeid="eratyk">
-        <seg>Дамп не быў захаваны.</seg>
+        <seg>Адбітак не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11065,7 +11129,7 @@
         <seg>A dump was saved in: %2.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133137Z" changeid="eratyk">
-        <seg>Дамп захаваны ў: %2.</seg>
+        <seg>Адбітак захаваны ў: %2.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11201,7 +11265,7 @@
         <seg>A full dump was not saved.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T132953Z" changeid="eratyk">
-        <seg>Поўны дамп не быў захаваны.</seg>
+        <seg>Поўны адбітак не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11234,6 +11298,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T175017Z" changeid="eratyk">
         <seg>Даўно</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A network name cannot contain \\, /, :, *, ?, &lt;, &gt;, |, &quot;, spaces only or tab characters.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T190817Z" changeid="eratyk">
+        <seg>Сеткавая назва не можа змяшчаць \\, /, :, *, ?, &lt;, &gt;, |, &quot;, толькі прагалы ці сімвалы табуляцыі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11320,8 +11392,8 @@
       <tuv lang="en">
         <seg>A problem is preventing the program from starting. Install any available updates, and then try to start the program again. For information on installing updates, see Help and Support.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T174853Z" changeid="eratyk">
-        <seg>Адбылася памылка, якая перашкаджае запуск праграмы. Усталюйце ўсе даступныя абнаўленні і паспрабуйце запусціць праграму зноў. Дадатковыя звесткі аб усталёўцы абнаўленняў можна знайсці ў цэнтры дапамогі і падтрымкі.\r\n</seg>
+      <tuv lang="be" changedate="20101204T145734Z" changeid="eratyk">
+        <seg>Адбылася памылка, якая перашкаджае запуску праграмы. Усталюйце ўсе даступныя абнаўленні і паспрабуйце запусціць праграму зноў. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -11560,8 +11632,8 @@
       <tuv lang="en">
         <seg>A system change was detected. This generally occurs when software is installed.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100310T115435Z" changeid="alex">
-        <seg>Выяўлены сістэмныя змяненні. Гэта звычайна адбываецца, калі ўсталяваная новая праграма.</seg>
+      <tuv lang="be" changedate="20101204T172123Z" changeid="eratyk">
+        <seg>Выяўлена змяненне сістэмы. Гэта звычайна адбываецца, калі ўсталявана апраграмаванне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12321,7 +12393,7 @@
         <seg>Add Desktop Gadgets that display personalized slideshows, news feeds, and other customized information.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T164530Z" changeid="eratyk">
-        <seg>Дадаць гаджэтаў стальніцы, якія паказваюць слайды, навіны і іншую замоўную інфармацыю.</seg>
+        <seg>Дадаць гаджэтаў стальніцы, якія паказваюць слайды, навіны і іншую дапасаваную інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12850,6 +12922,14 @@
       </tuv>
       <tuv lang="be" changedate="20100727T090332Z" changeid="eratyk">
         <seg>Дадатковыя звесткі дапамагаюць Microsoft ствараць новыя вызначэнні для павышэння эфектыўнасці абароны вашага камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Additional log on information may be required.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184834Z" changeid="eratyk">
+        <seg>Можа спатрэбіцца дадатковая інфармацыя ўваходу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13512,8 +13592,8 @@
       <tuv lang="en">
         <seg>All Picture Files</seg>
       </tuv>
-      <tuv lang="be" changedate="20100829T224219Z" changeid="eratyk">
-        <seg>Усе файлы малюнкаў</seg>
+      <tuv lang="be" changedate="20101205T174210Z" changeid="eratyk">
+        <seg>Усе файлы відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -13521,7 +13601,7 @@
         <seg>All Picture Files|*.bmp;*.jpg;*.jpeg;*.dib</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053344Z" changeid="alex">
-        <seg>Усе файлы малюнкаў|*.bmp;*.jpg;*.jpeg;*.dib</seg>
+        <seg>Усе файлы відарысаў|*.bmp;*.jpg;*.jpeg;*.dib</seg>
       </tuv>
     </tu>
     <tu>
@@ -13625,7 +13705,7 @@
         <seg>All picture files</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T113951Z" changeid="eratyk">
-        <seg>Усе файлы малюнкаў</seg>
+        <seg>Усе файлы відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -14368,8 +14448,8 @@
       <tuv lang="en">
         <seg>An unexpected problem occurred while checking for updates. For information on installing or troubleshooting updates, see Help and Support.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T174839Z" changeid="eratyk">
-        <seg>Адбылася нечаканая памылка ў ходзе праверкі абнаўленняў. Дадатковыя звесткі аб усталёўцы абнаўленняў можна знайсці ў цэнтры дапамогі і падтрымкі.\r\n</seg>
+      <tuv lang="be" changedate="20101204T145507Z" changeid="eratyk">
+        <seg>Адбылася нечаканая памылка ў ходзе праверкі абнаўленняў. Дадатковыя звесткі аб усталёўванні абнаўленняў можна знайсці ў цэнтры дапамогі і падтрымкі.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -14392,8 +14472,8 @@
       <tuv lang="en">
         <seg>An unexpected problem occurred. Install any available updates, and then try to start the program again. For information on installing updates, see Help and Support.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T174843Z" changeid="eratyk">
-        <seg>Адбылася нечаканая памылка. Усталюйце усе даступныя абнаўленні і запусціце праграму зноў. Больш падрабязную інфармацыю глядзіце аб усталёўцы абнаўленняў глядзіце ў цэнтры дапамогі і падтрымкі карыстальнікаў.\r\n</seg>
+      <tuv lang="be" changedate="20101204T145701Z" changeid="eratyk">
+        <seg>Адбылася нечаканая памылка. Усталюйце усе даступныя абнаўленні і запусціце праграму зноў. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -16913,7 +16993,7 @@
         <seg>Begin reading Ole or Picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T123042Z" changeid="eratyk">
-        <seg>Пачатак чытання OLE ці малюнка.</seg>
+        <seg>Пачатак чытання OLE ці відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17137,7 +17217,7 @@
         <seg>Bitmap Files (*.BMP)|*.BMP|GIF (*.GIF)|*.GIF|JPEG (*.JPEG;*.JPG;*.JPE;*.JFIF)|*.JPEG;*.JPG;*.JPE;*.JFIF|PNG (*.PNG)|*.PNG|All Picture Files|*.BMP;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.ICO|All Files|*|||</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T162518Z" changeid="eratyk">
-        <seg>Растравыя файлы (*.BMP)|*.BMP|GIF (*.GIF)|*.GIF|JPEG (*.JPEG;*.JPG;*.JPE;*.JFIF)|*.JPEG;*.JPG;*.JPE;*.JFIF|PNG (*.PNG)|*.PNG|Усе файлы малюнкаў|*.BMP;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.ICO|Усе файлы|*|||</seg>
+        <seg>Растравыя файлы (*.BMP)|*.BMP|GIF (*.GIF)|*.GIF|JPEG (*.JPEG;*.JPG;*.JPE;*.JFIF)|*.JPEG;*.JPG;*.JPE;*.JFIF|PNG (*.PNG)|*.PNG|Усе файлы відарысаў|*.BMP;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.ICO|Усе файлы|*|||</seg>
       </tuv>
     </tu>
     <tu>
@@ -17513,7 +17593,7 @@
         <seg>Browse to the folder containing the picture you want to set as your desktop background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T062017Z" changeid="alex">
-        <seg>Агляд каталогаў, што змяшчаюць малюнак, які вы жадаеце прызначыць як фон вашае стальніцы.</seg>
+        <seg>Агляд каталогаў, што змяшчаюць відарыс, які вы жадаеце прызначыць як фон вашае стальніцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17521,7 +17601,7 @@
         <seg>Browse to the folder containing the pictures you want to use for your desktop background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061939Z" changeid="alex">
-        <seg>Агляд каталогаў, што змяшчаюць малюнкі, якія вы жадаеце скарыстаць для фону вашае стальніцы.</seg>
+        <seg>Агляд каталогаў, што змяшчаюць відарысы, якія вы жадаеце скарыстаць для фону вашае стальніцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18662,6 +18742,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>CanRunTask failed.  Details: %1\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195640Z" changeid="eratyk">
+        <seg>CanRunTask няўдалы.  Дэталі: %1\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Canadian French</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T063803Z" changeid="eratyk">
@@ -19177,7 +19265,7 @@
         <seg>Cha&amp;nge picture every:</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200935Z" changeid="eratyk">
-        <seg>Змяняць малюнак кожныя:</seg>
+        <seg>Змяняць відарыс кожныя:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19185,7 +19273,7 @@
         <seg>Chan&amp;ge picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092938Z" changeid="eratyk">
-        <seg>Змяніць малюнак</seg>
+        <seg>Змяніць відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -19310,6 +19398,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Change Network Icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T171045Z" changeid="eratyk">
+        <seg>Змяніць значак сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Change PC wakeup settings</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T162445Z" changeid="eratyk">
@@ -19409,7 +19505,7 @@
         <seg>Change Your Picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T171037Z" changeid="eratyk">
-        <seg>Змяніць ваш малюнак</seg>
+        <seg>Змяніць ваш відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -19713,7 +19809,7 @@
         <seg>Change picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194048Z" changeid="eratyk">
-        <seg>Змяніць малюнак</seg>
+        <seg>Змяніць відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -19721,7 +19817,7 @@
         <seg>Change picture every</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200938Z" changeid="eratyk">
-        <seg>Змяняць малюнак кожныя</seg>
+        <seg>Змяняць відарыс кожныя</seg>
       </tuv>
     </tu>
     <tu>
@@ -19977,7 +20073,7 @@
         <seg>Change the picture on the Start menu</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T161535Z" changeid="eratyk">
-        <seg>Змяніць малюнак ў Пачатковым меню</seg>
+        <seg>Змяніць відарыс ў Пачатковым меню</seg>
       </tuv>
     </tu>
     <tu>
@@ -19985,7 +20081,7 @@
         <seg>Change the pictures, colors, and sounds for this computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T060002Z" changeid="eratyk">
-        <seg>Змяніць малюнак, колеры і гукі гэтага камп'ютара.</seg>
+        <seg>Змяніць відарыс, колеры і гукі гэтага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20073,7 +20169,7 @@
         <seg>Change to a different picture, preserving the formatting and size of the current picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T171241Z" changeid="eratyk">
-        <seg>Замяніць малюнак, захаваўшы фарматаванне і памер дзейнага малюнка.</seg>
+        <seg>Замяніць відарыс, захаваўшы фарматаванне і памер дзейнага відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20185,7 +20281,7 @@
         <seg>Change your account picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T191632Z" changeid="eratyk">
-        <seg>Змяніць малюнак вашага рахунка</seg>
+        <seg>Змяніць відарыс вашага рахунка</seg>
       </tuv>
     </tu>
     <tu>
@@ -21033,7 +21129,7 @@
         <seg>Choose Picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T170830Z" changeid="eratyk">
-        <seg>Абраць малюнак</seg>
+        <seg>Абраць відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -21081,7 +21177,7 @@
         <seg>Choose a file to show on this folder icon.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T073356Z" changeid="eratyk">
-        <seg>Абярыце малюнак для паказвання значка каталога.</seg>
+        <seg>Абярыце відарыс для паказвання значка каталога.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21192,8 +21288,8 @@
       <tuv lang="en">
         <seg>Choose the action that you want to display or apply when items with these alert levels are detected. &lt;a href=&quot;Help://AlertLevels&quot;&gt;What are actions and alert levels?&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100318T155744Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Абярыце дзеянне, якое неабходна запытваць ці выконваць пры выяўленні элементаў з гэтымі ўзроўнямі апавяшчэння.&lt;a href=&quot;Help://AlertLevels&quot;&gt;Што такое дзеянне і ўзроўні апавяшчэння?&lt;/a&gt;</seg>
+      <tuv lang="be" changedate="20101204T174327Z" changeid="eratyk">
+        <seg>Абярыце дзеянне, якое вы жадаеце адлюстроўваць ці ўжываць падчас выяўлення гэтых узроўняў папярэджання.&lt;a href=&quot;Help://AlertLevels&quot;&gt;Што такое дзеянні і ўзроўні папярэджання?&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21841,7 +21937,7 @@
         <seg>Click a picture to make it your desktop background, or select more than one picture to create a slide show.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200405Z" changeid="eratyk">
-        <seg>Пстрыкніце малюнак, каб зрабіць яго фонам стальніцы, ці вылучце некалькі малюнкаў, каб стварыць паказ слайдаў.</seg>
+        <seg>Пстрыкніце відарыс, каб зрабіць яго фонам стальніцы, ці вылучце некалькі відарысаў, каб стварыць паказ слайдаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21849,7 +21945,7 @@
         <seg>Click a picture to make it your desktop background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200319Z" changeid="eratyk">
-        <seg>Пстрыкніце малюнак, каб зрабіць яго фонам стальніцы.</seg>
+        <seg>Пстрыкніце відарыс, каб зрабіць яго фонам стальніцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21889,7 +21985,7 @@
         <seg>Click here for more options such as change picture and resize picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T093704Z" changeid="eratyk">
-        <seg>Пстрыкніце тут для абрання дадатковых магчымасцяў накшталт змянення малюнка і яго памераў.</seg>
+        <seg>Пстрыкніце тут для абрання дадатковых магчымасцяў накшталт змянення відарыса і яго памераў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21898,6 +21994,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T092514Z" changeid="eratyk">
         <seg>Пстрыкніце тут для абрання дадатковых магчымасцяў накшталт устаўкі толькі звычайнага тэксту.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click here if this network is at home, work, or another safe location. By default, it is considered to be in a public location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184305Z" changeid="eratyk">
+        <seg>Пстрыкніце тут, калі гэтая сетка знаходзіцца дома, на працы ці ў іншым бяспечным месцы. Перадвызначана лічыцца, што яна знаходзіцца ў публічным месцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22090,6 +22194,14 @@
       </tuv>
       <tuv lang="be" changedate="20101124T142728Z" changeid="eratyk">
         <seg>Пстрыкніце, каб выключыць %1!s! з пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to open your browser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184932Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб адчыніць ваш аглядальнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -23870,10 +23982,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connected to '%s' for the first time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184008Z" changeid="eratyk">
+        <seg>Злучаны з '%s' упершыню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connected to this network for the first time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184023Z" changeid="eratyk">
+        <seg>Злучаны з гэтай сеткай упершыню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connecting</seg>
       </tuv>
       <tuv lang="be" changedate="20101125T165549Z" changeid="eratyk">
         <seg>Злучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connecting to your network and applying settings...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T153737Z" changeid="eratyk">
+        <seg>Злучэнне з вашай сеткай і ўжыванне наладаў...</seg>
       </tuv>
     </tu>
     <tu>
@@ -23890,6 +24026,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T082009Z" changeid="eratyk">
         <seg>Стан злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connection status: unknown</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T171108Z" changeid="eratyk">
+        <seg>Стан злучэння: невядомы</seg>
       </tuv>
     </tu>
     <tu>
@@ -24097,7 +24241,7 @@
         <seg>Contains digital photos, images, and graphic files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T112425Z" changeid="eratyk">
-        <seg>Змяшчае лічбавыя фотаздымкі, малюнкі і іншыя графічныя файлы.</seg>
+        <seg>Змяшчае лічбавыя фотаздымкі, відарысы і іншыя графічныя файлы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24113,7 +24257,7 @@
         <seg>Contains folders for Documents, Pictures, Music, and other files that belong to you.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T114109Z" changeid="eratyk">
-        <seg>Змяшчае каталогі для дакументаў, малюнкаў, музыкі і іншых вашых файлаў.</seg>
+        <seg>Змяшчае каталогі для дакументаў, відарысаў, музыкі і іншых вашых файлаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24585,7 +24729,7 @@
         <seg>Copy pictures from a camera or scanner to your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183707Z" changeid="eratyk">
-        <seg>Скапіяваць малюнкі з камеры ці сканера на ваш камп'ютар.</seg>
+        <seg>Скапіяваць відарысы з камеры ці сканера на ваш камп'ютар.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24822,6 +24966,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Could not register for UI status events.  Details: %1\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T200318Z" changeid="eratyk">
+        <seg>Немагчыма зарэгістравацца для аглядання падзеяў стану КІ.  Дэталі: %1\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Count</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T060525Z" changeid="eratyk">
@@ -24865,7 +25017,7 @@
         <seg>Create &amp;Dump File</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T100642Z" changeid="eratyk">
-        <seg>Стварыць файл дампа</seg>
+        <seg>Стварыць файл адбітка</seg>
       </tuv>
     </tu>
     <tu>
@@ -24993,7 +25145,7 @@
         <seg>Create a Custom Library</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T155732Z" changeid="eratyk">
-        <seg>Стварыць замоўную бібліятэку</seg>
+        <seg>Стварыць дапасаваную бібліятэку</seg>
       </tuv>
     </tu>
     <tu>
@@ -25089,7 +25241,7 @@
         <seg>Create and edit drawings.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T155832Z" changeid="eratyk">
-        <seg>Стварыць і рэдагаваць малюнкі.</seg>
+        <seg>Стварыць і рэдагаваць відарысы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25625,7 +25777,7 @@
         <seg>Custom</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T163000Z" changeid="eratyk">
-        <seg>Замоўна</seg>
+        <seg>Дапасавана</seg>
       </tuv>
     </tu>
     <tu>
@@ -25641,7 +25793,7 @@
         <seg>Custom Library</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T175350Z" changeid="eratyk">
-        <seg>Замоўная бібліятэка</seg>
+        <seg>Дапасаваная бібліятэка</seg>
       </tuv>
     </tu>
     <tu>
@@ -25657,7 +25809,7 @@
         <seg>Custom Scan%0</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174206Z" changeid="eratyk">
-        <seg>Замоўная праверка%0</seg>
+        <seg>Дапасаваная праверка%0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25665,7 +25817,7 @@
         <seg>Custom dynamic link libraries are being loaded for every application.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T142427Z" changeid="eratyk">
-        <seg>Замоўныя бібліятэкі дынамічнага кампанавання ладуюцца для кожнае праграмы.</seg>
+        <seg>Дапасаваныя бібліятэкі дынамічнага кампанавання ладуюцца для кожнае праграмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25673,7 +25825,7 @@
         <seg>Custom dynamic link libraries are being loaded for every application. The system administrator should review the list of libraries to ensure they are related to trusted applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T142427Z" changeid="eratyk">
-        <seg>Замоўныя бібліятэкі дынамічнага кампанавання ладуюцца для кожнае праграмы. Сістэмны адміністратар павінен перагледзець спіс бібліятэк, каб упэўніцца, што яны адносяцца да надзейных праграмаў.</seg>
+        <seg>Дапасаваныя бібліятэкі дынамічнага кампанавання ладуюцца для кожнае праграмы. Сістэмны адміністратар павінен перагледзець спіс бібліятэк, каб упэўніцца, што яны адносяцца да надзейных праграмаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25681,7 +25833,7 @@
         <seg>Custom scan</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174123Z" changeid="eratyk">
-        <seg>Замоўная праверка</seg>
+        <seg>Дапасаваная праверка</seg>
       </tuv>
     </tu>
     <tu>
@@ -25689,7 +25841,7 @@
         <seg>Custom...</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T174328Z" changeid="eratyk">
-        <seg>Замоўна...</seg>
+        <seg>Дапасавана...</seg>
       </tuv>
     </tu>
     <tu>
@@ -27441,7 +27593,7 @@
         <seg>Dial-up Adapter</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T193346Z" changeid="eratyk">
-        <seg>Тэлефанавальны адаптар</seg>
+        <seg>Тэлефонны адаптар</seg>
       </tuv>
     </tu>
     <tu>
@@ -27633,7 +27785,7 @@
         <seg>Disabling quick removal for the drive will allow the NTFS file system to format it.\n\nTo avoid corrupting the drive when you remove it, always click the Safely Remove Hardware icon (the circled icon in the graphic below) in the notification area, and then click the device name.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T071429Z" changeid="eratyk">
-        <seg>Выключэнне хуткага вымання для дыска дазволіць адфарматаваць яго ў NTFS.\n\nКаб пазбегнуць пашкоджання падчас вымання, заўсёды пстрыкайце значак бяспечнага вымання (глядзі малюнак) на пляцоўцы апавяшчэнняў і абірайце назву прылады, што вымаецца.</seg>
+        <seg>Выключэнне хуткага вымання для дыска дазволіць адфарматаваць яго ў NTFS.\n\nКаб пазбегнуць пашкоджання падчас вымання, заўсёды пстрыкайце значак бяспечнага вымання (глядзі відарыс) на пляцоўцы апавяшчэнняў і абірайце назву прылады, што вымаецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28185,7 +28337,7 @@
         <seg>Display all or the selected pictures and videos in this folder as a slide show.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T074244Z" changeid="eratyk">
-        <seg>Паказаць усе ці вылучаныя малюнкі і відэазапісы ў гэтым каталогу ў выглядзе слайдаў.</seg>
+        <seg>Паказаць усе ці вылучаныя відарысы і відэазапісы ў гэтым каталогу ў выглядзе слайдаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29039,6 +29191,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want to install the printer on %s?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185326Z" changeid="eratyk">
+        <seg>Усталяваць друкарку на %s?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want to install this gadget?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222555Z" changeid="eratyk">
@@ -29295,6 +29455,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want to turn on %s?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183240Z" changeid="eratyk">
+        <seg>Уключыць %s?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want to turn on diagnostics?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222852Z" changeid="eratyk">
@@ -29475,6 +29643,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T183321Z" changeid="eratyk">
         <seg>Не дадаваць гэты каталог (рэкамендавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Don't install the printer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185246Z" changeid="eratyk">
+        <seg>Не ўсталёўваць друкарку</seg>
       </tuv>
     </tu>
     <tu>
@@ -29762,7 +29938,7 @@
         <seg>Dump Process</seg>
       </tuv>
       <tuv lang="be" changedate="20101125T194948Z" changeid="eratyk">
-        <seg>Працэс дампінгу</seg>
+        <seg>Працэс адбівання</seg>
       </tuv>
     </tu>
     <tu>
@@ -29770,7 +29946,7 @@
         <seg>Dumping Process</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T082414Z" changeid="eratyk">
-        <seg>Дампінг працэса</seg>
+        <seg>Адбіванне працэса</seg>
       </tuv>
     </tu>
     <tu>
@@ -30674,7 +30850,7 @@
         <seg>End reading Ole or Picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T123054Z" changeid="eratyk">
-        <seg>Канец чытання OLE ці малюнка.</seg>
+        <seg>Канец чытання OLE ці відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30690,7 +30866,7 @@
         <seg>End saving Ole or Picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T122931Z" changeid="eratyk">
-        <seg>Канец захавання OLE ці малюнка.</seg>
+        <seg>Канец захавання OLE ці відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31199,6 +31375,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error loading image file '%1!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191933Z" changeid="eratyk">
+        <seg>Памылка ладавання файла выявы '%1!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error parsing property schema '%1': Invalid canonical name '%2'.\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T145749Z" changeid="eratyk">
@@ -31602,7 +31786,7 @@
         <seg>Expand pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T115149Z" changeid="eratyk">
-        <seg>Разгортваць малюнкі</seg>
+        <seg>Разгортваць відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -33762,7 +33946,7 @@
         <seg>Folder pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T114525Z" changeid="eratyk">
-        <seg>Малюнкі каталогаў</seg>
+        <seg>Відарысы каталогаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -36287,6 +36471,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Home network\nIf all the computers on this network are at your home, and you recognize them, this is a trusted home network.  Don't choose this for public places such as coffee shops or airports.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T154710Z" changeid="eratyk">
+        <seg>Хатняя сетка\nКалі ўсе камп'ютары ў гэтай сетцы ў вашым доме, і вы ведаеце іх, гэта давераная хатняя сетка. Не абірайце гэта для публічных месцаў кшталту кавярняў ці аэрапортаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Home phone</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T054416Z" changeid="eratyk">
@@ -36890,7 +37082,7 @@
         <seg>Identity provider picture</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T154135Z" changeid="eratyk">
-        <seg>Малюнак дастаўніка пасведчанняў</seg>
+        <seg>Відарыс дастаўніка пасведчанняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -37727,6 +37919,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Image Files(*.bmp,*.gif,*.jpg,*.png,*.tiff,*.exif,*.wmf,*.emf)\0*.bmp;*.gif;*.jpg;*.png;*.tiff;*.exif;*.wmf;*.emf\0Icon Files(*.ico)\0*.ico\0Program Files(*.dll,*.exe)\0*.dll;*.exe</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192138Z" changeid="eratyk">
+        <seg>Файлы выяваў(*.bmp,*.gif,*.jpg,*.png,*.tiff,*.exif,*.wmf,*.emf)\0*.bmp;*.gif;*.jpg;*.png;*.tiff;*.exif;*.wmf;*.emf\0Файлы значкаў(*.ico)\0*.ico\0Праграмныя файлы(*.dll,*.exe)\0*.dll;*.exe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Image ID</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T204041Z" changeid="eratyk">
@@ -37754,7 +37954,7 @@
         <seg>Images#*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff;*.bmp;*.ico;*.wmf;*.dib;*.jfif;*.jpe;*.fpx;*.mix#</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T072720Z" changeid="eratyk">
-        <seg>Малюнкі#*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff;*.bmp;*.ico;*.wmf;*.dib;*.jfif;*.jpe;*.fpx;*.mix#</seg>
+        <seg>Відарысы#*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff;*.bmp;*.ico;*.wmf;*.dib;*.jfif;*.jpe;*.fpx;*.mix#</seg>
       </tuv>
     </tu>
     <tu>
@@ -37770,7 +37970,7 @@
         <seg>Import pictures and videos</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T174034Z" changeid="eratyk">
-        <seg>Імпартаваць малюнкі і відэазапісы</seg>
+        <seg>Імпартаваць відарысы і відэазапісы</seg>
       </tuv>
     </tu>
     <tu>
@@ -38322,7 +38522,7 @@
         <seg>Insert Paint drawing (Ctrl+D)</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194133Z" changeid="eratyk">
-        <seg>Уставіць малюнак Фарбы (Ctrl+D)</seg>
+        <seg>Уставіць відарыс Фарбы (Ctrl+D)</seg>
       </tuv>
     </tu>
     <tu>
@@ -38330,7 +38530,7 @@
         <seg>Insert Picture End.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062409Z" changeid="eratyk">
-        <seg>Канец устаўкі малюнка.</seg>
+        <seg>Канец устаўкі відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38338,7 +38538,7 @@
         <seg>Insert Picture Failed with HRESULT:%1 and Msg:%2.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062144Z" changeid="eratyk">
-        <seg>Памылка ўстаўкі малюнка з HRESULT: %1 і Msg: %2.</seg>
+        <seg>Памылка ўстаўкі відарыса з HRESULT: %1 і Msg: %2.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38346,7 +38546,7 @@
         <seg>Insert Picture Failed with HRESULT:%1.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062110Z" changeid="eratyk">
-        <seg>Памылка ўстаўкі малюнка з HRESULT: %1.</seg>
+        <seg>Памылка ўстаўкі відарыса з HRESULT: %1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38354,7 +38554,7 @@
         <seg>Insert Picture Start.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062346Z" changeid="eratyk">
-        <seg>Пачатак устаўкі малюнка.</seg>
+        <seg>Пачатак устаўкі відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38402,7 +38602,7 @@
         <seg>Insert a picture from a file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T093719Z" changeid="eratyk">
-        <seg>Уставіць малюнак з файла.</seg>
+        <seg>Уставіць відарыс з файла.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38450,7 +38650,7 @@
         <seg>Insert drawing created in Microsoft Paint.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T094616Z" changeid="eratyk">
-        <seg>Уставіць малюнак, створаны ў Фарбе.</seg>
+        <seg>Уставіць відарыс, створаны ў Фарбе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38466,7 +38666,7 @@
         <seg>Insert picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194038Z" changeid="eratyk">
-        <seg>Уставіць малюнак</seg>
+        <seg>Уставіць відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -38483,6 +38683,14 @@
       </tuv>
       <tuv lang="be" changedate="20100710T100439Z" changeid="eratyk">
         <seg>Устаўляе элементы, якія вы скапіявалі альбо вынялі, у абранае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Install Homegroup Printer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185306Z" changeid="eratyk">
+        <seg>Усталяваць друкарку хатняй групы</seg>
       </tuv>
     </tu>
     <tu>
@@ -38571,6 +38779,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T142320Z" changeid="eratyk">
         <seg>Крыніца ўсталёўкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Install the printer using the untrusted driver</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185233Z" changeid="eratyk">
+        <seg>Усталяваць друкарку праз карыстанне ненадзейным драйверам</seg>
       </tuv>
     </tu>
     <tu>
@@ -38962,7 +39178,7 @@
         <seg>Invalid Picture File.</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224311Z" changeid="eratyk">
-        <seg>Хібны файл малюнка.</seg>
+        <seg>Хібны файл відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38987,6 +39203,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T122437Z" changeid="eratyk">
         <seg>Недапушчальны каталог Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid character</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T190342Z" changeid="eratyk">
+        <seg>Недапушчальны сімвал</seg>
       </tuv>
     </tu>
     <tu>
@@ -39835,6 +40059,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T075308Z" changeid="eratyk">
         <seg>LBRACKET</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>LUAShield</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170952Z" changeid="eratyk">
+        <seg>LUAShield</seg>
       </tuv>
     </tu>
     <tu>
@@ -40947,6 +41179,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T143421Z" changeid="eratyk">
         <seg>Размяшчэнне недаступнае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Location type:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170730Z" changeid="eratyk">
+        <seg>Тып размяшчэння:</seg>
       </tuv>
     </tu>
     <tu>
@@ -42906,7 +43146,7 @@
         <seg>Microsoft WordPad is a word processing program that you can use to create and edit text documents with rich formatting and pictures.</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T193552Z" changeid="eratyk">
-        <seg>Microsoft WordPad - праграма апрацоўкі тэксту, якую вы можаце выкарыстоўваць для стварэння і рэдагавання тэкставых дакументаў з аздабленнем тэксту і малюнкамі.</seg>
+        <seg>Microsoft WordPad - праграма апрацоўкі тэксту, якую вы можаце выкарыстоўваць для стварэння і рэдагавання тэкставых дакументаў з аздабленнем тэксту і відарысамі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42914,7 +43154,7 @@
         <seg>Microsoft WordPad is a word processing program that you can use to create and edit text documents with rich formatting and pictures. WordPad can open .docx, .odt, .rtf or .txt files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T193552Z" changeid="eratyk">
-        <seg>Microsoft WordPad - праграма апрацоўкі тэксту, якую вы можаце выкарыстоўваць для стварэння і рэдагавання тэкставых дакументаў з аздабленнем тэксту і малюнкамі. WordPad можа адчыняць .docx, .odt, .rtf і .txt файлы.</seg>
+        <seg>Microsoft WordPad - праграма апрацоўкі тэксту, якую вы можаце выкарыстоўваць для стварэння і рэдагавання тэкставых дакументаў з аздабленнем тэксту і відарысамі. WordPad можа адчыняць .docx, .odt, .rtf і .txt файлы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43099,6 +43339,30 @@
       </tuv>
       <tuv lang="be" changedate="20101029T195604Z" changeid="eratyk">
         <seg>Microsoft-Windows-Known Folders\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-NetShell\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192205Z" changeid="eratyk">
+        <seg>Microsoft-Windows-NetShell\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-NetworkLocationWizard/Operational\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192201Z" changeid="eratyk">
+        <seg>Microsoft-Windows-NetworkLocationWizard/Працуе\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-PrimaryNetworkIcon\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192149Z" changeid="eratyk">
+        <seg>Microsoft-Windows-PrimaryNetworkIcon\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -43727,6 +43991,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>More information...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183117Z" changeid="eratyk">
+        <seg>Больш інфармацыі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>More information:</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T103825Z" changeid="eratyk">
@@ -44154,7 +44426,7 @@
         <seg>My Pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T090345Z" changeid="eratyk">
-        <seg>Мае малюнкі</seg>
+        <seg>Мае відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -44383,6 +44655,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Navigated directly to finish page.  Details: %1\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195851Z" changeid="eratyk">
+        <seg>Пяройдзена наўпрост на апошнюю старонку.  Дэталі: %1\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Navigation pane</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T104757Z" changeid="eratyk">
@@ -44417,16 +44697,16 @@
       <tuv lang="en">
         <seg>Nearest match based on size, date, and type:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T190917Z" changeid="alex">
-        <seg>Найбольш падыходзячы элемент па памеры, даце і тыпу:</seg>
+      <tuv lang="be" changedate="20101204T153547Z" changeid="eratyk">
+        <seg>Найбольш падыходны элемент па памеры, даце і тыпу:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Needs troubleshooting</seg>
       </tuv>
-      <tuv lang="be" changedate="20101111T082038Z" changeid="eratyk">
-        <seg>Патрабуе вырашэнне праблем</seg>
+      <tuv lang="be" changedate="20101204T152151Z" changeid="eratyk">
+        <seg>Патрабуе вырашэння праблем</seg>
       </tuv>
     </tu>
     <tu>
@@ -44483,6 +44763,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T161437Z" changeid="eratyk">
         <seg>Сетка...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>NetShell: folder displayed\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T200506Z" changeid="eratyk">
+        <seg>NetShell: адлюстраваны каталог\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -44559,6 +44847,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network Icon:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170929Z" changeid="eratyk">
+        <seg>Значак сеткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network Location</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T052740Z" changeid="eratyk">
@@ -44571,6 +44867,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T121722Z" changeid="eratyk">
         <seg>Сеткавы манітор</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network System Icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183945Z" changeid="eratyk">
+        <seg>Значак сеткавай сістэмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -44611,6 +44915,30 @@
       </tuv>
       <tuv lang="be" changedate="20100711T074042Z" changeid="eratyk">
         <seg>Адмоўлена ў доступе да сеткі. Упэўніцеся, што Вы маеце неабходныя дазволы сеткі для выканання гэтай аперацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network access might be limited</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183621Z" changeid="eratyk">
+        <seg>Доступ да сеткі можа быць абмежаваны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network access might be limited until this computer meets &lt;a&gt;network requirements&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183746Z" changeid="eratyk">
+        <seg>Доступ да сеткі можа быць абмежаваны, пакуль гэты камп'ютар не адпавядае &lt;a&gt;патрабаванням сеткі&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network access might be limited until this computer meets security standards defined by your network administrator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183853Z" changeid="eratyk">
+        <seg>Доступ да сеткі можа быць абмежаваны, пакуль гэты камп'ютар не адпавядае стандартам бяспекі, вызначаным вашым сістэмным адміністратарам</seg>
       </tuv>
     </tu>
     <tu>
@@ -44671,6 +44999,46 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network location has been selected.  Network: %1 Location: %2\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T200150Z" changeid="eratyk">
+        <seg>Сеткавае размяшчэнне было абранае.  Сетка: %1 Размяшчэнне: %2\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network location selection has been canceled at elevation.  Network: %1 Location: %2\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T200144Z" changeid="eratyk">
+        <seg>Абранне сеткавага размяшчэння было скасаванае падчас падвышэння.  Сетка: %1 Размяшчэнне: %2\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network location wizard has been suppressed because the network is ad-hoc.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195537Z" changeid="eratyk">
+        <seg>Майстар сеткавых размяшчэнняў быў прыпынены, бо сетка дэцэнтралізаваная.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network location wizard has been suppressed by a system or user registry key.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195433Z" changeid="eratyk">
+        <seg>Майстар сеткавых размяшчэнняў быў прыпынены сістэмай ці ключом карыстальніцкага рэестра.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network location wizard has been suppressed by a user through the UI.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195510Z" changeid="eratyk">
+        <seg>Майстар сеткавых размяшчэнняў быў прыпынены карыстальнікам праз КІ.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network locations and connected devices are searched more slowly than indexed locations. Click to get help...</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T192240Z" changeid="eratyk">
@@ -44703,6 +45071,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170717Z" changeid="eratyk">
+        <seg>Назва сеткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network type</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T135653Z" changeid="eratyk">
@@ -44715,6 +45091,22 @@
       </tuv>
       <tuv lang="be" changedate="20100912T161435Z" changeid="eratyk">
         <seg>Сетка...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>NetworkLocationDialog - Launched\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192345Z" changeid="eratyk">
+        <seg>NetworkLocationDialog - запушчаны\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>NetworkLocationDialog - Location Selected: Category %1 ElevationRequired: %2\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192331Z" changeid="eratyk">
+        <seg>NetworkLocationDialog - Размяшчэнне абранае: Катэгорыя %1, патрабуецца падвышэнне: %2\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -44962,7 +45354,7 @@
         <seg>New pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T135533Z" changeid="eratyk">
-        <seg>Новыя малюнкі</seg>
+        <seg>Новыя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -45354,7 +45746,7 @@
         <seg>No new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T143708Z" changeid="eratyk">
-        <seg>Няма новых малюнкаў</seg>
+        <seg>Няма новых відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -45441,8 +45833,8 @@
       <tuv lang="en">
         <seg>No unwanted or harmful software detected.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T074448Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Непажаданых або патэнцыйна небяспечных праграмаў не выяўлена.</seg>
+      <tuv lang="be" changedate="20101204T174116Z" changeid="eratyk">
+        <seg>Непажаданага ці шкоднага апраграмавання не выяўлена.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45627,6 +46019,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T114201Z" changeid="eratyk">
         <seg>Незлучальна\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not Connected</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T171051Z" changeid="eratyk">
+        <seg>Не злучана</seg>
       </tuv>
     </tu>
     <tu>
@@ -45835,6 +46235,22 @@
       </tuv>
       <tuv lang="be" changedate="20100726T070241Z" changeid="eratyk">
         <seg>Бракуе даступнай памяці для заканчэння гэтай аперацыі. Зачыніце адну ці некалькі праграм і паспрабуйце яшчэ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not enough memory to load the icons from %1!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191848Z" changeid="eratyk">
+        <seg>Бракуе памяці, каб заладаваць значкі з %1!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not enough memory to load the image file '%1!s!'.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192004Z" changeid="eratyk">
+        <seg>Бракуе памяці, каб заладаваць файл выявы '%1!s!'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46571,6 +46987,30 @@
       </tuv>
       <tuv lang="be" changedate="20100313T070040Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Пры доступе%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On Home networks, you can see other computers and devices on the network, your computer is discoverable, and you can create or join a homegroup.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191433Z" changeid="eratyk">
+        <seg>У хатніх сетках вы можаце бачыць іншыя камп'ютары і прылады, ваш камп'ютар можа быць вынайдзены, і вы можаце стварыць хатнюю групу ці далучыцца да яе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On Private networks, you can see other computers and devices on the network, and your computer is discoverable.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T190006Z" changeid="eratyk">
+        <seg>У прыватных сетках вы можаце бачыць іншыя камп'ютары і прылады, і ваш камп'ютар можа быць вынайдзены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On Work networks, you can see other computers and devices on the network, and your computer is discoverable.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191455Z" changeid="eratyk">
+        <seg>У працоўных сетках вы можаце бачыць іншыя камп'ютары і прылады, і ваш камп'ютар можа быць вынайдзены.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48402,7 +48842,7 @@
         <seg>Paint drawing</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T093044Z" changeid="eratyk">
-        <seg>Малюнак Фарбы</seg>
+        <seg>Відарыс Фарбы</seg>
       </tuv>
     </tu>
     <tu>
@@ -49295,18 +49735,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pick an icon for a network</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191630Z" changeid="eratyk">
+        <seg>Абраць значак для сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pictur&amp;es</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T124846Z" changeid="eratyk">
-        <seg>Малюнкі</seg>
+        <seg>Відарысы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Picture</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T162526Z" changeid="eratyk">
-        <seg>Малюнак</seg>
+      <tuv lang="be" changedate="20101205T174202Z" changeid="eratyk">
+        <seg>Відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -49314,7 +49762,7 @@
         <seg>Picture &amp;location:</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200423Z" changeid="eratyk">
-        <seg>Размяшчэнне малюнка:</seg>
+        <seg>Размяшчэнне відарыса:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49322,7 +49770,7 @@
         <seg>Picture &amp;position:</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200457Z" changeid="eratyk">
-        <seg>Пазіцыя малюнка:</seg>
+        <seg>Пазіцыя відарыса:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49330,15 +49778,15 @@
         <seg>Picture Location</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T200429Z" changeid="eratyk">
-        <seg>Размяшчэнне малюнка</seg>
+        <seg>Размяшчэнне відарыса</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Pictures</seg>
       </tuv>
-      <tuv lang="be" changedate="20100711T192150Z" changeid="eratyk">
-        <seg>Малюнкі</seg>
+      <tuv lang="be" changedate="20101205T174221Z" changeid="eratyk">
+        <seg>Відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -49346,7 +49794,7 @@
         <seg>Pictures (%1!d!)</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T192300Z" changeid="eratyk">
-        <seg>Малюнкі (%1!d!)</seg>
+        <seg>Відарысы (%1!d!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -49354,7 +49802,7 @@
         <seg>Pictures Folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T174119Z" changeid="eratyk">
-        <seg>Каталог малюнкаў</seg>
+        <seg>Каталог відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -49362,7 +49810,7 @@
         <seg>Pictures Library</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061824Z" changeid="alex">
-        <seg>Бібліятэка &quot;Малюнкі&quot;</seg>
+        <seg>Бібліятэка &quot;Відарысы&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -49706,7 +50154,7 @@
         <seg>Please close this dialog and select a different picture for your background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053747Z" changeid="alex">
-        <seg>Калі ласка, зачыніце гэты дыялог і абярыце іншы малюнак для фону.</seg>
+        <seg>Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50767,6 +51215,126 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>PrimaryNetworkIcon Initialized\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192410Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon ініцыялізаваны\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon Resumed\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192423Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon перасумаваны\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: Network and sharing center selected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193604Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: абраны цэнтр сетак і агульнага доступу\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: RightClick Start\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193947Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: пачаты правы пстрык мышшу\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: RightClick Stop\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193955Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: спынены правы пстрык мышшу\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to Connecting\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193401Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;злучаны&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to Disconnected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192505Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;адлучаны&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to InternetConnected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193502Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;злучаны з сецівам&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to Limited\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193417Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;абмежаваны&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to LocalConnected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193449Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;мясцова злучаны&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: State changed to WirelessAvailable\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193533Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: стан зменены на &quot;даступныя радыёсеткі&quot;\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: Tooltip selected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193747Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: абраная падказка\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: Troubleshoot selected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193834Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: абранае вырашэнне праблем\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: User notified for interface hotspot\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T200435Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: Карыстальнік апавясціў пра адметны пункт інтэрфэйса\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PrimaryNetworkIcon: VAN UI selected\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T193649Z" changeid="eratyk">
+        <seg>PrimaryNetworkIcon: абраны карыстальніцкі інтэрфэйс VAN\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Print</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T164221Z" changeid="eratyk">
@@ -51713,8 +52281,8 @@
       <tuv lang="en">
         <seg>Public</seg>
       </tuv>
-      <tuv lang="be" changedate="20100713T104443Z" changeid="eratyk">
-        <seg>Публічныя</seg>
+      <tuv lang="be" changedate="20101205T190318Z" changeid="eratyk">
+        <seg>Публічны</seg>
       </tuv>
     </tu>
     <tu>
@@ -51794,7 +52362,7 @@
         <seg>Public Pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T092847Z" changeid="eratyk">
-        <seg>Публічныя малюнкі</seg>
+        <seg>Публічныя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -51802,7 +52370,7 @@
         <seg>Public Pictures Folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T174144Z" changeid="eratyk">
-        <seg>Каталог публічных малюнкаў</seg>
+        <seg>Каталог публічных відарысаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -51819,6 +52387,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T174705Z" changeid="eratyk">
         <seg>Каталог публічных відэазапісаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Public network\nIf you don't recognize all the computers on the network (for example, you're in a coffee shop or airport, or you have mobile broadband), this is a public network and is not trusted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170439Z" changeid="eratyk">
+        <seg>Публічная сетка\nКалі вы не ведаеце ўсе камп'ютары ў сетцы (напрыклад, вы ў кавярні ці аэрапорце, ці ў вас мабільнае шыракапалоснае злучэнне), гэта недавераная публічная сетка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52474,7 +53050,7 @@
         <seg>Recent Pictures and Videos</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T121355Z" changeid="eratyk">
-        <seg>Апошнія  малюнкі і відэазапісы</seg>
+        <seg>Апошнія  відарысы і відэазапісы</seg>
       </tuv>
     </tu>
     <tu>
@@ -52545,8 +53121,8 @@
       <tuv lang="en">
         <seg>Recommended action based on definitions</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T074713Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Рэкамендаванае дзеянне на падставе вызначэнняў</seg>
+      <tuv lang="be" changedate="20101204T153331Z" changeid="eratyk">
+        <seg>Рэкамендаванае дзеянне абапіраецца на вызначэнні</seg>
       </tuv>
     </tu>
     <tu>
@@ -53098,7 +53674,7 @@
         <seg>Remove system error memory dump files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T160921Z" changeid="eratyk">
-        <seg>Выдаліць файлы дампа памяці сістэмных памылак</seg>
+        <seg>Выдаліць файлы адбітка памяці сістэмных памылак</seg>
       </tuv>
     </tu>
     <tu>
@@ -53106,7 +53682,7 @@
         <seg>Remove system error minidump files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T161045Z" changeid="eratyk">
-        <seg>Выдаліць файлы мінідампа сістэмных памылак</seg>
+        <seg>Выдаліць файлы мініадбітка сістэмных памылак</seg>
       </tuv>
     </tu>
     <tu>
@@ -53522,7 +54098,7 @@
         <seg>Resize Picture End.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062451Z" changeid="eratyk">
-        <seg>Канец змянення памеру малюнка.</seg>
+        <seg>Канец змянення памеру відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53530,7 +54106,7 @@
         <seg>Resize Picture Start.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T062432Z" changeid="eratyk">
-        <seg>Пачатак змянення памеру малюнка.</seg>
+        <seg>Пачатак змянення памеру відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53538,7 +54114,7 @@
         <seg>Resize picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194052Z" changeid="eratyk">
-        <seg>Змяніць памеры малюнка</seg>
+        <seg>Змяніць памеры відарыса</seg>
       </tuv>
     </tu>
     <tu>
@@ -53546,7 +54122,7 @@
         <seg>Resize relative to original picture size</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T072953Z" changeid="eratyk">
-        <seg>Змяніць памер адносна першапачатковага памеру малюнка</seg>
+        <seg>Змяніць памер адносна першапачатковага памеру відарыса</seg>
       </tuv>
     </tu>
     <tu>
@@ -54305,8 +54881,8 @@
       <tuv lang="en">
         <seg>Review the alert details to see why the software was detected. If you do not like how the software operates or if you do not recognize and trust the publisher, consider blocking or removing the software.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T180129Z" changeid="eratyk">
-        <seg>Даведайцеся больш, чаму гэта праграма была пазначаная як небяспечная. Калі Вам не падабаецца, як працуе гэта праграма, або Вы не ведаеце хто выдавец дадзенай праграмы, або не давяраеце яму, пажадана заблакаваць або выдаліць гэту праграму.</seg>
+      <tuv lang="be" changedate="20101204T173554Z" changeid="eratyk">
+        <seg>Перагледзьце дэталі папярэджання, каб убачыць, чаму апраграмаванне было выяўлена. Калі вам не падабаецца, як яно працуе, альбо вы не ведаеце яго выдаўца і не давяраеце яму, падумайце наконт заблакавання ці выдалення апраграмавання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54611,6 +55187,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T074758Z" changeid="eratyk">
         <seg>Выканаць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>RunNwCategoryWizard failed.  Details: %1\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195557Z" changeid="eratyk">
+        <seg>RunNwCategoryWizard няўдалы.  Дэталі: %1\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -55018,7 +55602,7 @@
         <seg>Sample Pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T093020Z" changeid="eratyk">
-        <seg>Узорныя малюнкі</seg>
+        <seg>Узорныя відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -55514,7 +56098,7 @@
         <seg>Scale height and width of current picture with aspect ratio locked or independently.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T171249Z" changeid="eratyk">
-        <seg>Змяніць вышыню і шырыню дзейнага малюнка з ці без захавання суадносінаў.</seg>
+        <seg>Змяніць вышыню і шырыню дзейнага відарыса з ці без захавання суадносінаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55562,7 +56146,7 @@
         <seg>Scan a document or picture</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T083624Z" changeid="eratyk">
-        <seg>Сканаваць дакумент ці малюнак</seg>
+        <seg>Сканаваць дакумент ці відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -56090,7 +56674,7 @@
         <seg>Search a Custom scope</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T161610Z" changeid="eratyk">
-        <seg>Пошук па замоўным абшары</seg>
+        <seg>Пошук па дапасаваным абшары</seg>
       </tuv>
     </tu>
     <tu>
@@ -56194,7 +56778,7 @@
         <seg>Search for documents, music, pictures, email and more.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T061435Z" changeid="eratyk">
-        <seg>Пошук па дакументах, музыцы, малюнках, э-пошце і іншаму.</seg>
+        <seg>Пошук па дакументах, музыцы, відарысах, э-пошце і іншаму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56594,7 +57178,7 @@
         <seg>See the available wireless networks, dial-up, and VPN connections that you can connect to.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T190419Z" changeid="eratyk">
-        <seg>Пабачыць даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі вы можаце злучыцца.</seg>
+        <seg>Пабачыць даступныя радыёсеткі, тэлефонныя і VPN-злучэнні, з якімі вы можаце злучыцца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56778,7 +57362,7 @@
         <seg>Select Picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224211Z" changeid="eratyk">
-        <seg>Абярыце малюнак</seg>
+        <seg>Абярыце відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -56863,6 +57447,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select a location for the '%1' network</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185438Z" changeid="eratyk">
+        <seg>Абраць размяшчэнне сеткі '%1'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select a photo or solid color to set as your background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061231Z" changeid="alex">
@@ -56931,6 +57523,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T074148Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Выберыце дзеянне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select an icon or an image file</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T192025Z" changeid="eratyk">
+        <seg>Абярыце значак ці файл выявы</seg>
       </tuv>
     </tu>
     <tu>
@@ -57767,6 +58367,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Set Network Location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185450Z" changeid="eratyk">
+        <seg>Прызначыць размяшчэнне сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set Network Properties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191237Z" changeid="eratyk">
+        <seg>Прызначыць уласцівасці сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Set as desktop &amp;background</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T164248Z" changeid="eratyk">
@@ -57786,7 +58402,7 @@
         <seg>Set custom permissions, create multiple shares, and set other advanced sharing options.</seg>
       </tuv>
       <tuv lang="be" changedate="20101126T073510Z" changeid="eratyk">
-        <seg>Замовіць дазволы, стварыць агульны доступ і прызначыць іншыя дадатковыя налады агульнага доступу.</seg>
+        <seg>Дапасаваць дазволы, стварыць агульны доступ і прызначыць іншыя дадатковыя налады агульнага доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57850,7 +58466,7 @@
         <seg>Set up a dial-up connection</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T163653Z" changeid="eratyk">
-        <seg>Усталяваць тэлефанавальнае злучэнне</seg>
+        <seg>Усталяваць тэлефоннае злучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -59194,7 +59810,7 @@
         <seg>Shows available wireless networks and dial-up and VPN connections that you can connect to.</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053612Z" changeid="eratyk">
-        <seg>Адлюстроўвае даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі вы можаце злучыцца.</seg>
+        <seg>Адлюстроўвае даступныя радыёсеткі, тэлефонныя і VPN-злучэнні, з якімі вы можаце злучыцца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59202,7 +59818,7 @@
         <seg>Shows available wireless networks and dial-up and VPN connections that you can connect to.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T074546Z" changeid="eratyk">
-        <seg>Паказвае даступныя радыёсеткі, тэлефанавальныя і VPN-злучэнні, з якімі вы можаце злучыцца.\0</seg>
+        <seg>Паказвае даступныя радыёсеткі, тэлефонныя і VPN-злучэнні, з якімі вы можаце злучыцца.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -59322,7 +59938,7 @@
         <seg>Shuffle pictures in the slide show.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T201202Z" changeid="eratyk">
-        <seg>Перамяшаць малюнкі паказу слайдаў.</seg>
+        <seg>Перамяшаць відарысы паказу слайдаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59491,6 +60107,46 @@
       </tuv>
       <tuv lang="be" changedate="20101108T135512Z" changeid="eratyk">
         <seg>Моц сігналу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal strength:  Excellent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183220Z" changeid="eratyk">
+        <seg>Моц сігналу:  Выдатны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal strength:  Fair</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183144Z" changeid="eratyk">
+        <seg>Моц сігналу:  Неблагі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal strength:  Good</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183150Z" changeid="eratyk">
+        <seg>Моц сігналу:  Добры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal strength:  Poor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183134Z" changeid="eratyk">
+        <seg>Моц сігналу:  Дрэнны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Signal strength:  Very good</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183200Z" changeid="eratyk">
+        <seg>Моц сігналу:  Вельмі добры</seg>
       </tuv>
     </tu>
     <tu>
@@ -61186,7 +61842,7 @@
         <seg>Start saving Ole or Picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T122922Z" changeid="eratyk">
-        <seg>Пачатак захавання OLE ці малюнка.</seg>
+        <seg>Пачатак захавання OLE ці відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61201,8 +61857,8 @@
       <tuv lang="en">
         <seg>Start the HomeGroup troubleshooter</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T083909Z" changeid="eratyk">
-        <seg>Запусціць ліквідатар праблем хатняй групы</seg>
+      <tuv lang="be" changedate="20101204T152131Z" changeid="eratyk">
+        <seg>Запусціць вырашальнік праблем хатняй групы</seg>
       </tuv>
     </tu>
     <tu>
@@ -62386,7 +63042,7 @@
         <seg>System error memory dump files</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T160720Z" changeid="eratyk">
-        <seg>Файлы дампа памяці сістэмных памылак</seg>
+        <seg>Файлы адбітка памяці сістэмных памылак</seg>
       </tuv>
     </tu>
     <tu>
@@ -62394,7 +63050,7 @@
         <seg>System error minidump files</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T161024Z" changeid="eratyk">
-        <seg>Файлы мінідампа сістэмных памылак</seg>
+        <seg>Файлы мініадбітка сістэмных памылак</seg>
       </tuv>
     </tu>
     <tu>
@@ -63754,7 +64410,7 @@
         <seg>The computer has rebooted from a bugcheck.  A dump was not saved.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133850Z" changeid="eratyk">
-        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Дамп не быў захаваны.</seg>
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Адбітак не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63762,7 +64418,7 @@
         <seg>The computer has rebooted from a bugcheck.  The bugcheck was: %1. A dump was saved in: %2. Report Id: %3.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133137Z" changeid="eratyk">
-        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Дамп захаваны ў: %2. Ідэнтыфікатар справаздачы: %3.</seg>
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Адбітак захаваны ў: %2. Ідэнтыфікатар справаздачы: %3.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63770,7 +64426,7 @@
         <seg>The computer has rebooted from a bugcheck.  The bugcheck was: %1. A full dump was not saved.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T132953Z" changeid="eratyk">
-        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Поўны дамп не быў захаваны.</seg>
+        <seg>Камп'ютар быў перазапушчаны пасля крытычнай памылкі. Памылка: %1. Поўны адбітак не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65287,6 +65943,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The network location is now %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191557Z" changeid="eratyk">
+        <seg>Размяшчэнне сеткі зараз - %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The network location of this computer and the other homegroup computers is set to Home.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T083204Z" changeid="eratyk">
@@ -65879,6 +66543,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The service to detect this status is turned off.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T172023Z" changeid="eratyk">
+        <seg>Служба, якая выяўляе гэты стан, выключаная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The servicing request received for package %1 cannot be satisfied since the package is not applicable.</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T074909Z" changeid="eratyk">
@@ -66194,7 +66866,7 @@
         <seg>The system was unable to convert a saved dump to a minidump.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133211Z" changeid="eratyk">
-        <seg>Сістэма не змагла пераўтварыць захаваны дамп у мінідамп.</seg>
+        <seg>Сістэма не змагла пераўтварыць захаваны адбітак у мініадбітак.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66450,7 +67122,7 @@
         <seg>The username/password credential provider failed to enumerate tiles.</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T082257Z" changeid="eratyk">
-        <seg>Дастаўніку пасведчанняў не ўдалося пералічыць малюнкі.</seg>
+        <seg>Дастаўніку пасведчанняў не ўдалося пералічыць відарысы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66458,7 +67130,7 @@
         <seg>The username/password credential provider failed to enumerate tiles.\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T115723Z" changeid="eratyk">
-        <seg>Дастаўніку пасведчанняў не ўдалося пералічыць малюнкі.\r\n</seg>
+        <seg>Дастаўніку пасведчанняў не ўдалося пералічыць відарысы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -67242,7 +67914,7 @@
         <seg>There was an error resizing picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224828Z" changeid="eratyk">
-        <seg>Адбылася памылка падчас змянення памеру малюнка.</seg>
+        <seg>Адбылася памылка падчас змянення памеру відарыса.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67475,6 +68147,22 @@
       </tuv>
       <tuv lang="be" changedate="20100925T060327Z" changeid="eratyk">
         <seg>Гэты камп'ютар патрабуе пароль у выпадку запуску. Калі ласка, увядзіце пароль запуску ніжэй.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This computer is connected to a network. Windows will automatically apply the correct network settings based on the network's location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T153019Z" changeid="eratyk">
+        <seg>Гэты камп'ютар злучаны з сеткай. Windows аўтаматычна ўжыве правільныя сеткавыя налады, абапіраючыся на сеткавае размяшчэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This computer is joined to the domain on this network and may receive policy to turn on or turn off network discovery from the domain.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191216Z" changeid="eratyk">
+        <seg>Гэты камп'ютар далучаны да дамена ў гэтай сетцы і можа атрымаць палітыку, уключаючую ці выключаючую вынаходства сеткі з дамена.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67746,7 +68434,7 @@
         <seg>This file can't be used as a background picture</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053504Z" changeid="alex">
-        <seg>Гэты файл не можа быць скарыстаны як фонавы малюнак</seg>
+        <seg>Гэты файл не можа быць скарыстаны як фонавы відарыс</seg>
       </tuv>
     </tu>
     <tu>
@@ -67802,7 +68490,7 @@
         <seg>This file is not one of the supported file types, which include .bmp, .jpg, .jpeg and .dib. Please close this dialog and select a different picture for your background.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T053747Z" changeid="alex">
-        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія складаюцца з .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы малюнак для фону.</seg>
+        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія складаюцца з .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68439,6 +69127,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This printer has an untrusted driver.  &lt;A&gt;What does this mean?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185407Z" changeid="eratyk">
+        <seg>Гэтая друкарка мае ненадзейны драйвер.  &lt;A&gt;Што гэта значыць?&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This problem prevents standard users from logging on to the system.\nAs an administrative user, you can review the System Event Log for details about why the service didn't respond.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T070210Z" changeid="eratyk">
@@ -68737,16 +69433,16 @@
       <tuv lang="en">
         <seg>This program displays advertisements based on Web browsing habits.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101120T145055Z" changeid="eratyk">
-        <seg>Гэтая праграма адлюстроўвае абвесткі на падставе вашых пераваг аглядання сеціва.</seg>
+      <tuv lang="be" changedate="20101204T153210Z" changeid="eratyk">
+        <seg>Гэтая праграма адлюстроўвае абвесткі абапіраючыся на вашыя перавагі аглядання сеціва.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This program displays advertisements based on Web search habits.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101120T145114Z" changeid="eratyk">
-        <seg>Гэтая праграма адлюстроўвае абвесткі на падставе вашых пераваг сеціўнага пошуку.</seg>
+      <tuv lang="be" changedate="20101204T153201Z" changeid="eratyk">
+        <seg>Гэтая праграма адлюстроўвае абвесткі абапіраючыся на вашыя перавагі пошуку па сеціве.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69314,7 +70010,7 @@
         <seg>This removable drive must be formatted with a file system before you can use it. Because this drive is large and currently allows quick removal, none of the built-in file systems can format it. Disabling quick removal for the drive will allow the NTFS file system to format it.\n\nTo avoid corrupting the drive when you remove it, always click the Safely Remove Hardware icon (the circled icon in the graphic below) in the notification area, and then click the device name.</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T141302Z" changeid="eratyk">
-        <seg>Зменны дыск павінен быць адфарматаваны перад выкарыстаннем. З-за таго, што ён вялікі, але падтрымлівае хуткае выманне, яму не падыходзіць аніводная файлавая сістэма. Выключэнне хуткага вымання для дыска дазволіць адфарматаваць яго ў NTFS.\n\nКаб пазбегнуць пашкоджання падчас вымання, заўсёды пстрыкайце значак бяспечнага вымання (глядзі малюнак) на пляцоўцы апавяшчэнняў і абірайце назву прылады, што вымаецца.</seg>
+        <seg>Зменны дыск павінен быць адфарматаваны перад выкарыстаннем. З-за таго, што ён вялікі, але падтрымлівае хуткае выманне, яму не падыходзіць аніводная файлавая сістэма. Выключэнне хуткага вымання для дыска дазволіць адфарматаваць яго ў NTFS.\n\nКаб пазбегнуць пашкоджання падчас вымання, заўсёды пстрыкайце значак бяспечнага вымання (глядзі відарыс) на пляцоўцы апавяшчэнняў і абірайце назву прылады, што вымаецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69331,6 +70027,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T191752Z" changeid="eratyk">
         <seg>Гэты пошук не можа быць скончаны, бо ёсць нешта няправільнае ў гэтым захаваным пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This service &quot;%s&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183251Z" changeid="eratyk">
+        <seg>Гэтая служба &quot;%s&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -69377,8 +70081,8 @@
       <tuv lang="en">
         <seg>This software is typically benign when it runs on your computer, unless it was installed without your knowledge. If you're not sure whether to permit it, review the alert details or check if you recognize and trust the publisher of the software.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T180000Z" changeid="eratyk">
-        <seg>Звычайна дадзены тып праграм не прадстаўляе пагрозы, калі яна не была ўсталявана без вашага дазволу. Калі Вы не ўпэўненыя ў гэтым, даведайцеся больш аб усталёўцы праграм, або праверце хто з'яўляецца выдаўцом дадзенага ПЗ.</seg>
+      <tuv lang="be" changedate="20101204T173607Z" changeid="eratyk">
+        <seg>Звычайна гэтае апраграмаванне бяспечнае, калі яно не было ўсталяванае без вашага дазволу. Калі вы не ўпэўненыя ў гэтым, перагледзьце дэталі папярэджання, альбо праверце, ці ведаеце вы выдаўца апраграмавання і давяраеце яму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69911,6 +70615,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To help protect your computer on Public networks, discovery of other computers and devices on the network will be limited, and the use of the network by some programs might be restricted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T190256Z" changeid="eratyk">
+        <seg>Каб дапамагчы абараніць ваш камп'ютар у публічных сетках, вынаходства іншых камп'ютараў і прылад у сетцы і выкарыстанне сеткі некаторымі праграмамі будуць абмежаваныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>To install it, double-click the Add or Remove Programs icon in Control Panel, and then follow the instructions on your screen.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T103410Z" changeid="eratyk">
@@ -70377,8 +71089,8 @@
       <tuv lang="en">
         <seg>To use this program, you need to install the latest updates for your computer. For information on installing updates, see Help and Support.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T174914Z" changeid="eratyk">
-        <seg>Каб мець магчымасць карыстацца гэтай праграмай патрабуецца ўсталяваць апошнія абнаўленні. Дадатковыя звесткі аб усталёўцы абнаўленняў можна знайсці ў цэнтры дапамогі і падтрымкі.\r\n</seg>
+      <tuv lang="be" changedate="20101204T145925Z" changeid="eratyk">
+        <seg>Каб карыстацца гэтай праграмай, вам неабходна ўсталяваць апошнія абнаўленні для вашага камп'ютара. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -70759,6 +71471,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Treat all future networks that I connect to as public, and don't ask me again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T170642Z" changeid="eratyk">
+        <seg>У будучым ставіцца да ўсіх сетак, з якімі я злучаюся, як да публічных, і больш мяне не пытаць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tree</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T145716Z" changeid="eratyk">
@@ -70857,24 +71577,32 @@
       <tuv lang="en">
         <seg>Troubleshoot common computer problems</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T175444Z" changeid="eratyk">
-        <seg>Ліквідаваць звычайныя праблемы камп'ютара</seg>
+      <tuv lang="be" changedate="20101204T152425Z" changeid="eratyk">
+        <seg>Вырашыць звычайныя праблемы камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Troubleshoot problems</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T145258Z" changeid="eratyk">
+        <seg>Вырашыць праблемы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Troubleshoot problems with transparency and other Aero effects</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T062421Z" changeid="alex">
-        <seg>Вырашэнне праблем з празрыстасцю і іншымі эфектамі Aero</seg>
+      <tuv lang="be" changedate="20101204T152539Z" changeid="eratyk">
+        <seg>Вырашэнне праблем празрыстасці і іншых эфектаў Aero</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Troubleshoot\0</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T113924Z" changeid="eratyk">
-        <seg>Вырашэнне праблем\0</seg>
+      <tuv lang="be" changedate="20101204T152603Z" changeid="eratyk">
+        <seg>Вырашыць праблемы\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -71307,6 +72035,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T143741Z" changeid="eratyk">
         <seg>Увядзіце назву і націсніце &quot;Дадаць&quot;, ці націсніце стрэлку, каб знайсці некага.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type a network name and choose an icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191253Z" changeid="eratyk">
+        <seg>Увядзіце сеткавую назву і абярыце значак</seg>
       </tuv>
     </tu>
     <tu>
@@ -71802,7 +72538,7 @@
         <seg>Unable to move dump file from the temporary location to the final location.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133731Z" changeid="eratyk">
-        <seg>Немагчыма перамясціць файл дампа з часовага ў канчатковае размяшчэнне.</seg>
+        <seg>Немагчыма перамясціць файл адбітка з часовага ў канчатковае размяшчэнне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -71826,7 +72562,7 @@
         <seg>Unable to produce a minidump file from the full dump file.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T133828Z" changeid="eratyk">
-        <seg>Немагчыма зрабіць файл мінідампа з файла поўнага дампа.</seg>
+        <seg>Немагчыма зрабіць файл мініадбітка з файла поўнага адбітка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -73458,7 +74194,7 @@
         <seg>User Picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T095520Z" changeid="eratyk">
-        <seg>Малюнак карыстальніка</seg>
+        <seg>Відарыс карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -73498,7 +74234,7 @@
         <seg>User account picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T191614Z" changeid="eratyk">
-        <seg>Малюнак рахунка карыстальніка</seg>
+        <seg>Відарыс рахунка карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -73554,7 +74290,7 @@
         <seg>User picture</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T220111Z" changeid="eratyk">
-        <seg>Малюнак карыстальніка</seg>
+        <seg>Відарыс карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -73570,7 +74306,7 @@
         <seg>User tile picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T084153Z" changeid="eratyk">
-        <seg>Малюнак карыстальніка</seg>
+        <seg>Відарыс карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -74042,7 +74778,7 @@
         <seg>View and organize digital pictures.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T191954Z" changeid="eratyk">
-        <seg>Прагледзець і ўпарадкаваць лічбавыя малюнкі.</seg>
+        <seg>Прагледзець і ўпарадкаваць лічбавыя відарысы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -74523,6 +75259,14 @@
       </tuv>
       <tuv lang="be" changedate="20101009T152537Z" changeid="eratyk">
         <seg>Чаканне зачынення фонавых праграм.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Waiting for users to connect to your adhoc network</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T184759Z" changeid="eratyk">
+        <seg>Чаканне злучэння карыстальнікаў з вашай дэцэнтралізаванай сеткай</seg>
       </tuv>
     </tu>
     <tu>
@@ -75527,6 +76271,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows Networking</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183917Z" changeid="eratyk">
+        <seg>Сеткавая праца Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows PIF Settings</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T193154Z" changeid="eratyk">
@@ -75682,7 +76434,7 @@
         <seg>Windows Servicing disabled hotpatching for package %1(%2) because required files or custom actions are incompatible with hotpatching.</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T073124Z" changeid="eratyk">
-        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо патрэбныя файлы ці замоўныя дзеянні несумяшчальныя з HotPatching.</seg>
+        <seg>Абслугоўванне Windows выключыла HotPatching для пакунка %1(%2), бо патрэбныя файлы ці дапасаваныя дзеянні несумяшчальныя з HotPatching.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76527,6 +77279,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows could not set the network settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185519Z" changeid="eratyk">
+        <seg>Windows не можа прызначыць сеткавыя налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows couldn't stop sharing the selected libraries.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T165921Z" changeid="eratyk">
@@ -77151,6 +77911,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Wireless networks are available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183604Z" changeid="eratyk">
+        <seg>Даступныя радыёсеткі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>With a CD/DVD player</seg>
       </tuv>
       <tuv lang="be" changedate="20101104T070236Z" changeid="eratyk">
@@ -77282,7 +78050,7 @@
         <seg>WordPad cant insert the picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20100829T224331Z" changeid="eratyk">
-        <seg>WordPad не можа ўставіць малюнак.</seg>
+        <seg>WordPad не можа ўставіць відарыс.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77290,7 +78058,7 @@
         <seg>WordPad can’t insert the picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20101010T083808Z" changeid="eratyk">
-        <seg>WordPad не можа ўставіць малюнак.</seg>
+        <seg>WordPad не можа ўставіць відарыс.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77415,10 +78183,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Work</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T191505Z" changeid="eratyk">
+        <seg>Працоўная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Work Phone</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T135444Z" changeid="eratyk">
         <seg>Працоўны тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Work network\nIf all the computers on this network are at your workplace, and you recognize them, this is a trusted work network.  Don't choose this for public places such as coffee shops or airports.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T162555Z" changeid="eratyk">
+        <seg>Працоўная сетка\nКалі ўсе камп'ютары ў гэтай сетцы на вашай працы, і вы ведаеце іх, гэта давераная працоўная сетка. Не абірайце гэта для публічных месцаў кшталту кавярняў ці аэрапортаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77537,8 +78321,8 @@
       <tuv lang="en">
         <seg>Would you like to send Microsoft basic information about the software this program detects? This information is used to help stop the spread of new malware infections.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T065952Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Даслаць агульныя звесткі аб выяўленым праграмным забеспячэнні ў карпарацыю Microsoft? Гэтыя  інфармацыя можа быць карыснай у барацьбе з небяспечнымі праграмамі.</seg>
+      <tuv lang="be" changedate="20101204T173956Z" changeid="eratyk">
+        <seg>Даслаць базавую інфармацыю аб выяўленым апраграмаванні ў Microsoft? Гэтая інфармацыя выкарыстоўваецца, каб спыніць распаўсюд новых шкодных праграмных інфекцыяў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77627,6 +78411,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164108Z" changeid="eratyk">
         <seg>XML-файлы|*.xml|Усе файлы|*.*||</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>XWizard failed to run the wizard.  Details: %1\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T195618Z" changeid="eratyk">
+        <seg>XWizard не ўдалося запусціць майстар.  Дэталі: %1\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -77795,6 +78587,14 @@
       </tuv>
       <tuv lang="be" changedate="20100926T062322Z" changeid="eratyk">
         <seg>Вы паспрабавалі выключыць іншы камп'ютар, з якім вы злучаныя. Як вынік, ніхто не зможа карыстацца гэтым камп'ютарам да яго ручнога перазапуску.\n\nЖадаеце працягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You are currently not connected to any networks.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T183420Z" changeid="eratyk">
+        <seg>Вы зараз не злучаныя ані з якімі сеткамі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78187,6 +78987,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T083720Z" changeid="eratyk">
         <seg>Вы можаце паспрабаваць прапальванне з той жа хуткасцю альбо з меншай, калі памылка паўтараецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can try to change this setting later in the Network and Sharing Center.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101205T185601Z" changeid="eratyk">
+        <seg>Вы можаце змяніць гэтыя налады пазней у цэнтры сетак і агульнага доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -79058,7 +79866,7 @@
         <seg>You need permission to perform this action\n\nYou require permission from %4 to make changes to this file</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T080918Z" changeid="eratyk">
-        <seg>Вам неабходны дазвол на выкананне гэтага дзеяння.\n\nЗамоўце дазвол ад &quot;%4&quot; на змяненне гэтага файла.</seg>
+        <seg>Вам неабходны дазвол на выкананне гэтага дзеяння.\n\nВам патрэбны дазвол ад &quot;%4&quot; на змяненне гэтага файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -79066,7 +79874,7 @@
         <seg>You need permission to perform this action\n\nYou require permission from %4 to make changes to this folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T081005Z" changeid="eratyk">
-        <seg>Вам неабходны дазвол на выкананне гэтага дзеяння.\n\nЗамоўце дазвол ад &quot;%4&quot; на змяненне гэтага каталога.</seg>
+        <seg>Вам неабходны дазвол на выкананне гэтага дзеяння.\n\nВам неабходны дазвол ад &quot;%4&quot; на змяненне гэтага каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -80435,6 +81243,14 @@
       </tuv>
       <tuv lang="be" changedate="20100709T111349Z" changeid="eratyk">
         <seg>\tПамылка сеткі (%d).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>_POP_UP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101204T144922Z" changeid="eratyk">
+        <seg>_POP_UP</seg>
       </tuv>
     </tu>
     <tu>
@@ -82010,7 +82826,7 @@
         <seg>pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T201417Z" changeid="eratyk">
-        <seg>Малюнкі</seg>
+        <seg>Відарысы</seg>
       </tuv>
     </tu>
     <tu>
