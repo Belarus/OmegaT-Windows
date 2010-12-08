@@ -1,4 +1,4 @@
-# Header, don't edit
+﻿# Header, don't edit
 NLF v6
 # Language ID
 1059
@@ -14,23 +14,23 @@ NLF v6
 # ^Branding
 Nullsoft Install System %s
 # ^SetupCaption
-Усталёўка беларускага перакладу Windows 7
+Усталяванне беларускага перакладу Windows 7
 # ^UninstallCaption
-Высталёўка беларускага перакладу Windows 7
+Высталяванне беларускага перакладу Windows 7
 # ^LicenseSubCaption
 : Інструкцыя па ўсталяванні
 # ^ComponentsSubCaption
-: Параметры ўсталёўкі
+: Параметры ўсталявання
 # ^DirSubCaption
-: Каталог усталёўкі
+: Каталог усталявання
 # ^InstallingSubCaption
 : Капіяванне файлаў
 # ^CompletedSubCaption
 : Працэдура скончаная
 # ^UnComponentsSubCaption
-: Параметры высталёўкі
+: Параметры высталявання
 # ^UnDirSubCaption
-: Каталог высталёўкі
+: Каталог высталявання
 # ^ConfirmSubCaption
 : Пацверджанне
 # ^UninstallingSubCaption
@@ -70,13 +70,13 @@ Nullsoft Install System %s
 # ^Completed
 Скончана
 # ^LicenseText
-Пасля прачытання інатрукцыі па ўсталёўцы $(^NameDA) націсніце кнопку "Усталяваць".
+Пасля прачытання інструкцыі па ўсталяванні $(^NameDA) націсніце кнопку "Усталяваць".
 # ^LicenseTextCB
 Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам устаноўкі $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, усталюйце сцяжок ніжэй. $_CLICK
 # ^LicenseTextRB
 Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам устаноўкі $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, вылучыце першы варыянт з прапанаваных нiжэй. $_CLICK
 # ^UnLicenseText
-Пасля прачытання інатрукцыі па высталёўцы $(^NameDA) націсніце кнопку "Усталяваць".
+Пасля прачытання інструкцыі па высталяванні $(^NameDA) націсніце кнопку "Усталяваць".
 # ^UnLicenseTextCB
 Калі ласка, прачытайце ўмовы Ліцэнзійнага пагаднення перад пачаткам выдалення $(^NameDA). Калі Вы прымаеце ўмовы Ліцэнзійнага пагаднення, усталюйце сцяжок ніжэй. $_CLICK
 # ^UnLicenseTextRB
@@ -84,7 +84,7 @@ Nullsoft Install System %s
 # ^Custom
 Замоўна
 # ^ComponentsText
-Вызначце кампаненты праграмы, якiя Вы жадаеце ўстанавiць. $_CLICK
+Вызначце кампаненты праграмы, якiя Вы жадаеце ўсталяваць. $_CLICK
 # ^ComponentsSubText1
 Вызначце тып устаноўкi:
 # ^ComponentsSubText2_NoInstTypes
@@ -168,7 +168,7 @@ Nullsoft Install System %s
 # ^NoOLE
 "Няма OLE для: " 
 # ^OutputFolder
-"Каталог усталёўкі: "
+"Каталог усталявання: "
 # ^RemoveFolder
 "Выдаленне каталога: "
 # ^RenameOnReboot

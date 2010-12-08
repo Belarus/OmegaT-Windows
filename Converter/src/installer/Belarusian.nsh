@@ -10,14 +10,14 @@
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
-  ${LangFileString} MUI_UNTEXT_WELCOME_INFO_TITLE "Вас вiтае майстар выдалення беларускага перакладу Windows 7"
+  ${LangFileString} MUI_UNTEXT_WELCOME_INFO_TITLE "Вас вiтае майстар высталявання беларускага перакладу Windows 7"
   ${LangFileString} MUI_UNTEXT_WELCOME_INFO_TEXT "Гэтая праграма выдаліць беларускі пераклад Windows 7 з Вашага кампутара.$\r$\n$\r$\nПерад пачаткам выдалення пераканайцеся ў тым, што вы абралі іншую мову Windows 7.$\r$\n$\r$\n$_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Усталёўка беларускага перакладу Winsows 7 ад ##DATE##"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Калі ласка, прачытайце інструкцыю па ўсталёўцы."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Пасля прачытання інструкцыі па ўсталёўцы пакунка націсніце кнопку $\"Усталяваць$\"."
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Усталяванне беларускага перакладу Winsows 7 ад ##DATE##"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Калі ласка, прачытайце інструкцыю па ўсталяванні."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Пасля прачытання інструкцыі па ўсталяванні пакунка націсніце кнопку $\"Усталяваць$\"."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Калi Вы прымаеце ўмовы Лiцензiйнага пагаднення, усталюйце сцяжок ніжэй. Гэта неабходна для ўстаноўкі праграмы. $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Калi Вы прымаеце ўмовы Ліцэнзійнага пагаднення, вылучыце першы варыянт з прапанованых ніжэй. Гэта неабходна для ўстаноўкі праграмы. $_CLICK"
 !endif
@@ -84,13 +84,13 @@
 !ifdef MUI_FINISHPAGE
   ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "Заканчэнне ўсталёўкі $(^NameDA)"
   ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "Усталёўка $(^NameDA) выканана.$\r$\n$\r$\nНацісніце кнопку $\"Гатова$\" для выйсця з праграмы ўсталёўкі."
-  ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "Каб скончыць усталёўку $(^NameDA), неабходна перазапусціць камп'ютар. Жадаеце зрабіць гэта зараз?"
+  ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "Каб скончыць усталяванне $(^NameDA), неабходна перазапусціць камп'ютар. Жадаеце зрабіць гэта зараз?"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "Заканчэнне высталёўкі $(^NameDA)"
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "Праграма $(^NameDA) высталявана з Вашага кампутара.$\r$\n$\r$\nНацісніце кнопку $\"Гатова$\"каб выйсці з праграмы выдалення."
-  ${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "Каб скончыць выдаленне  $(^NameDA), неабходна перазагрузіць кампутар. Ці жадаеце Вы зрабіць гэта зараз?"
+  ${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "Каб скончыць высталяванне $(^NameDA), неабходна перазапусціць камп'ютар. Жадаеце зрабіць гэта зараз?"
 !endif
 
 !ifdef MUI_FINISHPAGE | MUI_UNFINISHPAGE
@@ -114,9 +114,9 @@
 !endif
 
 !ifdef MUI_ABORTWARNING
-  ${LangFileString} MUI_TEXT_ABORTWARNING "Вы сапраўды жадаеце скасаваць усталёўку беларускага перакладу Windows 7?"
+  ${LangFileString} MUI_TEXT_ABORTWARNING "Вы сапраўды жадаеце скасаваць усталяванне беларускага перакладу Windows 7?"
 !endif
 
 !ifdef MUI_UNABORTWARNING
-  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Вы сапраўды жадаеце скасаваць высталёўку беларускага перакладу Windows 7?"
+  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Вы сапраўды жадаеце скасаваць высталяванне беларускага перакладу Windows 7?"
 !endif

@@ -113,7 +113,7 @@ Section
     ${registry::Write} "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MUI\UILanguages\be-BY" "ru-RU" "" REG_MULTI_SZ $R0
 
 IfRebootFlag 0 NoReboot
-  MessageBox MB_YESNO|MB_ICONQUESTION "Каб скончыць усталёўку, трэба перазапусціць камп'ютар. Зрабіць гэта зараз ?" IDNO NoReboot
+  MessageBox MB_YESNO|MB_ICONQUESTION "Каб скончыць усталяванне, трэба перазапусціць камп'ютар. Зрабіць гэта зараз?" IDNO NoReboot
     Reboot
 NoReboot:
 SectionEnd
@@ -133,7 +133,7 @@ Section "Uninstall"
   DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\win7bel"
 
 IfRebootFlag 0 NoReboot
-  MessageBox MB_YESNO|MB_ICONQUESTION "Каб выдаліць некаторыя файлы трэба перазапусціць камп'ютар. Зрабіць гэта зараз ?" IDNO NoReboot
+  MessageBox MB_YESNO|MB_ICONQUESTION "Каб выдаліць некаторыя файлы, трэба перазапусціць камп'ютар. Зрабіць гэта зараз?" IDNO NoReboot
     Reboot
 NoReboot:
 SectionEnd
