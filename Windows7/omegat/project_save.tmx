@@ -646,6 +646,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1!02u! min to full charge</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152547Z" changeid="eratyk">
+        <seg>%1!02u! хвілін да поўнай зарадкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1!I64u!</seg>
       </tuv>
       <tuv lang="be" changedate="20100318T111127Z" changeid="Ales Koshal [icq#:706101]">
@@ -1278,6 +1286,54 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1!u!%% available (plugged in, charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152612Z" changeid="eratyk">
+        <seg>%1!u!%% даступна (падключаная, зараджаецца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!u!%% available (plugged in, charging)\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T153216Z" changeid="eratyk">
+        <seg>%1!u!%% даступна (падключаная, зараджаецца)\nПадумайце аб замене вашае батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!u!%% available (plugged in, not charging)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152621Z" changeid="eratyk">
+        <seg>%1!u!%% даступна (падключаная, не зараджаецца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!u!%% available (plugged in, not charging)\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T153225Z" changeid="eratyk">
+        <seg>%1!u!%% даступна (падключаная, не зараджаецца)\nПадумайце аб замене вашае батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!u!%% remaining</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152815Z" changeid="eratyk">
+        <seg>%1!u!%% засталося</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!u!%% remaining\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152946Z" changeid="eratyk">
+        <seg>%1!u!%% засталося\nПадумайце аб замене вашае батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1!ws!</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T112000Z" changeid="eratyk">
@@ -1878,6 +1934,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%2!u! hr %1!02u! min to full charge</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152536Z" changeid="eratyk">
+        <seg>%2!u! гадзін %1!02u! хвілін да поўнай зарадкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%2!u! min (%1!u!%%) remaining</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152806Z" changeid="eratyk">
+        <seg>%2!u! хвілін (%1!u!%%) засталося</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%2!x!.%3!02x!</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T070105Z" changeid="eratyk">
@@ -1890,6 +1962,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T060344Z" changeid="eratyk">
         <seg>%3!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%3!u! hr %2!02u! min (%1!u!%%) remaining</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152746Z" changeid="eratyk">
+        <seg>%2!u! гадзін %1!02u! хвілін засталося</seg>
       </tuv>
     </tu>
     <tu>
@@ -7640,8 +7720,8 @@
       <tuv lang="en">
         <seg>&amp;When using battery power, pause the slide show to save power</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T201245Z" changeid="eratyk">
-        <seg>Прыпыняць паказ слайдаў падчас карыстання энергіі батарэі</seg>
+      <tuv lang="be" changedate="20101209T161225Z" changeid="eratyk">
+        <seg>Прыпыняць паказ слайдаў падчас карыстання энергіі батарэі дзеля яе захавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -12622,6 +12702,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Adaptive lowspeed timeout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210852Z" changeid="eratyk">
+        <seg>Прыстасавальны час зніжэння хуткасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add Desktop Gadgets that display personalized slideshows, news feeds, and other customized information.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T164530Z" changeid="eratyk">
@@ -13982,6 +14070,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow Standby States</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T173422Z" changeid="eratyk">
+        <seg>Дазволіць запасныя станы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow Windows to save your work and enter a low-power state so that you can resume working almost immediately.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171637Z" changeid="eratyk">
+        <seg>Дазволіць Windows захоўваць вашую працу і пераходзіць у рэжым ашчаджання энергіі для магчымасці амаль імгненнага узнаўлення працы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow Windows to use the standby states when sleeping your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T173410Z" changeid="eratyk">
+        <seg>Дазволіць Windows карыстаць запасныя станы падчас засынання камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow a program through Windows Firewall</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T170444Z" changeid="eratyk">
@@ -14002,6 +14114,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T092342Z" changeid="eratyk">
         <seg>Дазволіць індэксаваць змесціва файлаў на гэтым дыску ў дадатак да іх уласцівасцяў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow hybrid sleep</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171701Z" changeid="eratyk">
+        <seg>Дазволіць гібрыдны сон</seg>
       </tuv>
     </tu>
     <tu>
@@ -14030,10 +14150,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow the system to adapt the harddisk lowspeed timeout based on system usage and recent history.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210809Z" changeid="eratyk">
+        <seg>Дазволіць прыстасаваць час зніжэння хуткасці хард-дыска, абапіраючыся на выкарыстанне сістэмы і апошнюю гісторыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow the system to adapt the harddisk power down timeout based on system usage and recent history.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210400Z" changeid="eratyk">
+        <seg>Дазволіць прыстасаваць час выключэння хард-дыска, абапіраючыся на выкарыстанне сістэмы і апошнюю гісторыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow this file to have contents &amp;indexed in addition to file properties</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T050915Z" changeid="alex">
         <seg>Дазволіць індэксаваць змесціва файла ў дадатак да яго ўласцівасцяў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow wake timers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T174036Z" changeid="eratyk">
+        <seg>Дазволіць таймеры абуджэння</seg>
       </tuv>
     </tu>
     <tu>
@@ -16718,6 +16862,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Automatically balances performance with energy consumption on capable hardware.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162207Z" changeid="eratyk">
+        <seg>Аўтаматычна балансуе прадукцыйнасць і спажыванне энергіі на здольным абсталяванні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Automatically close the current UDF session when:</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T171952Z" changeid="eratyk">
@@ -17030,6 +17182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Balanced</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162249Z" changeid="eratyk">
+        <seg>Збалансаваны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Baltic</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T202648Z" changeid="eratyk">
@@ -17106,6 +17266,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T165439Z" changeid="eratyk">
         <seg>Батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Battery</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192240Z" changeid="eratyk">
+        <seg>Батарэя</seg>
       </tuv>
     </tu>
     <tu>
@@ -19336,8 +19504,8 @@
       <tuv lang="en">
         <seg>Capacity:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100705T091850Z" changeid="eratyk">
-        <seg>Аб'ём</seg>
+      <tuv lang="be" changedate="20101209T153621Z" changeid="eratyk">
+        <seg>Ёмістасць:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23672,8 +23840,8 @@
       <tuv lang="en">
         <seg>Configure administrative settings for your computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T101939Z" changeid="eratyk">
-        <seg>Налада адміністрацыйных параметраў вашага камп'ютара.</seg>
+      <tuv lang="be" changedate="20101209T192054Z" changeid="eratyk">
+        <seg>Наладзіць адміністрацыйныя параметры вашага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23682,6 +23850,14 @@
       </tuv>
       <tuv lang="be" changedate="20101028T083600Z" changeid="eratyk">
         <seg>Наладзіць пашыраныя уласцівасці профілю карыстальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configure notification and alarm settings for your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192235Z" changeid="eratyk">
+        <seg>Наладзіць апавяшчэнні і сігналы для вашай батарэі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24384,8 +24560,8 @@
       <tuv lang="en">
         <seg>Consider replacing your battery</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T171033Z" changeid="eratyk">
-        <seg>Падумайце аб змяненні вашае батарэі</seg>
+      <tuv lang="be" changedate="20101209T153120Z" changeid="eratyk">
+        <seg>Падумайце аб замене вашае батарэі</seg>
       </tuv>
     </tu>
     <tu>
@@ -25770,6 +25946,22 @@
       </tuv>
       <tuv lang="be" changedate="20100927T184951Z" changeid="eratyk">
         <seg>Пацверджанне пасведчанняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Critical battery action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192553Z" changeid="eratyk">
+        <seg>Дзеянне крытычнага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Critical battery level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203439Z" changeid="eratyk">
+        <seg>Крытычны ўзровень батарэі</seg>
       </tuv>
     </tu>
     <tu>
@@ -27790,6 +27982,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Device idle policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T190022Z" changeid="eratyk">
+        <seg>Палітыка бяздзейнасці прылады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Device name:</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T125916Z" changeid="eratyk">
@@ -28030,6 +28230,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Disable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T215718Z" changeid="eratyk">
+        <seg>Выключыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disable Quick Removal</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T091400Z" changeid="eratyk">
@@ -28042,6 +28250,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T113601Z" changeid="eratyk">
         <seg>Выключыць дадаванне, зачыненне, перацягванне (IEAK)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disable any processor power savings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T215713Z" changeid="eratyk">
+        <seg>Выключыць захаванне энергіі працэсарам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29074,6 +29290,14 @@
       </tuv>
       <tuv lang="be" changedate="20101102T170447Z" changeid="eratyk">
         <seg>Не выключайце ваш камп'ютар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do nothing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162453Z" changeid="eratyk">
+        <seg>Нічога не рабіць</seg>
       </tuv>
     </tu>
     <tu>
@@ -30871,6 +31095,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable Sleep Progress Bar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171911Z" changeid="eratyk">
+        <seg>Уключыць паліцу выканання засынання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable adaptive powerdown timeout.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210656Z" changeid="eratyk">
+        <seg>Уключыць прыстасавальны час выключэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Enable context menus and dragging and dropping</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T115420Z" changeid="eratyk">
@@ -30939,6 +31179,14 @@
       </tuv>
       <tuv lang="be" changedate="20101121T131235Z" changeid="eratyk">
         <seg>Дазваляе выконваць усталяванне, змяненне і выдаленне абнаўленняў Windows і адвольных кампанентаў. Калі гэтая служба выключаная, усталёўванне і высталёўванне абнаўленняў  Windows могуць быць недаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enables system to show a progress bar during transitions to sleep.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171830Z" changeid="eratyk">
+        <seg>Дазволіць сістэме паказваць паліцу выканання падчас пераходу ў сон.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32799,6 +33047,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Favor performance over power savings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T191158Z" changeid="eratyk">
+        <seg>Спрыяць прадукцыйнасці, а не захаванню энергіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Favor power savings over performance.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T191217Z" changeid="eratyk">
+        <seg>Спрыяць захаванню энергіі, а не прадукцыйнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Favorite Links</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T110637Z" changeid="eratyk">
@@ -32827,6 +33091,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T115925Z" changeid="eratyk">
         <seg>Меню &quot;Абранае&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Favors performance, but may use more energy.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T161330Z" changeid="eratyk">
+        <seg>Спрыяе прадукцыйнасці, але можа карыстаць больш энергіі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33767,6 +34039,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>First low-battery alarm flags</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203249Z" changeid="eratyk">
+        <seg>Сцягі першага сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>First name</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T054155Z" changeid="eratyk">
@@ -33827,6 +34107,30 @@
       </tuv>
       <tuv lang="be" changedate="20101106T142955Z" changeid="eratyk">
         <seg>Сцягі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Flags and settings for first low battery alarm</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T194127Z" changeid="eratyk">
+        <seg>Сцягі і налады для першага сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Flags and settings for fourth low battery alarm</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203316Z" changeid="eratyk">
+        <seg>Сцягі і налады для чацвертага сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Flags and settings for third low battery alarm</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203200Z" changeid="eratyk">
+        <seg>Сцягі і налады для трэцяга сігналу нізкага ўзроўню батарэі</seg>
       </tuv>
     </tu>
     <tu>
@@ -34871,6 +35175,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Fourth Low Battery Alarm Action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192739Z" changeid="eratyk">
+        <seg>Дзеянне чацвертага сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fourth low-battery alarm flags</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203328Z" changeid="eratyk">
+        <seg>Сцягі чацвертага сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fourth power trip point</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204000Z" changeid="eratyk">
+        <seg>Чацвертая кропка спатыкнення энергіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Frame count</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T210459Z" changeid="eratyk">
@@ -35155,6 +35483,22 @@
       </tuv>
       <tuv lang="be" changedate="20100313T064733Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Поўнае%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fully charged (100%)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152637Z" changeid="eratyk">
+        <seg>Поўнасцю зараджаная (100%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fully charged (100%)\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T153252Z" changeid="eratyk">
+        <seg>Поўнасцю зараджаная (100%)\nПадумайце аб замене вашае батарэі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36143,10 +36487,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hard disk</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204947Z" changeid="eratyk">
+        <seg>Хард-дыск</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hard disk burst ignore time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T215059Z" changeid="eratyk">
+        <seg>Час ігнаравання выбуху актыўнасці хард-дыска</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hard drive on this computer</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T100612Z" changeid="eratyk">
         <seg>Раздзел на гэтым камп'ютары</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Harddisk lowspeed timeout.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210639Z" changeid="eratyk">
+        <seg>Час зніжэння хуткасці хард-дыска.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36423,6 +36791,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hibernate after</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171200Z" changeid="eratyk">
+        <seg>Загібернаваць пасля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hibernating...</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T123459Z" changeid="eratyk">
@@ -36683,6 +37059,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T051841Z" changeid="eratyk">
         <seg>Вялікае павелічэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>High performance</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T161344Z" changeid="eratyk">
+        <seg>Высокая прадукцыйнасць</seg>
       </tuv>
     </tu>
     <tu>
@@ -37575,6 +37959,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Idle timeout before the system returns to a low power sleep state after waking unattended.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T174617Z" changeid="eratyk">
+        <seg>Час бяздзейнасці, перш чым сістэма вернецца ў сонны стан ашчаджання энергіі пасля самотнага абуджэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If an open program is associated with this process, it will close and you will lose any unsaved data.</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222357Z" changeid="eratyk">
@@ -38251,6 +38643,14 @@
       </tuv>
       <tuv lang="be" changedate="20100311T162615Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Заўсёды ігнараваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ignore a burst of disk activity up to the specified time when determining if the disk is idle.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T214807Z" changeid="eratyk">
+        <seg>Ігнараваць выбухі актыўнасці дыска, калі час выбуху меней за азначаны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41159,6 +41559,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Lid close action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204557Z" changeid="eratyk">
+        <seg>Дзеянне зачынення вечкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Light Auras</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T054449Z" changeid="alex">
@@ -42043,6 +42451,30 @@
       </tuv>
       <tuv lang="be" changedate="20101107T185141Z" changeid="eratyk">
         <seg>Нізкі ўзровень батарэі (зараджаецца)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low battery action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192602Z" changeid="eratyk">
+        <seg>Дзеянне нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low battery level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203458Z" changeid="eratyk">
+        <seg>Нізкі ўзровень батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Low battery notification</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203143Z" changeid="eratyk">
+        <seg>Апавяшчэнне нізкага ўзроўню батарэі</seg>
       </tuv>
     </tu>
     <tu>
@@ -43351,6 +43783,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microseconds</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162527Z" changeid="eratyk">
+        <seg>мікрасекунд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T102317Z" changeid="eratyk">
@@ -44083,6 +44523,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T154209Z" changeid="eratyk">
         <seg>Адлегласць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Milliseconds</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162510Z" changeid="eratyk">
+        <seg>мілісекунд</seg>
       </tuv>
     </tu>
     <tu>
@@ -45999,6 +46447,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No battery is detected</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152703Z" changeid="eratyk">
+        <seg>Батарэя не выяўленая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No changes were made to the Library.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T174256Z" changeid="eratyk">
@@ -46033,8 +46489,8 @@
       <tuv lang="en">
         <seg>No display detected</seg>
       </tuv>
-      <tuv lang="be" changedate="20100921T195027Z" changeid="eratyk">
-        <seg>Экран не знойдзены</seg>
+      <tuv lang="be" changedate="20101209T152714Z" changeid="eratyk">
+        <seg>Экран не выяўлены</seg>
       </tuv>
     </tu>
     <tu>
@@ -48369,8 +48825,8 @@
       <tuv lang="en">
         <seg>Opens the Windows File Sharing wizard to choose specific people or permission levels.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101130T165256Z" changeid="eratyk">
-        <seg>Адчыняе майстар агульнага доступу да файлаў Windows для абрання канкрэтных людзей ці ўзроўняў дазволу.</seg>
+      <tuv lang="be" changedate="20101209T185942Z" changeid="eratyk">
+        <seg>Адчыняе майстар агульнага доступу да файлаў Windows для азначэння людзей ці ўзроўняў дазволу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50071,10 +50527,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Percent battery power remaining when fourth low-power action should be taken.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203949Z" changeid="eratyk">
+        <seg>Адсотак астатняй энергіі батарэі, калі павінна выконвацца чацвертае дзеянне нізкага ўзроўню батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Percent battery power remaining when third low-power action should be taken.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203743Z" changeid="eratyk">
+        <seg>Адсотак астатняй энергіі батарэі, калі павінна выконвацца трэцяе дзеянне нізкага ўзроўню батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Percent complete:</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T082529Z" changeid="eratyk">
         <seg>Адсоткаў скончана:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Percentage of battery capacity remaining that initiates reserve power mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T154215Z" changeid="eratyk">
+        <seg>Астатні адсотак ёмістасці батарэі, які выклікае рэжым рэзервавання энергіі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Percentage of battery capacity remaining that initiates the critical battery action.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203427Z" changeid="eratyk">
+        <seg>Астатні адсотак ёмістасці батарэі, які выклікае дзеянне крытычнага ўзроўню батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Percentage of battery capacity remaining that initiates the low battery action.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203451Z" changeid="eratyk">
+        <seg>Астатні адсотак ёмістасці батарэі, які выклікае дзеянне нізкага ўзроўню батарэі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51223,6 +51719,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Plugged in and charging</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152503Z" changeid="eratyk">
+        <seg>Падключаная і зараджаецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in and charging\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T153139Z" changeid="eratyk">
+        <seg>Падключаная і зараджаецца\nПадумайце аб замене вашае батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in and not charging</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152726Z" changeid="eratyk">
+        <seg>Падключаная і не зараджаецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Point size should be between %1!d!</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T150635Z" changeid="eratyk">
@@ -51451,6 +51971,54 @@
       </tuv>
       <tuv lang="be" changedate="20100927T164527Z" changeid="eratyk">
         <seg>Налады сілкавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power button action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204337Z" changeid="eratyk">
+        <seg>Дзеянне кнопкі сілкавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power buttons and lid</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204155Z" changeid="eratyk">
+        <seg>Кнопкі сілкавання і вечка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power plan type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T170823Z" changeid="eratyk">
+        <seg>Тып плана сілкавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power plan used when there are no users logged into the system.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162419Z" changeid="eratyk">
+        <seg>План сілкавання, які выкарыстоўваецца, калі няма карыстальнікаў у сістэме.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power saver</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T160953Z" changeid="eratyk">
+        <seg>Захаванне энергіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Power savings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192030Z" changeid="eratyk">
+        <seg>Захаванне энергіі</seg>
       </tuv>
     </tu>
     <tu>
@@ -52411,6 +52979,30 @@
       </tuv>
       <tuv lang="be" changedate="20101118T081545Z" changeid="eratyk">
         <seg>Група працэсараў:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance settings which allow the system to lower processor performance (and power consumption) if the system is not doing any work.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T215422Z" changeid="eratyk">
+        <seg>Налады працы працэсара, якія дазваляюць знізіць прадукцыйнасць і спажыванне энергіі, калі сістэма не выконвае аніякай працы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor power management</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T214956Z" changeid="eratyk">
+        <seg>Кіраванне сілкаваннем працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor throttle setting.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T215632Z" changeid="eratyk">
+        <seg>Налада зніжэння працы працэсара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54735,6 +55327,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Require a password on wakeup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T170935Z" changeid="eratyk">
+        <seg>Запытваць пароль падчас абуджэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Require a password to unlock the computer when it wakes from sleep.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T170904Z" changeid="eratyk">
+        <seg>Запытваць пароль для разблакавання камп'ютара падчас яго абуджэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Require a password when the computer wakes</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T105504Z" changeid="eratyk">
@@ -54779,6 +55387,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T075531Z" changeid="eratyk">
         <seg>Перадаслаць мінулы выніковы радок у гэтую праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Reserve battery level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T153502Z" changeid="eratyk">
+        <seg>Рэзервовы ўзровень батарэі</seg>
       </tuv>
     </tu>
     <tu>
@@ -56759,6 +57375,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Saves energy by reducing your computer�s performance where possible.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T160718Z" changeid="eratyk">
+        <seg>Захоўвае энергію праз зніжэнне прадукцыйнасці камп'ютара падчас магчымасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Saves this search query.</seg>
       </tuv>
       <tuv lang="be" changedate="20100710T171411Z" changeid="eratyk">
@@ -57057,8 +57681,8 @@
       <tuv lang="en">
         <seg>Schedule computer tasks to run automatically.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T102029Z" changeid="eratyk">
-        <seg>Планаванне аўтаматычнага запуску камп'ютарных задач.</seg>
+      <tuv lang="be" changedate="20101209T192136Z" changeid="eratyk">
+        <seg>Планаваць аўтаматычны запуск камп'ютарных задач.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61143,6 +61767,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Sleep after</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171050Z" changeid="eratyk">
+        <seg>Засынаць пасля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sleep button action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204426Z" changeid="eratyk">
+        <seg>Дзеянне кнопкі засынання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Slide Show</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T153633Z" changeid="eratyk">
@@ -61985,8 +62625,16 @@
       <tuv lang="en">
         <seg>Specific people...</seg>
       </tuv>
-      <tuv lang="be" changedate="20101130T164718Z" changeid="eratyk">
-        <seg>Канкрэтныя людзі...</seg>
+      <tuv lang="be" changedate="20101209T175023Z" changeid="eratyk">
+        <seg>Азначаныя людзі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specifies the policy for devices powering down while the system is running.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T174944Z" changeid="eratyk">
+        <seg>Азначае палітыку для выключэння прылад падчас працы сістэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62215,6 +62863,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify how long your computer is inactive before going to sleep.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171044Z" changeid="eratyk">
+        <seg>Азначце, колькі камп'ютар павінен быць неактыўным, каб заснуць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify how long your computer is inactive before hibernating.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171134Z" changeid="eratyk">
+        <seg>Азначце, колькі камп'ютар павінен быць неактыўным, каб загібернаваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify how long your hard drive is inactive before the disk turns off.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T205056Z" changeid="eratyk">
+        <seg>Азначце, колькі хард-дыск павінен быць неактыўным, каб выключыцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify if timed events should be allowed to wake the computer from sleep.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T173828Z" changeid="eratyk">
+        <seg>Азначце, калі размеркаваным па часе падзеям павінна быць дазволена абуджаць камп'ютар ад сну.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify last saved date and time</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T192636Z" changeid="eratyk">
@@ -62247,6 +62927,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify power management settings for your computer�s processor.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T214913Z" changeid="eratyk">
+        <seg>Азначце налады кіравання сілкаваннем для працэсара вашага камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify power management settings for your hard disk.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204800Z" changeid="eratyk">
+        <seg>Азначце налады кіравання сілкаваннем для вашага хард-дыска</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify priority</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T175434Z" changeid="eratyk">
@@ -62271,10 +62967,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify sleep settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T171928Z" changeid="eratyk">
+        <seg>Азначце налады засынання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify state or province</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T170341Z" changeid="eratyk">
         <seg>Азначыць вобласць ці раён</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action that your computer takes when battery capacity reaches the low level.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192506Z" changeid="eratyk">
+        <seg>Азначце дзеянне, калі ёмістасць батарэі сягае нізкага ўзроўню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action that your computer takes when you close the lid on your mobile PC.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204544Z" changeid="eratyk">
+        <seg>Азначце дзеянне, якое зробіць камп'ютар, калі вы зачыніце вечку вашага мабільнага АК.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action to take when the battery capacity reaches the critical level.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204325Z" changeid="eratyk">
+        <seg>Азначце дзеянне, якое адбываецца, калі ёмістасць батарэі сягае крытычнага ўзроўню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action to take when you press the Start menu power button.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204634Z" changeid="eratyk">
+        <seg>Азначце дзеянне, якое адбываецца, калі вы націскаеце кнопку сілкавання Пачатковага меню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action to take when you press the power button.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204312Z" changeid="eratyk">
+        <seg>Азначце дзеянне, якое адбываецца, калі вы націскаеце кнопку сілкавання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the action to take when you press the sleep button.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204413Z" changeid="eratyk">
+        <seg>Азначце дзеянне, якое адбываецца, калі вы націскаеце кнопку засынання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62375,10 +63127,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify what your computer does when you close the lid and press the power buttons.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204139Z" changeid="eratyk">
+        <seg>Азначце, што камп'ютар павінен рабіць, калі вы зачыняеце яго вечку і націскаеце кнопкі сілкавання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify when you want the desktop background slide show to be available.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T171809Z" changeid="eratyk">
         <seg>Азначце, калі вы жадаеце дазволіць паказ слайдаў фону стальніцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify whether a notification is shown when the battery capacity reaches the low level.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T194453Z" changeid="eratyk">
+        <seg>Азначце, ці трэба паказваць апавяшчэнне, калі ёмістасць батарэі сягае нізкага ўзроўню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62627,6 +63395,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T081215Z" changeid="eratyk">
         <seg>Элемент групы Пачатковага меню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Start menu power button</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T204650Z" changeid="eratyk">
+        <seg>Кнопка сілкавання Пачатковага меню</seg>
       </tuv>
     </tu>
     <tu>
@@ -63927,10 +64703,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>System power plan</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T162443Z" changeid="eratyk">
+        <seg>Сістэмны план сілкавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>System properties</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T183348Z" changeid="eratyk">
         <seg>Уласцівасці сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System unattended sleep timeout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T174644Z" changeid="eratyk">
+        <seg>Час самотнага засынання сістэмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -65367,6 +66159,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The default Windows power plan types include Balanced, Power saver, and High performance. The three types are designed to balance power savings while providing performance on demand, maximize power savings, or maximize performance. Many system components use the power plan type to deciding whether to optimize power savings or performance.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T170659Z" changeid="eratyk">
+        <seg>Перадвызначаныя тыпы планаў сілкавання Windows уключаюць &quot;Збалансаваны&quot;, &quot;Захаванне энергіі&quot; і &quot;Высокая прадукцыйнасць&quot;. Гэтыя тры тыпы прызначаныя адпаведна для збалансавання прадукцыйнасці і спажывання энергіі, максімізавання захавання энергіі і максімізавання прадукцыйнасці. Шмат якія сістэмныя кампаненты карыстаюць тып плана сілкавання для вызначэння мэты аптымізавання - ашчаджання энергіі ці прадукцыйнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The default sound device will always show its own volume control.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T074414Z" changeid="eratyk">
@@ -66503,6 +67303,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The harddisk may reduce its speed after the specified time of inactivity is detected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T210553Z" changeid="eratyk">
+        <seg>Хард-дыск можа знізіць сваю хуткасць пасля мінання азначанага часу бяздзейнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The homegroup is protected with a password, and you'll always be able to choose what you share with the group.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T075406Z" changeid="eratyk">
@@ -67521,8 +68329,8 @@
       <tuv lang="en">
         <seg>The slide show is paused to save power.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T171849Z" changeid="eratyk">
-        <seg>Паказ слайдаў прыпынены дзеля ашчаджання энергіі.</seg>
+      <tuv lang="be" changedate="20101209T161133Z" changeid="eratyk">
+        <seg>Паказ слайдаў прыпынены дзеля захавання энергіі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68947,6 +69755,30 @@
       </tuv>
       <tuv lang="be" changedate="20100705T115149Z" changeid="eratyk">
         <seg>Гэтыя параметры вызначаюць, як Windows будзе прапальваць файлы на кружэлку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Third Low Battery Alarm Action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T192703Z" changeid="eratyk">
+        <seg>Дзеянне трэцяга сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Third low-battery alarm flags</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203235Z" changeid="eratyk">
+        <seg>Сцягі трэцяга сігналу нізкага ўзроўню батарэі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Third power trip point</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T203932Z" changeid="eratyk">
+        <seg>Трэцяя кропка спатыкнення энергіі</seg>
       </tuv>
     </tu>
     <tu>
@@ -72839,6 +73671,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Turn off hard disk after</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T205112Z" changeid="eratyk">
+        <seg>Выключаць хард-дыск пасля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Turn off unnecessary animations</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T193329Z" changeid="eratyk">
@@ -74175,6 +75015,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unknown remaining</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152840Z" changeid="eratyk">
+        <seg>Невядома, колькі засталося</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unknown remaining\nConsider replacing your battery.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101209T152955Z" changeid="eratyk">
+        <seg>Невядома, колькі засталося\nПадумайце аб замене вашае батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown roaming status</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144459Z" changeid="eratyk">
@@ -74329,8 +75185,8 @@
       <tuv lang="en">
         <seg>Unspecified</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T060952Z" changeid="eratyk">
-        <seg>Неўдакладнена</seg>
+      <tuv lang="be" changedate="20101209T175003Z" changeid="eratyk">
+        <seg>Неазначана</seg>
       </tuv>
     </tu>
     <tu>

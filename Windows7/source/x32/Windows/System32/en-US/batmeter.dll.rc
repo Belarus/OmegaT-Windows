@@ -1,0 +1,80 @@
+1 MUI "Data_320.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+121, 	"Plugged in and charging"
+122, 	"%2!u! hr %1!02u! min to full charge"
+123, 	"%1!02u! min to full charge"
+124, 	"%1!u!%% available (plugged in, charging)"
+125, 	"%1!u!%% available (plugged in, not charging)"
+126, 	"Fully charged (100%)"
+127, 	"No battery is detected"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+128, 	"Plugged in and not charging"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+150, 	"%3!u! hr %2!02u! min (%1!u!%%) remaining"
+151, 	"%2!u! min (%1!u!%%) remaining"
+154, 	"%1!u!%% remaining"
+155, 	"Unknown remaining"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+170, 	"%1!u!%% remaining\nConsider replacing your battery."
+171, 	"Unknown remaining\nConsider replacing your battery."
+172, 	"Plugged in and charging\nConsider replacing your battery."
+173, 	"%1!u!%% available (plugged in, charging)\nConsider replacing your battery."
+174, 	"%1!u!%% available (plugged in, not charging)\nConsider replacing your battery."
+175, 	"Fully charged (100%)\nConsider replacing your battery."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"Reserve battery level"
+401, 	"Percentage of battery capacity remaining that initiates reserve power mode."
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Battery Meter Helper DLL"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "BATMETER"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "BATMETER.DLL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
