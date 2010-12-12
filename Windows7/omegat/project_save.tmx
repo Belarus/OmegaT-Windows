@@ -6600,8 +6600,8 @@
       <tuv lang="en">
         <seg>&amp;Scale to this percentage of normal size:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100921T191008Z" changeid="eratyk">
-        <seg>Адсоткавыя суадносіны з нармальным памерам:</seg>
+      <tuv lang="be" changedate="20101211T202311Z" changeid="eratyk">
+        <seg>Адсоткавыя суадносіны са звычайным памерам:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12702,10 +12702,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Adaptive display</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195538Z" changeid="eratyk">
+        <seg>Прыстасавальны экран</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Adaptive lowspeed timeout</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T210852Z" changeid="eratyk">
         <seg>Прыстасавальны час зніжэння хуткасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Adaptively adjust processor frequency.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072552Z" changeid="eratyk">
+        <seg>Прыстасавальна рэгуляваць частату працэсара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Adaptively adjust the processor frequency based on workload demands.  This setting will significantly reduce power consumption of the processor, while have very little effect on performance.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072526Z" changeid="eratyk">
+        <seg>Прыстасавальна рэгуляваць частату працэсара, абапіраючыся на патрабаванні працоўнага ладавання.  Гэтая налада значна зніжае спажыванне энергіі працэсарам, калі эфектыўнасць працэсара нізкая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Adaptively lower the maximum processor frequency, based on remaining battery life.  Irregardless of the workload demands, the processor will run at a reduced frequency, thus drawing less power.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T071917Z" changeid="eratyk">
+        <seg>Прыстасавальна знізіць максімальную частату працэсара, абапіраючыся на астатні час працы батарэі.  Нягледзячы на патрабаванні працоўнага ладавання, працэсар будзе працаваць са зніжанай частатой, такім чынам ашчаджаючы энергію.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Adaptively lower the maximum processor frequency.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072557Z" changeid="eratyk">
+        <seg>Прыстасавальна знізіць максімальную частату працэсара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13154,6 +13194,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T171043Z" changeid="eratyk">
         <seg>Дадаць, выдаліць і наладзіць мясцовыя і сеткавыя друкаркі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add, remove, and configure scanners and cameras.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T203048Z" changeid="eratyk">
+        <seg>Дадаць, выдаліць і наладзіць сканеры і камеры</seg>
       </tuv>
     </tu>
     <tu>
@@ -14062,6 +14110,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow Away Mode Policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205001Z" changeid="eratyk">
+        <seg>Дазволіць палітыку рэжыму адсутнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow Remote Assistance invitations to be sent from this computer</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T121748Z" changeid="eratyk">
@@ -14074,6 +14130,14 @@
       </tuv>
       <tuv lang="be" changedate="20101209T173422Z" changeid="eratyk">
         <seg>Дазволіць запасныя станы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow Throttle States</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191144Z" changeid="eratyk">
+        <seg>Дазволіць станы зніжэння спажывання</seg>
       </tuv>
     </tu>
     <tu>
@@ -14094,10 +14158,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow Windows to wake from sleep on timed events.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204157Z" changeid="eratyk">
+        <seg>Дазваляць Windows абуджацца ад сну з-за размеркаваных па часе падзей.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow a program through Windows Firewall</seg>
       </tuv>
       <tuv lang="be" changedate="20100720T170444Z" changeid="eratyk">
         <seg>Дазволіць праграму ў заслоне Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow away mode to be enabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205125Z" changeid="eratyk">
+        <seg>Дазволіць уключэнне рэжыму адсутнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow away mode to be enabled for your computer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204930Z" changeid="eratyk">
+        <seg>Дазволіць уключэнне рэжыму адсутнасці для камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow display required policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205628Z" changeid="eratyk">
+        <seg>Дазволіць палітыку, патрэбную экрану</seg>
       </tuv>
     </tu>
     <tu>
@@ -14126,6 +14222,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow processors to use throttle states in addition to performance states.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191128Z" changeid="eratyk">
+        <seg>Дазволіць працэсарам карыстаць стан зніжэння спажывання ў дадатак да станаў прадукцыйнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow programs to prevent display from turning off automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205427Z" changeid="eratyk">
+        <seg>Дазволіць праграмам перашкаджаць экрану аўтаматычна выключацца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow programs to prevent machine from going to sleep automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205230Z" changeid="eratyk">
+        <seg>Дазволіць праграмам перашкаджаць камп'ютару аўтаматычна засынаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow remote access</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T170515Z" changeid="eratyk">
@@ -14146,6 +14266,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T063012Z" changeid="eratyk">
         <seg>Праграма-застаўка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allow system required policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205342Z" changeid="eratyk">
+        <seg>Дазволіць палітыку, патрэбную сістэме</seg>
       </tuv>
     </tu>
     <tu>
@@ -16618,6 +16746,22 @@
       </tuv>
       <tuv lang="be" changedate="20101027T195453Z" changeid="eratyk">
         <seg>Прычэпкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Attempt to use the L0S state when link is idle.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T210449Z" changeid="eratyk">
+        <seg>Спрабаваць скарыстаць стан L0S, калі злучэнне бяздзейнае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Attempt to use the L1 state when the link is idle.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T085811Z" changeid="eratyk">
+        <seg>Спрабаваць скарыстаць стан L1, калі злучэнне бяздзейнае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28150,10 +28294,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dim display after</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195809Z" changeid="eratyk">
+        <seg>Экран цямнее праз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dimensions</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T202409Z" changeid="eratyk">
         <seg>Памеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dimmed display brightness</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204624Z" changeid="eratyk">
+        <seg>Яркасць цьмянага экрана</seg>
       </tuv>
     </tu>
     <tu>
@@ -28262,10 +28422,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Disable idle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102644Z" changeid="eratyk">
+        <seg>Выключыць бяздзейнасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disable idle states.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102631Z" changeid="eratyk">
+        <seg>Выключыць станы бяздзейнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disable resizing (IEAK)</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T113743Z" changeid="eratyk">
         <seg>Выключыць змяненне памеру (IEAK)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disable scaling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102600Z" changeid="eratyk">
+        <seg>Выключыць рэгуляванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disable scaling of idle state promotion and demotion values based on the current performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102509Z" changeid="eratyk">
+        <seg>Выключыць рэгуляванне значэнняў павышэння і паніжэння стану, абапіраючыся на дзейны стан прадукцыйнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28862,6 +29054,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Display brightness</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204009Z" changeid="eratyk">
+        <seg>Яркасць экрана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Display current System Information.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T172021Z" changeid="eratyk">
@@ -29258,6 +29458,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T160748Z" changeid="eratyk">
         <seg>Раздзел</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do not allow Windows to wake from sleep on timed events.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204127Z" changeid="eratyk">
+        <seg>Не дазваляць Windows абуджацца ад сну з-за размеркаваных па часе падзей.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30131,6 +30339,30 @@
       </tuv>
       <tuv lang="be" changedate="20100723T135554Z" changeid="eratyk">
         <seg>Дамен\\Карыстальнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Don't Allow away mode to be enabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205109Z" changeid="eratyk">
+        <seg>Не дазваляць уключэнне рэжыму адсутнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Don't allow programs to prevent display from turning off automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205641Z" changeid="eratyk">
+        <seg>Не дазваляць праграмам перашкаджаць экрану аўтаматычна выключацца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Don't allow programs to prevent machine from going to sleep automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205356Z" changeid="eratyk">
+        <seg>Не дазваляць праграмам перашкаджаць камп'ютару аўтаматычна засынаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -31087,6 +31319,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204200Z" changeid="eratyk">
+        <seg>Уключыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Enable Aero Peek</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T131818Z" changeid="eratyk">
@@ -31099,6 +31339,14 @@
       </tuv>
       <tuv lang="be" changedate="20101209T171911Z" changeid="eratyk">
         <seg>Уключыць паліцу выканання засынання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable adaptive brightness</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T202012Z" changeid="eratyk">
+        <seg>Уключыць прыстасавальную яркасць</seg>
       </tuv>
     </tu>
     <tu>
@@ -31127,10 +31375,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable idle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102625Z" changeid="eratyk">
+        <seg>Уключыць бяздзейнасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable idle states.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102617Z" changeid="eratyk">
+        <seg>Уключыць станы бяздзейнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Enable location and other sensors</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T175227Z" changeid="eratyk">
         <seg>Уключыць датчыкі размяшчэння і іншыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable or disable passive cooling policy on the system.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T202102Z" changeid="eratyk">
+        <seg>Пераключыць палітыку пасіўнага ахалоджвання сістэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31147,6 +31419,22 @@
       </tuv>
       <tuv lang="be" changedate="20100927T162422Z" changeid="eratyk">
         <seg>Пераключыць празрыстасць шкла вокнаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable scaling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102435Z" changeid="eratyk">
+        <seg>Уключыць рэгуляванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable scaling of idle state promotion and demotion values based on the current performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102422Z" changeid="eratyk">
+        <seg>Уключыць рэгуляванне значэнняў павышэння і паніжэння стану, абапіраючыся на дзейны стан прадукцыйнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32499,6 +32787,14 @@
       </tuv>
       <tuv lang="be" changedate="20101121T130337Z" changeid="eratyk">
         <seg>Пашыраная кафля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extends the time that Windows waits to turn off the display if you repeatedly turn on the display with the keyboard or mouse.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195511Z" changeid="eratyk">
+        <seg>Пашырае час, які Windows чакае, каб выключыць экран, калі вы шматразова ўключалі яго клавіятурай ці мышшу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37775,6 +38071,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ideal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191310Z" changeid="eratyk">
+        <seg>Ідэальны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Identifier</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T135826Z" changeid="eratyk">
@@ -38939,6 +39243,22 @@
       </tuv>
       <tuv lang="be" changedate="20101027T192429Z" changeid="eratyk">
         <seg>Няпоўны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Increase adaptive timeout by</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T200416Z" changeid="eratyk">
+        <seg>Павялічыць прыстасавальны час на</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Increase fan speed before slowing the processor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T073125Z" changeid="eratyk">
+        <seg>Павялічваць хуткасць вентылятара, перш чым запавольваць працэсар.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41719,6 +42039,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Link State Power Management</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T210304Z" changeid="eratyk">
+        <seg>Кіраванне сілкаваннем стану злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Link View Layout Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T115832Z" changeid="eratyk">
@@ -42515,6 +42843,22 @@
       </tuv>
       <tuv lang="be" changedate="20101027T180044Z" changeid="eratyk">
         <seg>Ніжэй</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lower maximum processor frequency</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072602Z" changeid="eratyk">
+        <seg>Знізіць максімальную частату працэсара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lower the maximum frequency of the processor.  Irregardless of the workload demands, the processor will run at a reduced frequency, thus drawing less power.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T071804Z" changeid="eratyk">
+        <seg>Знізіць максімальную частату працэсара.  Нягледзячы на патрабаванні працоўнага ладавання, працэсар будзе працаваць са зніжанай частатой, такім чынам ашчаджаючы энергію.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43395,6 +43739,22 @@
       </tuv>
       <tuv lang="be" changedate="20100723T091312Z" changeid="eratyk">
         <seg>Ужо адчынена максімальная колькасць вокнаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Maximum power savings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T085837Z" changeid="eratyk">
+        <seg>Максімальнае захаванне энергіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Maximum processor state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072721Z" changeid="eratyk">
+        <seg>Максімальны стан працэсара</seg>
       </tuv>
     </tu>
     <tu>
@@ -44575,6 +44935,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Minimum processor state</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072746Z" changeid="eratyk">
+        <seg>Мінімальны стан працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Minute and %2!d!</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T142653Z" changeid="eratyk">
@@ -44703,6 +45071,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Moderate power savings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T211937Z" changeid="eratyk">
+        <seg>Умеранае захаванне энергіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Modified</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T173731Z" changeid="eratyk">
@@ -44811,6 +45187,14 @@
       </tuv>
       <tuv lang="be" changedate="20101118T164455Z" changeid="eratyk">
         <seg>Апраграмаванне маніторынгу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Monitors ambient light sensors to detect changes in ambient light and adjust the display brightness.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T201956Z" changeid="eratyk">
+        <seg>Сочыць за навакольнымі датчыкамі асвятлення, каб выявіць яго змяненні і адрэгуляваць яркасць экрана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46865,8 +47249,8 @@
       <tuv lang="en">
         <seg>Normal program</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T181131Z" changeid="eratyk">
-        <seg>Нармальная праграма</seg>
+      <tuv lang="be" changedate="20101211T202509Z" changeid="eratyk">
+        <seg>Звычайная праграма</seg>
       </tuv>
     </tu>
     <tu>
@@ -49583,6 +49967,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>PCI Express</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205719Z" changeid="eratyk">
+        <seg>PCI Express</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PCI Express Power Management Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T205717Z" changeid="eratyk">
+        <seg>Налады кіравання сілкаваннем PCI Express</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>PDF \t&amp;Pop directional formatting</seg>
       </tuv>
       <tuv lang="be" changedate="20101206T115301Z" changeid="eratyk">
@@ -50139,6 +50539,22 @@
       </tuv>
       <tuv lang="be" changedate="20101021T074154Z" changeid="eratyk">
         <seg>Пушту (Афганістан)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Passive</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T073040Z" changeid="eratyk">
+        <seg>Пасіўны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Passive Cooling Mode</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T202115Z" changeid="eratyk">
+        <seg>Рэжым пасіўнага ахалоджвання</seg>
       </tuv>
     </tu>
     <tu>
@@ -52983,10 +53399,106 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Processor idle demote threshold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T100932Z" changeid="eratyk">
+        <seg>Парог паніжэння бяздзейнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor idle disable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T091131Z" changeid="eratyk">
+        <seg>Выключэнне бяздзейнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor idle promote threshold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T101030Z" changeid="eratyk">
+        <seg>Парог павышэння бяздзейнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor idle threshold scaling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T090947Z" changeid="eratyk">
+        <seg>Рэгуляванне парогу бяздзейнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor idle time check</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T091607Z" changeid="eratyk">
+        <seg>Праверка часу бяздзейнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance decrease policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192113Z" changeid="eratyk">
+        <seg>Палітыка памяншэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance decrease threshold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T190659Z" changeid="eratyk">
+        <seg>Парог памяншэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance decrease time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192813Z" changeid="eratyk">
+        <seg>Час памяншэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance increase policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192047Z" changeid="eratyk">
+        <seg>Палітыка павелічэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance increase threshold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T190505Z" changeid="eratyk">
+        <seg>Парог павелічэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance increase time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192753Z" changeid="eratyk">
+        <seg>Час павелічэння прадукцыйнасці працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Processor performance settings which allow the system to lower processor performance (and power consumption) if the system is not doing any work.</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T215422Z" changeid="eratyk">
         <seg>Налады працы працэсара, якія дазваляюць знізіць прадукцыйнасць і спажыванне энергіі, калі сістэма не выконвае аніякай працы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Processor performance time check interval</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T194652Z" changeid="eratyk">
+        <seg>Інтэрвал часавай праверкі прадукцыйнасці працэсара</seg>
       </tuv>
     </tu>
     <tu>
@@ -53001,8 +53513,8 @@
       <tuv lang="en">
         <seg>Processor throttle setting.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101209T215632Z" changeid="eratyk">
-        <seg>Налада зніжэння працы працэсара.</seg>
+      <tuv lang="be" changedate="20101211T191217Z" changeid="eratyk">
+        <seg>Налада зніжэння спажывання працэсарам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55961,8 +56473,8 @@
       <tuv lang="en">
         <seg>Restores the window to normal size.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T123447Z" changeid="eratyk">
-        <seg>Аднаўляе нармальны памер вакна.</seg>
+      <tuv lang="be" changedate="20101211T202300Z" changeid="eratyk">
+        <seg>Аднаўляе звычайны памер вакна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56323,6 +56835,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T135816Z" changeid="eratyk">
         <seg>Роўмінг</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rocket</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191632Z" changeid="eratyk">
+        <seg>Рэактыўны</seg>
       </tuv>
     </tu>
     <tu>
@@ -59071,10 +59591,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select the highest speed/power processor performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191546Z" changeid="eratyk">
+        <seg>Абярыце найхутчэйшы ці наймацнейшы стан прадукцыйнасці працэсара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the ideal processor performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191246Z" changeid="eratyk">
+        <seg>Абярыце ідэальны стан прадукцыйнасці працэсара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select the language to add using the checkboxes below.</seg>
       </tuv>
       <tuv lang="be" changedate="20101020T074241Z" changeid="eratyk">
         <seg>Абярыце мову для дадання праз усталяванне сцяжкоў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the lowest speed/power processor performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191809Z" changeid="eratyk">
+        <seg>Абярыце самы павольны ці найслабейшы стан прадукцыйнасці працэсара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59163,6 +59707,14 @@
       </tuv>
       <tuv lang="be" changedate="20101124T142640Z" changeid="eratyk">
         <seg>Абярыце месца, куды вы жадаеце перамясціць гэтыя %1!d! элементаў, і націсніце &quot;Перамясціць&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the processor performance state one closer to ideal than the current processor performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191433Z" changeid="eratyk">
+        <seg>Абярыце бліжэйшы да ідэальнага стан прадукцыйнасці працэсара за дзейны стан.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60785,8 +61337,8 @@
       <tuv lang="en">
         <seg>Show information about your computer, such as the processor speed and the amount of installed memory.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101118T074253Z" changeid="eratyk">
-        <seg>Паказаць інфармацыю пра ваш камп'ютар, напрыклад, хуткасць працэсара і памер усталяванай памяці.</seg>
+      <tuv lang="be" changedate="20101211T193724Z" changeid="eratyk">
+        <seg>Паказаць інфармацыю пра ваш камп'ютар кшталту хуткасці працэсара і аб'ёму ўсталяванай памяці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61631,6 +62183,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Single</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T191447Z" changeid="eratyk">
+        <seg>Адзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sinhala</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T074415Z" changeid="eratyk">
@@ -61859,6 +62419,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T130113Z" changeid="eratyk">
         <seg>Павольны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Slow the processor before increasing fan speed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T073137Z" changeid="eratyk">
+        <seg>Запавольваць працэсар, перш чым павялічваць хуткасць вентылятара</seg>
       </tuv>
     </tu>
     <tu>
@@ -62631,6 +63199,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specifies the Active State Power Management (ASPM) policy to use for capable links when the link is idle.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T210241Z" changeid="eratyk">
+        <seg>Азначае палітыку актыўнага стану кіравання сілкаваннем (ASPM) для выкарыстання здольных злучэнняў, калі злучэнне бяздзейнае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specifies the policy for devices powering down while the system is running.</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T174944Z" changeid="eratyk">
@@ -62879,10 +63455,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify how long your computer is inactive before your display dims.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195751Z" changeid="eratyk">
+        <seg>Азначце, колькі камп'ютар павінен быць неактыўным, перш чым экран цямнее.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify how long your computer is inactive before your display turns off.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195005Z" changeid="eratyk">
+        <seg>Азначце, колькі камп'ютар павінен быць неактыўным, каб экран выключыўся.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify how long your hard drive is inactive before the disk turns off.</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T205056Z" changeid="eratyk">
         <seg>Азначце, колькі хард-дыск павінен быць неактыўным, каб выключыцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify how much processors may opportunistically increase frequency above maximum when allowed by current operating contitions.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T105743Z" changeid="eratyk">
+        <seg>Азначце, колькі працэсараў могуць апартуністычна павялічваць частату вышэй за максімальную, калі гэта дазволена дзейнымі аперацыйнымі ўмовамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify if idle state promotion and demotion values should be scaled based on the current performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T090913Z" changeid="eratyk">
+        <seg>Азначце, ці павінны рэгулявацца значэнні павышэння і паніжэння стану, абапіраючыся на дзейны стан прадукцыйнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify if idle states should be disabled.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T091043Z" changeid="eratyk">
+        <seg>Азначце, ці павінны станы бяздзейнасці быць выключаныя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62931,6 +63547,14 @@
       </tuv>
       <tuv lang="be" changedate="20101209T214913Z" changeid="eratyk">
         <seg>Азначце налады кіравання сілкаваннем для працэсара вашага камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify power management settings for your display.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T194745Z" changeid="eratyk">
+        <seg>Азначце налады кіравання сілкаваннем для вашага экрана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63031,10 +63655,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the algorithm used to select a new performance state when the ideal performance state is higher than the current performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192034Z" changeid="eratyk">
+        <seg>Азначце алгарытм для абірання новага стану прадукцыйнасці, калі ідэальны стан ёсць вышэйшым за дзейны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the algorithm used to select a new performance state when the ideal performance state is lower than the current performance state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192103Z" changeid="eratyk">
+        <seg>Азначце алгарытм для абірання новага стану прадукцыйнасці, калі ідэальны стан ёсць ніжэйшым за дзейны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the amount that must expire before processor performance states and parked cores may be reevaluated (in milliseconds).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T194439Z" changeid="eratyk">
+        <seg>Азначце час, які павінен мінуць, перш чым станы прадукцыйнасці працэсара і чакаючыя ядры могуць быць перавызначаныя (у мілісекундах).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the brightness level for when your display is dimmed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T204532Z" changeid="eratyk">
+        <seg>Азначце ўзровень яркасці экрана, калі той цьмяны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the company name</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T195725Z" changeid="eratyk">
         <seg>Азначыць назву кампаніі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the cooling mode for your system</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072842Z" changeid="eratyk">
+        <seg>Азначце рэжым ахалоджвання для вашай сістэмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -63047,6 +63711,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the lower busy threshold that must be met before decreasing the processor's performance state (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T190710Z" changeid="eratyk">
+        <seg>Азначце ніжні парог занятасці, які павінен быць дасягнуты для памяншэння прадукцыйнасці працэсара (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the lower busy threshold that must be met before promoting the processor to a deeper idle state (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T101017Z" changeid="eratyk">
+        <seg>Азначце ніжні парог занятасці, які павінен быць дасягнуты для павышэння стану працэсара да глыбейшага (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the manager</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T192721Z" changeid="eratyk">
@@ -63055,10 +63735,58 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the maximum performance state of your processor (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072652Z" changeid="eratyk">
+        <seg>Азначце максімальна прадукцыйны стан вашага працэсара (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the minimum number of perf check intervals since the last performance state change before the performance state may be decreased.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192806Z" changeid="eratyk">
+        <seg>Азначце мінімальную колькасць інтэрвалаў праверкі прадукцыйнасці пасля змянення апошняга стану прадукцыйнасці перад яе памяншэннем.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the minimum number of perf check intervals since the last performance state change before the performance state may be increased.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T192738Z" changeid="eratyk">
+        <seg>Азначце мінімальную колькасць інтэрвалаў праверкі прадукцыйнасці пасля змянення апошняга стану прадукцыйнасці перад яе павелічэннем.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the minimum performance state of your processor (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072735Z" changeid="eratyk">
+        <seg>Азначце мінімальна прадукцыйны стан вашага працэсара (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the mood of the track</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T194358Z" changeid="eratyk">
         <seg>Азначыць настрой трэка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the normal brightness level of your display.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T202226Z" changeid="eratyk">
+        <seg>Азначце звычайны ўзровень яркасці вашага экрана.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the percentage to increase the adaptive timeout by.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T200347Z" changeid="eratyk">
+        <seg>Азначце адсотак, на які трэба павялічыць прыстасавальны час.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63103,6 +63831,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the time that elapsed since the last idle state promotion or demotion before idle states may be promoted or demoted again (in microseconds).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T091501Z" changeid="eratyk">
+        <seg>Азначце тэрмін, які павінен мінуць з часу апошняга павышэння ці паніжэння стану, перш чым станы бяздзейнасці могуць быць павышаныя ці паніжаныя зноў (у мілісекундах).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the track number</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T194427Z" changeid="eratyk">
@@ -63111,10 +63847,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the upper busy threshold that must be met before demoting the processor to a lighter idle state (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T100832Z" changeid="eratyk">
+        <seg>Азначце верхні парог занятасці, які павінен быць дасягнуты для паніжэння стану працэсара да лягчэйшага (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify the upper busy threshold that must be met before increasing the processor's performance state (in percentage).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T190620Z" changeid="eratyk">
+        <seg>Азначце верхні парог занятасці, які павінен быць дасягнуты для павелічэння прадукцыйнасці працэсара (у адсотках).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the year this media was published</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T193637Z" changeid="eratyk">
         <seg>Азначыць год публікавання гэтага медыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify timeout threshhold within which the user would be considered annoyed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T200143Z" changeid="eratyk">
+        <seg>Азначце парог часу, на працягу якога карыстальніка можна лічыць раздражнёным.</seg>
       </tuv>
     </tu>
     <tu>
@@ -64635,6 +65395,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T114328Z" changeid="eratyk">
         <seg>Сістэма і бяспека</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System cooling policy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T072858Z" changeid="eratyk">
+        <seg>Сістэмная палітыка ахалоджвання</seg>
       </tuv>
     </tu>
     <tu>
@@ -72055,6 +72823,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Time check intervals</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101212T102740Z" changeid="eratyk">
+        <seg>Інтэрвалы часавай праверкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Time elapsed:</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T141259Z" changeid="Ales Koshal [icq#:706101]">
@@ -73655,6 +74431,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Turn off ASPM for all links.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T210324Z" changeid="eratyk">
+        <seg>Выключыць ASPM для ўсіх злучэнняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Turn off automatic window arrangement</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T175651Z" changeid="eratyk">
@@ -73667,6 +74451,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T193301Z" changeid="eratyk">
         <seg>Выключыць фонавыя выявы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turn off display after</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T195016Z" changeid="eratyk">
+        <seg>Выключаць экран пасля</seg>
       </tuv>
     </tu>
     <tu>
@@ -76063,6 +76855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>User annoyance timeout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T200205Z" changeid="eratyk">
+        <seg>Час раздражнёнасці карыстальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>User canceled a hung navigation.</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T131014Z" changeid="eratyk">
@@ -78139,6 +78939,14 @@
       </tuv>
       <tuv lang="be" changedate="20101103T081640Z" changeid="eratyk">
         <seg>Кіраўнік пакункаў Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Photo Viewer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101211T203900Z" changeid="eratyk">
+        <seg>Праглядальнік відарысаў Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -82305,8 +83113,8 @@
       <tuv lang="en">
         <seg>Your computer is running normally.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100713T172231Z" changeid="eratyk">
-        <seg>Камп'ютар працуе нармальна</seg>
+      <tuv lang="be" changedate="20101211T202242Z" changeid="eratyk">
+        <seg>Камп'ютар працуе звычайна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -82945,8 +83753,8 @@
       <tuv lang="en">
         <seg>Zoom the document to 100% of the normal size.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T094954Z" changeid="eratyk">
-        <seg>Змяніць маштаб адлюстравання да 100% нармальнага памеру.</seg>
+      <tuv lang="be" changedate="20101211T202251Z" changeid="eratyk">
+        <seg>Змяніць маштаб адлюстравання да 100% звычайнага памеру.</seg>
       </tuv>
     </tu>
     <tu>
