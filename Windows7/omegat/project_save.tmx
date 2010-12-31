@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 [Active]</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185445Z" changeid="eratyk">
+        <seg>%1 [Актыўны]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 already exists.\nDo you want to replace it?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222725Z" changeid="eratyk">
@@ -850,6 +858,22 @@
       </tuv>
       <tuv lang="be" changedate="20100725T090936Z" changeid="eratyk">
         <seg>%1!d! размяшчэнняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!d! × %2!d!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190704Z" changeid="eratyk">
+        <seg>%1!d! × %2!d!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!d! × %2!d! (recommended)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190719Z" changeid="eratyk">
+        <seg>%1!d! × %2!d! (рэкамендавана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1968,8 +1992,8 @@
       <tuv lang="en">
         <seg>%3!u! hr %2!02u! min (%1!u!%%) remaining</seg>
       </tuv>
-      <tuv lang="be" changedate="20101209T152746Z" changeid="eratyk">
-        <seg>%2!u! гадзін %1!02u! хвілін засталося</seg>
+      <tuv lang="be" changedate="20101223T175340Z" changeid="eratyk">
+        <seg>%3!u! гадзін %2!02u! хвілін (%1!u!%%) засталося</seg>
       </tuv>
     </tu>
     <tu>
@@ -6438,6 +6462,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Restore plan defaults</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182340Z" changeid="eratyk">
+        <seg>Аднавіць перадвызначэнні плана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Restore settings at startup</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T055854Z" changeid="eratyk">
@@ -10510,6 +10542,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A&gt;Change settings that are currently unavailable&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T181215Z" changeid="eratyk">
+        <seg>&lt;A&gt;Змяніць налады, якія зараз недаступныя&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A&gt;Change sorting method&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T062731Z" changeid="eratyk">
@@ -12662,6 +12702,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Active Power Scheme is Invalid\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101227T170711Z" changeid="eratyk">
+        <seg>Актыўная схема сілкавання недапушчальная\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>ActiveX Downloads</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T085557Z" changeid="eratyk">
@@ -13302,6 +13350,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Additional settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182728Z" changeid="eratyk">
+        <seg>Дадатковыя налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Address Bar</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T151219Z" changeid="eratyk">
@@ -13530,6 +13586,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T055934Z" changeid="eratyk">
         <seg>Дадатковыя налады клавіш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced Power Options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182555Z" changeid="eratyk">
+        <seg>Дадатковыя налады сілкаванняг</seg>
       </tuv>
     </tu>
     <tu>
@@ -16450,6 +16514,14 @@
       </tuv>
       <tuv lang="be" changedate="20101119T230104Z" changeid="eratyk">
         <seg>Вы сапраўды жадаеце аднавіць гэтыя элементы?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are you sure you want to restore this plan's default settings?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182855Z" changeid="eratyk">
+        <seg>Вы сапраўды жадаеце аднавіць перадвызначаныя налады гэтага плана?</seg>
       </tuv>
     </tu>
     <tu>
@@ -22822,6 +22894,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Clicking 'Yes' immediately restores all of the plan's default settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T183103Z" changeid="eratyk">
+        <seg>Абранне &quot;Так&quot; адразу аднаўляе ўсе перадвызначаныя налады плана.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clicking on Ok will delete all your notes and start afresh.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T175815Z" changeid="eratyk">
@@ -23998,6 +24078,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Configure energy-saving settings on your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182537Z" changeid="eratyk">
+        <seg>Наладзіць параметры захавання энергіі вашага камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Configure notification and alarm settings for your battery.</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T192235Z" changeid="eratyk">
@@ -24310,6 +24398,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect to a Projector</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190928Z" changeid="eratyk">
+        <seg>Падключыць праектар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connect to a network</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T163047Z" changeid="eratyk">
@@ -24346,6 +24442,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T162328Z" changeid="eratyk">
         <seg>Злучыцца з серверам для сеціўнай працы з гэтымі файламі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect your computer to a projector by display cable.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T191025Z" changeid="eratyk">
+        <seg>Падключыце ваш камп'ютар да праектара праз экранны кабель.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28534,6 +28638,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Disconnect Projector</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190811Z" changeid="eratyk">
+        <seg>Адключыць праектар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disconnect from a Network</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T054956Z" changeid="eratyk">
@@ -30695,6 +30807,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Duplicate</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190739Z" changeid="eratyk">
+        <seg>Падвоіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Duplicate desktop on %d and %d</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T155447Z" changeid="eratyk">
@@ -32747,6 +32867,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T203331Z" changeid="eratyk">
         <seg>Час экспазіцыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extend</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190745Z" changeid="eratyk">
+        <seg>Пашырыць</seg>
       </tuv>
     </tu>
     <tu>
@@ -37103,6 +37231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hibernation state must be &quot;on&quot; or &quot;off&quot;\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190348Z" changeid="eratyk">
+        <seg>Стан гібернацыі павінен быць &quot;on&quot; ці &quot;off&quot;\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hidden</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T045332Z" changeid="alex">
@@ -40263,6 +40399,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Invalid Parameters -- try &quot;/?&quot; for help\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T191543Z" changeid="eratyk">
+        <seg>Недапушчальныя параметры -- паспрабуйце &quot;/?&quot; для дапамогі\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Invalid Permanent</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T080717Z" changeid="eratyk">
@@ -40979,6 +41123,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T144546Z" changeid="eratyk">
         <seg>Захаваць абедзве версіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Keep changes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190847Z" changeid="eratyk">
+        <seg>Захаваць змены</seg>
       </tuv>
     </tu>
     <tu>
@@ -41707,6 +41859,14 @@
       </tuv>
       <tuv lang="be" changedate="20101206T192739Z" changeid="eratyk">
         <seg>Левы кант</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Left arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190202Z" changeid="eratyk">
+        <seg>Левая стрэлка</seg>
       </tuv>
     </tu>
     <tu>
@@ -43209,8 +43369,8 @@
       <tuv lang="en">
         <seg>Make sure that you have an active connection to the Internet before choosing this option.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100727T085514Z" changeid="eratyk">
-        <seg>Пераканайцеся, што вы не падключаныя да сеціва, перад выбарам гэтага параметра.</seg>
+      <tuv lang="be" changedate="20101225T180407Z" changeid="eratyk">
+        <seg>Пераканайцеся, што вы маеце актыўнае злучэнне з сецівам, перш чым абіраць гэтую наладу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44511,6 +44671,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft-Windows-DisplaySwitch</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T191031Z" changeid="eratyk">
+        <seg>Microsoft-Windows-DisplaySwitch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft-Windows-Documents</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T200102Z" changeid="eratyk">
@@ -44587,6 +44755,14 @@
       </tuv>
       <tuv lang="be" changedate="20101205T192201Z" changeid="eratyk">
         <seg>Microsoft-Windows-NetworkLocationWizard/Працуе\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Microsoft-Windows-PowerCfg</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190221Z" changeid="eratyk">
+        <seg>Microsoft-Windows-PowerCfg</seg>
       </tuv>
     </tu>
     <tu>
@@ -44939,6 +45115,14 @@
       </tuv>
       <tuv lang="be" changedate="20101211T072746Z" changeid="eratyk">
         <seg>Мінімальны стан працэсара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Minute</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190144Z" changeid="eratyk">
+        <seg>хвіліна</seg>
       </tuv>
     </tu>
     <tu>
@@ -47071,6 +47255,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No projector was detected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190904Z" changeid="eratyk">
+        <seg>Праектар не выяўлены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No signal</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T135822Z" changeid="eratyk">
@@ -47847,6 +48039,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>OFF</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190310Z" changeid="eratyk">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>OK</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T120653Z" changeid="eratyk">
@@ -47875,6 +48075,14 @@
       </tuv>
       <tuv lang="be" changedate="20101010T081419Z" changeid="eratyk">
         <seg>Не ўдалося ініцыялізаваць OLE. WordPad не можа працягваць працу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>ON</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190309Z" changeid="eratyk">
+        <seg>ON</seg>
       </tuv>
     </tu>
     <tu>
@@ -48307,6 +48515,46 @@
       </tuv>
       <tuv lang="be" changedate="20101205T191455Z" changeid="eratyk">
         <seg>У працоўных сетках вы можаце бачыць іншыя камп'ютары і прылады, і ваш камп'ютар можа быць вынайдзены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On battery (%1):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190007Z" changeid="eratyk">
+        <seg>Ад батарэі (%1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On battery:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185745Z" changeid="eratyk">
+        <seg>Ад батарэі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On battery: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185809Z" changeid="eratyk">
+        <seg>Ад батарэі: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On battery: %1 %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185803Z" changeid="eratyk">
+        <seg>Ад батарэі: %1 %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On battery: %1%%</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190100Z" changeid="eratyk">
+        <seg>Ад батарэі: %1%%</seg>
       </tuv>
     </tu>
     <tu>
@@ -49807,6 +50055,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Out of Memory\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101225T175940Z" changeid="eratyk">
+        <seg>Нястача памяці\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Out of Office</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T190340Z" changeid="eratyk">
@@ -50169,8 +50425,8 @@
       <tuv lang="en">
         <seg>Page &amp;p</seg>
       </tuv>
-      <tuv lang="be" changedate="20101004T202846Z" changeid="eratyk">
-        <seg>Старонка %p</seg>
+      <tuv lang="be" changedate="20101223T175145Z" changeid="eratyk">
+        <seg>Старонка &amp;p</seg>
       </tuv>
     </tu>
     <tu>
@@ -51369,8 +51625,8 @@
       <tuv lang="en">
         <seg>Pictures</seg>
       </tuv>
-      <tuv lang="be" changedate="20101205T174221Z" changeid="eratyk">
-        <seg>Відарыс</seg>
+      <tuv lang="be" changedate="20101214T154343Z" changeid="eratyk">
+        <seg>Відарысы</seg>
       </tuv>
     </tu>
     <tu>
@@ -52135,6 +52391,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Plugged in (%1):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190029Z" changeid="eratyk">
+        <seg>Падключана (%1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Plugged in and charging</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T152503Z" changeid="eratyk">
@@ -52155,6 +52419,38 @@
       </tuv>
       <tuv lang="be" changedate="20101209T152726Z" changeid="eratyk">
         <seg>Падключаная і не зараджаецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185904Z" changeid="eratyk">
+        <seg>Падключана:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185920Z" changeid="eratyk">
+        <seg>Падключана: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in: %1 %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185915Z" changeid="eratyk">
+        <seg>Падключана: %1 %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Plugged in: %1%%</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190107Z" changeid="eratyk">
+        <seg>Падключана: %1%%</seg>
       </tuv>
     </tu>
     <tu>
@@ -53803,6 +54099,14 @@
       </tuv>
       <tuv lang="be" changedate="20100928T134414Z" changeid="eratyk">
         <seg>Налады праектавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Projector only</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190752Z" changeid="eratyk">
+        <seg>Толькі праектар</seg>
       </tuv>
     </tu>
     <tu>
@@ -56639,6 +56943,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Reverting to previous display settings in 1 second.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190837Z" changeid="eratyk">
+        <seg>Вяртанне да папярэдняга стану экрана праз 1 секунду.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Review</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T081847Z" changeid="eratyk">
@@ -56827,6 +57139,14 @@
       </tuv>
       <tuv lang="be" changedate="20101206T192743Z" changeid="eratyk">
         <seg>Правы кант</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Right arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190210Z" changeid="eratyk">
+        <seg>Правая стрэлка</seg>
       </tuv>
     </tu>
     <tu>
@@ -58239,6 +58559,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Scheme Not Found\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101225T180019Z" changeid="eratyk">
+        <seg>Схема не знойдзеная\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Screen</seg>
       </tuv>
       <tuv lang="be" changedate="20100706T135445Z" changeid="eratyk">
@@ -58457,8 +58785,8 @@
       <tuv lang="en">
         <seg>Search %1</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T152407Z" changeid="eratyk">
-        <seg>Пошук &quot;%1&quot;</seg>
+      <tuv lang="be" changedate="20101223T180352Z" changeid="eratyk">
+        <seg>Пошук у &quot;%1&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -59711,6 +60039,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select the power plan that you want to customize, and then choose settings that reflect how you want your computer to manage power.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T180736Z" changeid="eratyk">
+        <seg>Абярыце план сілкавання, які вы жадаеце наладзіць, і затым абярыце налады якія адлюстроўваюць, якім чынам павінен камп'ютар кіраваць сілкаваннем.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select the processor performance state one closer to ideal than the current processor performance state.</seg>
       </tuv>
       <tuv lang="be" changedate="20101211T191433Z" changeid="eratyk">
@@ -60639,6 +60975,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Setting (%1):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190041Z" changeid="eratyk">
+        <seg>Налада (%1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Setting could not be read</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T185155Z" changeid="eratyk">
@@ -60651,6 +60995,38 @@
       </tuv>
       <tuv lang="be" changedate="20100705T185713Z" changeid="eratyk">
         <seg>Усталёўка асабістых наладаў для:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Setting:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185935Z" changeid="eratyk">
+        <seg>Налада:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Setting: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185951Z" changeid="eratyk">
+        <seg>Налада: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Setting: %1 %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185947Z" changeid="eratyk">
+        <seg>Налада: %1 %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Setting: %1%%</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190112Z" changeid="eratyk">
+        <seg>Налада: %1%%</seg>
       </tuv>
     </tu>
     <tu>
@@ -60691,6 +61067,14 @@
       </tuv>
       <tuv lang="be" changedate="20100729T112315Z" changeid="eratyk">
         <seg>Settings.ini ўжываецца іншым працэсам. Зачыніце яго і націсніце 'Паўтарыць', альбо націсніце 'Скасаваць' для выйсця.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SettingsTV</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182221Z" changeid="eratyk">
+        <seg>SettingsTV</seg>
       </tuv>
     </tu>
     <tu>
@@ -62777,8 +63161,8 @@
       <tuv lang="en">
         <seg>Some history items could not be displayed. Please wait a few minutes and try again. If that doesn't work, clear the history and then try again.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101001T143456Z" changeid="eratyk">
-        <seg>Немагчыма адлюстраваць некаторыя запісы журнала. Калі ласка, пачакайце крыху, а потым паспрабуйце зноў. Калі гэта не дапамагло, ачысціце журнал і паўтарыце спробу. \r\n</seg>
+      <tuv lang="be" changedate="20101225T181733Z" changeid="eratyk">
+        <seg>Немагчыма адлюстраваць некаторыя элементы гісторыі. Калі ласка, пачакайце некалькі хвілін і паспрабуйце зноў. Калі гэта не працуе, ачысціце гісторыю і паспрабуйце зноў.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -62859,6 +63243,14 @@
       </tuv>
       <tuv lang="be" changedate="20100921T194800Z" changeid="eratyk">
         <seg>Некаторыя налады кіруюцца вашым сістэмным адміністратарам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Some settings are managed by your system administrator.  &lt;A&gt;Why can't I change some settings?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T180917Z" changeid="eratyk">
+        <seg>Некаторыя налады кіруюцца вашым сістэмным адміністратарам.  &lt;A&gt;Чаму я не магу змяняць некаторыя налады?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -63259,6 +63651,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T193016Z" changeid="eratyk">
         <seg>Азначыць нумар версіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify additional power settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182806Z" changeid="eratyk">
+        <seg>Азначце дадатковыя налады сілкавання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65423,6 +65823,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>System does not support hibernation\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190412Z" changeid="eratyk">
+        <seg>Сістэма не падтрымлівае гібернацыю\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>System error memory dump files</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T160720Z" changeid="eratyk">
@@ -66353,8 +66761,8 @@
       <tuv lang="en">
         <seg>The CD or DVD burner is still recognizing the disc. Please wait a few seconds, and then try burning again. If the problem continues, replace the recordable disc with another one, and then try again.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T110622Z" changeid="eratyk">
-        <seg>Запісваючы кружэльнік распазнае кружэлку. Калі ласка, пачакайце некалькі секунд і паспрабуйце прапальванне зноў. Калі праблема паўтараецца, змяніце кружэлку і паўтарыце спробу.</seg>
+      <tuv lang="be" changedate="20101225T181828Z" changeid="eratyk">
+        <seg>Запісваючы кружэльнік распазнае кружэлку. Калі ласка, пачакайце некалькі секунд і паспрабуйце прапальванне зноў. Калі праблема паўтараецца, замяніце кружэлку і паспрабуйце зноў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66601,8 +67009,8 @@
       <tuv lang="en">
         <seg>The Windows Installer Service could not be accessed. Make sure that Windows Installer is installed and that you are not running Windows in safe mode, and then try again.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101001T143412Z" changeid="eratyk">
-        <seg>Не атрымалася атрымаць доступ да службы усталёўніка Windows. Пераканайцеся ў тым, што аперацыйная сістэма не запушчана ў бяспечным рэжыме і паўтарыце спробу. \r\n</seg>
+      <tuv lang="be" changedate="20101225T180954Z" changeid="eratyk">
+        <seg>Немагчыма атрымаць доступ да службы ўсталёўніка Windows. Пераканайцеся, што ён усталяваны, што сістэма працуе не ў бяспечным рэжыме, і паспрабуйце зноў.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -68935,6 +69343,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The scheme could not be imported because a power scheme with the specified GUID already exists.\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101227T212749Z" changeid="eratyk">
+        <seg>Схема немагчыма імпартаваць, бо схема сілкавання з азначаным GUID ужо існуе.\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The search cannot be saved. Try using a different name or saving to a different location.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183929Z" changeid="eratyk">
@@ -69043,6 +69459,14 @@
       </tuv>
       <tuv lang="be" changedate="20101103T074909Z" changeid="eratyk">
         <seg>Запыт абслугоўвання, атрыманы для пакунка %1, не можа быць задаволены з-за непрыдатнасці пакунка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The settings that you selected may result in unexpected behavior.  Are you sure you want to keep these settings?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T183558Z" changeid="eratyk">
+        <seg>Налады, якія вы абралі, могуць прывесці да нечаканых паводзінаў.  Вы сапраўды жадаеце захаваць гэтыя налады?</seg>
       </tuv>
     </tu>
     <tu>
@@ -69631,6 +70055,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The value for &quot;Critical battery level&quot; should be less than the value for &quot;Low battery level&quot;. If you keep the current settings, you won’t be notified when the battery charge reaches the value for &quot;Low battery level.&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T184252Z" changeid="eratyk">
+        <seg>Значэнне для крытычнага ўзроўню батарэі павінна быць меней за значэнне для нізкага ўзроўню батарэі. Калі вы захаваеце дзейныя налады, вы не будзеце апавешчаныя, калі зарад батарэі сягне значэння нізкага ўзроўню батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The value for &quot;Critical battery level&quot; should be less than the value for &quot;Low battery level&quot;. If you keep the current settings, you won�t be notified when the battery charge reaches the value for &quot;Low battery level.&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T185105Z" changeid="eratyk">
+        <seg>Значэнне для крытычнага ўзроўню батарэі павінна быць меней за значэнне для нізкага ўзроўню батарэі. Калі вы захаваеце дзейныя налады, вы не будзеце апавешчаныя, калі зарад батарэі сягне значэння нізкага ўзроўню батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The value in this field must be a number between 99 and 9999.</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T181637Z" changeid="eratyk">
@@ -69817,8 +70257,8 @@
       <tuv lang="en">
         <seg>The write speed for the recordable disc is either too fast or too slow for your CD or DVD burner. Insert a recordable disc that has a different write speed, and then try again.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T095753Z" changeid="eratyk">
-        <seg>Хуткасць запісу запісвальнай кружэлкі ці занадта вялікая, ці занадта малая для Вашага прапальваючага кружэльніка. Устаўце кружэлку з іншай хуткасцю і паўтарыце спробу.</seg>
+      <tuv lang="be" changedate="20101225T181923Z" changeid="eratyk">
+        <seg>Хуткасць запісу запісвальнай кружэлкі ці занадта вялікая, ці занадта малая для вашага прапальваючага кружэльніка. Устаўце кружэлку з іншай хуткасцю і паспрабуйце зноў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -70515,6 +70955,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T195308Z" changeid="eratyk">
         <seg>Гэтыя вынікі могуць быць недакладнымі з-за праблемы гэтага пошуку. Пстрыкніце для атрымання дапамогі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>These settings can't be changed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T184328Z" changeid="eratyk">
+        <seg>Гэтыя налады немагчыма змяніць</seg>
       </tuv>
     </tu>
     <tu>
@@ -75023,6 +75471,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unable to configure hibernation file\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190446Z" changeid="eratyk">
+        <seg>Немагчыма наладзіць файл гібернацыі\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to connect to projector</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190917Z" changeid="eratyk">
+        <seg>Немагчыма падключыць праектар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unable to create %1.</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T083243Z" changeid="eratyk">
@@ -75075,6 +75539,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T065612Z" changeid="eratyk">
         <seg>Немагчыма стварыць каталог '%2!ls!'\n\n%1!ls!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to determine system capabilities\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T190615Z" changeid="eratyk">
+        <seg>Немагчыма вызначыць сістэмныя здольнасці\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -79305,8 +79777,8 @@
       <tuv lang="en">
         <seg>Windows adjusted these settings to match your hardware capabilities.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100922T091303Z" changeid="eratyk">
-        <seg>Windows прызначыла гэтыя налады, адпавядаючы патрабаванням вашага абсталявання.</seg>
+      <tuv lang="be" changedate="20101223T190645Z" changeid="eratyk">
+        <seg>Windows прызначыла гэтыя налады адпаведна з патрабаваннямі вашага абсталявання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -79715,6 +80187,14 @@
       </tuv>
       <tuv lang="be" changedate="20101124T081408Z" changeid="eratyk">
         <seg>Windows не можа адфарматаваць гэты дыск. Зачыніце усе праграмы, што выкарыстоўваюць дыск, пераканайцеся, што няма вокнаў, якія адлюстроўваюць яго змесціва. Тады паўтарыце спробу фарматавання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows cannot make some changes to the power settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182722Z" changeid="eratyk">
+        <seg>Windows не можа зрабіць некаторыя змены ў наладах сілкавання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -83411,6 +83891,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T114100Z" changeid="eratyk">
         <seg>Ваш пароль заўтра састарэе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your power plan information isn't available.  &lt;A&gt;Why can't Windows retrieve this information?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20101223T182347Z" changeid="eratyk">
+        <seg>Інфармацыя вашага плана сілкавання недаступная.  &lt;A&gt;Чаму Windows не можа атрымаць гэтую інфармацыю?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>

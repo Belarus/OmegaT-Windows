@@ -1,0 +1,286 @@
+1 MUI "Data_1333.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1, 	"Power Options"
+2, 	"Conserve energy or maximize performance by choosing how your computer manages power."
+3, 	"On battery"
+4, 	"Plugged in"
+5, 	"Save changes"
+6, 	"Cancel"
+9, 	"Less than 1 minute"
+10, 	"1 minute"
+11, 	"%2!u! minutes"
+12, 	"1 hour"
+13, 	"%1!u! hours"
+14, 	"%1!u! hours %2!u! minutes"
+15, 	"Never"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+16, 	"%1!u! %2"
+17, 	"1 hour 1 minute"
+18, 	"%1!u! hours 1 minute"
+19, 	"1 hour %2!u! minutes"
+20, 	"Some settings are managed by your system administrator. <a href=\"mshelp://windows/?id=ca607790-adf6-41a7-abd8-0a1f2feb70b1\">Why can't I change some settings?</a>"
+21, 	"Some settings are managed by your system administrator. Why can't I change some settings?"
+25, 	"Windows can't save some of your changes to this plan's power settings."
+26, 	"Windows can't make the power plan that you selected active. Choose a different plan."
+27, 	"Windows can't start the following program: %1!s! %2!s!"
+28, 	"%s (%s)"
+30, 	"Change settings that are currently unavailable"
+31, 	"These settings can't be changed"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+35, 	"Sleep"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+50, 	"Manage Power Plans"
+51, 	"Create a Power Plan"
+52, 	"Edit Plan Settings"
+54, 	"System Settings"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+70, 	"Power Options Control Panel"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+100, 	"Select a power plan"
+101, 	"Power plans can help you maximize your computer's performance or conserve energy. Make a plan active by selecting it, or choose a plan and customize it by changing its power settings. <a href=\"mshelp://windows/?id=495c2226-19f1-49eb-9fd8-6dd7f2c0b49e\">Tell me more about power plans</a>"
+102, 	"Power plans can help you maximize your computer's performance or conserve energy. Make a plan active by selecting it, or choose a plan and customize it by changing its power settings.  Tell me more about power plans"
+105, 	"Help"
+110, 	"Choose what the power buttons do"
+111, 	"Choose what the power button does"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+112, 	"Choose what closing the lid does"
+113, 	"Require a password on wakeup"
+114, 	"Create a power plan"
+120, 	"Choose when to turn off the display"
+121, 	"Change when the computer sleeps"
+123, 	"Screen brightness:"
+124, 	"Change screen brightness"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+131, 	"Windows Mobility Center"
+132, 	"Personalization"
+133, 	"User Accounts"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+150, 	"Preferred plans"
+151, 	"Plans shown on the battery meter"
+152, 	"Show additional plans"
+153, 	"Hide additional plans"
+155, 	"Battery life:"
+156, 	"Energy savings:"
+157, 	"Performance:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+160, 	"Favors performance over battery life"
+161, 	"Battery life and performance are on par"
+162, 	"Favors battery life over performance"
+165, 	"Change plan settings"
+166, 	"Change plan settings for the %s plan"
+170, 	"%s (recommended)"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+180, 	"Your power plan information isn't available. %s <a href=\"mshelp://windows/?id=3b59bc06-2353-408e-b66c-70d4090118d7\">Why can't Windows retrieve this information?</a>"
+181, 	"Your power plan information isn't available. %s Why can't Windows retrieve this information?"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+200, 	"Change settings for the plan: %s"
+201, 	"Choose the sleep and display settings that you want your computer to use."
+202, 	"Change plan settings"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+210, 	"Turn off the display:"
+211, 	"Put the computer to sleep:"
+212, 	"Hibernate the computer:"
+213, 	"Adjust plan brightness:"
+214, 	"Dim the display:"
+220, 	"&Change advanced power settings"
+221, 	"De&lete this plan"
+222, 	"Are you sure you want to delete this plan?"
+223, 	"This plan can't be restored after you delete it."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+224, 	"&Restore default settings for this plan"
+225, 	"Are you sure you want to restore this plan's default settings?"
+226, 	"Clicking 'Yes' immediately restores all of the plan's default settings."
+227, 	"Change advanced power settings"
+228, 	"Delete this plan"
+229, 	"Restore default settings for this plan"
+230, 	"Create"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+300, 	"Define power buttons and turn on password protection"
+301, 	"Choose the power settings that you want for your computer. The changes you make to the settings on this page apply to all of your power plans."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+310, 	"Power and sleep buttons and lid settings"
+311, 	"Power and sleep button settings"
+312, 	"Power button settings"
+313, 	"Power button and lid settings"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+320, 	"When I press the power button:"
+321, 	"When I press the sleep button:"
+322, 	"When I close the lid:"
+330, 	"Password protection on wakeup"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+340, 	"Require a password (recommended)"
+341, 	"When your computer wakes from sleep, no one can access your data without entering the correct password to unlock the computer. <a href=\"-name Microsoft.UserAccounts\">Create or change your user account password</a>"
+342, 	"Require a password (recommended)"
+343, 	"When your computer wakes from sleep, no one can access your data without entering the correct password to unlock the computer. Create or change your user account password"
+345, 	"Don't require a password"
+346, 	"When your computer wakes from sleep, anyone can access your data because the computer isn't locked."
+347, 	"Don't require a password"
+348, 	"When your computer wakes from sleep, anyone can access your data because the computer isn't locked."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"Create a power plan"
+401, 	"To create your own plan, start by selecting one of the following plans that is closest to what you want."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+425, 	"Plan name:"
+430, 	"Plan description (optional):"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+440, 	"The name that you entered is used by another power plan. Choose a different name for this plan."
+441, 	"When you create a power plan, you must name it. Type a name in the box."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+450, 	"My Custom Plan %1!u!"
+451, 	"My Custom Plan %1!u!"
+452, 	"My Custom Plan %1!u!"
+460, 	"Next"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+1 MESSAGETABLE
+{
+268435505,  	"Response Time"
+805306369,  	"Start"
+805306370,  	"Stop"
+1342177284,  	"Information"
+-1879048191,  	"Microsoft-Windows-PowerCpl"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Power Options Control Panel"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "PowerCPL"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "PowerCPL.DLL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
