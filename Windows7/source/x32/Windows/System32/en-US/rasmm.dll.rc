@@ -1,0 +1,67 @@
+1 MUI "Data_1392.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+204, 	"Connecting"
+205, 	"Disconnecting"
+206, 	"Connected"
+207, 	"Connected"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+208, 	"Connected"
+209, 	"Connected"
+210, 	"This connection is not available because there is a problem with your modem or network adapter"
+211, 	"Dormant: Server Unavailable"
+212, 	"Dormant: Waiting to reconnect"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+300, 	"Dial-up and VPN"
+301, 	"This connection requires an active Internet connection"
+302, 	"Your network administrator has blocked you from connecting to this network"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+310, 	"Dial-up and VPN"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "RAS Media Manager"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "RasMM.dll"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "RasMM.dll.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+

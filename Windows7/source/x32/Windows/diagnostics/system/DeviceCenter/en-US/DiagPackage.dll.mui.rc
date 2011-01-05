@@ -1,0 +1,44 @@
+1 MUI "Data_170.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1, 	"Devices and Printers"
+2, 	"Troubleshoot problems with devices and printers."
+7, 	"Problem with PnP devices"
+8, 	"There are problems with some PnP devices. Windows will take additional steps to further troubleshoot these devices."
+9, 	"Problem with printer"
+10, 	"There might be problems with %PRINTERNAME%. Windows will take additional steps to further troubleshoot."
+11, 	"Select a device to troubleshoot"
+12, 	"Please enter the container ID of the device you want to troubleshoot."
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", ""
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", ""
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", ""
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
