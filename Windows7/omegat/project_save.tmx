@@ -142,6 +142,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1   %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140027Z" changeid="eratyk">
+        <seg>%1   %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1   %2  (%3 processors)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140105Z" changeid="eratyk">
+        <seg>%1   %2  (%3 працэсары)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 %2 &amp;Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T072051Z" changeid="eratyk">
@@ -638,6 +654,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 using '%2'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T153020Z" changeid="eratyk">
+        <seg>%1 праз '%2'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 values</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T160310Z" changeid="eratyk">
@@ -690,6 +714,22 @@
       </tuv>
       <tuv lang="be" changedate="20101108T123501Z" changeid="eratyk">
         <seg>%1!d!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!d! %2 to activate. Activate Windows now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135423Z" changeid="eratyk">
+        <seg>%1!d! %2 да актывацыі. Актывуйце Windows зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!d! %2 until automatic activation. Activate Windows now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140157Z" changeid="eratyk">
+        <seg>%1!d! %2 да аўтаматычнай актывацыі. Актывуйце Windows зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2118,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%d MB</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140115Z" changeid="eratyk">
+        <seg>%d МБ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%d programs still need to close:</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T152752Z" changeid="eratyk">
@@ -2206,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%s (%s usable)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140825Z" changeid="eratyk">
+        <seg>%s (%s прыдатна для выкарыстання)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%s (%s)</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T172144Z" changeid="eratyk">
@@ -2318,6 +2374,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%s (will change to %s after restarting this computer)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135941Z" changeid="eratyk">
+        <seg>%s (зменіцца на %s пасля перазапуску камп'ютара)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%s - Copy ()</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T080447Z" changeid="eratyk">
@@ -2408,8 +2472,8 @@
       <tuv lang="en">
         <seg>%s bps</seg>
       </tuv>
-      <tuv lang="be" changedate="20101124T080359Z" changeid="eratyk">
-        <seg>%s Б/c</seg>
+      <tuv lang="be" changedate="20110108T150648Z" changeid="eratyk">
+        <seg>%s біт/c</seg>
       </tuv>
     </tu>
     <tu>
@@ -2578,6 +2642,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T175350Z" changeid="eratyk">
         <seg>%s ці пазней</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%s support</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140228Z" changeid="eratyk">
+        <seg>Падтрымка %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -2886,6 +2958,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Accept</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T145808Z" changeid="eratyk">
+        <seg>Прыняць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Actions</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T175828Z" changeid="eratyk">
@@ -3122,6 +3202,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T090115Z" changeid="eratyk">
         <seg>Заўсёды ўжываць абраную праграму для адчынення файлаў гэтага тыпу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Anyone who uses this computer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144807Z" changeid="eratyk">
+        <seg>Для ўсіх, хто карыстаецца гэтым камп'ютарам</seg>
       </tuv>
     </tu>
     <tu>
@@ -3534,6 +3622,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Channels to use:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T145126Z" changeid="eratyk">
+        <seg>Каналы для карыстання:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Check</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T185935Z" changeid="eratyk">
@@ -3758,10 +3854,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Confirm new password:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150328Z" changeid="eratyk">
+        <seg>Пацвердзіце новы пароль:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Confirm password:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151721Z" changeid="eratyk">
+        <seg>Пацвердзіце пароль:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Connect</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T053632Z" changeid="eratyk">
         <seg>Злучыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Connect...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T145803Z" changeid="eratyk">
+        <seg>Злучыць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Connect:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144552Z" changeid="eratyk">
+        <seg>Злучыць:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3834,6 +3962,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T183442Z" changeid="eratyk">
         <seg>Скапіяваць\tCtrl+C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Country/region code:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150252Z" changeid="eratyk">
+        <seg>Код краіны/рэгіёна:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4110,10 +4246,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Diagnose</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150404Z" changeid="eratyk">
+        <seg>Дыягназаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Diagnose network connectivity problem...</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183831Z" changeid="eratyk">
         <seg>Дыягназаваць праблему сеткавай злучальнасці...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Dial</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144618Z" changeid="eratyk">
+        <seg>Набраць</seg>
       </tuv>
     </tu>
     <tu>
@@ -4262,10 +4414,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Domain:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150921Z" changeid="eratyk">
+        <seg>Дамен:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Don't Install</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T102822Z" changeid="eratyk">
         <seg>Не ўсталёўваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Don't ask me again until the next time I log on</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T153127Z" changeid="eratyk">
+        <seg>Не пытаць мяне зноў да наступнага майго ўваходу</seg>
       </tuv>
     </tu>
     <tu>
@@ -4362,6 +4530,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T114923Z" changeid="eratyk">
         <seg>Рэдагаваць адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Edit...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144212Z" changeid="eratyk">
+        <seg>Рэдагаваць...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4678,10 +4854,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;From:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151837Z" changeid="eratyk">
+        <seg>З:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Full Screen\tF11</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T175706Z" changeid="eratyk">
         <seg>Поўны экран\tF11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Full name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151650Z" changeid="eratyk">
+        <seg>Поўнае імя:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4794,6 +4986,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T175944Z" changeid="eratyk">
         <seg>Група</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Hang Up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150232Z" changeid="eratyk">
+        <seg>Павесіць</seg>
       </tuv>
     </tu>
     <tu>
@@ -5022,6 +5222,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Install...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151852Z" changeid="eratyk">
+        <seg>Усталяваць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Install/uninstall languages...</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T064302Z" changeid="eratyk">
@@ -5194,6 +5402,14 @@
       </tuv>
       <tuv lang="be" changedate="20100726T065501Z" changeid="eratyk">
         <seg>Нумар радка:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Line type:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144927Z" changeid="eratyk">
+        <seg>Тып лініі:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5374,6 +5590,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Maximum speed (bps):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150629Z" changeid="eratyk">
+        <seg>Максімальная хуткасць (біт/с)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Measurement system:</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T131708Z" changeid="eratyk">
@@ -5462,6 +5686,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Mobility</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151142Z" changeid="eratyk">
+        <seg>Мабільнасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Modem settings</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T180929Z" changeid="eratyk">
@@ -5522,6 +5754,14 @@
       </tuv>
       <tuv lang="be" changedate="20100703T133318Z" changeid="alex">
         <seg>Перамясціць сюды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Move successful numbers to top of the list</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144352Z" changeid="eratyk">
+        <seg>Перамяшчаць паспяховыя нумар у верх спісу</seg>
       </tuv>
     </tu>
     <tu>
@@ -5606,6 +5846,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Network components:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151911Z" changeid="eratyk">
+        <seg>Сеткавыя кампаненты:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Network settings</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T180920Z" changeid="eratyk">
@@ -5654,6 +5902,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;New password:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150325Z" changeid="eratyk">
+        <seg>Новы пароль:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;New toolbar...</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T114849Z" changeid="eratyk">
@@ -5666,6 +5922,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T174028Z" changeid="eratyk">
         <seg>Новыя рахункі карыстальнікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;New...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151513Z" changeid="eratyk">
+        <seg>Новае...</seg>
       </tuv>
     </tu>
     <tu>
@@ -5710,10 +5974,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;No callback</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151001Z" changeid="eratyk">
+        <seg>Без зваротнага выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;No wrap</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T093357Z" changeid="eratyk">
         <seg>Без пераносу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;No, do not dial</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152257Z" changeid="eratyk">
+        <seg>Не, не набіраць</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +6066,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T125905Z" changeid="eratyk">
         <seg>Добра</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Old password:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150334Z" changeid="eratyk">
+        <seg>Стары пароль:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6058,6 +6346,22 @@
       </tuv>
       <tuv lang="be" changedate="20101126T073730Z" changeid="eratyk">
         <seg>Дазволы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Phone number:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150247Z" changeid="eratyk">
+        <seg>Нумар тэлефона:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Phone numbers:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144202Z" changeid="eratyk">
+        <seg>Нумары тэлефонаў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6782,6 +7086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Save this user name and password for the following users:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144717Z" changeid="eratyk">
+        <seg>Захаваць гэтыя імя карыстальніка і пароль для наступных карыстальнікаў:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Save\tCtrl+S</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T062849Z" changeid="eratyk">
@@ -6918,6 +7230,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Service name (optional):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151128Z" changeid="eratyk">
+        <seg>Назва службы (неабавязкова):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Service name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151121Z" changeid="eratyk">
+        <seg>Назва службы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Services...</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T082634Z" changeid="eratyk">
@@ -6946,6 +7274,14 @@
       </tuv>
       <tuv lang="be" changedate="20101107T185322Z" changeid="eratyk">
         <seg>Прызначыць размяшчэнне захавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T145800Z" changeid="eratyk">
+        <seg>Налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -7486,6 +7822,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;To:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151841Z" changeid="eratyk">
+        <seg>У:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;ToolBar</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T200638Z" changeid="eratyk">
@@ -7618,6 +7962,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T163243Z" changeid="eratyk">
         <seg>Дзве старонкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Type the new phone number:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151616Z" changeid="eratyk">
+        <seg>Увядзіце новы нумар тэлефона:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7766,6 +8118,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Use dialing rules</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150305Z" changeid="eratyk">
+        <seg>Карыстаць правілы набірання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Use native digits:</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T131915Z" changeid="eratyk">
@@ -7782,10 +8142,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;User accounts on this computer:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152111Z" changeid="eratyk">
+        <seg>Рахункі карыстальнікаў на гэтым камп'ютары:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;User name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144625Z" changeid="eratyk">
+        <seg>Імя карыстальніка:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;User's Files</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T092424Z" changeid="eratyk">
         <seg>Файлы карыстальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Users allowed to connect:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152038Z" changeid="eratyk">
+        <seg>Карыстальнікі, якім дазволена злучацца:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8518,6 +8902,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(not connected)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152421Z" changeid="eratyk">
+        <seg>(не злучана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(or press the</seg>
       </tuv>
       <tuv lang="be" changedate="20101010T081315Z" changeid="eratyk">
@@ -8570,6 +8962,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T105843Z" changeid="eratyk">
         <seg>*.bmp;*.gif;*.jpg;*.jpeg;*.dib;*.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>*.rnk</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152312Z" changeid="eratyk">
+        <seg>*.rnk</seg>
       </tuv>
     </tu>
     <tu>
@@ -9310,6 +9710,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>2 minutes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152808Z" changeid="eratyk">
+        <seg>2 хвіліны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>2 missed calls</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144151Z" changeid="eratyk">
@@ -9394,6 +9802,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T175210Z" changeid="eratyk">
         <seg>24</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>24 hours</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152801Z" changeid="eratyk">
+        <seg>24 гадзіны</seg>
       </tuv>
     </tu>
     <tu>
@@ -9498,6 +9914,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T143728Z" changeid="eratyk">
         <seg>3 новыя відарысы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>3 seconds</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152813Z" changeid="eratyk">
+        <seg>3 секунды</seg>
       </tuv>
     </tu>
     <tu>
@@ -9622,6 +10046,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>32-bit Operating System</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135702Z" changeid="eratyk">
+        <seg>32-бітная аперацыйная сістэма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>32Bit</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143349Z" changeid="eratyk">
+        <seg>32-бітавая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>350+ new pictures</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T144010Z" changeid="eratyk">
@@ -9666,6 +10106,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T061543Z" changeid="alex">
         <seg>4 гадзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>4 minutes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152819Z" changeid="eratyk">
+        <seg>4 хвіліны</seg>
       </tuv>
     </tu>
     <tu>
@@ -9810,6 +10258,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T143741Z" changeid="eratyk">
         <seg>5 новых відарысаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>5 seconds</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152827Z" changeid="eratyk">
+        <seg>5 секунд</seg>
       </tuv>
     </tu>
     <tu>
@@ -10022,6 +10478,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>64-bit Operating System</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135707Z" changeid="eratyk">
+        <seg>64-бітная аперацыйная сістэма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>640KB,  512 bytes/sector</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T081101Z" changeid="eratyk">
@@ -10114,6 +10578,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T063308Z" changeid="eratyk">
         <seg>8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>8 hours</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152953Z" changeid="eratyk">
+        <seg>8 гадзін</seg>
       </tuv>
     </tu>
     <tu>
@@ -11154,6 +11626,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T195001Z" changeid="eratyk">
         <seg>&lt;без назвы&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;protocol description&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151950Z" changeid="eratyk">
+        <seg>&lt;апісанне пратакола&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12846,6 +13326,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Account &amp;Properties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152126Z" changeid="eratyk">
+        <seg>Уласцівасці рахунка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Account expires</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T191055Z" changeid="eratyk">
@@ -12950,6 +13438,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Activate Windows now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140719Z" changeid="eratyk">
+        <seg>Актываваць Windows зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Activate this window</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163405Z" changeid="eratyk">
@@ -12962,6 +13458,22 @@
       </tuv>
       <tuv lang="be" changedate="20100905T123511Z" changeid="eratyk">
         <seg>Актывуе спіс задач.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Activation Image</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141935Z" changeid="eratyk">
+        <seg>Выява актывацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Activation status is not available in Safe Mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135308Z" changeid="eratyk">
+        <seg>Стан актывацыі недаступны ў бяспечным рэжыме.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13998,6 +14510,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Advanced system settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141523Z" changeid="eratyk">
+        <seg>Дадатковы налады сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Advice:</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T135332Z" changeid="Ales Koshal [icq#:706101]">
@@ -14810,6 +15330,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T073638Z" changeid="eratyk">
         <seg>Alt+Tab</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alternate Phone Numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144104Z" changeid="eratyk">
+        <seg>Пераменныя нумары тэлефонаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -17254,6 +17782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Authentication</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150815Z" changeid="eratyk">
+        <seg>Апазнаванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Authentication Error</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T173247Z" changeid="eratyk">
@@ -18478,6 +19014,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Br&amp;owse...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150916Z" changeid="eratyk">
+        <seg>Агляд...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Brid&amp;ge Connections</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T085527Z" changeid="eratyk">
@@ -19126,6 +19670,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>C&amp;hoose a network connection:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151500Z" changeid="eratyk">
+        <seg>Абярыце сеткавае злучэнне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>C&amp;hoose details...</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T101705Z" changeid="eratyk">
@@ -19194,6 +19746,22 @@
       </tuv>
       <tuv lang="be" changedate="20100715T055624Z" changeid="eratyk">
         <seg>Наладзіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>C&amp;onfigure...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151018Z" changeid="eratyk">
+        <seg>Наладзіць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>C&amp;onnections:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144358Z" changeid="eratyk">
+        <seg>Злучэнні:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19330,6 +19898,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T100454Z" changeid="eratyk">
         <seg>CLSID:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>COM1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152445Z" changeid="eratyk">
+        <seg>COM1</seg>
       </tuv>
     </tu>
     <tu>
@@ -19590,10 +20166,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Call Me Back At</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152612Z" changeid="eratyk">
+        <seg>Выклікай мяне а</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Call duration:</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T190503Z" changeid="eratyk">
         <seg>Працягласць выкліку:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Callback</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150348Z" changeid="eratyk">
+        <seg>Зваротны выклік</seg>
       </tuv>
     </tu>
     <tu>
@@ -20600,8 +21192,8 @@
       <tuv lang="en">
         <seg>Change advanced color management settings for displays, scanners, and printers</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T154858Z" changeid="eratyk">
-        <seg>Змяніць адмысловае кіраванне колерам для экранаў, сканераў і друкарак</seg>
+      <tuv lang="be" changedate="20110108T141540Z" changeid="eratyk">
+        <seg>Змяніць дадатковае кіраванне колерам для экранаў, сканераў і друкарак</seg>
       </tuv>
     </tu>
     <tu>
@@ -20938,6 +21530,14 @@
       </tuv>
       <tuv lang="be" changedate="20101119T224414Z" changeid="eratyk">
         <seg>Змяніць прыярытэт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Change product key</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143329Z" changeid="eratyk">
+        <seg>Змяніць ключ прадукту</seg>
       </tuv>
     </tu>
     <tu>
@@ -23022,6 +23622,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click Here</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142150Z" changeid="eratyk">
+        <seg>Пстрыкніце тут</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click Join now, and then follow the HomeGroup wizard to enter the password.</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T173539Z" changeid="eratyk">
@@ -23446,6 +24054,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Client:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152358Z" changeid="eratyk">
+        <seg>Кліент:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clipboard</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T164942Z" changeid="eratyk">
@@ -23778,6 +24394,14 @@
       </tuv>
       <tuv lang="be" changedate="20101011T160735Z" changeid="eratyk">
         <seg>Колер 1:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Co&amp;mment</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150312Z" changeid="eratyk">
+        <seg>Каментар</seg>
       </tuv>
     </tu>
     <tu>
@@ -24374,10 +24998,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Computer description:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143223Z" changeid="eratyk">
+        <seg>Апісанне камп'ютара:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Computer n&amp;ame:</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T125358Z" changeid="eratyk">
         <seg>Назва камп'ютара:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Computer name, domain, and workgroup settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143149Z" changeid="eratyk">
+        <seg>Назва, дамен камп'ютара і налады хатняй групы</seg>
       </tuv>
     </tu>
     <tu>
@@ -24560,8 +25200,8 @@
       <tuv lang="en">
         <seg>Configure advanced user profile properties</seg>
       </tuv>
-      <tuv lang="be" changedate="20101028T083600Z" changeid="eratyk">
-        <seg>Наладзіць пашыраныя уласцівасці профілю карыстальніка</seg>
+      <tuv lang="be" changedate="20110108T141548Z" changeid="eratyk">
+        <seg>Наладзіць дадатковыя уласцівасці профілю карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -24728,8 +25368,8 @@
       <tuv lang="en">
         <seg>Confirm password</seg>
       </tuv>
-      <tuv lang="be" changedate="20100721T100100Z" changeid="eratyk">
-        <seg>Пацверджанне пароля</seg>
+      <tuv lang="be" changedate="20110108T151750Z" changeid="eratyk">
+        <seg>Пацвердзіце пароль</seg>
       </tuv>
     </tu>
     <tu>
@@ -24770,6 +25410,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T053215Z" changeid="eratyk">
         <seg>Злучыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144537Z" changeid="eratyk">
+        <seg>Злучыць з %1</seg>
       </tuv>
     </tu>
     <tu>
@@ -25290,6 +25938,22 @@
       </tuv>
       <tuv lang="be" changedate="20110107T223101Z" changeid="eratyk">
         <seg>Злучэнне з %s перарванае. Перазлучыць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connection type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151627Z" changeid="eratyk">
+        <seg>Тып злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connections</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150935Z" changeid="eratyk">
+        <seg>Злучэнні</seg>
       </tuv>
     </tu>
     <tu>
@@ -26334,6 +26998,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Create Dial-Up Shortcut</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152352Z" changeid="eratyk">
+        <seg>Стварыць тэлефонны цэтлік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Create Font Indirect Failed</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T143935Z" changeid="eratyk">
@@ -27374,10 +28046,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>D&amp;elete</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151526Z" changeid="eratyk">
+        <seg>Выдаліць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>D&amp;iagnose</seg>
       </tuv>
-      <tuv lang="be" changedate="20100726T081634Z" changeid="eratyk">
-        <seg>Дыягностыка</seg>
+      <tuv lang="be" changedate="20110108T150409Z" changeid="eratyk">
+        <seg>Дыягназаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>D&amp;ial:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144545Z" changeid="eratyk">
+        <seg>Набраць:</seg>
       </tuv>
     </tu>
     <tu>
@@ -27914,6 +28602,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T142458Z" changeid="eratyk">
         <seg>дзён</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>De&amp;lete</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144220Z" changeid="eratyk">
+        <seg>Выдаліць</seg>
       </tuv>
     </tu>
     <tu>
@@ -28798,6 +29494,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Device</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T153049Z" changeid="eratyk">
+        <seg>Прылада</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Device &amp;Manager</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T172310Z" changeid="eratyk">
@@ -28910,6 +29614,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Device:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152403Z" changeid="eratyk">
+        <seg>Прылада:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Devices</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T082334Z" changeid="eratyk">
@@ -28960,8 +29672,8 @@
       <tuv lang="en">
         <seg>Diagnose</seg>
       </tuv>
-      <tuv lang="be" changedate="20101005T053423Z" changeid="eratyk">
-        <seg>Дыягностыка</seg>
+      <tuv lang="be" changedate="20110108T150418Z" changeid="eratyk">
+        <seg>Дыягназаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -29014,10 +29726,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dial-Up Networking</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152243Z" changeid="eratyk">
+        <seg>Тэлефонная сеткавая праца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dial-up Adapter</seg>
       </tuv>
       <tuv lang="be" changedate="20100919T193346Z" changeid="eratyk">
         <seg>Тэлефонны адаптар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dial-up Connection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152440Z" changeid="eratyk">
+        <seg>Тэлефоннае злучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -29030,10 +29758,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dial-up shortcut files (*.rnk)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152338Z" changeid="eratyk">
+        <seg>Файлы тэлефонных цэтлікаў (*.rnk)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dialer</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T122246Z" changeid="eratyk">
         <seg>Тэлефанавальнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dialing &amp;Rules</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144613Z" changeid="eratyk">
+        <seg>Правілы набірання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dialing &amp;from:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144603Z" changeid="eratyk">
+        <seg>Набіранне з:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dialing options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150906Z" changeid="eratyk">
+        <seg>Налады набірання</seg>
       </tuv>
     </tu>
     <tu>
@@ -31055,6 +31815,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do&amp;main:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144812Z" changeid="eratyk">
+        <seg>Дамен:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do&amp;n't Save</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T075048Z" changeid="eratyk">
@@ -31187,6 +31955,14 @@
       </tuv>
       <tuv lang="be" changedate="20110107T215750Z" changeid="eratyk">
         <seg>Даменная сетка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Domain:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135224Z" changeid="eratyk">
+        <seg>Дамен:</seg>
       </tuv>
     </tu>
     <tu>
@@ -33011,6 +33787,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T185804Z" changeid="eratyk">
         <seg>Памылка %1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error %1: %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152623Z" changeid="eratyk">
+        <seg>Памылка %1: %2</seg>
       </tuv>
     </tu>
     <tu>
@@ -35295,6 +36079,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>First connect</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151416Z" changeid="eratyk">
+        <seg>Першае злучанне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>First day of &amp;week:</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T062859Z" changeid="eratyk">
@@ -36735,6 +37527,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Full computer name:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143211Z" changeid="eratyk">
+        <seg>Поўная назва камп'ютара:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Full name</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T054201Z" changeid="eratyk">
@@ -37079,6 +37879,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Get genuine...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143630Z" changeid="eratyk">
+        <seg>Атрымаць сапраўдную копію...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Get help</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T175531Z" changeid="eratyk">
@@ -37113,8 +37921,8 @@
       <tuv lang="en">
         <seg>Get more features with a new edition of Windows 7</seg>
       </tuv>
-      <tuv lang="be" changedate="20100720T101434Z" changeid="eratyk">
-        <seg>Атрымаць болей кампанентаў з новай рэдакцыяй Windows 7</seg>
+      <tuv lang="be" changedate="20110108T143020Z" changeid="eratyk">
+        <seg>Атрымаць болей кампанентаў з новым выданнем Windows 7</seg>
       </tuv>
     </tu>
     <tu>
@@ -37723,6 +38531,14 @@
       </tuv>
       <tuv lang="be" changedate="20110101T165945Z" changeid="eratyk">
         <seg>Распазнанне рукапіснага ўводу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hang &amp;Up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152426Z" changeid="eratyk">
+        <seg>Павесіць</seg>
       </tuv>
     </tu>
     <tu>
@@ -38935,6 +39751,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>I&amp;nstall...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150819Z" changeid="eratyk">
+        <seg>Усталяваць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>I've shared a folder with you</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T164002Z" changeid="eratyk">
@@ -39047,6 +39871,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>IKEv2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151153Z" changeid="eratyk">
+        <seg>IKEv2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>IM addresses</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T055317Z" changeid="eratyk">
@@ -39055,10 +39887,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>IP Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152633Z" changeid="eratyk">
+        <seg>IP-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>ISDN Configuration</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144852Z" changeid="eratyk">
+        <seg>Канфігурацыя ISDN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>ISDN Configuration Wizard</seg>
       </tuv>
-      <tuv lang="be" changedate="20110104T173824Z" changeid="eratyk">
-        <seg>Майстар наладжвання ISDN</seg>
+      <tuv lang="be" changedate="20110108T144915Z" changeid="eratyk">
+        <seg>Майстар канфігуравання ISDN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>ISDN Configure</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150500Z" changeid="eratyk">
+        <seg>Канфігураваць ISDN</seg>
       </tuv>
     </tu>
     <tu>
@@ -39155,6 +40011,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T135826Z" changeid="eratyk">
         <seg>Ідэнтыфікатар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Identifier:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135522Z" changeid="eratyk">
+        <seg>Ідэнтыфікатар:</seg>
       </tuv>
     </tu>
     <tu>
@@ -39339,6 +40203,14 @@
       </tuv>
       <tuv lang="be" changedate="20101209T174617Z" changeid="eratyk">
         <seg>Час бяздзейнасці, перш чым сістэма вернецца ў сонны стан ашчаджання энергіі пасля самотнага абуджэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If a &amp;number fails, try the next number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144306Z" changeid="eratyk">
+        <seg>Падчас няўдачы нумара спрабаваць наступны</seg>
       </tuv>
     </tu>
     <tu>
@@ -40319,6 +41191,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Incoming connections</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151832Z" changeid="eratyk">
+        <seg>Уваходныя злучэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Incomplete</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T192429Z" changeid="eratyk">
@@ -41015,6 +41895,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Installed memory (RAM):</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143413Z" changeid="eratyk">
+        <seg>Усталяваная памяць RAM:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Installed on</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142008Z" changeid="eratyk">
@@ -41067,6 +41955,14 @@
       </tuv>
       <tuv lang="be" changedate="20101206T193126Z" changeid="eratyk">
         <seg>Бракуе памяці для стварэння растру. Зачыніце адну ці некалькі праграм для павелічэння даступнай памяці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Intel Pentium 5 processor 5.20GHz</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143708Z" changeid="eratyk">
+        <seg>Intel Pentium 5 працэсар 5.20 ГГц</seg>
       </tuv>
     </tu>
     <tu>
@@ -42271,6 +43167,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>L2TP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151133Z" changeid="eratyk">
+        <seg>L2TP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>LBRACKET</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T075308Z" changeid="eratyk">
@@ -42791,6 +43695,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Learn more online...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142143Z" changeid="eratyk">
+        <seg>Больш інфармацыі ў сеціве...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Leave this file in the destination folder:</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T144213Z" changeid="eratyk">
@@ -42987,6 +43899,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T185005Z" changeid="eratyk">
         <seg>Памылка ліцэнзіі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>License Logo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141947Z" changeid="eratyk">
+        <seg>Лагатып ліцэнзіі</seg>
       </tuv>
     </tu>
     <tu>
@@ -43275,6 +44195,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T172215Z" changeid="eratyk">
         <seg>Спіс карыстальнікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>List1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144411Z" changeid="eratyk">
+        <seg>List1</seg>
       </tuv>
     </tu>
     <tu>
@@ -44609,8 +45537,8 @@
       <tuv lang="en">
         <seg>Manage advanced sharing settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20100721T102224Z" changeid="eratyk">
-        <seg>Кіраванне пашыранымі наладамі агульнага доступу</seg>
+      <tuv lang="be" changedate="20110108T141640Z" changeid="eratyk">
+        <seg>Кіраваць дадатковымі наладамі агульнага доступу</seg>
       </tuv>
     </tu>
     <tu>
@@ -44979,6 +45907,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T154113Z" changeid="eratyk">
         <seg>Маё пасведчанне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Me o&amp;nly</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144731Z" changeid="eratyk">
+        <seg>Толькі для мяне</seg>
       </tuv>
     </tu>
     <tu>
@@ -46367,6 +47303,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Modem</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150524Z" changeid="eratyk">
+        <seg>Мадэм</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Modem Configuration</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150521Z" changeid="eratyk">
+        <seg>Канфігурацыя мадэма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Modem or device</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152524Z" changeid="eratyk">
+        <seg>Мадэм ці прылада</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Moderate power savings</seg>
       </tuv>
       <tuv lang="be" changedate="20101211T211937Z" changeid="eratyk">
@@ -47287,6 +48247,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Navigation Panel</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142036Z" changeid="eratyk">
+        <seg>Навігацыйная панэль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Navigation pane</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T104757Z" changeid="eratyk">
@@ -47531,6 +48499,14 @@
       </tuv>
       <tuv lang="be" changedate="20101123T214306Z" changeid="eratyk">
         <seg>Сеткавае выкарыстанне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network access</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152224Z" changeid="eratyk">
+        <seg>Доступ да сеткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -47783,6 +48759,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Network:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152408Z" changeid="eratyk">
+        <seg>Сетка:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>NetworkLocationDialog - Launched\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T192345Z" changeid="eratyk">
@@ -47803,6 +48787,14 @@
       </tuv>
       <tuv lang="be" changedate="20101118T071254Z" changeid="eratyk">
         <seg>Сеткавая праца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Networking &amp;software:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152209Z" changeid="eratyk">
+        <seg>Сеткавае апраграмаванне:</seg>
       </tuv>
     </tu>
     <tu>
@@ -48203,6 +49195,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T194859Z" changeid="eratyk">
         <seg>Няма пароля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No Pen or Touch Input is available for this Display</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141020Z" changeid="eratyk">
+        <seg>Асадкавы і датычны ўвод недаступныя для гэтага экрана</seg>
       </tuv>
     </tu>
     <tu>
@@ -48723,6 +49723,14 @@
       </tuv>
       <tuv lang="be" changedate="20100313T065918Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Не прымальна%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not Available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143159Z" changeid="eratyk">
+        <seg>Недаступна</seg>
       </tuv>
     </tu>
     <tu>
@@ -49267,6 +50275,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T180902Z" changeid="alex">
         <seg>Адчыніць меню ўсіх карыстальнікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>OEM Info</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143443Z" changeid="eratyk">
+        <seg>OEM-інфармацыя</seg>
       </tuv>
     </tu>
     <tu>
@@ -50083,6 +51099,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T105254Z" changeid="eratyk">
         <seg>Службы сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Online support</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143621Z" changeid="eratyk">
+        <seg>Сеціўная падтрымка</seg>
       </tuv>
     </tu>
     <tu>
@@ -51551,6 +52575,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>PPP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152753Z" changeid="eratyk">
+        <seg>PPP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PPP Settin&amp;gs...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151424Z" changeid="eratyk">
+        <seg>Налады PPP...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PPP Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150931Z" changeid="eratyk">
+        <seg>Налады PPP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pa&amp;ge setup</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092117Z" changeid="eratyk">
@@ -52087,6 +53135,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Password Encryption</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152538Z" changeid="eratyk">
+        <seg>Шыфраванне пароля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Password Hint</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T212742Z" changeid="eratyk">
@@ -52367,6 +53423,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pen Input Available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141032Z" changeid="eratyk">
+        <seg>Асадкавы ўвод даступны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pen and Single Touch Input Available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141139Z" changeid="eratyk">
+        <seg>Асадкавы і датычны ўвод даступныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pen and Touch Input Available with %1 Touch Points</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141128Z" changeid="eratyk">
+        <seg>Асадкавы і датычны ўвод даступныя з %1 кропкамі дотыку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pen and Touch:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135906Z" changeid="eratyk">
+        <seg>Асадка і дотык:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pen1</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T180201Z" changeid="eratyk">
@@ -52539,6 +53627,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T063805Z" changeid="alex">
         <seg>Інфармацыя прадукцыйнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Performance Information and Tools</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141842Z" changeid="eratyk">
+        <seg>Інфармацыя прадукцыйнасці і інструменты</seg>
       </tuv>
     </tu>
     <tu>
@@ -52799,6 +53895,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Phone &amp;number:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152542Z" changeid="eratyk">
+        <seg>Нумар тэлефона:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Phone Dialer</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T122347Z" changeid="eratyk">
@@ -52807,10 +53911,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Phone Number Editor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151553Z" changeid="eratyk">
+        <seg>Рэдактар нумара тэлефона</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone Numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152644Z" changeid="eratyk">
+        <seg>Нумары тэлефонаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Phone and Modem</seg>
       </tuv>
       <tuv lang="be" changedate="20110101T155202Z" changeid="eratyk">
         <seg>Тэлефон і мадэм</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T150240Z" changeid="eratyk">
+        <seg>Нумар тэлефона</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone number:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143454Z" changeid="eratyk">
+        <seg>Нумар тэлефона:</seg>
       </tuv>
     </tu>
     <tu>
@@ -52827,6 +53963,14 @@
       </tuv>
       <tuv lang="be" changedate="20101028T180326Z" changeid="eratyk">
         <seg>Фотаметрычная інтэрпрэтацыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Physical Address Extension</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135609Z" changeid="eratyk">
+        <seg>Фізічнае пашырэнне адраса</seg>
       </tuv>
     </tu>
     <tu>
@@ -54095,6 +55239,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pr&amp;operties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144620Z" changeid="eratyk">
+        <seg>Уласцівасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pre&amp;view</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T080952Z" changeid="eratyk">
@@ -55247,6 +56399,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Product ID:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143316Z" changeid="eratyk">
+        <seg>ID прадукту:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Product name</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142447Z" changeid="eratyk">
@@ -56271,6 +57431,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Rating Image</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141956Z" changeid="eratyk">
+        <seg>Выява ацэнкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Rating System for Websites</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T130259Z" changeid="eratyk">
@@ -56283,6 +57451,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T185602Z" changeid="eratyk">
         <seg>Назва дастаўніка ацэнкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rating:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143049Z" changeid="eratyk">
+        <seg>Ацэнка:</seg>
       </tuv>
     </tu>
     <tu>
@@ -56791,6 +57967,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Redialing options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151443Z" changeid="eratyk">
+        <seg>Налады перанабірання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Redo</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T124212Z" changeid="eratyk">
@@ -57047,10 +58231,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Remote Router</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152513Z" changeid="eratyk">
+        <seg>Аддалены рутэр</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Remote interactive login</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T213726Z" changeid="eratyk">
         <seg>Аддалены інтэрактыўны ўваход</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remote settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141330Z" changeid="eratyk">
+        <seg>Аддаленыя налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -58343,6 +59543,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Retrieving system rating</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143121Z" changeid="eratyk">
+        <seg>Атрыманне ацэнкі сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Return to previous view.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T192156Z" changeid="eratyk">
@@ -59315,6 +60523,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T093037Z" changeid="eratyk">
         <seg>Узорныя відэазапісы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sample text</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151522Z" changeid="eratyk">
+        <seg>Узорны тэкст</seg>
       </tuv>
     </tu>
     <tu>
@@ -64263,6 +65479,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Single Touch Input Available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141309Z" changeid="eratyk">
+        <seg>Адзіночны датычны ўвод даступны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sinhala</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T074415Z" changeid="eratyk">
@@ -65387,6 +66611,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T193700Z" changeid="eratyk">
         <seg>Азначыць выканаўцу альбома</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify alternate phone numbers you want to use to make this connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T144153Z" changeid="eratyk">
+        <seg>Азначце пераменныя нумары тэлефонаў, якія вы жадаеце скарыстаць для ўсталявання гэтага злучэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66575,6 +67807,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Status Not Available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143243Z" changeid="eratyk">
+        <seg>Стан недаступны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Status bar</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T093338Z" changeid="eratyk">
@@ -67039,10 +68279,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Support Information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143644Z" changeid="eratyk">
+        <seg>Інфармацыя падтрымкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Support contact</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142646Z" changeid="eratyk">
         <seg>Кантакт падтрымкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Support hours:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143520Z" changeid="eratyk">
+        <seg>Час працы падтрымкі:</seg>
       </tuv>
     </tu>
     <tu>
@@ -67409,8 +68665,24 @@
       <tuv lang="en">
         <seg>System</seg>
       </tuv>
-      <tuv lang="be" changedate="20100713T070129Z" changeid="eratyk">
-        <seg>Сістэмны</seg>
+      <tuv lang="be" changedate="20110108T141801Z" changeid="eratyk">
+        <seg>Сістэма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System CPL Help Topic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142114Z" changeid="eratyk">
+        <seg>Тэма даведкі панэлі кіравання сістэмай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System CPL Main Window</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142025Z" changeid="eratyk">
+        <seg>Галоўнае вакно панэлі кіравання сістэмай</seg>
       </tuv>
     </tu>
     <tu>
@@ -67663,6 +68935,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>System protection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141353Z" changeid="eratyk">
+        <seg>Абарона сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System rating is not available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135218Z" changeid="eratyk">
+        <seg>Ацэнка сістэмы недаступна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System type:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143425Z" changeid="eratyk">
+        <seg>Тып сістэмы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>System unattended sleep timeout</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T174644Z" changeid="eratyk">
@@ -67723,6 +69019,14 @@
       </tuv>
       <tuv lang="be" changedate="20101124T080518Z" changeid="eratyk">
         <seg>ТБ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>TCP/IP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152638Z" changeid="eratyk">
+        <seg>TCP/IP</seg>
       </tuv>
     </tu>
     <tu>
@@ -69665,8 +70969,8 @@
       <tuv lang="en">
         <seg>The file can't be opened since this edition of Windows doesn't support themes.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100923T062004Z" changeid="eratyk">
-        <seg>Файл не можа быць адчынены з тае пары, як гэты выпуск Windows не падтрымлівае тэмы.</seg>
+      <tuv lang="be" changedate="20110108T142943Z" changeid="eratyk">
+        <seg>Файл не можа быць адчынены з тае пары, як гэтае выданне Windows не падтрымлівае тэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -73047,6 +74351,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This copy of Windows is not activated. Click here to activate Windows now.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135516Z" changeid="eratyk">
+        <seg>Гэтая копія Windows не актываваная. Пстрыкніце тут, каб актываваць Windows зараз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This copy of Windows is not genuine</seg>
       </tuv>
       <tuv lang="be" changedate="20101206T195540Z" changeid="eratyk">
@@ -73225,8 +74537,8 @@
       <tuv lang="en">
         <seg>This edition of Windows doesn't support themes.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100923T062024Z" changeid="eratyk">
-        <seg>Гэты выпуск Windows не падтрымлівае тэмы.</seg>
+      <tuv lang="be" changedate="20110108T142953Z" changeid="eratyk">
+        <seg>Гэтае выданне Windows не падтрымлівае тэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -74001,8 +75313,8 @@
       <tuv lang="en">
         <seg>This page is not available in this edition of Windows.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T060654Z" changeid="alex">
-        <seg>Гэтая старонка недаступна ў гэтай рэдакцыі Windows.</seg>
+      <tuv lang="be" changedate="20110108T143041Z" changeid="eratyk">
+        <seg>Гэтая старонка недаступна ў гэтым выданні Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -75051,6 +76363,22 @@
       </tuv>
       <tuv lang="be" changedate="20101111T130628Z" changeid="eratyk">
         <seg>Ніці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Through a &amp;dial-up modem</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152151Z" changeid="eratyk">
+        <seg>Праз тэлефонны мадэм</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Through the &amp;Internet</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152136Z" changeid="eratyk">
+        <seg>Праз сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -76335,6 +77663,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Total:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T151845Z" changeid="eratyk">
+        <seg>Усяго:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Total: %1!d! items</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T071022Z" changeid="Ales Koshal [icq#:706101]">
@@ -76347,6 +77683,14 @@
       </tuv>
       <tuv lang="be" changedate="20101118T071305Z" changeid="eratyk">
         <seg>Усяго</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Touch Input Available with %1 Touch Points</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141154Z" changeid="eratyk">
+        <seg>Датычны ўвод даступны з %1 кропкамі дотыку</seg>
       </tuv>
     </tu>
     <tu>
@@ -79753,8 +81097,8 @@
       <tuv lang="en">
         <seg>View advanced system settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T193154Z" changeid="eratyk">
-        <seg>Прагледзець пашыраныя налады сістэмы</seg>
+      <tuv lang="be" changedate="20110108T141555Z" changeid="eratyk">
+        <seg>Прагледзець дадатковыя налады сістэмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -79907,6 +81251,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T083635Z" changeid="eratyk">
         <seg>Прагляд параметраў хатняй групы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View information about your computer, and change settings for hardware, performance, and remote connections.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135132Z" changeid="eratyk">
+        <seg>Прагледзець асноўную інфармацыю аб вашым камп'ютары і змяніць налады абсталявання, прадукцыйнасці і аддаленых злучэнняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -80515,6 +81867,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T171444Z" changeid="eratyk">
         <seg>Старонка сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Website:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143526Z" changeid="eratyk">
+        <seg>Сайт:</seg>
       </tuv>
     </tu>
     <tu>
@@ -81375,6 +82735,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows Logo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T141919Z" changeid="eratyk">
+        <seg>Лагатып Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows Logon</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T074453Z" changeid="eratyk">
@@ -81803,6 +83171,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T123740Z" changeid="eratyk">
         <seg>Абнаўленне Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows activation</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T143232Z" changeid="eratyk">
+        <seg>Актывацыя Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -82519,6 +83895,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows edition</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T142921Z" changeid="eratyk">
+        <seg>Выданне Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows encountered a problem when trying to copy this file.</seg>
       </tuv>
       <tuv lang="be" changedate="20100716T090648Z" changeid="eratyk">
@@ -82697,8 +84081,8 @@
       <tuv lang="en">
         <seg>Windows failed to start the advanced options dialog.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T171231Z" changeid="eratyk">
-        <seg>Windows не можа запусціць дыялог пашыраных наладаў.</seg>
+      <tuv lang="be" changedate="20110108T141731Z" changeid="eratyk">
+        <seg>Windows не можа запусціць дыялог дадатковых наладаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -82731,6 +84115,14 @@
       </tuv>
       <tuv lang="be" changedate="20100928T154026Z" changeid="eratyk">
         <seg>Windows адноўленая пасля нечаканага выключэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is activated</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135332Z" changeid="eratyk">
+        <seg>Windows актываваная</seg>
       </tuv>
     </tu>
     <tu>
@@ -82835,6 +84227,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T185854Z" changeid="eratyk">
         <seg>Няўдача актывацыі ліцэнзіі Windows. Памылка %1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows license has expired</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140714Z" changeid="eratyk">
+        <seg>Тэрмін дзеяння ліцэнзіі Windows мінуў</seg>
       </tuv>
     </tu>
     <tu>
@@ -84911,6 +86311,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You may enter a fixed IP address.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152737Z" changeid="eratyk">
+        <seg>Вы можаце ўвесці сталы IP-адрас.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You may enter a total of %u page ranges.</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T125131Z" changeid="eratyk">
@@ -84963,6 +86371,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T082724Z" changeid="eratyk">
         <seg>Вы прапусцілі выклік.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must activate today.  Activate Windows now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140024Z" changeid="eratyk">
+        <seg>Вы павінны актываваць сёння.  Актываваць Windows зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -85443,6 +86859,30 @@
       </tuv>
       <tuv lang="be" changedate="20100725T171145Z" changeid="eratyk">
         <seg>Вашыя параметры бяспекі Сеціва падказалі, што некаторыя файлы могуць быць шкоднымі. Усё роўна жадаеце карыстаць іх?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your Windows Experience Index needs to be refreshed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140344Z" changeid="eratyk">
+        <seg>Ваш індэкс досведу Windows патрабуе абнаўлення</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your Windows license extension expires in %1!d! %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140702Z" changeid="eratyk">
+        <seg>Тэрмін дзеяння вашага пашырэння ліцэнзіі Windows мінае праз %1!d! %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your Windows license is valid for %1!d! %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140546Z" changeid="eratyk">
+        <seg>Ваша ліцэнзія Windows дапушчальная цягам %1!d! %2</seg>
       </tuv>
     </tu>
     <tu>
@@ -86753,8 +88193,8 @@
       <tuv lang="en">
         <seg>bps</seg>
       </tuv>
-      <tuv lang="be" changedate="20101124T151607Z" changeid="eratyk">
-        <seg>Б/c</seg>
+      <tuv lang="be" changedate="20110108T150703Z" changeid="eratyk">
+        <seg>біт/c</seg>
       </tuv>
     </tu>
     <tu>
@@ -87035,6 +88475,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T161338Z" changeid="eratyk">
         <seg>дата змянення|змяненне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>day</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140351Z" changeid="eratyk">
+        <seg>дзень</seg>
       </tuv>
     </tu>
     <tu>
@@ -87455,6 +88903,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>hour</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T140357Z" changeid="eratyk">
+        <seg>гадзіна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>hours</seg>
       </tuv>
       <tuv lang="be" changedate="20100317T141757Z" changeid="Ales Koshal [icq#:706101]">
@@ -87507,6 +88963,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T122704Z" changeid="eratyk">
         <seg>http://go.microsoft.com/fwlink/?linkid=37020&amp;name=%1!s!&amp;threatid=%2!I32u!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>http://go.microsoft.com/fwlink/?linkid=50944</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T135614Z" changeid="eratyk">
+        <seg>http://go.microsoft.com/fwlink/?linkid=50944</seg>
       </tuv>
     </tu>
     <tu>
@@ -87879,6 +89343,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>lnk</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T152308Z" changeid="eratyk">
+        <seg>lnk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>location</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T090854Z" changeid="eratyk">
@@ -87955,6 +89427,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T172917Z" changeid="eratyk">
         <seg>mshelp://windows/?id=6f58b1c8-e296-4498-8454-99558fde70bf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>never</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110108T153002Z" changeid="eratyk">
+        <seg>ніколі</seg>
       </tuv>
     </tu>
     <tu>
