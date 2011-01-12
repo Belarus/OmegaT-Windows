@@ -1,227 +1,175 @@
-1 MUI "Data_1617.bin"
-
-
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-1, 	"System"
-2, 	"View information about your computer, and change settings for hardware, performance, and remote connections."
-4, 	"Debug"
-5, 	"System rating is not available"
-6, 	"Domain:"
-7, 	"Workgroup:"
-8, 	"WORKGROUP"
-9, 	"* Unknown *"
-10, 	"Activation status is not available in Safe Mode."
-11, 	"Windows is activated"
-12, 	"%1!d! %2 to activate. Activate Windows now"
-13, 	"This copy of Windows is not activated. Click here to activate Windows now."
-14, 	"Processor:"
-15, 	"Memory:"
-}
-
+#pragma code_page(65001)
+#include <resources.h>
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-16, 	"Model:"
-17, 	"Identifier:"
-19, 	"Physical Address Extension"
-20, 	"http://go.microsoft.com/fwlink/?linkid=50944"
-23, 	"32-bit Operating System"
-24, 	"64-bit Operating System"
-26, 	"Pen and Touch:"
-27, 	"%s (will change to %s after restarting this computer)"
-28, 	"You must activate today.  Activate Windows now"
-29, 	"%1   %2"
-30, 	"%1   %2  (%3 processors)"
-31, 	"%d MB"
+  1,  "System"
+  2,  "View information about your computer, and change settings for hardware, performance, and remote connections."
+  4,  "Debug"
+  5,  "System rating is not available"
+  6,  "Domain:"
+  7,  "Workgroup:"
+  8,  "WORKGROUP"
+  9,  "* Unknown *"
+  10,  "Activation status is not available in Safe Mode."
+  11,  "Windows is activated"
+  12,  "%1!d! %2 to activate. Activate Windows now"
+  13,  "This copy of Windows is not activated. Click here to activate Windows now."
+  14,  "Processor:"
+  15,  "Memory:"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-32, 	"%1!d! %2 until automatic activation. Activate Windows now"
-33, 	"%1!d! %2 to activate. Activate Windows now"
-34, 	"%s support"
-35, 	"Your Windows Experience Index needs to be refreshed"
-36, 	"day"
-37, 	"days"
-38, 	"hour"
-39, 	"hours"
-40, 	"%1%2"
-41, 	"Your Windows license is valid for %1!d! %2"
-42, 	"Your Windows license extension expires in %1!d! %2"
-43, 	"Windows license has expired"
-44, 	"Activate Windows now"
-45, 	"%s (%s usable)"
+  16,  "Model:"
+  17,  "Identifier:"
+  19,  "Physical Address Extension"
+  20,  "http://go.microsoft.com/fwlink/?linkid=50944"
+  23,  "32-bit Operating System"
+  24,  "64-bit Operating System"
+  26,  "Pen and Touch:"
+  27,  "%s (will change to %s after restarting this computer)"
+  28,  "You must activate today.  Activate Windows now"
+  29,  "%1   %2"
+  30,  "%1   %2  (%3 processors)"
+  31,  "%d MB"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-50, 	"No Pen or Touch Input is available for this Display"
-51, 	"Pen Input Available"
-52, 	"Pen and Touch Input Available with %1 Touch Points"
-53, 	"Pen and Single Touch Input Available"
-54, 	"Touch Input Available with %1 Touch Points"
-55, 	"Single Touch Input Available"
+  32,  "%1!d! %2 until automatic activation. Activate Windows now"
+  33,  "%1!d! %2 to activate. Activate Windows now"
+  34,  "%s support"
+  35,  "Your Windows Experience Index needs to be refreshed"
+  36,  "day"
+  37,  "days"
+  38,  "hour"
+  39,  "hours"
+  40,  "%1%2"
+  41,  "Your Windows license is valid for %1!d! %2"
+  42,  "Your Windows license extension expires in %1!d! %2"
+  43,  "Windows license has expired"
+  44,  "Activate Windows now"
+  45,  "%s (%s usable)"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-100, 	"Device Manager"
-101, 	"Remote settings"
-102, 	"System protection"
-103, 	"Advanced system settings"
-104, 	"Windows Update"
-105, 	"Action Center"
-106, 	"Performance Information and Tools"
+  50,  "No Pen or Touch Input is available for this Display"
+  51,  "Pen Input Available"
+  52,  "Pen and Touch Input Available with %1 Touch Points"
+  53,  "Pen and Single Touch Input Available"
+  54,  "Touch Input Available with %1 Touch Points"
+  55,  "Single Touch Input Available"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-300, 	"Security Shield Icon"
-301, 	"Windows Logo"
-302, 	"Activation Image"
-303, 	"License Logo"
+  100,  "Device Manager"
+  101,  "Remote settings"
+  102,  "System protection"
+  103,  "Advanced system settings"
+  104,  "Windows Update"
+  105,  "Action Center"
+  106,  "Performance Information and Tools"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-304, 	"Rating Image"
-305, 	"Help"
-306, 	"System CPL Main Window"
-307, 	"Navigation Panel"
-308, 	"Content"
-309, 	"System CPL Help Topic"
+  300,  "Security Shield Icon"
+  301,  "Windows Logo"
+  302,  "Activation Image"
+  303,  "License Logo"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
+  304,  "Rating Image"
+  305,  "Help"
+  306,  "System CPL Main Window"
+  307,  "Navigation Panel"
+  308,  "Content"
+  309,  "System CPL Help Topic"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
+  1528,  "Learn more online..."
+  1530,  "Click Here"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1528, 	"Learn more online..."
-1530, 	"Click Here"
+  1537,  "View basic information about your computer"
+  1538,  "Windows edition"
+  1542,  "System"
+  1543,  "Rating:"
+  1544,  "Retrieving system rating"
+  1545,  "Computer name, domain, and workgroup settings"
+  1546,  "Change settings"
+  1547,  "Computer name:"
+  1548,  "Not Available"
+  1549,  "Full computer name:"
+  1550,  "Not Available"
+  1551,  "Computer description:"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1537, 	"View basic information about your computer"
-1538, 	"Windows edition"
-1542, 	"System"
-1543, 	"Rating:"
-1544, 	"Retrieving system rating"
-1545, 	"Computer name, domain, and workgroup settings"
-1546, 	"Change settings"
-1547, 	"Computer name:"
-1548, 	"Not Available"
-1549, 	"Full computer name:"
-1550, 	"Not Available"
-1551, 	"Computer description:"
+  1552,  "Not Available"
+  1553,  "Workgroup:"
+  1554,  "Not Available"
+  1555,  "Windows activation"
+  1556,  "Status Not Available"
+  1557,  "Product ID:"
+  1558,  "Not Available"
+  1559,  "Change product key"
+  1561,  "32Bit"
+  1562,  "Processor:"
+  1563,  "Not Available"
+  1564,  "Installed memory (RAM):"
+  1565,  "Not Available"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1552, 	"Not Available"
-1553, 	"Workgroup:"
-1554, 	"Not Available"
-1555, 	"Windows activation"
-1556, 	"Status Not Available"
-1557, 	"Product ID:"
-1558, 	"Not Available"
-1559, 	"Change product key"
-1561, 	"32Bit"
-1562, 	"Processor:"
-1563, 	"Not Available"
-1564, 	"Installed memory (RAM):"
-1565, 	"Not Available"
+  1571,  "System type:"
+  1572,  "Manufacturer:"
+  1573,  "Not Available"
+  1574,  "Model:"
+  1575,  "Not Available"
+  1576,  "OEM Info"
+  1577,  "Phone number:"
+  1578,  "Not Available"
+  1579,  "Support hours:"
+  1580,  "Not Available"
+  1581,  "Website:"
+  1582,  "Online support"
+  1583,  "Get genuine..."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1571, 	"System type:"
-1572, 	"Manufacturer:"
-1573, 	"Not Available"
-1574, 	"Model:"
-1575, 	"Not Available"
-1576, 	"OEM Info"
-1577, 	"Phone number:"
-1578, 	"Not Available"
-1579, 	"Support hours:"
-1580, 	"Not Available"
-1581, 	"Website:"
-1582, 	"Online support"
-1583, 	"Get genuine..."
-}
-
-
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-1584, 	"Support Information"
-1586, 	"Processor:"
-1587, 	"Intel Pentium 5 processor 5.20GHz"
-1588, 	"Status Not Available"
-1589, 	"click"
-1590, 	"click"
-1591, 	"click"
-1592, 	"click"
-1593, 	"click"
-}
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "My System CPL"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "SYSTEMCPL"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "SYSTEMCPL.DLL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-		VALUE "OleSelfRegister", ""
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
+  1584,  "Support Information"
+  1586,  "Processor:"
+  1587,  "Intel Pentium 5 processor 5.20GHz"
+  1588,  "Status Not Available"
+  1589,  "click"
+  1590,  "click"
+  1591,  "click"
+  1592,  "click"
+  1593,  "click"
 }
 

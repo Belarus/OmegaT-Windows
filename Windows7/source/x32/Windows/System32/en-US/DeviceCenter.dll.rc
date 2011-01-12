@@ -1,222 +1,163 @@
-1 MUI "Data_461.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 3001 MENUEX
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "Add a &device", 4, MFT_STRING, MFS_ENABLED
-	MENUITEM "Add a prin&ter", 5, MFT_STRING, MFS_ENABLED
-	MENUITEM "", 65535, MFT_SEPARATOR, MFS_ENABLED
-	MENUITEM "Device &Manager", 7, MFT_STRING, MFS_ENABLED
-}
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Add a &device", 4, MFT_STRING, MFS_ENABLED
+    MENUITEM "Add a prin&ter", 5, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Device &Manager", 7, MFT_STRING, MFS_ENABLED
+  }
 }
 
 3002 MENU
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP ""
-{
-	MENUITEM "&Get device information from the Internet",  1
-	MENUITEM "&What happens if I change this?",  3
-	MENUITEM SEPARATOR
-	MENUITEM "&Open device installation settings",  2
-}
+  POPUP ""
+  {
+    MENUITEM "&Get device information from the Internet", 1
+    MENUITEM "&What happens if I change this?", 3
+    MENUITEM SEPARATOR
+    MENUITEM "&Open device installation settings", 2
+  }
 }
 
 10001 DIALOGEX 0, 0, 252, 248
-STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
 CAPTION "General"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 0
+STYLE 0x90c000c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
 {
-   CONTROL "", 4002, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 9, 7, 32, 32 
-   CONTROL "", 4001, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 40, 9, 208, 14 
-   CONTROL "Device Information", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 34, 238, 100 
-   CONTROL "Manufacturer:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 48, 63, 8 
-   CONTROL "", 4003, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 48, 170, 10 
-   CONTROL "Model:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 62, 63, 8 
-   CONTROL "", 4004, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 62, 170, 10 
-   CONTROL "Model number:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 76, 63, 8 
-   CONTROL "", 4005, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 76, 170, 10 
-   CONTROL "Categories:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 90, 63, 8 
-   CONTROL "", 4006, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 90, 170, 10 
-   CONTROL "Description:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 104, 63, 8 
-   CONTROL "", 4007, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 104, 170, 10 
-   CONTROL "", 4008, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 72, 118, 170, 10 
-   CONTROL "Device Tasks", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 7, 140, 238, 101 
-   CONTROL "To view tasks for this device, right-click the icon for the device in Devices and Printers.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 12, 154, 220, 64 
+  CONTROL "", 4002, Static, 0x50000003, 9, 7, 32, 32, 0x0
+  CONTROL "", 4001, Edit, 0x50000880, 40, 9, 208, 14, 0x0
+  CONTROL "Device Information", 4294967295, Button, 0x50000007, 7, 34, 238, 100, 0x0
+  CONTROL "Manufacturer:", 4294967295, Static, 0x50020000, 12, 48, 63, 8, 0x0
+  CONTROL "", 4003, Edit, 0x50000880, 72, 48, 170, 10, 0x0
+  CONTROL "Model:", 4294967295, Static, 0x50020000, 12, 62, 63, 8, 0x0
+  CONTROL "", 4004, Edit, 0x50000880, 72, 62, 170, 10, 0x0
+  CONTROL "Model number:", 4294967295, Static, 0x50020000, 12, 76, 63, 8, 0x0
+  CONTROL "", 4005, Edit, 0x50000880, 72, 76, 170, 10, 0x0
+  CONTROL "Categories:", 4294967295, Static, 0x50020000, 12, 90, 63, 8, 0x0
+  CONTROL "", 4006, Edit, 0x50000880, 72, 90, 170, 10, 0x0
+  CONTROL "Description:", 4294967295, Static, 0x50020000, 12, 104, 63, 8, 0x0
+  CONTROL "", 4007, Edit, 0x50000880, 72, 104, 170, 10, 0x0
+  CONTROL "", 4008, Edit, 0x50000880, 72, 118, 170, 10, 0x0
+  CONTROL "Device Tasks", 4294967295, Button, 0x50000007, 7, 140, 238, 101, 0x0
+  CONTROL "To view tasks for this device, right-click the icon for the device in Devices and Printers.", 4294967295, Static, 0x50020000, 12, 154, 220, 64, 0x0
 }
 
 10002 DIALOGEX 0, 0, 252, 248
-STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
 CAPTION "Hardware"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg", FW_NORMAL, FALSE, 0
+STYLE 0x90c000c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
 {
-   CONTROL "", 4002, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 9, 7, 32, 32 
-   CONTROL "", 4001, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 40, 9, 208, 14 
+  CONTROL "", 4002, Static, 0x50000003, 9, 7, 32, 32, 0x0
+  CONTROL "", 4001, Edit, 0x50000880, 40, 9, 208, 14, 0x0
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-500, 	"Add a device"
-503, 	"Add a printer"
-504, 	"&Troubleshoot"
+  500,  "Add a device"
+  503,  "Add a printer"
+  504,  "&Troubleshoot"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-520, 	"Add a wireless or network device to this computer"
-523, 	"Start the Add Printer Wizard, which helps you install a printer"
-524, 	"Diagnose a problem with this device"
+  520,  "Add a wireless or network device to this computer"
+  523,  "Start the Add Printer Wizard, which helps you install a printer"
+  524,  "Diagnose a problem with this device"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-551, 	"This is the default device."
-552, 	"This is a shared device."
-553, 	"This is a networked device."
+  551,  "This is the default device."
+  552,  "This is a shared device."
+  553,  "This is a networked device."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-600, 	"Windows can display enhanced device icons and information from the Internet. Click to change..."
+  600,  "Windows can display enhanced device icons and information from the Internet. Click to change..."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-610, 	"Devices"
-611, 	"Printers and Faxes"
+  610,  "Devices"
+  611,  "Printers and Faxes"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-650, 	"Unavailable"
+  650,  "Unavailable"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-670, 	"Device Functions:"
-671, 	"Device Function Summary"
+  670,  "Device Functions:"
+  671,  "Device Function Summary"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-800, 	"S&ystem properties"
-801, 	"Po&wer options"
-802, 	"Windows &Update"
-803, 	"Region and &language"
-810, 	"&Keyboard settings"
-811, 	"&Mouse settings"
-812, 	"&Game controller settings"
+  800,  "S&ystem properties"
+  801,  "Po&wer options"
+  802,  "Windows &Update"
+  803,  "Region and &language"
+  810,  "&Keyboard settings"
+  811,  "&Mouse settings"
+  812,  "&Game controller settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-820, 	"&Display settings"
-830, 	"S&ound settings"
+  820,  "&Display settings"
+  830,  "S&ound settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-840, 	"&Network settings"
-841, 	"&Modem settings"
-842, 	"&Bluetooth settings"
+  840,  "&Network settings"
+  841,  "&Modem settings"
+  842,  "&Bluetooth settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-850, 	"SideS&how settings"
-851, 	"S&ensor settings"
+  850,  "SideS&how settings"
+  851,  "S&ensor settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-900, 	"Device &installation settings"
+  900,  "Device &installation settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1000, 	"Devices and Printers"
+  1000,  "Devices and Printers"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-}
-
-
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-}
-
-
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-}
-
-
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-2000, 	"View and manage devices, printers, and print jobs"
-}
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Device Center"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "devicecenter.dll"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "devicecenter.dll.mui"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
+  2000,  "View and manage devices, printers, and print jobs"
 }
 

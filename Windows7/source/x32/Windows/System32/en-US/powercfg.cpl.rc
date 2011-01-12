@@ -1,154 +1,116 @@
-1 MUI "Data_1331.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 1000 DIALOGEX 0, 0, 218, 182
-STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Advanced settings"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 9, "Segoe UI"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
 {
-   CONTROL 202, 1114, STATIC, SS_ICON | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 8, 8, 24, 24 
-   CONTROL "Select the power plan that you want to customize, and then choose settings that reflect how you want your computer to manage power.", 1100, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 35, 8, 174, 24 
-   CONTROL "", 1115, STATIC, SS_OWNERDRAW | WS_CHILD | WS_VISIBLE, 4, 4, 209, 29 
-   CONTROL 0, 1109, STATIC, SS_ICON | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 8, 16, 16 
-   CONTROL "Some settings are managed by your system administrator.  <A>Why can't I change some settings?</A>", 1111, "SysLink", 0x50010000, 27, 8, 182, 24 
-   CONTROL 202, 1120, STATIC, SS_ICON | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 8, 8, 16, 16 
-   CONTROL "Your power plan information isn't available.  <A>Why can't Windows retrieve this information?</A>", 1121, "SysLink", 0x50010000, 27, 8, 182, 24 
-   CONTROL 0, 1118, STATIC, SS_ICON | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 8, 31, 16, 16 
-   CONTROL "<A>Change settings that are currently unavailable</A>", 1119, "SysLink", 0x50010000, 24, 35, 182, 11 
-   CONTROL " ", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 6, 48, 0, 0 
-   CONTROL "", 1104, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 8, 48, 135, 100 
-   CONTROL "SettingsTV", 1105, "SysTreeView32", TVS_HASBUTTONS | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_CHILD | WS_VISIBLE | WS_CLIPCHILDREN | WS_BORDER | WS_TABSTOP, 8, 63, 201, 95 
-   CONTROL "&Restore plan defaults", 1113, BUTTON, BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 110, 162, 100, 12 
+  CONTROL 202, 1114, Static, 0x50000203, 8, 8, 24, 24, 0x0
+  CONTROL "Select the power plan that you want to customize, and then choose settings that reflect how you want your computer to manage power.", 1100, Static, 0x50020000, 35, 8, 174, 24, 0x0
+  CONTROL "", 1115, Static, 0x5000000d, 4, 4, 209, 29, 0x0
+  CONTROL 0, 1109, Static, 0x50010203, 8, 8, 16, 16, 0x0
+  CONTROL "Some settings are managed by your system administrator.  <A>Why can't I change some settings?</A>", 1111, "SysLink", 0x50010000, 27, 8, 182, 24, 0x0
+  CONTROL 202, 1120, Static, 0x50000203, 8, 8, 16, 16, 0x0
+  CONTROL "Your power plan information isn't available.  <A>Why can't Windows retrieve this information?</A>", 1121, "SysLink", 0x50010000, 27, 8, 182, 24, 0x0
+  CONTROL 0, 1118, Static, 0x50000203, 8, 31, 16, 16, 0x0
+  CONTROL "<A>Change settings that are currently unavailable</A>", 1119, "SysLink", 0x50010000, 24, 35, 182, 11, 0x0
+  CONTROL " ", 65535, Static, 0x50020000, 6, 48, 0, 0, 0x0
+  CONTROL "", 1104, ComboBox, 0x50210143, 8, 48, 135, 100, 0x0
+  CONTROL "SettingsTV", 1105, "SysTreeView32", 0x52810835, 8, 63, 201, 95, 0x0
+  CONTROL "&Restore plan defaults", 1113, Button, 0x50010300, 110, 162, 100, 12, 0x0
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-90, 	"Power Options"
-91, 	"Configure energy-saving settings on your computer."
-92, 	"Advanced Power Options"
+  90,  "Power Options"
+  91,  "Configure energy-saving settings on your computer."
+  92,  "Advanced Power Options"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-123, 	"Windows cannot make some changes to the power settings."
-124, 	"Power Options"
-125, 	"Additional settings"
-126, 	"Specify additional power settings."
-127, 	"Are you sure you want to restore this plan's default settings?"
+  123,  "Windows cannot make some changes to the power settings."
+  124,  "Power Options"
+  125,  "Additional settings"
+  126,  "Specify additional power settings."
+  127,  "Are you sure you want to restore this plan's default settings?"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-128, 	"Clicking 'Yes' immediately restores all of the plan's default settings."
-130, 	"The settings that you selected may result in unexpected behavior.  Are you sure you want to keep these settings?"
-141, 	"The value for \"Critical battery level\" should be less than the value for \"Low battery level\". If you keep the current settings, you won’t be notified when the battery charge reaches the value for \"Low battery level.\""
+  128,  "Clicking 'Yes' immediately restores all of the plan's default settings."
+  130,  "The settings that you selected may result in unexpected behavior.  Are you sure you want to keep these settings?"
+  141,  "The value for ""Critical battery level"" should be less than the value for ""Low battery level"". If you keep the current settings, you wonâ€™t be notified when the battery charge reaches the value for ""Low battery level."""
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-170, 	"These settings can't be changed"
+  170,  "These settings can't be changed"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-300, 	"%1 [Active]"
+  300,  "%1 [Active]"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-310, 	"On battery: "
-311, 	"On battery: %1 %2"
-312, 	"On battery: %1"
-313, 	"Plugged in: "
-314, 	"Plugged in: %1 %2"
-315, 	"Plugged in: %1"
-316, 	"Setting: "
-317, 	"Setting: %1 %2"
-318, 	"Setting: %1"
-319, 	"On battery (%1): "
+  310,  "On battery: "
+  311,  "On battery: %1 %2"
+  312,  "On battery: %1"
+  313,  "Plugged in: "
+  314,  "Plugged in: %1 %2"
+  315,  "Plugged in: %1"
+  316,  "Setting: "
+  317,  "Setting: %1 %2"
+  318,  "Setting: %1"
+  319,  "On battery (%1): "
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-320, 	"Plugged in (%1): "
-321, 	"Setting (%1): "
-322, 	"On battery: %1%%"
-323, 	"Plugged in: %1%%"
-324, 	"Setting: %1%%"
+  320,  "Plugged in (%1): "
+  321,  "Setting (%1): "
+  322,  "On battery: %1%%"
+  323,  "Plugged in: %1%%"
+  324,  "Setting: %1%%"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-400, 	"Power Options"
+  400,  "Power Options"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-650, 	"Minute"
-651, 	"Minutes"
-652, 	"Sleep"
-653, 	"Never"
+  650,  "Minute"
+  651,  "Minutes"
+  652,  "Sleep"
+  653,  "Never"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-660, 	"Left arrow"
-661, 	"Right arrow"
+  660,  "Left arrow"
+  661,  "Right arrow"
 }
 
 1 MESSAGETABLE
 {
-805306369,  	"Start"
-805306370,  	"Stop"
-1342177284,  	"Information"
--1879048191,  	"Microsoft-Windows-PowerCfg"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-PowerCfg\r\n"
 }
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Power Management Configuration Control Panel Applet"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "POWERCFG"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "POWERCFG.CPL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
-}
-
