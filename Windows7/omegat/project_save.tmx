@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>% normal size</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170616Z" changeid="eratyk">
+        <seg>% нармальнага памеру</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%%</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T071248Z" changeid="eratyk">
@@ -1350,10 +1358,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>%1!s!\n%2!s!</seg>
+        <seg>%1!s!\n%2!s!\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114148Z" changeid="eratyk">
-        <seg>%1!s!\n%2!s!</seg>
+        <seg>%1!s!\n%2!s!\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -2918,10 +2926,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;About Calculator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165321Z" changeid="eratyk">
+        <seg>Пра калькулятар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;About Notepad</seg>
       </tuv>
-      <tuv lang="be" changedate="20100726T070325Z" changeid="eratyk">
-        <seg>Пра Нататнік</seg>
+      <tuv lang="be" changedate="20110121T165338Z" changeid="eratyk">
+        <seg>Пра нататнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -3326,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;BMP picture</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140017Z" changeid="eratyk">
+        <seg>Відарыс &amp;BMP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Back up now...</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T094506Z" changeid="eratyk">
@@ -3350,6 +3374,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Basic\tCtrl+F4</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164208Z" changeid="eratyk">
+        <seg>Базавы\tCtrl+F4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Batch file:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T192307Z" changeid="eratyk">
@@ -3370,6 +3402,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T062507Z" changeid="eratyk">
         <seg>Толькі растравыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Black and white</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165743Z" changeid="eratyk">
+        <seg>Чорны і белы</seg>
       </tuv>
     </tu>
     <tu>
@@ -3486,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;By:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170004Z" changeid="eratyk">
+        <seg>Па:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;CPU History</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T100818Z" changeid="eratyk">
@@ -3538,6 +3586,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T181507Z" changeid="alex">
         <seg>Катэгорыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Center</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140108Z" changeid="eratyk">
+        <seg>Па цэнтры</seg>
       </tuv>
     </tu>
     <tu>
@@ -3862,10 +3918,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>&amp;Configure</seg>
+        <seg>&amp;Configure\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114118Z" changeid="eratyk">
-        <seg>Наладзіць</seg>
+        <seg>Наладзіць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -3910,10 +3966,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>&amp;Connect</seg>
+        <seg>&amp;Connect\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114043Z" changeid="eratyk">
-        <seg>Злучыць</seg>
+        <seg>Злучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -4126,6 +4182,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Dataset</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165227Z" changeid="eratyk">
+        <seg>Набор звестак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Date calculation\tCtrl+E</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164323Z" changeid="eratyk">
+        <seg>Вылічэнне дат\tCtrl+E</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Date:</seg>
       </tuv>
       <tuv lang="be" changedate="20110120T151331Z" changeid="eratyk">
@@ -4146,6 +4218,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T125636Z" changeid="eratyk">
         <seg>Аддзяляльнік дробнай часткі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Default</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165656Z" changeid="eratyk">
+        <seg>Перадвызначана</seg>
       </tuv>
     </tu>
     <tu>
@@ -4326,10 +4406,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>&amp;Disconnect</seg>
+        <seg>&amp;Disconnect\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114050Z" changeid="eratyk">
-        <seg>Адлучыць</seg>
+        <seg>Адлучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -4702,6 +4782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Fill</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140110Z" changeid="eratyk">
+        <seg>Запоўніць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Find</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T080525Z" changeid="eratyk">
@@ -4738,6 +4826,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T200640Z" changeid="eratyk">
         <seg>Першы радок:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Fit to:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170606Z" changeid="eratyk">
+        <seg>Дапасаваць да:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4886,6 +4982,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Free-form selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140214Z" changeid="eratyk">
+        <seg>Вылучэнне адвольнай формы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;From:</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T151837Z" changeid="eratyk">
@@ -4922,6 +5026,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T055125Z" changeid="eratyk">
         <seg>Поўнаэкраннае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;GIF picture</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140028Z" changeid="eratyk">
+        <seg>Відарыс &amp;GIF</seg>
       </tuv>
     </tu>
     <tu>
@@ -5126,6 +5238,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;History</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165017Z" changeid="eratyk">
+        <seg>Гісторыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Horizontal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170235Z" changeid="eratyk">
+        <seg>Гарызанталь</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Horizontal:</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T073015Z" changeid="eratyk">
@@ -5294,10 +5422,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Invert selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140216Z" changeid="eratyk">
+        <seg>Інвертаваць вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Item:</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T160721Z" changeid="eratyk">
         <seg>Элемент:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;JPEG picture</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140003Z" changeid="eratyk">
+        <seg>Відарыс &amp;JPEG</seg>
       </tuv>
     </tu>
     <tu>
@@ -5602,6 +5746,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T101201Z" changeid="eratyk">
         <seg>Яркасць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Maintain aspect ratio</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170127Z" changeid="eratyk">
+        <seg>Утрымліваць суадносіны</seg>
       </tuv>
     </tu>
     <tu>
@@ -6334,6 +6486,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;PNG picture</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T135953Z" changeid="eratyk">
+        <seg>Відарыс &amp;PNG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Password:</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T101708Z" changeid="eratyk">
@@ -6434,6 +6594,14 @@
       </tuv>
       <tuv lang="be" changedate="20100920T073234Z" changeid="eratyk">
         <seg>Ружовы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Pixels</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165728Z" changeid="eratyk">
+        <seg>Пікселі</seg>
       </tuv>
     </tu>
     <tu>
@@ -6546,6 +6714,14 @@
       </tuv>
       <tuv lang="be" changedate="20100726T065411Z" changeid="eratyk">
         <seg>Друкарка...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Programmer\tAlt+3</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164122Z" changeid="eratyk">
+        <seg>Праграмісцкі\tAlt+3</seg>
       </tuv>
     </tu>
     <tu>
@@ -6682,6 +6858,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T173019Z" changeid="eratyk">
         <seg>Хуткасць запісу:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Rectangular selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140158Z" changeid="eratyk">
+        <seg>Прамавугольнае вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -7178,6 +7362,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T140237Z" changeid="Ales Koshal [icq#:706101]">
         <seg>&amp;Праверыць зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Scientific\tAlt+2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164054Z" changeid="eratyk">
+        <seg>Навуковы\tAlt+2</seg>
       </tuv>
     </tu>
     <tu>
@@ -7878,6 +8070,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Tile</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140053Z" changeid="eratyk">
+        <seg>Закафляваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Time between redial attempts:</seg>
       </tuv>
       <tuv lang="be" changedate="20110119T103211Z" changeid="eratyk">
@@ -7986,6 +8186,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T203137Z" changeid="eratyk">
         <seg>Празрыстасць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Transparent selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140315Z" changeid="eratyk">
+        <seg>Празрыстае вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -8142,6 +8350,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Unit conversion\tCtrl+U</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164304Z" changeid="eratyk">
+        <seg>Канвертаванне адзінак\tCtrl+U</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Unpin from this list</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T180422Z" changeid="eratyk">
@@ -8216,8 +8432,8 @@
       <tuv lang="en">
         <seg>&amp;Update selection</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T153235Z" changeid="alex">
-        <seg>Абнавіць вылучанае</seg>
+      <tuv lang="be" changedate="20110121T165522Z" changeid="eratyk">
+        <seg>Абнавіць вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -8280,8 +8496,8 @@
       <tuv lang="en">
         <seg>&amp;Vertical</seg>
       </tuv>
-      <tuv lang="be" changedate="20100927T203606Z" changeid="eratyk">
-        <seg>Вертыкальна</seg>
+      <tuv lang="be" changedate="20110121T170256Z" changeid="eratyk">
+        <seg>Вертыкаль</seg>
       </tuv>
     </tu>
     <tu>
@@ -8314,6 +8530,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T192523Z" changeid="eratyk">
         <seg>Прагледзець файлы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;View Help\tF1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165301Z" changeid="eratyk">
+        <seg>Прагледзець дапамогу\tF1</seg>
       </tuv>
     </tu>
     <tu>
@@ -8482,6 +8706,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T114630Z" changeid="eratyk">
         <seg>Каталог:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Worksheets</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165014Z" changeid="eratyk">
+        <seg>Лісты</seg>
       </tuv>
     </tu>
     <tu>
@@ -9230,6 +9462,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>.bmp</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170952Z" changeid="eratyk">
+        <seg>.bmp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>.dib</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171203Z" changeid="eratyk">
+        <seg>.dib</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>.rle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171204Z" changeid="eratyk">
+        <seg>.rle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>/ \\ | , ; : + = &lt; &gt; [ ] &quot; .</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T151728Z" changeid="eratyk">
@@ -9774,6 +10030,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>16 Color Bitmap (*.bmp;*.dib)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171123Z" changeid="eratyk">
+        <seg>16-колерны растравы (*.bmp;*.dib)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>16 GB - 80 GB</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T080923Z" changeid="eratyk">
@@ -9934,6 +10198,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>24-bit Bitmap (*.bmp;*.dib)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171201Z" changeid="eratyk">
+        <seg>24-бітны растравы (*.bmp;*.dib)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>25 - 100 KB</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T080826Z" changeid="eratyk">
@@ -9978,6 +10250,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T143957Z" changeid="eratyk">
         <seg>Больш за 250 новых відарысаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>256 Color Bitmap (*.bmp;*.dib)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171134Z" changeid="eratyk">
+        <seg>256-колерны растравы (*.bmp;*.dib)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12902,6 +13182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A&amp;djust to:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170510Z" changeid="eratyk">
+        <seg>Адрэгуляваць да:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A&amp;dvanced Sharing...</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T152225Z" changeid="eratyk">
@@ -13238,6 +13526,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Abou&amp;t Paint</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140122Z" changeid="eratyk">
+        <seg>Пра фарбу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Abou&amp;t WordPad</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092145Z" changeid="eratyk">
@@ -13398,10 +13694,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Access: </seg>
+        <seg>Access: \0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114100Z" changeid="eratyk">
-        <seg>Доступ:</seg>
+        <seg>Доступ:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -18198,10 +18494,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Available Network List</seg>
+        <seg>Available Network List\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114145Z" changeid="eratyk">
-        <seg>Спіс даступных сетак</seg>
+        <seg>Спіс даступных сетак\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -19390,6 +19686,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Brushes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140852Z" changeid="eratyk">
+        <seg>Пэндзлі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>BugCheck</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T140103Z" changeid="eratyk">
@@ -19886,6 +20190,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>C&amp;lear\tCtrl+Shift+D</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165056Z" changeid="eratyk">
+        <seg>Ачысціць\tCtrl+Shift+D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>C&amp;lear\tD</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165250Z" changeid="eratyk">
+        <seg>Ачысціць\tD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>C&amp;lose IME</seg>
       </tuv>
       <tuv lang="be" changedate="20101206T193253Z" changeid="eratyk">
@@ -19962,6 +20282,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T183553Z" changeid="eratyk">
         <seg>Скапіяваць налады...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>C&amp;rop</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140557Z" changeid="eratyk">
+        <seg>Абрэзаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -20074,6 +20402,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T100534Z" changeid="eratyk">
         <seg>CD/DVD кружэльнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>CFileException</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T135928Z" changeid="eratyk">
+        <seg>CFileException</seg>
       </tuv>
     </tu>
     <tu>
@@ -20218,6 +20554,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T175233Z" changeid="eratyk">
         <seg>Скасаваць вылучэнне\tEsc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ca&amp;ncel edit\tEsc</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165042Z" changeid="eratyk">
+        <seg>Скасаваць рэдагаванне\tEsc</seg>
       </tuv>
     </tu>
     <tu>
@@ -21082,6 +21426,22 @@
       </tuv>
       <tuv lang="be" changedate="20100905T093308Z" changeid="eratyk">
         <seg>Ураўнаваць тэкст па цэнтры.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Centering</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170215Z" changeid="eratyk">
+        <seg>Цэнтраванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Centi&amp;meters</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165708Z" changeid="eratyk">
+        <seg>Сантыметры</seg>
       </tuv>
     </tu>
     <tu>
@@ -22274,6 +22634,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T143900Z" changeid="eratyk">
         <seg>Змяняе памер шрыфту вылучэння.\nПамер шрыфту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Changes the magnification.\nMagnifier</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172357Z" changeid="eratyk">
+        <seg>Змяняе павелічэнне.\nЛупа</seg>
       </tuv>
     </tu>
     <tu>
@@ -23726,6 +24094,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Clear Selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165604Z" changeid="eratyk">
+        <seg>Ачысціць вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clear a&amp;ll</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T072656Z" changeid="eratyk">
@@ -24614,6 +24990,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Co&amp;lor</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165745Z" changeid="eratyk">
+        <seg>Колер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Co&amp;lor 1:</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T160735Z" changeid="eratyk">
@@ -24758,6 +25142,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Color 1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140939Z" changeid="eratyk">
+        <seg>Колер 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Color 1 (foreground color)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141633Z" changeid="eratyk">
+        <seg>Колер 1 (галоўны колер)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Color 2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140943Z" changeid="eratyk">
+        <seg>Колер 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Color 2 (background color)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141642Z" changeid="eratyk">
+        <seg>Колер 2 (фонавы колер)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Color Management</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T144110Z" changeid="eratyk">
@@ -24778,6 +25194,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T065508Z" changeid="alex">
         <seg>Сіла колеру</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Color picker</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140844Z" changeid="eratyk">
+        <seg>Абіральнік колеру</seg>
       </tuv>
     </tu>
     <tu>
@@ -25414,10 +25838,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Configure a Network</seg>
+        <seg>Configure a Network\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114202Z" changeid="eratyk">
-        <seg>Наладзіць сетку</seg>
+        <seg>Наладзіць сетку\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25470,10 +25894,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Configure</seg>
+        <seg>Configure\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114134Z" changeid="eratyk">
-        <seg>Наладзіць</seg>
+        <seg>Наладзіць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25670,10 +26094,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect To</seg>
+        <seg>Connect To\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114025Z" changeid="eratyk">
-        <seg>Злучыць з</seg>
+        <seg>Злучыць з\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25694,18 +26118,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect automatically checkbox</seg>
+        <seg>Connect automatically checkbox\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114146Z" changeid="eratyk">
-        <seg>Сцяжок аўтаматычнага злучэння</seg>
+        <seg>Сцяжок аўтаматычнага злучэння\0</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect automatically</seg>
+        <seg>Connect automatically\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114057Z" changeid="eratyk">
-        <seg>Злучаць аўтаматычна</seg>
+        <seg>Злучаць аўтаматычна\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25726,10 +26150,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect or disconnect...</seg>
+        <seg>Connect or disconnect...\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113921Z" changeid="eratyk">
-        <seg>Злучыць ці адлучыць...</seg>
+        <seg>Злучыць ці адлучыць...\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25742,10 +26166,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect or disconnect:</seg>
+        <seg>Connect or disconnect:\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113834Z" changeid="eratyk">
-        <seg>Злучыць ці адлучыць:</seg>
+        <seg>Злучыць ці адлучыць:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25774,10 +26198,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect to a Network</seg>
+        <seg>Connect to a Network\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114158Z" changeid="eratyk">
-        <seg>Злучыць з сеткай</seg>
+        <seg>Злучыць з сеткай\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25846,10 +26270,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connect</seg>
+        <seg>Connect\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114016Z" changeid="eratyk">
-        <seg>Злучыць</seg>
+        <seg>Злучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -25870,10 +26294,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connected Network List</seg>
+        <seg>Connected Network List\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114157Z" changeid="eratyk">
-        <seg>Спіс злучаных сетак</seg>
+        <seg>Спіс злучаных сетак\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -26222,10 +26646,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Connections are available</seg>
+        <seg>Connections are available\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113820Z" changeid="eratyk">
-        <seg>Ёсць даступныя злучэнні</seg>
+        <seg>Ёсць даступныя злучэнні\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -26726,6 +27150,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Converting to black and white cannot be undone.  This action affects the current file and may cause some loss of color information.\nDo you want to continue?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T135918Z" changeid="eratyk">
+        <seg>Канвертаванне ў чорны і белы не можа быць адроблена. Гэтае дзеянне паўплывае на дзейны файл і можа выклікаць страту колернай інфармацыі.\nПрацягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Converts object to different type.\nConvert Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T120708Z" changeid="eratyk">
@@ -26862,10 +27294,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Copy d&amp;ataset</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165239Z" changeid="eratyk">
+        <seg>Скапіяваць набор звестак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Copy files anyway</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T153153Z" changeid="eratyk">
         <seg>Усё роўна капіяваць файлы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Copy h&amp;istory</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165028Z" changeid="eratyk">
+        <seg>Скапіяваць гісторыю</seg>
       </tuv>
     </tu>
     <tu>
@@ -27766,6 +28214,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Crop (Ctrl+Shift+X)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141414Z" changeid="eratyk">
+        <seg>Абрэзаць (Ctrl+Shift+X)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ctrl</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T062945Z" changeid="eratyk">
@@ -27958,10 +28414,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Currently connected to:</seg>
+        <seg>Currently connected to:\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113847Z" changeid="eratyk">
-        <seg>Зараз злучана з:</seg>
+        <seg>Зараз злучана з:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -28338,6 +28794,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T144545Z" changeid="eratyk">
         <seg>Набраць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>D&amp;igit grouping</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164151Z" changeid="eratyk">
+        <seg>Групаванне лікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -29302,6 +29766,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Delete selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141343Z" changeid="eratyk">
+        <seg>Выдаліць вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Delete temporary &amp;files</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T153659Z" changeid="alex">
@@ -29634,6 +30106,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T125948Z" changeid="eratyk">
         <seg>Цэтлік стальніцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Desktop background</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141308Z" changeid="eratyk">
+        <seg>Фон стальніцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -30030,10 +30510,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Diagnose</seg>
+        <seg>Diagnose\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114020Z" changeid="eratyk">
-        <seg>Дыягностыка</seg>
+        <seg>Дыягностыка\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -30438,10 +30918,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Disconnect from a Network</seg>
+        <seg>Disconnect from a Network\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114200Z" changeid="eratyk">
-        <seg>Адлучыцца ад сеткі</seg>
+        <seg>Адлучыцца ад сеткі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -30470,10 +30950,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Disconnect</seg>
+        <seg>Disconnect\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114017Z" changeid="eratyk">
-        <seg>Адлучыць</seg>
+        <seg>Адлучыць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -32247,10 +32727,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Domain access only</seg>
+        <seg>Domain access only\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114109Z" changeid="eratyk">
-        <seg>Доступ толькі да дамена</seg>
+        <seg>Доступ толькі да дамена\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -32591,6 +33071,270 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Draws a cloud-shaped callout with the selected fill style.\nCloud callout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T115030Z" changeid="eratyk">
+        <seg>Малюе вынятку у форме воблака з абраным стылем запаўнення.\nВынятка ў форме воблака</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a curved line with the selected line width.\nCurve</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152439Z" changeid="eratyk">
+        <seg>Малюе крывую лінію з абранай шырынёй.\nКрывая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a diamond with the selected fill style.\nDiamond</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T153151Z" changeid="eratyk">
+        <seg>Малюе ромб з абраным стылем запаўнення.\nРомб</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a down arrow with the selected fill style.\nDown arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T154534Z" changeid="eratyk">
+        <seg>Малюе ніжнюю стрэлку з абраным стылем запаўнення.\nНіжняя стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a five-point star with the selected fill style.\nFive-point star</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T155624Z" changeid="eratyk">
+        <seg>Малюе пяціпраменную зорку з абраным стылем запаўнення.\nПяціпраменная зорка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a four-point star with the selected fill style.\nFour-point star</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T155605Z" changeid="eratyk">
+        <seg>Малюе чатырохпраменную зорку з абраным стылем запаўнення.\nЧатырохпраменная зорка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a free-form line one pixel wide.\nPencil</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T173921Z" changeid="eratyk">
+        <seg>Малюе лінію адвольнай формы шырынёй у піксель.\nАловак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a heart with the selected fill style.\nHeart</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T115214Z" changeid="eratyk">
+        <seg>Малюе сэрца з абраным стылем запаўнення.\nСэрца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a hexagon with the selected fill style.\nHexagon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T153253Z" changeid="eratyk">
+        <seg>Малюе шасцівугольнік з абраным стылем запаўнення.\nШасцівугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a left arrow with the selected fill style.\nLeft arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T154435Z" changeid="eratyk">
+        <seg>Малюе левую стрэлку з абраным стылем запаўнення.\nЛевая стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a lightning with the selected fill style.\nLightning</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T120419Z" changeid="eratyk">
+        <seg>Малюе маланку з абраным стылем запаўнення.\nМаланка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a pentagon with the selected fill style.\nPentagon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T153228Z" changeid="eratyk">
+        <seg>Малюе пяцівугольнік з абраным стылем запаўнення.\nПяцівугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a polygon with the selected fill style.\nPolygon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152806Z" changeid="eratyk">
+        <seg>Малюе шматвугольнік з абраным стылем запаўнення.\nШматвугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a rectangle with the selected fill style.\nRectangle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152625Z" changeid="eratyk">
+        <seg>Малюе прамавугольнік з абраным стылем запаўнення.\nПрамавугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a right arrow with the selected fill style.\nRight arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T154318Z" changeid="eratyk">
+        <seg>Малюе правую стрэлку з абраным стылем запаўнення.\nПравая стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a right triangle with the selected fill style.\nRight triangle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T153130Z" changeid="eratyk">
+        <seg>Малюе правы трохвугольнік з абраным стылем запаўнення.\nПравы трохвугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a rounded rectangle with the selected fill style.\nRounded rectangle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152657Z" changeid="eratyk">
+        <seg>Малюе скруглены прамавугольнік з абраным стылем запаўнення.\nСкруглены прамавугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a rounded rectangular callout with the selected fill style.\nRounded rectangular callout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T114052Z" changeid="eratyk">
+        <seg>Малюе скругленую прамавугольную вынятку з абраным стылем запаўнення.\nСкругленая прамавугольная вынятка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a six-point star with the selected fill style.\nSix-point star</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T155646Z" changeid="eratyk">
+        <seg>Малюе шасціпраменную зорку з абраным стылем запаўнення.\nШасціпраменная зорка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a straight line with the selected line width.\nLine</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152306Z" changeid="eratyk">
+        <seg>Малюе простую лінію з абранай шырынёй.\nЛінія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws a triangle with the selected fill style.\nTriangle</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T153112Z" changeid="eratyk">
+        <seg>Малюе трохвугольнік з абраным стылем запаўнення.\nТрохвугольнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws an oval with the selected fill style.\nOval</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152550Z" changeid="eratyk">
+        <seg>Малюе авал з абраным стылем запаўнення.\nАвал</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws an oval-shaped callout with the selected fill style.\nOval callout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T114158Z" changeid="eratyk">
+        <seg>Малюе авальную вынятку з абраным стылем запаўнення.\nАвальная вынятка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws an up arrow with the selected fill style.\nUp arrow</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T154453Z" changeid="eratyk">
+        <seg>Малюе верхнюю стрэлку з абраным стылем запаўнення.\nВерхняя стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using a 135 degree calligraphy brush of the selected shape and size.\nCalligraphy brush 2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T151512Z" changeid="eratyk">
+        <seg>Малюе 135-градусным каліграфічным пэндзлем абранай формы і памеру.\nКаліграфічны пэндзаль 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using a 45 degree calligraphy brush of the selected shape and size.\nCalligraphy brush 1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T151524Z" changeid="eratyk">
+        <seg>Малюе 45-градусным каліграфічным пэндзлем абранай формы і памеру.\nКаліграфічны пэндзаль 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using a brush with the selected shape and size.\nBrush</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T091153Z" changeid="eratyk">
+        <seg>Малюе пэндзлем абранай формы і памеру.\nПэндзаль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using a crayon brush.\nCrayon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T151850Z" changeid="eratyk">
+        <seg>Малюе вугальным пэндзлем.\nВугальны пэндзаль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using a marker.\nMarker</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152017Z" changeid="eratyk">
+        <seg>Малюе пазначнікам.\nПазначнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using an airbrush of the selected size.\nAirbrush</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T151620Z" changeid="eratyk">
+        <seg>Малюе распыляльнікам фарбы абрнага памеру.\nРаспыляльнік фарбы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using the natural pencil in the size chosen.\nNatural pencil</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152126Z" changeid="eratyk">
+        <seg>Малюе натуральным алоўкам абранага памеру.\nНатуральны аловак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using the oil brush.\nOil brush</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T151710Z" changeid="eratyk">
+        <seg>Малюе алейным пэндзлем.\nАлейны пэндзаль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Draws using the watercolor brush.\nWatercolor brush</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110123T152152Z" changeid="eratyk">
+        <seg>Малюе вадзяным пэндзлем.\nВадзяны пэндзаль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dri&amp;ves:</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T104901Z" changeid="eratyk">
@@ -32786,6 +33530,14 @@
         <seg>E&amp;xit and Return to Document</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092208Z" changeid="eratyk">
+        <seg>Выйсці і вярнуцца да дакумента</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>E&amp;xit and return to document</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140133Z" changeid="eratyk">
         <seg>Выйсці і вярнуцца да дакумента</seg>
       </tuv>
     </tu>
@@ -33073,8 +33825,16 @@
       <tuv lang="en">
         <seg>Edit Security</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T080553Z" changeid="eratyk">
-        <seg>Рэдагаванне наладаў бяспекі</seg>
+      <tuv lang="be" changedate="20110124T141005Z" changeid="eratyk">
+        <seg>Рэдагаваць налады бяспекі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Edit colors</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140955Z" changeid="eratyk">
+        <seg>Рэдагаваць колеры</seg>
       </tuv>
     </tu>
     <tu>
@@ -34023,6 +34783,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Eraser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140752Z" changeid="eratyk">
+        <seg>Гумка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Erases a portion of the picture, using the selected eraser shape.\nEraser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140808Z" changeid="eratyk">
+        <seg>Сцірае частку відарыса вылучанай формай гумкі.\nГумка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Erases everything.\nErase All</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T113924Z" changeid="eratyk">
@@ -34495,10 +35271,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Excellent</seg>
+        <seg>Excellent\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113951Z" changeid="eratyk">
-        <seg>Выдатны</seg>
+        <seg>Выдатны\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -35359,10 +36135,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Fair</seg>
+        <seg>Fair\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113948Z" changeid="eratyk">
-        <seg>Неблагі</seg>
+        <seg>Неблагі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -35579,6 +36355,14 @@
       </tuv>
       <tuv lang="be" changedate="20100716T054337Z" changeid="eratyk">
         <seg>Адмоўлена ў доступе да файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>File Attributes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165621Z" changeid="eratyk">
+        <seg>Атрыбуты файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -36123,6 +36907,22 @@
       </tuv>
       <tuv lang="be" changedate="20101006T061316Z" changeid="alex">
         <seg>Запоўніць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fill with color</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140742Z" changeid="eratyk">
+        <seg>Запоўніць колерам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fills an area with the current drawing color.\nFill with color</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172321Z" changeid="eratyk">
+        <seg>Запаўняе пляцоўку дзейным колерам малявання.\nЗапоўніць колерам</seg>
       </tuv>
     </tu>
     <tu>
@@ -36707,6 +37507,22 @@
       </tuv>
       <tuv lang="be" changedate="20101027T200914Z" changeid="eratyk">
         <seg>Выбліск з перадвыбліскам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Flip &amp;horizontal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140724Z" changeid="eratyk">
+        <seg>Перакуліць гарызантальна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Flip &amp;vertical</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140722Z" changeid="eratyk">
+        <seg>Перакуліць вертыкальна</seg>
       </tuv>
     </tu>
     <tu>
@@ -37711,6 +38527,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Free-form selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141332Z" changeid="eratyk">
+        <seg>Вылучэнне адвольнай формы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Free/busy status</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T155011Z" changeid="eratyk">
@@ -37783,6 +38607,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Fro&amp;m scanner or camera</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140044Z" changeid="eratyk">
+        <seg>Са сканера ці камеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>From</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T181408Z" changeid="eratyk">
@@ -37803,6 +38635,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T181348Z" changeid="eratyk">
         <seg>Адрасы адпраўнікоў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>From scanner or camera</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141322Z" changeid="eratyk">
+        <seg>Са сканера ці камеры</seg>
       </tuv>
     </tu>
     <tu>
@@ -37891,6 +38731,22 @@
       </tuv>
       <tuv lang="be" changedate="20100314T070121Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Поўная праверка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Full screen</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141157Z" changeid="eratyk">
+        <seg>Поўны экран</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Full screen (F11)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141752Z" changeid="eratyk">
+        <seg>Поўны экран (F11)</seg>
       </tuv>
     </tu>
     <tu>
@@ -38495,10 +39351,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Good</seg>
+        <seg>Good\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113950Z" changeid="eratyk">
-        <seg>Добры</seg>
+        <seg>Добры\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -38631,6 +39487,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Gridlines</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141131Z" changeid="eratyk">
+        <seg>Лініі сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Gridlines (Ctrl+G)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141742Z" changeid="eratyk">
+        <seg>Лініі сеткі (Ctrl+G)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Gripper</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T203702Z" changeid="eratyk">
@@ -38691,6 +39563,14 @@
       </tuv>
       <tuv lang="be" changedate="20101102T064705Z" changeid="eratyk">
         <seg>Апісанне групы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Group error.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T130408Z" changeid="eratyk">
+        <seg>Памылка групы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38795,6 +39675,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T203026Z" changeid="eratyk">
         <seg>Хаваць подпісы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>H&amp;orizontal:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170151Z" changeid="eratyk">
+        <seg>Гарызанталь:</seg>
       </tuv>
     </tu>
     <tu>
@@ -39603,6 +40491,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T071148Z" changeid="eratyk">
         <seg>Хіндзі (традыцыйныя)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Histor&amp;y\tCtrl+H</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164146Z" changeid="eratyk">
+        <seg>Гісторыя\tCtrl+H</seg>
       </tuv>
     </tu>
     <tu>
@@ -41327,6 +42223,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Image Properties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165614Z" changeid="eratyk">
+        <seg>Уласцівасці выявы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Images#*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff;*.bmp;*.ico;*.wmf;*.dib;*.jfif;*.jpe;*.fpx;*.mix#</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T072720Z" changeid="eratyk">
@@ -41703,10 +42607,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Information sent over this network might be visible to others.</seg>
+        <seg>Information sent over this network might be visible to others.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113915Z" changeid="eratyk">
-        <seg>Інфармацыя, дасланая праз гэтую сетку, можа быць бачнаю для іншых.</seg>
+        <seg>Інфармацыя, дасланая праз гэтую сетку, можа быць бачнаю для іншых.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -42091,6 +42995,14 @@
       </tuv>
       <tuv lang="be" changedate="20101107T165056Z" changeid="eratyk">
         <seg>Устаўляе змесціва кішэні і спасылку на яго крыніцу.\nУставіць спасылку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Inserts text into the picture.\nText</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172228Z" changeid="eratyk">
+        <seg>Устаўляе тэкст на відарыс.\nТэкст</seg>
       </tuv>
     </tu>
     <tu>
@@ -42559,10 +43471,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Internet access</seg>
+        <seg>Internet access\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114102Z" changeid="eratyk">
-        <seg>Доступ да сеціва</seg>
+        <seg>Доступ да сеціва\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -42575,10 +43487,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Internet and domain access</seg>
+        <seg>Internet and domain access\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114107Z" changeid="eratyk">
-        <seg>Доступ да сеціва і дамена</seg>
+        <seg>Доступ да сеціва і дамена\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -42603,6 +43515,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T074515Z" changeid="eratyk">
         <seg>Інукітут  - Naqittaut</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Inv&amp;ert color</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141250Z" changeid="eratyk">
+        <seg>Інвертаваць колер</seg>
       </tuv>
     </tu>
     <tu>
@@ -42731,6 +43651,14 @@
       </tuv>
       <tuv lang="be" changedate="20100712T190601Z" changeid="eratyk">
         <seg>Хібнае размяшчэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invert selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141335Z" changeid="eratyk">
+        <seg>Інвертаваць вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -43799,6 +44727,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Last Saved:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165645Z" changeid="eratyk">
+        <seg>Апошняе захаванне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Last date synchronized</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142916Z" changeid="eratyk">
@@ -44463,10 +45399,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Link Pane</seg>
+        <seg>Link Pane\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114155Z" changeid="eratyk">
-        <seg>Панэль спасылак</seg>
+        <seg>Панэль спасылак\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -45295,6 +46231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Low on memory or resources.\nClose some programs, and then try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T130320Z" changeid="eratyk">
+        <seg>Бракуе памяці ці рэсурсаў.\nЗачыніце некаторыя праграмы і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Low saturation</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T181417Z" changeid="eratyk">
@@ -45303,10 +46247,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Low</seg>
+        <seg>Low\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113942Z" changeid="eratyk">
-        <seg>Нізкі</seg>
+        <seg>Нізкі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -46335,10 +47279,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Media Manager List</seg>
+        <seg>Media Manager List\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114137Z" changeid="eratyk">
-        <seg>Спіс кіраўніка носьбітаў</seg>
+        <seg>Спіс кіраўніка носьбітаў\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -47831,6 +48775,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Monochrome Bitmap (*.bmp;*.dib)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171050Z" changeid="eratyk">
+        <seg>Манахромны растравы (*.bmp;*.dib)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Month</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T063843Z" changeid="eratyk">
@@ -48535,10 +49487,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Name: %1!s!</seg>
+        <seg>Name: %1!s!\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114001Z" changeid="eratyk">
-        <seg>Назва: %1!s!</seg>
+        <seg>Назва: %1!s!\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -48767,10 +49719,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Network Adapter Header</seg>
+        <seg>Network Adapter Header\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114141Z" changeid="eratyk">
-        <seg>Загаловак сеткавага адаптара</seg>
+        <seg>Загаловак сеткавага адаптара\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -48943,10 +49895,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Network access might be limited. Open Network and Sharing Center for more information.</seg>
+        <seg>Network access might be limited. Open Network and Sharing Center for more information.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114205Z" changeid="eratyk">
-        <seg>Доступ да сеткі можа быць абмежаваны. Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.</seg>
+        <seg>Доступ да сеткі можа быць абмежаваны. Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -49575,10 +50527,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>No Internet access</seg>
+        <seg>No Internet access\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114104Z" changeid="eratyk">
-        <seg>Без доступу да сеціва</seg>
+        <seg>Без доступу да сеціва\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -49607,10 +50559,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>No Signal</seg>
+        <seg>No Signal\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113926Z" changeid="eratyk">
-        <seg>Няма сігналу</seg>
+        <seg>Няма сігналу\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -49663,10 +50615,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>No connections are available</seg>
+        <seg>No connections are available\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113814Z" changeid="eratyk">
-        <seg>Няма даступных злучэнняў</seg>
+        <seg>Няма даступных злучэнняў\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -49823,10 +50775,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>No network access</seg>
+        <seg>No network access\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114113Z" changeid="eratyk">
-        <seg>Без доступу да сеткі</seg>
+        <seg>Без доступу да сеткі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -50135,10 +51087,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Not Connectable</seg>
+        <seg>Not Connectable\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114201Z" changeid="eratyk">
-        <seg>Незлучальна</seg>
+        <seg>Незлучальна\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -50287,10 +51239,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Not connected - Connections are available</seg>
+        <seg>Not connected - Connections are available\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113908Z" changeid="eratyk">
-        <seg>Не злучана - Ёсць даступныя злучэнні</seg>
+        <seg>Не злучана - Ёсць даступныя злучэнні\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -50303,18 +51255,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Not connected - No connections are available</seg>
+        <seg>Not connected - No connections are available\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113912Z" changeid="eratyk">
-        <seg>Не злучана - Няма даступных злучэнняў</seg>
+        <seg>Не злучана - Няма даступных злучэнняў\0</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Not connected</seg>
+        <seg>Not connected\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113849Z" changeid="eratyk">
-        <seg>Не злучана</seg>
+        <seg>Не злучана\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -50699,6 +51651,14 @@
       </tuv>
       <tuv lang="be" changedate="20100718T120653Z" changeid="eratyk">
         <seg>Добра</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>OLE 2.0 was unable to start.\nMake sure that you are using the correct version of the OLE libraries.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171353Z" changeid="eratyk">
+        <seg>Немагчыма запусціць OLE 2.0.\nПераканайцеся, што вы выкарыстоўваеце правільныя версіі бібліятэк OLE.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51607,6 +52567,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Opaque</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141223Z" changeid="eratyk">
+        <seg>Непразрысты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Opaque background</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141802Z" changeid="eratyk">
+        <seg>Непразрысты фон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Open</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T181600Z" changeid="alex">
@@ -51695,18 +52671,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Open Network and Sharing Center for more information.</seg>
+        <seg>Open Network and Sharing Center for more information.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114205Z" changeid="eratyk">
-        <seg>Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.</seg>
+        <seg>Адчыніце цэнтр сетак і агульнага доступу для дадатковай інфармацыі.\0</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Open Network and Sharing Center</seg>
+        <seg>Open Network and Sharing Center\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113918Z" changeid="eratyk">
-        <seg>Адчыніць цэнтр сетак і агульнага доступу</seg>
+        <seg>Адчыніць цэнтр сетак і агульнага доступу\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -51727,10 +52703,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Open Without Diagnostics</seg>
+        <seg>Open Without Diagnostics\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114032Z" changeid="eratyk">
-        <seg>Адчыніць без дыягностыкі</seg>
+        <seg>Адчыніць без дыягностыкі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -52759,6 +53735,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Out&amp;line</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140936Z" changeid="eratyk">
+        <seg>Абрыс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Output bin full;</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T145446Z" changeid="eratyk">
@@ -53071,6 +54055,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Page %1!d! of %2!d!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T124041Z" changeid="eratyk">
+        <seg>Старонка %1!d! з %2!d!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Page %1!ld!</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T104808Z" changeid="eratyk">
@@ -53123,6 +54115,14 @@
       </tuv>
       <tuv lang="be" changedate="20101223T175145Z" changeid="eratyk">
         <seg>Старонка &amp;p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Page &amp;setup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140030Z" changeid="eratyk">
+        <seg>Налады старонкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -53319,10 +54319,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Paint Help (F1)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141826Z" changeid="eratyk">
+        <seg>Дапамога фарбы (F1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint cannot open this file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121030Z" changeid="eratyk">
+        <seg>Фарба не можа адчыніць гэты файл.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint cannot read this file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121040Z" changeid="eratyk">
+        <seg>Фарба не можа прачытаць гэты файл.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint cannot save this file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T125312Z" changeid="eratyk">
+        <seg>Фарба не можа захаваць гэты файл.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint cannot save to the same file name with a different file type.\nUse a different filename to save your changes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T125517Z" changeid="eratyk">
+        <seg>Фарба не можа захаваць у файл з такою ж назваю, але іншым тыпам.\nСкарыстайце іншую назву файла, каб захаваць вашыя змены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Paint drawing</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T093044Z" changeid="eratyk">
         <seg>Відарыс Фарбы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint was unable to print your document. Please make sure you have sufficient disk space and that your printer is working correctly.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T130631Z" changeid="eratyk">
+        <seg>Фарба не змагла надрукаваць ваш дакумент. Калі ласка, пераканайцеся, што вы маеце дастаткова дыскавай прасторы і што вашая друкарка працуе належным чынам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paint\nUntitled\nBitmap Image\nBitmap Files (*.bmp;*.dib)\n.png\nPaint.Picture\nBitmap Image</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170950Z" changeid="eratyk">
+        <seg>Фарба\nНеназваны\nРастравая выява\nРастравыя файлы (*.bmp;*.dib)\n.png\nPaint.Picture\nРастравая выява</seg>
       </tuv>
     </tu>
     <tu>
@@ -53647,6 +54703,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Paste &amp;from</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140139Z" changeid="eratyk">
+        <seg>Уставіць з</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Paste &amp;shortcut</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T092550Z" changeid="alex">
@@ -53667,6 +54731,14 @@
       </tuv>
       <tuv lang="be" changedate="20100902T193836Z" changeid="eratyk">
         <seg>Уставіць (Ctrl+V)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Paste from</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141326Z" changeid="eratyk">
+        <seg>Уставіць з</seg>
       </tuv>
     </tu>
     <tu>
@@ -53887,6 +54959,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pencil</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140729Z" changeid="eratyk">
+        <seg>Аловак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pending deletion;</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T144120Z" changeid="eratyk">
@@ -53963,6 +55043,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T082529Z" changeid="eratyk">
         <seg>Адсоткаў скончана:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Percentage</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170018Z" changeid="eratyk">
+        <seg>Адсоткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -54407,6 +55495,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Picks up a color from the picture for drawing.\nPick color</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172458Z" changeid="eratyk">
+        <seg>Абірае колер з відарыса для малявання.\nАбраць колер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pictur&amp;es</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T124846Z" changeid="eratyk">
@@ -54631,10 +55727,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Pixels</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170025Z" changeid="eratyk">
+        <seg>Пікселі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Placeholder</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T114306Z" changeid="eratyk">
         <seg>Placeholder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Places the text.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T171407Z" changeid="eratyk">
+        <seg>Размяшчае тэкст.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54737,8 +55849,8 @@
       <tuv lang="en">
         <seg>Play selection</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T182637Z" changeid="eratyk">
-        <seg>Прайграць вылучанае</seg>
+      <tuv lang="be" changedate="20110121T165548Z" changeid="eratyk">
+        <seg>Прайграць вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -55071,10 +56183,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Please select a network first before creating a connection profile.</seg>
+        <seg>Please select a network first before creating a connection profile.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113905Z" changeid="eratyk">
-        <seg>Калі ласка, абярыце сетку перш чым ствараць злучэнне.</seg>
+        <seg>Калі ласка, абярыце сетку перш чым ствараць злучэнне.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -55375,10 +56487,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Poor</seg>
+        <seg>Poor\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113932Z" changeid="eratyk">
-        <seg>Дрэнны</seg>
+        <seg>Дрэнны\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -56239,6 +57351,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Print Preview</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141235Z" changeid="eratyk">
+        <seg>Перадпрагляд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Print Setup</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T105445Z" changeid="eratyk">
@@ -57095,6 +58215,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Prop&amp;erties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140112Z" changeid="eratyk">
+        <seg>Уласцівасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Prope&amp;rties\tAlt+Enter</seg>
       </tuv>
       <tuv lang="be" changedate="20100909T135115Z" changeid="eratyk">
@@ -57107,6 +58235,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T073735Z" changeid="eratyk">
         <seg>Уласцівасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Properties (Ctrl+E)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141320Z" changeid="eratyk">
+        <seg>Уласцівасці (Ctrl+E)</seg>
       </tuv>
     </tu>
     <tu>
@@ -57159,10 +58295,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Properties</seg>
+        <seg>Properties\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114024Z" changeid="eratyk">
-        <seg>Уласцівасці</seg>
+        <seg>Уласцівасці\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -57647,6 +58783,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>R&amp;otate</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140615Z" changeid="eratyk">
+        <seg>Перакруціць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>RAM Disk</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T120140Z" changeid="eratyk">
@@ -57907,6 +59051,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T105826Z" changeid="eratyk">
         <seg>Чым:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Re&amp;size</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140600Z" changeid="eratyk">
+        <seg>Змяніць памер</seg>
       </tuv>
     </tu>
     <tu>
@@ -58199,6 +59351,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Recent pictures</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T135939Z" changeid="eratyk">
+        <seg>Апошнія відарысы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Recent&amp;ly Used Notes</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T173744Z" changeid="eratyk">
@@ -58307,6 +59467,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T084422Z" changeid="eratyk">
         <seg>Запісвае гукі, калі ўсталяваны мікрафон і гукавая картка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rectangular selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141331Z" changeid="eratyk">
+        <seg>Прамавугольнае вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -58463,10 +59631,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Refresh</seg>
+        <seg>Refresh\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114150Z" changeid="eratyk">
-        <seg>Абнавіць</seg>
+        <seg>Абнавіць\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -59303,6 +60471,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Resize and Skew</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165947Z" changeid="eratyk">
+        <seg>Змяніць памер і нахіл</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Resize and skew (Ctrl+W)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141426Z" changeid="eratyk">
+        <seg>Змяніць памер і нахіл (Ctrl+W)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Resize picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194052Z" changeid="eratyk">
@@ -59427,6 +60611,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T162852Z" changeid="eratyk">
         <seg>Адзінка разрознасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Resolution:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165651Z" changeid="eratyk">
+        <seg>Разрознасць:</seg>
       </tuv>
     </tu>
     <tu>
@@ -60223,6 +61415,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ro&amp;tate 180°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140715Z" changeid="eratyk">
+        <seg>Перакруціць на 180°</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Roaming</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T135816Z" changeid="eratyk">
@@ -60295,10 +61495,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Rotate &amp;left 90°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140655Z" changeid="eratyk">
+        <seg>Перакруціць улева на 90°</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rotate &amp;right 90°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140645Z" changeid="eratyk">
+        <seg>Перакруціць управа на 90°</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Rotate 180 degrees</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T162654Z" changeid="eratyk">
         <seg>Перакруціць на 180 градусаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rotate 180°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141458Z" changeid="eratyk">
+        <seg>Перакруціць на 180°</seg>
       </tuv>
     </tu>
     <tu>
@@ -60335,6 +61559,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Rotate left 90°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141455Z" changeid="eratyk">
+        <seg>Перакруціць улева на 90°</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rotate or flip</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141448Z" changeid="eratyk">
+        <seg>Перакруціць ці перакуліць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rotate right 90°</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141453Z" changeid="eratyk">
+        <seg>Перакруціць управа на 90°</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ru&amp;n a quick scan on my computer multiple times per day</seg>
       </tuv>
       <tuv lang="be" changedate="20100317T141729Z" changeid="Ales Koshal [icq#:706101]">
@@ -60363,6 +61611,22 @@
       </tuv>
       <tuv lang="be" changedate="20100831T093335Z" changeid="eratyk">
         <seg>Лінейка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rulers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141040Z" changeid="eratyk">
+        <seg>Лінейкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rulers (Ctrl+R)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141721Z" changeid="eratyk">
+        <seg>Лінейкі (Ctrl+R)</seg>
       </tuv>
     </tu>
     <tu>
@@ -60707,6 +61971,14 @@
       </tuv>
       <tuv lang="be" changedate="20110104T180912Z" changeid="eratyk">
         <seg>Налады гуку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>S&amp;tandard\tAlt+1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164039Z" changeid="eratyk">
+        <seg>Стандартавы\tAlt+1</seg>
       </tuv>
     </tu>
     <tu>
@@ -61159,6 +62431,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Save as (F12)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141301Z" changeid="eratyk">
+        <seg>Захаваць як (F12)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Save changes</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T065518Z" changeid="alex">
@@ -61299,6 +62579,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T173109Z" changeid="eratyk">
         <seg>Захаваць гэтыя крытэры пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Save was interrupted, so your file has not been saved.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T125026Z" changeid="eratyk">
+        <seg>Захаванне было перапыненае, таму ваш файл не быў захаваны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61451,6 +62739,14 @@
       </tuv>
       <tuv lang="be" changedate="20101107T171249Z" changeid="eratyk">
         <seg>Змяніць вышыню і шырыню дзейнага відарыса з ці без захавання суадносінаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Scaling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170339Z" changeid="eratyk">
+        <seg>Рэгуляванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -63463,10 +64759,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141328Z" changeid="eratyk">
+        <seg>Вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Selection Control Layout Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T115554Z" changeid="eratyk">
         <seg>Аб'ект пабудовы кіравання вылучэннем</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selection options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140358Z" changeid="eratyk">
+        <seg>Налады вылучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selection shapes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140346Z" changeid="eratyk">
+        <seg>Формы вылучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selects a free-form part of the picture to move, copy, or edit.\nFree-form select</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172141Z" changeid="eratyk">
+        <seg>Вылучае адвольную частку відарыса для перамяшчэння, капіявання ці рэдагавання.\nВылучыць вольнай формай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Selects a rectangular part of the picture to move, copy, or edit.\nSelect</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T172055Z" changeid="eratyk">
+        <seg>Вылучае прамавугольную частку відарыса для перамяшчэння, капіявання ці рэдагавання.\nВылучыць</seg>
       </tuv>
     </tu>
     <tu>
@@ -63991,6 +65327,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Set as desktop background</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140048Z" changeid="eratyk">
+        <seg>Прызначыць як фон стальніцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Set custom permissions, create multiple shares, and set other advanced sharing options.</seg>
       </tuv>
       <tuv lang="be" changedate="20101126T073510Z" changeid="eratyk">
@@ -64451,6 +65795,30 @@
       </tuv>
       <tuv lang="be" changedate="20101107T185812Z" changeid="eratyk">
         <seg>Зацяненне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shape fill</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141523Z" changeid="eratyk">
+        <seg>Запаўненне формы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shape outline</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141509Z" changeid="eratyk">
+        <seg>Форма абрысу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shapes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T140856Z" changeid="eratyk">
+        <seg>Формы</seg>
       </tuv>
     </tu>
     <tu>
@@ -65543,10 +66911,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Shows available wireless networks and dial-up and VPN connections that you can connect to.</seg>
+        <seg>Shows available wireless networks and dial-up and VPN connections that you can connect to.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T074546Z" changeid="eratyk">
-        <seg>Паказвае даступныя радыёсеткі, тэлефонныя і VPN-злучэнні, з якімі вы можаце злучыцца.</seg>
+        <seg>Паказвае даступныя радыёсеткі, тэлефонныя і VPN-злучэнні, з якімі вы можаце злучыцца.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -65831,10 +67199,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Signal Strength: %1!s!</seg>
+        <seg>Signal Strength: %1!s!\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113957Z" changeid="eratyk">
-        <seg>Моц сігналу: %1!s!</seg>
+        <seg>Моц сігналу: %1!s!\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -66007,6 +67375,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Size (Ctrl++, Ctrl+-)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141533Z" changeid="eratyk">
+        <seg>Памер (Ctrl++, Ctrl+-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Size must be a number.</seg>
       </tuv>
       <tuv lang="be" changedate="20100915T150128Z" changeid="eratyk">
@@ -66067,6 +67443,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T060415Z" changeid="eratyk">
         <seg>Памер: больш за %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Skew (Degrees)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170147Z" changeid="eratyk">
+        <seg>Нахіл (градусы)</seg>
       </tuv>
     </tu>
     <tu>
@@ -67815,6 +69199,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>St&amp;atistics\tAlt+4</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T164132Z" changeid="eratyk">
+        <seg>Статыстычны\tAlt+4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Stack</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T184004Z" changeid="eratyk">
@@ -68351,10 +69743,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Status</seg>
+        <seg>Status\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114022Z" changeid="eratyk">
-        <seg>Стан:</seg>
+        <seg>Стан:\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -69281,8 +70673,8 @@
       <tuv lang="en">
         <seg>System Settings Change</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T080627Z" changeid="eratyk">
-        <seg>Рэдагаванне наладаў сістэмы</seg>
+      <tuv lang="be" changedate="20110124T141018Z" changeid="eratyk">
+        <seg>Рэдагаваць налады сістэмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -70063,6 +71455,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Text Tools</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141214Z" changeid="eratyk">
+        <seg>Тэкставыя інструменты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Text messages</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T135524Z" changeid="eratyk">
@@ -70787,6 +72187,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T144329Z" changeid="eratyk">
         <seg>Для друку будзе выкарыстаны найбліжэйшы стыль.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The color quality might be reduced if you save the picture in this format.\nDo you want to continue?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T130754Z" changeid="eratyk">
+        <seg>Якасць колеру можа быць зніжанаю, калі вы захаваеце відарыс у гэтым фармаце.\nПрацягнуць?</seg>
       </tuv>
     </tu>
     <tu>
@@ -74239,6 +75647,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>There is not enough memory or resources to complete operation.\nClose some programs, and then try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T130326Z" changeid="eratyk">
+        <seg>Бракуе памяці ці рэсурсаў, каб скончыць аперацыю.\nЗачыніце некаторыя праграмы і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>There is not enough memory to complete this operation.</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T101915Z" changeid="eratyk">
@@ -75135,6 +76551,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This file is already in use.\nClose the program, and then try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T125302Z" changeid="eratyk">
+        <seg>Файл зараз выкарыстоўваецца.\nЗачыніце праграму і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This file is already open.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121145Z" changeid="eratyk">
+        <seg>Гэты файл ужо адчынены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This file is in a shared folder.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T161742Z" changeid="eratyk">
@@ -75159,10 +76591,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This file is open for editing and cannot be overwritten.\nUse a different file name to save your changes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121626Z" changeid="eratyk">
+        <seg>Файл адчынены для рэдагавання і не можа быць перазапісаны.\nСкарыстайце іншую назву файла, каб захаваць вашыя змены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This file is outside your user account folder.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T161637Z" changeid="eratyk">
         <seg>Гэты файл па-за каталогам вашага рахунка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This file is read-only.\nTo save your changes, use a different file name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121132Z" changeid="eratyk">
+        <seg>Гэты файл толькі для чытання.\nКаб захаваць вашыя змены, абярыце іншую назву файла.</seg>
       </tuv>
     </tu>
     <tu>
@@ -75455,10 +76903,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>This is a new router that has not been configured.</seg>
+        <seg>This is a new router that has not been configured.\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114116Z" changeid="eratyk">
-        <seg>Гэта - новы рутэр, які яшчэ не наладжаны.</seg>
+        <seg>Гэта - новы рутэр, які яшчэ не наладжаны.\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -75519,6 +76967,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This is not a valid .PCS file.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121512Z" changeid="eratyk">
+        <seg>Гэты PCS-файл недапушчальны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is not a valid bitmap file, or its format is not currently supported.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T122956Z" changeid="eratyk">
+        <seg>Гэты растравы файл недапушчальны ці ягоны фармат яшчэ не падтрымліваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is not a valid cursor.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T123942Z" changeid="eratyk">
+        <seg>Гэты паказальнік недапушчальны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is not a valid gadget package.</seg>
       </tuv>
       <tuv lang="be" changedate="20100827T195032Z" changeid="eratyk">
@@ -75527,18 +76999,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This is not a valid icon.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T123925Z" changeid="eratyk">
+        <seg>Гэты значак недапушчальны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is not a valid measurement.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100828T074600Z" changeid="eratyk">
-        <seg>Гэта недапушчальная мера.</seg>
+      <tuv lang="be" changedate="20110124T124022Z" changeid="eratyk">
+        <seg>Гэтая мера недапушчальная.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This is not a valid number.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100828T075559Z" changeid="eratyk">
-        <seg>Гэта недапушчальны лік.</seg>
+      <tuv lang="be" changedate="20110124T124005Z" changeid="eratyk">
+        <seg>Гэты лік недапушчальны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76875,6 +78355,14 @@
       </tuv>
       <tuv lang="be" changedate="20101107T162505Z" changeid="eratyk">
         <seg>Чац</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thumbnail</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141138Z" changeid="eratyk">
+        <seg>Абразок</seg>
       </tuv>
     </tu>
     <tu>
@@ -78239,6 +79727,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Transparent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141231Z" changeid="eratyk">
+        <seg>Празрысты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Transparent background</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141809Z" changeid="eratyk">
+        <seg>Празрысты фон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Transparent selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141346Z" changeid="eratyk">
+        <seg>Празрыстае вылучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Transpose</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T182351Z" changeid="eratyk">
@@ -78399,10 +79911,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Troubleshoot</seg>
+        <seg>Troubleshoot\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101204T152603Z" changeid="eratyk">
-        <seg>Вырашыць праблемы</seg>
+        <seg>Вырашыць праблемы\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -78435,6 +79947,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T144430Z" changeid="eratyk">
         <seg>Файл шрыфту TrueType</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Truncating the text since there is not enough room to paste entire text.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T121013Z" changeid="eratyk">
+        <seg>Усячэнне тэксту з-за нястачы месца для ўстаўкі тэксту.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78735,10 +80255,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Turn off wireless</seg>
+        <seg>Turn off wireless\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114019Z" changeid="eratyk">
-        <seg>Выключыць радыё</seg>
+        <seg>Выключыць радыё\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -79799,10 +81319,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Unified Connection Manager</seg>
+        <seg>Unified Connection Manager\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T113902Z" changeid="eratyk">
-        <seg>Аб'яднаны кіраўнік злучэнняў</seg>
+        <seg>Аб'яднаны кіраўнік злучэнняў\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -79947,6 +81467,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T064136Z" changeid="eratyk">
         <seg>ЗША міжнародная</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Units</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T165702Z" changeid="eratyk">
+        <seg>Адзінкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -80409,8 +81937,8 @@
       <tuv lang="en">
         <seg>Update Selection</seg>
       </tuv>
-      <tuv lang="be" changedate="20100710T174552Z" changeid="eratyk">
-        <seg>Абнавіць вылучаныя</seg>
+      <tuv lang="be" changedate="20110121T165533Z" changeid="eratyk">
+        <seg>Абнавіць вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -81295,6 +82823,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>V&amp;ertical:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170156Z" changeid="eratyk">
+        <seg>Вертыкаль:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>VCDs</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T202658Z" changeid="eratyk">
@@ -81575,10 +83111,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>View Available Network</seg>
+        <seg>View Available Network\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114136Z" changeid="eratyk">
-        <seg>Прагледзець даступныя сеткі</seg>
+        <seg>Прагледзець даступныя сеткі\0</seg>
       </tuv>
     </tu>
     <tu>
@@ -86351,6 +87887,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You cannot save to a read-only file.\nUse a different file name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T125146Z" changeid="eratyk">
+        <seg>Вы не можаце захоўваць у файл, прызначаны толькі для чытання.\nСкарыстайце іншую назву файла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You cannot shut down or log off Windows because\nthe Save As dialog box in Notepad is open. Switch to\nNotepad, close this dialog box, and then try shutting\ndown or logging off Windows again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100726T072301Z" changeid="eratyk">
@@ -88287,6 +89831,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Zoom in (Ctrl+PgUp)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141657Z" changeid="eratyk">
+        <seg>Павялічыць (Ctrl+PgUp)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Zoom in on the document.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T100033Z" changeid="eratyk">
@@ -88307,6 +89859,14 @@
       </tuv>
       <tuv lang="be" changedate="20100831T072356Z" changeid="eratyk">
         <seg>Паменшыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Zoom out (Ctrl+PgDn)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110124T141709Z" changeid="eratyk">
+        <seg>Паменшыць (Ctrl+PgDn)</seg>
       </tuv>
     </tu>
     <tu>
@@ -88763,6 +90323,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T154449Z" changeid="eratyk">
         <seg>аглядальны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>by</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170651Z" changeid="eratyk">
+        <seg>на</seg>
       </tuv>
     </tu>
     <tu>
@@ -89969,8 +91537,8 @@
       <tuv lang="en">
         <seg>mm</seg>
       </tuv>
-      <tuv lang="be" changedate="20100918T202031Z" changeid="eratyk">
-        <seg>mm</seg>
+      <tuv lang="be" changedate="20110124T124030Z" changeid="eratyk">
+        <seg>мм</seg>
       </tuv>
     </tu>
     <tu>
@@ -90099,6 +91667,14 @@
       </tuv>
       <tuv lang="be" changedate="20101106T161735Z" changeid="eratyk">
         <seg>зыходная назва файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>page(s)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110121T170657Z" changeid="eratyk">
+        <seg>старонак</seg>
       </tuv>
     </tu>
     <tu>
