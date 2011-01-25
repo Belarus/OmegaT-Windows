@@ -3,7 +3,7 @@
 <tmx version="1.1">
   <header
     creationtool="OmegaT"
-    creationtoolversion="2.2.3_2"
+    creationtoolversion="2.2.0"
     segtype="paragraph"
     o-tmf="OmegaT TMX"
     adminlang="EN-US"
@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&quot;Press Menu for call options \u2022 Use keyboard to dial&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143521Z" changeid="alex">
+        <seg>Націсьніце 'Мэню' для наладаў тэлефанаваньняў \u2022 Карыстайцеся наборнікам для выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&quot;Remove calendars&quot;</seg>
       </tuv>
       <tuv lang="be">
@@ -217,7 +225,15 @@
         <seg>&quot;less than 1 minute&quot;</seg>
       </tuv>
       <tuv lang="be">
-        <seg>&quot;меньш чым хвіліну&quot;</seg>
+        <seg>&quot;меньш за хвіліну&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152901Z" changeid="alex">
+        <seg>1 кантакт</seg>
       </tuv>
     </tu>
     <tu>
@@ -398,6 +414,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;x0&gt;%0$d&lt;/x0&gt; contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152544Z" changeid="alex">
+        <seg>&lt;x0&gt;%0$d&lt;/x0&gt; кантактаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x0&gt;%1$d&lt;/x0&gt; contacts, &lt;x1&gt;%2$d&lt;/x1&gt; with phones</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152600Z" changeid="alex">
+        <seg>&lt;x0&gt;%1$d&lt;/x0&gt; кантактаў, &lt;x1&gt;%2$d&lt;/x1&gt; з тэлефонамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>ACM limit exceeded</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075038Z" changeid="Alexander_Buloichik">
@@ -410,6 +442,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Пра тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Access Point Names</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144019Z" changeid="alex">
+        <seg>Назвы кропак доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Accounts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153408Z" changeid="alex">
+        <seg>Рахункі</seg>
       </tuv>
     </tu>
     <tu>
@@ -438,6 +486,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Add call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143039Z" changeid="alex">
+        <seg>Дадаць тэлефанаваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153144Z" changeid="alex">
+        <seg>Дадаць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143706Z" changeid="alex">
+        <seg>Дадаць нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add reminder</seg>
       </tuv>
       <tuv lang="be">
@@ -446,10 +518,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Add to Contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T150925Z" changeid="alex">
+        <seg>Дадаць ў Кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add to Home screen</seg>
       </tuv>
       <tuv lang="be">
         <seg>Дадаць на галоўны экран</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add to contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153002Z" changeid="alex">
+        <seg>Дадаць у кантакты</seg>
       </tuv>
     </tu>
     <tu>
@@ -465,7 +553,7 @@
         <seg>Add to favorites</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Дадаць ва ўлюблёныя</seg>
+        <seg>Дадаць ва ўлюбёныя</seg>
       </tuv>
     </tu>
     <tu>
@@ -474,6 +562,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дадатковыя налады тэлефанаваньняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Additional settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144046Z" changeid="alex">
+        <seg>Дадатковыя налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -526,6 +622,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>All</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153148Z" changeid="alex">
+        <seg>Усе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>All Contacts</seg>
       </tuv>
       <tuv lang="be">
@@ -534,10 +638,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>All call log entries will be removed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152000Z" changeid="alex">
+        <seg>Усе запісы ў логу будуць выдаленыя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>All calls are restricted by access control.</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075220Z" changeid="Alexander_Buloichik">
-        <seg>Усе званкі абмежаваныя з-за кантролю доступу.</seg>
+        <seg>Усе выклікі абмежаваныя з-за кантролю доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Answer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143528Z" changeid="alex">
+        <seg>Адказаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Applications</seg>
       </tuv>
       <tuv lang="be">
@@ -578,6 +698,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Вольны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Back</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145024Z" changeid="alex">
+        <seg>Папярэдні</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,10 +726,98 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>CDMA call settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144006Z" changeid="alex">
+        <seg>Налады тэлефанаваньняў CDMA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>CDMA: Access failure.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142657Z" changeid="alex">
+        <seg>CDMA: Доступ немагчымы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>CDMA: Call dropped.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142617Z" changeid="alex">
+        <seg>CDMA: тэлефанаваньне ськінутае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>CDMA: Call intercepted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142633Z" changeid="alex">
+        <seg>CDMA: Тэлефанаваньне перахопленае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>CDMA: Phone locked until power cycle.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142545Z" changeid="alex">
+        <seg>CDMA: тэлефон заблякаваны да загрузки наноў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Calendar</seg>
       </tuv>
       <tuv lang="be">
         <seg>Каляндар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151341Z" changeid="alex">
+        <seg>Тэлефанаваць &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call Lost</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142803Z" changeid="alex">
+        <seg>Тэлефанаваньне згублена.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call again</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153135Z" changeid="alex">
+        <seg>Тэлефанаваць зноў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call back</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153128Z" changeid="alex">
+        <seg>Зваротны званок</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151400Z" changeid="alex">
+        <seg>Тэлефанаваць кантакту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call has been lost.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142737Z" changeid="alex">
+        <seg>Тэлефанаваньне згублена.</seg>
       </tuv>
     </tu>
     <tu>
@@ -638,10 +854,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Change icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152409Z" changeid="alex">
+        <seg>Зьмяніць значак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chat</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153505Z" changeid="alex">
+        <seg>Гутарка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Chat addresses</seg>
       </tuv>
       <tuv lang="be">
         <seg>Гутаркавыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose a contact shortcut</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151223Z" changeid="alex">
+        <seg>Абраць скарот для кантакта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose a number to call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151235Z" changeid="alex">
+        <seg>Абраць нумар для тэлефанаваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose a number to message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151246Z" changeid="alex">
+        <seg>Абраць нумар для паведамленьня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose contacts to display</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152531Z" changeid="alex">
+        <seg>Абраць кантакты для адлюстраваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>City</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153508Z" changeid="alex">
+        <seg>Горад</seg>
       </tuv>
     </tu>
     <tu>
@@ -658,6 +930,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Company</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152113Z" changeid="alex">
+        <seg>Кампанія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Conference call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142722Z" changeid="alex">
+        <seg>Канферэнц-сувязь</seg>
       </tuv>
     </tu>
     <tu>
@@ -686,10 +974,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151314Z" changeid="alex">
+        <seg>Дэталі кантакту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contact icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152307Z" changeid="alex">
+        <seg>Значак кантакту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contact not found</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152858Z" changeid="alex">
+        <seg>Кантакта няма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contact saved.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152642Z" changeid="alex">
+        <seg>Кантакт захаваны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Contacts</seg>
       </tuv>
       <tuv lang="be">
         <seg>Кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contacts joined</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151700Z" changeid="alex">
+        <seg>Спалучаныя кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contacts separated</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151456Z" changeid="alex">
+        <seg>Кантакты падзеленыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contacts with phone numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152924Z" changeid="alex">
+        <seg>Кантакты з тэлефоннымі нумарамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -702,10 +1046,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Country</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153514Z" changeid="alex">
+        <seg>Краіна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Create contact</seg>
       </tuv>
       <tuv lang="be">
         <seg>Стварыць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create new contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152155Z" changeid="alex">
+        <seg>Стварыць новы кантакт</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Custom label name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152338Z" changeid="alex">
+        <seg>Дапасаваная назва цэтліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Daily</seg>
       </tuv>
       <tuv lang="be">
@@ -737,7 +1105,7 @@
         <seg>Data synchronization</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Сынхранізацыя дадзеных</seg>
+        <seg>Сынхранізацыя зьвестак</seg>
       </tuv>
     </tu>
     <tu>
@@ -746,6 +1114,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дата й час</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152402Z" changeid="alex">
+        <seg>Перадвызначаны</seg>
       </tuv>
     </tu>
     <tu>
@@ -766,10 +1142,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Delete contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151351Z" changeid="alex">
+        <seg>Выдаліць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Deleting this contact will delete information from multiple accounts.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151939Z" changeid="alex">
+        <seg>Выдаленне гэтага кантакту выдаліць інфармацыю з некалькіх рахункаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Description</seg>
       </tuv>
       <tuv lang="be">
         <seg>Апісаньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dial</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145121Z" changeid="alex">
+        <seg>Тэлефанаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -790,10 +1190,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dialpad</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145318Z" changeid="alex">
+        <seg>Наборнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Direct dial</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151051Z" changeid="alex">
+        <seg>Наўпроставы выклік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Direct message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151117Z" changeid="alex">
+        <seg>Наўпроставае паведамленьне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144219Z" changeid="alex">
+        <seg>Забараніць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Disabled</seg>
       </tuv>
       <tuv lang="be">
         <seg>Забаронена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Discard</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145142Z" changeid="alex">
+        <seg>Скасаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -822,6 +1262,46 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Display options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152349Z" changeid="alex">
+        <seg>Налады адлюстраваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Displaying 1 contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152839Z" changeid="alex">
+        <seg>Адлюстраваць 1 кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Displaying 1 contact with phone number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152748Z" changeid="alex">
+        <seg>Адлюстраваць 1 кантакт з тэлефонам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Displaying &lt;x0&gt;%d&lt;/x0&gt; contacts with phone numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152815Z" changeid="alex">
+        <seg>Адлюстраваць &lt;x0&gt;%d&lt;/x0&gt; кантактаў з тэлефонамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Done</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152006Z" changeid="alex">
+        <seg>Зроблена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Duration</seg>
       </tuv>
       <tuv lang="be">
@@ -833,7 +1313,7 @@
         <seg>During a call, notify me of incoming calls</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Падчас размовы, паведамляць пра тэлефанаваньні</seg>
+        <seg>Падчас размовы, паведамляць пра уваходныя</seg>
       </tuv>
     </tu>
     <tu>
@@ -850,6 +1330,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Рэдагаваць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Edit number before call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152954Z" changeid="alex">
+        <seg>Рэдагаваць нумар перад тэлефанаваньнем</seg>
       </tuv>
     </tu>
     <tu>
@@ -878,6 +1366,62 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144229Z" changeid="alex">
+        <seg>Дазволіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>End call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143006Z" changeid="alex">
+        <seg>Телефанаваньне скончана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>End current call\n&amp; answer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143350Z" changeid="alex">
+        <seg>Скончыць дзейнае тэлефанаваньне\n&amp; адказ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error, unable to save contact changes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152729Z" changeid="alex">
+        <seg>Памылка, немагчыма захаваць зьмены кантакта.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Event</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153434Z" changeid="alex">
+        <seg>Падзея</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Exporting contact data</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153350Z" changeid="alex">
+        <seg>Экспартаваць зьвесткі кантактаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extra Large</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151000Z" changeid="alex">
+        <seg>Вельмі вялікія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>FDN list</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T074007Z" changeid="Alexander_Buloichik">
@@ -886,10 +1430,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Family name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153525Z" changeid="alex">
+        <seg>Прозьвішча</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Favorites</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Улюблёныя</seg>
+        <seg>Улюбёныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>First and Last</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152102Z" changeid="alex">
+        <seg>Першы й апошні</seg>
       </tuv>
     </tu>
     <tu>
@@ -905,7 +1465,23 @@
         <seg>Folder name</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Імя каталёгу</seg>
+        <seg>Назва каталёгу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Found 1 contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152849Z" changeid="alex">
+        <seg>Знойдзены 1 кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Frequent</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151259Z" changeid="alex">
+        <seg>Часты</seg>
       </tuv>
     </tu>
     <tu>
@@ -934,10 +1510,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>GSM call settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143957Z" changeid="alex">
+        <seg>Налады тэлефанаваньняў GSM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Given name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153517Z" changeid="alex">
+        <seg>Імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Google Search</seg>
       </tuv>
       <tuv lang="be">
         <seg>Пошук Google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>HIDE</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144253Z" changeid="alex">
+        <seg>СХАВАЦЬ</seg>
       </tuv>
     </tu>
     <tu>
@@ -950,10 +1550,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hide dialpad</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143240Z" changeid="alex">
+        <seg>Схаваць наборнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hide number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144239Z" changeid="alex">
+        <seg>Схаваць нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142950Z" changeid="alex">
+        <seg>Трымаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hold current call\n&amp; answer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143337Z" changeid="alex">
+        <seg>Трымаць дзейнае тэлефанаваньне\n&amp; адказ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Home</seg>
       </tuv>
       <tuv lang="be">
         <seg>Дадому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ignore</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143535Z" changeid="alex">
+        <seg>Ігнараваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -998,6 +1638,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Incoming</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153650Z" changeid="alex">
+        <seg>Уваходныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incoming call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153039Z" changeid="alex">
+        <seg>Уваходны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incoming calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153121Z" changeid="alex">
+        <seg>Уваходныя тэлефанаваньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incorrect PUK code!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143927Z" changeid="alex">
+        <seg>Няправільны PUK-код!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Incorrect username or password</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T074957Z" changeid="Alexander_Buloichik">
@@ -1006,10 +1678,58 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Internet call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152054Z" changeid="alex">
+        <seg>Тэлефанаваньне праз сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid Number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142716Z" changeid="alex">
+        <seg>Няправільны нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Join</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151617Z" changeid="alex">
+        <seg>Спалучыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Join contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151622Z" changeid="alex">
+        <seg>Спалучыць кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Label</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Подпіс</seg>
+        <seg>Цэтлік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144324Z" changeid="alex">
+        <seg>Мовы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Large</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T150955Z" changeid="alex">
+        <seg>Вялікія</seg>
       </tuv>
     </tu>
     <tu>
@@ -1046,6 +1766,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>MMI code canceled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142906Z" changeid="alex">
+        <seg>Рэжым MMI скасаваны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Make default email</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151441Z" changeid="alex">
+        <seg>Зрабіць email перадвызначаным</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Make default number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151431Z" changeid="alex">
+        <seg>Зрабіць нумар перадвызначаным</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manage Wi-Fi, Bluetooth, airplane mode, &amp; mobile networks</seg>
       </tuv>
       <tuv lang="be">
@@ -1062,6 +1806,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Manage conference call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143100Z" changeid="alex">
+        <seg>Кіраваць канферэнц-сувязьзю</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Map address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151417Z" changeid="alex">
+        <seg>Адрас на мапе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Maybe</seg>
       </tuv>
       <tuv lang="be">
@@ -1070,10 +1830,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Medium</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T150952Z" changeid="alex">
+        <seg>Сярэднія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Meeting invitation</seg>
       </tuv>
       <tuv lang="be">
         <seg>Запрашэньне на сустрэчу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Merge calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143030Z" changeid="alex">
+        <seg>Аб'яднаць тэлефанаваньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153700Z" changeid="alex">
+        <seg>Прапушчаныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missed call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153110Z" changeid="alex">
+        <seg>Прапушчыны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missing voicemail number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143640Z" changeid="alex">
+        <seg>Адсутны нумар галасавой пошты</seg>
       </tuv>
     </tu>
     <tu>
@@ -1094,10 +1894,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Mute</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142930Z" changeid="alex">
+        <seg>Сьцішыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>My phone number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145229Z" changeid="alex">
+        <seg>Мой нумар тэлефону</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153420Z" changeid="alex">
+        <seg>Імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Network busy</seg>
       </tuv>
       <tuv lang="be">
         <seg>Сетка занятая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network operators</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144039Z" changeid="alex">
+        <seg>Сеткавыя апэратары</seg>
       </tuv>
     </tu>
     <tu>
@@ -1134,6 +1966,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>New SIM PIN code</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143806Z" changeid="alex">
+        <seg>Новы PIN-код SIM-карткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>New contact</seg>
       </tuv>
       <tuv lang="be">
@@ -1150,10 +1990,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Next</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145019Z" changeid="alex">
+        <seg>Наступны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Nickname</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153425Z" changeid="alex">
+        <seg>Мянушка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No</seg>
       </tuv>
       <tuv lang="be">
         <seg>Не</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No SD card</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153319Z" changeid="alex">
+        <seg>Няма SD-карткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -1166,10 +2030,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No contacts with phone numbers.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152458Z" changeid="alex">
+        <seg>Няма кантактаў з тэлефоннымі нумарамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No data</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153403Z" changeid="alex">
+        <seg>Няма звестак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No matching contacts found.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152438Z" changeid="alex">
+        <seg>Ня знойдзена адпаведных кантактаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No pictures are available on the phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152300Z" changeid="alex">
+        <seg>Няма аніводнага малюнка на тэлефоне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No response, timed out</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T074837Z" changeid="Alexander_Buloichik">
         <seg>Задоўгае чаканьне адказу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No service</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145330Z" changeid="alex">
+        <seg>Няма сэрвісу</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,10 +2086,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No visible contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152843Z" changeid="alex">
+        <seg>Няма бачных кантактаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No visible contacts with phone numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152829Z" changeid="alex">
+        <seg>Няма бачных кантактаў з тэлефоннымі нумарамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No voicemail number is stored on the SIM card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143702Z" changeid="alex">
+        <seg>На SIM картке не записаны нумар галасавой пошты.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>None</seg>
       </tuv>
       <tuv lang="be">
         <seg>Няма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152226Z" changeid="alex">
+        <seg>Зацемка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Notes</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152041Z" changeid="alex">
+        <seg>Зацемкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -1198,10 +2142,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Number is unavailable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144137Z" changeid="alex">
+        <seg>Нумар недасяжны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Number unreachable</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T074852Z" changeid="Alexander_Buloichik">
         <seg>Нумар недасяжны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>OK</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143354Z" changeid="alex">
+        <seg>Добра</seg>
       </tuv>
     </tu>
     <tu>
@@ -1238,10 +2198,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Only contacts with phones</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152504Z" changeid="alex">
+        <seg>Толькі кантакты з тэлефонамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Only display contacts that have phone numbers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152519Z" changeid="alex">
+        <seg>Адлюстроўваць толькі кантакты, якія маюць тэлефонныя нумары</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Only this event</seg>
       </tuv>
       <tuv lang="be">
         <seg>Толькі гэта падзея</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151704Z" changeid="alex">
+        <seg>Налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152221Z" changeid="alex">
+        <seg>Арганізацыя</seg>
       </tuv>
     </tu>
     <tu>
@@ -1262,10 +2254,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Outgoing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153657Z" changeid="alex">
+        <seg>Выходныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Outgoing call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153056Z" changeid="alex">
+        <seg>Выходны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Outgoing calls are restricted by FDN.</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075150Z" changeid="Alexander_Buloichik">
         <seg>Выходныя тэлефанаваньні абмежаваныя gf FDN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Password</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145204Z" changeid="alex">
+        <seg>Пароль</seg>
       </tuv>
     </tu>
     <tu>
@@ -1310,6 +2326,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Phonetic</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152019Z" changeid="alex">
+        <seg>Фанэтычны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phonetic name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152108Z" changeid="alex">
+        <seg>Фанэтычнае імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Play alarm even when the phone is in silent mode</seg>
       </tuv>
       <tuv lang="be">
@@ -1318,10 +2350,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Port number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145210Z" changeid="alex">
+        <seg>Нумар порту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Postal address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152217Z" changeid="alex">
+        <seg>Паштовы адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Postal addresses</seg>
       </tuv>
       <tuv lang="be">
         <seg>Паштовыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Press Menu for call options.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143446Z" changeid="alex">
+        <seg>Націсьніце 'Мэню' для наладаў тэлефанаваньняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -1377,7 +2433,15 @@
         <seg>Remove from favorites</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Выдаліць з улюблёных</seg>
+        <seg>Выдаліць з улюбёных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remove icon</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152417Z" changeid="alex">
+        <seg>Прыбраць значак</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,6 +2470,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Retry</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142741Z" changeid="alex">
+        <seg>Паўтарыць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Revert</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152013Z" changeid="alex">
+        <seg>Вярнуць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Ringtone</seg>
       </tuv>
       <tuv lang="be">
@@ -1418,6 +2498,30 @@
       </tuv>
       <tuv lang="be">
         <seg>Картка SD &amp; іншыя сховішчы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SHOW</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144257Z" changeid="alex">
+        <seg>ПАКАЗАЦЬ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SIM card contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153023Z" changeid="alex">
+        <seg>Кантакты SIM-карткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SIM unlocked</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143749Z" changeid="alex">
+        <seg>SIM картка разблякаваная</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,10 +2550,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Saving contact\u2026</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152618Z" changeid="alex">
+        <seg>Захоўваньне кантактаў\u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Saving display options\u2026</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152635Z" changeid="alex">
+        <seg>Налады захоўваньня кантактаў\u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Search</seg>
       </tuv>
       <tuv lang="be">
         <seg>Пошук</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151321Z" changeid="alex">
+        <seg>Шукаць кантакты</seg>
       </tuv>
     </tu>
     <tu>
@@ -1466,6 +2594,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Абраць гадзіньнік для паказу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select label</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152201Z" changeid="alex">
+        <seg>Абраць цэтлік</seg>
       </tuv>
     </tu>
     <tu>
@@ -1502,6 +2638,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select the news language</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144317Z" changeid="alex">
+        <seg>Абярыце мову навінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select wallpaper from</seg>
       </tuv>
       <tuv lang="be">
@@ -1513,7 +2657,7 @@
         <seg>Select which applications are synchronized</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Абраць якія праграмы будуць сынхранізавацца</seg>
+        <seg>Абраць, якія праграмы будуць сынхранізавацца</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,6 +2686,54 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Send text message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152936Z" changeid="alex">
+        <seg>Даслаць тэкставае паведамленьне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Send the following tones?\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143607Z" changeid="alex">
+        <seg>Даслаць наступныя гукі?\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sending Tones\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143619Z" changeid="alex">
+        <seg>Дасыланьне гукаў\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Separate</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151446Z" changeid="alex">
+        <seg>Падзяліць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Separate Contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151502Z" changeid="alex">
+        <seg>Падзяліць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145239Z" changeid="alex">
+        <seg>Сэрвер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Server error. Try again later.</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075024Z" changeid="Alexander_Buloichik">
@@ -1561,7 +2753,7 @@
         <seg>Set My Location, screen unlock, SIM card lock</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Абраць дзе я знаходжуся, як адмыкаць экран, як адмыкаць SIM картку</seg>
+        <seg>Абраць, дзе я знаходжуся, як разблякаваць экран, як разблякаваць SIM картку</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,10 +2822,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Show all contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151637Z" changeid="alex">
+        <seg>Паказаць усе кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Show clock</seg>
       </tuv>
       <tuv lang="be">
         <seg>Паказаць гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show dialpad</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143234Z" changeid="alex">
+        <seg>Паказаць наборнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144243Z" changeid="alex">
+        <seg>Паказаць нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Small (Default)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T150947Z" changeid="alex">
+        <seg>Маленькія(перадвызначана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1670,6 +2894,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Speaker</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142920Z" changeid="alex">
+        <seg>Дынамік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Starred</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151255Z" changeid="alex">
+        <seg>Азначаны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Starred contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152912Z" changeid="alex">
+        <seg>Адзначаныя кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Suggested contacts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151649Z" changeid="alex">
+        <seg>Прапанаваныя кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sun</seg>
       </tuv>
       <tuv lang="be">
@@ -1682,6 +2938,38 @@
       </tuv>
       <tuv lang="be">
         <seg>Нядзеля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Swap calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143021Z" changeid="alex">
+        <seg>Зьмяніць тэлефанаваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Text contact</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151409Z" changeid="alex">
+        <seg>Тэкст кантакту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The SIM PINs you typed do not match. Please try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143853Z" changeid="alex">
+        <seg>Набраныя PIN-коды адрозьнівацца. Паспрабуйце зноў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The contact does not exist.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152138Z" changeid="alex">
+        <seg>Кантакт не існуе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1710,6 +2998,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151917Z" changeid="alex">
+        <seg>Гэты кантакт змяшчае інфармацыю з некалькіх рахункаў. Інфармацыя з рахункаў, які можна толькі чытаць, будзе схаваная ў спісе кантактаў, але ня выдаленая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This contact will be deleted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151943Z" changeid="alex">
+        <seg>Гэты кантакт будзе выдалены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Thu</seg>
       </tuv>
       <tuv lang="be">
@@ -1730,6 +3034,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Час</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Title</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T152132Z" changeid="alex">
+        <seg>Зварот</seg>
       </tuv>
     </tu>
     <tu>
@@ -1782,10 +3094,50 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Type PIN code to unlock SIM card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143738Z" changeid="alex">
+        <seg>Набярыце PIN-код каб разблякаваць SIM картку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type PUK code to unlock SIM card</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143912Z" changeid="alex">
+        <seg>Набярыце PUK-код каб разблякаваць SIM-картку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type new SIM PIN code again to confirm</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T143821Z" changeid="alex">
+        <seg>Набярыце PIN-код зноў каб спраўдзіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>USSD code running\u2026</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T142846Z" changeid="alex">
+        <seg>Код USSD працуе\u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T074015Z" changeid="Alexander_Buloichik">
         <seg>Невядомы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unknown error</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153338Z" changeid="alex">
+        <seg>Невядомая памылка</seg>
       </tuv>
     </tu>
     <tu>
@@ -1802,6 +3154,38 @@
       </tuv>
       <tuv lang="be">
         <seg>Адмацаваць SD картку, прагледзець даступныя сховішчы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144233Z" changeid="alex">
+        <seg>Абнавіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use this photo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153636Z" changeid="alex">
+        <seg>Выкарыстоўваць гэтае фота</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Username</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145201Z" changeid="alex">
+        <seg>Імя карыстальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Version</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153713Z" changeid="alex">
+        <seg>Вэрсія</seg>
       </tuv>
     </tu>
     <tu>
@@ -1838,6 +3222,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Voicemail</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T144026Z" changeid="alex">
+        <seg>Галасавая пошта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Voicemail service</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145107Z" changeid="alex">
+        <seg>Сэрвіс галасовой пошты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Voicemail settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145056Z" changeid="alex">
+        <seg>Налады галасавой пошты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Wallpaper</seg>
       </tuv>
       <tuv lang="be">
@@ -1862,10 +3270,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Website</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153430Z" changeid="alex">
+        <seg>Сайт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Wed</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Ср</seg>
+        <seg>Сер</seg>
       </tuv>
     </tu>
     <tu>
@@ -1928,8 +3344,32 @@
       <tuv lang="en">
         <seg>Yes</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Да</seg>
+      <tuv lang="be" changedate="20110125T145042Z" changeid="alex">
+        <seg>Так</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You cannot delete contacts from read-only accounts, but you can hide them in your contacts lists.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T151813Z" changeid="alex">
+        <seg>Вы не можаце выдаліць кантакты з рахунку, які можна толькі чытаць, але можаце схаваць іх у спісе кантактаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>contact photo</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T145304Z" changeid="alex">
+        <seg>фота кантакта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>eight</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153218Z" changeid="alex">
+        <seg>восем</seg>
       </tuv>
     </tu>
     <tu>
@@ -1946,6 +3386,22 @@
       </tuv>
       <tuv lang="be">
         <seg>першы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>five</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153206Z" changeid="alex">
+        <seg>пяць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>four</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153203Z" changeid="alex">
+        <seg>чатыры</seg>
       </tuv>
     </tu>
     <tu>
@@ -1974,10 +3430,66 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>minus</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153304Z" changeid="alex">
+        <seg>мінус</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>nine</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153223Z" changeid="alex">
+        <seg>дзевяць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>one</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153151Z" changeid="alex">
+        <seg>адзін</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>plus</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153307Z" changeid="alex">
+        <seg>плюс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>second</seg>
       </tuv>
       <tuv lang="be">
         <seg>другі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>seven</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153215Z" changeid="alex">
+        <seg>сем</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>six</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153212Z" changeid="alex">
+        <seg>шэсьць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>star</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153228Z" changeid="alex">
+        <seg>зорка</seg>
       </tuv>
     </tu>
     <tu>
@@ -1990,10 +3502,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>three</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153201Z" changeid="alex">
+        <seg>тры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>two</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153153Z" changeid="alex">
+        <seg>два</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>uninstall shortcuts</seg>
       </tuv>
       <tuv lang="be">
         <seg>выдаліць скарот</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>voicemail</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153252Z" changeid="alex">
+        <seg>галасавая пошты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>zero</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T153236Z" changeid="alex">
+        <seg>нуль</seg>
       </tuv>
     </tu>
   </body>
