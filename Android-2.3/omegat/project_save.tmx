@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.2.3_2"
+    segtype="paragraph"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="en"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot; and &quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot; і &quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;1 day&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;1 дзень&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;1 minute&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;1 хвіліну&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;&lt;t1&gt;%s&lt;/t1&gt; days&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;&lt;t1&gt;%s&lt;/t1&gt; дні&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;&lt;t1&gt;%s&lt;/t1&gt; minutes&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;&lt;t1&gt;%s&lt;/t1&gt; хвілінаў&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Add calendars&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Дадаць календары&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Agenda&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Парадак дня&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Day&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Дзень&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Delete event&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Выдаліць падзею&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Delete&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Выдаліць&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Edit event&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Рэдагаваць падзею&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Event description&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Апісаньне падзеі&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Event details&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Падрабязнасьці падзеі&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Event location&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Месца падзеі&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Event name&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Назва падзеі&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Month&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Месяц&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;My calendars&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Мае календары&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;New event&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Новая падзея&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Remove calendars&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Выдаліць календары&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Settings&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Налады&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Show agenda&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Паказаць парадак дня&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Show day&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Паказаць дзень&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Today&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Сёньня&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;View event&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Паглядзець падзею&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;Week&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;Тыдзень&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&quot;less than 1 minute&quot;</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&quot;меньш чым хвіліну&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 day</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>1 дзень</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 hour</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>1 гадзіна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 min</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>1 хв</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 minute</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>1 хвіліна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 week</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>1 тыдзень</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>10 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>10 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>12 hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>12 гадзінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>15 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>15 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>2 days</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>2 дні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>2 hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>2 гадзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>20 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>20 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>24 hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>24 гадзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>25 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>25 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>3 hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>3 гадзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>30 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>30 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>45 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>45 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>5 minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>5 хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; days</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; дні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; гадзінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; mins</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; хв</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&lt;t1&gt;%d&lt;/t1&gt; хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;t1&gt;%s&lt;/t1&gt; hours</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>&lt;t1&gt;%s&lt;/t1&gt; гадзінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>ACM limit exceeded</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075038Z" changeid="Alexander_Buloichik">
+        <seg>Перавышаны ліміт ACM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>About phone</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пра тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add Contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add alarm</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add reminder</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць напамін</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add to Home screen</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць на галоўны экран</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add to dictionary</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць у слоўнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add to favorites</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадаць ва ўлюблёныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Additional call settings</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадатковыя налады тэлефанаваньняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alarm Clock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alarm in silent mode</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік у бязгучным рэжыме</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alarm not set</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік не ўсталяваны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alarm silenced after &lt;t1&gt;%d&lt;/t1&gt; minutes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выключаць буднік пасьля &lt;t1&gt;%d&lt;/t1&gt; хвілінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Alert</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сыгнал</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>All Contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усе кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>All calls are restricted by access control.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075220Z" changeid="Alexander_Buloichik">
+        <seg>Усе званкі абмежаваныя з-за кантролю доступу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>All contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усе кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>All day</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усе дні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>All events</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усе падзеі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Applications</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Available</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Вольны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Battery information</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Інфармацыя пра батарэю</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Busy</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Заняты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Calendar</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Каляндар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call log</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Лог</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call settings</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Тэлефанаваньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Called from out of network</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075018Z" changeid="Alexander_Buloichik">
+        <seg>Выклікаецца з па-за сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cancel</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Скасаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chat addresses</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гутаркавыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Clear call log</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выдаліць лог тэлефанаваньняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Clock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Confirm new PIN</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пацьвердзіць новы PIN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Confirm new PIN2</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пацьвердзіць новы PIN2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Continue</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Працягнуць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Стварыць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Current call</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гэтае тэлефанаваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Current call (&lt;t1&gt;%s&lt;/t1&gt;)</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гэтае тэлефанаваньне (&lt;t1&gt;%s&lt;/t1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Daily</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Штодзённа</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Data synchronization</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сынхранізацыя дадзеных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date &amp; time</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дата й час</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выдаліць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Delete alarm</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выдаліць буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Апісаньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dialer</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Тэлефанаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dialing</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Набор...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disabled</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Забаронена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Discard changes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Скасаваць зьмены</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dismiss</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Скасаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Display group</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Паказаць групу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Duration</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Працягласьць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>During a call, notify me of incoming calls</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Падчас размовы, паведамляць пра тэлефанаваньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Рэдагаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Edit contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Рэдагаваць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Edit sync groups</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сынхранізацыя груп</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Email addresses</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Адрасы Email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Emergency Dialer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074000Z" changeid="Alexander_Buloichik">
+        <seg>Надзвычайныя тэлефанаваньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FDN list</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074007Z" changeid="Alexander_Buloichik">
+        <seg>Сьпіс FDN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Favorites</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Улюблёныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Folder</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Каталёг</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Folder name</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імя каталёгу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fri</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Friday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пятніца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>From</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Ад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Google Search</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пошук Google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hide clock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Схаваць гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Home</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дадому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Import</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імпартаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Import all</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імпартаваць усе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Import contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імпартаваць кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Import from contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імпартаваць з кантактаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Importing SIM contacts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Імпартаваць кантакты з SIM катркі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incorrect username or password</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074957Z" changeid="Alexander_Buloichik">
+        <seg>Няправільнае імя карыстальніка альбо пароль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Label</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Подпіс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Line busy</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074136Z" changeid="Alexander_Buloichik">
+        <seg>Занята</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Local time zone</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Мясцовая часавая зона</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Locale &amp; text</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Лакаль і тэкст</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Locale setting</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Налады лакалі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Manage Wi-Fi, Bluetooth, airplane mode, &amp; mobile networks</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Кіраваць Wi-Fi, Bluetooth, рэжымам самалёту, &amp; мабільнымі сеткамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Manage applications, set up quick launch shortcuts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Кіраваньне праграмамі, скаротамі запуску праграмаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Maybe</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Магчыма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meeting invitation</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Запрашэньне на сустрэчу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Mon</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пн</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Monday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Панядзелак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network busy</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сетка занятая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network settings</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Налады сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Never</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Ніколі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>New PIN</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Новы PIN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>New PIN2</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Новы PIN2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>New contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Новы кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>New folder</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Новы каталёг</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Не</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No SIM, or SIM error</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Няма SIM карткі, ці памылка чытаньня SIM карткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No response, timed out</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074837Z" changeid="Alexander_Buloichik">
+        <seg>Задоўгае чаканьне адказу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No signal</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Няма сувязі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>None</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Няма</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Notifications</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абвяшчэньні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Number unreachable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074852Z" changeid="Alexander_Buloichik">
+        <seg>Нумар недасяжны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Off</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выкл</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Old PIN</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Стары PIN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Old PIN2</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Стары PIN2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On hold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074128Z" changeid="Alexander_Buloichik">
+        <seg>Чаканьне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Only this event</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Толькі гэта падзея</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Organizations</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Арганізацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Out of service area</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075118Z" changeid="Alexander_Buloichik">
+        <seg>Па-за зонай абслугоўваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Outgoing calls are restricted by FDN.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075150Z" changeid="Alexander_Buloichik">
+        <seg>Выходныя тэлефанаваньні абмежаваныя gf FDN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pay phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074058Z" changeid="Alexander_Buloichik">
+        <seg>Платны тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone information</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Інфармацыя пра тэлефон</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone numbers</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Нумары тэлефонаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phones</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Тэлефоны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Play alarm even when the phone is in silent mode</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік гучыць нават калі тэлефон у бязгучным рэжыме</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Postal addresses</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Паштовыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Private</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Прыватны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Private number</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074049Z" changeid="Alexander_Buloichik">
+        <seg>Прыватны нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Public</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Публічны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Radio off</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сувязь выключана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Reminders</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Напаміны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remove from call log</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выдаліць з логу тэлефанаваньняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remove from favorites</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выдаліць з улюблёных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rename folder</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пераназваць каталёг</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Repeat</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Паўтараць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Repetition</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Паўтарэньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ringtone</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Мэлёдыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SD card &amp; phone storage</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Картка SD &amp; іншыя сховішчы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sat</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сб</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Saturday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Субота</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Save</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Захаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Пошук</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Security &amp; location</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Бясьпека й месца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select a clock to display.</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць гадзіньнік для паказу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select language and region</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць мову й рэгіён</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select locale</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць лакаль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select ringtone</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць мэлёдыю</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select shortcut</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць скарот</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select wallpaper from</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць шпалеры з...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select which applications are synchronized</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць якія праграмы будуць сынхранізавацца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Send</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Даслаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Send SMS/MMS</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Даслаць SMS/MMS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Send email</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075351Z" changeid="Alexander_Buloichik">
+        <seg>Даслаць email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Server error. Try again later.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T075024Z" changeid="Alexander_Buloichik">
+        <seg>Памылка сервера. Паспрабуйце яшчэ раз пазней.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Server unreachable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074844Z" changeid="Alexander_Buloichik">
+        <seg>Сэрвер недасяжны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set My Location, screen unlock, SIM card lock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць дзе я знаходжуся, як адмыкаць экран, як адмыкаць SIM картку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set alarm</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усталяваць буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set date, time, time zone &amp; formats</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Вызначыць дату, час, часавую зону й фарматы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set locale (language and region), text input and auto-correction options</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць лакаль (мову й рэгіён), спосаб уводу тэкста й аўтаматычных выпраўленьняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set ringtones, notifications, screen brightness</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць мэлёдыі, абвяшчэньні, яркасьць экрану</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set up voicemail, call forwarding, call waiting, caller ID</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Абраць галасавую пошту, перанакіраваньне вызаваў, чаканьне вызываў, caller ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set wallpaper</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Усталяваць шпалеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Shortcuts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Скароты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show clock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Паказаць гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Snooze</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Адкласьці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Snoozing for &lt;t1&gt;%d&lt;/t1&gt; minutes.</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Адкласьці на &lt;t1&gt;%d&lt;/t1&gt; хвіліны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorry, the alarm could not be set.</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Выбачайце, буднік ня можа быць усталяваны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sound &amp; display</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гук і выгляд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sun</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Нд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sunday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Нядзеля</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This &amp; future events</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гэтая й будучыя падзеі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This alarm is set for &lt;t1&gt;%s&lt;/t1&gt; from now.</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Буднік усталяваны на &lt;t1&gt;%s&lt;/t1&gt; ад гэтага моманту.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This alarm will be deleted.</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Гэты буднік будзе выдалены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thu</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Чц</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Thursday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Чацьвер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Time</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Час</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Да</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Today</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Сёньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tue</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Аў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tuesday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Аўторак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turn on alarm</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Уключыць буднік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Тып</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unknown</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110125T074015Z" changeid="Alexander_Buloichik">
+        <seg>Невядомы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unlock</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Разблакаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unmount SD card, view available storage</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Адмацаваць SD картку, прагледзець даступныя сховішчы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Вібраваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View contact</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Прагледзець кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View event</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Глядзець падзею</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View legal info, phone status, software version</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Глядзець юрыдычную інфармацыю, становішча тэлефона, вэрсіі праграмаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wallpaper</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Шпалеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wallpaper gallery</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Галерэя шпалераў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wallpapers</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Шпалеры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wed</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Ср</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wednesday</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Серада</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>What</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Што</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Калі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When:</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Калі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Where</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дзе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Where:</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Дзе:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Wireless controls</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Налады радыё</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yes</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>Да</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>every day</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>кожны дзень</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>first</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>першы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>fourth</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>чацьвёрты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>install shortcuts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>усталяваць скарот</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>last</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>апошні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>second</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>другі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>third</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>трэці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>uninstall shortcuts</seg>
+      </tuv>
+      <tuv lang="be">
+        <seg>выдаліць скарот</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
