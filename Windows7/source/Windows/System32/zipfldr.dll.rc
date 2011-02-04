@@ -1,0 +1,444 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+102 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Open", 102
+    MENUITEM "&Explore", 103
+    MENUITEM "", 65535
+    MENUITEM "Cu&t", 113
+    MENUITEM "&Copy", 105
+    MENUITEM "", 65535
+    MENUITEM "", 65535
+    MENUITEM "&Delete", 111
+    MENUITEM "", 65535
+    MENUITEM "P&roperties", 112
+  }
+}
+
+103 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Copy Here", 205
+    MENUITEM "&Move Here", 206
+    MENUITEM "", 65535
+    MENUITEM "Cancel", 2
+  }
+}
+
+105 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Open", 102
+    MENUITEM "&Explore", 103
+  }
+}
+
+104 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c001cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 210, Static, 0x50000043, 7, 7, 21, 20, 0x0
+  CONTROL "File name:", 65535, Static, 0x50020000, 50, 11, 0, 0, 0x0
+  CONTROL "", 1008, Edit, 0x50810880, 56, 11, 164, 14, 0x0
+  CONTROL "", 65535, Static, 0x50000010, 7, 32, 213, 1, 0x0
+  CONTROL "Type of file:", 65535, Static, 0x50020000, 7, 40, 42, 9, 0x0
+  CONTROL "", 1014, Edit, 0x50000880, 56, 40, 164, 14, 0x0
+  CONTROL "Modified:", 65535, Static, 0x50020000, 7, 56, 42, 9, 0x0
+  CONTROL "", 1011, Edit, 0x50000880, 56, 56, 164, 14, 0x0
+  CONTROL "", 65535, Static, 0x50000010, 7, 72, 213, 1, 0x0
+  CONTROL "Location:", 65535, Static, 0x50020000, 7, 80, 42, 9, 0x0
+  CONTROL "", 1007, Edit, 0x50000880, 56, 80, 164, 14, 0x0
+  CONTROL "Size:", 65535, Static, 0x50020000, 7, 96, 42, 9, 0x0
+  CONTROL "", 1006, Edit, 0x50000880, 56, 96, 164, 14, 0x0
+  CONTROL "Compressed:", 65535, Static, 0x50020000, 7, 112, 42, 9, 0x0
+  CONTROL "", 1022, Edit, 0x50000880, 56, 112, 164, 14, 0x0
+  CONTROL "", 65535, Static, 0x50000010, 7, 128, 213, 1, 0x0
+  CONTROL "Method:", 65535, Static, 0x50020000, 7, 136, 42, 9, 0x0
+  CONTROL "", 1021, Edit, 0x50000880, 56, 136, 164, 14, 0x0
+  CONTROL "CRC-32:", 65535, Static, 0x50020000, 7, 152, 42, 9, 0x0
+  CONTROL "", 1017, Edit, 0x50000880, 56, 152, 164, 14, 0x0
+  CONTROL "Index:", 65535, Static, 0x50020000, 7, 168, 42, 9, 0x0
+  CONTROL "", 1020, Edit, 0x50000880, 56, 168, 164, 14, 0x0
+  CONTROL "", 65535, Static, 0x50000010, 7, 184, 213, 1, 0x0
+  CONTROL "Attributes:", 65535, Static, 0x50020000, 7, 192, 42, 9, 0x0
+  CONTROL "&Read-only", 1009, Button, 0x58010003, 56, 192, 50, 10, 0x0
+  CONTROL "&Hidden", 1010, Button, 0x58010003, 109, 192, 50, 10, 0x0
+  CONTROL "&System", 1012, Button, 0x58010003, 162, 192, 50, 10, 0x0
+}
+
+154 DIALOGEX 0, 0, 228, 64
+CAPTION "Password needed"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Password:", 65535, Static, 0x50020000, 27, 46, 34, 8, 0x0
+  CONTROL "", 1051, Edit, 0x508100a0, 68, 44, 94, 13, 0x0
+  CONTROL "", 1548, Static, 0x50000203, 3, 6, 21, 20, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 171, 6, 50, 14, 0x0
+  CONTROL "S&kip File", 1070, Button, 0x50010000, 171, 24, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 171, 42, 50, 14, 0x0
+  CONTROL "File '%s' is password protected.  Please enter the password in the box below. ", 1069, Static, 0x50020000, 27, 6, 135, 32, 0x0
+}
+
+162 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x10000a45 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Files will be extracted to this &folder:", 65535, Static, 0x50020000, 0, 0, 164, 8, 0x0
+  CONTROL "", 1045, Edit, 0x50810080, 0, 11, 250, 12, 0x0
+  CONTROL "B&rowse...", 1021, Button, 0x50010000, 255, 10, 50, 14, 0x0
+  CONTROL "S&how extracted files when complete", 1098, Button, 0x50014003, 0, 35, 133, 10, 0x0
+}
+
+176 DIALOGEX 0, 0, 209, 76
+CAPTION "Compressed (zipped) Folders"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 65535, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "This application may depend on other compressed files in this folder.", 65535, Static, 0x50020000, 33, 7, 169, 16, 0x0
+  CONTROL "For the application to run properly, it is recommended that you first extract all files.", 65535, Static, 0x50020000, 33, 29, 169, 16, 0x0
+  CONTROL "E&xtract all", 1131, Button, 0x50010001, 44, 55, 50, 14, 0x0
+  CONTROL "R&un", 1130, Button, 0x50010000, 98, 55, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 152, 55, 50, 14, 0x0
+}
+
+177 DIALOGEX 0, 0, 231, 106
+CAPTION "Compressed (zipped) Folders"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 87, 82, 57, 17, 0x0
+  CONTROL "One or more file names contain characters that Compressed (zipped) Folders cannot handle.  Look for file names containing the following characters:", 65535, Static, 0x50020000, 35, 6, 187, 26, 0x0
+  CONTROL "Move these files out of the folder, rename them without using these characters, then move them back into the folder and try again.", 65535, Static, 0x50020000, 35, 48, 187, 28, 0x0
+  CONTROL 32513, 65535, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL ",   [   ]   +   =", 65535, Static, 0x50020001, 7, 34, 211, 8, 0x0
+}
+
+209 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x10000844 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "To close this wizard, click Finish.", 65535, Static, 0x50020000, 0, 0, 135, 20, 0x0
+}
+
+1134 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x4000004c | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "The compressed (zipped) folder is empty.", 4294967295, Static, 0x50020000, 0, 0, 170, 8, 0x0
+  CONTROL 32515, 4294967295, Static, 0x50000003, 0, 18, 135, 20, 0x0
+  CONTROL "Before you can extract files, you must copy files to this compressed (zipped) folder.", 4294967295, Static, 0x50020000, 30, 16, 135, 30, 0x0
+  CONTROL "To close this wizard, click Finish.", 4294967295, Static, 0x50020000, 0, 48, 135, 8, 0x0
+}
+
+1135 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x4000004c | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Access to the compressed (zipped) folder is denied.", 4294967295, Static, 0x50020000, 0, 0, 315, 8, 0x0
+  CONTROL 32515, 4294967295, Static, 0x50000003, 0, 18, 135, 20, 0x0
+  CONTROL "Before you can extract files, you must change the permissions for this compressed (zipped) folder.", 4294967295, Static, 0x50020000, 30, 16, 135, 30, 0x0
+  CONTROL "To close this wizard, click Finish.", 4294967295, Static, 0x50020000, 0, 48, 135, 8, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Extract all files at this directory level and execute selected item(s)"
+  101,  "Execute only the selected item(s)"
+  102,  "Open"
+  103,  "Explore"
+  105,  "Copy item(s) to the clipboard for later pasting to other folders"
+  107,  "Extract item(s) to a location that you specify"
+  111,  "PERMANENTLY delete selected item(s) (no Undo possible)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Display property sheet for selected item"
+  113,  "Cut item(s) to the clipboard for later pasting to other folders"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10008,  "Open"
+  10009,  "Explore"
+  10010,  "Cut"
+  10011,  "Copy"
+  10012,  "Delete"
+  10013,  "Rename"
+  10014,  "Properties..."
+  10015,  "Stored"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10016,  "Shrunk"
+  10017,  "Reduced"
+  10018,  "Imploded"
+  10019,  "Tokenized"
+  10020,  "Deflated"
+  10021,  "Unknown"
+  10026,  "Type"
+  10027,  "Access to %1 was denied."
+  10028,  "%d of %d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10033,  "Extracting..."
+  10036,  "Select the place where you want to extract the selected item(s).  Then click the OK button."
+  10038,  "The path %1!s! does not exist."
+  10039,  "Ex&tract All..."
+  10041,  "Extracts folder contents"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10055,  "Compressed (zipped) Folders Error"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10066,  "(Archive Root Directory)"
+  10075,  "Invalid Password"
+  10076,  "The password you have entered is invalid. Do you\nwish to enter a new password now?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10080,  "Yes"
+  10081,  "No"
+  10091,  "Compressing..."
+  10093,  "Removing Originals..."
+  10094,  "Although the files were successfully added to the archive, Compressed (zipped) Folders\nwas unable to completely remove the originals (verify that the files\nare not write protected, and that you have sufficient privileges to\nremove them)."
+  10095,  "&Extract..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10097,  "Extract all files from the selected archive(s) to the drop location"
+  10101,  "Compressed (zipped) Folders was unable to create the specified directory.  Ensure that\nthe directory does not already exist, and that the path entered is valid. "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10112,  "Compressed (zipped) Folders"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10129,  "Removing password from files..."
+  10133,  "Compressed (zipped) Folders"
+  10135,  "Extract Compressed (Zipped) Folders"
+  10136,  "This folder already contains a file named '%s'.  Would you like to replace the existing file?"
+  10137,  "Not enough memory to extract the compressed file."
+  10138,  "The specified compressed file is empty."
+  10139,  "Error creating output file."
+  10140,  "Error opening the compressed file."
+  10141,  "Error reading the file"
+  10142,  "File skipped unknown compression method."
+  10143,  "Busy cannot enter now."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10144,  "There is not enough space on the disk to extract the file. "
+  10145,  "No files to extract."
+  10146,  "Unexpected end of file."
+  10148,  "Compressed (zipped) folder"
+  10149,  "An error occurred while performing this operation."
+  10150,  "The Compressed (zipped) Folder is invalid or corrupted."
+  10151,  "Same volume used as both source and destination during extraction from multi volume ZIP file."
+  10152,  "Cannot extract a volume ID Item."
+  10153,  "Bad command structure."
+  10154,  "Bad or missing password."
+  10155,  "Directory does not exist. Create it?"
+  10156,  "Internal logic error."
+  10157,  "Windows cannot create the Compressed (zipped) Folder.\nThe source folder contains too many files."
+  10158,  "Invalid command format."
+  10159,  "Zip file invalid or insufficient memory."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10160,  "Application cancelled operation."
+  10161,  "There is not enough space on the drive to perform this operation."
+  10162,  "The Compressed (zipped) Folder is invalid or corrupted."
+  10163,  "The operation cannot be performed because the file or folder cannot be found."
+  10164,  "Missing or empty Zip file."
+  10165,  "Output file write failure.  Your disk could be full."
+  10166,  "Windows cannot create the Compressed (zipped) Folder.\n\nThe file may be in use."
+  10167,  "Invalid combination of control parameters."
+  10168,  "Could not complete operation."
+  10169,  "Media error, disk not ready, or hardware error."
+  10170,  "File not found or no read permission."
+  10171,  "Invalid combination of multi volume parameters."
+  10172,  "Improper use of multi-volume ZIP file."
+  10173,  "Cannot add a password to files which have '-' or '&' in the file name."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10179,  "PromptFlag"
+  10180,  "Cannot Move a Compressed (zipped) Folder into itself."
+  10184,  "Setup"
+  10185,  "Install"
+  10188,  "Remo&ve Password..."
+  10189,  "The password that you typed is not correct. Try typing it again."
+  10190,  "Invalid password, could not open."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10192,  "There is not enough space on the disk to perform this operation."
+  10193,  "This folder already has a password, please remove the password before trying again."
+  10194,  "New Compressed (zipped) Folder"
+  10195,  "Compressed (zipped) Folder"
+  10196,  "Cannot add a password to an empty Compressed (zipped) Folder."
+  10197,  "Adds a password to folder contents."
+  10198,  "Removes a password from folder contents."
+  10199,  "Could not calculate free space on the drive."
+  10200,  "Cannot copy a Compressed (zipped) Folder onto itself."
+  10201,  "File '%s' is either a read only, system, or hidden file. Would you like to replace the existing file."
+  10202,  "Failed to change the attributes."
+  10203,  "Please insert disk %d of %d."
+  10204,  "An error occurred while opening the ZIP file."
+  10205,  "An error occurred while reading the ZIP file."
+  10206,  "An error occurred while writing to the ZIP file."
+  10207,  "Please insert disk %d."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10208,  "Target Media is NON-Removable and can not be used for a Multi-Volume operation."
+  10209,  "The same volume can not be used as both the source and destination"
+  10210,  "Please insert the first disk of the Multi-Volume set."
+  10211,  "Please insert the last disk of the Multi-Volume set and\nclick OK to continue. "
+  10212,  "Please insert the first disk of the Multi-Volume set and\nclick OK to continue ."
+  10213,  "An error occurred while trying to format the disk."
+  10214,  "This folder already contains a folder named '%1'. Rename the folder you are trying to copy and then perform the operation again."
+  10216,  "Unable to move or copy folder"
+  10217,  "Undo"
+  10218,  "&Customize"
+  10219,  "The file name %1 is too long.  Specify a different file name."
+  10221,  "(Multiple)"
+  10222,  "%d Folders, %d Files"
+  10223,  "%d Folders"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10224,  "%d Files"
+  10226,  "Compressed (zipped) Folder SendTo Target"
+  10227,  "Temp%1_%2\\"
+  10228,  "The specified directory %1!s! is empty, so Compressed (zipped) Folders cannot add it to the archive."
+  10229,  "Unable to complete the operation.\n\nAccess is denied."
+  10230,  "Deflated 64"
+  10231,  "%s, ..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10302,  "Extract all files"
+  10303,  "Extract all files"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10419,  "'%1' cannot be compressed because it includes characters that cannot be used in a compressed folder, such as %2. You should rename this file or directory."
+  10420,  "The compression cannot be performed because the path to the file or directory '%1' is too long."
+  10421,  "Windows cannot complete the extraction.\n\nThe Compressed (zipped) Folder '%1' cannot be found."
+  10422,  "Windows cannot complete the extraction.\n\nAccess to the Compressed (zipped) Folder '%1' is denied."
+  10423,  "Windows cannot complete the extraction.\n\nThe Compressed (zipped) Folder '%1' is invalid."
+  10424,  "Windows cannot complete the extraction.\n\nThe destination folder path is invalid. Please specify a different path."
+  10425,  "Windows cannot complete the extraction.\n\nThe destination folder path cannot be relative. Please specify a different path."
+  10426,  "Windows cannot complete the extraction.\n\nThe destination path is not a directory. Please specify a directory path."
+  10427,  "Windows cannot complete the extraction.\n\nThe path to the Compressed (zipped) Folder '%1' is too long."
+  10428,  "Windows cannot complete the extraction.\n\nThe destination path is too long. Rename the Compressed (zipped) Folder and try again."
+  10429,  "Windows cannot complete the extraction.\n\nThe destination file could not be created."
+  10430,  "Windows cannot complete the extraction.\n\nThe destination folder could not be created."
+  10431,  "Windows cannot complete the extraction.\n\nThe path to the Compressed (zipped) Folder '%1' contains characters that prevent its extraction: %2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10432,  "Windows cannot open the folder.\n\nThe Compressed (zipped) Folder '%1' cannot be found."
+  10433,  "Windows cannot open the folder.\n\nAccess to the Compressed (zipped) Folder '%1' is denied."
+  10434,  "Windows cannot open the folder.\n\nThe Compressed (zipped) Folder '%1' is invalid."
+  10435,  "Windows cannot open the folder.\n\nThe path to the Compressed (zipped) Folder '%1' contains characters that prevent its extraction: %2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10450,  "Windows cannot create the Compressed (zipped) Folder here.\nDo you want it to be placed on the desktop instead?"
+  10451,  "Windows cannot create the Compressed (zipped) Folder because the specified folder is empty."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10500,  "Select a Destination and Extract Files"
+  10506,  "Cannot Complete the Compressed (zipped) Folders Extraction Wizard"
+  10508,  "Cannot Complete the Compressed (zipped) Folders Extraction Wizard"
+  10509,  "The Extraction Operation was not Completed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10512,  "&Extract"
+  10520,  "Select a destination"
+  10521,  "Windows was unable to add one or more empty directories to the Compressed (zipped) Folder."
+}
+
+1 MESSAGETABLE
+{
+  268435508,  "SQM\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Shell-ZipFolder\r\n"
+}

@@ -1,0 +1,164 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Biometric Devices"
+  2,  "Use a fingerprint reader to log on to Windows or with programs that work with biometrics."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  101,  "Biometric Devices"
+  102,  "Welcome to Biometric Devices"
+  103,  "Select by Touch"
+  104,  "Confirm Delete"
+  105,  "Message"
+  106,  "Change settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  120,  "Biometrics"
+  121,  "Use your fingerprint with Windows"
+  122,  "Manage your fingerprint data"
+  123,  "Remove your fingerprint data"
+  124,  "Stop using your fingerprint to log on to Windows"
+  125,  "Change biometric settings"
+  126,  "Device Manager"
+  127,  "User Accounts"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  130,  "Use biometric devices with Windows"
+  131,  "You can use a fingerprint reader to log on to Windows. Some programs also offer features that work with biometrics."
+  132,  "Windows did not find any biometric devices on this computer. You might need to attach your device or install device drivers."
+  133,  "You cannot use biometric devices with this user account. To use biometrics, log on to a different user account."
+  134,  "The Windows Biometric Service is not running on this computer. Contact your system administrator."
+  135,  "Biometrics is turned off on this computer. To use biometrics, click 'Change biometric settings' and then click 'Biometrics on.'"
+  140,  "A fingerprint reader, which is a biometric device, is intended to give you quick, convenient access to your computer.\n\nFingerprint readers vary in security capabilities and it might not be appropriate to use your fingerprint reader to protect data that you wish to keep private, such as personal financial information, or to access sensitive resources, such as corporate networks. You can contact your fingerprint reader provider or fingerprint software provider for additional information regarding the appropriate use of your device.\n\nYou can best protect private and sensitive information on your computer by using technologies that leverage hardware security devices, such as Trusted Platform Modules and smart cards, to enable the secure encryption of your data, and by limiting access with a strong password that you memorize, store in a secure place, or otherwise keep private in a manner that works for you, regardless of whether you use a fingerprint reader. You can also encrypt your data. Some editions of Windows include Encrypting File System to encrypt individual files and folders and BitLocker Drive Encryption to encrypt drives."
+  141,  "Enrolled"
+  142,  "Not enrolled"
+  143,  "Locked by a program"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "Unavailable"
+  145,  "Enrollment in progress"
+  146,  "Why is my device locked?"
+  147,  "Why isn't my device available?"
+  148,  "Why isn't my device available?"
+  150,  "There are no fingerprint readers available at this time"
+  151,  "There are no fingerprint readers attached to this computer or all the fingerprint readers are being used by programs."
+  152,  "Biometrics Disabled"
+  153,  "Biometrics is turned off on this computer. To turn on biometrics, click Change biometric settings in the Biometrics Control Panel."
+  154,  "Biometrics Disabled"
+  155,  "Your system administrator has turned off biometrics on this computer. To turn on biometrics, contact your system administrator."
+  156,  "You have no fingerprint data or logon credentials to remove"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  170,  "Are you sure you want to delete your fingerprint data?"
+  171,  "You will be prompted to enter your Windows password before your fingerprint data is deleted.\nAfter your fingerprint data is deleted, you will need to use your Windows password to log on to this computer.  If you don’t remember your Windows password, you should change it now before you delete your fingerprint data."
+  172,  "Are you sure you want to delete fingerprint data for all users?"
+  173,  "After the fingerprint data is deleted, all users will need to use their Windows password to log on to this computer. Before deleting fingerprint data, make sure all users remember their Windows password. If a user does not remember their Windows password, you should have them change it before you delete their fingerprint data."
+  174,  "Are you sure you want to disable using your fingerprint to log into Windows?"
+  175,  "After disabling fingerprint based logon, all users will need to use their Windows password to log onto this computer. Before disabling this feature, make sure all users remember their Windows password. If a user does not remember their Windows password, you should have them change it before you disable this feature."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "Are you sure you want to disable using your fingerprint to log into a domain?"
+  177,  "After disabling fingerprint based logon, all domain users will need to use their Windows password to log onto this computer. Before disabling this feature, make sure all users remember their Windows password. If a user does not remember their Windows password, you should have them change it before you disable this feature."
+  178,  "Confirm your current password"
+  179,  "Stop using your fingerprint to log on to Windows"
+  180,  "Some settings are managed by your system administrator. <a>Why can't I change some settings?</a>"
+  181,  "Some settings are managed by your system administrator. Why can't I change some settings?"
+  182,  "This program is blocked by group policy. For more information, contact your system administrator."
+  190,  "Off"
+  191,  "On"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "More than one fingerprint reader was found. Touch the scanning surface of the fingerprint reader that you want to use."
+  201,  "An enrollment is already in progress. Finish the enrollment in progress and try again."
+  202,  "Could not detect which fingerprint reader was touched. Try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  210,  "The selected fingerprint reader has no management application installed"
+  211,  "This computer does not have a program that can be used to manage your fingerprint data with this fingerprint reader. To use the fingerprint reader, you need to get a program from your computer manufacturer (if the fingerprint reader is part of your computer) or the fingerprint reader manufacturer."
+  212,  "A fingerprint management application is already running"
+  213,  "Close any open fingerprint management applications and then try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  531,  "Biometric Devices"
+  538,  "Properties"
+  540,  "Welcome to Biometric Devices"
+  542,  "Con&tinue"
+  543,  "&Cancel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  551,  "Select the fingerprint reader that you want to use"
+  552,  "&Cancel"
+  554,  "&Delete"
+  555,  "&Cancel"
+  557,  "&Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  568,  "&Save Changes"
+  569,  "&Cancel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  577,  "Change biometric settings"
+  578,  "These settings control biometrics and fingerprint logon for this computer. If you want to delete biometric data and fingerprint logon information for all users of this computer, turn off biometrics."
+  581,  "For information on creating a strong password, see"
+  582,  "Tips for creating a strong password"
+  583,  "."
+  584,  "Biometrics on"
+  585,  "Biometrics on"
+  586,  "Allow users to log on to Windows using their fingerprints"
+  587,  "Allow users to log on to a domain using their fingerprints"
+  588,  "Biometrics off"
+  589,  "Biometrics off"
+  590,  "Turning off any of these settings will delete saved fingerprint logon information.\nTurning off biometrics also deletes fingerprint records for all users."
+  591,  "Turning off any of these settings will delete saved fingerprint logon information. Turning off biometrics also deletes fingerprint records for all users."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  592,  "Your fingerprint data could not be deleted. You might not have permission to delete the data,  you are currently using a remote connection, or you are currently enrolling fingerprint data."
+  593,  "Your fingerprint data could not be deleted. You might not have permission to delete the data,  you are currently using a remote connection, or you are currently enrolling fingerprint data."
+  594,  "There was a failure while saving your settings. You may not have permission to change the settings or you are currently using a remote connection."
+  595,  "There was a failure while saving your settings. You may not have permission to change the settings or you are currently using a remote connection."
+  596,  "<a>How does a user change their Windows password?</a>"
+  597,  "How does a user change their Windows password?"
+}
+

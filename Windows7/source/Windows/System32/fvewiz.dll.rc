@@ -1,0 +1,510 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  796,  "<None>"
+  797,  "Copy Recovery Key"
+  798,  "Copy Startup Key"
+  799,  "Reset Startup PIN"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "BitLocker Drive Encryption Recovery Key"
+  801,  "The recovery key is used to recover the data on a BitLocker protected drive.\r\n\r\nTo verify that this is the correct recovery key compare the identification with what is presented on the recovery screen.\r\n\r\nRecovery key identification: %1\r\nFull recovery key identification: %2\r\n\r\nBitLocker Recovery Key:\r\n%3"
+  803,  "BitLocker Drive Encryption (%1)"
+  804,  "BitLocker Drive Encryption"
+  805,  "Save BitLocker Recovery Key as"
+  806,  "BitLocker Drive Encryption Error"
+  814,  "Do you want to start BitLocker setup?"
+  815,  "This will reduce disk throughput and should only be used on high performance servers if the computer is not in a physically secure location."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "This will reduce disk throughput and should only be used on high performance servers if the computer is not in a physically secure location.\n\nTurning BitLocker Drive Encryption on will delete any volume snapshot backups that have been created."
+  827,  "&Close"
+  828,  "&Save"
+  831,  "Start &Encrypting"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  832,  "&Set PIN"
+  834,  "Text Files;*.txt;All Files;*.*;;"
+  843,  "BitLocker Drive Encryption"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  861,  "An internal error with bad markup has occurred."
+  863,  "An unsupported mode has been called."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  870,  "This drive has no keys."
+  872,  "Cannot encrypt the drive"
+  877,  "Wizard initialization has failed."
+  878,  "This is not a valid drive to encrypt."
+  879,  "Cannot run."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  880,  "This location cannot be used."
+  885,  "Save a Recovery Key to a USB Drive"
+  886,  "&Save"
+  887,  "Insert the USB device, select it in the list, and click Save."
+  888,  "Do you want to save the recovery key on this computer?"
+  889,  "We strongly recommend that you save your recovery key in a safe location separate from this computer, such as a network drive."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  897,  "\nThis page is a backup of Trusted Platform Module (TPM) owner\nauthorization information. Upon request, use the authorization information to\nprove ownership of the computer's TPM.\n\n\nIMPORTANT: Please keep this file in a secure location away from your computer's\nlocal hard drive.\n"
+  898,  "The Trusted Platform Module (TPM) owner password is:"
+  899,  "&Restart"
+  900,  "&Shutdown"
+  901,  "TPM security hardware was not turned on"
+  902,  "Turn on the TPM security hardware\r\n\r\nYou must turn on the TPM to use BitLocker.\r\n\r\nFollow these steps:\r\n\r\n"
+  903,  "&Continue"
+  910,  "Initializing the TPM security hardware"
+  911,  "Please wait while BitLocker initializes the TPM security hardware. This might take a few minutes."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  912,  "Starting BitLocker"
+  913,  "Please wait while BitLocker initializes the drive."
+  920,  "Turn on &BitLocker..."
+  921,  "Resume &BitLocker protection"
+  922,  "Your password has been changed."
+  923,  "This password is the only way to unlock this drive. Add another unlocking method before removing password."
+  924,  "Automatic unlocking is the only way to unlock this drive. Add another unlocking method before removing automatic unlocking."
+  925,  "Do you want to continue?"
+  926,  "This drive was encrypted on a computer running Windows Vista. If you continue and add a new unlocking method, you won't be able to unlock this drive with Windows Vista."
+  927,  "Please insert your smart card"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  928,  "Checking your computer's configuration"
+  929,  "BitLocker is verifying that your computer meets its system requirements. This might take a few minutes."
+  930,  "Restart &Now"
+  931,  "Restart &Later"
+  932,  "Your computer's startup (boot) files will be moved to the recovery partition, which will become the system drive."
+  933,  "Boot files will be moved to disk %1!u! partition %2!u!, which will become the system drive."
+  934,  "Boot files will be moved to drive %1!c!:, which will become the system drive."
+  935,  "A new system drive will be created from unallocated space on the hard drive. The new drive will not have a drive letter."
+  936,  "A new system drive will be created from free space on disk %1!u! partition %2!u!. The new drive will not have a drive letter."
+  937,  "A new system drive will be created from free space on drive %1!c!:. The new drive will not have a drive letter."
+  938,  "Shrinking drive %1!c!:"
+  939,  "Shrinking disk %1!u! partition %2!u!"
+  940,  "Creating new system drive"
+  941,  "Preparing drive for BitLocker"
+  942,  "This smart card is the only way to unlock this drive. Add another unlocking method before removing smart card."
+  943,  "Remove the smart card?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  944,  "Once removed, you will not be able to use a smart card to unlock this drive."
+  945,  "Windows Recovery Environment will be moved to your system or recovery drive."
+  946,  "Creating new Windows Recovery Environment drive"
+  947,  "Moving Windows Recovery Environment to recovery drive"
+  948,  "A new recovery drive will be created from free space on drive %1!c!:. The new drive will not have a drive letter."
+  949,  "Manage &BitLocker..."
+  950,  "A PIN consists of numerals and can be %1!u! to %2!u! digits in length."
+  951,  "A PIN consists of characters and can be %1!u! to %2!u! characters in length."
+  952,  "Cancelling BitLocker Drive Encryption"
+  953,  "Do not remove your drive until this process has completed."
+  954,  "Starting encryption"
+  955,  "Do not remove your drive until encryption begins."
+  956,  "Other people are logged on to this computer. Restarting it might cause them to lose data.\r\n\r\nAre you sure you want to restart this computer?"
+  957,  "Please wait while encryption begins."
+  958,  "Do you want to exit before BitLocker setup is completed?"
+  959,  "If you exit now, your drive will not be protected by BitLocker."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  960,  "Do not remove your drive during BitLocker setup."
+  961,  "You will be able to unlock this drive using a password."
+  962,  "You will be able to unlock this drive using a smartcard."
+  963,  "You will be able to unlock this drive using a password and smartcard."
+  964,  "This drive will automatically unlock on this computer."
+  965,  "BitLocker Recovery Key %1!08X!-%2!04X!-%3!04X!-%4!02X!%5!02X!-%6!02X!%7!02X!%8!02X!%9!02X!%10!02X!%11!02X!"
+  966,  "Bootable media changes the system boot information used by BitLocker for system security."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1764,  "A recovery key is different from your PIN or Startup key. It is used to access your files and folders if a problem with your computer prevents you from doing so."
+  1773,  "Save your Startup Key"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1781,  "The selected drive is {}"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1818,  "Before you turn on the TPM hardware for this computer, remove any CDs, DVDs, or USB flash drives from the computer and shutdown.\r\n\r\nTurn on your computer after shutdown. Follow the instructions to turn on the TPM when your computer boots."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1825,  "Save your Startup Key"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1843,  "Configure Startup Options"
+  1847,  "Recovery Key Page"
+  1849,  "PIN Key Page"
+  1851,  "Startup Key Page"
+  1853,  "Encrypt Page"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1859,  "Manage Keys Page"
+  1861,  "Turn On TPM"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1874,  "Task Progress"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1897,  "Insert a removable USB memory device and select its drive, then click Save."
+  1898,  "&D"
+  1899,  "&Drives"
+  1900,  "Drives list."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1912,  "&Run BitLocker system check"
+  1918,  "&D"
+  1919,  "&Drives"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1920,  "Drives list."
+  1926,  "Warning!"
+  1927,  "Status Message Here"
+  1928,  "Set BitLocker startup preferences"
+  1929,  "Set BitLocker startup preferences"
+  1930,  "A personal identification number (PIN) or a startup key on a USB flash drive is required every time you start the computer."
+  1931,  "This computer does not appear to have a TPM. To use BitLocker Drive Encryption, a startup key on a USB flash drive will be required every time you start the computer."
+  1932,  "You can require a personal identification number (PIN) or a startup key on a USB flash drive be used every time you start the computer."
+  1933,  "<a>What is a BitLocker Drive Encryption startup key or PIN?</a>"
+  1934,  "What is a BitLocker Drive Encryption startup key or PIN?"
+  1935,  "Require a &PIN at every startup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1936,  "Require a &Startup key at every startup"
+  1937,  "Use Bit&Locker without additional keys"
+  1944,  "How do you want to store your recovery key?"
+  1945,  "How do you want to store your recovery key?"
+  1946,  "Save the recovery key to a USB flash &drive"
+  1948,  "&Print the recovery key"
+  1949,  "Save the recovery key to a &file"
+  1950,  "Enter a startup PIN"
+  1951,  "Enter a startup PIN"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1952,  "<a>What is a BitLocker Drive Encryption PIN?</a>"
+  1953,  "What is a BitLocker Drive Encryption PIN?"
+  1954,  "&PIN:"
+  1955,  "_"
+  1956,  "Enter PIN"
+  1958,  "&Confirm PIN:"
+  1959,  "_"
+  1960,  "Confirm PIN"
+  1961,  "Are you ready to encrypt this drive?"
+  1962,  "Encrypt the drive"
+  1963,  "Note: This check can take some time but is recommended because there is a risk that you might need to enter the recovery key to unlock the drive."
+  1966,  "Select options to manage"
+  1967,  "Select options to manage"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1968,  "Save or print recovery &key again"
+  1970,  "Duplicate the &startup key"
+  1972,  "&Reset the PIN"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1988,  "The system check will ensure that BitLocker can read the recovery and encryption keys correctly before encrypting the drive.\r\n\r\nBitLocker will restart your computer to test the system before encrypting."
+  1989,  "You can keep working while the drive is being encrypted. Your computer's performance will be affected and free space will be used by BitLocker during encryption."
+  1996,  "Information!"
+  1997,  "Error!"
+  1999,  "Turn on the TPM security hardware"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "Turn on the TPM security hardware"
+  2007,  "You must turn on the TPM to use BitLocker.\r\n\r\nThis computer requires you to turn on the Trusted Platform Module (TPM) manually. Consult the computer manufacturer's documentation for instructions.\r\n\r\nAfter you have turned on the TPM, restart this wizard."
+  2008,  "Before you turn on the TPM hardware for this computer, remove any CDs, DVDs, or USB flash drives from the computer and restart.\r\n\r\nFollow the instructions to turn on the TPM when your computer restarts."
+  2009,  "The system check will ensure that BitLocker can read the recovery and encryption keys correctly before encrypting the drive.\r\n\r\nInsert the USB memory device containing your saved recovery key. BitLocker will restart your computer before encrypting."
+  2014,  "UnlockOptions"
+  2015,  "Choose how you want to unlock this drive"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2016,  "Choose how you want to unlock this drive"
+  2017,  "Use a &password to unlock the drive"
+  2020,  "&Automatically unlock this drive on this computer"
+  2022,  "Password"
+  2023,  "Create a password to unlock this drive"
+  2024,  "Create a password to unlock this drive"
+  2025,  "You should create a strong password that uses upper and lower case letters, numbers, symbols, and spaces."
+  2026,  "Type your &password:"
+  2027,  "_"
+  2028,  "Enter Password"
+  2029,  "Retype your p&assword:"
+  2030,  "_"
+  2031,  "Confirm Password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2032,  "<a>How do I use these options?</a>"
+  2033,  "How do I use these options?"
+  2036,  "<a>Tips for creating a strong password.</a>"
+  2037,  "Tips for creating a strong password."
+  2038,  "Add a &password to unlock the drive"
+  2040,  "Change &password to unlock the drive"
+  2042,  "&Remove password from this drive"
+  2044,  "&Automatically unlock this drive on this computer"
+  2046,  "Turn off &automatic unlocking for this drive on this computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2048,  "If you forget your password or lose your smartcard, you can use your recovery key to access your drive.\r\n\r\nWe recommended that you save your recovery key to a file and print it."
+  2049,  "<a>What is a recovery key?</a>"
+  2050,  "Why should I save the BitLocker recovery key?"
+  2054,  "Encryption might take a while depending on the size of the drive.\r\n\r\nUntil encryption is complete your files will not be protected."
+  2057,  "Type your password:"
+  2058,  "_"
+  2059,  "Enter Password"
+  2060,  "_"
+  2061,  "Confirm Password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2064,  "Use my &smart card to unlock the drive"
+  2065,  "You will need to insert your smart card. The smart card PIN will be required when you unlock the drive."
+  2066,  "Checked"
+  2067,  "Failed"
+  2068,  "Description"
+  2069,  "warning"
+  2070,  "Message"
+  2075,  "Required Steps Page"
+  2076,  "BitLocker Drive Encryption setup"
+  2077,  "BitLocker Drive Encryption setup"
+  2078,  "The following preparations will be made on this computer to enable BitLocker."
+  2079,  "Prepare your drive for BitLocker"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2080,  "Turn on the TPM security hardware"
+  2081,  "Encrypt the drive"
+  2082,  "<a>What are BitLocker's system requirements?</a>"
+  2083,  "What are BitLocker's system requirements?"
+  2084,  "Drive Preparation Plan Page"
+  2085,  "Preparing your drive for BitLocker"
+  2086,  "Preparing your drive for BitLocker"
+  2087,  "An existing drive or unallocated free space on the hard drive will be used to enable BitLocker."
+  2088,  "Drive repartition plan message"
+  2089,  "Caution:"
+  2090,  "We recommend that you back up critical files and data before continuing."
+  2091,  "<a>Use Backup and Restore Center to perform a backup</a>"
+  2092,  "This process might take awhile, depending on the size and fragmentation condition of the drive."
+  2093,  "<a>How does drive preparation work?</a>"
+  2094,  "How does drive preparation work?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2101,  "Drive Preparation Page"
+  2102,  "Preparing your drive for BitLocker"
+  2103,  "Preparing your drive for BitLocker"
+  2104,  "Do not turn off or restart your computer until this process has been completed."
+  2105,  "Do not turn off or restart your computer until this process has been completed."
+  2106,  "Status:"
+  2107,  "Status"
+  2108,  "Drive Preparation Complete Page"
+  2109,  "Drive preparation is complete"
+  2110,  "Drive preparation is complete"
+  2111,  "You need to restart your computer to finish preparing the system drive for BitLocker.\r\n\r\nSave and close any open files or programs before restarting."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2112,  "Add a &smart card to unlock the drive"
+  2114,  "Remove a &smart card from this drive"
+  2116,  "<a>What is the TPM?</a>"
+  2117,  "What is the TPM?"
+  2118,  "The following preparations will be made on this computer to enable BitLocker."
+  2119,  "Prepare your drive for BitLocker"
+  2120,  "Turn on the TPM security hardware"
+  2121,  "Encrypt the drive"
+  2122,  "You will no longer be able to use Windows Recovery Environment if you enable BitLocker."
+  2123,  "Details"
+  2124,  "Details"
+  2126,  "Caution"
+  2127,  "We recommend that you back up critical files and data before continuing."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2128,  "Use Backup and Restore Center to perform a backup"
+  2129,  "This process might take awhile, depending on the size and fragmentation condition of the drive."
+  2134,  "Toggle More Details"
+  2135,  "Show or hide the repartition plan message"
+  2136,  "A PIN consists of numerals and can be X to Y digits in length."
+  2140,  "Task progress"
+  2141,  "Warning!"
+  2142,  "Do not remove your drive during BitLocker setup."
+  2143,  "You will be able to unlock this drive on computers running Windows using a {x} and {y}. {This drive will automatically unlock on this computer.}"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2144,  "Passwords should contain upper and lowercase letters, numbers, spaces, and symbols."
+  2145,  "Retype your password:"
+  2146,  "Information icon."
+  2147,  "Warning icon."
+  2148,  "Error icon."
+  2149,  "checked icon"
+  2150,  "Failed icon"
+  2151,  "warning icon"
+  2152,  "PIN edit field"
+  2153,  "PIN confirmation edit field"
+  2154,  "List of removable drives"
+  2155,  "Warning icon."
+  2156,  "Password edit field"
+  2157,  "Password confirmation edit field"
+  2158,  "Password edit field"
+  2159,  "Password confirmation edit field"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2160,  "List of removable drives"
+}
+
+1 MESSAGETABLE
+{
+  10551309,  "Your startup PIN has been set. We strongly recommend that you store the PIN in a safe location, separate from this computer.\r\n"
+  10551315,  "Your recovery key has been saved.\r\n"
+  10551319,  "Your recovery key was printed.\r\n"
+  10551325,  "Your USB flash drive now contains the startup key for this computer.\r\n"
+  10551326,  "The selected drive is %1!s!\r\n"
+  1084293121,  "Some settings are managed by your system administrator.\r\n"
+  1084293146,  "We strongly recommended that you save the recovery password in a safe location, separate from this computer. If the recovery password is stored on an unencrypted drive on this computer, it might be easily retrieved if this computer is lost or stolen.\r\n"
+  2158034997,  "You will only be able to unlock this drive on computers running Windows 7. If you want to unlock the drive on computers running other versions of Windows, click the back button and create a password.\r\n"
+  3231776770,  "This drive is not encrypted so there are no encryption options to manage.\r\n"
+  3231776771,  "BitLocker Drive Encryption is already on.\r\n"
+  3231776772,  "BitLocker Drive Encryption is already in progress.\r\n"
+  3231776773,  "BitLocker Drive Encryption is still decrypting.\r\n"
+  3231776774,  "The TPM owner password cannot be saved. Contact your system administrator for more information.\r\n"
+  3231776775,  "The startup options on this computer are configured incorrectly. Contact your system administrator for more information.\r\n"
+  3231776776,  "The Trusted Platform Module (TPM) on this computer does not work with the current BIOS. Contact the computer manufacturer for BIOS upgrade instructions.\r\n"
+  3231776777,  "This computer is not configured to use BitLocker Drive Encryption. The boot manager is not compatible with BitLocker. Update the boot manager (BOOTMGR).\r\n"
+  3231776778,  "The Trusted Platform Module (TPM) on this computer is not configured correctly. To initialize the TPM, click the ""TPM Administration"" link in the BitLocker Control Panel.\r\n"
+  3231776779,  "You cannot create both a recovery password and a recovery key. Contact your system administrator for more information.\r\n"
+  3231776780,  "You cannot create both a recovery password and a recovery key. A recovery password cannot be created because it does not comply with the current security policy regarding the use of FIPS algorithms. Contact your system administrator for more information.\r\n"
+  3231776782,  "The two PIN entries must be identical. Try again.\r\n"
+  3231776783,  "The PIN does not meet the minimum length requirements.\r\n"
+  3231776784,  "The PIN must be digits between 0 and 9.\r\n"
+  3231776785,  "The passwords do not match.\r\n"
+  3231776786,  "The password provided does not meet minimum length requirements.\r\n"
+  3231776788,  "Your recovery key could not be saved to this location. Save the recovery key to a different location.\r\n"
+  3231776789,  "Your recovery key could not be saved to this location. Save the recovery key to a different location.\r\n"
+  3231776790,  "Your recovery key cannot be saved in the root directory of a non-removable drive. Save your key to a different location.\r\n"
+  3231776792,  "Your recovery key could not be printed. Try again.\r\n"
+  3231776793,  "Your recovery key cannot be saved to an encrypted drive. Save your key to a different location.\r\n"
+  3231776795,  "The recovery key could not be created. Try again or restart the BitLocker.\r\n"
+  3231776796,  "The startup key could not be created. Try again or restart the BitLocker Wizard.\r\n"
+  3231776799,  "Your startup key could not be saved to this location. Save the startup key to a different location.\r\n"
+  3231776800,  "Manage BitLocker cannot open because there are no keys to manage.\r\n"
+  3231776801,  "Your Active Directory Domain Services schema is not configured to run BitLocker Drive Encryption. Contact your system administrator.\r\n"
+  3231776802,  "The drive configuration is unsuitable for BitLocker Drive Encryption. To use BitLocker, please uninstall clustering services.\r\n"
+  3231776803,  "This version of Windows does not support BitLocker Drive Encryption. To use BitLocker Drive Encryption, upgrade to a version of Windows that supports BitLocker.\r\n"
+  3231776804,  "BitLocker Drive Encryption cannot be turned on in safe mode.\r\n"
+  3231776805,  "Use the BitLocker Control Panel to monitor the status of BitLocker Drive Encryption.\r\n"
+  3231776806,  "Select a USB device from the list, and then click Save.\r\n"
+  3231776807,  "The Trusted Platform Module (TPM) has not been turned on. Try again or contact the computer manufacturer for BIOS upgrade instructions.\r\n"
+  3231776808,  "The Trusted Platform Module (TPM) has not been turned on in the BIOS. Try again.\r\n"
+  3231776809,  "Your system administrator has blocked all BitLocker unlock options. Contact your system administrator for more information.\r\n"
+  3231776810,  "A certificate suitable for BitLocker cannot be found on your smart card.\r\n"
+  3231776811,  "This computer requires a startup option that isn't supported by BitLocker setup. Please contact your system administrator to enable BitLocker.\r\n"
+  3231776812,  "You will no longer be able to use Windows Recovery Environment unless it is manually enabled and moved to the system drive.\r\n"
+  3231776813,  "A compatible Trusted Platform Module (TPM) Security Device must be present on this computer, but a TPM was not found. Please contact your system administrator to enable BitLocker.\r\n"
+  3231776814,  "A problem occurred during BitLocker setup.  You may need to restart BitLocker setup to continue.\r\nError code: %1!#.8x!\r\n"
+  3231776815,  "BitLocker could not contact the domain. Ensure that you are connected to the network or contact your system administrator.\r\n"
+  3231776816,  "There are conflicting settings for recovery options. Contact your system administrator. When a recovery password is required, backup to active directory should be turned on or the user should be required to save the recovery password.\r\n"
+  3231776817,  "There are conflicting settings for recovery options. Contact your system administrator. Users cannot be disallowed from saving the recovery key when it is required.\r\n"
+  3231776818,  "There are conflicting settings for recovery options. Contact your system administrator. Backup to Active Directory must be turned on or the use of data recovery agents enabled for recovery.\r\n"
+  3231776819,  "BitLocker setup was unable to move Windows Recovery Environment to your new system drive. You will no longer be able to use Windows Recovery Environment unless it is manually enabled and moved to the system drive.\r\n"
+  3231776820,  "A smart card was not detected. Insert your smart card and try again.\r\n"
+  3231776822,  "The operating system drive must be protected by BitLocker to automatically unlock a fixed data drive.\r\n"
+}
