@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod settings</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Application</string>
+    <string name="application_settings_title_subhead">Application settings</string>
+    <string name="application_settings_summary_head">Application moving, install location, communication filtering</string>
+    <string name="display_settings_title_head">Display</string>
+    <string name="display_settings_title_subhead">Display settings</string>
+    <string name="display_settings_summary_head">Display animations, rotation, timeouts</string>
+    <string name="input_settings_title_head">Input</string>
+    <string name="input_settings_title_subhead">Input settings</string>
+    <string name="input_settings_summary_head">Input behavior, buttons, haptic feedback</string>
+    <string name="interface_settings_title_head">Interface</string>
+    <string name="interface_settings_title_subhead">Interface settings</string>
+    <string name="interface_settings_summary_head">Interface tweaks, overscrolling, render effect</string>
+    <string name="lockscreen_settings_title_head">Lockscreen</string>
+    <string name="lockscreen_settings_title_subhead">Lockscreen settings</string>
+    <string name="lockscreen_settings_summary_head">Lockscreen gestures, style, unlock options</string>
+    <string name="performance_settings_title_head">Performance</string>
+    <string name="performance_settings_title_subhead">Performance settings</string>
+    <string name="performance_settings_summary_head">Performance tweaks, JIT, VM heap size</string>
+    <string name="sound_settings_title_head">Sound</string>
+    <string name="sound_settings_title_subhead">Sound settings</string>
+    <string name="sound_settings_summary_head">Sound volumes, audio focus, quiet hours</string>
+    <string name="system_settings_title_head">System</string>
+    <string name="system_settings_title_subhead">System settings</string>
+    <string name="system_settings_summary_head">System changelog, stats, update notifications</string>
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notifications</string>
     <string name="updatenotify_summary">Get push notifications of updates.</string>
@@ -98,8 +124,12 @@
     <string name="input_settings_summary">Control button behavior</string>
     <string name="button_settings_title">Button settings</string>
     <string name="lockscreen_settings_title">Lockscreen settings</string>
+    <string name="pref_lockscreen_always_battery_title">Always display battery status</string>
+    <string name="pref_lockscreen_always_battery_summary">Display battery status on the lockscreen at all times</string>
     <string name="pref_lockscreen_music_controls_title">Lockscreen music controls</string>
     <string name="pref_lockscreen_music_controls_summary">Displays music controls on the lockscreen</string>
+    <string name="pref_lockscreen_music_headset_title">Display music controls with headset</string>
+    <string name="pref_lockscreen_music_headset_summary">Display music controls when a wired headset and/or Bluetooth A2DP headset is connected</string>
     <string name="pref_lockscreen_always_music_controls_title">Always display music controls</string>
     <string name="pref_lockscreen_always_music_controls_summary">Display music controls regardless of whether or not music is playing</string>
     <string name="pref_trackball_wake_title">Trackball wake</string>
@@ -110,11 +140,23 @@
     <string name="pref_menu_unlock_summary">Pressing the menu button unlocks the device</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Quick Unlock</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">No need to press OK when entering Pin or Password. Delete counts as bad try.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Phone and Messaging</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Phone and Messaging accessible from Lockscreen.</string>
-    <string name="pref_messaging_tab_app_title">Messaging tab application</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Custom app starter</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Shows a second slider on sliding style, shows a custom app dimple on rotary style</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Custom application</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Message icon for custom app</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Uses message icon instead of cm icon for custom app starter</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Drag down to unlock</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Dragging down rotary wheel unlocks. Dragging right starts custom app</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Hide rotary arrows</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Hides the directional hint arrows on rotary style</string>
+    <string name="lockscreen_style_header">Style preferences</string>
+    <string name="lockscreen_delay_header">Delay and timeout</string>
     <string name="pref_lockscreen_style_title">Lockscreen style</string>
     <string name="pref_lockscreen_style_summary">Choose the style of the lockscreen</string>
+    <string name="pref_volbtn_music_controls_title">Volume button music controls</string>
+    <string name="pref_volbtn_music_controls_summary">Seek music tracks when long-pressing the volume buttons while screen off</string>
+    <string name="pref_cambtn_music_controls_title">Camera button music control</string>
+    <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Long-press home settings</string>
@@ -221,6 +263,7 @@
     <string name="haptic_default_toast">Loading hard-coded defaults</string>
 
     <string name="general_title">General</string>
+    <string name="buttons_title">Buttons</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Power prompt</string>
@@ -253,6 +296,9 @@
     <string name="expanded_color_mask">Indicator color</string>
     <string name="title_widget_picker">Widget buttons</string>
     <string name="summary_widget_picker">Pick your widget buttons</string>
+    <string name="title_widget_order">Widget button order</string>
+    <string name="summary_widget_order">Order your widget buttons</string>
+    <string name="title_buttons">Buttons</string>
     <string name="title_toggle_wifi">Toggle Wifi</string>
     <string name="title_toggle_bluetooth">Toggle Bluetooth</string>
     <string name="title_toggle_gps">Toggle GPS</string>
@@ -268,6 +314,9 @@
     <string name="title_toggle_airplane">Toggle Airplane mode</string>
     <string name="title_toggle_flashlight">Toggle LED flashlight</string>
     <string name="title_toggle_sleep">Go to sleep</string>
+    <string name="title_toggle_media_play_pause">Media: Toggle Play/Pause</string>
+    <string name="title_toggle_media_previous">Media: Skip to Previous</string>
+    <string name="title_toggle_media_next">Media: Skip to Next</string>
     <string name="title_button_modes">Button modes</string>
     <string name="pref_brightness_mode_title">Brightness modes</string>
     <string name="pref_brightness_mode_summary">Choose how the brightness button changes modes</string>
@@ -363,6 +412,7 @@
 
     <string name="cmstats_title">Anonymous statistics</string>
     <string name="cmstats_summary">Help make CM better by opting-in to anonymous statistics reporting</string>
+
     <string name="user_defined_key1">Quick Key 1</string>
     <string name="user_defined_key2">Quick Key 2</string>
     <string name="user_defined_key3">Quick Key 3</string>
@@ -395,6 +445,7 @@
     <string name="pref_lockscreen_disable_unlock_tab">Disable unlock slider</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: You need to enable trackball, menu key, or gesture unlocking before this option becomes available</string>
     <string name="gestures_explain_create_screen">Pick an action to perform (or select Unlock or Sound) and draw a gesture on the screen.</string>
+    <string name="gestures_already_present">Warning: A similar gesture is associated to another action!</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">View changelog</string>
@@ -403,4 +454,63 @@
     <string name="changelog_error">Error loading changelog...</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Period</string>
+    <string name="category_phone_goggles_confirmation">Confirmation</string>
+    <string name="category_phone_goggles_filter">Filters</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">Default settings</string>
+    <string name="title_phone_goggles_apps">Filtered applications</string>
+    <string name="title_phone_goggles_app_enabled">Enable Phone Goggles</string>
+    <string name="title_phone_goggles_use_custom">Use custom settings</string>
+    <string name="title_phone_goggles_filter">Filtered numbers</string>
+    <string name="title_phone_goggles_enabled">Enable phone goggles</string>
+    <string name="title_phone_goggles_start">Start of phone goggles mode</string>
+    <string name="title_phone_goggles_end">End of phone goggles mode</string>
+    <string name="title_phone_goggles_confirmation_enabled">Request for confirmation</string>
+    <string name="title_phone_goggles_phone_enabled">Phone</string>
+    <string name="title_phone_goggles_sms_enabled">SMS</string>
+    <string name="title_phone_goggles_maths_level">Math level</string>
+    <string name="title_phone_goggles_work_filtered">Work</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobile</string>
+    <string name="title_phone_goggles_other_filtered">Other</string>
+    <string name="summary_phone_goggles">Filter outgoing communications</string>
+    <string name="summary_phone_goggles_default">Sets the default settings</string>
+    <string name="summary_phone_goggles_filter">Select the type of phone numbers you want to filter</string>
+    <string name="summary_phone_goggles_start">When to start filtering outgoing calls</string>
+    <string name="summary_phone_goggles_end">When to end filtering outgoing calls</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Select which way the confirmation should be requested before filtering the communication</string>
+    <string name="summary_phone_goggles_maths_level">Level of the math problems asked before authorizing a communication</string>
+    <string name="summary_on_phone_goggles_enabled">Outgoing communications will be filtered</string>
+    <string name="summary_on_phone_goggles_use_custom">Use custom settings</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles is enabled for this application</string>
+    <string name="summary_on_phone_goggles_work_filtered">Professional communications will be filtered</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Communications to mobile phones will be filtered</string>
+    <string name="summary_on_phone_goggles_other_filtered">Communications to other phones will be filtered</string>
+    <string name="summary_off_phone_goggles_enabled">No communication will be filtered</string>
+    <string name="summary_off_phone_goggles_use_custom">Use default settings</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles is disabled for this application</string>
+    <string name="summary_off_phone_goggles_work_filtered">Professional communications will not be filtered</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">No communications to mobile phones will be filtered</string>
+    <string name="summary_off_phone_goggles_other_filtered">No communications to other phones will be filtered</string>
+    <string name="phone_goggles_maths_level_easy">Easy</string>
+    <string name="phone_goggles_maths_level_medium">Medium</string>
+    <string name="phone_goggles_maths_level_hard">Hard</string>
+    <string name="phone_goggles_confirmation_none">None</string>
+    <string name="phone_goggles_confirmation_prompt">Prompt</string>
+    <string name="phone_goggles_confirmation_maths">Math problems</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU settings</string>
+    <string name="cpu_title">CPU settings</string>
+    <string name="cpu_summary">Governor and clock settings</string>
+    <string name="cpu_governors_title">Available governors</string>
+    <string name="cpu_governors_summary">List of available governors\nCurrently selected: %S</string>
+    <string name="cpu_min_freq_title">Min CPU frequency</string>
+    <string name="cpu_min_freq_summary">Minimum CPU frequency\nCurrently: %s</string>
+    <string name="cpu_max_freq_title">Max CPU frequency</string>
+    <string name="cpu_max_freq_summary">Maximum CPU frequency\nCurrently: %s</string>
+    <string name="cpu_set_on_boot">Set on boot</string>
+    <string name="cpu_set_on_boot_summary">Restore CPU settings on boot</string>
 </resources>
