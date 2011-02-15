@@ -1,38 +1,10 @@
-1 MUI "Data_10.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 1 MESSAGETABLE
 {
-805306369,  	"Start"
-805306370,  	"Stop"
-1342177284,  	"Information"
--1879048191,  	"Microsoft-Windows-TabletPC-Platform-Manipulations"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-TabletPC-Platform-Manipulations\r\n"
 }
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Microsoft Tablet PC Real Time Stylus Platform Component"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "RTSCom.dll"
-		VALUE "LegalCopyright", "Copyright (c) Microsoft Corp.  All rights reserved."
-		VALUE "OriginalFilename", "RTSCom.dll.mui"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
-}
-
