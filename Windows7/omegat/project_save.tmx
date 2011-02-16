@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 Status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T145049Z" changeid="eratyk">
+        <seg>Стан &quot;%1&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 [Active]</seg>
       </tuv>
       <tuv lang="be" changedate="20101223T185445Z" changeid="eratyk">
@@ -2250,6 +2258,46 @@
       </tuv>
       <tuv lang="be" changedate="20100715T061116Z" changeid="eratyk">
         <seg>%d%% вольна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d.%1d Gbps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T144940Z" changeid="eratyk">
+        <seg>%d.%1d Гбіт/с</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d.%1d Kbps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093805Z" changeid="eratyk">
+        <seg>%d.%1d кбіт/c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d.%1d Mbps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093839Z" changeid="eratyk">
+        <seg>%d.%1d Мбіт/с</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d.%1d Tbps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T144958Z" changeid="eratyk">
+        <seg>%d.%1d Тбіт/с</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d.%1d bps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093800Z" changeid="eratyk">
+        <seg>%d.%1d біт/с</seg>
       </tuv>
     </tu>
     <tu>
@@ -7160,8 +7208,8 @@
       <tuv lang="en">
         <seg>&amp;Resolve online now</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T125715Z" changeid="eratyk">
-        <seg>Вырашыць праблему праз сеціва</seg>
+      <tuv lang="be" changedate="20110216T161844Z" changeid="eratyk">
+        <seg>Вырашыць праз сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -8632,8 +8680,8 @@
       <tuv lang="en">
         <seg>&amp;View Bluetooth Network Devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20110130T110042Z" changeid="eratyk">
-        <seg>Прагледзець прылады сеткі Bluetooth</seg>
+      <tuv lang="be" changedate="20110215T075730Z" changeid="eratyk">
+        <seg>Прагледзець прылады Bluetooth-сеткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -9386,6 +9434,14 @@
       </tuv>
       <tuv lang="be" changedate="20100921T194404Z" changeid="eratyk">
         <seg>(рэкамендавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(unknown)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151137Z" changeid="eratyk">
+        <seg>(невядома)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12078,6 +12134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;No Connections Found&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093524Z" changeid="eratyk">
+        <seg>&lt;Злучэнні не знойдзены&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;No information available&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T195021Z" changeid="eratyk">
@@ -12086,10 +12150,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;None&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151446Z" changeid="eratyk">
+        <seg>&lt;Адсутнічае&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;P&gt;Picture Attachments:&lt;/P&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T080944Z" changeid="eratyk">
         <seg>&lt;P&gt;Відарысы-прычэпкі:&lt;/P&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;Unavailable&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151437Z" changeid="eratyk">
+        <seg>&lt;Недаступна&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12662,6 +12742,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A client provides access to computers and files on the network you are connecting to.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T120833Z" changeid="eratyk">
+        <seg>Кліент дае доступ да камп'ютараў і файлаў, з якімі вы злучаныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A connection attempt is already in progress.</seg>
       </tuv>
       <tuv lang="be" changedate="20110203T094028Z" changeid="eratyk">
@@ -13138,6 +13226,14 @@
       </tuv>
       <tuv lang="be" changedate="20100319T070932Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Праграма, якая ажыццяўляе патэнцыяльна небяспечныя дзеянні, аб чым паведамляецца карыстальніку. Гэтыя дзеянні могуць паўплываць на прыватнасць карыстальніка, бяспеку або прадуктыўнасць сістэмы. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A protocol is a language your computer uses to communicate with other computers.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T121055Z" changeid="eratyk">
+        <seg>Пратакол - гэта мова, якую карыстае ваш камп'ютар для зносінаў з іншымі камп'ютарамі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14166,6 +14262,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Activate the selected connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T073856Z" changeid="eratyk">
+        <seg>Актываваць вылучанае злучэнне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Activate this window</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163405Z" changeid="eratyk">
@@ -14734,6 +14838,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Add the currently selected connection(s) to the network bridge.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074925Z" changeid="eratyk">
+        <seg>Дадаць вылучаныя зараз злучэнні да сеткавага моста.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Add the folder in the browser to Favorites.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T174618Z" changeid="eratyk">
@@ -15202,6 +15314,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T184120Z" changeid="eratyk">
         <seg>Дадатковы пошук</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Advanced Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T092631Z" changeid="eratyk">
+        <seg>Дадатковыя налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -16342,10 +16462,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>An error occurred while Internet Connection Sharing was being disabled.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T123603Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас выключэння агульнага доступу злучэння з сецівам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while Internet Connection Sharing was being enabled.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T123446Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас уключэння агульнага доступу злучэння з сецівам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>An error occurred while copying the file.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T131822Z" changeid="eratyk">
-        <seg>Памылка падчас капіявання файла.</seg>
+      <tuv lang="be" changedate="20110215T122802Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас капіявання файла.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16360,8 +16496,8 @@
       <tuv lang="en">
         <seg>An error occurred while moving the file.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T132158Z" changeid="eratyk">
-        <seg>Памылка падчас перамяшчэння файла.</seg>
+      <tuv lang="be" changedate="20110215T122832Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас перамяшчэння файла.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16394,6 +16530,14 @@
       </tuv>
       <tuv lang="be" changedate="20110203T094436Z" changeid="eratyk">
         <seg>Адбылася нечаканая памылка У/В.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An unexpected condition occurred.  Not all of your requested changes in settings could be made.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T080817Z" changeid="eratyk">
+        <seg>Адбыліся нечаканыя акалічнасці. Не ўсе запытаныя вамі змены ў наладах могуць быць зробленыя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18782,6 +18926,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Autoconfiguration IPv4 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172525Z" changeid="eratyk">
+        <seg>IPv4-адрас аўтаканфігурацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Autologon failed.</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T115737Z" changeid="eratyk">
@@ -19362,6 +19514,14 @@
       </tuv>
       <tuv lang="be" changedate="20101102T064630Z" changeid="eratyk">
         <seg>Удараў на хвіліну</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Because the Windows Management Instrumentation (WMI) service has been disabled, Windows cannot display the properties of this connection or the home network.\n\nTo configure the properties of this connection or your home network, you must first enable the WMI service. To do this, Click the Start button, then click Run. In the 'Open' text box, type 'services.msc' and click OK. Right-click Windows Management Instrumentation, and click Properties. Change the Startup type from Disabled to Automatic, and then click OK.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T091451Z" changeid="eratyk">
+        <seg>Windows не можа адлюстраваць уласцівасці гэтага злучэння ці хатняй сеткі, бо служба кіравання інструментаваннем Windows (WMI) выключаная.\n\nКаб наладзіць уласцівасці гэтага злучэння ці вашай хатняй сеткі, вы павінны спачатку ўключыць службу WMI. Каб гэта зрабіць, пстрыкніце Пачаць і націсніце &quot;Выканаць...&quot;. У поле ўводу ўвядзіце services.msc і націсніце &quot;Добра&quot;. Пстрыкніце правай клавішай &quot;Кіраванне інструментаваннем Windows&quot; і абярыце &quot;Уласцівасці&quot;. Змяніце тып запуску з &quot;Выключана&quot; на &quot;Аўтаматычна&quot; і пстрыкніце &quot;Добра&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20950,6 +21110,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>CHAP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150914Z" changeid="eratyk">
+        <seg>CHAP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>CLSID:</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T100454Z" changeid="eratyk">
@@ -21496,8 +21664,16 @@
       <tuv lang="en">
         <seg>Cancel as De&amp;fault Connection</seg>
       </tuv>
-      <tuv lang="be" changedate="20110130T110008Z" changeid="eratyk">
-        <seg>Прызначыць як неперадвызначанае злучэнне</seg>
+      <tuv lang="be" changedate="20110215T075200Z" changeid="eratyk">
+        <seg>Скасаваць у якасці перадвызначанага</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cancel this connection as the default.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075112Z" changeid="eratyk">
+        <seg>Скасаваць прызначэнне гэтага злучэння ў якасці перадвызначанага.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21606,6 +21782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Cannot flush the DNS Resolver Cache. Function failed during execution.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T162713Z" changeid="eratyk">
+        <seg>Немагчыма ачысціць кэш DMS-вырашальніка. Няўдача функцыі падчас выканання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Cannot name a connection as Incoming Connections</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T094206Z" changeid="eratyk">
@@ -21694,6 +21878,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Cannot register the DNS resource records. The following error has occurred:\n\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163255Z" changeid="eratyk">
+        <seg>Немагчыма зарэгістраваць запісы DNS-рэсурсаў. Адбылася наступная памылка:\n\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Cannot rename %2!ls!: %1!ls!</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T065509Z" changeid="eratyk">
@@ -21722,6 +21914,14 @@
       </tuv>
       <tuv lang="be" changedate="20110127T093858Z" changeid="eratyk">
         <seg>Немагчыма пераназваць гэтае злучэнне. Злучэнне з азначанай назвай ужо існуе. Азначце іншую назву.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cannot renew the IP Address. The following error has occurred:\n\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T161706Z" changeid="eratyk">
+        <seg>Немагчыма ўзнавіць IP-адрас. Адбылася наступная памылка:\n\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -22754,6 +22954,14 @@
       </tuv>
       <tuv lang="be" changedate="20110101T175854Z" changeid="eratyk">
         <seg>Змяніць налады плана &quot;%s&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Change settings for this connection, such as adapter or protocol configuration settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074602Z" changeid="eratyk">
+        <seg>Змяніць налады гэтага злучэння кшталту наладаў канфігурацыі адаптара ці пратакола.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25198,6 +25406,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Client</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T081216Z" changeid="eratyk">
+        <seg>Кліент</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Client Area Layout Object</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T115319Z" changeid="eratyk">
@@ -25210,6 +25426,22 @@
       </tuv>
       <tuv lang="be" changedate="20101106T160553Z" changeid="eratyk">
         <seg>ID кліента</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Client IPv4 address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150745Z" changeid="eratyk">
+        <seg>IPv4-адрас кліента</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Client IPv6 address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150800Z" changeid="eratyk">
+        <seg>IPv6-адрас кліента</seg>
       </tuv>
     </tu>
     <tu>
@@ -25590,10 +25822,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Clustering Services have been detected on this node.\nCertain clustering functionality may be impaired by Internet Connection Firewall.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093351Z" changeid="eratyk">
+        <seg>На гэтым вузле выяўленыя службы гронак.\nВызначаная гронкавая функцыянальнасць можа быць пашкоджана заслонай злучэння з сецівам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Clustering Services have been detected on this node.\nCertain clustering functionality may be impaired by the Network Bridge.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110210T131005Z" changeid="eratyk">
-        <seg>На гэтым вузле выяўленыя службы гронак.\n</seg>
+      <tuv lang="be" changedate="20110216T093159Z" changeid="eratyk">
+        <seg>На гэтым вузле выяўленыя службы гронак.\nВызначаная гронкавая функцыянальнасць можа быць пашкоджана сеткавым мостам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26790,6 +27030,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Connect multiple network connections to form a network bridge.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074828Z" changeid="eratyk">
+        <seg>Злучыць некалькі сеткавых злучэнняў для фармавання сеткавага моста.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Connect or disconnect</seg>
       </tuv>
       <tuv lang="be" changedate="20110107T200941Z" changeid="eratyk">
@@ -27208,8 +27456,8 @@
       <tuv lang="en">
         <seg>Connecting</seg>
       </tuv>
-      <tuv lang="be" changedate="20110105T075104Z" changeid="eratyk">
-        <seg>Злучанне</seg>
+      <tuv lang="be" changedate="20110215T075325Z" changeid="eratyk">
+        <seg>Злучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -27232,8 +27480,8 @@
       <tuv lang="en">
         <seg>Connecting to your network and applying settings...</seg>
       </tuv>
-      <tuv lang="be" changedate="20110105T075151Z" changeid="eratyk">
-        <seg>Злучанне з вашай сеткай і ўжыванне наладаў...</seg>
+      <tuv lang="be" changedate="20110215T075331Z" changeid="eratyk">
+        <seg>Злучэнне з вашай сеткай і ўжыванне наладаў...</seg>
       </tuv>
     </tu>
     <tu>
@@ -27266,6 +27514,22 @@
       </tuv>
       <tuv lang="be" changedate="20110127T093647Z" changeid="eratyk">
         <seg>Уласцівасці злучэння нельга зараз адлюстраваць, бо %1 запытвае гэтую ж інфармацыю. Калі ласка, зачыніце вокны  %1 і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connection Status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T145009Z" changeid="eratyk">
+        <seg>Стан злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connection failed!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T120845Z" changeid="eratyk">
+        <seg>Злучэнне няўдалае!</seg>
       </tuv>
     </tu>
     <tu>
@@ -27330,6 +27594,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T151627Z" changeid="eratyk">
         <seg>Тып злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connection-specific DNS Suffix</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172727Z" changeid="eratyk">
+        <seg>DNS-суфікс, азначаны для злучэння</seg>
       </tuv>
     </tu>
     <tu>
@@ -28246,10 +28518,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Correct problems that prevent you from connecting to the network.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075319Z" changeid="eratyk">
+        <seg>Скарэктаваць праблемы, якія перашкаджаюць вам злучыцца з сеткай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Corrected as:</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163022Z" changeid="eratyk">
         <seg>Выпраўлена як:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Could not add the requested feature. The error is: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080721Z" changeid="eratyk">
+        <seg>Немагчыма дадаць запытанае дапаўненне. Памылка: %1</seg>
       </tuv>
     </tu>
     <tu>
@@ -28338,6 +28626,22 @@
       </tuv>
       <tuv lang="be" changedate="20101205T200318Z" changeid="eratyk">
         <seg>Немагчыма зарэгістравацца для аглядання падзеяў стану КІ.  Дэталі: %1\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Could not uninstall the %1 feature. %1 is still required by the following feature(s) and cannot be uninstalled until those features are uninstalled: %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T081211Z" changeid="eratyk">
+        <seg>Немагчыма высталяваць дапаўненне &quot;%1&quot;. Яно яшчэ патрэбнае наступным дапаўненням і не можа быць высталяванае, пакуль не высталяваныя гэтыя дапаўненні: %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Could not uninstall the %1 feature. The error is %2.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080756Z" changeid="eratyk">
+        <seg>Немагчыма высталяваць дапаўненне &quot;%1&quot;. Памылка: %2</seg>
       </tuv>
     </tu>
     <tu>
@@ -28558,6 +28862,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Create a copy of the selected connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074617Z" changeid="eratyk">
+        <seg>Стварыць копію вылучанага злучэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Create a homegroup</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T075527Z" changeid="eratyk">
@@ -28618,6 +28930,14 @@
       </tuv>
       <tuv lang="be" changedate="20100318T110909Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Зрабіць магчымасць адкату перад ужываннем дзеянняў над выбранымі аб'ектамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create a shortcut to the selected connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074404Z" changeid="eratyk">
+        <seg>Стварыць пускальнік для вылучанага злучэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29622,6 +29942,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>DHCP Enabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172735Z" changeid="eratyk">
+        <seg>DHCP уключаны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>DHCP Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163436Z" changeid="eratyk">
+        <seg>DHCP-сервер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>DNS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163445Z" changeid="eratyk">
+        <seg>DNS-сервер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>DNS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163449Z" changeid="eratyk">
+        <seg>DNS-серверы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>DNS domain name</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T194614Z" changeid="eratyk">
@@ -30274,6 +30626,22 @@
       </tuv>
       <tuv lang="be" changedate="20100920T064024Z" changeid="eratyk">
         <seg>Перадвызначана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default Gateway</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163412Z" changeid="eratyk">
+        <seg>Перадвызначаны шлюз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default Gateways</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163427Z" changeid="eratyk">
+        <seg>Перадвызначаныя шлюзы</seg>
       </tuv>
     </tu>
     <tu>
@@ -30966,6 +31334,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Destination address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150532Z" changeid="eratyk">
+        <seg>Мэтавыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Details</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T073731Z" changeid="eratyk">
@@ -31162,6 +31538,14 @@
       </tuv>
       <tuv lang="be" changedate="20110104T172501Z" changeid="eratyk">
         <seg>Задачы прылады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Device Type</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150946Z" changeid="eratyk">
+        <seg>Тып прылады</seg>
       </tuv>
     </tu>
     <tu>
@@ -34551,6 +34935,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>EAP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150919Z" changeid="eratyk">
+        <seg>EAP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>EAP MSCHAPv2 Properties</seg>
       </tuv>
       <tuv lang="be" changedate="20110119T102116Z" changeid="eratyk">
@@ -35095,6 +35487,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable or disable operator-assisted dialing.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080119Z" changeid="eratyk">
+        <seg>Пераключыць падтрыманае аператарам набірання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Enable or disable passive cooling policy on the system.</seg>
       </tuv>
       <tuv lang="be" changedate="20101211T202102Z" changeid="eratyk">
@@ -35322,6 +35722,14 @@
         <seg>Encrypting</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T123917Z" changeid="eratyk">
+        <seg>Шыфраванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Encryption</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150807Z" changeid="eratyk">
         <seg>Шыфраванне</seg>
       </tuv>
     </tu>
@@ -37991,6 +38399,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Filters currently installed on the system have reached the limit</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093507Z" changeid="eratyk">
+        <seg>Колькасць усталяваных у сістэме фільтраў сягнула мяжы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Fin&amp;d Printer...</seg>
       </tuv>
       <tuv lang="be" changedate="20100912T104330Z" changeid="eratyk">
@@ -39929,8 +40345,8 @@
       <tuv lang="en">
         <seg>Gain control</seg>
       </tuv>
-      <tuv lang="be" changedate="20101106T172616Z" changeid="eratyk">
-        <seg>Кантраляванне павелічэннем</seg>
+      <tuv lang="be" changedate="20110216T084106Z" changeid="eratyk">
+        <seg>Кіраванне павелічэннем</seg>
       </tuv>
     </tu>
     <tu>
@@ -40235,6 +40651,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T161749Z" changeid="eratyk">
         <seg>Даць іншым карыстальнікам доступ да камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the connection a different name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074459Z" changeid="eratyk">
+        <seg>Даць злучэнню іншую назву.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40899,6 +41323,30 @@
       </tuv>
       <tuv lang="be" changedate="20100705T095120Z" changeid="eratyk">
         <seg>Абсталяванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hardware Disabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093549Z" changeid="eratyk">
+        <seg>Абсталяванне выключанае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hardware Malfunction</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093657Z" changeid="eratyk">
+        <seg>Абсталяванне шкоднае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hardware Not Present</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T093540Z" changeid="eratyk">
+        <seg>Абсталяванне адсутнічае</seg>
       </tuv>
     </tu>
     <tu>
@@ -42191,10 +42639,82 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>IP Address: %1!s!\r\nSubnet Mask: %2!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T144515Z" changeid="eratyk">
+        <seg>IP-адрас: %1!s!\r\nМаска падсеткі: %2!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IP Addresses</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163311Z" changeid="eratyk">
+        <seg>IP-адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>IP address</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T082842Z" changeid="eratyk">
         <seg>IP-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPsec: AES 128</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151118Z" changeid="eratyk">
+        <seg>IPsec: AES 128</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPsec: AES 192</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151120Z" changeid="eratyk">
+        <seg>IPsec: AES 192</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPsec: AES 256</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151119Z" changeid="eratyk">
+        <seg>IPsec: AES 256</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPsec: ESP 3DES</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151117Z" changeid="eratyk">
+        <seg>IPsec: ESP 3DES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPsec: ESP DES-56</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151116Z" changeid="eratyk">
+        <seg>IPsec: ESP DES-56</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172900Z" changeid="eratyk">
+        <seg>IPv4-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Addresses</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172917Z" changeid="eratyk">
+        <seg>IPv4-адрасы</seg>
       </tuv>
     </tu>
     <tu>
@@ -42207,6 +42727,94 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>IPv4 DHCP Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173033Z" changeid="eratyk">
+        <seg>DHCP-сервер IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 DNS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173045Z" changeid="eratyk">
+        <seg>DNS-сервер IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 DNS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173053Z" changeid="eratyk">
+        <seg>DNS-серверы IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Default Gateway</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173014Z" changeid="eratyk">
+        <seg>Перадвызначаны шлюз IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Default Gateways</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173024Z" changeid="eratyk">
+        <seg>Перадвызначаныя шлюзы IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Subnet Mask</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172952Z" changeid="eratyk">
+        <seg>Маска падсеткі IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 Subnet Masks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173000Z" changeid="eratyk">
+        <seg>Маскі падсеткі IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 WINS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173106Z" changeid="eratyk">
+        <seg>WINS-сервер IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv4 WINS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173116Z" changeid="eratyk">
+        <seg>WINS-серверы IPv4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173122Z" changeid="eratyk">
+        <seg>IPv6-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Addresses</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173136Z" changeid="eratyk">
+        <seg>IPv6-адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>IPv6 Connectivity:</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T080852Z" changeid="eratyk">
@@ -42215,10 +42823,82 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>IPv6 DHCP Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173239Z" changeid="eratyk">
+        <seg>DHCP-сервер IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 DNS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173243Z" changeid="eratyk">
+        <seg>DNS-сервер IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 DNS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173252Z" changeid="eratyk">
+        <seg>DNS-серверы IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Default Gateway</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173222Z" changeid="eratyk">
+        <seg>Перадвызначаны шлюз IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Default Gateways</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173233Z" changeid="eratyk">
+        <seg>Перадвызначаныя шлюзы IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>IPv6 Enabled</seg>
       </tuv>
       <tuv lang="be" changedate="20110130T110101Z" changeid="eratyk">
         <seg>IPv6 уключана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Subnet Mask</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173204Z" changeid="eratyk">
+        <seg>Маска падсеткі IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 Subnet Masks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173217Z" changeid="eratyk">
+        <seg>Маскі падсеткі IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 WINS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T173302Z" changeid="eratyk">
+        <seg>WINS-сервер IPv6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>IPv6 WINS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T182456Z" changeid="eratyk">
+        <seg>WINS-серверы IPv6</seg>
       </tuv>
     </tu>
     <tu>
@@ -43423,6 +44103,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Inactivate the selected network device so that it cannot be used.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074735Z" changeid="eratyk">
+        <seg>Дэактываваць вылучаную сеткавую прыладу, каб ёй нельга было карыстацца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Include &amp;Windows logon domain</seg>
       </tuv>
       <tuv lang="be" changedate="20110119T102942Z" changeid="eratyk">
@@ -44463,10 +45151,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Internet Connection Sharing (ICS) cannot be enabled because Routing and Remote Access has been enabled on this computer. To enable ICS, first disable Routing and Remote Access.\n\nFor more information about Routing and Remote Access or ICS, see Help and Support.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085836Z" changeid="eratyk">
+        <seg>Агульны доступ злучэння з сецівам (ICS) не можа быць уключаны, бо роўтынг і аддалены доступ уключаныя на гэтым камп'ютары. Каб уключыць ICS, перш выключыце роўтынг і аддалены доступ.\n\nДля дадатковай інфармацыі аб роўтынгу і аддаленым доступе ці ICS глядзіце ў дапамозе і падтрымцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Internet Connection Sharing has been disabled by the Network Administrator</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T082812Z" changeid="eratyk">
         <seg>Агульны доступ злучэння з сецівам выключаны сеткавым адміністратарам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet Connection Sharing is currently enabled for connection '%1'.\n\nIt will now be enabled for connection '%2' instead.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T130000Z" changeid="eratyk">
+        <seg>Агульны доступ злучэння з сецівам ужо ўключаны для злучэння '%1'.\n\nЁн будзе замест гэтага ўключаны для злучэння '%2'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44723,6 +45427,14 @@
       </tuv>
       <tuv lang="be" changedate="20110124T141250Z" changeid="eratyk">
         <seg>Інвертаваць колер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid IP Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151506Z" changeid="eratyk">
+        <seg>Недапушчальны IP-адрас</seg>
       </tuv>
     </tu>
     <tu>
@@ -46287,6 +46999,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Lease Expires</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T164431Z" changeid="eratyk">
+        <seg>Тэрмін арэнды мінае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Lease Obtained</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T164355Z" changeid="eratyk">
+        <seg>Арэнда атрымана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Leave this file in the destination folder:</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T144213Z" changeid="eratyk">
@@ -46743,6 +47471,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Link-local IPv6 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T171209Z" changeid="eratyk">
+        <seg>IPv6-адрас link-local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Links</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T061350Z" changeid="eratyk">
@@ -46967,6 +47703,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Local Network Connection Properties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080821Z" changeid="eratyk">
+        <seg>Уласцівасці лакальнага сеткавага злучэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Local Security Policy</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T091839Z" changeid="eratyk">
@@ -47067,6 +47811,30 @@
       </tuv>
       <tuv lang="be" changedate="20100722T180358Z" changeid="eratyk">
         <seg>Размяшчэнне: %s (%s)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Location: Port %d</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085954Z" changeid="eratyk">
+        <seg>Размяшчэнне: Порт %d</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Location: Slot %d</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085942Z" changeid="eratyk">
+        <seg>Размяшчэнне: Адтуліна %d</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Location: Slot %d, Port %d</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085933Z" changeid="eratyk">
+        <seg>Размяшчэнне: Адтуліна %d, Порт %d</seg>
       </tuv>
     </tu>
     <tu>
@@ -47615,6 +48383,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>MAC Address: %1!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T090002Z" changeid="eratyk">
+        <seg>MAC-адрас: %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>MB</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T080510Z" changeid="eratyk">
@@ -47659,6 +48435,46 @@
       </tuv>
       <tuv lang="be" changedate="20100715T062429Z" changeid="eratyk">
         <seg>dd MMM yyyy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MPPC</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151123Z" changeid="eratyk">
+        <seg>MPPC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MPPE 128</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151112Z" changeid="eratyk">
+        <seg>MPPE 128</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MPPE 40</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151110Z" changeid="eratyk">
+        <seg>MPPE 40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MPPE 56</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151109Z" changeid="eratyk">
+        <seg>MPPE 56</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MS CHAP V2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150916Z" changeid="eratyk">
+        <seg>MS CHAP V2</seg>
       </tuv>
     </tu>
     <tu>
@@ -47747,6 +48563,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T074602Z" changeid="eratyk">
         <seg>Македонская (FYROM) - стандартавая</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Machine certificate</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150911Z" changeid="eratyk">
+        <seg>Сертыфікат машыны</seg>
       </tuv>
     </tu>
     <tu>
@@ -49919,6 +50743,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Mobike Supported</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150937Z" changeid="eratyk">
+        <seg>Падтрымана Mobike</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Mobile PC Display</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T074904Z" changeid="eratyk">
@@ -50735,6 +51567,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>NAP State</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151002Z" changeid="eratyk">
+        <seg>NAP-стан</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>NESW size</seg>
       </tuv>
       <tuv lang="be" changedate="20101010T054455Z" changeid="eratyk">
@@ -51031,6 +51871,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>NetBIOS over Tcpip Enabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T172850Z" changeid="eratyk">
+        <seg>NetBIOS праз TCP/IP уключана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>NetShell: folder displayed\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T200506Z" changeid="eratyk">
@@ -51067,6 +51915,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T114141Z" changeid="eratyk">
         <seg>Загаловак сеткавага адаптара\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Network Adapter Used</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150852Z" changeid="eratyk">
+        <seg>Скарыстаны сеткавы адаптар</seg>
       </tuv>
     </tu>
     <tu>
@@ -52507,6 +53363,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T082228Z" changeid="eratyk">
         <seg>Не перадвызначаны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not NAP-capable</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151022Z" changeid="eratyk">
+        <seg>Не NAP-сумяшчальны</seg>
       </tuv>
     </tu>
     <tu>
@@ -54159,6 +55023,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Open a dialog box where you can specify advanced network settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080016Z" changeid="eratyk">
+        <seg>Адчыніць дыялог, дзе вы можаце азначыць дадатковыя сеткавыя налады.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open a dialog box where you can specify settings for dial-up connections.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075923Z" changeid="eratyk">
+        <seg>Адчыніць дыялог, дзе вы можаце азначыць налады для тэлефонных злучэнняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Open a library to see homegroup files and arrange them by folder, date, and other properties.</seg>
       </tuv>
       <tuv lang="be" changedate="20100925T060856Z" changeid="eratyk">
@@ -54171,6 +55051,14 @@
       </tuv>
       <tuv lang="be" changedate="20100925T061005Z" changeid="eratyk">
         <seg>Адчыніце бібліятэку, каб убачыць вашыя файлы і ўпарадкаваць іх па каталогу, даце і іншых уласцівасцях.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open a list of commands for arranging items in a window.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080209Z" changeid="eratyk">
+        <seg>Адчыніць спіс загадаў для ўпарадкавання элементаў у вакне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54307,6 +55195,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T202212Z" changeid="eratyk">
         <seg>Адчыніць дыялог аўтазапуску для гэтае прылады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open the Network Connections folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075817Z" changeid="eratyk">
+        <seg>Адчыніць каталог сеткавых злучэнняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54879,6 +55775,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Origin address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150631Z" changeid="eratyk">
+        <seg>Крынічны адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Origin:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T045249Z" changeid="alex">
@@ -55327,6 +56231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>PAP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150913Z" changeid="eratyk">
+        <seg>PAP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>PCI Express</seg>
       </tuv>
       <tuv lang="be" changedate="20101211T205719Z" changeid="eratyk">
@@ -55419,6 +56331,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T150931Z" changeid="eratyk">
         <seg>Налады PPP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>PPP multilink framing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151426Z" changeid="eratyk">
+        <seg>Будаванне шматспасыльнага PPP</seg>
       </tuv>
     </tu>
     <tu>
@@ -56617,8 +57537,8 @@
       <tuv lang="en">
         <seg>Performance Information and Tools</seg>
       </tuv>
-      <tuv lang="be" changedate="20110108T141842Z" changeid="eratyk">
-        <seg>Інфармацыя прадукцыйнасці і інструменты</seg>
+      <tuv lang="be" changedate="20110215T174747Z" changeid="eratyk">
+        <seg>Інфармацыя і інструменты прадукцыйнасці</seg>
       </tuv>
     </tu>
     <tu>
@@ -56979,6 +57899,14 @@
       </tuv>
       <tuv lang="be" changedate="20101028T180326Z" changeid="eratyk">
         <seg>Фотаметрычная інтэрпрэтацыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Physical Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163302Z" changeid="eratyk">
+        <seg>Фізічны адрас</seg>
       </tuv>
     </tu>
     <tu>
@@ -58351,6 +59279,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Prepare the selected network device for use.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074647Z" changeid="eratyk">
+        <seg>Падрыхтаваць вылучаную сеткавую прыладу да карыстання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Prepare this disc</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T093000Z" changeid="eratyk">
@@ -59191,6 +60127,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Probation</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151101Z" changeid="eratyk">
+        <seg>Выпрабаванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Problem Copying</seg>
       </tuv>
       <tuv lang="be" changedate="20100716T090821Z" changeid="eratyk">
@@ -59923,6 +60867,14 @@
       </tuv>
       <tuv lang="be" changedate="20101102T063658Z" changeid="eratyk">
         <seg>Тып абароны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Protocol</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T120919Z" changeid="eratyk">
+        <seg>Пратакол</seg>
       </tuv>
     </tu>
     <tu>
@@ -61287,6 +62239,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Registration of the DNS resource records for all adapters of this computer has been initiated. Any errors will be reported in the Event Viewer in 15 minutes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163202Z" changeid="eratyk">
+        <seg>Была ініцыяваная рэгістрацыя запісаў DNS-рэсурсаў для ўсіх адаптараў гэтага камп'ютара. Любыя памылкі будуць паведамленыя ў праглядальніку падзеяў цягам 15 хвілін.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Regular</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T143434Z" changeid="eratyk">
@@ -61371,6 +62331,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T080650Z" changeid="eratyk">
         <seg>Злучэнне з аддаленай стальніцай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remote ICS Connection Properties</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T090039Z" changeid="eratyk">
+        <seg>Уласцівасці аддаленага ICS-злучэння</seg>
       </tuv>
     </tu>
     <tu>
@@ -61595,6 +62563,22 @@
       </tuv>
       <tuv lang="be" changedate="20100928T161045Z" changeid="eratyk">
         <seg>Выдаліць файлы мініадбітка сістэмных памылак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remove the selected connection(s) from the network bridge.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074946Z" changeid="eratyk">
+        <seg>Выдаліць вылучаныя злучэнні з сеткавага моста.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remove the selected connection(s) so that it can no longer be used.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074444Z" changeid="eratyk">
+        <seg>Выдаліць вылучаныя злучэнні, каб імі больш нельга было карыстацца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63759,6 +64743,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>STAC</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151129Z" changeid="eratyk">
+        <seg>STAC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>SVCDs</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T202711Z" changeid="eratyk">
@@ -65911,6 +66903,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select a private network connection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T090107Z" changeid="eratyk">
+        <seg>Абярыце злучэнне з прыватнай сеткай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select a session to reconnect to</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T075218Z" changeid="eratyk">
@@ -66791,6 +67791,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Server IPv4 address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150738Z" changeid="eratyk">
+        <seg>IPv4-адрас сервера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Server IPv6 address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150753Z" changeid="eratyk">
+        <seg>IPv6-адрас сервера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Service</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T122042Z" changeid="eratyk">
+        <seg>Служба</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Service has stopped</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T145451Z" changeid="Ales Koshal [icq#:706101]">
@@ -66827,6 +67851,14 @@
       </tuv>
       <tuv lang="be" changedate="20100918T114111Z" changeid="eratyk">
         <seg>Службы і драйверы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Services provide additional features such as file and printer sharing.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T122202Z" changeid="eratyk">
+        <seg>Службы даюць дадатковыя дапаўненні кшталту агульнага доступу да файлаў і друкарак.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67131,6 +68163,14 @@
       </tuv>
       <tuv lang="be" changedate="20110120T152441Z" changeid="eratyk">
         <seg>Прызначыць часавы абсяг:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set this connection as the default connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075010Z" changeid="eratyk">
+        <seg>Прызначыць гэтае злучэнне як перадвызначанае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69103,6 +70143,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Site-local IPv6 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T171220Z" changeid="eratyk">
+        <seg>IPv6-адрас site-local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Siz&amp;e:</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T160746Z" changeid="eratyk">
@@ -69735,6 +70783,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Some of the controls on this property sheet are disabled because one or more other Network property sheets are already open.  To use these controls, close all these property sheets and then reopen this one.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T084505Z" changeid="eratyk">
+        <seg>Некаторыя з элементаў кіравання гэтай старонкі ўласцівасцяў выключаныя, бо адна ці болей іншых старонак сеткавых уласцівасцяў ужо адчыненыя. Каб скарыстаць гэтыя старонкі, зачыніце ўсе старонкі ўласцівасцяў і потым пераадчыніце гэтую.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Some of the controls on this property sheet are disabled because you do not have sufficient privileges to access or change them.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085058Z" changeid="eratyk">
+        <seg>Элементы кіравання на гэтай старонцы ўласцівасцяў выключаныя, бо вы не маеце дастатковых прывілеяў на доступ ці іх змяненне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Some of the items you are about to delete can't be restored from the Recycle Bin.\nTo restore them later, %s</seg>
       </tuv>
       <tuv lang="be" changedate="20100714T152952Z" changeid="eratyk">
@@ -69907,6 +70971,70 @@
       </tuv>
       <tuv lang="be" changedate="20100723T134938Z" changeid="eratyk">
         <seg>Сартаваць меню &quot;Усе праграмы па назве&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections alphabetically by name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080401Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па назве ў алфавітным парадку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by category.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080625Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па катэгорыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by connectivity.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080614Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па злучальнасці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by device name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080603Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па назве прылады.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by owner.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080522Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па ўладальніку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by phone number or host address.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080545Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па нумары тэлефона ці адрасе вузла.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by size, from smallest to largest.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080509Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па памеры, ад найменшых да найвялікшых.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sort connections by type.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T080423Z" changeid="eratyk">
+        <seg>Сартаваць злучэнні па тыпе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -71249,8 +72377,8 @@
       <tuv lang="en">
         <seg>Start the Add Printer Wizard, which helps you install a printer</seg>
       </tuv>
-      <tuv lang="be" changedate="20110104T173452Z" changeid="eratyk">
-        <seg>Запусціце</seg>
+      <tuv lang="be" changedate="20110215T073658Z" changeid="eratyk">
+        <seg>Запусціце майстар дадання друкаркі, які дапаможа вам усталяваць друкарку</seg>
       </tuv>
     </tu>
     <tu>
@@ -71259,6 +72387,14 @@
       </tuv>
       <tuv lang="be" changedate="20101204T152131Z" changeid="eratyk">
         <seg>Запусціць вырашальнік праблем хатняй групы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Start the Incoming Connections wizard, which helps you create incoming connections to your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T073832Z" changeid="eratyk">
+        <seg>Запусціце майстар уваходных злучэнняў, які дапаможа вам стварыць уваходныя злучэнні на вашым камп'ютары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -71823,6 +72959,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Subnet Mask</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163322Z" changeid="eratyk">
+        <seg>Маска падсеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Subnet Masks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163402Z" changeid="eratyk">
+        <seg>Маскі падсеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Subtitle</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T063914Z" changeid="eratyk">
@@ -72019,6 +73171,14 @@
       </tuv>
       <tuv lang="be" changedate="20100313T065120Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Спынены%0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Suspending the selected device will result in disconnecting %1 entirely. Do you want to disconnect?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T150503Z" changeid="eratyk">
+        <seg>Спыненне абранай прылады скончыцца поўным адлучэннем &quot;%1&quot;. Адлучыць?</seg>
       </tuv>
     </tu>
     <tu>
@@ -73143,6 +74303,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Temporarily inactivate the selected connection so that it cannot be used.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074059Z" changeid="eratyk">
+        <seg>Часова дэактываваць вылучанае злучэнне, каб ім нельга было карыстацца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Temporarily view the desktop when you move your mouse to the Show desktop button at end of the taskbar.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T072634Z" changeid="eratyk">
@@ -73163,6 +74331,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T163827Z" changeid="eratyk">
         <seg>Часовы каталог</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Temporary IPv6 Address</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T171236Z" changeid="eratyk">
+        <seg>Часовы IPv6-адрас</seg>
       </tuv>
     </tu>
     <tu>
@@ -73559,6 +74735,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The DNS Resolver Cache has been successfully flushed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T162442Z" changeid="eratyk">
+        <seg>Кэш DNS-вырашальніка быў паспяхова ачышчаны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Disk Defragmenter is not installed on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T200334Z" changeid="eratyk">
@@ -73607,10 +74791,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The IP Address has been successfully renewed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T161608Z" changeid="eratyk">
+        <seg>IP-адрас паспяхова ўзноўлены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20100710T073314Z" changeid="eratyk">
         <seg>Сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Internet Connection Sharing computer is not configured to let network users control or disable the shared Internet connection.\n\nThis setting can be changed in the Advanced Properties of the shared connection on the Internet Connection Sharing computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T092625Z" changeid="eratyk">
+        <seg>Камп'ютар з агульным доступам злучэння з сецівам не наладжаны, каб карыстальнікі маглі кіраваць ці змяняць злучэнне з сецівам.\n\nГэтая налада можа быць змененая ў дадатковых уласцівасцях агульнадаступнага злучэння на камп'ютары з агульным доступам злучэння з сецівам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -73635,6 +74835,14 @@
       </tuv>
       <tuv lang="be" changedate="20110130T105401Z" changeid="eratyk">
         <seg>Каталог сеткавых злучэнняў не можа атрымаць спіс сеткавых адаптараў вашага камп'ютара.\nКалі ласка, пераканайцеся, што служба сеткавых злучэнняў уключаная і працуе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Network Connections Folder was unable to retrieve the list of Network adapters on your machine.\r\nPlease make sure that the Network Connections service is enabled and running.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T144503Z" changeid="eratyk">
+        <seg>Каталог сеткавых злучэнняў не можа атрымаць спіс сеткавых адаптараў вашага камп'ютара.\r\nКалі ласка, пераканайцеся, што служба сеткавых злучэнняў уключаная і працуе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -74151,6 +75359,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The connection could not be disconnected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T145108Z" changeid="eratyk">
+        <seg>Злучэнне не можа быць адлучанае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The connection you selected cannot be deleted.</seg>
       </tuv>
       <tuv lang="be" changedate="20110130T103211Z" changeid="eratyk">
@@ -74171,6 +75387,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T104042Z" changeid="eratyk">
         <seg>Змесціва гэтага каталога не будзе выдаленае. Вы можаце аднавіць гэтую іконку на стальцы, калі клікнеце правай клавішай мышы па ёй у Пачатковым меню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The controls on this property sheet are disabled because the system must first be rebooted before any configuration changes can be made.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T084837Z" changeid="eratyk">
+        <seg>Элементы кіравання на гэтай старонцы ўласцівасцяў выключаныя, бо сістэма павінна быць перазапушчанай, перш чым хоць бы якія змены канфігурацыі могуць быць зробленыя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77307,6 +78531,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T081149Z" changeid="eratyk">
         <seg>У хатняй групе няма іншых людзей.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are no protocols installed or enabled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T080845Z" changeid="eratyk">
+        <seg>Няма ўключаных ці ўсталяваных пратаколаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -80703,6 +81935,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To enable Internet Connection Sharing a connection must be selected for the private network. Please select a connection from the list of available connections.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T090323Z" changeid="eratyk">
+        <seg>Каб уключыць агульны доступ злучэння з сецівам, для прыватнай сеткі павінна быць абранае злучэнне. Калі ласка, абярыце злучэнне са спісу даступных злучэнняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>To end the program now, click End Now.</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T150844Z" changeid="eratyk">
@@ -83201,8 +84441,8 @@
       <tuv lang="en">
         <seg>Unhandled error occurred while connecting.\n\n#%u %s</seg>
       </tuv>
-      <tuv lang="be" changedate="20110105T075432Z" changeid="eratyk">
-        <seg>Адбылася некранутая памылка падчас злучання.\n\n#%u %s</seg>
+      <tuv lang="be" changedate="20110215T075357Z" changeid="eratyk">
+        <seg>Адбылася некранутая памылка падчас злучэння.\n\n#%u %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -83415,6 +84655,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Uninstalling a feature removes it from all network connections. Are you sure you want to uninstall %1?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T122035Z" changeid="eratyk">
+        <seg>Высталёўванне дапаўнення выдаліць яго са ўсіх сеткавых злучэнняў. Вы сапраўды жадаеце высталяваць &quot;%1&quot;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unique file ID</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T063940Z" changeid="eratyk">
@@ -83607,6 +84855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unknown network card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T122317Z" changeid="eratyk">
+        <seg>Невядомая сеткавая картка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown printer driver.\nPlease verify that a driver is installed on %s.</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T113952Z" changeid="eratyk">
@@ -83791,10 +85047,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unrestricted</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T151049Z" changeid="eratyk">
+        <seg>Неабмежавана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unset as De&amp;fault Connection</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T085505Z" changeid="eratyk">
-        <seg>Прызначыць як неперадвызначанае злучэнне</seg>
+      <tuv lang="be" changedate="20110215T075148Z" changeid="eratyk">
+        <seg>Скасаваць у якасці перадвызначанага</seg>
       </tuv>
     </tu>
     <tu>
@@ -85193,8 +86457,8 @@
       <tuv lang="en">
         <seg>View Bluetooth network devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20110130T110050Z" changeid="eratyk">
-        <seg>Прагледзець прылады сеткі Bluetooth</seg>
+      <tuv lang="be" changedate="20110215T075739Z" changeid="eratyk">
+        <seg>Прагледзець прылады Bluetooth-сеткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -85267,6 +86531,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T201616Z" changeid="eratyk">
         <seg>Прагледзець і змяніць стан сістэмы і бяспекі, зарэзерваваць і аднавіць файлы і сістэмныя налады, абнавіць камп'ютар, перагледзець хуткасць працэсара і RAM-памяці, праверыць заслону і г.д.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View and connect to Bluetooth Personal Area Network devices and computers.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075720Z" changeid="eratyk">
+        <seg>Прагледзець і злучыць прылады персанальнай пляцоўкі Bluetooth-сеткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -85583,6 +86855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>View support information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075758Z" changeid="eratyk">
+        <seg>Прагледзець інфармацыю падтрымкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>View sync results</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T083409Z" changeid="eratyk">
@@ -85607,6 +86887,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>View the connection, duration, speed, activity, and other status settings for this connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T074207Z" changeid="eratyk">
+        <seg>Прагледзець злучэнне, працягласць, хуткасць, дзейнасць і іншыя налады стану для гэтага злучэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>View the desktop gadgets installed on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T191947Z" changeid="eratyk">
@@ -85627,6 +86915,22 @@
       </tuv>
       <tuv lang="be" changedate="20101029T193257Z" changeid="eratyk">
         <seg>Прагледзець назву відэакарткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View the properties of a wireless network.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075519Z" changeid="eratyk">
+        <seg>Прагледзець уласцівасці радыёсеткі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View the wireless networks that are available from your location.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110215T075503Z" changeid="eratyk">
+        <seg>Прагледзець радыёсеткі, якія даступныя з вашага размяшчэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -85835,6 +87139,22 @@
       </tuv>
       <tuv lang="be" changedate="20110213T124342Z" changeid="eratyk">
         <seg>WDI-дыялог\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>WINS Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T163458Z" changeid="eratyk">
+        <seg>WINS-сервер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>WINS Servers</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T164155Z" changeid="eratyk">
+        <seg>WINS-серверы</seg>
       </tuv>
     </tu>
     <tu>
@@ -86275,6 +87595,14 @@
       </tuv>
       <tuv lang="be" changedate="20100707T115712Z" changeid="eratyk">
         <seg>Што шукаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When Internet Connection Sharing is enabled, your LAN adapter will be set to use IP address %1. Your computer may lose connectivity with other computers on your network. If these other computers have static IP addresses, you should set them to obtain their IP addresses automatically.  Are you sure you want to enable Internet Connection Sharing?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T080519Z" changeid="eratyk">
+        <seg>Калі агульны доступ злучэння з сецівам уключаецца, вашаму сеткаваму адаптару будзе прызначаны для карыстання IP-адрас %1. Ваш камп'ютар можа страціць злучальнасць з іншымі камп'ютарамі вашай сеткі. Калі гэтыя камп'ютары маюць статычныя IP-адрасы, вы павінны прызначыць ім аўтаматычнае атрыманне IP-адрасоў. Вы сапраўды жадаеце уключыць агульны доступ злучэння з сецівам?</seg>
       </tuv>
     </tu>
     <tu>
@@ -87907,6 +89235,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T054323Z" changeid="eratyk">
         <seg>Windows не можа атрымаць доступ да азначанага файла, шляху альбо прылады.  Магчыма, Вы не маеце патрэбных дазволаў на доступ да элемента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows cannot display the properties of this connection. The Windows Management Instrumentation (WMI) information might be corrupted. To correct this, use System Restore to restore Windows to an earlier time (called a restore point). System Restore is located in the System Tools folder in Accessories.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T092243Z" changeid="eratyk">
+        <seg>Windows не можа адлюстраваць уласцівасці гэтага злучэння. Магчыма, інфармацыя кіравання інструментавання Windows (WMI) пашкоджаная. Каб скарэктаваць яе,  скарыстайце аднаўленне сістэмы, каб аднавіць ранейшы стан Windows (пункт аднаўлення). Аднаўленне сістэмы знаходзіцца ў прыладдзі, у каталогу сістэмных інструментаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -90799,6 +92135,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You have made changes to the properties of this connection.\nIf you proceed your changes will be lost.\n\nDo you wish to proceed?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T092931Z" changeid="eratyk">
+        <seg>Вы зрабілі змены ўва ўласцівасцях гэтага злучэння.\nКалі вы працягнеце, вашыя змены будуць страчаныя.\n\nПрацягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You have minimized the Language bar.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T204453Z" changeid="eratyk">
@@ -90911,10 +92255,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You must disconnect all Dial-up, VPN, and Incoming connections before this feature can be added.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085231Z" changeid="eratyk">
+        <seg>Вы павінны адлучыць усе тэлефонныя, VPN і ўваходныя злучэнні, перш чым гэтае дапаўненне можа быць даданае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must disconnect all Dial-up, VPN, and Incoming connections before this feature can be removed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085215Z" changeid="eratyk">
+        <seg>Вы павінны адлучыць усе тэлефонныя, VPN і ўваходныя злучэнні, перш чым гэтае дапаўненне можа быць выдаленае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You must format it before you can label it.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T122045Z" changeid="eratyk">
         <seg>Каб пазначыць яго, перш трэба яго адфарматаваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must install and enable at least one protocol for this connection to work. Do you want to select a protocol now ?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T081027Z" changeid="eratyk">
+        <seg>Вы павінны ўсталяваць і ўключыць прынамсі адзін пратакол да гэтага злучэння для працы. Абраць пратакол зараз?</seg>
       </tuv>
     </tu>
     <tu>
@@ -90939,6 +92307,22 @@
       </tuv>
       <tuv lang="be" changedate="20100725T173401Z" changeid="eratyk">
         <seg>Вы выйсці з сістэмы для ўжывання гэтых зменаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must reboot the machine before this feature can be added.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085302Z" changeid="eratyk">
+        <seg>Вы павінны перазапусціць камп'ютар, перш чым гэтае дапаўненне можа быць даданае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must reboot the machine before this feature can be removed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T085320Z" changeid="eratyk">
+        <seg>Вы павінны перазапусціць камп'ютар, перш чым гэтае дапаўненне можа быць выдаленае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91687,6 +93071,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your current selection will also disable the following features:\n%1\n\nAre you sure you want to disable these feature(s) ?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110216T081221Z" changeid="eratyk">
+        <seg>Вашае дзейнае вылучэнне таксама выключыць наступныя дапаўненні:\n%1\n\nВы сапраўды жадаеце выключыць гэтыя дапаўненні?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your default action will occur or other options will become available.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064853Z" changeid="eratyk">
@@ -91889,8 +93281,8 @@
       <tuv lang="en">
         <seg>Your network administrator has blocked you from connecting to this network</seg>
       </tuv>
-      <tuv lang="be" changedate="20110105T075326Z" changeid="eratyk">
-        <seg>Ваш сеткавы адміністратар заблакаваў для вас злучанне з гэтай сеткай</seg>
+      <tuv lang="be" changedate="20110215T075337Z" changeid="eratyk">
+        <seg>Ваш сеткавы адміністратар заблакаваў для вас злучэнне з гэтай сеткай</seg>
       </tuv>
     </tu>
     <tu>
