@@ -3,7 +3,7 @@
 <tmx version="1.1">
   <header
     creationtool="OmegaT"
-    creationtoolversion="2.2.3_3"
+    creationtoolversion="2.2.3_2"
     segtype="sentence"
     o-tmf="OmegaT TMX"
     adminlang="EN-US"
@@ -922,8 +922,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Always forward</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073228Z" changeid="alex73">
-        <seg>Заўсёды перанакіроўваць</seg>
+      <tuv lang="be" changedate="20110219T122735Z" changeid="klyok">
+        <seg>Заўсёды перасылаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Always send</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T164810Z" changeid="klyok">
+        <seg>Always send</seg>
       </tuv>
     </tu>
     <tu>
@@ -2121,8 +2129,9 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Failed to retrieve and save current forwarding number settings.\nDo you want to switch to the new provider anyway?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T080419Z" changeid="alex73">
-        <seg>Не атрымалася атрымаць і захаваць дзейныя налады нумару перанакираваньня.\nВы ўсё роўна хочаце перайсьці да новага правайдэру ?</seg>
+      <tuv lang="be" changedate="20110219T170950Z" changeid="klyok">
+        <seg>Не ўдалося атрымаць і захаваць бягучыя налады нумару перасыланьня.\n
+Вы ўсё роўна хочаце перайсьці да новага правайдэру?</seg>
       </tuv>
     </tu>
     <tu>
@@ -2271,10 +2280,18 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Forward</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T170224Z" changeid="klyok">
+        <seg>Наступны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Forward when busy</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073339Z" changeid="alex73">
-        <seg>Перанакіроўваць калі заняты</seg>
+      <tuv lang="be" changedate="20110219T170658Z" changeid="klyok">
+        <seg>Перасылаць, калі заняты</seg>
       </tuv>
     </tu>
     <tu>
@@ -2289,8 +2306,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Forward when unreachable</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074210Z" changeid="alex73">
-        <seg>Перанакіроўваць калі недасяжны</seg>
+      <tuv lang="be" changedate="20110219T170643Z" changeid="klyok">
+        <seg>Перасылаць, калі недасяжны</seg>
       </tuv>
     </tu>
     <tu>
@@ -2313,8 +2330,9 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Forwarding number change unsuccessful.\nPlease contact your carrier if this problem persists.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T075713Z" changeid="alex73">
-        <seg>Няўдалая зьмена нумару перанакіраваньня.\nКалі праблема захоўваецца, калі ласка, зьвяжыцеся з вашым апэратарам.</seg>
+      <tuv lang="be" changedate="20110219T170828Z" changeid="klyok">
+        <seg>Не ўдалося зьмяніць нумар, на які трэба перасылаць.\n
+Калі праблема застанецца, калі ласка, зьвяжыцеся з вашым апэратарам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3346,8 +3364,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Number when busy</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073402Z" changeid="alex73">
-        <seg>Нумар калі заняты</seg>
+      <tuv lang="be" changedate="20110219T170703Z" changeid="klyok">
+        <seg>Нумар, калі заняты</seg>
       </tuv>
     </tu>
     <tu>
@@ -3362,8 +3380,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Number when unreachable</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074224Z" changeid="alex73">
-        <seg>Нумар калі недасяжны</seg>
+      <tuv lang="be" changedate="20110219T170651Z" changeid="klyok">
+        <seg>Нумар, калі недасяжны</seg>
       </tuv>
     </tu>
     <tu>
@@ -4306,8 +4324,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Set up voicemail, call forwarding, call waiting, caller ID</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Абраць галасавую пошту, перанакіраваньне вызаваў, чаканьне вызываў, caller ID</seg>
+      <tuv lang="be" changedate="20110219T171309Z" changeid="klyok">
+        <seg>Наставіць галасавую пошту, перасыланьне ды чаканьне выклікаў, таемнасьць уласнага нумару.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4408,6 +4426,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Some attachments cannot be forwarded because they have not downloaded.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T170408Z" changeid="klyok">
+        <seg>Некаторыя дадаткі не ўдалося пераслаць, бо іх не сьцягнулі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sorry, the alarm could not be set.</seg>
       </tuv>
       <tuv lang="be">
@@ -4500,6 +4526,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T151409Z" changeid="alex73">
         <seg>Тэкст кантакту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The DRM object included in the message cannot be forwarded.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T170605Z" changeid="klyok">
+        <seg>Не ўдалося пераслаць аб'ект DRM, які зьмяшчаецца ў паведамленьні</seg>
       </tuv>
     </tu>
     <tu>
