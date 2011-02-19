@@ -238,10 +238,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(Unknown)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151209Z" changeid="klyok">
+        <seg>(Невядомы)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>0</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T222551Z" changeid="klyok">
         <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>0.9.9 (beta)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T150939Z" changeid="klyok">
+        <seg>0.9.9 (бэта)</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +446,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;p0&gt;&lt;b1&gt;(C) 2010-2011, Stace A. Zacharov stace75\@gmail.com&lt;/b1&gt;\n http://sites.google.com/site/stace75/magnetlink/magnetlink-english&lt;/p0&gt;\n &lt;p2&gt;&lt;f3&gt;Warning: MagnetLink is not Direct Connect client!\n It required access to FlylinkDC++ webserver!!! Install and setup FlylinkDC++ first!!!&lt;/f3&gt;&lt;/p2&gt;\n &lt;p4&gt;&lt;b5&gt;Many Thanks to Pavel Pimenov and others for FlylinkDC++&lt;/b5&gt; http://flylinkdc.dyndns.org&lt;/p4&gt;\n &lt;p6&gt;Note: This beta version be only worked before 03/01/11. Please update&lt;/p6&gt;\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080453Z" changeid="klyok">
+        <seg>&lt;p0&gt;&lt;b1&gt;© 2010–2011, Станіслаў Захараў, stace75\@gmail.com&lt;/b1&gt;\n
+http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
+&lt;p2&gt;&lt;f3&gt;Перасьцярога: MagnetLink ня ёсьць кліентам пратаколу Direct Connect!\n Ён патрабуе доступу да сеціва-паслужніку FlylinkDC++! Спачатку усталюйце ды наладзьце FlylinkDC++!&lt;/f3&gt;&lt;/p2&gt;\n
+&lt;p4&gt;&lt;b5&gt;Вялізнае дзякуй Паўлу Піменаву ды іншым распрацоўнікам за FlylinkDC++&lt;/b5&gt; http://flylinkdc.dyndns.org.&lt;/p4&gt;\n
+&lt;p6&gt;Заўважце: гэтая бэта-вэрсія працавацьме толькі да 1-га сакавіка 2011 г. Калі ласка, абнаўляйце праграму.&lt;/p6&gt;\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;p0&gt;&lt;b1&gt;1) Download, Install and Setup&lt;/b1&gt; FlylinkDC++: http://code.google.com/p/flylinkdc/downloads/list\n Instructions on site http://www.flylinkdc.com/doku.php?id=en:flylinkdc&lt;/p0&gt;\n &lt;p2&gt;&lt;b3&gt;2) Turn on Web-server&lt;/b3&gt;\n Remember (or set) it parameters (port, username and password)&lt;/p2&gt;\n &lt;p4&gt;&lt;b5&gt;3) Test FlylinkDC++&lt;/b5&gt;\n Go to http://hostname:port/ using this username and password from Android device&lt;/p4&gt;\n &lt;p6&gt;&lt;b7&gt;4) Install MagnetLink.apk to Android device&lt;/b7&gt;&lt;/p6&gt;\n &lt;p8&gt;&lt;b9&gt;5) Setup MagnetLink&lt;/b9&gt;&lt;/p8&gt;\n See \&quot;Preferences\&quot; on main page\n &lt;p10&gt;&lt;b11&gt;6) Test MagnetLink&lt;/b11&gt;\n Access your provider\'s web-site from Android device and press to \&quot;magnet:\&quot; download link&lt;/p10&gt;\n \n &lt;p12&gt;Questions and suggestions about the &quot;MagnetLink&quot; You can send me: stace75@gmail.com&lt;/p12&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T081005Z" changeid="klyok">
+        <seg>&lt;p0&gt;&lt;b1&gt;1) Сьцягнуць, усталяваць ды наладзіць&lt;/b1&gt; FlyLinkDC++: http://code.google.com/p/flylinkdc/downloads/list\n
+Кіраўніцтва можна знайсьці на бачыне http://www.flylinkdc.com/doku.php?id=ru:flylinkdc&lt;/p0&gt;\n
+&lt;p2&gt;&lt;b3&gt;2) Задзейнічаць паслужнік сеціва (Web-server)&lt;/b3&gt;\n
+Запомніць (або вызначыць) ягоныя ўласьцівасьці: порт, імя карыстальніка ды гасло&lt;/p2&gt;\n
+&lt;p4&gt;&lt;b5&gt;3) Паспрабаваць, ці працуе FlylinkDC++&lt;/b5&gt;\n
+Завітаць са сваёй прылады Android на http://адрэса_асьветару:порт/, скарыстаўшы імя карыстальніка ды гасло&lt;/p4&gt;\n
+&lt;p6&gt;&lt;b7&gt;4) Усталяваць MagnetLink.apk на сваю прыладу&lt;/b7&gt;&lt;/p6&gt;\n
+&lt;p8&gt;&lt;b9&gt;5) Наладзіць MagnetLink&lt;/b9&gt;&lt;/p8&gt;\n
+Глядзіце «Перавагі» на галоўнае бачыне\n
+&lt;p10&gt;&lt;b11&gt;6) Паспрабаваць, ці працуе MagnetLink&lt;/b11&gt;\n
+Завітаць на бачыну вашага пастаўніка з прылады Android і націснуць на спасылку «magnet:»&lt;/p10&gt;\n
+\n
+&lt;p12&gt;Пытаньні і прапановы, што да «MagnetLink», вы можаце дасылаць мне: stace75@gmail.com. (Пытаньні па перакладзе — перакладчыку: yehekim@gmail.com.)&lt;/p12&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;t1&gt;%d&lt;/t1&gt; days</seg>
       </tuv>
       <tuv lang="be">
@@ -490,6 +538,14 @@
       </tuv>
       <tuv lang="be" changedate="20110125T075038Z" changeid="alex73">
         <seg>Перавышаны ліміт ACM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>About</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151001Z" changeid="klyok">
+        <seg>Пра праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -806,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Application beta is EXPIRED! Please update MagnetLink</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080639Z" changeid="klyok">
+        <seg>Тэрмін дзеяньня бэта-вэрсіі праграмы СКОНЧЫЎСЯ! Калі ласка, абнавіце MagnetLink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Applications</seg>
       </tuv>
       <tuv lang="be">
@@ -1114,6 +1178,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Close</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151204Z" changeid="klyok">
+        <seg>Закрыць</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Display FlylinkDC++ queue</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T150944Z" changeid="klyok">
+        <seg>Паказаць чаргу FlylinkDC++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Display group</seg>
       </tuv>
       <tuv lang="be">
@@ -1638,6 +1718,46 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error: Bad Login or Password</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151403Z" changeid="klyok">
+        <seg>Памылка: хібнае імя карыстальніка або гасло</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error: Input/Output Error:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151418Z" changeid="klyok">
+        <seg>Памылка чытаньня:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error: MalformedURLException:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151413Z" changeid="klyok">
+        <seg>Памылка — хібная спасылка (URL):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error: Socket Timeout:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151416Z" changeid="klyok">
+        <seg>Памылка злучэньня:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error: UTF-8 unsupported:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151410Z" changeid="klyok">
+        <seg>Памылка — не падтрымваецца UTF-8:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Event</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T153434Z" changeid="alex73">
@@ -1694,10 +1814,82 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>File:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151206Z" changeid="klyok">
+        <seg>Файл:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>First and Last</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T152102Z" changeid="alex73">
         <seg>Першы й апошні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix filename double encoding bug</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080516Z" changeid="klyok">
+        <seg>Выпраўляць падвойнае кадаваньне назваў файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix filenames</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080459Z" changeid="klyok">
+        <seg>Выпраўляць назвы файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix for dc.fttbkhv.ru</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080601Z" changeid="klyok">
+        <seg>Выпраўляць спасылкі для dc.fttbkhv.ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix links without &quot;=&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T080622Z" changeid="klyok">
+        <seg>Устаўляць адсутныя знакі «=»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FlylinkDC++ Hostname</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151021Z" changeid="klyok">
+        <seg>Адрэса асьветару з FlylinkDC++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FlylinkDC++ Password</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151042Z" changeid="klyok">
+        <seg>Гасло на FlylinkDC++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FlylinkDC++ Port</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151024Z" changeid="klyok">
+        <seg>Порт FlylinkDC++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FlylinkDC++ Username</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151028Z" changeid="klyok">
+        <seg>Імя карыстальніка FlylinkDC++</seg>
       </tuv>
     </tu>
     <tu>
@@ -1854,6 +2046,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>HTTP Error:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151405Z" changeid="klyok">
+        <seg>Памылка HTTP:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Help</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T150948Z" changeid="klyok">
+        <seg>Дапамога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hide clock</seg>
       </tuv>
       <tuv lang="be">
@@ -1898,6 +2106,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дадому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hostname</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151018Z" changeid="klyok">
+        <seg>Назоў або адрэса асьветару</seg>
       </tuv>
     </tu>
     <tu>
@@ -2114,6 +2330,22 @@
       </tuv>
       <tuv lang="be" changedate="20110125T142906Z" changeid="alex73">
         <seg>Рэжым MMI скасаваны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MagnetLink</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T075100Z" changeid="klyok">
+        <seg>MagnetLink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Main</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151200Z" changeid="klyok">
+        <seg>Галоўная</seg>
       </tuv>
     </tu>
     <tu>
@@ -2870,6 +3102,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Port</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151004Z" changeid="klyok">
+        <seg>Порт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Port number</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T145210Z" changeid="alex73">
@@ -2938,6 +3178,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Публічны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Queued successfull</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151359Z" changeid="klyok">
+        <seg>Паставілі ў чаргу</seg>
       </tuv>
     </tu>
     <tu>
@@ -3026,6 +3274,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Паўтарэньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Request successful, but file size is unknown. Please check FlylinkDC++ queue</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151241Z" changeid="klyok">
+        <seg>Запыталіся пасьпяхова, але памер файла невядомы. Спраўдзіце чаргу FlylinkDC++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Request successful, but link type is unknown. Please check FlylinkDC++ queue. To support P2P links install TransDroid application</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151356Z" changeid="klyok">
+        <seg>Запыталіся пасьпяхова, але від спасылкі невядомы. Спраўдзіце чаргу FlylinkDC++. Каб мець падтрымку спасылак P2P, усталюйце праграму TransDroid</seg>
       </tuv>
     </tu>
     <tu>
@@ -3866,6 +4130,14 @@
       </tuv>
       <tuv lang="be" changedate="20110128T074354Z" changeid="alex73">
         <seg>Абнаўленьне наладаў \u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Usage instruction</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110218T151922Z" changeid="klyok">
+        <seg>Як выкарыстоўваць</seg>
       </tuv>
     </tu>
     <tu>
