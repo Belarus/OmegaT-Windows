@@ -158,10 +158,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&quot;Nickname/Organization will be shown on in-call screen.&quot;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151206Z" changeid="klyok">
+        <seg>&quot;Падчас размовы будзе паказвацца мянушка або арганізацыя&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&quot;Press Menu for call options \u2022 Use keyboard to dial&quot;</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143521Z" changeid="alex73">
-        <seg>Націсьніце 'Мэню' для наладаў тэлефанаваньняў \u2022 Карыстайцеся наборнікам для выкліку</seg>
+      <tuv lang="be" changedate="20110219T123734Z" changeid="klyok">
+        <seg>&quot;Націсьніце 'Мэню', каб пабачыць можнасьці выкліку \u2022 Карыстайцеся наборнікам, каб выклікаць&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -534,6 +542,24 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;x0&gt;%s&lt;/x0&gt; missed calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124502Z" changeid="klyok">
+        <seg>Прапушчаных выклікаў: &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A special call needs to be made to activate your phone service. \n\nAfter pressing \u201CActivate\u201D, listen to the instructions provided to activate your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T130449Z" changeid="klyok">
+        <seg>Каб задзейнічаць абслугоўваньне вашага тэлефону, трэба набраць адмысловы нумар.\n
+\n
+Націсьніце «Задзейнічаць» і праслухайце адпаведныя ўказаньні, якія дапамогуць задзейнічаць ваш тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>ACM limit exceeded</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075038Z" changeid="alex73">
@@ -616,8 +642,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Add call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143039Z" changeid="alex73">
-        <seg>Дадаць тэлефанаваньне</seg>
+      <tuv lang="be" changedate="20110219T093941Z" changeid="klyok">
+        <seg>Дадаць выклік</seg>
       </tuv>
     </tu>
     <tu>
@@ -688,24 +714,24 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Additional CDMA call settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T072539Z" changeid="alex73">
-        <seg>Дадатковыя налады CDMA тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T121730Z" changeid="klyok">
+        <seg>Дадатковыя налады выклікаў CDMA</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Additional CDMA only call settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T072606Z" changeid="alex73">
-        <seg>Дадатковыя налады CDMA тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T121942Z" changeid="klyok">
+        <seg>Дадатковыя налады выключна CDMA выклікаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Additional GSM only call settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T072526Z" changeid="alex73">
-        <seg>Дадатковыя налады GSM тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T121704Z" changeid="klyok">
+        <seg>Дадатковыя налады выклікаў GSM</seg>
       </tuv>
     </tu>
     <tu>
@@ -792,16 +818,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>All call log entries will be removed.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T152000Z" changeid="alex73">
-        <seg>Усе запісы ў логу будуць выдаленыя.</seg>
+      <tuv lang="be" changedate="20110219T093316Z" changeid="klyok">
+        <seg>Усе запісы гісторыі выклікаў сатруцца.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>All calls are restricted by access control.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T075220Z" changeid="alex73">
-        <seg>Усе выклікі абмежаваныя з-за кантролю доступу.</seg>
+      <tuv lang="be" changedate="20110219T094231Z" changeid="klyok">
+        <seg>Усе выклікі абмежаваныя кантролем доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -838,6 +864,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Always back to call log</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151552Z" changeid="klyok">
+        <seg>Заўсёды вяртацца да гісторыі выклікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Always forward</seg>
       </tuv>
       <tuv lang="be" changedate="20110128T073228Z" changeid="alex73">
@@ -850,6 +884,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110128T073235Z" changeid="alex73">
         <seg>Заўсёды выкарыстоўвайце гэты нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Always use to place Internet calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T154927Z" changeid="klyok">
+        <seg>Заўсёды выкарыстоўваць на выклікі празь сеціва</seg>
+      </tuv>
+    </tu>
       </tuv>
     </tu>
     <tu>
@@ -874,6 +918,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be">
         <seg>Праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are you sure you want to clear the call log?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T093859Z" changeid="klyok">
+        <seg>Ці ўпэўненыя вы, што хочаце ачысьціць гісторыю выклікаў?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Ask for each call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152413Z" changeid="klyok">
+        <seg>Пытацца па кожным выкліку</seg>
       </tuv>
     </tu>
     <tu>
@@ -918,6 +978,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Back to call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T123853Z" changeid="klyok">
+        <seg>Вярнуцца да выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Battery information</seg>
       </tuv>
       <tuv lang="be">
@@ -936,24 +1004,24 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>CDMA call settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T144006Z" changeid="alex73">
-        <seg>Налады тэлефанаваньняў CDMA</seg>
+      <tuv lang="be" changedate="20110219T121713Z" changeid="klyok">
+        <seg>Налады выклікаў CDMA</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>CDMA: Call dropped.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T072158Z" changeid="alex73">
-        <seg>CDMA: тэлефанаваньне ськінута</seg>
+      <tuv lang="be" changedate="20110219T094257Z" changeid="klyok">
+        <seg>CDMA: выклік скінулі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>CDMA: Call intercepted.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T142633Z" changeid="alex73">
-        <seg>CDMA: Тэлефанаваньне перахопленае.</seg>
+      <tuv lang="be" changedate="20110219T094327Z" changeid="klyok">
+        <seg>CDMA: выклік перахапілі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -976,96 +1044,160 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Call &lt;x0&gt;%s&lt;/x0&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T151341Z" changeid="alex73">
-        <seg>Тэлефанаваць &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      <tuv lang="be" changedate="20110219T093022Z" changeid="klyok">
+        <seg>Выклікаць &lt;x0&gt;%s&lt;/x0&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call Lost</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T142803Z" changeid="alex73">
-        <seg>Тэлефанаваньне згублена.</seg>
+      <tuv lang="be" changedate="20110219T110056Z" changeid="klyok">
+        <seg>Згубілі выклік.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call again</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T153135Z" changeid="alex73">
-        <seg>Тэлефанаваць зноў</seg>
+      <tuv lang="be" changedate="20110219T094010Z" changeid="klyok">
+        <seg>Выклікаць ізноў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call authorized</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T161029Z" changeid="klyok">
+        <seg>Выклік дазволілі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call back</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T153128Z" changeid="alex73">
-        <seg>Зваротны званок</seg>
+      <tuv lang="be" changedate="20110219T093952Z" changeid="klyok">
+        <seg>Зваротны выклік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call blocked</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T161024Z" changeid="klyok">
+        <seg>Выклік забаранілі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call contact</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T151400Z" changeid="alex73">
-        <seg>Тэлефанаваць кантакту</seg>
+      <tuv lang="be" changedate="20110219T093035Z" changeid="klyok">
+        <seg>Выклікаць кантакт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call ended</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124331Z" changeid="klyok">
+        <seg>Выклік скончылі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call forwarding</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073218Z" changeid="alex73">
-        <seg>Перанакіроўваньне тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T122728Z" changeid="klyok">
+        <seg>Перасылаць выклікі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call forwarding settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073208Z" changeid="alex73">
-        <seg>Налады перанакіроўваньня тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T122646Z" changeid="klyok">
+        <seg>Налады перасылаць выклікі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call has been lost.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T142737Z" changeid="alex73">
-        <seg>Тэлефанаваньне згублена.</seg>
+      <tuv lang="be" changedate="20110219T110925Z" changeid="klyok">
+        <seg>Выклік згубіўся.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call log</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Лог</seg>
+      <tuv lang="be" changedate="20110219T093445Z" changeid="klyok">
+        <seg>Гісторыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call log is empty.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T093825Z" changeid="klyok">
+        <seg>Гісторыя выклікаў пустая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call not sent, &lt;x0&gt;%s&lt;/x0&gt; is not an emergency number!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125844Z" changeid="klyok">
+        <seg>Ня выклікалі, бо нумар &lt;x0&gt;%s&lt;/x0&gt; ня ёсьць надзвычайным!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call not sent, no valid number entered.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124954Z" changeid="klyok">
+        <seg>Ня выклікалі, бо не набралі сапраўднага нумару.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call not sent, please dial an emergency number!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125901Z" changeid="klyok">
+        <seg>Ня выклікалі. Калі ласка, набярыце надзвычайны нумар!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Call not sent.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125114Z" changeid="klyok">
+        <seg>Ня выклікалі.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call settings</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Тэлефанаваньні</seg>
+      <tuv lang="be" changedate="20110219T121343Z" changeid="klyok">
+        <seg>Налады выклікаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call settings error</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074306Z" changeid="alex73">
-        <seg>Памылка наладаў тэлефанаваньня</seg>
+      <tuv lang="be" changedate="20110219T123340Z" changeid="klyok">
+        <seg>Памылка наладаў выклікаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Call waiting</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073121Z" changeid="alex73">
-        <seg>Чаканьне тэлефанаваньня</seg>
+      <tuv lang="be" changedate="20110219T122510Z" changeid="klyok">
+        <seg>Чаканьне выкліку</seg>
       </tuv>
     </tu>
     <tu>
@@ -1078,10 +1210,51 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Caller ID</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T122342Z" changeid="klyok">
+        <seg>Уласны нумар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Calling (&lt;x0&gt;%s&lt;/x0&gt;)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141152Z" changeid="klyok">
+        <seg>Выклікаем (&lt;x0&gt;%s&lt;/x0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Calling via ^1\n&lt;b0&gt;^2&lt;/b0&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T140803Z" changeid="klyok">
+        <seg>Выклікаем праз ^1\n
+&lt;b0&gt;^2&lt;/b0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Cancel</seg>
       </tuv>
       <tuv lang="be">
         <seg>Скасаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cdma callwaiting</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124151Z" changeid="klyok">
+        <seg>Чакаем на адказ (CDMA)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Cell phone call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155513Z" changeid="klyok">
+        <seg>Выклікаць па сотавым тэлефоне</seg>
       </tuv>
     </tu>
     <tu>
@@ -1128,16 +1301,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Choose a number to call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T151235Z" changeid="alex73">
-        <seg>Абраць нумар для тэлефанаваньня</seg>
+      <tuv lang="be" changedate="20110219T092858Z" changeid="klyok">
+        <seg>Абраць, які нумар выклікаць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Choose a number to message</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T151246Z" changeid="alex73">
-        <seg>Абраць нумар для паведамленьня</seg>
+      <tuv lang="be" changedate="20110219T092943Z" changeid="klyok">
+        <seg>Абраць, на які нумар даслаць паведамленьне</seg>
       </tuv>
     </tu>
     <tu>
@@ -1168,8 +1341,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Clear call log</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Выдаліць лог тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T093114Z" changeid="klyok">
+        <seg>Ачысьціць гісторыю выклікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -1200,8 +1373,24 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Conference call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T142722Z" changeid="alex73">
-        <seg>Канферэнц-сувязь</seg>
+      <tuv lang="be" changedate="20110219T123656Z" changeid="klyok">
+        <seg>Выклік да нарады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Conference call &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T123846Z" changeid="klyok">
+        <seg>Выклік да нарады &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Configure call options</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152145Z" changeid="klyok">
+        <seg>Наставіць можнасьці выклікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -1336,8 +1525,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Current call</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Гэтае тэлефанаваньне</seg>
+      <tuv lang="be" changedate="20110219T094050Z" changeid="klyok">
+        <seg>Гэты выклік</seg>
       </tuv>
     </tu>
     <tu>
@@ -1346,6 +1535,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be">
         <seg>Гэтае тэлефанаваньне (&lt;t1&gt;%s&lt;/t1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Current call (&lt;x0&gt;%s&lt;/x0&gt;)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124551Z" changeid="klyok">
+        <seg>Гэты выклік (&lt;x0&gt;%s&lt;/x0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1448,16 +1645,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Dial</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T145121Z" changeid="alex73">
-        <seg>Тэлефанаваць</seg>
+      <tuv lang="be" changedate="20110219T123353Z" changeid="klyok">
+        <seg>Выклікаць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Dialer</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Тэлефанаваць</seg>
+      <tuv lang="be" changedate="20110219T094017Z" changeid="klyok">
+        <seg>Выклікаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,6 +1795,33 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Drag right to answer and\nend active call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141015Z" changeid="klyok">
+        <seg>Перацягніце направа, каб адказаць\n
+і скончыць бягучы выклік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Drag right to answer and\nend call on hold</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141129Z" changeid="klyok">
+        <seg>Перацягніце направа, каб адказаць\n
+і скончыць выклік, які трымаецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Drag right to answer and\nhold active call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141116Z" changeid="klyok">
+        <seg>Перацягніце направа, каб адказаць\n
+і трымаць бягучы выклік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Duration</seg>
       </tuv>
       <tuv lang="be">
@@ -1608,8 +1832,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>During a call, notify me of incoming calls</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Падчас размовы, паведамляць пра уваходныя</seg>
+      <tuv lang="be" changedate="20110219T123752Z" changeid="klyok">
+        <seg>Паведамляць пра ўваходныя выклікі, калі размаўляем</seg>
       </tuv>
     </tu>
     <tu>
@@ -1632,8 +1856,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Edit number before call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T152954Z" changeid="alex73">
-        <seg>Рэдагаваць нумар перад тэлефанаваньнем</seg>
+      <tuv lang="be" changedate="20110219T093501Z" changeid="klyok">
+        <seg>Зьмяніць нумар і выклікаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -1654,18 +1878,34 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Emergency Callback Mode</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T133412Z" changeid="klyok">
+        <seg>Стан надзвычайнага зваротнага выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Emergency Dialer</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T074000Z" changeid="alex73">
-        <seg>Надзвычайныя тэлефанаваньні</seg>
+      <tuv lang="be" changedate="20110219T094027Z" changeid="klyok">
+        <seg>Надзвычайныя выклікі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Emergency call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125728Z" changeid="klyok">
+        <seg>Надзвычайны выклік</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Emergency calls are restricted by access control.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T065432Z" changeid="alex73">
-        <seg>Надзвычайныя тэлефанаваньні абмежаваныя кантролем доступу.</seg>
+      <tuv lang="be" changedate="20110219T094235Z" changeid="klyok">
+        <seg>Надзвычайныя выклікі абмежаваныя кантролем доступу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1688,16 +1928,25 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>End call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143006Z" changeid="alex73">
-        <seg>Телефанаваньне скончана</seg>
+      <tuv lang="be" changedate="20110219T114614Z" changeid="klyok">
+        <seg>Выклік скончылі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>End current call\n&amp; answer</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143350Z" changeid="alex73">
-        <seg>Скончыць дзейнае тэлефанаваньне\n&amp; адказ</seg>
+      <tuv lang="be" changedate="20110219T115956Z" changeid="klyok">
+        <seg>Скончыць бягучы выклік\n
+і адказаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Entered Emergency Callback Mode</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T133402Z" changeid="klyok">
+        <seg>Перайшлі ў стан надзвычайнага зваротнага выкліку</seg>
       </tuv>
     </tu>
     <tu>
@@ -1762,6 +2011,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T153434Z" changeid="alex73">
         <seg>Падзея</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Exiting Emergency Callback Mode</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135852Z" changeid="klyok">
+        <seg>Выходзім са стану надзвычайнага зваротнага выкліку</seg>
       </tuv>
     </tu>
     <tu>
@@ -1910,6 +2167,30 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For all calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152509Z" changeid="klyok">
+        <seg>Для ўсіх выклікаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For all calls when data network is available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152529Z" changeid="klyok">
+        <seg>Для ўсіх выклікаў — калі маецца доступ да сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Force return to call log screen after a call ends.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151651Z" changeid="klyok">
+        <seg>Прымусова вяртацца да гісторыі выклікаў, як скончыцца размова.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Forward when busy</seg>
       </tuv>
       <tuv lang="be" changedate="20110128T073339Z" changeid="alex73">
@@ -1920,8 +2201,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Forward when unanswered</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074127Z" changeid="alex73">
-        <seg>Перанакіроўваць калі няма адказу</seg>
+      <tuv lang="be" changedate="20110219T123150Z" changeid="klyok">
+        <seg>Перасылаць, калі не адказваем</seg>
       </tuv>
     </tu>
     <tu>
@@ -1936,16 +2217,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Forwarding all calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073254Z" changeid="alex73">
-        <seg>Перанакіроўваць усе тэлефанаваньні</seg>
+      <tuv lang="be" changedate="20110219T122819Z" changeid="klyok">
+        <seg>Перасылаць усе выклікі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Forwarding all calls to {0}</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073312Z" changeid="alex73">
-        <seg>Перанакіроўваць усе тэлефанаваньні на {0}</seg>
+      <tuv lang="be" changedate="20110219T122902Z" changeid="klyok">
+        <seg>Перасылаць усе выклікі да {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -1960,8 +2241,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Forwarding to {0}</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073414Z" changeid="alex73">
-        <seg>Перанакіроўваць на {0}</seg>
+      <tuv lang="be" changedate="20110219T123309Z" changeid="klyok">
+        <seg>Перасылаць да {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -2008,8 +2289,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>GSM call settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143957Z" changeid="alex73">
-        <seg>Налады тэлефанаваньняў GSM</seg>
+      <tuv lang="be" changedate="20110219T121707Z" changeid="klyok">
+        <seg>Налады выклікаў GSM</seg>
       </tuv>
     </tu>
     <tu>
@@ -2096,8 +2377,9 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Hold current call\n&amp; answer</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143337Z" changeid="alex73">
-        <seg>Трымаць дзейнае тэлефанаваньне\n&amp; адказ</seg>
+      <tuv lang="be" changedate="20110219T115938Z" changeid="klyok">
+        <seg>Трымаць бягучы выклік\n
+і адказаць</seg>
       </tuv>
     </tu>
     <tu>
@@ -2114,6 +2396,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110218T151018Z" changeid="klyok">
         <seg>Назоў або адрэса асьветару</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you skip activation, you can\'t place calls or connect to mobile data networks (though you can connect to Wi-Fi networks). Until you activate your phone, you are asked to activate it each time you turn it on.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T132609Z" changeid="klyok">
+        <seg>Калі вы не задзейнічаеце тэлефон, вы ня зможаце тэлефанаваць і далучацца да мабільнае сеткі перадаваць дадзеныя (нават калі далучыцеся да сеткі Wi-Fi). Вам будуць прапанаваць задзейнічаць тэлефон па кожным запуску, ажно пакуль вы нарэшце не задзейнічаеце яго.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2456,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>In call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124353Z" changeid="klyok">
+        <seg>Ідзе размова</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Incoming</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T153650Z" changeid="alex73">
@@ -2182,10 +2480,18 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Incoming call in black list will be rejected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151747Z" changeid="klyok">
+        <seg>Выклікі ад нумароў з чорнага сьпісу будуць адхіляцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Incoming calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T153121Z" changeid="alex73">
-        <seg>Уваходныя тэлефанаваньні</seg>
+      <tuv lang="be" changedate="20110219T093947Z" changeid="klyok">
+        <seg>Уваходныя выклікі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2216,8 +2522,32 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Internet call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T152054Z" changeid="alex73">
-        <seg>Тэлефанаваньне праз сеціва</seg>
+      <tuv lang="be" changedate="20110219T093437Z" changeid="klyok">
+        <seg>Выклікаць празь сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet call settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151855Z" changeid="klyok">
+        <seg>Налады выклікаў празь сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet calling (SIP) accounts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151951Z" changeid="klyok">
+        <seg>Рахункі на выклікі празь сеціва (SIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet calling not supported</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T160432Z" changeid="klyok">
+        <seg>Выклікі празь сеціва не падтрымліваюцца</seg>
       </tuv>
     </tu>
     <tu>
@@ -2242,6 +2572,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T151622Z" changeid="alex73">
         <seg>Спалучыць кантакты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>LED will blink when call is missed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151040Z" changeid="klyok">
+        <seg>Мігцець лямпачкаю, калі прапусьцілі выклік</seg>
       </tuv>
     </tu>
     <tu>
@@ -2366,6 +2704,30 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Making a phone call may not be wise at this time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T161221Z" changeid="klyok">
+        <seg>Ня надта разумна тэлефанаваць у гэты час.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Making a phone call may not be wise at this time. Are you sure you want to continue?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T161151Z" changeid="klyok">
+        <seg>Ня надта разумна тэлефанаваць у гэты час. Ці ўпэўненыя вы, што хочаце працягваць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Manage Internet calling (SIP) accounts and status</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152030Z" changeid="klyok">
+        <seg>Кіраваць рахункамі ды станам выклікаў празь сеціва (SIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manage Wi-Fi, Bluetooth, airplane mode, &amp; mobile networks</seg>
       </tuv>
       <tuv lang="be">
@@ -2382,10 +2744,18 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Manage calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125906Z" changeid="klyok">
+        <seg>Кіраваць выклікамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manage conference call</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143100Z" changeid="alex73">
-        <seg>Кіраваць канферэнц-сувязьзю</seg>
+      <tuv lang="be" changedate="20110219T123712Z" changeid="klyok">
+        <seg>Кіраваць выклікамі да нарады</seg>
       </tuv>
     </tu>
     <tu>
@@ -2424,8 +2794,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Merge calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143030Z" changeid="alex73">
-        <seg>Аб'яднаць тэлефанаваньні</seg>
+      <tuv lang="be" changedate="20110219T115728Z" changeid="klyok">
+        <seg>Аб'яднаць выклікі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2442,6 +2812,30 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T153110Z" changeid="alex73">
         <seg>Прапушчыны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missed call LED notify</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T150555Z" changeid="klyok">
+        <seg>Мігцець па прапушчаным выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missed call from &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124515Z" changeid="klyok">
+        <seg>Прапусьцілі выклік ад &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Missed calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124433Z" changeid="klyok">
+        <seg>Прапушчаныя выклікі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2662,6 +3056,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No Internet calling account</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155529Z" changeid="klyok">
+        <seg>Няма рахунку на выклікі празь сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No SD card</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T153319Z" changeid="alex73">
@@ -2784,8 +3186,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Normal calls are restricted by access control.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T065448Z" changeid="alex73">
-        <seg>Звычайныя тэлефанаваньні абмежаваныя кантролем доступу.</seg>
+      <tuv lang="be" changedate="20110219T094249Z" changeid="klyok">
+        <seg>Звычайныя выклікі абмежаваныя кантролем доступу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not receiving calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155828Z" changeid="klyok">
+        <seg>Выклікі не прымаюцца</seg>
       </tuv>
     </tu>
     <tu>
@@ -2816,16 +3226,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Number displayed in outgoing calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073032Z" changeid="alex73">
-        <seg>Паказаць нумар для выходных тэлефанаваньнях</seg>
+      <tuv lang="be" changedate="20110219T122307Z" changeid="klyok">
+        <seg>Паказваць нумар, калі тэлефануем</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Number hidden in outgoing calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073037Z" changeid="alex73">
-        <seg>Схаваць нумар для выходных тэлефанаваньнях</seg>
+      <tuv lang="be" changedate="20110219T122209Z" changeid="klyok">
+        <seg>Хаваць нумар, калі тэлефануем</seg>
       </tuv>
     </tu>
     <tu>
@@ -2856,8 +3266,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Number when unanswered</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074143Z" changeid="alex73">
-        <seg>Нумар калі няма адказу</seg>
+      <tuv lang="be" changedate="20110219T123138Z" changeid="klyok">
+        <seg>Нумар, калі не адказваем</seg>
       </tuv>
     </tu>
     <tu>
@@ -2912,8 +3322,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Only Emergency calls are possible.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T065541Z" changeid="alex73">
-        <seg>Магчымыя толькі надзвычайныя тэлефанаваньні.</seg>
+      <tuv lang="be" changedate="20110219T110023Z" changeid="klyok">
+        <seg>Магчымыя толькі надзвычайныя выклікі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2930,6 +3340,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T152519Z" changeid="alex73">
         <seg>Адлюстроўваць толькі кантакты, якія маюць тэлефонныя нумары</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Only for Internet calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152518Z" changeid="klyok">
+        <seg>Толькі для выклікаў празь сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +3392,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Other call settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135905Z" changeid="klyok">
+        <seg>Іншыя налады выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Out of service area</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T075118Z" changeid="alex73">
@@ -2998,10 +3424,18 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Outgoing call via SIP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T154620Z" changeid="klyok">
+        <seg>Выходны выклік праз SIP </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Outgoing calls are restricted by FDN.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T075150Z" changeid="alex73">
-        <seg>Выходныя тэлефанаваньні абмежаваныя gf FDN.</seg>
+      <tuv lang="be" changedate="20110219T094135Z" changeid="klyok">
+        <seg>Выходныя выклікі абмяжоўваюцца па FDN.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3066,6 +3500,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T152108Z" changeid="alex73">
         <seg>Фанэтычнае імя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Place call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155410Z" changeid="klyok">
+        <seg>Як тэлефанаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -3144,8 +3586,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Press Menu for call options.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143446Z" changeid="alex73">
-        <seg>Націсьніце 'Мэню' для наладаў тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T120111Z" changeid="klyok">
+        <seg>Націсьніце 'Мэню', каб пабачыць можнасьці выкліку</seg>
       </tuv>
     </tu>
     <tu>
@@ -3168,8 +3610,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Private number</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T074049Z" changeid="alex73">
-        <seg>Прыватны нумар</seg>
+      <tuv lang="be" changedate="20110219T094033Z" changeid="klyok">
+        <seg>Схаваны нумар</seg>
       </tuv>
     </tu>
     <tu>
@@ -3206,6 +3648,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Receive incoming calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152045Z" changeid="klyok">
+        <seg>Прымаць уваходныя выклікі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Receiving calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155851Z" changeid="klyok">
+        <seg>Выклікі прымаюцца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Registered on network.</seg>
       </tuv>
       <tuv lang="be" changedate="20110128T081052Z" changeid="alex73">
@@ -3232,8 +3690,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Remove from call log</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Выдаліць з логу тэлефанаваньняў</seg>
+      <tuv lang="be" changedate="20110219T093527Z" changeid="klyok">
+        <seg>Выкрасьліць зь гісторыі выклікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -3426,6 +3884,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T152635Z" changeid="alex73">
         <seg>Налады захоўваньня кантактаў\u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Screen will stay awake longer than normal while in-call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T150502Z" changeid="klyok">
+        <seg>Калі размаўляем, экран будзе вымыкацца пазьней за звычайны час</seg>
       </tuv>
     </tu>
     <tu>
@@ -3872,8 +4338,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Swap calls</seg>
       </tuv>
-      <tuv lang="be" changedate="20110125T143021Z" changeid="alex73">
-        <seg>Зьмяніць тэлефанаваньне</seg>
+      <tuv lang="be" changedate="20110219T115709Z" changeid="klyok">
+        <seg>Зьмяніць выклік</seg>
       </tuv>
     </tu>
     <tu>
@@ -3906,6 +4372,54 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T152138Z" changeid="alex73">
         <seg>Кантакт не існуе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The phone will be in emergency callback mode for &lt;x0&gt;%s&lt;/x0&gt; minute. While in this mode no applications using a data connection can be used. Would you like to exit now?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135511Z" changeid="klyok">
+        <seg>Ваш тэлефон будзе ў стане надзвычайнага зваротнага выкліку цягам &lt;x0&gt;%s&lt;/x0&gt; хвіліны. У гэтым стане нельга карыстацца праграмамі, якія перадаюць дадзеныя. Ці хочаце выйсьці зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The phone will be in emergency callback mode for &lt;x0&gt;%s&lt;/x0&gt; minutes. While in this mode no applications using a data connection can be used. Would you like to exit now?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135435Z" changeid="klyok">
+        <seg>Ваш тэлефон будзе ў стане надзвычайнага зваротнага выкліку цягам &lt;x0&gt;%s&lt;/x0&gt; хвілінаў. У гэтым стане нельга карыстацца праграмамі, якія перадаюць дадзеныя. Ці хочаце выйсьці зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected action is not available while in an emergency call</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135835Z" changeid="klyok">
+        <seg>Гэтага нельга зрабіць у стане надзвычайнага зваротнага выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected action is not available while in the emergency callback mode. The phone will be in this mode for &lt;x0&gt;%s&lt;/x0&gt; minute. Would you like to exit now?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135806Z" changeid="klyok">
+        <seg>Гэтага нельга зрабіць у стане надзвычайнага зваротнага выкліку. Ваш тэлефон будзе ў гэтым стане цягам &lt;x0&gt;%s&lt;/x0&gt; хвіліны. Ці хочаце выйсьці зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected action is not available while in the emergency callback mode. The phone will be in this mode for &lt;x0&gt;%s&lt;/x0&gt; minutes. Would you like to exit now?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T135823Z" changeid="klyok">
+        <seg>Гэтага нельга зрабіць у стане надзвычайнага зваротнага выкліку. Ваш тэлефон будзе ў гэтым стане цягам &lt;x0&gt;%s&lt;/x0&gt; хвілінаў. Ці хочаце выйсьці зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are no Internet calling accounts on this phone. Add one now?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155616Z" changeid="klyok">
+        <seg>Гэты тэлефон ня мае рахункаў на выклікі празь сеціва. Ці дадаць рахунак зараз?</seg>
       </tuv>
     </tu>
     <tu>
@@ -3990,10 +4504,34 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To place a call, first turn off Airplane mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T124726Z" changeid="klyok">
+        <seg>Каб выклікаць, спачатку выйдзіце са стану «ў самалёце»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To place an Internet call, check your Internet connection first</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T160248Z" changeid="klyok">
+        <seg>Каб выклікаць празь сеціва, спачатку спраўдзіце злучэньне зь сецівам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Today</seg>
       </tuv>
       <tuv lang="be">
         <seg>Сёньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Touch \u201CActivate\u201D to place a special call that activates your phone on your carrier\'s mobile network, so you can place calls and connect to mobile data networks.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T132318Z" changeid="klyok">
+        <seg>Націсьніце «Задзейнічаць», каб набраць нумар, які задзейнічае ваш тэлефон у сетцы вашага апэратару мабільнае сувязі, так што вы зможаце тэлефанаваць і далучацца да мабільнае сеткі перадаваць дадзеныя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4070,10 +4608,58 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Unable to conference calls.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125408Z" changeid="klyok">
+        <seg>Немагчыма выклікаць да нарады.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unable to connect to this network at this time.</seg>
       </tuv>
       <tuv lang="be" changedate="20110128T081007Z" changeid="alex73">
         <seg>Немагчыма падлучыцца да гэтай сеткі ў дадзены момант.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to reject call.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125426Z" changeid="klyok">
+        <seg>Немагчыма адхіліць выклік.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to release call(s).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125553Z" changeid="klyok">
+        <seg>Немагчыма вызваліць выклік.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to separate call.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125329Z" changeid="klyok">
+        <seg>Немагчыма падзяліць выклік.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to switch calls.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125209Z" changeid="klyok">
+        <seg>Немагчыма зьмяніць выклік.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to transfer call.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T125352Z" changeid="klyok">
+        <seg>Немагчыма перадаць выклік.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4142,6 +4728,30 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Use Internet calling</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152159Z" changeid="klyok">
+        <seg>Карыстацца выклікамі празь сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use Internet calling (Wi-Fi only)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T152235Z" changeid="klyok">
+        <seg>Карыстацца выклікамі празь сеціва (толькі па Wi-Fi)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use Internet calling account:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T154815Z" changeid="klyok">
+        <seg>Карыстацца рахункам выклікаў празь сеціва:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Use default operator settings to display my number in outgoing calls</seg>
       </tuv>
       <tuv lang="be" changedate="20110128T073049Z" changeid="alex73">
@@ -4154,6 +4764,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T153636Z" changeid="alex73">
         <seg>Выкарыстоўваць гэтае фота</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Used for outbound calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155759Z" changeid="klyok">
+        <seg>Выкарыстоўваецца на ўсе выходныя выклікі</seg>
       </tuv>
     </tu>
     <tu>
@@ -4178,6 +4796,46 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be">
         <seg>Вібраваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate call waiting</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151332Z" changeid="klyok">
+        <seg>Трымцець, калі чакаем выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate every 45 seconds during outgoing calls</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141933Z" changeid="klyok">
+        <seg>Трымцець кожныя 45 сэкундаў, калі тэлефануем</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate on call waiting</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T151411Z" changeid="klyok">
+        <seg>Тэлефон будзе трымцець, пакуль чакаем выкліку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate when a call has ended</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141952Z" changeid="klyok">
+        <seg>Трымцець, калі выклік скончыўся</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vibrate when a call is answered</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T141913Z" changeid="klyok">
+        <seg>Трымцець, калі на выклік адказалі</seg>
       </tuv>
     </tu>
     <tu>
@@ -4366,6 +5024,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You are not allowed to make phone calls at this time. Please try again later.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T160631Z" changeid="klyok">
+        <seg>Вы ня можаце тэлефанаваць у гэты час. Калі ласка, паспрабуйце зноўку пазьней.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can use the Call Settings to change which Internet calling account to use by default when placing calls, by selecting a different account under Internet call settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T155258Z" changeid="klyok">
+        <seg>У наладах выклікаў вы можаце вызначыць, які рахунак выклікаў празь сеціва звычайна выкарыстоўваць. Для гэтага трэба абраць іншы рахунак у наладах выклікаў празь сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You cannot delete contacts from read-only accounts, but you can hide them in your contacts lists.</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T151813Z" changeid="alex73">
@@ -4376,8 +5050,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>You cannot make outgoing calls while call barring is on.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T065325Z" changeid="alex73">
-        <seg>Вы не можаце здзяйсняць выходныя тэлефанаваньні падчас забароны выклікаў.</seg>
+      <tuv lang="be" changedate="20110219T094219Z" changeid="klyok">
+        <seg>Вы ня можаце тэлефанаваць, калі дзейнічае забарона выклікаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4394,6 +5068,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110128T081749Z" changeid="alex73">
         <seg>Вы можаце панесьці значныя страты ў роўмінгу!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You must be connected to a Wi-Fi network for Internet calls (use the Wireless &amp; Network settings)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T160418Z" changeid="klyok">
+        <seg>Вы мусіце злучыцца зь сеткаю Wi-Fi, каб выклікаць празь сеціва (глядзіце налады бяздротавых і сетак)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4422,18 +5104,37 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your carrier does not support disabling call-forwarding when your phone doesn\'t answer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T123249Z" changeid="klyok">
+        <seg>Ваш апэратар не дазваляе забараняць перасылаць выклікі, калі вы не адказваеце.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your carrier does not support disabling call-forwarding when your phone is busy.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T073501Z" changeid="alex73">
-        <seg>Ваш апэратар не падтрымлівае забарону перанакіраваньня тэлефанаваньняў, калі ваш тэлефон заняты.</seg>
+      <tuv lang="be" changedate="20110219T123026Z" changeid="klyok">
+        <seg>Ваш апэратар не дазваляе забараняць перасылаць выклікі, калі ваш тэлефон заняты.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Your carrier does not support disabling call-forwarding when your phone is unreachable.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T074243Z" changeid="alex73">
-        <seg>Ваш апэратар не падтрымлівае забарону перанакіраваньня тэлефанаваньняў, калі ваш тэлефон недасяжны.</seg>
+      <tuv lang="be" changedate="20110219T123508Z" changeid="klyok">
+        <seg>Ваш апэратар не дазваляе забараняць перасылаць выклікі, калі ваш тэлефон недасяжны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your phone did not activate. \nYou may need to find an area with better coverage (near a window, or outside). \n\nTry again or call customer service for more options.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110219T133329Z" changeid="klyok">
+        <seg>Ваш тэлефон не атрымліваецца задзейнічаць. \n
+Мажліва, вам трэба пашукаць мейсца зь лепшым пакрыцьцём (ля вакна, ці звонку). \n
+\n
+Паспрабуйце зноўку ці патэлефануйце ў службу падтрымкі.</seg>
       </tuv>
     </tu>
     <tu>
