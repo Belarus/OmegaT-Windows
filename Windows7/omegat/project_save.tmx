@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 (%2 bytes)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065125Z" changeid="eratyk">
+        <seg>%1 (%2 байтаў)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 (%2)</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T152301Z" changeid="eratyk">
@@ -2070,6 +2078,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%2!ls! on %1!ls!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140538Z" changeid="eratyk">
+        <seg>%2!ls! на %1!ls!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%2!ls! refers to a location that is unavailable. It could be on a hard drive on this computer, or on a network. Check to make sure that the disk is properly inserted, or that you are connected to the Internet or your network, and then try again. If it still can't be located, the information might have been moved to a different location.</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T143131Z" changeid="eratyk">
@@ -3112,8 +3128,8 @@
       <tuv lang="en">
         <seg>&amp;Add current location to Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T171727Z" changeid="eratyk">
-        <seg>Дадаць дзейнае размяшчэнне да Абранага</seg>
+      <tuv lang="be" changedate="20110223T092247Z" changeid="eratyk">
+        <seg>Дадаць дзейнае размяшчэнне да ўлюбёнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -3136,8 +3152,8 @@
       <tuv lang="en">
         <seg>&amp;Add to Favorites...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123823Z" changeid="eratyk">
-        <seg>Дадаць да абранага...</seg>
+      <tuv lang="be" changedate="20110223T092106Z" changeid="eratyk">
+        <seg>Дадаць да ўлюбёнага...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4110,6 +4126,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Copy Here</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T085918Z" changeid="eratyk">
+        <seg>Скапіяваць сюды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Copy address</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183542Z" changeid="eratyk">
@@ -4638,6 +4662,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Do not show me this message in the future</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093152Z" changeid="eratyk">
+        <seg>Не паказваць мне гэтае паведамленне ў будучыні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Do not use the failed lines in the future</seg>
       </tuv>
       <tuv lang="be" changedate="20110126T081812Z" changeid="eratyk">
@@ -4786,6 +4818,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T175834Z" changeid="eratyk">
         <seg>Эл. пошта</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;E-mail Address:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091839Z" changeid="eratyk">
+        <seg>Эл. адрас:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6142,6 +6182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Move Here</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T085921Z" changeid="eratyk">
+        <seg>Перамясціць сюды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Move here</seg>
       </tuv>
       <tuv lang="be" changedate="20100703T133318Z" changeid="alex">
@@ -6584,8 +6632,8 @@
       <tuv lang="en">
         <seg>&amp;Open favorite links folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T114042Z" changeid="eratyk">
-        <seg>Адчыніць каталог абраных спасылак</seg>
+      <tuv lang="be" changedate="20110223T092303Z" changeid="eratyk">
+        <seg>Адчыніць каталог улюбёных спасылак</seg>
       </tuv>
     </tu>
     <tu>
@@ -7216,8 +7264,8 @@
       <tuv lang="en">
         <seg>&amp;Remove Favorite...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123839Z" changeid="eratyk">
-        <seg>Выдаліць з абранага...</seg>
+      <tuv lang="be" changedate="20110223T092114Z" changeid="eratyk">
+        <seg>Выдаліць з улюбёнага...</seg>
       </tuv>
     </tu>
     <tu>
@@ -7392,8 +7440,8 @@
       <tuv lang="en">
         <seg>&amp;Restore default favorite links</seg>
       </tuv>
-      <tuv lang="be" changedate="20110104T170936Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя абраныя спасылкі</seg>
+      <tuv lang="be" changedate="20110223T092313Z" changeid="eratyk">
+        <seg>Аднавіць перадвызначаныя ўлюбёныя спасылкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -7416,8 +7464,8 @@
       <tuv lang="en">
         <seg>&amp;Restore favorite links</seg>
       </tuv>
-      <tuv lang="be" changedate="20100704T165908Z" changeid="alex">
-        <seg>Аднавіць абраныя спасылкі</seg>
+      <tuv lang="be" changedate="20110223T092233Z" changeid="eratyk">
+        <seg>Аднавіць улюбёныя спасылкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -7553,6 +7601,14 @@
         <seg>&amp;Save Password</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T101848Z" changeid="eratyk">
+        <seg>Захаваць пароль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Save password</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093006Z" changeid="eratyk">
         <seg>Захаваць пароль</seg>
       </tuv>
     </tu>
@@ -9562,6 +9618,14 @@
       </tuv>
       <tuv lang="be" changedate="20100717T112000Z" changeid="eratyk">
         <seg>(навей)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(no details available)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090823Z" changeid="eratyk">
+        <seg>(няма даступных дэталяў)</seg>
       </tuv>
     </tu>
     <tu>
@@ -15024,8 +15088,8 @@
       <tuv lang="en">
         <seg>Add the folder in the browser to Favorites.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T174618Z" changeid="eratyk">
-        <seg>Дадаць каталог у аглядальніку ў абранае.</seg>
+      <tuv lang="be" changedate="20110223T092408Z" changeid="eratyk">
+        <seg>Дадаць каталог аглядальніка ўва ўлюбёнае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15040,8 +15104,8 @@
       <tuv lang="en">
         <seg>Add to Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123918Z" changeid="eratyk">
-        <seg>Дадаць да абранага...</seg>
+      <tuv lang="be" changedate="20110223T092131Z" changeid="eratyk">
+        <seg>Дадаць да ўлюбёнага...</seg>
       </tuv>
     </tu>
     <tu>
@@ -15610,6 +15674,22 @@
       </tuv>
       <tuv lang="be" changedate="20100707T090438Z" changeid="eratyk">
         <seg>Пасля таго, як файлы будуць выдаленыя, вы зможаце выкарыстоўваць яе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>After you log on, you can add this server to your Favorites and return to it easily.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T092612Z" changeid="eratyk">
+        <seg>Пасля ўваходу вы можаце дадаць гэты сервер да ўлюбёнага і потым лёгка да яго вяртацца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>After you log on, you can add this server to your Favorites and return to it easily.  The FTP server will use the e-mail address to identify anonymous users.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T092726Z" changeid="eratyk">
+        <seg>Пасля ўваходу вы можаце дадаць гэты сервер да ўлюбёнага і потым лёгка да яго вяртацца. FTP-сервер будзе карыстаць эл. адрас, каб ідэнтыфікаваць ананімных карыстальнікаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16598,10 +16678,90 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>An error occurred changing the permissions on the file or folder on the FTP Server.  Make sure you have permission to change this item.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T212127Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас змянення дазволаў файлаў ці каталогаў на FTP-серверы. Пераканайцеся, што вы маеце дазвол на змяненне гэтага элемента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred copying a file to the FTP Server.  Make sure you have permission to put files on the server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T073845Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас капіявання файла на FTP-сервер. Пераканайцеся, што вы маеце дазвол на змяшчэнне файлаў на серверы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred copying the selected items from the FTP Server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T202441Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас капіявання вылучаных элементаў з  FTP-сервера.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred creating a folder on the FTP Server.  Make sure you have permission to put files on the server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T073911Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас стварэння каталога на FTP-серверы. Пераканайцеся, што вы маеце дазвол на змяшчэнне файлаў на серверы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred creating a new folder on the FTP Server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T195826Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас стварэння новага каталога на FTP-серверы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred deleting the file or folder on the FTP Server.  Make sure you have permission to access this folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T195528Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас выдалення файла ці каталога на FTP-серверы. Пераканайцеся, што вы маеце дазвол на доступ да гэтага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>An error occurred during this operation.</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T113523Z" changeid="eratyk">
         <seg>Адбылася памылка падчас гэтай аперацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred opening that folder on the FTP Server.  Make sure you have permission to access that folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T195659Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас адчынення гэнага каталога на FTP-серверы. Пераканайцеся, што вы маеце дазвол на доступ да гэнага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred opening the folder on the FTP Server.  Make sure you have permission to access this folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T195423Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас адчынення каталога на FTP-серверы. Пераканайцеся, што вы маеце дазвол на доступ да гэтага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred reading all of the contents of this folder on the FTP Server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T195753Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас чытання ўсяго змесціва гэтага каталога на FTP-серверы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred renaming the file or folder on the FTP Server.  Make sure you have permission to make this modification.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T074315Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас пераназвання каталога на FTP-серверы. Пераканайцеся, што вы маеце дазвол на здзяйсненне гэтага змянення.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17154,6 +17314,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T053401Z" changeid="eratyk">
         <seg>Угодкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Anonymous</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065140Z" changeid="eratyk">
+        <seg>Ананімны</seg>
       </tuv>
     </tu>
     <tu>
@@ -18166,10 +18334,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Are you sure you want to delete the file '%s'? \n\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090909Z" changeid="eratyk">
+        <seg>Вы сапраўды жадаеце выдаліць файл '%s'? \n\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are you sure you want to delete the folder '%s'?\n(Deleting a folder will delete all of its contents)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091229Z" changeid="eratyk">
+        <seg>Вы сапраўды жадаеце выдаліць каталог '%s'? \n(Выдаленне каталога выдаліць усё ягонае змесціва)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Are you sure you want to delete these %1 connections?</seg>
       </tuv>
       <tuv lang="be" changedate="20110130T103927Z" changeid="eratyk">
         <seg>Вы сапраўды жадаеце выдаліць гэтыя %1 злучэнняў?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are you sure you want to delete these %u items?  \n(Deleting a folder will delete all of its contents)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091224Z" changeid="eratyk">
+        <seg>Вы сапраўды жадаеце выдаліць гэтыя %u элементаў?  \n(Выдаленне каталога выдаліць усё ягонае змесціва)</seg>
       </tuv>
     </tu>
     <tu>
@@ -21368,7 +21560,7 @@
       <tuv lang="en">
         <seg>CONFIRM DELETE</seg>
       </tuv>
-      <tuv lang="be" changedate="20100714T153414Z" changeid="eratyk">
+      <tuv lang="be" changedate="20110223T090117Z" changeid="eratyk">
         <seg>ПАЦВЕРДЗІЦЕ ВЫДАЛЕННЕ</seg>
       </tuv>
     </tu>
@@ -21550,10 +21742,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Calculating the time required to delete the files.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140652Z" changeid="eratyk">
+        <seg>Разлік патрэбнага часу на выдаленне файлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Calculating the time required to move the files.</seg>
       </tuv>
       <tuv lang="be" changedate="20100711T065356Z" changeid="eratyk">
         <seg>Разлік патрэбнага часу на перамяшчэнне файлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Calculating the time required to upload the files.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140642Z" changeid="eratyk">
+        <seg>Разлік патрэбнага часу на запампаванне файлаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27086,10 +27294,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Confirm File Delete</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090834Z" changeid="eratyk">
+        <seg>Пацвердзіце выдаленне файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Confirm File Replace</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090151Z" changeid="eratyk">
+        <seg>Пацвердзіце перамяшчэнне файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Confirm Folder Delete</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090921Z" changeid="eratyk">
+        <seg>Пацвердзіце выдаленне каталога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Confirm Folder Replace</seg>
       </tuv>
-      <tuv lang="be" changedate="20100716T054242Z" changeid="eratyk">
-        <seg>Пацверджанне замены каталога</seg>
+      <tuv lang="be" changedate="20110223T090201Z" changeid="eratyk">
+        <seg>Пацвердзіце замену каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -27110,18 +27342,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Confirm Multiple File Delete</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091053Z" changeid="eratyk">
+        <seg>Пацвердзіце выдаленне некалькіх файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Confirm Save As</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T174217Z" changeid="eratyk">
-        <seg>Пацвердзіць захаванне як</seg>
+      <tuv lang="be" changedate="20110223T090144Z" changeid="eratyk">
+        <seg>Пацвердзіце захаванне як</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Confirm Toolbar Close</seg>
       </tuv>
-      <tuv lang="be" changedate="20100911T054418Z" changeid="eratyk">
-        <seg>Пацверджанне зачынення паліцы інструментаў</seg>
+      <tuv lang="be" changedate="20110223T090239Z" changeid="eratyk">
+        <seg>Пацвердзіце зачыненне паліцы інструментаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -27136,7 +27376,7 @@
       <tuv lang="en">
         <seg>Confirm password</seg>
       </tuv>
-      <tuv lang="be" changedate="20110108T151750Z" changeid="eratyk">
+      <tuv lang="be" changedate="20110223T090125Z" changeid="eratyk">
         <seg>Пацвердзіце пароль</seg>
       </tuv>
     </tu>
@@ -27698,6 +27938,14 @@
       </tuv>
       <tuv lang="be" changedate="20110120T154421Z" changeid="eratyk">
         <seg>Злучэнне з %1...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connecting to %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140357Z" changeid="eratyk">
+        <seg>Злучэнне з %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -28430,6 +28678,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Copies the selected items to this computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093511Z" changeid="eratyk">
+        <seg>Капіюе вылучаныя элементы на гэты камп'ютар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Copy</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183458Z" changeid="eratyk">
@@ -28498,6 +28754,14 @@
       </tuv>
       <tuv lang="be" changedate="20101126T073107Z" changeid="eratyk">
         <seg>Скапіяваць спасылку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Copy To &amp;Folder...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T085552Z" changeid="eratyk">
+        <seg>Скапіяваць у каталог...</seg>
       </tuv>
     </tu>
     <tu>
@@ -28598,6 +28862,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Copy the selected files or folders.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140036Z" changeid="eratyk">
+        <seg>Скапіяваць вылучаныя файлы і каталогі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Copy the selected item(s) to the folder:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T212301Z" changeid="eratyk">
+        <seg>Скапіяваць вылучаныя элементы ў каталог:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Copy the selected items to the Clipboard.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T183658Z" changeid="eratyk">
@@ -28658,6 +28938,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T124655Z" changeid="eratyk">
         <seg>Капіяванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Copying '%s'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140455Z" changeid="eratyk">
+        <seg>Капіяванне '%s'</seg>
       </tuv>
     </tu>
     <tu>
@@ -28834,6 +29122,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T192742Z" changeid="eratyk">
         <seg>Не атрымоўваецца знайсці клас аўтаматызацыі &quot;%1!ls!&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Could not login to the FTP server with the user name and password specified.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091823Z" changeid="eratyk">
+        <seg>Немагчыма ўвайсці на FTP-сервер з азначанымі імем карыстальніка і паролем.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29102,10 +29398,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Create a link to the selected item.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140101Z" changeid="eratyk">
+        <seg>Стварыць спасылку да вылучанага элемента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Create a new document.</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T194500Z" changeid="eratyk">
         <seg>Стварыць новы дакумент.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create a new folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093631Z" changeid="eratyk">
+        <seg>Стварыць новы каталог.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31222,6 +31534,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Delete the selected files or folders.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140122Z" changeid="eratyk">
+        <seg>Выдаліць вылучаныя файлы і каталогі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Delete the selected item(s) when they are pasted into another folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093921Z" changeid="eratyk">
+        <seg>Выдаліць вылучаныя элементы, калі яны ўстаўленыя ў іншы каталог.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Delete the version in both locations</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T175100Z" changeid="eratyk">
@@ -31240,8 +31568,8 @@
       <tuv lang="en">
         <seg>Delete this page from Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100910T130214Z" changeid="eratyk">
-        <seg>Выдаліць гэтую старонку з абранага</seg>
+      <tuv lang="be" changedate="20110223T092139Z" changeid="eratyk">
+        <seg>Выдаліць гэтую старонку з улюбёнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -31306,6 +31634,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T125150Z" changeid="eratyk">
         <seg>Выдаленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Deleting '%s'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140433Z" changeid="eratyk">
+        <seg>Выдаленне '%s'</seg>
       </tuv>
     </tu>
     <tu>
@@ -33032,8 +33368,8 @@
       <tuv lang="en">
         <seg>Display favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T115012Z" changeid="eratyk">
-        <seg>Адлюстроўваць абранае</seg>
+      <tuv lang="be" changedate="20110223T092320Z" changeid="eratyk">
+        <seg>Адлюстроўваць улюбёнае</seg>
       </tuv>
     </tu>
     <tu>
@@ -35401,8 +35737,8 @@
       <tuv lang="en">
         <seg>Edit Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123810Z" changeid="eratyk">
-        <seg>Рэдагаваць абранае</seg>
+      <tuv lang="be" changedate="20110223T092006Z" changeid="eratyk">
+        <seg>Рэдагаваць улюбёнае</seg>
       </tuv>
     </tu>
     <tu>
@@ -35547,6 +35883,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T174556Z" changeid="eratyk">
         <seg>Кружэлка, устаўленая ў прапальвальны кружэльнік, не з'яўляецца запісвальнай альбо ўжо запоўненая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Either the server does not allow anonymous logins or the e-mail address was not accepted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091545Z" changeid="eratyk">
+        <seg>Ці сервер не дазваляе ананімныя уваходы ці эл. адрас непрымальны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37287,6 +37631,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Explores the selected items.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093426Z" changeid="eratyk">
+        <seg>Вандраваць па вылучаных элементах.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Export Library Contents</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T160840Z" changeid="eratyk">
@@ -37587,6 +37939,78 @@
       </tuv>
       <tuv lang="be" changedate="20101111T150947Z" changeid="eratyk">
         <seg>FM-вяшчанне (32 - 64 кбіт/с)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140532Z" changeid="eratyk">
+        <seg>FTP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP Folder</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065559Z" changeid="eratyk">
+        <seg>FTP-каталог</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP Folder Error</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065610Z" changeid="eratyk">
+        <seg>Памылка FTP-каталога</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP Server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140612Z" changeid="eratyk">
+        <seg>FTP-сервер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP Server &amp;Welcome Message...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T085913Z" changeid="eratyk">
+        <seg>Вітальнае паведамленне FTP-сервера...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP Server Welcome Message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093013Z" changeid="eratyk">
+        <seg>Вітальнае паведамленне FTP-сервера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP does not encrypt or encode passwords or data before sending them to the server.  To protect the security of your passwords and data, use WebDAV instead.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T092948Z" changeid="eratyk">
+        <seg>FTP не шыфруе ці кадуе паролі і звесткі, перш чым даслаць іх на сервер. Каб абараніць бяспеку вашых пароляў і звестак скарыстайце замест гэтага WebDAV.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP proxy warning</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093123Z" changeid="eratyk">
+        <seg>Папярэджанне FTP-проксі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>FTP server:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091832Z" changeid="eratyk">
+        <seg>FTP-сервер:</seg>
       </tuv>
     </tu>
     <tu>
@@ -37953,32 +38377,32 @@
       <tuv lang="en">
         <seg>Favorite Links</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T110637Z" changeid="eratyk">
-        <seg>Абраныя спасылкі</seg>
+      <tuv lang="be" changedate="20110223T092453Z" changeid="eratyk">
+        <seg>Улюбёныя спасылкі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T092736Z" changeid="eratyk">
-        <seg>Абранае</seg>
+      <tuv lang="be" changedate="20110223T092021Z" changeid="eratyk">
+        <seg>Улюбёнае</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Favorites Folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T115937Z" changeid="eratyk">
-        <seg>Каталог &quot;Абранае&quot;</seg>
+      <tuv lang="be" changedate="20110223T092224Z" changeid="eratyk">
+        <seg>Каталог улюбёнага</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Favorites menu</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T115925Z" changeid="eratyk">
-        <seg>Меню &quot;Абранае&quot;</seg>
+      <tuv lang="be" changedate="20110223T092338Z" changeid="eratyk">
+        <seg>Меню ўлюбёнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -38777,8 +39201,8 @@
       <tuv lang="en">
         <seg>Find Internet downloads and links to favorite websites.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100723T051958Z" changeid="eratyk">
-        <seg>Пошук спамповак з сеціва і спасылак на абраныя сайты.</seg>
+      <tuv lang="be" changedate="20110223T092058Z" changeid="eratyk">
+        <seg>Пошук спамповак з сеціва і спасылак на ўлюбёныя сайты.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40383,6 +40807,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>From '%1!ls!' to '%2!ls!'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140505Z" changeid="eratyk">
+        <seg>З '%1!ls!' у '%2!ls!'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090538Z" changeid="eratyk">
@@ -40927,10 +41359,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Get the properties on the selected item(s).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140208Z" changeid="eratyk">
+        <seg>Атрымаць уласцівасці вылучаных элементаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Getting Started</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T134829Z" changeid="eratyk">
         <seg>На пачатку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Getting contents of folder</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140423Z" changeid="eratyk">
+        <seg>Атрыманне змесціва каталога</seg>
       </tuv>
     </tu>
     <tu>
@@ -43811,6 +44259,14 @@
       </tuv>
       <tuv lang="be" changedate="20110104T173643Z" changeid="eratyk">
         <seg>Калі вы скасуеце працу майстра ў працэсе прапальвання кружэлкі, тая можа стаць непрыдатнай для выкарыстання.\n\nВы сапраўды жадаеце скасаваць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you change a file name extension, the file may become unusable.\n\nAre you sure you want to change it?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T202526Z" changeid="eratyk">
+        <seg>Калі вы зменіце пашырэнне файла, ён можа стаць непрыдатным для выкарыстання.\n\nВы сапраўды жадаеце змяніць пашырэнне?</seg>
       </tuv>
     </tu>
     <tu>
@@ -48311,6 +48767,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Log On As</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091313Z" changeid="eratyk">
+        <seg>Увяйсці як</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Log off</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T094946Z" changeid="eratyk">
@@ -48339,6 +48803,14 @@
       </tuv>
       <tuv lang="be" changedate="20101119T200652Z" changeid="eratyk">
         <seg>Прымусіць выйсці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Log on &amp;anonymously</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T092956Z" changeid="eratyk">
+        <seg>Увайсці ананімна</seg>
       </tuv>
     </tu>
     <tu>
@@ -48387,6 +48859,22 @@
       </tuv>
       <tuv lang="be" changedate="20100728T123248Z" changeid="eratyk">
         <seg>Выйсце...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Login &amp;As...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T085740Z" changeid="eratyk">
+        <seg>Увайсці як...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Login using a different user name and password.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093616Z" changeid="eratyk">
+        <seg>Увайсці з іншымі імем карыстальніка і паролем.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48595,6 +49083,14 @@
       </tuv>
       <tuv lang="be" changedate="20100728T073458Z" changeid="eratyk">
         <seg>Пошук пасведчанняў...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Looking for folder %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140412Z" changeid="eratyk">
+        <seg>Пошук каталога %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -50215,6 +50711,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft Internet Explorer FTP</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140529Z" changeid="eratyk">
+        <seg>Microsoft Internet Explorer FTP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft New ChangJie IME</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T140552Z" changeid="eratyk">
@@ -51679,6 +52183,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Moving items from an FTP server to the Recycle Bin will cause them to be deleted permanently.  Are you sure you want to continue?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140850Z" changeid="eratyk">
+        <seg>Перамяшчэнне элементаў з FTP-сервера ў сметніцу знішчыць іх назусім. Вы сапраўды жадаеце працягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Moving these items to the Recycle Bin will cause them to be permanently deleted.</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T230558Z" changeid="eratyk">
@@ -51689,8 +52201,8 @@
       <tuv lang="en">
         <seg>Moving these items to the Recycle Bin will cause them to be permanently deleted. Are you sure you want to continue?</seg>
       </tuv>
-      <tuv lang="be" changedate="20100715T052312Z" changeid="eratyk">
-        <seg>Перамяшчэнне гэтых элементаў у сметніцу знішчыць іх назусім. Вы ўпэўненыя, што жадаеце працягнуць?</seg>
+      <tuv lang="be" changedate="20110223T141005Z" changeid="eratyk">
+        <seg>Перамяшчэнне гэтых элементаў у сметніцу знішчыць іх назусім. Вы сапраўды жадаеце працягнуць?</seg>
       </tuv>
     </tu>
     <tu>
@@ -51731,6 +52243,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T182131Z" changeid="eratyk">
         <seg>Мультымедыйныя кліпы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Multiple Items</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140558Z" changeid="eratyk">
+        <seg>Некалькі элементаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -51857,8 +52377,8 @@
       <tuv lang="en">
         <seg>My Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123733Z" changeid="eratyk">
-        <seg>Маё абранае</seg>
+      <tuv lang="be" changedate="20110223T091944Z" changeid="eratyk">
+        <seg>Маё ўлюбёнае</seg>
       </tuv>
     </tu>
     <tu>
@@ -52849,8 +53369,8 @@
       <tuv lang="en">
         <seg>New Favorite</seg>
       </tuv>
-      <tuv lang="be" changedate="20100722T165041Z" changeid="eratyk">
-        <seg>Новае абранае</seg>
+      <tuv lang="be" changedate="20110223T092205Z" changeid="eratyk">
+        <seg>Новае ўлюбёнае</seg>
       </tuv>
     </tu>
     <tu>
@@ -52867,6 +53387,14 @@
       </tuv>
       <tuv lang="be" changedate="20100717T094133Z" changeid="eratyk">
         <seg>Новы каталог</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>New Folder (%d)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140608Z" changeid="eratyk">
+        <seg>Новы каталог (%d)</seg>
       </tuv>
     </tu>
     <tu>
@@ -55655,6 +56183,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Open the properties for the current folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093545Z" changeid="eratyk">
+        <seg>Адчыняе ўласцівасці дзейнага каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Open the website to view all search results.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T202059Z" changeid="eratyk">
@@ -55855,6 +56391,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Opens the FTP Server Welcome Message.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093723Z" changeid="eratyk">
+        <seg>Адчыняе вітальнае паведамленне FTP-сервера</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Opens the Windows File Sharing wizard to choose specific people or permission levels.</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T185942Z" changeid="eratyk">
@@ -55883,6 +56427,14 @@
       </tuv>
       <tuv lang="be" changedate="20101125T195316Z" changeid="eratyk">
         <seg>Адчыняе каталог, які змяшчае выканальны файл працэса</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Opens the selected items.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093231Z" changeid="eratyk">
+        <seg>Адчыняе вылучаныя элементы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57583,6 +58135,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Paste previously copied or cut files or folders.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140029Z" changeid="eratyk">
+        <seg>Уставіць папярэдне скапіяваныя ці вынятыя файлы і каталогі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Paste special (Alt+Ctrl+V)</seg>
       </tuv>
       <tuv lang="be" changedate="20100902T193853Z" changeid="eratyk">
@@ -58059,6 +58619,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T144239Z" changeid="eratyk">
         <seg>Дазвол: %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Permissions:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091258Z" changeid="eratyk">
+        <seg>Дазволы:</seg>
       </tuv>
     </tu>
     <tu>
@@ -61449,16 +62017,16 @@
       <tuv lang="en">
         <seg>Public Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T174810Z" changeid="eratyk">
-        <seg>Публічнае абранае</seg>
+      <tuv lang="be" changedate="20110223T092415Z" changeid="eratyk">
+        <seg>Публічнае ўлюбёнае</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Public Favorites Folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T174822Z" changeid="eratyk">
-        <seg>Каталог публічнага абранага</seg>
+      <tuv lang="be" changedate="20110223T092427Z" changeid="eratyk">
+        <seg>Каталог публічнага ўлюбёнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -62945,8 +63513,8 @@
       <tuv lang="en">
         <seg>Remove link from favorites.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092559Z" changeid="eratyk">
-        <seg>Выдаліць спасылку з абранага.</seg>
+      <tuv lang="be" changedate="20110223T092444Z" changeid="eratyk">
+        <seg>Выдаліць спасылку з улюбёнага.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63199,6 +63767,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Rename the selected file or folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140145Z" changeid="eratyk">
+        <seg>Пераназваць вылучаны файл ці каталог.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Rename this computer</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T160009Z" changeid="eratyk">
@@ -63227,6 +63803,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T125156Z" changeid="eratyk">
         <seg>Пераназванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Renaming '%s'</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140442Z" changeid="eratyk">
+        <seg>Пераназванне '%s'</seg>
       </tuv>
     </tu>
     <tu>
@@ -64017,8 +64601,8 @@
       <tuv lang="en">
         <seg>Restore the favorite links.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T175542Z" changeid="eratyk">
-        <seg>Аднавіць абраныя спасылкі.</seg>
+      <tuv lang="be" changedate="20110223T092434Z" changeid="eratyk">
+        <seg>Аднавіць улюбёныя спасылкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66441,8 +67025,8 @@
       <tuv lang="en">
         <seg>Search Provider: %1\n(%2)\n\nA shortcut will be added to your Windows favorites.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T181129Z" changeid="eratyk">
-        <seg>Дастаўнік пошуку: %1\n(%2)\n\nпускальнік будзе дададзены да вашага абранага.</seg>
+      <tuv lang="be" changedate="20110223T092514Z" changeid="eratyk">
+        <seg>Дастаўнік пошуку: %1\n(%2)\n\nпускальнік будзе дададзены да вашага ўлюбёнага.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68489,8 +69073,8 @@
       <tuv lang="en">
         <seg>Set Favorites</seg>
       </tuv>
-      <tuv lang="be" changedate="20100728T123755Z" changeid="eratyk">
-        <seg>Прызначыць абранае</seg>
+      <tuv lang="be" changedate="20110223T091958Z" changeid="eratyk">
+        <seg>Прызначыць улюбёнае</seg>
       </tuv>
     </tu>
     <tu>
@@ -71547,6 +72131,38 @@
       </tuv>
       <tuv lang="be" changedate="20100712T194908Z" changeid="eratyk">
         <seg>Сартаванне па %1...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorts items alphabetically by name.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140230Z" changeid="eratyk">
+        <seg>Сартуе элементы па назве ў алфавітным парадку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorts items by date, from oldest to most recent.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140346Z" changeid="eratyk">
+        <seg>Сартуе элементы па даце, ад старэйшых да апошніх.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorts items by size, from smallest to largest.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140245Z" changeid="eratyk">
+        <seg>Сартуе элементы па памеры, ад найменшых да найвялікшых.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sorts items by type.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140258Z" changeid="eratyk">
+        <seg>Сартуе элементы па тыпе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -75247,6 +75863,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The FTP server provided the following message:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T093053Z" changeid="eratyk">
+        <seg>FTP-сервер даставіў наступнае паведамленне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The File Sharing wizard can't share system folders.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T171919Z" changeid="eratyk">
@@ -76871,6 +77495,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The folder '%s' is read-only because the proxy server is not set up to allow full access.\n\nTo move, paste, rename, or delete files, you must use a different proxy.  For information on changing your proxy, contact your administrator.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T202924Z" changeid="eratyk">
+        <seg>Каталог '%s' прызначаны толькі для чытання, бо проксі-сервер не ўсталяваў дазвол на поўны доступ.\n\nКаб перамясціць, уставіць, пераназваць ці выдаліць файлы, вы павінны скарыстаць іншы проксі. Для атрымання інфармацыі па змяненні проксі звяжыцеся з вашым адміністратарам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The folder can't be used</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T194421Z" changeid="eratyk">
@@ -77171,6 +77803,14 @@
       </tuv>
       <tuv lang="be" changedate="20100704T190357Z" changeid="alex">
         <seg>Элемент '%s', на які спасылаецца гэты пускальнік, быў выдалены. Тым не менш, ён можа быць адноўлены са сметніцы.\n\nВы жадаеце аднавіць файл альбо выдаліць гэты пускальнік?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The item could not be transferred.  Make sure you have permission to store files here and that the file name is valid.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T201125Z" changeid="eratyk">
+        <seg>Элемент не можа быць перанесены. Пераканайцеся, што вы маеце дазвол на захоўванне файлаў тут і што назва файла дапушчальная.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78027,6 +78667,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T153509Z" changeid="eratyk">
         <seg>Вылучаныя каталогі больш не агульнадаступныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The selected items can not be downloaded to the specified folder.  Please choose another folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T212231Z" changeid="eratyk">
+        <seg>Вылучаныя элементы не могуць быць спампаваныя ў азначаны каталог. Калі ласка, абярыце іншы каталог.</seg>
       </tuv>
     </tu>
     <tu>
@@ -80303,6 +80951,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This folder already contains a file called '%s'.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090607Z" changeid="eratyk">
+        <seg>Гэты каталог ужо змяшчае файл '%s'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This folder can't be customized.\n\nIt is either marked as read-only, or your system administrator has disabled this functionality.\n\nPlease contact your system administrator.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T200904Z" changeid="eratyk">
@@ -80891,6 +81547,14 @@
       </tuv>
       <tuv lang="be" changedate="20100919T190115Z" changeid="eratyk">
         <seg>Гэтая аперацыя можа быць выканана толькі тады, калі вы злучаныя з сеткай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This operation could not be completed because some characters in the file name are not allowed on the FTP Server.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T201253Z" changeid="eratyk">
+        <seg>Аперацыя не можа быць скончаная, бо некаторыя сімвалы ў назве файла не падтрыманыя FTP-серверам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -81895,6 +82559,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This server does not support changing file permissions.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091254Z" changeid="eratyk">
+        <seg>Сервер не падтрымлівае змяненне дазволаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This service &quot;%s&quot;</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T183251Z" changeid="eratyk">
@@ -82619,6 +83291,14 @@
       </tuv>
       <tuv lang="be" changedate="20110127T091724Z" changeid="eratyk">
         <seg>Каб увайсці на іншы дамен, увядзіце назву дамена\\імя карыстальніка дамена. \n\nКаб увайсці на ваш камп'ютар (не дамен), увядзіце %1\\імя лакальнага карыстальніка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To log on to this FTP server, type a user name and password.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T091719Z" changeid="eratyk">
+        <seg>Каб увайсці на гэты FTP-сервер, увядзіце імя карыстальніка і пароль.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86647,6 +87327,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>User: %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065133Z" changeid="eratyk">
+        <seg>Карыстальнік: %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Users</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T093917Z" changeid="eratyk">
@@ -89823,6 +90511,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows cannot access this folder. Make sure you typed the file name correctly and that you have permission to access the folder.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T201407Z" changeid="eratyk">
+        <seg>Windows не можа атрымаць доступ да гэтага каталога. Пераканайцеся, што вы ўвялі назву правільна і што вы маеце дазвол на доступ да каталога.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows cannot display the properties of this connection. The Windows Management Instrumentation (WMI) information might be corrupted. To correct this, use System Restore to restore Windows to an earlier time (called a restore point). System Restore is located in the System Tools folder in Accessories.</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T092243Z" changeid="eratyk">
@@ -91255,6 +91951,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Would you like to replace the existing file</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090756Z" changeid="eratyk">
+        <seg>Замяніць існуючы файл?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Would you like to send Microsoft basic information about the software this program detects?</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T065952Z" changeid="Ales Koshal [icq#:706101]">
@@ -91407,6 +92111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Yes to &amp;All</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T090534Z" changeid="eratyk">
+        <seg>Так да ўсіх</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Yes, &amp;burn these files to another disc</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T173953Z" changeid="eratyk">
@@ -91551,6 +92263,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You are currently in offline mode.  Do you want to go Online?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110223T140744Z" changeid="eratyk">
+        <seg>Вы зараз у пазасеціўным рэжыме. Ці жадаеце вы выйсці ў сеціва?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You are currently not connected to any networks.</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T183420Z" changeid="eratyk">
@@ -91571,6 +92291,22 @@
       </tuv>
       <tuv lang="be" changedate="20100707T114354Z" changeid="eratyk">
         <seg>Вы жадаеце зашыфраваць файл, які знаходзіцца ў незашыфраваным каталогу. Пасля змянення гэтага файла праграма для рэдагавання можа захаваць часовую незашыфраваную копію файла. Каб забяспечыць шыфраванне файлаў у каталогу, зашыфруйце яго.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You are logged in anonymously.  Select 'Log in as...' in the File menu to log in as another user.  Your email name is used as your password and that can be changed in 'FTP Options' in the View menu.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065551Z" changeid="eratyk">
+        <seg>Вы ўвайшлі ананімна. Абярыце &quot;Увайсці як...&quot; ў файлавым меню, каб увайсці як іншы карыстальнік. Назва вашага эл. адраса скарыстаная як ваш пароль і можа быць змененая ў наладах FTP у меню прагляду.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You are logged in as %s.  This login will determine your permissions and your actions may be logged.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065323Z" changeid="eratyk">
+        <seg>Вы ўвайшлі як %s. Гэты лагін будзе вызначаць вашыя дазволы і вашыя дзеянні могуць быць запісаныя ў журнал.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94503,6 +95239,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\n\nDetails:\n%s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110224T065620Z" changeid="eratyk">
+        <seg>\n\nДэталі:\n%s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\n\nTo log on to your computer (not a domain), type %1\\local user name.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T084526Z" changeid="eratyk">
@@ -96793,8 +97537,8 @@
       <tuv lang="en">
         <seg>|Back|Forward|Stop|Refresh|Home|Search|Favorites|Print|Size|Edit|Tools|Media|History|Mail|Full Screen||</seg>
       </tuv>
-      <tuv lang="be" changedate="20110217T091616Z" changeid="eratyk">
-        <seg>|Назад|Наперад|Спыніць|Абнавіць|Дахаты|Пошук|Абранае|Друк|Памер|Рэдагаваць|Інструменты|Медыя|Гісторыя|Пошта|Поўны экран||</seg>
+      <tuv lang="be" changedate="20110223T092149Z" changeid="eratyk">
+        <seg>|Назад|Наперад|Спыніць|Абнавіць|Дахаты|Пошук|Улюбёнае|Друк|Памер|Рэдагаваць|Інструменты|Медыя|Гісторыя|Пошта|Поўны экран||</seg>
       </tuv>
     </tu>
     <tu>
