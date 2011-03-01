@@ -1,0 +1,328 @@
+1 MUI "Data_391.bin"
+
+101 DIALOGEX 10, 40, 316, 294
+STYLE DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU
+CAPTION "Character Map"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "MS Shell Dlg"
+{
+   CONTROL "Ch&aracters to copy :", 107, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE, 7, 193, 83, 8 
+   CONTROL "", 104, "RichEdit50W", 0x50810080, 90, 190, 110, 16 
+   CONTROL "&Select", 103, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 204, 190, 50, 14 
+   CONTROL "&Copy", 102, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 258, 190, 50, 14 
+   CONTROL "Ad&vanced view", 119, BUTTON, BS_CHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 7, 207, 64, 12 
+   CONTROL "Charac&ter set :", 129, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE, 7, 228, 83, 8 
+   CONTROL "", 130, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 90, 225, 135, 76 
+   CONTROL "Go to &Unicode :", 700, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 228, 229, 50, 8 
+   CONTROL "", 701, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 282, 225, 25, 14 
+   CONTROL "&Group by :", 201, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE, 7, 246, 83, 8 
+   CONTROL "", 202, COMBOBOX, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 90, 243, 134, 76 
+   CONTROL "S&earch for :", 131, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE, 7, 265, 83, 8 
+   CONTROL "", 132, EDIT, ES_LEFT | ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 90, 261, 136, 14 
+   CONTROL "Sea&rch", 133, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 236, 261, 50, 14 
+   CONTROL "&Font :", 141, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE, 7, 9, 35, 8 
+   CONTROL "", 105, COMBOBOX, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_SORT | CBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 42, 6, 214, 76 
+   CONTROL "&Help", 100, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 260, 6, 50, 14 
+}
+
+102 DIALOGEX 0, 0, 234, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "MS Shell Dlg"
+{
+   CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 51, 52, 50, 14 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 117, 52, 50, 14 
+   CONTROL "Previously selected characters may not be displayed correctly when font is changed. Do you want to change font?", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 9, 5, 215, 23 
+   CONTROL "Do not display this message any more.", 1001, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 9, 32, 150, 10 
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+113, 	"Rich Text Format"
+114, 	"Group By"
+115, 	"Character Code"
+116, 	" (Private Characters)"
+117, 	"Keystroke"
+118, 	"All Fonts"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+300, 	"Unicode"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"No Character Available"
+403, 	"Sea&rch"
+405, 	"&Reset"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+437, 	"DOS: United States"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+720, 	"DOS: Arabic"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+737, 	"DOS: Greek"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+775, 	"DOS: Baltic"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+850, 	"DOS: Western Europe"
+852, 	"DOS: Central Europe"
+855, 	"DOS: Cyrillic"
+857, 	"DOS: Turkish"
+862, 	"DOS: Hebrew"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+866, 	"DOS: Cyrillic II"
+874, 	"Windows: Thai"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+932, 	"Windows: Japanese"
+936, 	"Windows: Simplified Chinese"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+949, 	"Windows: Korean"
+950, 	"Windows: Traditional Chinese"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1250, 	"Windows: Central Europe"
+1251, 	"Windows: Cyrillic"
+1252, 	"Windows: Western"
+1253, 	"Windows: Greek"
+1254, 	"Windows: Turkish"
+1255, 	"Windows: Hebrew"
+1256, 	"Windows: Arabic"
+1257, 	"Windows: Baltic"
+1258, 	"Windows: Viet Nam"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+7001, 	"All"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10100, 	"Unicode Subrange"
+10101, 	"Latin"
+10102, 	"General Punctuation"
+10103, 	"Currency"
+10104, 	"Super/Subscript"
+10105, 	"Letterlike Symbols"
+10106, 	"Number Forms"
+10107, 	"Arrows"
+10108, 	"Mathematical Operators"
+10109, 	"Miscellaneous Technical"
+10110, 	"Control Pictures & OCR"
+10111, 	"Enclosed Alphanumerics"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10112, 	"Box Drawings"
+10113, 	"Block Elements & Geometric Shapes"
+10114, 	"Symbols & Dingbats"
+10115, 	"Spacing Modifier Letters"
+10116, 	"Combining Diacritical Marks"
+10117, 	"Greek"
+10118, 	"Cyrillic"
+10119, 	"Armenian"
+10120, 	"Hebrew"
+10121, 	"Arabic"
+10122, 	"Devanagari"
+10123, 	"Bengali"
+10124, 	"Gurmukhi"
+10125, 	"Gujarati"
+10126, 	"Oriya"
+10127, 	"Tamil"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10128, 	"Telugu"
+10129, 	"Kannada"
+10130, 	"Malayalam"
+10131, 	"Thai"
+10132, 	"Lao"
+10133, 	"Tibetan"
+10134, 	"Georgian"
+10135, 	"Korean Hangul"
+10136, 	"Japanese Hiragana/Katakana"
+10137, 	"Chinese Bopomofo"
+10138, 	"CJK Ideographs"
+10139, 	"CJK Symbols & Punctuation"
+10140, 	"Ideographic Symbols"
+10141, 	"CJK Compatibility Form"
+10142, 	"Small Form Variants"
+10143, 	"Fullwidth Forms"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10144, 	"Halfwidth Forms"
+10145, 	"Private Use Characters"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10200, 	"Ideographs by Radicals"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10300, 	"Traditional Chinese by Bopomofo"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10400, 	"Simplified Chinese by PinYin"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10500, 	"Korean Hanja by Hangul"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10600, 	"Japanese KanJi by Hiragana"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10700, 	"Japanese KanJi by Radical"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10800, 	"Japanese Shift-JIS Subrange"
+10801, 	"Halfwidth Character"
+10802, 	"Symbol, Digit & Latin"
+10803, 	"Hiragana & Katakana"
+10804, 	"Greek Letter"
+10805, 	"Cyrillic Letter"
+10806, 	"Special Character"
+10807, 	"Level One KanJi"
+10808, 	"Level Two KanJi"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+11000, 	"MS Shell Dlg"
+}
+
+
+UCE ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+	VK_HOME, 121, NOINVERT, CONTROL, VIRTKEY
+	VK_END, 122, NOINVERT, CONTROL, VIRTKEY
+	VK_LEFT, 123, NOINVERT, CONTROL, VIRTKEY
+	VK_RIGHT, 124, NOINVERT, CONTROL, VIRTKEY
+	VK_UP, 125, NOINVERT, CONTROL, VIRTKEY
+	VK_DOWN, 126, NOINVERT, CONTROL, VIRTKEY
+	VK_PRIOR, 127, NOINVERT, CONTROL, VIRTKEY
+	VK_NEXT, 128, NOINVERT, CONTROL, VIRTKEY
+}
+
+
+1 VERSIONINFO
+FILEVERSION 5,2,3668,0
+PRODUCTVERSION 5,2,3668,0
+FILEOS 0x40004
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Character Map"
+		VALUE "FileVersion", "5.2.3668.0"
+		VALUE "InternalName", "charmap.exe"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "charmap.exe.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "5.2.3668.0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
