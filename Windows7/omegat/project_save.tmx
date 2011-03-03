@@ -7928,8 +7928,8 @@
       <tuv lang="en">
         <seg>&amp;Shortcut key:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T060752Z" changeid="eratyk">
-        <seg>Клавіятурны скарот:</seg>
+      <tuv lang="be" changedate="20110303T062334Z" changeid="eratyk">
+        <seg>Скарот:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16782,6 +16782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>An error occurred getting the status of the last synchronization.  %1!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T090340Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас атрымання стану апошняй сінхранізацыі. %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>An error occurred opening that folder on the FTP Server.  Make sure you have permission to access that folder.</seg>
       </tuv>
       <tuv lang="be" changedate="20110224T195659Z" changeid="eratyk">
@@ -16874,6 +16882,22 @@
       </tuv>
       <tuv lang="be" changedate="20110215T123446Z" changeid="eratyk">
         <seg>Адбылася памылка падчас уключэння агульнага доступу злучэння з сецівам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while Windows was synchronizing with %1!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085545Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас сінхранізацыі Windows з %1!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while Windows was synchronizing with %1!s!.  %2!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085535Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас сінхранізацыі Windows з %1!s!.  %2!s!</seg>
       </tuv>
     </tu>
     <tu>
@@ -21902,6 +21926,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Calendar Control</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083313Z" changeid="eratyk">
+        <seg>Кіраванне календаром</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Calibrate color</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T193213Z" changeid="eratyk">
@@ -26098,6 +26130,14 @@
       </tuv>
       <tuv lang="be" changedate="20110120T153812Z" changeid="eratyk">
         <seg>Гадзіннік 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Clock Control</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083327Z" changeid="eratyk">
+        <seg>Кіраванне гадзіннікам</seg>
       </tuv>
     </tu>
     <tu>
@@ -31102,6 +31142,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Date and Time Information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083348Z" changeid="eratyk">
+        <seg>Інфармацыя даты і часу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Date and Time Properties</seg>
       </tuv>
       <tuv lang="be" changedate="20110101T155755Z" changeid="eratyk">
@@ -31114,6 +31162,14 @@
       </tuv>
       <tuv lang="be" changedate="20110120T151256Z" changeid="eratyk">
         <seg>Налады часу і даты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date and Time Tooltip</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083256Z" changeid="eratyk">
+        <seg>Падказка даты і часу</seg>
       </tuv>
     </tu>
     <tu>
@@ -31278,10 +31334,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Daylight Saving Time began on %1!s! at %2!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082914Z" changeid="eratyk">
+        <seg>Пераход на летні час пачаўся %1!s! а %2!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Daylight Saving Time begins on %1!s! at %2!s!.</seg>
       </tuv>
       <tuv lang="be" changedate="20110120T153733Z" changeid="eratyk">
         <seg>Пераход на летні час пачынаецца %1!s! а %2!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Daylight Saving Time ended on %1!s! at %2!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082925Z" changeid="eratyk">
+        <seg>Пераход на летні час скончыўся %1!s! а %2!s!.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41815,6 +41887,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Go to Today</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083404Z" changeid="eratyk">
+        <seg>Перайсці на сёння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Goes to the next page.</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T145619Z" changeid="eratyk">
@@ -43523,6 +43603,14 @@
       </tuv>
       <tuv lang="be" changedate="20100829T224440Z" changeid="eratyk">
         <seg>Гіперспасылка недапушчальная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hyperlink which launches the Date and Time control panel</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T084805Z" changeid="eratyk">
+        <seg>Гіперспасылка, якая запускае панэль кіравання даты і часу</seg>
       </tuv>
     </tu>
     <tu>
@@ -49043,6 +49131,14 @@
       </tuv>
       <tuv lang="be" changedate="20110127T091750Z" changeid="eratyk">
         <seg>Лакальны камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Local time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083303Z" changeid="eratyk">
+        <seg>Лакальны час</seg>
       </tuv>
     </tu>
     <tu>
@@ -60239,6 +60335,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please wait while Windows synchronizes with %1!s!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085421Z" changeid="eratyk">
+        <seg>Калі ласка, пачакайце, пакуль Windows сінхранізуецца з %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please wait while Wordpad converts the document.</seg>
       </tuv>
       <tuv lang="be" changedate="20100828T073559Z" changeid="eratyk">
@@ -70425,8 +70529,8 @@
       <tuv lang="en">
         <seg>Shortcut &amp;key:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T060730Z" changeid="eratyk">
-        <seg>Клавіятурны скарот:</seg>
+      <tuv lang="be" changedate="20110303T062305Z" changeid="eratyk">
+        <seg>Скарот:</seg>
       </tuv>
     </tu>
     <tu>
@@ -76911,6 +77015,110 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The clock does not require adjustment.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082848Z" changeid="eratyk">
+        <seg>Гадзіннік не патрабуе навядзення.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock is not set to adjust for this change.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T060638Z" changeid="eratyk">
+        <seg>Гадзіннік не прызначаны для рэгулявання гэтага змянення.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock is set to go back %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082637Z" changeid="eratyk">
+        <seg>Гадзінніку прызначана перавесці час на %1!u! хвілінаў назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock is set to go back 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082556Z" changeid="eratyk">
+        <seg>Гадзінніку прызначана перавесці час на 1 гадзіну назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock is set to go forward %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082628Z" changeid="eratyk">
+        <seg>Гадзінніку прызначана перавесці час на %1!u! хвілінаў наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock is set to go forward 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082545Z" changeid="eratyk">
+        <seg>Гадзінніку прызначана перавесці час на 1 гадзіну наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock was most recently synchronized on %1!s! at %2!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085958Z" changeid="eratyk">
+        <seg>Гадзіннік быў нядаўна сінхранізаваны на %1!s! а %2!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock was successfully synchronized on %1!s! at %2!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085456Z" changeid="eratyk">
+        <seg>Гадзіннік паспяхова сінхранізаваны на %1!s! а %2!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock was successfully synchronized with %3!s! on %1!s! at %2!s!.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085438Z" changeid="eratyk">
+        <seg>Гадзіннік паспяхова сінхранізаваны з %3!s! на %1!s! а %2!s!.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock went back %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083102Z" changeid="eratyk">
+        <seg>Гадзіннік быў пераведзены на %1!u! хвілінаў назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock went back 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083051Z" changeid="eratyk">
+        <seg>Гадзіннік быў пераведзены на 1 гадзіну назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock went forward %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083057Z" changeid="eratyk">
+        <seg>Гадзіннік быў пераведзены на %1!u! хвілінаў наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The clock went forward 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083046Z" changeid="eratyk">
+        <seg>Гадзіннік быў пераведзены на 1 гадзіну наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The closest matching printer font will be used for printing.</seg>
       </tuv>
       <tuv lang="be" changedate="20100915T180110Z" changeid="eratyk">
@@ -80279,6 +80487,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>There are no upcoming Daylight Saving Time changes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T062156Z" changeid="eratyk">
+        <seg>Няма надыходзячых змяненняў пераходу на летні час.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>There are problems with some PnP devices. Windows will take additional steps to further troubleshoot these devices.</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T084757Z" changeid="eratyk">
@@ -81027,6 +81243,70 @@
       </tuv>
       <tuv lang="be" changedate="20110217T091339Z" changeid="eratyk">
         <seg>Гэтая птушка ўжываецца толькі калі вы адначасова злучаны з лакальнай і тэлефоннай сеткай. Калі яна стаіць, звесткі, якія не могуць быць дасланыя праз лакальную сетку, накіроўваюцца ў тэлефонную сетку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock went back %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083203Z" changeid="eratyk">
+        <seg>Гэты гадзіннік быў пераведзены на %1!u! хвілінаў назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock went back 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083140Z" changeid="eratyk">
+        <seg>Гэты гадзіннік быў пераведзены на 1 гадзіну назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock went forward %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083151Z" changeid="eratyk">
+        <seg>Гэты гадзіннік быў пераведзены на %1!u! хвілінаў наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock went forward 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T083130Z" changeid="eratyk">
+        <seg>Гэты гадзіннік быў пераведзены на 1 гадзіну наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock will go back %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082807Z" changeid="eratyk">
+        <seg>Гэты гадзіннік будзе пераведзены на %1!u! хвілінаў назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock will go back 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082734Z" changeid="eratyk">
+        <seg>Гэты гадзіннік будзе пераведзены на 1 гадзіну назад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock will go forward %1!u! minutes at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082800Z" changeid="eratyk">
+        <seg>Гэты гадзіннік будзе пераведзены на %1!u! хвілінаў наперад.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This clock will go forward 1 hour at that time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T082725Z" changeid="eratyk">
+        <seg>Гэты гадзіннік будзе пераведзены на 1 гадзіну наперад.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91087,6 +91367,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows can't synchronize automatically with the time server because the time difference is too great. Please update your time manually.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T090200Z" changeid="eratyk">
+        <seg>Windows не можа ссінхранізавацца з серверам часу, бо розніца ў часе надта вялікая. Калі ласка, абнавіце ваш час уручную.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows cannot access %s</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T133048Z" changeid="eratyk">
@@ -95103,6 +95391,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your computer's date is outside the display range for this calendar.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T084913Z" changeid="eratyk">
+        <seg>Дата вага камп'ютара знаходзіцца па-за абсягам адлюстравання гэтага календара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your current brightness setting might reduce battery life.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T172335Z" changeid="eratyk">
@@ -95131,6 +95427,14 @@
       </tuv>
       <tuv lang="be" changedate="20110216T081221Z" changeid="eratyk">
         <seg>Вашае дзейнае вылучэнне таксама выключыць наступныя дапаўненні:\n%1\n\nВы сапраўды жадаеце выключыць гэтыя дапаўненні?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your current time zone is not recognized. Please select a valid time zone using the link below.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110303T085028Z" changeid="eratyk">
+        <seg>Ваш дзейны часавы абсяг не распазнаны. Калі ласка, абярыце дапушчальны часавы абсяг праз спасылку ніжэй.</seg>
       </tuv>
     </tu>
     <tu>
