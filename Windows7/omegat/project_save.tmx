@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 (Failed)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092005Z" changeid="eratyk">
+        <seg>%1 (няўдала)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 (Recovered)</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T121539Z" changeid="eratyk">
@@ -406,10 +414,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 are also available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101100Z" changeid="eratyk">
+        <seg>%1 таксама даступныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 are available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101129Z" changeid="eratyk">
+        <seg>%1 даступныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 at %2</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T091123Z" changeid="eratyk">
         <seg>%1 а %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 can periodically show you detailed notifications about new Microsoft software and specific updates that you need to install manually.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114619Z" changeid="eratyk">
+        <seg>%1 можа перыядычна паказваць вам дэталёвыя апавяшчэнні аб новым апраграмаванні Microsoft і азначаных абнаўленнях, якія вам неабходна ўсталяваць уручную.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 can periodically show you detailed notifications when new Microsoft software is available to install manually.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114843Z" changeid="eratyk">
+        <seg>%1 можа перыядычна паказваць вам дэталёвыя апавяшчэнні, калі даступна новае апраграмаванне Microsoft для ручнога ўсталявання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -582,6 +622,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1 is also available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101052Z" changeid="eratyk">
+        <seg>%1 таксама даступна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 is available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101123Z" changeid="eratyk">
+        <seg>%1 даступна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1 is full.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T064410Z" changeid="eratyk">
@@ -690,6 +746,22 @@
       </tuv>
       <tuv lang="be" changedate="20100313T093845Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Праверка %1 на вірусы выключана.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 selected</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105507Z" changeid="eratyk">
+        <seg>%1 вылучана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1 selected, %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105839Z" changeid="eratyk">
+        <seg>%1 вылучана, %2</seg>
       </tuv>
     </tu>
     <tu>
@@ -1214,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1!lu! featured updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T103317Z" changeid="eratyk">
+        <seg>%1!lu! галоўных абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1!lu! hours</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T165109Z" changeid="eratyk">
@@ -1222,10 +1302,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1!lu! important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102843Z" changeid="eratyk">
+        <seg>%1!lu! важных абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1!lu! minutes</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T165118Z" changeid="eratyk">
         <seg>%1!lu! хвілін</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!lu! optional updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091631Z" changeid="eratyk">
+        <seg>%1!lu! неабавязковых абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1!lu! pending important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105708Z" changeid="eratyk">
+        <seg>Чаканне %1!lu! важных абнаўленняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -2262,10 +2366,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%d featured updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T103255Z" changeid="eratyk">
+        <seg>%d галоўных абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%d important updates</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T165049Z" changeid="eratyk">
         <seg>%d важных абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d optional updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101636Z" changeid="eratyk">
+        <seg>%d неабавязковых абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%d pending important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105618Z" changeid="eratyk">
+        <seg>Чаканне %d важных абнаўленняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -2402,6 +2530,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T062217Z" changeid="eratyk">
         <seg>%dx</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%lastSuccessfulInstallTime%</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111548Z" changeid="eratyk">
+        <seg>%lastSuccessfulInstallTime%</seg>
       </tuv>
     </tu>
     <tu>
@@ -3918,6 +4054,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Check for updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111027Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Check later</seg>
       </tuv>
       <tuv lang="be" changedate="20100928T155534Z" changeid="eratyk">
@@ -4830,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Don't ask me again to install these updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091209Z" changeid="eratyk">
+        <seg>Больш не прасіць мяне ўсталяваць гэтыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Don't ask me again until the next time I log on</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T153127Z" changeid="eratyk">
@@ -5622,6 +5774,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;I</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112403Z" changeid="eratyk">
+        <seg>Я</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;I don't want to join Microsoft SpyNet at this time</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T080440Z" changeid="Ales Koshal [icq#:706101]">
@@ -5686,6 +5846,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112428Z" changeid="eratyk">
+        <seg>Важныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;In the future, don't show me this dialog box.</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T112801Z" changeid="eratyk">
@@ -5746,6 +5914,22 @@
       </tuv>
       <tuv lang="be" changedate="20100715T055630Z" changeid="eratyk">
         <seg>Усталяваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Install now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112235Z" changeid="eratyk">
+        <seg>Усталяваць зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Install updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111224Z" changeid="eratyk">
+        <seg>Усталяваць абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -7094,6 +7278,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Postpone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093736Z" changeid="eratyk">
+        <seg>Адкласці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Preferred DNS server:</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T081427Z" changeid="eratyk">
@@ -7390,6 +7582,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Remind me in:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111808Z" changeid="eratyk">
+        <seg>Нагадаць праз:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Remote Access Preferences...</seg>
       </tuv>
       <tuv lang="be" changedate="20110126T134112Z" changeid="eratyk">
@@ -7550,6 +7750,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Restart now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111005Z" changeid="eratyk">
+        <seg>Перазапусціць зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Restart...</seg>
       </tuv>
       <tuv lang="be" changedate="20100314T071441Z" changeid="Ales Koshal [icq#:706101]">
@@ -7650,6 +7858,14 @@
       </tuv>
       <tuv lang="be" changedate="20110306T170128Z" changeid="eratyk">
         <seg>Аднавіць абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Restore updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105802Z" changeid="eratyk">
+        <seg>Аднавіць абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -8466,6 +8682,14 @@
       </tuv>
       <tuv lang="be" changedate="20110306T090948Z" changeid="eratyk">
         <seg>Спыніць пампаванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Stop installation</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111555Z" changeid="eratyk">
+        <seg>Спыніць усталяванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -9370,6 +9594,14 @@
       </tuv>
       <tuv lang="be" changedate="20100905T094017Z" changeid="eratyk">
         <seg>Маштаб</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;at</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111746Z" changeid="eratyk">
+        <seg>а</seg>
       </tuv>
     </tu>
     <tu>
@@ -10326,6 +10558,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>1 featured update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102935Z" changeid="eratyk">
+        <seg>1 галоўнае абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>1 hour</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061522Z" changeid="alex">
@@ -10378,6 +10618,22 @@
       </tuv>
       <tuv lang="be" changedate="20101108T143714Z" changeid="eratyk">
         <seg>1 новы відарыс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 optional update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091612Z" changeid="eratyk">
+        <seg>1 неабавязковае абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 pending important update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105609Z" changeid="eratyk">
+        <seg>Чаканне 1 важнага абнаўлення</seg>
       </tuv>
     </tu>
     <tu>
@@ -12624,8 +12880,8 @@
       <tuv lang="en">
         <seg>&lt;A&gt;Tell me more about these accounts&lt;/A&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100923T162235Z" changeid="eratyk">
-        <seg>&lt;A&gt;Раскажыце мне больш пра гэтыя рахункі&lt;/A&gt;</seg>
+      <tuv lang="be" changedate="20110311T112951Z" changeid="eratyk">
+        <seg>&lt;A&gt;Распавядзіце больш пра гэтыя рахункі&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14830,6 +15086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Action needed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T100936Z" changeid="eratyk">
+        <seg>Неабходна дзеянне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Action program</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T181400Z" changeid="eratyk">
@@ -16646,6 +16910,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allow all &amp;users to install updates on this computer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112817Z" changeid="eratyk">
+        <seg>Дазволіць усім карыстальнікам усталёўваць абнаўленні на гэты камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allow away mode to be enabled</seg>
       </tuv>
       <tuv lang="be" changedate="20101211T205125Z" changeid="eratyk">
@@ -16998,6 +17270,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Always install the latest updates to enhance your computer's security and performance.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112119Z" changeid="eratyk">
+        <seg>Заўсёды усталёўваць апошнія абнаўленні, каб павялічыць бяспеку і прадукцыйнасць камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Always search file names and &amp;contents (this might take several minutes)</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T111905Z" changeid="eratyk">
@@ -17290,6 +17570,30 @@
       </tuv>
       <tuv lang="be" changedate="20110303T085535Z" changeid="eratyk">
         <seg>Адбылася памылка падчас сінхранізацыі Windows з %1!s!.  %2!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while attempting to retrieve the list of applicable updates for your computer. To continue, please close and reopen the Windows Update control panel.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114134Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы вярнуць спіс прыдатных для вашага камп'ютара абнаўленняў. Каб працягнуць, калі ласка, пераадчыніце панэль кіравання абнаўлення Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while attempting to retrieve the list of applicable updates for your computer. To continue, please close and reopen the Windows Update control panel. (Error code: %1!X!)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110050Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы вярнуць спіс прыдатных для вашага камп'ютара абнаўленняў. Каб працягнуць, калі ласка, пераадчыніце панэль кіравання абнаўлення Windows. (Код памылкі: %1!X!)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while checking for new updates for your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105749Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас правярання наяўнасці абнаўленняў для вашага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19454,6 +19758,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ask me later</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113003Z" changeid="eratyk">
+        <seg>Спытаць пазней</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Assamese</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T070951Z" changeid="eratyk">
@@ -20546,6 +20858,14 @@
       </tuv>
       <tuv lang="be" changedate="20101027T175343Z" changeid="eratyk">
         <seg>Перад %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Before Windows Update can check for updates, you must first configure Windows Update's settings. You can do this using the 'Change settings' link located below the 'Check for updates' link.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T103850Z" changeid="eratyk">
+        <seg>Перш чым абнаўленне Windows зможа праверыць наяўнасць абнаўленняў, вы павінны наладзіць яго. Вы можаце зрабіць гэта, калі пстрыкнеце &quot;Змяніць налады&quot; пад спасылкай &quot;Праверыць наяўнасць абнаўленняў&quot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24824,8 +25144,8 @@
       <tuv lang="en">
         <seg>Chec&amp;k for updates</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T094516Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Прав&amp;ерыць абнаўленні</seg>
+      <tuv lang="be" changedate="20110311T111041Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -24904,8 +25224,8 @@
       <tuv lang="en">
         <seg>Check for definition updates</seg>
       </tuv>
-      <tuv lang="be" changedate="20100318T104214Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Праверка абнаўленняў</seg>
+      <tuv lang="be" changedate="20110311T111120Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў вызначэнняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -24928,8 +25248,24 @@
       <tuv lang="en">
         <seg>Check for updates</seg>
       </tuv>
-      <tuv lang="be" changedate="20100318T110921Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Праверыць абнаўленні</seg>
+      <tuv lang="be" changedate="20110311T103907Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check for updates but let me choose whether to download and install them</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102325Z" changeid="eratyk">
+        <seg>Правяраць наяўнасць, але пакідаць мне на выбар іхняе спампоўванне і ўсталёўванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check for updates managed by your system administrator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092444Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў, кантраляваных сістэмным адміністратарам</seg>
       </tuv>
     </tu>
     <tu>
@@ -24962,6 +25298,14 @@
       </tuv>
       <tuv lang="be" changedate="20110107T220105Z" changeid="eratyk">
         <seg>Праверыць стан сеткі, змяніць сеткавыя налады і прызначыць параметры для агульнадаступных файлаў і друкарак.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for updates from %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113440Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў у сеціве з %1</seg>
       </tuv>
     </tu>
     <tu>
@@ -25098,6 +25442,14 @@
       </tuv>
       <tuv lang="be" changedate="20100715T085835Z" changeid="eratyk">
         <seg>Праверка кружэлкі...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Checking for updates...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111612Z" changeid="eratyk">
+        <seg>Праверка наяўнасці абнаўленняў...</seg>
       </tuv>
     </tu>
     <tu>
@@ -26398,10 +26750,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click here for details.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113128Z" changeid="eratyk">
+        <seg>Пстрыкніце тут для дэталяў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click here for more information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101009T163024Z" changeid="eratyk">
-        <seg>Пстрыкніце тут для дадатковай інфармацыі</seg>
+      <tuv lang="be" changedate="20110311T113145Z" changeid="eratyk">
+        <seg>Пстрыкніце тут для дэталяў</seg>
       </tuv>
     </tu>
     <tu>
@@ -26630,6 +26990,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click to check for updates now.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093628Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб праверыць наяўнасць абнаўленняў зараз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to choose how Windows can install updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092957Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб абраць, якім чынам Windows можа ўсталёўваць абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click to enter your credentials or lock this computer, and then unlock it using your smart card.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T182920Z" changeid="eratyk">
@@ -26650,6 +27026,14 @@
       </tuv>
       <tuv lang="be" changedate="20101124T142728Z" changeid="eratyk">
         <seg>Пстрыкніце, каб выключыць %1!s! з пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to install them using Windows Update.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093105Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб усталяваць іх праз абнаўленне Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26678,6 +27062,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click to see how to fix the problem and check for updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T094216Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб убачыць, як выправіць праблему і праверыць наяўнасць абнаўленняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to see which updates were installed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093441Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб убачыць усталяваныя абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to solve the problem and install these updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093528Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб вырашыць праблемы і ўсталяваць гэтыя абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click to troubleshoot problems</seg>
       </tuv>
       <tuv lang="be" changedate="20110107T221713Z" changeid="eratyk">
@@ -26690,6 +27098,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T061323Z" changeid="eratyk">
         <seg>Пстрыкніце, каб убачыць іх.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click to view progress.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093350Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб прагледзець выкананне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28118,6 +28534,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Configure updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101005Z" changeid="eratyk">
+        <seg>Наладзіць абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Configure\0</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T114134Z" changeid="eratyk">
@@ -28474,6 +28898,14 @@
       </tuv>
       <tuv lang="be" changedate="20100919T190524Z" changeid="eratyk">
         <seg>Хуткасць злучэння:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Connect the computer to an electrical outlet and then try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092735Z" changeid="eratyk">
+        <seg>Падключыце камп'ютар да разеткі і паўтарыце спробу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30448,8 +30880,8 @@
       <tuv lang="en">
         <seg>Create a restore point before applying actions to detected items.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100318T110909Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Зрабіць магчымасць адкату перад ужываннем дзеянняў над выбранымі аб'ектамі.</seg>
+      <tuv lang="be" changedate="20110311T092236Z" changeid="eratyk">
+        <seg>Стварыць пункт аднаўлення, перш чым ужываць дзеянні да выяўленых элементаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30666,6 +31098,14 @@
       </tuv>
       <tuv lang="be" changedate="20100710T081045Z" changeid="eratyk">
         <seg>Стварае пускальнікі для вылучаных элементаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Creating a restore point...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092059Z" changeid="eratyk">
+        <seg>Стварэнне пункта аднаўлення...</seg>
       </tuv>
     </tu>
     <tu>
@@ -31002,6 +31442,14 @@
       </tuv>
       <tuv lang="be" changedate="20101107T172313Z" changeid="eratyk">
         <seg>Дзейны план сілкавання:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Current selection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113010Z" changeid="eratyk">
+        <seg>Дзейнае вылучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -35063,6 +35511,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want detailed notifications about new software and updates?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114223Z" changeid="eratyk">
+        <seg>Жадаеце дэталёвыя апавяшчэнні аб  новым апраграмаванні і абнаўленнях?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want detailed notifications about new software?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114237Z" changeid="eratyk">
+        <seg>Жадаеце дэталёвыя апавяшчэнні аб  новым апраграмаванні?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want the %s toolbar on your taskbar?</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T054019Z" changeid="eratyk">
@@ -36103,10 +36567,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Download and install your selected updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102816Z" changeid="eratyk">
+        <seg>Спампаваць і ўсталяваць вылучаныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Download could not complete!</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T163818Z" changeid="eratyk">
         <seg>Немагчыма скончыць спампоўку!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Download is pending; please select this update to start downloading</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114009Z" changeid="eratyk">
+        <seg>Чаканне спампоўвання; калі ласка, вылучце гэтае абнаўленне, каб  пачаць спампоўванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -36119,10 +36599,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Download size:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112257Z" changeid="eratyk">
+        <seg>Памер спампоўкі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Download the latest definition updates from Microsoft Malware Protection Center</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T172159Z" changeid="eratyk">
         <seg>Спампаваць апошнія абнаўленні з Цэнтра Microsoft па абароне ад шкодных праграмаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Download updates but let me choose whether to install them</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102302Z" changeid="eratyk">
+        <seg>Спампоўваць абнаўленні, але пакідаць мне на выбар іхняе ўсталяванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -36139,6 +36635,14 @@
       </tuv>
       <tuv lang="be" changedate="20110213T111645Z" changeid="eratyk">
         <seg>Спампаваць\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Downloaded</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101940Z" changeid="eratyk">
+        <seg>Спампавана</seg>
       </tuv>
     </tu>
     <tu>
@@ -38399,6 +38903,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error details:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111215Z" changeid="eratyk">
+        <seg>Дэталі памылкі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error encountered</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T144924Z" changeid="Ales Koshal [icq#:706101]">
@@ -38543,6 +39055,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error(s) found:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112209Z" changeid="eratyk">
+        <seg>Знойдзена памылак:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error-checking</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T092438Z" changeid="eratyk">
@@ -38651,6 +39171,70 @@
       </tuv>
       <tuv lang="be" changedate="20100317T141757Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Кожныя%1!d! гадзіны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Friday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110919Z" changeid="eratyk">
+        <seg>Кожную пятніцу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Monday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110816Z" changeid="eratyk">
+        <seg>Кожны панядзелак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Saturday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110937Z" changeid="eratyk">
+        <seg>Кожную суботу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Sunday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110633Z" changeid="eratyk">
+        <seg>Кожную нядзелю</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Thursday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110907Z" changeid="eratyk">
+        <seg>Кожны чацвер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Tuesday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110826Z" changeid="eratyk">
+        <seg>Кожны аўторак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every Wednesday</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110855Z" changeid="eratyk">
+        <seg>Кожную сераду</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every day</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110214Z" changeid="eratyk">
+        <seg>Штодзень</seg>
       </tuv>
     </tu>
     <tu>
@@ -39131,6 +39715,22 @@
       </tuv>
       <tuv lang="be" changedate="20100904T193454Z" changeid="eratyk">
         <seg>Выняць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extras Available: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112336Z" changeid="eratyk">
+        <seg>Даступна бонусаў: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extras Available: %1!lu!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091802Z" changeid="eratyk">
+        <seg>Даступна бонусаў: %1!lu!</seg>
       </tuv>
     </tu>
     <tu>
@@ -39827,6 +40427,14 @@
       </tuv>
       <tuv lang="be" changedate="20110101T154854Z" changeid="eratyk">
         <seg>Факс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Featured Updates - Windows Update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110123Z" changeid="eratyk">
+        <seg>Галоўныя абнаўленні - Абнаўленне Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -40715,6 +41323,14 @@
       </tuv>
       <tuv lang="be" changedate="20100720T124844Z" changeid="eratyk">
         <seg>Пошук згубленага Пачатковага меню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Find out more</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113347Z" changeid="eratyk">
+        <seg>Знайсці больш</seg>
       </tuv>
     </tu>
     <tu>
@@ -41623,6 +42239,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For Windows and other products from %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091821Z" changeid="eratyk">
+        <seg>Для Windows і іншых прадуктаў з %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For Windows only.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092332Z" changeid="eratyk">
+        <seg>Толькі для Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>For a custom DPI setting, select a percentage from the list, or drag the ruler with your mouse.</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T190917Z" changeid="eratyk">
@@ -42255,6 +42887,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>From %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091828Z" changeid="eratyk">
+        <seg>З %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>From '%1!ls!' to '%2!ls!'</seg>
       </tuv>
       <tuv lang="be" changedate="20110223T140505Z" changeid="eratyk">
@@ -42867,6 +43507,14 @@
       </tuv>
       <tuv lang="be" changedate="20110223T140208Z" changeid="eratyk">
         <seg>Атрымаць уласцівасці вылучаных элементаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Get updates for other Microsoft products.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113222Z" changeid="eratyk">
+        <seg>Атрымаць абнаўленні да іншых прадуктаў Microsoft.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43911,6 +44559,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Help and Support:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112241Z" changeid="eratyk">
+        <seg>Дапамога і падтрымка:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Help file</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T175612Z" changeid="eratyk">
@@ -44543,6 +45199,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Horizontal</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112458Z" changeid="eratyk">
+        <seg>Гарызанталь</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Horizontal Scroll Bar</seg>
       </tuv>
       <tuv lang="be" changedate="20100911T055524Z" changeid="eratyk">
@@ -44651,6 +45315,14 @@
       </tuv>
       <tuv lang="be" changedate="20100727T084223Z" changeid="eratyk">
         <seg>Як мне ўвайсці на іншы дамен?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>How do you want to install updates?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093013Z" changeid="eratyk">
+        <seg>Як вы жадаеце ўсталёўваць абнаўленні?</seg>
       </tuv>
     </tu>
     <tu>
@@ -44803,6 +45475,22 @@
       </tuv>
       <tuv lang="be" changedate="20110303T084805Z" changeid="eratyk">
         <seg>Гіперспасылка, якая запускае панэль кіравання даты і часу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I &amp;accept the license terms</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112313Z" changeid="eratyk">
+        <seg>Я прымаю ліцэнзійнае пагадненне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I &amp;decline</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112323Z" changeid="eratyk">
+        <seg>Я адхіляю</seg>
       </tuv>
     </tu>
     <tu>
@@ -46223,6 +46911,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you opt out, you will no longer receive updates from %1. Do you want to continue?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T090732Z" changeid="eratyk">
+        <seg>Калі вы адхіліце, вы больш не будзеце атрымліваць абнаўленні з %1. Працягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you remove it, Windows or another program may no longer work correctly.\n\nAre you sure you want to permanently delete it?</seg>
       </tuv>
       <tuv lang="be" changedate="20100717T064620Z" changeid="eratyk">
@@ -46523,6 +47219,46 @@
       </tuv>
       <tuv lang="be" changedate="20110306T091424Z" changeid="eratyk">
         <seg>Важныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Important and recommended updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101700Z" changeid="eratyk">
+        <seg>Важныя і рэкамендаваныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Important update list, %d updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111903Z" changeid="eratyk">
+        <seg>Спіс важных абнаўленняў, %d абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Important update list, 1 update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111852Z" changeid="eratyk">
+        <seg>Спіс важных абнаўленняў, 1 абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101645Z" changeid="eratyk">
+        <seg>Важныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Important updates are available for your computer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105832Z" changeid="eratyk">
+        <seg>Важныя абнаўленні даступныя для вашага камп'ютара</seg>
       </tuv>
     </tu>
     <tu>
@@ -47359,6 +48095,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Install &amp;new updates:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112417Z" changeid="eratyk">
+        <seg>Усталяваць новыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Install Homegroup Printer</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T185306Z" changeid="eratyk">
@@ -47479,10 +48223,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Install updates automatically (recommended)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102000Z" changeid="eratyk">
+        <seg>Усталёўваць абнаўленні аўтаматычна (рэкамендавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Install updates for your computer</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T165218Z" changeid="eratyk">
         <seg>Усталяваць абнаўленні на ваш камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Install your selected updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102829Z" changeid="eratyk">
+        <seg>Усталяваць вылучаныя абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -47495,10 +48255,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Installation date:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111155Z" changeid="eratyk">
+        <seg>Дата ўсталявання:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Installation of desktop gadgets is managed by your system administrator</seg>
       </tuv>
       <tuv lang="be" changedate="20101121T131047Z" changeid="eratyk">
         <seg>Усталяванне гаджэтаў стальніцы кіруецца вашым сістэмным адміністратарам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installation status:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111205Z" changeid="eratyk">
+        <seg>Стан усталявання:</seg>
       </tuv>
     </tu>
     <tu>
@@ -47523,6 +48299,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T053048Z" changeid="alex">
         <seg>Усталяваныя тэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installed Updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105351Z" changeid="eratyk">
+        <seg>Усталяваныя абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -49607,6 +50391,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Learn about %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110132Z" changeid="eratyk">
+        <seg>Даведацца аб %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Learn about Windows Ultimate Extras</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105500Z" changeid="eratyk">
+        <seg>Даведацца аб бонусах Windows Найбольшай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Learn how to conserve power</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T165300Z" changeid="eratyk">
@@ -49619,6 +50419,14 @@
       </tuv>
       <tuv lang="be" changedate="20100721T102421Z" changeid="eratyk">
         <seg>Інфармацыя пра ўжыванне носьбіта ў якасці паскаральніка сістэмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Learn more</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113243Z" changeid="eratyk">
+        <seg>Даведацца больш</seg>
       </tuv>
     </tu>
     <tu>
@@ -49755,6 +50563,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T164447Z" changeid="eratyk">
         <seg>Дазволіць Windows прапанаваць налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let me choose my settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112537Z" changeid="eratyk">
+        <seg>Дазвольце абраць мае налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -51871,6 +52687,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Managed by your system administrator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091947Z" changeid="eratyk">
+        <seg>Кантралюецца сістэмным адміністратарам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manager</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T182051Z" changeid="eratyk">
@@ -53895,6 +54719,38 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>More information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112431Z" changeid="eratyk">
+        <seg>Больш інфармацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>More information (2)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112436Z" changeid="eratyk">
+        <seg>Больш інфармацыі (2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>More information (3)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112441Z" changeid="eratyk">
+        <seg>Больш інфармацыі (3)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>More information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112217Z" changeid="eratyk">
+        <seg>Больш інфармацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>More information...</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T183117Z" changeid="eratyk">
@@ -53939,6 +54795,22 @@
       </tuv>
       <tuv lang="be" changedate="20100717T111904Z" changeid="eratyk">
         <seg>Больш за дзве версіі былі абноўленыя пасля апошняй сінхранізацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>More updates are available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091957Z" changeid="eratyk">
+        <seg>Даступна больш абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Most recent check for updates:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111424Z" changeid="eratyk">
+        <seg>Апошняя праверка абнаўленняў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -55623,6 +56495,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>New updates are available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093031Z" changeid="eratyk">
+        <seg>Даступныя новыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>New user accounts</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T185106Z" changeid="eratyk">
@@ -55803,6 +56683,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T194931Z" changeid="eratyk">
         <seg>Без назвы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No action needed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T100954Z" changeid="eratyk">
+        <seg>Дзеянне не неабходна</seg>
       </tuv>
     </tu>
     <tu>
@@ -55991,6 +56879,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No important updates available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101153Z" changeid="eratyk">
+        <seg>Няма даступных важных абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No information will be sent to Microsoft.</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T140518Z" changeid="Ales Koshal [icq#:706101]">
@@ -56163,6 +57059,22 @@
       </tuv>
       <tuv lang="be" changedate="20101204T174116Z" changeid="eratyk">
         <seg>Непажаданага ці шкоднага апраграмавання не выяўлена.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No updates are currently selected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113754Z" changeid="eratyk">
+        <seg>Зараз няма вылучаных абнаўленняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No updates are selected.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101825Z" changeid="eratyk">
+        <seg>Няма вылучаных абнаўленняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58791,6 +59703,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Optional update list, %d updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111928Z" changeid="eratyk">
+        <seg>Спіс неабавязковых абнаўленняў, %d абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Optional update list, 1 update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111915Z" changeid="eratyk">
+        <seg>Спіс неабавязковых абнаўленняў, 1 абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Optional updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101719Z" changeid="eratyk">
+        <seg>Неабавязковыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Options</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T204654Z" changeid="eratyk">
@@ -60215,6 +61151,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Password Required</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110959Z" changeid="eratyk">
+        <seg>Патрабуецца пароль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Password Stealer</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T101804Z" changeid="eratyk">
@@ -60579,6 +61523,14 @@
       </tuv>
       <tuv lang="be" changedate="20110124T140729Z" changeid="eratyk">
         <seg>Аловак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pending</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092010Z" changeid="eratyk">
+        <seg>Чаканне</seg>
       </tuv>
     </tu>
     <tu>
@@ -61815,6 +62767,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please read and accept the license terms (%1!lu! of %2!lu!)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091029Z" changeid="eratyk">
+        <seg>Калі ласка, прачытайце і прыміце ліцэнзійнае пагадненне  (%1!lu! of %2!lu!)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please return to Control Panel to change your background settings.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T065702Z" changeid="alex">
@@ -61867,6 +62827,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T113905Z" changeid="eratyk">
         <seg>Калі ласка, абярыце сетку перш чым ствараць злучэнне.\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Please select an option:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T102416Z" changeid="eratyk">
+        <seg>Калі ласка, абярыце магчымасць:</seg>
       </tuv>
     </tu>
     <tu>
@@ -63687,6 +64655,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Product image</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113019Z" changeid="eratyk">
+        <seg>Выява прадукту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Product name</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142447Z" changeid="eratyk">
@@ -64417,16 +65393,24 @@
       <tuv lang="en">
         <seg>Published</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T091407Z" changeid="eratyk">
-        <seg>Выдадзена</seg>
+      <tuv lang="be" changedate="20110311T112634Z" changeid="eratyk">
+        <seg>Апублікавана</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Published by %1!ls!</seg>
       </tuv>
-      <tuv lang="be" changedate="20100718T072756Z" changeid="eratyk">
-        <seg>Выдадзена %1!ls!</seg>
+      <tuv lang="be" changedate="20110311T112643Z" changeid="eratyk">
+        <seg>Апублікавана %1!ls!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Published:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112624Z" changeid="eratyk">
+        <seg>Апублікавана:</seg>
       </tuv>
     </tu>
     <tu>
@@ -65263,6 +66247,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Recommended Update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112600Z" changeid="eratyk">
+        <seg>Рэкамендаванае абнаўленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Recommended Windows Experience Index</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T184955Z" changeid="eratyk">
@@ -65275,6 +66267,22 @@
       </tuv>
       <tuv lang="be" changedate="20101204T153331Z" changeid="eratyk">
         <seg>Рэкамендаванае дзеянне абапіраецца на вызначэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Recommended and optional updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101736Z" changeid="eratyk">
+        <seg>Рэкамендаваныя і неабавязковыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Recommended updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111754Z" changeid="eratyk">
+        <seg>Рэкамендаваныя абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -65619,6 +66627,14 @@
       </tuv>
       <tuv lang="be" changedate="20100727T084830Z" changeid="eratyk">
         <seg>Запомніць мае пасведчанні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remind me later</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T100927Z" changeid="eratyk">
+        <seg>Нагадаць пазней</seg>
       </tuv>
     </tu>
     <tu>
@@ -66743,6 +67759,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Restart &amp;later</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093743Z" changeid="eratyk">
+        <seg>Перазапусціць пазней</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Restart &amp;now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093721Z" changeid="eratyk">
+        <seg>Перазапусціць зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Restart Now</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090957Z" changeid="eratyk">
@@ -66771,6 +67803,14 @@
       </tuv>
       <tuv lang="be" changedate="20100924T182713Z" changeid="eratyk">
         <seg>Перазапусціць зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Restart now to finish installing updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091507Z" changeid="eratyk">
+        <seg>Перазапусціце камп'ютар, каб скончыць усталёўванне абнаўленняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66815,6 +67855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Restart your computer to finish installing important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093649Z" changeid="eratyk">
+        <seg>Перазапусціце камп'ютар, каб скончыць усталёўванне важных абнаўленняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Restart your computer, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T174911Z" changeid="eratyk">
@@ -66827,6 +67875,14 @@
       </tuv>
       <tuv lang="be" changedate="20101026T104535Z" changeid="eratyk">
         <seg>Перазапуск праз 10 секунд</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Restarting in: %1!d! min, %2!d! sec</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093715Z" changeid="eratyk">
+        <seg>Перазапуск праз: %1!d! хвілін, %2!d! секунд</seg>
       </tuv>
     </tu>
     <tu>
@@ -66953,8 +68009,8 @@
       <tuv lang="en">
         <seg>Restore system files and settings from a restore point</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T161402Z" changeid="eratyk">
-        <seg>Аднавіць файлы і налады з кропкі аднаўлення</seg>
+      <tuv lang="be" changedate="20110311T092134Z" changeid="eratyk">
+        <seg>Аднавіць файлы і налады з пункта аднаўлення</seg>
       </tuv>
     </tu>
     <tu>
@@ -67255,6 +68311,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Review all important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101934Z" changeid="eratyk">
+        <seg>Перагледзець усе важныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Review changes to your computer settings</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171838Z" changeid="eratyk">
@@ -67287,6 +68351,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Review important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101927Z" changeid="eratyk">
+        <seg>Перагледзець важныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Review items that haven't been classified yet: %1!d!</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T144735Z" changeid="Ales Koshal [icq#:706101]">
@@ -67299,6 +68371,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T144735Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Прагляд аб'ектаў, якія пакуль не класіфікаваныя: усяго %1!d! шт.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Review optional updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101909Z" changeid="eratyk">
+        <seg>Перагледзець неабавязковыя абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -67355,6 +68435,14 @@
       </tuv>
       <tuv lang="be" changedate="20101028T083755Z" changeid="eratyk">
         <seg>Перапрагледзець стан камп'ютара і вырашыць праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Review your update history</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112144Z" changeid="eratyk">
+        <seg>Перагледзець гісторыю вашых абнаўленняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -69975,6 +71063,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Security Center</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105341Z" changeid="eratyk">
+        <seg>Цэнтр бяспекі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Security ID</seg>
       </tuv>
       <tuv lang="be" changedate="20101103T214915Z" changeid="eratyk">
@@ -70585,8 +71681,8 @@
       <tuv lang="en">
         <seg>Select an action</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T074148Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Выберыце дзеянне</seg>
+      <tuv lang="be" changedate="20110311T102428Z" changeid="eratyk">
+        <seg>Абярыце дзеянне</seg>
       </tuv>
     </tu>
     <tu>
@@ -70647,6 +71743,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select important updates to install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101920Z" changeid="eratyk">
+        <seg>Вылучце важныя абнаўленні для ўсталявання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select measurement units for ruler and page setup.</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T104520Z" changeid="eratyk">
@@ -70667,6 +71771,14 @@
       </tuv>
       <tuv lang="be" changedate="20100711T075704Z" changeid="eratyk">
         <seg>Абярыце для пераназвання толькі адзін файл ці выкарыстайце падстаўныя сімвалы MS-DOS (прыклад: *.txt) для пераназвання групы файлаў з аднолькавымі назвамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select optional updates to install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101850Z" changeid="eratyk">
+        <seg>Вылучце неабавязковыя абнаўленні для ўсталявання</seg>
       </tuv>
     </tu>
     <tu>
@@ -70747,6 +71859,14 @@
       </tuv>
       <tuv lang="be" changedate="20110306T072810Z" changeid="eratyk">
         <seg>Абярыце пашырэнні, якія праграма будзе перадвызначана адчыняць, і пстрыкніце &quot;Захаваць&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the featured updates you want to install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112853Z" changeid="eratyk">
+        <seg>Вылучце галоўныя абнаўленні, якія вы жадаеце ўсталяваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -70947,6 +72067,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T134624Z" changeid="eratyk">
         <seg>Вылучаць уведзены элемент са спісу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the updates you want to install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111743Z" changeid="eratyk">
+        <seg>Вылучце абнаўленні, якія жадаеце ўсталяваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -74447,6 +75575,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Software notifications</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112907Z" changeid="eratyk">
+        <seg>Апавяшчэнні апраграмавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Solid Color</seg>
       </tuv>
       <tuv lang="be" changedate="20101005T153648Z" changeid="eratyk">
@@ -74803,6 +75939,14 @@
       </tuv>
       <tuv lang="be" changedate="20110127T091807Z" changeid="eratyk">
         <seg>Некаторае апраграмаванне, уключаючы Windows, можа дастаўляць вам дадатковае змесціва азначанага размяшчэння. Некаторыя службы дастаўляюць лакальную інфармацыю накшталт навінаў і надвор'я.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Some updates were not installed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105548Z" changeid="eratyk">
+        <seg>Некаторыя абнаўленні не былі ўсталяваныя</seg>
       </tuv>
     </tu>
     <tu>
@@ -76135,6 +77279,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Standard User Control</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111836Z" changeid="eratyk">
+        <seg>Кіраванне звычайнага карыстальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Standard user</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T172311Z" changeid="eratyk">
@@ -77123,6 +78275,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T143520Z" changeid="eratyk">
         <seg>Час працы падтрымкі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Support information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112445Z" changeid="eratyk">
+        <seg>Інфармацыя падтрымкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -78319,10 +79479,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tell me more</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112925Z" changeid="eratyk">
+        <seg>Распавядзіце больш</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tell me more about homegroups</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T075515Z" changeid="eratyk">
-        <seg>Раскажыце больш пра хатнія групы</seg>
+      <tuv lang="be" changedate="20110311T112935Z" changeid="eratyk">
+        <seg>Распавядзіце больш пра хатнія групы</seg>
       </tuv>
     </tu>
     <tu>
@@ -82199,6 +83367,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The updates were successfully installed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105533Z" changeid="eratyk">
+        <seg>Абнаўленні паспяхова ўсталяваныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The user cancelled the navigation after %d seconds.</seg>
       </tuv>
       <tuv lang="be" changedate="20100910T131143Z" changeid="eratyk">
@@ -82767,6 +83943,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>There are no important updates available for your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101502Z" changeid="eratyk">
+        <seg>Няма даступных важных абнаўленняў для вашага камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>There are no items to display.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T100344Z" changeid="eratyk">
@@ -82795,6 +83979,14 @@
       </tuv>
       <tuv lang="be" changedate="20110303T062156Z" changeid="eratyk">
         <seg>Няма надыходзячых змяненняў пераходу на летні час.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are no updates available for your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101531Z" changeid="eratyk">
+        <seg>Няма даступных абнаўленняў для вашага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -83411,6 +84603,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T115149Z" changeid="eratyk">
         <seg>Гэтыя параметры вызначаюць, як Windows будзе прапальваць файлы на кружэлку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>These updates will not be installed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091125Z" changeid="eratyk">
+        <seg>Гэтыя абнаўленні не будуць усталяваныя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86095,6 +87295,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Time until reboot</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T110209Z" changeid="eratyk">
+        <seg>Перад перазапускам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Time zone</seg>
       </tuv>
       <tuv lang="be" changedate="20110120T152345Z" changeid="eratyk">
@@ -86139,6 +87347,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T164001Z" changeid="eratyk">
         <seg>Назва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Title bar</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113047Z" changeid="eratyk">
+        <seg>Паліца назвы</seg>
       </tuv>
     </tu>
     <tu>
@@ -86283,6 +87499,14 @@
       </tuv>
       <tuv lang="be" changedate="20110104T173513Z" changeid="eratyk">
         <seg>Каб зачыніць майстар, націсніце 'Скончыць'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To complete this task, you need to log on as an administrator or ask an administrator to complete the task for you.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091412Z" changeid="eratyk">
+        <seg>Каб скончыць гэтую задачу, вам неабходна ўвайсці як адміністратар ці папрасіць яго скончыць для вас гэтую задачу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -87279,6 +88503,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Total selected: %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101746Z" changeid="eratyk">
+        <seg>Усяго вылучана: %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Total selected: %s, %s</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101800Z" changeid="eratyk">
+        <seg>Усяго вылучана: %s, %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Total size</seg>
       </tuv>
       <tuv lang="be" changedate="20101028T181911Z" changeid="eratyk">
@@ -87599,6 +88839,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Try &amp;again</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111243Z" changeid="eratyk">
+        <seg>Паўтарыць спробу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Try a different resolution.</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T075213Z" changeid="eratyk">
@@ -87911,6 +89159,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Turn on &amp;automatic updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112016Z" changeid="eratyk">
+        <seg>Уключыць аўтаматычныя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Turn on Guest Account</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T170855Z" changeid="eratyk">
@@ -87923,6 +89179,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T194738Z" changeid="eratyk">
         <seg>Уключыць індэкс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Turn on automatic updating</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112005Z" changeid="eratyk">
+        <seg>Уключыць аўтаматычнае абнаўленне</seg>
       </tuv>
     </tu>
     <tu>
@@ -89775,10 +91039,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Update has finished downloading and is ready for install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113849Z" changeid="eratyk">
+        <seg>Абнаўленне скончыла спампоўванне і гатовае да ўсталявання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Update information</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T142824Z" changeid="eratyk">
         <seg>Інфармацыя абнаўлення</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Update is ready for downloading</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113114Z" changeid="eratyk">
+        <seg>Абнаўленне гатовае для спампоўвання</seg>
       </tuv>
     </tu>
     <tu>
@@ -89847,6 +91127,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Update type:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111950Z" changeid="eratyk">
+        <seg>Тып абнаўлення:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Updated definitions enable detections of the latest harmful or unwanted software and prevent it from running on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T172147Z" changeid="eratyk">
@@ -89867,6 +91155,22 @@
       </tuv>
       <tuv lang="be" changedate="20100910T142956Z" changeid="eratyk">
         <seg>Абнаўляе ўсё пазасеткавае змесціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Updates are available for your computer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105821Z" changeid="eratyk">
+        <seg>Абнаўленні даступныя для вашага камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Updates are not being installed automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092923Z" changeid="eratyk">
+        <seg>Абнаўленні не ўсталёўваюцца аўтаматычна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -89907,6 +91211,22 @@
       </tuv>
       <tuv lang="be" changedate="20100710T174424Z" changeid="eratyk">
         <seg>Абнаўляе вылучаныя элементы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Updates were installed:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T111544Z" changeid="eratyk">
+        <seg>Абнаўленні былі ўсталяваныя:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Updates: frequently asked questions</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T105320Z" changeid="eratyk">
+        <seg>Абнаўленні: часта задаваныя пытанні</seg>
       </tuv>
     </tu>
     <tu>
@@ -90291,6 +91611,22 @@
       </tuv>
       <tuv lang="be" changedate="20100705T091322Z" changeid="eratyk">
         <seg>Ужыта:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Used to change horizontal viewing area</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113524Z" changeid="eratyk">
+        <seg>Выкарыстоўваецца для змянення пляцоўкі гарызантальнага прагляду</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Used to change vertical viewing area</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113533Z" changeid="eratyk">
+        <seg>Выкарыстоўваецца для змянення пляцоўкі вертыкальнага прагляду</seg>
       </tuv>
     </tu>
     <tu>
@@ -90835,6 +92171,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T135414Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Версія:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Vertical</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112515Z" changeid="eratyk">
+        <seg>Вертыкаль</seg>
       </tuv>
     </tu>
     <tu>
@@ -92407,6 +93751,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Who can install updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112749Z" changeid="eratyk">
+        <seg>Хто можа ўсталёўваць абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Why can't I change some settings?</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T165433Z" changeid="eratyk">
@@ -93503,6 +94855,54 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows Update cannot currently check for updates, because the service is not running. You may need to restart your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T103506Z" changeid="eratyk">
+        <seg>Абнаўленне Windows не можа зараз праверыць наяўнасць абнаўленняў, бо служба не запушчана. Магчыма, вам неабходна перазапусціць ваш камп'ютар.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Update cannot currently check for updates, because updates on this computer are controlled by your system administrator.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T104537Z" changeid="eratyk">
+        <seg>Абнаўленне Windows не можа зараз праверыць наяўнасць абнаўленняў, бо абнаўленні на гэтым камп'ютары кантралююцца сістэмным адміністратарам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Update cannot currently check for updates, because you must first restart the computer so that a previous installation can be completed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T103626Z" changeid="eratyk">
+        <seg>Абнаўленне Windows не можа зараз праверыць наяўнасць абнаўленняў, бо спачатку вы павінны перазапусціць камп'ютар, каб змагло скончыцца папярэдняе ўсталяванне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Update encountered an unknown error.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T092806Z" changeid="eratyk">
+        <seg>Абнаўленне Windows выявіла невядомую памылку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Update is currently already checking for, downloading, or installing updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T104448Z" changeid="eratyk">
+        <seg>Абнаўленне Windows зараз правярае наяўнасць, спампоўвае ці ўсталёўвае абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows Update is currently installing other updates. Please try again in a few minutes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091719Z" changeid="eratyk">
+        <seg>Абнаўленне Windows зараз усталёўвае іншыя абнаўленні. Калі ласка, паўтарыце спробу праз некалькі хвілін.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows activation</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T143232Z" changeid="eratyk">
@@ -93703,6 +95103,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows can't check for updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T094103Z" changeid="eratyk">
+        <seg>Windows не можа праверыць наяўнасць абнаўленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows can't check the disk while it's in use</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T160213Z" changeid="eratyk">
@@ -93867,6 +95275,14 @@
       </tuv>
       <tuv lang="be" changedate="20110303T090200Z" changeid="eratyk">
         <seg>Windows не можа ссінхранізавацца з серверам часу, бо розніца ў часе надта вялікая. Калі ласка, абнавіце ваш час уручную.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can't update important files and services while the system is using them. Make sure to save your files before restarting.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093923Z" changeid="eratyk">
+        <seg>Windows не можа абнавіць важныя файлы і службы, калі іх карыстае сістэма. Пераканайцеся, што вашыя файлы захаваныя перад перазапускам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94127,6 +95543,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows could not check for updates automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093551Z" changeid="eratyk">
+        <seg>Windows не можа праверыць наяўнасць абнаўленняў аўтаматычна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows could not connect to the %s service.</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T070210Z" changeid="eratyk">
@@ -94171,6 +95595,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T065502Z" changeid="eratyk">
         <seg>Windows не можа стварыць пускальнік. Магчыма, дыск запоўнены.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows could not install important updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093506Z" changeid="eratyk">
+        <seg>Windows не можа ўсталяваць важныя абнаўленні</seg>
       </tuv>
     </tu>
     <tu>
@@ -94495,6 +95927,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows installed new updates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093418Z" changeid="eratyk">
+        <seg>Windows усталявала новыя абнаўленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows is activated</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T135332Z" changeid="eratyk">
@@ -94519,6 +95959,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows is downloading updates (%u%% complete)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093306Z" changeid="eratyk">
+        <seg>Windows спампоўвае абнаўленні (%u%% скончана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows is in Notification period.</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T185659Z" changeid="eratyk">
@@ -94531,6 +95979,14 @@
       </tuv>
       <tuv lang="be" changedate="20110213T132131Z" changeid="eratyk">
         <seg>Windows у перыядзе апавяшчэнняў.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is installing updates (%u%% complete)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093316Z" changeid="eratyk">
+        <seg>Windows усталёўвае абнаўленні (%u%% скончана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -94595,6 +96051,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T161429Z" changeid="eratyk">
         <seg>Windows не можа прачытаць кружэлку %1!c!:.  Пераканайцеся, што кружэльнік зачынены і змяшчае ў сабе кружэлку з дапушчальнымі звесткамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is up to date</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101624Z" changeid="eratyk">
+        <seg>Windows поўнасцю абноўлены</seg>
       </tuv>
     </tu>
     <tu>
@@ -94783,6 +96247,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows update does not require any action</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T101041Z" changeid="eratyk">
+        <seg>Абнаўленне Windows не патрабуе аніякага дзеяння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows was unable to complete the disk check.</seg>
       </tuv>
       <tuv lang="be" changedate="20100721T155705Z" changeid="eratyk">
@@ -94835,6 +96307,14 @@
       </tuv>
       <tuv lang="be" changedate="20100716T053447Z" changeid="eratyk">
         <seg>Windows не ўдалося выдаліць уласцівасці абраных файлаў. Перад тым, як зрабіць іх агульнадаступнымі, Вы мусіце пераглядзець іх на наяўнасць непажаданай персанальнай інфармацыі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows will automatically install them later. Click if you want to install them now.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T093204Z" changeid="eratyk">
+        <seg>Windows аўтаматычна ўсталюе іх пазней. Пстрыкніце, калі жадаеце ўсталяваць іх зараз.</seg>
       </tuv>
     </tu>
     <tu>
@@ -95635,6 +97115,22 @@
       </tuv>
       <tuv lang="be" changedate="20100705T173953Z" changeid="eratyk">
         <seg>Так, прапаліць іх яшчэ раз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yes, tell me about new software (recommended)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114334Z" changeid="eratyk">
+        <seg>Так, распавядайце аб новым апраграмаванні (рэкамендавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yes, tell me about new software and updates (recommended)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114322Z" changeid="eratyk">
+        <seg>Так, распавядайце аб новым апраграмаванні і абнаўленнях (рэкамендавана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -96671,6 +98167,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You checked online for updates from %1.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T113412Z" changeid="eratyk">
+        <seg>Вы праверылі наяўнасць абнаўленняў у сеціве з %1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You currently have a version of %s installed.</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222614Z" changeid="eratyk">
@@ -97063,6 +98567,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You may need to restart your computer after installing this update.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114046Z" changeid="eratyk">
+        <seg>Магчыма, спатрэбіцца перазапусціць камп'ютар пасля ўсталявання гэтага абнаўлення.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You may need to save the theme to a different location or free up disk space.</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T175859Z" changeid="eratyk">
@@ -97295,6 +98807,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You need to accept the license terms before installing an update.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091556Z" changeid="eratyk">
+        <seg>Вам неабходна прыняць ліцэнзійнае пагадненне, перш чым усталёўваць абнаўленне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You need to close the session in order for the disc to work on other computers.</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T151553Z" changeid="eratyk">
@@ -97319,10 +98839,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You need to connect to the Internet to check for updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091926Z" changeid="eratyk">
+        <seg>Вам неабходна злучыцца з сецівам, каб праверыць наяўнасць абнаўленняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You need to format the disk in drive %c: before you can use it.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T063627Z" changeid="eratyk">
         <seg>Вам неабходна адфарматаваць дыск %c: перш чым выкарыстоўваць яго.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You need to provide administrator permission</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091303Z" changeid="eratyk">
+        <seg>Вам неабходны адміністратарскі дазвол</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You receive updates:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T112353Z" changeid="eratyk">
+        <seg>Вы атрымалі абнаўленні:</seg>
       </tuv>
     </tu>
     <tu>
@@ -97411,6 +98955,22 @@
       </tuv>
       <tuv lang="be" changedate="20100725T122625Z" changeid="eratyk">
         <seg>Вы павінны мець дазвол адміністратара, каб пераназваць гэты дыск.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You will need to restart your computer after installing this update.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T114101Z" changeid="eratyk">
+        <seg>Спатрэбіцца перазапусціць камп'ютар пасля ўсталявання гэтага абнаўлення.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You will receive updates from %1.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T091845Z" changeid="eratyk">
+        <seg>Вы будзеце атрымліваць абнаўленні з%1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -97743,6 +99303,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your administrator requires this update to be installed by %1 at %2.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T090836Z" changeid="eratyk">
+        <seg>Адміністратар патрабуе, каб гэтае абнаўленне было ўсталявана %1 а %2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your administrator requires this update to be installed by today at %s.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T090914Z" changeid="eratyk">
+        <seg>Адміністратар патрабуе, каб гэтае абнаўленне было ўсталявана сёння а %2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your battery cant hold a full charge and is low (%1!u!%%).</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T170919Z" changeid="eratyk">
@@ -97915,6 +99491,22 @@
       </tuv>
       <tuv lang="be" changedate="20100713T171849Z" changeid="eratyk">
         <seg>Неабходна перазапусціць камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your computer was restarted to finish installing updates. Click to see how to fix the problem and install new updates.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T094343Z" changeid="eratyk">
+        <seg>Ваш камп'ютар выў перазапушчаны,каб скончыць усталёўванне абнаўленняў. Пстрыкніце, каб убачыць, як выправіць праблему і ўсталяваць новыя абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your computer was restarted to finish installing updates. Click to see which updates were installed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110311T094043Z" changeid="eratyk">
+        <seg>Ваш камп'ютар выў перазапушчаны,каб скончыць усталёўванне абнаўленняў. Пстрыкніце, каб убачыць, якія абнаўленні былі ўсталяваныя.</seg>
       </tuv>
     </tu>
     <tu>
