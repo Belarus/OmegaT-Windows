@@ -1,40 +1,11 @@
-1 MUI "Data_1230.bin"
-
+#pragma code_page(65001)
+#include <resources.h>
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1000, 	"Unknown Device"
-1001, 	"Computer"
-1002, 	"Tree"
-}
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "NetworkItem Factory"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "NetworkItemFactory"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "NetworkItemFactory.DLL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-		VALUE "OleSelfRegister", ""
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
+  1000,  "Unknown Device"
+  1001,  "Computer"
+  1002,  "Tree"
 }
 

@@ -1,386 +1,347 @@
-1 MUI "Data_1126.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 1 MENUEX
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "&Open", 0, MFT_STRING, MFS_ENABLED
-	MENUITEM "&Explore", 1, MFT_STRING, MFS_ENABLED
-}
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "&Open", 0, MFT_STRING, MFS_ENABLED
-}
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "Copy To &Folder...", 2, MFT_STRING, MFS_ENABLED
-}
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "Cu&t", 8, MFT_STRING, MFS_ENABLED
-	MENUITEM "&Copy", 9, MFT_STRING, MFS_ENABLED
-	MENUITEM "&Paste", 10, MFT_STRING, MFS_ENABLED
-	MENUITEM "", 65535, MFT_SEPARATOR, MFS_ENABLED
-	MENUITEM "&Delete", 12, MFT_STRING, MFS_ENABLED
-	MENUITEM "Rena&me", 13, MFT_STRING, MFS_ENABLED
-	MENUITEM "", 65535, MFT_SEPARATOR, MFS_ENABLED
-	MENUITEM "P&roperties", 14, MFT_STRING, MFS_ENABLED
-}
-POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "Login &As...", 4, MFT_STRING, MFS_ENABLED
-	POPUP "&New", 0, MFT_STRING, MFS_ENABLED, 0
-	{
-		MENUITEM "&Folder", 5, MFT_STRING, MFS_ENABLED
-	}
-	MENUITEM "", 65535, MFT_SEPARATOR, MFS_ENABLED
-	MENUITEM "P&roperties", 3, MFT_STRING, MFS_ENABLED
-}
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Open", 0, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Explore", 1, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Open", 0, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Copy To &Folder...", 2, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Cu&t", 8, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Copy", 9, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Paste", 10, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Delete", 12, MFT_STRING, MFS_ENABLED
+    MENUITEM "Rena&me", 13, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "P&roperties", 14, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Login &As...", 4, MFT_STRING, MFS_ENABLED
+    POPUP "&New", 0, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "&Folder", 5, MFT_STRING, MFS_ENABLED
+    }
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "P&roperties", 3, MFT_STRING, MFS_ENABLED
+  }
 }
 
 2 MENUEX
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP "", 33024, MFT_STRING, MFS_ENABLED, 0
-{
-	MENUITEM "FTP Server &Welcome Message...", 6, MFT_STRING, MFS_ENABLED
-	MENUITEM "", 65535, MFT_SEPARATOR, MFS_ENABLED
-}
+  POPUP "", 33024, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "FTP Server &Welcome Message...", 6, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+  }
 }
 
 3 MENU
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP ""
-{
-	MENUITEM "&Copy Here",  1
-	MENUITEM "&Move Here",  2
-	MENUITEM SEPARATOR
-	MENUITEM "Cancel",  0
-}
+  POPUP ""
+  {
+    MENUITEM "&Copy Here", 1
+    MENUITEM "&Move Here", 2
+    MENUITEM SEPARATOR
+    MENUITEM "Cancel", 0
+  }
 }
 
 1 DIALOGEX 0, 0, 280, 141
-STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Confirm File Replace"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x90c80acc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "&Yes", 6, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 46, 120, 53, 14 
-   CONTROL "Yes to &All", 32, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 104, 120, 53, 14 
-   CONTROL "&No", 7, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 161, 120, 53, 14 
-   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 219, 120, 53, 14 
-   CONTROL 8, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "This folder already contains a file called '%s'.", 110, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 10, 222, 22 
-   CONTROL "Would you like to replace the existing file", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 35, 180, 10 
-   CONTROL "(no details available)", 123, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 51, 194, 8 
-   CONTROL "", 124, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 59, 194, 8 
-   CONTROL "", 122, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 51, 49, 21, 20 
-   CONTROL "with this one?", -1, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 75, 180, 10 
-   CONTROL "(no details available)", 113, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 91, 194, 8 
-   CONTROL "", 114, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 79, 99, 194, 8 
-   CONTROL "", 112, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 51, 89, 21, 20 
+  CONTROL "&Yes", 6, Button, 0x50010001, 46, 120, 53, 14, 0x0
+  CONTROL "Yes to &All", 32, Button, 0x50010000, 104, 120, 53, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 161, 120, 53, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 219, 120, 53, 14, 0x0
+  CONTROL 8, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "This folder already contains a file called '%s'.", 110, Static, 0x50020080, 41, 10, 222, 22, 0x0
+  CONTROL "Would you like to replace the existing file", 4294967295, Static, 0x50020080, 41, 35, 180, 10, 0x0
+  CONTROL "(no details available)", 123, Static, 0x50020080, 79, 51, 194, 8, 0x0
+  CONTROL "", 124, Static, 0x50020080, 79, 59, 194, 8, 0x0
+  CONTROL "", 122, Static, 0x50000043, 51, 49, 21, 20, 0x0
+  CONTROL "with this one?", 4294967295, Static, 0x50020080, 41, 75, 180, 10, 0x0
+  CONTROL "(no details available)", 113, Static, 0x50020080, 79, 91, 194, 8, 0x0
+  CONTROL "", 114, Static, 0x50020080, 79, 99, 194, 8, 0x0
+  CONTROL "", 112, Static, 0x50000043, 51, 89, 21, 20, 0x0
 }
 
 2 DIALOGEX 0, 0, 275, 73
-STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Confirm File Delete"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x90c80acc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "&Yes", 6, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 147, 51, 58, 14 
-   CONTROL "&No", 7, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 51, 58, 14 
-   CONTROL 5, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "Are you sure you want to delete the file '%s'? \n\n", 110, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 10, 220, 28 
+  CONTROL "&Yes", 6, Button, 0x50010001, 147, 51, 58, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 210, 51, 58, 14, 0x0
+  CONTROL 5, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "Are you sure you want to delete the file '%s'? \n\n", 110, Static, 0x50020080, 41, 10, 220, 28, 0x0
 }
 
 3 DIALOGEX 0, 0, 275, 73
-STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Confirm Folder Delete"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x90c80acc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "&Yes", 6, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 147, 51, 58, 14 
-   CONTROL "&No", 7, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 51, 58, 14 
-   CONTROL 5, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "Are you sure you want to delete the folder '%s'?\n(Deleting a folder will delete all of its contents)", 110, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 10, 220, 36 
+  CONTROL "&Yes", 6, Button, 0x50010001, 147, 51, 58, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 210, 51, 58, 14, 0x0
+  CONTROL 5, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "Are you sure you want to delete the folder '%s'?\n(Deleting a folder will delete all of its contents)", 110, Static, 0x50020080, 41, 10, 220, 36, 0x0
 }
 
 4 DIALOGEX 0, 0, 275, 65
-STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Confirm Multiple File Delete"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x90c80acc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "&Yes", 6, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 147, 43, 58, 14 
-   CONTROL "&No", 7, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 43, 58, 14 
-   CONTROL 5, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "Are you sure you want to delete these %u items?  \n(Deleting a folder will delete all of its contents)", 117, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 41, 14, 224, 24 
+  CONTROL "&Yes", 6, Button, 0x50010001, 147, 43, 58, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 210, 43, 58, 14, 0x0
+  CONTROL 5, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "Are you sure you want to delete these %u items?  \n(Deleting a folder will delete all of its contents)", 117, Static, 0x50020000, 41, 14, 224, 24, 0x0
 }
 
 32 DIALOGEX 0, 0, 227, 200
-STYLE DS_FIXEDSYS | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_CAPTION
 CAPTION "General"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c001cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "", 112, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 7, 7, 21, 20 
-   CONTROL "", 110, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 48, 14, 172, 14 
-   CONTROL "", 111, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 48, 12, 172, 14 
-   CONTROL "", -1, STATIC, SS_ETCHEDHORZ | WS_CHILD | WS_VISIBLE, 7, 32, 213, 1 
-   CONTROL "Type:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 40, 40, 9 
-   CONTROL "", 115, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 48, 40, 172, 14 
-   CONTROL "Location:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 53, 40, 9 
-   CONTROL "", 116, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 48, 53, 172, 14 
-   CONTROL "Size:", 133, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 66, 24, 9 
-   CONTROL "", 113, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 48, 66, 172, 10 
-   CONTROL "", -1, STATIC, SS_ETCHEDHORZ | WS_CHILD | WS_VISIBLE, 7, 94, 213, 1 
-   CONTROL "Modified:", 134, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 79, 40, 9 
-   CONTROL "(unknown)", 114, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 48, 79, 152, 14 
-   CONTROL "", 156, EDIT, ES_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_BORDER | WS_TABSTOP, 7, 113, 210, 55 , 0x00000200
-   CONTROL "This server does not support changing file permissions.", 157, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 100, 190, 9 
-   CONTROL "Permissions:", 150, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 100, 40, 9 
-   CONTROL "Owner", 151, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 18, 118, 40, 9 
-   CONTROL "Group", 152, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 18, 135, 40, 9 
-   CONTROL "All Users", 153, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 18, 152, 40, 9 
-   CONTROL "Read", 154, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 126, 100, 24, 9 
-   CONTROL "Write", 155, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 156, 100, 26, 9 
-   CONTROL "Execute", 149, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 183, 100, 30, 9 
-   CONTROL "", 140, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 130, 118, 16, 8 
-   CONTROL "", 141, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 118, 16, 8 
-   CONTROL "", 142, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 118, 16, 8 
-   CONTROL "", 143, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 130, 135, 16, 8 
-   CONTROL "", 144, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 135, 16, 8 
-   CONTROL "", 145, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 135, 16, 8 
-   CONTROL "", 146, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 130, 152, 16, 8 
-   CONTROL "", 147, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 152, 16, 8 
-   CONTROL "", 148, BUTTON, BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 190, 152, 16, 8 
+  CONTROL "", 112, Static, 0x50000043, 7, 7, 21, 20, 0x0
+  CONTROL "", 110, Edit, 0x50000880, 48, 14, 172, 14, 0x0
+  CONTROL "", 111, Edit, 0x50810080, 48, 12, 172, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 7, 32, 213, 1, 0x0
+  CONTROL "Type:", 4294967295, Static, 0x50020000, 7, 40, 40, 9, 0x0
+  CONTROL "", 115, Edit, 0x50000880, 48, 40, 172, 14, 0x0
+  CONTROL "Location:", 4294967295, Static, 0x50020000, 7, 53, 40, 9, 0x0
+  CONTROL "", 116, Edit, 0x50000880, 48, 53, 172, 14, 0x0
+  CONTROL "Size:", 133, Static, 0x50020000, 7, 66, 24, 9, 0x0
+  CONTROL "", 113, Static, 0x50020000, 48, 66, 172, 10, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 7, 94, 213, 1, 0x0
+  CONTROL "Modified:", 134, Static, 0x50020000, 7, 79, 40, 9, 0x0
+  CONTROL "(unknown)", 114, Edit, 0x50000880, 48, 79, 152, 14, 0x0
+  CONTROL "", 156, Edit, 0x58810000, 7, 113, 210, 55, 0x200
+  CONTROL "This server does not support changing file permissions.", 157, Static, 0x50020000, 7, 100, 190, 9, 0x0
+  CONTROL "Permissions:", 150, Static, 0x50020000, 7, 100, 40, 9, 0x0
+  CONTROL "Owner", 151, Static, 0x50020000, 18, 118, 40, 9, 0x0
+  CONTROL "Group", 152, Static, 0x50020000, 18, 135, 40, 9, 0x0
+  CONTROL "All Users", 153, Static, 0x50020000, 18, 152, 40, 9, 0x0
+  CONTROL "Read", 154, Static, 0x50020000, 126, 100, 24, 9, 0x0
+  CONTROL "Write", 155, Static, 0x50020000, 156, 100, 26, 9, 0x0
+  CONTROL "Execute", 149, Static, 0x50020000, 183, 100, 30, 9, 0x0
+  CONTROL "", 140, Button, 0x50018003, 130, 118, 16, 8, 0x0
+  CONTROL "", 141, Button, 0x50018003, 160, 118, 16, 8, 0x0
+  CONTROL "", 142, Button, 0x50018003, 190, 118, 16, 8, 0x0
+  CONTROL "", 143, Button, 0x50018003, 130, 135, 16, 8, 0x0
+  CONTROL "", 144, Button, 0x50018003, 160, 135, 16, 8, 0x0
+  CONTROL "", 145, Button, 0x50018003, 190, 135, 16, 8, 0x0
+  CONTROL "", 146, Button, 0x50018003, 130, 152, 16, 8, 0x0
+  CONTROL "", 147, Button, 0x50018003, 160, 152, 16, 8, 0x0
+  CONTROL "", 148, Button, 0x50018003, 190, 152, 16, 8, 0x0
 }
 
 40 DIALOGEX 0, 0, 320, 190
-STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Log On As"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL 9, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "Either the server does not allow anonymous logins or the e-mail address was not accepted.", 45, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 12, 287, 24 
-   CONTROL "To log on to this FTP server, type a user name and password.", 46, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 12, 287, 16 
-   CONTROL "Could not login to the FTP server with the user name and password specified.", 47, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 12, 287, 16 
-   CONTROL "FTP server:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 36, 39, 8 
-   CONTROL "", 41, EDIT, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE, 90, 36, 183, 8 
-   CONTROL "&User name:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 52, 42, 8 
-   CONTROL "", 43, COMBOBOX, CBS_DROPDOWN | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 90, 50, 193, 300 
-   CONTROL "", 44, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_BORDER | WS_TABSTOP, 90, 50, 193, 12 
-   CONTROL "&Password:", 50, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 70, 42, 8 
-   CONTROL "", 48, EDIT, ES_LEFT | ES_PASSWORD | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 90, 68, 193, 12 
-   CONTROL "&E-mail Address:", 51, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 70, 50, 8 
-   CONTROL "", 49, EDIT, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 90, 68, 193, 12 
-   CONTROL "After you log on, you can add this server to your Favorites and return to it easily.", 52, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 88, 270, 24 
-   CONTROL "After you log on, you can add this server to your Favorites and return to it easily.  The FTP server will use the e-mail address to identify anonymous users.", 53, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 88, 270, 24 
-   CONTROL 12, 57, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 21, 105, 11, 11 
-   CONTROL "FTP does not encrypt or encode passwords or data before sending them to the server.  To protect the security of your passwords and data, use WebDAV instead.", 56, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 104, 270, 24 
-   CONTROL "Log on &anonymously", 42, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 38, 156, 101, 8 
-   CONTROL "&Save password", 54, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 145, 156, 65, 10 
-   CONTROL "&Log On", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 193, 171, 50, 14 
-   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 247, 171, 50, 14 
+  CONTROL 9, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "Either the server does not allow anonymous logins or the e-mail address was not accepted.", 45, Static, 0x50020000, 38, 12, 287, 24, 0x0
+  CONTROL "To log on to this FTP server, type a user name and password.", 46, Static, 0x50020000, 38, 12, 287, 16, 0x0
+  CONTROL "Could not login to the FTP server with the user name and password specified.", 47, Static, 0x50020000, 38, 12, 287, 16, 0x0
+  CONTROL "FTP server:", 4294967295, Static, 0x50020000, 38, 36, 39, 8, 0x0
+  CONTROL "", 41, Edit, 0x50000880, 90, 36, 183, 8, 0x0
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 38, 52, 42, 8, 0x0
+  CONTROL "", 43, ComboBox, 0x50210102, 90, 50, 193, 300, 0x0
+  CONTROL "", 44, Edit, 0x58810080, 90, 50, 193, 12, 0x0
+  CONTROL "&Password:", 50, Static, 0x50020000, 38, 70, 42, 8, 0x0
+  CONTROL "", 48, Edit, 0x508100a0, 90, 68, 193, 12, 0x0
+  CONTROL "&E-mail Address:", 51, Static, 0x50020000, 38, 70, 50, 8, 0x0
+  CONTROL "", 49, Edit, 0x50810080, 90, 68, 193, 12, 0x0
+  CONTROL "After you log on, you can add this server to your Favorites and return to it easily.", 52, Static, 0x50020000, 38, 88, 270, 24, 0x0
+  CONTROL "After you log on, you can add this server to your Favorites and return to it easily.  The FTP server will use the e-mail address to identify anonymous users.", 53, Static, 0x50020000, 38, 88, 270, 24, 0x0
+  CONTROL 12, 57, Static, 0x50000043, 21, 105, 11, 11, 0x0
+  CONTROL "FTP does not encrypt or encode passwords or data before sending them to the server.  To protect the security of your passwords and data, use WebDAV instead.", 56, Static, 0x50020000, 38, 104, 270, 24, 0x0
+  CONTROL "Log on &anonymously", 42, Button, 0x50010003, 38, 156, 101, 8, 0x0
+  CONTROL "&Save password", 54, Button, 0x50010003, 145, 156, 65, 10, 0x0
+  CONTROL "&Log On", 1, Button, 0x50010001, 193, 171, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 247, 171, 50, 14, 0x0
 }
 
 80 DIALOGEX 0, 0, 250, 175
-STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "FTP Server Welcome Message"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL 2, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "The FTP server provided the following message:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 36, 17, 200, 8 
-   CONTROL "", 81, EDIT, ES_LEFT | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_HSCROLL, 10, 36, 233, 111 , 0x00020000
-   CONTROL "&Close", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 193, 154, 50, 14 
+  CONTROL 2, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "The FTP server provided the following message:", 4294967295, Static, 0x50020000, 36, 17, 200, 8, 0x0
+  CONTROL "", 81, Edit, 0x503008c4, 10, 36, 233, 111, 0x20000
+  CONTROL "&Close", 1, Button, 0x50010001, 193, 154, 50, 14, 0x0
 }
 
 110 DIALOGEX 20, 20, 225, 135
-STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "FTP proxy warning"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL 2, -1, STATIC, SS_ICON | WS_CHILD | WS_VISIBLE, 10, 10, 21, 20 
-   CONTROL "", 110, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 38, 12, 180, 72 
-   CONTROL "&Do not show me this message in the future", 4610, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 38, 96, 180, 8 
-   CONTROL "&Close", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 168, 114, 50, 14 
+  CONTROL 2, 4294967295, Static, 0x50000043, 10, 10, 21, 20, 0x0
+  CONTROL "", 110, Static, 0x50020000, 38, 12, 180, 72, 0x0
+  CONTROL "&Do not show me this message in the future", 4610, Button, 0x50010003, 38, 96, 180, 8, 0x0
+  CONTROL "&Close", 1, Button, 0x50010001, 168, 114, 50, 14, 0x0
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-0, 	"Opens the selected items."
-1, 	"Explores the selected items."
-2, 	"Copies the selected items to this computer."
-3, 	"Open the properties for the current folder."
-4, 	"Login using a different user name and password."
-5, 	"Create a new folder."
-6, 	"Opens the FTP Server Welcome Message."
-8, 	"Delete the selected item(s) when they are pasted into another folder."
-9, 	"Copy the selected files or folders."
-10, 	"Paste previously copied or cut files or folders."
-11, 	"Create a link to the selected item."
-12, 	"Delete the selected files or folders."
-13, 	"Rename the selected file or folder."
-14, 	"Get the properties on the selected item(s)."
+  0,  "Opens the selected items."
+  1,  "Explores the selected items."
+  2,  "Copies the selected items to this computer."
+  3,  "Open the properties for the current folder."
+  4,  "Login using a different user name and password."
+  5,  "Create a new folder."
+  6,  "Opens the FTP Server Welcome Message."
+  8,  "Delete the selected item(s) when they are pasted into another folder."
+  9,  "Copy the selected files or folders."
+  10,  "Paste previously copied or cut files or folders."
+  11,  "Create a link to the selected item."
+  12,  "Delete the selected files or folders."
+  13,  "Rename the selected file or folder."
+  14,  "Get the properties on the selected item(s)."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-26, 	"Inserts the items you have copied or cut into the selected location."
+  26,  "Inserts the items you have copied or cut into the selected location."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-32, 	"Name"
-33, 	"Size"
-34, 	"Type"
-35, 	"Modified"
-40, 	"Sorts items alphabetically by name."
-41, 	"Sorts items by size, from smallest to largest."
-42, 	"Sorts items by type."
-43, 	"Sorts items by date, from oldest to most recent."
+  32,  "Name"
+  33,  "Size"
+  34,  "Type"
+  35,  "Modified"
+  40,  "Sorts items alphabetically by name."
+  41,  "Sorts items by size, from smallest to largest."
+  42,  "Sorts items by type."
+  43,  "Sorts items by date, from oldest to most recent."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-65, 	"Connecting to %s"
-66, 	"Looking for folder %s"
-67, 	"Getting contents of folder"
-68, 	"Deleting '%s'"
-69, 	"Renaming '%s'"
-71, 	"Copying '%s'"
-72, 	"Copying '%s'"
-73, 	"From '%1!ls!' to '%2!ls!'"
-74, 	"Copying..."
-76, 	"Deleting..."
+  65,  "Connecting to %s"
+  66,  "Looking for folder %s"
+  67,  "Getting contents of folder"
+  68,  "Deleting '%s'"
+  69,  "Renaming '%s'"
+  71,  "Copying '%s'"
+  72,  "Copying '%s'"
+  73,  "From '%1!ls!' to '%2!ls!'"
+  74,  "Copying..."
+  76,  "Deleting..."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-258, 	"Microsoft Internet Explorer FTP"
-262, 	"FTP"
-263, 	"%2!ls! on %1!ls!"
-264, 	"Multiple Items"
-266, 	"New Folder"
-267, 	"New Folder (%d)"
+  258,  "Microsoft Internet Explorer FTP"
+  262,  "FTP"
+  263,  "%2!ls! on %1!ls!"
+  264,  "Multiple Items"
+  266,  "New Folder"
+  267,  "New Folder (%d)"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-286, 	"Folder"
-287, 	"FTP Server"
+  286,  "Folder"
+  287,  "FTP Server"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-288, 	"Calculating the time required to upload the files."
-289, 	"Calculating the time required to delete the files."
-290, 	"Calculating the time required to copy the files."
-291, 	"You are currently in offline mode.  Do you want to go Online?"
-292, 	"Moving items from an FTP server to the Recycle Bin will cause them to be deleted permanently.  Are you sure you want to continue?"
-293, 	"%1 (%2 bytes)"
+  288,  "Calculating the time required to upload the files."
+  289,  "Calculating the time required to delete the files."
+  290,  "Calculating the time required to copy the files."
+  291,  "You are currently in offline mode.  Do you want to go Online?"
+  292,  "Moving items from an FTP server to the Recycle Bin will cause them to be deleted permanently.  Are you sure you want to continue?"
+  293,  "%1 (%2 bytes)"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-340, 	"Unknown Zone"
-350, 	"User: %s"
-351, 	"Anonymous"
+  340,  "Unknown Zone"
+  350,  "User: %s"
+  351,  "Anonymous"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-352, 	"You are logged in as %s.  This login will determine your permissions and your actions may be logged."
-353, 	"You are logged in anonymously.  Select 'Log in as...' in the File menu to log in as another user.  Your email name is used as your password and that can be changed in 'FTP Options' in the View menu."
+  352,  "You are logged in as %s.  This login will determine your permissions and your actions may be logged."
+  353,  "You are logged in anonymously.  Select 'Log in as...' in the File menu to log in as another user.  Your email name is used as your password and that can be changed in 'FTP Options' in the View menu."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-400, 	"FTP Folder"
-401, 	"FTP Folder Error"
-403, 	"\n\nDetails:\n%s"
-405, 	"An error occurred copying a file to the FTP Server.  Make sure you have permission to put files on the server."
-406, 	"An error occurred creating a folder on the FTP Server.  Make sure you have permission to put files on the server."
-407, 	"An error occurred renaming the file or folder on the FTP Server.  Make sure you have permission to make this modification."
-408, 	"An error occurred opening the folder on the FTP Server.  Make sure you have permission to access this folder."
-409, 	"An error occurred deleting the file or folder on the FTP Server.  Make sure you have permission to access this folder."
-410, 	"An error occurred opening that folder on the FTP Server.  Make sure you have permission to access that folder."
-411, 	"An error occurred reading all of the contents of this folder on the FTP Server."
-412, 	"An error occurred creating a new folder on the FTP Server."
-413, 	"The item could not be transferred.  Make sure you have permission to store files here and that the file name is valid."
-414, 	"This operation could not be completed because some characters in the file name are not allowed on the FTP Server."
+  400,  "FTP Folder"
+  401,  "FTP Folder Error"
+  403,  "\n\nDetails:\n%s"
+  405,  "An error occurred copying a file to the FTP Server.  Make sure you have permission to put files on the server."
+  406,  "An error occurred creating a folder on the FTP Server.  Make sure you have permission to put files on the server."
+  407,  "An error occurred renaming the file or folder on the FTP Server.  Make sure you have permission to make this modification."
+  408,  "An error occurred opening the folder on the FTP Server.  Make sure you have permission to access this folder."
+  409,  "An error occurred deleting the file or folder on the FTP Server.  Make sure you have permission to access this folder."
+  410,  "An error occurred opening that folder on the FTP Server.  Make sure you have permission to access that folder."
+  411,  "An error occurred reading all of the contents of this folder on the FTP Server."
+  412,  "An error occurred creating a new folder on the FTP Server."
+  413,  "The item could not be transferred.  Make sure you have permission to store files here and that the file name is valid."
+  414,  "This operation could not be completed because some characters in the file name are not allowed on the FTP Server."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-417, 	"Windows cannot access this folder. Make sure you typed the file name correctly and that you have permission to access the folder."
-418, 	"An error occurred copying the selected items from the FTP Server."
-420, 	"If you change a file name extension, the file may become unusable.\n\nAre you sure you want to change it?"
-421, 	"Rename"
-422, 	"The folder '%s' is read-only because the proxy server is not set up to allow full access.\n\nTo move, paste, rename, or delete files, you must use a different proxy.  For information on changing your proxy, contact your administrator."
-423, 	"An error occurred changing the permissions on the file or folder on the FTP Server.  Make sure you have permission to change this item."
-424, 	"The selected items can not be downloaded to the specified folder.  Please choose another folder."
+  417,  "Windows cannot access this folder. Make sure you typed the file name correctly and that you have permission to access the folder."
+  418,  "An error occurred copying the selected items from the FTP Server."
+  420,  "If you change a file name extension, the file may become unusable.\n\nAre you sure you want to change it?"
+  421,  "Rename"
+  422,  "The folder '%s' is read-only because the proxy server is not set up to allow full access.\n\nTo move, paste, rename, or delete files, you must use a different proxy.  For information on changing your proxy, contact your administrator."
+  423,  "An error occurred changing the permissions on the file or folder on the FTP Server.  Make sure you have permission to change this item."
+  424,  "The selected items can not be downloaded to the specified folder.  Please choose another folder."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-500, 	"Copy the selected item(s) to the folder:"
-}
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Microsoft Internet Explorer FTP Folder Shell Extension"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "MSIEFTP"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "MSIEFTP.DLL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
+  500,  "Copy the selected item(s) to the folder:"
 }
 
