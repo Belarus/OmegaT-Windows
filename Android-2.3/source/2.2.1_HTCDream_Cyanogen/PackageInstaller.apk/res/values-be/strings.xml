@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Package installer</string>
+    <string name="install">Install</string>
+    <string name="done">Done</string>
+    <string name="security_settings_desc">Allow this application to:</string>
+    <string name="cancel">Cancel</string>
+    <string name="unknown">Unknown</string>
+    <string name="installing">Installing…</string>
+    <string name="install_done">Application installed</string>
+    <string name="install_confirm_question">Do you want to install this application?</string>
+    <string name="install_failed">Application not installed</string>
+    <string name="install_failed_msg">%1$s could not be installed on this phone.</string>
+    <string name="launch">Open</string>
+    <string name="unknown_apps_dlg_title">Install blocked</string>
+    <string name="unknown_apps_dlg_text">For security, your phone is set to block installation of applications not obtained from Android Market.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="manage_applications">Manage applications</string>
+    <string name="dlg_app_replacement_title">Replace application</string>
+    <string name="dlg_app_replacement_statement">The application you are installing will replace another application.\n\nAll previous user data will be saved.</string>
+    <string name="dlg_sys_app_replacement_statement">This is a system application. Do you still want to replace it?\n\nAll previous user data will be saved.</string>
+    <string name="out_of_space_dlg_title">Out of space</string>
+    <string name="out_of_space_dlg_text">%1$s could not be installed. Free up some space and try again.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Application not found</string>
+    <string name="app_not_found_dlg_text">The application was not found in the list of installed applications.</string>
+    <string name="uninstall_application_question">Uninstall application?</string>
+    <string name="uninstall_update_question">Uninstall update?</string>
+    <string name="uninstall_application_text">This application will be uninstalled.</string>
+    <string name="uninstall_update_text">The application update will be uninstalled. You can still use the factory version of the application.</string>
+    <string name="uninstalling">Uninstalling…</string>
+    <string name="uninstall_done">Uninstall finished</string>
+    <string name="uninstall_failed">Uninstall not successful</string>
+    <string name="uninstall_failed_msg">%1$s could not be uninstalled</string>
+    <string name="Parse_error_dlg_title">Parse error</string>
+    <string name="Parse_error_dlg_text">There is a problem parsing the package.</string>
+</resources>

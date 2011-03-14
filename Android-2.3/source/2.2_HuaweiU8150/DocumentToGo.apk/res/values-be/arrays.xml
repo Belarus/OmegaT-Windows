@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="underlines">
+        <item>@string/STR_UNDERLINE_NONE</item>
+        <item>@string/STR_UNDERLINE_SINGLE</item>
+        <item>@string/STR_UNDERLINE_BY_WORD</item>
+        <item>@string/STR_UNDERLINE_DOUBLE</item>
+        <item>@string/STR_UNDERLINE_DOT</item>
+        <item>@string/STR_UNDERLINE_THICK</item>
+        <item>@string/STR_UNDERLINE_DASH</item>
+        <item>@string/STR_UNDERLINE_DOT_DASH</item>
+        <item>@string/STR_UNDERLINE_DOT_DOT_DASH</item>
+        <item>@string/STR_UNDERLINE_WAVY</item>
+        <item>@string/STR_UNDERLINE_THICK_DOT</item>
+        <item>@string/STR_UNDERLINE_THICK_DASH</item>
+        <item>@string/STR_UNDERLINE_THICK_DOT_DASH</item>
+        <item>@string/STR_UNDERLINE_THICK_DOT_DOT_DASH</item>
+        <item>@string/STR_UNDERLINE_THICK_WAVY</item>
+        <item>@string/STR_UNDERLINE_LONG_DASH</item>
+        <item>@string/STR_UNDERLINE_DOUBLE_WAVY</item>
+        <item>@string/STR_UNDERLINE_THICK_LONG_DASH</item>
+    </array>
+    <array name="stg_underlines">
+        <item>@string/STR_UNDERLINE_NONE</item>
+        <item>@string/STR_UNDERLINE_SINGLE</item>
+        <item>@string/STR_UNDERLINE_DOUBLE</item>
+        <item>@string/STR_UNDERLINE_SINGLE_ACCOUNTING</item>
+        <item>@string/STR_UNDERLINE_DOUBLE_ACCOUNTING</item>
+    </array>
+    <array name="stg_find_look_in">
+        <item>@string/STR_FIND_DIALOG_LOOK_IN_FORMULAS</item>
+        <item>@string/STR_FIND_DIALOG_LOOK_IN_VALUES</item>
+        <item>@string/STR_FIND_DIALOG_LOOK_IN_COMMENTS</item>
+    </array>
+    <array name="stg_find_within">
+        <item>@string/STR_MENU_SHEET</item>
+        <item>@string/STR_FIND_DIALOG_WITHIN_WORKBOOK</item>
+    </array>
+    <array name="stg_format_number_categories">
+        <item>@string/STR_CATEGORY_GENERAL</item>
+        <item>@string/STR_CATEGORY_NUMBER</item>
+        <item>@string/STR_CATEGORY_CURRENCY</item>
+        <item>@string/STR_CATEGORY_ACCOUNTING</item>
+        <item>@string/STR_CATEGORY_DATE</item>
+        <item>@string/STR_CATEGORY_TIME</item>
+        <item>@string/STR_CATEGORY_PERCENTAGE</item>
+        <item>@string/STR_CATEGORY_FRACTION</item>
+        <item>@string/STR_CATEGORY_SCIENTIFIC</item>
+        <item>@string/STR_CATEGORY_TEXT</item>
+        <item>@string/STR_CATEGORY_SPECIAL</item>
+        <item>@string/STR_CATEGORY_CUSTOM</item>
+    </array>
+    <string-array name="stg_format_number_decimals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <array name="font_size_hpsvalues">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>44</item>
+        <item>48</item>
+        <item>52</item>
+        <item>56</item>
+        <item>72</item>
+        <item>96</item>
+        <item>144</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="stg_font_size_full_pt_values">
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>240</item>
+        <item>280</item>
+        <item>320</item>
+        <item>360</item>
+        <item>400</item>
+        <item>440</item>
+        <item>480</item>
+        <item>520</item>
+        <item>560</item>
+        <item>720</item>
+        <item>960</item>
+        <item>1440</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="font_sizes">
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>11 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>18 pt</item>
+        <item>20 pt</item>
+        <item>22 pt</item>
+        <item>24 pt</item>
+        <item>26 pt</item>
+        <item>28 pt</item>
+        <item>36 pt</item>
+        <item>48 pt</item>
+        <item>72 pt</item>
+        <item>@string/STR_CUSTOM</item>
+    </array>
+    <array name="halign_values">
+        <item>@string/STR_ALIGNMENT_GENERAL</item>
+        <item>@string/STR_ALIGNMENT_LEFT</item>
+        <item>@string/STR_ALIGNMENT_CENTER</item>
+        <item>@string/STR_ALIGNMENT_RIGHT</item>
+    </array>
+    <array name="valign_values">
+        <item>@string/STR_ALIGNMENT_TOP</item>
+        <item>@string/STR_ALIGNMENT_CENTER</item>
+        <item>@string/STR_ALIGNMENT_BOTTOM</item>
+    </array>
+    <array name="alignment_strings">
+        <item>@string/STR_ALIGNMENT_LEFT</item>
+        <item>@string/STR_ALIGNMENT_CENTER</item>
+        <item>@string/STR_ALIGNMENT_RIGHT</item>
+        <item>@string/STR_ALIGNMENT_JUSTIFY</item>
+        <item>@string/STR_ALIGNMENT_DISTRIBUTED</item>
+    </array>
+    <array name="indent_twip_values">
+        <item>-7200</item>
+        <item>-5760</item>
+        <item>-4320</item>
+        <item>-2880</item>
+        <item>-2160</item>
+        <item>-1440</item>
+        <item>-1080</item>
+        <item>-720</item>
+        <item>-360</item>
+        <item>0</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2160</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>7200</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="indent_inches_strings">
+        <item>-5.0</item>
+        <item>-4.0</item>
+        <item>-3.0</item>
+        <item>-2.0</item>
+        <item>-1.5</item>
+        <item>-1.0</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+        <item>0.0</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>3.0</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>@string/STR_CUSTOM</item>
+    </array>
+    <array name="indent_special_strings">
+        <item>@string/STR_NONE</item>
+        <item>@string/STR_INDENT_FIRST_LINE</item>
+        <item>@string/STR_INDENT_HANGING</item>
+    </array>
+    <array name="paraspace_twip_values">
+        <item>0</item>
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="paraspace_point_strings">
+        <item>0.0 pt</item>
+        <item>6.0 pt</item>
+        <item>12.0 pt</item>
+        <item>18.0 pt</item>
+        <item>@string/STR_CUSTOM</item>
+    </array>
+    <array name="linespacing_strings">
+        <item>@string/STR_LINE_SPACING_SINGLE</item>
+        <item>@string/STR_LINE_SPACING_15LINES</item>
+        <item>@string/STR_LINE_SPACING_DOUBLE</item>
+        <item>@string/STR_LINE_SPACING_ATLEAST</item>
+        <item>@string/STR_LINE_SPACING_EXACTLY</item>
+        <item>@string/STR_LINE_SPACING_MULTIPLE</item>
+    </array>
+    <array name="lineat_twip_values">
+        <item>0</item>
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="lineat_point_strings">
+        <item>0.0 pt</item>
+        <item>6.0 pt</item>
+        <item>12.0 pt</item>
+        <item>18.0 pt</item>
+        <item>@string/STR_CUSTOM</item>
+    </array>
+    <array name="lineat_240line_values">
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+        <item>600</item>
+        <item>720</item>
+        <item>840</item>
+        <item>960</item>
+        <item>1080</item>
+        <item>@integer/spinner_array_custom_choice_identifier</item>
+    </array>
+    <array name="lineat_line_strings">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.0</item>
+        <item>3.5</item>
+        <item>4.0</item>
+        <item>4.5</item>
+        <item>@string/STR_CUSTOM</item>
+    </array>
+    <array name="text_direction_strings">
+        <item>@string/STR_TD_LEFT_TO_RIGHT</item>
+        <item>@string/STR_TD_RIGHT_TO_LEFT</item>
+    </array>
+    <array name="stg_text_direction_strings">
+        <item>@string/STR_TD_CONTEXT</item>
+        <item>@string/STR_TD_LEFT_TO_RIGHT</item>
+        <item>@string/STR_TD_RIGHT_TO_LEFT</item>
+    </array>
+    <array name="wtg_formats">
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSWORD972003</item>
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSWORD2007</item>
+    </array>
+    <array name="insertions">
+        <item>@string/STR_NONE_STRING</item>
+        <item>@string/STR_TRACK_COLOR_ONLY</item>
+        <item>@string/STR_MENU_BOLD</item>
+        <item>@string/STR_MENU_ITALIC</item>
+        <item>@string/STR_MENU_UNDERLINE</item>
+        <item>@string/STR_TRACK_DOUBLE_UNDERLINE</item>
+        <item>@string/STR_STRIKETHROUGH</item>
+    </array>
+    <array name="deletions">
+        <item>@string/STR_NONE_STRING</item>
+        <item>@string/STR_TRACK_COLOR_ONLY</item>
+        <item>@string/STR_MENU_BOLD</item>
+        <item>@string/STR_MENU_ITALIC</item>
+        <item>@string/STR_MENU_UNDERLINE</item>
+        <item>@string/STR_TRACK_DOUBLE_UNDERLINE</item>
+        <item>@string/STR_STRIKETHROUGH</item>
+        <item>@string/STR_TRACK_HIDDEN</item>
+        <item>@string/STR_TRACK_DOUBLE_STRIKETHROUGH</item>
+    </array>
+    <array name="track_color">
+        <item>@string/STR_TRACK_BY_AUTHOR</item>
+        <item>@string/STR_TRACK_CHOOSE_COLOR</item>
+    </array>
+    <array name="stg_formats">
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSEXCEL972003</item>
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSEXCEL2007</item>
+    </array>
+    <array name="sstg_formats">
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSPOWERPOINT972003</item>
+        <item>@string/STR_FILE_PROPERTIES_TYPE_MSPOWERPOINT2007</item>
+    </array>
+</resources>

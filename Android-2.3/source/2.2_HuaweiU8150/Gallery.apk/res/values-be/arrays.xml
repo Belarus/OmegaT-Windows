@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_gallery_size_choices">
+        <item>Large</item>
+        <item>Small</item>
+    </string-array>
+    <string-array name="pref_gallery_size_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_gallery_sort_choices">
+        <item>Newest first</item>
+        <item>Newest last</item>
+    </string-array>
+    <string-array name="pref_gallery_sort_values">
+        <item>descending</item>
+        <item>ascending</item>
+    </string-array>
+    <string-array name="pref_gallery_slideshow_interval_choices">
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+    </string-array>
+    <string-array name="pref_gallery_slideshow_interval_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_gallery_slideshow_transition_choices">
+        <item>Fade in &amp;amp; out</item>
+        <item>Slide left - right</item>
+        <item>Slide up - down</item>
+        <item>Random selection</item>
+    </string-array>
+    <string-array name="pref_gallery_slideshow_transition_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+    </string-array>
+</resources>
