@@ -1,0 +1,341 @@
+1 MUI "Data_2136.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+397, 	"Type a password &hint:"
+398, 	"Type a password &hint (required):"
+399, 	"PC"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"%s-%s"
+401, 	"The computer name cannot contain these characters:\n{ | } ~ [ \\ ] ^ ' : ; < = > ? @ ! \" # $ % ` ( ) + / . , *"
+402, 	"Some characters are not valid"
+403, 	"The new password and the confirmation password do not match. Type the same password in both boxes."
+404, 	"The passwords do not match"
+405, 	"The product key is not valid"
+406, 	"Please retype the product key."
+409, 	"Set Up Windows"
+410, 	"The user name is already in use"
+411, 	"Please type a different user name."
+412, 	"Error"
+413, 	"An unknown error occurred."
+414, 	"Invalid parameter."
+415, 	"The domain you specified is not valid."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+416, 	"The computer is already joined to a domain."
+417, 	"Invalid workgroup name."
+418, 	"&Start"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+433, 	"The user name cannot contain these characters:\n\" / \\ [ ] : | < > + = ; , ? * %"
+434, 	"Some characters are not valid"
+435, 	"Help and Support"
+438, 	"The product key does not match current Windows SKU"
+440, 	"My language is %s"
+441, 	"You cannot change your language later"
+443, 	"Choose your formats..."
+444, 	"Choose your location..."
+445, 	"The computer name is not valid"
+446, 	"The computer name cannot contain only numbers, cannot be the same as your user name, and cannot contain spaces.\nPlease retype the computer name."
+447, 	"Windows User"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+451, 	"9pt;;;Courier New Bold;ClearType"
+454, 	"&Next"
+455, 	"The password is not valid"
+456, 	"The password you typed does not meet the password complexity requirements set by the administrator for your network or group. Get the requirements from your administrator, and then type a new password."
+457, 	"Type a computer name"
+458, 	"S&kip"
+459, 	"Invalid security key"
+460, 	"Connection attempt failed"
+461, 	"Share with other home computers running Windows 7"
+463, 	"Windows detected a homegroup on your network.  When you join a homegroup, you can share files and printers with other computers running Windows 7.  To continue, get the homegroup password from %1 on %2 or another homegroup member."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+464, 	"Windows detected a homegroup on your network.  When you join a homegroup, you can share files and printers with other computers running Windows 7.  To continue, get the homegroup password from a homegroup member."
+467, 	"Windows HomeGroup"
+468, 	"The password must contain at least eight characters, not including leading or trailing spaces."
+469, 	"Windows cannot set up a homegroup on this computer."
+470, 	"The password is incorrect.\nPlease try again.  Passwords are case-sensitive."
+471, 	"Open"
+472, 	"Shared"
+473, 	"WPA"
+474, 	"WPA-PSK"
+475, 	"WPA2"
+476, 	"WPA2-PSK"
+477, 	"None"
+478, 	"WEP"
+479, 	"TKIP"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+480, 	"AES"
+481, 	"Connect to a Hidden Network"
+482, 	"Signal strength: %1!u!"
+483, 	"&Finish"
+485, 	"To get the password, ask %1 on %2 or another homegroup member to open HomeGroup in Control Panel on their PC."
+486, 	"To get the password, ask a homegroup member to open HomeGroup in Control Panel on their PC."
+488, 	"The homegroup no longer exists.\nTo create a homegroup, open Network and Sharing Center."
+489, 	"A homegroup has already been created on this network."
+490, 	"A homegroup can only be created on a Home network.\nTo change your network location, open Network and Sharing Center in Control Panel."
+491, 	"The homegroup service is starting.  Please try again."
+492, 	"Choose a user name for your account.  Your computer's name is managed by your organization's system administrator."
+493, 	"The clocks on all homegroup computers must be set no more than 24 hours apart. Make sure your computer clocks are synchronized, and then try joining the homegroup again."
+494, 	"Setup will continue after restarting your computer"
+495, 	"Choose a computer name to distinguish it on the network. Your user account is managed by your organization's system administrator."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+496, 	"Network name: %1"
+500, 	"privacy.rtf"
+501, 	"OOBE_HELP_What_is_User_Account.rtf"
+502, 	"OOBE_HELP_Change_Computer_Name.rtf"
+505, 	"OOBE_HELP_Opt_in_Details.rtf"
+506, 	"HELP_What_is_Activation.rtf"
+507, 	"OOBE_HELP_What_is_HomeGroup.rtf"
+508, 	"OOBE_HELP_Find_PassPhrase.rtf"
+509, 	"Your network connection must have IPv6 enabled to create or join a homegroup. To enable IPv6, start the HomeGroup troubleshooter."
+510, 	"Administrator"
+511, 	"Guest"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+512, 	"The specified computer name is too long."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1100, 	"&Country or region:"
+1102, 	"&Time and currency:"
+1103, 	"&Keyboard layout:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1104, 	"Type your Windows product key"
+1105, 	"You can find your Windows product key on a label included with the package that came with your copy of Windows. The label might also be on your computer case. Activation pairs your product key with your computer."
+1106, 	"The product key looks similar to this:"
+1107, 	"(dashes will be added automatically)"
+1109, 	"Please read the license terms"
+1110, 	"I &accept the license terms"
+1113, 	"Please read the license terms"
+1114, 	"I &accept the license terms (required to use Windows)"
+1117, 	"I accept the &license terms (required to use your computer)"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1120, 	"Set a password for your account"
+1121, 	"Creating a password is a smart security precaution that helps protect your user account from unwanted users. Be sure to remember your password or keep it in a safe place."
+1122, 	"Type a &user name (for example, John):"
+1123, 	"Type a &password (recommended):"
+1124, 	"&Retype your password:"
+1125, 	"Type a password &hint:"
+1128, 	"&Type a <a>computer name</a>:"
+1130, 	"Help protect your computer and improve Windows automatically"
+1131, 	"Use &recommended settings"
+1132, 	"&Install important updates only"
+1133, 	"&Ask me later"
+1134, 	"<a>Learn more about each option</a>"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1136, 	"When you use recommended settings or install updates only, some information is sent to Microsoft.  The information is not used to identify you or contact you.  To turn off these settings later, search for 'Turn off recommended setting' in Help and Support.  <a>Read the privacy statement</a>"
+1138, 	"Review your time and date settings"
+1139, 	"Time &zone:"
+1140, 	"&Automatically adjust clock for Daylight Saving Time"
+1151, 	"&Automatically activate Windows when I'm online"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1152, 	"<a>What is activation?</a>"
+1153, 	"<a>Read our privacy statement</a>"
+1154, 	"&Date:"
+1155, 	"&Time:"
+1156, 	"Install important and recommended updates, help make Internet browsing safer, check online for solutions to problems, and help Microsoft improve Windows."
+1157, 	"Only install security updates and other important updates for Windows."
+1158, 	"Until you decide, your computer might be vulnerable to security threats."
+1159, 	"Windows Vista"
+1160, 	"You can find your Windows product key on a label included with the package that came with your copy of Windows. The label might also be on your computer case. Activation pairs your product key with your computer."
+1161, 	"When you use recommended settings or install updates only, some information is sent to Microsoft.  The information is not used to identify you or contact you.  To turn off these settings later, search for 'Turn off recommended setting' in Help and Support."
+1162, 	"Type a user name (for example, John):"
+1163, 	"Type a password (recommended):"
+1164, 	"Retype your password:"
+1165, 	"Type a password hint:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1169, 	"Analog Clock"
+1170, 	"Digital Clock"
+1171, 	"Review your regional and keyboard settings"
+1172, 	"To make sure your computer is set up correctly, check the regional, time and currency, and keyboard layout settings below."
+1173, 	"To make sure your computer is set up correctly, check the regional, time and currency, and keyboard layout settings below."
+1174, 	"Learn more about each option"
+1175, 	"What is activation?"
+1176, 	"Read our privacy statement"
+1177, 	"Select your computer's current location"
+1178, 	"This computer is connected to a network. Windows will automatically apply the correct network settings based on the network's location."
+1179, 	"&Home network"
+1180, 	"If all the computers on this network are at your home, and you recognize them, this is a trusted home network.  Don't choose this for public places such as coffee shops or airports."
+1181, 	"&Work network"
+1182, 	"If all the computers on this network are at your workplace, and you recognize them, this is a trusted work network.  Don't choose this for public places such as coffee shops or airports."
+1183, 	"&Public network"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1184, 	"If you don't recognize all the computers on the network (for example, you're in a coffee shop or airport, or you have mobile broadband), this is a public network and is not trusted."
+1187, 	"If you aren't sure, select Public network."
+1191, 	"Product key (dashes will be added automatically)"
+1193, 	"Product key"
+1195, 	"Join a wireless network"
+1196, 	"Please choose your wireless network. If you don't know your wireless network details, you can skip this step and do it later."
+1197, 	"Refresh"
+1199, 	"Security-enabled network"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1201, 	"Security key:"
+1202, 	"Type your security key"
+1203, 	"Unsecured network"
+1204, 	"Joining an unsecured network can put your computer at risk"
+1205, 	"Refresh"
+1206, 	"Signal strength"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1218, 	"Select what you want to share:"
+1219, 	"&Pictures"
+1220, 	"&Music"
+1221, 	"&Videos"
+1222, 	"&Documents"
+1223, 	"P&rinters"
+1227, 	"<a>Tell me more about homegroups</a>"
+1228, 	"Learn more about HomeGroup"
+1229, 	"Connection attempt failed"
+1230, 	"<a>Connect to a hidden wireless network</a>"
+1231, 	"Enter information for the hidden wireless network"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1232, 	"Network name:"
+1233, 	"Type the network name"
+1234, 	"Security type:"
+1235, 	"OK"
+1236, 	"Cancel"
+1237, 	"Encryption type:"
+1238, 	"Choose a user name for your <a>account</a> and name your computer to distinguish it on the network."
+1239, 	"Creating a password is a smart security precaution that helps protect your user account from unwanted users. Be sure to remember your password or keep it in a safe place."
+1240, 	"Connecting to your network and applying settings..."
+1241, 	"Windows is finalizing your settings"
+1242, 	"Type a computer name"
+1244, 	"PRODUCT KEY: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+1245, 	"Choose a word or phrase that helps you remember your password.\nIf you forget your password, Windows will show you your hint."
+1247, 	"Type your &homegroup password:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1249, 	"Start this connection automatically"
+1250, 	"Start this connection automatically"
+1251, 	"If you don't know the security key, you can skip this step and join the network later."
+1252, 	"Windows Vista Logo"
+}
+
+1 MESSAGETABLE
+{
+805306368,  	"Info"
+805306369,  	"Start"
+805306370,  	"Stop"
+1342177284,  	"Information"
+-1879048191,  	"Microsoft-Windows-OOBE-Machine-UI"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Windows Machine OOBE UI Layer"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "msoobeui"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "msoobeui.dll.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
