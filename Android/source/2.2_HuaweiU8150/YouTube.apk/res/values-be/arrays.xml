@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="safe_search_levels">
+        <item>Don\'t filter</item>
+        <item>Moderate</item>
+        <item>Strict</item>
+    </string-array>
+    <string-array name="time_filter_dialog_items">
+        <item>Today</item>
+        <item>This week</item>
+        <item>This month</item>
+        <item>All time</item>
+    </string-array>
+    <string-array name="subtitles_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="subtitles_size_values">
+        <item>10</item>
+        <item>16</item>
+        <item>25</item>
+        <item>40</item>
+    </string-array>
+</resources>
