@@ -1,184 +1,146 @@
-1 MUI "Data_585.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 1400 DIALOGEX 10, 10, 225, 60
-STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Select printer"
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "Select a printer:", 1401, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 7, 211, 11 
-   CONTROL "", 1402, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 7, 18, 211, 120 
-   CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 114, 39, 50, 14 
-   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 168, 39, 50, 14 
+  CONTROL "Select a printer:", 1401, Static, 0x50020000, 7, 7, 211, 11, 0x0
+  CONTROL "", 1402, ComboBox, 0x50210003, 7, 18, 211, 120, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 114, 39, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 168, 39, 50, 14, 0x0
 }
 
 1410 DIALOGEX 10, 10, 140, 50
-STYLE DS_FIXEDSYS | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "Loading device information..."
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-FONT 8, "MS Shell Dlg"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
 {
-   CONTROL "", 1411, "msctls_progress32", WS_CHILD | WS_VISIBLE, 10, 10, 120, 12 
-   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 80, 30, 50, 14 
+  CONTROL "", 1411, "msctls_progress32", 0x50000008, 10, 10, 120, 12, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 80, 30, 50, 14, 0x0
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1000, 	"S&ee what's printing"
-1001, 	"Set &as default printer"
-1002, 	"Printin&g preferences"
-1003, 	"&Update driver"
-1004, 	"&Printer properties"
-1005, 	"De&lete print queue"
-1006, 	"Manage default printers"
+  1000,  "S&ee what's printing"
+  1001,  "Set &as default printer"
+  1002,  "Printin&g preferences"
+  1003,  "&Update driver"
+  1004,  "&Printer properties"
+  1005,  "De&lete print queue"
+  1006,  "Manage default printers"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1070, 	"Print server properties"
+  1070,  "Print server properties"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1100, 	"S&tart scan"
-1101, 	"Scan pro&files..."
-1102, 	"S&can properties"
+  1100,  "S&tart scan"
+  1101,  "Scan pro&files..."
+  1102,  "S&can properties"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1200, 	"%1!u! document(s) in queue"
-1201, 	"Printer:  %1"
-1202, 	"Ready"
-1203, 	"Busy"
-1204, 	"Door open"
-1205, 	"Error"
-1206, 	"Initializing"
-1207, 	"IO active"
-1208, 	"Manual feed"
-1209, 	"No toner/ink"
-1210, 	"Not available"
-1211, 	"Offline"
-1212, 	"Out of memory"
-1213, 	"Output bin full"
-1214, 	"Page punt"
-1215, 	"Paper jam"
+  1200,  "%1!u! document(s) in queue"
+  1201,  "Printer:  %1"
+  1202,  "Ready"
+  1203,  "Busy"
+  1204,  "Door open"
+  1205,  "Error"
+  1206,  "Initializing"
+  1207,  "IO active"
+  1208,  "Manual feed"
+  1209,  "No toner/ink"
+  1210,  "Not available"
+  1211,  "Offline"
+  1212,  "Out of memory"
+  1213,  "Output bin full"
+  1214,  "Page punt"
+  1215,  "Paper jam"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1216, 	"Paper out"
-1217, 	"Paper problem"
-1218, 	"Paused"
-1219, 	"Pending deletion"
-1220, 	"Power save"
-1221, 	"Printing"
-1222, 	"Processing"
-1223, 	"Server unknown"
-1224, 	"Toner/ink low"
-1225, 	"User intervention"
-1226, 	"Waiting"
-1227, 	"Warming up"
-1228, 	"Location:  %1"
-1229, 	"Comment:  %1"
-1230, 	"Unable to connect"
-1231, 	"Printer not found on server, unable to connect"
+  1216,  "Paper out"
+  1217,  "Paper problem"
+  1218,  "Paused"
+  1219,  "Pending deletion"
+  1220,  "Power save"
+  1221,  "Printing"
+  1222,  "Processing"
+  1223,  "Server unknown"
+  1224,  "Toner/ink low"
+  1225,  "User intervention"
+  1226,  "Waiting"
+  1227,  "Warming up"
+  1228,  "Location:  %1"
+  1229,  "Comment:  %1"
+  1230,  "Unable to connect"
+  1231,  "Printer not found on server, unable to connect"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1232, 	"Access denied, unable to connect"
-1233, 	"Needs new driver"
-1240, 	"Are you sure you want to delete printer '%1'?"
-1245, 	"Printers"
+  1232,  "Access denied, unable to connect"
+  1233,  "Needs new driver"
+  1240,  "Are you sure you want to delete printer '%1'?"
+  1245,  "Printers"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1253, 	"Portrait"
-1254, 	"Landscape"
-1260, 	"Scan profile: %1"
+  1253,  "Portrait"
+  1254,  "Landscape"
+  1260,  "Scan profile: %1"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1270, 	"Scanner"
-1271, 	"Scan"
+  1270,  "Scanner"
+  1271,  "Scan"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1300, 	"See what's printing on your printer."
-1301, 	"Update the local system driver when a new driver is available on the printer server."
-1302, 	"Open the manage default printers dialog box, where you can manage default printers for the networks you connect to."
-1303, 	"Start scanning a document or image on your scanner."
-1304, 	"Shows the properties for this print server."
+  1300,  "See what's printing on your printer."
+  1301,  "Update the local system driver when a new driver is available on the printer server."
+  1302,  "Open the manage default printers dialog box, where you can manage default printers for the networks you connect to."
+  1303,  "Start scanning a document or image on your scanner."
+  1304,  "Shows the properties for this print server."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1370, 	"%1 on %2"
-1375, 	"The default printer has been deleted."
+  1370,  "%1 on %2"
+  1375,  "The default printer has been deleted."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1376, 	"Close"
-1377, 	"The new default printer for this computer is '%1!ls!'."
-1378, 	"Change your default printer"
-1379, 	"There are no printers set up on your computer."
-1380, 	"Add or remove a printer"
-1390, 	"You are missing a necessary feature. Please install Desktop Experience from the Server Manager. Then restart the computer."
-1391, 	"You need a WIA driver to use this device.  Please install it from the installation CD or manufacturer's website and try again."
-}
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Function Discovery Print Provider Dll"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "FDPrint"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "FDPrint.dll.mui"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
+  1376,  "Close"
+  1377,  "The new default printer for this computer is '%1!ls!'."
+  1378,  "Change your default printer"
+  1379,  "There are no printers set up on your computer."
+  1380,  "Add or remove a printer"
+  1390,  "You are missing a necessary feature. Please install Desktop Experience from the Server Manager. Then restart the computer."
+  1391,  "You need a WIA driver to use this device.  Please install it from the installation CD or manufacturer's website and try again."
 }
 
