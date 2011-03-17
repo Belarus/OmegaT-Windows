@@ -1,0 +1,929 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+107 DIALOGEX 0, 0, 206, 127
+CAPTION "About"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 149, 106, 50, 14, 0x0
+  CONTROL 205, 4000, Static, 0x50000003, 9, 9, 21, 20, 0x0
+  CONTROL "", 4160, Edit, 0x50011804, 53, 15, 136, 31, 0x0
+  CONTROL "", 4161, Edit, 0x50211844, 25, 52, 166, 51, 0x0
+}
+
+108 DIALOGEX 0, 0, 252, 218
+CAPTION "Tasks"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Di&splay these tasks:", 4294967295, Static, 0x50020000, 7, 7, 122, 8, 0x0
+  CONTROL "List3", 4036, "SysListView32", 0x5081000d, 7, 17, 170, 148, 0x0
+  CONTROL "&New...", 1014, Button, 0x50010000, 7, 174, 58, 14, 0x0
+  CONTROL "&Remove", 1015, Button, 0x50010000, 69, 174, 58, 14, 0x0
+  CONTROL "&Modify...", 1017, Button, 0x50010000, 131, 174, 58, 14, 0x0
+  CONTROL "Move &Up", 1020, Button, 0x50010000, 182, 17, 65, 14, 0x0
+  CONTROL "Move &Down", 1021, Button, 0x50010000, 182, 35, 65, 14, 0x0
+}
+
+143 DIALOGEX 0, 0, 317, 143
+CAPTION "Insert ActiveX Control"
+STYLE 0x58c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Control category:", 4294967295, Static, 0x50020000, 21, 7, 100, 8, 0x0
+  CONTROL "Custom1", 212, "ComboBoxEx32", 0x50010003, 21, 16, 160, 80, 0x0
+  CONTROL "Control &type:", 4294967295, Static, 0x50020000, 21, 33, 88, 8, 0x0
+  CONTROL "List1", 1000, "SysListView32", 0x508140dd, 21, 46, 272, 86, 0x0
+}
+
+144 DIALOGEX 0, 0, 317, 193
+CAPTION "Insert ActiveX Control"
+STYLE 0x58c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Friendly name for the ActiveX Control snap-in:", 4294967295, Static, 0x50020000, 115, 8, 180, 8, 0x0
+  CONTROL "", 1022, Edit, 0x50810080, 115, 19, 180, 14, 0x0
+}
+
+145 DIALOGEX 0, 0, 317, 193
+CAPTION "Link to Web Address"
+STYLE 0x58c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Path or URL:", 4294967295, Static, 0x50020000, 115, 85, 166, 8, 0x0
+  CONTROL "", 1023, Edit, 0x50810080, 115, 95, 180, 14, 0x0
+  CONTROL "&Browse...", 1024, Button, 0x50010000, 115, 114, 50, 14, 0x0
+  CONTROL "The Link to Web Address snap-in consists of an MMC node with a Web page in the results view. Type the path or URL for the site you want to display, or click Browse.", 4294967295, Static, 0x50020000, 115, 38, 176, 45, 0x0
+  CONTROL "Welcome to the Link to Web Address Wizard", 4099, Static, 0x50020000, 115, 8, 189, 24, 0x0
+}
+
+146 DIALOGEX 0, 0, 317, 193
+CAPTION "Link to Web Address"
+STYLE 0x58c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Friendly name for the Link to Web Address snap-in:", 4294967295, Static, 0x50020000, 115, 8, 187, 8, 0x0
+  CONTROL "", 1022, Edit, 0x50810080, 115, 20, 180, 14, 0x0
+}
+
+149 DIALOGEX 0, 0, 317, 193
+CAPTION "Insert ActiveX Control"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Welcome to the Insert ActiveX Control Wizard", 4099, Static, 0x50020000, 115, 8, 189, 24, 0x0
+  CONTROL "The ActiveX Control snap-in consists of an MMC node with a results view containing an ActiveX control. This wizard helps you select and configure that control.", 4294967295, Static, 0x50020000, 115, 40, 189, 56, 0x0
+  CONTROL "To continue, click Next.", 4294967295, Static, 0x50020000, 115, 104, 189, 8, 0x0
+}
+
+156 DIALOGEX 0, 0, 252, 218
+CAPTION "General"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "No properties are available on this object.", 4024, Static, 0x50020000, 13, 16, 226, 8, 0x0
+}
+
+159 DIALOGEX 240, 50, 252, 225
+CAPTION "Add Standalone Snap-in"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "List1", 1049, "SysListView32", 0x508181dd, 7, 17, 238, 120, 0x0
+  CONTROL "&Add", 1, Button, 0x50010001, 139, 204, 50, 14, 0x0
+  CONTROL "&Close", 2, Button, 0x50010000, 195, 204, 50, 14, 0x0
+  CONTROL "Available standalone snap-ins:", 4294967295, Static, 0x50020000, 7, 7, 210, 8, 0x0
+  CONTROL "Description", 4294967295, Button, 0x50000007, 7, 143, 238, 49, 0x0
+  CONTROL "", 4007, Edit, 0x50211844, 10, 151, 232, 36, 0x0
+}
+
+160 DIALOGEX 0, 0, 448, 274
+CAPTION "Add or Remove Snap-ins"
+STYLE 0x80c800cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You can select snap-ins for this console from those available on your computer and configure the selected set of snap-ins. For extensible snap-ins, you can configure which extensions are enabled.", 4294967295, Static, 0x50020000, 8, 7, 434, 23, 0x0
+  CONTROL "Available &snap-ins:", 4294967295, Static, 0x50020000, 7, 30, 163, 8, 0x0
+  CONTROL "AvailableSnapinsList", 4173, "SysListView32", 0x508181dd, 7, 40, 163, 157, 0x0
+  CONTROL "&Add >", 4008, Button, 0x50010000, 174, 111, 43, 14, 0x0
+  CONTROL "&Parent snap-in:", 4182, Static, 0x40020000 | NOT WS_VISIBLE, 221, 30, 126, 8, 0x0
+  CONTROL "", 4180, "ComboBoxEx32", 0x40310003 | NOT WS_VISIBLE, 221, 40, 127, 81, 0x0
+  CONTROL "S&elected snap-ins:", 4174, Static, 0x50020000, 221, 30, 127, 8, 0x0
+  CONTROL "AddedSnapinsList", 4175, "SysListView32", 0x50b1404d, 221, 40, 127, 157, 0x0
+  CONTROL "Edit E&xtensions...", 4176, Button, 0x50010000, 353, 40, 88, 14, 0x0
+  CONTROL "&Remove", 4179, Button, 0x50010000, 353, 58, 88, 14, 0x0
+  CONTROL "Move &Up", 4177, Button, 0x50010000, 353, 84, 88, 14, 0x0
+  CONTROL "Move &Down", 4178, Button, 0x50010000, 353, 102, 88, 14, 0x0
+  CONTROL "Ad&vanced...", 4186, Button, 0x50010000, 353, 182, 88, 14, 0x0
+  CONTROL "Description:", 4294967295, Static, 0x50020000, 7, 204, 162, 8, 0x0
+  CONTROL "", 4007, Edit, 0x50a00804, 7, 214, 434, 33, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 337, 254, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 391, 254, 50, 14, 0x0
+}
+
+161 DIALOGEX 0, 0, 259, 314
+CAPTION "Select Extensions"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You can specify which extensions to enable, in order to add or remove functionality in your console, snap-in, or extension. If an extension is not installed, you can install it by highlighting it and then clicking Install. ", 4294967295, Static, 0x50020000, 7, 7, 242, 36, 0x0
+  CONTROL "&Always enable all available extensions", 4189, Button, 0x50030009, 7, 46, 242, 10, 0x0
+  CONTROL "&Enable only selected extensions", 4190, Button, 0x50010009, 7, 87, 229, 10, 0x0
+  CONTROL "All currently available extensions, as well as any extensions that are installed in the future, will be enabled.", 4294967295, Static, 0x50020000, 19, 56, 232, 27, 0x0
+  CONTROL "Only the following selected extensions will be enabled. Extensions that are installed in the future will not be enabled.", 4294967295, Static, 0x50020000, 19, 97, 228, 27, 0x0
+  CONTROL "Extensions list", 4020, "SysListView32", 0x50a1405d, 17, 128, 235, 87, 0x0
+  CONTROL "I&nstall", 4026, Button, 0x50010000, 110, 222, 50, 14, 0x0
+  CONTROL "Edit E&xtensions...", 4176, Button, 0x50010000, 164, 222, 88, 14, 0x0
+  CONTROL "Description:", 4294967295, Static, 0x50020000, 7, 243, 162, 8, 0x0
+  CONTROL "", 4007, Edit, 0x58a00844, 7, 253, 245, 33, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 148, 293, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 202, 293, 50, 14, 0x0
+}
+
+1055 DIALOGEX 0, 0, 259, 225
+CAPTION "Standalone"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Description", 4294967295, Button, 0x50000007, 7, 153, 245, 44, 0x0
+  CONTROL "&Snap-ins added to:", 4294967295, Static, 0x50020000, 7, 33, 63, 10, 0x0
+  CONTROL "Custom1", 4018, "ComboBoxEx32", 0x50010003, 73, 32, 155, 81, 0x0
+  CONTROL "Static", 1053, Static, 0x40020000 | NOT WS_VISIBLE, 235, 32, 20, 20, 0x0
+  CONTROL "List1", 4011, "SysListView32", 0x50a14049, 7, 55, 245, 94, 0x0
+  CONTROL "", 4007, Edit, 0x50211844, 10, 162, 240, 33, 0x0
+  CONTROL "Use this page to add or remove a stand-alone snap-in from the console.", 4294967295, Static, 0x50020000, 7, 7, 245, 19, 0x0
+  CONTROL "A&dd...", 4008, Button, 0x50010000, 7, 204, 50, 14, 0x0
+  CONTROL "&Remove", 4009, Button, 0x50010000, 63, 204, 50, 14, 0x0
+  CONTROL "A&bout...", 4014, Button, 0x50010000, 119, 204, 50, 14, 0x0
+  CONTROL "", 4021, Edit, 0x50000000, 0, 0, 0, 0, 0x0
+}
+
+1056 DIALOGEX 0, 0, 259, 226
+CAPTION "Extensions"
+STYLE 0x88c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Use this page to enable snap-in extensions. To add a particular extension, select the check box next to it.", 4294967295, Static, 0x50020000, 7, 7, 242, 17, 0x0
+  CONTROL "&Snap-ins that can be extended:", 4022, Static, 0x50020000, 7, 30, 212, 10, 0x0
+  CONTROL "Custom1", 4018, "ComboBoxEx32", 0x50010003, 8, 39, 244, 60, 0x0
+  CONTROL "&Add all extensions", 4025, Button, 0x50010003, 10, 57, 168, 10, 0x0
+  CONTROL "Available &extensions:", 4023, Static, 0x50020000, 7, 71, 75, 9, 0x0
+  CONTROL "List2", 4020, "SysListView32", 0x50a14059, 7, 80, 245, 64, 0x0
+  CONTROL "A&bout...", 4014, Button, 0x50010000, 7, 203, 50, 16, 0x0
+  CONTROL "Description", 4010, Button, 0x50000007, 7, 151, 245, 44, 0x0
+  CONTROL "", 4007, Edit, 0x50210844, 10, 159, 240, 33, 0x0
+  CONTROL "", 4021, Edit, 0x50000000, 0, 0, 0, 0, 0x0
+  CONTROL "&Download", 4026, Button, 0x50010000, 64, 203, 50, 16, 0x0
+}
+
+1057 DIALOGEX 0, 0, 252, 218
+CAPTION "General"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Name:", 4294967295, Static, 0x50020000, 7, 9, 58, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50810080, 68, 7, 177, 12, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 7, 25, 58, 8, 0x0
+  CONTROL "", 4091, Edit, 0x50810080, 68, 23, 177, 12, 0x0
+  CONTROL "Style for the results pane:", 4294967295, Static, 0x50020000, 7, 47, 110, 8, 0x0
+  CONTROL "&Vertical list", 4147, Button, 0x50032509, 17, 60, 86, 10, 0x0
+  CONTROL "&Horizontal list", 4148, Button, 0x50002509, 17, 74, 95, 10, 0x0
+  CONTROL "N&o list", 4149, Button, 0x50002509, 17, 88, 52, 10, 0x0
+  CONTROL "Hide St&andard tab", 4162, Button, 0x50012003, 17, 102, 91, 18, 0x0
+  CONTROL "Style for task descriptions:", 4294967295, Static, 0x50020000, 7, 123, 119, 8, 0x0
+  CONTROL "Te&xt", 4151, Button, 0x50032509, 17, 137, 100, 10, 0x0
+  CONTROL "InfoTi&p (displays task description in a pop-up window on hover)", 4150, Button, 0x50002509, 17, 151, 110, 28, 0x0
+  CONTROL "List &size:", 4294967295, Static, 0x50020000, 7, 182, 70, 8, 0x0
+  CONTROL "", 4152, ComboBox, 0x50210003, 80, 180, 58, 56, 0x0
+  CONTROL 216, 4092, Static, 0x5000120e, 136, 47, 109, 74, 0x0
+  CONTROL "Static", 4033, Static, 0x50020000, 136, 125, 105, 52, 0x0
+  CONTROL "Op&tions...", 1012, Button, 0x50010000, 190, 197, 55, 14, 0x0
+}
+
+1059 DIALOGEX 0, 0, 252, 218
+CAPTION "Taskpad Options"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Apply this taskpad view to:", 4294967295, Button, 0x50000007, 7, 7, 238, 65, 0x0
+  CONTROL "&Selected tree item", 4146, Button, 0x50032509, 13, 21, 155, 10, 0x0
+  CONTROL "&All tree items that are the same type as the selected tree item", 4128, Button, 0x50002509, 13, 37, 215, 10, 0x0
+  CONTROL "&Make this the default taskpad for these tree items ", 4129, Button, 0x50032503, 25, 53, 213, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 141, 197, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 197, 50, 14, 0x0
+}
+
+1070 DIALOGEX 0, 0, 346, 172
+CAPTION "Add/Remove Columns"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Available columns:", 4294967295, Static, 0x50020000, 7, 7, 93, 8, 0x0
+  CONTROL "", 4084, ListBox, 0x50b11103, 7, 17, 90, 118, 0x0
+  CONTROL "A&dd ->", 4085, Button, 0x50010000, 101, 44, 60, 14, 0x0
+  CONTROL "<- &Remove", 4086, Button, 0x50010000, 101, 62, 60, 14, 0x0
+  CONTROL "Display&ed columns:", 4294967295, Static, 0x50020000, 165, 7, 93, 8, 0x0
+  CONTROL "", 4088, ListBox, 0x50b11101, 165, 17, 90, 118, 0x0
+  CONTROL "M&ove Up", 4089, Button, 0x50010000, 259, 17, 80, 14, 0x0
+  CONTROL "Mo&ve Down", 4090, Button, 0x50010000, 259, 35, 80, 14, 0x0
+  CONTROL "Re&store Defaults", 4087, Button, 0x50010000, 259, 59, 80, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50001007, 7, 142, 332, 1, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 235, 151, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 289, 151, 50, 14, 0x0
+}
+
+1072 DIALOGEX 0, 0, 317, 193
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Welcome to the New Task Wizard", 4099, Static, 0x50020000, 115, 8, 189, 20, 0x0
+  CONTROL "This wizard helps you create a task for this taskpad.", 4294967295, Static, 0x50020000, 115, 31, 189, 17, 0x0
+  CONTROL "To continue, click Next.", 4294967295, Static, 0x50020000, 115, 56, 189, 8, 0x0
+}
+
+1074 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Task name:", 4072, Static, 0x50020000, 21, 34, 80, 8, 0x0
+  CONTROL "", 4071, Edit, 0x50810080, 104, 32, 184, 12, 0x0
+  CONTROL "The description is displayed in the taskpad or as an InfoTip, depending on which option was selected for the taskpad view.", 4294967295, Static, 0x50020000, 21, 7, 275, 19, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 21, 50, 80, 8, 0x0
+  CONTROL "", 4130, Edit, 0x50810044, 104, 48, 184, 36, 0x0
+}
+
+1075 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 4294967295, Static, 0x50001007, 21, 6, 275, 1, 0x0
+  CONTROL "", 4294967295, Static, 0x50001007, 21, 109, 275, 1, 0x0
+  CONTROL "Icons provided by &MMC:", 4167, Button, 0x50030009, 21, 1, 91, 10, 0x0
+  CONTROL "&Custom icon", 4166, Button, 0x50000009, 21, 104, 55, 10, 0x0
+  CONTROL "List1", 4113, "SysListView32", 0x5083c00c, 33, 13, 248, 56, 0x0
+  CONTROL "Icon symbolizes:", 4169, Static, 0x50000000, 34, 73, 75, 8, 0x0
+  CONTROL "", 4003, Static, 0x50000000, 112, 73, 182, 8, 0x0
+  CONTROL "Alternate meaning:", 4168, Static, 0x50000000, 34, 85, 75, 8, 0x0
+  CONTROL "", 4004, Static, 0x50000000, 112, 85, 182, 16, 0x0
+  CONTROL "", 4170, Static, 0x50000000, 34, 116, 26, 26, 0x200
+  CONTROL "", 4165, Static, 0x50000003, 37, 119, 20, 20, 0x0
+  CONTROL "B&rowse...", 4163, Button, 0x50010000, 70, 122, 50, 14, 0x0
+}
+
+1076 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Command:", 4055, Static, 0x50020000, 21, 26, 94, 8, 0x0
+  CONTROL "", 4052, Edit, 0x50810080, 21, 36, 184, 12, 0x0
+  CONTROL "Br&owse...", 4050, Button, 0x50010000, 213, 35, 50, 14, 0x0
+  CONTROL "&Parameters:", 4054, Static, 0x50020000, 21, 52, 86, 8, 0x0
+  CONTROL "", 4053, Edit, 0x50810080, 21, 62, 184, 12, 0x0
+  CONTROL "", 4080, Button, 0x50010080, 213, 61, 14, 14, 0x0
+  CONTROL "&Start in:", 4061, Static, 0x50020000, 21, 78, 69, 8, 0x0
+  CONTROL "", 4060, Edit, 0x50810080, 21, 88, 184, 12, 0x0
+  CONTROL "Bro&wse...", 4051, Button, 0x50010000, 213, 87, 50, 14, 0x0
+  CONTROL "&Run:", 4059, Static, 0x50020000, 21, 104, 69, 8, 0x0
+  CONTROL "", 4058, ComboBox, 0x50210003, 21, 114, 184, 130, 0x0
+  CONTROL "Specify the path and command, command-line parameters, and other options.", 4294967295, Static, 0x50020000, 21, 7, 275, 17, 0x0
+}
+
+1077 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Command &source:", 4294967295, Static, 0x50020000, 21, 7, 71, 8, 0x0
+  CONTROL "", 4153, ComboBox, 0x50210103, 97, 7, 153, 55, 0x0
+  CONTROL "The menu command you select can be applied to any of the items in the details pane. When you run the task, you must select the item you want to apply it to.", 4154, Static, 0x50020000, 21, 24, 275, 22, 0x0
+  CONTROL "&Tree item:", 4159, Static, 0x50020000, 21, 48, 45, 8, 0x0
+  CONTROL "", 4069, "SysTreeView32", 0x50810023, 21, 58, 135, 84, 0x0
+  CONTROL "Available c&ommands:", 4068, Static, 0x50020000, 161, 48, 68, 8, 0x0
+  CONTROL "", 4067, ListBox, 0x50b10101, 161, 58, 135, 84, 0x0
+  CONTROL "List1", 4110, "SysListView32", 0x5081504d, 21, 58, 135, 84, 0x0
+}
+
+1080 DIALOGEX 100, 20, 252, 218
+CAPTION "Command Line"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Command:", 4055, Static, 0x50020000, 7, 7, 88, 8, 0x0
+  CONTROL "", 4052, Edit, 0x50810080, 7, 17, 184, 12, 0x0
+  CONTROL "Br&owse...", 4050, Button, 0x50010000, 195, 16, 50, 14, 0x0
+  CONTROL "&Parameters:", 4054, Static, 0x50020000, 7, 33, 92, 8, 0x0
+  CONTROL "", 4053, Edit, 0x50810080, 7, 43, 184, 12, 0x0
+  CONTROL "", 4080, Button, 0x50010080, 195, 42, 14, 14, 0x0
+  CONTROL "&Start in:", 4061, Static, 0x50020000, 7, 59, 102, 8, 0x0
+  CONTROL "", 4060, Edit, 0x50810080, 7, 69, 184, 12, 0x0
+  CONTROL "Bro&wse...", 4051, Button, 0x50010000, 195, 68, 50, 14, 0x0
+  CONTROL "&Run:", 4059, Static, 0x50020000, 7, 85, 122, 8, 0x0
+  CONTROL "", 4058, ComboBox, 0x50210003, 7, 95, 184, 130, 0x0
+}
+
+1081 DIALOGEX 0, 0, 252, 218
+CAPTION "General"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Task name:", 4072, Static, 0x50020000, 7, 9, 65, 8, 0x0
+  CONTROL "", 4071, Edit, 0x50810080, 75, 7, 172, 12, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 7, 27, 65, 8, 0x0
+  CONTROL "", 4130, Edit, 0x50810044, 75, 25, 172, 36, 0x0
+}
+
+1082 DIALOGEX 0, 0, 252, 218
+CAPTION "Task Icon"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 4294967295, Static, 0x50001007, 8, 12, 237, 1, 0x0
+  CONTROL "", 4294967295, Static, 0x50001007, 8, 180, 237, 1, 0x0
+  CONTROL "Icons provided by &MMC:", 4167, Button, 0x50030009, 8, 7, 117, 10, 0x0
+  CONTROL "&Custom icon", 4166, Button, 0x50000009, 8, 174, 58, 10, 0x0
+  CONTROL "List1", 4113, "SysListView32", 0x5083c00c, 20, 18, 215, 120, 0x0
+  CONTROL "Icon symbolizes:", 4169, Static, 0x50000000, 21, 142, 75, 8, 0x0
+  CONTROL "", 4003, Static, 0x50000000, 100, 142, 150, 8, 0x0
+  CONTROL "Alternate meaning:", 4168, Static, 0x50000000, 21, 154, 75, 8, 0x0
+  CONTROL "", 4004, Static, 0x50000000, 100, 154, 150, 16, 0x0
+  CONTROL "", 4170, Static, 0x50000000, 21, 185, 26, 26, 0x200
+  CONTROL "", 4165, Static, 0x50000003, 24, 188, 20, 20, 0x0
+  CONTROL "&Browse...", 4163, Button, 0x50010000, 57, 191, 50, 14, 0x0
+}
+
+1083 DIALOGEX 0, 0, 317, 193
+CAPTION "New Taskpad View Wizard"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Welcome to the New Taskpad View Wizard", 4099, Static, 0x50020000, 115, 8, 189, 24, 0x0
+  CONTROL "This wizard helps you create a taskpad view for a tree item in this console.", 65535, Static, 0x50020000, 115, 40, 189, 19, 0x0
+  CONTROL "To continue, click Next.", 65535, Static, 0x50020000, 115, 104, 189, 8, 0x0
+  CONTROL "Taskpad views appear in the results pane of a console and display shortcuts to commands.", 65535, Static, 0x50020000, 115, 64, 189, 32, 0x0
+}
+
+1084 DIALOGEX 0, 0, 317, 143
+CAPTION "New Taskpad View Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Style for the results pane:", 4294967295, Static, 0x50020000, 21, 7, 124, 8, 0x0
+  CONTROL "&Vertical list", 4147, Button, 0x50032509, 31, 21, 86, 10, 0x0
+  CONTROL "&Horizontal list", 4148, Button, 0x50002509, 31, 35, 95, 10, 0x0
+  CONTROL "N&o list", 4149, Button, 0x50002509, 31, 49, 52, 10, 0x0
+  CONTROL "Hide St&andard tab", 4162, Button, 0x50010003, 31, 63, 142, 10, 0x0
+  CONTROL "Static", 4033, Static, 0x50020000, 187, 85, 105, 52, 0x0
+  CONTROL "Style for task descriptions:", 4294967295, Static, 0x50020000, 21, 78, 95, 8, 0x0
+  CONTROL "Te&xt", 4151, Button, 0x50032509, 31, 92, 100, 10, 0x0
+  CONTROL "InfoTi&p (displays description in a pop-up window on hover)", 4150, Button, 0x50002509, 31, 106, 150, 18, 0x0
+  CONTROL "List &size:", 4294967295, Static, 0x50020000, 21, 130, 70, 8, 0x0
+  CONTROL "", 4152, ComboBox, 0x50210103, 94, 128, 58, 56, 0x0
+  CONTROL 216, 4092, Static, 0x5000120e, 187, 7, 109, 74, 0x0
+}
+
+1085 DIALOGEX 0, 0, 317, 143
+CAPTION "New Taskpad View Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "N&ame:", 4294967295, Static, 0x50020000, 21, 24, 54, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50810080, 81, 22, 193, 12, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 21, 40, 55, 8, 0x0
+  CONTROL "", 4091, Edit, 0x50810080, 81, 38, 193, 12, 0x0
+  CONTROL " ", 4294967295, Static, 0x50020000, 21, 7, 259, 8, 0x0
+}
+
+1086 DIALOGEX 0, 0, 214, 223
+CAPTION "Customize View"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select or clear the check boxes to show or hide items in the console window.", 4171, Static, 0x50020000, 7, 7, 194, 22, 0x0
+  CONTROL "MMC", 4294967295, Button, 0x50000007, 7, 31, 200, 111, 0x0
+  CONTROL "&Console tree", 4143, Button, 0x50010003, 13, 42, 188, 10, 0x0
+  CONTROL "Standard m&enus (Action and View)", 4144, Button, 0x50010003, 13, 56, 188, 10, 0x0
+  CONTROL "Standard tool&bar", 4139, Button, 0x50010003, 13, 70, 188, 10, 0x0
+  CONTROL "&Status bar", 4141, Button, 0x50010003, 13, 84, 188, 10, 0x0
+  CONTROL "&Description bar", 4142, Button, 0x50010003, 13, 98, 188, 10, 0x0
+  CONTROL "Taskpad &navigation tabs", 4145, Button, 0x50010003, 13, 112, 188, 10, 0x0
+  CONTROL "&Action pane", 4172, Button, 0x50010003, 13, 126, 188, 10, 0x0
+  CONTROL "Snap-in", 4294967295, Button, 0x50000007, 7, 150, 200, 42, 0x0
+  CONTROL "&Menus", 4138, Button, 0x50010003, 13, 162, 188, 10, 0x0
+  CONTROL "&Toolbars", 4140, Button, 0x50010003, 13, 176, 188, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 157, 200, 50, 14, 0x0
+}
+
+1087 DIALOGEX 0, 0, 317, 155
+CAPTION "New Taskpad View Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select the type of title you want:", 4294967295, Static, 0x50020000, 21, 7, 275, 8, 0x0
+  CONTROL "&Path", 4046, Button, 0x50022409, 21, 21, 50, 12, 0x0
+  CONTROL "&Custom title", 4047, Button, 0x50002409, 21, 57, 52, 10, 0x0
+  CONTROL "N&o title", 4048, Button, 0x50002409, 21, 84, 38, 10, 0x0
+  CONTROL "&Levels of path to display:", 4294967295, Static, 0x50020000, 102, 21, 101, 8, 0x0
+  CONTROL "", 1034, Edit, 0x50812080, 205, 19, 23, 12, 0x1000
+  CONTROL "", 4044, "msctls_updown32", 0x50000036, 234, 19, 8, 14, 0x0
+  CONTROL "", 1041, Edit, 0x50810080, 113, 57, 132, 12, 0x0
+  CONTROL "Sample Title", 4294967295, Button, 0x50020007, 21, 117, 265, 31, 0x0
+  CONTROL "", 4125, Static, 0x50020000, 30, 130, 245, 8, 0x0
+  CONTROL "Displays the path for the selected item. Taskpad title depends on the item to which the taskpad is applied.", 4294967295, Static, 0x50020000, 33, 35, 243, 17, 0x0
+  CONTROL "Displays the title you create. Works best for standalone taskpads.", 4294967295, Static, 0x50020000, 33, 71, 249, 12, 0x0
+  CONTROL "Does not display a title.", 4294967295, Static, 0x50020000, 33, 98, 256, 8, 0x0
+}
+
+1089 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Choose the type of command you want to use for this task.", 4294967295, Static, 0x50020000, 21, 1, 268, 17, 0x0
+  CONTROL "&Menu command", 4115, Button, 0x50000009, 21, 21, 248, 10, 0x0
+  CONTROL "&Shell command", 4116, Button, 0x50000009, 21, 48, 248, 10, 0x0
+  CONTROL "Na&vigation", 4155, Button, 0x50000009, 21, 75, 248, 10, 0x0
+  CONTROL "Run a command from a menu.", 4294967295, Static, 0x50020000, 33, 33, 182, 8, 0x0
+  CONTROL "Run a script, start a program, or open a Web page.", 4294967295, Static, 0x50020000, 33, 60, 215, 8, 0x0
+  CONTROL "Navigate to a taskpad for a tree item in your MMC Favorites list.", 4294967295, Static, 0x50020000, 33, 87, 248, 19, 0x0
+}
+
+1090 DIALOGEX 0, 0, 317, 193
+CAPTION "New Task Wizard"
+STYLE 0x40c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Completing the New Task Wizard", 4100, Static, 0x50000000, 115, 8, 189, 24, 0x0
+  CONTROL "You have successfully completed the New Task Wizard.", 4294967295, Static, 0x50020000, 115, 32, 189, 16, 0x0
+  CONTROL "&Tasks on the taskpad:", 4294967295, Static, 0x50020000, 115, 56, 158, 8, 0x0
+  CONTROL "List3", 4036, "SysListView32", 0x50810005, 115, 66, 189, 85, 0x0
+  CONTROL "&When I click Finish, run this wizard again", 4124, Button, 0x50012403, 115, 172, 189, 10, 0x0
+  CONTROL "New...", 1014, Button, 0x48010000 | NOT WS_VISIBLE, 259, 107, 58, 14, 0x0
+  CONTROL "Remove", 1015, Button, 0x48010000 | NOT WS_VISIBLE, 259, 41, 58, 14, 0x0
+  CONTROL "Modify", 1017, Button, 0x48010000 | NOT WS_VISIBLE, 259, 56, 58, 14, 0x0
+  CONTROL "Move Up", 1020, Button, 0x48010000 | NOT WS_VISIBLE, 267, 89, 50, 14, 0x0
+  CONTROL "Move Down", 1021, Button, 0x48010000 | NOT WS_VISIBLE, 267, 72, 50, 14, 0x0
+  CONTROL " ", 4294967295, Static, 0x50020000, 117, 157, 187, 10, 0x0
+}
+
+1097 DIALOGEX 0, 0, 317, 193
+CAPTION "New Taskpad View Wizard"
+STYLE 0x40c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Completing the New Taskpad View Wizard", 4100, Static, 0x50000000, 115, 8, 189, 24, 0x0
+  CONTROL "You have successfully completed the New Taskpad View Wizard.", 4294967295, Static, 0x50020000, 115, 40, 189, 33, 0x0
+  CONTROL "&Add new tasks to this taskpad after the wizard closes ", 1018, Button, 0x50012403, 115, 89, 189, 18, 0x0
+  CONTROL "To close this wizard, click Finish.", 4294967295, Static, 0x50020000, 115, 115, 189, 8, 0x0
+  CONTROL " ", 4294967295, Static, 0x50020000, 115, 63, 189, 17, 0x0
+}
+
+1098 DIALOGEX 0, 0, 317, 143
+CAPTION "New Taskpad View Wizard"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select whether this taskpad view will apply to the current tree item only, or to all tree items of this type.", 65535, Static, 0x50020000, 21, 7, 275, 16, 0x0
+  CONTROL "&Selected tree item", 4146, Button, 0x50032509, 21, 51, 275, 10, 0x0
+  CONTROL "&All tree items that are the same type as the selected tree item", 4128, Button, 0x50002509, 21, 67, 275, 10, 0x0
+  CONTROL "&Make this the default taskpad for these tree items", 4129, Button, 0x50032503, 33, 83, 263, 10, 0x0
+  CONTROL "Apply this taskpad view to:", 65535, Static, 0x50020000, 21, 35, 246, 8, 0x0
+}
+
+1099 DIALOGEX 0, 0, 317, 143
+CAPTION "New Task Wizard"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select the Favorites item you want to display in the results pane.", 4294967295, Static, 0x50020000, 21, 7, 280, 8, 0x0
+  CONTROL "", 4157, Static, 0x48020000 | NOT WS_VISIBLE, 21, 33, 197, 104, 0x20
+  CONTROL "&Favorites:", 4294967295, Static, 0x50020000, 21, 22, 52, 8, 0x0
+}
+
+4187 DIALOGEX 0, 0, 300, 73
+CAPTION "Advanced"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "By default, snap-ins are added under the console root node.  Selecting this check box enables you to choose the parent snap-in under which snap-ins will be added.", 4294967295, Static, 0x50020000, 7, 7, 277, 27, 0x0
+  CONTROL "&Allow changing the parent snap-in", 4188, Button, 0x50010003, 7, 37, 278, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 189, 53, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 243, 53, 50, 14, 0x0
+}
+
+6000 DIALOGEX 0, 0, 252, 68
+CAPTION "Waiting for Snap-in..."
+STYLE 0x90c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 6004, Static, 0x50020000, 7, 7, 238, 8, 0x0
+  CONTROL "", 6005, "msctls_progress32", 0x50000000, 7, 19, 238, 12, 0x0
+  CONTROL "Cancel", 2, Button, 0x58010001, 195, 47, 50, 14, 0x0
+}
+
+6006 DIALOGEX 0, 0, 252, 159
+CAPTION "Unhandled Exception in Managed Code Snap-in"
+STYLE 0x90c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 6001, Static, 0x5000000d, 7, 9, 27, 24, 0x0
+  CONTROL "", 6002, Edit, 0x50010880, 38, 7, 207, 12, 0x0
+  CONTROL "", 6007, Edit, 0x50010880, 38, 23, 207, 12, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 7, 39, 238, 1, 0x0
+  CONTROL "Exception type:", 4294967295, Static, 0x50020000, 7, 44, 65, 8, 0x0
+  CONTROL "", 6008, Edit, 0x50010880, 7, 56, 238, 12, 0x0
+  CONTROL "Exception stack trace:", 4294967295, Static, 0x50020000, 7, 72, 85, 8, 0x0
+  CONTROL "", 6009, Edit, 0x50a108c4, 7, 84, 238, 50, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 195, 138, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7001,  "%1:  In progress..."
+  7002,  "%1:  In progress...|%%%2!d!"
+  7003,  "%1:  %3"
+  7004,  "%1:  %3|%%%2!d!"
+  7005,  "%1:  %2"
+  7006,  "%1!d! tasks in progress..."
+  7007,  "Completed successfully."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7008,  "Completed with failure."
+  7009,  "Microsoft Management Console"
+  7010,  "Waiting for all snap-ins to complete..."
+  7011,  "One or more snap-ins are not responding.\n\n\nTo continue waiting for the snap-ins to complete, click Cancel.\n\nIf you choose to end the snap-ins immediately, you will lose any unsaved data.  To end the snap-ins now, click OK."
+  7012,  "End Snap-ins"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30008,  "Under construction"
+  30009,  "Barrier, beta, construction, stop, warning  "
+  30010,  "Access, permissions"
+  30011,  "Keys, security"
+  30012,  "Add"
+  30013,  "Button"
+  30014,  "Alert"
+  30015,  "Monitor, warning"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30016,  "Backup"
+  30017,  "Tape, memory, storage"
+  30018,  "Work in progress, trash"
+  30019,  "Toilet, uninstall"
+  30020,  "Delete, close"
+  30021,  "Button, disable, uninstall, disconnect"
+  30022,  "Compress"
+  30023,  "Tool, vice, clamp, vise"
+  30024,  "Computer"
+  30025,  "Client, cpu, disconnected, monitor"
+  30026,  "Connected user"
+  30027,  "User, network, share"
+  30028,  "Database"
+  30029,  "Cylinder, database"
+  30030,  "Clock"
+  30031,  "Schedule, time"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30032,  "Disk mirror"
+  30033,  "Hard drive"
+  30034,  "Edit"
+  30035,  "Document, file, list, pencil, rename"
+  30036,  "Email"
+  30037,  "Address, letter, mail"
+  30038,  "Email distribution list"
+  30039,  "Email group"
+  30040,  "Fax"
+  30041,  "Document, file, phone"
+  30042,  "Fax jobs"
+  30043,  "Document, file, phone, job, jobs"
+  30044,  "Documents, files"
+  30045,  "Document, file"
+  30046,  "Files and folders"
+  30047,  "Document, file, container, folder"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30048,  "Folders"
+  30049,  "Container, folder, open"
+  30050,  "Erase, format"
+  30051,  "Drive, eraser"
+  30052,  "Hard drive"
+  30053,  "External, drive "
+  30054,  "Hardware"
+  30055,  "Pci card, upgrade"
+  30056,  "Laptop"
+  30057,  "Computer, keyboard, monitor"
+  30058,  "Internet"
+  30059,  "Internet, web, globe, world"
+  30060,  "Modem"
+  30061,  "Phone"
+  30062,  "Modem pool"
+  30063,  "Modem"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30064,  "Move"
+  30065,  "Arrow, move..."
+  30066,  "Play"
+  30067,  "Button, start"
+  30068,  "Password"
+  30069,  "Access, key, monitor, set password"
+  30070,  "Pause"
+  30071,  "Button, resume"
+  30072,  "Connected users"
+  30073,  "User, network, share"
+  30074,  "Printer"
+  30075,  "Document, file, print"
+  30076,  "Printer jobs"
+  30077,  "Printer, job, jobs"
+  30078,  "Publish"
+  30079,  "Network, share"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30080,  "Cancel, remove"
+  30081,  "Button"
+  30082,  "Reports"
+  30083,  "Log, notebook, view reports"
+  30084,  "Create a plan"
+  30085,  "Checklist, inventory, pencil, tasks"
+  30086,  "Remove media"
+  30087,  "Disc, disk, zip disk"
+  30088,  "Small Business Server product symbol"
+  30089,  "Find, search"
+  30090,  "Explore, Magnifying glass, find... "
+  30091,  "Security"
+  30092,  "Lock"
+  30093,  "Receive, send"
+  30094,  "Arrow, refresh"
+  30095,  "Properties, settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30096,  "Monitor  "
+  30097,  "Download"
+  30098,  "Arrow"
+  30099,  "Shared folders"
+  30100,  "Container, folder"
+  30101,  "Mouse"
+  30102,  "Click"
+  30103,  "Software"
+  30104,  "Disc, disk, floppy disk, memory, storage"
+  30105,  "Table"
+  30106,  "Calendar"
+  30107,  "Tape drive"
+  30108,  "Tape, memory, storage"
+  30109,  "Help, troubleshoot"
+  30110,  "Document, file"
+  30111,  "Expand, uncompress"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30112,  "Tool, clamp, vise"
+  30113,  "BackOffice product symbol"
+  30114,  "Upload"
+  30115,  "Arrow, up"
+  30116,  "User"
+  30117,  "Person"
+  30118,  "Group"
+  30119,  "Users, people"
+  30120,  "View, show"
+  30121,  "Monitor"
+  30122,  "Stop"
+  30123,  "Button"
+  30124,  "Setup"
+  30125,  "Hammer, CD"
+  30126,  "Information, alert"
+  30127,  "Message"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30132,  "Change membership in group"
+  30133,  "Users, arrow"
+  30134,  "Search database"
+  30135,  "Search, find, query analyzer, server"
+  30136,  "Inventory"
+  30137,  "Memory, storage"
+  30138,  "Check package"
+  30139,  "Address, find, label, magnifying glass, search"
+  30140,  "Schedule"
+  30141,  "Date, pencil, calendar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30146,  "Link, shortcut"
+  30147,  "Button"
+  30148,  "Bell"
+  30149,  "Ring, service"
+  30150,  "Grouped"
+  30151,  "Users, group, arrow"
+  30152,  "Desktop"
+  30153,  "Pencil, write"
+  30154,  "Server"
+  30155,  "Computer"
+  30156,  "Setup"
+  30157,  "CD, CD-ROM, storage"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30166,  "Services"
+  30167,  "Gears, automate administrative tasks, cog"
+  30168,  "Books online"
+  30169,  "Help, online help, shared publication"
+  30170,  "Configure replication"
+  30171,  "Arrow, book, publication"
+  30172,  "Create a job"
+  30173,  "Server, job, jobs"
+  30174,  "Code"
+  30175,  "Create a stored procedure, document, file"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30176,  "Application window"
+  30177,  "New window from here, create a view, monitor"
+  30178,  "Import"
+  30179,  "Arrow, inject, pull subscription"
+  30180,  "Export"
+  30181,  "Arrow, eject, push subscription"
+  30182,  "Search database"
+  30183,  "Find, magnifying glass, query analyzer, search"
+  30184,  "Book"
+  30185,  "Publication"
+  30186,  "Databases"
+  30187,  "Adjust, tune"
+  30188,  "Tool, tune an index, wrench"
+  30189,  "Backup"
+  30190,  "Arrow, backup database, memory, storage, tape"
+  30191,  "MMC symbol"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30192,  "Exchange Server product symbol"
+  30193,  "Team Central Server product symbol "
+  30194,  "Proxy Server product symbol"
+  30195,  "Site Server product symbol"
+  30196,  "Systems Management Server product symbol"
+  30197,  "SNA Server product symbol"
+  30198,  "SQL Server product symbol"
+  30199,  "Inbox"
+  30200,  "Files, container"
+  30201,  "Finished"
+  30202,  "Complete, finish, flag, winner"
+  30203,  "Off"
+  30204,  "Switch off"
+  30205,  "On"
+  30206,  "Switch on"
+  30207,  "View performance"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30208,  "Performance graph, graph control, monitor"
+  30209,  "Restart"
+  30210,  "Button"
+  30211,  "Network connection"
+  30212,  "Cable, network"
+  30213,  "Accessibility"
+  30214,  "Equal, monitor"
+  30215,  "Briefcase"
+  30216,  "Container, storage, offline"
+  30217,  "Camera"
+  30218,  "Capture, shot, peripheral"
+  30219,  "Certificate"
+  30220,  "License"
+  30221,  "Component"
+  30222,  "Puzzle"
+  30223,  "Expenses"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30224,  "Money"
+  30225,  "Home"
+  30226,  "House"
+  30227,  "Midi"
+  30228,  "Keys, music, piano"
+  30229,  "Network access"
+  30230,  "Network, share, router, hub, connection"
+  30231,  "New"
+  30232,  "Button, sparkle"
+  30233,  "News"
+  30234,  "Article, newspaper"
+  30235,  "Outlook product symbol"
+  30236,  "Site"
+  30237,  "Building"
+  30238,  "Floppy Disks"
+  30239,  "Save, save as, disk, storage"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30240,  "Mainframe"
+  30241,  "Shaking hands"
+  30242,  "Agreement, hands, peace"
+  30243,  "Internet Information Server product symbol"
+  30244,  "Wizard"
+  30245,  "Stairs, Steps"
+  30248,  "Delete, close"
+  30249,  "Button, disable, uninstall, disconnect"
+  30250,  "Check server"
+  30251,  "Performance, monitor, search"
+  30252,  "Restore"
+  30253,  "Data, restore database, storage"
+  30254,  "Cluster"
+  30255,  "Failover, server"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  30256,  "Cubes"
+  30257,  "Olap concepts"
+  30258,  "Book"
+  30259,  "DSS tutorial, publication"
+  30260,  "Cube"
+  30261,  "DSS online"
+  30262,  "Gear"
+  30263,  "Cog, import/export using dts, service, settings"
+  30264,  "Register"
+  30265,  "Address, checklist, letter, mail, pencil, task"
+  30266,  "Export"
+  30267,  "Arrow, export using dts"
+}
+

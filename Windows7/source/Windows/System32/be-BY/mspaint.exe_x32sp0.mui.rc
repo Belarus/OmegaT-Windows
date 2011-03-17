@@ -1,0 +1,1257 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+2 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&Help"
+  {
+    MENUITEM SEPARATOR
+  }
+}
+
+113 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "Text"
+  {
+    MENUITEM "Undo", 57643
+    MENUITEM "Redo", 57644
+    MENUITEM SEPARATOR
+    MENUITEM "Cut", 57635
+    MENUITEM "Copy", 57634
+    MENUITEM "Paste", 57637
+    MENUITEM "Clear Selection", 57632
+    MENUITEM "Select All", 57642
+  }
+}
+
+105 DIALOGEX 0, 0, 210, 163
+CAPTION "Image Properties"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "File Attributes", 4294967295, Button, 0x50020007, 7, 7, 196, 45, 0x0
+  CONTROL "Last Saved:", 4294967295, Static, 0x50020000, 13, 18, 72, 8, 0x0
+  CONTROL "", 1071, Static, 0x50020000, 86, 18, 89, 8, 0x0
+  CONTROL "Size on disk:", 4294967295, Static, 0x50020000, 13, 28, 72, 8, 0x0
+  CONTROL "", 1072, Static, 0x50020000, 86, 28, 89, 8, 0x0
+  CONTROL "Resolution:", 4294967295, Static, 0x50020000, 13, 38, 72, 8, 0x0
+  CONTROL "", 1073, Static, 0x50020000, 86, 38, 89, 8, 0x0
+  CONTROL "&Width:", 1050, Static, 0x50020000, 7, 118, 36, 10, 0x0
+  CONTROL "", 264, Edit, 0x50810080, 41, 116, 36, 12, 0x0
+  CONTROL "&Height:", 1051, Static, 0x50020000, 81, 118, 40, 10, 0x0
+  CONTROL "", 266, Edit, 0x50810080, 113, 116, 36, 12, 0x0
+  CONTROL "&Default", 280, Button, 0x50010000, 153, 116, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 99, 142, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 153, 142, 50, 14, 0x0
+  CONTROL "Units", 4294967295, Button, 0x50020007, 7, 55, 96, 56, 0x0
+  CONTROL "&Inches", 1028, Button, 0x50010009, 13, 70, 49, 10, 0x0
+  CONTROL "Centi&meters", 1029, Button, 0x50010009, 13, 80, 81, 10, 0x0
+  CONTROL "&Pixels", 1030, Button, 0x50010009, 13, 90, 52, 10, 0x0
+  CONTROL "Colors", 4294967295, Button, 0x50020007, 107, 55, 96, 56, 0x0
+  CONTROL "&Black and white", 1079, Button, 0x50010009, 113, 70, 77, 10, 0x0
+  CONTROL "Co&lor", 1080, Button, 0x50010009, 113, 80, 52, 10, 0x0
+}
+
+113 DIALOGEX 18, 48, 152, 197
+CAPTION "Resize and Skew"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Resize", 4294967295, Button, 0x50020007, 7, 7, 138, 88, 0x0
+  CONTROL "&By:", 1103, Static, 0x50020000, 15, 19, 19, 8, 0x0
+  CONTROL "Percentage", 1101, Button, 0x50010009, 38, 18, 57, 10, 0x0
+  CONTROL "Pixels", 1102, Button, 0x50010009, 99, 18, 38, 10, 0x0
+  CONTROL 114, 1055, Static, 0x50000003, 15, 30, 18, 20, 0x0
+  CONTROL "&Horizontal:", 1096, Static, 0x50020000, 53, 36, 40, 8, 0x0
+  CONTROL "", 1019, Edit, 0x50812080, 102, 35, 35, 12, 0x0
+  CONTROL 115, 1056, Static, 0x50000003, 15, 54, 20, 20, 0x0
+  CONTROL "&Vertical:", 1097, Static, 0x50020000, 53, 59, 40, 8, 0x0
+  CONTROL "", 1020, Edit, 0x50812080, 102, 57, 35, 12, 0x0
+  CONTROL "&Maintain aspect ratio", 1100, Button, 0x50010003, 15, 78, 115, 10, 0x0
+  CONTROL "Skew (Degrees)", 4294967295, Button, 0x50020007, 7, 102, 138, 67, 0x0
+  CONTROL 116, 1057, Static, 0x50000003, 15, 115, 18, 20, 0x0
+  CONTROL "H&orizontal:", 1098, Static, 0x50020000, 53, 122, 40, 8, 0x0
+  CONTROL "", 1021, Edit, 0x50810080, 102, 121, 35, 12, 0x0
+  CONTROL 117, 1058, Static, 0x50000003, 15, 140, 18, 20, 0x0
+  CONTROL "V&ertical:", 1099, Static, 0x50020000, 53, 146, 40, 8, 0x0
+  CONTROL "", 1022, Edit, 0x50810080, 102, 145, 35, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 41, 176, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 95, 176, 50, 14, 0x0
+}
+
+133 DIALOGEX 32, 32, 350, 215
+CAPTION "Page Setup"
+STYLE 0x90c800c4
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Preview", 65535, Button, 0x50000007, 7, 7, 102, 176, 0x0
+  CONTROL "", 1080, Static, 0x50020006, 13, 54, 80, 80, 0x0
+  CONTROL "", 1081, Static, 0x50020005, 96, 58, 4, 80, 0x0
+  CONTROL "", 1082, Static, 0x50020005, 30, 138, 80, 4, 0x0
+  CONTROL "Paper", 1073, Button, 0x50020007, 118, 7, 225, 56, 0x0
+  CONTROL "Si&ze:", 1089, Static, 0x50020000, 124, 24, 36, 8, 0x0
+  CONTROL "", 1137, ComboBox, 0x50230103, 174, 22, 160, 160, 0x0
+  CONTROL "&Source:", 1090, Static, 0x50020000, 124, 44, 36, 8, 0x0
+  CONTROL "", 1138, ComboBox, 0x50230103, 174, 42, 160, 160, 0x0
+  CONTROL "Orientation", 1072, Button, 0x50020007, 118, 68, 64, 56, 0x0
+  CONTROL "P&ortrait", 1056, Button, 0x50030004, 124, 82, 52, 12, 0x0
+  CONTROL "L&andscape", 1057, Button, 0x50000004, 124, 102, 52, 12, 0x0
+  CONTROL "Margins", 1075, Button, 0x50020007, 186, 68, 157, 56, 0x0
+  CONTROL "&Left:", 1102, Static, 0x50020000, 192, 84, 32, 8, 0x0
+  CONTROL "", 1155, Edit, 0x50830000, 230, 82, 32, 12, 0x0
+  CONTROL "&Top:", 1103, Static, 0x50020000, 272, 84, 32, 8, 0x0
+  CONTROL "", 1156, Edit, 0x50830000, 304, 82, 32, 12, 0x0
+  CONTROL "&Right:", 1104, Static, 0x50020000, 192, 104, 32, 8, 0x0
+  CONTROL "", 1157, Edit, 0x50830000, 230, 102, 32, 12, 0x0
+  CONTROL "&Bottom:", 1105, Static, 0x50020000, 272, 104, 32, 8, 0x0
+  CONTROL "", 1158, Edit, 0x50830000, 304, 102, 32, 12, 0x0
+  CONTROL "Centering", 1210, Button, 0x50020007, 118, 128, 64, 56, 0x0
+  CONTROL "&Horizontal", 1211, Button, 0x50010002, 124, 142, 52, 12, 0x0
+  CONTROL "&Vertical", 1212, Button, 0x50010002, 124, 162, 52, 12, 0x0
+  CONTROL "Scaling", 1213, Button, 0x50020007, 186, 128, 157, 56, 0x0
+  CONTROL "A&djust to:", 1214, Button, 0x50030004, 192, 142, 48, 12, 0x0
+  CONTROL "&Fit to:", 1215, Button, 0x50000004, 192, 162, 48, 12, 0x0
+  CONTROL "", 1216, Edit, 0x50832000, 248, 142, 20, 12, 0x0
+  CONTROL "% normal size", 1217, Static, 0x50020000, 270, 144, 48, 8, 0x0
+  CONTROL "", 1218, Edit, 0x50832000, 248, 162, 20, 12, 0x0
+  CONTROL "by", 1219, Static, 0x50020000, 270, 164, 8, 8, 0x0
+  CONTROL "", 1220, Edit, 0x50812000, 280, 162, 20, 12, 0x0
+  CONTROL "page(s)", 1221, Static, 0x50020000, 302, 164, 28, 8, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 239, 194, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 293, 194, 50, 14, 0x0
+}
+
+51200 DIALOGEX 0, 0, 324, 140
+CAPTION "Software Licensing"
+STYLE 0x40c00044
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "To use this feature without interruption, this computer needs to be running genuine Windows.", 4294967295, Static, 0x50020000, 0, 10, 250, 20, 0x0
+  CONTROL "With genuine Windows you have access to all Windows updates and can be confident that your Windows software has the latest security and reliability enhancements from Microsoft.", 4294967295, Static, 0x50020000, 0, 35, 250, 30, 0x0
+  CONTROL 51209, 4294967295, Static, 0x5000000e, 260, 10, 100, 55, 0x0
+  CONTROL "&Resolve online now", 51201, Button, 0x5001010e, 0, 75, 250, 24, 0x0
+  CONTROL "<a>Read the privacy statement online</a>", 51202, "SysLink", 0x50010000, 0, 128, 120, 10, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2,  "Paint\nUntitled\nBitmap Image\nBitmap Files (*.bmp;*.dib)\n.png\nPaint.Picture\nBitmap Image"
+  6,  ".bmp"
+  13,  "Monochrome Bitmap (*.bmp;*.dib)"
+  14,  "16 Color Bitmap (*.bmp;*.dib)"
+  15,  "256 Color Bitmap (*.bmp;*.dib)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "24-bit Bitmap (*.bmp;*.dib)"
+  19,  "All Files"
+  28,  ".dib"
+  29,  ".rle"
+  30,  "OLE 2.0 was unable to start.\nMake sure that you are using the correct version of the OLE libraries."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33,  "All Picture Files"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  110,  "Places the text."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  601,  "Selects a rectangular part of the picture to move, copy, or edit.\nSelect"
+  602,  "Selects a free-form part of the picture to move, copy, or edit.\nFree-form select"
+  603,  "Inserts text into the picture.\nText"
+  604,  "Fills an area with the current drawing color.\nFill with color"
+  605,  "Changes the magnification.\nMagnifier"
+  606,  "Picks up a color from the picture for drawing.\nPick color"
+  607,  "Erases a portion of the picture, using the selected eraser shape.\nEraser"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  608,  "Draws a free-form line one pixel wide.\nPencil"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  651,  "Draws using a brush with the selected shape and size.\nBrush"
+  652,  "Draws using a 45 degree calligraphy brush of the selected shape and size.\nCalligraphy brush 1"
+  653,  "Draws using a 135 degree calligraphy brush of the selected shape and size.\nCalligraphy brush 2"
+  654,  "Draws using an airbrush of the selected size.\nAirbrush"
+  655,  "Draws using the oil brush.\nOil brush"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  656,  "Draws using a crayon brush.\nCrayon"
+  657,  "Draws using a marker.\nMarker"
+  658,  "Draws using the natural pencil in the size chosen.\nNatural pencil"
+  659,  "Draws using the watercolor brush.\nWatercolor brush"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  701,  "Draws a straight line with the selected line width.\nLine"
+  702,  "Draws a curved line with the selected line width.\nCurve"
+  703,  "Draws an oval with the selected fill style.\nOval"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "Draws a rectangle with the selected fill style.\nRectangle"
+  705,  "Draws a rounded rectangle with the selected fill style.\nRounded rectangle"
+  706,  "Draws a polygon with the selected fill style.\nPolygon"
+  707,  "Draws a triangle with the selected fill style.\nTriangle"
+  708,  "Draws a right triangle with the selected fill style.\nRight triangle"
+  709,  "Draws a diamond with the selected fill style.\nDiamond"
+  710,  "Draws a pentagon with the selected fill style.\nPentagon"
+  711,  "Draws a hexagon with the selected fill style.\nHexagon"
+  712,  "Draws a right arrow with the selected fill style.\nRight arrow"
+  713,  "Draws a left arrow with the selected fill style.\nLeft arrow"
+  714,  "Draws an up arrow with the selected fill style.\nUp arrow"
+  715,  "Draws a down arrow with the selected fill style.\nDown arrow"
+  716,  "Draws a four-point star with the selected fill style.\nFour-point star"
+  717,  "Draws a five-point star with the selected fill style.\nFive-point star"
+  718,  "Draws a six-point star with the selected fill style.\nSix-point star"
+  719,  "Draws a rounded rectangular callout with the selected fill style.\nRounded rectangular callout"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "Draws an oval-shaped callout with the selected fill style.\nOval callout"
+  721,  "Draws a cloud-shaped callout with the selected fill style.\nCloud callout"
+  722,  "Draws a heart with the selected fill style.\nHeart"
+  723,  "Draws a lightning with the selected fill style.\nLightning"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Truncating the text since there is not enough room to paste entire text."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2051,  "Paint cannot open this file."
+  2052,  "Paint cannot read this file."
+  2054,  "This file is read-only.\nTo save your changes, use a different file name."
+  2056,  "This file is already open."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2064,  "This is not a valid .PCS file."
+  2067,  "This file is open for editing and cannot be overwritten.\nUse a different file name to save your changes."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2083,  "This is not a valid bitmap file, or its format is not currently supported."
+  2084,  "This is not a valid icon."
+  2085,  "This is not a valid cursor."
+  2090,  "Save was interrupted, so your file has not been saved."
+  2092,  "You cannot save to a read-only file.\nUse a different file name."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2096,  "This file is already in use.\nClose the program, and then try again."
+  2110,  "Paint cannot save this file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2152,  "Paint cannot save to the same file name with a different file type.\nUse a different filename to save your changes."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2240,  "There is not enough memory or resources to complete operation.\nClose some programs, and then try again."
+  2241,  "Low on memory or resources.\nClose some programs, and then try again."
+  2247,  "Group error."
+  2248,  "Paint was unable to print your document. Please make sure you have sufficient disk space and that your printer is working correctly."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2297,  "The color quality might be reduced if you save the picture in this format.\nDo you want to continue?"
+  2298,  "Converting to black and white cannot be undone.  This action affects the current file and may cause some loss of color information.\nDo you want to continue?"
+  2299,  "Bitmaps must be greater than one pixel on a side."
+  2300,  "CFileException"
+  2301,  "Generic error."
+  2302,  "File not found."
+  2303,  "Bad path."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2304,  "Too many open files."
+  2305,  "Access denied."
+  2306,  "Invalid file."
+  2307,  "Remove current folder."
+  2308,  "Folder full."
+  2309,  "Bad seek."
+  2310,  "Hard IO error."
+  2311,  "Sharing violation."
+  2312,  "Lock violation."
+  2313,  "Disk full."
+  2314,  "End of file."
+  2315,  "Any transparency will be lost if you save this picture. Do you want to continue?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2350,  "The specified printer is invalid.\nPlease choose a valid printer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2445,  "The information on the Clipboard can't be inserted into Paint."
+  2447,  "Unable to communicate with the device. Verify the device is properly connected and try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2448,  "Unable to retrieve picture from device. Verify the device is properly connected and try again."
+  2449,  "Downloading picture"
+  2450,  "Reading data from the device (%1!ld!%% complete)"
+  2451,  "Processing data (%1!ld!%% complete)"
+  2452,  "Transferring data (%1!ld!%% complete)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3550,  "            "
+  3551,  "            "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6868,  "Makes the current selection either opaque or transparent."
+  6869,  "Creates a new color."
+  6870,  "Uses a previously saved palette of colors."
+  6871,  "Saves the current palette of colors to a file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7057,  "You must save the file before choosing it as desktop background."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  20000,  "Paint"
+  20001,  "Recent pictures"
+  20002,  "&New"
+  20003,  "&Open"
+  20004,  "&Save"
+  20005,  "Sa&ve as"
+  20006,  "Save &as"
+  20007,  "Save as"
+  20008,  "&PNG picture"
+  20009,  "&JPEG picture"
+  20010,  "&BMP picture"
+  20011,  "&GIF picture"
+  20012,  "&Other formats"
+  20013,  "P&rint"
+  20014,  "&Print"
+  20015,  "Print"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  20016,  "Page &setup"
+  20017,  "Print pre&view"
+  20018,  "Fro&m scanner or camera"
+  20019,  "Sen&d in e-mail"
+  20020,  "Set as desktop bac&kground"
+  20021,  "Set as desktop &background"
+  20022,  "Set as desktop background"
+  20023,  "&Tile"
+  20024,  "&Center"
+  20025,  "&Fill"
+  20026,  "Prop&erties"
+  20027,  "Abou&t Paint"
+  20028,  "E&xit"
+  20029,  "&Update document"
+  20030,  "Save copy as"
+  20031,  "Save copy &as"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  20032,  "E&xit and return to document"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21000,  "Home"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21100,  "Clipboard"
+  21101,  "&Paste"
+  21102,  "&Paste"
+  21103,  "Paste &from"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21104,  "Cu&t"
+  21105,  "&Copy"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21200,  "Image"
+  21201,  "Select"
+  21202,  "Select"
+  21203,  "&Rectangular selection"
+  21204,  "&Free-form selection"
+  21205,  "Select &all"
+  21206,  "&Invert selection"
+  21207,  "&Delete"
+  21208,  "&Transparent selection"
+  21209,  "Selection shapes"
+  21210,  "Selection options"
+  21211,  "C&rop"
+  21212,  "Re&size"
+  21213,  "R&otate"
+  21214,  "Rotate &right 90°"
+  21215,  "Rotate &left 90°"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21216,  "Ro&tate 180°"
+  21217,  "Flip &vertical"
+  21218,  "Flip &horizontal"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21300,  "Tools"
+  21301,  "Pencil"
+  21302,  "Fill with color"
+  21303,  "Text"
+  21304,  "Eraser"
+  21305,  "Color picker"
+  21306,  "Magnifier"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21401,  "Brushes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21500,  "Shapes"
+  21501,  "Shapes"
+  21502,  "Out&line"
+  21503,  "&Fill"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21601,  "Size"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21700,  "Colors"
+  21702,  "Color 1"
+  21703,  "Color 2"
+  21704,  "Edit colors"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22000,  "View"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22100,  "Zoom"
+  22101,  "Zoom in"
+  22102,  "Zoom out"
+  22103,  "100%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22200,  "Show or hide"
+  22201,  "Rulers"
+  22202,  "Gridlines"
+  22203,  "Status bar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22300,  "Display"
+  22303,  "Thumbnail"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22304,  "Full screen"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23000,  "Text Tools"
+  23001,  "Text"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23100,  "Font"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  23200,  "Background"
+  23201,  "Opaque"
+  23202,  "Transparent"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24000,  "Print Preview"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24100,  "Print"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24200,  "Zoom"
+  24201,  "Zoom in"
+  24202,  "Zoom out"
+  24203,  "One page"
+  24204,  "Two pages"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24300,  "Preview"
+  24301,  "Next page"
+  24302,  "Previous page"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24401,  "Close print preview"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  31001,  "Undo"
+  31002,  "Redo"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32012,  "Inv&ert color"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32022,  "&Delete"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33000,  "Help"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36001,  "New (Ctrl+N)"
+  36002,  "Open (Ctrl+O)"
+  36003,  "Save (Ctrl+S)"
+  36004,  "Print (Ctrl+P)"
+  36006,  "E-mail"
+  36007,  "Undo (Ctrl+Z)"
+  36008,  "Redo (Ctrl+Y)"
+  36009,  "Paint"
+  36011,  "Save as (F12)"
+  36012,  "From scanner or camera"
+  36013,  "Desktop background"
+  36014,  "Desktop background"
+  36015,  "Properties (Ctrl+E)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36019,  "Save copy as"
+  36020,  "Save copy as"
+  36021,  "Paste (Ctrl+V)"
+  36022,  "Paste (Ctrl+V)"
+  36023,  "Paste from"
+  36024,  "Cut (Ctrl+X)"
+  36025,  "Copy (Ctrl+C)"
+  36026,  "Selection"
+  36027,  "Selection"
+  36028,  "Rectangular selection"
+  36029,  "Free-form selection"
+  36030,  "Select all (Ctrl+A)"
+  36031,  "Invert selection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36032,  "Delete selection"
+  36033,  "Transparent selection"
+  36034,  "Crop (Ctrl+Shift+X)"
+  36035,  "Resize and skew (Ctrl+W)"
+  36036,  "Rotate or flip"
+  36037,  "Rotate right 90°"
+  36038,  "Rotate left 90°"
+  36039,  "Rotate 180°"
+  36040,  "Flip vertical"
+  36041,  "Flip horizontal"
+  36042,  "Pencil"
+  36043,  "Fill with color"
+  36044,  "Text"
+  36045,  "Eraser"
+  36046,  "Color picker"
+  36047,  "Magnifier"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36048,  "Brushes"
+  36049,  "Shapes"
+  36050,  "Shape outline"
+  36051,  "Shape fill"
+  36056,  "Size (Ctrl++, Ctrl+-)"
+  36057,  "Color 1 (foreground color)"
+  36058,  "Color 2 (background color)"
+  36059,  "Edit colors"
+  36060,  "Zoom in (Ctrl+PgUp)"
+  36061,  "Zoom out (Ctrl+PgDn)"
+  36063,  "Rulers (Ctrl+R)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36064,  "Gridlines (Ctrl+G)"
+  36065,  "Thumbnail"
+  36066,  "Full screen (F11)"
+  36067,  "Opaque background"
+  36068,  "Transparent background"
+  36069,  "Zoom in"
+  36070,  "Zoom out"
+  36071,  "One page"
+  36072,  "Two pages"
+  36073,  "Next page"
+  36074,  "Previous page"
+  36075,  "Close print preview"
+  36076,  "Paint Help (F1)"
+  36077,  "Save as (F12)"
+  36078,  "Save a photo or drawing with high quality and use it on your computer or on the web."
+  36079,  "Save a photo with good quality and use it on your computer, in e-mail, or on the web."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36080,  "Save any kind of picture with high quality and use it on your computer."
+  36081,  "Save a simple drawing with lower quality and use it in e-mail or on the web."
+  36082,  "Open the Save As dialog box to select from all possible file types."
+  36083,  "Select a printer, number of copies, and other printing options before printing."
+  36084,  "Change the layout of the picture."
+  36085,  "Preview and make changes before printing."
+  36086,  "Tile the picture so it repeats and fills the entire screen."
+  36087,  "Center the picture in the middle of the screen."
+  36088,  "Fill the entire screen with the picture."
+  36089,  "Status bar"
+  36090,  "Invert color (Ctrl+Shift+I)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36101,  "Click here to open, save, or print and to see everything else you can do with your picture."
+  36102,  "Create a new picture."
+  36103,  "Open an existing picture."
+  36104,  "Save the current picture."
+  36105,  "Save the current picture as a new file."
+  36106,  "Save the current picture as a new file."
+  36107,  "Print the current picture."
+  36109,  "Import from scanner or camera."
+  36110,  "Send a copy of the picture in an e-mail message as an attachment."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36112,  "Set the current picture as your desktop background."
+  36113,  "Set the current picture as your desktop background."
+  36114,  "Change the properties of the picture."
+  36115,  "Save the current picture as a new file."
+  36116,  "Save the current picture as a new file."
+  36117,  "Click here for more options, such as pasting contents from the Clipboard or from a file"
+  36118,  "Paste the contents of the Clipboard."
+  36119,  "Show the Paste From dialog box and pick a file to paste."
+  36120,  "Cut the selection from the canvas and put it on the Clipboard."
+  36121,  "Copy the selection from the canvas and put it on the Clipboard."
+  36122,  "Click here for selection shapes and options."
+  36123,  "Select a part of the picture."
+  36124,  "Select a rectangular area by drawing on the canvas."
+  36125,  "Select an area of any shape by drawing on the canvas."
+  36126,  "Select the entire picture."
+  36127,  "Reverse the current selection."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36128,  "Delete the current selection from the canvas."
+  36129,  "Make the background color in the selection transparent or opaque."
+  36134,  "Crop the picture so it only contains the current selection."
+  36135,  "Resize and skew the picture or selection."
+  36136,  "Rotate or flip the picture or selection."
+  36137,  "Rotate the picture or selection by 90 degrees right."
+  36138,  "Rotate the picture or selection by 90 degrees left."
+  36139,  "Rotate the picture or selection by 180 degrees."
+  36140,  "Flip the picture or selection vertically."
+  36141,  "Flip the picture or selection horizontally."
+  36142,  "Draw a free-form line with the selected line width."
+  36143,  "Click an area on the canvas to fill it with the foreground color, or right-click to fill it will the background color."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36144,  "Insert text into the picture."
+  36145,  "Erase part of the picture and replace it with the background color."
+  36146,  "Pick a color from the picture and use it for drawing."
+  36147,  "Change the magnification for a part of the picture."
+  36148,  "Draw with different kinds of brushes."
+  36149,  "Insert ready-made shapes such as rectangles and circles, triangles, arrows, stars, and callouts."
+  36150,  "Select the medium for the shape outline."
+  36151,  "Select the medium for the shape fill."
+  36156,  "Select the width for the selected tool."
+  36157,  "Click here and then select a color from the color palette. This color is used with the pencil  and with brushes, as well as for shape outlines."
+  36158,  "Click here and then select a color from the color palette. This color is used with the eraser and for shape fills."
+  36159,  "Select a color from the color palette."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36160,  "Zoom in on the current picture."
+  36161,  "Zoom out on the current picture."
+  36163,  "View and use rulers to line up and measure objects in your picture."
+  36164,  "View and use gridlines to align objects in your picture."
+  36165,  "Show or hide the Thumbnail window."
+  36166,  "View the picture in full screen."
+  36167,  "Zoom in on the current picture."
+  36168,  "Zoom out on the current picture."
+  36169,  "Zoom the picture so that one page fits in the window."
+  36172,  "Zoom the picture so that two pages fit in the window."
+  36173,  "Go to the next page in the picture."
+  36174,  "Go to the previous page in the picture."
+  36175,  "Close print preview and return to your picture."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36176,  "Undo last action."
+  36177,  "Redo last action."
+  36178,  "Get help on using Paint."
+  36179,  "Show or hide status bar at the bottom of the window."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36201,  "F"
+  36202,  "N"
+  36203,  "O"
+  36204,  "S"
+  36206,  "A"
+  36207,  "F"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36208,  "P"
+  36209,  "J"
+  36210,  "B"
+  36211,  "G"
+  36212,  "O"
+  36213,  "W"
+  36214,  "P"
+  36215,  "P"
+  36216,  "S"
+  36217,  "V"
+  36218,  "M"
+  36219,  "D"
+  36220,  "B"
+  36221,  "B"
+  36222,  "T"
+  36223,  "C"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36224,  "F"
+  36225,  "E"
+  36226,  "T"
+  36227,  "X"
+  36228,  "U"
+  36229,  "A"
+  36230,  "A"
+  36231,  "X"
+  36232,  "H"
+  36233,  "V"
+  36234,  "T"
+  36235,  "P"
+  36236,  "V"
+  36237,  "P"
+  36238,  "F"
+  36239,  "X"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36240,  "C"
+  36241,  "SE"
+  36242,  "SE"
+  36243,  "R"
+  36244,  "F"
+  36245,  "A"
+  36246,  "I"
+  36247,  "D"
+  36248,  "T"
+  36249,  "RP"
+  36250,  "RE"
+  36251,  "RO"
+  36252,  "R"
+  36253,  "L"
+  36254,  "T"
+  36255,  "V"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36256,  "H"
+  36257,  "P"
+  36258,  "K"
+  36259,  "T"
+  36260,  "ER"
+  36261,  "D"
+  36262,  "M"
+  36263,  "B"
+  36264,  "SH"
+  36268,  "SZ"
+  36269,  "1"
+  36270,  "2"
+  36271,  "EC"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36272,  "I"
+  36273,  "O"
+  36275,  "R"
+  36276,  "G"
+  36277,  "T"
+  36278,  "F"
+  36279,  "O"
+  36280,  "T"
+  36281,  "I"
+  36282,  "O"
+  36283,  "1"
+  36284,  "2"
+  36285,  "N"
+  36286,  "V"
+  36287,  "C"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36289,  "A"
+  36290,  "I"
+  36292,  "O"
+  36293,  "S"
+  36294,  "F"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40601,  "1px"
+  40602,  "2px"
+  40603,  "3px"
+  40604,  "4px"
+  40605,  "5px"
+  40606,  "6px"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40608,  "8px"
+  40610,  "10px"
+  40616,  "16px"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40624,  "24px"
+  40630,  "30px"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40640,  "40px"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50001,  "Resets the text to be without any attributes."
+  50002,  "Sets or clears the text bold attribute."
+  50003,  "Sets or clears the text italic attribute."
+  50004,  "Selects the font used by the text."
+  50005,  "Selects the point size of the text."
+  50006,  "Sets or clears the text underline attribute."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50023,  "Cannot save file."
+  50024,  "Get Colors"
+  50026,  "Save Colors"
+  50027,  "Edit Colors"
+  50029,  "Paste From"
+  50030,  "Select Color"
+  50031,  "Not Available"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50032,  "%1 %2"
+  50033,  "%1%2"
+  50034,  "%1 DPI"
+  50035,  "&Save"
+  50036,  "Do&n't Save"
+  50037,  "Do you want to save changes to %1?"
+  50038,  "Painting"
+  50041,  "Thumbnail"
+  50043,  " × "
+  50044,  ", "
+  50045,  " in"
+  50046,  " cm"
+  50047,  "px"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50050,  "Shows or hides the thumbnail."
+  50062,  "%1\n%2\n%3"
+  50063,  "%1\n%2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50108,  "00000000000000000"
+  50109,  "00000000000000000"
+  50110,  "00000000000000000"
+  50111,  "00000000000000000"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50112,  "0"
+  50113,  "0"
+  50114,  "The file is not in the correct format."
+  50116,  "Zoo&m"
+  50117,  "+"
+  50118,  "-"
+  50119,  "%s%%"
+  50126,  "Size: None"
+  50127,  "Size: %1%2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50130,  "%1%2%3%4%5"
+  50141,  "%1 (Recovered)"
+  50142,  "Paint allows users to create and edit drawings by using a variety of shapes, brushes, and colors."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50147,  "Zoom slider"
+  50148,  "KB"
+  50149,  "MB"
+  50150,  "GB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50301,  "No outline"
+  50302,  "Solid color"
+  50303,  "Crayon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50304,  "Marker"
+  50305,  "Oil"
+  50306,  "Natural pencil"
+  50307,  "Watercolor"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50351,  "No fill"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50352,  "Solid color"
+  50353,  "Crayon"
+  50354,  "Marker"
+  50355,  "Oil"
+  50356,  "Natural pencil"
+  50357,  "Watercolor"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50412,  "Zoom level"
+  50413,  "Zoom in"
+  50414,  "Zoom out"
+  50415,  "Zoom"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50416,  "11"
+  50417,  "Segoe UI"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  51203,  "This computer is not running genuine Windows"
+  51204,  "Software Licensing"
+  51205,  "mshelp://windows/?id=6f58b1c8-e296-4498-8454-99558fde70bf"
+  51206,  "http://go.microsoft.com/fwlink/?LinkId=125824"
+  51207,  "http://go.microsoft.com/fwlink/?LinkId=125723"
+  51208,  "http://go.microsoft.com/fwlink/?LinkId=122082"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  57344,  "Paint"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  59414,  "New Bitmap Image"
+  59418,  "Paintbrush Picture"
+  59419,  "Bitmap Image"
+  59420,  "&Edit"
+  59421,  "&Open"
+  59422,  "Paint Document"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  59991,  "100%"
+  59992,  "Zoom to 100%."
+  59993,  "M"
+}
+
+2 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_A  , 57642, VIRTKEY, NOINVERT, CONTROL
+  VK_C  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_E  , 50020, VIRTKEY, NOINVERT, CONTROL
+  VK_G  , 50015, VIRTKEY, NOINVERT, CONTROL
+  VK_N  , 57600, VIRTKEY, NOINVERT, CONTROL
+  VK_N  , 50021, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_O  , 57601, VIRTKEY, NOINVERT, CONTROL
+  VK_P  , 57607, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 50079, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 57603, VIRTKEY, NOINVERT, CONTROL
+  VK_V  , 57637, VIRTKEY, NOINVERT, CONTROL
+  107  , 6811, VIRTKEY, NOINVERT, CONTROL
+  VK_BACK  , 57643, VIRTKEY, NOINVERT, ALT
+  VK_DELETE  , 57632, VIRTKEY, NOINVERT
+  VK_DELETE  , 57635, VIRTKEY, NOINVERT, SHIFT
+  27  , 50052, VIRTKEY, NOINVERT
+  VK_Y  , 57644, VIRTKEY, NOINVERT, CONTROL
+  VK_INSERT  , 57634, VIRTKEY, NOINVERT, CONTROL
+  VK_INSERT  , 57637, VIRTKEY, NOINVERT, SHIFT
+  109  , 6810, VIRTKEY, NOINVERT, CONTROL
+  VK_W  , 50018, VIRTKEY, NOINVERT, CONTROL
+  VK_X  , 57635, VIRTKEY, NOINVERT, CONTROL
+  VK_X  , 50066, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_I  , 50019, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_Z  , 57643, VIRTKEY, NOINVERT, CONTROL
+  33  , 50076, VIRTKEY, NOINVERT, CONTROL
+  34  , 50075, VIRTKEY, NOINVERT, CONTROL
+  VK_F11  , 50013, VIRTKEY, NOINVERT
+  VK_F12  , 57604, VIRTKEY, NOINVERT
+  VK_B  , 50002, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 50006, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 50003, VIRTKEY, NOINVERT, CONTROL
+  34  , 58114, VIRTKEY, NOINVERT
+  33  , 58115, VIRTKEY, NOINVERT
+}
+
+1 MESSAGETABLE
+{
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-MSPaint\r\n"
+  2952790017,  "Intializing current instance of the application\r\n"
+  2952790018,  "Exiting current Instance of the application\r\n"
+  2952790019,  "MSPaint Launch Start\r\n"
+  2952790020,  "MSPaint Launch End\r\n"
+  2952790021,  "MSPaint Exit Start\r\n"
+  2952790022,  "MSPaint Exit End\r\n"
+  2952790023,  "Select Tool(ID: %1) Start\r\n"
+  2952790024,  "Select Tool End\r\n"
+  2952790025,  "Commit Tool(ID: %1)b Start\r\n"
+  2952790026,  "Commit Tool End\r\n"
+  2952790027,  "Undo Start\r\n"
+  2952790028,  "Undo End\r\n"
+  2952790029,  "Change Tool(ID: %1) Thickness(%2)\r\n"
+  2952790030,  "Change Stroke Color(RGB: %1)\r\n"
+  2952790031,  "Change Fill Color(RGB: %1)\r\n"
+  2952790032,  "Change DrawMode(%1)\r\n"
+  2952790033,  "Change Brush CrossSection(%1)\r\n"
+  2952790034,  "Change Caligraphic Brush CrossSection(%1)\r\n"
+  2952790035,  "Change Glitter Color(%1)\r\n"
+  2952790036,  "Error enabling/disabling RTS\r\n"
+  2952790037,  "Failed to load msftedit.dll\r\n"
+  2952790038,  "Start measure paint lag\r\n"
+  2952790039,  "Stop measure paint lag\r\n"
+  2952790040,  "Recieved RTS Packet\r\n"
+  2952790041,  "Start save drawing\r\n"
+  2952790042,  "Stop save drawing\r\n"
+  2952790043,  "Start open image\r\n"
+  2952790044,  "Stop open image\r\n"
+  2952790045,  "Start flip operation\r\n"
+  2952790046,  "Stop flip operation\r\n"
+  2952790047,  "Start rotate operation\r\n"
+  2952790048,  "Stop rotate operation\r\n"
+  2952790049,  "Start crop operation\r\n"
+  2952790050,  "Stop crop operation\r\n"
+  2952790051,  "Start invert color operation\r\n"
+  2952790052,  "Stop invert color operation\r\n"
+  2952790053,  "Start resize skew operation\r\n"
+  2952790054,  "Stop resize skew operation\r\n"
+}
