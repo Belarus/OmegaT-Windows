@@ -1,0 +1,334 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Undo", 772, MFT_STRING, MFS_ENABLED
+    MENUITEM "", 0, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Cu&t", 768, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Copy", 769, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Paste", 770, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Delete", 771, MFT_STRING, MFS_ENABLED
+    MENUITEM "", 0, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Select &All", 177, MFT_STRING, MFS_ENABLED
+    MENUITEM "", 0, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Right to left Reading order", 32768, MFT_STRING, MFS_GRAYED
+    MENUITEM "&Show Unicode control characters", 32769, MFT_STRING, MFS_GRAYED
+    POPUP "&Insert Unicode control character", 32787, MFT_STRING, MFS_GRAYED, 0
+    {
+      MENUITEM "LRM \t&Left-to-right mark", 32772, MFT_STRING, MFS_GRAYED
+      MENUITEM "RLM \t&Right-to-left mark", 32773, MFT_STRING, MFS_GRAYED
+      MENUITEM "ZWJ \tZero width &joiner", 32770, MFT_STRING, MFS_GRAYED
+      MENUITEM "ZWNJ\tZero width &non-joiner", 32771, MFT_STRING, MFS_GRAYED
+      MENUITEM "LRE \tStart of left-to-right &embedding", 32774, MFT_STRING, MFS_GRAYED
+      MENUITEM "RLE \tStart of right-to-left e&mbedding", 32775, MFT_STRING, MFS_GRAYED
+      MENUITEM "LRO \tStart of left-to-right &override", 32776, MFT_STRING, MFS_GRAYED
+      MENUITEM "RLO \tStart of right-to-left o&verride", 32777, MFT_STRING, MFS_GRAYED
+      MENUITEM "PDF \t&Pop directional formatting", 32778, MFT_STRING, MFS_GRAYED
+      MENUITEM "NADS\tN&ational digit shapes substitution", 32779, MFT_STRING, MFS_GRAYED
+      MENUITEM "NODS\tNominal (European) &digit shapes", 32780, MFT_STRING, MFS_GRAYED
+      MENUITEM "ASS \tActivate &symmetric swapping", 32781, MFT_STRING, MFS_GRAYED
+      MENUITEM "ISS \tInhibit s&ymmetric swapping", 32782, MFT_STRING, MFS_GRAYED
+      MENUITEM "AAFS\tActivate Arabic &form shaping", 32783, MFT_STRING, MFS_GRAYED
+      MENUITEM "IAFS\tInhibit Arabic form s&haping", 32784, MFT_STRING, MFS_GRAYED
+      MENUITEM "RS  \tRecord Separator (&Block separator)", 32785, MFT_STRING, MFS_GRAYED
+      MENUITEM "US  \tUnit Separator (&Segment separator)", 32786, MFT_STRING, MFS_GRAYED
+    }
+  }
+}
+
+4 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&What's This?", 8
+  }
+}
+
+16 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP " "
+  {
+    MENUITEM "&Restore", 61728
+    MENUITEM "&Move", 61456
+    MENUITEM "&Size", 61440
+    MENUITEM "Mi&nimize", 61472
+    MENUITEM "Ma&ximize", 61488
+    MENUITEM SEPARATOR
+    MENUITEM "&Close\tAlt+F4", 61536
+  }
+}
+
+32 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "-"
+  {
+    MENUITEM "&Restore", 61728
+    MENUITEM "&Move", 61456
+    MENUITEM "&Size", 61440
+    MENUITEM "Mi&nimize", 61472, GRAYED
+    MENUITEM "Ma&ximize", 61488
+    MENUITEM SEPARATOR
+    MENUITEM "&Close\tCtrl+F4", 61536
+    MENUITEM SEPARATOR
+    MENUITEM "Nex&t\tCtrl+F6", 61504
+  }
+}
+
+48 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP " "
+  {
+    MENUITEM "&Move", 61456
+    MENUITEM "&Close\tAlt+F4", 61536
+  }
+}
+
+64 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "Scroll Here", 4100
+    MENUITEM SEPARATOR
+    MENUITEM "Left Edge", 4102
+    MENUITEM "Right Edge", 4103
+    MENUITEM SEPARATOR
+    MENUITEM "Page Left", 4098
+    MENUITEM "Page Right", 4099
+    MENUITEM SEPARATOR
+    MENUITEM "Scroll Left", 4096
+    MENUITEM "Scroll Right", 4097
+  }
+}
+
+80 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "Scroll Here", 4100
+    MENUITEM SEPARATOR
+    MENUITEM "Top", 4102
+    MENUITEM "Bottom", 4103
+    MENUITEM SEPARATOR
+    MENUITEM "Page Up", 4098
+    MENUITEM "Page Down", 4099
+    MENUITEM SEPARATOR
+    MENUITEM "Scroll Up", 4096
+    MENUITEM "Scroll Down", 4097
+  }
+}
+
+9 DIALOGEX 20, 20, 220, 140
+CAPTION "Select Window"
+STYLE 0x80cc00c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 100, ListBox, 0x50b00101, 5, 5, 210, 110, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 60, 120, 40, 15, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 120, 120, 40, 15, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2,  "Error"
+  13,  "&More Windows..."
+  14,  "Insufficient memory to create the bitmap.  Close one or more applications to increase available memory."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "&Open IME"
+  701,  "C&lose IME"
+  702,  "Op&en Soft Keyboard"
+  703,  "Close So&ft Keyboard"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  705,  "&Reconversion"
+  706,  "shutdown"
+  707,  "power off"
+  708,  "restart"
+  709,  "unknown"
+  710,  "Windows"
+  711,  "If you shut down this remote computer, no one can use it until someone at the remote location manually restarts it.\r\n\r\nDo you want to continue shutting down?"
+  712,  "Other people are logged on to this remote computer.  Shutting down Windows might cause them to lose data. Also, someone at the remote location will have to restart the computer manually.\r\n\r\nDo you want to continue shutting down?"
+  713,  "Other people are logged on to this computer. Shutting down Windows might cause them to lose data.\r\n\r\nDo you want to continue shutting down?"
+  714,  "Other people are logged on to this computer. Restarting Windows might cause them to lose data.\r\n\r\nDo you want to continue restarting?"
+  715,  "%wsWindows %ws"
+  716,  "%ws Build %ws"
+  717,  "Evaluation copy."
+  718,  "For testing purposes only."
+  719,  "Safe Mode"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "%wsMicrosoft (R) Windows (R) (Build %ws%0.0ws)  %ws"
+  721,  "%wsMicrosoft (R) Windows (R) (Build %ws: %ws)  %ws"
+  722,  "%wsMicrosoft (R) Windows (R) (Build %ws%0.0ws)"
+  723,  "%wsMicrosoft (R) Windows (R) (Build %ws: %ws)"
+  724,  "7"
+  725,  "7"
+  726,  "Server 2008 R2 Standard"
+  727,  "Server 2008 R2 Enterprise"
+  728,  "Server 2008 R2 Datacenter"
+  729,  "7"
+  730,  " Server 2008 R2 Embedded"
+  731,  "Web Server 2008 R2"
+  732,  "Server 2008 R2 for Itanium-Based Systems"
+  733,  "Server 2008 R2 for Itanium-Based Systems"
+  734,  "Server 2008 R2 for Itanium-Based Systems"
+  735,  "Server 2008 R2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  736,  "7"
+  737,  "This copy of Windows is not genuine"
+  738,  "Test Mode"
+  739,  "Windows License valid for %d %ws"
+  740,  "Windows Grace expires in %d %ws"
+  741,  "Windows License is expired"
+  742,  "hours"
+  743,  "days"
+  744,  "This copy of Windows is licensed for "
+  750,  " (Not Responding)"
+  751,  "One or more devices on your network are using the computer resources. Shutting down Windows might cause them to lose data. Also, someone at the remote location will have to restart the computer manually.\r\n\r\nDo you want to continue shutting down?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  752,  "Other people and devices are using the computer resources. Shutting down Windows might cause them to lose data. Also, someone at the remote location will have to restart the computer manually.\r\n\r\nDo you want to continue shutting down?"
+  753,  "One or more devices on your network are using the computer resources. Shutting down Windows might cause them to lose data.\r\n\r\nDo you want to continue shutting down?"
+  754,  "Other people and devices are are using the computer resources. Shutting down Windows might cause them to lose data.\r\n\r\nDo you want to continue shutting down?"
+  755,  "One or more devices on your network are using the computer resources. Restarting Windows might cause them to lose data.\r\n\r\nDo you want to continue restarting?"
+  756,  "Other people and devices are using the computer resources. Restarting Windows might cause them to lose data.\r\n\r\nDo you want to continue restarting?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "OK"
+  801,  "Cancel"
+  802,  "&Abort"
+  803,  "&Retry"
+  804,  "&Ignore"
+  805,  "&Yes"
+  806,  "&No"
+  807,  "&Close"
+  808,  "Help"
+  809,  "&Try Again"
+  810,  "&Continue"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  900,  "Minimize"
+  901,  "Maximize"
+  902,  "Restore Up"
+  903,  "Restore Down"
+  904,  "Help"
+  905,  "Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8250,  "Hardware: Maintenance (Unplanned)"
+  8251,  "Hardware: Maintenance (Planned)"
+  8252,  "Hardware: Installation (Unplanned)"
+  8253,  "Hardware: Installation (Planned)"
+  8255,  "Operating System: Upgrade (Planned)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8256,  "Operating System: Reconfiguration (Unplanned)"
+  8257,  "Operating System: Reconfiguration (Planned)"
+  8258,  "Application: Unresponsive"
+  8259,  "Application: Unstable"
+  8260,  "Application: Maintenance (Unplanned)"
+  8261,  "Other (Unplanned)"
+  8262,  "Other (Planned)"
+  8263,  "System Failure: Stop error"
+  8264,  "Power Failure: Cord Unplugged"
+  8265,  "Power Failure: Environment"
+  8266,  "Other Failure: System Unresponsive"
+  8267,  "Unknown"
+  8268,  "Application: Maintenance (Planned)"
+  8269,  "No title for this reason could be found"
+  8270,  "Legacy API shutdown"
+  8271,  "Operating System: Recovery (Planned)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8275,  "A restart or shutdown to service hardware on the system."
+  8276,  "A restart or shutdown to begin or complete hardware installation."
+  8277,  "A restart or shutdown to upgrade the operating system."
+  8278,  "A restart or shutdown to change the operating system configuration."
+  8279,  "A restart or shutdown to troubleshoot an unresponsive application."
+  8280,  "A restart or shutdown to troubleshoot an unstable application."
+  8281,  "A restart or shutdown to service an application."
+  8282,  "A shutdown or restart for an unknown reason"
+  8283,  "The computer displayed a blue screen crash event."
+  8284,  "The computer was unplugged."
+  8285,  "There was a power outage."
+  8286,  "The system became unresponsive."
+  8287,  "A restart or shutdown to perform planned maintenance on an application."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8288,  "Operating System: Service pack (Planned)"
+  8289,  "Operating System: Hot fix (Planned)"
+  8290,  "Operating System: Hot fix (Unplanned)"
+  8291,  "Operating System: Security fix (Planned)"
+  8292,  "Operating System: Security fix (Unplanned)"
+  8293,  "Application: Installation (Planned)"
+  8294,  "A restart or shutdown to install service pack."
+  8295,  "A restart or shutdown to install hot fix."
+  8296,  "A restart or shutdown to install security fix."
+  8297,  "A restart or shutdown to perform application installation."
+  8298,  "This shutdown was initiated by the legacy API InitiateSystemShutdown.  For full shutdown information applications should use the InitiateSystemShutdownEX API instead."
+  8300,  "Security issue"
+  8301,  "Loss of network connectivity (Unplanned)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8310,  "The computer needs to be shut down due to a security issue."
+  8311,  "The computer needs to be shut down due to a network connectivity issue."
+  8312,  "A restart or shutdown to perform system recovery."
+}
+
+1 MESSAGETABLE
+{
+  1073742896,  "Error Instrument: ProcessName: %1  WindowTitle: %2  MsgCaption: %3  MsgText: %4  CallerModuleName: %5  BaseAddr: %6  ImageSize: %7   ReturnAddr: %8\r\n"
+  2147484721,  "The attempt by user %2 to restart/shutdown computer %1 failed\r\n"
+  2147484722,  "The process %1 has initiated the %5 of computer %2 on behalf of user %7 for the following reason: %3%n\r\nReason Code: %4%n\r\nShutdown Type: %5%n\r\nComment: %6\r\n"
+  2147484723,  "The last restart/shutdown request of computer %1 was aborted by user %2%n\r\n"
+  2147484724,  "The reason supplied by user %6 for the last unexpected shutdown of this computer is: %1%n\r\nReason Code: %2%n\r\nProblem ID: %3%n\r\nBugcheck String: %4%n\r\nComment: %5\r\n"
+}

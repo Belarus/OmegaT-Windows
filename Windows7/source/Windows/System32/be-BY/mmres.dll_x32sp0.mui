@@ -1,0 +1,144 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "chimes"
+  701,  "chord"
+  702,  "ding"
+  703,  "ir_begin"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "ir_end"
+  705,  "ir_inter"
+  706,  "notify"
+  707,  "recycle"
+  708,  "ringout"
+  710,  "tada"
+  711,  "Windows Balloon"
+  712,  "Windows Battery Critical"
+  713,  "Windows Battery Low"
+  714,  "Windows Critical Stop"
+  715,  "Windows Default"
+  716,  "Windows Ding"
+  717,  "Windows Error"
+  718,  "Windows Exclamation"
+  719,  "Windows Feed Discovered"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "Windows Hardware Fail"
+  721,  "Windows Hardware Insert"
+  722,  "Windows Hardware Remove"
+  723,  "Windows Logoff Sound"
+  724,  "Windows Logon Sound"
+  725,  "Windows Menu Command"
+  726,  "Windows Minimize"
+  727,  "Windows Notify"
+  728,  "Windows Print complete"
+  729,  "Windows Recycle"
+  730,  "Windows Restore"
+  731,  "Windows Ringin"
+  732,  "Windows Ringout"
+  733,  "Windows Shutdown"
+  734,  "Windows Navigation Start"
+  735,  "Windows Startup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  736,  "Windows Information Bar"
+  737,  "Windows Pop-up Blocked"
+  738,  "Windows User Account Control"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "Windows Default"
+  801,  "No Sounds"
+  810,  "Afternoon"
+  811,  "Calligraphy"
+  812,  "Characters"
+  813,  "Cityscape"
+  814,  "Delta"
+  815,  "Festival"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "Garden"
+  817,  "Heritage"
+  818,  "Landscape"
+  819,  "Quirky"
+  820,  "Raga"
+  821,  "Savanna"
+  822,  "Sonata"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  900,  "An audio stream is currently in use."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5824,  "Default Beep"
+  5825,  "Program Error"
+  5826,  "Close Program"
+  5827,  "Critical Battery Alarm"
+  5828,  "Device Connect"
+  5829,  "Device Disconnect"
+  5830,  "Device Failed to Connect"
+  5831,  "Empty Recycle Bin"
+  5832,  "Low Battery Alarm"
+  5833,  "Maximize"
+  5834,  "Menu Command"
+  5835,  "Menu Pop-up"
+  5836,  "Minimize"
+  5837,  "New Mail Notification"
+  5838,  "Start Navigation"
+  5839,  "Open Program"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5840,  "Print Complete"
+  5841,  "Restore Down"
+  5842,  "Restore Up"
+  5843,  "Asterisk"
+  5844,  "Default Sound"
+  5845,  "Exclamation"
+  5846,  "Exit Windows"
+  5847,  "Critical Stop"
+  5848,  "System Notification"
+  5849,  "Question"
+  5850,  "Start Windows"
+  5851,  "Start Menu"
+  5852,  "Windows Logoff"
+  5853,  "Windows Logon"
+  5854,  "Windows Explorer"
+  5855,  "Hardware"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5856,  "Windows"
+  5857,  "Feed Discovered"
+  5858,  "New Fax Notification"
+  5859,  "Windows User Account Control"
+  5860,  "Windows Change Theme"
+}
+
