@@ -1,0 +1,393 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+710 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "ConsoleCtx"
+  {
+    MENUITEM "C&opy", 781
+    MENUITEM "Copy I&tem", 714
+    MENUITEM "Copy A&ll", 715
+    MENUITEM SEPARATOR
+    MENUITEM "Clea&r Console", 713
+    MENUITEM SEPARATOR
+    POPUP "&Filter"
+    {
+      MENUITEM "&Display All", 2001
+      MENUITEM SEPARATOR
+      MENUITEM "&Script Errors", 2002
+      MENUITEM "Console &Errors", 2003
+      MENUITEM "Console &Warnings", 2004
+      MENUITEM "Console &Asserts", 2005
+      MENUITEM "Console &Info", 2006
+      MENUITEM "Console &Log", 2007
+    }
+  }
+}
+
+720 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "BPCtx"
+  {
+    MENUITEM "&Delete", 721
+    MENUITEM "D&elete All", 722
+    MENUITEM SEPARATOR
+    MENUITEM "E&nable All", 723
+    MENUITEM "D&isable All", 724
+    MENUITEM SEPARATOR
+    MENUITEM "&Condition...", 727
+    MENUITEM SEPARATOR
+    MENUITEM "C&opy", 781
+    MENUITEM "&Select All", 782
+    MENUITEM SEPARATOR
+    MENUITEM "&Go To Source Code", 725
+  }
+}
+
+730 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "SourceCtx"
+  {
+    MENUITEM "I&nsert Breakpoint", 731
+    MENUITEM "&Delete Breakpoint", 732
+    MENUITEM "D&isable Breakpoint", 733
+    MENUITEM "&Enable Breakpoint", 734
+    MENUITEM "&Condition...", 727
+    MENUITEM SEPARATOR
+    MENUITEM "Add &Watch", 736
+    MENUITEM "C&opy", 781
+    MENUITEM "&Select All", 782
+  }
+}
+
+740 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "SourceBPCtx"
+  {
+    MENUITEM "&Delete Breakpoint", 741
+    MENUITEM "D&isable Breakpoint", 742
+    MENUITEM "&Enable Breakpoint", 743
+    MENUITEM SEPARATOR
+    MENUITEM "&Condition...", 727
+  }
+}
+
+750 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "WatchCtx"
+  {
+    MENUITEM "C&opy", 781
+    MENUITEM SEPARATOR
+    MENUITEM "Edit &Value", 762
+    MENUITEM "&Delete", 751
+    MENUITEM "D&elete All", 752
+    MENUITEM "&Select All", 782
+  }
+}
+
+760 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "LocalsCtx"
+  {
+    MENUITEM "C&opy", 781
+    MENUITEM SEPARATOR
+    MENUITEM "Edit &Value", 762
+    MENUITEM "Add &Watch", 763
+    MENUITEM "&Select All", 782
+  }
+}
+
+770 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "CallStackCtx"
+  {
+    MENUITEM "C&opy", 781
+    MENUITEM "&Select All", 782
+  }
+}
+
+101 DIALOGEX 0, 0, 322, 219
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "BaseWindow", 415, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+102 DIALOGEX 0, 0, 318, 181
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGOtherTabCotrol", 1002, "SysTabControl32", 0x56000108, 29, 14, 50, 30, 0x10000
+}
+
+109 DIALOGEX 0, 0, 316, 180
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGBreakpoint", 413, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 1003, "SysListView32", 0x56018809, 67, 30, 98, 78, 0x0
+}
+
+280 DIALOGEX 0, 0, 323, 203
+CAPTION ""
+STYLE 0x46000440 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Courier New", 400, 0, 0
+{
+  CONTROL "ScriptSourceViewer", 412, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 270, "RichEdit20W", 0x563118c4, 47, 3, 272, 196, 0x0
+}
+
+290 DIALOGEX 0, 0, 298, 146
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGCallStack", 414, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 1004, "SysListView32", 0x56018809, 5, 3, 281, 138, 0x0
+}
+
+501 DIALOGEX 0, 0, 316, 180
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGConsole", 419, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+506 DIALOGEX 7, 7, 302, 156
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGIMInput_ML", 416, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 503, Edit, 0x50b110c4, 7, 161, 302, 30, 0x0
+  CONTROL "DBGIMInput_SL", 420, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 508, Edit, 0x50810080, 7, 161, 302, 30, 0x0
+  CONTROL "Run Script", 504, Button, 0x50010000, 7, 161, 302, 30, 0x0
+  CONTROL "", 505, Button, 0x50010000, 7, 161, 302, 30, 0x0
+}
+
+507 DIALOGEX 7, 7, 302, 156
+CAPTION ""
+STYLE 0x46300448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGIMOutput", 418, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+  CONTROL "", 502, "RichEdit20W", 0x56011804, 7, 7, 302, 156, 0x0
+}
+
+601 DIALOGEX 0, 0, 298, 146
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGLocals", 604, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+611 DIALOGEX 0, 0, 298, 146
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "DBGWatches", 614, Static, 0x40020000 | NOT WS_VISIBLE, 10, 5, 48, 8, 0x0
+}
+
+790 DIALOGEX 0, 0, 282, 75
+CAPTION "Conditional Breakpoint"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 162, 54, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 225, 54, 50, 14, 0x0
+  CONTROL "This breakpoint is hit only if this expression is TRUE:", 791, Static, 0x50020000, 19, 16, 246, 11, 0x0
+  CONTROL "", 792, Edit, 0x50810080, 20, 28, 252, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  108,  "Name"
+  109,  "Type"
+  110,  "Value"
+  111,  "Language"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  150,  "Console"
+  151,  "Breakpoints"
+  152,  "Locals"
+  153,  "Watch"
+  154,  "Call Stack"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Start Debugging"
+  301,  "Stop Debugging"
+  302,  "Continue (F5)"
+  303,  "line "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Single Line Mode"
+  305,  "Multi Line Mode"
+  306,  "Loading..."
+  307,  "Break All (Ctrl + Shift + B)"
+  308,  "Step Into (F11)"
+  309,  "Step Over (F10)"
+  310,  "Step Out (Shift + F11)"
+  311,  "This webpage needs to be refreshed to begin debugging.\r\n\r\nTo refresh the webpage and start debugging, click OK.  Otherwise, click Cancel"
+  312,  "Debugging Requires Webpage Refresh"
+  313,  "A debugger is already attached."
+  314,  "JScript Debugger"
+  315,  "Unable to attach to the process. Another debugger might be attached to the process."
+  316,  ", when '%s' is true"
+  317,  "The following breakpoint condition cannot be set:\n\nAt %s\n\nThe expression is not valid."
+  318,  "character "
+  319,  "Select Element by Click (Ctrl + B)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Clear Browser Cache... (Ctrl + R)"
+  321,  "Do you want to stop debugging?"
+  322,  "Developer Tools"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Tree View"
+  1101,  "Developer Tools Script Toolbar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Consolas"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33000,  "Add New Breakpoint"
+  33001,  "Remove item"
+  33002,  "At %s, line '%d', character '%d'"
+  33003,  "This is the next statement that will be executed."
+  33004,  "This is the next statement that will be executed when this thread returns from the current function"
+  33005,  "Drag separator to change size of the window"
+  33006,  "Please refresh the page to start debugging"
+  33007,  "Breaking on JScript runtime error – %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33008,  "Debugger is already attached in another tab. It is recommended that only one tab is opened while debugging."
+  33009,  "Source code is not available for this location"
+  33010,  "Console"
+  33011,  "Change console to single line mode (Ctrl + Alt + M)"
+  33012,  "Change console to multiline mode (Ctrl + Alt + M)"
+  33013,  "%s, line '%d', character '%d'"
+  33014,  "Anonymous Code"
+  33015,  "Eval Code"
+  33016,  "JScript – Script Block"
+  33017,  "LOG: "
+  33018,  "Show Next Statement (Alt + Num *)"
+  33019,  "Break On Error (Ctrl + Shift + E)"
+  33021,  "Breakpoint cannot be set on this location. The code in the document is not loaded."
+  33022,  "Click to add..."
+  33023,  "Conditional Breakpoint: '%s'"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33024,  "&Insert Conditional Breakpoint..."
+  33025,  "Others"
+  33026,  "Start Debugging (F5)"
+  33027,  "Stop Debugging (Shift + F5)"
+  33028,  "Run Script (Enter)"
+  33029,  "Run Script (Ctrl + Enter)"
+  33030,  "Debugging has been stopped because it was disabled from Internet Options.\r\n\r\nYou can start debugging again by clicking on the Start Debugging button."
+  33031,  "The breakpoint is not valid. No executable code is associated with this line."
+}
+
+33100 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_C  , 33102, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_B  , 33103, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_I  , 33104, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_V  , 33105, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_L  , 33105, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_W  , 33106, VIRTKEY, NOINVERT, CONTROL, ALT
+  VK_F5  , 33107, VIRTKEY, NOINVERT
+  VK_F5  , 33108, VIRTKEY, NOINVERT, SHIFT
+  VK_F10  , 33109, VIRTKEY, NOINVERT
+  VK_F11  , 33110, VIRTKEY, NOINVERT
+  VK_F11  , 33111, VIRTKEY, NOINVERT, SHIFT
+  VK_B  , 33112, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_F9  , 33101, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_E  , 33113, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_M  , 33114, VIRTKEY, NOINVERT, CONTROL, ALT
+  190  , 33115, VIRTKEY, NOINVERT, CONTROL
+  188  , 33116, VIRTKEY, NOINVERT, CONTROL
+  VK_N  , 33117, VIRTKEY, NOINVERT, CONTROL, ALT
+}
+
+33120 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F9  , 33121, VIRTKEY, NOINVERT
+  VK_F9  , 33122, VIRTKEY, NOINVERT, CONTROL
+  VK_F9  , 33123, VIRTKEY, NOINVERT, ALT
+}
+
+33130 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_DELETE  , 33131, VIRTKEY, NOINVERT
+  VK_F2  , 33132, VIRTKEY, NOINVERT
+  VK_RETURN  , 33132, VIRTKEY, NOINVERT, SHIFT
+}
+
+33140 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_RETURN  , 33141, VIRTKEY, NOINVERT, CONTROL
+}
+
+33150 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_RETURN  , 33151, VIRTKEY, NOINVERT
+}
+

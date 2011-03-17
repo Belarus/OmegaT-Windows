@@ -1,0 +1,11 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Unknown Device"
+  1001,  "Computer"
+  1002,  "Tree"
+}
+

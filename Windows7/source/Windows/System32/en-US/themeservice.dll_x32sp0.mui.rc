@@ -1,0 +1,10 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8192,  "Themes"
+  8193,  "Provides user experience theme management."
+}
+

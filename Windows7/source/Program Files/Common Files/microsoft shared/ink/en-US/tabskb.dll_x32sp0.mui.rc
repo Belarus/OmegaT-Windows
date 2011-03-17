@@ -1,0 +1,37 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  15030,  "Keyboard"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  15051,  "Keyboard"
+  15053,  "Keypad"
+  15054,  "Numbers"
+  15055,  "Symbols"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  15056,  "Web"
+  15057,  "AuxPad"
+  15058,  "OSKMenu"
+  15059,  "OSKPred"
+  15060,  "OSKNumPad"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-TabletPC-TabletInputPanel\r\n"
+}

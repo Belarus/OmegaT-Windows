@@ -1,0 +1,186 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Network and Sharing Center"
+  2,  "Check network status, change network settings and set preferences for sharing files and printers."
+  10,  "View computers and devices"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Network and Sharing Center"
+  19,  "Set up a connection or network"
+  22,  "Internet"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  37,  "Diagnose and repair"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  51,  "Unknown"
+  55,  "Do you want to turn on %s?"
+  56,  "This service ""%s"""
+  58,  "&Turn this on"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  82,  "Category"
+  83,  "Public network"
+  84,  "Home network"
+  85,  "Work network"
+  86,  "Private network"
+  88,  "Signal strength: Poor"
+  89,  "Signal strength: Fair"
+  90,  "Signal strength: Good"
+  91,  "Signal strength: Very good"
+  92,  "Signal strength: Excellent"
+  93,  "Internet"
+  94,  "No Internet access"
+  95,  "No network access"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "Internet and domain access"
+  97,  "Domain access only"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  115,  "Show me all the files and folders I am sharing"
+  116,  "Show me all the shared network folders on this computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  180,  "* Unknown *"
+  181,  "WORKGROUP"
+  182,  "Security Shield Icon"
+  184,  "For sharing and discovery to work properly, make sure the settings in your firewall program match the following settings."
+  185,  "Ready to create"
+  186,  "Available to join"
+  187,  "Joined"
+  188,  "Manage wireless networks"
+  189,  "Change adapter settings"
+  190,  "Change advanced sharing settings"
+  191,  "Network name: %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Access type: %1"
+  193,  "Connection name: %1"
+  194,  "Network type: %1"
+  195,  "HomeGroup status: %1"
+  196,  "%1 (%2)"
+  197,  "%1 (%2)"
+  198,  "%1 (roaming on %2)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  507,  "(This computer)"
+  508,  "Multiple networks"
+  509,  "Internet"
+  510,  "Network"
+  511,  "Click to troubleshoot problems"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "Not connected"
+  513,  "Limited connectivity"
+  514,  "Icon"
+  515,  "Connection line"
+  516,  "This computer %1 is not connected to a network."
+  517,  "This computer %1 is connected to network %2 and the Internet."
+  518,  "This computer %1 is connected to network %2 but not the Internet."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1179,  "View your basic network information and set up connections"
+  1180,  "See full map"
+  1181,  "Network access might be limited."
+  1182,  "View status"
+  1183,  "This computer doesn't meet security standards defined by your network administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1185,  "You are currently not connected to any networks."
+  1188,  "Network icon"
+  1195,  "Network"
+  1196,  "Unknown"
+  1197,  "The service to detect this status is disabled."
+  1198,  "More information..."
+  1199,  "View your active networks"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Connect or disconnect"
+  1201,  "Change your networking settings"
+  1202,  "Access type:"
+  1203,  "HomeGroup:"
+  1204,  "Connections:"
+  1206,  "Connect to a network"
+  1207,  "Set up a new connection or network"
+  1208,  "Set up a wireless, broadband, dial-up, ad hoc, or VPN connection; or set up a router or access point."
+  1209,  "Connect to a network"
+  1210,  "Connect or reconnect to a wireless, wired, dial-up, or VPN network connection."
+  1211,  "Choose homegroup and sharing options"
+  1212,  "Access files and printers located on other network computers, or change sharing settings."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1217,  "Troubleshoot problems"
+  1218,  "Diagnose and repair network problems, or get troubleshooting information."
+  1219,  "Connection name"
+  1220,  "Network name"
+  1222,  "Access type"
+  1228,  "Network and sharing center help"
+  1229,  "Network type"
+  1230,  "Domain network"
+  1231,  "Network type: Domain network"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1232,  "Public network"
+  1233,  "Network type: Public network"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Network and Sharing Center\r\n"
+  2952796016,  "Network and Sharing Center active networks list updated.\r\n"
+}

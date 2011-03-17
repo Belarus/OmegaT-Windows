@@ -1,0 +1,44 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Projection options"
+  301,  "Select"
+  302,  "Computer only"
+  303,  "Duplicate"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Extend"
+  305,  "Projector only"
+  306,  "Disconnect Projector"
+  312,  "Microsoft Windows"
+  313,  "Do you want to keep these display settings?"
+  314,  "Reverting to previous display settings in 1 second."
+  315,  "Reverting to previous display settings in %d seconds."
+  316,  "Keep changes"
+  317,  "Revert"
+  318,  "No projector was detected."
+  319,  "Unable to connect to projector"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Connect to a Projector"
+  321,  "Connect your computer to a projector by display cable."
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-DisplaySwitch\r\n"
+}
