@@ -240,7 +240,7 @@
       <tuv lang="en">
         <seg>%1 (Recovered)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100905T121539Z" changeid="eratyk">
+      <tuv lang="be" changedate="20110323T103408Z" changeid="eratyk">
         <seg>%1 (адноўлена)</seg>
       </tuv>
     </tu>
@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%s has stopped working</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092612Z" changeid="eratyk">
+        <seg>%s спыніла працу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%s is already included in the library.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T092107Z" changeid="eratyk">
@@ -2954,6 +2962,22 @@
       </tuv>
       <tuv lang="be" changedate="20101119T222936Z" changeid="eratyk">
         <seg>%s даступна толькі для 32-бітавых працэсаў.\r\nЗрабіць гэта перадвызначаным элементам уводу?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%s is restarting...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091452Z" changeid="eratyk">
+        <seg>%s перазапускаецца...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%s is trying to recover your information...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T103512Z" changeid="eratyk">
+        <seg>%s спрабуе аднавіць вашую інфармацыю...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3002,6 +3026,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T140228Z" changeid="eratyk">
         <seg>Падтрымка %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%s was closed</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105858Z" changeid="eratyk">
+        <seg>%s была зачынена</seg>
       </tuv>
     </tu>
     <tu>
@@ -4102,6 +4134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Check for a solution</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092522Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць вырашэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Check for solution</seg>
       </tuv>
       <tuv lang="be" changedate="20110312T203916Z" changeid="eratyk">
@@ -4218,6 +4258,14 @@
       </tuv>
       <tuv lang="be" changedate="20100729T102607Z" changeid="eratyk">
         <seg>Зачыніць гаджэт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Close program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110436Z" changeid="eratyk">
+        <seg>Зачыніць праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -8426,6 +8474,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T125715Z" changeid="eratyk">
         <seg>Даслаць паведамленне...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Send information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092600Z" changeid="eratyk">
+        <seg>Даслаць інфармацыю</seg>
       </tuv>
     </tu>
     <tu>
@@ -14310,6 +14366,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A problem caused the program to stop working correctly. Please close the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110532Z" changeid="eratyk">
+        <seg>Праблема прымусіла праграму спыніць карэктную працу. Калі ласка, зачыніце праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T093409Z" changeid="eratyk">
+        <seg>Праблема прымусіла праграму спыніць карэктную працу. Windows зачыніць праграму і апавясціць вас, калі будуць даступнымі вырашэнні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A problem caused this program to stop interacting with Windows.</seg>
       </tuv>
       <tuv lang="be" changedate="20100929T074453Z" changeid="eratyk">
@@ -16422,6 +16494,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Additional information about the problem:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091610Z" changeid="eratyk">
+        <seg>Дадатковая інфармацыя аб праблеме:\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Additional information helps Microsoft create new definitions to better protect your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T090332Z" changeid="eratyk">
@@ -17784,8 +17864,8 @@
       <tuv lang="en">
         <seg>Always search file names and &amp;contents (this might take several minutes)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T111905Z" changeid="eratyk">
-        <seg>Усюды шукаць назвы файлаў і змесціва (можа спатрэбіцца некалькі хвілін)</seg>
+      <tuv lang="be" changedate="20110323T092727Z" changeid="eratyk">
+        <seg>Усюды шукаць назвы файлаў і змесціва (гэта можа заняць некалькі хвілін)</seg>
       </tuv>
     </tu>
     <tu>
@@ -22246,6 +22326,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>BugCheck\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T090014Z" changeid="eratyk">
+        <seg>Крытычная памылка\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bulgarian</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T074713Z" changeid="eratyk">
@@ -25886,18 +25974,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Check for a solution</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091512Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць вырашэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Check for a solution and close the program</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080749Z" changeid="eratyk">
-        <seg>Знайсці вырашэнне і зачыніць праграму</seg>
+      <tuv lang="be" changedate="20110323T093025Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць вырашэння і зачыніць праграму</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Check for a solution and restart the program</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080800Z" changeid="eratyk">
-        <seg>Знайсці вырашэнне і перазапусціць праграму</seg>
+      <tuv lang="be" changedate="20110323T093044Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць вырашэння і перазапусціць праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -25978,6 +26074,46 @@
       </tuv>
       <tuv lang="be" changedate="20110107T220105Z" changeid="eratyk">
         <seg>Праверыць стан сеткі, змяніць сеткавыя налады і прызначыць параметры для агульнадаступных файлаў і друкарак.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for a solution and close the program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T093003Z" changeid="eratyk">
+        <seg>Праверыць у сеціве наяўнасць вырашэння і зачыніць праграму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for a solution and restart the program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104634Z" changeid="eratyk">
+        <seg>Праверыць у сеціве наяўнасць вырашэння і перазапусціць праграму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for a solution later</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104703Z" changeid="eratyk">
+        <seg>Праверыць у сеціве наяўнасць вырашэння пазней</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for a solution later and close the program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T093139Z" changeid="eratyk">
+        <seg>Праверыць у сеціве наяўнасць вырашэння пазней і зачыніць праграму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check online for a solution later and restart the program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104713Z" changeid="eratyk">
+        <seg>Праверыць у сеціве наяўнасць вырашэння пазней і перазапусціць праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -33550,6 +33686,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Debug the program</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092909Z" changeid="eratyk">
+        <seg>Наладка праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Debug\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T224833Z" changeid="eratyk">
@@ -34202,6 +34346,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T135336Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Апісанне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Description:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105350Z" changeid="eratyk">
+        <seg>Апісанне:\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -36559,6 +36711,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you want to automatically send more information about unsolved problems?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105152Z" changeid="eratyk">
+        <seg>Дасылаць аўтаматычна больш інфармацыі аб нявырашанай праблеме?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want to change the priority of '%s'?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222513Z" changeid="eratyk">
@@ -36987,6 +37147,22 @@
       </tuv>
       <tuv lang="be" changedate="20100707T115249Z" changeid="eratyk">
         <seg>Зрабіць гэта зараз?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to send information to check for a solution?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092358Z" changeid="eratyk">
+        <seg>Даслаць інфармацыю, каб праверыць наяўнасць вырашэння?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Do you want to send more information about the problem?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092553Z" changeid="eratyk">
+        <seg>Даслаць больш інфармацыі аб праблеме?</seg>
       </tuv>
     </tu>
     <tu>
@@ -39951,6 +40127,70 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Error reporting ran out of disk space while creating a crash dump file.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085049Z" changeid="eratyk">
+        <seg>Выйсце па-за абсяг дыскавай прасторы падчас стварэння файла адбітка краху.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting ran out of memory while creating a crash dump file.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T084812Z" changeid="eratyk">
+        <seg>Выйсце па-за абсяг памяці падчас стварэння файла адбітка краху.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to check the paging file for a crash dump.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T084038Z" changeid="eratyk">
+        <seg>Не ўдалося праверыць файл падмены на адбітак краху\r\n.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to copy a crash dump from the paging file.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085152Z" changeid="eratyk">
+        <seg>Не ўдалося скапіяваць адбітак краху з файла падмены.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to create a crash dump file as a previous crash dump file already exists.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T084521Z" changeid="eratyk">
+        <seg>Не ўдалося стварыць файл адбітка краху, бо ўжо існуе папярэдні файл адбітка краху.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to create a temporary file to hold the crash dump.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085022Z" changeid="eratyk">
+        <seg>Не ўдалося стварыць часовы файл для ўтрымання адбітка краху.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to query volume information while creating a crash dump file.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T084643Z" changeid="eratyk">
+        <seg>Не ўдалося запытаць гукавую інфармацыю падчас стварэння файла адбітка краху.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Error reporting was unable to read the CrashControl settings.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T084223Z" changeid="eratyk">
+        <seg>Не ўдалося прачытаць налады CrashControl.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Error reporting was unable to report a dirty shutdown.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T135505Z" changeid="eratyk">
@@ -42027,6 +42267,14 @@
       </tuv>
       <tuv lang="be" changedate="20101111T151704Z" changeid="eratyk">
         <seg>Файлы больш за 2 Гб не могуць быць запісаныя на кружэлку.\n\nПрыбярыце ўсе файлы больш за 2 Гб і паўтарыце спробу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Files that help describe the problem:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092218Z" changeid="eratyk">
+        <seg>Файлы, якія дапамагаюць апісаць праблему:\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -44271,6 +44519,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Generating report signatures. Please wait...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105339Z" changeid="eratyk">
+        <seg>Генераванне подпісу справаздачы. Калі ласка, пачакайце...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Generic</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T144358Z" changeid="eratyk">
@@ -45695,6 +45951,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hide Details</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T111004Z" changeid="eratyk">
+        <seg>Схаваць дэталі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hide Error Details</seg>
       </tuv>
       <tuv lang="be" changedate="20100729T104701Z" changeid="eratyk">
@@ -45787,6 +46051,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T123526Z" changeid="eratyk">
         <seg>Схаваць выяву перадпрагляду\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hide problem details</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091134Z" changeid="eratyk">
+        <seg>Схаваць дэталі праблемы</seg>
       </tuv>
     </tu>
     <tu>
@@ -47443,6 +47715,14 @@
       </tuv>
       <tuv lang="be" changedate="20100709T074849Z" changeid="eratyk">
         <seg>Калі дыск не адфарматаваны, вам неабходна адфарматаваць яго перш чым выкарыстоўваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If the online privacy statement is not available, please read our privacy statement offline:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091954Z" changeid="eratyk">
+        <seg>Калі заява аб прыватнасці недаступная, калі ласка, прачытайце яе па-за сецівам:\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -55319,6 +55599,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Microsoft-Windows-WER-Diagnostics\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085944Z" changeid="eratyk">
+        <seg>Microsoft-Windows-WER-Diagnostics\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Microsoft-Windows-Windows Defender</seg>
       </tuv>
       <tuv lang="be" changedate="20101001T143612Z" changeid="eratyk">
@@ -58015,6 +58303,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>No files were found</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110158Z" changeid="eratyk">
+        <seg>Файлы не знойдзеныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>No files will be changed.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T144213Z" changeid="eratyk">
@@ -58249,8 +58545,8 @@
       <tuv lang="en">
         <seg>No title for this reason could be found</seg>
       </tuv>
-      <tuv lang="be" changedate="20101206T202623Z" changeid="eratyk">
-        <seg>Немагчыма знайсці назву для гэтай прычыны</seg>
+      <tuv lang="be" changedate="20110323T110253Z" changeid="eratyk">
+        <seg>Назва для гэтай прычыны не можа быць знойдзена</seg>
       </tuv>
     </tu>
     <tu>
@@ -58313,8 +58609,16 @@
       <tuv lang="en">
         <seg>No wireless adapter found</seg>
       </tuv>
-      <tuv lang="be" changedate="20110316T071942Z" changeid="eratyk">
-        <seg>Не знойдзена бяздротавага адаптара</seg>
+      <tuv lang="be" changedate="20110323T110318Z" changeid="eratyk">
+        <seg>Бяздротавы адаптар не знойдзены</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No, ask me each time</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105208Z" changeid="eratyk">
+        <seg>Не, пытаць мяне кожны раз</seg>
       </tuv>
     </tu>
     <tu>
@@ -64663,6 +64967,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Possible disk corruption detected for executable image %1, causing application %2 to stop working with exception %3, status code %4. Initiating further diagnostics.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T090534Z" changeid="eratyk">
+        <seg>Магчымае пашкоджанне дыска выяўленае для выканальнай выявы %1, што прымушае праграму %2 спыніць працу з выключэннем %3, код стану %4. Ініцыяванне далейшай дыягностыкі.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Possible heap corruption detected (exception code %1). Initiating further diagnostics.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T090824Z" changeid="eratyk">
+        <seg>Магчымае пашкоджанне купы выяўленае. (код выключэння %1). Ініцыяванне далейшай дыягностыкі.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Postal code</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T155240Z" changeid="eratyk">
@@ -65847,10 +66167,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Problem Event Name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105254Z" changeid="eratyk">
+        <seg>Назва падзеі праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Problem Moving</seg>
       </tuv>
       <tuv lang="be" changedate="20100716T090832Z" changeid="eratyk">
         <seg>Праблема перамяшчэння</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Problem signature:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091544Z" changeid="eratyk">
+        <seg>Подпіс праблемы:\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -65883,6 +66219,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T140132Z" changeid="eratyk">
         <seg>Манітор выйсця з працэсу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Process Exit Monitor\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T090034Z" changeid="eratyk">
+        <seg>Назіральнік выйсця працэса\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -67379,6 +67723,14 @@
       </tuv>
       <tuv lang="be" changedate="20101130T163046Z" changeid="eratyk">
         <seg>Чытанне дазваляе людзям адчыняць файлы, але не змяняць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Read our privacy statement online:\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091904Z" changeid="eratyk">
+        <seg>Чытаць заяву пра прыватнасць у сеціве:\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -71599,6 +71951,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Saving problem information...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091225Z" changeid="eratyk">
+        <seg>Захаванне інфармацыі праблемы...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Saving this document will cause some content that can't be displayed in WordPad to be lost.</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T064241Z" changeid="eratyk">
@@ -74263,6 +74623,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Sending information can help Microsoft create solutions.  To see what types of information Windows can send, &lt;a href=&quot;privacy link is in the code&quot;&gt;read our privacy policy&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105110Z" changeid="eratyk">
+        <seg>Дасыланне інфармацыі можа дапамагчы Microsoft стварыць вырашэнні. Каб пабачыць, якія тыпы інфармацыі можа дасылаць Windows, &lt;a href=&quot;privacy link is in the code&quot;&gt;прачытайце нашую палітыку прыватнасці&lt;/a&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sending problem information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092759Z" changeid="eratyk">
+        <seg>Дасыланне інфармацыі праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sending problem information...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110949Z" changeid="eratyk">
+        <seg>Дасыланне інфармацыі праблемы..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Sending these files can help Microsoft improve the effectiveness of this program.</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T085331Z" changeid="eratyk">
@@ -75771,6 +76155,14 @@
       </tuv>
       <tuv lang="be" changedate="20101118T073205Z" changeid="eratyk">
         <seg>Паказаць больш...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show Progress</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091010Z" changeid="eratyk">
+        <seg>Паказаць выкананне</seg>
       </tuv>
     </tu>
     <tu>
@@ -83151,6 +83543,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The dump file at location: %1 was deleted because the disk volume had less than %2 GB free space.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085410Z" changeid="eratyk">
+        <seg>Файл адбітка ў размяшчэнні: %1 быў выдалены, бо дыск мае меней за %2 ГБ вольнай прасторы.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The file %1!ls!</seg>
       </tuv>
       <tuv lang="be" changedate="20100905T070914Z" changeid="eratyk">
@@ -84627,6 +85027,22 @@
       </tuv>
       <tuv lang="be" changedate="20101206T210506Z" changeid="eratyk">
         <seg>Працэс %1 ініцыяваў %5 камп'ютара %2 як карыстальнік %7 з-за наступнай прычыны: %3%n\r\nКод прычыны: %4%n\r\nТып выключэння: %5%n\r\nКаментар: %6\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The process '%1' exited with exit code %2. The creation time for the exiting process was 0x%3.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085746Z" changeid="eratyk">
+        <seg>Працэс '%1' скончыўся з кодам выйсця %2. Час стварэння для выйсця працэса быў 0x%3.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The process '%1' was terminated by the process '%2' with termination code %3. The creation time for the exiting process was 0x%4.\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T085934Z" changeid="eratyk">
+        <seg>Працэс '%1' быў перарваны працэсам '%2' з кодам перарывання %3. Час стварэння для выйсця працэса быў 0x%4.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -87983,6 +88399,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This might take several minutes.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091436Z" changeid="eratyk">
+        <seg>Гэта можа заняць некалькі хвілін.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This network location can't be included because it is not indexed.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T182949Z" changeid="eratyk">
@@ -89159,6 +89583,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This will allow you to check for a solution later.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091343Z" changeid="eratyk">
+        <seg>Гэта дазволіць вам праверыць наяўнасць вырашэння пазней.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Those users may lose data.\n\nDo you want to continue?</seg>
       </tuv>
       <tuv lang="be" changedate="20100926T062653Z" changeid="eratyk">
@@ -89771,6 +90203,14 @@
       </tuv>
       <tuv lang="be" changedate="20101205T190256Z" changeid="eratyk">
         <seg>Каб дапамагчы абараніць ваш камп'ютар у публічных сетках, вынаходства іншых камп'ютараў і прылад у сетцы і выкарыстанне сеткі некаторымі праграмамі будуць абмежаваныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To help protect your computer, Data Execution Prevention has closed %s.  Click to learn more.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110042Z" changeid="eratyk">
+        <seg>Каб дапамагчы абараніць ваш камп'ютар, перашкода выканання звестак зачыніла %s. Пстрыкніце, каб даведацца больш.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91011,6 +91451,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T192433Z" changeid="eratyk">
         <seg>Паспрабуйце знайсці гаджэт, які, на вашую думку, выклікае праблему, і выдаліце яго з бакавой паліцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Try to recover my information only</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T103526Z" changeid="eratyk">
+        <seg>Паспрабаваць аднавіць толькі маю інфармацыю</seg>
       </tuv>
     </tu>
     <tu>
@@ -94663,6 +95111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>View Details</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110957Z" changeid="eratyk">
+        <seg>Прагледзець дэталі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>View Gadgets</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T181243Z" changeid="eratyk">
@@ -94987,6 +95443,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T193130Z" changeid="eratyk">
         <seg>Прагледзець налады бацькоўскага кантролю для вашага рахунка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View problem details</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091125Z" changeid="eratyk">
+        <seg>Прагледзець дэталі праблемы</seg>
       </tuv>
     </tu>
     <tu>
@@ -96543,6 +97007,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows Error Reporting</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T093149Z" changeid="eratyk">
+        <seg>Справаздачы аб памылках Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows Explorer</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T061201Z" changeid="eratyk">
@@ -97425,32 +97897,96 @@
       <tuv lang="en">
         <seg>Windows can check for a solution when you go online. If you close the program, it will try to recover your information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080546Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103921Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check for a solution when you go online. If you close the program, you might lose information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T075706Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103904Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check for a solution when you go online. If you restart or close the program, it will try to recover your information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080727Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103942Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check for a solution when you go online. If you restart or close the program, you might lose information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080042Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103838Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem and try to recover your information and restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104224Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы і паспрабаваць аднавіць вашую інфармацыю і перазапусціць праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem and try to recover your information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104135Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы і паспрабаваць аднавіць вашую інфармацыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem and try to restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104201Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы і паспрабаваць перазапусціць праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem the next time you go online and try to recover your information and restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104604Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы падчас наступнага ўваходу ў сеціва і паспрабаваць аднавіць вашую інфармацыю і перазапусціць праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem the next time you go online and try to recover your information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104544Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы падчас наступнага ўваходу ў сеціва і паспрабаваць аднавіць вашую інфармацыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem the next time you go online and try to restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104532Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы падчас наступнага ўваходу ў сеціва і паспрабаваць перазапусціць праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem the next time you go online.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T104336Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы падчас наступнага ўваходу ў сеціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can check online for a solution to the problem.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T103637Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння праблемы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -97465,32 +98001,32 @@
       <tuv lang="en">
         <seg>Windows can check online for a solution. If you close the program, it will try to recover your information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080520Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T104041Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check online for a solution. If you close the program, you might lose information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T075656Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103752Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы зачыніце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check online for a solution. If you restart or close the program, it will try to recover your information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080706Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T104012Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы перазапусціце ці зачыніце праграму, яна можа паспрабаваць аднавіць вашую інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Windows can check online for a solution. If you restart or close the program, you might lose information.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100929T080017Z" changeid="eratyk">
-        <seg>Windows можа праверыць наяўнасць вырашэння ў сеціве. Калі вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
+      <tuv lang="be" changedate="20110323T103816Z" changeid="eratyk">
+        <seg>Windows можа праверыць у сеціве наяўнасць вырашэння. Калі вы перазапусціце праграму, то можаце страціць інфармацыю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -97523,6 +98059,30 @@
       </tuv>
       <tuv lang="be" changedate="20110120T153305Z" changeid="eratyk">
         <seg>Windows можа адлюстроўваць толькі даты паміж %1 і %2 для календара %3.\n\nЖадаеце змяніць тып календара?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can try to recover your information and restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110651Z" changeid="eratyk">
+        <seg>Windows можа паспрабаваць аднавіць вашую інфармацыю і перазапусціць праграму.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can try to recover your information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110721Z" changeid="eratyk">
+        <seg>Windows можа паспрабаваць аднавіць вашую інфармацыю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows can try to restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110707Z" changeid="eratyk">
+        <seg>Windows можа паспрабаваць перазапусціць праграму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -98431,6 +98991,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows is checking for a solution to the problem...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T091211Z" changeid="eratyk">
+        <seg>Windows правярае наяўнасць вырашэння праблемы...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is checking online for a solution to the problem</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110433Z" changeid="eratyk">
+        <seg>Windows правярае ў сеціве наяўнасць вырашэння праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is collecting more information about the problem.  This might take several minutes...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092709Z" changeid="eratyk">
+        <seg>Windows збірае больш інфармацыі аб праблеме. Гэта можа заняць некалькі хвілін...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows is currently using the disc.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T064101Z" changeid="eratyk">
@@ -98511,10 +99095,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows is sending information to Microsoft that can help solve the problem.\n\nPreparing information to send: %u%%\nSending information:  %u%%</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110937Z" changeid="eratyk">
+        <seg>Windows дасылае ў Microsoft інфармацыю, якая можа дапамагчы вырашыць праблему.\n\nПадрыхтоўка інфармацыі да дасылання: %u%%\nДасыланне інфармацыі:  %u%%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows is shutting down...</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T123442Z" changeid="eratyk">
         <seg>Выключэнне Windows...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is trying to determine why %s is not working...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092250Z" changeid="eratyk">
+        <seg>Windows спрабуе вызначыць, чаму %s не працуе...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows is trying to identify the problem...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110348Z" changeid="eratyk">
+        <seg>Windows спрабуе ідэнтыфікаваць праблему...</seg>
       </tuv>
     </tu>
     <tu>
@@ -98831,6 +99439,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows will notify you if there are steps you can take to solve the problem.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T092518Z" changeid="eratyk">
+        <seg>Windows апавясціць вас, калі будуць крокі, якія вы можаце выканаць, каб вырашыць праблему.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows will shut down in %d minutes.\n\n Shutdown will start on %s.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T141318Z" changeid="eratyk">
@@ -98851,6 +99467,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T141406Z" changeid="eratyk">
         <seg>Windows выключыцца цягам 1 хвіліны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Windows will try to restart the program.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T110506Z" changeid="eratyk">
+        <seg>Windows паспрабуе перазапусціць праграму.</seg>
       </tuv>
     </tu>
     <tu>
@@ -99627,6 +100251,14 @@
       </tuv>
       <tuv lang="be" changedate="20100705T173953Z" changeid="eratyk">
         <seg>Так, прапаліць іх яшчэ раз.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yes, send more information automatically (recommended)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110323T105146Z" changeid="eratyk">
+        <seg>Так, дасылаць больш інфармацыі аўтаматычна (рэкамендавана)</seg>
       </tuv>
     </tu>
     <tu>
