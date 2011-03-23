@@ -1,4 +1,4 @@
-﻿Windows/System32/taskmgr.exe.rc:
+﻿Windows/System32/taskmgr.exe_x32sp0.mui.rc:
     DIALOG/110
         "Паказваць працэсы ўсіх карыстальнікаў", 2040
         10, 144, 120, 14 -> 10, 144, 160, 14 
@@ -24,7 +24,7 @@
         "Адлучыць", 3212
         203, 144, 55, 14 -> 163, 144, 55, 14
                         
-Windows/System32/shell32.dll.rc:
+Windows/System32/shell32.dll_x32sp0.mui.rc:
     DIALOG/1003
         "Адчыніць", 12305
         7, 39, 24, 10 -> 2, 39, 31, 10

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <filters>
-    <filter enabled="false" className="org.omegat.filters2.hhc.HHCFilter2">
+    <filter enabled="true" className="org.omegat.filters2.hhc.HHCFilter2">
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.hhc"/>
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.hhk"/>
     </filter>
@@ -29,7 +29,7 @@
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.xlf"/>
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.sdlxliff"/>
     </filter>
-    <filter enabled="false" className="org.omegat.filters2.text.ini.INIFilter">
+    <filter enabled="true" className="org.omegat.filters2.text.ini.INIFilter">
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.ini"/>
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.lng"/>
     </filter>
@@ -62,7 +62,7 @@
     <filter enabled="false" className="org.omegat.filters2.mozdtd.MozillaDTDFilter">
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.dtd"/>
     </filter>
-    <filter enabled="false" className="org.omegat.filters2.text.bundles.ResourceBundleFilter">
+    <filter enabled="true" className="org.omegat.filters2.text.bundles.ResourceBundleFilter">
         <files targetFilenamePattern="${nameOnly}_${targetLocale}.${extension}" sourceFilenameMask="*.properties"/>
     </filter>
     <filter enabled="false" className="org.omegat.filters2.latex.LatexFilter">

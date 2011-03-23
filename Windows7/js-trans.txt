@@ -1,4 +1,4 @@
-Program Files/Windows Sidebar/Gadgets/Calendar.Gadget/js/calendar.js
+Program Files/Windows Sidebar/Gadgets/Calendar.Gadget/js/calendar_x32sp0.js
 
 I: var L_PREVIOUS_text = "Previous";
 O: var L_PREVIOUS_text = "Папярэдні";
@@ -6,7 +6,7 @@ O: var L_PREVIOUS_text = "Папярэдні";
 I: var L_NEXT_text = "Next";
 O: var L_NEXT_text = "Наступны";
 
-Program Files/Windows Sidebar/Gadgets/Clock.Gadget/js/settings.js
+Program Files/Windows Sidebar/Gadgets/Clock.Gadget/js/settings_x32sp0.js
 
 I:var L_SELECT_TZ_TEXT = "Current computer time";
 O:var L_SELECT_TZ_TEXT = "Дзейны час камп'ютара";
@@ -17,7 +17,7 @@ O:var L_PREVIOUS_TEXT = "Папярэдні";
 I:var L_NEXT_TEXT = "Next";
 O:var L_NEXT_TEXT = "Наступны";
 
-Program Files/Windows Sidebar/Gadgets/CPU.Gadget/js/cpu.js
+Program Files/Windows Sidebar/Gadgets/CPU.Gadget/js/cpu_x32sp0.js
 
 I:var L_PROCESSOR_TEXT = "CPU usage";
 O:var L_PROCESSOR_TEXT = "Занятасць працэсара";
@@ -25,7 +25,7 @@ O:var L_PROCESSOR_TEXT = "Занятасць працэсара";
 I:var L_MEMORY_TEXT	= "Random access memory (RAM)";
 O:var L_MEMORY_TEXT	= "Памяць адвольнага доступу";
 
-Program Files/Windows Sidebar/Gadgets/Currency.Gadget/js/localizedStrings.js
+Program Files/Windows Sidebar/Gadgets/Currency.Gadget/js/localizedStrings_x32sp0.js
 
 I:L_localizedStrings_Text['WaitText'] = 'Getting data...';
 O:L_localizedStrings_Text['WaitText'] = 'Атрыманне звестак...';
@@ -67,171 +67,165 @@ I:L_localizedStrings_Text['ago'] = 'ago';
 O:L_localizedStrings_Text['ago'] = 'таму';
 
 I:L_localizedStrings_Text['DZD'] = 'ALGERIAN DINAR';
-O:L_localizedStrings_Text['DZD'] = 'ALGERIAN DINAR';
+O:L_localizedStrings_Text['DZD'] = 'Алжырскі дынар';
 
 I:L_localizedStrings_Text['ARS'] = 'ARGENTINE PESO';
-O:L_localizedStrings_Text['ARS'] = 'ARGENTINE PESO';
+O:L_localizedStrings_Text['ARS'] = 'Аргентынскае песа';
 
 I:L_localizedStrings_Text['AUD'] = 'AUSTRALIAN DOLLAR';
-O:L_localizedStrings_Text['AUD'] = 'AUSTRALIAN DOLLAR';
+O:L_localizedStrings_Text['AUD'] = 'Аўстралійскі даляр';
 
 I:L_localizedStrings_Text['BHD'] = 'BAHRAINI DINAR';
-O:L_localizedStrings_Text['BHD'] = 'BAHRAINI DINAR';
+O:L_localizedStrings_Text['BHD'] = 'Бахрэйнскі дынар';
 
 I:L_localizedStrings_Text['BOB'] = 'BOLIVIAN BOLIVIANO';
-O:L_localizedStrings_Text['BOB'] = 'BOLIVIAN BOLIVIANO';
+O:L_localizedStrings_Text['BOB'] = 'Балівійскае балівіяна';
 
 I:L_localizedStrings_Text['BWP'] = 'BOTSWANA PULA';
-O:L_localizedStrings_Text['BWP'] = 'BOTSWANA PULA';
+O:L_localizedStrings_Text['BWP'] = 'Батсванская пула';
 
 I:L_localizedStrings_Text['BRL'] = 'BRAZILIAN REAL';
-O:L_localizedStrings_Text['BRL'] = 'BRAZILIAN REAL';
+O:L_localizedStrings_Text['BRL'] = 'Бразільскі рэал';
 
 I:L_localizedStrings_Text['GBP'] = 'BRITISH POUND';
-O:L_localizedStrings_Text['GBP'] = 'BRITISH POUND';
+O:L_localizedStrings_Text['GBP'] = 'Брытанскі фунт';
 
 I:L_localizedStrings_Text['CAD'] = 'CANADIAN DOLLAR';
-O:L_localizedStrings_Text['CAD'] = 'CANADIAN DOLLAR';
+O:L_localizedStrings_Text['CAD'] = 'Канадскі даляр';
 
 I:L_localizedStrings_Text['CLP'] = 'CHILE PESO';
-O:L_localizedStrings_Text['CLP'] = 'CHILE PESO';
+O:L_localizedStrings_Text['CLP'] = 'Чылійскае песа';
 
 I:L_localizedStrings_Text['CNY'] = 'CHINESE YUAN';
-O:L_localizedStrings_Text['CNY'] = 'CHINESE YUAN';
+O:L_localizedStrings_Text['CNY'] = 'Кітайскі юань';
 
 I:L_localizedStrings_Text['COP'] = 'COLOMBIAN PESO';
-O:L_localizedStrings_Text['COP'] = 'COLOMBIAN PESO';
+O:L_localizedStrings_Text['COP'] = 'Калумбійскае песа';
 
 I:L_localizedStrings_Text['CYP'] = 'CYPRIOT POUND';
-O:L_localizedStrings_Text['CYP'] = 'CYPRIOT POUND';
+O:L_localizedStrings_Text['CYP'] = 'Кіпрскі фунт';
 
 I:L_localizedStrings_Text['CZK'] = 'CZECH KORUNA';
-O:L_localizedStrings_Text['CZK'] = 'CZECH KORUNA';
+O:L_localizedStrings_Text['CZK'] = 'Чэшская крона';
 
 I:L_localizedStrings_Text['DKK'] = 'DANISH KRONE';
-O:L_localizedStrings_Text['DKK'] = 'DANISH KRONE';
+O:L_localizedStrings_Text['DKK'] = 'Дацкая крона';
 
 I:L_localizedStrings_Text['ECS'] = 'ECUADOR SUCRE';
-O:L_localizedStrings_Text['ECS'] = 'ECUADOR SUCRE';
+O:L_localizedStrings_Text['ECS'] = 'Эквадорскае сукрэ';
 
 I:L_localizedStrings_Text['AED'] = 'EMIRATI DIRHAM';
-O:L_localizedStrings_Text['AED'] = 'EMIRATI DIRHAM';
+O:L_localizedStrings_Text['AED'] = 'Эмірацкі дырхам';
 
 I:L_localizedStrings_Text['EUR'] = 'EURO';
-O:L_localizedStrings_Text['EUR'] = 'EURO';
+O:L_localizedStrings_Text['EUR'] = 'Еўра';
 
 I:L_localizedStrings_Text['GHC'] = 'GHANAIAN CEDI';
-O:L_localizedStrings_Text['GHC'] = 'GHANAIAN CEDI';
+O:L_localizedStrings_Text['GHC'] = 'Ганскае сэдзі';
 
 I:L_localizedStrings_Text['GTQ'] = 'GUATEMALAN QUETZAL';
-O:L_localizedStrings_Text['GTQ'] = 'GUATEMALAN QUETZAL';
+O:L_localizedStrings_Text['GTQ'] = 'Гватэмальскі кэтцаль';
 
 I:L_localizedStrings_Text['HKD'] = 'HONG KONG DOLLAR';
-O:L_localizedStrings_Text['HKD'] = 'HONG KONG DOLLAR';
+O:L_localizedStrings_Text['HKD'] = 'Ганконскі даляр';
 
 I:L_localizedStrings_Text['HUF'] = 'HUNGARIAN FORINT';
-O:L_localizedStrings_Text['HUF'] = 'HUNGARIAN FORINT';
+O:L_localizedStrings_Text['HUF'] = 'Венгерскі форынт';
 
 I:L_localizedStrings_Text['INR'] = 'INDIAN RUPEE';
-O:L_localizedStrings_Text['INR'] = 'INDIAN RUPEE';
+O:L_localizedStrings_Text['INR'] = 'Індыйская рупія';
 
 I:L_localizedStrings_Text['IDR'] = 'INDONESIA RUPIAH';
-O:L_localizedStrings_Text['IDR'] = 'INDONESIA RUPIAH';
+O:L_localizedStrings_Text['IDR'] = 'Інданэзійская рупія';
 
 I:L_localizedStrings_Text['JPY'] = 'JAPANESE YEN';
-O:L_localizedStrings_Text['JPY'] = 'JAPANESE YEN';
+O:L_localizedStrings_Text['JPY'] = 'Японская ена';
 
 I:L_localizedStrings_Text['JOD'] = 'JORDANIAN DINAR';
-O:L_localizedStrings_Text['JOD'] = 'JORDANIAN DINAR';
+O:L_localizedStrings_Text['JOD'] = 'Іярданскі дынар';
 
 I:L_localizedStrings_Text['KES'] = 'KENYAN SHILLING';
-O:L_localizedStrings_Text['KES'] = 'KENYAN SHILLING';
+O:L_localizedStrings_Text['KES'] = 'Кенійскі шылінг';
 
 I:L_localizedStrings_Text['KWD'] = 'KUWAITI DINAR';
-O:L_localizedStrings_Text['KWD'] = 'KUWAITI DINAR';
+O:L_localizedStrings_Text['KWD'] = 'Кувейцкі дынар';
 
 I:L_localizedStrings_Text['MYR'] = 'MALAYSIAN RINGGIT';
-O:L_localizedStrings_Text['MYR'] = 'MALAYSIAN RINGGIT';
+O:L_localizedStrings_Text['MYR'] = 'Малазійскі рынгіт';
 
 I:L_localizedStrings_Text['MXN'] = 'MEXICAN PESO';
-O:L_localizedStrings_Text['MXN'] = 'MEXICAN PESO';
+O:L_localizedStrings_Text['MXN'] = 'Мексіканкае песа';
 
 I:L_localizedStrings_Text['MAD'] = 'MOROCCO DIRHAM';
-O:L_localizedStrings_Text['MAD'] = 'MOROCCO DIRHAM';
+O:L_localizedStrings_Text['MAD'] = 'Марокскі дырхам';
 
 I:L_localizedStrings_Text['NAD'] = 'NAMIBIA DOLLAR';
-O:L_localizedStrings_Text['NAD'] = 'NAMIBIA DOLLAR';
+O:L_localizedStrings_Text['NAD'] = 'Намбійскі даляр';
 
 I:L_localizedStrings_Text['ILS'] = 'NEW ISRAEL SHEKEL';
-O:L_localizedStrings_Text['ILS'] = 'NEW ISRAEL SHEKEL';
+O:L_localizedStrings_Text['ILS'] = 'Новаізраільскі шэкель';
 
 I:L_localizedStrings_Text['TRY'] = 'NEW TURKISH LIRA';
-O:L_localizedStrings_Text['TRY'] = 'NEW TURKISH LIRA';
+O:L_localizedStrings_Text['TRY'] = 'Новатурэцкая ліра';
 
 I:L_localizedStrings_Text['NZD'] = 'NEW ZEALAND DOLLAR';
-O:L_localizedStrings_Text['NZD'] = 'NEW ZEALAND DOLLAR';
+O:L_localizedStrings_Text['NZD'] = 'Новазеландскі даляр';
 
 I:L_localizedStrings_Text['NOK'] = 'NORWEGIAN KRONE';
-O:L_localizedStrings_Text['NOK'] = 'NORWEGIAN KRONE';
+O:L_localizedStrings_Text['NOK'] = 'Нарвежская крона';
 
 I:L_localizedStrings_Text['OMR'] = 'OMANI RIAL';
-O:L_localizedStrings_Text['OMR'] = 'OMANI RIAL';
+O:L_localizedStrings_Text['OMR'] = 'Аманскі рыял';
 
 I:L_localizedStrings_Text['PKR'] = 'PAKISTANI RUPEE';
-O:L_localizedStrings_Text['PKR'] = 'PAKISTANI RUPEE';
+O:L_localizedStrings_Text['PKR'] = 'Пакістанская рупія';
 
 I:L_localizedStrings_Text['PEN'] = 'PERUVIAN NEW SOL';
-O:L_localizedStrings_Text['PEN'] = 'PERUVIAN NEW SOL';
+O:L_localizedStrings_Text['PEN'] = 'Перуанскі новы соль';
 
 I:L_localizedStrings_Text['QAR'] = 'QATARI RIYAL';
-O:L_localizedStrings_Text['QAR'] = 'QATARI RIYAL';
+O:L_localizedStrings_Text['QAR'] = 'Катарскі рыял';
 
 I:L_localizedStrings_Text['RUB'] = 'RUSSIAN RUBLE';
-O:L_localizedStrings_Text['RUB'] = 'RUSSIAN RUBLE';
+O:L_localizedStrings_Text['RUB'] = 'Расійскі рубель';
 
 I:L_localizedStrings_Text['SAR'] = 'SAUDI RIYAL';
-O:L_localizedStrings_Text['SAR'] = 'SAUDI RIYAL';
-
-I:L_localizedStrings_Text['SAR'] = 'SAUDI RIYAL';
-O:L_localizedStrings_Text['SAR'] = 'SAUDI RIYAL';
+O:L_localizedStrings_Text['SAR'] = 'Саудаўскі рыял';
 
 I:L_localizedStrings_Text['ZAR'] = 'SOUTH AFRICAN RAND';
-O:L_localizedStrings_Text['ZAR'] = 'SOUTH AFRICAN RAND';
+O:L_localizedStrings_Text['ZAR'] = 'Паўднёваафрыканскі ранд';
 
 I:L_localizedStrings_Text['KRW'] = 'KOREAN WON';
-O:L_localizedStrings_Text['KRW'] = 'KOREAN WON';
+O:L_localizedStrings_Text['KRW'] = 'Карэйская вона';
 
 I:L_localizedStrings_Text['SEK'] = 'SWEDISH KRONA';
-O:L_localizedStrings_Text['SEK'] = 'SWEDISH KRONA';
+O:L_localizedStrings_Text['SEK'] = 'Шведская крона';
 
 I:L_localizedStrings_Text['CHF'] = 'SWISS FRANC';
-O:L_localizedStrings_Text['CHF'] = 'SWISS FRANC';
+O:L_localizedStrings_Text['CHF'] = 'Швейцарскі франк';
 
 I:L_localizedStrings_Text['TWD'] = 'TAIWAN DOLLAR';
-O:L_localizedStrings_Text['TWD'] = 'TAIWAN DOLLAR';
+O:L_localizedStrings_Text['TWD'] = 'Тайваньскі даляр';
 
 I:L_localizedStrings_Text['TZS'] = 'TANZANIAN SHILLING';
-O:L_localizedStrings_Text['TZS'] = 'TANZANIAN SHILLING';
+O:L_localizedStrings_Text['TZS'] = 'Танзанійскі шылінг';
 
 I:L_localizedStrings_Text['THB'] = 'THAI BAHT';
-O:L_localizedStrings_Text['THB'] = 'THAI BAHT';
+O:L_localizedStrings_Text['THB'] = 'Тайскі бат';
 
 I:L_localizedStrings_Text['TND'] = 'TUNISIAN DINAR';
-O:L_localizedStrings_Text['TND'] = 'TUNISIAN DINAR';
+O:L_localizedStrings_Text['TND'] = 'Туніскі дынар';
 
 I:L_localizedStrings_Text['USD'] = 'US DOLLAR';
-O:L_localizedStrings_Text['USD'] = 'US DOLLAR';
+O:L_localizedStrings_Text['USD'] = 'ЗША даляр';
 
 I:L_localizedStrings_Text['VND'] = 'VIETNAMESE DONG';
-O:L_localizedStrings_Text['VND'] = 'VIETNAMESE DONG';
+O:L_localizedStrings_Text['VND'] = 'В'етнамскі донг';
 
 I:L_localizedStrings_Text['ZWD'] = 'ZIMBABWEAN DOLLAR';
-O:L_localizedStrings_Text['ZWD'] = 'ZIMBABWEAN DOLLAR';
+O:L_localizedStrings_Text['ZWD'] = 'Зімбабвійскі даляр';
 
-I:L_localizedStrings_Text['MYR'] = 'MALAYSIAN RINGGIT';
-O:L_localizedStrings_Text['MYR'] = 'MALAYSIAN RINGGIT';
-
-Program Files/Windows Sidebar/Gadgets/PicturePuzzle.Gadget/js/picturePuzzle.js
+Program Files/Windows Sidebar/Gadgets/PicturePuzzle.Gadget/js/picturePuzzle_x32sp0.js
 
 I:var L_PAUSE_TEXT = "Pause timer";
 O:var L_PAUSE_TEXT = "Прыпыніць таймер";
@@ -248,7 +242,7 @@ O:var L_SOLVE_TEXT = "Скласці";
 I:var L_YOU_WIN_TEXT = "You win !!";
 O:var L_YOU_WIN_TEXT = "Вы выйгралі!";
 
-Program Files/Windows Sidebar/Gadgets/PicturePuzzle.Gadget/js/settings.js
+Program Files/Windows Sidebar/Gadgets/PicturePuzzle.Gadget/js/settings_x32sp0.js
 
 I:var L_PREVIOUS_Text = "Previous";
 O:var L_PREVIOUS_Text = "Папярэдні";
@@ -256,7 +250,7 @@ O:var L_PREVIOUS_Text = "Папярэдні";
 I:var L_NEXT_Text = "Next";
 O:var L_NEXT_Text = "Наступны";
 
-Program Files/Windows Sidebar/Gadgets/RSSFeeds.Gadget/js/RSSFeeds.js
+Program Files/Windows Sidebar/Gadgets/RSSFeeds.Gadget/js/RSSFeeds_x32sp0.js
 
 I:var L_SI_ERRORMESSAGE	= "Selected settings no longer valid.";
 O:var L_SI_ERRORMESSAGE	= "Абраныя налады больш не дапушчальныя.";
@@ -309,7 +303,7 @@ O:L_ARTICLES_TEXT[2]	= "40 загалоўкаў";
 I:L_ARTICLES_TEXT[3]	= "100 headlines";
 O:L_ARTICLES_TEXT[3]	= "100 загалоўкаў";
 
-Program Files/Windows Sidebar/Gadgets/SlideShow.Gadget/js/slideShow.js
+Program Files/Windows Sidebar/Gadgets/SlideShow.Gadget/js/slideShow_x32sp0.js
 
 I:var L_NONE_TEXT	= "None";
 O:var L_NONE_TEXT	= "няма";
@@ -389,145 +383,145 @@ O:var L_PICTURESNAME_TEXT = "Узорныя відарысы";
 I:var L_CHOOSEFOLDER_TEXT	= "Show items from this folder in Slide Show:";
 O:var L_CHOOSEFOLDER_TEXT	= "Паказваць элементы з гэтага каталогу слайдамі:";
 
-Program Files/Windows Sidebar/Gadgets/Weather.Gadget/js/localizedStrings.js
+Program Files/Windows Sidebar/Gadgets/Weather.Gadget/js/localizedStrings_x32sp0.js
 
 I:L_localizedStrings_Text['DefaultCity'] = 'Redmond, WA';
-O:L_localizedStrings_Text['DefaultCity'] = 'Redmond, WA';
+O:L_localizedStrings_Text['DefaultCity'] = 'Мінск, Беларусь';
 
 I:L_localizedStrings_Text['DefaultUnit'] = 'Fahrenheit';
-O:L_localizedStrings_Text['DefaultUnit'] = 'Fahrenheit';
+O:L_localizedStrings_Text['DefaultUnit'] = 'Celsius';
 
 I:L_localizedStrings_Text['GettingData'] = 'Getting data...';
-O:L_localizedStrings_Text['GettingData'] = 'Getting data...';
+O:L_localizedStrings_Text['GettingData'] = 'Атрыманне звестак...';
 
 I:L_localizedStrings_Text['LocationDontExist'] = 'Location not found';
-O:L_localizedStrings_Text['LocationDontExist'] = 'Location not found';
+O:L_localizedStrings_Text['LocationDontExist'] = 'Размяшчэнне не знойдзена';
 
 I:L_localizedStrings_Text['Searching'] = 'Searching...';
-O:L_localizedStrings_Text['Searching'] = 'Searching...';
+O:L_localizedStrings_Text['Searching'] = 'Шуканне...';
 
 I:L_localizedStrings_Text['NoSearchQuery'] = 'No search query specified.';
-O:L_localizedStrings_Text['NoSearchQuery'] = 'No search query specified.';
+O:L_localizedStrings_Text['NoSearchQuery'] = 'Няма азначаных запытаў пошуку.';
 
 I:L_localizedStrings_Text['NoResults'] = 'No results returned.';
-O:L_localizedStrings_Text['NoResults'] = 'No results returned.';
+O:L_localizedStrings_Text['NoResults'] = 'Няма вернутых вынікаў.';
 
 I:L_localizedStrings_Text['Night-New'] = 'New Moon';
-O:L_localizedStrings_Text['Night-New'] = 'New Moon';
+O:L_localizedStrings_Text['Night-New'] = 'Ветах';
 
 I:L_localizedStrings_Text['Night-Waxing-Crescent'] = 'Waxing Crescent Moon';
-O:L_localizedStrings_Text['Night-Waxing-Crescent'] = 'Waxing Crescent Moon';
+O:L_localizedStrings_Text['Night-Waxing-Crescent'] = 'З ветаха на маладзік';
 
 I:L_localizedStrings_Text['Night-First-Quarter'] = 'First Quarter Moon';
-O:L_localizedStrings_Text['Night-First-Quarter'] = 'First Quarter Moon';
+O:L_localizedStrings_Text['Night-First-Quarter'] = 'Маладзік';
 
 I:L_localizedStrings_Text['Night-Waxing-Gibbous'] = 'Waxing Gibbous Moon';
-O:L_localizedStrings_Text['Night-Waxing-Gibbous'] = 'Waxing Gibbous Moon';
+O:L_localizedStrings_Text['Night-Waxing-Gibbous'] = 'З маладзіка на поўню';
 
 I:L_localizedStrings_Text['Night-Full'] = 'Full Moon';
-O:L_localizedStrings_Text['Night-Full'] = 'Full Moon';
+O:L_localizedStrings_Text['Night-Full'] = 'Поўня';
 
 I:L_localizedStrings_Text['Night-Waning-Gibbous'] = 'Waning Gibbous Moon';
-O:L_localizedStrings_Text['Night-Waning-Gibbous'] = 'Waning Gibbous Moon';
+O:L_localizedStrings_Text['Night-Waning-Gibbous'] = 'З поўні на сход';
 
 I:L_localizedStrings_Text['Night-Last-Quarter'] = 'Last Quarter Moon';
-O:L_localizedStrings_Text['Night-Last-Quarter'] = 'Last Quarter Moon';
+O:L_localizedStrings_Text['Night-Last-Quarter'] = 'Сход';
 
 I:L_localizedStrings_Text['Night-Waning-Crescent'] = 'Waning Crescent Moon';
-O:L_localizedStrings_Text['Night-Waning-Crescent'] = 'Waning Crescent Moon';
+O:L_localizedStrings_Text['Night-Waning-Crescent'] = 'Са сходу на ветах';
 
 I:L_localizedStrings_Text['SensorIconRed'] = 'Cannot get present location';
-O:L_localizedStrings_Text['SensorIconRed'] = 'Cannot get present location';
+O:L_localizedStrings_Text['SensorIconRed'] = 'Немагчыма атрымаць уяперашняе размяшчэнне';
 
 I:L_localizedStrings_Text['SensorIconGreen'] = 'Your location is detected';
-O:L_localizedStrings_Text['SensorIconGreen'] = 'Your location is detected';
+O:L_localizedStrings_Text['SensorIconGreen'] = 'Вашае размяшчэнне выяўленае';
 
 I:L_localizedStrings_Text['SensorIconGray'] = 'A location sensor is available';
-O:L_localizedStrings_Text['SensorIconGray'] = 'A location sensor is available';
+O:L_localizedStrings_Text['SensorIconGray'] = 'Даступны датчык размяшчэння';
 
 I:L_localizedStrings_Text['SensorIconNotConnected'] = 'No location sensors connected';
-O:L_localizedStrings_Text['SensorIconNotConnected'] = 'No location sensors connected';
+O:L_localizedStrings_Text['SensorIconNotConnected'] = 'Няма злучаных датчыкаў размяшчэння';
 
 I:L_localizedStrings_Text['GettingLocation'] = 'Getting current location...';
-O:L_localizedStrings_Text['GettingLocation'] = 'Getting current location...';
+O:L_localizedStrings_Text['GettingLocation'] = 'Атрыманне дзейнага размяшчэння...';
 
 I:L_localizedStrings_Text['DisplayTemperatureIn'] = 'Show temperature in:';
-O:L_localizedStrings_Text['DisplayTemperatureIn'] = 'Show temperature in:';
+O:L_localizedStrings_Text['DisplayTemperatureIn'] = 'Паказваць тэмпературу ў:';
 
 I:L_localizedStrings_Text['Fahrenheit'] = 'Fahrenheit';
-O:L_localizedStrings_Text['Fahrenheit'] = 'Fahrenheit';
+O:L_localizedStrings_Text['Fahrenheit'] = 'фарэнгейтах';
 
 I:L_localizedStrings_Text['Celsius'] = 'Celsius';
-O:L_localizedStrings_Text['Celsius'] = 'Celsius';
+O:L_localizedStrings_Text['Celsius'] = 'цэльсіях';
 
 I:L_localizedStrings_Text['Search'] = 'Search';
-O:L_localizedStrings_Text['Search'] = 'Search';
+O:L_localizedStrings_Text['Search'] = 'Шукаць';
 
 I:L_localizedStrings_Text['CurrentCity'] = 'Current location:';
-O:L_localizedStrings_Text['CurrentCity'] = 'Current location:';
+O:L_localizedStrings_Text['CurrentCity'] = 'Дзейнае размяшчэнне:';
 
 I:L_localizedStrings_Text['EnterACityName'] = 'Search for location';
-O:L_localizedStrings_Text['EnterACityName'] = 'Search for location';
+O:L_localizedStrings_Text['EnterACityName'] = 'Пошук размяшчэння';
 
 I:L_localizedStrings_Text['SearchNearbyDisambiguation'] = 'closest location for ';
-O:L_localizedStrings_Text['SearchNearbyDisambiguation'] = 'closest location for ';
+O:L_localizedStrings_Text['SearchNearbyDisambiguation'] = 'найбліжэйшае размяшчэнне для ';
 
 I:L_localizedStrings_Text['SearchFuzzyDisambiguation'] = 'closest location:';
-O:L_localizedStrings_Text['SearchFuzzyDisambiguation'] = 'closest location:';
+O:L_localizedStrings_Text['SearchFuzzyDisambiguation'] = 'найбліжэйшае размяшчэнне:';
 
 I:L_localizedStrings_Text['SearchedLocationFoundClickOK'] = '"%1" found.\nPress OK to Apply.';
-O:L_localizedStrings_Text['SearchedLocationFoundClickOK'] = '"%1" found.\nPress OK to Apply.';
+O:L_localizedStrings_Text['SearchedLocationFoundClickOK'] = '"%1" знойдзена.\nНацісніце "Добра", каб ужыць.';
 
 I:L_localizedStrings_Text['SelectLocation'] = 'Select current location';
-O:L_localizedStrings_Text['SelectLocation'] = 'Select current location';
+O:L_localizedStrings_Text['SelectLocation'] = 'Абярыце дзейнае размяшчэнне';
 
 I:L_localizedStrings_Text['Automatically'] = 'Find location automatically';
-O:L_localizedStrings_Text['Automatically'] = 'Find location automatically';
+O:L_localizedStrings_Text['Automatically'] = 'Знаходзіць размяшчэнне аўтаматычна';
 
 I:L_localizedStrings_Text['Refresh'] = 'Refresh';
-O:L_localizedStrings_Text['Refresh'] = 'Refresh';
+O:L_localizedStrings_Text['Refresh'] = 'Абнавіць';
 
 I:L_localizedStrings_Text['HelperArticleLinkText'] = 'How does Windows find my location automatically?';
-O:L_localizedStrings_Text['HelperArticleLinkText'] = 'How does Windows find my location automatically?';
+O:L_localizedStrings_Text['HelperArticleLinkText'] = 'Як Windows аўтаматычна знаходзіць маё размяшчэнне?';
 
 I:L_localizedStrings_Text['EC1'] = 'No location sensor is available';
-O:L_localizedStrings_Text['EC1'] = 'No location sensor is available';
+O:L_localizedStrings_Text['EC1'] = 'Няма даступных датчыкаў размяшчэння';
 
 I:L_localizedStrings_Text['EC4'] = 'No weather information for current location';
-O:L_localizedStrings_Text['EC4'] = 'No weather information for current location';
+O:L_localizedStrings_Text['EC4'] = 'Няма інфармацыі аб надвор'і для дзейнага размяшчэння';
 
 I:L_localizedStrings_Text['min'] = 'min';
-O:L_localizedStrings_Text['min'] = 'min';
+O:L_localizedStrings_Text['min'] = 'хвілін';
 
 I:L_localizedStrings_Text['hr'] = 'hr';
-O:L_localizedStrings_Text['hr'] = 'hr';
+O:L_localizedStrings_Text['hr'] = 'гадзіну';
 
 I:L_localizedStrings_Text['hrs'] = 'hrs';
-O:L_localizedStrings_Text['hrs'] = 'hrs';
+O:L_localizedStrings_Text['hrs'] = 'гадзін';
 
 I:L_localizedStrings_Text['day'] = 'day';
-O:L_localizedStrings_Text['day'] = 'day';
+O:L_localizedStrings_Text['day'] = 'дзень';
 
 I:L_localizedStrings_Text['days'] = 'days';
-O:L_localizedStrings_Text['days'] = 'days';
+O:L_localizedStrings_Text['days'] = 'дзён';
 
 I:L_localizedStrings_Text['ageStampMessage'] = '%1 %2 ago';
-O:L_localizedStrings_Text['ageStampMessage'] = '%1 %2 ago';
+O:L_localizedStrings_Text['ageStampMessage'] = '%1 %2 таму';
 
 I:L_localizedStrings_Text['ageStampMessageForecastedData'] = 'Forecasted %1 %2 ago';
-O:L_localizedStrings_Text['ageStampMessageForecastedData'] = 'Forecasted %1 %2 ago';
+O:L_localizedStrings_Text['ageStampMessageForecastedData'] = 'Спрагназавана %1 %2 таму';
 
 I:L_localizedStrings_Text['DataExpired'] = 'Data expired';
-O:L_localizedStrings_Text['DataExpired'] = 'Data expired';
+O:L_localizedStrings_Text['DataExpired'] = 'Тэрмін дзеяння звестак мінуў';
 
 I:L_localizedStrings_Text['Forecasted'] = 'Forecasted';
-O:L_localizedStrings_Text['Forecasted'] = 'Forecasted';
+O:L_localizedStrings_Text['Forecasted'] = 'Спрагназавана';
 
 I:L_localizedStrings_Text['ConnectToInternetToGetData'] = 'Connect to the internet for fresh data';
-O:L_localizedStrings_Text['ConnectToInternetToGetData'] = 'Connect to the internet for fresh data';
+O:L_localizedStrings_Text['ConnectToInternetToGetData'] = 'Злучыцца з сецівам, каб асвяжыць інфармацыю';
 
 I:L_localizedStrings_Text['ServiceNotAvailable'] = 'Cannot connect to service';
-O:L_localizedStrings_Text['ServiceNotAvailable'] = 'Cannot connect to service';
+O:L_localizedStrings_Text['ServiceNotAvailable'] = 'Немагчыма злучыць са службай';
 
 I:L_localizedStrings_Text['ServiceNotAvailableInYourArea'] = 'Service not available in your region.';
-O:L_localizedStrings_Text['ServiceNotAvailableInYourArea'] = 'Service not available in your region.';
+O:L_localizedStrings_Text['ServiceNotAvailableInYourArea'] = 'Служба недаступная ў вашым рэгіёне.';
