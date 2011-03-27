@@ -1805,6 +1805,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%1$s could not be installed on this phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204901Z" changeid="klyok">
+        <seg>%1$s нельга ўсталяваць на гэты тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1$s could not be installed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205013Z" changeid="klyok">
+        <seg>Нельга ўсталяваць %1$s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%1$s could not be uninstalled</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205124Z" changeid="klyok">
+        <seg>Нельга высталяваць %1$s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%1$s maximum exceeded\nData rate reduced to %2$d Kb/s</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T203638Z" changeid="klyok">
@@ -2493,6 +2517,14 @@
       </tuv>
       <tuv lang="be" changedate="20110326T081937Z" changeid="klyok">
         <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>*BROWSER*</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204452Z" changeid="klyok">
+        <seg>*BROWSER*</seg>
       </tuv>
     </tu>
     <tu>
@@ -4044,6 +4076,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>@drawable/hotseat_browser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204503Z" changeid="klyok">
+        <seg>@drawable/hotseat_browser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>@drawable/hotseat_phone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204457Z" changeid="klyok">
+        <seg>@drawable/hotseat_phone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>@drawable/ic_list_drafts</seg>
       </tuv>
       <tuv lang="be" changedate="20110326T083336Z" changeid="klyok">
@@ -4284,10 +4332,34 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A large number of SMS messages are being sent.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075154Z" changeid="klyok">
+        <seg>Адсылаецца вялікая колькасьць паведамленьняў SMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A large number of SMS messages are being sent. Select \&quot;OK\&quot; to continue, or \&quot;Cancel\&quot; to stop sending.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T153804Z" changeid="klyok">
         <seg>Адсылаецца вялікая колькасьць паведамленьняў SMS. Абярыце «Добра», каб працягваць, або «Скасаваць», каб спыніць адсылаць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A legitimate example of this is the phone disabling the keylock when receiving an incoming phone call, then re-enabling the keylock when the call is finished.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074851Z" changeid="klyok">
+        <seg>Звычайны прыклад: тэлефон адмыкае клявішы, калі прымаецца ўваходны выклік, і зноўку замыкае іх, калі выклік заканчваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A network error has occurred.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211718Z" changeid="klyok">
+        <seg>Сетка дала хібу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4308,10 +4380,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A server error has occurred.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211804Z" changeid="klyok">
+        <seg>Паслужнік даў хібу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A server error has occurred. Retry, or cancel and return to the previous screen.</seg>
       </tuv>
       <tuv lang="be" changedate="20110325T102820Z" changeid="klyok">
         <seg>Паслужнік даў хібу. Паспрабуйце зноўку, ці скасуйце ды вярніцеся да папярэдняга экрану.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A special call needs to be made to activate your phone service.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210127Z" changeid="klyok">
+        <seg>Каб задзейнічаць абслугоўваньне вашага тэлефону, трэба набраць адмысловы нумар.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4552,10 +4640,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Access coarse location sources such as the cellular network database to determine an approximate phone location, where available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074406Z" changeid="klyok">
+        <seg>Доступ да крыніцаў грубага месцазнаходжаньня (кшталту базы зьвестак сотавых сетак), каб прыкладна вызначаць месцазнаходжаньне тэлефону, калі гэтыя крыніцы дасяжныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Access coarse location sources such as the cellular network database to determine an approximate phone location, where available. Malicious applications can use this to determine approximately where you are.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T193649Z" changeid="klyok">
         <seg>Доступ да крыніцаў грубага месцазнаходжаньня (кшталту базы зьвестак сотавых сетак), каб прыкладна вызначаць месцазнаходжаньне тэлефону, калі гэтыя крыніцы дасяжныя. Зламысныя праграмы могуць карыстацца гэтым, каб прыкладна вызначаць, дзе вы ёсьць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Access extra location provider commands.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074321Z" changeid="klyok">
+        <seg>Доступ да дадатковых загадаў пастаўніку месцазнаходжаньня.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4568,10 +4672,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Access fine location sources such as the Global Positioning System on the phone, where available.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074352Z" changeid="klyok">
+        <seg>Доступ да высакаякасных крыніцаў месцазнаходжаньня на тэлефоне, кшталту Ўсеагульнае сыстэмы разьмяшчэньня (GPS), калі яна дасяжная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Access fine location sources such as the Global Positioning System on the phone, where available. Malicious applications can use this to determine where you are, and may consume additional battery power.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T193047Z" changeid="klyok">
         <seg>Доступ да высакаякасных крыніцаў месцазнаходжаньня на тэлефоне, кшталту Ўсеагульнае сыстэмы разьмяшчэньня (GPS), калі яна дасяжная. Зламысныя праграмы могуць карыстацца гэтым, каб вызначаць, дзе вы ёсьць, і на гэта можа выдаткоўвацца дадатковая энэргія батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Access is very restricted usually to system process.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213758Z" changeid="klyok">
+        <seg>Доступ да гэтае магчымасьці вельмі абмежаваны: звычайна яго маюць толькі сыстэмныя працэсы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5216,6 +5336,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>After %d more unsuccessful attempts, you will be asked to unlock your phone using your Google sign-in.\n\n Please try again in %d seconds.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074948Z" changeid="klyok">
+        <seg>Пасьля наступных %d няўдалых спробаў яго намаляваць, вас запытаюцца адамкнуць ваш тэлефон з дапамогаю вашага рахунку Google.\n
+\n
+Калі ласка, праз %d сэкундаў паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Agenda</seg>
       </tuv>
       <tuv lang="be" changedate="20110321T135746Z" changeid="klyok">
@@ -5440,6 +5570,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>All data on your card will be lost.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075243Z" changeid="klyok">
+        <seg>Усе зьвесткі ды файлы з вашае карткі зьнішчацца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>All day</seg>
       </tuv>
       <tuv lang="be">
@@ -5552,10 +5690,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application read the phone owner data stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074103Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць зьвесткі ўласьніку тэлефону, якія захоўваюцца на тэлефоне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application read the phone owner data stored on your phone. Malicious applications can use this to read phone owner data.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T130939Z" changeid="klyok">
         <seg>Дазваляе праграме чытаць зьвесткі ўласьніку тэлефону, якія захоўваюцца на тэлефоне. Зламысныя праграмы могуць карыстацца гэтым, каб чытаць зьвесткі ўласьніку тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to add or change the events on your calendar, which may send email to guests.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074154Z" changeid="klyok">
+        <seg>Дазваляе праграме дадаваць або зьмяняць падзеі з вашага календара, якія могуць адсылаць лісты запрошаным.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5576,6 +5730,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to broadcast a notification that a WAP PUSH message has been received.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213351Z" changeid="klyok">
+        <seg>Дазваляе праграме паведамляць, што WAP PUSH атрымалі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to broadcast a notification that a WAP PUSH message has been received. Malicious applications may use this to forge MMS message receipt or to silently replace the content of any web page with malicious variants.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T090444Z" changeid="klyok">
@@ -5584,10 +5746,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to broadcast a notification that an SMS message has been received.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213327Z" changeid="klyok">
+        <seg>Дазваляе праграме паведамляць, што SMS атрымалі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to broadcast a notification that an SMS message has been received. Malicious applications may use this to forge incoming SMS messages.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T090152Z" changeid="klyok">
         <seg>Дазваляе праграме паведамляць, што SMS атрымалі. Зламысныя праграмы могуць карыстацца гэтым, каб падрабляць уваходныя SMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to broadcast a notification that an application package has been removed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213307Z" changeid="klyok">
+        <seg>Дазваляе праграме адсылаць спавяшчэньне, што нейкі пакунак выдалілі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5624,6 +5802,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to change the phone's clock time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074804Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць час на гадзіньніку тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to change the phone's time zone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074809Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць часавы пас тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to change the phone\'s clock time.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T134553Z" changeid="klyok">
@@ -5636,6 +5830,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T134615Z" changeid="klyok">
         <seg>Дазваляе праграме зьмяняць часавы пас тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to change the rotation of the screen at any time.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213637Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць паварот экрану ў хоць-які час.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5668,6 +5870,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T140026Z" changeid="klyok">
         <seg>Дазваляе праграме зьмяняць стан злучэньня з прывязанаю сеткаю.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to change whether a component of another application is enabled or not.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213933Z" changeid="klyok">
+        <seg>Дазваляе праграме задзейнічаць або забараніць складнік іншае праграмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5712,10 +5922,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to control the maximum number of processes that will run.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213401Z" changeid="klyok">
+        <seg>Дазваляе праграме кіраваць найбольшаю колькасьць працэсаў, якія могуць працаваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to control the maximum number of processes that will run. Never needed for normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T090529Z" changeid="klyok">
         <seg>Дазваляе праграме кіраваць найбольшаю колькасьць працэсаў, якія могуць працаваць. Звычайным праграма гэта ніколі ня трэба.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to control whether activities are always finished as soon as they go to the background.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213420Z" changeid="klyok">
+        <seg>Дазваляе праграме кіраваць тым, каб уся дзейнасьць заканчвалася, як толькі яна пераходзіць на задні плян.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5736,6 +5962,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to delete Android packages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213706Z" changeid="klyok">
+        <seg>Дазваляе праграме выдаляць пакункі Android.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to delete Android packages. Malicious applications can use this to delete important applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T170727Z" changeid="klyok">
@@ -5752,10 +5986,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to deliver its own input events (key presses, etc.) to other applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213530Z" changeid="klyok">
+        <seg>Дазваляе праграме дастаўляць ейныя ўласныя падзеі ўводу (націскі на клявішы ды інш.) іншым праграмам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to deliver its own input events (key presses, etc.) to other applications. Malicious applications can use this to take over the phone.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T092035Z" changeid="klyok">
         <seg>Дазваляе праграме дастаўляць ейныя ўласныя падзеі ўводу (націскі на клявішы ды інш.) іншым праграмам. Зламысныя праграмы могуць карыстацца гэтым, каб захапіць тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to disable the keylock and any associated password security.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074856Z" changeid="klyok">
+        <seg>Дазваляе праграме забараняць замыкаць клявішы ды іншыя зьвязаныя з гэтым дзеяньні, што тычацца бясьпекі пароляў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5776,6 +6026,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to force any activity that is in the foreground to close and go back.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213049Z" changeid="klyok">
+        <seg>Дазваляе праграме прымусова зачыняць і вяртаць назад хоць-якую дзейнасьць, што на пярэднім пляне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to force any activity that is in the foreground to close and go back. Should never be needed for normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110326T080952Z" changeid="klyok">
@@ -5788,6 +6046,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110323T084610Z" changeid="klyok">
         <seg>Дазваляе праграме прымусова спыняць іншыя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to free phone storage by deleting files in application cache directory.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213750Z" changeid="klyok">
+        <seg>Дазваляе праграме вызваляць сховішча тэлефону, выдаляючы файлы ў каталёгу запасьніку праграмаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5816,6 +6082,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to have itself started as soon as the system has finished booting.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214122Z" changeid="klyok">
+        <seg>Дазваляе праграме запускацца адразу як сыстэма скончыць першагрузіцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to have itself started as soon as the system has finished booting. This can make it take longer to start the phone and allow the application to slow down the overall phone by always running.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T130001Z" changeid="klyok">
@@ -5824,10 +6098,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to install new or updated Android packages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213737Z" changeid="klyok">
+        <seg>Дазваляе праграме ўсталёўваць новыя або абнаўляць пакункі Android.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to install new or updated Android packages. Malicious applications can use this to add new applications with arbitrarily powerful permissions.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T170754Z" changeid="klyok">
         <seg>Дазваляе праграме ўсталёўваць новыя або абнаўляць пакункі Android. Зламысныя праграмы могуць карыстацца гэтым, каб дадаваць новыя праграмы з адвольна шырокімі паўнамоцтвамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to kill background processes of other applications, even if memory isn't low.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213034Z" changeid="klyok">
+        <seg>Дазваляе праграме забіваць працэсы іншых праграмаў, што выконваюцца на заднім пляне — нат калі памяці дастаткова.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5848,6 +6138,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to make parts of itself persistent, so the system can't use it for other applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213647Z" changeid="klyok">
+        <seg>Дазваляе праграме зрабіць так, каб частка яе была сталаю, і сыстэма не магла бы выкарыстоўваць яе ў іншых праграмах.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to make parts of itself persistent, so the system can\'t use it for other applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T093152Z" changeid="klyok">
@@ -5860,6 +6158,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T135914Z" changeid="klyok">
         <seg>Дазваляе праграме зьмяняць налады пунктаў доступу да сеціва, кшталту пасродку, порту усіх пунктаў доступу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to modify the Browser's geolocation permissions.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075126Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць дазволы Аглядальніку вызначаць геаграфічнае мейсца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to modify the Browser's history or bookmarks stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075052Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць гісторыю ды закладкі Аглядальніку, якія захоўваюцца на вашым тэлефоне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5880,6 +6194,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to modify the Google services map.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214112Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць мапу службаў Google.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to modify the Google services map. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T125354Z" changeid="klyok">
@@ -5888,10 +6210,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to modify the contact (address) data stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214200Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць зьвесткі кантакту (адрас), якія захоўваюцца на вашым тэлефоне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to modify the contact (address) data stored on your phone. Malicious applications can use this to erase or modify your contact data.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T130436Z" changeid="klyok">
         <seg>Дазваляе праграме зьмяняць зьвесткі кантакту (адрас), якія захоўваюцца на вашым тэлефоне. Зламысныя праграмы могуць карыстацца гэтым, каб сьціраць або зьмяняць зьвесткі вашых кантактаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to modify the phone owner data stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214214Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць зьвесткі ўласьніку тэлефону, якія захоўваюцца на тэлефоне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5912,6 +6250,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to modify the system's secure settings data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214059Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць дадзеныя наладаў бясьпекі сыстэмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to modify the system's settings data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214034Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць дадзеныя агульных наладаў сыстэмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to modify the system\'s secure settings data. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T125236Z" changeid="klyok">
@@ -5928,6 +6282,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to modify your currently synced feeds.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074913Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць сынхранізаваныя жывільнікі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to modify your currently synced feeds. This could allow a malicious application to change your synced feeds.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T142917Z" changeid="klyok">
@@ -5936,10 +6298,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to modify your preferred applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214012Z" changeid="klyok">
+        <seg>Дазваляе праграме зьмяняць пераважныя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to modify your preferred applications. This can allow malicious applications to silently change the applications that are run, spoofing your existing applications to collect private data from you.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T125013Z" changeid="klyok">
         <seg>Дазваляе праграме зьмяняць пераважныя праграмы. Гэта можа дазволіць зламысным праграмам цішком замяняць запушчаныя праграмы, падманваючы існыя праграмы, каб сабраць вашыя асабістыя зьвесткі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to monitor and control how the system launches activities.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213223Z" changeid="klyok">
+        <seg>Дазваляе праграме сачыць і кіраваць, як сыстэма запускае дзейнасьці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5956,6 +6334,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110323T123646Z" changeid="klyok">
         <seg>Дазваляе праграме перасоўваць ейныя запасы з унутранага сховішча ў вонкавае ды наадварот.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to move tasks to the foreground and background.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213012Z" changeid="klyok">
+        <seg>Дазваляе праграме перасоўваць задачы на пярэдні ці на задні плян.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5984,10 +6370,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to read all of the calendar events stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074134Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць усе падзеі календара, якія захоўваюцца на тэлефоне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to read all of the calendar events stored on your phone. Malicious applications can use this to send your calendar events to other people.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T131059Z" changeid="klyok">
         <seg>Дазваляе праграме чытаць усе падзеі календара, якія захоўваюцца на тэлефоне. Зламысныя праграмы могуць карыстацца гэтым, каб адсылаць падзеі вашага календара іншым людзям.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to read all of the contact (address) data stored on your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214144Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць усе зьвесткі кантакту (адрас), якія захоўваюцца на вашым тэлефоне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6008,6 +6410,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to read and write to any resource owned by the diag group; for example, files in /dev.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213838Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць і запісваць хоць-якія крыніцы, якія належаць суполцы «diag»: прыкладам, файлы ў каталёгу «/dev».</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to read and write to any resource owned by the diag group; for example, files in /dev. This could potentially affect system stability and security. This should be ONLY be used for hardware-specific diagnostics by the manufacturer or operator.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T191002Z" changeid="klyok">
@@ -6020,6 +6430,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T143031Z" changeid="klyok">
         <seg>Дазваляе праграме чытаць усе асабістыя словы, імёны ды выразы, якія карыстальнік мог захаваць у слоўніку карыстальніка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to read from the system's various log files.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213820Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць файлы розных справаздачаў сыстэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6056,6 +6474,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to receive packets not directly addressed to your device.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074820Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць пакеты, якія не адрасаваліся наўпрост вашае прыладзе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to receive packets not directly addressed to your device. This can be useful when discovering services offered near by. It uses more power than the non-multicast mode.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T140720Z" changeid="klyok">
@@ -6088,10 +6514,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows an application to show system alert windows.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213512Z" changeid="klyok">
+        <seg>Дазваляе праграме паказваць вокны сыстэмных папярэджаньняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows an application to show system alert windows. Malicious applications can take over the entire screen of the phone.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T091428Z" changeid="klyok">
         <seg>Дазваляе праграме паказваць вокны сыстэмных папярэджаньняў. Зламысныя праграмы могуць захапіць увесь экран тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows an application to turn on debugging for another application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213023Z" changeid="klyok">
+        <seg>Дазваляе праграме задзейнічаць наладку іншае праграмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6184,10 +6626,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to process outgoing calls and change the number to be dialed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212651Z" changeid="klyok">
+        <seg>Дазваляе праграме апрацоўваць выходныя выклікі ды зьмяняць нумар, які набіраецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to process outgoing calls and change the number to be dialed. Malicious applications may monitor, redirect, or prevent outgoing calls.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083433Z" changeid="klyok">
         <seg>Дазваляе праграме апрацоўваць выходныя выклікі ды зьмяняць нумар, які набіраецца. Зламысныя праграмы могуць сачыць, перанакіроўваць або затрымваць выходныя выклікі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows application to read SMS messages stored on your phone or SIM card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212900Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць паведамленьні SMS, якія захоўваюцца на вашым тэлефоне або картцы SIM.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6200,6 +6658,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to receive and process MMS messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212809Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць і апрацоўваць паведамленьні MMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to receive and process MMS messages. Malicious applications may monitor your messages or delete them without showing them to you.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083426Z" changeid="klyok">
@@ -6208,10 +6674,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to receive and process SMS messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212728Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць і апрацоўваць паведамленьні SMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to receive and process SMS messages. Malicious applications may monitor your messages or delete them without showing them to you.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083429Z" changeid="klyok">
         <seg>Дазваляе праграме атрымваць і апрацоўваць паведамленьні SMS. Зламысныя праграмы могуць сачыць за вашымі паведамленьнямі ды выдаляць іх, не паказваючы іх вам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows application to receive and process WAP messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212942Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць і апрацоўваць паведамленьні WAP.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6232,10 +6714,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to retrieve information about currently and recently running tasks.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212953Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць зьвесткі пра задачы, якія зараз выконваюцца або нядаўна запускаліся.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to retrieve information about currently and recently running tasks. May allow malicious applications to discover private information about other applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083410Z" changeid="klyok">
         <seg>Дазваляе праграме атрымваць зьвесткі пра задачы, якія зараз выконваюцца або нядаўна запускаліся. Можа дазволіць зламысным праграмам выявіць асабістыя зьвесткі пра іншыя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows application to retrieve internal state of the system.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213116Z" changeid="klyok">
+        <seg>Дазваляе праграме атрымваць унутраны стан сыстэмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6248,10 +6746,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to send SMS messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212842Z" changeid="klyok">
+        <seg>Дазваляе праграме адсылаць паведамленьні SMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to send SMS messages. Malicious applications may cost you money by sending messages without your confirmation.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083424Z" changeid="klyok">
         <seg>Дазваляе праграме адсылаць паведамленьні SMS. Зламысныя праграмы могуць каштаваць вам грошай, адсылаючы паведамленьні бяз вашае згоды.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows application to take pictures with the camera.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074457Z" changeid="klyok">
+        <seg>Дазваляе праграме рабіць здымкі з дапамогаю камэры.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6264,6 +6778,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows application to write to SMS messages stored on your phone or SIM card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212917Z" changeid="klyok">
+        <seg>Дазваляе праграме рэдагаваць паведамленьні SMS, якія захоўваюцца на вашым тэлефоне або картцы SIM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows application to write to SMS messages stored on your phone or SIM card. Malicious applications may delete your messages.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T083417Z" changeid="klyok">
@@ -6272,10 +6794,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows applications to create and manage their own tokens, bypassing their normal Z-ordering.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213524Z" changeid="klyok">
+        <seg>Дазваляе праграмам ствараць і кіраваць іхнімі ўласнымі прыкметамі, не зважаючы на іхні звычайны Z-парадакваньне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows applications to create and manage their own tokens, bypassing their normal Z-ordering. Should never be needed for normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T091824Z" changeid="klyok">
         <seg>Дазваляе праграмам ствараць і кіраваць іхнімі ўласнымі прыкметамі, не зважаючы на іхні звычайны Z-парадакваньне. Звычайныя праграмы ня мусяць патрабаваць гэтае магчымасьці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows applications to watch the keys you press even when interacting with another application (such as entering a password).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213555Z" changeid="klyok">
+        <seg>Дазваляе праграме сачыць, якія клявішы вы націскаеце нат калі вы ўзаемадзейнічаеце зь іншаю праграмаю (напрыклад, упісваеце пароль).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6296,10 +6834,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows enabling/disabling location update notifications from the radio.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074625Z" changeid="klyok">
+        <seg>Дазваляе задзейнічаць або забараніць спавяшчэньні (па радыёсувязі) пра зьмяненьне месцазнаходжаньня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows enabling/disabling location update notifications from the radio. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T132808Z" changeid="klyok">
         <seg>Дазваляе задзейнічаць або забараніць спавяшчэньні (па радыёсувязі) пра зьмяненьне месцазнаходжаньня. Звычайнымі праграмамі не выкарыстоўваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the application to access the phone features of the device.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074733Z" changeid="klyok">
+        <seg>Дазваляе праграме мець доступ да тэлефонных функцыяў гэтае прылады.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6312,10 +6866,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the application to call any phone number, including emergency numbers, without your intervention.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074607Z" changeid="klyok">
+        <seg>Дазваляе праграме выклікаць хоць-якія тэлефонныя нумары, у тым ліку й надзвычайныя, бяз вашага умяшаньня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the application to call any phone number, including emergency numbers, without your intervention. Malicious applications may place unnecessary and illegal calls to emergency services.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T132332Z" changeid="klyok">
         <seg>Дазваляе праграме выклікаць хоць-якія тэлефонныя нумары, у тым ліку й надзвычайныя, бяз вашага умяшаньня. Зламысныя праграмы могуць без патрэбы ды незаконна тэлефанаваць на надзвычайныя нумары.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the application to call phone numbers without your intervention.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074536Z" changeid="klyok">
+        <seg>Дазваляе праграме выклікаць тэлефонныя нумары бяз вашага умяшаньня.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6336,10 +6906,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the application to control the phone features of the device.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074703Z" changeid="klyok">
+        <seg>Дазваляе праграме кіраваць тэлефоннымі функцыямі гэтае прылады.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the application to control the phone features of the device. An application with this permission can switch networks, turn the phone radio on and off and the like without ever notifying you.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T133732Z" changeid="klyok">
         <seg>Дазваляе праграме кіраваць тэлефоннымі функцыямі гэтае прылады. Праграма, якая мае такі дазвол, можа бяз вашага ведама зьмяняць сетку, выключаць ды ўключаць сувязь ды іншае падобнае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the application to control the system's backup and restore mechanism.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213443Z" changeid="klyok">
+        <seg>Дазваляе праграме кіраваць стварэньнем адноўкі сыстэмы й аднаўленьнем.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6380,6 +6966,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T130813Z" changeid="klyok">
         <seg>Дазваляе праграме зьнішчаць бясьпечнае сховішча.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the application to disable the entire phone permanently.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074508Z" changeid="klyok">
+        <seg>Дазваляе праграме адключаць на доўгі час тэлефон цалкам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6432,6 +7026,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the application to read all the URLs that the Browser has visited, and all of the Browser's bookmarks.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075013Z" changeid="klyok">
+        <seg>Дазваляе праграме чытаць усе закладкі Аглядальніку ды ўсе наведаныя ім спасылкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the application to read all the URLs that the Browser has visited, and all of the Browser\'s bookmarks.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T151009Z" changeid="klyok">
@@ -6464,6 +7066,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the application to tell the system which widgets can be used by which application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074638Z" changeid="klyok">
+        <seg>Дазваляе праграме загадваць сыстэме, якія віджэты якімі праграмамі могуць выкарыстоўвацца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the application to tell the system which widgets can be used by which application. With this permission, applications can give access to personal data to other applications. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T133003Z" changeid="klyok">
@@ -6480,10 +7090,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the creation of windows that are intended to be used by the internal system user interface.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213449Z" changeid="klyok">
+        <seg>Дазваляе ствараць вокны, якія мусяць выкарыстоўвацца ўнутраным сыстэмным інтэрфэйсам карыстальніка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the creation of windows that are intended to be used by the internal system user interface. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T091233Z" changeid="klyok">
         <seg>Дазваляе ствараць вокны, якія мусяць выкарыстоўвацца ўнутраным сыстэмным інтэрфэйсам карыстальніка. Звычайнымі праграмамі не выкарыстоўваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the holder to bind to the top-level interface of a wallpaper.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213617Z" changeid="klyok">
+        <seg>Дазваляе трымальніку зьвязвацца зь інтэрфэйсам шпалераў верхняга ўзроўню.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6496,10 +7122,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the holder to bind to the top-level interface of an input method.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213605Z" changeid="klyok">
+        <seg>Дазваляе трымальніку зьвязвацца зь інтэрфэйсам спосабу ўводзіць верхняга ўзроўню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the holder to bind to the top-level interface of an input method. Should never be needed for normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T092422Z" changeid="klyok">
         <seg>Дазваляе трымальніку зьвязвацца зь інтэрфэйсам спосабу ўводзіць верхняга ўзроўню. Звычайныя праграмы ня мусяць патрабаваць гэтае магчымасьці. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the holder to send intents to a device administrator.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213625Z" changeid="klyok">
+        <seg>Дазваляе трымальніку адсылаць намеры да кіраўніка прылады.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6512,10 +7154,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Allows the modification of collected battery statistics.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213429Z" changeid="klyok">
+        <seg>Дазваляе зьмяняць сабраную па батарэі статыстыку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Allows the modification of collected battery statistics. Not for use by normal applications.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T090838Z" changeid="klyok">
         <seg>Дазваляе зьмяняць сабраную па батарэі статыстыку. Звычайнымі праграмамі не выкарыстоўваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows the modification of collected component usage statistics.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075331Z" changeid="klyok">
+        <seg>Дазваляе зьмяняць сабраную статыстыку выкарыстаньня складніку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6556,6 +7214,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110326T181544Z" changeid="klyok">
         <seg>Дазваляе гэтае праграме чытаць вашую пошту Gmail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Allows to invoke default container service to copy content.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075342Z" changeid="klyok">
+        <seg>Дазваляе выклікаць звычайную службу зьмяшчальні, каб перапісаць зьмесьціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6744,6 +7410,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and the like.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074729Z" changeid="klyok">
+        <seg>Праграма, якая мае такі дазвол, можа вызначаць тэлефонны і сэрыйны нумар гэтага тэлефону ды, калі маецца дзейны выклік, нумар, зь якім зьвязваемся ды іншае падобнае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An application with this permission can switch networks, turn the phone radio on and off and the like without ever notifying you.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074658Z" changeid="klyok">
+        <seg>Праграма, якая мае такі дазвол, можа бяз вашага ведама зьмяняць сетку, выключаць ды ўключаць сувязь ды іншае падобнае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>An error has occurred.</seg>
       </tuv>
       <tuv lang="be" changedate="20110325T102825Z" changeid="klyok">
@@ -6772,6 +7454,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110321T151835Z" changeid="klyok">
         <seg>Аналягавы гадзіньнік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Android</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204542Z" changeid="klyok">
+        <seg>Android</seg>
       </tuv>
     </tu>
     <tu>
@@ -7220,6 +7910,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110313T110928Z" changeid="klyok">
         <seg>Ці ўпэўненыя вы, што хочаце выняць ваш сьпіс кантактаў у «&lt;x0&gt;%s&lt;/x0&gt;»?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are you sure you want to format the SD card?</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075244Z" changeid="klyok">
+        <seg>Ці ўпэўненыя вы, што хочаце разьмеціць картку SD?</seg>
       </tuv>
     </tu>
     <tu>
@@ -7788,6 +8486,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be">
         <seg>Інфармацыя пра батарэю</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Battery is empty.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T080402Z" changeid="klyok">
+        <seg>Батарэя разрадзілася.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8744,6 +9450,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Caller ID defaults to not restricted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212504Z" changeid="klyok">
+        <seg>Звычайна азначальнік не абмяжоўваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Caller ID defaults to not restricted. Next call: Not restricted</seg>
       </tuv>
       <tuv lang="be" changedate="20110322T111900Z" changeid="klyok">
@@ -8756,6 +9470,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110322T111852Z" changeid="klyok">
         <seg>Звычайна азначальнік не абмяжоўваецца. Наступны выклік: абмяжоўваецца </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Caller ID defaults to restricted.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212401Z" changeid="klyok">
+        <seg>Звычайна азначальнік абмяжоўваецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8953,6 +9675,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T161815Z" changeid="klyok">
         <seg>Задзейнічалі стан «у машыне»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Care must be used with permission, as it is possible to get application components into an unusable, inconsistent, or unstable state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213949Z" changeid="klyok">
+        <seg>Гэтым дазволам трэба карыстацца ўважліва, бо ён можа прывесьці складнікі праграмаў у непрацоўны, несуладны ці няўстойлівы стан.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9361,6 +10091,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110304T134245Z" changeid="klyok">
         <seg>Гаманіць праз Yahoo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check to make sure you have unmounted the USB host, then try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075230Z" changeid="klyok">
+        <seg>Спраўдзіце, ці сапраўды вы адмацавалі вузел USB, і паспрабуйце зноўку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10249,6 +10987,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Could not refund %1$s.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211814Z" changeid="klyok">
+        <seg>Нельга вярнуць %1$s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Could not refund %1$s. Try again later.</seg>
       </tuv>
       <tuv lang="be" changedate="20110325T103614Z" changeid="klyok">
@@ -10327,6 +11073,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="be" changedate="20110326T144752Z" changeid="klyok">
         <seg>Стварыць кантакт\n
 праз &lt;x0&gt;%s&lt;/x0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create mock location sources for testing.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074245Z" changeid="klyok">
+        <seg>Ствараць удаваныя крыніцы месцазнаходжаньня для выпрабаваньняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10911,6 +11665,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110325T070355Z" changeid="klyok">
         <seg>Зашмат выдаляецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Delete some files to free space.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212629Z" changeid="klyok">
+        <seg>Выдаліце колькі файлаў, каб вызваліць прастору.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11598,6 +12360,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Do you still want to replace it?\n\nAll previous user data will be saved.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204943Z" changeid="klyok">
+        <seg>Хіба вы ўсё яшчэ хочаце замяніць яе?\n
+\n
+Усе ранейшыя зьвесткі карыстальніка захаваюцца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Do you want the browser to remember this password?</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T151558Z" changeid="klyok">
@@ -11650,6 +12422,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110325T095617Z" changeid="klyok">
         <seg>Латок-паліца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Does not perform a complete shutdown.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213132Z" changeid="klyok">
+        <seg>Цалкам тэлефон не выключаецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13553,6 +14333,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Free up some space and try again.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205030Z" changeid="klyok">
+        <seg>Вызваліце крыху прасторы ды паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>French</seg>
       </tuv>
       <tuv lang="be" changedate="20110313T102818Z" changeid="klyok">
@@ -14506,6 +15294,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you skip activation, you can't place calls or connect to mobile data networks (though you can connect to Wi-Fi networks).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210206Z" changeid="klyok">
+        <seg>Калі вы не задзейнічаеце тэлефон, вы ня зможаце тэлефанаваць і далучацца да перасоўных сетак перадаваць дадзеныя (нават калі далучыцеся да сеткі Wi-Fi).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you skip activation, you can\'t place calls or connect to mobile data networks (though you can connect to Wi-Fi networks). Until you activate your phone, you are asked to activate it each time you turn it on.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T164438Z" changeid="klyok">
@@ -14890,6 +15686,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Insert a new one.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075318Z" changeid="klyok">
+        <seg>Усуньце іншую.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Insert character</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T153611Z" changeid="klyok">
@@ -14941,6 +15745,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
         <seg>Installing\u2026</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T182409Z" changeid="klyok">
+        <seg>Усталёўваецца…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installing…</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204845Z" changeid="klyok">
         <seg>Усталёўваецца…</seg>
       </tuv>
     </tu>
@@ -15078,6 +15890,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T145716Z" changeid="klyok">
         <seg>Хібнае імя карыстальніка або пароль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It may take up to 15 minutes for service to start.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210252Z" changeid="klyok">
+        <seg>Можа спатрэбіцца пачакаць ня болей 15 хвілін, пакуль пачнецца абслугоўваньне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It uses more power than the non-multicast mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074836Z" changeid="klyok">
+        <seg>Гэта карыстае энэргіі болей за не бязадрасны стан.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16075,6 +16903,270 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Malicious applications can corrupt your system's configuration.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214029Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць сапсаваць настаўленьні вашае сыстэмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can force themselves to the front without your control.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213017Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць не падпарадкоўвацца вашым загадам і прымусова трымацца наперадзе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can take over the entire screen of the phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213508Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць захапіць увесь экран тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to add new applications with arbitrarily powerful permissions.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213741Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб дадаваць новыя праграмы з адвольна шырокімі паўнамоцтвамі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to allow sending location information to arbitrary web sites.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075124Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб адсылаць зьвесткі пра месцазнаходжаньне адвольным пляцоўкам сеціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to delete important applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213703Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб выдаляць важныя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to determine approximately where you are.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074410Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб прыкладна вызначаць, дзе вы ёсьць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to determine where you are, and may consume additional battery power.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074359Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб вызначаць, дзе вы ёсьць, і на гэта можа выдаткоўвацца дадатковая энэргія батарэі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to disable important phone capabilities.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213940Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб забараніць важныя магчымасьці тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to erase or modify owner data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214218Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб сьціраць або зьмяняць зьвесткі вашых кантактаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to erase or modify your Browser's data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075103Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб сьціраць або зьмяняць дадзеныя вашага Аглядальніку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to erase or modify your calendar events or to send email to guests.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074208Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб сьціраць або зьмяняць падзеі календара ці адсылаць лісты запрошаным.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to erase or modify your contact data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214204Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб сьціраць або зьмяняць зьвесткі вашых кантактаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to kill other applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213028Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб забіваць іншыя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to override the location and/or status returned by real location sources such as GPS or Network providers or monitor and report your location to an external source.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074344Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб замяняць месцазнаходжаньне ды (ці) стан, атрыманы ад сапраўдных крыніцаў кшталту GPS ці сеткавых апэратараў, або сачыць, дзе вы знаходзіцеся, і паведамляць пра гэта вонкавае крыніцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to override the location and/or status returned by real location sources such as GPS or Network providers.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074258Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб замяняць месцазнаходжаньне ды (ці) стан, атрыманы ад сапраўдных крыніцаў кшталту GPS ці сеткавых апэратараў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to read phone owner data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074105Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб чытаць зьвесткі ўласьніку тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to send your calendar events to other people.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074141Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб адсылаць падзеі вашага календара іншым людзям.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to send your data to other people.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214149Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб адсылаць вашыя зьвесткі іншым людзям.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications can use this to take over the phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213540Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб захапіць тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications could use this to interfere with the operation of the GPS or other location sources.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074327Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць могуць карыстацца гэтым, каб умешвацца ў працу з GPS або іншых крыніцаў месцазнаходжаньня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may cause unexpected calls on your phone bill.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074534Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць быць прычынаю нечаканых выклікаў у вашым тэлефонным рахунку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may completely compromise the system.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213230Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць паставіць сыстэму ў рызыку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may cost you money by sending messages without your confirmation.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212851Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць каштаваць вам грошай, адсылаючы паведамленьні бяз вашае згоды.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may delete your messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212921Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць выдаліць вашыя паведамленьні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may monitor your messages or delete them without showing them to you.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212737Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць сачыць за вашымі паведамленьнямі ды выдаляць іх, не паказваючы іх вам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may monitor, redirect, or prevent outgoing calls.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212656Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць сачыць, перанакіроўваць або затрымваць выходныя выклікі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may place unnecessary and illegal calls to emergency services.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074605Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць без патрэбы ды незаконна тэлефанаваць на надзвычайныя нумары.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may read your confidential messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212905Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць чытаць вашыя асабістыя паведамленьні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may retrieve a wide variety of private and secure information that they should never normally need.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213124Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць атрымваць разнастайныя асабістыя зьвесткі і зьвесткі бясьпекі, якія яны звычайна ня мусяць патрабаваць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may use this to forge MMS message receipt or to silently replace the content of any web page with malicious variants.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213347Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб падрабляць атрыманьне MMS або .цішком замяняць зьмесьціва хоць-якое бачыны сеціва на зламыснае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may use this to forge incoming SMS messages.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213319Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб падрабляць уваходныя SMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Malicious applications may use this to kill any other running application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213305Z" changeid="klyok">
+        <seg>Зламысныя праграмы могуць карыстацца гэтым, каб забіваць іншыя запушчаныя праграмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manage</seg>
       </tuv>
       <tuv lang="be" changedate="20110313T125756Z" changeid="klyok">
@@ -16295,6 +17387,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110323T072412Z" changeid="klyok">
         <seg>Травень</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>May allow malicious applications to discover private information about other applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212959Z" changeid="klyok">
+        <seg>Можа дазволіць зламысным праграмам выявіць асабістыя зьвесткі пра іншыя праграмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17131,6 +18231,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Never needed for normal applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213411Z" changeid="klyok">
+        <seg>Звычайным праграма гэта ніколі ня трэба.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Never show me the message again!</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T204511Z" changeid="klyok">
@@ -17323,6 +18431,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Next call: Not restricted</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212428Z" changeid="klyok">
+        <seg>Наступны выклік: не абмяжоўваецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Next call: Restricted</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212413Z" changeid="klyok">
+        <seg>Наступны выклік: абмяжоўваецца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Nickname</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T153425Z" changeid="alex73">
@@ -17367,6 +18491,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110302T113928Z" changeid="klyok">
         <seg>Ня выявілі карткі SD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No SIM card found.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205854Z" changeid="klyok">
+        <seg>Не знайшлі карткі SIM.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17883,6 +19015,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Not for use by normal applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213437Z" changeid="klyok">
+        <seg>Звычайнымі праграмамі не выкарыстоўваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Not found</seg>
       </tuv>
       <tuv lang="be" changedate="20110325T102829Z" changeid="klyok">
@@ -17943,6 +19083,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110125T152226Z" changeid="alex73">
         <seg>Зацемка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note that this does not allow the application to call emergency numbers.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074529Z" changeid="klyok">
+        <seg>Заўважце, што гэта не дазваляе праграме выклікаць надзвычайныя нумары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18327,6 +19475,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110219T110023Z" changeid="klyok">
         <seg>Магчымыя толькі надзвычайныя выклікі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Only available when a phone is running in manufacturer test mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074747Z" changeid="klyok">
+        <seg>Гэта можна рабіць толькі калі тэлефон ужо працуе ў стане вытворчых выпрабаваньняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18835,6 +19991,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>PUK2 requested.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205620Z" changeid="klyok">
+        <seg>Запыталіся на код PUK2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Pacific</seg>
       </tuv>
       <tuv lang="be" changedate="20110321T154523Z" changeid="klyok">
@@ -18949,8 +20113,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Parse error</seg>
       </tuv>
-      <tuv lang="be" changedate="20110324T183632Z" changeid="klyok">
-        <seg>Выявілі памылку, калі разьбіралі</seg>
+      <tuv lang="be" changedate="20110326T205139Z" changeid="klyok">
+        <seg>Далі хібу, калі разьбіралі</seg>
       </tuv>
     </tu>
     <tu>
@@ -18975,6 +20139,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110322T105910Z" changeid="klyok">
         <seg>Зьмяніць пароль</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Password incorrect, SIM is locked!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205615Z" changeid="klyok">
+        <seg>Замкнулі картку SIM: неадпаведны пароль!</seg>
       </tuv>
     </tu>
     <tu>
@@ -19137,6 +20309,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110323T080424Z" changeid="klyok">
         <seg>Можнасьці тэлефону</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Phone storage is full!</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212622Z" changeid="klyok">
+        <seg>Сховішча тэлефону запоўнілася!</seg>
       </tuv>
     </tu>
     <tu>
@@ -19333,6 +20513,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please insert a SIM card into the phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205958Z" changeid="klyok">
+        <seg>Калі ласка, усуньце картку SIM у тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please insert a SIM card.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T145045Z" changeid="klyok">
@@ -19413,10 +20601,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please type PUK code.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T080421Z" changeid="klyok">
+        <seg>Калі ласка, набярыце код PUK.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please type a valid email address and password.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T210637Z" changeid="klyok">
         <seg>Калі ласка, набярыце чынны адрас эл. пошты ды гасло.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Please type new PIN code.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T080447Z" changeid="klyok">
+        <seg>Калі ласка, набярыце новы код PIN.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19817,6 +21021,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110325T073757Z" changeid="klyok">
         <seg>Падпіскі на штуршкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Puts the activity manager into a shutdown state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213136Z" changeid="klyok">
+        <seg>Пераводзіць кіраўнік дзейнасьці ў выключаны стан.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20703,8 +21915,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Restricted access changed</seg>
       </tuv>
-      <tuv lang="be" changedate="20110323T074231Z" changeid="klyok">
-        <seg>Зьмянілі абмежаваны доступ</seg>
+      <tuv lang="be" changedate="20110326T212528Z" changeid="klyok">
+        <seg>Зьмянілі абмежаваньне доступу</seg>
       </tuv>
     </tu>
     <tu>
@@ -20769,6 +21981,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110306T131056Z" changeid="klyok">
         <seg>Зноўку паспрабаваць абнавіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Retry, or cancel and return to the previous screen.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211725Z" changeid="klyok">
+        <seg>Паспрабуйце зноўку, ці скасуйце ды вярніцеся да папярэдняга экрану.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21013,6 +22233,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Run as a low-level manufacturer test, allowing complete access to the phone hardware.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074744Z" changeid="klyok">
+        <seg>Запускаць на вытворчых выпрабаваньняў нізкага ўзроўню, што дае поўны доступ да прыстасаваньняў тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Run as a low-level manufacturer test, allowing complete access to the phone hardware. Only available when a phone is running in manufacturer test mode.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T134256Z" changeid="klyok">
@@ -21065,6 +22293,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110325T085417Z" changeid="klyok">
         <seg>Картка SD не прымацаваная!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SD card removed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075319Z" changeid="klyok">
+        <seg>Картку SD выцягнулі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21733,6 +22969,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select \&quot;OK\&quot; to continue, or \&quot;Cancel\&quot; to stop sending.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075200Z" changeid="klyok">
+        <seg>Абярыце «Добра», каб працягваць, або «Скасаваць», каб спыніць адсылаць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select \&quot;Show pictures\&quot; to display embedded pictures.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T205144Z" changeid="klyok">
@@ -21953,6 +23197,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T152347Z" changeid="klyok">
         <seg>Выбраць тэкст</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select the button below if you want to copy files between your computer and your Android‘s SD card.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075214Z" changeid="klyok">
+        <seg>Націсьніце кнопку ўнізе, калі вы хочаце перапісаць файлы з кампутару на картку SD тэлефону, ці наадварот.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22922,6 +24174,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110325T083153Z" changeid="klyok">
         <seg>Выклічнікі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Should never be needed for normal applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213054Z" changeid="klyok">
+        <seg>Звычайныя праграмы ня мусяць патрабаваць гэтае магчымасьці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24719,6 +25979,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The PIN2s you entered do not match.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205747Z" changeid="klyok">
+        <seg>Набраныя вамі коды PIN2 не супадаюць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The PIN2s you entered do not match. Please try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20110313T112059Z" changeid="klyok">
@@ -24745,8 +26013,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>The PUK you typed is not correct.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110322T105103Z" changeid="klyok">
-        <seg>Набраны вамі стары PUK няслушны.</seg>
+      <tuv lang="be" changedate="20110326T212253Z" changeid="klyok">
+        <seg>Набраны вамі PUK неадпаведны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24755,6 +26023,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T164948Z" changeid="klyok">
         <seg>Набраны вамі PUK неадпаведны. Калі ласка, набярыце код PUK.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The PUK2 you typed is not correct.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205658Z" changeid="klyok">
+        <seg>Набраны вамі PUK2 неадпаведны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24769,8 +26045,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>The SIM PINs you typed do not match.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T071400Z" changeid="alex73">
-        <seg>Набраныя PIN-коды не супадаюць.</seg>
+      <tuv lang="be" changedate="20110326T205325Z" changeid="klyok">
+        <seg>Набраныя коды PIN карткі SIM не супадаюць.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24855,6 +26131,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The application %1$s (process %2$s) has stopped unexpectedly.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075138Z" changeid="klyok">
+        <seg>Праграма %1$s (працэс %2$s) нечакана спынілася.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The application %1$s (process %2$s) has stopped unexpectedly. Please try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T153035Z" changeid="klyok">
@@ -24867,6 +26151,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110326T144038Z" changeid="klyok">
         <seg>Праграма &lt;x0&gt;%1$s&lt;/x0&gt; (працэс &lt;x1&gt;%2$s&lt;/x1&gt;) нечакана спынілася. Калі ласка, паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The application update will be uninstalled.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205052Z" changeid="klyok">
+        <seg>Гэтая абнаўленьне праграмы высталюецца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25007,8 +26299,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>The old PIN you typed is not correct.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110322T105054Z" changeid="klyok">
-        <seg>Набраны вамі стары PIN няслушны.</seg>
+      <tuv lang="be" changedate="20110326T212234Z" changeid="klyok">
+        <seg>Набраны вамі стары PIN неадпаведны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25021,10 +26313,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The old PIN2 you typed is not correct.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205712Z" changeid="klyok">
+        <seg>Набраны вамі стары PIN2 неадпаведны..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The old PIN2 you typed is not correct. Please try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20110313T112052Z" changeid="klyok">
         <seg>Набраны вамі стары PIN2 няслушны. Калі ласка, паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The page at '%s' says:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075000Z" changeid="klyok">
+        <seg>Бачына з «%s» кажа:</seg>
       </tuv>
     </tu>
     <tu>
@@ -25089,6 +26397,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110326T125249Z" changeid="klyok">
         <seg>Вы набралі недапушчальны нумар порту.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The process %1$s has stopped unexpectedly.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075145Z" changeid="klyok">
+        <seg>Працэс %1$s нечакана спыніўся.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25185,6 +26501,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T223234Z" changeid="klyok">
         <seg>Паслужнік &lt;x0&gt;%s&lt;/x0&gt; патрабуе, каб вы дазволілі яму адлегла кіраваць пэўнымі функцыямі бясьпекі вашага тэлефону. Ці хочаце вы скончыць настаўляць гэты рахунак?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The server failed to communicate.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212559Z" changeid="klyok">
+        <seg>Паслужніку не ўдалося перадаць.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25330,6 +26654,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110304T124620Z" changeid="klyok">
         <seg>Няма кантактаў, якія можна выняць. Калі вы сапраўды маеце на тэлефоне кантакты, мажліва, нейкі з пастаўнікоў гэтых зьвестак не дазваляе вымаць гэтыя кантакты па-за межы тэлефону.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There was a problem turning off USB storage.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075224Z" changeid="klyok">
+        <seg>Выявілася праблема, калі спрабавалі выключыць сховішча USB.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25518,6 +26850,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This allows it to discover general information about what you are doing with the phone, but they should not contain any personal or private information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213817Z" changeid="klyok">
+        <seg>Гэта дазваляе выяўляць агульныя зьвесткі пра тое, што вы робіце на тэлефоне, але справаздачы мусяць не зьмяшчаць ніякіх асабістых зьвестак.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This allows the application at any time to collect images the camera is seeing.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074501Z" changeid="klyok">
+        <seg>Гэта дазваляе праграме ў хоць-які час атрымваць выявы, якія бачыць камэра</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This application will be uninstalled.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T183411Z" changeid="klyok">
@@ -25530,6 +26878,30 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T210044Z" changeid="klyok">
         <seg>Гэты залучнік нельга паказаць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This can allow malicious applications to silently change the applications that are run, spoofing your existing applications to collect private data from you.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214017Z" changeid="klyok">
+        <seg>Гэта можа дазволіць зламысным праграмам цішком замяняць запушчаныя праграмы, падманваючы існыя праграмы, каб сабраць вашыя асабістыя зьвесткі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This can be useful when discovering services offered near by.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074830Z" changeid="klyok">
+        <seg>Гэта можа быць карысным, каб выявіць, якія службы прапануюцца блізу вас.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This can make it take longer to start the phone and allow the application to slow down the overall phone by always running.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T214127Z" changeid="klyok">
+        <seg>Гэта можа павялічыць час запуску тэлефону ды дапусьціць, каб праграмы запаволілі ўсю працу тэлефону, бо яны будуць працаваць увесь час.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25574,6 +26946,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This could allow a malicious application to change your synced feeds.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074911Z" changeid="klyok">
+        <seg>Гэта можа дазволіць зламысным праграмам зьмяняць вашыя сынхранізаваныя жывільнікі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This could potentially affect system stability and security.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213848Z" changeid="klyok">
+        <seg>Гэта можа паўплываць на ўстойлівасьць ды бясьпеку сыстэмы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This event has been canceled for: %s</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T221721Z" changeid="klyok">
@@ -25598,6 +26986,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This is a system application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204929Z" changeid="klyok">
+        <seg>Гэта сыстэмная праграма.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is a system application. Do you still want to replace it?\n\nAll previous user data will be saved.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T183123Z" changeid="klyok">
@@ -25612,6 +27008,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110326T105337Z" changeid="klyok">
         <seg>This is an example of speech synthesis in English.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is very dangerous.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074511Z" changeid="klyok">
+        <seg>Гэта вельмі небясьпечна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25632,10 +27036,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This permission is only needed for development, never for normal phone usage.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213235Z" changeid="klyok">
+        <seg>Гэты дазвол патрабуецца толькі каб распрацоўваць, і ніколі не патрэбны ў звычайных умовах.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This server requires security features your phone does not support.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T214834Z" changeid="klyok">
         <seg>Гэты паслужнік патрабуе функцыі бясьпекі, якія ваш тэлефон не падтрымвае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This should be ONLY be used for hardware-specific diagnostics by the manufacturer or operator.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213853Z" changeid="klyok">
+        <seg>Такі дазвол мусіць выкарыстоўвацца ТОЛЬКІ ў адмысловае дыягностыцы абсталяваньня апэратарам або вытворцам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25969,6 +27389,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Too many requests are being processed.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212607Z" changeid="klyok">
+        <seg>Выконваецца зашмат запытаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Too many requests are being processed. Try again later.</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T080231Z" changeid="klyok">
@@ -26075,6 +27503,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Touch “Activate” to place a special call that activates your phone on your carrier's mobile network, so you can place calls and connect to mobile data networks.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210157Z" changeid="klyok">
+        <seg>Націсьніце «Задзейнічаць», каб набраць нумар, які задзейнічае ваш тэлефон у сетцы вашага апэратару перасоўнае сувязі, так што вы зможаце тэлефанаваць і далучацца да перасоўных сетак перадаваць дадзеныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Touch “Activate” to place a special call that activates your phone on your carrier\'s mobile network, so you can place calls and connect to mobile data networks.</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T164329Z" changeid="klyok">
@@ -26165,8 +27601,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Try again later.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T065118Z" changeid="alex73">
-        <seg>Паспрабуйце яшчэ раз пазьней.</seg>
+      <tuv lang="be" changedate="20110326T211838Z" changeid="klyok">
+        <seg>Паспрабуйце зноўку пазьней.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26405,8 +27841,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Type a PUK2 that is 8 numbers.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110313T112122Z" changeid="klyok">
-        <seg>Набярыце PUK2 (ён мусіць 8 лічбаў).</seg>
+      <tuv lang="be" changedate="20110326T205813Z" changeid="klyok">
+        <seg>Набярыце PUK2 (8 лічбаў).</seg>
       </tuv>
     </tu>
     <tu>
@@ -26423,6 +27859,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110322T094244Z" changeid="klyok">
         <seg>Від спавяшчэньня, якое будзе паказвацца, калі праграма атрымала правы спраўніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Type the PUK code to unlock it.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212341Z" changeid="klyok">
+        <seg>Набярыце код PUK, каб адамкнуць яе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26557,8 +28001,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Unable to connect to this network at this time.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T081007Z" changeid="alex73">
-        <seg>Немагчыма падлучыцца да гэтай сеткі ў дадзены момант.</seg>
+      <tuv lang="be" changedate="20110326T205512Z" changeid="klyok">
+        <seg>Зараз немагчыма злучыцца з гэтаю сеткаю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26597,8 +28041,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Unable to release call(s).</seg>
       </tuv>
-      <tuv lang="be" changedate="20110219T125553Z" changeid="klyok">
-        <seg>Немагчыма вызваліць выклік.</seg>
+      <tuv lang="be" changedate="20110326T210053Z" changeid="klyok">
+        <seg>Немагчыма вызваліць выклік(і).</seg>
       </tuv>
     </tu>
     <tu>
@@ -26763,6 +28207,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Uninstalling…</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205101Z" changeid="klyok">
+        <seg>Высталёўваецца…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Unknown</seg>
       </tuv>
       <tuv lang="be" changedate="20110326T120615Z" changeid="klyok">
@@ -26887,6 +28339,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110313T125226Z" changeid="klyok">
         <seg>Служба не падтрымваецца.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Until you activate your phone, you are asked to activate it each time you turn it on.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210215Z" changeid="klyok">
+        <seg>Вам будуць прапаноўваць задзейнічаць тэлефон па кожным запуску, ажно пакуль вы нарэшце не задзейнічаеце яго.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28070,6 +29530,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>With this permission, applications can give access to personal data to other applications.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074643Z" changeid="klyok">
+        <seg>Праграма, якая мае такі дазвол, можа мець доступ да асабістых зьвестак іншых праграмаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Work</seg>
       </tuv>
       <tuv lang="be" changedate="20110322T100032Z" changeid="klyok">
@@ -28226,6 +29694,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T160345Z" changeid="klyok">
         <seg>Вы можаце выцягваць картку SD бяз рызыкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can still use the factory version of the application.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205058Z" changeid="klyok">
+        <seg>Вы зможаце працягваць карыстацца завадзкою вэрсіяй гэтае праграмы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28408,6 +29884,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You have connected your phone to your computer via USB.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075209Z" changeid="klyok">
+        <seg>Вы злучылі ваш тэлефон з кампутарам праз USB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You have connected your phone to your computer via USB. Select the button below if you want to copy files between your computer and your Android\u2018s SD card.</seg>
       </tuv>
       <tuv lang="be" changedate="20110326T144614Z" changeid="klyok">
@@ -28428,6 +29912,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T205911Z" changeid="klyok">
         <seg>Вы адмовіліся ад запрашэньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You have incorrectly drawn your unlock pattern %d times.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074922Z" changeid="klyok">
+        <seg>Вы %d разоў намалявалі неадпаведны ўзор адмыканьня.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28468,6 +29960,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
         <seg>Вы &lt;x0&gt;%d&lt;/x0&gt; разоў намалявалі неадпаведны ўзор адмыканьня.\n
 \n
 Калі ласка, праз &lt;x1&gt;%d&lt;/x1&gt; сэкундаў паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You have incorrectly tried %d times.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T080500Z" changeid="klyok">
+        <seg>Вы няўдала спрабавалі %d разоў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28538,6 +30038,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You will receive an email with details.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211951Z" changeid="klyok">
+        <seg>Вы атрымаеце ліст з падрабязнасьцямі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your SIM card does not allow a connection to this network.</seg>
       </tuv>
       <tuv lang="be" changedate="20110219T195803Z" changeid="klyok">
@@ -28548,8 +30056,8 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="en">
         <seg>Your SIM card has been unblocked.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110128T071431Z" changeid="alex73">
-        <seg>Вашая SIM-картка разблякаваная.</seg>
+      <tuv lang="be" changedate="20110326T205353Z" changeid="klyok">
+        <seg>Вашую картку SIM разблякавалі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28683,6 +30191,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your phone did not activate.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210317Z" changeid="klyok">
+        <seg>Ваш тэлефон не атрымліваецца задзейнічаць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your phone did not activate. \nYou may need to find an area with better coverage (near a window, or outside). \n\nTry again or call customer service for more options.</seg>
       </tuv>
       <tuv lang="be" changedate="20110219T173556Z" changeid="klyok">
@@ -28690,6 +30206,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
 Мажліва, вам трэба пашукаць мейсца зь лепшым пакрыцьцём (ля вакна, ці звонку).\n
 \n
 Паспрабуйце зноўку ці патэлефануйце ў службу падтрымкі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your phone is now activated.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210246Z" changeid="klyok">
+        <seg>Ваш тэлефон цяпер задзейнічаны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28706,6 +30230,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110128T071444Z" changeid="alex73">
         <seg>Ваш тэлефон разблякаваны \u2026</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your phone is unlocking…</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T205426Z" changeid="klyok">
+        <seg>Цяпер здымаецца блёк з вашага тэлефону…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your phone will shut down in 30 seconds.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T080359Z" changeid="klyok">
+        <seg>Ваш тэлефон выключыцца праз 30 сэкундаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28734,10 +30274,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\&quot;%1$s\&quot; has been removed because it is known to damage your phone or cause loss of data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211934Z" changeid="klyok">
+        <seg>«%1$s» сьцерлі, бо вядома, што гэтая праграма шкодзіць вашаму тэлефону ці можа спрычыніцца да страты дадзеных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\&quot;%1$s\&quot; has been removed because it is known to damage your phone or cause loss of data. You will receive an email with details.</seg>
       </tuv>
       <tuv lang="be" changedate="20110325T104839Z" changeid="klyok">
         <seg>«%1$s» сьцерлі, бо вядома, што гэтая праграма шкодзіць вашаму тэлефону ці можа спрычыніцца да страты дадзеных. Вы атрымаеце ліст з падрабязнасьцямі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\&quot;%1$s\&quot; has been removed from your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212007Z" changeid="klyok">
+        <seg>«%1$s» сьцерлі з вашага тэлефону.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28771,6 +30327,15 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       <tuv lang="be" changedate="20110326T163509Z" changeid="klyok">
         <seg>\n
 Ці працягваць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\nYou may need to find an area with better coverage (near a window, or outside).</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210336Z" changeid="klyok">
+        <seg>\n
+Мажліва, вам трэба пашукаць мейсца зь лепшым пакрыцьцём (ля вакна, ці звонку).</seg>
       </tuv>
     </tu>
     <tu>
@@ -28831,6 +30396,26 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\n\nAfter pressing “Activate”, listen to the instructions provided to activate your phone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210139Z" changeid="klyok">
+        <seg>\n
+\n
+Націсьніце «Задзейнічаць» і праслухайце адпаведныя ўказаньні, якія дапамогуць задзейнічаць ваш тэлефон.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\n\nPlease try again in %d seconds.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T074928Z" changeid="klyok">
+        <seg>\n
+\n
+Калі ласка, праз %d сэкундаў паспрабуйце зноўку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\n\nThe upgrade process requires approximately %dMb of internal phone storage.\n\nChoose one of the following options:</seg>
       </tuv>
       <tuv lang="be" changedate="20110326T173319Z" changeid="klyok">
@@ -28839,6 +30424,16 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
 Гэта патрабуе прыкладна %d Мб унутранага сховішча тэлефону.\n
 \n
 Абярыце адну з наступных можнасьцяў:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\n\nTry again or call customer service for more options.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T210357Z" changeid="klyok">
+        <seg>\n
+\n
+Паспрабуйце зноўку ці патэлефануйце ў службу падтрымкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28999,6 +30594,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110326T082215Z" changeid="klyok">
         <seg>android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>apps</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T212115Z" changeid="klyok">
+        <seg>праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -29431,6 +31034,22 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110323T093156Z" changeid="klyok">
         <seg>выдаляць праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>delete other applications' caches</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213723Z" changeid="klyok">
+        <seg>выдаляць запасьнікі іншых праграмаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>delete other applications' data</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T213715Z" changeid="klyok">
+        <seg>выдаляць дадзеныя іншых праграмаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -29979,6 +31598,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>intent:#Intent;action=android.intent.action.MAIN;component=com.android.contacts/.ContactsLaunchActivity;end</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T204447Z" changeid="klyok">
+        <seg>intent:#Intent;action=android.intent.action.MAIN;component=com.android.contacts/.ContactsLaunchActivity;end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>interact with a device admin</seg>
       </tuv>
       <tuv lang="be" changedate="20110323T092605Z" changeid="klyok">
@@ -30455,6 +32082,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T133757Z" changeid="klyok">
         <seg>не дазваляць тэлефону засынаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>read Browser's history and bookmarks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075007Z" changeid="klyok">
+        <seg>чытаць гісторыю ды закладкі Аглядальніку</seg>
       </tuv>
     </tu>
     <tu>
@@ -30987,6 +32622,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>true</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110326T211654Z" changeid="klyok">
+        <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>two</seg>
       </tuv>
       <tuv lang="be" changedate="20110125T153153Z" changeid="alex73">
@@ -31119,6 +32762,14 @@ http://sites.google.com/site/stace75/magnetlink/magnetlink-english.&lt;/p0&gt;\n
       </tuv>
       <tuv lang="be" changedate="20110324T135820Z" changeid="klyok">
         <seg>запісваць налады пунктаў доступу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>write Browser's history and bookmarks</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110327T075019Z" changeid="klyok">
+        <seg>запісваць гісторыю ды закладкі Аглядальніку</seg>
       </tuv>
     </tu>
     <tu>

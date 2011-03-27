@@ -20,6 +20,7 @@ application	праграма
 apply	ужыць
 apps	праграмы
 app	праграма
+archive	архіваваць
 Are you sure you want to	Ці ўпэўненыя вы, што хочаце
 attachments	залучнікі
 attachment	залучнік -а
@@ -29,6 +30,7 @@ authenticating	апазнаваньне
 authentication	апазнаваньне
 authenticator	апазнавальнік
 automatically	самарушна
+auto-refresh	самарушна абнаўляцца
 auto	самарушна
 backed up	захавалі адноўку
 background data	злучацца на заднім пляне
@@ -37,6 +39,8 @@ background	тло
 backup	адноўка
 back up	захаваць адноўку
 bad	кепскі
+battery	батарэя
+bcc	сьляпая копія (СК; «blind carbon copy»)
 bookmarks	закладкі
 bookmark	закладка
 booting	першагрузіцца
@@ -44,6 +48,7 @@ booting	першагрузка
 boot	першагрузіцца
 browser	аглядальнік
 build	зборка
+buttons	кнопкі
 caches	запасьнікі
 cache	запасьнік
 call log	гісторыя выклікаў
@@ -53,9 +58,13 @@ call	выклікаць
 Cancel	Скасаваць
 cannot	нельга
 car mode	стан «у машыне»
+cc	копія («carbon copy»)
 certificates	пасьведчаньні
 certificate	пасьведчаньне
+charging	зараджаецца
+CID	азначальнік ячэйкі («Cell Identification», «Cell ID»)
 clipboard	кішэня
+close	зачыняць
 coarse	грубы
 columns	слупкі
 comments	выказваньні
@@ -67,7 +76,10 @@ conference call	выклік да нарады
 conference	нарада
 configuration	настаўленьне
 configure	настаўляць
+connected	злучыліся
+connecting	злучаемся
 container	зьмяшчальня
+conversation	размова
 copy	перапісваць
 correct	адпаведны
 could not	нельга
@@ -87,7 +99,12 @@ details	падрабязнасьці
 detected	выявілі
 detect	выяўляць
 developer	распрацоўнік
+devices	прылады
 device	прылада
+discard	адкідаць
+discharging	разраджаецца
+disconnected	адлучыліся
+disconnecting	адлучаемся
 DockBar	латок-паліца
 dock	латок
 downloader	сьцягвальнік
@@ -102,6 +119,7 @@ DTMF tones	танальныя сыгналы
 emergency	надзвычайны
 emoticon	пачуцьцезнак
 enable/disable	ці карыстацца
+enter	упісваць
 error occured	выявілася памылка
 error occured	далі хібу
 error occured	здарылася памылка
@@ -112,6 +130,7 @@ export	вымаць
 external	вонкавы
 favorites	улюбёныя
 favorite	улюбёны
+FDN	замацаваныя нумары (ЗН)
 feature code	код уласьцівасьці
 features	функцыі
 feeds	жывільнікі
@@ -122,6 +141,7 @@ flashlight	ліхтарык
 folders	каталёгі
 folder	каталёг
 format	разьмячаць
+for more information	каб даведацца болей
 forwarding	перасылаецца
 forwarding	перасыланьне
 forward	перасылаць
@@ -137,22 +157,30 @@ icons	значкі
 icon	значак
 identity	тоеснасьць
 ID	азначальнік
+images	відарысы
+image	відарыс
 import	браць
 IM	паведамляльнік
 incorrect	неадпаведны
 indicator	паказальнік
+insert	усоўваць (картку)
+insert	устаўляць (тэкст)
 installation	ўсталёўваць
 installed	усталявалі
 install	усталёўваць
 invalid	хібны
+IP	адрас IP
 junk	лухта
 labels	подпісы
 label	подпіс
+LAC	код мясцовасьці («Location Area Code»)
 landscape	альбомная
 launcher	пускач
 location	вызначаць мейсца
 location	мейсца
 location	месцазнаходжаньне
+locked	замкнёны
+lock	замыкаць
 log	справаздача
 mailbox	паштовая скрынка
 Malicious applications can use this to	Зламысныя праграмы могуць карыстацца гэтым, каб
@@ -175,27 +203,42 @@ not found	не знайшлі
 notifications	спавяшчэньні
 notification	спавяшчэньне
 not readable	нельга прачытаць
+obtaining	атрымваем
 OK	Добра
+open	адчыніць
 options	можнасьці
 out of space	бракуе прасторы
 package	пакунак
 pager	гартач
 page	бачына
 paired	спалучаны
+pairing	спалучацца
 pair	спалучаць
+panel	панэль
 parser	разьбіральнік
 passwords	паролі
 password	пароль
 pattern	узор
+PDP	пратакол пакетных зьвестак («Packet Data Protocol»)
 peripherals	вонкавыя прылады
 personal	асабісты
 pick	выбіраць
 PIN code	код PIN
+plugged in	улучылі
+plugged in	ўлучаны
 portrait	кніжная
+port	порт -у
 preferences	перавагі
+preferred	жаданы
+preferred	пераважны
+prefetching	загадзя атрымваць
+prefetch	загадзя атрымваць
+preview	прыклад
 privacy	адасобленасьць
 provider	пастаўнік
 proxy	пасродак
+quoted text	вытрымка
+radio	радыёсувязь
 recipient	атрымальнік
 registered	запісаліся
 register	запісвацца
@@ -222,11 +265,14 @@ restoring	аднаўляюцца
 rotate left	павярніце налева
 rotate right	павярніце направа
 rows	радкі
+scanning	аглядаем
+scan	шукаць
 screen	экран -у
 scrollable	пракручвальны
 SD card	картка SD
 sensor	чуйнік
 server	паслужнік
+Service Dialing Numbers	службовыя нумары
 settings	налады
 setting up	уладкоўваць
 setting	налады
@@ -234,6 +280,7 @@ set up	уладкоўваць
 setup	уладкоўваць
 set wallpaper	усталяваць шпалеры
 shared	супольны
+share	дзяліцца
 shortcuts	выклічнікі
 shortcut	выклічнік
 show previews	аглядацца
@@ -241,25 +288,34 @@ silent mode	бязгучны стан
 SIM card	картка SIM
 site	пляцоўка
 SMS messages	паведамленьні SMS
+snooze	адкладаць
 sockets	гнёзды
 sorry	выбачайце
+spam	лухта
 speaker	галосьнік
+star	зорачка
 status bar	паліца стану
 statusbar	паліца стану
 status	стан
 storage	сховішча
+stories	рэпартажы
+story	рэпартаж
 style	выгляд
 successfully	пасьпяхова
 superuser	спраўнік
 support	падтрымваць
+suspended	прыпынілі
 themes	аздабленьні
 theme	аздабленьне
+This alarm is set for	Будзька спрацуе праз
 time zone	часавы пас
 tokens	прыкметы
 token	прыкмета
 tools	начыньне
 trackball	трэкбол
 trash	сьметніца
+TTS	сыстэма агучваць тэкст
+typed	набралі
 types	віды
 type	від
 type	набіраць
@@ -278,64 +334,10 @@ valid	чынны
 vCard	візытоўка
 vibrate	трымцець
 vibrator	трымценьнік
+view	зірнуць
 warning	перасьцярога
 web page	бачына сеціва
 web	сеціва
 widgets	віджэты
 widget	віджэт
 wireless	бяздротавы
-open	адчыніць
-close	зачыняць
-panel	панэль
-buttons	кнопкі
-enter	упісваць
-share	дзяліцца
-image	відарыс
-images	відарысы
-story	рэпартаж
-stories	рэпартажы
-auto-refresh	самарушна абнаўляцца
-prefetch	загадзя атрымваць
-prefetching	загадзя атрымваць
-archive	архіваваць
-connecting	злучаемся
-scanning	аглядаем
-TTS	сыстэма агучваць тэкст
-obtaining	атрымваем
-connected	злучыліся
-suspended	прыпынілі
-disconnecting	адлучаемся
-disconnected	адлучыліся
-IP	адрас IP
-plugged in	ўлучаны
-plugged in	улучылі
-radio	радыёсувязь
-view	зірнуць
-FDN	замацаваныя нумары (ЗН)
-Service Dialing Numbers	службовыя нумары
-PDP	пратакол пакетных зьвестак («Packet Data Protocol»)
-LAC	код мясцовасьці («Location Area Code»)
-CID	азначальнік ячэйкі («Cell Identification», «Cell ID»)
-battery	батарэя
-discharging	разраджаецца
-lock	замыкаць
-locked	замкнёны
-devices	прылады
-scan	шукаць
-pairing	спалучацца
-preview	прыклад
-typed	набралі
-port	порт -у
-preferred	пераважны
-preferred	жаданы
-charging	зараджаецца
-snooze	адкладаць
-This alarm is set for	Будзька спрацуе праз
-cc	копія («carbon copy»)
-bcc	сьляпая копія (СК; «blind carbon copy»)
-for more information	каб даведацца болей
-conversation	размова
-spam	лухта
-discard	адкідаць
-quoted text	вытрымка
-star	зорачка
