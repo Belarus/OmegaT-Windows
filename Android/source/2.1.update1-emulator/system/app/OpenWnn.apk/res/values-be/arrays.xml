@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="keyboard_skin">
+        <item>@string/preference_keyboard_android_default</item>
+        <item>@string/preference_keyboard_simple</item>
+        <item>@string/preference_keyboard_metal</item>
+    </array>
+    <string-array name="keyboard_skin_id">
+        <item>keyboard_android_default</item>
+        <item>keyboard_simple</item>
+        <item>keyboard_metal</item>
+    </string-array>
+</resources>

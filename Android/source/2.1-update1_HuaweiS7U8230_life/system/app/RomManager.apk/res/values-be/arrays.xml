@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="manage_options">
+        <item>Restore</item>
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="install_options">
+        <item>Backup Existing ROM</item>
+        <item>Wipe Data and Cache</item>
+    </string-array>
+    <string-array name="restore_partitions">
+        <item>Restore Boot</item>
+        <item>Restore System</item>
+        <item>Restore Data</item>
+        <item>Restore Cache</item>
+        <item>Restore SD-Ext</item>
+    </string-array>
+    <string-array name="ext_size_options">
+        <item>128MB</item>
+        <item>256MB</item>
+        <item>512MB</item>
+    </string-array>
+    <string-array name="swap_size_options">
+        <item>0MB</item>
+        <item>32MB</item>
+        <item>64MB</item>
+        <item>128MB</item>
+        <item>256MB</item>
+    </string-array>
+    <string-array name="automatic_backup_frequencies">
+        <item>Daily</item>
+        <item>Every Two Days</item>
+        <item>Every Three Days</item>
+        <item>Every Four Days</item>
+        <item>Every Five Days</item>
+        <item>Every Six Days</item>
+        <item>Every Seven Days</item>
+    </string-array>
+    <string-array name="recovery_failures">
+        <item>Recovery mode is \"broken\".</item>
+        <item>ROM Manager doesn\'t reboot.</item>
+        <item>Other.</item>
+    </string-array>
+    <string-array name="purchase_options">
+        <item>PayPal ($3.99)</item>
+        <item>Android Market ($4.99)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="prediction_modes">
+        <item>None</item>
+        <item>Basic</item>
+        <item>Advanced</item>
+    </string-array>
+    <array name="prediction_modes_values">
+        <item>@string/prediction_none</item>
+        <item>@string/prediction_basic</item>
+        <item>@string/prediction_full</item>
+    </array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Download Manager</string>
+    <string name="permlab_downloadManager">Access download manager.</string>
+    <string name="permdesc_downloadManager">Allows the application to access the download manager and to use it to download files. Malicious applications can use this to disrupt downloads and access private information.</string>
+    <string name="permlab_downloadManagerAdvanced">Advanced download manager functions.</string>
+    <string name="permdesc_downloadManagerAdvanced">Allows the application to access the download manager\'s advanced functions. Malicious applications can use this to disrupt downloads and access private information.</string>
+    <string name="permlab_downloadCompletedIntent">Send download notifications.</string>
+    <string name="permdesc_downloadCompletedIntent">Allows the application to send notifications about completed downloads. Malicious applications can use this to confuse other applications that download files.</string>
+    <string name="permlab_seeAllExternal">See all downloads to SD card</string>
+    <string name="permdesc_seeAllExternal">Allows the application to see all downloads to the SD card, regardless of which application downloaded them.</string>
+    <string name="download_unknown_title">&lt;Untitled></string>
+    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_extras">\u0020and %d more</string>
+    <string name="notification_download_complete">Download complete</string>
+    <string name="notification_download_failed">Download unsuccessful</string>
+</resources>
