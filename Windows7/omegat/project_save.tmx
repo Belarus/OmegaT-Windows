@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
   <header
@@ -2297,7 +2297,7 @@
         <seg>%2!ls! refers to a location that is unavailable. It could be on a hard drive on this computer, or on a network. Check to make sure that the disk is properly inserted, or that you are connected to the Internet or your network, and then try again. If it still cannot be located, the information might have been moved to a different location.</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T114334Z" changeid="eratyk">
-        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютэры, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы падлучаныя да сеткі альбо Сеціва, і потым паспрабуйце яшчэ. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
+        <seg>%2!ls! спасылаецца на недаступнае месца. Яно можа быць і на гэтым камп'ютары, і ў сетцы. Пераканайцеся, што дыск падключаны, ці што Вы падлучаныя да сеткі альбо Сеціва, і потым паспрабуйце яшчэ. Калі праблема паўтараецца, магчыма, інфармацыя была перамешчаная ў іншае месца.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3214,6 +3214,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>%u important messages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194545Z" changeid="eratyk">
+        <seg>%u важных паведамленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%u messages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194559Z" changeid="eratyk">
+        <seg>%u паведамленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>%u minute ago</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T175322Z" changeid="eratyk">
@@ -3234,6 +3250,14 @@
       </tuv>
       <tuv lang="be" changedate="20100919T191649Z" changeid="eratyk">
         <seg>%u секундаў да адлучэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>%u total messages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194617Z" changeid="eratyk">
+        <seg>%u паведамленняў усяго</seg>
       </tuv>
     </tu>
     <tu>
@@ -5736,8 +5760,8 @@
       <tuv lang="en">
         <seg>&amp;Full scan</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T063957Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>По&amp;ўная праверка</seg>
+      <tuv lang="be" changedate="20110408T205007Z" changeid="eratyk">
+        <seg>Поўны прагляд</seg>
       </tuv>
     </tu>
     <tu>
@@ -7230,6 +7254,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Open Action Center</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192017Z" changeid="eratyk">
+        <seg>Адчыніць цэнтр дзеянняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Open Devices and Printers</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T165646Z" changeid="eratyk">
@@ -7752,8 +7784,8 @@
       <tuv lang="en">
         <seg>&amp;Quick scan</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T063938Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Хуткая &amp;праверка</seg>
+      <tuv lang="be" changedate="20110408T204958Z" changeid="eratyk">
+        <seg>Хуткі прагляд</seg>
       </tuv>
     </tu>
     <tu>
@@ -8424,8 +8456,8 @@
       <tuv lang="en">
         <seg>&amp;Scan now</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T140237Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>&amp;Праверыць зараз</seg>
+      <tuv lang="be" changedate="20110408T204930Z" changeid="eratyk">
+        <seg>Прагледзець зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -9418,6 +9450,14 @@
       </tuv>
       <tuv lang="be" changedate="20110104T172651Z" changeid="eratyk">
         <seg>Вырашыць праблемы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Troubleshoot a problem</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192044Z" changeid="eratyk">
+        <seg>Вырашыць праблему</seg>
       </tuv>
     </tu>
     <tu>
@@ -10462,6 +10502,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(Important)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T201758Z" changeid="eratyk">
+        <seg>(важнае)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(Live File System)</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T181202Z" changeid="eratyk">
@@ -11206,6 +11254,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>1 important message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194530Z" changeid="eratyk">
+        <seg>1 важнае паведамленне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>1 important update</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T165034Z" changeid="eratyk">
@@ -11218,6 +11274,14 @@
       </tuv>
       <tuv lang="be" changedate="20110404T131428Z" changeid="eratyk">
         <seg>1 элемент</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 message</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194550Z" changeid="eratyk">
+        <seg>1 паведамленне</seg>
       </tuv>
     </tu>
     <tu>
@@ -13785,7 +13849,7 @@
         <seg>&lt;a href=&quot;ReviewRTPPotentialThreats&quot;&gt;Review and take action&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T175849Z" changeid="eratyk">
-        <seg>&lt;a href=&quot;ReviewRTPPotentialThreats&quot;&gt;Прагледзець і выбраць дзеянні&lt;/a&gt;</seg>
+        <seg>&lt;a href=&quot;ReviewRTPPotentialThreats&quot;&gt;Прагледзець і абраць дзеянні&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14649,7 +14713,7 @@
         <seg>A problem caused this program's service to stop. To start the service, click the Start now button or restart your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T172246Z" changeid="eratyk">
-        <seg>Адбылася памылка, служба праграмы спынена. Каб запусціць службу, націсніце кнопку \&quot;Запусціць ці\&quot; або перазапусціце камп'ютэр.</seg>
+        <seg>Адбылася памылка, служба праграмы спынена. Каб запусціць службу, націсніце кнопку \&quot;Запусціць ці\&quot; або перазапусціце камп'ютар.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15874,6 +15938,22 @@
       </tuv>
       <tuv lang="be" changedate="20110104T171615Z" changeid="eratyk">
         <seg>Цэнтр дзеянняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Action Center Flyout</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T193720Z" changeid="eratyk">
+        <seg>Вынырац цэнтра дзеянняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Action Center is working</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T201807Z" changeid="eratyk">
+        <seg>Цэнтр дзеянняў працуе</seg>
       </tuv>
     </tu>
     <tu>
@@ -21558,6 +21638,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Back up your files</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202110Z" changeid="eratyk">
+        <seg>Рэзерваваць вашыя файлы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>BackSp</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T061625Z" changeid="eratyk">
@@ -21622,6 +21710,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Backup date: %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204550Z" changeid="eratyk">
+        <seg>Дата рэзервавання: %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Backup in progress</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202531Z" changeid="eratyk">
+        <seg>Выконваецца рэзерваванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Backup is not being monitored</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203014Z" changeid="eratyk">
+        <seg>Няма назірання за рэзерваваннем</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Backup of %1!s!</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T094130Z" changeid="eratyk">
@@ -21634,6 +21746,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T094054Z" changeid="eratyk">
         <seg>Рэзерваванне на %1!s!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Backup succeeded</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202418Z" changeid="eratyk">
+        <seg>Рэзерваванне паспяховае</seg>
       </tuv>
     </tu>
     <tu>
@@ -22841,7 +22961,7 @@
         <seg>Burn files in groups and individual files can't be edited or removed after burning. The disc will also work on most computers. (Mastered)</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T182105Z" changeid="eratyk">
-        <seg>Прапальванне файлаў групамі; асобныя файлы нельга будзе рэдагаваць ці выдаляць пасля прапальвання. Але гэтая кружэлка будзе працаваць на большасці камп'ютэраў. (Кіруючы фармат ISO)</seg>
+        <seg>Прапальванне файлаў групамі; асобныя файлы нельга будзе рэдагаваць ці выдаляць пасля прапальвання. Але гэтая кружэлка будзе працаваць на большасці камп'ютараў. (Кіруючы фармат ISO)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24822,6 +24942,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Chan&amp;ge credentials</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204648Z" changeid="eratyk">
+        <seg>Змяніць пасведчанні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chan&amp;ge location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204631Z" changeid="eratyk">
+        <seg>Змяніць размяшчэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Chan&amp;ge picture</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T092938Z" changeid="eratyk">
@@ -25064,8 +25200,8 @@
       <tuv lang="en">
         <seg>Change User Account Control settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T161849Z" changeid="eratyk">
-        <seg>Змяніць налады кантролю рахункаў</seg>
+      <tuv lang="be" changedate="20110408T194222Z" changeid="eratyk">
+        <seg>Змяніць налады кіравання рахункаў карыстальнікаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -25202,6 +25338,14 @@
       </tuv>
       <tuv lang="be" changedate="20101006T200524Z" changeid="eratyk">
         <seg>Змяніць фонавы колер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Change backup location</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202430Z" changeid="eratyk">
+        <seg>Змяніць размяшчэнне рэзервавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -26518,6 +26662,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Check backup disk space</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202500Z" changeid="eratyk">
+        <seg>Праверыць дыскавую прастору рэзервавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check backup settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202513Z" changeid="eratyk">
+        <seg>Праверыць налады рэзервавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Check disk options</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T091454Z" changeid="eratyk">
@@ -26578,6 +26738,14 @@
       </tuv>
       <tuv lang="be" changedate="20110306T165323Z" changeid="eratyk">
         <seg>Праверыць наяўнасць абнаўленняў драйвераў і апраграмавання, наладзіць аўтаматычнае абнаўленне ці прагледзець усталяваныя абнаўленні.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check for up&amp;dates</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T205221Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць абнаўленняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -26702,6 +26870,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Check settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204639Z" changeid="eratyk">
+        <seg>Праверыць налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Check the URL and try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20101106T170536Z" changeid="eratyk">
@@ -26774,6 +26950,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Check your backup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202339Z" changeid="eratyk">
+        <seg>Праверыць вашую рэзервовую копію</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check your backup results</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203156Z" changeid="eratyk">
+        <seg>Праверыць вынікі вашага рэзервавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Check your computer's system information to see whether you need a x86 (32-bit) or x64 (64-bit) version of the program, and then contact the software publisher.</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T170757Z" changeid="eratyk">
@@ -26794,6 +26986,14 @@
       </tuv>
       <tuv lang="be" changedate="20100713T162001Z" changeid="eratyk">
         <seg>Праверце сістэмную інфармацыю вашага камп'ютара, каб убачыць, якая версія праграмы вам патрэбна: x86 (32-бітная) ці x64 (64-бітная), і потым звяжыцеся з вытворцам апраграмавання.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check your network credentials</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202057Z" changeid="eratyk">
+        <seg>Праверце вашыя сеткавыя пасведчанні</seg>
       </tuv>
     </tu>
     <tu>
@@ -27496,8 +27696,8 @@
       <tuv lang="en">
         <seg>Choose what to scan:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T080524Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Абярыце аб'екты для праверкі:</seg>
+      <tuv lang="be" changedate="20110408T204949Z" changeid="eratyk">
+        <seg>Абярыце аб'екты для прагляду:</seg>
       </tuv>
     </tu>
     <tu>
@@ -28558,6 +28758,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click to view messages about your computer.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192138Z" changeid="eratyk">
+        <seg>Пстрыкніце, каб убачыць паведамленні аб вашым камп'ютары.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click to view progress.</seg>
       </tuv>
       <tuv lang="be" changedate="20110311T093350Z" changeid="eratyk">
@@ -28650,6 +28858,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T080738Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Версія кліента:  %1!s!\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Client Version:  %1!s!\r\n</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T205204Z" changeid="eratyk">
+        <seg>Версія кліента:  %1!s!\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -32262,6 +32478,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Create &amp;new backup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204709Z" changeid="eratyk">
+        <seg>Стварыць новую рэзервовую копію</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Create &amp;restore point</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T192013Z" changeid="eratyk">
@@ -32474,6 +32698,14 @@
       </tuv>
       <tuv lang="be" changedate="20100928T135939Z" changeid="eratyk">
         <seg>Стварыць новы пусты каталог.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Create a new, full backup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202401Z" changeid="eratyk">
+        <seg>Стварыць новую поўную рэзервовую копію</seg>
       </tuv>
     </tu>
     <tu>
@@ -34737,7 +34969,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\n&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=96776&quot;&gt;http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T172323Z" changeid="eratyk">
-        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютэра, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
+        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютара, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння http://go.microsoft.com/fwlink/?LinkID=96776&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34745,7 +34977,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\n&lt;a href=\</seg>
       </tuv>
       <tuv lang="be" changedate="20100318T110043Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Абнаўленні вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютэра, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\n&lt;a href=\</seg>
+        <seg>Абнаўленні вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютара, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\n&lt;a href=\</seg>
       </tuv>
     </tu>
     <tu>
@@ -34753,7 +34985,7 @@
         <seg>Definition updates can be found at the site below. From a computer that is connected to the Internet, copy the setup package to removable  media, such as a USB drive. Then insert the USB drive into this system and browse for the definition update package.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T172313Z" changeid="eratyk">
-        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютэра, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
+        <seg>Абнаўленне вызначэнняў можна знайсці на вэб-сайце, які азначаны ніжэй. Скапіруйце пакет усталёўкі з камп'ютара, які падключаны да Інтэрнэт, на здымны носьбіт, напрыклад, флэш карту. Падключыце яе да гэтай сістэмы і выберыце дзе размяшчаюцца пакеты абнаўлення вызначэння.\n\nhttp://go.microsoft.com/fwlink/?LinkID=96776</seg>
       </tuv>
     </tu>
     <tu>
@@ -35426,6 +35658,14 @@
       </tuv>
       <tuv lang="be" changedate="20110216T150532Z" changeid="eratyk">
         <seg>Мэтавыя адрасы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Det&amp;ails</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204656Z" changeid="eratyk">
+        <seg>Дэталі</seg>
       </tuv>
     </tu>
     <tu>
@@ -37360,8 +37600,8 @@
       <tuv lang="en">
         <seg>Do not auto scan</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T080650Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Не правяраць аўтаматычна</seg>
+      <tuv lang="be" changedate="20110408T205054Z" changeid="eratyk">
+        <seg>Не праглядаць аўтаматычна</seg>
       </tuv>
     </tu>
     <tu>
@@ -50503,6 +50743,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Insert removable media</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203105Z" changeid="eratyk">
+        <seg>Устаўце зменны носьбіт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Insert text into the picture.</seg>
       </tuv>
       <tuv lang="be" changedate="20110305T172952Z" changeid="eratyk">
@@ -54535,6 +54783,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>M&amp;ore information</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204712Z" changeid="eratyk">
+        <seg>Больш інфармацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>MA 15+</seg>
       </tuv>
       <tuv lang="be" changedate="20101016T192013Z" changeid="eratyk">
@@ -56410,7 +56666,7 @@
         <seg>Microsoft SpyNet is the online community that helps you choose how to respond to potential spyware threats. The community also helps stop the spread of new spyware infections.\n\nYou can choose to send basic or additional information about detected software. Additional information helps Microsoft create new definitions to better protect your computer. It can include, for example, the location of detected items on your computer if harmful software has been removed. The information will be automatically collected and sent.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171946Z" changeid="eratyk">
-        <seg>Інтэрнэт згуртаванне Microsoft SpyNet дапамагае выбраць патрэбныя дзеянні ў адказ на пагрозу з боку шпіёнскіх праграм. Гэта згуртаванне таксама дапамагае прадухіленню распаўсюджвання шпіёнскіх праграм.\n\nВы можаце выбраць, каб даслаць асноўную дадатковую інфармацыю аб знойдзенай праграме. Дадатковыя звесткі дапамагаюць Microsoft ствараць новыя вызначэнні для павышэння эфектыўнасці абароны вашага камп'ютэра. Напрыклад, у іх можа ўваходзіць размяшчэнне выяўленых элементаў на камп'ютэры пры перамяшчэнні небяспечных праграм. Звесткі збіраюцца і дасылаюцца аўтаматычна.</seg>
+        <seg>Інтэрнэт згуртаванне Microsoft SpyNet дапамагае выбраць патрэбныя дзеянні ў адказ на пагрозу з боку шпіёнскіх праграм. Гэта згуртаванне таксама дапамагае прадухіленню распаўсюджвання шпіёнскіх праграм.\n\nВы можаце выбраць, каб даслаць асноўную дадатковую інфармацыю аб знойдзенай праграме. Дадатковыя звесткі дапамагаюць Microsoft ствараць новыя вызначэнні для павышэння эфектыўнасці абароны вашага камп'ютара. Напрыклад, у іх можа ўваходзіць размяшчэнне выяўленых элементаў на камп'ютары пры перамяшчэнні небяспечных праграм. Звесткі збіраюцца і дасылаюцца аўтаматычна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59423,6 +59679,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>New messages are available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192117Z" changeid="eratyk">
+        <seg>Даступныя новыя паведамленні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>New options</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T072619Z" changeid="eratyk">
@@ -59795,6 +60059,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T113814Z" changeid="eratyk">
         <seg>Няма даступных злучэнняў\0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>No current issues detected</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194500Z" changeid="eratyk">
+        <seg>Дзейныя праблемы не выяўленыя</seg>
       </tuv>
     </tu>
     <tu>
@@ -60691,6 +60963,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T144447Z" changeid="eratyk">
         <seg>Няма роўмінгу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Not set up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T202043Z" changeid="eratyk">
+        <seg>Не наладжана</seg>
       </tuv>
     </tu>
     <tu>
@@ -62079,6 +62359,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Open Action Center</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194623Z" changeid="eratyk">
+        <seg>Адчыніць цэнтр дзеянняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Open AutoPla&amp;y...</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T064409Z" changeid="eratyk">
@@ -62145,8 +62433,8 @@
       <tuv lang="en">
         <seg>Open Sync Center</seg>
       </tuv>
-      <tuv lang="be" changedate="20101019T155323Z" changeid="eratyk">
-        <seg>адчыніць цэнтр сінхранізацыі</seg>
+      <tuv lang="be" changedate="20110408T191945Z" changeid="eratyk">
+        <seg>Адчыніць цэнтр сінхранізацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -62155,6 +62443,14 @@
       </tuv>
       <tuv lang="be" changedate="20101009T162132Z" changeid="eratyk">
         <seg>Адчыніць змяшальнік гучнасці</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open Windows &amp;Update</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192059Z" changeid="eratyk">
+        <seg>Адчыніць абнаўленне Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -62867,6 +63163,14 @@
       </tuv>
       <tuv lang="be" changedate="20100719T192704Z" changeid="eratyk">
         <seg>Аптымізаваць адлюстраванне экрана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Optio&amp;ns</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204611Z" changeid="eratyk">
+        <seg>Налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -69271,6 +69575,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>R&amp;un backup now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204628Z" changeid="eratyk">
+        <seg>Запусціць рэзерваванне зараз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>RAM</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T063128Z" changeid="eratyk">
@@ -71946,7 +72258,7 @@
         <seg>Restoring these items can harm your privacy, security, or the performance of this computer. Are you sure you want to restore them?</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171952Z" changeid="eratyk">
-        <seg>Аднаўленне гэтых аб'ектаў можа адмоўна сказацца на вашай прыватнасці і бяспецы, а таксама можа паўплываць на прадуктыўнасць камп'ютэра. Вы ўпэўнены, што жадаеце аднавіць гэтыя элементы?</seg>
+        <seg>Аднаўленне гэтых аб'ектаў можа адмоўна сказацца на вашай прыватнасці і бяспецы, а таксама можа паўплываць на прадуктыўнасць камп'ютара. Вы ўпэўнены, што жадаеце аднавіць гэтыя элементы?</seg>
       </tuv>
     </tu>
     <tu>
@@ -72881,8 +73193,8 @@
       <tuv lang="en">
         <seg>S&amp;can now</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T080639Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Праверыць зараз</seg>
+      <tuv lang="be" changedate="20110408T204921Z" changeid="eratyk">
+        <seg>Прагледзець зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -72953,8 +73265,8 @@
       <tuv lang="en">
         <seg>S&amp;elect...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T080625Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Вы&amp;браць...</seg>
+      <tuv lang="be" changedate="20110408T205041Z" changeid="eratyk">
+        <seg>Абраць...</seg>
       </tuv>
     </tu>
     <tu>
@@ -73890,7 +74202,7 @@
         <seg>Save, edit, and delete files on the disc anytime. The disc will work on computers running Windows XP or later. (Live File System)</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T181202Z" changeid="eratyk">
-        <seg>Захоўвайце, рэдагуйце і выдаляйце файлы на кружэлцы ў любы час. Яна будзе працаваць на камп'ютэрах з Windows XP і больш познімі. (Жывая файлавая сістэма LFS)</seg>
+        <seg>Захоўвайце, рэдагуйце і выдаляйце файлы на кружэлцы ў любы час. Яна будзе працаваць на камп'ютарах з Windows XP і больш познімі. (Жывая файлавая сістэма LFS)</seg>
       </tuv>
     </tu>
     <tu>
@@ -74019,6 +74331,14 @@
       </tuv>
       <tuv lang="be" changedate="20100831T064241Z" changeid="eratyk">
         <seg>Захаванне гэтага дакумента выкліча страту таго змесціва, якое не можа адлюстроўвацца ў WordPad. Вы можаце захаваць копію для захавання зыходнага дакумента.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sc&amp;an now</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204911Z" changeid="eratyk">
+        <seg>Прагледзець зараз</seg>
       </tuv>
     </tu>
     <tu>
@@ -74161,8 +74481,8 @@
       <tuv lang="en">
         <seg>Scan options</seg>
       </tuv>
-      <tuv lang="be" changedate="20100314T080452Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Налады праверкі</seg>
+      <tuv lang="be" changedate="20110408T204944Z" changeid="eratyk">
+        <seg>Налады прагляду</seg>
       </tuv>
     </tu>
     <tu>
@@ -74201,16 +74521,16 @@
       <tuv lang="en">
         <seg>Scan schedule:</seg>
       </tuv>
-      <tuv lang="be" changedate="20100315T144959Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Расклад праверак:</seg>
+      <tuv lang="be" changedate="20110408T203845Z" changeid="eratyk">
+        <seg>Расклад прагляду:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Scan selected &amp;drives and folders</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T115234Z" changeid="eratyk">
-        <seg>Праверыць выбраныя &amp;дыскі і каталогі</seg>
+      <tuv lang="be" changedate="20110408T205031Z" changeid="eratyk">
+        <seg>Прагледзець абраныя дыскі і каталогі</seg>
       </tuv>
     </tu>
     <tu>
@@ -74321,32 +74641,40 @@
       <tuv lang="en">
         <seg>Schedule disk check</seg>
       </tuv>
-      <tuv lang="be" changedate="20100721T160647Z" changeid="eratyk">
-        <seg>Расклад праверкі дыска</seg>
+      <tuv lang="be" changedate="20110408T203930Z" changeid="eratyk">
+        <seg>Расклад прагляду дыска</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Schedule tasks</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T194022Z" changeid="eratyk">
-        <seg>Прызначыць задачы</seg>
+      <tuv lang="be" changedate="20110408T203857Z" changeid="eratyk">
+        <seg>Запланаваць задачы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Scheduled Scan</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204841Z" changeid="eratyk">
+        <seg>Запланаваны прагляд</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Scheduled Tasks</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T122546Z" changeid="eratyk">
-        <seg>Прызначаныя задачы</seg>
+      <tuv lang="be" changedate="20110408T203641Z" changeid="eratyk">
+        <seg>Запланаваныя задачы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Scheduled%0</seg>
       </tuv>
-      <tuv lang="be" changedate="20100313T065252Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Прызначана%0</seg>
+      <tuv lang="be" changedate="20110408T203619Z" changeid="eratyk">
+        <seg>Запланавана%0</seg>
       </tuv>
     </tu>
     <tu>
@@ -76927,6 +77255,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Service stopped</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204828Z" changeid="eratyk">
+        <seg>Служба спынена</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Services</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T134006Z" changeid="Ales Koshal [icq#:706101]">
@@ -77131,6 +77467,14 @@
       </tuv>
       <tuv lang="be" changedate="20110314T114611Z" changeid="eratyk">
         <seg>Прызначыць як перадвызначаную друкарку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set &amp;up backup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204653Z" changeid="eratyk">
+        <seg>Наладзіць рэзерваванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -77435,6 +77779,14 @@
       </tuv>
       <tuv lang="be" changedate="20100927T163736Z" changeid="eratyk">
         <seg>Усталяваць сетку камп'ютар-камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set up backup</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204609Z" changeid="eratyk">
+        <seg>Наладзіць рэзерваванне</seg>
       </tuv>
     </tu>
     <tu>
@@ -79951,6 +80303,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Solve PC issues: %1</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194521Z" changeid="eratyk">
+        <seg>Вырашыць праблемы ПК: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Some actions couldn't be applied to potentially harmful items.</seg>
       </tuv>
       <tuv lang="be" changedate="20101001T143516Z" changeid="eratyk">
@@ -82139,6 +82499,14 @@
       </tuv>
       <tuv lang="be" changedate="20101108T125024Z" changeid="eratyk">
         <seg>Код стану: %2.\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Status not available</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192103Z" changeid="eratyk">
+        <seg>Стан недаступны</seg>
       </tuv>
     </tu>
     <tu>
@@ -84394,7 +84762,7 @@
         <seg>The Backup program is not installed on your computer. To install it, double-click the Add or Remove Programs icon in Control Panel, and then follow the instructions on your screen.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T103410Z" changeid="eratyk">
-        <seg>Праграма рэзервавання дадзеных не ўсталяваная на Вашым камп'ютэры. Каб усталяваць яе, у панэлі кіравання абярыце 'Даданне і выдаленне праграм', а затым кіруйцеся інструкцыямі на экране.</seg>
+        <seg>Праграма рэзервавання дадзеных не ўсталяваная на Вашым камп'ютары. Каб усталяваць яе, у панэлі кіравання абярыце 'Даданне і выдаленне праграм', а затым кіруйцеся інструкцыямі на экране.</seg>
       </tuv>
     </tu>
     <tu>
@@ -84506,7 +84874,7 @@
         <seg>The Disk Defragmenter is not installed on your computer. To install it, double-click the Add or Remove Programs icon in Control Panel, click the Install/Uninstall tab, and then follow the instructions on your screen.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T103417Z" changeid="eratyk">
-        <seg>Праграма дэфрагментацыі дыска не ўсталяваная на Вашым камп'ютэры. Каб усталяваць яе, у панэлі кіравання абярыце 'Даданне і выдаленне праграм', пстрыкніце па ўкладцы Усталяваць/Выдаліць, а затым кіруйцеся інструкцыямі на экране.</seg>
+        <seg>Праграма дэфрагментацыі дыска не ўсталяваная на Вашым камп'ютары. Каб усталяваць яе, у панэлі кіравання абярыце 'Даданне і выдаленне праграм', пстрыкніце па ўкладцы Усталяваць/Выдаліць, а затым кіруйцеся інструкцыямі на экране.</seg>
       </tuv>
     </tu>
     <tu>
@@ -84690,7 +85058,7 @@
         <seg>The Recycle Bin contains files you have deleted from your computer. These files are not permanently removed until you empty the Recycle Bin.</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T095517Z" changeid="eratyk">
-        <seg>Сметніца змяшчае файлы, якія Вы выдалілі з камп'ютэра. Гэтыя файлы не будуць знішчаныя, пакуль Вы не ачысціце сметніцу.</seg>
+        <seg>Сметніца змяшчае файлы, якія Вы выдалілі з камп'ютара. Гэтыя файлы не будуць знішчаныя, пакуль Вы не ачысціце сметніцу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -85594,7 +85962,7 @@
         <seg>The disc wasnt burned successfully. Restart your computer, and then try again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T101031Z" changeid="eratyk">
-        <seg>Кружэлка не была прапаленая паспяхова. Перазапусціце камп'ютэр і паўтарыце спробу.</seg>
+        <seg>Кружэлка не была прапаленая паспяхова. Перазапусціце камп'ютар і паўтарыце спробу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86170,7 +86538,7 @@
         <seg>The file you are attempting to preview could harm your computer. If you trust the file and the source you received it from, open it to view its contents.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T153455Z" changeid="eratyk">
-        <seg>Файл, які Вы пытаецеся праглядзець, можа пашкодзіць Ваш камп'ютэр. Калі Вы маеце давер да файла і яго крыніцы, адчыніце яго для прагляду  яго змесціва.</seg>
+        <seg>Файл, які Вы пытаецеся праглядзець, можа пашкодзіць Ваш камп'ютар. Калі Вы маеце давер да файла і яго крыніцы, адчыніце яго для прагляду  яго змесціва.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86767,10 +87135,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The last backup did not complete successfully.\nBackup date: %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204439Z" changeid="eratyk">
+        <seg>Апошняе рэзерваванне скончылася няўдала.\nДата рэзервавання: %2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The last restart/shutdown request of computer %1 was aborted by user %2%n\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101206T210614Z" changeid="eratyk">
         <seg>Апошні запыт на перазапуск ці выключэнне камп'ютара %1 быў перарваны карыстальнікам %2%n\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The last scheduled backup did not run.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204302Z" changeid="eratyk">
+        <seg>Апошняе запланаванае рэзерваванне не было запушчанае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -88514,7 +88898,7 @@
         <seg>The version of this file is not compatible with the version of Windows you're running. Check your computer's system information to see whether you need an x86 (32-bit) or x64 (64-bit) version of the program, and then contact the software publisher.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T162001Z" changeid="eratyk">
-        <seg>Версія файла не сумяшчальная з вашаю Windows. Праверце сістэмную інфармацыю Вашага камп'ютэра, каб убачыць, якая версія праграмы Вам патрэбна: x86 (32-бітная) ці x64 (64-бітная), і потым звяжыцеся з вытворцам праграмнага забеспячэння.</seg>
+        <seg>Версія файла не сумяшчальная з вашаю Windows. Праверце сістэмную інфармацыю Вашага камп'ютара, каб убачыць, якая версія праграмы Вам патрэбна: x86 (32-бітная) ці x64 (64-бітная), і потым звяжыцеся з вытворцам праграмнага забеспячэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -88946,7 +89330,7 @@
         <seg>There is a file or folder on your computer called &quot;%s&quot; which could cause certain applications to not function correctly.  Renaming it to &quot;%s&quot; would solve this problem.  Would you like to rename it now?</seg>
       </tuv>
       <tuv lang="be" changedate="20110101T174652Z" changeid="eratyk">
-        <seg>На камп'ютэры ёсць файл ці каталог &quot;%s&quot;, які можа выклікаць непрацаздольнасць пэўных праграм.  Пераназванне яго ў &quot;%s&quot; мусіць вырашыць гэтую праблему. Пераназваць зараз?</seg>
+        <seg>На камп'ютары ёсць файл ці каталог &quot;%s&quot;, які можа выклікаць непрацаздольнасць пэўных праграм.  Пераназванне яго ў &quot;%s&quot; мусіць вырашыць гэтую праблему. Пераназваць зараз?</seg>
       </tuv>
     </tu>
     <tu>
@@ -90714,7 +91098,7 @@
         <seg>This library can be safely deleted from your computer. Folders that have been included will not be affected.</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T174036Z" changeid="eratyk">
-        <seg>Гэтая бібліятэка можа быць бяспечна выдаленая з  камп'ютэра. Гэта не закране ўкладзеныя каталогі.</seg>
+        <seg>Гэтая бібліятэка можа быць бяспечна выдаленая з  камп'ютара. Гэта не закране ўкладзеныя каталогі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -90882,7 +91266,7 @@
         <seg>This operation has been cancelled due to restrictions in effect on this computer. Please contact your system administrator.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T160815Z" changeid="eratyk">
-        <seg>Аперацыя адменена з прычыны дзейнічаючых для камп'ютэра абмежаванняў. Калі ласка, звярніцеся да адміністратара сеткі.</seg>
+        <seg>Аперацыя адменена з прычыны дзейнічаючых для камп'ютара абмежаванняў. Калі ласка, звярніцеся да адміністратара сеткі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91842,7 +92226,7 @@
         <seg>This program's service has stopped. You can start the service manually or restart your computer, which will start the service.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171658Z" changeid="eratyk">
-        <seg>Служба гэтай праграмы спынена. Вы можаце запусціць яе ўручную ці перапусціць камп'ютэр, каб запусціць яе аўтаматычна.</seg>
+        <seg>Служба гэтай праграмы спынена. Вы можаце запусціць яе ўручную ці перапусціць камп'ютар, каб запусціць яе аўтаматычна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -92794,7 +93178,7 @@
         <seg>To open this file, Windows needs to know what program you want to use to open it. Windows can go online to look it up automatically, or you can manually select from a list of programs that are installed on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T095554Z" changeid="eratyk">
-        <seg>Каб адчыніць гэты файл, Windows неабходна ведаць, якую праграму Вы жадаеце выкарыстоўваць для гэтага. Windows можа выйсці ў Сеціва, каб знайсці яе аўтаматычна, альбо Вы можаце ўручную абраць яе са спісу праграм, усталяваных на Вашым камп'ютэры.</seg>
+        <seg>Каб адчыніць гэты файл, Windows неабходна ведаць, якую праграму Вы жадаеце выкарыстоўваць для гэтага. Windows можа выйсці ў Сеціва, каб знайсці яе аўтаматычна, альбо Вы можаце ўручную абраць яе са спісу праграм, усталяваных на Вашым камп'ютары.</seg>
       </tuv>
     </tu>
     <tu>
@@ -92874,7 +93258,7 @@
         <seg>To protect your computer, it must be restarted. Do you want to restart now?</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171921Z" changeid="eratyk">
-        <seg>Каб абараніць ваш камп'ютэр, патрабуецца перазапуск. Перазапусціць?</seg>
+        <seg>Каб абараніць ваш камп'ютар, патрабуецца перазапуск. Перазапусціць?</seg>
       </tuv>
     </tu>
     <tu>
@@ -93823,6 +94207,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Troubleshooting: System Maintenance</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204746Z" changeid="eratyk">
+        <seg>Вырашэнне праблем: сістэмнае абслугоўванне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>True</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T180141Z" changeid="eratyk">
@@ -94610,7 +95002,7 @@
         <seg>UDF 1.02 is compatible with Windows 98 (and later) computers as well as some Apple computers. Use this version to format DVD-RAM and MO (Magneto-optical) discs.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T111508Z" changeid="eratyk">
-        <seg>UDF 1.02 сумяшчальная з Windows 98 (і больш познімі) і некаторымі камп'ютэрамі Apple. Ужывайце гэты фармат для фарматавання DVD-RAM і MO (магнітааптычных) кружэлак.</seg>
+        <seg>UDF 1.02 сумяшчальная з Windows 98 (і больш познімі) і некаторымі камп'ютарамі Apple. Ужывайце гэты фармат для фарматавання DVD-RAM і MO (магнітааптычных) кружэлак.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94626,7 +95018,7 @@
         <seg>UDF 1.50 is compatible with Windows 2000, Windows XP, Windows Server 2003 (and later) computers. It might not be compatible with Windows 98 or Apple computers.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T111642Z" changeid="eratyk">
-        <seg>UDF 1.50 сумяшчальная з Windows 2000, Windows XP, Windows Server 2003 (і больш познімі). Можа быць несумяшчальнай з Windows 98 і камп'ютэрамі Apple.</seg>
+        <seg>UDF 1.50 сумяшчальная з Windows 2000, Windows XP, Windows Server 2003 (і больш познімі). Можа быць несумяшчальнай з Windows 98 і камп'ютарамі Apple.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94642,7 +95034,7 @@
         <seg>UDF 2.01 is compatible with Windows XP and Windows Server 2003 (and later) computers. It might not compatible with Windows 98, Windows 2000, or Apple computers.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T111947Z" changeid="eratyk">
-        <seg>UDF 2.01 сумяшчальная з Windows XP і Windows Server 2003 (і больш познімі). Можа быць несумяшчальнай з Windows 98, Windows 2000 і камп'ютэрамі Apple.</seg>
+        <seg>UDF 2.01 сумяшчальная з Windows XP і Windows Server 2003 (і больш познімі). Можа быць несумяшчальнай з Windows 98, Windows 2000 і камп'ютарамі Apple.</seg>
       </tuv>
     </tu>
     <tu>
@@ -96359,6 +96751,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Updates ready to install</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T205237Z" changeid="eratyk">
+        <seg>Абнаўленні гатовыя да ўсталявання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Updates the display every four seconds</seg>
       </tuv>
       <tuv lang="be" changedate="20101125T173952Z" changeid="eratyk">
@@ -97591,6 +97991,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Vie&amp;w solution</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204816Z" changeid="eratyk">
+        <seg>Прагледзець вырашэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Vietnamese</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T071512Z" changeid="eratyk">
@@ -97627,6 +98035,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T171932Z" changeid="eratyk">
         <seg>Прагледзець заяву пра прыватнасць у сеціве</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View &amp;progress</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204856Z" changeid="eratyk">
+        <seg>Прагледзець выкананне</seg>
       </tuv>
     </tu>
     <tu>
@@ -97855,6 +98271,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>View det&amp;ails</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T204830Z" changeid="eratyk">
+        <seg>Прагледзець дэталі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>View device webpage</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T063015Z" changeid="eratyk">
@@ -97955,6 +98379,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T193644Z" changeid="eratyk">
         <seg>Прагледзець архіў паведамленняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>View messages in Action Center</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T192158Z" changeid="eratyk">
+        <seg>Прагледзець паведамленні ў цэнтры дзеянняў</seg>
       </tuv>
     </tu>
     <tu>
@@ -100599,6 +101031,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Windows User Account Control Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T194127Z" changeid="eratyk">
+        <seg>Налады кіравання рахункамі карыстальнікаў Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Windows Vista Logo</seg>
       </tuv>
       <tuv lang="be" changedate="20110312T190849Z" changeid="eratyk">
@@ -100986,7 +101426,7 @@
         <seg>Windows can't locate the Disk Cleanup program. The program file might be corrupted or might have been deleted from your computer. To reinstall Disk Cleanup, run Windows Setup again.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T103749Z" changeid="eratyk">
-        <seg>Windows не можа знайсці праграму чысткі дыска. Праграма можа быць пашкоджаная альбо выдаленая з Вашага камп'ютэра. Каб пераўсталяваць яе, запусціце ўсталёўку Windows.</seg>
+        <seg>Windows не можа знайсці праграму чысткі дыска. Праграма можа быць пашкоджаная альбо выдаленая з Вашага камп'ютара. Каб пераўсталяваць яе, запусціце ўсталёўку Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -102530,7 +102970,7 @@
         <seg>With a homegroup, you can share files and printers with other home computers running Windows 7. You can also stream media to devices. The homegroup is protected with a password, and you'll always be able to choose what you share with the group.\n\nCurrently there are no other people in the homegroup.</seg>
       </tuv>
       <tuv lang="be" changedate="20110312T184707Z" changeid="eratyk">
-        <seg>Праз хатнюю групу Вы можаце ствараць агульны доступ да файлаў і друкарак з камп'ютэрамі з Windows 7. Таксама Вы можаце дасылаць медыяплынь на прылады. Хатняя група абароненая паролем, і заўсёды можаце абраць, да чаго даваць агульны доступ у гэтай групе.\n\nЗараз няма людзей у хатняй групе.</seg>
+        <seg>Праз хатнюю групу Вы можаце ствараць агульны доступ да файлаў і друкарак з камп'ютарамі з Windows 7. Таксама Вы можаце дасылаць медыяплынь на прылады. Хатняя група абароненая паролем, і заўсёды можаце абраць, да чаго даваць агульны доступ у гэтай групе.\n\nЗараз няма людзей у хатняй групе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -103610,7 +104050,7 @@
         <seg>You can create a new Briefcase folder to sync files with another computer. The primary purpose of Briefcase is to sync files between a desktop computer and a mobile PC.</seg>
       </tuv>
       <tuv lang="be" changedate="20100712T202422Z" changeid="eratyk">
-        <seg>Вы можаце стварыць новы каталог 'Партфель', каб сінхранізаваць файлы з іншым камп'ютэрам. Асноўная мэта партфеля - сінхранізацыя файлаў паміж настольным і мабільным камп'ютэрамі.</seg>
+        <seg>Вы можаце стварыць новы каталог 'Партфель', каб сінхранізаваць файлы з іншым камп'ютарам. Асноўная мэта партфеля - сінхранізацыя файлаў паміж настольным і мабільным камп'ютарамі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -103775,6 +104215,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You can use Action Center to review recent messages about your computer's status and find solutions to problems.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T201747Z" changeid="eratyk">
+        <seg>Вы можаце карыстаць цэнтр дзеянняў, каб пераглядаць апошнія паведамленні аб стане вашага камп'ютара і шукаць вырашэнні праблемаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You can use information about how these programs operate to choose whether to deny them or permit them to run on your computer.</seg>
       </tuv>
       <tuv lang="be" changedate="20100315T144836Z" changeid="Ales Koshal [icq#:706101]">
@@ -103834,7 +104282,7 @@
         <seg>You can't create a briefcase in a shared folder on this computer. Instead, create the briefcase in the local folder.</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T091830Z" changeid="eratyk">
-        <seg>Вы не можаце стварыць партфель у агульным каталогу на гэтым камп'ютэры. Замест гэтага стварыце партфель ў лакальным каталогу.</seg>
+        <seg>Вы не можаце стварыць партфель у агульным каталогу на гэтым камп'ютары. Замест гэтага стварыце партфель ў лакальным каталогу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -104898,7 +105346,7 @@
         <seg>You need to close the session in order for the disc to work on other computers. Closing a session uses an additional 20MB of disc space.</seg>
       </tuv>
       <tuv lang="be" changedate="20100715T141007Z" changeid="eratyk">
-        <seg>Вам трэба зачыніць сесію дзеля таго, каб гэты дыск працаваў на іншых камп'ютэрах. Гэтая аперацыя ўжывае дадаткова 20 МБ дыскавай прасторы.</seg>
+        <seg>Вам трэба зачыніць сесію дзеля таго, каб гэты дыск працаваў на іншых камп'ютарах. Гэтая аперацыя ўжывае дадаткова 20 МБ дыскавай прасторы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105490,7 +105938,7 @@
         <seg>Your computer could not be restarted. To protect your system, please restart your computer manually.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T172045Z" changeid="eratyk">
-        <seg>Камп'ютэр не быў перазапушчаны. Каб абараніць Вашу сістэму, перазапусціце яго самастойна.</seg>
+        <seg>Камп'ютар не быў перазапушчаны. Каб абараніць Вашу сістэму, перазапусціце яго самастойна.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105505,8 +105953,8 @@
       <tuv lang="en">
         <seg>Your computer has not been scanned in %1!d! days. We recommend scheduling a daily scan of your computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100713T172136Z" changeid="eratyk">
-        <seg>Праверка камп'ютэра не выконвалася на працягу %1!d! дз. Пажадана выконваць праверку камп'ютэра штодзённа.</seg>
+      <tuv lang="be" changedate="20110408T203822Z" changeid="eratyk">
+        <seg>Ваш камп'ютар не праглядаўся %1!d! дзён. Мы рэкамендуем вам запланаваць штодзённы прагляд вашага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105521,8 +105969,8 @@
       <tuv lang="en">
         <seg>Your computer has not been scanned in several days. We recommend scheduling a daily scan of your computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100713T172115Z" changeid="eratyk">
-        <seg>Праверка вашага камп'ютэра не выконвалася ўжо некалькі дзён. Пажадана, выконваць праверку камп'ютэра штодзённа.</seg>
+      <tuv lang="be" changedate="20110408T203805Z" changeid="eratyk">
+        <seg>Ваш камп'ютар не праглядаўся некалькі дзён. Мы рэкамендуем вам запланаваць штодзённы прагляд вашага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105711,6 +106159,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Your files are not being backed up.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203218Z" changeid="eratyk">
+        <seg>Вашыя файлы не рэзерваваныя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Your files are ready to be burned, but some of them will not have the same file system attributes (such as Hidden) as the original files.\n\nDo you want to continue burning these files to the disc?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T223311Z" changeid="eratyk">
@@ -105835,6 +106291,14 @@
       </tuv>
       <tuv lang="be" changedate="20110215T075337Z" changeid="eratyk">
         <seg>Ваш сеткавы адміністратар заблакаваў для вас злучэнне з гэтай сеткай</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your network user name or password has expired.\nBackup date: %2</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203310Z" changeid="eratyk">
+        <seg>Тэрмін дзеяння вашага імя карыстальніка ці пароля мінуў.\nДата рэзервавання: %2</seg>
       </tuv>
     </tu>
     <tu>
@@ -110843,6 +111307,14 @@
       </tuv>
       <tuv lang="be" changedate="20101019T061049Z" changeid="eratyk">
         <seg>аддалена адміністраваны сервер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>removable media</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110408T203117Z" changeid="eratyk">
+        <seg>зменны носьбіт</seg>
       </tuv>
     </tu>
     <tu>
