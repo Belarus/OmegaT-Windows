@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
   <header
@@ -1409,7 +1409,7 @@
         <seg>%1!s! (Default)</seg>
       </tuv>
       <tuv lang="be" changedate="20101124T081222Z" changeid="eratyk">
-        <seg>%1!s! (перадвызначана)</seg>
+        <seg>%1!s! (стандартна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2705,7 +2705,7 @@
         <seg>%s (Default Save Folder)</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072700Z" changeid="eratyk">
-        <seg>%s (перадвызначаны каталог захавання)</seg>
+        <seg>%s (стандартны каталог захавання)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2873,7 +2873,7 @@
         <seg>%s cant be the default save folder for this library because it is read-only.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072714Z" changeid="eratyk">
-        <seg>%s не можа быць перадвызначаным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
+        <seg>%s не можа быць стандартным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2897,7 +2897,7 @@
         <seg>%s canвЂ™t be the default save folder for this library because it is read-only.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T195331Z" changeid="eratyk">
-        <seg>%s не можа быць перадвызначаным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
+        <seg>%s не можа быць стандартным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2912,8 +2912,8 @@
       <tuv lang="en">
         <seg>%s can’t be included in the library.  Please select a different folder.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T174325Z" changeid="eratyk">
-        <seg>Каталог '%s' не можа быць далучаны да бібліятэкі.  Калі ласка, абярыце іншы каталог.</seg>
+      <tuv lang="be" changedate="20110409T170610Z" changeid="eratyk">
+        <seg>Каталог '%s' не можа быць улучаны ў бібліятэку.  Калі ласка, абярыце іншы каталог.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2921,7 +2921,7 @@
         <seg>%s can’t be the default save folder for this library because it is read-only.</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T174340Z" changeid="eratyk">
-        <seg>%s не можа быць перадвызначаным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
+        <seg>%s не можа быць стандартным каталогам захавання, бо ён прызначаны толькі для чытання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2960,16 +2960,16 @@
       <tuv lang="en">
         <seg>%s is already included in the library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092107Z" changeid="eratyk">
-        <seg>Каталог '%s' ужо дададзены да бібліятэкі.</seg>
+      <tuv lang="be" changedate="20110409T170551Z" changeid="eratyk">
+        <seg>Каталог '%s' ужо ўлучаны ў бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>%s is already included in the library.  You can include a folder only once in the same library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092107Z" changeid="eratyk">
-        <seg>Каталог '%s' ужо дададзены да бібліятэкі. Вы можаце дадаць каталог толькі аднойчы ў тую ж бібліятэку.</seg>
+      <tuv lang="be" changedate="20110409T173511Z" changeid="eratyk">
+        <seg>Каталог '%s' ужо ўлучаны у бібліятэку. Вы можаце улучыць каталог толькі аднойчы ў тую ж бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2977,7 +2977,7 @@
         <seg>%s is available only on 32 bit processes.\nDo you want to make this as a default input item?</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T062441Z" changeid="eratyk">
-        <seg>%s даступна толькі для 32-бітавых працэсаў.\nЖадаеце зрабіць гэта перадвызначаным элементам уводу?</seg>
+        <seg>%s даступна толькі для 32-бітавых працэсаў.\nЖадаеце зрабіць гэта стандартным элементам уводу?</seg>
       </tuv>
     </tu>
     <tu>
@@ -2985,7 +2985,7 @@
         <seg>%s is available only on 32 bit processes.\r\nDo you want to make this as a default input item?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T222936Z" changeid="eratyk">
-        <seg>%s даступна толькі для 32-бітавых працэсаў.\r\nЗрабіць гэта перадвызначаным элементам уводу?</seg>
+        <seg>%s даступна толькі для 32-бітавых працэсаў.\r\nЗрабіць гэта стандартным элементам уводу?</seg>
       </tuv>
     </tu>
     <tu>
@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Advanced</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T183104Z" changeid="eratyk">
+        <seg>Дадаткова</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Advanced...</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T192557Z" changeid="eratyk">
@@ -3814,6 +3822,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Automatically</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192110Z" changeid="eratyk">
+        <seg>Аўтаматычна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Automatically fix file system errors</seg>
       </tuv>
       <tuv lang="be" changedate="20100707T091540Z" changeid="eratyk">
@@ -3850,6 +3866,14 @@
       </tuv>
       <tuv lang="be" changedate="20100910T114406Z" changeid="eratyk">
         <seg>Назад\tAlt+Левая стрэлка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Background:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165142Z" changeid="eratyk">
+        <seg>Фон:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3898,6 +3922,14 @@
       </tuv>
       <tuv lang="be" changedate="20110121T165743Z" changeid="eratyk">
         <seg>Чорны і белы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Block</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T143816Z" changeid="eratyk">
+        <seg>Заблакаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -4054,6 +4086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Calendar:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190003Z" changeid="eratyk">
+        <seg>Каляндар:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Cancel</seg>
       </tuv>
       <tuv lang="be" changedate="20100703T174805Z" changeid="alex">
@@ -4176,8 +4216,8 @@
       <tuv lang="en">
         <seg>&amp;Change system locale...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T125454Z" changeid="eratyk">
-        <seg>Змяніць сістэмную лакалізацыю...</seg>
+      <tuv lang="be" changedate="20110409T183622Z" changeid="eratyk">
+        <seg>Змяніць сістэмную лакаль...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4256,16 +4296,16 @@
       <tuv lang="en">
         <seg>&amp;Choose default program...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T070017Z" changeid="eratyk">
-        <seg>Перадвызначыць праграму...</seg>
+      <tuv lang="be" changedate="20110409T145625Z" changeid="eratyk">
+        <seg>Абраць стандартную праграму...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Choose defaults for this program</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T090618Z" changeid="eratyk">
-        <seg>Абраць перадвызначэнні для гэтай праграмы</seg>
+      <tuv lang="be" changedate="20110409T161834Z" changeid="eratyk">
+        <seg>Абраць стандарты для гэтай праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -4688,8 +4728,8 @@
       <tuv lang="en">
         <seg>&amp;Current system locale:</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T171626Z" changeid="eratyk">
-        <seg>Дзейная сістэмная лакалізацыя:</seg>
+      <tuv lang="be" changedate="20110409T183651Z" changeid="eratyk">
+        <seg>Дзейная сістэмная лакаль:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4722,6 +4762,14 @@
       </tuv>
       <tuv lang="be" changedate="20100911T063821Z" changeid="eratyk">
         <seg>Карыстальніцкія колеры:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Custom level...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191359Z" changeid="eratyk">
+        <seg>Дапасаваны ўзровень...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4825,7 +4873,7 @@
         <seg>&amp;Default</seg>
       </tuv>
       <tuv lang="be" changedate="20110121T165656Z" changeid="eratyk">
-        <seg>Перадвызначана</seg>
+        <seg>Стандартна</seg>
       </tuv>
     </tu>
     <tu>
@@ -4833,7 +4881,15 @@
         <seg>&amp;Default gateway:</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T081238Z" changeid="eratyk">
-        <seg>Перадвызначаны шлюз:</seg>
+        <seg>Стандартны шлюз:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Default level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191408Z" changeid="eratyk">
+        <seg>Стандартны ўзровень</seg>
       </tuv>
     </tu>
     <tu>
@@ -4841,7 +4897,7 @@
         <seg>&amp;Default scale (96 DPI) - fit more information</seg>
       </tuv>
       <tuv lang="be" changedate="20101011T173841Z" changeid="eratyk">
-        <seg>Перадвызначаная разрознасць (96 кропак на цалю) - больш інфармацыі</seg>
+        <seg>Стандартная разрознасць (96 кропак на цалю) - больш інфармацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -4898,6 +4954,14 @@
       </tuv>
       <tuv lang="be" changedate="20101005T055733Z" changeid="eratyk">
         <seg>Выдаліць тэму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Delete...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T162942Z" changeid="eratyk">
+        <seg>Выдаліць...</seg>
       </tuv>
     </tu>
     <tu>
@@ -5326,6 +5390,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;E-mail:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185920Z" changeid="eratyk">
+        <seg>Эл. пошта:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Edit</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T183057Z" changeid="alex">
@@ -5434,6 +5506,14 @@
       </tuv>
       <tuv lang="be" changedate="20110316T091437Z" changeid="eratyk">
         <seg>Павялічыць дакладнасць паказальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Every time I visit the webpage</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192031Z" changeid="eratyk">
+        <seg>Штораз падчас наведвання старонкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -5712,8 +5792,8 @@
       <tuv lang="en">
         <seg>&amp;Format: (* Custom Locale)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T181717Z" changeid="eratyk">
-        <seg>Фармат: (* Карыстальніцкая лакалізацыя)</seg>
+      <tuv lang="be" changedate="20110409T183726Z" changeid="eratyk">
+        <seg>Фармат: (* Дапасаваная лакаль)</seg>
       </tuv>
     </tu>
     <tu>
@@ -5890,6 +5970,14 @@
       </tuv>
       <tuv lang="be" changedate="20110301T172132Z" changeid="eratyk">
         <seg>Групаваць па:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;HTML editor:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185645Z" changeid="eratyk">
+        <seg>HTML-рэдактар:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6184,16 +6272,16 @@
       <tuv lang="en">
         <seg>&amp;Include a folder...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T124306Z" changeid="eratyk">
-        <seg>Дадаць каталог...</seg>
+      <tuv lang="be" changedate="20110409T173025Z" changeid="eratyk">
+        <seg>Улучыць каталог...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Include in library</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092022Z" changeid="eratyk">
-        <seg>Дадаць да бібліятэкі</seg>
+      <tuv lang="be" changedate="20110409T172944Z" changeid="eratyk">
+        <seg>Улучыць у бібліятэку</seg>
       </tuv>
     </tu>
     <tu>
@@ -6326,6 +6414,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Java Custom Settings...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184054Z" changeid="eratyk">
+        <seg>Дапасаваныя налады Java...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Keep changes</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T090352Z" changeid="eratyk">
@@ -6382,10 +6478,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;LAN settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184613Z" changeid="eratyk">
+        <seg>Налады сеткі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Label:</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T090515Z" changeid="eratyk">
         <seg>Цэтлікі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Languages</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163058Z" changeid="eratyk">
+        <seg>Мовы</seg>
       </tuv>
     </tu>
     <tu>
@@ -6417,7 +6529,7 @@
         <seg>&amp;Larger - 150% (default)</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T193156Z" changeid="eratyk">
-        <seg>Найвялікшы - 150% (перадвызначана)</seg>
+        <seg>Найвялікшы - 150% (стандартна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6654,6 +6766,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Manage add-ons</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185505Z" changeid="eratyk">
+        <seg>Кіраваць дадаткамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Map network drive...</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T183824Z" changeid="eratyk">
@@ -6705,7 +6825,7 @@
         <seg>&amp;Medium - 125% (default)</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T193128Z" changeid="eratyk">
-        <seg>Сярэдні - 125% (перадвызначана)</seg>
+        <seg>Сярэдні - 125% (стандартна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6966,6 +7086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Never</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192113Z" changeid="eratyk">
+        <seg>Ніколі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;New</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T162045Z" changeid="eratyk">
@@ -7050,6 +7178,14 @@
       </tuv>
       <tuv lang="be" changedate="20100726T062833Z" changeid="eratyk">
         <seg>Новы\tCtrl+N</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Newsgroups:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185941Z" changeid="eratyk">
+        <seg>Групы навінаў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8038,6 +8174,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Remove...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184223Z" changeid="eratyk">
+        <seg>Выдаліць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Rename</seg>
       </tuv>
       <tuv lang="be" changedate="20100722T202824Z" changeid="eratyk">
@@ -8082,6 +8226,22 @@
       </tuv>
       <tuv lang="be" changedate="20100707T114823Z" changeid="eratyk">
         <seg>Скід выгляду</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Reset all zones to default level</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191428Z" changeid="eratyk">
+        <seg>Скінуць усе зоны да стандартнага ўзроўню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Reset to:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184035Z" changeid="eratyk">
+        <seg>Скінуць да:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8168,16 +8328,24 @@
       <tuv lang="en">
         <seg>&amp;Restore Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T065016Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145207Z" changeid="eratyk">
+        <seg>Аднавіць стандарт</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Restore Defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064136Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні</seg>
+      <tuv lang="be" changedate="20110409T144945Z" changeid="eratyk">
+        <seg>Аднавіць стандартныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Restore advanced settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191448Z" changeid="eratyk">
+        <seg>Аднавіць дадатковыя налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -8193,7 +8361,7 @@
         <seg>&amp;Restore default favorite links</seg>
       </tuv>
       <tuv lang="be" changedate="20110223T092313Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя ўлюбёныя спасылкі</seg>
+        <seg>Аднавіць стандартныя ўлюбёныя спасылкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -8201,15 +8369,15 @@
         <seg>&amp;Restore default libraries</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072637Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя бібліятэкі</seg>
+        <seg>Аднавіць стандартныя бібліятэкі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Restore default settings for this plan</seg>
       </tuv>
-      <tuv lang="be" changedate="20110101T181001Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні гэтага плана</seg>
+      <tuv lang="be" changedate="20110409T145252Z" changeid="eratyk">
+        <seg>Аднавіць стандарты гэтага плана</seg>
       </tuv>
     </tu>
     <tu>
@@ -8224,8 +8392,8 @@
       <tuv lang="en">
         <seg>&amp;Restore plan defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20101223T182340Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні плана</seg>
+      <tuv lang="be" changedate="20110409T145240Z" changeid="eratyk">
+        <seg>Аднавіць стандарты плана</seg>
       </tuv>
     </tu>
     <tu>
@@ -8648,16 +8816,16 @@
       <tuv lang="en">
         <seg>&amp;Set as Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T073134Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145036Z" changeid="eratyk">
+        <seg>Прызначыць як стандарт</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&amp;Set as default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T073214Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145151Z" changeid="eratyk">
+        <seg>Прызначыць як стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -8665,7 +8833,15 @@
         <seg>&amp;Set as default save location</seg>
       </tuv>
       <tuv lang="be" changedate="20110126T085336Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначанае размяшчэнне захавання</seg>
+        <seg>Прызначыць як стандартнае размяшчэнне захавання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Set programs</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185814Z" changeid="eratyk">
+        <seg>Прызначыць праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -8681,7 +8857,7 @@
         <seg>&amp;Set this program as default</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T090558Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначаную праграму</seg>
+        <seg>Прызначыць як стандартную праграму</seg>
       </tuv>
     </tu>
     <tu>
@@ -8902,6 +9078,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&amp;Sites</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191024Z" changeid="eratyk">
+        <seg>Сайты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&amp;Size</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T183636Z" changeid="alex">
@@ -8969,7 +9153,7 @@
         <seg>&amp;Smaller - 100% (default)</seg>
       </tuv>
       <tuv lang="be" changedate="20100921T193108Z" changeid="eratyk">
-        <seg>Найменшы - 100% (перадвызначана)</seg>
+        <seg>Найменшы - 100% (стандартна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -9266,6 +9450,14 @@
       </tuv>
       <tuv lang="be" changedate="20100724T080621Z" changeid="eratyk">
         <seg>Тэкст з файла...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Text:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165132Z" changeid="eratyk">
+        <seg>Тэкст:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9745,7 +9937,7 @@
         <seg>&amp;Use default gateway on remote network</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T091421Z" changeid="eratyk">
-        <seg>Карыстаць перадвызначаны шлюз у аддаленай сетцы</seg>
+        <seg>Карыстаць стандартны шлюз у аддаленай сетцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -9986,6 +10178,14 @@
       </tuv>
       <tuv lang="be" changedate="20101030T175005Z" changeid="eratyk">
         <seg>Дапамога ў сеціве</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&amp;Websites:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163815Z" changeid="eratyk">
+        <seg>Сайты:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10457,7 +10657,7 @@
         <seg>(Default)</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T063618Z" changeid="eratyk">
-        <seg>(перадвызначана)</seg>
+        <seg>(стандартна)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10742,10 +10942,18 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>*</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064513Z" changeid="eratyk">
+        <seg>*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>* Custom locale</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T173822Z" changeid="eratyk">
-        <seg>* Карыстальніцкая лакалізацыя</seg>
+      <tuv lang="be" changedate="20110409T183738Z" changeid="eratyk">
+        <seg>* Дапасаваная лакаль</seg>
       </tuv>
     </tu>
     <tu>
@@ -10778,6 +10986,14 @@
       </tuv>
       <tuv lang="be" changedate="20110108T152312Z" changeid="eratyk">
         <seg>*.rnk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>*Takes effect after you restart Internet Explorer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T183411Z" changeid="eratyk">
+        <seg>*Набудзе сілу пасля перазапуску Internet Explorer</seg>
       </tuv>
     </tu>
     <tu>
@@ -13513,7 +13729,7 @@
         <seg>&lt;A&gt;Default location&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T172804Z" changeid="eratyk">
-        <seg>&lt;A&gt;Перадвызначанае размяшчэнне&lt;/A&gt;</seg>
+        <seg>&lt;A&gt;Стандартнае размяшчэнне&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13586,6 +13802,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T200030Z" changeid="eratyk">
         <seg>&lt;A&gt;Як я магу наладжваць паліцу задач?&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;A&gt;How to ignore preset colors&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165335Z" changeid="eratyk">
+        <seg>&lt;A&gt;Як ігнараваць перадвызначаныя колеры&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13686,6 +13910,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;A&gt;What are intranet settings?&lt;/A&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T183101Z" changeid="eratyk">
+        <seg>&lt;A&gt;Што такое налады інтранэту?&lt;/A&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;A&gt;What does the notation mean?&lt;/A&gt;</seg>
       </tuv>
       <tuv lang="be" changedate="20100923T062948Z" changeid="eratyk">
@@ -13696,8 +13928,8 @@
       <tuv lang="en">
         <seg>&lt;A&gt;What is system locale?&lt;/A&gt;</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T125513Z" changeid="eratyk">
-        <seg>&lt;A&gt;Што такое сістэмная лакалізацыя?&lt;/A&gt;</seg>
+      <tuv lang="be" changedate="20110409T183627Z" changeid="eratyk">
+        <seg>&lt;A&gt;Што такое сістэмная лакаль?&lt;/A&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13994,6 +14226,22 @@
       </tuv>
       <tuv lang="be" changedate="20110104T171753Z" changeid="eratyk">
         <seg>&lt;a&gt;Чаму я не магу змяняць некаторыя налады?&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;current folder&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192206Z" changeid="eratyk">
+        <seg>&lt;дзейны каталог&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;folder status&gt;</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192125Z" changeid="eratyk">
+        <seg>&lt;стан каталога&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14792,8 +15040,8 @@
       <tuv lang="en">
         <seg>A program that collects information, such as the websites a user visits, without adequate consent. Unauthorized actions may include installing without prominent notice or running without a clear method to disable the program.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100310T121009Z" changeid="alex">
-        <seg>Праграма, якая выконвае збор, інфармацыі, напрыклад, звесткі аб вэб-сайтах, якія наведвае карыстальнік без яго згоды. Да дзеянняў, якія забараняюцца адносяцца: усталёўка праграм без апавяшчэння і запуск праграм без магчымасці іх адключэння.</seg>
+      <tuv lang="be" changedate="20110409T170829Z" changeid="eratyk">
+        <seg>Праграма, якая збірае інфармацыю кшталту наведаных карыстальнікам сайтаў без згоды карыстальніка. Неаўтарызаваныя дзеянні могуць улучаць усталёўванне без заўважнай абвесткі ці запусканне праграм без яснага метаду выключэння.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15166,6 +15414,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A&amp;dd this website to the zone:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163349Z" changeid="eratyk">
+        <seg>Дадаць гэты сайт да зоны:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A&amp;dd...</seg>
       </tuv>
       <tuv lang="be" changedate="20100728T125822Z" changeid="eratyk">
@@ -15313,7 +15569,7 @@
         <seg>A&amp;utomatically move pointer to the default button in a dialog box</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T091801Z" changeid="eratyk">
-        <seg>Аўтаматычна перасоўваць паказальнік на перадвызначаную кнопку дыялога</seg>
+        <seg>Аўтаматычна перасоўваць паказальнік на стандартную кнопку дыялога</seg>
       </tuv>
     </tu>
     <tu>
@@ -15650,6 +15906,14 @@
       </tuv>
       <tuv lang="be" changedate="20110213T111314Z" changeid="eratyk">
         <seg>Адсутна\r\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Acc&amp;essibility</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163103Z" changeid="eratyk">
+        <seg>Даступнасць</seg>
       </tuv>
     </tu>
     <tu>
@@ -16258,6 +16522,14 @@
       </tuv>
       <tuv lang="be" changedate="20100725T110732Z" changeid="eratyk">
         <seg>Дадаць злучальнік пошуку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Add V&amp;PN...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184217Z" changeid="eratyk">
+        <seg>Дадаць VPN...</seg>
       </tuv>
     </tu>
     <tu>
@@ -18222,6 +18494,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Always dial my default c&amp;onnection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184548Z" changeid="eratyk">
+        <seg>Заўсёды карыстаць маё стандартнае тэлефоннае злучэнне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Always do this for %1!ls!:</seg>
       </tuv>
       <tuv lang="be" changedate="20100718T200943Z" changeid="eratyk">
@@ -18566,6 +18846,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>An error occurred while attempting to read the boot configuration data.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T063927Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас спробы чытання звестак канфігурацыі запуску.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>An error occurred while attempting to retrieve the list of applicable updates for your computer. To continue, please close and reopen the Windows Update control panel.</seg>
       </tuv>
       <tuv lang="be" changedate="20110311T114134Z" changeid="eratyk">
@@ -18602,6 +18890,14 @@
       </tuv>
       <tuv lang="be" changedate="20101117T084110Z" changeid="eratyk">
         <seg>Адбылася памылка падчас даставання '%1!ls!'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>An error occurred while enumerating global parameters.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064101Z" changeid="eratyk">
+        <seg>Адбылася памылка падчас нумаравання глабальных параметраў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20609,7 +20905,7 @@
         <seg>Are you sure you want to restore this plan's default settings?</seg>
       </tuv>
       <tuv lang="be" changedate="20101223T182855Z" changeid="eratyk">
-        <seg>Вы сапраўды жадаеце аднавіць перадвызначаныя налады гэтага плана?</seg>
+        <seg>Вы сапраўды жадаеце аднавіць стандартныя налады гэтага плана?</seg>
       </tuv>
     </tu>
     <tu>
@@ -20998,6 +21294,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Attempting to load a 64-bit application, however this CPU is not compatible with 64-bit mode.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T065626Z" changeid="eratyk">
+        <seg>Спроба заладаваць 64-бітную праграму, аднак гэты працэсар несумяшчальны з 64-бітным рэжымам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Attribute &quot;%1!ls!&quot; cannot be set to &quot;%2!ls!&quot;.</seg>
       </tuv>
       <tuv lang="be" changedate="20100827T194121Z" changeid="eratyk">
@@ -21286,6 +21590,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Automatically &amp;detect intranet network</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T182459Z" changeid="eratyk">
+        <seg>Аўтаматычна выяўляць сетку інтранэт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Automatically Select</seg>
       </tuv>
       <tuv lang="be" changedate="20100918T202125Z" changeid="eratyk">
@@ -21449,7 +21761,7 @@
         <seg>Available display output on: default adapter</seg>
       </tuv>
       <tuv lang="be" changedate="20100922T074627Z" changeid="eratyk">
-        <seg>Даступны выхад экрана на: перадвызначаны адаптар</seg>
+        <seg>Даступны выхад экрана на: стандартны адаптар</seg>
       </tuv>
     </tu>
     <tu>
@@ -21590,6 +21902,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>BM_MSG_FIRST</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T063729Z" changeid="eratyk">
+        <seg>BM_MSG_FIRST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>BSLASH</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T075308Z" changeid="eratyk">
@@ -21664,8 +21984,8 @@
       <tuv lang="en">
         <seg>Background</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T063048Z" changeid="eratyk">
-        <seg>Задні план</seg>
+      <tuv lang="be" changedate="20110409T165152Z" changeid="eratyk">
+        <seg>Фон</seg>
       </tuv>
     </tu>
     <tu>
@@ -22392,8 +22712,8 @@
       <tuv lang="en">
         <seg>Block</seg>
       </tuv>
-      <tuv lang="be" changedate="20100311T162557Z" changeid="Ales Koshal [icq#:706101]">
-        <seg>Блакаваць</seg>
+      <tuv lang="be" changedate="20110409T143825Z" changeid="eratyk">
+        <seg>Заблакаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -22830,6 +23150,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Browsing history</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163145Z" changeid="eratyk">
+        <seg>Гісторыя аглядання</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Brushes</seg>
       </tuv>
       <tuv lang="be" changedate="20110124T140852Z" changeid="eratyk">
@@ -23241,7 +23569,7 @@
         <seg>By default, members of the Administrators group have this right.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064314Z" changeid="eratyk">
-        <seg>Чальцы адміністрацыйнай групы перадвызначана маюць яго.</seg>
+        <seg>Чальцы адміністрацыйнай групы стандартна маюць яго.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23249,7 +23577,7 @@
         <seg>By default, members of the Remote Desktop Users group have this right.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T071237Z" changeid="alex">
-        <seg>Чальцы групы карыстальнікаў аддаленай стальніцы перадвызначана маюць яго.</seg>
+        <seg>Чальцы групы карыстальнікаў аддаленай стальніцы стандартна маюць яго.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23482,6 +23810,14 @@
       </tuv>
       <tuv lang="be" changedate="20100912T105407Z" changeid="eratyk">
         <seg>Параўноўваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>C&amp;olors</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163054Z" changeid="eratyk">
+        <seg>Колеры</seg>
       </tuv>
     </tu>
     <tu>
@@ -24313,7 +24649,7 @@
         <seg>Cancel as De&amp;fault Connection</seg>
       </tuv>
       <tuv lang="be" changedate="20110215T075200Z" changeid="eratyk">
-        <seg>Скасаваць у якасці перадвызначанага</seg>
+        <seg>Скасаваць у якасці стандартнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -24321,7 +24657,7 @@
         <seg>Cancel this connection as the default.</seg>
       </tuv>
       <tuv lang="be" changedate="20110215T075112Z" changeid="eratyk">
-        <seg>Скасаваць прызначэнне гэтага злучэння ў якасці перадвызначанага.</seg>
+        <seg>Скасаваць прызначэнне гэтага злучэння ў якасці стандартнага.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25184,8 +25520,8 @@
       <tuv lang="en">
         <seg>Change System Locale</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T182928Z" changeid="eratyk">
-        <seg>Змяніць сістэмную лакалізацыю</seg>
+      <tuv lang="be" changedate="20110409T183800Z" changeid="eratyk">
+        <seg>Змяніць сістэмную лакаль</seg>
       </tuv>
     </tu>
     <tu>
@@ -25392,16 +25728,16 @@
       <tuv lang="en">
         <seg>Change default printer</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T161408Z" changeid="eratyk">
-        <seg>Перадвызначыць друкарку</seg>
+      <tuv lang="be" changedate="20110409T145709Z" changeid="eratyk">
+        <seg>Змяніць стандартную друкарку</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Change default settings for media or devices</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T155014Z" changeid="eratyk">
-        <seg>Перадвызначыць налады для прылад і носьбітаў</seg>
+      <tuv lang="be" changedate="20110409T145657Z" changeid="eratyk">
+        <seg>Змяніць стандартныя налады для прылад і носьбітаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -25504,8 +25840,16 @@
       <tuv lang="en">
         <seg>Change how web pages are displayed in tabs</seg>
       </tuv>
-      <tuv lang="be" changedate="20101030T155949Z" changeid="eratyk">
-        <seg>Змяніць выгляд старонак сеціва ва ўстаўках</seg>
+      <tuv lang="be" changedate="20110409T163042Z" changeid="eratyk">
+        <seg>Змяніць выгляд старонак ва ўстаўках</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Change how webpages are displayed in tabs.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163048Z" changeid="eratyk">
+        <seg>Змяніць выгляд старонак ва ўстаўках.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25742,6 +26086,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Change search defaults.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T162955Z" changeid="eratyk">
+        <seg>Змяніць стандарты пошуку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Change search options for files and folders</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T155053Z" changeid="eratyk">
@@ -25960,8 +26312,8 @@
       <tuv lang="en">
         <seg>Change the default save folder of this Library</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T072606Z" changeid="eratyk">
-        <seg>Перадвызначыць каталог захавання гэтай бібліятэкі</seg>
+      <tuv lang="be" changedate="20110409T145731Z" changeid="eratyk">
+        <seg>Змяніць стандартны каталог захавання гэтай бібліятэкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -26320,8 +26672,8 @@
       <tuv lang="en">
         <seg>Change your default printer</seg>
       </tuv>
-      <tuv lang="be" changedate="20110314T120813Z" changeid="eratyk">
-        <seg>Перадвызначыць друкарку</seg>
+      <tuv lang="be" changedate="20110409T145117Z" changeid="eratyk">
+        <seg>Змяніць стандартную друкарку</seg>
       </tuv>
     </tu>
     <tu>
@@ -26730,6 +27082,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T130857Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Праверыць на наяўнасць новых вызначэнняў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Check for newer versions of stored pages:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192008Z" changeid="eratyk">
+        <seg>Праверыць наяўнасць навейшых версіяў захаваных старонак:</seg>
       </tuv>
     </tu>
     <tu>
@@ -27414,6 +27774,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Choose Settings if you need to configure a proxy server for a connection.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185014Z" changeid="eratyk">
+        <seg>Пстрыкніце &quot;Налады&quot;, калі вам неабходна наладзіць проксі-сервер для злучэння.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Choose a date</seg>
       </tuv>
       <tuv lang="be" changedate="20101027T195504Z" changeid="eratyk">
@@ -27424,8 +27792,8 @@
       <tuv lang="en">
         <seg>Choose a default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T070250Z" changeid="eratyk">
-        <seg>Абраць перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145020Z" changeid="eratyk">
+        <seg>Абраць стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -27528,8 +27896,8 @@
       <tuv lang="en">
         <seg>Choose default programs for web browsing, e-mail, playing music, and other activities.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101021T165027Z" changeid="eratyk">
-        <seg>Перадвызначыць праграмы для агляду сеціва, эл. пошты, прайгравання музыкі і іншай дзейнасці.</seg>
+      <tuv lang="be" changedate="20110409T145012Z" changeid="eratyk">
+        <seg>Абраць стандартныя праграмы для агляду сеціва, эл. пошты, прайгравання музыкі і іншай дзейнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27646,6 +28014,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Choose the program that you want Internet Explorer to use for editing HTML files.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185626Z" changeid="eratyk">
+        <seg>Абярыце праграму, якую вы жадаеце, каб Internet Explorer карыстаў для рэдагавання HTML-файлаў.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Choose the program you want to use to open this file:</seg>
       </tuv>
       <tuv lang="be" changedate="20100705T090012Z" changeid="eratyk">
@@ -27665,7 +28041,15 @@
         <seg>Choose the programs that Windows uses by default</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T071957Z" changeid="eratyk">
-        <seg>Абраць праграмы, якія Windows перадвызначана карыстае</seg>
+        <seg>Абраць праграмы, якія Windows стандартна карыстае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Choose the programs you want to use for other Internet services, such as e-mail.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185806Z" changeid="eratyk">
+        <seg>Абярыце праграмы, якія вы жадаеце карыстаць для іншых сеціўных службаў кшталту электроннай пошты. </seg>
       </tuv>
     </tu>
     <tu>
@@ -27721,7 +28105,7 @@
         <seg>Choose which file types and protocols the selected program opens by default.</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T071917Z" changeid="eratyk">
-        <seg>Абярыце, якія тыпы файлаў і пратаколы абраная праграма перадвызначана адчыняе.</seg>
+        <seg>Абярыце, якія тыпы файлаў і пратаколы абраная праграма стандартна адчыняе.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28224,16 +28608,16 @@
       <tuv lang="en">
         <seg>Click 'Add' to include folders in this library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T180919Z" changeid="eratyk">
-        <seg>Пстрыкніце 'Дадаць', каб дадаць каталогі ў бібліятэку.</seg>
+      <tuv lang="be" changedate="20110409T173216Z" changeid="eratyk">
+        <seg>Пстрыкніце 'Дадаць', каб улучыць каталогі ў гэтую бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Click 'Include a folder.'</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T181215Z" changeid="eratyk">
-        <seg>Пстрыкніце 'Дадаць каталог'.</seg>
+      <tuv lang="be" changedate="20110409T173231Z" changeid="eratyk">
+        <seg>Пстрыкніце 'Улучыць каталог'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28312,8 +28696,8 @@
       <tuv lang="en">
         <seg>Click Reset to restore the system default settings for numbers, currency, time, and date.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101010T081352Z" changeid="eratyk">
-        <seg>Націсніце &quot;Скінуць&quot; для аднаўлення сістэмных перадвызначэнняў для лікаў, валюты, часу і даты.</seg>
+      <tuv lang="be" changedate="20110409T145144Z" changeid="eratyk">
+        <seg>Націсніце &quot;Скінуць&quot; для аднаўлення сістэмных стандартаў для лікаў, валюты, часу і даты.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28449,7 +28833,7 @@
         <seg>Click here if this network is at home, work, or another safe location. By default, it is considered to be in a public location.</seg>
       </tuv>
       <tuv lang="be" changedate="20101205T184305Z" changeid="eratyk">
-        <seg>Пстрыкніце тут, калі гэтая сетка знаходзіцца дома, на працы ці ў іншым бяспечным месцы. Перадвызначана лічыцца, што яна знаходзіцца ў публічным месцы.</seg>
+        <seg>Пстрыкніце тут, калі гэтая сетка знаходзіцца дома, на працы ці ў іншым бяспечным месцы. Стандартна лічыцца, што яна знаходзіцца ў публічным месцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28553,7 +28937,7 @@
         <seg>Click on an extension to view the program that currently opens it by default. To change the default program, click Change program.</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T082350Z" changeid="eratyk">
-        <seg>Пстрыкніце пашырэнне, каб прагледзець праграму, якая зараз перадвызначана адчыняе яго. Каб змяніць перадвызначаную праграму, пстрыкніце &quot;Змяніць праграму&quot;.</seg>
+        <seg>Пстрыкніце пашырэнне, каб прагледзець праграму, якая зараз стандартна адчыняе яго. Каб змяніць стандартную праграму, пстрыкніце &quot;Змяніць праграму&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28793,7 +29177,7 @@
         <seg>Clicking 'Yes' immediately restores all of the plan's default settings.</seg>
       </tuv>
       <tuv lang="be" changedate="20101223T183103Z" changeid="eratyk">
-        <seg>Абранне &quot;Так&quot; адразу аднаўляе ўсе перадвызначаныя налады плана.</seg>
+        <seg>Абранне &quot;Так&quot; адразу аднаўляе ўсе стандартныя налады плана.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31334,6 +31718,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Contact &amp;List:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190015Z" changeid="eratyk">
+        <seg>Спіс кантактаў:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Contact info</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T153727Z" changeid="eratyk">
@@ -31736,8 +32128,8 @@
       <tuv lang="en">
         <seg>Control access to certain programs and set defaults for this computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T072615Z" changeid="eratyk">
-        <seg>Кіраваць доступам да пэўных праграм і наладзіць перадвызначэнні гэтага камп'ютара.</seg>
+      <tuv lang="be" changedate="20110409T161716Z" changeid="eratyk">
+        <seg>Кіраваць доступам да пэўных праграм і прызначыць стандарты гэтага камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32386,6 +32778,14 @@
       </tuv>
       <tuv lang="be" changedate="20100911T060525Z" changeid="eratyk">
         <seg>Лік</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Country</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190122Z" changeid="eratyk">
+        <seg>Краіна</seg>
       </tuv>
     </tu>
     <tu>
@@ -33256,8 +33656,8 @@
       <tuv lang="en">
         <seg>Current Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T071119Z" changeid="eratyk">
-        <seg>Дзейнае перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145229Z" changeid="eratyk">
+        <seg>Дзейны стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -33304,8 +33704,16 @@
       <tuv lang="en">
         <seg>Current default</seg>
       </tuv>
-      <tuv lang="be" changedate="20101107T172012Z" changeid="eratyk">
-        <seg>Дзейнае перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145632Z" changeid="eratyk">
+        <seg>Дзейны стандарт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Current default:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184554Z" changeid="eratyk">
+        <seg>Дзейны стандарт:</seg>
       </tuv>
     </tu>
     <tu>
@@ -34657,7 +35065,7 @@
         <seg>De&amp;fault gateways:</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T075449Z" changeid="eratyk">
-        <seg>Перадвызначаныя шлюзы:</seg>
+        <seg>Стандартныя шлюзы:</seg>
       </tuv>
     </tu>
     <tu>
@@ -34665,7 +35073,7 @@
         <seg>De&amp;fault:</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T090410Z" changeid="eratyk">
-        <seg>Перадвызначана:</seg>
+        <seg>Стандартна:</seg>
       </tuv>
     </tu>
     <tu>
@@ -34808,8 +35216,8 @@
       <tuv lang="en">
         <seg>Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064024Z" changeid="eratyk">
-        <seg>Перадвызначана</seg>
+      <tuv lang="be" changedate="20110409T162053Z" changeid="eratyk">
+        <seg>Стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -34817,7 +35225,7 @@
         <seg>Default Banner Dialog</seg>
       </tuv>
       <tuv lang="be" changedate="20110319T142050Z" changeid="eratyk">
-        <seg>Перадвызначаны дыялог банэру</seg>
+        <seg>Стандартны дыялог банэру</seg>
       </tuv>
     </tu>
     <tu>
@@ -34825,7 +35233,7 @@
         <seg>Default Gateway</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T163412Z" changeid="eratyk">
-        <seg>Перадвызначаны шлюз</seg>
+        <seg>Стандартны шлюз</seg>
       </tuv>
     </tu>
     <tu>
@@ -34833,7 +35241,7 @@
         <seg>Default Gateways</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T163427Z" changeid="eratyk">
-        <seg>Перадвызначаныя шлюзы</seg>
+        <seg>Стандартныя шлюзы</seg>
       </tuv>
     </tu>
     <tu>
@@ -34841,7 +35249,7 @@
         <seg>Default Location</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T151055Z" changeid="eratyk">
-        <seg>перадвызначанае размяшчэнне</seg>
+        <seg>стандартнае размяшчэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -34849,7 +35257,7 @@
         <seg>Default Programs</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T070207Z" changeid="eratyk">
-        <seg>Перадвызначаныя праграмы</seg>
+        <seg>Стандартныя праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -34857,7 +35265,7 @@
         <seg>Default Save Folder</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072937Z" changeid="eratyk">
-        <seg>Перадвызначаны каталог захавання</seg>
+        <seg>Стандартны каталог захавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -34865,7 +35273,7 @@
         <seg>Default actions</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064102Z" changeid="eratyk">
-        <seg>Перадвызначаныя дзеянні</seg>
+        <seg>Стандартныя дзеянні</seg>
       </tuv>
     </tu>
     <tu>
@@ -34873,7 +35281,7 @@
         <seg>Default allocation size</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072536Z" changeid="eratyk">
-        <seg>Перадвызначаны памер размеркавання</seg>
+        <seg>Стандартны памер размеркавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -34881,7 +35289,7 @@
         <seg>Default device</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T151128Z" changeid="eratyk">
-        <seg>Перадвызначаная прылада</seg>
+        <seg>Стандартная прылада</seg>
       </tuv>
     </tu>
     <tu>
@@ -34889,7 +35297,7 @@
         <seg>Default input &amp;language</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T060912Z" changeid="eratyk">
-        <seg>Перадвызначаныя мовы ўводу</seg>
+        <seg>Стандартныя мовы ўводу</seg>
       </tuv>
     </tu>
     <tu>
@@ -34897,7 +35305,7 @@
         <seg>Default printer;</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064335Z" changeid="eratyk">
-        <seg>Перадвызначаная друкарка;</seg>
+        <seg>Стандартная друкарка;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34905,7 +35313,7 @@
         <seg>Default save location</seg>
       </tuv>
       <tuv lang="be" changedate="20101107T185350Z" changeid="eratyk">
-        <seg>Перадвызначанае размяшчэнне захавання</seg>
+        <seg>Стандартнае размяшчэнне захавання</seg>
       </tuv>
     </tu>
     <tu>
@@ -34913,7 +35321,15 @@
         <seg>Default state</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T082017Z" changeid="eratyk">
-        <seg>Перадвызначаны стан</seg>
+        <seg>Стандартны стан</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Default web browser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185154Z" changeid="eratyk">
+        <seg>Стандартны аглядальнік сеціва</seg>
       </tuv>
     </tu>
     <tu>
@@ -34921,7 +35337,7 @@
         <seg>Default%0</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064046Z" changeid="eratyk">
-        <seg>Перадвызначана%0</seg>
+        <seg>Стандартна%0</seg>
       </tuv>
     </tu>
     <tu>
@@ -34929,7 +35345,7 @@
         <seg>Default\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20110213T111551Z" changeid="eratyk">
-        <seg>Перадвызначана\r\n</seg>
+        <seg>Стандартна\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -35110,6 +35526,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Delete bro&amp;wsing history on exit</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T162937Z" changeid="eratyk">
+        <seg>Выдаляць гісторыю аглядання падчас выйсця</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Delete browsing history</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T160220Z" changeid="eratyk">
@@ -35178,6 +35602,14 @@
       </tuv>
       <tuv lang="be" changedate="20100723T185739Z" changeid="eratyk">
         <seg>Выдаліць часовыя файлы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Delete temporary files, history, cookies, saved passwords, and web form information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T162909Z" changeid="eratyk">
+        <seg>Выдаліць часовыя файлы, гісторыю, захаваныя паролі і інфармацыю сеціўных формаў. </seg>
       </tuv>
     </tu>
     <tu>
@@ -36118,6 +36550,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dial &amp;whenever a network connection is not present</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184519Z" changeid="eratyk">
+        <seg>Карыстаць тэлефоннае злучэнне, калі няма сеткавага</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dial-Up Networking</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T152243Z" changeid="eratyk">
@@ -36158,10 +36598,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Dial-up and Virtual Private Network settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185051Z" changeid="eratyk">
+        <seg>Налады тэлефонных і VPN-злучэнняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Dial-up connection cannot be found.</seg>
       </tuv>
       <tuv lang="be" changedate="20110203T102054Z" changeid="eratyk">
         <seg>Тэлефоннае злучэнне не знойдзенае.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Dial-up connections</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184208Z" changeid="eratyk">
+        <seg>Тэлефонныя злучэнні</seg>
       </tuv>
     </tu>
     <tu>
@@ -38242,7 +38698,7 @@
         <seg>Do you want to reset all folders of this type to the default view settings?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T223841Z" changeid="eratyk">
-        <seg>Усталяваць для ўсіх каталогаў такога тыпу перадвызначаныя налады?</seg>
+        <seg>Усталяваць для ўсіх каталогаў такога тыпу стандартныя налады?</seg>
       </tuv>
     </tu>
     <tu>
@@ -38649,8 +39105,8 @@
       <tuv lang="en">
         <seg>Don't include this folder (recommended)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T183321Z" changeid="eratyk">
-        <seg>Не дадаваць гэты каталог (рэкамендавана)</seg>
+      <tuv lang="be" changedate="20110409T173428Z" changeid="eratyk">
+        <seg>Не ўлучаць гэты каталог (рэкамендавана)</seg>
       </tuv>
     </tu>
     <tu>
@@ -40183,6 +40639,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Enable &amp;Protected Mode (requires restarting Internet Explorer)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191349Z" changeid="eratyk">
+        <seg>Уключыць абаронены рэжым (патрабуе перазапуску Internet Explorer)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Enable Aero Peek</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T131818Z" changeid="eratyk">
@@ -40251,6 +40715,14 @@
       </tuv>
       <tuv lang="be" changedate="20101029T175227Z" changeid="eratyk">
         <seg>Уключыць датчыкі размяшчэння і іншыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enable or disable browser add-ons installed in your system.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185458Z" changeid="eratyk">
+        <seg>Уключыць ці выключыць дадаткі аглядальніка, усталяваныя ў вашай сістэме.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40802,7 +41274,7 @@
         <seg>Enter a default location</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T175159Z" changeid="eratyk">
-        <seg>Увесці перадвызначанае размяшчэнне</seg>
+        <seg>Увесці стандартнае размяшчэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -41643,6 +42115,14 @@
       </tuv>
       <tuv lang="be" changedate="20110311T110214Z" changeid="eratyk">
         <seg>Штодзень</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Every time I &amp;start Internet Explorer</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T192059Z" changeid="eratyk">
+        <seg>Штораз падчас запуску Internet Explorer</seg>
       </tuv>
     </tu>
     <tu>
@@ -44239,6 +44719,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Fo&amp;nts</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163100Z" changeid="eratyk">
+        <seg>Шрыфты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Focal length</seg>
       </tuv>
       <tuv lang="be" changedate="20101030T203720Z" changeid="eratyk">
@@ -46623,6 +47111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>H&amp;over:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165308Z" changeid="eratyk">
+        <seg>Навядзенне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>H&amp;ue:</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T064401Z" changeid="alex">
@@ -46659,6 +47155,14 @@
       </tuv>
       <tuv lang="be" changedate="20100722T163750Z" changeid="eratyk">
         <seg>HTML-файлы@*.htm;*.html;*.mhtml;*.mht@Тэкставыя файлы@*.txt@GIF-файлы@*.gif@JPEG-файлы@*.jpg;*.jpeg@PNG-файлы@*.png@Усе файлы@*.*@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>HTML editing</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185518Z" changeid="eratyk">
+        <seg>Рэдагаванне HTML</seg>
       </tuv>
     </tu>
     <tu>
@@ -47655,6 +48159,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Home page</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163137Z" changeid="eratyk">
+        <seg>Пачатковая старонка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Home phone</seg>
       </tuv>
       <tuv lang="be" changedate="20101029T054416Z" changeid="eratyk">
@@ -48482,7 +48994,7 @@
         <seg>IPv4 Default Gateway</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T173014Z" changeid="eratyk">
-        <seg>Перадвызначаны шлюз IPv4</seg>
+        <seg>Стандартны шлюз IPv4</seg>
       </tuv>
     </tu>
     <tu>
@@ -48490,7 +49002,7 @@
         <seg>IPv4 Default Gateways</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T173024Z" changeid="eratyk">
-        <seg>Перадвызначаныя шлюзы IPv4</seg>
+        <seg>Стандартныя шлюзы IPv4</seg>
       </tuv>
     </tu>
     <tu>
@@ -48578,7 +49090,7 @@
         <seg>IPv6 Default Gateway</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T173222Z" changeid="eratyk">
-        <seg>Перадвызначаны шлюз IPv6</seg>
+        <seg>Стандартны шлюз IPv6</seg>
       </tuv>
     </tu>
     <tu>
@@ -48586,7 +49098,7 @@
         <seg>IPv6 Default Gateways</seg>
       </tuv>
       <tuv lang="be" changedate="20110216T173233Z" changeid="eratyk">
-        <seg>Перадвызначаныя шлюзы IPv6</seg>
+        <seg>Стандартныя шлюзы IPv6</seg>
       </tuv>
     </tu>
     <tu>
@@ -49489,8 +50001,8 @@
       <tuv lang="en">
         <seg>If you include this folder, searches will be slower and some view options will not be available.\n\nFolder Path: %s</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T183254Z" changeid="eratyk">
-        <seg>Калі вы дадасце гэты каталог, пошук можа запаволіцца і некаторыя параметры стануць недаступныя.\n\nШлях каталога: %s</seg>
+      <tuv lang="be" changedate="20110409T173418Z" changeid="eratyk">
+        <seg>Калі вы ўлучыце гэты каталог, пошук можа запаволіцца і некаторыя налады прагляду стануць недаступныя.\n\nШлях каталога: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -49975,6 +50487,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>In&amp;ternet Call:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185956Z" changeid="eratyk">
+        <seg>Сеціўныя выклікі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>In:</seg>
       </tuv>
       <tuv lang="be" changedate="20100724T142258Z" changeid="eratyk">
@@ -49993,112 +50513,136 @@
       <tuv lang="en">
         <seg>Include &amp;Windows logon domain</seg>
       </tuv>
-      <tuv lang="be" changedate="20110119T102942Z" changeid="eratyk">
-        <seg>Уключаць дамен уваходу Windows</seg>
+      <tuv lang="be" changedate="20110409T172921Z" changeid="eratyk">
+        <seg>Улучыць дамен уваходу Windows</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include &amp;subfolders in search results when searching in file folders</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T120318Z" changeid="eratyk">
-        <seg>Уключаць падкаталогі ў вынікі пошуку падчас шукання у каталогах</seg>
+      <tuv lang="be" changedate="20110409T173000Z" changeid="eratyk">
+        <seg>Улучаць падкаталогі ў вынікі пошуку падчас шукання у каталогах</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include Folder in %s</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T181632Z" changeid="eratyk">
-        <seg>Дадаць каталог у '%s'</seg>
+      <tuv lang="be" changedate="20110409T173238Z" changeid="eratyk">
+        <seg>Улучыць каталог у '%s'</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include a folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T090624Z" changeid="eratyk">
-        <seg>Дадаць каталог</seg>
+      <tuv lang="be" changedate="20110409T173303Z" changeid="eratyk">
+        <seg>Улучыць каталог</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include a folder...</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T161002Z" changeid="eratyk">
-        <seg>Дадаць каталог...</seg>
+      <tuv lang="be" changedate="20110409T173118Z" changeid="eratyk">
+        <seg>Улучыць каталог...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Include all &amp;network paths (UNCs)</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T183005Z" changeid="eratyk">
+        <seg>Улучаць усе сеткавыя шляхі (UNC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Include all local (intranet) sites not listed in other &amp;zones</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T182629Z" changeid="eratyk">
+        <seg>Улучаць усе лакальныя (інтранэтныя) сайты, якія не запісаныя ў іншых зонах</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Include all sites that bypass the &amp;proxy server</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T182943Z" changeid="eratyk">
+        <seg>Улучаць усе сайты, якія абыходзяць проксі-сервер</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include compressed files (&amp;ZIP, CAB...)</seg>
       </tuv>
-      <tuv lang="be" changedate="20100707T120727Z" changeid="eratyk">
-        <seg>Уключаць сціснутыя файлы (ZIP, CAB...)</seg>
+      <tuv lang="be" changedate="20110409T173015Z" changeid="eratyk">
+        <seg>Улучаць сціснутыя файлы (ZIP, CAB...)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include folder</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T181448Z" changeid="eratyk">
-        <seg>Дадаць каталог</seg>
+      <tuv lang="be" changedate="20110409T173247Z" changeid="eratyk">
+        <seg>Улучыць каталог</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include in %s library</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092042Z" changeid="eratyk">
-        <seg>Дадаць да бібліятэкі %s</seg>
+      <tuv lang="be" changedate="20110409T173152Z" changeid="eratyk">
+        <seg>Улучыць у бібліятэку &quot;%s&quot;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include in library</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092031Z" changeid="eratyk">
-        <seg>Дадаць да бібліятэкі</seg>
+      <tuv lang="be" changedate="20110409T173038Z" changeid="eratyk">
+        <seg>Улучыць у бібліятэку</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include s&amp;ystem directories</seg>
       </tuv>
-      <tuv lang="be" changedate="20101020T062400Z" changeid="eratyk">
-        <seg>Уключаць сістэмныя каталогі</seg>
+      <tuv lang="be" changedate="20110409T173007Z" changeid="eratyk">
+        <seg>Улучаць сістэмныя каталогі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include the selected folder in a library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101029T174246Z" changeid="eratyk">
-        <seg>Далучыць вылучаны каталог да бібліятэкі.</seg>
+      <tuv lang="be" changedate="20110409T173102Z" changeid="eratyk">
+        <seg>Улучыць абраны каталог у бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Include this folder anyway</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T183353Z" changeid="eratyk">
-        <seg>Усе роўна дадаць каталог</seg>
+      <tuv lang="be" changedate="20110409T173435Z" changeid="eratyk">
+        <seg>Усе роўна ўлучыць каталог</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Included Folders</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T181313Z" changeid="eratyk">
-        <seg>Дададзеныя каталогі</seg>
+      <tuv lang="be" changedate="20110409T170511Z" changeid="eratyk">
+        <seg>Улучаныя каталогі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Included Locations</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T122149Z" changeid="eratyk">
-        <seg>Далучаныя размяшчэнні</seg>
+      <tuv lang="be" changedate="20110409T170503Z" changeid="eratyk">
+        <seg>Улучаныя размяшчэнні</seg>
       </tuv>
     </tu>
     <tu>
@@ -51343,6 +51887,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Internet Explorer is not currently the default web browser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185219Z" changeid="eratyk">
+        <seg>Internet Explorer зараз не ёсць стандартным аглядальнікам сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet Explorer is not currently the default web browser.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190052Z" changeid="eratyk">
+        <seg>Internet Explorer зараз не ёсць стандартным аглядальнікам сеціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet Explorer stores copies of webpages, images, and media for faster viewing later.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191919Z" changeid="eratyk">
+        <seg>Internet Explorer захоўвае копіі старонак, выяваў і медыя для хутчэйшага праглядання пазней.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Internet Gateway</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T082451Z" changeid="eratyk">
@@ -51427,6 +51995,14 @@
       </tuv>
       <tuv lang="be" changedate="20101018T191541Z" changeid="eratyk">
         <seg>дастаўнік змесціва сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Internet programs</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185705Z" changeid="eratyk">
+        <seg>Сеціўныя праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -51643,6 +52219,14 @@
       </tuv>
       <tuv lang="be" changedate="20100827T195434Z" changeid="eratyk">
         <seg>Знойдзены недапушчальны гаджэт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Invalid group of digits entered.  Please correct the highlighted group.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064511Z" changeid="eratyk">
+        <seg>Уведзена недапушчальная група сімвалаў. Калі ласка, скарэктуйце вылучаную групу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52647,6 +53231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>LAN Settings do not apply to dial-up connections. Choose Settings above for dial-up settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184930Z" changeid="eratyk">
+        <seg>Налады сеткі не ўжываюцца да тэлефонных злучэнняў. Каб наладзіць іх, пстрыкніце &quot;Налады&quot; ўверсе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>LAN or High-Speed Internet</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T083045Z" changeid="eratyk">
@@ -52786,7 +53378,7 @@
         <seg>Language Neutral$$$$$$$Default</seg>
       </tuv>
       <tuv lang="be" changedate="20100927T200707Z" changeid="eratyk">
-        <seg>Моўная нейтральнасць$$$$$$$Перадвызначана</seg>
+        <seg>Моўная нейтральнасць$$$$$$$Стандартна</seg>
       </tuv>
     </tu>
     <tu>
@@ -53415,6 +54007,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Level description</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191312Z" changeid="eratyk">
+        <seg>Апісанне ўзроўню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Level name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191301Z" changeid="eratyk">
+        <seg>Назва ўзроўню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Libraries</seg>
       </tuv>
       <tuv lang="be" changedate="20100719T163114Z" changeid="eratyk">
@@ -53793,8 +54401,8 @@
       <tuv lang="en">
         <seg>List of available programs to change default settings.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T090506Z" changeid="eratyk">
-        <seg>Спіс даступных праграм для змянення перадвызначэнняў.</seg>
+      <tuv lang="be" changedate="20110409T161818Z" changeid="eratyk">
+        <seg>Спіс даступных праграм для змянення стандартных наладаў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53979,6 +54587,14 @@
       </tuv>
       <tuv lang="be" changedate="20110203T130431Z" changeid="eratyk">
         <seg>Злучэнне лакальнай пляцоўкі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Local Area Network (LAN) settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185138Z" changeid="eratyk">
+        <seg>Налады лакальнай сеткі</seg>
       </tuv>
     </tu>
     <tu>
@@ -55159,6 +55775,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Make &amp;default</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185227Z" changeid="eratyk">
+        <seg>Зрабіць стандартным</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Make a &amp;data CD (for computers and some CD players)</seg>
       </tuv>
       <tuv lang="be" changedate="20101104T070124Z" changeid="eratyk">
@@ -55185,8 +55809,8 @@
       <tuv lang="en">
         <seg>Make a program the default for all file types and protocols it can open.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T072100Z" changeid="eratyk">
-        <seg>Перадвызначыць праграму для ўсіх тыпаў файлаў і пратаколаў, якія яна можа адчыняць.</seg>
+      <tuv lang="be" changedate="20110409T161636Z" changeid="eratyk">
+        <seg>Зрабіць праграму стандартнай для ўсіх тыпаў файлаў і пратаколаў, якія яна можа адчыняць.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55543,6 +56167,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Manage add-ons</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185317Z" changeid="eratyk">
+        <seg>Кіраваць дадаткамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Manage advanced sharing settings</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T141640Z" changeid="eratyk">
@@ -55578,7 +56210,7 @@
         <seg>Manage default printers</seg>
       </tuv>
       <tuv lang="be" changedate="20110314T114751Z" changeid="eratyk">
-        <seg>Кіраваць перадвызначанымі друкаркамі</seg>
+        <seg>Кіраваць стандартнымі друкаркамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -59479,6 +60111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Never dial a &amp;connection</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184419Z" changeid="eratyk">
+        <seg>Ніколі не карыстаць тэлефонныя злучэнні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>New</seg>
       </tuv>
       <tuv lang="be" changedate="20100709T075708Z" changeid="eratyk">
@@ -60225,8 +60865,8 @@
       <tuv lang="en">
         <seg>No folders have been included in this library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T090617Z" changeid="eratyk">
-        <seg>Няма дададзеных каталогаў у бібліятэцы.</seg>
+      <tuv lang="be" changedate="20110409T182315Z" changeid="eratyk">
+        <seg>Няма ўлучаных каталогаў у бібліятэцы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60674,7 +61314,7 @@
         <seg>Not Default</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T082228Z" changeid="eratyk">
-        <seg>Не перадвызначаны</seg>
+        <seg>Не стандартны</seg>
       </tuv>
     </tu>
     <tu>
@@ -62714,7 +63354,7 @@
         <seg>Open the manage default printers dialog box, where you can manage default printers for the networks you connect to.</seg>
       </tuv>
       <tuv lang="be" changedate="20110314T120346Z" changeid="eratyk">
-        <seg>Адчыніць дыялог кіравання перадвызначаных друкарак, дзе вы можаце наладзіць друкаркі для сетак, з якімі вы злучаны.</seg>
+        <seg>Адчыніць дыялог кіравання стандартных друкарак, дзе вы можаце наладзіць друкаркі для сетак, з якімі вы злучаны.</seg>
       </tuv>
     </tu>
     <tu>
@@ -66426,7 +67066,7 @@
         <seg>Please install a program or, if one is already installed, create an association in the Default Programs control panel.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T070040Z" changeid="eratyk">
-        <seg>Калі ласка, усталюйце праграму ці, калі яна ўжо ўсталявана, стварыце асацыяцыю ў перадвызначаных праграмах панэлі кіравання.</seg>
+        <seg>Калі ласка, усталюйце праграму ці, калі яна ўжо ўсталявана, стварыце асацыяцыю ў стандартных праграмах панэлі кіравання.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68697,8 +69337,8 @@
       <tuv lang="en">
         <seg>Program Defaults Control Panel Error</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T071635Z" changeid="eratyk">
-        <seg>Памылка панэлі кіравання праграмных перадвызначэнняў.</seg>
+      <tuv lang="be" changedate="20110409T161408Z" changeid="eratyk">
+        <seg>Памылка панэлі кіравання праграмных стандартаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -69559,6 +70199,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>R&amp;emove</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T143856Z" changeid="eratyk">
+        <seg>Выдаліць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>R&amp;eset...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184101Z" changeid="eratyk">
+        <seg>Скінуць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>R&amp;estore</seg>
       </tuv>
       <tuv lang="be" changedate="20100704T134539Z" changeid="alex">
@@ -69751,6 +70407,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Ramdisk device creation failed due to insufficient memory.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T065237Z" changeid="eratyk">
+        <seg>Няўдалае стварэння дыска ў RAM праз нястачу памяці.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Random</seg>
       </tuv>
       <tuv lang="be" changedate="20100810T110603Z" changeid="eratyk">
@@ -69911,6 +70575,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Re&amp;set...</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191509Z" changeid="eratyk">
+        <seg>Скінуць...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Re&amp;size</seg>
       </tuv>
       <tuv lang="be" changedate="20110124T140600Z" changeid="eratyk">
@@ -69921,8 +70593,8 @@
       <tuv lang="en">
         <seg>Re&amp;store Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T065010Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145217Z" changeid="eratyk">
+        <seg>Аднавіць стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -71471,6 +72143,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Require &amp;server verification (https:) for all sites in this zone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T164603Z" changeid="eratyk">
+        <seg>Патрабуецца серверная праверка (https:) для ўсіх сайтаў у гэтай зоне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Require a password on wakeup</seg>
       </tuv>
       <tuv lang="be" changedate="20101209T170935Z" changeid="eratyk">
@@ -71551,6 +72231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Reset Internet Explorer settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191505Z" changeid="eratyk">
+        <seg>Скінуць налады Internet Explorer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Reset all adapter history.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T084716Z" changeid="eratyk">
@@ -71559,10 +72247,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Reset custom settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184020Z" changeid="eratyk">
+        <seg>Скінуць дапасаваныя налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Reset password...</seg>
       </tuv>
       <tuv lang="be" changedate="20100727T084756Z" changeid="eratyk">
         <seg>Скінуць пароль...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Resets Internet Explorer's settings to their default condition.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191625Z" changeid="eratyk">
+        <seg>Скідвае налады Internet Explorer да іх стандартнага стану.</seg>
       </tuv>
     </tu>
     <tu>
@@ -72041,16 +72745,16 @@
       <tuv lang="en">
         <seg>Restore &amp;Defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064420Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні</seg>
+      <tuv lang="be" changedate="20110409T145321Z" changeid="eratyk">
+        <seg>Аднавіць стандарты</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Restore &amp;device defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064955Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні прылады</seg>
+      <tuv lang="be" changedate="20110409T145611Z" changeid="eratyk">
+        <seg>Аднавіць стандарты прылады</seg>
       </tuv>
     </tu>
     <tu>
@@ -72065,8 +72769,8 @@
       <tuv lang="en">
         <seg>Restore Start menu defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T072514Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні Пачатковага меню</seg>
+      <tuv lang="be" changedate="20110409T145716Z" changeid="eratyk">
+        <seg>Аднавіць стандарты Пачатковага меню</seg>
       </tuv>
     </tu>
     <tu>
@@ -72098,15 +72802,15 @@
         <seg>Restore default icon behaviors</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T170851Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя паводзіны значкаў</seg>
+        <seg>Аднавіць стандартныя паводзіны значкаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Restore default settings for this plan</seg>
       </tuv>
-      <tuv lang="be" changedate="20110101T181032Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначэнні гэтага плана</seg>
+      <tuv lang="be" changedate="20110409T145302Z" changeid="eratyk">
+        <seg>Аднавіць стандарты гэтага плана</seg>
       </tuv>
     </tu>
     <tu>
@@ -72178,7 +72882,7 @@
         <seg>Restore the default folders to the Library.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072627Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя каталогі бібліятэкі.</seg>
+        <seg>Аднавіць стандартныя каталогі бібліятэкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -72186,7 +72890,7 @@
         <seg>Restore the default libraries.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072643Z" changeid="eratyk">
-        <seg>Аднавіць перадвызначаныя бібліятэкі.</seg>
+        <seg>Аднавіць стандартныя бібліятэкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -73295,6 +73999,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>S&amp;et default</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184607Z" changeid="eratyk">
+        <seg>Прызначыць як стандарт</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>S&amp;ettings...</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T094742Z" changeid="eratyk">
@@ -74034,7 +74746,7 @@
         <seg>Save in this format by &amp;default</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064202Z" changeid="eratyk">
-        <seg>Перадвызначана захоўваць у гэтым фармаце</seg>
+        <seg>Стандартна захоўваць у гэтым фармаце</seg>
       </tuv>
     </tu>
     <tu>
@@ -74895,6 +75607,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Se&amp;ttings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163050Z" changeid="eratyk">
+        <seg>Налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Se&amp;ttings...</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T080950Z" changeid="eratyk">
@@ -75097,16 +75817,16 @@
       <tuv lang="en">
         <seg>Search again and include file contents</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T164317Z" changeid="eratyk">
-        <seg>Шукаць зноў уключна са змесцівам файлаў</seg>
+      <tuv lang="be" changedate="20110409T173032Z" changeid="eratyk">
+        <seg>Шукаць зноў улучна са змесцівам файлаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Search again and include subfolders</seg>
       </tuv>
-      <tuv lang="be" changedate="20100719T163932Z" changeid="eratyk">
-        <seg>Шукаць зноў уключна з падкаталогамі</seg>
+      <tuv lang="be" changedate="20110409T172932Z" changeid="eratyk">
+        <seg>Шукаць зноў улучна з падкаталогамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -75122,7 +75842,7 @@
         <seg>Search again using your default browser</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T072255Z" changeid="eratyk">
-        <seg>Шукаць зноў праз перадвызначаны аглядальнік</seg>
+        <seg>Шукаць зноў праз стандартны аглядальнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -75495,6 +76215,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Security &amp;level for this zone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191039Z" changeid="eratyk">
+        <seg>Узровень бяспекі для гэтай зоны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Security Alert</seg>
       </tuv>
       <tuv lang="be" changedate="20101111T081610Z" changeid="eratyk">
@@ -75543,6 +76271,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Security Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T183112Z" changeid="eratyk">
+        <seg>Налады бяспекі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Security Shield Icon</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T061014Z" changeid="alex">
@@ -75571,6 +76307,14 @@
       </tuv>
       <tuv lang="be" changedate="20110312T190553Z" changeid="eratyk">
         <seg>Ключ бяспекі:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Security level indicator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191140Z" changeid="eratyk">
+        <seg>Паказнік узроўню бяспекі</seg>
       </tuv>
     </tu>
     <tu>
@@ -76151,6 +76895,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Select a web content zone to specify its security settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190942Z" changeid="eratyk">
+        <seg>Абярыце зону па сеціўным змесціве, каб азначыць яе налады бяспекі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Select a zone to view or change security settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190811Z" changeid="eratyk">
+        <seg>Абярыце зону для прагляду ці змянення наладаў бяспекі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Select all</seg>
       </tuv>
       <tuv lang="be" changedate="20100723T182437Z" changeid="eratyk">
@@ -76258,7 +77018,7 @@
         <seg>Select one of the installed input languages to use as the default for all input fields.</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T061157Z" changeid="eratyk">
-        <seg>Абярыце адну з усталяваных моваў уводу, каб скарыстаць яе як перадвызначаную для ўсіх палёў уводу.</seg>
+        <seg>Абярыце адну з усталяваных моваў уводу, каб скарыстаць яе як стандартную для ўсіх палёў уводу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76345,8 +77105,8 @@
       <tuv lang="en">
         <seg>Select the disc-burning &amp;drive that Windows will use by default.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T064550Z" changeid="eratyk">
-        <seg>Перадвызначце кружэльнік для прапальвання, якім будзе карыстацца Windows.</seg>
+      <tuv lang="be" changedate="20110409T145413Z" changeid="eratyk">
+        <seg>Абярыце стандартны кружэльнік для прапальвання, якім будзе карыстацца Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76370,7 +77130,7 @@
         <seg>Select the extensions you want this program to open by default, and then click Save.</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T072810Z" changeid="eratyk">
-        <seg>Абярыце пашырэнні, якія праграма будзе перадвызначана адчыняць, і пстрыкніце &quot;Захаваць&quot;.</seg>
+        <seg>Абярыце пашырэнні, якія праграма будзе стандартна адчыняць, і пстрыкніце &quot;Захаваць&quot;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -76681,8 +77441,8 @@
       <tuv lang="en">
         <seg>Select which language (system locale) to use when displaying text in programs that do not support Unicode. This setting affects all user accounts on the computer.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T175256Z" changeid="eratyk">
-        <seg>Абярыце мову (сістэмную лакалізацыю), што будзе скарыстаная праграмамі, якія не падтрымліваюць Unicode. Гэтая налада паўплывае на ўсе рахункі карыстальнікаў камп'ютара.</seg>
+      <tuv lang="be" changedate="20110409T183644Z" changeid="eratyk">
+        <seg>Абярыце мову (сістэмную лакаль), што будзе скарыстаная праграмамі, якія не падтрымліваюць Unicode. Гэтая налада паўплывае на ўсе рахункі карыстальнікаў камп'ютара.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77002,7 +77762,7 @@
         <seg>Send the document directly to the default printer without making changes.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064219Z" changeid="eratyk">
-        <seg>Даслаць дакумент напрасткі на перадвызначаную друкарку без змяненняў.</seg>
+        <seg>Даслаць дакумент напрасткі на стандартную друкарку без змяненняў.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77466,7 +78226,7 @@
         <seg>Set &amp;as default printer</seg>
       </tuv>
       <tuv lang="be" changedate="20110314T114611Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначаную друкарку</seg>
+        <seg>Прызначыць як стандартную друкарку</seg>
       </tuv>
     </tu>
     <tu>
@@ -77481,8 +78241,8 @@
       <tuv lang="en">
         <seg>Set As Default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T073155Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145135Z" changeid="eratyk">
+        <seg>Прызначыць як стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -77497,8 +78257,8 @@
       <tuv lang="en">
         <seg>Set Default Programs</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T070301Z" changeid="eratyk">
-        <seg>Перадвызначыць праграмы</seg>
+      <tuv lang="be" changedate="20110409T145748Z" changeid="eratyk">
+        <seg>Прызначыць стандартныя праграмы</seg>
       </tuv>
     </tu>
     <tu>
@@ -77546,7 +78306,7 @@
         <seg>Set as De&amp;fault Connection</seg>
       </tuv>
       <tuv lang="be" changedate="20110126T085256Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначанае злучэнне</seg>
+        <seg>Прызначыць як стандартнае злучэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -77554,7 +78314,7 @@
         <seg>Set as Default &amp;Communication Device</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T073306Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначаную прыладу зносін</seg>
+        <seg>Прызначыць як стандартную прыладу зносін</seg>
       </tuv>
     </tu>
     <tu>
@@ -77562,15 +78322,15 @@
         <seg>Set as Default &amp;Device</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T073233Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначаную прыладу</seg>
+        <seg>Прызначыць як стандартную прыладу</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Set as default</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T073141Z" changeid="eratyk">
-        <seg>Прызначыць як перадвызначэнне</seg>
+      <tuv lang="be" changedate="20110409T145042Z" changeid="eratyk">
+        <seg>Прызначыць як стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -77633,8 +78393,8 @@
       <tuv lang="en">
         <seg>Set program access and computer defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T072457Z" changeid="eratyk">
-        <seg>Прызначыць доступ праграмы і перадвызначэнні камп'ютара</seg>
+      <tuv lang="be" changedate="20110409T161648Z" changeid="eratyk">
+        <seg>Прызначыць доступ праграмы і стандарты камп'ютара</seg>
       </tuv>
     </tu>
     <tu>
@@ -77698,7 +78458,7 @@
         <seg>Set this connection as the default connection.</seg>
       </tuv>
       <tuv lang="be" changedate="20110215T075010Z" changeid="eratyk">
-        <seg>Прызначыць гэтае злучэнне як перадвызначанае.</seg>
+        <seg>Прызначыць гэтае злучэнне як стандартнае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -77833,8 +78593,16 @@
       <tuv lang="en">
         <seg>Set your default programs</seg>
       </tuv>
-      <tuv lang="be" changedate="20100920T072308Z" changeid="eratyk">
-        <seg>Перадвызначце праграмы</seg>
+      <tuv lang="be" changedate="20110409T145641Z" changeid="eratyk">
+        <seg>Прызначце стандартныя праграмы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Set&amp;up</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184157Z" changeid="eratyk">
+        <seg>Усталяваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -77939,6 +78707,14 @@
       </tuv>
       <tuv lang="be" changedate="20101021T075017Z" changeid="eratyk">
         <seg>Сетсвана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sett&amp;ings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163000Z" changeid="eratyk">
+        <seg>Налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -78081,8 +78857,8 @@
       <tuv lang="en">
         <seg>Setup was unable to install the chosen locale.  Please contact your system Administrator.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T182344Z" changeid="eratyk">
-        <seg>Усталёўнік не змог усталяваць абраную лакалізацыю. Калі ласка, звяжыцеся з вашым сістэмным адміністратарам.</seg>
+      <tuv lang="be" changedate="20110409T183754Z" changeid="eratyk">
+        <seg>Усталёўнік не змог усталяваць абраную лакаль. Калі ласка, звяжыцеся з вашым сістэмным адміністратарам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -80307,6 +81083,14 @@
       </tuv>
       <tuv lang="be" changedate="20110408T194521Z" changeid="eratyk">
         <seg>Вырашыць праблемы ПК: %1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Some &lt;A&gt;settings&lt;/A&gt; are managed by your system administrator.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163127Z" changeid="eratyk">
+        <seg>Некаторыя &lt;A&gt;налады&lt;/A&gt; кіруюцца вашым сістэмным адміністратарам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -83673,8 +84457,8 @@
       <tuv lang="en">
         <seg>System display language has been changed. You must restart Windows for the changes to take effect.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T182407Z" changeid="eratyk">
-        <seg>Сістэмная мова адлюстравання была змененая. Вы павінны перазапусціць Windows для таго, каб змены далі вынік.</seg>
+      <tuv lang="be" changedate="20110409T183555Z" changeid="eratyk">
+        <seg>Сістэмная мова адлюстравання была змененая. Вы павінны перазапусціць Windows для таго, каб змены набылі сілу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -83729,8 +84513,8 @@
       <tuv lang="en">
         <seg>System locale has been changed. You must restart Windows for the changes to take effect.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T182003Z" changeid="eratyk">
-        <seg>Сістэмная лакалізацыя была змененая. Вы павінны перазапусціць Windows для таго, каб змены далі вынік.</seg>
+      <tuv lang="be" changedate="20110409T183438Z" changeid="eratyk">
+        <seg>Сістэмная лакаль была змененая. Вы павінны перазапусціць Windows для таго, каб змены набылі сілу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -84335,6 +85119,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Tell me if &amp;Internet Explorer is not the default web browser.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185309Z" changeid="eratyk">
+        <seg>Казаць мне, калі Internet Explorer не з'яўляецца стандартным аглядальнікам сеціва.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tell me more</seg>
       </tuv>
       <tuv lang="be" changedate="20110311T112925Z" changeid="eratyk">
@@ -84419,6 +85211,14 @@
       </tuv>
       <tuv lang="be" changedate="20110216T171236Z" changeid="eratyk">
         <seg>Часовы IPv6-адрас</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Temporary Internet Files and History Settings</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191834Z" changeid="eratyk">
+        <seg>Часовыя сеціўныя файлы і налады гісторыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -85135,6 +85935,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The Windows Boot Configuration Data file does not contain a valid OS entry.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064354Z" changeid="eratyk">
+        <seg>Файл звестак канфігурацыі запуску Windows не змяшчае дапушчальны запіс АС.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Windows Boot Configuration Data file is missing required information.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T065355Z" changeid="eratyk">
+        <seg>У файле звестак канфігурацыі запуску Windows страчаная неабходная інфармацыя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Windows Installer Service could not be accessed.</seg>
       </tuv>
       <tuv lang="be" changedate="20100713T171720Z" changeid="eratyk">
@@ -85295,6 +86111,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The action could not be completed because the BitLocker Drive Encryption key required to unlock the volume could not be obtained.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064828Z" changeid="eratyk">
+        <seg>Дзеянне не можа быць скончанае, бо патрэбны ключ шыфравання дыска BitLocker для разблакавання раздзела не можа быць атрыманы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The adapter requires at least one IP address.  Please enter one.</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T093951Z" changeid="eratyk">
@@ -85363,6 +86187,14 @@
       </tuv>
       <tuv lang="be" changedate="20100315T140650Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Тэрмін дзеяння бэта-версіі версіі скончыўся</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The boot selection failed because a required device is inaccessible.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064553Z" changeid="eratyk">
+        <seg>Няўдалае абранне запуску, бо патрэбная прылада недаступная.</seg>
       </tuv>
     </tu>
     <tu>
@@ -85647,6 +86479,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The configuration for an element within the object is invalid in the boot configuration data store.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T071145Z" changeid="eratyk">
+        <seg>Недапушчальная канфігурацыя элемента аб'екта ў сховішчы звестак канфігурацыі запуску. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The conflict could not be resolved in the manner you chose.\n\n%ws\n\nWould you like to retry the resolution, remove the conflict from Sync Center, or cancel?</seg>
       </tuv>
       <tuv lang="be" changedate="20110105T081420Z" changeid="eratyk">
@@ -85738,15 +86578,15 @@
         <seg>The default &amp;communication device</seg>
       </tuv>
       <tuv lang="be" changedate="20101009T164238Z" changeid="eratyk">
-        <seg>Перадвызначаная прылада сувязі</seg>
+        <seg>Стандартная прылада сувязі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>The default Windows power plan types include Balanced, Power saver, and High performance. The three types are designed to balance power savings while providing performance on demand, maximize power savings, or maximize performance. Many system components use the power plan type to deciding whether to optimize power savings or performance.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101209T170659Z" changeid="eratyk">
-        <seg>Перадвызначаныя тыпы планаў сілкавання Windows уключаюць &quot;Збалансаваны&quot;, &quot;Захаванне энергіі&quot; і &quot;Высокая прадукцыйнасць&quot;. Гэтыя тры тыпы прызначаныя адпаведна для збалансавання прадукцыйнасці і спажывання энергіі, максімізавання захавання энергіі і максімізавання прадукцыйнасці. Шмат якія сістэмныя кампаненты карыстаюць тып плана сілкавання для вызначэння мэты аптымізавання - ашчаджання энергіі ці прадукцыйнасці.</seg>
+      <tuv lang="be" changedate="20110409T172846Z" changeid="eratyk">
+        <seg>Стандартныя тыпы планаў сілкавання Windows улучаюць &quot;Збалансаваны&quot;, &quot;Захаванне энергіі&quot; і &quot;Высокая прадукцыйнасць&quot;. Гэтыя тры тыпы прызначаныя адпаведна для збалансавання прадукцыйнасці і спажывання энергіі, максімізавання захавання энергіі і максімізавання прадукцыйнасці. Шмат якія сістэмныя кампаненты карыстаюць тып плана сілкавання для вызначэння мэты аптымізавання - ашчаджання энергіі ці прадукцыйнасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -85754,7 +86594,7 @@
         <seg>The default printer has been deleted.</seg>
       </tuv>
       <tuv lang="be" changedate="20110314T120718Z" changeid="eratyk">
-        <seg>Перадвызначаная друкарка выяўленая.</seg>
+        <seg>Стандартная друкарка выяўленая.</seg>
       </tuv>
     </tu>
     <tu>
@@ -85762,7 +86602,7 @@
         <seg>The default sound device will always show its own volume control.</seg>
       </tuv>
       <tuv lang="be" changedate="20101118T074414Z" changeid="eratyk">
-        <seg>Перадвызначаная гукавая прылада заўсёды паказвае ўласнае кіраванне гучнасцю.</seg>
+        <seg>Стандартная гукавая прылада заўсёды паказвае ўласнае кіраванне гучнасцю.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86391,6 +87231,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The file is possibly corrupt.  Its header checksum does not match the computed checksum.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T070845Z" changeid="eratyk">
+        <seg>Файл, магчыма, пашкоджаны. Кантрольная сума ягонага загалоўка не супадае з палічанай сумай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The file might have been moved or deleted.\n\nDo you want to create it?</seg>
       </tuv>
       <tuv lang="be" changedate="20101119T223115Z" changeid="eratyk">
@@ -86769,8 +87617,8 @@
       <tuv lang="en">
         <seg>The folder could not be included in %s.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T181619Z" changeid="eratyk">
-        <seg>Каталог не можа быць дададзены ў '%s'.</seg>
+      <tuv lang="be" changedate="20110409T170532Z" changeid="eratyk">
+        <seg>Каталог не можа быць улучаны ў '%s'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86834,7 +87682,7 @@
         <seg>The following input methods are available only on 32 bit processes.\n%sDo you want to include them in Default User Account?</seg>
       </tuv>
       <tuv lang="be" changedate="20101021T062729Z" changeid="eratyk">
-        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\n%sЖадаеце дадаць іх да перадвызначанага рахунка карыстальніка?</seg>
+        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\n%sЖадаеце дадаць іх да стандартнага рахунка карыстальніка?</seg>
       </tuv>
     </tu>
     <tu>
@@ -86849,8 +87697,8 @@
       <tuv lang="en">
         <seg>The following input methods are available only on 32 bit processes.\r\n%sDo you want to include them in Default User Account?</seg>
       </tuv>
-      <tuv lang="be" changedate="20101119T222944Z" changeid="eratyk">
-        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\r\n%sДадаць іх да перадвызначанага рахунка карыстальніка?</seg>
+      <tuv lang="be" changedate="20110409T172830Z" changeid="eratyk">
+        <seg>Наступныя метады даступныя толькі для 32-бітавых працэсаў.\r\n%sУлучыць іх у стандартны рахунак карыстальніка?</seg>
       </tuv>
     </tu>
     <tu>
@@ -87386,7 +88234,7 @@
         <seg>The new default printer for this computer is '%1!ls!'.</seg>
       </tuv>
       <tuv lang="be" changedate="20110314T120749Z" changeid="eratyk">
-        <seg>Новая перадвызначаная друкарка гэтага камп'ютара - '%1!ls!'.</seg>
+        <seg>Новая стандартная друкарка гэтага камп'ютара - '%1!ls!'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -88063,6 +88911,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The selected entry could not be loaded because the application is missing or corrupt.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064227Z" changeid="eratyk">
+        <seg>Абраны запіс не можа быць заладаваны, бо праграма страчаная ці пашкоджаная.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The selected file is no longer shared.</seg>
       </tuv>
       <tuv lang="be" changedate="20101130T153427Z" changeid="eratyk">
@@ -88497,8 +89353,8 @@
       <tuv lang="en">
         <seg>The system locale could not be changed to &quot;%1&quot;.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T125035Z" changeid="eratyk">
-        <seg>Немагчыма змяніць сістэмную лакалізацыю на &quot;%1&quot;.\r\n</seg>
+      <tuv lang="be" changedate="20110409T183923Z" changeid="eratyk">
+        <seg>Немагчыма змяніць сістэмную лакаль на &quot;%1&quot;.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -88513,8 +89369,8 @@
       <tuv lang="en">
         <seg>The system locale was changed to &quot;%1&quot;.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T124954Z" changeid="eratyk">
-        <seg>Сістэмная лакалізацыя была змененая на &quot;%1&quot;.\r\n</seg>
+      <tuv lang="be" changedate="20110409T183913Z" changeid="eratyk">
+        <seg>Сістэмная лакаль была змененая на &quot;%1&quot;.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -88617,8 +89473,8 @@
       <tuv lang="en">
         <seg>The user changed the user locale setting &quot;%1&quot; to &quot;%2&quot;.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T124900Z" changeid="eratyk">
-        <seg>Карыстальнік змяніў наладу лакалізацыі &quot;%1&quot; на &quot;%2&quot;.\r\n</seg>
+      <tuv lang="be" changedate="20110409T183905Z" changeid="eratyk">
+        <seg>Карыстальнік змяніў наладу лакалі &quot;%1&quot; на &quot;%2&quot;.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -88697,8 +89553,8 @@
       <tuv lang="en">
         <seg>The user changed their user locale to &quot;%1&quot;.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T124849Z" changeid="eratyk">
-        <seg>Карыстальнік змяніў лакалізацыю на &quot;%1&quot;.\r\n</seg>
+      <tuv lang="be" changedate="20110409T183814Z" changeid="eratyk">
+        <seg>Карыстальнік змяніў лакаль на &quot;%1&quot;.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -88706,7 +89562,7 @@
         <seg>The user chose to copy their settings to the default user account.</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T195525Z" changeid="eratyk">
-        <seg>Карыстальнік вырашыў скапіяваць налады ў перадвызначаны рахунак карыстальніка.</seg>
+        <seg>Карыстальнік вырашыў скапіяваць налады ў стандартны рахунак карыстальніка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -88714,7 +89570,7 @@
         <seg>The user chose to copy their settings to the default user account.\r\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101108T124959Z" changeid="eratyk">
-        <seg>Карыстальнік вырашыў скапіяваць налады ў перадвызначаны рахунак карыстальніка.\r\n</seg>
+        <seg>Карыстальнік вырашыў скапіяваць налады ў стандартны рахунак карыстальніка.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -88818,15 +89674,15 @@
         <seg>The user reset all customizations for the user locale &quot;%1&quot; to the system default.</seg>
       </tuv>
       <tuv lang="be" changedate="20100924T185759Z" changeid="eratyk">
-        <seg>Карыстальнік скінуў усе налады сваёй лакалізацыі &quot;%1&quot; да перадвызначаных сістэмай.</seg>
+        <seg>Карыстальнік скінуў усе налады сваёй лакалізацыі &quot;%1&quot; да стандартных сістэмай.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>The user reset all customizations for the user locale &quot;%1&quot; to the system default.\r\n</seg>
       </tuv>
-      <tuv lang="be" changedate="20101108T124855Z" changeid="eratyk">
-        <seg>Карыстальнік скінуў усе налады сваёй лакалізацыі &quot;%1&quot; да перадвызначаных сістэмай.\r\n</seg>
+      <tuv lang="be" changedate="20110409T183852Z" changeid="eratyk">
+        <seg>Карыстальнік скінуў усе налады сваёй лакалі &quot;%1&quot; да стандарту сістэмы.\r\n</seg>
       </tuv>
     </tu>
     <tu>
@@ -89251,6 +90107,14 @@
       </tuv>
       <tuv lang="be" changedate="20110311T101531Z" changeid="eratyk">
         <seg>Няма даступных абнаўленняў для вашага камп'ютара.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are no websites in this zone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191003Z" changeid="eratyk">
+        <seg>Няма сайтаў у гэтай зоне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -89690,15 +90554,15 @@
         <seg>There was a problem loading a pre-set color.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T060404Z" changeid="alex">
-        <seg>Адбылася памылка падчас ладавання перадвызначанага колеру.</seg>
+        <seg>Адбылася памылка падчас ладавання стандартнага колеру.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>There was a problem loading the 'Set a Default Program' page. (Error code: %1!lX!)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T071050Z" changeid="eratyk">
-        <seg>Праблема падчас ладавання старонкі перадвызначэння праграмы. (Код памылкі: %1!lX!)</seg>
+      <tuv lang="be" changedate="20110409T161517Z" changeid="eratyk">
+        <seg>Праблема падчас ладавання старонкі прызначэння стандартнай праграмы. (Код памылкі: %1!lX!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -90593,8 +91457,8 @@
       <tuv lang="en">
         <seg>This file is not one of the supported file types, which include .bmp, .jpg, .jpeg and .dib. Please close this dialog and select a different picture for your background.</seg>
       </tuv>
-      <tuv lang="be" changedate="20101006T053747Z" changeid="alex">
-        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія складаюцца з .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
+      <tuv lang="be" changedate="20110409T182431Z" changeid="eratyk">
+        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія улучаюць .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
       </tuv>
     </tu>
     <tu>
@@ -90641,32 +91505,32 @@
       <tuv lang="en">
         <seg>This folder can't be included because an unknown error occurred.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T062448Z" changeid="eratyk">
-        <seg>Гэты каталог не можа быць дададзены з нагоды памылкі.</seg>
+      <tuv lang="be" changedate="20110409T182240Z" changeid="eratyk">
+        <seg>Гэты каталог не можа быць улучаны з нагоды невядомай памылкі.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This folder can't be included because it is on a removable device.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T062245Z" changeid="eratyk">
-        <seg>Гэты каталог не можа быць дададзены з нагоды яго размяшчэння на зменнай прыладзе.</seg>
+      <tuv lang="be" changedate="20110409T173524Z" changeid="eratyk">
+        <seg>Гэты каталог не можа быць улучаны з нагоды яго размяшчэння на зменнай прыладзе.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This folder can't be included because you don't have permission to access it.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T182145Z" changeid="eratyk">
-        <seg>Гэты каталог не можа быць дададзены, бо вы не маеце дазволу на доступ да яго.</seg>
+      <tuv lang="be" changedate="20110409T170626Z" changeid="eratyk">
+        <seg>Гэты каталог не можа быць улучаны, бо вы не маеце дазволу на доступ да яго.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This folder can't be included due to a group policy setting.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T063045Z" changeid="eratyk">
-        <seg>Каталог не можа быць дададзены з нагоды параметраў групавой палітыкі.</seg>
+      <tuv lang="be" changedate="20110409T182305Z" changeid="eratyk">
+        <seg>Каталог не можа быць улучаны з нагоды наладаў групавой палітыкі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91042,7 +91906,7 @@
         <seg>This is the default device.</seg>
       </tuv>
       <tuv lang="be" changedate="20110104T180029Z" changeid="eratyk">
-        <seg>Гэта перадвызначаная прылада.</seg>
+        <seg>Гэта стандартная прылада.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91097,8 +91961,8 @@
       <tuv lang="en">
         <seg>This library can be safely deleted from your computer. Folders that have been included will not be affected.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T174036Z" changeid="eratyk">
-        <seg>Гэтая бібліятэка можа быць бяспечна выдаленая з  камп'ютара. Гэта не закране ўкладзеныя каталогі.</seg>
+      <tuv lang="be" changedate="20110409T170521Z" changeid="eratyk">
+        <seg>Гэтая бібліятэка можа быць бяспечна выдаленая з  камп'ютара. Гэта не закране ўлучаныя каталогі.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91217,8 +92081,8 @@
       <tuv lang="en">
         <seg>This network location can't be included because it is not indexed.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100724T182949Z" changeid="eratyk">
-        <seg>Гэтае сеткавае размяшчэнне не можа быць дададзена, бо яно неіндэксаванае.</seg>
+      <tuv lang="be" changedate="20110409T173328Z" changeid="eratyk">
+        <seg>Гэтае сеткавае размяшчэнне не можа быць улучана, бо яно неіндэксаванае.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91482,7 +92346,7 @@
         <seg>This program changes the default home page.</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T163300Z" changeid="eratyk">
-        <seg>Гэта праграма змяняе перадвызначаную пачатковую старонку.</seg>
+        <seg>Гэта праграма змяняе стандартную пачатковую старонку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91490,7 +92354,7 @@
         <seg>This program changes the default search engine and the homepage.</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T163317Z" changeid="eratyk">
-        <seg>Гэтая праграма змяняе перадвызначаны шукач і пачатковую старонку.</seg>
+        <seg>Гэтая праграма змяняе стандартны шукач і пачатковую старонку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91498,7 +92362,7 @@
         <seg>This program changes the default search engine, the homepage, and other browser settings.</seg>
       </tuv>
       <tuv lang="be" changedate="20110316T163326Z" changeid="eratyk">
-        <seg>Гэтая праграма змяняе перадвызначаны шукач, пачатковую старонку і іншыя налады аглядальніка.</seg>
+        <seg>Гэтая праграма змяняе стандартны шукач, пачатковую старонку і іншыя налады аглядальніка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91506,7 +92370,7 @@
         <seg>This program changes the default search engine.</seg>
       </tuv>
       <tuv lang="be" changedate="20110127T080342Z" changeid="eratyk">
-        <seg>Гэтая праграма змяняе перадвызначаны шукач.</seg>
+        <seg>Гэтая праграма змяняе стандартны шукач.</seg>
       </tuv>
     </tu>
     <tu>
@@ -91721,16 +92585,16 @@
       <tuv lang="en">
         <seg>This program has %1!lu! out of %2!lu! defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T071612Z" changeid="eratyk">
-        <seg>Гэтая праграма мае %1!lu! з %2!lu! перадвызначэнняў</seg>
+      <tuv lang="be" changedate="20110409T161610Z" changeid="eratyk">
+        <seg>Гэтая праграма мае %1!lu! з %2!lu! стандартаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This program has all its defaults</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T071505Z" changeid="eratyk">
-        <seg>Гэтая праграма мае ўсе перадвызначэнні</seg>
+      <tuv lang="be" changedate="20110409T161557Z" changeid="eratyk">
+        <seg>Гэтая праграма мае ўсе свае стандарты</seg>
       </tuv>
     </tu>
     <tu>
@@ -92289,8 +93153,8 @@
       <tuv lang="en">
         <seg>This setting (system locale) controls the language used when displaying text in programs that do not support Unicode.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T125404Z" changeid="eratyk">
-        <seg>Гэтая налада (сістэмная лакалізацыя) кіруе моваю, якой карыстаюцца для адлюстравання тэксту праграмы, што не падтрымліваюць Unicode.</seg>
+      <tuv lang="be" changedate="20110409T183616Z" changeid="eratyk">
+        <seg>Гэтая налада (сістэмная лакаль) кіруе моваю, якой карыстаюцца для адлюстравання тэксту праграмы, што не падтрымліваюць Unicode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -92807,6 +93671,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To c&amp;reate home page tabs, type each address on its own line.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T144026Z" changeid="eratyk">
+        <seg>Каб стварыць устаўкі пачатковай старонкі, увядзіце кожны адрас у асобны радок.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>To change appearance properties, please click the 'Open classic appearance properties' link.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T055951Z" changeid="alex">
@@ -93130,7 +94002,7 @@
         <seg>To log on to this remote computer, you must be granted the Allow log on through Terminal Services right. By default, members of the Administrators group have this right. If you are not a member of the Administrators group or another group that has this right, or if the Administrators group does not have this right, you must be granted this right manually.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064314Z" changeid="eratyk">
-        <seg>Каб увайсці на гэты аддалены камп'ютар, вы павінны мець дазвол на ўваход праз службу тэрміналаў. Чальцы адміністрацыйнай групы перадвызначана маюць яго. Калі вы не чалец адміністрацыйнай ці іншай групы, якая мае гэты дазвол, ці калі адміністрацыйная група не мае яго, вы павінны пацвердзіць дазвол уручную.</seg>
+        <seg>Каб увайсці на гэты аддалены камп'ютар, вы павінны мець дазвол на ўваход праз службу тэрміналаў. Чальцы адміністрацыйнай групы стандартна маюць яго. Калі вы не чалец адміністрацыйнай ці іншай групы, якая мае гэты дазвол, ці калі адміністрацыйная група не мае яго, вы павінны пацвердзіць дазвол уручную.</seg>
       </tuv>
     </tu>
     <tu>
@@ -93138,7 +94010,7 @@
         <seg>To log on to this remote computer, you must be granted the Allow log on through Terminal Services right. By default, members of the Remote Desktop Users group have this right. If you are not a member of the Remote Desktop Users group or another group that has this right, or if the Remote Desktop Users group does not have this right, you must be granted this right manually.</seg>
       </tuv>
       <tuv lang="be" changedate="20101006T071237Z" changeid="alex">
-        <seg>Каб увайсці на гэты аддалены камп'ютар, вы павінны мець дазвол на ўваход праз службу тэрміналаў. Чальцы групы карыстальнікаў аддаленай стальніцы перадвызначана маюць яго. Калі вы не чалец групы карыстальнікаў аддаленай стальніцы ці іншай, якая мае гэты дазвол, ці калі група карыстальнікаў аддаленага стальніцы не мае яго, вы павінны пацвердзіць дазвол уручную.</seg>
+        <seg>Каб увайсці на гэты аддалены камп'ютар, вы павінны мець дазвол на ўваход праз службу тэрміналаў. Чальцы групы карыстальнікаў аддаленай стальніцы стандартна маюць яго. Калі вы не чалец групы карыстальнікаў аддаленай стальніцы ці іншай, якая мае гэты дазвол, ці калі група карыстальнікаў аддаленага стальніцы не мае яго, вы павінны пацвердзіць дазвол уручную.</seg>
       </tuv>
     </tu>
     <tu>
@@ -93345,8 +94217,8 @@
       <tuv lang="en">
         <seg>To save here, you must first include a folder in the library.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100912T162054Z" changeid="eratyk">
-        <seg>Каб захаваць тут, вы павінны перш уключыць яе ў бібліятэку.</seg>
+      <tuv lang="be" changedate="20110409T172801Z" changeid="eratyk">
+        <seg>Каб захаваць сюды, вы павінны перш улучыць яго ў бібліятэку.</seg>
       </tuv>
     </tu>
     <tu>
@@ -93369,8 +94241,16 @@
       <tuv lang="en">
         <seg>To set a program as the default for all file types and protocols it can open, click the program and then click Set as default.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110306T073119Z" changeid="eratyk">
-        <seg>Каб перадвызначыць праграму для ўсіх тыпаў файлаў і пратаколаў, якія яна можа адчыняць, пстрыкніце праграму і абярыце &quot;Прызначыць як перадвызначэнне&quot;</seg>
+      <tuv lang="be" changedate="20110409T161756Z" changeid="eratyk">
+        <seg>Каб прызначыць праграму стандартнай для ўсіх тыпаў файлаў і пратаколаў, якія яна можа адчыняць, пстрыкніце праграму і абярыце &quot;Прызначыць як стандарт&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To set up an Internet connection, click Setup.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T184151Z" changeid="eratyk">
+        <seg>Каб усталяваць злучэнне з сецівам, пстрыкніце &quot;Усталяваць&quot;. </seg>
       </tuv>
     </tu>
     <tu>
@@ -93411,6 +94291,14 @@
       </tuv>
       <tuv lang="be" changedate="20110210T115901Z" changeid="eratyk">
         <seg>Каб паказаць фон стальніцы, адчыніце налады злучэння з аддаленай стальніцай і пастаўце птушку &quot;Фон стальніцы&quot;. Калі вы не можаце змяняць вашыя налады, яны могуць кіравацца групавой палітыкай. Звяжыцеся з вашым адміністратарам па дапамогу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To specify an advanced option for this choice, press F8.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064032Z" changeid="eratyk">
+        <seg>Каб прызначыць дадатковае дзеянне для гэтага выбару націсніце F8.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94935,6 +95823,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>U&amp;nvisited:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165247Z" changeid="eratyk">
+        <seg>Не наведана:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>U&amp;se IP header compression</seg>
       </tuv>
       <tuv lang="be" changedate="20110217T092658Z" changeid="eratyk">
@@ -96418,7 +97314,7 @@
         <seg>Unset as De&amp;fault Connection</seg>
       </tuv>
       <tuv lang="be" changedate="20110215T075148Z" changeid="eratyk">
-        <seg>Скасаваць у якасці перадвызначанага</seg>
+        <seg>Скасаваць у якасці стандартнага</seg>
       </tuv>
     </tu>
     <tu>
@@ -96881,8 +97777,32 @@
       <tuv lang="en">
         <seg>Use &amp;Default Settings</seg>
       </tuv>
-      <tuv lang="be" changedate="20110316T091210Z" changeid="eratyk">
-        <seg>Скарыстаць перадвызначэнні</seg>
+      <tuv lang="be" changedate="20110409T144958Z" changeid="eratyk">
+        <seg>Скарыстаць стандартныя налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &amp;Windows colors</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165129Z" changeid="eratyk">
+        <seg>Скарыстаць колеры Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &amp;blank</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T144152Z" changeid="eratyk">
+        <seg>Скарыстаць пустую</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &amp;current</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T144055Z" changeid="eratyk">
+        <seg>Скарыстаць дзейную</seg>
       </tuv>
     </tu>
     <tu>
@@ -96891,6 +97811,14 @@
       </tuv>
       <tuv lang="be" changedate="20100314T081444Z" changeid="Ales Koshal [icq#:706101]">
         <seg>Выкарыстаць эў&amp;рыстыку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &amp;hover color</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165114Z" changeid="eratyk">
+        <seg>Скарыстаць колер навядзення</seg>
       </tuv>
     </tu>
     <tu>
@@ -96945,8 +97873,8 @@
       <tuv lang="en">
         <seg>Use De&amp;fault</seg>
       </tuv>
-      <tuv lang="be" changedate="20110316T091201Z" changeid="eratyk">
-        <seg>Скарыстаць перадвызначэнні</seg>
+      <tuv lang="be" changedate="20110409T145106Z" changeid="eratyk">
+        <seg>Скарыстаць стандарт</seg>
       </tuv>
     </tu>
     <tu>
@@ -97043,6 +97971,14 @@
       </tuv>
       <tuv lang="be" changedate="20110210T115828Z" changeid="eratyk">
         <seg>Ужываць птушкі для вылучэння элементаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use de&amp;fault</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T144112Z" changeid="eratyk">
+        <seg>Скарыстаць стандартную</seg>
       </tuv>
     </tu>
     <tu>
@@ -97154,7 +98090,15 @@
         <seg>Use the selected program to open all file types and protocols it can open by default.</seg>
       </tuv>
       <tuv lang="be" changedate="20110306T071808Z" changeid="eratyk">
-        <seg>Карыстаць абраную праграму, каб адчыняць усе тыпы файлаў і пратаколы, якія яна перадвызначана можа адчыняць.</seg>
+        <seg>Карыстаць абраную праграму, каб адчыняць усе тыпы файлаў і пратаколы, якія яна стандартна можа адчыняць.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the settings below to define which websites are included in the local intranet zone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T170447Z" changeid="eratyk">
+        <seg>Скарыстаць налады ўнізе, каб вызначыць, якія сайты ўлучаныя ў зону лакальнага інтранэту.</seg>
       </tuv>
     </tu>
     <tu>
@@ -97667,6 +98611,14 @@
       </tuv>
       <tuv lang="be" changedate="20110121T170156Z" changeid="eratyk">
         <seg>Вертыкаль:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>V&amp;isited:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T165235Z" changeid="eratyk">
+        <seg>Наведана:</seg>
       </tuv>
     </tu>
     <tu>
@@ -99223,6 +100175,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Web browser</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190106Z" changeid="eratyk">
+        <seg>Аглядальнік сеціва</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Web e-mail</seg>
       </tuv>
       <tuv lang="be" changedate="20101020T054427Z" changeid="eratyk">
@@ -99259,6 +100219,22 @@
       </tuv>
       <tuv lang="be" changedate="20110108T143526Z" changeid="eratyk">
         <seg>Сайт:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Websites in the Local Intranet Zone</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T170306Z" changeid="eratyk">
+        <seg>Сайты ў зоне лакальнага інтранэту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Websites:</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163820Z" changeid="eratyk">
+        <seg>Сайты:</seg>
       </tuv>
     </tu>
     <tu>
@@ -99473,8 +100449,8 @@
       <tuv lang="en">
         <seg>What locations can be included?</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T062326Z" changeid="eratyk">
-        <seg>Якія размяшчэнні магчыма дадаць?</seg>
+      <tuv lang="be" changedate="20110409T173537Z" changeid="eratyk">
+        <seg>Якія размяшчэнні могуць быць улучаныя?</seg>
       </tuv>
     </tu>
     <tu>
@@ -99585,8 +100561,8 @@
       <tuv lang="en">
         <seg>When you include a folder in a library, the files appear in the library, but continue to be stored in their original locations.</seg>
       </tuv>
-      <tuv lang="be" changedate="20100725T092259Z" changeid="eratyk">
-        <seg>Калі вы дадаяце каталог да бібліятэкі, файлы з'яўляюцца ў ёй, але працягваюць існаваць у іх зыходных размяшчэннях.</seg>
+      <tuv lang="be" changedate="20110409T182356Z" changeid="eratyk">
+        <seg>Калі вы ўлучаеце каталог у бібліятэку, файлы з'яўляюцца ў ёй, але працягваюць існаваць у іх зыходных размяшчэннях.</seg>
       </tuv>
     </tu>
     <tu>
@@ -103887,6 +104863,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You can add and remove websites from this zone. All websites in this zone will use the zone's security settings.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163337Z" changeid="eratyk">
+        <seg>Вы можаце дадаваць і выдаляць сайты з гэтай зоны. Усе сайты ў гэтай зоне будуць карыстаць яе налады бяспекі.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You can also stream media to devices.</seg>
       </tuv>
       <tuv lang="be" changedate="20100725T082414Z" changeid="eratyk">
@@ -104163,6 +105147,14 @@
       </tuv>
       <tuv lang="be" changedate="20101118T072741Z" changeid="eratyk">
         <seg>Вы можаце паказваць і хаваць паліцы інструментаў, змяняючы ўласцівасці паліцы задач і Пачатковага меню.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can specify which program Windows automatically uses for each Internet service.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T185910Z" changeid="eratyk">
+        <seg>Вы можаце азначыць, якія праграмы Windows аўтаматычна карыстае для кожнай сеціўнай службы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105063,6 +106055,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You have websites in this zone.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191021Z" changeid="eratyk">
+        <seg>Вы маеце сайты ў гэтай зоне.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You may enter a fixed IP address.</seg>
       </tuv>
       <tuv lang="be" changedate="20110108T152737Z" changeid="eratyk">
@@ -105185,8 +106185,8 @@
       <tuv lang="en">
         <seg>You must log off for display language changes to take effect</seg>
       </tuv>
-      <tuv lang="be" changedate="20100924T183419Z" changeid="eratyk">
-        <seg>Вы павінны выйсці для таго, каб змены мовы адлюстравання далі вынік.</seg>
+      <tuv lang="be" changedate="20110409T183935Z" changeid="eratyk">
+        <seg>Вы павінны выйсці для таго, каб змены мовы адлюстравання набылі сілу.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105265,8 +106265,8 @@
       <tuv lang="en">
         <seg>You must shut down and restart your computer before the new settings will take effect.\n\nDo you want to restart your computer now?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110203T131529Z" changeid="eratyk">
-        <seg>Вы павінны перазапусціць ваш камп'ютар, перш чым новыя налады ўступяць у сілу.\n\nПеразапусціць камп'ютар зараз?</seg>
+      <tuv lang="be" changedate="20110409T183952Z" changeid="eratyk">
+        <seg>Вы павінны перазапусціць ваш камп'ютар, перш чым новыя налады набудуць сілу.\n\nПеразапусціць камп'ютар зараз?</seg>
       </tuv>
     </tu>
     <tu>
@@ -105419,6 +106419,14 @@
       </tuv>
       <tuv lang="be" changedate="20100729T103642Z" changeid="eratyk">
         <seg>Пажадана запускаць толькі праграмы выдаўца, якому вы давяраеце.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You should only use this if your browser is in an unusable state.</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T191809Z" changeid="eratyk">
+        <seg>Вам трэба скарыстаць гэта толькі тады, калі ваш аглядальнік у неўжывальным стане.</seg>
       </tuv>
     </tu>
     <tu>
@@ -106082,7 +107090,7 @@
         <seg>Your default action will occur or other options will become available.</seg>
       </tuv>
       <tuv lang="be" changedate="20100920T064853Z" changeid="eratyk">
-        <seg>Будзе выканана перадвызначанае дзеянне альбо стануць даступныя іншыя магчымасці.</seg>
+        <seg>Будзе выканана стандартнае дзеянне альбо стануць даступныя іншыя магчымасці.</seg>
       </tuv>
     </tu>
     <tu>
@@ -106623,6 +107631,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Zone Name</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190948Z" changeid="eratyk">
+        <seg>Назва зоны</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Zoo&amp;m</seg>
       </tuv>
       <tuv lang="be" changedate="20100831T072312Z" changeid="eratyk">
@@ -106831,6 +107847,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>[blank]</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T163226Z" changeid="eratyk">
+        <seg>[пуста]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\n</seg>
       </tuv>
       <tuv lang="be" changedate="20101102T170543Z" changeid="eratyk">
@@ -106995,6 +108019,14 @@
       </tuv>
       <tuv lang="be" changedate="20100709T111349Z" changeid="eratyk">
         <seg>\tПамылка сеткі (%d).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>_</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T064355Z" changeid="eratyk">
+        <seg>_</seg>
       </tuv>
     </tu>
     <tu>
@@ -107850,7 +108882,7 @@
         <seg>by default</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T151018Z" changeid="eratyk">
-        <seg>перадвызначана</seg>
+        <seg>стандартна</seg>
       </tuv>
     </tu>
     <tu>
@@ -108183,6 +109215,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>computer administrator</seg>
+      </tuv>
+      <tuv lang="be" changedate="20110409T190117Z" changeid="eratyk">
+        <seg>адміністратар камп'ютара</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>conditional</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T072854Z" changeid="eratyk">
@@ -108490,7 +109530,7 @@
         <seg>default</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T150917Z" changeid="eratyk">
-        <seg>перадвызначаны</seg>
+        <seg>стандартны</seg>
       </tuv>
     </tu>
     <tu>
@@ -108498,7 +109538,7 @@
         <seg>default button</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T145429Z" changeid="eratyk">
-        <seg>перадвызначаная кнопка</seg>
+        <seg>стандартная кнопка</seg>
       </tuv>
     </tu>
     <tu>
@@ -108506,7 +109546,7 @@
         <seg>default folder</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T150932Z" changeid="eratyk">
-        <seg>перадвызначаны каталог</seg>
+        <seg>стандартны каталог</seg>
       </tuv>
     </tu>
     <tu>
@@ -108514,7 +109554,7 @@
         <seg>default font</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T151038Z" changeid="eratyk">
-        <seg>перадвызначаны шрыфт</seg>
+        <seg>стандартны шрыфт</seg>
       </tuv>
     </tu>
     <tu>
@@ -108522,7 +109562,7 @@
         <seg>default location</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T150945Z" changeid="eratyk">
-        <seg>перадвызначанае размяшчэнне</seg>
+        <seg>стандартнае размяшчэнне</seg>
       </tuv>
     </tu>
     <tu>
@@ -108530,7 +109570,7 @@
         <seg>default name</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T150958Z" changeid="eratyk">
-        <seg>перадвызначаная назва</seg>
+        <seg>стандартная назва</seg>
       </tuv>
     </tu>
     <tu>
@@ -108538,7 +109578,7 @@
         <seg>default printer</seg>
       </tuv>
       <tuv lang="be" changedate="20101019T142653Z" changeid="eratyk">
-        <seg>перадвызначаная друкарка</seg>
+        <seg>стандартная друкарка</seg>
       </tuv>
     </tu>
     <tu>
@@ -108546,7 +109586,7 @@
         <seg>default unit</seg>
       </tuv>
       <tuv lang="be" changedate="20110324T081047Z" changeid="eratyk">
-        <seg>перадвызначаная адзінка</seg>
+        <seg>стандартная адзінка</seg>
       </tuv>
     </tu>
     <tu>
