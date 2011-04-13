@@ -1,175 +1,137 @@
-1 MUI "Data_227.bin"
-
+#pragma code_page(65001)
+#include <resources.h>
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1, 	"Action Center"
-2, 	"Review recent messages and resolve problems with your computer."
-3, 	"This program is blocked by group policy. For more information, contact your system administrator."
-4, 	"Review recent messages and resolve problems"
-5, 	"Task pane"
-6, 	"Administrator privileges required"
-7, 	"Help"
-8, 	"Change Action Center settings"
-9, 	"Action Center Settings"
-11, 	"Disabled"
+  1,  "Action Center"
+  2,  "Review recent messages and resolve problems with your computer."
+  3,  "This program is blocked by group policy. For more information, contact your system administrator."
+  4,  "Review recent messages and resolve problems"
+  5,  "Task pane"
+  6,  "Administrator privileges required"
+  7,  "Help"
+  8,  "Change Action Center settings"
+  9,  "Action Center Settings"
+  11,  "Disabled"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-20, 	"Your administrator has disabled this check"
-21, 	"Turn on messages about %1"
-22, 	"Currently not monitored"
-29, 	"%1!d! message needs your attention"
-31, 	"%1!d! messages need your attention"
+  20,  "Your administrator has disabled this check"
+  21,  "Turn on messages about %1"
+  22,  "Currently not monitored"
+  29,  "%1!d! message needs your attention"
+  31,  "%1!d! messages need your attention"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-33, 	"..."
-34, 	"For each selected item, Windows will check for problems and send you a message if problems are found. <a href=\"mshelp://windows/?id=91558e3c-22f9-42dd-a132-f51482063c98\">How does Action Center check for problems?</a>"
-35, 	"For each selected item, Windows will check for problems and send you a message if problems are found. How does Action Center check for problems?"
-37, 	"<a href=\"mshelp://windows/?id=c5567d69-6d50-4875-b04a-e9be26ec4788\">How do I know what security settings are right for my computer?</a>"
-38, 	"Windows Update reminders"
-39, 	"Internet security settings"
-40, 	"network firewall"
-41, 	"spyware and related protection"
-42, 	"User Account Control"
-43, 	"virus protection"
-44, 	"Windows Backup"
-45, 	"Windows maintenance tasks"
-47, 	"test check"
+  33,  "..."
+  34,  "For each selected item, Windows will check for problems and send you a message if problems are found. <a href=""mshelp://windows/?id=91558e3c-22f9-42dd-a132-f51482063c98"">How does Action Center check for problems?</a>"
+  35,  "For each selected item, Windows will check for problems and send you a message if problems are found. How does Action Center check for problems?"
+  37,  "<a href=""mshelp://windows/?id=c5567d69-6d50-4875-b04a-e9be26ec4788"">How do I know what security settings are right for my computer?</a>"
+  38,  "Windows Update reminders"
+  39,  "Internet security settings"
+  40,  "network firewall"
+  41,  "spyware and related protection"
+  42,  "User Account Control"
+  43,  "virus protection"
+  44,  "Windows Backup"
+  45,  "Windows maintenance tasks"
+  47,  "test check"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-48, 	"Turn off messages about %1"
-49, 	"Windows Update settings"
-53, 	"Backup and Restore"
-54, 	"Windows Update"
-58, 	"View performance information"
-59, 	"Windows Program Compatibility Troubleshooter"
-60, 	"(Important)"
-61, 	"View archived messages"
+  48,  "Turn off messages about %1"
+  49,  "Windows Update settings"
+  53,  "Backup and Restore"
+  54,  "Windows Update"
+  58,  "View performance information"
+  59,  "Windows Program Compatibility Troubleshooter"
+  60,  "(Important)"
+  61,  "View archived messages"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-70, 	"Change User Account Control settings"
+  70,  "Change User Account Control settings"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-500, 	"Some of your system checks have not been initialized."
-501, 	"Turn off messages like this"
-502, 	"No issues have been detected by Action Center."
-503, 	"Action Center has detected one or more issues for you to review."
-504, 	"&Maintenance"
-506, 	"Toggle Maintenance Group"
-507, 	"Show or hide the Maintenance group"
-508, 	"Show all messages"
-509, 	"&Security"
-511, 	"Toggle Security Group"
+  500,  "Some of your system checks have not been initialized."
+  501,  "Turn off messages like this"
+  502,  "No issues have been detected by Action Center."
+  503,  "Action Center has detected one or more issues for you to review."
+  504,  "&Maintenance"
+  506,  "Toggle Maintenance Group"
+  507,  "Show or hide the Maintenance group"
+  508,  "Show all messages"
+  509,  "&Security"
+  511,  "Toggle Security Group"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-512, 	"Show or hide the Security group"
-513, 	"Show all messages"
-514, 	"If you don’t see your problem listed, try one of these:"
-518, 	"Tr&oubleshooting"
-520, 	"Turn messages on or off"
-521, 	"Maintenance messages"
-523, 	"Windows Backup"
-525, 	"Windows Troubleshooting"
-526, 	"Security messages"
-527, 	"Internet security settings"
+  512,  "Show or hide the Security group"
+  513,  "Show all messages"
+  514,  "If you donâ€™t see your problem listed, try one of these:"
+  518,  "Tr&oubleshooting"
+  520,  "Turn messages on or off"
+  521,  "Maintenance messages"
+  523,  "Windows Backup"
+  525,  "Windows Troubleshooting"
+  526,  "Security messages"
+  527,  "Internet security settings"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-528, 	"User Account Control"
-529, 	"Network firewall"
-530, 	"Virus protection"
-531, 	"Spyware and related protection"
-532, 	"Related settings"
-533, 	"Problem reporting settings"
-535, 	"OK"
-537, 	"Cancel"
-539, 	"|"
+  528,  "User Account Control"
+  529,  "Network firewall"
+  530,  "Virus protection"
+  531,  "Spyware and related protection"
+  532,  "Related settings"
+  533,  "Problem reporting settings"
+  535,  "OK"
+  537,  "Cancel"
+  539,  "|"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-553, 	"Check for updates"
-555, 	"Security settings help"
-556, 	"Find and fix problems"
-557, 	"&Recovery"
-558, 	"Restore your computer to an earlier time"
-559, 	"Customer Experience Improvement Program settings"
+  553,  "Check for updates"
+  555,  "Security settings help"
+  556,  "Find and fix problems"
+  557,  "&Recovery"
+  558,  "Restore your computer to an earlier time"
+  559,  "Customer Experience Improvement Program settings"
 }
 
-
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-561, 	"Troubleshooting"
-562, 	"Recovery"
-564, 	"Security"
-565, 	"Maintenance"
+  561,  "Troubleshooting"
+  562,  "Recovery"
+  564,  "Security"
+  565,  "Maintenance"
 }
 
 1 MESSAGETABLE
 {
-268435505,  	"Response Time"
-805306369,  	"Start"
-805306370,  	"Stop"
-1342177284,  	"Information"
--1879048191,  	"Microsoft-Windows-HealthCenterCPL"
+  268435505,  "Response Time\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-HealthCenterCPL\r\n"
 }
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Action Center Control Panel"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "ACTIONCENTERCPL"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "ACTIONCENTERCPL.DLL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
-}
-

@@ -1,354 +1,306 @@
-1 MUI "Data_226.bin"
+#pragma code_page(65001)
+#include <resources.h>
 
 300 MENU
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-POPUP ""
-{
-	MENUITEM "&Open Action Center",  3001
-	MENUITEM SEPARATOR
-	MENUITEM "&Troubleshoot a problem",  3002
-	MENUITEM "Open Windows &Update",  3003
+  POPUP ""
+  {
+    MENUITEM "&Open Action Center", 3001
+    MENUITEM SEPARATOR
+    MENUITEM "&Troubleshoot a problem", 3002
+    MENUITEM "Open Windows &Update", 3003
+  }
 }
-}
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1, 	"Status not available"
-10, 	"Action Center"
-11, 	"New messages are available"
-12, 	"Click to view messages about your computer."
-13, 	"View messages in Action Center"
+  1,  "Status not available"
+  10,  "Action Center"
+  11,  "New messages are available"
+  12,  "Click to view messages about your computer."
+  13,  "View messages in Action Center"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-200, 	"Action Center Flyout"
-205, 	"Windows User Account Control Settings"
+  200,  "Action Center Flyout"
+  205,  "Windows User Account Control Settings"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-210, 	"Action Center"
-211, 	"No current issues detected"
-212, 	"Solve PC issues: %1"
-213, 	" "
-214, 	"1 important message"
-215, 	"%u important messages"
-216, 	" "
-217, 	"1 message"
-218, 	"%u messages"
-219, 	"%u total messages"
-220, 	"Open Action Center"
+  210,  "Action Center"
+  211,  "No current issues detected"
+  212,  "Solve PC issues: %1"
+  213,  " "
+  214,  "1 important message"
+  215,  "%u important messages"
+  216,  " "
+  217,  "1 message"
+  218,  "%u messages"
+  219,  "%u total messages"
+  220,  "Open Action Center"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-230, 	"You can use Action Center to review recent messages about your computer's status and find solutions to problems."
+  230,  "You can use Action Center to review recent messages about your computer's status and find solutions to problems."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-240, 	" "
-241, 	" (Important)"
-242, 	"Good"
-243, 	"%1\n%2"
-244, 	"%1%2"
-245, 	"Action Center is working"
+  240,  " "
+  241,  " (Important)"
+  242,  "Good"
+  243,  "%1\n%2"
+  244,  "%1%2"
+  245,  "Action Center is working"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1000, 	"Backup"
-1001, 	"Not set up"
-1002, 	"Check your network credentials"
-1003, 	"Back up your files"
-1004, 	"Check your backup"
-1005, 	"Create a new, full backup"
-1006, 	"Backup succeeded"
-1007, 	"Change backup location"
+  1000,  "Backup"
+  1001,  "Not set up"
+  1002,  "Check your network credentials"
+  1003,  "Back up your files"
+  1004,  "Check your backup"
+  1005,  "Create a new, full backup"
+  1006,  "Backup succeeded"
+  1007,  "Change backup location"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1008, 	"Check backup disk space"
-1009, 	"Check backup settings"
-1010, 	"Backup in progress"
-1011, 	"Back up your files"
-1012, 	"Back up your files"
-1013, 	"Check backup settings"
-1014, 	"Back up your files"
-1015, 	"Backup is not being monitored"
-1016, 	"Check backup settings"
-1017, 	"Insert removable media"
-1018, 	"Check backup settings"
-1019, 	"Check your backup results"
+  1008,  "Check backup disk space"
+  1009,  "Check backup settings"
+  1010,  "Backup in progress"
+  1011,  "Back up your files"
+  1012,  "Back up your files"
+  1013,  "Check backup settings"
+  1014,  "Back up your files"
+  1015,  "Backup is not being monitored"
+  1016,  "Check backup settings"
+  1017,  "Insert removable media"
+  1018,  "Check backup settings"
+  1019,  "Check your backup results"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1031, 	"Your files are not being backed up."
-1032, 	"Your network user name or password has expired.\nBackup date: %2"
-1033, 	"The last scheduled backup did not run."
-1034, 	"The last backup did not complete successfully.\nBackup date: %2"
-1035, 	"To save disk space, only files that are new or have changed since the last backup are backed up. You should create a new, full backup from time to time in case your old backups are lost or corrupted."
-1036, 	"Backup date: %2"
-1037, 	"The disk that your backup is saved on is about to fail."
-1038, 	"The disk that your backup is saved on doesn't have enough free space.\nBackup date: %2"
-1039, 	"Backup completed but one of the drives was skipped.\nBackup date: %2"
+  1031,  "Your files are not being backed up."
+  1032,  "Your network user name or password has expired.\nBackup date: %2"
+  1033,  "The last scheduled backup did not run."
+  1034,  "The last backup did not complete successfully.\nBackup date: %2"
+  1035,  "To save disk space, only files that are new or have changed since the last backup are backed up. You should create a new, full backup from time to time in case your old backups are lost or corrupted."
+  1036,  "Backup date: %2"
+  1037,  "The disk that your backup is saved on is about to fail."
+  1038,  "The disk that your backup is saved on doesn't have enough free space.\nBackup date: %2"
+  1039,  "Backup completed but one of the drives was skipped.\nBackup date: %2"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1040, 	"Windows Backup is running"
-1041, 	"The last backup was cancelled.\nBackup date: %2"
-1042, 	"At least %2 days have passed since your last backup."
-1043, 	"Windows cannot find the disk or network location where your backups are being saved.\nBackup date: %2"
-1044, 	"Your last backup did not complete successfully. Your files have not been backed up.\nBackup date: %2"
-1045, 	"Monitoring Windows Backup through Action Center has been turned off by an administrator or another program."
-1046, 	"Your system settings have been restored to an earlier point in time. We recommend that you review your backup settings."
-1047, 	"Windows backup needs a CD\\DVD or USB drive to continue."
-1048, 	"Your computer has been restored to an earlier point in time. As a result, your backup settings might be out of date."
-1049, 	"Your computer has been upgraded to a new version of Windows. As a result you need to re-configure your backup settings."
-1050, 	"The backup completed but some files were skipped."
-1051, 	"The last backup did not complete because the backup location is locked by BitLocker."
+  1040,  "Windows Backup is running"
+  1041,  "The last backup was cancelled.\nBackup date: %2"
+  1042,  "At least %2 days have passed since your last backup."
+  1043,  "Windows cannot find the disk or network location where your backups are being saved.\nBackup date: %2"
+  1044,  "Your last backup did not complete successfully. Your files have not been backed up.\nBackup date: %2"
+  1045,  "Monitoring Windows Backup through Action Center has been turned off by an administrator or another program."
+  1046,  "Your system settings have been restored to an earlier point in time. We recommend that you review your backup settings."
+  1047,  "Windows backup needs a CD\\DVD or USB drive to continue."
+  1048,  "Your computer has been restored to an earlier point in time. As a result, your backup settings might be out of date."
+  1049,  "Your computer has been upgraded to a new version of Windows. As a result you need to re-configure your backup settings."
+  1050,  "The backup completed but some files were skipped."
+  1051,  "The last backup did not complete because the backup location is locked by BitLocker."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1061, 	"Your network user name or password has expired. Click to change credentials."
-1062, 	"The last backup did not complete successfully. Click to troubleshoot."
-1063, 	"The disk that your backup is saved on doesn't have enough free space. Click to manage backup disk space."
-1064, 	"Backup completed but one of the drives was skipped. Click to check backup settings."
-1065, 	"At least %2 days have passed since your last backup. Click to run backup now."
-1066, 	"Windows cannot find the disk or network location where your backups are being saved. Click to check backup settings."
-1067, 	"Windows backup needs a CD\\DVD or USB drive to continue. Insert the required one."
-1068, 	"Your files are not being backed up. Click to set up backup."
+  1061,  "Your network user name or password has expired. Click to change credentials."
+  1062,  "The last backup did not complete successfully. Click to troubleshoot."
+  1063,  "The disk that your backup is saved on doesn't have enough free space. Click to manage backup disk space."
+  1064,  "Backup completed but one of the drives was skipped. Click to check backup settings."
+  1065,  "At least %2 days have passed since your last backup. Click to run backup now."
+  1066,  "Windows cannot find the disk or network location where your backups are being saved. Click to check backup settings."
+  1067,  "Windows backup needs a CD\\DVD or USB drive to continue. Insert the required one."
+  1068,  "Your files are not being backed up. Click to set up backup."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1081, 	"Set up backup"
-1082, 	"Optio&ns"
-1083, 	"R&un backup now"
-1084, 	"Chan&ge location"
-1086, 	"Check settings"
-1087, 	"Details"
+  1081,  "Set up backup"
+  1082,  "Optio&ns"
+  1083,  "R&un backup now"
+  1084,  "Chan&ge location"
+  1086,  "Check settings"
+  1087,  "Details"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1089, 	"Chan&ge credentials"
-1090, 	"Set &up backup"
-1092, 	"Det&ails"
-1093, 	"Create &new backup"
-1094, 	"M&ore information"
-1100, 	"Troubleshooting: System Maintenance"
-1101, 	"Action needed"
-1102, 	"No action needed"
-1103, 	"Windows found issues requiring your attention."
+  1089,  "Chan&ge credentials"
+  1090,  "Set &up backup"
+  1092,  "Det&ails"
+  1093,  "Create &new backup"
+  1094,  "M&ore information"
+  1100,  "Troubleshooting: System Maintenance"
+  1101,  "Action needed"
+  1102,  "No action needed"
+  1103,  "Windows found issues requiring your attention."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1104, 	"Windows is actively checking your system for maintenance problems."
-1105, 	"System Maintenance"
-1106, 	"Clean up disk space, fix broken shortcuts and perform other maintenance tasks."
-1107, 	"Perform system mai&ntenance"
-1108, 	"Change troubleshooting settings"
-1109, 	"Off"
-1110, 	"Windows is not checking your system for maintenance problems."
+  1104,  "Windows is actively checking your system for maintenance problems."
+  1105,  "System Maintenance"
+  1106,  "Clean up disk space, fix broken shortcuts and perform other maintenance tasks."
+  1107,  "Perform system mai&ntenance"
+  1108,  "Change troubleshooting settings"
+  1109,  "Off"
+  1110,  "Windows is not checking your system for maintenance problems."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1200, 	"Network Access Protection"
-1201, 	"Network Access Protection Agent service is not running"
-1202, 	"Network Access Protection is active"
-1203, 	"Your network access might be limited unless you update your computer"
-1204, 	"Network access might be limited"
-1205, 	"Off"
-1206, 	"On"
-1207, 	"Network Access Protection"
-1208, 	"Network Access Protection"
-1213, 	"Your network access might be limited unless you update your computer"
-1214, 	"Network access might be limited"
-1215, 	"This computer doesn't meet security standards defined by your network administrator."
+  1200,  "Network Access Protection"
+  1201,  "Network Access Protection Agent service is not running"
+  1202,  "Network Access Protection is active"
+  1203,  "Your network access might be limited unless you update your computer"
+  1204,  "Network access might be limited"
+  1205,  "Off"
+  1206,  "On"
+  1207,  "Network Access Protection"
+  1208,  "Network Access Protection"
+  1213,  "Your network access might be limited unless you update your computer"
+  1214,  "Network access might be limited"
+  1215,  "This computer doesn't meet security standards defined by your network administrator."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1216, 	"This computer doesn't meet security standards defined by your network administrator."
-1217, 	"Vie&w solution"
-1218, 	"Vie&w solution"
-1219, 	"What is Network Access Protection?"
+  1216,  "This computer doesn't meet security standards defined by your network administrator."
+  1217,  "Vie&w solution"
+  1218,  "Vie&w solution"
+  1219,  "What is Network Access Protection?"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1300, 	"Windows Defender"
-1301, 	"Not available"
-1302, 	"View"
-1303, 	"Disabled"
-1304, 	"Windows Defender has items that need your attention."
-1305, 	"Windows Defender is not actively protecting your computer."
-1306, 	"Service stopped"
-1307, 	"To help protect your computer, Windows Defender is running its scheduled scan."
-1308, 	"On"
-1309, 	"Windows Defender service stopped"
-1310, 	"Windows Defender service needs to run to help protect your computer."
-1311, 	"View det&ails"
+  1300,  "Windows Defender"
+  1301,  "Not available"
+  1302,  "View"
+  1303,  "Disabled"
+  1304,  "Windows Defender has items that need your attention."
+  1305,  "Windows Defender is not actively protecting your computer."
+  1306,  "Service stopped"
+  1307,  "To help protect your computer, Windows Defender is running its scheduled scan."
+  1308,  "On"
+  1309,  "Windows Defender service stopped"
+  1310,  "Windows Defender service needs to run to help protect your computer."
+  1311,  "View det&ails"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1312, 	"Scheduled Scan"
-1313, 	"Scheduled Scan in progress."
-1314, 	"View &progress"
-1315, 	"Potentially harmful software detected"
-1316, 	"Click Clean system to remove the items or View details for more information."
-1317, 	"Potentially harmful software detected"
-1318, 	"Click to review and take action"
-1319, 	"View det&ails"
-1320, 	"Clean System"
-1324, 	"Windows Defender needs to scan your computer"
-1325, 	"Scanning on a regular basis helps improve the security of your computer."
-1326, 	"Sc&an now"
-1327, 	"Microsoft needs more information about this software"
+  1312,  "Scheduled Scan"
+  1313,  "Scheduled Scan in progress."
+  1314,  "View &progress"
+  1315,  "Potentially harmful software detected"
+  1316,  "Click Clean system to remove the items or View details for more information."
+  1317,  "Potentially harmful software detected"
+  1318,  "Click to review and take action"
+  1319,  "View det&ails"
+  1320,  "Clean System"
+  1324,  "Windows Defender needs to scan your computer"
+  1325,  "Scanning on a regular basis helps improve the security of your computer."
+  1326,  "Sc&an now"
+  1327,  "Microsoft needs more information about this software"
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1328, 	"Sending this information can improve how Windows Defender protects the security of your computer."
-1329, 	"View det&ails"
-1330, 	"Send information"
-1331, 	"Restart required"
-1332, 	"To complete the cleaning process you need to restart your computer."
-1333, 	"Rest&art"
-1334, 	"Review files that Windows Defender will send to Microsoft"
-1335, 	"Sending this information can improve how Windows Defender protects the security of your computer. Click to view details."
+  1328,  "Sending this information can improve how Windows Defender protects the security of your computer."
+  1329,  "View det&ails"
+  1330,  "Send information"
+  1331,  "Restart required"
+  1332,  "To complete the cleaning process you need to restart your computer."
+  1333,  "Rest&art"
+  1334,  "Review files that Windows Defender will send to Microsoft"
+  1335,  "Sending this information can improve how Windows Defender protects the security of your computer. Click to view details."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1400, 	"Action Needed"
-1401, 	"No action needed"
-1402, 	"Check for up&dates"
-1403, 	"Windows Update does not require any action."
-1404, 	"Windows could not check for updates automatically."
-1405, 	"Click to check for updates now."
-1406, 	"Check for updates"
-1407, 	"These updates will be installed the next time you shut down your computer or at %3 %2. Installing updates might cause your computer to restart, so please save your work. Click to learn more."
+  1400,  "Action Needed"
+  1401,  "No action needed"
+  1402,  "Check for up&dates"
+  1403,  "Windows Update does not require any action."
+  1404,  "Windows could not check for updates automatically."
+  1405,  "Click to check for updates now."
+  1406,  "Check for updates"
+  1407,  "These updates will be installed the next time you shut down your computer or at %3 %2. Installing updates might cause your computer to restart, so please save your work. Click to learn more."
 }
-
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-1408, 	"Windows will install updates as scheduled"
-1409, 	"These updates will be installed the next time you shut down your computer or at %3 %2. Installing updates might cause your computer to restart, so please save your work."
-1410, 	"Learn more"
-1411, 	"Installing updates might cause your computer to restart, so please save your work. These updates will be installed at %3 %2, or the next time you shut down your computer."
-1412, 	"Updates ready to install"
+  1408,  "Windows will install updates as scheduled"
+  1409,  "These updates will be installed the next time you shut down your computer or at %3 %2. Installing updates might cause your computer to restart, so please save your work."
+  1410,  "Learn more"
+  1411,  "Installing updates might cause your computer to restart, so please save your work. These updates will be installed at %3 %2, or the next time you shut down your computer."
+  1412,  "Updates ready to install"
 }
 
 1 MESSAGETABLE
 {
-268435505,  	"Response Time"
-805306368,  	"Info"
-805306369,  	"Start"
-805306370,  	"Stop"
-1342177282,  	"Error"
-1342177283,  	"Warning"
-1342177284,  	"Information"
-1342177285,  	"Verbose"
--1879048191,  	"Microsoft-Windows-HealthCenter"
--1342177279,  	"The check provider %1 has been disabled.  HRESULT=%2."
--1342177278,  	"Icon message received: %1."
--1342177277,  	"Notification already exists: %1."
--1342177276,  	"An event specifying unknown check %1 (version %2) was found in the channel %3"
--1342177275,  	"An event specifying unknown state %1 for check with canonical name %2 was found"
--1342177274,  	"Failed to set state (%1) for check with canonical name %2: HRESULT = %3."
--1342177273,  	"Worker thread failure during initialization: HRESULT=%1."
--1342177272,  	"Failed to set icon state when adding new notification: HRESULT=%1."
--1342177271,  	"Icon processing of new notification failed: HRESULT=%1."
--1342177270,  	"Icon processing of notification removal failed: HRESULT=%1."
--1342177269,  	"Cache read for check provider %1: HRESULT=%2."
--1342177268,  	"Cache written for check provider %1: HRESULT=%2."
--1342177267,  	"Failed to process new crimson event from channel %1: HRESULT=%2."
--1342177266,  	"Failed to set bookmark for channel %1: HRESULT=%2."
--1342177265,  	"Error event in channel %1."
--1342177264,  	"Failed to process an existing event for channel %1: HRESULT=%2."
--1342177263,  	"Failed failed while reading existing events for channel %1: HRESULT=%2."
--1342177262,  	"Failed to resolve %1: HRESULT=%2."
--1342177261,  	"Failed to load settings for check with canonical name %1: HRESULT=%2."
--1342177260,  	"Added notification with canonical name %1."
--1342177259,  	"Removed notification with canonical name %1."
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177282,  "Error\r\n"
+  1342177283,  "Warning\r\n"
+  1342177284,  "Information\r\n"
+  1342177285,  "Verbose\r\n"
+  2415919105,  "Microsoft-Windows-HealthCenter\r\n"
+  2952790017,  "The check provider %1 has been disabled.  HRESULT=%2.\r\n"
+  2952790018,  "Icon message received: %1.\r\n"
+  2952790019,  "Notification already exists: %1.\r\n"
+  2952790020,  "An event specifying unknown check %1 (version %2) was found in the channel %3\r\n"
+  2952790021,  "An event specifying unknown state %1 for check with canonical name %2 was found\r\n"
+  2952790022,  "Failed to set state (%1) for check with canonical name %2: HRESULT = %3.\r\n"
+  2952790023,  "Worker thread failure during initialization: HRESULT=%1.\r\n"
+  2952790024,  "Failed to set icon state when adding new notification: HRESULT=%1.\r\n"
+  2952790025,  "Icon processing of new notification failed: HRESULT=%1.\r\n"
+  2952790026,  "Icon processing of notification removal failed: HRESULT=%1.\r\n"
+  2952790027,  "Cache read for check provider %1: HRESULT=%2.\r\n"
+  2952790028,  "Cache written for check provider %1: HRESULT=%2.\r\n"
+  2952790029,  "Failed to process new crimson event from channel %1: HRESULT=%2.\r\n"
+  2952790030,  "Failed to set bookmark for channel %1: HRESULT=%2.\r\n"
+  2952790031,  "Error event in channel %1.\r\n"
+  2952790032,  "Failed to process an existing event for channel %1: HRESULT=%2.\r\n"
+  2952790033,  "Failed failed while reading existing events for channel %1: HRESULT=%2.\r\n"
+  2952790034,  "Failed to resolve %1: HRESULT=%2.\r\n"
+  2952790035,  "Failed to load settings for check with canonical name %1: HRESULT=%2.\r\n"
+  2952790036,  "Added notification with canonical name %1.\r\n"
+  2952790037,  "Removed notification with canonical name %1.\r\n"
 }
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x2
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Action Center"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "ACTIONCENTER"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "ACTIONCENTER.DLL.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
-}
-
