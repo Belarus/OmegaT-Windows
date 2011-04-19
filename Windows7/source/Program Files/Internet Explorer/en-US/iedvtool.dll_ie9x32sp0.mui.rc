@@ -1,0 +1,904 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+5000 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  MENUITEM "&Delete attribute", 5100, INACTIVE
+  MENUITEM "&Add attribute", 5101, INACTIVE
+  MENUITEM "F12 developer toolbar", 5102, INACTIVE
+  MENUITEM "&Select element by click", 5103, INACTIVE
+  MENUITEM "&Refresh data", 5104, INACTIVE
+  MENUITEM "&Clear cache", 5105, INACTIVE
+  MENUITEM "&View source and style", 5106, INACTIVE
+  MENUITEM "&Pin", 5107
+  MENUITEM "&Unpin", 5108
+}
+
+5001 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&File"
+  {
+    MENUITEM "&Save...\tCtrl+S", 5111
+    MENUITEM SEPARATOR
+    MENUITEM "&Print...\tCtrl+P", 5114
+    MENUITEM SEPARATOR
+    MENUITEM "&Close\tCtrl+W", 5115
+  }
+  POPUP "&Edit"
+  {
+    MENUITEM "&Copy\tCtrl+C", 5116
+    MENUITEM SEPARATOR
+    MENUITEM "&Find...\tCtrl+F", 5117
+    MENUITEM "&Go to...\tCtrl+G", 5118
+    MENUITEM SEPARATOR
+    MENUITEM "Select &all\tCtrl+A", 5119
+  }
+  POPUP "F&ormat"
+  {
+    MENUITEM "&Word wrap", 5120
+    MENUITEM SEPARATOR
+    POPUP "Te&xt size"
+    {
+      MENUITEM "Lar&gest", 5164
+      MENUITEM "&Larger", 5163
+      MENUITEM "&Medium", 5162
+      MENUITEM "&Smaller", 5161
+      MENUITEM "Sm&allest", 5160
+    }
+  }
+}
+
+5002 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "Context"
+  {
+    MENUITEM "&Copy", 5116
+    MENUITEM SEPARATOR
+    MENUITEM "Select &all", 5119
+  }
+}
+
+5004 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "HTML tree context"
+  {
+    MENUITEM "&Add attribute", 5134
+    MENUITEM SEPARATOR
+    MENUITEM "&Copy", 5135
+    MENUITEM "Copy &InnerHTML", 5136
+    MENUITEM "Copy &OuterHTML", 5137
+  }
+}
+
+5005 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "CSS tree context"
+  {
+    MENUITEM "Add &attribute", 5134
+    MENUITEM "Add &rule", 5150
+    MENUITEM "Add rule a&fter", 5151
+    MENUITEM "Add rule b&efore", 5152
+    MENUITEM SEPARATOR
+    MENUITEM "Delete a&ttribute", 5154
+    MENUITEM "Delete ru&le", 5153
+  }
+}
+
+2000 DIALOGEX 0, 0, 234, 129
+CAPTION "Validate Set"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 177, 7, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 177, 24, 50, 14, 0x0
+  CONTROL "Choose the validations to run:", 4294967295, Static, 0x50020000, 7, 7, 102, 13, 0x0
+  CONTROL "Check1", 2001, Button, 0x50010003, 7, 21, 130, 8, 0x0
+  CONTROL "Check2", 2002, Button, 0x50010003, 7, 35, 130, 8, 0x0
+  CONTROL "Check3", 2003, Button, 0x50010003, 7, 49, 130, 8, 0x0
+  CONTROL "Check4", 2004, Button, 0x50010003, 7, 63, 130, 8, 0x0
+  CONTROL "Check5", 2005, Button, 0x50010003, 7, 77, 130, 8, 0x0
+  CONTROL "Check6", 2006, Button, 0x50010003, 7, 91, 130, 8, 0x0
+}
+
+2010 DIALOGEX 0, 0, 340, 108
+CAPTION "Outline Elements"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Selector:", 4294967295, Static, 0x50020000, 4, 58, 80, 8, 0x0
+  CONTROL "", 2015, Edit, 0x50810080, 88, 56, 248, 12, 0x0
+  CONTROL "Color:", 4294967295, Static, 0x50020000, 4, 74, 80, 8, 0x0
+  CONTROL "", 2016, Button, 0x5001000b, 88, 72, 248, 12, 0x0
+  CONTROL "", 2014, Button, 0x50010001, 256, 88, 80, 16, 0x0
+  CONTROL "&Clear All", 2012, Button, 0x50010000, 172, 88, 80, 16, 0x0
+  CONTROL "&Delete", 2013, Button, 0x50010000, 88, 88, 80, 16, 0x0
+  CONTROL "", 2011, "SysListView32", 0x5081400d, 4, 4, 332, 48, 0x0
+}
+
+2016 DIALOGEX 0, 0, 175, 66
+CAPTION "F12"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Please wait while the browser cache is cleared.", 4294967295, Static, 0x50020000, 7, 14, 161, 18, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 57, 33, 54, 18, 0x0
+}
+
+2020 DIALOGEX 0, 0, 210, 137
+CAPTION "Resize Browser"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "&Close", 1, Button, 0x50010001, 153, 7, 50, 17, 0x0
+  CONTROL "", 2021, "SysListView32", 0x5081c80d, 7, 7, 134, 97, 0x0
+  CONTROL "&Resize", 2022, Button, 0x50010000, 154, 28, 49, 17, 0x0
+  CONTROL "&Delete", 2023, Button, 0x50010000, 155, 89, 48, 17, 0x0
+  CONTROL "Width:", 4294967295, Static, 0x50020000, 7, 121, 27, 9, 0x0
+  CONTROL "", 2024, Edit, 0x50810080, 35, 118, 34, 12, 0x0
+  CONTROL "Height:", 4294967295, Static, 0x50020000, 78, 121, 32, 9, 0x0
+  CONTROL "", 2025, Edit, 0x50810080, 106, 118, 34, 12, 0x0
+  CONTROL "&Add", 2026, Button, 0x50010000, 156, 113, 47, 17, 0x0
+}
+
+2040 DIALOGEX 0, 0, 186, 90
+CAPTION "Apply properties to"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 129, 7, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 129, 24, 50, 14, 0x0
+  CONTROL "This cell &only", 2041, Button, 0x50004009, 7, 7, 107, 13, 0x0
+  CONTROL "All cells in this &column", 2042, Button, 0x50004009, 7, 18, 107, 13, 0x0
+  CONTROL "All cells in this &row", 2043, Button, 0x50004009, 7, 29, 107, 13, 0x0
+  CONTROL "All cells in this &table", 2044, Button, 0x50004009, 7, 41, 107, 13, 0x0
+}
+
+2060 DIALOGEX 0, 0, 187, 76
+CAPTION "Ruler"
+STYLE 0x80c80048
+EXSTYLE 0x80
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Snap to X/Y axis", 2061, Button, 0x50010003, 42, 0, 70, 12, 0x0
+  CONTROL "Snap to element", 2062, Button, 0x50010003, 42, 12, 70, 12, 0x0
+  CONTROL "Hide tick marks", 2063, Button, 0x50010003, 115, 0, 65, 12, 0x0
+  CONTROL "Hide endpoints", 2064, Button, 0x50010003, 115, 12, 62, 12, 0x0
+  CONTROL "Ruler length", 2065, Static, 0x5000000d, 0, 65, 187, 11, 0x0
+  CONTROL "Ruler color A", 2066, Button, 0x5001000b, 0, 0, 12, 12, 0x0
+  CONTROL "Ruler color B", 2067, Button, 0x5001000b, 0, 12, 12, 12, 0x0
+  CONTROL "Ruler color C", 2068, Button, 0x5001000b, 12, 0, 12, 12, 0x0
+  CONTROL "Ruler color D", 2069, Button, 0x5001000b, 12, 12, 12, 12, 0x0
+  CONTROL "Hold the Ctrl key to create multiple rulers.", 4294967295, Static, 0x50020000, 3, 31, 184, 9, 0x0
+  CONTROL "Ctrl+M shows or hides the window magnifier.", 4294967295, Static, 0x50020000, 3, 41, 184, 9, 0x0
+  CONTROL "Click a ruler and press Delete to remove the ruler.", 4294967295, Static, 0x50020000, 3, 51, 184, 9, 0x0
+}
+
+2070 DIALOGEX 0, 0, 141, 51
+CAPTION "Color Picker"
+STYLE 0x80c800c8
+EXSTYLE 0x80
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Copy and close", 1, Button, 0x50010001, 74, 30, 60, 14, 0x0
+  CONTROL "", 2071, Static, 0x5000000d, 7, 7, 26, 15, 0x0
+  CONTROL "R: 255 G: 255 B: 255", 2072, Static, 0x50020002, 45, 7, 89, 11, 0x0
+  CONTROL "Enable Color Picker", 2073, "ToolbarWindow32", 0x5401884c, 7, 30, 20, 14, 0x0
+  CONTROL "#000000", 2074, Static, 0x50020002, 62, 17, 52, 11, 0x0
+}
+
+2090 DIALOGEX 0, 0, 178, 146
+CAPTION ""
+STYLE 0x46000048 | NOT WS_CAPTION
+EXSTYLE 0x100000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Attribute:", 2091, Static, 0x50020000, 4, 4, 33, 9, 0x0
+  CONTROL "Add", 2092, Button, 0x50010040, 37, 3, 14, 12, 0x0
+  CONTROL "Remove", 2093, Button, 0x50010040, 55, 3, 14, 12, 0x0
+  CONTROL "Node:", 2094, Static, 0x50020000, 73, 4, 20, 10, 0x0
+  CONTROL "", 2095, Edit, 0x50000880, 95, 3, 79, 12, 0x20000
+  CONTROL "", 2096, "SysListView32", 0x56018805, 0, 19, 178, 112, 0x0
+  CONTROL "Show Read-Only Properties", 2097, Button, 0x50010003, 4, 133, 115, 11, 0x0
+}
+
+2100 DIALOGEX 0, 0, 284, 98
+CAPTION "Error"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL 32514, 2101, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Do you want to send this webpage to be validated?", 4294967295, Static, 0x50020000, 37, 7, 240, 20, 0x0
+  CONTROL "", 2103, Static, 0x50020000, 37, 27, 240, 30, 0x0
+  CONTROL "&Do not show this message again.", 2102, Button, 0x50010003, 37, 60, 240, 10, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 170, 80, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 227, 80, 50, 14, 0x0
+}
+
+2110 DIALOGEX 0, 0, 340, 108
+CAPTION "Custom User Agent Strings"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Friendly Name:", 4294967295, Static, 0x50020000, 4, 58, 80, 8, 0x0
+  CONTROL "", 2115, Edit, 0x50810080, 88, 56, 248, 12, 0x0
+  CONTROL "User Agent String:", 4294967295, Static, 0x50020000, 4, 74, 80, 8, 0x0
+  CONTROL "", 2116, Edit, 0x50810080, 88, 72, 248, 12, 0x0
+  CONTROL "", 2114, Button, 0x50010001, 256, 88, 80, 16, 0x0
+  CONTROL "&Set", 2113, Button, 0x50010000, 172, 88, 80, 16, 0x0
+  CONTROL "&Delete", 2112, Button, 0x50010000, 88, 88, 80, 16, 0x0
+  CONTROL "", 2111, "SysListView32", 0x5081400d, 4, 4, 332, 48, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "F12"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1099,  "Events"
+  1100,  "HTML"
+  1101,  "CSS"
+  1102,  "Script"
+  1103,  "Profiler"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "Layout"
+  1105,  "Style"
+  1106,  "No Styles"
+  1107,  "Trace Styles"
+  1108,  "Inspect the HTML of the current page."
+  1109,  "Inspect the CSS of the current page."
+  1110,  "Inspect the script of the current page."
+  1111,  "Inspect styles applied to the selected element."
+  1112,  "Inspect the layout of the selected element."
+  1113,  "Save as"
+  1114,  "Edit"
+  1115,  "You cannot store more than 63 custom sizes."
+  1116,  "Search HTML"
+  1117,  "Search CSS"
+  1118,  "Search Script"
+  1119,  "Search Profiler"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  ">>>>> ERROR TEXT _ CAN'T LOAD TREE NODE TEXT"
+  1121,  "CSSView"
+  1122,  "StylePane"
+  1123,  "AppliedStylesView"
+  1124,  "TraceStylePane"
+  1125,  "AppliedTraceStylesView"
+  1126,  "F12 HTML"
+  1127,  "F12 HTML View Pane"
+  1128,  "F12 HTML TreeView"
+  1129,  "F12 HTML Freeform Editor"
+  1130,  "F12 HTML Toolbar"
+  1131,  "F12 Tabs"
+  1132,  "F12 HTML Debug Layout Pane"
+  1133,  "F12 Menu"
+  1134,  "F12 Menu"
+  1135,  "RulerDrawLayer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "F12 HTML Splitter Window"
+  1137,  "F12 HTML Debug Layout Tabs"
+  1140,  "no"
+  1141,  "yes"
+  1142,  "Copy OuterHTML"
+  1143,  "Copy InnerHTML"
+  1144,  "Add Attribute"
+  1145,  "Remove Attribute"
+  1150,  "Add Attribute"
+  1151,  "Remove Attribute"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1160,  "Loading..."
+  1161,  "This stylesheet cannot be viewed because its source is in a different domain than the page."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1170,  "Edit DOM"
+  1171,  "Edit"
+  1172,  "Add"
+  1173,  "Remove"
+  1174,  "Enable"
+  1175,  "Disable"
+  1176,  "Name"
+  1177,  "Text"
+  1178,  "Attribute"
+  1179,  "CSS Rule Property"
+  1180,  "CSS Inline Property"
+  1181,  "Node Property"
+  1182,  "DOM Node"
+  1183,  "CSS Rule"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1190,  "Offset"
+  1191,  "Margin"
+  1192,  "Border"
+  1193,  "Padding"
+  1194,  "Width x Height"
+  1195,  "Z-index"
+  1196,  "Coordinates"
+  1198,  "%1 = %2"
+  1199,  "%1:  (%2!d!, %3!d!)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "&Select element by click\tCtrl+B"
+  1202,  "Clear &browser cache...\tCtrl+R"
+  1203,  "Element source with &style"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1300,  "&File"
+  1301,  "&Undo all"
+  1302,  "&Customize Internet Explorer view source"
+  1303,  "&Default viewer"
+  1304,  "&Notepad"
+  1305,  "&Other..."
+  1306,  "Online &Help\tF1"
+  1307,  "E&xit\tF12"
+  1308,  "Network"
+  1309,  "Search Captured Traffic"
+  1310,  "Console"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1401,  "Fi&nd"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1501,  "Di&sable"
+  1502,  "&Script"
+  1503,  "&Pop-Up Blocker"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1504,  "&CSS"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1701,  "&View"
+  1702,  "&Class and ID information\tCtrl+I"
+  1703,  "Link &paths"
+  1704,  "Link &report"
+  1705,  "&Tab indexes"
+  1706,  "&Access keys"
+  1707,  "&Source"
+  1708,  "DOM (&element)\tCtrl+T"
+  1709,  "DOM (&page)\tCtrl+Shift+G"
+  1710,  "&Original"
+  1711,  "Document &mode:  unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1712,  "&Quirks mode%s\tAlt+Q"
+  1713,  "Internet Explorer &7 standards%s\tAlt+7"
+  1714,  "Internet Explorer &8 standards%s\tAlt+8"
+  1715,  "Internet Explorer &9 standards%s\tAlt+9"
+  1718,  "Document &Mode:  Quirks"
+  1719,  "Document &Mode:  IE7 standards"
+  1720,  "Document &Mode:  IE8 standards"
+  1721,  "Document &Mode:  IE9 standards"
+  1724,  " (Page default)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1750,  "&Browser mode:  unknown"
+  1751,  "Internet Explorer &7"
+  1752,  "Internet Explorer &8"
+  1753,  "Internet Explorer 9 &Compatibility View"
+  1754,  "&Browser Mode:  IE7"
+  1755,  "&Browser Mode:  IE8"
+  1756,  "&Browser Mode:  IE9 Compat View"
+  1757,  "Internet Explorer &9"
+  1758,  "&Browser Mode:  IE9"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1900,  "&Images"
+  1901,  "&Disable images"
+  1902,  "&Show image dimensions"
+  1903,  "Show image &file sizes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1904,  "Show image &paths"
+  1905,  "View &Alt text"
+  1906,  "View image &report"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "&Cache"
+  2001,  "Always &refresh from server"
+  2002,  "Clear browser cache for this &domain...\tCtrl+D"
+  2003,  "Disable &cookies"
+  2004,  "Clear &session cookies"
+  2005,  "Clear cookies for d&omain"
+  2006,  "View cookie &information"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2100,  "&Tools"
+  2101,  "&Resize"
+  2102,  "800x600\tCtrl+Shift+1"
+  2103,  "1024x768\tCtrl+Shift+2"
+  2104,  "1280x768\tCtrl+Shift+3"
+  2105,  "1280x1024\tCtrl+Shift+4"
+  2106,  "&Custom..."
+  2107,  "Show r&uler\tCtrl+L"
+  2108,  "Hide r&uler\tCtrl+L"
+  2109,  "Show &color picker\tCtrl+K"
+  2110,  "Hide &color picker\tCtrl+K"
+  2111,  "&Outline Elements...\tCtrl+O"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2112,  "Change user agent &string"
+  2114,  "Internet Explorer &8"
+  2115,  "Internet Explorer &7"
+  2116,  "Internet Explorer &6"
+  2118,  "Google &Chrome"
+  2119,  "Mozilla &Firefox"
+  2120,  "&Opera"
+  2123,  "&Bing Bot"
+  2124,  "&Default"
+  2125,  "C&ustom..."
+  2126,  "C&lear entries on navigate"
+  2127,  "Con&sole"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2128,  "Net&work"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2200,  "V&alidate"
+  2201,  "&HTML"
+  2202,  "&CSS"
+  2203,  "&Feed"
+  2204,  "&Links"
+  2205,  "Local H&TML..."
+  2206,  "L&ocal CSS..."
+  2207,  "&Accessibility"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2208,  "&WCAG checklist"
+  2209,  "&Section 508 checklist"
+  2210,  "&Multiple validations..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2300,  "Pin (Ctrl + P)"
+  2301,  "Unpin (Ctrl + P)"
+  2302,  "Close (F12)"
+  2303,  "Minimize (Ctrl + M)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2304,  "Restore (Ctrl + M)"
+  2310,  "Search Control"
+  2311,  "Previous Result (Shift + Enter)"
+  2312,  "Next Result (Enter)"
+  2313,  "Search Buttons"
+  2314,  "Search Box"
+  2315,  "Search Glyph"
+  2316,  "Clear Search Highlighting"
+  2317,  "Search"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3115,  "DisplayOptions"
+  3116,  "ClassIDDisplay"
+  3117,  "Background Color"
+  3118,  "blue"
+  3119,  "LinkPathDisplay"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3120,  "green"
+  3121,  "TabIndex Display"
+  3126,  "AccessKeyDisplay"
+  3129,  "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"
+  3130,  "SyncMode5"
+  3132,  "Software\\Microsoft\\Internet Explorer\\Main"
+  3133,  "Display Inline Images"
+  3135,  "Are you sure you want to clear the browser cache for this domain?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3136,  "Are you sure you want to clear the browser cache?"
+  3138,  "Clear Browser Cache"
+  3140,  "ZoneOptions"
+  3141,  "FirstPartyCookies"
+  3142,  "ThirdPartyCookies"
+  3144,  "Script"
+  3145,  "Popup"
+  3148,  "Software\\Microsoft\\Internet Explorer\\New Windows"
+  3149,  "PopupMgr"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3156,  "DisplayImageDims"
+  3157,  "yellow"
+  3158,  "DisplayImageSrc"
+  3159,  "DisplayImageSize"
+  3160,  "Workarounds"
+  3161,  "RelativePosHack"
+  3163,  "Error generating image report."
+  3164,  "F12 Error"
+  3166,  "Resize"
+  3167,  "Documents"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3170,  "Invalid size"
+  3171,  "Invalid property value."
+  3172,  "Adds an attribute to the attribute list."
+  3173,  "Shows the attributes applied to the node selected in the tree control. You can edit properties by double-clicking on the value you wish to change."
+  3174,  "Toggles whether read/only properties are displayed in the list box."
+  3175,  "Displays the current style of the selected node. The current style represents the cascaded format and style of the object as specified by global style sheets, inline styles, and HTML attributes."
+  3176,  "OffsetLeftHack"
+  3178,  "Element"
+  3179,  "Class"
+  3180,  "Id"
+  3181,  "Name"
+  3182,  "Reached the end of the document without finding an element with those properties."
+  3183,  "Selection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3184,  "Color"
+  3186,  "Flash Color"
+  3187,  "white"
+  3188,  "FlashCount"
+  3190,  "RightAlignmentHack"
+  3193,  "F12"
+  3194,  "FieldsetHack"
+  3195,  "DOMWindow"
+  3196,  "Position"
+  3197,  "Docked"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3201,  "Could not get the cookie information."
+  3210,  "RulerOptions"
+  3211,  "SnapToXY"
+  3212,  "SnapToElements"
+  3213,  "HideTickmarks"
+  3214,  "HideEndpoints"
+  3215,  "Color"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3216,  "CurrentColor"
+  3217,  "No %s were found in this webpage."
+  3218,  "No %s elements were found in this webpage."
+  3219,  "fixed position elements"
+  3220,  "floating elements"
+  3221,  "relatively positioned elements"
+  3222,  "absolutely positioned elements"
+  3223,  "Deletes the currently selected attribute."
+  3224,  "table cells"
+  3225,  "tables"
+  3226,  "images"
+  3227,  "<DIV> elements"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3232,  "Error generating link report."
+  3236,  "HideInfoTipDlg"
+  3237,  "Are you sure you want to clear the cookies for this domain?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3301,  "DOM (&page)"
+  3302,  "&Original"
+  3303,  "DOM (&element)"
+  3304,  "Source"
+  3305,  "Original HTML Source|*.htm;*.html||"
+  3306,  "vs_styles.css"
+  3307,  " address blockquote center dir div dl fieldset form h1 h2 h3 h4 h5 h6 menu noframes noscript ol pre table ul frameset hr isindex p dd dt li tbody td tfoot th thead tr style script "
+  3308,  " area base bgsound br col embed frame hr img input isindex keygen link meta nextid param source wbr "
+  3309,  "Please select an element using the DOM Explorer."
+  3310,  " - Original Source"
+  3311,  " - DOM Source"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3312,  "DOM (element + &styles)"
+  3313,  "Please select an element within the BODY of the document."
+  3314,  "View element source with style"
+  3315,  "Formatted HTML Source|*.htm;*.html||"
+  3316,  " (display resolution too small)"
+  3317,  "Save HTML (Ctrl + S)"
+  3318,  "<!-- Generated by F12 developer tools. This might not be an accurate representation of the original source file -->\r\n"
+  3319,  "untitled"
+  3320,  "Edit (Alt + E)"
+  3321,  "Word Wrap (Alt + W)"
+  3322,  "HTML File (*.htm;*.html)|*.htm;*.html|CSS File (*.css)|*.css|All Files (*.*)|*.*|"
+  3323,  "Save CSS (Ctrl + S)"
+  3324,  "/* Generated by F12 developer tools. This might not be an accurate representation of the original source file */\r\n"
+  3325,  "Text File (*.txt)\0*.txt"
+  3326,  "_css"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3400,  "R: %3d G: %3d B: %3d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3500,  "Attributes"
+  3501,  "Name"
+  3502,  "Value"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3600,  "CSS Stylesheet"
+  3601,  "Text"
+  3602,  "Comment"
+  3603,  "Empty Text Node"
+  3604,  "Null"
+  3605,  "CSS File"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8000,  "Select element by click (Ctrl + B)"
+  8001,  "Clear browser cache... (Ctrl + R)"
+  8002,  "Refresh (F5)"
+  8003,  "Element source with style (Ctrl + T)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8100,  "The address of the current webpage will be sent to an external site for validation."
+  8101,  "The address of the current webpage will be sent to %s for validation."
+  8102,  "The address of the current webpage will be sent to %s and %s for validation."
+  8103,  "The address of the current webpage will be sent to %s, %s, and %s for validation."
+  8104,  "The address of the current webpage will be sent to %s, %s, %s, and %s for validation."
+  8105,  "The address of the current webpage will be sent to %s, %s, %s, %s, and %s for validation."
+  8106,  "The address of the current webpage will be sent to %s, %s, %s, %s, %s, and %s for validation."
+  8107,  "The address of the current webpage will be sent to %s, %s, %s, %s, %s, %s, and %s for validation."
+  8108,  "The address of the current webpage will be sent to %s, %s, %s, %s, %s, %s, %s, and %s for validation."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9000,  "Executable Files (*.exe)\0*.exe;\0All Files (*.*)\0*.*"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9100,  "F12 CSS Toolbar"
+  9101,  "Resolutions"
+  9102,  "Enable Color Picker"
+  9103,  "Enable color picker mode checkbox"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9200,  "Courier New"
+  9201,  "Consolas"
+  9202,  "MS Shell Dlg"
+  9203,  "Microsoft Sans Serif"
+  9204,  "-12"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9300,  "..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9400,  "&Add"
+  9401,  "&Update"
+  9402,  "The user agent string must contain only ASCII characters."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9500,  "http://go.microsoft.com/fwlink/?LinkID=206506"
+}
+
+5010 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F  , 5117, VIRTKEY, NOINVERT, CONTROL
+  VK_G  , 5118, VIRTKEY, NOINVERT, CONTROL
+  VK_P  , 5114, VIRTKEY, NOINVERT, CONTROL
+  VK_W  , 5115, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 5111, VIRTKEY, NOINVERT, CONTROL
+}
+
+5011 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F12  , 5200, VIRTKEY, NOINVERT, CONTROL
+  VK_E  , 5300, VIRTKEY, NOINVERT, CONTROL
+  VK_F  , 5300, VIRTKEY, NOINVERT, CONTROL
+  VK_F3  , 5301, VIRTKEY, NOINVERT
+  VK_F3  , 5302, VIRTKEY, NOINVERT, SHIFT
+  VK_W  , 5303, VIRTKEY, NOINVERT, CONTROL
+  49  , 5400, VIRTKEY, NOINVERT, CONTROL
+  50  , 5401, VIRTKEY, NOINVERT, CONTROL
+  51  , 5402, VIRTKEY, NOINVERT, CONTROL
+  52  , 5403, VIRTKEY, NOINVERT, CONTROL
+  53  , 5404, VIRTKEY, NOINVERT, CONTROL
+  54  , 5405, VIRTKEY, NOINVERT, CONTROL
+  VK_TAB  , 5410, VIRTKEY, NOINVERT, CONTROL
+  VK_TAB  , 5411, VIRTKEY, NOINVERT, SHIFT, CONTROL
+}
+
+5012 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_B  , 54, VIRTKEY, NOINVERT, CONTROL
+  VK_I  , 401, VIRTKEY, NOINVERT, CONTROL
+  VK_O  , 809, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 56, VIRTKEY, NOINVERT, CONTROL
+  VK_D  , 702, VIRTKEY, NOINVERT, CONTROL
+  VK_L  , 807, VIRTKEY, NOINVERT, CONTROL
+  VK_K  , 808, VIRTKEY, NOINVERT, CONTROL
+  VK_Q  , 1000, VIRTKEY, NOINVERT, ALT
+  55  , 1001, VIRTKEY, NOINVERT, ALT
+  56  , 1002, VIRTKEY, NOINVERT, ALT
+  57  , 1003, VIRTKEY, NOINVERT, ALT
+  VK_T  , 57, VIRTKEY, NOINVERT, CONTROL
+  VK_G  , 408, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_L  , 409, VIRTKEY, NOINVERT, CONTROL
+  49  , 802, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  50  , 803, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  51  , 804, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  52  , 805, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_P  , 14, VIRTKEY, NOINVERT, CONTROL
+  VK_M  , 13, VIRTKEY, NOINVERT, CONTROL
+  VK_F1  , 106, VIRTKEY, NOINVERT
+  VK_F12  , 15, VIRTKEY, NOINVERT
+  VK_F12  , 15, VIRTKEY, NOINVERT, SHIFT
+  VK_F  , 1101, VIRTKEY, NOINVERT, ALT
+  VK_N  , 1102, VIRTKEY, NOINVERT, ALT
+  VK_S  , 1103, VIRTKEY, NOINVERT, ALT
+  VK_V  , 1104, VIRTKEY, NOINVERT, ALT
+  VK_I  , 1105, VIRTKEY, NOINVERT, ALT
+  VK_C  , 1106, VIRTKEY, NOINVERT, ALT
+  VK_T  , 1107, VIRTKEY, NOINVERT, ALT
+  VK_A  , 1108, VIRTKEY, NOINVERT, ALT
+  VK_B  , 1110, VIRTKEY, NOINVERT, ALT
+  VK_M  , 1111, VIRTKEY, NOINVERT, ALT
+  VK_D  , 1004, VIRTKEY, NOINVERT, ALT
+}
+
+5013 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F5  , 5104, VIRTKEY, NOINVERT
+  VK_T  , 5106, VIRTKEY, NOINVERT, CONTROL
+  VK_E  , 5130, VIRTKEY, NOINVERT, ALT
+  187  , 5156, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 5129, VIRTKEY, NOINVERT, CONTROL
+  VK_W  , 5131, VIRTKEY, NOINVERT, ALT
+}
+
+5014 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F  , 5132, VIRTKEY, NOINVERT, CONTROL
+  VK_S  , 5133, VIRTKEY, NOINVERT, CONTROL
+  VK_U  , 5155, VIRTKEY, NOINVERT, CONTROL
+  187  , 5156, VIRTKEY, NOINVERT, CONTROL
+}
+
+1 MESSAGETABLE
+{
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-IEDVTOOL\r\n"
+}
