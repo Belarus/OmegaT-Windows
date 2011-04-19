@@ -65,7 +65,7 @@ go:
     StrCpy $1 "$R2.$R3.$R4.$R5"
 
     StrCmp $1 $RequiredVersion done 0
-        MessageBox MB_OK "Немагчыма ўсталяваць, бо файл $0 мае версію $1, але патрабуецца $RequiredVersion"
+        MessageBox MB_OK "Немагчыма ўсталяваць, бо файл $0 мае версію $1, а патрабуецца $RequiredVersion"
         Abort
 done:
 FunctionEnd
