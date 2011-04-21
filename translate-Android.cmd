@@ -1,1 +1,1 @@
-java -jar Windows7.OmegaT/OmegaT.jar --config-dir=Android.settings Android
+java -jar Android.OmegaT/OmegaT.jar --config-dir=Android.settings Android
