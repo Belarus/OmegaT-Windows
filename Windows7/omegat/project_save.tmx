@@ -1774,6 +1774,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>%d of %d</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T145238Z">
+        <seg>%d з %d</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>%d optional updates</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110311T101636Z">
@@ -3966,6 +3974,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Customize</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150826Z">
+        <seg>Дапасаваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Customize notification icons</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100904T191343Z">
@@ -3976,8 +3992,8 @@
     <tuv lang="en">
         <seg>&amp;Customize...</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100722T194838Z">
-        <seg>Наладзіць...</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150907Z">
+        <seg>Дапасаваць...</seg>
     </tuv>
 </tu>
 <tu>
@@ -4642,6 +4658,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110415T202134Z">
         <seg>Экспартаваць...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Extract</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150637Z">
+        <seg>Выняць</seg>
     </tuv>
 </tu>
 <tu>
@@ -8246,6 +8270,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;System</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125647Z">
+        <seg>Сістэма</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Tab Always Active</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101111T124233Z">
@@ -9310,6 +9342,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>(Archive Root Directory)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150446Z">
+        <seg>(архіўны каранёвы каталог)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>(Changed)</seg>
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100315T135656Z">
@@ -9642,6 +9682,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100715T131805Z">
         <seg>,</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>,   [   ]   +   =</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130948Z">
+        <seg>,   [   ]   +   =</seg>
     </tuv>
 </tu>
 <tu>
@@ -13424,8 +13472,8 @@
     <tuv lang="en">
         <seg>A restart or shutdown to upgrade the operating system.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101206T203758Z">
-        <seg>Перазапуск ці выключэнне для абнаўлення аперацыйнай сістэмы.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124216Z">
+        <seg>Перазапуск ці выключэнне для мадэрнізавання аперацыйнай сістэмы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -13922,6 +13970,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110306T062900Z">
         <seg>Атрымаць доступ да камп'ютараў і прылад у вашай сетцы.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Access to %1 was denied.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T145227Z">
+        <seg>Адмоўлена ў доступе да %1.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Access to the compressed (zipped) folder is denied.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T131215Z">
+        <seg>Абмоўлена ў доступе да сціснутага zip-каталога.</seg>
     </tuv>
 </tu>
 <tu>
@@ -15424,8 +15488,8 @@
     <tuv lang="en">
         <seg>After you restart the computer, Setup will continue automatically.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101026T105329Z">
-        <seg>Пасля перазапуску камп'ютара ўсталёўка будзе працягнутая.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124015Z">
+        <seg>Пасля перазапуску камп'ютара ўсталяванне будзе працягнутае.</seg>
     </tuv>
 </tu>
 <tu>
@@ -16986,6 +17050,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T171407Z">
         <seg>Любое лагічнае значэнне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Any changes that were made to your computer during the installation process will not be saved.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123340Z">
+        <seg>Усе змены, якія былі зробленыя камп'ютарам цягам працэса ўсталявання, не будуць захаваныя.</seg>
     </tuv>
 </tu>
 <tu>
@@ -19062,6 +19134,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>B&amp;rowse...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125929Z">
+        <seg>Агляд...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>B&amp;urn</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110415T201236Z">
@@ -19482,6 +19562,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100725T173241Z">
         <seg>Перш чым перазапусціць, захавайце ўсе адчыненыя файлы і зачыніце ўсе праграмы.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Before you can extract files, you must change the permissions for this compressed (zipped) folder.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T141434Z">
+        <seg>Перш чым вы зможаце выняць файлы, вы павінны змяніць дазволы да сціснутага zip-каталога.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Before you can extract files, you must copy files to this compressed (zipped) folder.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T131112Z">
+        <seg>Перш чым в зможаце выняць файлы, вы павінны скапіяваць іх у гэты сціснуты zip-каталог.</seg>
     </tuv>
 </tu>
 <tu>
@@ -21162,6 +21258,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T140314Z">
         <seg>CRC-32</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>CRC-32:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125629Z">
+        <seg>CRC-32:</seg>
     </tuv>
 </tu>
 <tu>
@@ -26502,6 +26606,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Compressed (zipped) Folders</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130022Z">
+        <seg>Сціснутыя zip-каталогі</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Compressed (zipped) Folders Error</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150407Z">
+        <seg>Памылка сціснутага zip-каталога</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Compressed bits/pixel</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T202529Z">
@@ -26522,6 +26642,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100726T074504Z">
         <seg>сціснуты,</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Compressed:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125618Z">
+        <seg>Сціснута:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Compressing...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150607Z">
+        <seg>Сцісканне...</seg>
     </tuv>
 </tu>
 <tu>
@@ -28358,6 +28494,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Copy item(s) to the clipboard for later pasting to other folders</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T142211Z">
+        <seg>Скапіяваць элементы ў кішэню для далейшай ўстаўкі ў іншыя каталогі</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Copy lin&amp;k</seg>
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100704T180730Z">
@@ -29664,8 +29808,8 @@
     <tuv lang="en">
         <seg>Customize</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100728T111218Z">
-        <seg>Наладзіць</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150837Z">
+        <seg>Дапасаваць</seg>
     </tuv>
 </tu>
 <tu>
@@ -29768,8 +29912,8 @@
     <tuv lang="en">
         <seg>Customize...</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100723T055453Z">
-        <seg>Наладзіць...</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T153522Z">
+        <seg>Дапасаваць...</seg>
     </tuv>
 </tu>
 <tu>
@@ -29818,6 +29962,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100902T193905Z">
         <seg>Выняць (Ctrl+X)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Cut item(s) to the clipboard for later pasting to other folders</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143025Z">
+        <seg>Выняць элементы ў кішэню для далейшай ўстаўкі ў іншыя каталогі</seg>
     </tuv>
 </tu>
 <tu>
@@ -30962,6 +31114,14 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100319T083026Z">
         <seg>На партале бяспекі Microsoft знойдзены абнаўленні вызначэнняў.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Deflated</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T145203Z">
+        <seg>Спушчана</seg>
     </tuv>
 </tu>
 <tu>
@@ -33038,6 +33198,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Display property sheet for selected item</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143002Z">
+        <seg>Адлюстраваць старонку ўласцівасцяў для вылучанага элемента</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Display the full path in the title bar (Classic theme only)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T120755Z">
@@ -34791,6 +34959,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Drive Selection</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125304Z">
+        <seg>Абранне дыска</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Driver name</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101107T185508Z">
@@ -35031,6 +35207,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>E&amp;xtract all</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130214Z">
+        <seg>Выняць усё</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>E-mail</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110210T120017Z">
@@ -35115,6 +35299,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T075254Z">
         <seg>EQUAL</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>EULA</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123052Z">
+        <seg>EULA</seg>
     </tuv>
 </tu>
 <tu>
@@ -36855,6 +37047,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Ex&amp;tract All...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150133Z">
+        <seg>Выняць усё...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Example</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100924T125525Z">
@@ -36923,6 +37123,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100715T114516Z">
         <seg>Выканаць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Execute only the selected item(s)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T142057Z">
+        <seg>Запусціць толькі вылучаныя элементы</seg>
     </tuv>
 </tu>
 <tu>
@@ -37287,10 +37495,50 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Extract all files</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150757Z">
+        <seg>Выняць усе файлы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Extract all files at this directory level and execute selected item(s)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T142112Z">
+        <seg>Выняць ўсе файлы з гэтага каталогавага ўзроўню і запусціць вылучаныя элементы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Extract item(s) to a location that you specify</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T142627Z">
+        <seg>Выняць элементы ў азначанае размяшчэнне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Extract...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100904T193454Z">
         <seg>Выняць...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Extracting...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T145242Z">
+        <seg>Выманне...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Extracts folder contents</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150348Z">
+        <seg>Вымае змесціва каталога</seg>
     </tuv>
 </tu>
 <tu>
@@ -37313,8 +37561,8 @@
     <tuv lang="en">
         <seg>Extras and Upgrades</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100719T093907Z">
-        <seg>Бонусы і абнаўленні</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124144Z">
+        <seg>Бонусы і мадэрнізаванні</seg>
     </tuv>
 </tu>
 <tu>
@@ -37999,6 +38247,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>File '%s' is password protected.  Please enter the password in the box below.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125818Z">
+        <seg>Файл '%s' абаронены паролем. Калі ласка, ўвядзіце пароль у рамку ніжэй.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>File Access Denied</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T054337Z">
@@ -38443,6 +38699,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110324T061024Z">
         <seg>Файлы, якія дапамагаюць апісаць праблему:\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Files will be extracted to this &amp;folder:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125926Z">
+        <seg>Файлы будуць вынятыя ў гэты каталог:</seg>
     </tuv>
 </tu>
 <tu>
@@ -39651,6 +39915,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101206T194725Z">
         <seg>Толькі для мэтаў тэставання.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>For the application to run properly, it is recommended that you first extract all files.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130206Z">
+        <seg>Каб гэтая праграма працавала правільна, рэкамендавана выняць усе файлы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -43919,6 +44191,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Imploded</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143622Z">
+        <seg>Канцэнтравана</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Import from scanner or camera.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110304T085845Z">
@@ -44283,6 +44563,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100827T200632Z">
         <seg>Водступ</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Index:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125642Z">
+        <seg>Індэкс:</seg>
     </tuv>
 </tu>
 <tu>
@@ -44711,6 +44999,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Install Type</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123058Z">
+        <seg>Тып усталявання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Install Windows</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101026T104205Z">
@@ -44899,6 +45195,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110213T111201Z">
         <seg>Усталявана\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Installing Windows...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123213Z">
+        <seg>Усталяванне Windows...</seg>
     </tuv>
 </tu>
 <tu>
@@ -45387,6 +45691,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101223T191543Z">
         <seg>Недапушчальныя параметры -- паспрабуйце "/?" для дапамогі\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Invalid Password</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150458Z">
+        <seg>Недапушчальны пароль</seg>
     </tuv>
 </tu>
 <tu>
@@ -47491,6 +47803,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101009T165004Z">
         <seg>Праслухоўванне на %1</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Listview Control</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125529Z">
+        <seg>Кіраванне спісу прагляду</seg>
     </tuv>
 </tu>
 <tu>
@@ -49831,6 +50151,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Method:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125623Z">
+        <seg>Метад:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Metric</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100924T180533Z">
@@ -50355,6 +50683,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101108T115634Z">
         <seg>Microsoft-Windows-Shell-AuthUI-Shutdown/Дыягностыка\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Microsoft-Windows-Shell-ZipFolder\r\n</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150750Z">
+        <seg>Microsoft-Windows-Shell-ZipFolder\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -51139,6 +51475,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101107T165453Z">
         <seg>Перамясціць абраныя элементы ў кішэню.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Move these files out of the folder, rename them without using these characters, then move them back into the folder and try again.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130946Z">
+        <seg>Вынесіце гэтыя файлы з каталогу, пераназавіце іх без выкарыстання гэтых знакаў, зноў перанясіце іх у каталог і паўтарыце спробу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -53359,10 +53703,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>No, I'll find new software myself when I install updates</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T153636Z">
+        <seg>Не, я сам знайду апраграмаванне і ўсталюю абнаўленні</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>No, ask me each time</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T105208Z">
         <seg>Не, пытаць мяне кожны раз</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>No, don't show me detailed notifications</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T153609Z">
+        <seg>Не, не паказваць мне дэталёвыя апавяшчэнні</seg>
     </tuv>
 </tu>
 <tu>
@@ -54759,6 +55119,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>One or more file names contain characters that Compressed (zipped) Folders cannot handle.  Look for file names containing the following characters:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130718Z">
+        <seg>Адна ці некалькі назваў змяшчаюць знакі, якія не могуць утрымліваць сціснутыя zip-каталогі. Знайдзіце назвы, якія змяшчаюць наступныя знакі:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>One or more files are in use by Windows or by a program you are using.  The following options are available:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100725T094328Z">
@@ -55737,8 +56105,8 @@
     <tuv lang="en">
         <seg>Operating System: Upgrade (Planned)</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101206T200628Z">
-        <seg>Аперацыйная сістэма: абнаўленне (планаванае)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124201Z">
+        <seg>Аперацыйная сістэма: мадэрнізаванне (планаванае)</seg>
     </tuv>
 </tu>
 <tu>
@@ -56555,6 +56923,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T075258Z">
         <seg>PERIOD</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>PERMANENTLY delete selected item(s) (no Undo possible)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T142758Z">
+        <seg>ЗНІШЧЫЦЬ выдаліць вылучаныя элементы (немагчыма адрабіць)</seg>
     </tuv>
 </tu>
 <tu>
@@ -57387,6 +57763,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101103T213527Z">
         <seg>Пароль трэба змяніць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Password needed</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125707Z">
+        <seg>Патрэбны пароль</seg>
     </tuv>
 </tu>
 <tu>
@@ -61089,8 +61473,16 @@
     <tuv lang="en">
         <seg>Properties for this program cannot be verified.\rThe APPS.INF file is missing. Copy the APPS.INF file from your Windows Setup disks into your Windows INF folder.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101029T195113Z">
-        <seg>Немагчыма праверыць уласцівасці гэтай праграмы.\rФайл APPS.INF страчаны. Скапіюйце яго з вашых кружэлак усталёўніка Windows у каталог Windows INF.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123804Z">
+        <seg>Немагчыма праверыць уласцівасці гэтай праграмы.\rФайл APPS.INF страчаны. Скапіюйце яго з вашых кружэлак усталявання Windows у каталог Windows INF.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Properties...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143030Z">
+        <seg>Уласцівасці...</seg>
     </tuv>
 </tu>
 <tu>
@@ -61603,6 +61995,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110124T140615Z">
         <seg>Перакруціць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>R&amp;un</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130216Z">
+        <seg>Запусціць</seg>
     </tuv>
 </tu>
 <tu>
@@ -62471,6 +62871,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Reduced</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143259Z">
+        <seg>Зніжана</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Reduces the window to an icon.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100921T184034Z">
@@ -63019,6 +63427,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100726T133508Z">
         <seg>Адлучае ваш лэптоп ці ноўтбук з чапляльнай станцыі.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Removing Originals...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150619Z">
+        <seg>Выдаленне арыгіналаў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -65063,6 +65479,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>S&amp;how extracted files when complete</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130009Z">
+        <seg>Паказаць вынятыя файлы пасля сканчэння</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>S&amp;how more fonts</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101107T190126Z">
@@ -65091,6 +65515,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110312T182808Z">
         <seg>Прапусціць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>S&amp;kip File</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125714Z">
+        <seg>Прапусціць файл</seg>
     </tuv>
 </tu>
 <tu>
@@ -68063,6 +68495,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Select the place where you want to extract the selected item(s).  Then click the OK button.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150105Z">
+        <seg>Абярыце месца, куды вы жадаеце выняць вылучаныя элементы. Затым пстрыкніце кнопку "Добра".</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Select the place where you want to move '%1', then click the Move button.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T114220Z">
@@ -70803,6 +71243,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110314T120448Z">
         <seg>Паказвае уласцівасці гэтага сервера друкарак.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Shrunk</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143225Z">
+        <seg>Сціснута</seg>
     </tuv>
 </tu>
 <tu>
@@ -73863,6 +74311,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Stored</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T143039Z">
+        <seg>Захавана</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Stream name</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101102T112333Z">
@@ -75713,8 +76169,8 @@
     <tuv lang="en">
         <seg>The APPS.INF file is incomplete.\nCopy the APPS.INF file from your Windows Setup disks into your Windows INF folder.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100714T074857Z">
-        <seg>Файл APPS.INF незавершаны.\nСкапіюйце яго з вашых кружэлак усталёўніка Windows у каталог Windows INF.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123919Z">
+        <seg>Файл APPS.INF незавершаны.\nСкапіюйце яго з вашых кружэлак усталявання Windows у каталог Windows INF.</seg>
     </tuv>
 </tu>
 <tu>
@@ -76219,6 +76675,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110124T130754Z">
         <seg>Якасць колеру можа быць зніжанаю, калі вы захаваеце відарыс у гэтым фармаце.\nПрацягнуць?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The compressed (zipped) folder is empty.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T131007Z">
+        <seg>Сціснуты zip-каталог пусты.</seg>
     </tuv>
 </tu>
 <tu>
@@ -77151,6 +77615,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>The installation process consists of a few easy steps, then\r\nWindows will finish installing on its own.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123046Z">
+        <seg>Працэс усталявання складаецца з некалькіх простых крокаў,\r\nпотым Windows скончыць яго сама.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The installation was canceled</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123235Z">
+        <seg>Усталяванне было  скасаванае</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>The item '%1!ls!' that this shortcut refers to has been changed or moved. The nearest match, based on size, date, and type, is '%2!ls!'. Do you want this shortcut to point to this item?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100709T100458Z">
@@ -77503,6 +77983,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>The password you have entered is invalid. Do you\nwish to enter a new password now?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150601Z">
+        <seg>Уведзены вамі пароль недапушчальны.\nУвесці новы пароль зараз?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>The password you typed does not meet the password complexity requirements set by the administrator for your network or group. Get the requirements from your administrator, and then type a new password.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110312T182742Z">
@@ -77547,6 +78035,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110407T164100Z">
         <seg>Уведзеныя вамі паролі не супадаюць. Калі ласка, пераўвядзіце новы пароль у абедзве рамкі.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The path %1!s! does not exist.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T150129Z">
+        <seg>Шлях %1!s! не існуе.</seg>
     </tuv>
 </tu>
 <tu>
@@ -79083,6 +79579,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110127T091523Z">
         <seg>Гэты адаптар - частка сеткавага моста. Каб выдаліць гэты адаптар з сеткавага моста ці змяніць налады моста, пстрыкніце правай клавішай па сеткавым мосце і абярыце "Уласцівасці".</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>This application may depend on other compressed files in this folder.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T130125Z">
+        <seg>Гэтая праграма можа залежаць ад іншых сціснутых файлаў у гэтым каталогу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -81783,6 +82287,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>To select a different partition or drive, click Back. To proceed with Setup and delete everything on this drive, click Next.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124419Z">
+        <seg>Каб абраць іншы раздзел ці дыск, пстрыкніце "Назад". Каб працягнуць усталяванне і выдаліць усё на гэтым дыску, пстрыкніце "Далей".</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>To select a different partition or drive, click Back. To proceed with Setup and delete everything on this partition, click Next.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125117Z">
+        <seg>Каб абраць іншы раздзел ці дыск, пстрыкніце "Назад". Каб працягнуць усталяванне і выдаліць усё на гэтым раздзеле, пстрыкніце "Далей".</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>To set a program as the default for all file types and protocols it can open, click the program and then click Set as default.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T161756Z">
@@ -81979,6 +82499,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T162615Z">
         <seg>Пераключыць адлюстраванне датычнай клавіятуры</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Tokenized</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T144815Z">
+        <seg>Лексемаваны</seg>
     </tuv>
 </tu>
 <tu>
@@ -84727,6 +85255,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Upgrade has been disabled</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124229Z">
+        <seg>Мадэрнізаванне была выключаная</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Upgrading Windows\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101102T175801Z">
@@ -87279,6 +87815,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Where do you want to install Windows?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125320Z">
+        <seg>Куды вы жадаеце ўсталяваць Windows?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Where:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100912T104950Z">
@@ -87299,6 +87843,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101118T081401Z">
         <seg>На якіх працэсарах дазволена выкананне "%s"?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Which type of installation do you want?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123113Z">
+        <seg>Які тып усталявання вы жадаеце</seg>
     </tuv>
 </tu>
 <tu>
@@ -87473,8 +88025,8 @@
     <tuv lang="en">
         <seg>Windows Anytime Upgrade</seg>
     </tuv>
-    <tuv lang="be" changeid="alex" changedate="20101006T060849Z">
-        <seg>Абнаўленне Windows у любы час</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124129Z">
+        <seg>Мадэрнізаванне Windows у любы час</seg>
     </tuv>
 </tu>
 <tu>
@@ -88111,18 +88663,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Windows Setup Confirmation</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123436Z">
+        <seg>Пацверджанне ўсталявання Windows</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Windows Setup has not changed the requested settings.  You may not have the required Administrative privilege to install or uninstall new files or drivers.  Please contact your Administrator.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100921T193728Z">
-        <seg>Усталёўнік Windows не змяніў запатрабаваныя налады. Магчыма, вы не маеце патрэбных адміністрацыйных прывілеяў для ўсталёўкі ці высталёўкі новых файлаў ці драйвераў. Калі ласка, звяжыцеся з вашым адміністратарам.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123845Z">
+        <seg>Усталяванне Windows не змяніў запатрабаваныя налады. Магчыма, вы не маеце патрэбных адміністрацыйных прывілеяў для ўсталёўкі ці высталёўкі новых файлаў ці драйвераў. Калі ласка, звяжыцеся з вашым адміністратарам.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>Windows Setup%0\r\n</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101108T120013Z">
-        <seg>Усталёўка Windows%0\r\n</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123509Z">
+        <seg>Усталяванне Windows%0\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -88553,8 +89113,8 @@
     <tuv lang="en">
         <seg>Windows can't locate the Disk Cleanup program. The program file might be corrupted or might have been deleted from your computer. To reinstall Disk Cleanup, run Windows Setup again.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100713T103749Z">
-        <seg>Windows не можа знайсці праграму чысткі дыска. Праграма можа быць пашкоджаная альбо выдаленая з Вашага камп'ютара. Каб пераўсталяваць яе, запусціце ўсталёўку Windows.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T123653Z">
+        <seg>Windows не можа знайсці праграму чысткі дыска. Праграма можа быць пашкоджаная альбо выдаленая з Вашага камп'ютара. Каб пераўсталяваць яе, запусціце ўсталяванне Windows.</seg>
     </tuv>
 </tu>
 <tu>
@@ -90627,6 +91187,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110311T113412Z">
         <seg>Вы праверылі наяўнасць абнаўленняў у сеціве з %1.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>You chose to format partition %d on drive %d.  If you proceed, Setup will delete all information contained on this partition.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T125244Z">
+        <seg>Вы вырашылі адфарматаваць раздзел %d на дыску %d. Калі вы працягнеце, усталяванне выдаліць усю інфармацыю, якая ёсць на гэтым дыску.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>You chose to install Windows on drive %d.  If you proceed, Setup will delete all partitions and data contained on this drive.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124700Z">
+        <seg>Вы вырашылі ўсталяваць Windows на дыск %d. Калі вы працягнеце, усталяванне выдаліць усе раздзелы і звесткі, якія ёсць на гэтым дыску.</seg>
     </tuv>
 </tu>
 <tu>
@@ -98019,6 +98595,46 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101029T174344Z">
         <seg>•</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\en-US\wucltux.dll_x32sp1.mui.rc</prop>
+    <prop type="id">/450</prop>
+    <tuv lang="en">
+        <seg>Check</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T153914Z">
+        <seg>Паставіць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\en-US\wucltux.dll_x32sp1.mui.rc</prop>
+    <prop type="id">/451</prop>
+    <tuv lang="en">
+        <seg>Uncheck</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T153953Z">
+        <seg>Прыбраць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\oobe\en-US\W32UIRes.dll_x32sp0.mui.rc</prop>
+    <prop type="id">143/1</prop>
+    <tuv lang="en">
+        <seg>&amp;Next</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124430Z">
+        <seg>Далей</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\oobe\en-US\W32UIRes.dll_x32sp0.mui.rc</prop>
+    <prop type="id">144/1</prop>
+    <tuv lang="en">
+        <seg>&amp;Next</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110421T124738Z">
+        <seg>Далей</seg>
     </tuv>
 </tu>
 <tu>
