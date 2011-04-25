@@ -7448,8 +7448,8 @@
     <tuv lang="en">
         <seg>&amp;Reset Folders</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100707T114823Z">
-        <seg>Скід выгляду</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T082403Z">
+        <seg>Скінуць каталогі</seg>
     </tuv>
 </tu>
 <tu>
@@ -7560,8 +7560,8 @@
     <tuv lang="en">
         <seg>&amp;Restore Defaults</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110409T144945Z">
-        <seg>Аднавіць стандартныя</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T081315Z">
+        <seg>Аднавіць стандарты</seg>
     </tuv>
 </tu>
 <tu>
@@ -8032,8 +8032,8 @@
     <tuv lang="en">
         <seg>&amp;Set save location</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101107T185322Z">
-        <seg>Прызначыць размяшчэнне захавання</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T092229Z">
+        <seg>Размяшчэнне захавання</seg>
     </tuv>
 </tu>
 <tu>
@@ -29616,8 +29616,8 @@
     <tuv lang="en">
         <seg>Create an &amp;MS-DOS startup disk</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100707T115647Z">
-        <seg>Стварыць загрузачны дыск MS-DOS</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T074939Z">
+        <seg>Стварыць дыск запуску MS-DOS</seg>
     </tuv>
 </tu>
 <tu>
@@ -60025,8 +60025,8 @@
     <tuv lang="en">
         <seg>Pop-&amp;up background</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100707T123620Z">
-        <seg>Фон усплывальнага вакна</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T091548Z">
+        <seg>Фон вынырца</seg>
     </tuv>
 </tu>
 <tu>
@@ -66385,8 +66385,8 @@
     <tuv lang="en">
         <seg>Safe Boot</seg>
     </tuv>
-    <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100315T133941Z">
-        <seg>Загрузка ў бяспечным рэжыме</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T074909Z">
+        <seg>Бяспечны запуск</seg>
     </tuv>
 </tu>
 <tu>
@@ -90161,8 +90161,8 @@
     <tuv lang="en">
         <seg>Windows could not create a MS-DOS startup disk on this disk.\nPlease check that the disk is not write-protected or try another disk.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100721T145950Z">
-        <seg>Windows не можа стварыць загрузачны дыск MS-DOS на гэтым дыску.\nПераканайцеся, што дыск не абаронены ад запісу ці паспрабуйце іншы дыск.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T075001Z">
+        <seg>Windows не можа стварыць дыск запуску MS-DOS на гэтым дыску.\nПераканайцеся, што дыск не абаронены ад запісу ці паспрабуйце іншы дыск.</seg>
     </tuv>
 </tu>
 <tu>
@@ -91585,8 +91585,8 @@
     <tuv lang="en">
         <seg>You can apply the view (such as Details or Icons) that you are using for this folder to all folders of this type.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100905T070824Z">
-        <seg>Вы можаце ўжыць выгляд гэтага каталога (такі, як "Дэталі" альбо "Значкі") да ўсіх каталогаў гэтага тыпу.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T082830Z">
+        <seg>Вы можаце ўжыць выгляд гэтага каталога\n(такі, як "Дэталі" альбо "Значкі") да ўсіх каталогаў гэтага тыпу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -99359,6 +99359,26 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T064922Z">
         <seg>Перадпрагляд друку...</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\en-US\shell32.dll_x32sp0.mui.rc</prop>
+    <prop type="id">14374/14455</prop>
+    <tuv lang="en">
+        <seg>Low</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T072735Z">
+        <seg>Нізкі</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">Windows\System32\en-US\shell32.dll_x32sp0.mui.rc</prop>
+    <prop type="id">14374/14456</prop>
+    <tuv lang="en">
+        <seg>High</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110425T072742Z">
+        <seg>Высокі</seg>
     </tuv>
 </tu>
 <tu>
