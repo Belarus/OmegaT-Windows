@@ -717,6 +717,14 @@ Windows/System32/en-US/shell32.dll_x32sp1.mui.rc:
 		"<a>Чытаць заяву прыватнасці ў сеціве</a>", -14334
 		0, 128, 120, 10 - 0, 128, 189, 10
 
+Windows/System32/en-US/wunsrv.dll_x32sp0.mui.rc
+	DIALOG/10
+		"Скончыць зараз", 259
+		123, 112, 46, 14 - 103, 112, 66, 14
+	DIALOG/20
+		"Выключыць прымусова", 260
+		115, 191, 70, 13 - 95, 191, 90, 13
+
 Windows/System32/en-US/comdlg32.dll_x32sp0.mui.rc
 	DIALOG/CHOOSECOLOR
 		DIALOGEX
