@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
 <header datatype="plaintext" srclang="en" adminlang="EN-US" o-tmf="OmegaT TMX" segtype="paragraph" creationtoolversion="2.5.0" creationtool="OmegaT"/>
@@ -114,8 +114,8 @@
     <tuv lang="en">
         <seg>%%\n This file contains characters in Unicode format which will be lost if you save this file as an ANSI encoded text file. To keep the Unicode information, click Cancel below and then select one of the Unicode options from the Encoding drop down list. Continue?</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110210T123524Z">
-        <seg>%%\n Гэты файл змяшчае сімвалы ў фармаце Unicode, якія страцяцца, калі вы захаваеце тэкст у файле з кадаваннем ANSI. Каб захаваць Unicode-інфармацыю, пстрыкніце "Скасаваць" і потым абярыце адзін з варыянтаў Unicode. Працягнуць?</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105452Z">
+        <seg>%%\n Гэты файл змяшчае знакі ў фармаце Unicode, якія страцяцца, калі вы захаваеце тэкст у файле з кадаваннем ANSI. Каб захаваць Unicode-інфармацыю, пстрыкніце "Скасаваць" і потым абярыце адзін з варыянтаў Unicode. Працягнуць?</seg>
     </tuv>
 </tu>
 <tu>
@@ -184,6 +184,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>%1 &amp; %2</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103328Z">
+        <seg>%1 &amp; %2</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>%1 (%2 bytes)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110224T065125Z">
@@ -240,10 +248,34 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>%1 (OpenType)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103346Z">
+        <seg>%1 (OpenType)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>%1 (Recovered)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T103408Z">
         <seg>%1 (адноўлена)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1 (TrueType)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103226Z">
+        <seg>%1 (TrueType)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1 (Type1)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103347Z">
+        <seg>%1 (Type1)</seg>
     </tuv>
 </tu>
 <tu>
@@ -1752,6 +1784,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>%1, Multiple Master</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104545Z">
+        <seg>%1, некалькі гаспадароў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1, Single Master</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104533Z">
+        <seg>%1, адзін гаспадар</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>%1.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100922T091339Z">
@@ -1812,6 +1860,46 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101009T162446Z">
         <seg>%1: без гуку</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1Digitally Signed,</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103531Z">
+        <seg>%1з лічбавым подпісам,</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1OpenType Layout,</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103500Z">
+        <seg>Пабудова %1OpenType,</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1Outlines</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103627Z">
+        <seg>Абрысы %1</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1PostScript</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103535Z">
+        <seg>%1PostScript</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%1TrueType</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103533Z">
+        <seg>%1TrueType</seg>
     </tuv>
 </tu>
 <tu>
@@ -2842,8 +2930,8 @@
     <tuv lang="en">
         <seg>%s Line: %ld Character: %ld</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100722T164134Z">
-        <seg>%s Радок: %ld Сімвал: %ld</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104934Z">
+        <seg>%s Радок: %ld Знак: %ld</seg>
     </tuv>
 </tu>
 <tu>
@@ -2884,6 +2972,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100709T070343Z">
         <seg>%s байтаў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%s cannot be deleted because it is a protected system font</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101230Z">
+        <seg>%s не можа быць выдалены, бо ён ёсць абароненым сістэмным файлам</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%s cannot be deleted because it's in use</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101049Z">
+        <seg>%s не можа быць выдаленая з нагоды яе выкарыстання</seg>
     </tuv>
 </tu>
 <tu>
@@ -2988,6 +3092,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T092612Z">
         <seg>%s спыніла працу</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>%s is a font collection and deleting it will delete all fonts that are part of it.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091226Z">
+        <seg>%s ёсць калекцыяй шрыфтоў, і яе выдаленне выдаліць усе шрыфты, якія з'яўляюцца яе часткай.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3216,6 +3328,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>%s\n\nIf you delete this font, some text might not appear as you intended.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091114Z">
+        <seg>%s\n\nКалі вы выдаліце гэты шрыфт, некаторыя тэксты могуць адлюстроўвацца незапланаваным чынам..</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>%size%</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110404T133801Z">
@@ -3348,6 +3468,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101206T194608Z">
         <seg>%wsWindows %ws</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081905Z">
+        <seg>&amp;</seg>
     </tuv>
 </tu>
 <tu>
@@ -3680,6 +3808,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Allow fonts to be installed using a shortcut (advanced)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085916Z">
+        <seg>Дазваляць шрыфтам усталёўвацца праз пускальнікі (дадаткова)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Alt</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101118T081939Z">
@@ -3700,6 +3836,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101111T094918Z">
         <seg>Заўсёды па-над усім</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Always Skip</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101057Z">
+        <seg>Заўсёды прапускаць</seg>
     </tuv>
 </tu>
 <tu>
@@ -5344,6 +5488,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Do this for all current items</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101840Z">
+        <seg>Рабіць гэта для ўсіх дзейных элементаў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Do this for all selected font collections</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101912Z">
+        <seg>Рабіць гэта для ўсіх вылучаных калекцыяў шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Do this for the next %1!d!</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T112042Z">
@@ -5420,6 +5580,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T202816Z">
         <seg>Не выконваць праверку падчас запуску</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Don't show for remaining items</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101259Z">
+        <seg>Не паказваць для астатніх элементаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -6298,8 +6466,8 @@
     <tuv lang="en">
         <seg>&amp;Hide characters</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T194718Z">
-        <seg>Схаваць сімвалы</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105941Z">
+        <seg>Схаваць знакі</seg>
     </tuv>
 </tu>
 <tu>
@@ -6308,6 +6476,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100710T080001Z">
         <seg>Хаваць назвы файлаў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Hide fonts based on language settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090249Z">
+        <seg>Хаваць шрыфты, якія абапіраюцца на моўныя налады</seg>
     </tuv>
 </tu>
 <tu>
@@ -6554,8 +6730,8 @@
     <tuv lang="en">
         <seg>&amp;Insert Unicode control character</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101206T113638Z">
-        <seg>Уставіць кіруючы сімвал Unicode</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105855Z">
+        <seg>Уставіць кіруючы знак Unicode</seg>
     </tuv>
 </tu>
 <tu>
@@ -7536,6 +7712,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Next &gt;</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103344Z">
+        <seg>Наступны &gt;</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Next desktop background</seg>
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20101006T070856Z">
@@ -7572,6 +7756,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100831T093357Z">
         <seg>Без пераносу</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;No, I don�t want to delete the font collection</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T100916Z">
+        <seg>Не, я не жадаю выдаляць калекцыю шрыфтоў</seg>
     </tuv>
 </tu>
 <tu>
@@ -8776,6 +8968,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Restore default font settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085837Z">
+        <seg>Аднавіць стандартныя налады шрыфту</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Restore default libraries</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100920T072637Z">
@@ -9402,8 +9602,8 @@
     <tuv lang="en">
         <seg>&amp;Show Unicode control characters</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101118T074528Z">
-        <seg>Паказаць кіруючыя сімвалы Unicode</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105844Z">
+        <seg>Паказаць кіруючыя знакі Unicode</seg>
     </tuv>
 </tu>
 <tu>
@@ -10832,6 +11032,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Yes, I want to delete this entire font collection from my computer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T100855Z">
+        <seg>Так, я жадаю выдаліць усю гэтую калекцыю шрыфтоў з майго камп'ютара</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Yes, share the items.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T110700Z">
@@ -11272,10 +11480,18 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>(OpenType)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T083823Z">
+        <seg>(OpenType)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>(Private Characters)</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T172525Z">
-        <seg>(Прыватныя сімвалы)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104849Z">
+        <seg>(Прыватныя знакі)</seg>
     </tuv>
 </tu>
 <tu>
@@ -11316,6 +11532,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110107T200816Z">
         <seg>Гэты камп'ютар</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>(TrueType)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082920Z">
+        <seg>(TrueType)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>(Type 1)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082927Z">
+        <seg>(Type 1)</seg>
     </tuv>
 </tu>
 <tu>
@@ -12384,6 +12616,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>1234567890.:,; '  (!?) +-*/=</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084117Z">
+        <seg>1234567890.:,; '  (!?) +-*/=</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>1234567890.:,; ' " (!?) +-*/=</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103307Z">
+        <seg>1234567890.:,; ' " (!?) +-*/=</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>128</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T175245Z">
@@ -13256,6 +13504,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>5,6,7</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081833Z">
+        <seg>5,6,7</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>5.25", 1.2MB,  512 bytes/sector</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101124T081038Z">
@@ -13468,6 +13724,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101124T081101Z">
         <seg>640кБ,  512 байтаў/сектар</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>68,148,182</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081832Z">
+        <seg>68,148,182</seg>
     </tuv>
 </tu>
 <tu>
@@ -13804,6 +14068,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T173953Z">
         <seg>;</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&lt; P&amp;revious</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103339Z">
+        <seg>&lt; Папярэдні</seg>
     </tuv>
 </tu>
 <tu>
@@ -14296,6 +14568,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&lt;A&gt;Help me choose font settings&lt;/A&gt;</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090335Z">
+        <seg>&lt;A&gt;Дапамажыце наладзіць шрыфты&lt;/A&gt;</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&lt;A&gt;Help me choose&lt;/A&gt;</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101204T170709Z">
@@ -14530,8 +14810,8 @@
     <tuv lang="en">
         <seg>&lt;No Connections Found&gt;</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110216T093524Z">
-        <seg>&lt;Злучэнні не знойдзены&gt;</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082846Z">
+        <seg>&lt;Злучэнні не знойдзеныя&gt;</seg>
     </tuv>
 </tu>
 <tu>
@@ -14984,6 +15264,30 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>?0?1?2</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081709Z">
+        <seg>?0?1?2</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>?0?3?4</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081713Z">
+        <seg>?0?3?4</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>?0?6?0</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081714Z">
+        <seg>?0?6?0</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>?1/%s sec.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101027T180447Z">
@@ -14996,6 +15300,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T115941Z">
         <seg>??</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>???</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081704Z">
+        <seg>???</seg>
     </tuv>
 </tu>
 <tu>
@@ -15028,6 +15340,30 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100918T202201Z">
         <seg>???AaBbYyZz</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>?C?5?6</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081711Z">
+        <seg>?C?5?6</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>?E?2?0</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081712Z">
+        <seg>?E?2?0</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>?v?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081707Z">
+        <seg>?v?</seg>
     </tuv>
 </tu>
 <tu>
@@ -15314,8 +15650,8 @@
     <tuv lang="en">
         <seg>A file extension cannot contain any of \\/:"&lt;&gt;| characters.</seg>
     </tuv>
-    <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100318T170642Z">
-        <seg>Пашырэнне файла не павінна змяшчаць \\/:"&lt;&gt;.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104641Z">
+        <seg>Пашырэнне файла не павінна змяшчаць знакаў \\/:"&lt;&gt;.</seg>
     </tuv>
 </tu>
 <tu>
@@ -15338,8 +15674,8 @@
     <tuv lang="en">
         <seg>A file name can't contain any of the following characters:\n\t %1</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T111341Z">
-        <seg>Назва файла не павінна змяшчаць наступныя сімвалы:\n\t %1</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105638Z">
+        <seg>Назва файла не павінна змяшчаць наступныя знакі:\n\t %1</seg>
     </tuv>
 </tu>
 <tu>
@@ -15354,16 +15690,16 @@
     <tuv lang="en">
         <seg>A file name can't contain any of the following characters:\n\t \\ / :  * ? " &lt; &gt; |</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T111309Z">
-        <seg>Назва файла не можа змяшчаць наступныя сімвалы:\n\t \\ / :  * ? " &lt; &gt; |</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105617Z">
+        <seg>Назва файла не можа змяшчаць наступныя знакі:\n\t \\ / :  * ? " &lt; &gt; |</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>A file name must contain only the following characters:\n\t %1</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T111346Z">
-        <seg>Назва файла павінна змяшчаць толькі наступныя сімвалы:\n\t %1</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105649Z">
+        <seg>Назва файла павінна змяшчаць толькі наступныя знакі:\n\t %1</seg>
     </tuv>
 </tu>
 <tu>
@@ -15450,8 +15786,8 @@
     <tuv lang="en">
         <seg>A network name cannot contain \\, /, :, *, ?, &lt;, &gt;, |, ", spaces only or tab characters.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101205T190817Z">
-        <seg>Сеткавая назва не можа змяшчаць \\, /, :, *, ?, &lt;, &gt;, |, ", толькі прагалы ці сімвалы табуляцыі.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105542Z">
+        <seg>Сеткавая назва не можа змяшчаць \\, /, :, *, ?, &lt;, &gt;, |, ", толькі прагалы ці знакі табуляцыі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -15922,8 +16258,8 @@
     <tuv lang="en">
         <seg>A share name can't contain any of the following characters:\n\t %1</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T111254Z">
-        <seg>Назва абагулення не павінна змяшчаць наступныя сімвалы:\n\t %1</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105458Z">
+        <seg>Назва абагулення не павінна змяшчаць наступныя знакі:\n\t %1</seg>
     </tuv>
 </tu>
 <tu>
@@ -15980,6 +16316,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T054406Z">
         <seg>З гэтага боку экрана ўжо ёсць схаваная паліца інструментаў.\nВы можаце мець толькі адну схаваную паліцу з аднаго боку.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>A#*.fon;*.fo_#</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082825Z">
+        <seg>A#*.fon;*.fo_#</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>A#*.otf;*.ttf;*.tt_;*.fon;*.fo_;*.inf;*.ttc;*.pfm#</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082823Z">
+        <seg>A#*.otf;*.ttf;*.tt_;*.fon;*.fo_;*.inf;*.ttc;*.pfm#</seg>
     </tuv>
 </tu>
 <tu>
@@ -16428,6 +16780,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T232251Z">
         <seg>Пакінуць незахаваныя звесткі і выключыць.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Abg</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081823Z">
+        <seg>Abg</seg>
     </tuv>
 </tu>
 <tu>
@@ -21384,6 +21744,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Are you sure you want to delete these %d fonts permanently?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090809Z">
+        <seg>Вы сапраўды жадаеце знішчыць гэтыя %d шрыфтоў?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Are you sure you want to delete these %u items?  \n(Deleting a folder will delete all of its contents)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110223T091224Z">
@@ -21404,6 +21772,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T230625Z">
         <seg>Вы сапраўды жадаеце выдаліць гэтыя значкі?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Are you sure you want to delete this font collection?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T100940Z">
+        <seg>Вы сапраўды жадаеце выдаліць гэтую калекцыю шрыфтоў?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Are you sure you want to delete this font permanently?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091055Z">
+        <seg>Вы сапраўды жадаеце знішчыць гэты шрыфт?</seg>
     </tuv>
 </tu>
 <tu>
@@ -23632,6 +24016,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Bitmap embedding only</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085615Z">
+        <seg>Толькі растравае ўкараненне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Bitmap image</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T135303Z">
@@ -25840,6 +26232,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Cannot install %1!s!</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082243Z">
+        <seg>Немагчыма ўсталяваць %1!s!</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Cannot name a connection as Incoming Connections</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110127T094206Z">
@@ -25954,8 +26354,8 @@
     <tuv lang="en">
         <seg>Cannot rename this connection. A connection name cannot contain tabs, only spaces, or any of the following characters: \\/:*?&lt;&gt;|"</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110127T094134Z">
-        <seg>Немагчыма пераназваць гэтае злучэнне. Назва злучэння не можа ўтрымліваць прагалы, сімвалы табуляцыі ці наступныя: \\/:*?&lt;&gt;|"</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105443Z">
+        <seg>Немагчыма пераназваць гэтае злучэнне. Назва злучэння не можа ўтрымліваць прагалы, знакі табуляцыі ці наступныя: \\/:*?&lt;&gt;|"</seg>
     </tuv>
 </tu>
 <tu>
@@ -26908,6 +27308,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110316T074335Z">
         <seg>Змяніць налады экрана.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Change font size</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085756Z">
+        <seg>Змяніць памер шрыфту</seg>
     </tuv>
 </tu>
 <tu>
@@ -28010,32 +28418,32 @@
     <tuv lang="en">
         <seg>Charac&amp;ter set :</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T172101Z">
-        <seg>Камплект сімвалаў:</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104714Z">
+        <seg>Знаказбор:</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>Character Code</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T172506Z">
-        <seg>Код сімвала</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104839Z">
+        <seg>Код знака</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>Character Map</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100719T120211Z">
-        <seg>Табліца сімвалаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104617Z">
+        <seg>Табліца знакаў</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>Character count</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101030T181645Z">
-        <seg>Лік сімвалаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105555Z">
+        <seg>Лік знакаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -30580,6 +30988,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T180750Z">
         <seg>Зачыніць усе вокны</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Close any open programs, and then click Try Again.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101152Z">
+        <seg>Зачыніце ўсе адчыненыя праграмы і пстрыкніце "Паўтарыць".</seg>
     </tuv>
 </tu>
 <tu>
@@ -36808,6 +37224,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Delete Collection</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T100948Z">
+        <seg>Выдаліць калекцыю</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Delete File</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T095535Z">
@@ -36828,6 +37252,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T095641Z">
         <seg>Выдаленне каталога</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Delete Font</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091031Z">
+        <seg>Выдаліць шрыфт</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Delete Fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091024Z">
+        <seg>Выдаліць шрыфты</seg>
     </tuv>
 </tu>
 <tu>
@@ -36932,6 +37372,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T200437Z">
         <seg>Выдаліце ці перамясціце файлы, каб атрымаць неабходны аб'ём.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Delete selected fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084405Z">
+        <seg>Выдаліць вылучаныя шрыфты</seg>
     </tuv>
 </tu>
 <tu>
@@ -39506,8 +39954,8 @@
     <tuv lang="en">
         <seg>Do this for &amp;all current items</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101107T171818Z">
-        <seg>Выконваць гэта для ўсіх дзейных элементаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101859Z">
+        <seg>Рабіць гэта для ўсіх дзейных элементаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -39522,8 +39970,8 @@
     <tuv lang="en">
         <seg>Do this for &amp;all current items (%1!u! found)</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100717T101517Z">
-        <seg>Зрабіць гэта для ўсіх бягучых элементаў (%1!u! знойдзена)
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101934Z">
+        <seg>Рабіць гэта для ўсіх дзейных элементаў (%1!u! знойдзена)
 </seg>
     </tuv>
 </tu>
@@ -39989,6 +40437,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T223522Z">
         <seg>Перамясціць гэты каталог без шыфравання?\n\nІснуе праблема, якая перашкаджае шыфраванню каталога.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Do you want to open %1!d! font windows?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T102819Z">
+        <seg>Адчыніць вокны шрыфтоў %1!d!?</seg>
     </tuv>
 </tu>
 <tu>
@@ -41635,8 +42091,16 @@
     <tuv lang="en">
         <seg>Each character is:</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100707T122545Z">
-        <seg>Кожны сімвал:</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105609Z">
+        <seg>Кожны знак ёсць:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Each font currently selected will open in its own window. Opening many windows may take a long time and might impact your system performance.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103018Z">
+        <seg>Кожны вылучаны зараз шрыфт будзе адчынены ў асобным вакне. Адчыненне шматлікіх вокнаў можа заняць шмат часу і паўплываць на прадукцыйнасць сістэмы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -45433,6 +45897,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>File size: %1!d! KB</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103255Z">
+        <seg>Памер файла: %1!d! кБ</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>File system</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101104T065051Z">
@@ -45893,6 +46365,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110223T092058Z">
         <seg>Пошук спамповак з сеціва і спасылак на ўлюбёныя сайты.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Find a character</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085746Z">
+        <seg>Знайсці знак</seg>
     </tuv>
 </tu>
 <tu>
@@ -46841,6 +47321,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Font family details</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084736Z">
+        <seg>Дэталі гарнітуры шрыфту</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Font file</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101111T144426Z">
@@ -46857,10 +47345,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Font name: %1</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103240Z">
+        <seg>Назва шрыфта: %1</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Font preview:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101111T144415Z">
         <seg>Перадпрагляд шрыфту:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Font settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085820Z">
+        <seg>Налады шрыфту</seg>
     </tuv>
 </tu>
 <tu>
@@ -48345,6 +48849,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Get more font information online</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090727Z">
+        <seg>Атрымаць больш інфармацыі сеціве</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Get more gadgets online</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100720T101245Z">
@@ -49099,8 +49611,8 @@
     <tuv lang="en">
         <seg>Halfwidth Character</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T203243Z">
-        <seg>Паўшырокі сімвал</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104906Z">
+        <seg>Паўшырокі знак</seg>
     </tuv>
 </tu>
 <tu>
@@ -49829,6 +50341,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100725T123856Z">
         <seg>Схаваць панэль перадпрагляду.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Hide the selected fonts in your programs</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085044Z">
+        <seg>Схаваць вылучаныя шрыфты ў вашых праграмах</seg>
     </tuv>
 </tu>
 <tu>
@@ -51611,8 +52131,8 @@
     <tuv lang="en">
         <seg>If the share name is longer than 12 characters, this folder cannot be accessed by computers running Windows 98SE, Windows Millennium Edition, Windows NT 4.0, or earlier operating systems. To make the folder fully accessible, name it using 12 characters or fewer.\r\n\r\nDo you want to use the share name "%1" anyway?\r\n</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T123711Z">
-        <seg>Калі назва абагульнення даўжэй за 12 сімвалаў, гэты каталог не будзе даступным для камп'ютараў з Windows 98SE, Windows Millennium Edition, Windows NT 4.0 ці ранейшымі аперацыйнымі сістэмамі. Каб зрабіць каталог поўнадаступным, назва павінна змяшчаць 12 сімвалаў ці менш.\r\n\r\nУсё роўна скарыстаць назву "%1"?\r\n</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105520Z">
+        <seg>Калі назва абагульнення даўжэй за 12 знакаў, гэты каталог не будзе даступным для камп'ютараў з Windows 98SE, Windows Millennium Edition, Windows NT 4.0 ці ранейшымі аперацыйнымі сістэмамі. Каб зрабіць каталог поўнадаступным, назва павінна змяшчаць 12 знакаў ці менш.\r\n\r\nУсё роўна скарыстаць назву "%1"?\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -51869,6 +52389,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T070746Z">
         <seg>Калі вы выдаліце гэты каталог, Windows альбо іншая праграма можа апынуцца непрацаздольнай.\n\nВы сапраўды жадаеце знішчыць яго са ўсім змесцівам?</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>If you delete these fonts, some text might not appear as you intended.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T091017Z">
+        <seg>Калі вы выдаліце гэтыя шрыфты, некаторыя тэксты могуць адлюстроўвацца незапланаваным чынам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -53393,6 +53921,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Install Font</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T101748Z">
+        <seg>Усталяваць шрыфт</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Install Homegroup Printer</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101205T185306Z">
@@ -53453,6 +53989,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T174843Z">
         <seg>Усталюйце усе даступныя абнаўленні і запусціце праграму зноў.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Install as &amp;shortcut</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085151Z">
+        <seg>Усталяваць як пускальнік</seg>
     </tuv>
 </tu>
 <tu>
@@ -53609,6 +54153,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Installation settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090307Z">
+        <seg>Налады ўсталявання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Installation status:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110311T111205Z">
@@ -53673,10 +54225,34 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Installing %1!s! (%2!u! of %3!u! fonts)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082814Z">
+        <seg>Усталёўванне %1!s! (%2!u! з %3!u! шрыфтоў)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Installing Fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081637Z">
+        <seg>Усталёўванне шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Installing Windows...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110421T123213Z">
         <seg>Усталяванне Windows...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Installing fonts...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081640Z">
+        <seg>Усталёўванне шрыфтоў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -53717,6 +54293,22 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100318T105654Z">
         <seg>Выконваецца ўсталёўка...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Installs selected fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T083821Z">
+        <seg>Усталяваць вылучаныя шрыфты</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Installs selected fonts as shortcuts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085203Z">
+        <seg>Усталяваць вылучаныя шрыфты як пускальнікі</seg>
     </tuv>
 </tu>
 <tu>
@@ -54307,8 +54899,8 @@
     <tuv lang="en">
         <seg>Invalid character</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101205T190342Z">
-        <seg>Недапушчальны сімвал</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105532Z">
+        <seg>Недапушчальны знак</seg>
     </tuv>
 </tu>
 <tu>
@@ -63011,8 +63603,8 @@
     <tuv lang="en">
         <seg>No Character Available</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T172616Z">
-        <seg>Няма даступных сімвалаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104854Z">
+        <seg>Няма даступных знакаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -63337,6 +63929,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>No font sample available</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T083305Z">
+        <seg>Няма даступных узораў шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>No fonts found.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082842Z">
+        <seg>Шрыфты не знойдзеныя.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>No important updates available</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110311T101153Z">
@@ -63469,6 +64077,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101009T162827Z">
         <seg>Дынамікі ці слухаўкі не падключаныя.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>No subsetting</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085434Z">
+        <seg>Няма падмножнасці</seg>
     </tuv>
 </tu>
 <tu>
@@ -65953,6 +66569,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Open the selected files in the Font Viewer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084353Z">
+        <seg>Адчыніць вылучаныя файлы ў праглядальніку шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Open the website to view all search results.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101029T202059Z">
@@ -66053,6 +66677,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100902T194355Z">
         <seg>Тэкст OpenDocument</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>OpenType</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085724Z">
+        <seg>OpenType</seg>
     </tuv>
 </tu>
 <tu>
@@ -68251,8 +68883,8 @@
     <tuv lang="en">
         <seg>Path: %1!s!\nFile: %2!s!\nLine: %3!ld!\nChar: %4!ld!\nError: %5!s!</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100827T195806Z">
-        <seg>Шлях: %1!s!\nФайл: %2!s!\nРадок: %3!ld!\nСімвал: %4!ld!\nПамылка: %5!s!</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104655Z">
+        <seg>Шлях: %1!s!\nФайл: %2!s!\nРадок: %3!ld!\nЗнак: %4!ld!\nПамылка: %5!s!</seg>
     </tuv>
 </tu>
 <tu>
@@ -70825,6 +71457,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Preview Fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T102052Z">
+        <seg>Перадпрагляд шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Preview Pane</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T200842Z">
@@ -70961,6 +71601,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Preview, delete, or show and hide the fonts installed on your computer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084249Z">
+        <seg>Прагледзець, выдаліць, паказаць ці схаваць шрыфты, усталяваныя на вашым камп'ютары</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Preview, delete, or show and hide the individual fonts in this font family.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085004Z">
+        <seg>Прагледзець, выдаліць, паказаць ці схаваць асобныя шрыфты ў гэтай гарнітуры шрыфту.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Preview/Print</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100718T220332Z">
@@ -71067,8 +71723,8 @@
     <tuv lang="en">
         <seg>Previously selected characters may not be displayed correctly when font is changed. Do you want to change font?</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T172411Z">
-        <seg>Папярэдне вылучаныя сімвалы могуць адлюстроўвацца некарэктна пасля змянення шрыфту. Змяніць шрыфт?</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104723Z">
+        <seg>Папярэдне вылучаныя знакі могуць адлюстроўвацца некарэктна пасля змянення шрыфту. Змяніць шрыфт?</seg>
     </tuv>
 </tu>
 <tu>
@@ -71273,6 +71929,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Print Fonts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T102104Z">
+        <seg>Друк шрыфтоў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Print Page &amp;Numbers</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100828T073918Z">
@@ -71293,6 +71957,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100912T105445Z">
         <seg>Налады друку</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Print and preview</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085249Z">
+        <seg>Друк і перадпрагляд</seg>
     </tuv>
 </tu>
 <tu>
@@ -71611,16 +72283,16 @@
     <tuv lang="en">
         <seg>Private Character Editor</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101106T175542Z">
-        <seg>Рэдактар прыватных сімвалаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104624Z">
+        <seg>Рэдактар прыватных знакаў</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>Private Use Characters</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T202839Z">
-        <seg>Сімвалы прыватнага карыстання</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104900Z">
+        <seg>Знакі прыватнага карыстання</seg>
     </tuv>
 </tu>
 <tu>
@@ -73173,6 +73845,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100728T125726Z">
         <seg>Ступень</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Raster</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085657Z">
+        <seg>Растр</seg>
     </tuv>
 </tu>
 <tu>
@@ -75785,6 +76465,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Restricted license</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085238Z">
+        <seg>Абмежаваная ліцэнзія</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Restrictions</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T132213Z">
@@ -75837,6 +76525,14 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100318T110143Z">
         <seg>Атрыманне звестак і падрыхтоўка сістэмы да праверкі...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Retrieving font names: %02d%%</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082916Z">
+        <seg>Вяртанне назваў шрыфтоў: %02d%%</seg>
     </tuv>
 </tu>
 <tu>
@@ -80635,8 +81331,8 @@
     <tuv lang="en">
         <seg>Selects special characters and copies them to your document.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100719T140655Z">
-        <seg>Абірае спецыяльныя сімвалы і капіюе іх у ваш дакумент.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105656Z">
+        <seg>Абірае спецыяльныя знакі і капіюе іх у ваш дакумент.</seg>
     </tuv>
 </tu>
 <tu>
@@ -82537,6 +83233,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Show and hide fonts (These settings might not apply to all of your programs)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090451Z">
+        <seg>Паказаць і схаваць шрыфты (гэтыя налады, магчыма, не ўжывуцца да ўсіх вашых праграмаў)</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Show color mi&amp;xer</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101118T074450Z">
@@ -83045,6 +83749,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110427T185248Z">
         <seg>Паказваць секундную стрэлку</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Show the selected fonts in your programs</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085026Z">
+        <seg>Паказаць вылучаныя шрыфты ў вашых праграмах</seg>
     </tuv>
 </tu>
 <tu>
@@ -84283,8 +84995,8 @@
     <tuv lang="en">
         <seg>Some characters are not valid</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T174730Z">
-        <seg>Некаторыя сімвалы недапушчальныя</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T110005Z">
+        <seg>Некаторыя знакі недапушчальныя</seg>
     </tuv>
 </tu>
 <tu>
@@ -85195,8 +85907,8 @@
     <tuv lang="en">
         <seg>Special Character</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110301T203434Z">
-        <seg>Спецыяльны сімвал</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104919Z">
+        <seg>Спецыяльны знак</seg>
     </tuv>
 </tu>
 <tu>
@@ -88753,6 +89465,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Text Services and Input Language</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085813Z">
+        <seg>Тэкставыя службы і мова ўводу</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Text Services and Input Languages</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T060823Z">
@@ -88941,6 +89661,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110330T082340Z">
         <seg>Прылада '%s' не ёсць вымальнай і не можа быць вынятая ці адключаная.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The '%s' font is already installed. Do you want to replace it?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082225Z">
+        <seg>Шрыфт '%s' ужо ўсталяваны. Замяніць яго?</seg>
     </tuv>
 </tu>
 <tu>
@@ -89923,8 +90651,8 @@
     <tuv lang="en">
         <seg>The computer name cannot contain these characters:\n{ | } ~ [ \\ ] ^ ' : ; &lt; = &gt; ? @ ! " # $ % ` ( ) + / . , *</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T174713Z">
-        <seg>Назва камп'ютара не можа змяшчаць гэтыя сімвалы:\n{  } ~ [ \\ ] ^ ' : ; &lt; = &gt; ? @ ! " # $ % ` ( ) + / . , *</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105957Z">
+        <seg>Назва камп'ютара не можа змяшчаць гэтыя знакі:\n{  } ~ [ \\ ] ^ ' : ; &lt; = &gt; ? @ ! " # $ % ` ( ) + / . , *</seg>
     </tuv>
 </tu>
 <tu>
@@ -90435,8 +91163,8 @@
     <tuv lang="en">
         <seg>The drive label is either too long, or contains invalid characters.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110127T090622Z">
-        <seg>Цэтлік дыска альбо надта доўгі, альбо змяшчае недапушчальныя сімвалы.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105629Z">
+        <seg>Цэтлік дыска альбо надта доўгі, альбо змяшчае недапушчальныя знакі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -90483,8 +91211,8 @@
     <tuv lang="en">
         <seg>The drive that this file or folder is stored on does not allow long file names, or names containing blanks or any of the following characters:\n\t \\ / : , ; * ? " &lt; &gt; |</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T111333Z">
-        <seg>Дыск, на якім захоўваецца гэты каталог, не падтрымлівае доўгія назвы файлаў і назвы, якія змяшчаюць наступныя сімвалы:\n\t \\ / : , ; * ? " &lt; &gt; |</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105622Z">
+        <seg>Дыск, на якім захоўваецца гэты каталог, не падтрымлівае доўгія назвы файлаў і назвы, якія змяшчаюць наступныя знакі:\n\t \\ / : , ; * ? " &lt; &gt; |</seg>
     </tuv>
 </tu>
 <tu>
@@ -90525,6 +91253,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T065149Z">
         <seg>Файл %1!ls! не змяшчае іконкі.\n\nАбярыце іконку са спісу альбо азначце іншы файл.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The file '%1!s!' does not appear to be a valid font.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082650Z">
+        <seg>Файл '%1!s!' не з'яўляецца дапушчальным шрыфтам.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The file '%1!s!' is a 'PFB' file for a Type 1 font and cannot be installed directly. Please install the associated 'PFM' file.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082452Z">
+        <seg>Файл '%1!s!' ёсць PFB-файлам для шрыфту Type 1 і не можа быць усталяваны наўпрост. Калі ласка, усталюйце асацыяваны PFM-файл.</seg>
     </tuv>
 </tu>
 <tu>
@@ -91643,8 +92387,8 @@
     <tuv lang="en">
         <seg>The name of this disc can't contain any of the following characters:\n:</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100725T115117Z">
-        <seg>Назва дыска не павінна змяшчаць наступныя сімвалы:\n:</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105812Z">
+        <seg>Назва дыска не павінна змяшчаць наступныя знакі:\n:</seg>
     </tuv>
 </tu>
 <tu>
@@ -91659,8 +92403,8 @@
     <tuv lang="en">
         <seg>The name of this disc can't contain any of the following characters:\n\\ / : * ? | &lt; &gt; ;</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100725T115142Z">
-        <seg>Назва дыска не павінна змяшчаць наступныя сімвалы:\n\\ / : * ?  &lt; &gt; ;</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105836Z">
+        <seg>Назва дыска не павінна змяшчаць наступныя знакі:\n\\ / : * ?  &lt; &gt; ;</seg>
     </tuv>
 </tu>
 <tu>
@@ -91955,8 +92699,8 @@
     <tuv lang="en">
         <seg>The password must contain at least eight characters, not including leading or trailing spaces.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T185858Z">
-        <seg>Пароль павінен утрымліваць прынамсі восем сімвалаў, без пярэдніх і замыкальных прагалаў.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T110024Z">
+        <seg>Пароль павінен утрымліваць прынамсі восем знакаў, без пярэдніх і замыкальных прагалаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -92273,6 +93017,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>The quick brown fox</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T083806Z">
+        <seg>Скрыжаванні дарогаў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The quick brown fox jumps over the lazy dog. 1234567890</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T084138Z">
+        <seg>Скрыжаванні дарогаў упіраюцца ў неба. 1234567890</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>The reason supplied by user %6 for the last unexpected shutdown of this computer is: %1%n\r\nReason Code: %2%n\r\nProblem ID: %3%n\r\nBugcheck String: %4%n\r\nComment: %5\r\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110203T101908Z">
@@ -92341,6 +93101,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100715T110904Z">
         <seg>Магчыма, запісвальная кружэлка не была сцёртая належным чынам. Выміце яе, устаўце зноў і паўтарыце спробу сцірання.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The requested file %1 is not a valid font file.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103118Z">
+        <seg>Запытаны файл %1 недапушчальны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -92571,8 +93339,8 @@
     <tuv lang="en">
         <seg>The share name contains invalid characters.\r\n</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T124315Z">
-        <seg>Назва абагулення змяшчае недапушчальныя сімвалы.\r\n</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105526Z">
+        <seg>Назва абагулення змяшчае недапушчальныя знакі.\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -92659,8 +93427,8 @@
     <tuv lang="en">
         <seg>The specified account name is not valid, because account names cannot contain the following characters: /\\[]":;|&lt;&gt;+=,?*\n\nPlease type a different name.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110407T173014Z">
-        <seg>Азначаная назва рахунка недапушчальная, бо назвы рахункаў не могуць змяшчаць наступныя сімвалы: /\\[]":;&lt;&gt;+=,?*\n\nКалі ласка, ўвядзіце іншую назву.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105930Z">
+        <seg>Азначаная назва рахунка недапушчальная, бо назвы рахункаў не могуць змяшчаць наступныя знакі: /\\[]":;&lt;&gt;+=,?*\n\nКалі ласка, ўвядзіце іншую назву.</seg>
     </tuv>
 </tu>
 <tu>
@@ -92677,6 +93445,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110407T175030Z">
         <seg>Азначаная група не існуе.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>The specified path points to a font file that may not be available during later Windows sessions.\n\nDo you want to continue?</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082149Z">
+        <seg>Азначаны шлях паказвае на файл шрыфту, які можа быць недаступным цягам пазнейшых сесіяў Windows.\n\nПрацягнуць?</seg>
     </tuv>
 </tu>
 <tu>
@@ -93171,8 +93947,8 @@
     <tuv lang="en">
         <seg>The user name cannot contain these characters:\n" / \\ [ ] : | &lt; &gt; + = ; , ? * %</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T181412Z">
-        <seg>Імя карыстальніка не можа змяшчаць гэтыя сімвалы:\n" / \\ [ ] : | &lt; &gt; + = ; , ? * %</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T110012Z">
+        <seg>Імя карыстальніка не можа змяшчаць гэтыя знакі:\n" / \\ [ ] : | &lt; &gt; + = ; , ? * %</seg>
     </tuv>
 </tu>
 <tu>
@@ -93323,8 +94099,8 @@
     <tuv lang="en">
         <seg>The volume name for a FAT or FAT32 volume cannot contain the following characters:\n* ? / \\ | , ; : + = &lt; &gt; [ ] " .</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101124T081843Z">
-        <seg>Назва раздзела FAT ці FAT32 не можа змяшчаць наступныя сімвалы:\n* ? / \\ | , ; : + = &lt; &gt; [ ] " .</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105807Z">
+        <seg>Назва раздзела FAT ці FAT32 не можа змяшчаць наступныя знакі:\n* ? / \\ | , ; : + = &lt; &gt; [ ] " .</seg>
     </tuv>
 </tu>
 <tu>
@@ -93845,6 +94621,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T060315Z">
         <seg>Няма праграмы, асацыяванай для выканання патрабаванага дзеяння. Калі ласка, усталюйце праграму ці, калі яна ўжо ўсталявана, стварыце асацыяцыю ў стандартавых праграмах панэлі кіравання.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>There is not enough free memory for this operation.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103159Z">
+        <seg>Бракуе djkmyfq памяці для гэтай аперацыі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -94723,8 +95507,8 @@
     <tuv lang="en">
         <seg>This device cannot be stopped because one of its components (%s) was unplugged when a program was still using it. Close that program and then attempt to stop this device again.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110330T081149Z">
-        <seg>Гэтая прылада не можа быць спыненая, бо адзін з яе кампанениаў (%s) быў адключаны падчас яго выкарыстання праграмай. Зачыніце гэтую праграму паспрабуйце спыніць прыладу зноў.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T110045Z">
+        <seg>Гэтая прылада не можа быць спыненая, бо адзін з яе кампанентаў (%s) быў адключаны падчас яго выкарыстання праграмай. Зачыніце гэтую праграму паспрабуйце спыніць прыладу зноў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -95675,8 +96459,8 @@
     <tuv lang="en">
         <seg>This operation could not be completed because some characters in the file name are not allowed on the FTP Server.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110224T201253Z">
-        <seg>Аперацыя не можа быць скончаная, бо некаторыя сімвалы ў назве файла не падтрыманыя FTP-серверам.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105429Z">
+        <seg>Аперацыя не можа быць скончаная, бо некаторыя знакі ў назве файла не падтрыманыя FTP-серверам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -97809,6 +98593,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>To save space on your computer, you can choose to install a shortcut to a font file instead of the file itself. If the font file becomes unavailable, you might not be able to use the font.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090710Z">
+        <seg>Каб захаваць прастору на вашым камп'ютары, вы можаце абраць усталяванне пускальніка для шрыфта замест самога файла. Калі файл становіцца недаступным, вы не зможаце скарыстаць шрыфт.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>To see how to finish removing spyware and other potentially unwanted software, see this support article on the Microsoft Security website.</seg>
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100312T112733Z">
@@ -98729,6 +99521,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>TrueType</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085701Z">
+        <seg>TrueType</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>TrueType Collection</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085721Z">
+        <seg>Калекцыя TrueType</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>TrueType collection font file</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100715T055254Z">
@@ -99277,6 +100085,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T071503Z">
         <seg>Тып</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Type 1</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T085700Z">
+        <seg>Type 1</seg>
     </tuv>
 </tu>
 <tu>
@@ -101545,6 +102361,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Use &amp;shortcut</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103326Z">
+        <seg>Скарыстаць пускальнік</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Use Aero &amp;Peek to preview the desktop</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101005T155251Z">
@@ -101555,8 +102379,8 @@
     <tuv lang="en">
         <seg>Use Character Editor to modify how a character is shown on the screen.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101118T073501Z">
-        <seg>Выкарыстанне рэдактара сімвалаў для змянення паказвання сімвала на экране.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T105706Z">
+        <seg>Выкарыстанне рэдактара знакаў для змянення паказвання сімвала на экране.</seg>
     </tuv>
 </tu>
 <tu>
@@ -102485,6 +103309,14 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100315T135414Z">
         <seg>Версія:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Version: %1</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103303Z">
+        <seg>Версія: %1</seg>
     </tuv>
 </tu>
 <tu>
@@ -104985,6 +105817,30 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Windows Font Folder</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081904Z">
+        <seg>Каталог шрыфтоў Windows</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Windows Font Previewer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081853Z">
+        <seg>Перадпрагляд шрыфтоў Windows</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Windows Font Viewer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103142Z">
+        <seg>Праглядальнік шрыфтоў Windows</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Windows Gadget</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100714T093526Z">
@@ -106157,6 +107013,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100705T095554Z">
         <seg>Windows можа выйсці ў сеціва, каб знайсці яе аўтаматычна, альбо вы можаце ўручную абраць яе са спісу праграм, усталяваных на вашым камп'ютары.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Windows can hide fonts that are not designed for your input language settings. If you choose this option, only fonts that are designed for your language settings will be listed in your programs.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T090219Z">
+        <seg>Windows можа хаваць шрыфты, якія не прызначаныя для наладаў вашае мовы ўводу. Калі вы скарыстаеце гэтую магчымасць, у вашых праграмах будуць пералічаныя толькі шрыфты, прызначаныя для вашых моўных наладаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -109745,6 +110609,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>You do not have permission to install a font from this network.\nCopy the font file to your computer and install it from there.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T082605Z">
+        <seg>Вы не маеце дазволу на ўсталяванне шрыфту з гэтай сеткі.\nСкапіюйце файл шрыфту на ваш камп'ютар і ўсталюйце яго адгэтуль.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>You do not have permission to open the Network Connections folder.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110203T102126Z">
@@ -110355,8 +111227,8 @@
     <tuv lang="en">
         <seg>You need a WIA driver to use this device.  Please install it from the installation CD or manufacturer's website and try again.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110314T122256Z">
-        <seg>Вам неабходны драйвер WIA, каб карыстацца гэтай прыладай. Калі ласка, усталюйце яго з усталявальнай кружэлкі ці сайиа вытворцы і паўтарыце спробу.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T110034Z">
+        <seg>Вам неабходны драйвер WIA, каб карыстацца гэтай прыладай. Калі ласка, усталюйце яго з усталявальнай кружэлкі ці сайта вытворцы і паўтарыце спробу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -112153,6 +113025,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T103431Z">
+        <seg>абвгґдеёжзійклмнопрстуўфхцчшыьэюя abcdefghijklmnopqrstuvwxyz АБВГҐДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЫЬЭЮЯ ABCDEFGHIJKLMNOPQRSTUVWXYZ</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>accessed</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101111T091648Z">
@@ -113123,8 +114003,8 @@
     <tuv lang="en">
         <seg>character spacing</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101016T184738Z">
-        <seg>інтэрвал паміж сімваламі</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104606Z">
+        <seg>інтэрвал паміж знакамі</seg>
     </tuv>
 </tu>
 <tu>
@@ -115651,8 +116531,8 @@
     <tuv lang="en">
         <seg>neutral character</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101017T094159Z">
-        <seg>нейтральны сімвал</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T104611Z">
+        <seg>нейтральны знак</seg>
     </tuv>
 </tu>
 <tu>
@@ -118477,6 +119357,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101029T174344Z">
         <seg>•</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>���</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110504T081706Z">
+        <seg>���</seg>
     </tuv>
 </tu>
 
