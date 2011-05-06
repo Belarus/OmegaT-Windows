@@ -1,92 +1,62 @@
-1 MUI "Data_600.bin"
-
+#pragma code_page(65001)
+#include <resources.h>
 
 STRINGTABLE
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-100, 	"Segoe UI"
+  100,  "Segoe UI"
 }
-
 
 100 ACCELERATORS
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 {
-	VK_I, 201, ALT, VIRTKEY
-	"I", 201
-	"i", 201
-	VK_S, 204, ALT, VIRTKEY
-	"S", 204
-	"s", 204
-	VK_P, 200, ALT, VIRTKEY
-	"P", 200
-	"p", 200
-	VK_R, 202, ALT, VIRTKEY
-	"R", 202
-	"r", 202
-	VK_N, 203, ALT, VIRTKEY
-	"N", 203
-	"n", 203
-	VK_UP, 300, VIRTKEY
-	VK_DOWN, 301, VIRTKEY
-	VK_PRIOR, 302, VIRTKEY
-	VK_NEXT, 303, VIRTKEY
+  VK_I  , 201, VIRTKEY, ALT
+  "I"  , 201, ASCII
+  "i"  , 201, ASCII
+  VK_S  , 204, VIRTKEY, ALT
+  "S"  , 204, ASCII
+  "s"  , 204, ASCII
+  VK_P  , 200, VIRTKEY, ALT
+  "P"  , 200, ASCII
+  "p"  , 200, ASCII
+  VK_R  , 202, VIRTKEY, ALT
+  "R"  , 202, ASCII
+  "r"  , 202, ASCII
+  VK_N  , 203, VIRTKEY, ALT
+  "N"  , 203, ASCII
+  "n"  , 203, ASCII
+  38  , 300, VIRTKEY
+  40  , 301, VIRTKEY
+  33  , 302, VIRTKEY
+  34  , 303, VIRTKEY
 }
 
 1 MESSAGETABLE
 {
-1,  	"The requested file %1 is not a valid font file."
-2,  	"Windows Font Viewer"
-3,  	"There is not enough free memory for this operation."
-4,  	"%1 (TrueType)"
-5,  	"Font name: %1"
-6,  	"File size: %1!d! KB"
-7,  	"Version: %1"
-8,  	"%1"
-9,  	"abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
-10,  	"1234567890.:,; ' \" (!?) +-*/="
-11,  	"The quick brown fox jumps over the lazy dog. 1234567890"
-12,  	"&Install"
-13,  	"Use &shortcut"
-14,  	"&Print"
-15,  	"%1 & %2"
-16,  	"< P&revious"
-17,  	"&Next >"
-18,  	"%1 (OpenType)"
-19,  	"%1 (Type1)"
-20,  	"%1OpenType Layout,"
-21,  	"%1Digitally Signed,"
-22,  	"%1TrueType"
-23,  	"%1PostScript"
-24,  	"%1Outlines"
-25,  	"%1, Single Master"
-26,  	"%1, Multiple Master"
+  1,  "The requested file %1 is not a valid font file.\r\n"
+  2,  "Windows Font Viewer\r\n"
+  3,  "There is not enough free memory for this operation.\r\n"
+  4,  "%1 (TrueType)\r\n"
+  5,  "Font name: %1\r\n"
+  6,  "File size: %1!d! KB\r\n"
+  7,  "Version: %1\r\n"
+  8,  "%1\r\n"
+  9,  "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ \r\n"
+  10,  "1234567890.:,; ' "" (!?) +-*/=\r\n"
+  11,  "The quick brown fox jumps over the lazy dog. 1234567890\r\n"
+  12,  "&Install\r\n"
+  13,  "Use &shortcut\r\n"
+  14,  "&Print\r\n"
+  15,  "%1 & %2\r\n"
+  16,  "< P&revious\r\n"
+  17,  "&Next >\r\n"
+  18,  "%1 (OpenType)\r\n"
+  19,  "%1 (Type1)\r\n"
+  20,  "%1OpenType Layout,\r\n"
+  21,  "%1Digitally Signed,\r\n"
+  22,  "%1TrueType\r\n"
+  23,  "%1PostScript\r\n"
+  24,  "%1Outlines\r\n"
+  25,  "%1, Single Master\r\n"
+  26,  "%1, Multiple Master\r\n"
 }
-
-
-1 VERSIONINFO
-FILEVERSION 6,1,7600,16385
-PRODUCTVERSION 6,1,7600,16385
-FILEOS 0x40004
-FILETYPE 0x1
-{
-BLOCK "StringFileInfo"
-{
-	BLOCK "040904B0"
-	{
-		VALUE "CompanyName", "Microsoft Corporation"
-		VALUE "FileDescription", "Windows Font Viewer"
-		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
-		VALUE "InternalName", "fontview"
-		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
-		VALUE "OriginalFilename", "FONTVIEW.EXE.MUI"
-		VALUE "ProductName", "Microsoft® Windows® Operating System"
-		VALUE "ProductVersion", "6.1.7600.16385"
-	}
-}
-
-BLOCK "VarFileInfo"
-{
-	VALUE "Translation", 0x0409 0x04B0
-}
-}
-
