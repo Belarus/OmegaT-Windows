@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-<header datatype="plaintext" srclang="EN" adminlang="EN-US" o-tmf="OmegaT TMX" segtype="paragraph" creationtoolversion="2.2.3_4" creationtool="OmegaT"/>
+<header datatype="plaintext" srclang="EN" adminlang="EN-US" o-tmf="OmegaT TMX" segtype="paragraph" creationtoolversion="2.5.0" creationtool="OmegaT"/>
   <body>
 
+
+<!-- Default translations -->
 <tu>
     <tuv lang="EN">
         <seg>"Close" button acts like minimize</seg>
@@ -25,7 +27,7 @@
         <seg>%s protocol highly recommended update available. Would you like to download this update? (%s)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Даступна важнае абнаўленне модуля %s. Пасля Вашай згоды пачнецца спампаванне ў фонавым рэжыме, пасля чаго праграма папросіць Вас перазапусціць яе. Спампаваць і абнавіць? (%s)</seg>
+        <seg>Даступна важнае абнаўленьне модуля %s. Пасьля Вашай згоды пачнецца спампаваньне ў фонавым рэжыме, пасьля чаго праграма папросіць Вас перазапусьціць яе. Спампаваць і абнавіць? (%s)</seg>
     </tuv>
 </tu>
 <tu>
@@ -33,7 +35,7 @@
         <seg>%s protocol update failed. Not enough rights. Please run QIP 2010 with administrative rights and try again.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Недастаткова правоў для абнаўлення можуля пратакола %s. Калі ласка, запусціце QIP 2010 як адміністратар і паўтарыце спробу.</seg>
+        <seg>Недастаткова правоў для абнаўленьня можуля пратакола %s. Калі ласка, запусьціце QIP 2010 як адміністратар і паўтарыце спробу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -41,7 +43,7 @@
         <seg>%s protocol update finished successfuly. To take effect QIP 2010 restart needed. Restart program?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абнаўленне модуля пратакола %s паспяхова завершанае. Каб змены набылі сілу, неабходна перазапусціць QIP 2010.</seg>
+        <seg>Абнаўленьне модуля пратакола %s пасьпяхова завершанае. Каб зьмены набылі сілу, неабходна перазапусьціць QIP 2010.</seg>
     </tuv>
 </tu>
 <tu>
@@ -49,7 +51,7 @@
         <seg>%s protocol update was downloaded but update failed. Try to update protocol manually by moving new file (%s) to QIP 2010 (%s) folder.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абнаўленне модуля пратакола %s паспяхова спампаванае, але не атрымалася аўтаматычна абнавіць модуль. Для гэтага зачыніце QIP 2010 і скапіюйце новы файл (%s) замест старога ў каталог (%s).</seg>
+        <seg>Абнаўленьне модуля пратакола %s пасьпяхова спампаванае, але не атрымалася аўтаматычна абнавіць модуль. Для гэтага зачыніце QIP 2010 і скапіюйце новы файл (%s) замест старога ў каталёг (%s).</seg>
     </tuv>
 </tu>
 <tu>
@@ -65,7 +67,7 @@
         <seg>- press to edit most QIP colors</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T195628Z">
-        <seg>- націсніце для рэдагавання большасці колераў QIP</seg>
+        <seg>- націсьніце для рэдагаваньня большасьці колераў QIP</seg>
     </tuv>
 </tu>
 <tu>
@@ -201,7 +203,7 @@
         <seg>Accept messages only from contacts in my list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прымаць паведамленні толькі ад тых, хто ў маім спісе</seg>
+        <seg>Прымаць паведамленьні толькі ад тых, хто ў маім сьпісе</seg>
     </tuv>
 </tu>
 <tu>
@@ -217,7 +219,7 @@
         <seg>Account %s added successfully</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Конт %s паспяхова дададзены</seg>
+        <seg>Конт %s пасьпяхова дададзены</seg>
     </tuv>
 </tu>
 <tu>
@@ -225,7 +227,7 @@
         <seg>Account being used on another computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084315Z">
-        <seg>Ваш конт скарыстаны на іншым камп'ютары.</seg>
+        <seg>Ваш конт скарыстаны на іншым кампутары.</seg>
     </tuv>
 </tu>
 <tu>
@@ -249,7 +251,7 @@
         <seg>Account button frame light</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Светлая частка рамкі кнопкі конту</seg>
+        <seg>Сьветлая частка рамкі кнопкі конту</seg>
     </tuv>
 </tu>
 <tu>
@@ -280,8 +282,8 @@
     <tuv lang="EN">
         <seg>Account name is too short. Please re-enter.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Вы ўвялі надта кароткі лагін.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110155Z">
+        <seg>Назва конта закароткая. Калі ласка, пераўвядзіце.</seg>
     </tuv>
 </tu>
 <tu>
@@ -297,7 +299,7 @@
         <seg>Account name to import</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Конт для імпартавання</seg>
+        <seg>Конт для імпартаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -305,7 +307,7 @@
         <seg>Account name, nickname, first or last name</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T092401Z">
-        <seg>Назва конта, нік, імя ці прозвішча</seg>
+        <seg>Назва конта, нік, імя ці прозьвішча</seg>
     </tuv>
 </tu>
 <tu>
@@ -337,7 +339,7 @@
         <seg>Action</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дзеянне</seg>
+        <seg>Дзеяньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -345,7 +347,7 @@
         <seg>Action text</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Тэкст дзеяння</seg>
+        <seg>Тэкст дзеяньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -353,7 +355,7 @@
         <seg>Activate global keyboard shortcuts</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T195808Z">
-        <seg>Уключыць падтрымку глабальных клавіятурных скаротаў</seg>
+        <seg>Уключыць падтрымку глябальных клявіятурных скаротаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -385,7 +387,7 @@
         <seg>Active tab top border</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Верхняя мяжа падсвятлення актыўнай устаўкі</seg>
+        <seg>Верхняя мяжа падсьвятленьня актыўнай устаўкі</seg>
     </tuv>
 </tu>
 <tu>
@@ -393,7 +395,7 @@
         <seg>Active tab top highlight</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Падсвятленне верхняй мяжы актыўнай устаўкі</seg>
+        <seg>Падсьвятленьне верхняй мяжы актыўнай устаўкі</seg>
     </tuv>
 </tu>
 <tu>
@@ -409,7 +411,7 @@
         <seg>Add channel to list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дадаць канал у спіс</seg>
+        <seg>Дадаць канал у сьпіс</seg>
     </tuv>
 </tu>
 <tu>
@@ -425,7 +427,7 @@
         <seg>Add contact to contact list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T092117Z">
-        <seg>Дадаць кантакт у спіс кантактаў</seg>
+        <seg>Дадаць кантакт у сьпіс кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -449,7 +451,7 @@
         <seg>Add to ignore list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дадаць у спіс ігнараваных</seg>
+        <seg>Дадаць у сьпіс ігнараваных</seg>
     </tuv>
 </tu>
 <tu>
@@ -457,7 +459,7 @@
         <seg>Add to invisible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дадаць у спіс невідушчых</seg>
+        <seg>Дадаць у сьпіс невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -465,7 +467,7 @@
         <seg>Add to visible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дадаць у спіс відушчых</seg>
+        <seg>Дадаць у сьпіс відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -481,7 +483,7 @@
         <seg>Add/Find users</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дадаць/знайсці карыстальнікаў</seg>
+        <seg>Дадаць/знайсьці карыстальнікаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -489,7 +491,7 @@
         <seg>Add/find new contacts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Знайсці дадаць новыя кантакты</seg>
+        <seg>Знайсьці дадаць новыя кантакты</seg>
     </tuv>
 </tu>
 <tu>
@@ -497,7 +499,7 @@
         <seg>Added to ignore list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дададзены ў спіс ігнараваных</seg>
+        <seg>Дададзены ў сьпіс ігнараваных</seg>
     </tuv>
 </tu>
 <tu>
@@ -505,7 +507,7 @@
         <seg>Added to invisible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дададзены ў спіс невідушчых</seg>
+        <seg>Дададзены ў сьпіс невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -513,7 +515,7 @@
         <seg>Added to visible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дададзены ў спіс відушчых</seg>
+        <seg>Дададзены ў сьпіс відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -529,7 +531,7 @@
         <seg>Addon installation error</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112922Z">
-        <seg>Памылка ўсталявання дадатка</seg>
+        <seg>Памылка ўсталяваньня дадатка</seg>
     </tuv>
 </tu>
 <tu>
@@ -537,7 +539,7 @@
         <seg>Administrative</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Адміністрацыйна-гаспадарчая дзейнасць</seg>
+        <seg>Адміністрацыйна-гаспадарчая дзейнасьць</seg>
     </tuv>
 </tu>
 <tu>
@@ -545,7 +547,7 @@
         <seg>Advanced sound engine</seg>
     </tuv>
     <tuv lang="be">
-        <seg>З рэгуляваннем узроўню гучнасці (магчымыя канфлікты)</seg>
+        <seg>З рэгуляваньнем узроўню гучнасьці (магчымыя канфлікты)</seg>
     </tuv>
 </tu>
 <tu>
@@ -617,7 +619,7 @@
         <seg>All-seeing eye feature allows you to see who added you, who tried to read your status message, and all other service packets from all users who are not in your contact list.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэтая функцыя дазваляе бачыць, хто дадаў Вас, хто чытаў Вашыя статус-паведамленні, і ўсе іншыя службовыя пакункі ад тых карыстальнікаў, якіх няма ў Вашым спісе кантактаў.</seg>
+        <seg>Гэтая функцыя дазваляе бачыць, хто дадаў Вас, хто чытаў Вашыя статус-паведамленьні, і ўсе іншыя службовыя пакункі ад тых карыстальнікаў, якіх няма ў Вашым сьпісе кантактаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -649,7 +651,7 @@
         <seg>Allow others to see how long I've been idle</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказваць кантактам час прастою ці маёй адсутнасці</seg>
+        <seg>Паказваць кантактам час прастою ці маёй адсутнасьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -673,7 +675,7 @@
         <seg>Allows list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс дазволаў</seg>
+        <seg>Сьпіс дазволаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -705,7 +707,7 @@
         <seg>Always open separate message window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112122Z">
-        <seg>Заўсёды адчыняць асобнае вакно паведамленняў</seg>
+        <seg>Заўсёды адчыняць асобнае вакно паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -721,7 +723,7 @@
         <seg>Always save message history for this contact</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Заўсёды захоўваць гісторыю паведамленняў для гэтага кантакта</seg>
+        <seg>Заўсёды захоўваць гісторыю паведамленьняў для гэтага кантакта</seg>
     </tuv>
 </tu>
 <tu>
@@ -729,7 +731,7 @@
         <seg>Always send transliterated messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Заўсёды дасылаць паведамленні ў транслітарацыі</seg>
+        <seg>Заўсёды дасылаць паведамленьні ў трансьлітарацыі</seg>
     </tuv>
 </tu>
 <tu>
@@ -817,7 +819,7 @@
         <seg>Anti-spam bot messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленні анты-спам бота</seg>
+        <seg>Паведамленьні анты-спам бота</seg>
     </tuv>
 </tu>
 <tu>
@@ -857,7 +859,7 @@
         <seg>Apply changes?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ужыць змены?</seg>
+        <seg>Ужыць зьмены?</seg>
     </tuv>
 </tu>
 <tu>
@@ -961,7 +963,7 @@
         <seg>Ascension Island</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ушэсця, выспа</seg>
+        <seg>Ушэсьця, выспа</seg>
     </tuv>
 </tu>
 <tu>
@@ -993,7 +995,7 @@
         <seg>Attention: These options are for advanced users only! If you don't know what they are, please don't change anything here. If you change Client Id, some QIP features, including file transfer, can be disabled and it can lead to QIP instability.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Увага! Гэтыя налады прызначаныя для дасведчаных карыстальнікаў. Калі Вы не ведаеце, што гэта такое, калі ласка, пакіньце ўсё як ёсць. Змяненне ідэнтыфікатара кліента можа зрабіць недаступнымі некаторыя функцыі QIP, уключаючы дасыланне файлаў, ці стаць нагодай нестабільнай працы праграмы.</seg>
+        <seg>Увага! Гэтыя налады прызначаныя для дасьведчаных карыстальнікаў. Калі Вы не ведаеце, што гэта такое, калі ласка, пакіньце ўсё як ёсьць. Зьмяненьне ідэнтыфікатара кліента можа зрабіць недаступнымі некаторыя функцыі QIP, уключаючы дасыланьне файлаў, ці стаць нагодай нестабільнай працы праграмы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -1040,8 +1042,8 @@
     <tuv lang="EN">
         <seg>Authentication (if needed)</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Аўтэнтыфікацыя (не абавязкова)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105749Z">
+        <seg>Апазнаваньне (не абавязкова)</seg>
     </tuv>
 </tu>
 <tu>
@@ -1057,7 +1059,7 @@
         <seg>Author/Description</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтар і апісанне</seg>
+        <seg>Аўтар і апісаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -1137,7 +1139,7 @@
         <seg>Auto message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтапаведамленне</seg>
+        <seg>Аўтапаведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -1145,7 +1147,7 @@
         <seg>Auto resize contact list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтазмяненне вышыні</seg>
+        <seg>Аўтазьмяненьне вышыні</seg>
     </tuv>
 </tu>
 <tu>
@@ -1153,7 +1155,7 @@
         <seg>Auto-hide (seconds)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўта-хаванне (секунды)</seg>
+        <seg>Аўта-хаваньне (сэкунды)</seg>
     </tuv>
 </tu>
 <tu>
@@ -1161,7 +1163,7 @@
         <seg>Auto-join channel on invite</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100752Z">
-        <seg>Уваходзіць на канал падчас запрашэння</seg>
+        <seg>Уваходзіць на канал падчас запрашэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -1169,7 +1171,7 @@
         <seg>Auto-switch privacy status when online status changed</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пераключаць прыватны статус падчас змянення сеціўнага статуса</seg>
+        <seg>Пераключаць прыватны статус падчас зьмяненьня сеціўнага статуса</seg>
     </tuv>
 </tu>
 <tu>
@@ -1185,7 +1187,7 @@
         <seg>Auto-switch status to "Not available" on system lock</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пераключаць статус на "Недаступны" падчас блакавання сістэмы</seg>
+        <seg>Пераключаць статус на "Недаступны" падчас блякаваньня сыстэмы</seg>
     </tuv>
 </tu>
 <tu>
@@ -1201,7 +1203,7 @@
         <seg>Autoanswer</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтаадказнік</seg>
+        <seg>Аўтаадказьнік</seg>
     </tuv>
 </tu>
 <tu>
@@ -1209,15 +1211,15 @@
         <seg>Automatically add tab/open message window if received message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112206Z">
-        <seg>Аўтададанне ўстаўкі ці адчыненне вакна падчас атрымання паведамлення</seg>
+        <seg>Аўтададаньне ўстаўкі ці адчыненьне вакна падчас атрыманьня паведамленьня</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Automatically detect proxy settings</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T083350Z">
-        <seg>Аўтаматычна вызначыць налады проксі</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114632Z">
+        <seg>Аўтаматычна вызначаць налады проксі</seg>
     </tuv>
 </tu>
 <tu>
@@ -1225,7 +1227,7 @@
         <seg>Automatically send authorization request on adding contact</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтаматычна запытваць аўтарызацыю падчас дадавання кантакта</seg>
+        <seg>Аўтаматычна запытваць аўтарызацыю падчас дадаваньня кантакта</seg>
     </tuv>
 </tu>
 <tu>
@@ -1249,7 +1251,7 @@
         <seg>Away message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101030Z">
-        <seg>Паведамленне "Адышоў"</seg>
+        <seg>Паведамленьне "Адышоў"</seg>
     </tuv>
 </tu>
 <tu>
@@ -1280,8 +1282,8 @@
     <tuv lang="EN">
         <seg>Back to login choose page</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Назад да абрання лагіна</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110341Z">
+        <seg>Назад да абраньня назвы конта</seg>
     </tuv>
 </tu>
 <tu>
@@ -1312,24 +1314,24 @@
     <tuv lang="EN">
         <seg>Bad authentication method.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T084454Z">
-        <seg>Благі метад аўтэнтыфікацыі.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105831Z">
+        <seg>Благі мэтад апазнаваньня.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Bad database status.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T084714Z">
-        <seg>Благі стан базы звестак.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110001Z">
+        <seg>Благі стан базы зьвестак.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Bad resolver status.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T084832Z">
-        <seg>Благі стан пераўтваральніка IP-адрасоў.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110044Z">
+        <seg>Благі стан вырашальніка.</seg>
     </tuv>
 </tu>
 <tu>
@@ -1369,7 +1371,7 @@
         <seg>Ban list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100320Z">
-        <seg>Спіс забаненых</seg>
+        <seg>Сьпіс забаненых</seg>
     </tuv>
 </tu>
 <tu>
@@ -1377,7 +1379,7 @@
         <seg>Ban+Kick message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100229Z">
-        <seg>Паведамленне выкіду і бану</seg>
+        <seg>Паведамленьне выкіду і бану</seg>
     </tuv>
 </tu>
 <tu>
@@ -1513,7 +1515,7 @@
         <seg>Blink on new messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Мігцець падчас атрымання паведамленняў</seg>
+        <seg>Мігцець падчас атрыманьня паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -1545,7 +1547,7 @@
         <seg>Blocked message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленне заблакаванае</seg>
+        <seg>Паведамленьне заблякаванае</seg>
     </tuv>
 </tu>
 <tu>
@@ -1561,7 +1563,7 @@
         <seg>Bosnia and Herzegovina</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Боснія і Герцагавіна</seg>
+        <seg>Босьнія і Герцагавіна</seg>
     </tuv>
 </tu>
 <tu>
@@ -1569,7 +1571,7 @@
         <seg>Bosnian</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Баснійская</seg>
+        <seg>Басьнійская</seg>
     </tuv>
 </tu>
 <tu>
@@ -1673,7 +1675,7 @@
         <seg>Calculating checksum done</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Праверка цэласнасці скончаная</seg>
+        <seg>Праверка цэласнасьці скончаная</seg>
     </tuv>
 </tu>
 <tu>
@@ -1681,7 +1683,7 @@
         <seg>Calculating file checksum</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Праверка цэласнасці файла</seg>
+        <seg>Праверка цэласнасьці файла</seg>
     </tuv>
 </tu>
 <tu>
@@ -1705,7 +1707,7 @@
         <seg>Call to computer</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T112011Z">
-        <seg>Выклікаць камп'ютар</seg>
+        <seg>Выклікаць кампутар</seg>
     </tuv>
 </tu>
 <tu>
@@ -1737,7 +1739,7 @@
         <seg>Can't connect to server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Немагчыма злучыцца з серверам</seg>
+        <seg>Немагчыма злучыцца зь сэрвэрам</seg>
     </tuv>
 </tu>
 <tu>
@@ -1745,7 +1747,7 @@
         <seg>Can't create new folder</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Немагчыма стварыць новы каталог</seg>
+        <seg>Немагчыма стварыць новы каталёг</seg>
     </tuv>
 </tu>
 <tu>
@@ -1889,7 +1891,7 @@
         <seg>Change</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць</seg>
+        <seg>Зьмяніць</seg>
     </tuv>
 </tu>
 <tu>
@@ -1897,7 +1899,7 @@
         <seg>Change QIP account password</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць пароль конта QIP</seg>
+        <seg>Зьмяніць пароль конта QIP</seg>
     </tuv>
 </tu>
 <tu>
@@ -1905,7 +1907,7 @@
         <seg>Change password</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць пароль</seg>
+        <seg>Зьмяніць пароль</seg>
     </tuv>
 </tu>
 <tu>
@@ -1913,7 +1915,7 @@
         <seg>Change profile password</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць пароль профілю</seg>
+        <seg>Зьмяніць пароль профілю</seg>
     </tuv>
 </tu>
 <tu>
@@ -1921,7 +1923,7 @@
         <seg>Change\navatar</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць\nаватар</seg>
+        <seg>Зьмяніць\nаватар</seg>
     </tuv>
 </tu>
 <tu>
@@ -1929,7 +1931,7 @@
         <seg>Change\r\navatar</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191615Z">
-        <seg>Змяніць\r\nаватар</seg>
+        <seg>Зьмяніць\r\nаватар</seg>
     </tuv>
 </tu>
 <tu>
@@ -1945,7 +1947,7 @@
         <seg>Channel central</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Кіраванне каналам</seg>
+        <seg>Кіраваньне каналам</seg>
     </tuv>
 </tu>
 <tu>
@@ -1953,7 +1955,7 @@
         <seg>Channels list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс каналаў</seg>
+        <seg>Сьпіс каналаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -1977,7 +1979,7 @@
         <seg>Chat message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091627Z">
-        <seg>Чат-паведамленне</seg>
+        <seg>Чат-паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -1993,7 +1995,7 @@
         <seg>Chat with friends from ICQ, GoogleTalk, Mail.Ru Agent, call and accept calls</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гутарце з сябрамі з ICQ, GoogleTalk, Mail.Ru Агент, тэлефануйце і прымайце выклікі.</seg>
+        <seg>Гутарце зь сябрамі з ICQ, GoogleTalk, Mail.Ru Агент, тэлефануйце і прымайце выклікі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2009,7 +2011,7 @@
         <seg>Check for program updates daily</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T094839Z">
-        <seg>Штодня правяраць наяўнасць абнаўленняў</seg>
+        <seg>Штодня правяраць наяўнасьць абнаўленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2017,7 +2019,7 @@
         <seg>Check for updates</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Праверыць наяўнасць абнаўленняў</seg>
+        <seg>Праверыць наяўнасьць абнаўленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2041,7 +2043,7 @@
         <seg>Checking file integrity</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Праверка цэласнасці файла</seg>
+        <seg>Праверка цэласнасьці файла</seg>
     </tuv>
 </tu>
 <tu>
@@ -2049,7 +2051,7 @@
         <seg>Checking file on server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Праверка файла на серверы</seg>
+        <seg>Праверка файла на сэрвэры</seg>
     </tuv>
 </tu>
 <tu>
@@ -2057,7 +2059,7 @@
         <seg>Checking filesize upload limits</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102133Z">
-        <seg>Праверка ліміту памеру запампоўвання</seg>
+        <seg>Праверка ліміту памеру запампоўваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -2113,7 +2115,7 @@
         <seg>Cleaning temp files...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаленне часовых файлаў...</seg>
+        <seg>Выдаленьне часовых файлаў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -2121,15 +2123,15 @@
         <seg>Clear</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ачысціць</seg>
+        <seg>Ачысьціць</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Clear "Not in list" groups on restart</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Ачышчаць групы "Не ў спісе" падчас чарговага запуску</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114917Z">
+        <seg>Ачышчаць групы "Ня ў сьпісе" падчас перазапуску</seg>
     </tuv>
 </tu>
 <tu>
@@ -2137,7 +2139,7 @@
         <seg>Clear list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ачысціць спіс</seg>
+        <seg>Ачысьціць сьпіс</seg>
     </tuv>
 </tu>
 <tu>
@@ -2145,7 +2147,7 @@
         <seg>Clear list of invited users</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ачысціць спіс запрошаных</seg>
+        <seg>Ачысьціць сьпіс запрошаных</seg>
     </tuv>
 </tu>
 <tu>
@@ -2153,7 +2155,7 @@
         <seg>Clear message dialog</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112235Z">
-        <seg>Ачысціць вакно з дыялогам</seg>
+        <seg>Ачысьціць вакно з дыялогам</seg>
     </tuv>
 </tu>
 <tu>
@@ -2161,7 +2163,7 @@
         <seg>Click "Close" to restart the program</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Націсніце "Зачыніць", каб перазапусціць праграму</seg>
+        <seg>Націсьніце "Зачыніць", каб перазапусьціць праграму</seg>
     </tuv>
 </tu>
 <tu>
@@ -2169,7 +2171,7 @@
         <seg>Click "Next" to start update.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Націсніце "Далей", каб пачаць абнаўленне.</seg>
+        <seg>Націсьніце "Далей", каб пачаць абнаўленьне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2193,7 +2195,7 @@
         <seg>Client capabilities</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091552Z">
-        <seg>Здольнасці кліента</seg>
+        <seg>Здольнасьці кліента</seg>
     </tuv>
 </tu>
 <tu>
@@ -2273,7 +2275,7 @@
         <seg>Close message tab or window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112248Z">
-        <seg>Зачыніць устаўку ці вакно паведамленняў</seg>
+        <seg>Зачыніць устаўку ці вакно паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2281,7 +2283,7 @@
         <seg>Close tab or separate message window after sending a message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112137Z">
-        <seg>Зачыняць устаўку ці асобнае вакно паведамленняў пасля дасылання</seg>
+        <seg>Зачыняць устаўку ці асобнае вакно паведамленьняў пасьля дасыланьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -2289,7 +2291,7 @@
         <seg>Close transfer when finished</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112328Z">
-        <seg>Зачыніць вакно пасля сканчэння дасылання</seg>
+        <seg>Зачыніць вакно пасьля сканчэньня дасыланьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -2297,7 +2299,7 @@
         <seg>Clothing</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Адзенне і мода</seg>
+        <seg>Адзеньне і мода</seg>
     </tuv>
 </tu>
 <tu>
@@ -2393,7 +2395,7 @@
         <seg>Computers</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Камп'ютары</seg>
+        <seg>Кампутары</seg>
     </tuv>
 </tu>
 <tu>
@@ -2409,7 +2411,7 @@
         <seg>Configure your computer for calls</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Наладзьце Ваш камп'ютар для выклікаў</seg>
+        <seg>Наладзьце Ваш кампутар для выклікаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2417,7 +2419,7 @@
         <seg>Confirm</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пацвердзіць</seg>
+        <seg>Пацьвердзіць</seg>
     </tuv>
 </tu>
 <tu>
@@ -2425,7 +2427,7 @@
         <seg>Confirm new password</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пацвердзіць новы пароль</seg>
+        <seg>Пацьвердзіць новы пароль</seg>
     </tuv>
 </tu>
 <tu>
@@ -2433,7 +2435,7 @@
         <seg>Confirm password</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пацвердзіце пароль</seg>
+        <seg>Пацьвердзіце пароль</seg>
     </tuv>
 </tu>
 <tu>
@@ -2441,7 +2443,7 @@
         <seg>Confirm your password for QIP 2010 services</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пацвердзіце Ваш пароль для доступу да службаў QIP 2010</seg>
+        <seg>Пацьвердзіце Ваш пароль для доступу да службаў QIP 2010</seg>
     </tuv>
 </tu>
 <tu>
@@ -2472,8 +2474,8 @@
     <tuv lang="EN">
         <seg>Congratulations!\nYou have created new qip.ru account!</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Віншуем!\nВы стварылі новы лагін на qip.ru!</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110622Z">
+        <seg>Віншуем!\r\nВы стварылі новы конт на qip.ru!</seg>
     </tuv>
 </tu>
 <tu>
@@ -2488,8 +2490,8 @@
     <tuv lang="EN">
         <seg>Connect</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Уваход</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110801Z">
+        <seg>Злучыць</seg>
     </tuv>
 </tu>
 <tu>
@@ -2497,7 +2499,7 @@
         <seg>Connecting</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Злучэнне</seg>
+        <seg>Злучэньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -2505,7 +2507,7 @@
         <seg>Connection</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Злучэнне</seg>
+        <seg>Злучэньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -2513,7 +2515,7 @@
         <seg>Connection settings</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Налады злучэння</seg>
+        <seg>Налады злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -2521,7 +2523,7 @@
         <seg>Connection type</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Тып злучэння</seg>
+        <seg>Тып злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -2529,7 +2531,7 @@
         <seg>Connections from this IP have reached the maximum. Try to reconnect in a few minutes.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T085208Z">
-        <seg>Дасягнутая мяжа злучэнняў з гэтага IP. Паспрабуйце перазлучыцца праз некалькі хвілін.</seg>
+        <seg>Дасягнутая мяжа злучэньняў з гэтага IP. Паспрабуйце перазлучыцца празь некалькі хвілін.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2537,7 +2539,7 @@
         <seg>Connections limit reached for this IP. Try to reconnect in a few minutes.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090603Z">
-        <seg>Перавышаны ліміт злучэнняў з гэтага IP! Паспрабуйце перазлучыцца праз некалькі хвілін.</seg>
+        <seg>Перавышаны ліміт злучэньняў з гэтага IP! Паспрабуйце перазлучыцца празь некалькі хвілін.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2545,7 +2547,7 @@
         <seg>Connections limit reached for this account. Try to reconnect in a few minutes.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090315Z">
-        <seg>Перавышаны ліміт злучэнняў для гэтага конта! Паспрабуйце перазлучыцца праз некалькі хвілін.</seg>
+        <seg>Перавышаны ліміт злучэньняў для гэтага конта! Паспрабуйце перазлучыцца празь некалькі хвілін.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2553,7 +2555,7 @@
         <seg>Contact deleted himself from your contact list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T092453Z">
-        <seg>Кантакт выдаліў сябе з Вашага спісу кантактаў</seg>
+        <seg>Кантакт выдаліў сябе з Вашага сьпісу кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2593,7 +2595,7 @@
         <seg>Contact is removed self from your contact list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091657Z">
-        <seg>Кантакт выдаліў сябе з Вашага спісу кантактаў</seg>
+        <seg>Кантакт выдаліў сябе з Вашага сьпісу кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2601,7 +2603,7 @@
         <seg>Contact list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс кантактаў</seg>
+        <seg>Сьпіс кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2649,7 +2651,7 @@
         <seg>Contact's menu</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Меню кантакта</seg>
+        <seg>Мэню кантакта</seg>
     </tuv>
 </tu>
 <tu>
@@ -2665,7 +2667,7 @@
         <seg>Contacts message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленне з кантактамі</seg>
+        <seg>Паведамленьне з кантактамі</seg>
     </tuv>
 </tu>
 <tu>
@@ -2673,7 +2675,7 @@
         <seg>Contacts message text</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленне кантакта</seg>
+        <seg>Паведамленьне кантакта</seg>
     </tuv>
 </tu>
 <tu>
@@ -2689,7 +2691,7 @@
         <seg>Content length:     %d bytes</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памер абнаўлення %d байтаў</seg>
+        <seg>Памер абнаўленьня %d байтаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -2761,15 +2763,15 @@
         <seg>Couldn't connect to settings storage server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сувязь з серверам захоўвання наладаў не ўсталяваная</seg>
+        <seg>Сувязь зь сэрвэрам захоўваньня наладаў не ўсталяваная</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Couldn't delete plugin "%s" from disk.\r\nTry to delete it manually.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101212T111800Z">
-        <seg>Немагчыма выдаліць плагін "%s" з дыска.\r\nПаспрабуйце выдаліць яго ўручную.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104522Z">
+        <seg>Немагчыма выдаліць убудову "%s" з дыска.\r\nПаспрабуйце выдаліць яе ўручную.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2777,7 +2779,7 @@
         <seg>Couldn't send data to server.\nPlease try again.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка падчас дасылання звестак на сервер. Калі ласка, паўтарыце спробу.</seg>
+        <seg>Памылка падчас дасыланьня зьвестак на сэрвэр. Калі ласка, паўтарыце спробу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2785,7 +2787,7 @@
         <seg>Couldn't send data to server.\r\nPlease try again.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191514Z">
-        <seg>Памылка падчас дасылання звестак на сервер.\r\nКалі ласка, паўтарыце спробу.</seg>
+        <seg>Памылка падчас дасыланьня зьвестак на сэрвэр.\r\nКалі ласка, паўтарыце спробу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -2849,7 +2851,7 @@
         <seg>Creating backup files...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Стварэнне рэзервовай копіі...</seg>
+        <seg>Стварэньне рэзервовай копіі...</seg>
     </tuv>
 </tu>
 <tu>
@@ -2889,7 +2891,7 @@
         <seg>Current client version</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дзейная версія кліента</seg>
+        <seg>Дзейная вэрсія кліента</seg>
     </tuv>
 </tu>
 <tu>
@@ -2921,7 +2923,7 @@
         <seg>Current program version: %s</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дзейная версія праграмы: %s</seg>
+        <seg>Дзейная вэрсія праграмы: %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -2945,7 +2947,7 @@
         <seg>Current user Application data folder (Recommended)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T081820Z">
-        <seg>Каталог звестак праграм дзейнага карыстальніка (рэкамендавана)</seg>
+        <seg>Каталёг зьвестак праграм дзейнага карыстальніка (рэкамендавана)</seg>
     </tuv>
 </tu>
 <tu>
@@ -3009,7 +3011,7 @@
         <seg>Database link error.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка кампанавання ў базе.</seg>
+        <seg>Памылка кампанаваньня ў базе.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3017,7 +3019,7 @@
         <seg>Database send error.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T085036Z">
-        <seg>Памылка дасылання ў базе звестак.</seg>
+        <seg>Памылка дасыланьня ў базе зьвестак.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3048,8 +3050,8 @@
     <tuv lang="EN">
         <seg>Delete "Not in list" contacts</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Выдаліць усіх "Не ў спісе"</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T115235Z">
+        <seg>Выдаліць кантакты "Ня ў сьпісе"</seg>
     </tuv>
 </tu>
 <tu>
@@ -3065,7 +3067,7 @@
         <seg>Delete contact history</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаліць гісторыю паведамленняў</seg>
+        <seg>Выдаліць гісторыю паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3081,7 +3083,7 @@
         <seg>Delete histories of all found contacts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаленне гісторыі ўсіх знойдзеных кантактаў</seg>
+        <seg>Выдаленьне гісторыі ўсіх знойдзеных кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3145,7 +3147,7 @@
         <seg>Description</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апісанне</seg>
+        <seg>Апісаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -3153,7 +3155,7 @@
         <seg>Details import has been successfully completed!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Імпарт звестак конта паспяхова выкананы!</seg>
+        <seg>Імпарт зьвестак конта пасьпяхова выкананы!</seg>
     </tuv>
 </tu>
 <tu>
@@ -3209,7 +3211,7 @@
         <seg>Disable birthday reminder</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выключыць службовыя паведамленні пра дні народзінаў кантактаў</seg>
+        <seg>Выключыць службовыя паведамленьні пра дні народзінаў кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3225,7 +3227,7 @@
         <seg>Disable task bar message window button blinking</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112210Z">
-        <seg>Выключыць мігценне кнопкі вакна паведамлення на паліцы задач</seg>
+        <seg>Выключыць мігценьне кнопкі вакна паведамленьня на паліцы задач</seg>
     </tuv>
 </tu>
 <tu>
@@ -3233,7 +3235,7 @@
         <seg>Disable tray icon blinking</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T194501Z">
-        <seg>Выключыць мігценне значка ў сістэмным латку</seg>
+        <seg>Выключыць мігценьне значка ў сыстэмным латку</seg>
     </tuv>
 </tu>
 <tu>
@@ -3297,7 +3299,7 @@
         <seg>Divorced</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Разведзены/Разведзеная</seg>
+        <seg>Разьведзены/Разьведзеная</seg>
     </tuv>
 </tu>
 <tu>
@@ -3313,7 +3315,7 @@
         <seg>Do not accept messages concerning authorization</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T195312Z">
-        <seg>Не прымаць паведамленні, што тычацца аўтарызацыі</seg>
+        <seg>Не прымаць паведамленьні, што тычацца аўтарызацыі</seg>
     </tuv>
 </tu>
 <tu>
@@ -3345,7 +3347,7 @@
         <seg>Do not show actions</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць дзеянні</seg>
+        <seg>Не паказваць дзеяньні</seg>
     </tuv>
 </tu>
 <tu>
@@ -3385,7 +3387,7 @@
         <seg>Do not show nick/role changes</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць змяненні ніка/правоў</seg>
+        <seg>Не паказваць зьмяненьні ніка/правоў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3393,7 +3395,7 @@
         <seg>Do not show notices</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць апавяшчэнні</seg>
+        <seg>Не паказваць апавяшчэньні</seg>
     </tuv>
 </tu>
 <tu>
@@ -3401,7 +3403,7 @@
         <seg>Do not show quits</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць выйсці</seg>
+        <seg>Не паказваць выйсьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -3417,7 +3419,7 @@
         <seg>Do you see yourself in the preview to the left?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112335Z">
-        <seg>Ці бачыце Вы сябе ў вакне перадпрагляду злева?</seg>
+        <seg>Ці бачыце Вы сябе ў вакне перадпрагляду зьлева?</seg>
     </tuv>
 </tu>
 <tu>
@@ -3425,7 +3427,7 @@
         <seg>Dock contact list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прымацаваць спіс кантактаў</seg>
+        <seg>Прымацаваць сьпіс кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3457,7 +3459,7 @@
         <seg>Don't add ignored contacts to contact list on reconnect</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не дадаваць ігнараваных у спіс кантактаў падчас злучэння</seg>
+        <seg>Не дадаваць ігнараваных у сьпіс кантактаў падчас злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -3481,7 +3483,7 @@
         <seg>Don't blink if tray message has been shown</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пасля паказу лічыць паведамленне прачытаным і не мігцець</seg>
+        <seg>Пасьля паказу лічыць паведамленьне прачытаным і не мігцець</seg>
     </tuv>
 </tu>
 <tu>
@@ -3489,7 +3491,7 @@
         <seg>Don't play incoming message sound if message window is active</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112151Z">
-        <seg>Без гуку падчас уваходнага паведамлення, калі ўстаўка ці вакно актыўнае</seg>
+        <seg>Без гуку падчас уваходнага паведамленьня, калі ўстаўка ці вакно актыўнае</seg>
     </tuv>
 </tu>
 <tu>
@@ -3528,8 +3530,8 @@
     <tuv lang="EN">
         <seg>Don't see your native language? Please visit the QIP website and look for it there. If you have translated QIP into your language and would like to share it with other users, feel free to post the translation in our forum http://forum.qip.ru. Date: 15.04.2006</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110123T165004Z">
-        <seg>Калі Вы знайшлі памылку ў перакладзе, паведамляйце пра гэта перакладчыкам праз пазначаныя кантакты. 28.11.2010 (абноўлена 23.01.2011)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104139Z">
+        <seg>Калі Вы знайшлі памылку ў перакладзе, паведамляйце пра гэта перакладчыкам праз пазначаныя кантакты. 28.11.2010 (абноўлена 08.05.2011)</seg>
     </tuv>
 </tu>
 <tu>
@@ -3537,7 +3539,7 @@
         <seg>Don't send anti-spam question/reply if my status is "Invisible" or "IFA"</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T195456Z">
-        <seg>Не дасылаць пытанне/адказ, калі я "Нябачны" ці "Нябачны для ўсіх"</seg>
+        <seg>Не дасылаць пытаньне/адказ, калі я "Нябачны" ці "Нябачны для ўсіх"</seg>
     </tuv>
 </tu>
 <tu>
@@ -3545,7 +3547,7 @@
         <seg>Don't show "Authorization required" flags</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць пазнакі аб неабходнасці аўтарызацыі</seg>
+        <seg>Не паказваць пазнакі аб неабходнасьці аўтарызацыі</seg>
     </tuv>
 </tu>
 <tu>
@@ -3577,7 +3579,7 @@
         <seg>Don't show banner in contact list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T102229Z">
-        <seg>Не паказваць банэр ў спісе кантактаў</seg>
+        <seg>Не паказваць банэр ў сьпісе кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3593,7 +3595,7 @@
         <seg>Don't show my client version to others (reconnect required)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Не паказваць кантактам версію кліента (патрабуецца перазлучэнне)</seg>
+        <seg>Не паказваць кантактам вэрсію кліента (патрабуецца перазлучэньне)</seg>
     </tuv>
 </tu>
 <tu>
@@ -3641,7 +3643,7 @@
         <seg>Download cancelled. You may update the program later.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спампаванне скасаванае. Вы можаце абнавіць праграму пазней.</seg>
+        <seg>Спампаваньне скасаванае. Вы можаце абнавіць праграму пазьней.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3649,7 +3651,7 @@
         <seg>Download complete</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102103Z">
-        <seg>Спампаванне скончанае</seg>
+        <seg>Спампаваньне скончанае</seg>
     </tuv>
 </tu>
 <tu>
@@ -3657,7 +3659,7 @@
         <seg>Download error. ErrorCode: %d</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка спампавання. Код памылкі: %d</seg>
+        <seg>Памылка спампаваньня. Код памылкі: %d</seg>
     </tuv>
 </tu>
 <tu>
@@ -3673,7 +3675,7 @@
         <seg>Download speed:  %f Kbps</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Хуткасць спампавання: %f кбіт/c</seg>
+        <seg>Хуткасьць спампаваньня: %f кбіт/c</seg>
     </tuv>
 </tu>
 <tu>
@@ -3681,7 +3683,7 @@
         <seg>Download start</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пачатак спампавання</seg>
+        <seg>Пачатак спампаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -3705,7 +3707,7 @@
         <seg>Downloading time: %s</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Час спампавання:      %s</seg>
+        <seg>Час спампаваньня:      %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -3721,7 +3723,7 @@
         <seg>Dutch</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Галандская</seg>
+        <seg>Галяндская</seg>
     </tuv>
 </tu>
 <tu>
@@ -3737,7 +3739,7 @@
         <seg>Ecology</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Экалогія</seg>
+        <seg>Экалёгія</seg>
     </tuv>
 </tu>
 <tu>
@@ -3761,7 +3763,7 @@
         <seg>Editing metacontact</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Метакантакт для рэдагавання</seg>
+        <seg>Метакантакт для рэдагаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -3792,16 +3794,16 @@
     <tuv lang="EN">
         <seg>Email</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T093824Z">
-        <seg>Э-адрас</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110859Z">
+        <seg>Эл. адрас</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Email message</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Э-паведамленне</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110843Z">
+        <seg>Эл. ліст</seg>
     </tuv>
 </tu>
 <tu>
@@ -3825,7 +3827,7 @@
         <seg>Enable autoanswer for contacts in my list for following statuses</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Уключаць аўтаадказнік для маіх кантактаў падчас наступных статусаў</seg>
+        <seg>Уключаць аўтаадказьнік для маіх кантактаў падчас наступных статусаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -3841,7 +3843,7 @@
         <seg>End User License Agreement</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ліцэнзійнае пагадненне</seg>
+        <seg>Ліцэнзійнае пагадненьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -3857,15 +3859,15 @@
         <seg>Engineering</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Інжынерна-тэхнічны персанал</seg>
+        <seg>Інжынерна-тэхнічны пэрсанал</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>English</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101202T070103Z">
-        <seg>Belarusian (афіцыйны правапіс)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104000Z">
+        <seg>Belarusian (клясычны правапіс)</seg>
     </tuv>
 </tu>
 <tu>
@@ -3889,7 +3891,7 @@
         <seg>Enter phone number</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Увесці тэлефонны нумар</seg>
+        <seg>Увесьці тэлефонны нумар</seg>
     </tuv>
 </tu>
 <tu>
@@ -3905,7 +3907,7 @@
         <seg>Enter your account details and press "Next"</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Азначце Вашыя звесткі і націсніце "Далей"</seg>
+        <seg>Азначце Вашыя зьвесткі і націсьніце "Далей"</seg>
     </tuv>
 </tu>
 <tu>
@@ -3953,7 +3955,7 @@
         <seg>Error creating backup files.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка стварэння рэзервовай копіі.</seg>
+        <seg>Памылка стварэньня рэзервовай копіі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3961,7 +3963,7 @@
         <seg>Esperanto</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Эсперанта</seg>
+        <seg>Эсьперанта</seg>
     </tuv>
 </tu>
 <tu>
@@ -4033,23 +4035,23 @@
         <seg>Excepts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выключэнні</seg>
+        <seg>Выключэньні</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Existing QIP account</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Існуючы конт QIP</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105151Z">
+        <seg>Існы конт QIP</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Existing account</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Існуючы конт</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105056Z">
+        <seg>Існы конт</seg>
     </tuv>
 </tu>
 <tu>
@@ -4057,7 +4059,7 @@
         <seg>Expand folders tree</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Разгарнуць дрэва каталогаў</seg>
+        <seg>Разгарнуць дрэва каталёгаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -4065,7 +4067,7 @@
         <seg>External IP</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Знешні IP</seg>
+        <seg>Зьнешні IP</seg>
     </tuv>
 </tu>
 <tu>
@@ -4089,7 +4091,7 @@
         <seg>Failed to deliver SMS to %s ("%s...")</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка падчас дасылання SMS на нумар %s ("%s...")</seg>
+        <seg>Памылка падчас дасыланьня SMS на нумар %s ("%s...")</seg>
     </tuv>
 </tu>
 <tu>
@@ -4097,7 +4099,7 @@
         <seg>Failed to send</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасыланне не атрымалася</seg>
+        <seg>Дасыланьне не атрымалася</seg>
     </tuv>
 </tu>
 <tu>
@@ -4144,16 +4146,16 @@
     <tuv lang="EN">
         <seg>File "%s" is not a plugin dll.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101212T112516Z">
-        <seg>Файл "%s" не ёсць dll плагіна.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104734Z">
+        <seg>Файл "%s" ня ёсьць dll-убудовай.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>File %s already exists!</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Файл з назваю %s ужо ёсць у гэтым каталогу!</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105418Z">
+        <seg>Файл з назваю %s ужо існуе!</seg>
     </tuv>
 </tu>
 <tu>
@@ -4185,7 +4187,7 @@
         <seg>File transfer</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасыланне файлаў</seg>
+        <seg>Дасыланьне файлаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -4193,7 +4195,7 @@
         <seg>File transfer complete</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасыланне файла скончана</seg>
+        <seg>Дасыланьне файла скончана</seg>
     </tuv>
 </tu>
 <tu>
@@ -4209,7 +4211,7 @@
         <seg>Files saving path</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Шлях захоўвання файлаў</seg>
+        <seg>Шлях захоўваньня файлаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -4233,7 +4235,7 @@
         <seg>Find contact</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Знайсці кантакт</seg>
+        <seg>Знайсьці кантакт</seg>
     </tuv>
 </tu>
 <tu>
@@ -4241,7 +4243,7 @@
         <seg>Find contacts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Знайсці кантакты</seg>
+        <seg>Знайсьці кантакты</seg>
     </tuv>
 </tu>
 <tu>
@@ -4249,7 +4251,7 @@
         <seg>Find contacts in contact list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пошук кантактаў у Вашым спісе</seg>
+        <seg>Пошук кантактаў у Вашым сьпісе</seg>
     </tuv>
 </tu>
 <tu>
@@ -4257,7 +4259,7 @@
         <seg>Find next</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Знайсці далей</seg>
+        <seg>Знайсьці далей</seg>
     </tuv>
 </tu>
 <tu>
@@ -4321,7 +4323,7 @@
         <seg>Focus</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084007Z">
-        <seg>Абраны элемент</seg>
+        <seg>Абраны элемэнт</seg>
     </tuv>
 </tu>
 <tu>
@@ -4329,7 +4331,7 @@
         <seg>Focus frame</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Рамка абранага элемента</seg>
+        <seg>Рамка абранага элемэнта</seg>
     </tuv>
 </tu>
 <tu>
@@ -4337,7 +4339,7 @@
         <seg>Focus gradient</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Градыент абранага элемента</seg>
+        <seg>Градыент абранага элемэнта</seg>
     </tuv>
 </tu>
 <tu>
@@ -4345,7 +4347,7 @@
         <seg>Folder</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Каталог</seg>
+        <seg>Каталёг</seg>
     </tuv>
 </tu>
 <tu>
@@ -4393,7 +4395,7 @@
         <seg>For not in list contacts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Для тых, каго няма ў маім спісе кантактаў</seg>
+        <seg>Для тых, каго няма ў маім сьпісе кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -4521,7 +4523,7 @@
         <seg>Gemini</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Блізняты</seg>
+        <seg>Блізьняты</seg>
     </tuv>
 </tu>
 <tu>
@@ -4577,7 +4579,7 @@
         <seg>Getting accounts from server..</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне контаў...</seg>
+        <seg>Атрыманьне контаў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -4585,7 +4587,7 @@
         <seg>Getting meta contactlist from server...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне спісаў метакантактаў...</seg>
+        <seg>Атрыманьне сьпісаў метакантактаў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -4593,7 +4595,7 @@
         <seg>Getting upload link</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне спасылкі для запампоўвання</seg>
+        <seg>Атрыманьне спасылкі для запампоўваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -4617,7 +4619,7 @@
         <seg>Global online status</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ваш глабальны сеціўны статус</seg>
+        <seg>Ваш глябальны сеціўны статус</seg>
     </tuv>
 </tu>
 <tu>
@@ -4625,7 +4627,7 @@
         <seg>Global privacy status</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ваш глабальны прыватны статус</seg>
+        <seg>Ваш глябальны прыватны статус</seg>
     </tuv>
 </tu>
 <tu>
@@ -4633,7 +4635,7 @@
         <seg>Global search</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Глабальны пошук</seg>
+        <seg>Глябальны пошук</seg>
     </tuv>
 </tu>
 <tu>
@@ -4681,7 +4683,7 @@
         <seg>Greenland</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Грэнландыя</seg>
+        <seg>Грэнляндыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -4793,7 +4795,7 @@
         <seg>Health and Beauty</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прыгажосць і здароўе</seg>
+        <seg>Прыгажосьць і здароўе</seg>
     </tuv>
 </tu>
 <tu>
@@ -4809,7 +4811,7 @@
         <seg>Hello. This is my Anti-spam control. If you would like to chat with me then please give the right answer to the following simple question. What is the name of our planet? English please. Thank you.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вас вітае анты-спам бот. Калі Вы жадаеце пагутарыць са мною, калі ласка, адкажыце на наступнае пытанне. Як называецца нашая планета? Дзякуй.||Hello. This is my Anti-spam control. If you would like to chat with me please answer the following simple question. What is the name of our planet? Thank you.</seg>
+        <seg>Вас вітае анты-спам бот. Калі Вы жадаеце пагутарыць са мною, калі ласка, адкажыце на наступнае пытаньне. Як называецца нашая плянета? Дзякуй.||Hello. This is my Anti-spam control. If you would like to chat with me please answer the following simple question. What is the name of our planet? Thank you.</seg>
     </tuv>
 </tu>
 <tu>
@@ -4825,7 +4827,7 @@
         <seg>Hi %contact%. I'm away since %date% %time%. I'll read your message later.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вітаю, %contact%. Мяне няма на месцы з %time% %date%. Я прачытаю Вашае паведамленне, калі вярнуся.</seg>
+        <seg>Вітаю, %contact%. Мяне няма на месцы з %time% %date%. Я прачытаю Вашае паведамленьне, калі вярнуся.</seg>
     </tuv>
 </tu>
 <tu>
@@ -4889,7 +4891,7 @@
         <seg>Highlighted text</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Падсвечаны тэкст</seg>
+        <seg>Падсьвечаны тэкст</seg>
     </tuv>
 </tu>
 <tu>
@@ -4929,7 +4931,7 @@
         <seg>Hint: allowed replacement text - %contact%, %meta%, %date%, %time%</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дазволены тэкст аўтазамянення - %contact%, %meta%, %date%, %time%</seg>
+        <seg>Дазволены тэкст аўтазамяненьня - %contact%, %meta%, %date%, %time%</seg>
     </tuv>
 </tu>
 <tu>
@@ -4945,7 +4947,7 @@
         <seg>History of the selected contact will be deleted</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гісторыя абранага кантакта будзе поўнасцю выдаленая</seg>
+        <seg>Гісторыя абранага кантакта будзе поўнасьцю выдаленая</seg>
     </tuv>
 </tu>
 <tu>
@@ -4953,7 +4955,7 @@
         <seg>History saving path</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Шлях захоўвання гісторыі</seg>
+        <seg>Шлях захоўваньня гісторыі</seg>
     </tuv>
 </tu>
 <tu>
@@ -4961,7 +4963,7 @@
         <seg>History window contacts color</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112323Z">
-        <seg>Колер кантактаў у вакне гісторыі паведамленняў</seg>
+        <seg>Колер кантактаў у вакне гісторыі паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -4969,7 +4971,7 @@
         <seg>Hi|How are you?|Bye</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прывітанне!|Як справы?|Бывай</seg>
+        <seg>Прывітаньне!|Як справы?|Бывай</seg>
     </tuv>
 </tu>
 <tu>
@@ -5049,7 +5051,7 @@
         <seg>Host unreachable. Switching proxy sets</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вузел недаступны. Пераключэнне проксі</seg>
+        <seg>Вузел недаступны. Пераключэньне проксі</seg>
     </tuv>
 </tu>
 <tu>
@@ -5089,7 +5091,7 @@
         <seg>I already got:</seg>
     </tuv>
     <tuv lang="be">
-        <seg>У мяне ўжо ёсць:</seg>
+        <seg>У мяне ўжо ёсьць:</seg>
     </tuv>
 </tu>
 <tu>
@@ -5105,7 +5107,7 @@
         <seg>I have already registered QIP account</seg>
     </tuv>
     <tuv lang="be">
-        <seg>У мяне ўжо ёсць конт QIP</seg>
+        <seg>У мяне ўжо ёсьць конт QIP</seg>
     </tuv>
 </tu>
 <tu>
@@ -5113,7 +5115,7 @@
         <seg>I have direct connection to the Internet</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T083330Z">
-        <seg>У мяне наўпростае злучэнне з сецівам</seg>
+        <seg>У мяне наўпростае злучэньне зь сецівам</seg>
     </tuv>
 </tu>
 <tu>
@@ -5121,7 +5123,7 @@
         <seg>I want to invite you to the conference "%s"\nInvite message:\n%s</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запрашаю далучыцца да канферэнцыі "%s"\nТэкст запрашэння:\n%s</seg>
+        <seg>Запрашаю далучыцца да канферэнцыі "%s"\nТэкст запрашэньня:\n%s</seg>
     </tuv>
 </tu>
 <tu>
@@ -5129,7 +5131,7 @@
         <seg>I want to invite you to the conference "%s"\r\nInvite message:\r\n%s</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191601Z">
-        <seg>Запрашаю далучыцца да канферэнцыі "%s"\r\nТэкст запрашэння:\r\n%s</seg>
+        <seg>Запрашаю далучыцца да канферэнцыі "%s"\r\nТэкст запрашэньня:\r\n%s</seg>
     </tuv>
 </tu>
 <tu>
@@ -5152,16 +5154,16 @@
     <tuv lang="EN">
         <seg>ICQ# or E-mail</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>ICQ# ці э-адрас</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105721Z">
+        <seg>ICQ# ці эл. адрас</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>ICQ#/E-mail/SN</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>ICQ#/Э-адрас/SN</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T111020Z">
+        <seg>ICQ#/Эл. адрас/SN</seg>
     </tuv>
 </tu>
 <tu>
@@ -5193,7 +5195,7 @@
         <seg>Iceland</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ісландыя</seg>
+        <seg>Ісьляндыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -5201,7 +5203,7 @@
         <seg>Icelandic</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ісландская</seg>
+        <seg>Ісьляндская</seg>
     </tuv>
 </tu>
 <tu>
@@ -5217,7 +5219,7 @@
         <seg>If this is not your account, then you can register new one for QIP 2010 services. Press "Next" to continue.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі гэта не Ваш конт, то мы створым новы конт для доступу да службаў QIP 2010. Націсніце "Далей".</seg>
+        <seg>Калі гэта не Ваш конт, то мы створым новы конт для доступу да службаў QIP 2010. Націсьніце "Далей".</seg>
     </tuv>
 </tu>
 <tu>
@@ -5225,7 +5227,7 @@
         <seg>If this is your account press "Done"</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі гэта Ваш конт, то націсніце "Гатова"</seg>
+        <seg>Калі гэта Ваш конт, то націсьніце "Гатова"</seg>
     </tuv>
 </tu>
 <tu>
@@ -5233,7 +5235,7 @@
         <seg>If turn service on it is added to your contact list.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T101633Z">
-        <seg>Калі ўключыць службу, яна дадасца ў ваш спіс кантактаў.</seg>
+        <seg>Калі ўключыць службу, яна дадасца ў ваш сьпіс кантактаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -5241,7 +5243,7 @@
         <seg>If you don't have an account then just leave fields above blank and press "Next"</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі Вы не маеце конта, то пакіньце палі пустымі і націсніце "Далей"</seg>
+        <seg>Калі Вы ня маеце конта, то пакіньце палі пустымі і націсьніце "Далей"</seg>
     </tuv>
 </tu>
 <tu>
@@ -5249,7 +5251,7 @@
         <seg>If you have GTalk or other Jabber account, enter it's data (for example, myaccount@gmail.com)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі ў Вас ёсць конт GTalk ці іншы конт Jabber, то ўвядзіце звесткі (напрыклад, zmicer@gmail.com)</seg>
+        <seg>Калі ў Вас ёсьць конт GTalk ці іншы конт Jabber, то ўвядзіце зьвесткі (напрыклад, zmicer@gmail.com)</seg>
     </tuv>
 </tu>
 <tu>
@@ -5289,7 +5291,7 @@
         <seg>Ignore global connection settings</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ігнараваць глабальныя налады злучэння</seg>
+        <seg>Ігнараваць глябальныя налады злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -5297,7 +5299,7 @@
         <seg>Ignore list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс ігнараваных</seg>
+        <seg>Сьпіс ігнараваных</seg>
     </tuv>
 </tu>
 <tu>
@@ -5305,7 +5307,7 @@
         <seg>Ignore messages and notices using following filters</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ігнараваць паведамленні і апавяшчэнні па наступных крытэрах</seg>
+        <seg>Ігнараваць паведамленьні і апавяшчэньні па наступных крытэрах</seg>
     </tuv>
 </tu>
 <tu>
@@ -5313,15 +5315,15 @@
         <seg>Ignore private messages and notices from all</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ігнараваць прыватныя паведамленні і апавяшчэнні ад усіх</seg>
+        <seg>Ігнараваць прыватныя паведамленьні і апавяшчэньні ад усіх</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Ilham Z.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Усевалад Чорны, Мікола Заяц (У.Ч. icq: 387534304, skype: eratyk1918)</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104045Z">
+        <seg>Усевалад Чорны (icq: 387534304, skype: eratyk1918)</seg>
     </tuv>
 </tu>
 <tu>
@@ -5361,7 +5363,7 @@
         <seg>Importing finished successfully.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100413Z">
-        <seg>Імпартаванне скончанае паспяхова.</seg>
+        <seg>Імпартаваньне скончанае пасьпяхова.</seg>
     </tuv>
 </tu>
 <tu>
@@ -5393,7 +5395,7 @@
         <seg>Incoming events timestamp</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112052Z">
-        <seg>Уваходныя падзеі ў вакне паведамленняў</seg>
+        <seg>Уваходныя падзеі ў вакне паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -5409,7 +5411,7 @@
         <seg>Incoming message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Уваходнае паведамленне</seg>
+        <seg>Уваходнае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -5424,8 +5426,8 @@
     <tuv lang="EN">
         <seg>Incorrect login</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Некарэктны лагін</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110306Z">
+        <seg>Некарэктная назва конта</seg>
     </tuv>
 </tu>
 <tu>
@@ -5497,7 +5499,7 @@
         <seg>Installing update...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Усталёўванне абнаўлення...</seg>
+        <seg>Усталёўваньне абнаўленьня...</seg>
     </tuv>
 </tu>
 <tu>
@@ -5505,7 +5507,7 @@
         <seg>Installing: %s</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Усталёўванне: %s</seg>
+        <seg>Усталёўваньне: %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -5513,7 +5515,7 @@
         <seg>Insufficient rights to perform the operation. Allow this action in plugin options.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Недастаткова правоў, каб выканаць аперацыю. Дазвольце неабходныя дзеянні ў наладах.</seg>
+        <seg>Недастаткова правоў, каб выканаць апэрацыю. Дазвольце неабходныя дзеяньні ў наладах.</seg>
     </tuv>
 </tu>
 <tu>
@@ -5521,7 +5523,7 @@
         <seg>Interests</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Зацікаўленасці</seg>
+        <seg>Зацікаўленасьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -5545,7 +5547,7 @@
         <seg>Internal server error.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Унутраная серверная памылка.</seg>
+        <seg>Унутраная сэрвэрная памылка.</seg>
     </tuv>
 </tu>
 <tu>
@@ -5569,7 +5571,7 @@
         <seg>Invalid server database fields.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084657Z">
-        <seg>Недапушчальныя палі базы звестак.</seg>
+        <seg>Недапушчальныя палі базы зьвестак.</seg>
     </tuv>
 </tu>
 <tu>
@@ -5601,7 +5603,7 @@
         <seg>Invisible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс невідушчых</seg>
+        <seg>Сьпіс невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -5609,7 +5611,7 @@
         <seg>Invite only</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Толькі па запрашэннях</seg>
+        <seg>Толькі па запрашэньнях</seg>
     </tuv>
 </tu>
 <tu>
@@ -5617,7 +5619,7 @@
         <seg>Invite to chat</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запрашэнне на канферэнцыю</seg>
+        <seg>Запрашэньне на канферэнцыю</seg>
     </tuv>
 </tu>
 <tu>
@@ -5625,7 +5627,7 @@
         <seg>Invites</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запрашэнні</seg>
+        <seg>Запрашэньні</seg>
     </tuv>
 </tu>
 <tu>
@@ -5649,7 +5651,7 @@
         <seg>Ireland</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ірландыя</seg>
+        <seg>Ірляндыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -5721,7 +5723,7 @@
         <seg>Join channel</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Увайсці на канал</seg>
+        <seg>Увайсьці на канал</seg>
     </tuv>
 </tu>
 <tu>
@@ -5729,7 +5731,7 @@
         <seg>Join channels on connect (comma delimited)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Заходзіць на каналы падчас злучэння (упісваць праз коску)</seg>
+        <seg>Заходзіць на каналы падчас злучэньня (упісваць праз коску)</seg>
     </tuv>
 </tu>
 <tu>
@@ -5777,7 +5779,7 @@
         <seg>Keep connection alive</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Падтрымліваць злучэнне</seg>
+        <seg>Падтрымліваць злучэньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -5833,7 +5835,7 @@
         <seg>Kick message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100213Z">
-        <seg>Паведамленне выкіду</seg>
+        <seg>Паведамленьне выкіду</seg>
     </tuv>
 </tu>
 <tu>
@@ -5841,7 +5843,7 @@
         <seg>Kick text</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T095913Z">
-        <seg>Тэкст выкідання</seg>
+        <seg>Тэкст выкіданьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -5945,7 +5947,7 @@
         <seg>Last name</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прозвішча</seg>
+        <seg>Прозьвішча</seg>
     </tuv>
 </tu>
 <tu>
@@ -5969,7 +5971,7 @@
         <seg>Launch QIP on startup</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запускаць QIP падчас запуску сістэмы</seg>
+        <seg>Запускаць QIP падчас запуску сыстэмы</seg>
     </tuv>
 </tu>
 <tu>
@@ -6049,7 +6051,7 @@
         <seg>Lifestyle</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Стыль жыцця</seg>
+        <seg>Стыль жыцьця</seg>
     </tuv>
 </tu>
 <tu>
@@ -6057,7 +6059,7 @@
         <seg>Link to download the file</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спасылка для спампавання файла</seg>
+        <seg>Спасылка для спампаваньня файла</seg>
     </tuv>
 </tu>
 <tu>
@@ -6065,7 +6067,7 @@
         <seg>Listening</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Чаканне злучэння</seg>
+        <seg>Чаканьне злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -6097,7 +6099,7 @@
         <seg>Loading profile...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ладаванне профілю...</seg>
+        <seg>Ладаваньне профілю...</seg>
     </tuv>
 </tu>
 <tu>
@@ -6113,7 +6115,7 @@
         <seg>Login</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Увайсці</seg>
+        <seg>Увайсьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -6153,7 +6155,7 @@
         <seg>Lunch</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Снедаю</seg>
+        <seg>Сьнедаю</seg>
     </tuv>
 </tu>
 <tu>
@@ -6209,7 +6211,7 @@
         <seg>Mail Order Catalog</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Каталог для замовы тавараў па пошце</seg>
+        <seg>Каталёг для замовы тавараў па пошце</seg>
     </tuv>
 </tu>
 <tu>
@@ -6217,7 +6219,7 @@
         <seg>Main menu</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Галоўнае меню</seg>
+        <seg>Галоўнае мэню</seg>
     </tuv>
 </tu>
 <tu>
@@ -6297,7 +6299,7 @@
         <seg>Manage metacontact</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Кіраванне метакантактам</seg>
+        <seg>Кіраваньне метакантактам</seg>
     </tuv>
 </tu>
 <tu>
@@ -6305,7 +6307,7 @@
         <seg>Managerial</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Кіраванне</seg>
+        <seg>Кіраваньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -6320,8 +6322,8 @@
     <tuv lang="EN">
         <seg>Manual proxy configuration</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T083521Z">
-        <seg>Ручное канфігураванне проксі</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114655Z">
+        <seg>Ручная канфігурацыя проксі</seg>
     </tuv>
 </tu>
 <tu>
@@ -6329,7 +6331,7 @@
         <seg>Manufacturing</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вытворчасць</seg>
+        <seg>Вытворчасьць</seg>
     </tuv>
 </tu>
 <tu>
@@ -6433,7 +6435,7 @@
         <seg>Media</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Медыя</seg>
+        <seg>Мэдыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -6441,7 +6443,7 @@
         <seg>Medical/Health</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Медыцына і ахова здароўя</seg>
+        <seg>Мэдыцына і ахова здароўя</seg>
     </tuv>
 </tu>
 <tu>
@@ -6481,7 +6483,7 @@
         <seg>Merge with similar UID (without @server part)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аб'ядноўваць з падобнымі UID (без уліку сервера)</seg>
+        <seg>Аб'ядноўваць з падобнымі UID (без уліку сэрвэра)</seg>
     </tuv>
 </tu>
 <tu>
@@ -6505,7 +6507,7 @@
         <seg>Message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленне</seg>
+        <seg>Паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -6513,7 +6515,7 @@
         <seg>Message formatting</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Фармат паведамлення</seg>
+        <seg>Фармат паведамленьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -6521,7 +6523,7 @@
         <seg>Message from new line</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленні з новага радка</seg>
+        <seg>Паведамленьні з новага радка</seg>
     </tuv>
 </tu>
 <tu>
@@ -6529,7 +6531,7 @@
         <seg>Message history</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гісторыя паведамленняў</seg>
+        <seg>Гісторыя паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -6537,7 +6539,7 @@
         <seg>Message sent</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленне дасланае</seg>
+        <seg>Паведамленьне дасланае</seg>
     </tuv>
 </tu>
 <tu>
@@ -6545,7 +6547,7 @@
         <seg>Messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленняў</seg>
+        <seg>Паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -6553,7 +6555,7 @@
         <seg>Messages filters</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Фільтры паведамленняў</seg>
+        <seg>Фільтры паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -6561,7 +6563,7 @@
         <seg>Messaging</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паведамленні</seg>
+        <seg>Паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -6577,7 +6579,7 @@
         <seg>Messaging window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112113Z">
-        <seg>Вакно паведамленняў</seg>
+        <seg>Вакно паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -6609,7 +6611,7 @@
         <seg>Microblogs</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T101702Z">
-        <seg>Мікраблогі</seg>
+        <seg>Мікраблёгі</seg>
     </tuv>
 </tu>
 <tu>
@@ -6617,7 +6619,7 @@
         <seg>Microblogs (QIP contacts status history and mini notes)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T101845Z">
-        <seg>Мікраблогі (гісторыя статусаў  QIP і кароткія нататкі)</seg>
+        <seg>Мікраблёгі (гісторыя статусаў  QIP і кароткія нататкі)</seg>
     </tuv>
 </tu>
 <tu>
@@ -6657,7 +6659,7 @@
         <seg>Minimum %s symbols. No special symbols</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Мінімум %s сімвалаў. Без спецыяльных</seg>
+        <seg>Мінімум %s сымбаляў. Без спэцыяльных</seg>
     </tuv>
 </tu>
 <tu>
@@ -6665,7 +6667,7 @@
         <seg>Minutes to set "Away" status when not using PC</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101100Z">
-        <seg>Хвілін да ўсталёўкі статуса "Адышоў" падчас прастою сістэмы</seg>
+        <seg>Хвілін да ўсталёўкі статуса "Адышоў" падчас прастою сыстэмы</seg>
     </tuv>
 </tu>
 <tu>
@@ -6753,7 +6755,7 @@
         <seg>More info...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T194216Z">
-        <seg>Падрабязней</seg>
+        <seg>Падрабязьней</seg>
     </tuv>
 </tu>
 <tu>
@@ -6769,7 +6771,7 @@
         <seg>Move last active contact to the top of the list/group</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T194319Z">
-        <seg>Перасоўваць апошні актыўны кантакт у верх спісу ці групы</seg>
+        <seg>Перасоўваць апошні актыўны кантакт у верх сьпісу ці групы</seg>
     </tuv>
 </tu>
 <tu>
@@ -6777,7 +6779,7 @@
         <seg>Move to group</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Перанесці ў групу</seg>
+        <seg>Перанесьці ў групу</seg>
     </tuv>
 </tu>
 <tu>
@@ -6785,7 +6787,7 @@
         <seg>Movies and TV</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Кіно і тэлебачанне</seg>
+        <seg>Кіно і тэлебачаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -6809,7 +6811,7 @@
         <seg>My authorization is required (Authorize)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запытваць мой дазвол на даданне</seg>
+        <seg>Запытваць мой дазвол на даданьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -6825,7 +6827,7 @@
         <seg>My details will be shared only with contacts in my contact list.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Мае звесткі будуць бачныя толькі кантактам з майго спісу кантактаў.</seg>
+        <seg>Мае зьвесткі будуць бачныя толькі кантактам з майго сьпісу кантактаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -6833,7 +6835,7 @@
         <seg>My details will be shared with everybody.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Мае звесткі будуць бачныя ўсім кантактам.</seg>
+        <seg>Мае зьвесткі будуць бачныя ўсім кантактам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -6849,7 +6851,7 @@
         <seg>My history at history.qip.ru</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гісторыя паведамленняў на history.qip.ru</seg>
+        <seg>Гісторыя паведамленьняў на history.qip.ru</seg>
     </tuv>
 </tu>
 <tu>
@@ -6864,8 +6866,8 @@
     <tuv lang="EN">
         <seg>My phone and email will be shared only with my contacts. The rest of my details information will be shared with everybody.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Мой тэлефон і э-адрас будуць бачныя толькі маім кантактам, а ўсе астатнія мае звесткі будуць бачныя ўсім.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T111125Z">
+        <seg>Мой тэлефон і эл. адрас будуць бачныя толькі маім кантактам. Мае астатнія зьвесткі будуць абагуленыя для ўсіх.</seg>
     </tuv>
 </tu>
 <tu>
@@ -6904,8 +6906,8 @@
     <tuv lang="EN">
         <seg>NTLM authentication</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>NTLM аўтэнтыфікацыя</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110816Z">
+        <seg>NTLM-апазнаваньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -6945,7 +6947,7 @@
         <seg>Netherlands</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Нідэрланды</seg>
+        <seg>Нідэрлянды</seg>
     </tuv>
 </tu>
 <tu>
@@ -6953,7 +6955,7 @@
         <seg>Netherlands Antilles</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Антыльскія выспы (Нідэрланды)</seg>
+        <seg>Антыльскія выспы (Нідэрлянды)</seg>
     </tuv>
 </tu>
 <tu>
@@ -6993,7 +6995,7 @@
         <seg>New QIP account registration</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Рэгістраванне новага конта QIP</seg>
+        <seg>Рэгістраваньне новага конта QIP</seg>
     </tuv>
 </tu>
 <tu>
@@ -7001,7 +7003,7 @@
         <seg>New Zealand</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Новая Зеландыя</seg>
+        <seg>Новая Зеляндыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -7017,7 +7019,7 @@
         <seg>New features</seg>
     </tuv>
     <tuv lang="be">
-        <seg>новыя магчымасці</seg>
+        <seg>новыя магчымасьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -7057,7 +7059,7 @@
         <seg>New version of QIP 2010 is available!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Даступна новая версія QIP 2010</seg>
+        <seg>Даступна новая вэрсія QIP 2010</seg>
     </tuv>
 </tu>
 <tu>
@@ -7065,7 +7067,7 @@
         <seg>News and Media</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Навіны і СМІ</seg>
+        <seg>Навіны і СЬМІ</seg>
     </tuv>
 </tu>
 <tu>
@@ -7152,8 +7154,8 @@
     <tuv lang="EN">
         <seg>No access to resolver.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Няма доступу да пераўтваральніка IP-адрасоў.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110057Z">
+        <seg>Няма доступу да вырашальніка.</seg>
     </tuv>
 </tu>
 <tu>
@@ -7161,7 +7163,7 @@
         <seg>No external messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Няма знешніх паведамленняў</seg>
+        <seg>Няма зьнешніх паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7185,7 +7187,7 @@
         <seg>No message history</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Няма гісторыі паведамленняў</seg>
+        <seg>Няма гісторыі паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7209,7 +7211,7 @@
         <seg>No new updates</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абнаўленні адсутнічаюць</seg>
+        <seg>Абнаўленьні адсутнічаюць</seg>
     </tuv>
 </tu>
 <tu>
@@ -7304,16 +7306,16 @@
     <tuv lang="EN">
         <seg>Not in List</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Не ў спісе</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114838Z">
+        <seg>Ня ў сьпісе</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Not in list</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Не ў спісе</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114847Z">
+        <seg>Ня ў сьпісе</seg>
     </tuv>
 </tu>
 <tu>
@@ -7329,7 +7331,7 @@
         <seg>Notice text</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T095845Z">
-        <seg>Тэкст апавяшчэння</seg>
+        <seg>Тэкст апавяшчэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -7345,7 +7347,7 @@
         <seg>Notify only if sender in my contact list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апавяшчаць толькі тады, калі адпраўнік у маім спісе кантактаў</seg>
+        <seg>Апавяшчаць толькі тады, калі адпраўнік у маім сьпісе кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7353,7 +7355,7 @@
         <seg>Notify when anti-spam bot receives messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апавяшчаць, калі анты-спам бот атрымлівае паведамленні</seg>
+        <seg>Апавяшчаць, калі анты-спам бот атрымлівае паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -7361,7 +7363,7 @@
         <seg>Notify when blocking message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апавяшчаць падчас блакавання паведамлення</seg>
+        <seg>Апавяшчаць падчас блякаваньня паведамленьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -7377,7 +7379,7 @@
         <seg>Now you have personal cabinet on www.qip.ru, where you can manage your services. Very useful!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Зараз у Вас ёсць уласны кабінет на сайце www.qip.ru, адкуль вы можаце кіраваць сваімі службамі. Гэта зручна!</seg>
+        <seg>Зараз у Вас ёсьць уласны кабінет на сайце www.qip.ru, адкуль вы можаце кіраваць сваімі службамі. Гэта зручна!</seg>
     </tuv>
 </tu>
 <tu>
@@ -7385,7 +7387,7 @@
         <seg>Number of messages to show</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091011Z">
-        <seg>Колькасць паведамленняў для паказвання</seg>
+        <seg>Колькасьць паведамленьняў для паказваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -7425,7 +7427,7 @@
         <seg>Offline message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пазасеціўнае паведамленне</seg>
+        <seg>Пазасеціўнае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -7457,7 +7459,7 @@
         <seg>On/off send by enter</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T200133Z">
-        <seg>Пераключыць дасыланне па націску Enter</seg>
+        <seg>Пераключыць дасыланьне па націску Enter</seg>
     </tuv>
 </tu>
 <tu>
@@ -7465,7 +7467,7 @@
         <seg>On/off sending typing notifications</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T200141Z">
-        <seg>Пераключыць дасыланне апавяшчэнняў аб наборы тэксту</seg>
+        <seg>Пераключыць дасыланьне апавяшчэньняў аб наборы тэксту</seg>
     </tuv>
 </tu>
 <tu>
@@ -7561,7 +7563,7 @@
         <seg>Open folder when finished</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Адчыніць каталог пасля сканчэння дасылання</seg>
+        <seg>Адчыніць каталёг пасьля сканчэньня дасыланьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -7625,7 +7627,7 @@
         <seg>Other server error.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Іншая серверная памылка.</seg>
+        <seg>Іншая сэрвэрная памылка.</seg>
     </tuv>
 </tu>
 <tu>
@@ -7633,7 +7635,7 @@
         <seg>Outdoors</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Заняткі на свежым паветры</seg>
+        <seg>Заняткі на сьвежым паветры</seg>
     </tuv>
 </tu>
 <tu>
@@ -7641,7 +7643,7 @@
         <seg>Outgoing events timestamp</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112055Z">
-        <seg>Зыходныя падзеі ў вакне паведамленняў</seg>
+        <seg>Зыходныя падзеі ў вакне паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7665,7 +7667,7 @@
         <seg>Own message text</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сваё паведамленне</seg>
+        <seg>Сваё паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -7729,7 +7731,7 @@
         <seg>Parenting</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выхаванне дзяцей</seg>
+        <seg>Выхаваньне дзяцей</seg>
     </tuv>
 </tu>
 <tu>
@@ -7737,7 +7739,7 @@
         <seg>Part message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Part-паведамленне</seg>
+        <seg>Part-паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -7769,7 +7771,7 @@
         <seg>Password is changed</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пароль зменены</seg>
+        <seg>Пароль зьменены</seg>
     </tuv>
 </tu>
 <tu>
@@ -7777,7 +7779,7 @@
         <seg>Password is not changed. Incorrect current or new password.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пароль не быў зменены. Дзейны ці новы пароль уведзены няправільна.</seg>
+        <seg>Пароль не быў зьменены. Дзейны ці новы пароль уведзены няправільна.</seg>
     </tuv>
 </tu>
 <tu>
@@ -7817,7 +7819,7 @@
         <seg>Perform commands on connect</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выканаць наступныя каманды падчас злучэння</seg>
+        <seg>Выканаць наступныя каманды падчас злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -7825,7 +7827,7 @@
         <seg>Perhaps you have several microphones. Select the desired device from the list on the left and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Магчыма, Вы маеце некалькі мікрафонаў. Абярыце патрэбную прыладу ў спісе і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Магчыма, Вы маеце некалькі мікрафонаў. Абярыце патрэбную прыладу ў сьпісе і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -7833,7 +7835,7 @@
         <seg>Perhaps you have several speakers. Select the desired device from the list on the left and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Магчыма, Вы маеце некалькі дынамікаў. Абярыце патрэбную прыладу ў спісе і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Магчыма, Вы маеце некалькі дынамікаў. Абярыце патрэбную прыладу ў сьпісе і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -7841,7 +7843,7 @@
         <seg>Perhaps you have several webcams. Select the desired device from the list on the left and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Магчыма, Вы маеце некалькі сеціўных камераў. Абярыце патрэбную прыладу ў спісе і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Магчыма, Вы маеце некалькі сеціўных камераў. Абярыце патрэбную прыладу ў сьпісе і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -7937,7 +7939,7 @@
         <seg>Play specific sound for incoming messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Граць гэты гук для уваходных паведамленняў</seg>
+        <seg>Граць гэты гук для уваходных паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7945,7 +7947,7 @@
         <seg>Please authorize my request</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі ласка, дазвольце дадаць Вас у мой спіс кантактаў</seg>
+        <seg>Калі ласка, дазвольце дадаць Вас у мой сьпіс кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7953,7 +7955,7 @@
         <seg>Please connect before complete this action</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Для выканання гэтага дзеяння неабходна злучыцца</seg>
+        <seg>Для выкананьня гэтага дзеяньня неабходна злучыцца</seg>
     </tuv>
 </tu>
 <tu>
@@ -7961,7 +7963,7 @@
         <seg>Please connect your QIP account before complete this action</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Для выканання гэтага дзеяння неабходна злучыцца з контам QIP</seg>
+        <seg>Для выкананьня гэтага дзеяньня неабходна злучыцца з контам QIP</seg>
     </tuv>
 </tu>
 <tu>
@@ -7969,7 +7971,7 @@
         <seg>Please enter Quick message text and try again</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі ласка, увядзіце тэкст хуткага паведамлення і паспрабуйце зноў</seg>
+        <seg>Калі ласка, увядзіце тэкст хуткага паведамленьня і паспрабуйце зноў</seg>
     </tuv>
 </tu>
 <tu>
@@ -7985,7 +7987,7 @@
         <seg>Please enter all required login parameters</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Калі ласка, увядзіце усе неабходныя параметры злучэння</seg>
+        <seg>Калі ласка, увядзіце усе неабходныя парамэтры злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8024,8 +8026,8 @@
     <tuv lang="EN">
         <seg>Please, enter correct email address.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Вы ўвялі няправільны э-адрас.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T111012Z">
+        <seg>Калі ласка, увядзіце карэктны эл. адрас.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8041,7 +8043,7 @@
         <seg>Please, keep in mind that left mouse button double click activates or deactivates compact mode. Right mouse button double click hides or shows bottom buttons panel.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112318Z">
-        <seg>Калі ласка, майце на ўвазе, што падвойны пстрык левай клавішай мышы на загалоўку вакна спісу кантактаў уключае і выключае кампактны рэжым. Падвойны пстрык правай клавішай мышы хавае ці паказвае ніжнюю панэль кнопак вакна спісу кантактаў.</seg>
+        <seg>Калі ласка, майце на ўвазе, што падвойны пстрык левай клявішай мышы на загалоўку вакна сьпісу кантактаў уключае і выключае кампактны рэжым. Падвойны пстрык правай клявішай мышы хавае ці паказвае ніжнюю панэль кнопак вакна сьпісу кантактаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8049,7 +8051,7 @@
         <seg>Please, select QIP2005 installation folder</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100356Z">
-        <seg>Азначце, калі ласка, каталог, у якім усталяваная QIP2005</seg>
+        <seg>Азначце, калі ласка, каталёг, у якім усталяваная QIP2005</seg>
     </tuv>
 </tu>
 <tu>
@@ -8057,15 +8059,15 @@
         <seg>Please, specify login server.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084126Z">
-        <seg>Калі ласка, азначце сервер злучэння.</seg>
+        <seg>Калі ласка, азначце сэрвэр злучэньня.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Plugin "%s" raised an exception and will be disabled. Contact plugin developer if the error repeats.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Плагін "%s" выклікаў памылку і будзе выключаны. Звяжыцеся з распрацоўнікам, калі праблема будзе паўтарацца.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104533Z">
+        <seg>Убудова "%s" выклікаў памылку і будзе выключаны. Зьвяжыцеся зь яго распрацоўнікам, калі праблема будзе паўтарацца.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8088,8 +8090,8 @@
     <tuv lang="EN">
         <seg>Plugins</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T082029Z">
-        <seg>Плагіны</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104448Z">
+        <seg>Убудовы</seg>
     </tuv>
 </tu>
 <tu>
@@ -8113,7 +8115,7 @@
         <seg>Popup position</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084027Z">
-        <seg>Пазіцыя вынырца</seg>
+        <seg>Пазыцыя вынырца</seg>
     </tuv>
 </tu>
 <tu>
@@ -8201,7 +8203,7 @@
         <seg>Preparing file for uploading</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Падрыхтоўка файла да запампоўвання</seg>
+        <seg>Падрыхтоўка файла да запампоўваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8209,7 +8211,7 @@
         <seg>Press "Done" and chat with friends!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Націсніце "Гатова" і гутарце з сябрамі!</seg>
+        <seg>Націсьніце "Гатова" і гутарце зь сябрамі!</seg>
     </tuv>
 </tu>
 <tu>
@@ -8217,7 +8219,7 @@
         <seg>Press "Play sound" button. Do you hear playing melody? Is there any sound indicator activity?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Націсніце кнопку "Прайграць гук". Ці чуеце Вы мелодыю? Ці ёсць актыўнасць індыкатара?</seg>
+        <seg>Націсьніце кнопку "Прайграць гук". Ці чуеце Вы мелодыю? Ці ёсьць актыўнасьць індыкатара?</seg>
     </tuv>
 </tu>
 <tu>
@@ -8225,7 +8227,7 @@
         <seg>Press this button if you want to change the password.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Каб змяніць пароль, націсніце гэтую кнопку.</seg>
+        <seg>Каб зьмяніць пароль, націсьніце гэтую кнопку.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8241,7 +8243,7 @@
         <seg>Privacy</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прыватнасць</seg>
+        <seg>Прыватнасьць</seg>
     </tuv>
 </tu>
 <tu>
@@ -8249,7 +8251,7 @@
         <seg>Privacy level</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Узровень прыватнасці</seg>
+        <seg>Узровень прыватнасьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -8257,7 +8259,7 @@
         <seg>Privacy lists</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прыватныя спісы</seg>
+        <seg>Прыватныя сьпісы</seg>
     </tuv>
 </tu>
 <tu>
@@ -8329,7 +8331,7 @@
         <seg>Profile deletion</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаленне профілю</seg>
+        <seg>Выдаленьне профілю</seg>
     </tuv>
 </tu>
 <tu>
@@ -8353,7 +8355,7 @@
         <seg>Program folder (Administrator rights required)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Каталог праграмы (неабходныя адміністратыўныя правы)</seg>
+        <seg>Каталёг праграмы (неабходныя адміністратыўныя правы)</seg>
     </tuv>
 </tu>
 <tu>
@@ -8369,7 +8371,7 @@
         <seg>Protocol version</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Версія пратакола</seg>
+        <seg>Вэрсія пратакола</seg>
     </tuv>
 </tu>
 <tu>
@@ -8401,7 +8403,7 @@
         <seg>Proxy/connection</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Проксі/Злучэнне</seg>
+        <seg>Проксі/Злучэньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8409,7 +8411,7 @@
         <seg>Public chat list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс публічных чатаў</seg>
+        <seg>Сьпіс публічных чатаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -8465,7 +8467,7 @@
         <seg>QIP 2010 allows to merge several contacts into one matacontact. To create metacontact you should drag and drop contacts from the сontact list field to the "Editing metacontact" field. To separate metacontact press the delete icon to the right of the contact. To rename metacontact press the "Editing metacontact" field.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>QIP 2010 дазваляе аб'яднаць некалькі кантактаў у адзін метакантакт. Для стварэння метакантакта перацягніце мышшу кантакты са спісу кантактаў справа ў поле "Метакантакт для рэдагавання". Для раз'яднання метакантакта націсніце на крыжык справа ад яго. Для пераназвання націсніце на поле "Метакантакт для рэдагавання".</seg>
+        <seg>QIP 2010 дазваляе аб'яднаць некалькі кантактаў у адзін метакантакт. Для стварэньня метакантакта перацягніце мышшу кантакты са сьпісу кантактаў справа ў поле "Метакантакт для рэдагаваньня". Для разьяднаньня метакантакта націсьніце на крыжык справа ад яго. Для пераназваньня націсьніце на поле "Метакантакт для рэдагаваньня".</seg>
     </tuv>
 </tu>
 <tu>
@@ -8473,7 +8475,7 @@
         <seg>QIP 2010 gives voice service. If you would like to use another QIP account or SIP ID, enter below</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Мы ўжо паклалі грошы на Ваш рахунак, і пасля запуску QIP 2010 Вы можаце набраць патрэбны Вам нумар! Калі вы жадаеце выкарыстоўваць для галасавой сувязі іншы конт QIP ці SIP ID, увядзіце яго ніжэй</seg>
+        <seg>Мы ўжо паклалі грошы на Ваш рахунак, і пасьля запуску QIP 2010 Вы можаце набраць патрэбны Вам нумар! Калі вы жадаеце выкарыстоўваць для галасавой сувязі іншы конт QIP ці SIP ID, увядзіце яго ніжэй</seg>
     </tuv>
 </tu>
 <tu>
@@ -8481,7 +8483,7 @@
         <seg>QIP 2010 important update available</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Даступна важнае абнаўленне QIP 2010</seg>
+        <seg>Даступна важнае абнаўленьне QIP 2010</seg>
     </tuv>
 </tu>
 <tu>
@@ -8504,8 +8506,8 @@
     <tuv lang="EN">
         <seg>QIP account is not ICQ!\nIf you want to login to ICQ, go back to\nprevious page and choose "ICQ Account"</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Конт QIP - гэта не ICQ!\nДля ўводу лагіна і пароля ад ICQ вярніцеся на\nпапярэдні крок і націсніце "Конт ICQ"</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110747Z">
+        <seg>Конт QIP - гэта не ICQ!\nДля ўваходу ў ICQ вярніцеся на\nпапярэднюю старонку і націсьніце "Конт ICQ"</seg>
     </tuv>
 </tu>
 <tu>
@@ -8513,15 +8515,15 @@
         <seg>QIP account is not ICQ!\r\nIf you want to login to ICQ, go back to\r\nprevious page and choose "ICQ Account"</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191807Z">
-        <seg>Конт QIP - гэта не ICQ!\r\nДля ўваходу ў ICQ вярніцеся на\nпапярэднюю старонку і націсніце "Конт ICQ"</seg>
+        <seg>Конт QIP - гэта не ICQ!\r\nДля ўваходу ў ICQ вярніцеся на\nпапярэднюю старонку і націсьніце "Конт ICQ"</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>QIP and QIP logo are trademarks of the Author of QIP, which may be registered in some jurisdictions. Russian Federation and foreign patents pending. All other company and/or product names are trademarks and/or registered trademarks of their respective owners.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>QIP і лагатып QIP з'яўляюцца гандлёвымі маркамі Аўтара QIP і могуць быць юрыдычна зарэгістраваныя. Астатнія назвы кампаній і/ці прадуктаў з'яўляюцца гандлёвымі маркамі і/ці зарэгістраванымі гандлёвымі маркамі іх уладальнікаў.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110124Z">
+        <seg>QIP і лягатып QIP ёсьць гандлёвымі маркамі Аўтара QIP і могуць быць юрыдычна зарэгістраваныя. Астатнія назвы кампаній і/ці прадуктаў зьяўляюцца гандлёвымі маркамі і/ці зарэгістраванымі гандлёвымі маркамі іх уладальнікаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8553,7 +8555,7 @@
         <seg>QIP team assumes no responsibility for errors, safety and using downloaded third parties modules. The use of the modules is done at your own discretion and risk and with agreement that you will be solely responsible for any damage to your computer system or loss of data that results from such activities.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Каманда QIP не нясе адказнасці за памылкі, надзейнасць і выкарыстанне модуляў трэціх асобаў. Адказнасць за выкарыстанне модуляў поўнасцю перакладваецца на Вашыя асцярожнасць і рызыку, і з Вашай згодай несці адказнасць за магчымую шкоду ці страту звестак.</seg>
+        <seg>Каманда QIP не нясе адказнасьці за памылкі, надзейнасьць і выкарыстаньне модуляў трэціх асобаў. Адказнасьць за выкарыстаньне модуляў поўнасьцю перакладваецца на Вашыя асьцярожнасьць і рызыку, і з Вашай згодай несьці адказнасьць за магчымую шкоду ці страту зьвестак.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8577,7 +8579,7 @@
         <seg>Qip 2010: you got unread messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>QIP 2010: у вас ёсць непрачытаныя паведамленні</seg>
+        <seg>QIP 2010: у вас ёсьць непрачытаныя паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -8593,7 +8595,7 @@
         <seg>Quick message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Хуткае паведамленне</seg>
+        <seg>Хуткае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8617,7 +8619,7 @@
         <seg>Quit message</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101008Z">
-        <seg>Паведамленне "Выйшаў"</seg>
+        <seg>Паведамленьне "Выйшаў"</seg>
     </tuv>
 </tu>
 <tu>
@@ -8625,7 +8627,7 @@
         <seg>Quit program?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выйсці з праграмы?</seg>
+        <seg>Выйсьці з праграмы?</seg>
     </tuv>
 </tu>
 <tu>
@@ -8641,7 +8643,7 @@
         <seg>Quote last received message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Цытаваць апошняе атрыманае паведамленне</seg>
+        <seg>Цытаваць апошняе атрыманае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8657,7 +8659,7 @@
         <seg>Read new incoming event</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прачытаць новае ўваходнае паведамленне</seg>
+        <seg>Прачытаць новае ўваходнае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8665,7 +8667,7 @@
         <seg>Read status message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прачытаць статус-паведамленне</seg>
+        <seg>Прачытаць статус-паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8689,7 +8691,7 @@
         <seg>Receiving</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне</seg>
+        <seg>Атрыманьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -8705,7 +8707,7 @@
         <seg>Recent messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Нядаўнія паведамленні</seg>
+        <seg>Нядаўнія паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -8713,7 +8715,7 @@
         <seg>Reconnect required</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяненні набудуць сілу падчас наступнага злучэння</seg>
+        <seg>Зьмяненьні набудуць сілу падчас наступнага злучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8721,7 +8723,7 @@
         <seg>Reconnect upon disconnection</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T094753Z">
-        <seg>Перазлучацца пасля адлучэння</seg>
+        <seg>Перазлучацца пасьля адлучэньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8793,7 +8795,7 @@
         <seg>Registration error, check entered data.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка рэгістравання, праверце ўведзеныя звесткі.</seg>
+        <seg>Памылка рэгістраваньня, праверце ўведзеныя зьвесткі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -8801,7 +8803,7 @@
         <seg>Registration on QIP.ru server will reduce possibility of yours significant messages and important contacts.\r\n\r\n\r\nTo protect yourself of losing account,</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T110644Z">
-        <seg>Рэгістрацыя на серверы QIP.ru знізіць магчымасць страты вашых важных паведамленняў і кантактаў.\r\n\r\n\r\nКаб абараніць сябе ад страты конта,</seg>
+        <seg>Рэгістрацыя на сэрвэры QIP.ru зьнізіць магчымасьць страты вашых важных паведамленьняў і кантактаў.\r\n\r\n\r\nКаб абараніць сябе ад страты конта,</seg>
     </tuv>
 </tu>
 <tu>
@@ -8809,7 +8811,7 @@
         <seg>Registration process started ...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запушчаны працэс рэгістравання...</seg>
+        <seg>Запушчаны працэс рэгістраваньня...</seg>
     </tuv>
 </tu>
 <tu>
@@ -8817,7 +8819,7 @@
         <seg>Registration status</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Стан рэгістравання</seg>
+        <seg>Стан рэгістраваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8825,7 +8827,7 @@
         <seg>Rejoin channel when kicked</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T100825Z">
-        <seg>Перазайсці на канал пасля выкідвання</seg>
+        <seg>Перазайсьці на канал пасьля выкідваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -8857,7 +8859,7 @@
         <seg>Remember keyboard layout in message tabs/separate windows</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запамінаць раскладку клавіятуры ўва ўкладках/вокнах паведамленняў</seg>
+        <seg>Запамінаць раскладку клявіятуры ўва ўкладках/вокнах паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -8873,7 +8875,7 @@
         <seg>Remind me later</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Нагадаць пазней</seg>
+        <seg>Нагадаць пазьней</seg>
     </tuv>
 </tu>
 <tu>
@@ -8889,7 +8891,7 @@
         <seg>Remove from ignore list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаліць з спісу ігнараваных</seg>
+        <seg>Выдаліць з сьпісу ігнараваных</seg>
     </tuv>
 </tu>
 <tu>
@@ -8897,7 +8899,7 @@
         <seg>Remove from invisible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаліць са спісу невідушчых</seg>
+        <seg>Выдаліць са сьпісу невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -8905,7 +8907,7 @@
         <seg>Remove from visible list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091808Z">
-        <seg>Выдаліць са спісу відушчых</seg>
+        <seg>Выдаліць са сьпісу відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -8913,7 +8915,7 @@
         <seg>Remove myself from contact's list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выдаліць сябе са спісу кантакта</seg>
+        <seg>Выдаліць сябе са сьпісу кантакта</seg>
     </tuv>
 </tu>
 <tu>
@@ -8937,7 +8939,7 @@
         <seg>Replacement/Transliteration</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аўтазамена/Транслітарацыя</seg>
+        <seg>Аўтазамена/Трансьлітарацыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -8969,7 +8971,7 @@
         <seg>Requesting details</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запытванне дэталяў</seg>
+        <seg>Запытваньне дэталяў</seg>
     </tuv>
 </tu>
 <tu>
@@ -8985,7 +8987,7 @@
         <seg>Reservation link error.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка рэзервовага кампанавання.</seg>
+        <seg>Памылка рэзервовага кампанаваньня.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9016,8 +9018,8 @@
     <tuv lang="EN">
         <seg>Restore defaults</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T195136Z">
-        <seg>Перадвызначэнні</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105004Z">
+        <seg>Аднавіць стандарты</seg>
     </tuv>
 </tu>
 <tu>
@@ -9025,15 +9027,15 @@
         <seg>Restore opened tabs/chat windows after profile is loaded</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102248Z">
-        <seg>Аднавіць адчыненыя ўстаўкі/вокны пасля заладвання профілю</seg>
+        <seg>Аднавіць адчыненыя ўстаўкі/вокны пасьля заладваньня профілю</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Restoring default settings. Are you sure?</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Аднавіць перадвызначаныя налады?</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105030Z">
+        <seg>Сапраўды аднавіць стандартныя налады?</seg>
     </tuv>
 </tu>
 <tu>
@@ -9073,7 +9075,7 @@
         <seg>Retired</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пенсіянер</seg>
+        <seg>Пэнсіянер</seg>
     </tuv>
 </tu>
 <tu>
@@ -9081,7 +9083,7 @@
         <seg>Retreiving content length</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне памеру абнаўлення</seg>
+        <seg>Атрыманьне памеру абнаўленьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -9129,7 +9131,7 @@
         <seg>Rollback complete.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101727Z">
-        <seg>Аднаўленне скончанае.</seg>
+        <seg>Аднаўленьне скончанае.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9137,7 +9139,7 @@
         <seg>Rolling back from backup...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Аднаўленне з рэзервовай копіі...</seg>
+        <seg>Аднаўленьне з рэзервовай копіі...</seg>
     </tuv>
 </tu>
 <tu>
@@ -9145,7 +9147,7 @@
         <seg>Rolling back...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101715Z">
-        <seg>Аднаўленне...</seg>
+        <seg>Аднаўленьне...</seg>
     </tuv>
 </tu>
 <tu>
@@ -9177,7 +9179,7 @@
         <seg>Run data Import wizard from QIP 2005</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запусціць майстар імпарту з QIP 2005</seg>
+        <seg>Запусьціць майстар імпарту з QIP 2005</seg>
     </tuv>
 </tu>
 <tu>
@@ -9217,7 +9219,7 @@
         <seg>SMS delivery status</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Стан дасылання SMS</seg>
+        <seg>Стан дасыланьня SMS</seg>
     </tuv>
 </tu>
 <tu>
@@ -9225,7 +9227,7 @@
         <seg>SMS to %s ("%s...") has been successfully delivered.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>SMS на нумар %s ("%s...") паспяхова дасланая.</seg>
+        <seg>SMS на нумар %s ("%s...") пасьпяхова дасланая.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9233,7 +9235,7 @@
         <seg>SMS to %s ("%s...") is not delivered. Subscriber is switched off or out of network coverage.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>SMS на нумар %s ("%s...") не дасланая. Прылада абанента выключаная ці знаходзіцца па-за межамі дзеяння сеткі.</seg>
+        <seg>SMS на нумар %s ("%s...") не дасланая. Прылада абанента выключаная ці знаходзіцца па-за межамі дзеяньня сеткі.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9289,7 +9291,7 @@
         <seg>Saudi Arabia</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Саудаўская Аравія</seg>
+        <seg>Саудаўская Арабія</seg>
     </tuv>
 </tu>
 <tu>
@@ -9313,7 +9315,7 @@
         <seg>Save anti-spam bot messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць паведамленні, атрыманыя анты-спам ботам</seg>
+        <seg>Захоўваць паведамленьні, атрыманыя анты-спам ботам</seg>
     </tuv>
 </tu>
 <tu>
@@ -9329,7 +9331,7 @@
         <seg>Save information messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць інфармацыйныя паведамленні</seg>
+        <seg>Захоўваць інфармацыйныя паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -9337,15 +9339,15 @@
         <seg>Save message history</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць гісторыю паведамленняў</seg>
+        <seg>Захоўваць гісторыю паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Save message history for "Not in list" contacts</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Захоўваць гісторыю паведамленняў для кантактаў "Не ў спісе"</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114856Z">
+        <seg>Захоўваць гісторыю паведамленьняў для кантактаў "Ня ў сьпісе"</seg>
     </tuv>
 </tu>
 <tu>
@@ -9353,7 +9355,7 @@
         <seg>Save messages history on server online</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўвайце гісторыю ўсіх Вашых паведамленняў у сеціве</seg>
+        <seg>Захоўвайце гісторыю ўсіх Вашых паведамленьняў у сеціве</seg>
     </tuv>
 </tu>
 <tu>
@@ -9361,7 +9363,7 @@
         <seg>Save my accounts settings on server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць налады маіх контаў на серверы</seg>
+        <seg>Захоўваць налады маіх контаў на сэрвэры</seg>
     </tuv>
 </tu>
 <tu>
@@ -9369,7 +9371,7 @@
         <seg>Save passwords of my accounts on server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць паролі маіх контаў на серверы</seg>
+        <seg>Захоўваць паролі маіх контаў на сэрвэры</seg>
     </tuv>
 </tu>
 <tu>
@@ -9377,7 +9379,7 @@
         <seg>Save phone number with specified name or \r\nchoose contact in dropdown list to save into contact.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T111649Z">
-        <seg>Захавайце тэлефонны нумар з азначаным імём ці \r\nабярыце кантакт у выпадальным спісе, каб захаваць у яго.</seg>
+        <seg>Захавайце тэлефонны нумар з азначаным імём ці \r\nабярыце кантакт у выпадальным сьпісе, каб захаваць у яго.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9393,7 +9395,7 @@
         <seg>Save service messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць службовыя паведамленні</seg>
+        <seg>Захоўваць службовыя паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -9401,7 +9403,7 @@
         <seg>Save warning messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Захоўваць паведамленні з папярэджаннямі</seg>
+        <seg>Захоўваць паведамленьні з папярэджаньнямі</seg>
     </tuv>
 </tu>
 <tu>
@@ -9425,7 +9427,7 @@
         <seg>Science &amp; Research</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Навуковыя даследаванні</seg>
+        <seg>Навуковыя дасьледаваньні</seg>
     </tuv>
 </tu>
 <tu>
@@ -9441,7 +9443,7 @@
         <seg>Scotland</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Шатландыя</seg>
+        <seg>Шатляндыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -9464,8 +9466,8 @@
     <tuv lang="EN">
         <seg>Search by Email</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T094315Z">
-        <seg>Шукаць па э-адрасе</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110904Z">
+        <seg>Шукаць па эл. адрасе</seg>
     </tuv>
 </tu>
 <tu>
@@ -9545,7 +9547,7 @@
         <seg>Searching for user account</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101948Z">
-        <seg>Пошук конта карыстальніка на серверы</seg>
+        <seg>Пошук конта карыстальніка на сэрвэры</seg>
     </tuv>
 </tu>
 <tu>
@@ -9561,7 +9563,7 @@
         <seg>Secure login</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Бяспечны ўваход</seg>
+        <seg>Бясьпечны ўваход</seg>
     </tuv>
 </tu>
 <tu>
@@ -9577,15 +9579,15 @@
         <seg>Select Profiles folder path:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T081738Z">
-        <seg>Абраць каталог профілю:</seg>
+        <seg>Абраць каталёг профілю:</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Select another login</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Абраць іншы лагін</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110223Z">
+        <seg>Абраць іншы конт</seg>
     </tuv>
 </tu>
 <tu>
@@ -9649,7 +9651,7 @@
         <seg>Send message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Даслаць паведамленне</seg>
+        <seg>Даслаць паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -9657,7 +9659,7 @@
         <seg>Send message on double enter (Enable send on enter)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасылаць па падвойным Enter (уключыце дасыланне па Enter)</seg>
+        <seg>Дасылаць па падвойным Enter (уключыце дасыланьне па Enter)</seg>
     </tuv>
 </tu>
 <tu>
@@ -9713,7 +9715,7 @@
         <seg>Sending</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасыланне</seg>
+        <seg>Дасыланьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -9721,7 +9723,7 @@
         <seg>Sending file</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дасыланне файла</seg>
+        <seg>Дасыланьне файла</seg>
     </tuv>
 </tu>
 <tu>
@@ -9729,7 +9731,7 @@
         <seg>Sending to server, please wait...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Звесткі дасылаюцца на сервер.\nКалі ласка, пачакайце...</seg>
+        <seg>Зьвесткі дасылаюцца на сэрвэр.\nКалі ласка, пачакайце...</seg>
     </tuv>
 </tu>
 <tu>
@@ -9753,7 +9755,7 @@
         <seg>Separate tray icon for chat notifications</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112444Z">
-        <seg>Адасабляць значак латка для паведамленняў чату</seg>
+        <seg>Адасабляць значак латка для паведамленьняў чату</seg>
     </tuv>
 </tu>
 <tu>
@@ -9785,7 +9787,7 @@
         <seg>Server</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сервер</seg>
+        <seg>Сэрвэр</seg>
     </tuv>
 </tu>
 <tu>
@@ -9793,7 +9795,7 @@
         <seg>Server error</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112903Z">
-        <seg>Серверная памылка</seg>
+        <seg>Сэрвэрная памылка</seg>
     </tuv>
 </tu>
 <tu>
@@ -9801,7 +9803,7 @@
         <seg>Server message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сервернае паведамленне</seg>
+        <seg>Сэрвэрнае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -9809,7 +9811,7 @@
         <seg>Server received invalid packet.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090632Z">
-        <seg>Сервер атрымаў недапушчальны пачак.</seg>
+        <seg>Сэрвэр атрымаў недапушчальны пачак.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9817,7 +9819,7 @@
         <seg>Server shutdown command received, reconnect pending.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084404Z">
-        <seg>Атрыманы загад паўзы/выключэння сервера, чаканне перазлучэння.</seg>
+        <seg>Атрыманы загад паўзы/выключэньня сэрвэра, чаканьне перазлучэньня.</seg>
     </tuv>
 </tu>
 <tu>
@@ -9833,7 +9835,7 @@
         <seg>Service message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Службовае паведамленне</seg>
+        <seg>Службовае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -9841,7 +9843,7 @@
         <seg>Service messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Службовыя паведамленні</seg>
+        <seg>Службовыя паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -9865,7 +9867,7 @@
         <seg>Set "automatically choose" checkbox for automatic selection of microphone and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пастаўце сцяжок "абраць аўтаматычна" для аўтаматычнага абрання мікрафона і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Пастаўце сьцяжок "абраць аўтаматычна" для аўтаматычнага абраньня мікрафона і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -9873,7 +9875,7 @@
         <seg>Set "automatically choose" checkbox for automatic selection of speakers and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пастаўце сцяжок "абраць аўтаматычна" для аўтаматычнага абрання дынамікаў і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Пастаўце сьцяжок "абраць аўтаматычна" для аўтаматычнага абраньня дынамікаў і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -9881,7 +9883,7 @@
         <seg>Set "automatically choose" checkbox for automatic selection of webcams and try again. Did that helps?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Пастаўце сцяжок "абраць аўтаматычна" для аўтаматычнага абрання сеціўнай камеры і паўтарыце спробу. Дапамагло?</seg>
+        <seg>Пастаўце сьцяжок "абраць аўтаматычна" для аўтаматычнага абраньня сеціўнай камеры і паўтарыце спробу. Дапамагло?</seg>
     </tuv>
 </tu>
 <tu>
@@ -9896,8 +9898,8 @@
     <tuv lang="EN">
         <seg>Set email/secret question</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Увесці э-адрас/сакрэтнае пытанне</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T111145Z">
+        <seg>Прызначыць эл. адрас/сакрэтнае пытаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -9937,7 +9939,7 @@
         <seg>Show Holiday ballon</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказаць святочныя шарыкі</seg>
+        <seg>Паказаць сьвяточныя шарыкі</seg>
     </tuv>
 </tu>
 <tu>
@@ -10001,7 +10003,7 @@
         <seg>Show holiday balloon in my contact list</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110115T135329Z">
-        <seg>Паказваць святочны шарык у маім спісе кантактаў</seg>
+        <seg>Паказваць сьвяточны шарык у маім сьпісе кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10009,7 +10011,7 @@
         <seg>Show mail notifications</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказваць апавяшчэнні пра прыход пошты</seg>
+        <seg>Паказваць апавяшчэньні пра прыход пошты</seg>
     </tuv>
 </tu>
 <tu>
@@ -10017,7 +10019,7 @@
         <seg>Show mail tray icon</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T194542Z">
-        <seg>Паказваць значак пошты ў сістэмным латку</seg>
+        <seg>Паказваць значак пошты ў сыстэмным латку</seg>
     </tuv>
 </tu>
 <tu>
@@ -10057,7 +10059,7 @@
         <seg>Show only when message window is inactive</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112133Z">
-        <seg>Паказваць толькі падчас неактыўнасці вакна паведамленняў</seg>
+        <seg>Паказваць толькі падчас неактыўнасьці вакна паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10080,8 +10082,8 @@
     <tuv lang="EN">
         <seg>Show plugins icons</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Паказваць значкі плагінаў</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104505Z">
+        <seg>Паказваць значкі ўбудоваў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10089,7 +10091,7 @@
         <seg>Show popup notification</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказваць апавяшчэнне-вынырац</seg>
+        <seg>Паказваць апавяшчэньне-вынырац</seg>
     </tuv>
 </tu>
 <tu>
@@ -10097,7 +10099,7 @@
         <seg>Show recent messages in messaging window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112117Z">
-        <seg>Паказваць нядаўнія паведамленні ў вакне паведамленняў</seg>
+        <seg>Паказваць нядаўнія паведамленьні ў вакне паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10105,7 +10107,7 @@
         <seg>Show server tab</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказаць устаўку сервера</seg>
+        <seg>Паказаць устаўку сэрвэра</seg>
     </tuv>
 </tu>
 <tu>
@@ -10113,7 +10115,7 @@
         <seg>Show standard icon for all contacts in my list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказваць стандартны значак для ўсіх кантактаў у маім спісе</seg>
+        <seg>Паказваць стандартны значак для ўсіх кантактаў у маім сьпісе</seg>
     </tuv>
 </tu>
 <tu>
@@ -10129,7 +10131,7 @@
         <seg>Show tray messages</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паказваць паведамленні-вынырцы ад маіх кантактаў</seg>
+        <seg>Паказваць паведамленьні-вынырцы ад маіх кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10137,7 +10139,7 @@
         <seg>Show/Hide add/find window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112223Z">
-        <seg>Паказаць/схаваць вакно "Дадаць/знайсці карыстальнікаў"</seg>
+        <seg>Паказаць/схаваць вакно "Дадаць/знайсьці карыстальнікаў"</seg>
     </tuv>
 </tu>
 <tu>
@@ -10145,7 +10147,7 @@
         <seg>Show/Hide contact list window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112214Z">
-        <seg>Паказаць/схаваць вакно спісу кантактаў</seg>
+        <seg>Паказаць/схаваць вакно сьпісу кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10153,7 +10155,7 @@
         <seg>Show/Hide find in contact list window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112231Z">
-        <seg>Паказаць/схаваць вакно пошуку карыстальнікаў у спісе кантактаў</seg>
+        <seg>Паказаць/схаваць вакно пошуку карыстальнікаў у сьпісе кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10169,7 +10171,7 @@
         <seg>Show/Hide privacy lists window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112220Z">
-        <seg>Паказаць схаваць вакно прыватных спісаў</seg>
+        <seg>Паказаць схаваць вакно прыватных сьпісаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10177,7 +10179,7 @@
         <seg>Show/Hide tabbed messaging window</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112217Z">
-        <seg>Паказаць/схаваць вакно паведамленняў з устаўкамі</seg>
+        <seg>Паказаць/схаваць вакно паведамленьняў з устаўкамі</seg>
     </tuv>
 </tu>
 <tu>
@@ -10209,7 +10211,7 @@
         <seg>Sign off</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выходзяць з сеціва</seg>
+        <seg>Выходзяць зь сеціва</seg>
     </tuv>
 </tu>
 <tu>
@@ -10281,7 +10283,7 @@
         <seg>Size to make a new archive of history (Kbytes)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090952Z">
-        <seg>Найбольшы памер файла гісторыі для стварэння архіва (кБ)</seg>
+        <seg>Найбольшы памер файла гісторыі для стварэньня архіва (кБ)</seg>
     </tuv>
 </tu>
 <tu>
@@ -10313,7 +10315,7 @@
         <seg>Skip</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прапусціць</seg>
+        <seg>Прапусьціць</seg>
     </tuv>
 </tu>
 <tu>
@@ -10321,7 +10323,7 @@
         <seg>Slap message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Шлёп-паведамленне</seg>
+        <seg>Шлёп-паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -10425,7 +10427,7 @@
         <seg>Sorry, connection failed. Try again or adjust connection settings.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084300Z">
-        <seg>Злучэнне няўдалае. Паўтарыце спробу ці наладзьце злучэнне.</seg>
+        <seg>Злучэньне няўдалае. Паўтарыце спробу ці наладзьце злучэньне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -10457,7 +10459,7 @@
         <seg>Sorry, protocol information was changed on server. Need to restart.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Інфармацыя пра пратаколы на серверы была змененая. Неабходна перазапусціць QIP.</seg>
+        <seg>Інфармацыя пра пратаколы на сэрвэры была зьмененая. Неабходна перазапусьціць QIP.</seg>
     </tuv>
 </tu>
 <tu>
@@ -10465,7 +10467,7 @@
         <seg>Sorry, registration refused</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T095221Z">
-        <seg>Прабачце, у рэгістраванні адмоўлена</seg>
+        <seg>Прабачце, у рэгістраваньні адмоўлена</seg>
     </tuv>
 </tu>
 <tu>
@@ -10473,15 +10475,15 @@
         <seg>Sorry, remote client doesn't support file transfer</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прабачце, праграма кантакта не падтрымлівае дасыланне файлаў</seg>
+        <seg>Прабачце, праграма кантакта не падтрымлівае дасыланьне файлаў</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Sorry, this contact is offline or not in list</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Прабачце, гэты кантакт не злучаны з сецівам ці не ў спісе</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T115203Z">
+        <seg>Прабачце, гэты кантакт не злучаны зь сецівам ці ня ў сьпісе</seg>
     </tuv>
 </tu>
 <tu>
@@ -10489,7 +10491,7 @@
         <seg>Sorry, too many registrations, try later.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прабачце, надта шмат рэгістраванняў. Паспрабуйце пазней.</seg>
+        <seg>Прабачце, надта шмат рэгістраваньняў. Паспрабуйце пазьней.</seg>
     </tuv>
 </tu>
 <tu>
@@ -10505,7 +10507,7 @@
         <seg>Sorry, you reached ignore list limit</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прабачце, дасягнуты ліміт спісу ігнараваных</seg>
+        <seg>Прабачце, дасягнуты ліміт сьпісу ігнараваных</seg>
     </tuv>
 </tu>
 <tu>
@@ -10513,7 +10515,7 @@
         <seg>Sorry, you reached invisible list limit</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прабачце, дасягнуты ліміт спісу невідушчых</seg>
+        <seg>Прабачце, дасягнуты ліміт сьпісу невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -10521,7 +10523,7 @@
         <seg>Sorry, you reached the maximum number of contacts</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091950Z">
-        <seg>Прабачце, колькасць кантактаў дасягнула максімуму</seg>
+        <seg>Прабачце, колькасьць кантактаў дасягнула максімуму</seg>
     </tuv>
 </tu>
 <tu>
@@ -10529,7 +10531,7 @@
         <seg>Sorry, you reached the maximum number of contacts for this group</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T092435Z">
-        <seg>Прабачце, колькасць кантактаў гэтай групы дасягнула максімуму</seg>
+        <seg>Прабачце, колькасьць кантактаў гэтай групы дасягнула максімуму</seg>
     </tuv>
 </tu>
 <tu>
@@ -10537,7 +10539,7 @@
         <seg>Sorry, you reached the maximum number of contacts of this type.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090914Z">
-        <seg>Прабачце, колькасць кантактаў гэтага тыпу дасягнула максімуму.</seg>
+        <seg>Прабачце, колькасьць кантактаў гэтага тыпу дасягнула максімуму.</seg>
     </tuv>
 </tu>
 <tu>
@@ -10545,7 +10547,7 @@
         <seg>Sorry, you reached the maximum number of groups</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091934Z">
-        <seg>Прабачце, колькасць групаў дасягнула максімуму</seg>
+        <seg>Прабачце, колькасьць групаў дасягнула максімуму</seg>
     </tuv>
 </tu>
 <tu>
@@ -10553,7 +10555,7 @@
         <seg>Sorry, you reached the maximum number of groups.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090829Z">
-        <seg>Прабачце, колькасць групаў дасягнула максімуму.</seg>
+        <seg>Прабачце, колькасьць групаў дасягнула максімуму.</seg>
     </tuv>
 </tu>
 <tu>
@@ -10561,7 +10563,7 @@
         <seg>Sorry, you reached visible list limit</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Прабачце, дасягнуты ліміт спісу відушчых</seg>
+        <seg>Прабачце, дасягнуты ліміт сьпісу відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -10593,7 +10595,7 @@
         <seg>Sort mode</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Рэжым сартавання</seg>
+        <seg>Рэжым сартаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -10609,7 +10611,7 @@
         <seg>Sound engine</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гукавая сістэма</seg>
+        <seg>Гукавая сыстэма</seg>
     </tuv>
 </tu>
 <tu>
@@ -10689,7 +10691,7 @@
         <seg>Speakers settings</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T112142Z">
-        <seg>Налады слухавак ці калонак</seg>
+        <seg>Налады слухавак ці калёнак</seg>
     </tuv>
 </tu>
 <tu>
@@ -10697,7 +10699,7 @@
         <seg>Spoken language</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Валоданне мовамі</seg>
+        <seg>Валоданьне мовамі</seg>
     </tuv>
 </tu>
 <tu>
@@ -10769,7 +10771,7 @@
         <seg>Starting session</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрыманне сесіі</seg>
+        <seg>Атрыманьне сесіі</seg>
     </tuv>
 </tu>
 <tu>
@@ -10801,7 +10803,7 @@
         <seg>Status message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Статус-паведамленне</seg>
+        <seg>Статус-паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -10817,7 +10819,7 @@
         <seg>Status notification</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апавяшчэнне пра змену статусаў</seg>
+        <seg>Апавяшчэньне пра зьмену статусаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -10825,7 +10827,7 @@
         <seg>Status notifications</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Апавяшчэнні аб статусах</seg>
+        <seg>Апавяшчэньні аб статусах</seg>
     </tuv>
 </tu>
 <tu>
@@ -10873,7 +10875,7 @@
         <seg>Successfully registered!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паспяхова зарэгістравана!</seg>
+        <seg>Пасьпяхова зарэгістравана!</seg>
     </tuv>
 </tu>
 <tu>
@@ -10881,7 +10883,7 @@
         <seg>Successfully sent</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Паспяхова даслана</seg>
+        <seg>Пасьпяхова даслана</seg>
     </tuv>
 </tu>
 <tu>
@@ -10889,7 +10891,7 @@
         <seg>Successfuly uploaded</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102218Z">
-        <seg>Запампоўванне скончанае</seg>
+        <seg>Запампоўваньне скончанае</seg>
     </tuv>
 </tu>
 <tu>
@@ -10904,8 +10906,8 @@
     <tuv lang="EN">
         <seg>Such account name already exists!</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Такі лагін ужо існуе!</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105402Z">
+        <seg>Такая назва конта ўжо існуе!</seg>
     </tuv>
 </tu>
 <tu>
@@ -10969,7 +10971,7 @@
         <seg>Switch profile</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Змяніць профіль</seg>
+        <seg>Зьмяніць профіль</seg>
     </tuv>
 </tu>
 <tu>
@@ -10977,7 +10979,7 @@
         <seg>Switch to expert mode</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Уключыць рэжым дасведчанага карыстальніка</seg>
+        <seg>Уключыць рэжым дасьведчанага карыстальніка</seg>
     </tuv>
 </tu>
 <tu>
@@ -10985,7 +10987,7 @@
         <seg>Switch to tabbed/separated window mode</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112259Z">
-        <seg>Пераключыць у рэжым устаўкі ці асобнага вакна паведамленняў</seg>
+        <seg>Пераключыць у рэжым устаўкі ці асобнага вакна паведамленьняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -11017,7 +11019,7 @@
         <seg>Tab border light</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Светлая частка мяжы ўстаўкі</seg>
+        <seg>Сьветлая частка мяжы ўстаўкі</seg>
     </tuv>
 </tu>
 <tu>
@@ -11041,7 +11043,7 @@
         <seg>Tagalog</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Тагалог</seg>
+        <seg>Тагалёг</seg>
     </tuv>
 </tu>
 <tu>
@@ -11129,7 +11131,7 @@
         <seg>Thailand</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Тайланд</seg>
+        <seg>Тайлянд</seg>
     </tuv>
 </tu>
 <tu>
@@ -11145,7 +11147,7 @@
         <seg>Thank you. Now you can send messages directly to my contact list.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Дзякуй. Цяпер Вы можаце дасылаць мне паведамленні наўпрост. Thank you. Now you can send messages directly to me.</seg>
+        <seg>Дзякуй. Цяпер Вы можаце дасылаць мне паведамленьні наўпрост. Thank you. Now you can send messages directly to me.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11153,7 +11155,7 @@
         <seg>The data file of this profile is corrupted.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Файл звестак гэтага профілю пашкоджаны.</seg>
+        <seg>Файл зьвестак гэтага профілю пашкоджаны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11161,7 +11163,7 @@
         <seg>The details are empty or stored on the server for this account.\nPlease set it to online or choose another account.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Асабістыя звесткі абранага конта пустыя ці захоўваюцца на серверы. Калі ласка, злучыце яго з сеткай ці абярыце іншы конт.</seg>
+        <seg>Асабістыя зьвесткі абранага конта пустыя ці захоўваюцца на сэрвэры. Калі ласка, злучыце яго зь сеткай ці абярыце іншы конт.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11169,7 +11171,7 @@
         <seg>The details are empty or stored on the server for this account.\r\nPlease set it to online or choose another account.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191534Z">
-        <seg>Асабістыя звесткі абранага конта пустыя ці захоўваюцца на серверы.\r\nКалі ласка, злучыце яго з сеткай ці абярыце іншы конт.</seg>
+        <seg>Асабістыя зьвесткі абранага конта пустыя ці захоўваюцца на сэрвэры.\r\nКалі ласка, злучыце яго зь сеткай ці абярыце іншы конт.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11177,7 +11179,7 @@
         <seg>The details in your QIP account aren't filled up yet.\n\nChoose an account you would like to import your details from:</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Асабістыя звесткі конта QIP яшчэ не запоўненыя.\n\nАбярыце конт у спісе, з якога іх скапіяваць:</seg>
+        <seg>Асабістыя зьвесткі конта QIP яшчэ не запоўненыя.\n\nАбярыце конт у сьпісе, зь якога іх скапіяваць:</seg>
     </tuv>
 </tu>
 <tu>
@@ -11185,15 +11187,15 @@
         <seg>The details in your QIP account aren't filled up yet.\r\n\r\nChoose an account you would like to import your details from:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191500Z">
-        <seg>Асабістыя звесткі конта QIP яшчэ не запоўненыя.\r\n\r\nАбярыце конт, з якога Вы жадаеце іх скапіяваць:</seg>
+        <seg>Асабістыя зьвесткі конта QIP яшчэ не запоўненыя.\r\n\r\nАбярыце конт, зь якога Вы жадаеце іх скапіяваць:</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>The password you entered is not valid.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T081901Z">
-        <seg>Уведзены  пароль няправільны.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T104316Z">
+        <seg>Уведзены пароль няправільны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11201,7 +11203,7 @@
         <seg>The right answer to your question</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Правільны адказ на Вашае пытанне</seg>
+        <seg>Правільны адказ на Вашае пытаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -11216,8 +11218,8 @@
     <tuv lang="EN">
         <seg>This account already exists in your profile. Duplicate anyway?</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Гэты конт ужо існуе ў Вашым профілю. Вы ўпэўненыя, што жадаеце стварыць дублікат?</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105337Z">
+        <seg>Гэты конт ужо ёсьць ў Вашым профілю. Вы сапраўды жадаеце стварыць дублікат?</seg>
     </tuv>
 </tu>
 <tu>
@@ -11241,7 +11243,7 @@
         <seg>This account has been suspended because of terms violations.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абслугоўванне гэтага конту прыпынена з-за парушэння ліцэнзійнай дамовы.</seg>
+        <seg>Абслугоўваньне гэтага конту прыпынена з-за парушэньня ліцэнзійнай дамовы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11249,7 +11251,7 @@
         <seg>This account has been suspended.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абслугоўванне гэтага конта прыпынена.</seg>
+        <seg>Абслугоўваньне гэтага конта прыпынена.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11281,7 +11283,7 @@
         <seg>This account name is available.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты конт даступны для рэгістравання.</seg>
+        <seg>Гэты конт даступны для рэгістраваньня.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11289,7 +11291,7 @@
         <seg>This account temporarily blocked.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты конт часова заблакаваны.</seg>
+        <seg>Гэты конт часова заблякаваны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11297,7 +11299,7 @@
         <seg>This account too heavily warned. Try again later.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты конт мае найвышэйшы ўзровень папярэджанняў. Паспрабуйце пазней.</seg>
+        <seg>Гэты конт мае найвышэйшы ўзровень папярэджаньняў. Паспрабуйце пазьней.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11312,8 +11314,8 @@
     <tuv lang="EN">
         <seg>This details were sent to your email.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Гэтыя звесткі дасланыя на ваш э-адрас</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110947Z">
+        <seg>Гэтыя дэталі дасланыя на ваш эл. адрас</seg>
     </tuv>
 </tu>
 <tu>
@@ -11352,8 +11354,8 @@
     <tuv lang="EN">
         <seg>This is probably your qip.ru account, but password doesn't match. Please, enter correct password and press "Connect" button. You may also create a new account automatically.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Магчыма, гэта Ваш конт на qip.ru, але пароль не падыходзіць. Увядзіце правільны пароль і націсніце "Увайсці" ці стварыце новы лагін аўтаматычна.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110500Z">
+        <seg>Магчыма, гэта Ваш конт на qip.ru, але пароль не падыходзіць. Увядзіце правільны пароль і націсьніце "Злучыць". Таксама вы можаце стварыць новы конт аўтаматычна.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11361,7 +11363,7 @@
         <seg>This profile is QIP account profile and can't be opened under isolated mode.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты профіль з'яўляецца контам QIP і не можа быць адчынены ў ізаляваным рэжыме.</seg>
+        <seg>Гэты профіль зьяўляецца контам QIP і не можа быць адчынены ў ізаляваным рэжыме.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11369,7 +11371,7 @@
         <seg>This profile is already in use by another copy of QIP 2010 on your PC.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты профіль ужо выкарыстоўваецца іншай копіяй QIP 2010 на Вашым камп'ютары.</seg>
+        <seg>Гэты профіль ужо выкарыстоўваецца іншай копіяй QIP 2010 на Вашым кампутары.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11377,7 +11379,7 @@
         <seg>This profile is not QIP account profile and can be opened under isolated mode only.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэты профіль не з'яўляецца контам QIP і можа быць адчынены толькі ў ізаляваным рэжыме.</seg>
+        <seg>Гэты профіль не зьяўляецца контам QIP і можа быць адчынены толькі ў ізаляваным рэжыме.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11385,7 +11387,7 @@
         <seg>This will make selected protocol copy. Please, create copy only if you really need this.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гэтае дзеянне створыць яшчэ адну копію абранага пратакола. Калі ласка, стварайце копіі пратаколаў толькі падчас неабходнасці.</seg>
+        <seg>Гэтае дзеяньне створыць яшчэ адну копію абранага пратакола. Калі ласка, стварайце копіі пратаколаў толькі падчас неабходнасьці.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11393,7 +11395,7 @@
         <seg>This wizard will convert your QIP2005 data and history into QIP 2010. Import process can take long time.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Майстар імпарту дазволіць Вам перанесці звесткі і гісторыю паведамленняў з праграмы QIP2005 у QIP2010. Працэдура імпарту можа заняць доўгі час.</seg>
+        <seg>Майстар імпарту дазволіць Вам перанесьці зьвесткі і гісторыю паведамленьняў з праграмы QIP2005 у QIP2010. Працэдура імпарту можа заняць доўгі час.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11417,7 +11419,7 @@
         <seg>To change QIP account password you have to be connected</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T101920Z">
-        <seg>Для змянення пароля конта QIP Вам неабходна злучыцца</seg>
+        <seg>Для зьмяненьня пароля конта QIP Вам неабходна злучыцца</seg>
     </tuv>
 </tu>
 <tu>
@@ -11425,7 +11427,7 @@
         <seg>To change the password you have to enter current password and new password twice. Strongly recommended using a combination of numbers and letters and that your new password be between 6-8 characters.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Для змянення пароля Вам неабходна ўвесці дзейны пароль і новы пароль двойчы. Настойліва рэкамендавана карыстаць у новым паролі камбінацыю лічбаў і літараў лацінскага алфавіта. Даўжыня пароля павінна быць у межах ад 6 да 8 сімвалаў.</seg>
+        <seg>Для зьмяненьня пароля Вам неабходна ўвесьці дзейны пароль і новы пароль двойчы. Настойліва рэкамендавана карыстаць у новым паролі камбінацыю лічбаў і літараў лацінскага альфабэта. Даўжыня пароля павінна быць у межах ад 6 да 8 сымбаляў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11433,15 +11435,15 @@
         <seg>To disable use\r\nPreferencies / General, option:\r\n'Don't show banner in contact list'</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T102408Z">
-        <seg>Каб выключыць, скарыстайце\r\nНалады / Агульныя, магчымасць "Не паказваць банэр у спісе кантактаў"</seg>
+        <seg>Каб выключыць, скарыстайце\r\nНалады / Агульныя, магчымасьць "Не паказваць банэр у сьпісе кантактаў"</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>To retrieve your password enter your email</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Для аднаўлення пароля азначце свой э-адрас</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110935Z">
+        <seg>Каб вярнуць пароль ўвядзіце свой эл. адрас</seg>
     </tuv>
 </tu>
 <tu>
@@ -11449,7 +11451,7 @@
         <seg>Today !!!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сёння!!!</seg>
+        <seg>Сёньня!!!</seg>
     </tuv>
 </tu>
 <tu>
@@ -11481,7 +11483,7 @@
         <seg>Too many concurrent connections from this IP. Try to reconnect in a few minutes.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T085249Z">
-        <seg>Зашмат адначасовых злучэнняў з гэтага IP! Паспрабуйце перазлучыцца праз некалькі хвілін.</seg>
+        <seg>Зашмат адначасовых злучэньняў з гэтага IP! Паспрабуйце перазлучыцца празь некалькі хвілін.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11489,7 +11491,7 @@
         <seg>Too small length and/or incorrect symbols in password. Please remember password for qip account: %s</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T112754Z">
-        <seg>Надта малая даўжыня і/ці недапушчальныя сімвалы ў паролі. Калі ласка, успомніце пароль для конта QIP: %s</seg>
+        <seg>Надта малая даўжыня і/ці недапушчальныя сымбалы ў паролі. Калі ласка, успомніце пароль для конта QIP: %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -11545,7 +11547,7 @@
         <seg>Transparency</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Празрыстасць</seg>
+        <seg>Празрыстасьць</seg>
     </tuv>
 </tu>
 <tu>
@@ -11561,7 +11563,7 @@
         <seg>Tray message text</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T084016Z">
-        <seg>Тэкст паведамлення-вынырца</seg>
+        <seg>Тэкст паведамленьня-вынырца</seg>
     </tuv>
 </tu>
 <tu>
@@ -11569,7 +11571,7 @@
         <seg>Tray message title text</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Тэкст загалоўка паведамлення-вынырца</seg>
+        <seg>Тэкст загалоўка паведамленьня-вынырца</seg>
     </tuv>
 </tu>
 <tu>
@@ -11585,7 +11587,7 @@
         <seg>Tray notification</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Службовыя паведамленні</seg>
+        <seg>Службовыя паведамленьні</seg>
     </tuv>
 </tu>
 <tu>
@@ -11641,7 +11643,7 @@
         <seg>Turning off the protocols</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выключэнне пратаколаў...</seg>
+        <seg>Выключэньне пратаколаў...</seg>
     </tuv>
 </tu>
 <tu>
@@ -11665,7 +11667,7 @@
         <seg>Typing message to me</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Набіраюць мне паведамленне</seg>
+        <seg>Набіраюць мне паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -11673,7 +11675,7 @@
         <seg>URL message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>URL паведамленне</seg>
+        <seg>URL паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -11713,7 +11715,7 @@
         <seg>Unable to start the download</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Немагчыма пачаць спампаванне</seg>
+        <seg>Немагчыма пачаць спампаваньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -11729,7 +11731,7 @@
         <seg>Unified capabilities</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T091516Z">
-        <seg>Аб'яднаныя здольнасці</seg>
+        <seg>Аб'яднаныя здольнасьці</seg>
     </tuv>
 </tu>
 <tu>
@@ -11769,7 +11771,7 @@
         <seg>University Student</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Студэнт універсітэта</seg>
+        <seg>Студэнт унівэрсітэта</seg>
     </tuv>
 </tu>
 <tu>
@@ -11785,7 +11787,7 @@
         <seg>Unknown server error.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Невядомая серверная памылка.</seg>
+        <seg>Невядомая сэрвэрная памылка.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11801,7 +11803,7 @@
         <seg>Unsorted</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Без сартавання</seg>
+        <seg>Без сартаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -11809,7 +11811,7 @@
         <seg>Unsupported message received.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Атрымана непадтрыманае паведамленне.</seg>
+        <seg>Атрымана непадтрыманае паведамленьне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11833,7 +11835,7 @@
         <seg>Update cancelled</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абнаўленне скасаванае</seg>
+        <seg>Абнаўленьне скасаванае</seg>
     </tuv>
 </tu>
 <tu>
@@ -11841,7 +11843,7 @@
         <seg>Update installing error</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Памылка падчас усталёўвання абнаўлення</seg>
+        <seg>Памылка падчас усталёўваньня абнаўленьня</seg>
     </tuv>
 </tu>
 <tu>
@@ -11849,7 +11851,7 @@
         <seg>Update succesfully complete.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Абнаўленне паспяхова завершанае.</seg>
+        <seg>Абнаўленьне пасьпяхова завершанае.</seg>
     </tuv>
 </tu>
 <tu>
@@ -11865,7 +11867,7 @@
         <seg>Upload granted, checking free space</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запампоўванне дазволена, праверка вольнай прасторы</seg>
+        <seg>Запампоўваньне дазволена, праверка вольнай прасторы</seg>
     </tuv>
 </tu>
 <tu>
@@ -11873,7 +11875,7 @@
         <seg>Uploading ...</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Запампоўванне...</seg>
+        <seg>Запампоўваньне...</seg>
     </tuv>
 </tu>
 <tu>
@@ -11881,7 +11883,7 @@
         <seg>Uploading error</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102144Z">
-        <seg>Памылка запампоўвання</seg>
+        <seg>Памылка запампоўваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -11936,8 +11938,8 @@
     <tuv lang="EN">
         <seg>Use new authentication type</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101212T111230Z">
-        <seg>Карыстаць новы тып аўтэнтыфікацыі</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110832Z">
+        <seg>Карыстаць новы тып апазнаваньня</seg>
     </tuv>
 </tu>
 <tu>
@@ -11945,7 +11947,7 @@
         <seg>Use smaller fonts</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Выкарыстоўваць зменшаныя шрыфты</seg>
+        <seg>Выкарыстоўваць зьменшаныя шрыфты</seg>
     </tuv>
 </tu>
 <tu>
@@ -11969,15 +11971,15 @@
         <seg>Use traffic SSL encryption</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Карыстаць SSL-шыфраванне трафіка</seg>
+        <seg>Карыстаць SSL-шыфраваньне трафіка</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>User exists, checking state</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Карыстальнік знойдзены, праверка стану</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105201Z">
+        <seg>Карыстальнік існуе, праверка стану</seg>
     </tuv>
 </tu>
 <tu>
@@ -11992,8 +11994,8 @@
     <tuv lang="EN">
         <seg>User name</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T195815Z">
-        <seg>Лагін</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T105806Z">
+        <seg>Імя карыстальніка</seg>
     </tuv>
 </tu>
 <tu>
@@ -12001,7 +12003,7 @@
         <seg>User not found on server</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102022Z">
-        <seg>Карыстальнік на серверы не знойдзены</seg>
+        <seg>Карыстальнік на сэрвэры не знойдзены</seg>
     </tuv>
 </tu>
 <tu>
@@ -12017,7 +12019,7 @@
         <seg>Uzbekistan</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Узбекістан</seg>
+        <seg>Узьбекістан</seg>
     </tuv>
 </tu>
 <tu>
@@ -12049,7 +12051,7 @@
         <seg>Version</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Версія</seg>
+        <seg>Вэрсія</seg>
     </tuv>
 </tu>
 <tu>
@@ -12057,7 +12059,7 @@
         <seg>Version: %s</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Версія: %s</seg>
+        <seg>Вэрсія: %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -12105,7 +12107,7 @@
         <seg>Viet Nam</seg>
     </tuv>
     <tuv lang="be">
-        <seg>В'етнам</seg>
+        <seg>Віетнам</seg>
     </tuv>
 </tu>
 <tu>
@@ -12113,7 +12115,7 @@
         <seg>Vietnamese</seg>
     </tuv>
     <tuv lang="be">
-        <seg>В'етнамская</seg>
+        <seg>Віетнамская</seg>
     </tuv>
 </tu>
 <tu>
@@ -12129,7 +12131,7 @@
         <seg>View/change my details</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T082105Z">
-        <seg>Паказаць/змяніць мае дэталі</seg>
+        <seg>Паказаць/зьмяніць мае дэталі</seg>
     </tuv>
 </tu>
 <tu>
@@ -12161,7 +12163,7 @@
         <seg>Visible for All except Invisible List</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Бачны для ўсіх, акрамя спісу невідушчых</seg>
+        <seg>Бачны для ўсіх, акрамя сьпісу невідушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -12169,7 +12171,7 @@
         <seg>Visible list</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спіс відушчых</seg>
+        <seg>Сьпіс відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -12177,7 +12179,7 @@
         <seg>Visible only for Contact List</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Бачны толькі для спісу кантактаў</seg>
+        <seg>Бачны толькі для сьпісу кантактаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -12185,7 +12187,7 @@
         <seg>Visible only for Visible List</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Бачны толькі для спісу відушчых</seg>
+        <seg>Бачны толькі для сьпісу відушчых</seg>
     </tuv>
 </tu>
 <tu>
@@ -12217,7 +12219,7 @@
         <seg>Volume</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Гучнасць</seg>
+        <seg>Гучнасьць</seg>
     </tuv>
 </tu>
 <tu>
@@ -12225,7 +12227,7 @@
         <seg>Waiting</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Чаканне</seg>
+        <seg>Чаканьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -12257,7 +12259,7 @@
         <seg>Warning</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Службовае паведамленне</seg>
+        <seg>Службовае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -12265,7 +12267,7 @@
         <seg>Warning level</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Узровень папярэджанняў</seg>
+        <seg>Узровень папярэджаньняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -12273,7 +12275,7 @@
         <seg>Warning! All the protocols will be turned off!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Увага! Будуць выключаныя ўсе пратаколы, каб пазбегчы памылак!</seg>
+        <seg>Увага! Будуць выключаныя ўсе пратаколы, каб пазьбегчы памылак!</seg>
     </tuv>
 </tu>
 <tu>
@@ -12281,15 +12283,15 @@
         <seg>Warning: QIP account is not online.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110425T101653Z">
-        <seg>Папярэджанне: конт QIP па-за сецівам</seg>
+        <seg>Папярэджаньне: конт QIP па-за сецівам</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>We highly recommend you to change the password and set email or a secret question to restore password if you forget it.</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Мы настойліва рэкамендуем Вам змяніць пароль, а таксама ўвесці э-адрас ці сакрэтнае пытанне для таго, каб можна было прыгадаць пароль.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114416Z">
+        <seg>Мы настойліва рэкамэндуем Вам зьмяніць пароль, а таксама прызначыць эл. адрас ці сакрэтнае пытаньне для аднаўленьня пароля, калі вы яго забудзеце.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12297,7 +12299,7 @@
         <seg>Web Building</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Стварэнне сайтаў</seg>
+        <seg>Стварэньне сайтаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -12313,7 +12315,7 @@
         <seg>Web message</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Сеціўнае паведамленне</seg>
+        <seg>Сеціўнае паведамленьне</seg>
     </tuv>
 </tu>
 <tu>
@@ -12368,16 +12370,16 @@
     <tuv lang="EN">
         <seg>Welcome, new QIP user!\nTo start work, please enter your login and password.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T111907Z">
-        <seg>Вітаем Вас, новы карыстальнік QIP!\nКаб пачаць працу, увядзіце свае лагін і пароль.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110521Z">
+        <seg>Вітаем Вас, новы карыстальнік QIP!\nКаб пачаць працу, увядзіце свае назву конта і пароль.</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Welcome, new QIP user!\r\nTo start work, please enter your login and password.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101128T191636Z">
-        <seg>Вітаем Вас, новы карыстальнік QIP!\r\nКаб пачаць працу, увядзіце свае лагін і пароль.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110324Z">
+        <seg>Вітаем Вас, новы карыстальнік QIP!\r\nКаб пачаць працу, увядзіце свае назву конта і пароль.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12465,7 +12467,7 @@
         <seg>With new QIP 2010 you can call to your friends and colleagues, using a QIP account.\nPlease check your settings before you make any call. \nIf you need a headsets for calls, webcam or USB-phone, you can always</seg>
     </tuv>
     <tuv lang="be">
-        <seg>З дапамогаю QIP Infium Вы можаце тэлефанаваць сябрам і калегам, карыстаючы конт QIP.\nПраверце налады Вашага камп'ютара, перш чым рабіць выклік.\nКалі Вам патрэбная гарнітура для выклікаў, сеціўная камера ці USB-тэлефон, Вы заўсёды можаце</seg>
+        <seg>З дапамогаю QIP Infium Вы можаце тэлефанаваць сябрам і калегам, карыстаючы конт QIP.\nПраверце налады Вашага кампутара, перш чым рабіць выклік.\nКалі Вам патрэбная гарнітура для выклікаў, сеціўная камера ці USB-тэлефон, Вы заўсёды можаце</seg>
     </tuv>
 </tu>
 <tu>
@@ -12473,7 +12475,7 @@
         <seg>With new QIP 2010 you can call to your friends and colleagues, using a QIP account.\r\nPlease check your settings before you make any call. \r\nIf you need a headsets for calls, webcam or USB-phone, you can always</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T191901Z">
-        <seg>З дапамогаю QIP Infium Вы можаце тэлефанаваць сябрам і калегам, карыстаючы конт QIP.\r\nПраверце налады Вашага камп'ютара, перш чым рабіць выклік.\r\nКалі Вам патрэбная гарнітура для выклікаў, сеціўная камера ці USB-тэлефон, Вы заўсёды можаце</seg>
+        <seg>З дапамогаю QIP Infium Вы можаце тэлефанаваць сябрам і калегам, карыстаючы конт QIP.\r\nПраверце налады Вашага кампутара, перш чым рабіць выклік.\r\nКалі Вам патрэбная гарнітура для выклікаў, сеціўная камера ці USB-тэлефон, Вы заўсёды можаце</seg>
     </tuv>
 </tu>
 <tu>
@@ -12513,7 +12515,7 @@
         <seg>Would you like to download new version?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Спампаваць новую версію праграмы?</seg>
+        <seg>Спампаваць новую вэрсію праграмы?</seg>
     </tuv>
 </tu>
 <tu>
@@ -12521,7 +12523,7 @@
         <seg>Would you like to import another account?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Жадаеце імпартаваць звесткі іншага конта?</seg>
+        <seg>Жадаеце імпартаваць зьвесткі іншага конта?</seg>
     </tuv>
 </tu>
 <tu>
@@ -12577,7 +12579,7 @@
         <seg>Yes (accounts will be reconnected)</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Так (патрабуецца перазлучэнне контаў)</seg>
+        <seg>Так (патрабуецца перазлучэньне контаў)</seg>
     </tuv>
 </tu>
 <tu>
@@ -12617,7 +12619,7 @@
         <seg>You are sending messages too fast. Please wait a few minutes or send messages slower, otherwise you will be disconnected.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090800Z">
-        <seg>Вы дасылаеце паведамленні занадта часта. Пачакайце некалькі хвілін ці дасылайце паведамленні павольней, інакш Вы будзеце адлучаныя.</seg>
+        <seg>Вы дасылаеце паведамленьні занадта часта. Пачакайце некалькі хвілін ці дасылайце паведамленьні павольней, інакш Вы будзеце адлучаныя.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12625,7 +12627,7 @@
         <seg>You are using an older protocol version. Upgrade recommended.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090503Z">
-        <seg>Вы карыстаеце старую версію пратакола. Рэкамендуецца абнаўленне.</seg>
+        <seg>Вы карыстаеце старую вэрсію пратакола. Рэкамендуецца абнаўленьне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12633,7 +12635,7 @@
         <seg>You are using an older protocol version. Upgrade required.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T090432Z">
-        <seg>Вы карыстаеце старую версію пратакола. Патрабуецца абнаўленне.</seg>
+        <seg>Вы карыстаеце старую вэрсію пратакола. Патрабуецца абнаўленьне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12657,7 +12659,7 @@
         <seg>You have configured your video and sound settings successfully.\r\nYou can make calls via QIP 2010.\r\nAll voice and video calls between QIP 2010 users are FREE OF CHARGE, and calls to cell and fixed phones are the CHEAPEST!\r\n\r\nFor more info visit</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101212T111134Z">
-        <seg>Вы паспяхова наладзілі відэа і гук.\r\nВы можаце здзяйсняць выклікі праз QIP 2010.\r\nУсе галасавыя і відэавыклікі між карыстальнікамі QIP 2010 ёсць БЯСПЛАТНЫМІ, і выклікі на мабільныя і хатнія тэлефоны ёсць НАЙТАННЕЙШЫЯ!\r\n\r\nПа інфармацыю завітайце на</seg>
+        <seg>Вы пасьпяхова наладзілі відэа і гук.\r\nВы можаце зьдзяйсьняць выклікі праз QIP 2010.\r\nУсе галасавыя і відэавыклікі між карыстальнікамі QIP 2010 ёсьць БЯСПЛАТНЫМІ, і выклікі на мабільныя і хатнія тэлефоны ёсьць НАЙТАНЬНЕЙШЫЯ!\r\n\r\nПа інфармацыю завітайце на</seg>
     </tuv>
 </tu>
 <tu>
@@ -12673,7 +12675,7 @@
         <seg>You have successfully configured video and sound. You can change those settings at any time in preferences dialog. Now you can close the wizard.\nYou can also make calls on phones using QIP 2010. We made present for you as $1 for test calls on phones. More information on pricing is here:</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вы паспяхова наладзілі відэа і гук. Вы можаце здзяйсняць выклікі праз QIP Infium. Зараз можна зачыніць майстар налады відэа і гуку. Вы зможаце змяніць гэтыя налады ў любы час у дыялогу наладаў.\nТаксама мы даруем Вам $1 для тэставых выклікаў на хатнія тэлефоны.</seg>
+        <seg>Вы пасьпяхова наладзілі відэа і гук. Вы можаце зьдзяйсьняць выклікі праз QIP Infium. Зараз можна зачыніць майстар налады відэа і гуку. Вы зможаце зьмяніць гэтыя налады ў любы час у дыялогу наладаў.\nТаксама мы даруем Вам $1 для тэставых выклікаў на хатнія тэлефоны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12681,7 +12683,7 @@
         <seg>You have successfully configured video and sound. You can change those settings at any time in preferences dialog. Now you can close the wizard.\r\nYou can also make calls on phones using QIP 2010. We made present for you as $1 for test calls on phones. More information on pricing is here:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T192119Z">
-        <seg>Вы паспяхова наладзілі відэа і гук. Вы можаце здзяйсняць выклікі праз QIP Infium. Вы зможаце змяніць гэтыя налады ў любы час у адпаведным дыялогу. Зараз можна зачыніць майстар налады відэа і гуку.\r\nТаксама мы даруем Вам $1 для тэставых выклікаў на хатнія тэлефоны. Больш інфармацыі можна атрымаць тут:</seg>
+        <seg>Вы пасьпяхова наладзілі відэа і гук. Вы можаце зьдзяйсьняць выклікі праз QIP Infium. Вы зможаце зьмяніць гэтыя налады ў любы час у адпаведным дыялогу. Зараз можна зачыніць майстар налады відэа і гуку.\r\nТаксама мы даруем Вам $1 для тэставых выклікаў на хатнія тэлефоны. Больш інфармацыі можна атрымаць тут:</seg>
     </tuv>
 </tu>
 <tu>
@@ -12689,7 +12691,7 @@
         <seg>You have successfuly registered for QIP 2010 services!</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вы паспяхова атрымалі доступ да магчымасцяў QIP 2010!</seg>
+        <seg>Вы пасьпяхова атрымалі доступ да магчымасьцяў QIP 2010!</seg>
     </tuv>
 </tu>
 <tu>
@@ -12721,7 +12723,7 @@
         <seg>Your account details for your personal page on www.qip.ru</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вашы звесткі для ўваходу ў асабісты кабінет www.qip.ru</seg>
+        <seg>Вашы зьвесткі для ўваходу ў асабісты кабінет www.qip.ru</seg>
     </tuv>
 </tu>
 <tu>
@@ -12729,7 +12731,7 @@
         <seg>Your anti-spam question</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вашае пытанне кантакту</seg>
+        <seg>Вашае пытаньне кантакту</seg>
     </tuv>
 </tu>
 <tu>
@@ -12737,7 +12739,7 @@
         <seg>Your contact list is empty.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T102350Z">
-        <seg>Ваш спіс кантактаў пусты.</seg>
+        <seg>Ваш сьпіс кантактаў пусты.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12745,15 +12747,15 @@
         <seg>Your display name</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101128T194943Z">
-        <seg>Вашае імя адлюстравання</seg>
+        <seg>Вашае імя адлюстраваньня</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="EN">
         <seg>Your login name for QIP 2010 services</seg>
     </tuv>
-    <tuv lang="be">
-        <seg>Ваш лагін для доступу да службаў QIP 2010</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T110247Z">
+        <seg>Ваш конт для службаў QIP 2010</seg>
     </tuv>
 </tu>
 <tu>
@@ -12761,7 +12763,7 @@
         <seg>Your message after contact gave the right answer</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вашае паведамленне пасля атрымання правільнага адказу</seg>
+        <seg>Вашае паведамленьне пасьля атрыманьня правільнага адказу</seg>
     </tuv>
 </tu>
 <tu>
@@ -12769,7 +12771,7 @@
         <seg>Your message too long.</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Вашае паведамленне занадта доўгае.</seg>
+        <seg>Вашае паведамленьне занадта доўгае.</seg>
     </tuv>
 </tu>
 <tu>
@@ -12777,7 +12779,7 @@
         <seg>Your server meta-contactlist has been chaged by you from another computer. Would you like to synchronize it from server?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ваш серверны спіс метакантактаў быў зменены Вамі з іншага камп'ютара. Сінхранізаваць меткантакты?</seg>
+        <seg>Ваш сэрвэрны сьпіс метакантактаў быў зьменены Вамі зь іншага кампутара. Сінхранізаваць меткантакты?</seg>
     </tuv>
 </tu>
 <tu>
@@ -12849,7 +12851,7 @@
         <seg>[-- File was sent through file.qip.ru. More info http://file.qip.ru --]</seg>
     </tuv>
     <tuv lang="be">
-        <seg>[-- Файл дасланы праз file.qip.ru. Падрабязней тут: http://file.qip.ru --]</seg>
+        <seg>[-- Файл дасланы праз file.qip.ru. Падрабязьней тут: http://file.qip.ru --]</seg>
     </tuv>
 </tu>
 <tu>
@@ -12921,7 +12923,7 @@
         <seg>days to remind before birth date</seg>
     </tuv>
     <tuv lang="be">
-        <seg>дзён нагадвання перад днём народзінаў</seg>
+        <seg>дзён нагадваньня перад днём народзінаў</seg>
     </tuv>
 </tu>
 <tu>
@@ -12968,8 +12970,8 @@
     <tuv lang="EN">
         <seg>set backup email or\r\nsecret question.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101212T110614Z">
-        <seg>прызначце рэзервовы э-адрас ці\r\nсакрэтнае пытанне</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110508T114518Z">
+        <seg>прызначце рэзэрвовы э-адрас ці\r\nсакрэтнае пытаньне</seg>
     </tuv>
 </tu>
 <tu>
@@ -13017,7 +13019,7 @@
         <seg>Сlear data on server?</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Ачысціць звесткі контаў на серверы?</seg>
+        <seg>Ачысьціць зьвесткі контаў на сэрвэры?</seg>
     </tuv>
 </tu>
 <tu>
@@ -13025,7 +13027,7 @@
         <seg>Сonnecting to</seg>
     </tuv>
     <tuv lang="be">
-        <seg>Злучэнне праз</seg>
+        <seg>Злучэньне праз</seg>
     </tuv>
 </tu>
 <tu>
@@ -13036,6 +13038,8 @@
         <seg>а=a б=b в=v г=h ґ=g д=d е=je ё=jo ж=ž з=z і=i й=j к=k л=l м=m н=n о=o п=p р=r с=s т=t у=u ў=ŭ ф=f х=ch ц=c ч=č ш=š ы=y ь=' э=e ю=ju я=ja А=A Б=B В=V Г=H Ґ=G Д=D Е=Je Ё=Jo Ж=Ž З=Z І=I Й=J К=K Л=L М=M Н=N О=O П=P Р=R С=S Т=T У=U Ф=F Х=Ch Ц=C Ч=Č Ш=Š Ы=Y Ь=' Э=E Ю=Ju Я=Ja</seg>
     </tuv>
 </tu>
+
+<!-- Alternative translations -->
 
   </body>
 </tmx>

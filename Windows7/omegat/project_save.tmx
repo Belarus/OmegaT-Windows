@@ -3904,6 +3904,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Another computer:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201315Z">
+        <seg>іншым камп'ютарам:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Anyone who uses this computer</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110108T144807Z">
@@ -7100,6 +7108,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T065453Z">
         <seg>абсягу лакальнага інтранэту...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Local computer:  (the computer this console is running on)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201258Z">
+        <seg>лакальным камп'ютарам (тым, на якім запушчаная гэтая кансоль)</seg>
     </tuv>
 </tu>
 <tu>
@@ -10324,6 +10340,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101204T152510Z">
         <seg>Вырашыць праблемы гуку</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Troubleshoot...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201511Z">
+        <seg>Вырашыць праблемы...</seg>
     </tuv>
 </tu>
 <tu>
@@ -18619,7 +18643,7 @@
         <seg>Advanced system settings</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110108T141523Z">
-        <seg>Дадатковы налады сістэмы</seg>
+        <seg>Дадатковыя налады сістэмы</seg>
     </tuv>
 </tu>
 <tu>
@@ -18627,7 +18651,7 @@
         <seg>Advice:</seg>
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100315T135332Z">
-        <seg>Парада</seg>
+        <seg>Парада:</seg>
     </tuv>
 </tu>
 <tu>
@@ -19132,6 +19156,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100828T080340Z">
         <seg>Усе\nУсе дакументы (*.*)\n*.*</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Allo&amp;w the selected computer to be changed when launching from the command line.  This only applies if you save the console.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201449Z">
+        <seg>Дазволіць вылучанаму камп'ютару быць змененым падчас запуску з загаднага радка. Гэта ўжываецца толькі калі вы захавалі кансоль.</seg>
     </tuv>
 </tu>
 <tu>
@@ -38176,10 +38208,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Device status</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201507Z">
+        <seg>Стан прылады</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Device status is unknown.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110330T080210Z">
         <seg>Стан прылады невядомы.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Device type:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201456Z">
+        <seg>Тып прылады:</seg>
     </tuv>
 </tu>
 <tu>
@@ -38500,6 +38548,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100728T115449Z">
         <seg>Лічбавы выхад</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Digital Signer:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201814Z">
+        <seg>Лічбавы подпіс:</seg>
     </tuv>
 </tu>
 <tu>
@@ -41305,6 +41361,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Dr&amp;iver Details</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201823Z">
+        <seg>Дэталі драйвера</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Draft</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100915T145631Z">
@@ -41645,6 +41709,38 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110421T125304Z">
         <seg>Абранне дыска</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Driver</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201516Z">
+        <seg>Драйвер</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Driver Date:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201551Z">
+        <seg>Дата драйвера:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Driver Provider:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201543Z">
+        <seg>Дастаўнік драйвера:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Driver Version:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201559Z">
+        <seg>Версія драйвера:</seg>
     </tuv>
 </tu>
 <tu>
@@ -73211,8 +73307,8 @@
     <tuv lang="en">
         <seg>Provides access to all Windows administrative tools, including snap-ins and control panels.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100719T144643Z">
-        <seg>Дае доступ да ўсіх адміністрацыйных інструментаў Windows, у тым ліку - да абсталявання і панэляў кіравання.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201052Z">
+        <seg>Дае доступ да ўсіх адміністрацыйных інструментаў Windows, у тым ліку - да прыладдзяў і панэляў кіравання.</seg>
     </tuv>
 </tu>
 <tu>
@@ -74053,6 +74149,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101130T163046Z">
         <seg>Чытанне дазваляе людзям адчыняць файлы, але не змяняць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Read online...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T192142Z">
+        <seg>Чытаць у сеціве...</seg>
     </tuv>
 </tu>
 <tu>
@@ -77635,8 +77739,8 @@
     <tuv lang="en">
         <seg>S&amp;hare</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101130T144226Z">
-        <seg>Даць агульны доступ</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T191455Z">
+        <seg>Абагуліць</seg>
     </tuv>
 </tu>
 <tu>
@@ -77651,16 +77755,16 @@
     <tuv lang="en">
         <seg>S&amp;hare with</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101121T125824Z">
-        <seg>Даць агульны доступ</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T191451Z">
+        <seg>Абагуліць для</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>S&amp;hare with devices</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100725T172128Z">
-        <seg>Даць агульны доступ прыладам</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T191511Z">
+        <seg>Абагуліць для прылад</seg>
     </tuv>
 </tu>
 <tu>
@@ -80777,6 +80881,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Select the computer you want this Snap-in to manage.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201014Z">
+        <seg>Абярыце камп'ютар, якім будзе кіраваць гэтае прыладдзе.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Select the details you want to display for the items in this folder.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100707T114258Z">
@@ -82083,8 +82195,8 @@
     <tuv lang="en">
         <seg>Set custom permissions, create multiple shares, and set other advanced sharing options.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T110204Z">
-        <seg>Дапасаваць дазволы, стварыць абагуленні і прызначыць іншыя дадатковыя налады агульнага доступу.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T191432Z">
+        <seg>Дапасаваць дазволы, стварыць абагуленні і прызначыць іншыя дадатковыя налады абагульвання.</seg>
     </tuv>
 </tu>
 <tu>
@@ -82715,8 +82827,8 @@
     <tuv lang="en">
         <seg>Share with devices</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110502T154458Z">
-        <seg>Абагульваць для прылад</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T191519Z">
+        <seg>Абагуліць для прылад</seg>
     </tuv>
 </tu>
 <tu>
@@ -97537,6 +97649,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>This snap-in will always manage:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201148Z">
+        <seg>Гэтае прыладдзе будзе заўсёды кіраваць:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>This software is typically benign when it runs on your computer, unless it was installed without your knowledge.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100725T180000Z">
@@ -98801,6 +98921,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>To update the driver software for this device.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201924Z">
+        <seg>Абнавіць драйвер апраграмавання гэтай прылады.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>To use the Language bar later, check "Show the Language bar on the desktop" in the Language Bar Settings dialog, which you can find within the Regional and Language Options control panel.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101118T073224Z">
@@ -98837,6 +98965,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101204T145925Z">
         <seg>Каб карыстацца гэтай праграмай, вам неабходна ўсталяваць апошнія абнаўленні для вашага камп'ютара. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>To view details about the driver files.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201852Z">
+        <seg>Прагледзець дэталі аб файлах драйвера.</seg>
     </tuv>
 </tu>
 <tu>
@@ -100301,6 +100437,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T165247Z">
         <seg>Не наведана:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>U&amp;pdate Driver...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201855Z">
+        <seg>Абнавіць драйвер...</seg>
     </tuv>
 </tu>
 <tu>
@@ -114673,6 +114817,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>digital</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201747Z">
+        <seg>лічбавы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>digital license</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101018T173225Z">
@@ -116657,6 +116809,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>of</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T192113Z">
+        <seg>з</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>of %2!d!</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100911T061209Z">
@@ -117733,6 +117893,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T164059Z">
         <seg>малы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>snap-in</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110512T201718Z">
+        <seg>прыладдзе</seg>
     </tuv>
 </tu>
 <tu>
