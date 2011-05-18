@@ -1,0 +1,168 @@
+1 MUI "Data_1231.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1, 	"Network Map"
+2, 	"Show network topology"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+122, 	"Network map of "
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+129, 	"The following discovered device(s) can not be placed in the map."
+130, 	"Click here to see all other devices."
+131, 	"select adapter"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+300, 	"This computer"
+301, 	"Gateway"
+302, 	"Internet"
+303, 	"Hub"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+304, 	"Switch"
+305, 	"Wireless Access Point"
+306, 	"Ad-hoc"
+307, 	"Bridge"
+308, 	"Unknown"
+309, 	"Network"
+310, 	"Windows is creating the network map. "
+311, 	"Windows cannot start mapping on the adapter. Please make sure the adapter is connected and enabled. "
+312, 	"Network Map is disabled on managed network. "
+313, 	"This computer is not connected to the network. "
+314, 	"Invalid map is returned"
+315, 	"An error happened during the processing of the map returned by mapper service. "
+316, 	"An error happened during the mapping process. "
+317, 	"Mapping is completed. "
+319, 	"no gateway"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+321, 	"Name"
+322, 	"MAC Address"
+323, 	"IPv4 Address"
+324, 	"IPv6 Address"
+325, 	"wireless link"
+326, 	"wired link"
+329, 	"An error happened when rendering the map"
+330, 	"Click to diagnose"
+331, 	"No network access"
+332, 	"Not connected"
+333, 	"The adapter is not connected. "
+334, 	"Windows cannot create a network map for the selected type of network connection. "
+335, 	"Why are some computers and devices missing?"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+336, 	"Click here for more information."
+337, 	"Connection line"
+338, 	"%1 between %2 and %3"
+339, 	"Network mapping is disabled by default on domain networks. Your network administrator can use Group Policy to enable mapping."
+340, 	"Windows cannot discover any computer or device. "
+341, 	"Windows cannot create the network map because another user is currently mapping the network."
+342, 	"Windows cannot create the network map because a device on the network malfunctioned."
+343, 	"Windows cannot create the network map because the network’s location type is Public. In order to view the network map, you must set the network’s location type to Home or Work in Network and Sharing Center."
+344, 	"Windows cannot create the network map. Responses from other devices on the network are delayed or there is an incompatible router on the network."
+350, 	"Management URL"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+360, 	"View computers and devices"
+361, 	"Diagnose and repair"
+362, 	"Network and Sharing Center"
+363, 	"See also"
+364, 	"Tasks"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,1,7600,16385
+PRODUCTVERSION 6,1,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Network Map"
+		VALUE "FileVersion", "6.1.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "NetworkMap"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "NetworkMap.DLL.MUI"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.1.7600.16385"
+		VALUE "OleSelfRegister", ""
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
