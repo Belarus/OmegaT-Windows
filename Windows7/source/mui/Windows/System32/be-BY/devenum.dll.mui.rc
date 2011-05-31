@@ -1,0 +1,43 @@
+1 MUI "Data_460.bin"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+7, 	"Default DirectSound Device"
+8, 	"DirectSound: %s"
+9, 	"Default WaveOut Device"
+10, 	"Default MidiOut Device"
+11, 	"Default KS Device"
+12, 	"KS: %s"
+}
+
+
+1 VERSIONINFO
+FILEVERSION 6,6,7600,16385
+PRODUCTVERSION 6,6,7600,16385
+FILEOS 0x40004
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Device enumeration."
+		VALUE "FileVersion", "6.6.7600.16385 (win7_rtm.090713-1255)"
+		VALUE "InternalName", "devenum.dll"
+		VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "devenum.dll.mui"
+		VALUE "ProductName", "Microsoft® Windows® Operating System"
+		VALUE "ProductVersion", "6.6.7600.16385"
+		VALUE "OleSelfRegister", ""
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+

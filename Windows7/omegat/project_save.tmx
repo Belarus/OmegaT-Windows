@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
 <header datatype="plaintext" srclang="en" adminlang="EN-US" o-tmf="OmegaT TMX" segtype="paragraph" creationtoolversion="2.5.0" creationtool="OmegaT"/>
@@ -2803,7 +2803,7 @@
         <seg>%s (%s)\n\nThis is the first time you have interactively logged on to this account.\n\n\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100927T114939Z">
-        <seg>%s (%s)\n\nВы ўпершыню увайшлі ў гэты рахунак інтэрактыўна.\n\n\n</seg>
+        <seg>%s (%s)\n\nВы ўпершыню ўвайшлі ў гэты рахунак інтэрактыўна.\n\n\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -3115,7 +3115,7 @@
         <seg>%s is already included in the library.  You can include a folder only once in the same library.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T173511Z">
-        <seg>Каталог '%s' ужо ўлучаны у бібліятэку. Вы можаце улучыць каталог толькі аднойчы ў тую ж бібліятэку.</seg>
+        <seg>Каталог '%s' ужо ўлучаны у бібліятэку. Вы можаце ўлучыць каталог толькі аднойчы ў тую ж бібліятэку.</seg>
     </tuv>
 </tu>
 <tu>
@@ -3739,7 +3739,7 @@
         <seg>&amp;Adjust how long you need to hold down a mouse or trackball button before your click is "locked."</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110316T093330Z">
-        <seg>Адрэгулюйце, колькі вам неабходна утрымліваць кнопку мышы ці трэкбола, перш чым ваш пстрык заблакуецца.</seg>
+        <seg>Адрэгулюйце, колькі вам неабходна ўтрымліваць кнопку мышы ці трэкбола, перш чым ваш пстрык заблакуецца.</seg>
     </tuv>
 </tu>
 <tu>
@@ -4060,6 +4060,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T192110Z">
         <seg>Аўтаматычна</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Automatically check online for updates and news, then notify me when they're available</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055213Z">
+        <seg>Аўтаматычна правяраць у сеціве наяўнасць абнаўленняў і навін і затым апавяшчаць мяне, калі яны даступныя</seg>
     </tuv>
 </tu>
 <tu>
@@ -4464,6 +4472,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Change settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053826Z">
+        <seg>Змяніць налады</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Change settings...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110120T151207Z">
@@ -4724,6 +4740,14 @@
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100703T190936Z">
         <seg>Згарнуць усе групы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Collect most recently played game information</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053018Z">
+        <seg>Сабраць інфармацыю аб нядаўна згулянай гульні</seg>
     </tuv>
 </tu>
 <tu>
@@ -5248,6 +5272,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;Delete Browsing History...\tCtrl+Shift+Del</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110528T110030Z">
+        <seg>Выдаліць гісторыю аглядання...\tCtrl+Shift+Del</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Delete browsing history...\tCtrl+Shift+Del</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T071148Z">
@@ -5748,6 +5780,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101103T080924Z">
         <seg>Спампаваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Download art and information about installed games</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T052801Z">
+        <seg>Спампаваць выявы і інфармацыю аб усталяваных гульнях</seg>
     </tuv>
 </tu>
 <tu>
@@ -7672,6 +7712,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>&amp;NTSC</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T065307Z">
+        <seg>NTSC</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>&amp;Name:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100728T130124Z">
@@ -7732,6 +7780,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T192113Z">
         <seg>Ніколі</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Never check online for updates or news; I'll do this manually</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055315Z">
+        <seg>Ніколі не правяраць наяўнасць абнаўленняў і навін у сеціве; я зраблю гэта ўручную</seg>
     </tuv>
 </tu>
 <tu>
@@ -8292,6 +8348,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101011T171010Z">
         <seg>Іншы...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;PAL</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T065314Z">
+        <seg>PAL</seg>
     </tuv>
 </tu>
 <tu>
@@ -8955,7 +9019,7 @@
         <seg>&amp;Remove the following properties from this file:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100707T074343Z">
-        <seg>Выдаліць наступныя уласцівасці гэтага файла:</seg>
+        <seg>Выдаліць наступныя ўласцівасці гэтага файла:</seg>
     </tuv>
 </tu>
 <tu>
@@ -9380,6 +9444,14 @@
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100704T193733Z">
         <seg>Запусціць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Safety</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110528T110014Z">
+        <seg>Бяспека</seg>
     </tuv>
 </tu>
 <tu>
@@ -10796,6 +10868,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T064310Z">
         <seg>Разгрупаваць гэтую ўстаўку</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>&amp;Unhide All Items</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053125Z">
+        <seg>Паказаць схаваныя элементы</seg>
     </tuv>
 </tu>
 <tu>
@@ -15314,16 +15394,16 @@
     <tuv lang="en">
         <seg>&lt;a&gt;Read our privacy statement&lt;/a&gt;</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110312T191210Z">
-        <seg>&lt;a&gt;Чытаць нашу заяву прыватнасці&lt;/a&gt;</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053654Z">
+        <seg>&lt;a&gt;Прачытаць нашу заяву прыватнасці&lt;/a&gt;</seg>
     </tuv>
 </tu>
 <tu>
     <tuv lang="en">
         <seg>&lt;a&gt;Read the privacy statement online&lt;/a&gt;</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100707T125811Z">
-        <seg>&lt;a&gt;Чытаць заяву прыватнасці ў сеціве&lt;/a&gt;</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053338Z">
+        <seg>&lt;a&gt;Прачытаць заяву прыватнасці ў сеціве&lt;/a&gt;</seg>
     </tuv>
 </tu>
 <tu>
@@ -17256,6 +17336,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Access game-related tools</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061657Z">
+        <seg>Атрымаць доступ да звязаных з гульнямі інструментаў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Access is denied.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T193945Z">
@@ -18608,6 +18696,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Adds this item to the Start Menu.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062935Z">
+        <seg>Дадае гэты элемент у Пачатковае меню.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Adds, removes, and configures Open Database Connectivity (ODBC) data sources and drivers.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100719T145436Z">
@@ -19004,6 +19100,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T080527Z">
         <seg>Афрыканс</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>After restoring updates, you can choose to install them. We suggest you restore all important updates.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110528T094713Z">
+        <seg>Перад аднаўленнем абнаўленняў, вы можаце абраць іхняе ўсталяванне. Мы прапаноўваем вам аднавіць усе важныя абнаўленні.</seg>
     </tuv>
 </tu>
 <tu>
@@ -19563,7 +19667,7 @@
         <seg>Allow Windows to save your work and enter a low-power state so that you can resume working almost immediately.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101209T171637Z">
-        <seg>Дазволіць Windows захоўваць вашую працу і пераходзіць у рэжым ашчаджання энергіі для магчымасці амаль імгненнага узнаўлення працы.</seg>
+        <seg>Дазволіць Windows захоўваць вашую працу і пераходзіць у рэжым ашчаджання энергіі для магчымасці амаль імгненнага ўзнаўлення працы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -20771,7 +20875,7 @@
         <seg>An unexpected problem occurred. Install any available updates, and then try to start the program again. For information on installing updates, see Help and Support.</seg>
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100319T072250Z">
-        <seg>Адбылася нечаканая памылка. Усталюйце усе даступныя абнаўленні і запусціце праграму зноў. Больш падрабязную інфармацыю глядзіце аб усталёўцы абнаўленняў глядзіце ў цэнтры даведкі і падтрымкі карыстальнікаў.</seg>
+        <seg>Адбылася нечаканая памылка. Усталюйце ўсе даступныя абнаўленні і запусціце праграму зноў. Больш падрабязную інфармацыю глядзіце аб усталёўцы абнаўленняў глядзіце ў цэнтры даведкі і падтрымкі карыстальнікаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -20779,7 +20883,7 @@
         <seg>An unexpected problem occurred. Install any available updates, and then try to start the program again. For information on installing updates, see Help and Support.\r\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101204T145701Z">
-        <seg>Адбылася нечаканая памылка. Усталюйце усе даступныя абнаўленні і запусціце праграму зноў. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
+        <seg>Адбылася нечаканая памылка. Усталюйце ўсе даступныя абнаўленні і запусціце праграму зноў. Інфармацыю аб усталёўванні абнаўленняў глядзіце ў дапамозе і падтрымцы.\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -20820,6 +20924,30 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101130T161500Z">
         <seg>Адбылася невядомая памылка.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>An update has been\ndownloaded.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062433Z">
+        <seg>Абнаўленне было\nспампавана.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>An update is available.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062516Z">
+        <seg>Даступнае абнаўленне.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>An update is available\nfor this game.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062412Z">
+        <seg>Да гэтай гульні\nёсць абнаўленне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -21587,7 +21715,7 @@
         <seg>Apply Properties Error</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T093205Z">
-        <seg>Памылка ўжывання уласцівасцяў</seg>
+        <seg>Памылка ўжывання ўласцівасцяў</seg>
     </tuv>
 </tu>
 <tu>
@@ -21595,7 +21723,7 @@
         <seg>Apply Properties File</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T095606Z">
-        <seg>Ужыванне уласцівасцяў файла</seg>
+        <seg>Ужыванне ўласцівасцяў файла</seg>
     </tuv>
 </tu>
 <tu>
@@ -21603,7 +21731,7 @@
         <seg>Apply Properties Folder</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T095711Z">
-        <seg>Ужыванне уласцівасцяў каталога</seg>
+        <seg>Ужыванне ўласцівасцяў каталога</seg>
     </tuv>
 </tu>
 <tu>
@@ -21611,7 +21739,7 @@
         <seg>Apply Properties to '%1!ls!'</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100709T080941Z">
-        <seg>Ужыванне уласцівасцяў да '%1!ls!'</seg>
+        <seg>Ужыванне ўласцівасцяў да '%1!ls!'</seg>
     </tuv>
 </tu>
 <tu>
@@ -22019,7 +22147,7 @@
         <seg>Are you sure you want to copy this file without its properties? The new file '%2' has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T084349Z">
-        <seg>Вы сапраўды жадаеце скапіяваць гэты файл без яго ўласцівасцяў? Файл '%2' мае уласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце скапіяваць гэты файл без яго ўласцівасцяў? Файл '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22051,7 +22179,7 @@
         <seg>Are you sure you want to copy this folder without its properties? The new folder '%2' has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T084813Z">
-        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго ўласцівасцяў? Каталог '%2' мае уласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго ўласцівасцяў? Каталог '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22059,7 +22187,7 @@
         <seg>Are you sure you want to copy this folder without its properties?\n\nThe folder %1 has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T060950Z">
-        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго уласцівасцяў?\n\nУласцівасці каталога "%1" немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго ўласцівасцяў?\n\nУласцівасці каталога "%1" немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22067,7 +22195,7 @@
         <seg>Are you sure you want to copy this folder without its property '%3'?\n\nThe folder %2 has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T083953Z">
-        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго уласцівасці '%3'?\n\nКаталог '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце скапіяваць гэты каталог без яго ўласцівасці '%3'?\n\nКаталог '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22283,7 +22411,7 @@
         <seg>Are you sure you want to move this file without its properties? The new file '%2' has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T085653Z">
-        <seg>Вы сапраўды жадаеце перамясціць гэты файл без яго ўласцівасцяў? Файл '%2' мае уласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце перамясціць гэты файл без яго ўласцівасцяў? Файл '%2' мае ўласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22291,7 +22419,7 @@
         <seg>Are you sure you want to move this file without its properties?\n\nThe file %1 has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T061030Z">
-        <seg>Вы сапраўды жадаеце перамясціць гэты файл без яго уласцівасцяў?\n\nУласцівасці файла "%1" немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце перамясціць гэты файл без яго ўласцівасцяў?\n\nУласцівасці файла "%1" немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22323,7 +22451,7 @@
         <seg>Are you sure you want to move this folder without its properties? The new folder '%2' has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T085756Z">
-        <seg>Вы сапраўды жадаеце перамясціць гэты каталог без яго ўласцівасцяў? Каталог '%2' мае уласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце перамясціць гэты каталог без яго ўласцівасцяў? Каталог '%2' мае ўласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -22331,7 +22459,7 @@
         <seg>Are you sure you want to move this folder without its properties?\n\nThe folder %1 has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T061121Z">
-        <seg>Вы сапраўды жадаеце перамясціць гэты каталог без яго уласцівасцяў?\n\nУласцівасці каталога "%1" немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Вы сапраўды жадаеце перамясціць гэты каталог без яго ўласцівасцяў?\n\nУласцівасці каталога "%1" немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -23060,6 +23188,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100915T144050Z">
         <seg>Аўдыякружэлка CD</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Audio Devices</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055856Z">
+        <seg>Аўдыяпрылады</seg>
     </tuv>
 </tu>
 <tu>
@@ -25563,7 +25699,7 @@
         <seg>C&amp;hange connection settings\nOpen the connection properties so that I can change the settings.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110517T151436Z">
-        <seg>Змяніць налады злучэння\nАдчыняе уласцівасці злучэння, каб атрымаць магчымасць наладжвання.</seg>
+        <seg>Змяніць налады злучэння\nАдчыняе ўласцівасці злучэння, каб атрымаць магчымасць наладжвання.</seg>
     </tuv>
 </tu>
 <tu>
@@ -26732,6 +26868,14 @@
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100703T174714Z">
         <seg>Скасаваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Cancel Download</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063656Z">
+        <seg>Скасаваць абнаўленне</seg>
     </tuv>
 </tu>
 <tu>
@@ -29360,6 +29504,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Check how well this game will perform on your computer:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062655Z">
+        <seg>Праверце, як добра выконваецца гэтая гульня на вашым камп'ютары:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Check keyboard status</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T160842Z">
@@ -29420,6 +29572,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T104713Z">
         <seg>Праверыць у сеціве наяўнасць вырашэння пазней і перазапусціць праграму</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Check online for updates</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063641Z">
+        <seg>Праверыць наяўнасць абнаўленняў у сеціве</seg>
     </tuv>
 </tu>
 <tu>
@@ -29636,6 +29796,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100725T062926Z">
         <seg>Праверка захавальнасці ў гэтае размяшчэнне...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Checkmate / Draw</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110527T072917Z">
+        <seg>Мат / Нічыя</seg>
     </tuv>
 </tu>
 <tu>
@@ -30860,6 +31028,14 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100314T082156Z">
         <seg>Ачысціць &amp;журнал</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Clear &amp;information</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053035Z">
+        <seg>Ачысціць інфармацыю</seg>
     </tuv>
 </tu>
 <tu>
@@ -33027,7 +33203,7 @@
         <seg>Configure advanced user profile properties</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110108T141548Z">
-        <seg>Наладзіць дадатковыя уласцівасці профілю карыстальніка</seg>
+        <seg>Наладзіць дадатковыя ўласцівасці профілю карыстальніка</seg>
     </tuv>
 </tu>
 <tu>
@@ -34579,7 +34755,7 @@
         <seg>Controls the volume level of recorded and play-back sounds.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T091819Z">
-        <seg>Кіруе узроўнем гучнасці запісу і прайгравання гукаў.</seg>
+        <seg>Кіруе ўзроўнем гучнасці запісу і прайгравання гукаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -34652,6 +34828,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101107T171509Z">
         <seg>Капіюе дзейнае вылучэнне ў кішэню.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Copies the selected item to Clipboard. To put a shortcut in the new location, use the Paste Shortcut command.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062917Z">
+        <seg>Капіюе абраны элемент у кішэню. Каб стварыць пускальнік у новым размяшчэнні, скарыстайце загад "Уставіць пускальнік".</seg>
     </tuv>
 </tu>
 <tu>
@@ -35088,6 +35272,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Could not add additional play tasks.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061458Z">
+        <seg>Немагчыма дадаць дадатковыя гульнявыя задачы.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Could not add the requested feature. The error is: %1</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110215T080721Z">
@@ -35100,6 +35292,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100827T192814Z">
         <seg>Не атрымоўваецца стварыць аб'ект "%1!ls!".</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Could not delete play task.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061517Z">
+        <seg>Немагчыма выдаліць гульнявую задачу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -35674,8 +35874,8 @@
     <tuv lang="en">
         <seg>Create link in %1</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100725T092821Z">
-        <seg>Стварыць спасылку ў '%1'</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T060051Z">
+        <seg>Стварыць спасылку ў %1</seg>
     </tuv>
 </tu>
 <tu>
@@ -36112,6 +36312,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Current System</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062157Z">
+        <seg>Дзейная сістэма</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Current User</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101107T171835Z">
@@ -36420,6 +36628,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110427T144129Z">
         <seg>Дапасаваць фармат</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Customize Play menu items for this game.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063135Z">
+        <seg>Наладзіць элементы меню "Згуляць" для гэтай гульні.</seg>
     </tuv>
 </tu>
 <tu>
@@ -38040,6 +38256,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Default DirectSound Device</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053906Z">
+        <seg>Стандартная прылада DirectSound</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Default Gateway</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110216T163412Z">
@@ -38056,10 +38280,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Default KS Device</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053951Z">
+        <seg>Стандартная прылада KS</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Default Location</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101019T151055Z">
         <seg>стандартнае размяшчэнне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Default MidiOut Device</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053937Z">
+        <seg>Стандартная прылада MidiOut</seg>
     </tuv>
 </tu>
 <tu>
@@ -38076,6 +38316,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100920T072937Z">
         <seg>Стандартны каталог захавання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Default WaveOut Device</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053921Z">
+        <seg>Стандартная прылада WaveOut</seg>
     </tuv>
 </tu>
 <tu>
@@ -39704,6 +39952,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>DirectSound: %s</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053909Z">
+        <seg>DirectSound: %s</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>DirectX Version:</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100728T115032Z">
@@ -40376,6 +40632,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Display Devices</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055841Z">
+        <seg>Прылады адлюстравання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Display Properties</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101019T071559Z">
@@ -40524,6 +40788,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101108T124232Z">
         <seg>Пабудова старонкі наладаў экрана - Канец\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Display Troubleshooter</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053716Z">
+        <seg>Паказаць вырашальнік праблем</seg>
     </tuv>
 </tu>
 <tu>
@@ -41011,7 +41283,7 @@
         <seg>Displays the properties of the selected items.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100710T115657Z">
-        <seg>Адлюстроўвае уласцівасці вылучаных элементаў.</seg>
+        <seg>Адлюстроўвае ўласцівасці вылучаных элементаў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -42236,7 +42508,7 @@
         <seg>Don't work offline\nThis folder will remain online.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T163053Z">
-        <seg>Не працаваць па-за сецівам\nКаталог застанецца у сеціве.</seg>
+        <seg>Не працаваць па-за сецівам\nКаталог застанецца ў сеціве.</seg>
     </tuv>
 </tu>
 <tu>
@@ -42309,6 +42581,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100922T114602Z">
         <seg>Спампоўка - 0% скончана</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Download Now</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062418Z">
+        <seg>Спампаваць зараз</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Download Update</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063649Z">
+        <seg>Спампаваць абнаўленне</seg>
     </tuv>
 </tu>
 <tu>
@@ -42449,6 +42737,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Downloading update...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062321Z">
+        <seg>Спампоўванне абнаўлення...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Downloading updates...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110306T090839Z">
@@ -42548,7 +42844,7 @@
         <seg>Draws a cloud-shaped callout with the selected fill style.\nCloud callout</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110124T115030Z">
-        <seg>Малюе вынятку у форме воблака з абраным стылем запаўнення.\nВынятка ў форме воблака</seg>
+        <seg>Малюе вынятку ў форме воблака з абраным стылем запаўнення.\nВынятка ў форме воблака</seg>
     </tuv>
 </tu>
 <tu>
@@ -43532,7 +43828,7 @@
         <seg>Edit the Folders in this Library</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T154415Z">
-        <seg>Рэдагаваць каталогі у гэтай бібліятэцы</seg>
+        <seg>Рэдагаваць каталогі ў гэтай бібліятэцы</seg>
     </tuv>
 </tu>
 <tu>
@@ -43572,7 +43868,7 @@
         <seg>Edits the property of the selected item.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T162736Z">
-        <seg>Рэдагуе уласцівасць вылучанага элемента.</seg>
+        <seg>Рэдагуе ўласцівасць вылучанага элемента.</seg>
     </tuv>
 </tu>
 <tu>
@@ -43604,7 +43900,7 @@
         <seg>Either the server does not allow anonymous logins or the e-mail address was not accepted.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110223T091545Z">
-        <seg>Ці сэрвер не дазваляе ананімныя уваходы ці эл. адрас непрымальны.</seg>
+        <seg>Ці сэрвер не дазваляе ананімныя ўваходы ці эл. адрас непрымальны.</seg>
     </tuv>
 </tu>
 <tu>
@@ -45741,6 +46037,14 @@
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100704T181614Z">
         <seg>Вандраваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Explore PC games on Windows Marketplace</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061804Z">
+        <seg>Вандраваць па гульнях ПК праз Windows Marketplace</seg>
     </tuv>
 </tu>
 <tu>
@@ -49865,6 +50169,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Game Name</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062129Z">
+        <seg>Назва гульні</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Game Over</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110525T201347Z">
@@ -49873,10 +50185,26 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Game Updates</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062550Z">
+        <seg>Гульнявыя абнаўленні</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Game restrictions</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T141957Z">
         <seg>Абмежаванні гульні</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Game updates and news</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T054106Z">
+        <seg>Абнаўленні і навіны гульняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -49909,6 +50237,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110526T070511Z">
         <seg>Нічыйных разоў: 99999</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Games folder options</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T052720Z">
+        <seg>Налады каталога гульняў</seg>
     </tuv>
 </tu>
 <tu>
@@ -51385,6 +51721,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Hearts</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T060057Z">
+        <seg>Сэрцы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Hebrew</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T093126Z">
@@ -51649,6 +51993,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Hide This Game</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061525Z">
+        <seg>Схаваць гэтую гульню</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Hide This Game Provider</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063721Z">
+        <seg>Схаваць гэтага дастаўніка гульняў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Hide additional plans</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110101T175148Z">
@@ -51765,6 +52125,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110504T085044Z">
         <seg>Схаваць вылучаныя шрыфты ў вашых праграмах</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Hide the selected item from list.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063247Z">
+        <seg>Схаваць абраны элемент са спісу.</seg>
     </tuv>
 </tu>
 <tu>
@@ -53555,8 +53923,8 @@
     <tuv lang="en">
         <seg>If the online privacy statement is not available, please read our privacy statement offline:\r\n</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110324T061019Z">
-        <seg>Калі заява аб прыватнасці недаступная, калі ласка, прачытайце яе па-за сецівам:\r\n</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053626Z">
+        <seg>Калі заява прыватнасці недаступная, калі ласка, прачытайце яе па-за сецівам:\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -54249,6 +54617,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>If your current display driver allows you to change settings, click this button to troubleshoot problems with your computer's display:</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053820Z">
+        <seg>Калі ваш дзейны драйвер экрана дазваляе вам змяняць налады, пстрыкніце гэтую кнопку, каб вырашыць праблемы з экранам вашага камп'ютара:</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>If your password contains capital letters, they must be typed the same way every time you log on.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110429T193432Z">
@@ -54492,7 +54868,7 @@
         <seg>In addition to basic information, the program sends more information to Microsoft about spyware and potentially unwanted software, including the location of the software, file names, how the software operates, and how it has impacted your computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T172054Z">
-        <seg>Як дадатак да асноўных звестак праграма адпраўляе ў Microsoft дадатковую інфармацыю аб шпіёнскіх праграмах і аб патэнцыйна небяспечным  ці непажаданым апраграмаванні, уключаючы размяшчэнне праграм, імёнаў файлаў, апісанне спосабаў працы і уплыву на камп'ютар.</seg>
+        <seg>Як дадатак да асноўных звестак праграма адпраўляе ў Microsoft дадатковую інфармацыю аб шпіёнскіх праграмах і аб патэнцыйна небяспечным  ці непажаданым апраграмаванні, уключаючы размяшчэнне праграм, імёнаў файлаў, апісанне спосабаў працы і ўплыву на камп'ютар.</seg>
     </tuv>
 </tu>
 <tu>
@@ -54545,6 +54921,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>InPrivate Brows&amp;ing\tCtrl+Shift+P</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110528T110104Z">
+        <seg>Прыватнае агляданне\tCtrl+Shift+P</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>InPrivate Filtering &amp;Settings</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110528T110133Z">
+        <seg>Налады прыватнага фільтравання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Inactivate the selected network device so that it cannot be used.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110215T074735Z">
@@ -54564,7 +54956,7 @@
         <seg>Include &amp;subfolders in search results when searching in file folders</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T173000Z">
-        <seg>Улучаць падкаталогі ў вынікі пошуку падчас шукання у каталогах</seg>
+        <seg>Улучаць падкаталогі ў вынікі пошуку падчас шукання ў каталогах</seg>
     </tuv>
 </tu>
 <tu>
@@ -55425,6 +55817,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Install Now</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062439Z">
+        <seg>Усталяваць зараз</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Install Pending</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101103T080444Z">
@@ -55457,6 +55857,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Install Update</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063707Z">
+        <seg>Усталяваць абнаўленне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Install Windows</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101026T104205Z">
@@ -55476,7 +55884,7 @@
         <seg>Install any available updates, and then try to start the program again.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T174843Z">
-        <seg>Усталюйце усе даступныя абнаўленні і запусціце праграму зноў.</seg>
+        <seg>Усталюйце ўсе даступныя абнаўленні і запусціце праграму зноў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -55905,6 +56313,22 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Internet Backgammon</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063356Z">
+        <seg>Сеціўныя нарды</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Internet Checkers</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063336Z">
+        <seg>Сеціўныя шашкі</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Internet Connection Sharing</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T104128Z">
@@ -56141,6 +56565,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100719T105244Z">
         <seg>Кіраўнік службаў сеціва</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Internet Spades</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063455Z">
+        <seg>Сеціўныя пікі</seg>
     </tuv>
 </tu>
 <tu>
@@ -57153,6 +57585,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>KS: %s</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053953Z">
+        <seg>KS: %s</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>KYMC quad</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101019T081802Z">
@@ -57236,7 +57676,7 @@
         <seg>Keep all %d versions in each location</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100715T174748Z">
-        <seg>Захаваць усе (%d) версіі у кожным размяшчэнні</seg>
+        <seg>Захаваць усе (%d) версіі ў кожным размяшчэнні</seg>
     </tuv>
 </tu>
 <tu>
@@ -60137,6 +60577,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Mahjong Titans</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061411Z">
+        <seg>Тытаны маджонгу</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Mail Attachment</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100724T080758Z">
@@ -60412,7 +60860,7 @@
         <seg>Make sure you save your work and close all open programs before restarting.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100924T182825Z">
-        <seg>Пераканайцеся, што вы захавалі вашую працу і зачынілі усе адчыненыя праграмы перад перазапускам.</seg>
+        <seg>Пераканайцеся, што вы захавалі вашую працу і зачынілі ўсе адчыненыя праграмы перад перазапускам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -60420,7 +60868,7 @@
         <seg>Make sure you save your work and close all open programs before you log off.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T103207Z">
-        <seg>Пераканайцеся, што вы захавалі вашую працу і зачынілі усе адчыненыя праграмы перад выхадам.</seg>
+        <seg>Пераканайцеся, што вы захавалі вашую працу і зачынілі ўсе адчыненыя праграмы перад выхадам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -61657,6 +62105,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Microsoft Games</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T060040Z">
+        <seg>Гульні Microsoft</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Microsoft IME</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T074746Z">
@@ -62061,6 +62517,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101108T124338Z">
         <seg>Microsoft-Windows-Documents\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Microsoft-Windows-GameUx</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062151Z">
+        <seg>Microsoft-Windows-GameUx</seg>
     </tuv>
 </tu>
 <tu>
@@ -63013,6 +63477,14 @@
     </tuv>
     <tuv lang="be" changeid="Ales Koshal [icq#:706101]" changedate="20100314T070104Z">
         <seg>Падра&amp;бязней</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>More Games from Microsoft</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055935Z">
+        <seg>Больш гульняў ад Microsoft</seg>
     </tuv>
 </tu>
 <tu>
@@ -65873,6 +66345,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>No, don't download</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062528Z">
+        <seg>Не, не спампоўваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>No, don't show me detailed notifications</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110421T153609Z">
@@ -66204,7 +66684,7 @@
         <seg>Not all personal properties were cleared.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110203T130213Z">
-        <seg>Не ўсе персанальныя уласцівасці былі ачышчаныя.</seg>
+        <seg>Не ўсе персанальныя ўласцівасці былі ачышчаныя.</seg>
     </tuv>
 </tu>
 <tu>
@@ -67732,7 +68212,7 @@
         <seg>Only the logged on user can unlock the computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100926T061505Z">
-        <seg>Толькі увайшоўшы, карыстальнік можа разблакаваць камп'ютар.</seg>
+        <seg>Толькі ўвайшоўшы, карыстальнік можа разблакаваць камп'ютар.</seg>
     </tuv>
 </tu>
 <tu>
@@ -68205,6 +68685,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100902T200013Z">
         <seg>Адчыніць дыялог "Захаваць як" для абрання з усіх магчымых файлавых тыпаў.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Open the SavedGames folder.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063307Z">
+        <seg>Адчыніць каталог захаваных гульняў.</seg>
     </tuv>
 </tu>
 <tu>
@@ -69124,7 +69612,7 @@
         <seg>Other people are logged on to this computer. Restarting Windows might cause them to lose data.\r\n\r\nDo you want to continue restarting?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101206T194603Z">
-        <seg>Іншыя людзі увайшлі на гэты камп'ютар. Перазапуск Windows можа выклікаць страту іхніх звестак.\r\n\r\nПрацягнуць перазапуск?</seg>
+        <seg>Іншыя людзі ўвайшлі на гэты камп'ютар. Перазапуск Windows можа выклікаць страту іхніх звестак.\r\n\r\nПрацягнуць перазапуск?</seg>
     </tuv>
 </tu>
 <tu>
@@ -69132,7 +69620,7 @@
         <seg>Other people are logged on to this computer. Shutting down Windows might cause them to lose data.\r\n\r\nDo you want to continue shutting down?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101206T194544Z">
-        <seg>Іншыя людзі увайшлі на гэты камп'ютар. Выключэнне Windows можа выклікаць страту іхніх звестак.\r\n\r\nПрацягнуць выключэнне?</seg>
+        <seg>Іншыя людзі ўвайшлі на гэты камп'ютар. Выключэнне Windows можа выклікаць страту іхніх звестак.\r\n\r\nПрацягнуць выключэнне?</seg>
     </tuv>
 </tu>
 <tu>
@@ -70269,6 +70757,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110101T165805Z">
         <seg>Бацькоўскі кантроль</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Parental Controls has blocked this game</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055813Z">
+        <seg>Бацькоўскі кантроль заблакаваў гэтую гульню</seg>
     </tuv>
 </tu>
 <tu>
@@ -71617,10 +72113,18 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Pin to Start Menu</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061900Z">
+        <seg>Замацаваць у Пачатковым меню</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Pin to Start menu</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100722T180504Z">
-        <seg>Замацаваць у пачатковым меню</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061907Z">
+        <seg>Замацаваць у Пачатковым меню</seg>
     </tuv>
 </tu>
 <tu>
@@ -71628,6 +72132,14 @@
         <seg>Pin to Tas&amp;kbar</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T062236Z">
+        <seg>Замацаваць на паліцы задач</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Pin to Taskbar</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063522Z">
         <seg>Замацаваць на паліцы задач</seg>
     </tuv>
 </tu>
@@ -71693,6 +72205,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T062723Z">
         <seg>Замацоўвае праграму на паліцы задач.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Pins this item to the Taskbar.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063612Z">
+        <seg>Замацоўвае гэты элемент на паліцы задач.</seg>
     </tuv>
 </tu>
 <tu>
@@ -71893,6 +72413,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T205038Z">
         <seg>Прайграванне пачынаецца</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Play the game or select other play options</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062048Z">
+        <seg>Пачаць гульню ці наладзіць яе</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Play the game.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062020Z">
+        <seg>Пачаць гульню.</seg>
     </tuv>
 </tu>
 <tu>
@@ -73388,7 +73924,7 @@
         <seg>Preview and make changes to pages before printing.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100902T195103Z">
-        <seg>Зрабіць перадпрагляд і ужыць змены перад друкам.</seg>
+        <seg>Зрабіць перадпрагляд і ўжыць змены перад друкам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -74908,7 +75444,7 @@
         <seg>Property Loss</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T053641Z">
-        <seg>Страта уласцівасці</seg>
+        <seg>Страта ўласцівасці</seg>
     </tuv>
 </tu>
 <tu>
@@ -74916,7 +75452,7 @@
         <seg>Property Page</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101126T073935Z">
-        <seg>Старонка уласцівасцяў</seg>
+        <seg>Старонка ўласцівасцяў</seg>
     </tuv>
 </tu>
 <tu>
@@ -75297,6 +75833,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Purble Place</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061323Z">
+        <seg>Purble Place</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Purple</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T164736Z">
@@ -75404,7 +75948,7 @@
         <seg>Quit any disk utilities or other programs that are using this drive, and make sure that no window is displaying the contents of the drive.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100721T121356Z">
-        <seg>Зачыніце усе праграмы, што выкарыстоўваюць дыск, пераканайцеся, што няма вокнаў, якія адлюстроўваюць яго змесціва.</seg>
+        <seg>Зачыніце ўсе праграмы, што выкарыстоўваюць дыск, пераканайцеся, што няма вокнаў, якія адлюстроўваюць яго змесціва.</seg>
     </tuv>
 </tu>
 <tu>
@@ -75705,6 +76249,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Rate this computer</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062716Z">
+        <seg>Ацаніць гэты камп'ютар</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Rate this media</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101027T192217Z">
@@ -75915,8 +76467,8 @@
     <tuv lang="en">
         <seg>Read our privacy statement online:\r\n</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110324T061012Z">
-        <seg>Чытаць заяву пра прыватнасць у сеціве:\r\n</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053618Z">
+        <seg>Прачытаць заяву прыватнасці ў сеціве:\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -75929,10 +76481,18 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Read the Privacy Statement online</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053256Z">
+        <seg>Прачытаць заяву прыватнасці ў сеціве</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Read the privacy statement online</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20100729T105921Z">
-        <seg>Чытаць заяву пра прыватнасць у сеціве</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053407Z">
+        <seg>Прачытаць заяву прыватнасці ў сеціве</seg>
     </tuv>
 </tu>
 <tu>
@@ -76857,6 +77417,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Remove From List</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055953Z">
+        <seg>Прыбраць са спісу</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Remove Password</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T171059Z">
@@ -77041,6 +77609,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Remove the selected item from List.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063231Z">
+        <seg>Прыбраць абраны элемент са спісу.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Remove this &amp;page</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T062555Z">
@@ -77053,6 +77629,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110422T062601Z">
         <seg>Выдаліць гэты манітор</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Remove this item from the Start Menu.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063319Z">
+        <seg>Выдаліць гэты элемент з пачатковага меню.</seg>
     </tuv>
 </tu>
 <tu>
@@ -77125,6 +77709,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T061923Z">
         <seg>Выдаліць элемент з Пачатковага меню</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Removes this item from the Taskbar.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063556Z">
+        <seg>Выдаляе гэты элемент з паліцы задач.</seg>
     </tuv>
 </tu>
 <tu>
@@ -77493,6 +78085,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100720T105504Z">
         <seg>Запытваць пароль падчас абуджэння камп'ютара</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Required</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062217Z">
+        <seg>Патрабуецца</seg>
     </tuv>
 </tu>
 <tu>
@@ -78417,6 +79017,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Return to Game</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110527T073002Z">
+        <seg>Вярнуцца да гульні</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Return to previous view.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101029T192156Z">
@@ -79220,6 +79828,14 @@
         <seg>Run as &amp;administrator</seg>
     </tuv>
     <tuv lang="be" changeid="alex" changedate="20100704T181756Z">
+        <seg>Запусціць як адміністратар</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Run as administrator</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055907Z">
         <seg>Запусціць як адміністратар</seg>
     </tuv>
 </tu>
@@ -80905,6 +81521,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Scanning for game updates...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062300Z">
+        <seg>Прагляд на наяўнасць абнаўленняў гульняў...</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Scanning your computer...</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T171214Z">
@@ -82019,8 +82643,8 @@
     <tuv lang="en">
         <seg>See our online &lt;A HREF="http://go.microsoft.com/fwlink/?LinkId=104288"&gt;privacy statement&lt;/A&gt; for data collection and use information.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110119T102611Z">
-        <seg>Глядзіце нашу сеціўную &lt;A HREF="http://go.microsoft.com/fwlink/?LinkId=104288"&gt;заяву аб прыватнасці&lt;/A&gt; для збірання звестак і карыстання інфармацыяй.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053419Z">
+        <seg>Глядзіце нашу сеціўную &lt;A HREF="http://go.microsoft.com/fwlink/?LinkId=104288"&gt;заяву прыватнасці&lt;/A&gt; для збірання звестак і карыстання інфармацыяй.</seg>
     </tuv>
 </tu>
 <tu>
@@ -83244,7 +83868,7 @@
         <seg>Selects all items on this page.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100910T140945Z">
-        <seg>Вылучае усе элементы на гэтай старонцы.</seg>
+        <seg>Вылучае ўсе элементы на гэтай старонцы.</seg>
     </tuv>
 </tu>
 <tu>
@@ -84097,6 +84721,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Set up Games folder options</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055923Z">
+        <seg>Наладзіць каталог гульняў</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Set up Parental Controls</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110404T142005Z">
@@ -84205,6 +84837,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101030T161139Z">
         <seg>Наладзіць правілы тэлефанавання</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Set up game updates and options</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T052419Z">
+        <seg>Абнавіць і наладзіць гульні</seg>
     </tuv>
 </tu>
 <tu>
@@ -86004,7 +86644,7 @@
         <seg>Shows the properties for this print server.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110314T120448Z">
-        <seg>Паказвае уласцівасці гэтага сэрвера друкарак.</seg>
+        <seg>Паказвае ўласцівасці гэтага сэрвера друкарак.</seg>
     </tuv>
 </tu>
 <tu>
@@ -88705,6 +89345,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Spider Solitaire</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061434Z">
+        <seg>Пасьянс "Павук"</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Splits the active window into panes.\nSplit</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100905T114744Z">
@@ -89933,6 +90581,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110213T111335Z">
         <seg>Заменена\r\n</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Support</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055942Z">
+        <seg>Падтрымка</seg>
     </tuv>
 </tu>
 <tu>
@@ -93300,7 +93956,7 @@
         <seg>The file '%1' contains secondary properties that the destination volume does not support.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T223355Z">
-        <seg>Файл '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
+        <seg>Файл '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -93308,7 +93964,7 @@
         <seg>The file '%1' contains secondary properties that the destination volume does not support. Some data will not be preserved as a result. Do you want to copy the file anyway?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T081601Z">
-        <seg>Файл '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце скапіяваць файл?</seg>
+        <seg>Файл '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце скапіяваць файл?</seg>
     </tuv>
 </tu>
 <tu>
@@ -93716,7 +94372,7 @@
         <seg>The fle '%1' contains secondary properties that the destination volume does not support.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T223407Z">
-        <seg>Файл '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
+        <seg>Файл '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -93724,7 +94380,7 @@
         <seg>The fle '%1' contains secondary properties that the destination volume does not support. Some data will not be preserved as a result. Do you want to move the file anyway?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T081710Z">
-        <seg>Файл '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце перамясціць файл?</seg>
+        <seg>Файл '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце перамясціць файл?</seg>
     </tuv>
 </tu>
 <tu>
@@ -93772,7 +94428,7 @@
         <seg>The folder '%1' contains secondary properties that the destination volume does not support.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T223415Z">
-        <seg>Каталог '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
+        <seg>Каталог '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -93780,7 +94436,7 @@
         <seg>The folder '%1' contains secondary properties that the destination volume does not support. Some data will not be preserved as a result. Do you want to copy the folder anyway?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T081628Z">
-        <seg>Каталог '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце скапіяваць каталог?</seg>
+        <seg>Каталог '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце скапіяваць каталог?</seg>
     </tuv>
 </tu>
 <tu>
@@ -93788,7 +94444,7 @@
         <seg>The folder '%1' contains secondary properties that the destination volume does not support. Some data will not be preserved as a result. Do you want to move the folder anyway?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100716T081728Z">
-        <seg>Каталог '%1' змяшчае другасныя уласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце перамясціць каталог?</seg>
+        <seg>Каталог '%1' змяшчае другасныя ўласцівасці, якія не падтрымліваюцца мэтавым раздзелам. У выніку некаторыя звесткі не будуць захаваныя. Усё роўна жадаеце перамясціць каталог?</seg>
     </tuv>
 </tu>
 <tu>
@@ -94540,7 +95196,7 @@
         <seg>The new file '%2' has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T084349Z">
-        <seg>Файл '%2' мае уласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Файл '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -94548,7 +95204,7 @@
         <seg>The new file '%2' has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T085653Z">
-        <seg>Файл '%2' мае уласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Файл '%2' мае ўласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -94588,7 +95244,7 @@
         <seg>The new folder '%2' has properties that can't be copied to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T084813Z">
-        <seg>Каталог '%2' мае уласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
+        <seg>Каталог '%2' мае ўласцівасці, якія немагчыма скапіяваць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -94596,7 +95252,7 @@
         <seg>The new folder '%2' has properties that can't be moved to the new location.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100717T085756Z">
-        <seg>Каталог '%2' мае уласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
+        <seg>Каталог '%2' мае ўласцівасці, якія немагчыма перамясціць у новае размяшчэнне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -94716,7 +95372,7 @@
         <seg>The password hint will be visible to everyone who uses this computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110429T193507Z">
-        <seg>Падказка да пароля будзе бачная усім, хто карыстае гэты камп'ютар.</seg>
+        <seg>Падказка да пароля будзе бачная ўсім, хто карыстае гэты камп'ютар.</seg>
     </tuv>
 </tu>
 <tu>
@@ -96484,7 +97140,7 @@
         <seg>There are profiles that will be enabled with your change\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101021T061951Z">
-        <seg>Ёсць профілі, якія уключацца пасля змянення\n</seg>
+        <seg>Ёсць профілі, якія ўключацца пасля змянення\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -96492,7 +97148,7 @@
         <seg>There are profiles that will be enabled with your change\r\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101108T124549Z">
-        <seg>Ёсць профілі, якія уключацца пасля змянення\r\n</seg>
+        <seg>Ёсць профілі, якія ўключацца пасля змянення\r\n</seg>
     </tuv>
 </tu>
 <tu>
@@ -96732,7 +97388,7 @@
         <seg>There is not enough room to show all of the items in your system tray.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101029T200030Z">
-        <seg>Бракуе месца для адлюстравання усіх значкаў у сістэмным латку.</seg>
+        <seg>Бракуе месца для адлюстравання ўсіх значкаў у сістэмным латку.</seg>
     </tuv>
 </tu>
 <tu>
@@ -96740,7 +97396,7 @@
         <seg>There is not enough room to show all of the items in your system tray. Please uninstall some programs, or try a higher screen resolution.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T053250Z">
-        <seg>Бракуе месца для адлюстравання усіх іконак у сістэмным латку. Калі ласка, выдаліце некаторыя праграмы ці паспрабуйце вышэйшую разрознасць экрана.</seg>
+        <seg>Бракуе месца для адлюстравання ўсіх іконак у сістэмным латку. Калі ласка, выдаліце некаторыя праграмы ці паспрабуйце вышэйшую разрознасць экрана.</seg>
     </tuv>
 </tu>
 <tu>
@@ -97404,7 +98060,7 @@
         <seg>This computer is locked. Only the logged on user can unlock the computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100926T061505Z">
-        <seg>Гэты камп'ютар заблакаваны. Толькі увайшоўшы, карыстальнік можа разблакаваць камп'ютар.</seg>
+        <seg>Гэты камп'ютар заблакаваны. Толькі ўвайшоўшы, карыстальнік можа разблакаваць камп'ютар.</seg>
     </tuv>
 </tu>
 <tu>
@@ -97852,7 +98508,7 @@
         <seg>This file is not one of the supported file types, which include .bmp, .jpg, .jpeg and .dib. Please close this dialog and select a different picture for your background.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110409T182431Z">
-        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія улучаюць .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
+        <seg>Тып гэтага файла не з'яўляецца адным з падтрыманых тыпаў, якія ўлучаюць .bmp, .jpg, .jpeg і .dib. Калі ласка, зачыніце гэты дыялог і абярыце іншы відарыс для фону.</seg>
     </tuv>
 </tu>
 <tu>
@@ -99625,6 +100281,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>This text is the name of the game.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063731Z">
+        <seg>Гэты тэкст ёсць назваю гульні.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>This time is not valid due to Daylight Saving Time.\n</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110429T191527Z">
@@ -99677,6 +100341,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T091343Z">
         <seg>Гэта дазволіць вам праверыць наяўнасць вырашэння пазней.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>This will make the Games folder permanently inaccessible.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T060019Z">
+        <seg>Гэта зробіць каталог гульняў назаўсёды недаступным.</seg>
     </tuv>
 </tu>
 <tu>
@@ -100281,6 +100953,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>To find out why this game is blocked, check your Parental Controls settings. If you need access to this game, ask permission from the person who set up Parental Controls.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055753Z">
+        <seg>Каб даведацца, чаму гэтая гульня заблакаваная, праверце вашыя налады бацькоўскага кантролю. Калі вам неабходны доступ да гэтае гульні, запытайце дазвол у асобы, якая яго ўсталёўвала.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>To finish removing spyware and other potentially unwanted software, restart the computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T171802Z">
@@ -100348,7 +101028,7 @@
         <seg>To gain access to this folder you will need to use the &lt;a&gt;security tab&lt;/a&gt;.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100710T080414Z">
-        <seg>Каб атрымаць доступ да гэтага каталога, вам неабходна перайсці на устаўку &lt;a&gt;'Бяспека'&lt;/a&gt;.</seg>
+        <seg>Каб атрымаць доступ да гэтага каталога, вам неабходна перайсці на ўстаўку &lt;a&gt;'Бяспека'&lt;/a&gt;.</seg>
     </tuv>
 </tu>
 <tu>
@@ -102779,8 +103459,8 @@
     <tuv lang="en">
         <seg>Unable to access the computer %s\nMake sure that this computer is on the network, has remote administration enabled,\nand is running the "Plug and Play" and "Remote registry" services.\n\nThe error was: %s</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110514T185910Z">
-        <seg>Немагчыма атрымаць доступ да камп'ютара %s\nПераканайцеся, што гэты камп'ютар у сетцы мае уключаным аддаленае адміністраванне\n і запушчаныя службы "Plug&amp;Play" і "Аддалены рэестр".\n\nПамылка:</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110527T073146Z">
+        <seg>Немагчыма атрымаць доступ да камп'ютара %s \nПераканайцеся, што гэты камп'ютар у сетцы мае ўключаным аддаленае адміністраванне\n і запушчаныя службы "Plug&amp;Play" і "Аддалены рэестр".\n\nПамылка: %s</seg>
     </tuv>
 </tu>
 <tu>
@@ -103913,6 +104593,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Unpin from Start Menu</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061936Z">
+        <seg>Адмацаваць з Пачатковага меню</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Unpin from Start menu</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100722T180447Z">
@@ -103924,6 +104612,14 @@
         <seg>Unpin from Tas&amp;kbar</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100711T062252Z">
+        <seg>Адмацаваць з паліцы задач</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Unpin from Taskbar</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T063544Z">
         <seg>Адмацаваць з паліцы задач</seg>
     </tuv>
 </tu>
@@ -104145,6 +104841,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Update Downloaded</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062500Z">
+        <seg>Абнаўленне спампаванае.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Update Driver Software</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110514T190156Z">
@@ -104181,6 +104885,22 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100723T184916Z">
         <seg>Абнавіць усе элементы</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Update available</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062447Z">
+        <seg>Даступнае абнаўленне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Update check complete.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062310Z">
+        <seg>Праверка наяўнасці абнаўленняў скончаная.</seg>
     </tuv>
 </tu>
 <tu>
@@ -105739,8 +106459,8 @@
     <tuv lang="en">
         <seg>View &amp;privacy statement online</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101030T171932Z">
-        <seg>Прагледзець заяву пра прыватнасць у сеціве</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053327Z">
+        <seg>Прагледзець заяву прыватнасці ў сеціве</seg>
     </tuv>
 </tu>
 <tu>
@@ -106299,8 +107019,8 @@
     <tuv lang="en">
         <seg>View the Microsoft error reporting privacy statement online</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101029T193816Z">
-        <seg>Прагледзець заяву Microsoft пра прыватнасць справаздач аб памылках у сеціве</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053603Z">
+        <seg>Прагледзець  у сеціве заяву Microsoft аб прыватнасці справаздач аб памылках</seg>
     </tuv>
 </tu>
 <tu>
@@ -106445,6 +107165,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110316T091807Z">
         <seg>Бачнасць</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Visit the website to get more information about the game.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062747Z">
+        <seg>Наведайце гэты сайт, каб атрымаць больш інфармацыі аб гэтай гульні.</seg>
     </tuv>
 </tu>
 <tu>
@@ -106905,6 +107633,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>We do not collect information that can be used to contact you.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053157Z">
+        <seg>Мы не збіраем інфармацыю, якая можа быць скарыстана для кантакту з вамі.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>We recommend scheduling a daily scan of your computer.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100713T172115Z">
@@ -107356,7 +108092,7 @@
         <seg>When Internet Connection Sharing is enabled, your LAN adapter will be set to use IP address %1. Your computer may lose connectivity with other computers on your network. If these other computers have static IP addresses, you should set them to obtain their IP addresses automatically.  Are you sure you want to enable Internet Connection Sharing?</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110502T105540Z">
-        <seg>Калі абагульванне злучэння з сецівам уключаецца, вашаму сеткаваму адаптару будзе прызначаны для карыстання IP-адрас %1. Ваш камп'ютар можа страціць злучальнасць з іншымі камп'ютарамі вашай сеткі. Калі гэтыя камп'ютары маюць статычныя IP-адрасы, вы павінны прызначыць ім аўтаматычнае атрыманне IP-адрасоў. Вы сапраўды жадаеце уключыць абагульванне злучэння з сецівам?</seg>
+        <seg>Калі абагульванне злучэння з сецівам уключаецца, вашаму сеткаваму адаптару будзе прызначаны для карыстання IP-адрас %1. Ваш камп'ютар можа страціць злучальнасць з іншымі камп'ютарамі вашай сеткі. Калі гэтыя камп'ютары маюць статычныя IP-адрасы, вы павінны прызначыць ім аўтаматычнае атрыманне IP-адрасоў. Вы сапраўды жадаеце ўключыць абагульванне злучэння з сецівам?</seg>
     </tuv>
 </tu>
 <tu>
@@ -108233,6 +108969,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Windows Marketplace Games</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T061711Z">
+        <seg>Гульні Windows Marketplace</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Windows Media</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100719T092648Z">
@@ -108325,6 +109069,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101103T081640Z">
         <seg>Кіраўнік пакункаў Windows</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>Windows Parental Controls</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T060032Z">
+        <seg>Бацькоўскі кантроль Windows</seg>
     </tuv>
 </tu>
 <tu>
@@ -109305,6 +110057,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Windows can provide additional information about the games installed on your computer by downloading information from the Internet.</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T052545Z">
+        <seg>Windows можа даць дадатковую інфармацыю аб гульнях, усталяваных на вашым камп'ютары, праз спампоўванне інфармацыі з сеціва.</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Windows can try to recover your information and restart the program.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T110651Z">
@@ -109692,7 +110452,7 @@
         <seg>Windows cannot format this drive. Quit any disk utilities or other programs that are using this drive, and make sure that no window is displaying the contents of the drive. Then try formatting again.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101124T081408Z">
-        <seg>Windows не можа адфарматаваць гэты дыск. Зачыніце усе праграмы, што выкарыстоўваюць дыск, пераканайцеся, што няма вокнаў, якія адлюстроўваюць яго змесціва. Тады паўтарыце спробу фарматавання.</seg>
+        <seg>Windows не можа адфарматаваць гэты дыск. Зачыніце ўсе праграмы, што выкарыстоўваюць дыск, пераканайцеся, што няма вокнаў, якія адлюстроўваюць яго змесціва. Тады паўтарыце спробу фарматавання.</seg>
     </tuv>
 </tu>
 <tu>
@@ -111697,6 +112457,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>Yes, download the update</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T062538Z">
+        <seg>Так, спампаваць абнаўленне</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>Yes, send more information automatically (recommended)</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110323T105146Z">
@@ -111788,7 +112556,7 @@
         <seg>You are about to save the document in a Text-Only format, which will remove all formatting.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101119T230125Z">
-        <seg>Захаванне дакумента у фармаце 'толькі тэкст' знішчыць усё фарматаванне.</seg>
+        <seg>Захаванне дакумента ў фармаце 'толькі тэкст' знішчыць усё фарматаванне.</seg>
     </tuv>
 </tu>
 <tu>
@@ -111796,7 +112564,7 @@
         <seg>You are about to save the document in a Text-Only format, which will remove all formatting. Are you sure you want to do this?\n\nTo save in other format, click No.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110517T164008Z">
-        <seg>Захаванне дакумента у фармаце 'толькі тэкст' знішчыць усё фарматаванне. Вы сапраўды жадаеце зрабіць гэта?\n\nКаб захаваць у іншым фармаце, націсніце "Не".</seg>
+        <seg>Захаванне дакумента ў фармаце 'толькі тэкст' знішчыць усё фарматаванне. Вы сапраўды жадаеце зрабіць гэта?\n\nКаб захаваць у іншым фармаце, націсніце "Не".</seg>
     </tuv>
 </tu>
 <tu>
@@ -112996,7 +113764,7 @@
         <seg>You do not have sufficient privileges for configuring connection properties. Contact your administrator.</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110203T093814Z">
-        <seg>Вы не маеце дастатковых прывілеяў для наладжвання уласцівасцяў злучэння. Звяжыцеся з вашым адміністратарам.</seg>
+        <seg>Вы не маеце дастатковых прывілеяў для наладжвання ўласцівасцяў злучэння. Звяжыцеся з вашым адміністратарам.</seg>
     </tuv>
 </tu>
 <tu>
@@ -114123,8 +114891,8 @@
     <tuv lang="en">
         <seg>Your administrator requires this update to be installed by today at %s.</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20110311T090914Z">
-        <seg>Адміністратар патрабуе, каб гэтае абнаўленне было ўсталявана сёння а %2.</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110527T073249Z">
+        <seg>Адміністратар патрабуе, каб гэтае абнаўленне было ўсталявана сёння а %s.</seg>
     </tuv>
 </tu>
 <tu>
@@ -116377,6 +117145,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>checkbox</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072356Z">
+        <seg>checkbox</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>choicepoint</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101016T184828Z">
@@ -116709,6 +117485,30 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101016T184922Z">
         <seg>скрыжаваны запыт</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>css/calendar.css</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072322Z">
+        <seg>css/calendar.css</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>css/clock.css</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072340Z">
+        <seg>css/clock.css</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>css/settings.css</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072343Z">
+        <seg>css/settings.css</seg>
     </tuv>
 </tu>
 <tu>
@@ -118041,6 +118841,46 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>images/bnext.png</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072325Z">
+        <seg>images/bnext.png</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>images/bprev.png</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072323Z">
+        <seg>images/bprev.png</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>images/curl.png</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072327Z">
+        <seg>images/curl.png</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>images/settings_left_rest.png</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072348Z">
+        <seg>images/settings_left_rest.png</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>images/settings_right_rest.png</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072351Z">
+        <seg>images/settings_right_rest.png</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>imaging device</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110406T160006Z">
@@ -118333,6 +119173,14 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20100724T142823Z">
         <seg>элементаў на секунду</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
+        <seg>javascript:void(0)</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072346Z">
+        <seg>javascript:void(0)</seg>
     </tuv>
 </tu>
 <tu>
@@ -121233,6 +122081,14 @@
 </tu>
 <tu>
     <tuv lang="en">
+        <seg>yes</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072317Z">
+        <seg>так</seg>
+    </tuv>
+</tu>
+<tu>
+    <tuv lang="en">
         <seg>yes|true|on</seg>
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20101106T164305Z">
@@ -121803,8 +122659,8 @@
     <tuv lang="en">
         <seg>‎%s m</seg>
     </tuv>
-    <tuv lang="be" changeid="eratyk" changedate="20101111T091441Z">
-        <seg>% м</seg>
+    <tuv lang="be" changeid="eratyk" changedate="20110527T073155Z">
+        <seg>%s м</seg>
     </tuv>
 </tu>
 <tu>
@@ -121858,7 +122714,7 @@
 
 <!-- Alternative translations -->
 <tu>
-    <prop type="file">mui\Program Files\Microsoft Games\Chess\be-BY\Chess.exe.mui.rc</prop>
+    <prop type="file">mui\Program Files\Microsoft Games\Chess\be-BY\Chess.exe_6.1.7600.16385_x32.rc</prop>
     <prop type="id">188/1070</prop>
     <tuv lang="en">
         <seg>&amp;Advanced</seg>
@@ -121912,7 +122768,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\calc.exe.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\calc.exe_6.1.7600.16385_x32.rc</prop>
     <prop type="id">/29</prop>
     <tuv lang="en">
         <seg>log</seg>
@@ -121922,7 +122778,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\calc.exe.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\calc.exe_6.1.7600.16385_x32.rc</prop>
     <prop type="id">711/81</prop>
     <tuv lang="en">
         <seg>C</seg>
@@ -121932,7 +122788,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\calc.exe.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\calc.exe_6.1.7600.16385_x32.rc</prop>
     <prop type="id">735/109</prop>
     <tuv lang="en">
         <seg>log</seg>
@@ -121942,7 +122798,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\comdlg32.dll.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\comdlg32.dll_6.1.7600.16385_x32.rc</prop>
     <prop type="id">/1056</prop>
     <tuv lang="en">
         <seg>Custom</seg>
@@ -121952,7 +122808,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\comdlg32.dll.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\comdlg32.dll_6.1.7600.16385_x32.rc</prop>
     <prop type="id">/2392</prop>
     <tuv lang="en">
         <seg>Cyrillic</seg>
@@ -121962,7 +122818,27 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\gameux.dll.mui.rc</prop>
+    <prop type="id">/10008</prop>
+    <tuv lang="en">
+        <seg>Play</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T053028Z">
+        <seg>Згуляць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\gameux.dll.mui.rc</prop>
+    <prop type="id">/10018</prop>
+    <tuv lang="en">
+        <seg>Play</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T055827Z">
+        <seg>Згуляць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_8.0.7600.16385_x32.rc</prop>
     <prop type="id">3402/61440</prop>
     <tuv lang="en">
         <seg>Custom...</seg>
@@ -121972,7 +122848,7 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_8.0.7600.16385_x32.rc</prop>
     <prop type="id">332/42499</prop>
     <tuv lang="en">
         <seg>N&amp;one</seg>
@@ -121982,7 +122858,37 @@
     </tuv>
 </tu>
 <tu>
-    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll.mui.rc</prop>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_8.0.7600.16385_x32.rc</prop>
+    <prop type="id">333/277</prop>
+    <tuv lang="en">
+        <seg>Print pre&amp;view...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110422T064922Z">
+        <seg>Перадпрагляд друку...</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_9.0.8112.16421_x32.rc</prop>
+    <prop type="id">3402/61440</prop>
+    <tuv lang="en">
+        <seg>Custom...</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110427T150752Z">
+        <seg>Дапасаваны...</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_9.0.8112.16421_x32.rc</prop>
+    <prop type="id">332/42499</prop>
+    <tuv lang="en">
+        <seg>N&amp;one</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110422T064350Z">
+        <seg>Не групаваць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\ieframe.dll_9.0.8112.16421_x32.rc</prop>
     <prop type="id">333/277</prop>
     <tuv lang="en">
         <seg>Print pre&amp;view...</seg>
@@ -122259,6 +123165,26 @@
     </tuv>
     <tuv lang="be" changeid="eratyk" changedate="20110421T124738Z">
         <seg>Далей</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\gameux.dll.mui.rc</prop>
+    <prop type="id">/10008</prop>
+    <tuv lang="en">
+        <seg>Play</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072532Z">
+        <seg>Згуляць</seg>
+    </tuv>
+</tu>
+<tu>
+    <prop type="file">mui\Windows\System32\be-BY\gameux.dll.mui.rc</prop>
+    <prop type="id">/10018</prop>
+    <tuv lang="en">
+        <seg>Play</seg>
+    </tuv>
+    <tuv lang="be" changeid="eratyk" changedate="20110531T072512Z">
+        <seg>Згуляць</seg>
     </tuv>
 </tu>
 
