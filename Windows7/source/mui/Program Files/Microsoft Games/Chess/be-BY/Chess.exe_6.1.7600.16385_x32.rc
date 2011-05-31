@@ -1,0 +1,875 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+129 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&Game"
+  {
+    MENUITEM "&New game against computer\tF2", 32771
+    MENUITEM "New game against hu&man\tF3", 32772
+    MENUITEM SEPARATOR
+    MENUITEM "&Undo\tCtrl+Z", 32775
+    MENUITEM SEPARATOR
+    MENUITEM "&Statistics\tF4", 32776
+    MENUITEM "&Options\tF5", 32777
+    MENUITEM "Change &Appearance\tF7", 32778
+    MENUITEM SEPARATOR
+    MENUITEM "&Resign", 32779
+    MENUITEM "E&xit", 32780
+  }
+  POPUP "&Help"
+  {
+    MENUITEM "&View Help\tF1", 32784
+    MENUITEM "&About Chess Titans", 32785
+    MENUITEM SEPARATOR
+    MENUITEM "Get &More Games Online", 32786
+  }
+  POPUP "De&bug"
+  {
+    MENUITEM "&Rotate Board\tCtrl+R", 32781
+    MENUITEM "&Self Play\tCtrl+P", 32782
+    MENUITEM "Toggle &Top Down View\tCtrl+T", 32783
+    MENUITEM "&Full Speed Render\tCtrl+F", 32789
+  }
+}
+
+189 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "Media Center"
+  {
+    MENUITEM "New game against computer", 32771
+    MENUITEM "New game against human", 32772
+    MENUITEM SEPARATOR
+    MENUITEM "Undo", 32775
+    MENUITEM "Resign", 32779
+    MENUITEM SEPARATOR
+    MENUITEM "Options", 32777
+    MENUITEM SEPARATOR
+    POPUP "Change chess pieces"
+    {
+      MENUITEM "Porcelain", 32799
+      MENUITEM "Frosted Glass", 32800
+      MENUITEM "Wood", 32801
+    }
+    POPUP "Change board"
+    {
+      MENUITEM "Porcelain", 32796
+      MENUITEM "Marble", 32797
+      MENUITEM "Wood", 32798
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Exit", 32780
+  }
+}
+
+9 DIALOGEX 0, 0, 246, 147
+CAPTION "Game Over"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Play again", 2, Button, 0x50030001, 149, 126, 72, 14, 0x0
+  CONTROL "E&xit", 3, Button, 0x50010000, 23, 126, 72, 14, 0x0
+  CONTROL "<A>Get More Games Online</A>", 1058, "SysLink", 0x50030000, 79, 105, 86, 13, 0x0
+  CONTROL "Win, Lose Draw String.", 1041, Static, 0x50020001, 7, 18, 232, 24, 0x0
+  CONTROL "Statistics for Level 999", 1057, Static, 0x50020000, 17, 42, 222, 8, 0x0
+  CONTROL "Games played:", 1052, Static, 0x50020000, 17, 56, 109, 8, 0x0
+  CONTROL "Games won:", 1053, Static, 0x50020000, 17, 75, 109, 8, 0x0
+  CONTROL "Games drawn:", 1055, Static, 0x50020000, 17, 87, 109, 8, 0x0
+  CONTROL "Percentage:", 1054, Static, 0x50020000, 133, 75, 106, 8, 0x0
+  CONTROL "Percentage:", 1056, Static, 0x50020000, 133, 87, 106, 8, 0x0
+}
+
+160 DIALOGEX 0, 0, 214, 218
+CAPTION "Pawn Promotion"
+STYLE 0x90c802cc
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You can promote your pawn! What piece do you want to promote your pawn to?", 1077, Static, 0x50020001, 7, 9, 200, 25, 0x0
+  CONTROL "&Queen", 1080, Button, 0x50030000, 23, 43, 167, 32, 0x0
+  CONTROL "&Rook", 1079, Button, 0x50010000, 23, 85, 167, 32, 0x0
+  CONTROL "&Bishop", 1081, Button, 0x50010000, 23, 127, 167, 32, 0x0
+  CONTROL "&Knight", 1082, Button, 0x50010000, 23, 169, 167, 32, 0x0
+}
+
+164 DIALOGEX 0, 0, 363, 230
+CAPTION "Options"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50030001, 205, 209, 72, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 284, 209, 72, 14, 0x0
+  CONTROL "Play against computer as &white", 1007, Button, 0x50030009, 13, 28, 207, 14, 0x0
+  CONTROL "Play against computer as &black", 1008, Button, 0x50000009, 13, 42, 207, 14, 0x0
+  CONTROL "&Display animations", 1003, Button, 0x50030003, 13, 70, 207, 14, 0x0
+  CONTROL "&Play sounds", 1002, Button, 0x50010003, 13, 84, 207, 14, 0x0
+  CONTROL "&Show tips", 1015, Button, 0x50010003, 13, 98, 207, 14, 0x0
+  CONTROL "Always &continue saved game", 1016, Button, 0x50010003, 13, 112, 207, 14, 0x0
+  CONTROL "&Always save game on exit", 1018, Button, 0x50010003, 13, 126, 207, 14, 0x0
+  CONTROL "Show &last move", 1012, Button, 0x50010003, 13, 140, 207, 14, 0x0
+  CONTROL "Show &valid moves", 1013, Button, 0x50010003, 13, 154, 207, 14, 0x0
+  CONTROL "&Rotate board when playing head to head", 1014, Button, 0x50010003, 13, 168, 207, 14, 0x0
+  CONTROL "&Top down view", 1017, Button, 0x50010003, 13, 182, 207, 14, 0x0
+  CONTROL "Rotate board back after &free view", 1019, Button, 0x50010003, 13, 196, 190, 14, 0x0
+  CONTROL "Difficulty", 4294967295, Static, 0x50020000, 226, 28, 130, 14, 0x0
+  CONTROL "", 1030, "msctls_trackbar32", 0x50010001, 221, 42, 100, 18, 0x0
+  CONTROL "Level 1", 4294967295, Static, 0x50020001, 186, 62, 85, 8, 0x0
+  CONTROL "Level 10", 4294967295, Static, 0x50020001, 271, 62, 85, 8, 0x0
+  CONTROL "Graphics quality", 4294967295, Static, 0x50020000, 226, 84, 130, 14, 0x0
+  CONTROL "", 1031, "msctls_trackbar32", 0x50010001, 221, 98, 100, 18, 0x0
+  CONTROL "Show 3D view", 1064, Button, 0x58010003, 226, 126, 130, 14, 0x0
+  CONTROL "High detail pieces", 1063, Button, 0x58010003, 226, 140, 130, 14, 0x0
+  CONTROL "Show reflections", 1062, Button, 0x58010003, 226, 154, 130, 14, 0x0
+  CONTROL "High gloss shine", 1061, Button, 0x58010003, 226, 168, 130, 14, 0x0
+  CONTROL "Smooth edges", 1060, Button, 0x58010003, 226, 182, 130, 14, 0x0
+}
+
+167 DIALOGEX 0, 0, 240, 142
+CAPTION "Chess Titans Statistics"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Close", 2, Button, 0x50030001, 73, 121, 75, 14, 0x0
+  CONTROL "&Reset", 1057, Button, 0x50010000, 153, 121, 75, 14, 0x0
+  CONTROL "Games played: 99999", 1042, Static, 0x50020000, 73, 7, 155, 8, 0x0
+  CONTROL "Games won: 99999", 1043, Static, 0x50020000, 73, 19, 155, 8, 0x0
+  CONTROL "Win percentage: 100%", 1045, Static, 0x50020000, 73, 31, 155, 8, 0x0
+  CONTROL "Games drawn: 99999", 1044, Static, 0x50020000, 73, 43, 155, 8, 0x0
+  CONTROL "Draw percentage: 100%", 1046, Static, 0x50020000, 73, 55, 155, 8, 0x0
+  CONTROL "Longest winning streak: 99999", 1047, Static, 0x50020000, 73, 67, 155, 8, 0x0
+  CONTROL "Longest drawing streak: 99999", 1048, Static, 0x50020000, 73, 79, 155, 10, 0x0
+  CONTROL "Longest losing streak: 99999", 1049, Static, 0x50020000, 73, 91, 155, 10, 0x0
+  CONTROL "Current streak: 99999", 1050, Static, 0x50020000, 73, 103, 155, 8, 0x0
+  CONTROL "", 1076, ListBox, 0x50a30103, 7, 7, 59, 128, 0x0
+}
+
+187 DIALOGEX 0, 0, 188, 146
+CAPTION "Changed Game Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You've changed game settings. What do you want to do with your current game?", 4294967295, Static, 0x50020000, 7, 7, 174, 21, 0x0
+  CONTROL "Play New Game", 1, Button, 0x50010001, 7, 37, 74, 14, 0x0
+  CONTROL "Start a new game with the new settings. This will count as a loss in your statistics.", 4294967295, Static, 0x50020000, 7, 57, 174, 21, 0x0
+  CONTROL "Finish This Game", 2, Button, 0x50010000, 7, 91, 74, 14, 0x0
+  CONTROL "Your next game will use the new settings.", 4294967295, Static, 0x50020000, 7, 110, 174, 21, 0x0
+}
+
+188 DIALOGEX 0, 0, 214, 161
+CAPTION "Select Difficulty"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "What difficulty level do you want to play?", 4294967295, Static, 0x50020000, 7, 7, 200, 18, 0x0
+  CONTROL "&Beginner", 1068, Button, 0x50010001, 7, 31, 200, 17, 0x0
+  CONTROL "Level 2 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 7, 49, 200, 10, 0x0
+  CONTROL "&Intermediate", 1069, Button, 0x50010000, 7, 64, 200, 17, 0x0
+  CONTROL "Level 5 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 7, 83, 200, 10, 0x0
+  CONTROL "&Advanced", 1070, Button, 0x50010000, 7, 97, 200, 17, 0x0
+  CONTROL "Level 8 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 7, 117, 200, 10, 0x0
+  CONTROL "Note: You can change the difficulty later by clicking Options on the Game menu.", 4294967295, Static, 0x50020000, 7, 135, 200, 19, 0x0
+}
+
+190 DIALOGEX 0, 0, 214, 121
+CAPTION "New Game"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Play New Game", 1, Button, 0x50010001, 7, 31, 200, 17, 0x0
+  CONTROL "Start a new game. This will count as a loss in your statistics.", 4294967295, Static, 0x50020000, 7, 49, 200, 20, 0x0
+  CONTROL "Do Nothing", 2, Button, 0x50010001, 7, 76, 200, 17, 0x0
+  CONTROL "Return to the current game in progress.", 4294967295, Static, 0x50020000, 7, 96, 200, 10, 0x0
+  CONTROL "What do you want to do?", 4294967295, Static, 0x50020000, 7, 7, 200, 18, 0x0
+}
+
+191 DIALOGEX 0, 0, 268, 90
+CAPTION "Checkmate / Draw"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "What do you want to do?", 4294967295, Static, 0x50020000, 7, 7, 254, 8, 0x0
+  CONTROL "Return to Game", 1081, Button, 0x50010000, 7, 56, 73, 14, 0x0
+  CONTROL "Return to your game and use UNDO to back up and try another path.", 4294967295, Static, 0x50020000, 7, 74, 254, 8, 0x0
+  CONTROL "End Game", 2, Button, 0x50010001, 7, 25, 73, 14, 0x0
+  CONTROL "Give up the game now and go to the lose screen.", 4294967295, Static, 0x50020000, 7, 44, 254, 8, 0x0
+}
+
+233 DIALOGEX 0, 0, 186, 79
+CAPTION "Resign"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Yes", 1, Button, 0x50010000, 15, 45, 65, 16, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 106, 45, 65, 16, 0x0
+  CONTROL "Are you sure you wish to resign this game?", 4294967295, Static, 0x50020000, 7, 18, 172, 17, 0x0
+}
+
+234 DIALOGEX 0, 0, 182, 139
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You've changed game settings. What do you want to do with your current game?", 4294967295, Static, 0x50020000, 8, 22, 166, 18, 0x0
+  CONTROL "Quit and Start a &New Game", 1, Button, 0x50010001, 8, 52, 166, 14, 0x0
+  CONTROL "Start a new game with the new settings. This counts as a loss in your statistics.", 4294967295, Static, 0x50020000, 8, 68, 166, 25, 0x0
+  CONTROL "&Finish the Game", 2, Button, 0x50010000, 8, 96, 166, 14, 0x0
+  CONTROL "The new settings apply to your next game.", 4294967295, Static, 0x50020000, 8, 112, 166, 19, 0x0
+  CONTROL "Changed Game Settings", 1094, Static, 0x50020001, 8, 8, 166, 8, 0x0
+}
+
+237 DIALOGEX 0, 0, 148, 170
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "End Game", 2, Button, 0x50010001, 8, 43, 132, 14, 0x0
+  CONTROL "Return to Game", 1081, Button, 0x50010000, 8, 81, 132, 14, 0x0
+  CONTROL "What do you want to do?", 4294967295, Static, 0x50020000, 8, 22, 132, 10, 0x0
+  CONTROL "You can end your game now.", 4294967295, Static, 0x50020000, 8, 59, 132, 22, 0x0
+  CONTROL "Return to the game and click UNDO on the game menu to reverse your last moves and try again.", 4294967295, Static, 0x50020000, 8, 99, 132, 32, 0x0
+  CONTROL "Note: This game has been counted as a loss in your statistics. If you return to the game, the loss will not be counted again.", 4294967295, Static, 0x50020000, 12, 133, 128, 32, 0x0
+  CONTROL "Checkmate / Draw", 1094, Static, 0x50020001, 8, 8, 132, 8, 0x0
+}
+
+239 DIALOGEX 0, 0, 324, 207
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50030001, 155, 185, 72, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 233, 185, 72, 14, 0x0
+  CONTROL "Play against computer as &white", 1007, Button, 0x50030009, 8, 22, 194, 10, 0x0
+  CONTROL "Play against computer as &black", 1008, Button, 0x50000009, 8, 34, 194, 10, 0x0
+  CONTROL "&Display animations", 1003, Button, 0x50030003, 8, 56, 174, 10, 0x0
+  CONTROL "&Play sounds", 1002, Button, 0x50010003, 8, 68, 174, 10, 0x0
+  CONTROL "&Show tips", 1015, Button, 0x50010003, 8, 80, 174, 10, 0x0
+  CONTROL "Show &last move", 1012, Button, 0x50010003, 8, 92, 174, 10, 0x0
+  CONTROL "Show &valid moves", 1013, Button, 0x50010003, 8, 104, 174, 10, 0x0
+  CONTROL "&Top down view", 1017, Button, 0x50010003, 8, 116, 174, 10, 0x0
+  CONTROL "&Always save game on exit", 1018, Button, 0x50010003, 8, 128, 174, 17, 0x0
+  CONTROL "Always &continue saved game", 1016, Button, 0x50010003, 8, 147, 174, 17, 0x0
+  CONTROL "&Rotate board when playing head to head", 1014, Button, 0x50010003, 8, 166, 174, 17, 0x0
+  CONTROL "Difficulty", 4294967295, Static, 0x50020000, 208, 22, 93, 8, 0x0
+  CONTROL "", 1030, "msctls_trackbar32", 0x50010001, 203, 34, 100, 18, 0x0
+  CONTROL "Level 1", 4294967295, Static, 0x50020000, 199, 53, 55, 8, 0x0
+  CONTROL "Level 10", 4294967295, Static, 0x50020002, 257, 53, 52, 8, 0x0
+  CONTROL "Graphics quality", 4294967295, Static, 0x50020000, 208, 67, 93, 8, 0x0
+  CONTROL "", 1031, "msctls_trackbar32", 0x50010001, 203, 79, 100, 18, 0x0
+  CONTROL "Show 3D view", 1064, Button, 0x58010003, 204, 98, 112, 10, 0x0
+  CONTROL "High detail pieces", 1063, Button, 0x58010003, 204, 110, 114, 10, 0x0
+  CONTROL "Show reflections", 1062, Button, 0x58010003, 204, 122, 112, 10, 0x0
+  CONTROL "High gloss shine", 1061, Button, 0x58010003, 204, 134, 112, 10, 0x0
+  CONTROL "Smooth edges", 1060, Button, 0x58010003, 204, 146, 112, 10, 0x0
+  CONTROL "Select your options", 1094, Static, 0x50020001, 8, 8, 308, 8, 0x0
+}
+
+241 DIALOGEX 0, 0, 161, 69
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Yes", 1, Button, 0x50010000, 10, 48, 65, 13, 0x0
+  CONTROL "No", 2, Button, 0x50010000, 85, 48, 65, 13, 0x0
+  CONTROL "Are you sure you want to resign this game?", 4294967295, Static, 0x50020000, 8, 22, 145, 26, 0x0
+  CONTROL "Resign Game", 1094, Static, 0x50020001, 8, 8, 145, 8, 0x0
+}
+
+243 DIALOGEX 0, 0, 128, 98
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Game Over", 1094, Static, 0x50020001, 8, 8, 112, 10, 0x0
+  CONTROL "Start a &New Game", 2, Button, 0x50010001, 8, 53, 112, 14, 0x0
+  CONTROL "E&xit Game", 3, Button, 0x50010000, 8, 76, 112, 14, 0x0
+  CONTROL "Game over text.", 1041, Static, 0x50020000, 8, 22, 112, 26, 0x0
+}
+
+245 DIALOGEX 0, 0, 135, 142
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You can promote your pawn!", 1077, Static, 0x50020201, 8, 8, 119, 9, 0x0
+  CONTROL "What piece do you want to promote your pawn to?", 1078, Static, 0x50020001, 8, 22, 119, 19, 0x0
+  CONTROL "&Queen", 1080, Button, 0x50030000, 8, 48, 119, 16, 0x0
+  CONTROL "&Rook", 1079, Button, 0x50010000, 8, 71, 119, 16, 0x0
+  CONTROL "&Bishop", 1081, Button, 0x50010000, 8, 94, 119, 16, 0x0
+  CONTROL "&Knight", 1082, Button, 0x50010000, 8, 117, 119, 16, 0x0
+}
+
+246 DIALOGEX 0, 0, 176, 190
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "What difficulty level do you want to play?", 4294967295, Static, 0x50020001, 8, 22, 160, 22, 0x0
+  CONTROL "&Beginner", 1068, Button, 0x50010001, 8, 48, 160, 17, 0x0
+  CONTROL "Level 2 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 8, 67, 160, 10, 0x0
+  CONTROL "&Intermediate", 1069, Button, 0x50010000, 8, 82, 160, 17, 0x0
+  CONTROL "Level 5 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 8, 101, 160, 10, 0x0
+  CONTROL "&Advanced", 1070, Button, 0x50010000, 8, 115, 160, 17, 0x0
+  CONTROL "Level 8 on a scale of 1 to 10", 4294967295, Static, 0x50020000, 8, 134, 160, 10, 0x0
+  CONTROL "Note: You can change the difficulty later by clicking Options on the Game menu.", 4294967295, Static, 0x50020000, 8, 149, 160, 33, 0x0
+  CONTROL "Select Difficulty", 1094, Static, 0x50020001, 8, 8, 160, 8, 0x0
+}
+
+247 DIALOGEX 0, 0, 204, 124
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Play again", 2, Button, 0x50030001, 24, 102, 72, 14, 0x0
+  CONTROL "E&xit", 3, Button, 0x50010000, 108, 102, 72, 14, 0x0
+  CONTROL "Win, Lose Draw String.", 1041, Static, 0x50020001, 8, 19, 188, 23, 0x0
+  CONTROL "Statistics for Level 999", 1057, Static, 0x50020000, 14, 42, 182, 8, 0x0
+  CONTROL "Games played:", 1052, Static, 0x50020000, 14, 56, 105, 8, 0x0
+  CONTROL "Games won:", 1053, Static, 0x50020000, 14, 75, 105, 8, 0x0
+  CONTROL "Games drawn:", 1055, Static, 0x50020000, 14, 87, 105, 8, 0x0
+  CONTROL "Percentage:", 1054, Static, 0x50020000, 119, 75, 77, 8, 0x0
+  CONTROL "Percentage:", 1056, Static, 0x50020000, 119, 87, 77, 8, 0x0
+  CONTROL "Game Over", 1094, Static, 0x50020001, 8, 8, 188, 8, 0x0
+}
+
+248 DIALOGEX 0, 0, 148, 108
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "New Game", 1094, Static, 0x50020001, 8, 8, 132, 8, 0x0
+  CONTROL "What do you want to do with the game in progress?", 4294967295, Static, 0x50020000, 8, 22, 132, 26, 0x0
+  CONTROL "Quit and Start a &New Game", 1, Button, 0x50010001, 8, 48, 132, 14, 0x0
+  CONTROL "This counts as a loss in your statistics.", 4294967295, Static, 0x50020000, 8, 64, 132, 19, 0x0
+  CONTROL "&Keep playing", 2, Button, 0x50010001, 8, 86, 132, 14, 0x0
+}
+
+303 DIALOGEX 0, 0, 224, 110
+CAPTION "Dialog"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Yes", 1, Button, 0x50010001, 34, 67, 70, 14, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 120, 67, 70, 14, 0x0
+  CONTROL "Switching to the Direct3D reference rasterizer, a software device that implements the entire Direct3D feature set, but runs very slowly.", 4294967295, Static, 0x50020000, 7, 7, 210, 32, 0x0
+  CONTROL "Do you wish to continue?", 4294967295, Static, 0x50020000, 7, 43, 210, 8, 0x0
+  CONTROL "&Don't show again", 1098, Button, 0x50010003, 7, 93, 210, 10, 0x0
+}
+
+304 DIALOGEX 0, 0, 224, 104
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Yes", 1, Button, 0x50010001, 34, 67, 70, 14, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 120, 67, 70, 14, 0x0
+  CONTROL "Switching to the Direct3D reference rasterizer, a software device that implements the entire Direct3D feature set, but runs very slowly.", 4294967295, Static, 0x50020000, 8, 22, 208, 25, 0x0
+  CONTROL "Do you wish to continue?", 4294967295, Static, 0x50020000, 8, 53, 208, 8, 0x0
+  CONTROL "&Don't show again", 1098, Button, 0x50010003, 8, 86, 208, 10, 0x0
+  CONTROL "Warning", 1094, Static, 0x50020001, 8, 8, 208, 8, 0x0
+}
+
+305 DIALOGEX 0, 0, 148, 94
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "New Game", 1094, Static, 0x50020001, 8, 8, 132, 8, 0x0
+  CONTROL "What do you want to do with the game in progress?", 4294967295, Static, 0x50020000, 8, 22, 132, 26, 0x0
+  CONTROL "Quit and Start a &New Game", 1, Button, 0x50010001, 8, 48, 132, 14, 0x0
+  CONTROL "&Keep playing", 2, Button, 0x50010001, 8, 72, 132, 14, 0x0
+}
+
+309 DIALOGEX 0, 0, 246, 62
+CAPTION "Game Over"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Play again", 2, Button, 0x50030001, 86, 41, 72, 14, 0x0
+  CONTROL "E&xit", 3, Button, 0x50010000, 162, 41, 72, 14, 0x0
+  CONTROL "Win, Lose Draw String.", 1041, Static, 0x50020001, 7, 12, 232, 23, 0x0
+}
+
+500 DIALOGEX 0, 0, 394, 299
+CAPTION "Change Appearance"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50030001, 236, 278, 72, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 310, 278, 72, 14, 0x0
+  CONTROL "Select Card Deck", 5002, Static, 0x50020000, 7, 7, 234, 8, 0x0
+  CONTROL "", 5000, "SysListView32", 0x5083084c, 7, 17, 380, 108, 0x0
+  CONTROL "Select Background", 5003, Static, 0x50020000, 7, 135, 234, 8, 0x0
+  CONTROL "", 5001, "SysListView32", 0x5083084c, 7, 145, 380, 101, 0x0
+  CONTROL "&Randomly choose deck and background", 5004, Button, 0x50030003, 7, 253, 233, 10, 0x0
+}
+
+501 DIALOGEX 0, 0, 388, 137
+CAPTION "Exit Game"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "What do you want to do with your game in progress?", 4294967295, Static, 0x50020000, 7, 12, 374, 8, 0x0
+  CONTROL "E&xit and Save My Game", 5005, Button, 0x50010001, 22, 30, 94, 14, 0x0
+  CONTROL "This will overwrite any previous saved game you might have.", 4294967295, Static, 0x50020000, 23, 45, 358, 8, 0x0
+  CONTROL "&Exit and Don't Save", 5006, Button, 0x50010000, 22, 60, 94, 14, 0x0
+  CONTROL "This will count as a loss in your statistics.", 4294967295, Static, 0x50020000, 23, 75, 358, 8, 0x0
+  CONTROL "&Don't Exit", 2, Button, 0x50010000, 22, 90, 50, 14, 0x0
+  CONTROL "Return to your game in progress.", 4294967295, Static, 0x50020000, 23, 106, 358, 8, 0x0
+  CONTROL "Note: You can turn off this prompt in ""Options.""", 4294967295, Static, 0x50020000, 7, 122, 153, 8, 0x0
+}
+
+502 DIALOGEX 0, 0, 293, 107
+CAPTION "Saved Game Found"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You have a saved game. What do you want to do?", 4294967295, Static, 0x50020000, 10, 8, 267, 10, 0x0
+  CONTROL "&Continue Saved Game", 1, Button, 0x50010001, 17, 21, 96, 14, 0x0
+  CONTROL "Continue playing your saved game where you left off.", 4294967295, Static, 0x50020000, 18, 36, 174, 8, 0x0
+  CONTROL "Play &New Game", 2, Button, 0x50010000, 17, 53, 80, 14, 0x0
+  CONTROL "Ignore the saved game and play a new game.", 4294967295, Static, 0x50020000, 17, 68, 148, 8, 0x0
+  CONTROL "Note: You can turn off this prompt in ""Options.""", 4294967295, Static, 0x50020000, 12, 92, 153, 8, 0x0
+}
+
+503 DIALOGEX 0, 0, 208, 63
+CAPTION "Reset Statistics"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Do you want to reset all your statistics to zero?", 4294967295, Static, 0x50020000, 8, 7, 170, 8, 0x0
+  CONTROL "&No", 2, Button, 0x50010001, 110, 42, 91, 14, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010000, 7, 42, 91, 14, 0x0
+}
+
+504 DIALOGEX 0, 0, 208, 63
+CAPTION "Changed Game Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "Segoe UI", 400, 0, 0
+{
+  CONTROL "You've changed game settings. What do you want to do with your current game?", 4294967295, Static, 0x50020000, 8, 7, 150, 24, 0x0
+  CONTROL "Play &New Game", 1, Button, 0x50010001, 7, 42, 91, 14, 0x0
+  CONTROL "&Finish This Game", 2, Button, 0x50010000, 110, 42, 91, 14, 0x0
+}
+
+505 DIALOGEX 0, 0, 139, 145
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "What do you want to do with your game in progress?", 4294967295, Static, 0x50020000, 8, 22, 123, 26, 0x0
+  CONTROL "&Save", 5005, Button, 0x50010001, 8, 48, 123, 14, 0x0
+  CONTROL "&Don't Save", 5006, Button, 0x50010000, 8, 70, 123, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 8, 92, 123, 14, 0x0
+  CONTROL "Exit Game", 6027, Static, 0x50020001, 8, 8, 123, 8, 0x0
+}
+
+506 DIALOGEX 0, 0, 168, 95
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "Do you want to continue your saved game?", 4294967295, Static, 0x50020000, 8, 22, 152, 26, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010001, 8, 48, 73, 14, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 87, 48, 73, 14, 0x0
+  CONTROL "Saved Game Found", 6027, Static, 0x50020001, 8, 8, 152, 8, 0x0
+  CONTROL "Always continue saved game", 5008, Button, 0x50010003, 8, 69, 152, 18, 0x0
+}
+
+507 DIALOGEX 0, 0, 168, 130
+CAPTION ""
+STYLE 0x80000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 16, "Segoe UI", 400, 0, 0
+{
+  CONTROL "These settings won't apply to the game in progress. What do you want to do?", 4294967295, Static, 0x50020000, 8, 22, 152, 26, 0x0
+  CONTROL "Quit and Start a &New Game", 1, Button, 0x50010001, 8, 48, 152, 14, 0x0
+  CONTROL "&Finish This Game", 2, Button, 0x50010000, 8, 86, 152, 14, 0x0
+  CONTROL "Changed Game Settings", 6027, Static, 0x50020001, 8, 9, 152, 8, 0x0
+  CONTROL "This counts as a loss in your statistics.", 4294967295, Static, 0x50020000, 8, 64, 152, 22, 0x0
+  CONTROL "The new settings apply to your next game.", 4294967295, Static, 0x50020000, 8, 102, 152, 20, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  102,  "White wins by checkmate!"
+  103,  "Black wins by checkmate!"
+  104,  "Black resigns. White wins!"
+  105,  "White resigns. Black wins!"
+  106,  "Black runs out of time. White wins!"
+  107,  "White runs out of time. Black wins!"
+  108,  "Stalemate, the game is a draw."
+  109,  "There has been no progress for fifty moves; the game is a draw."
+  110,  "This position has been repeated three times; the game is a draw."
+  111,  "There are too few pieces left for a checkmate; the game is a draw."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "You can turn off tips in ""Options""."
+  113,  "Invalid Move"
+  114,  "How To Play"
+  115,  "Changed Game Settings"
+  116,  "\\Microsoft Games"
+  117,  "\\Chess Titans"
+  118,  "Rotation"
+  119,  "Invalid move. Please try another."
+  120,  "This piece can't move to that space."
+  121,  "This piece can't move there. The path is blocked."
+  122,  "Your king is in check. You may only move to: 1. Capture the attacking piece, 2. Place one of your own pieces between the attacker and your King (unless the attacker is a Knight), 3. Move the King away from the attack"
+  123,  "In order to castle, neither the King nor the Rook involved may have moved yet. Also, the King may not castle out of check, into check, or through check. Further, there may not be pieces of either color between the King and the Rook involved in castling."
+  124,  "You cannot perform an en passant because this will put your King in check."
+  125,  "Segoe UI"
+  126,  "Resign Game"
+  127,  "Are you sure you want to resign this game?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "New Game Against Computer"
+  129,  "Hardware acceleration is either disabled or not supported by your video card driver, which could slow game performance. Make sure you have the latest video card driver installed and that hardware acceleration is turned on."
+  130,  "New Game Against Human"
+  131,  "Exit Game"
+  132,  "Software\\Microsoft\\Windows\\CurrentVersion\\InBoxGames"
+  133,  "debug"
+  134,  "Pawns may only move forward one space, or two spaces if they haven't moved yet. Pawns may capture by moving forward and to the side one space."
+  135,  "Knights must move one square up or down, and two squares over, or vice versa. Knights are the only piece that can jump over other pieces."
+  136,  "Bishops may move diagonally any number of spaces in a straight line."
+  137,  "Rooks may move up, down, left or right any number of spaces in a straight line."
+  138,  "Queens may move in any of the eight directions in a straight line."
+  139,  "The King may only move one space in any direction."
+  140,  "You can't move your King onto a square that is under attack by another piece. Your opponent has a piece on the board that can move onto that square from its current position."
+  141,  "Failed to initialize COM."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  145,  "Could not create render target."
+  146,  "Could not initialize Direct3D. You may want to check that the latest version of DirectX is correctly installed on your system. Also make sure that this program was compiled with header files that match the installed DirectX DLLs."
+  147,  "Could not load shader [%s]"
+  148,  "Could not find texture [%s]"
+  149,  "Incorrect version of Direct3D and/or D3DX."
+  150,  "It's black's turn, click a black piece to move it."
+  151,  "The D3D device has a non-zero reference count, meaning some objects were not released."
+  152,  "Failed creating the Direct3D device."
+  153,  "Failed resetting the Direct3D device."
+  154,  "Failed creating Direct3D device objects."
+  155,  "Failed resetting Direct3D device objects."
+  156,  "Switching to the reference rasterizer,\na software device that implements the entire\nDirect3D feature set, but runs very slowly."
+  157,  "Chess Titans cannot be run over a remote session."
+  158,  "Could not find any compatible Direct3D devices."
+  159,  "It's white's turn, click a white piece to move it."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "mshelp://windows/?id=96cff9fa-e9aa-4ca9-a0fe-75bfa684ef10"
+  161,  "Chess Titans Statistics - %s"
+  162,  "Chess Titans Statistics"
+  163,  "Could not find required media. Ensure that the DirectX SDK is correctly installed."
+  166,  "The game has ended. If you wish to play again, start a new game."
+  167,  "New Game Against Human"
+  168,  "Not enough available video memory. Please close any other graphically intensive applications that are running to free up memory, and then try running this game again."
+  169,  "Unable to find the file [%s]. The game cannot continue."
+  170,  "Chess Titans"
+  171,  "ChessWindowClass"
+  172,  "Chess Titans developed for Microsoft Corporation by Oberon Games."
+  173,  "This game has been counted as a loss in your statistics. If you return to the game, the loss will not be counted again."
+  174,  "This game has been counted as a draw in your statistics. If you return to the game, the draw will not be counted again."
+  175,  "Play Against Computer as &White"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "Play Against Computer as &Black"
+  177,  "Play Against Another &Player"
+  178,  "Statistics for Level %d"
+  179,  "These settings won't apply to the game in progress. What do you want to do?"
+  180,  "Quit and start a &new game with the new settings\nThis counts as a loss in your statistics."
+  181,  "&Finish the game\nThe new settings apply to your next game."
+  182,  "Select Difficulty"
+  183,  "What difficulty level do you want to play?"
+  184,  "Note: You can change the difficulty later by clicking Options on the Game menu."
+  185,  "&Beginner\nLevel 2 on a scale of 1 to 10"
+  186,  "&Intermediate\nLevel 5 on a scale of 1 to 10"
+  187,  "&Advanced\nLevel 8 on a scale of 1 to 10"
+  188,  "Games played: %d"
+  189,  "Games won: %d"
+  190,  "Games drawn: %d"
+  191,  "Percentage: %d%%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Percentage: %d%%"
+  193,  "ChessTitans.xml"
+  194,  "ChessTitans.tmp"
+  195,  "What do you want to do with the game in progress?"
+  196,  "Quit and start a &new game\nThis counts as a loss in your statistics."
+  197,  "&Keep playing"
+  198,  "Segoe UI"
+  200,  "ChessTitans.ChessTitansSave-ms"
+  201,  "Segoe UI"
+  202,  "Loading Chess Titans..."
+  203,  "New Game Against Computer"
+  204,  "Click on a chess piece and the squares you can move it to will highlight in blue. Click on a blue square to move there."
+  205,  "Get a different view of the board by holding down the right mouse button and dragging your mouse."
+  206,  "\\Saved Games"
+  207,  "Saved Game Found"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Do you want to continue your saved game?"
+  209,  "Note: You can turn off this prompt in ""Options""."
+  210,  "&Yes"
+  211,  "&No"
+  212,  "If you make that move your King would be in check. That move is not allowed."
+  213,  "Games played: %d"
+  214,  "Games won: %d"
+  215,  "Games drawn: %d"
+  216,  "Win percentage: %d%%"
+  217,  "Draw percentage: %d%%"
+  218,  "Chess.dll"
+  219,  "Porcelain"
+  220,  "Frosted Glass"
+  221,  "Wood"
+  222,  "Black & Gold"
+  223,  "Marble"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  225,  "Pawn Promotion"
+  226,  "You can promote your pawn! What piece do you want to promote your pawn to?"
+  227,  "&Queen"
+  228,  "&Rook"
+  229,  "&Bishop"
+  230,  "&Knight"
+  231,  "A:0:0:Easiest:1:Easier:2:Easy:3:Moderately Easy:4:Moderate:5:Moderately Hard:6:Hard:7:Harder:8:Very Hard:9:Hardest:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  250,  "ChessTitansMCE.xml"
+  251,  "You have run out of video memory. Falling back to lower quality rendering."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "&Yes"
+  301,  "&No"
+  302,  "The game is running in software rendering mode"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  306,  "16"
+  307,  "Chess Titans Save Game"
+  308,  "Play a game of Chess Titans"
+  310,  "Media Center Chess Titans"
+  311,  "Segoe UI"
+  312,  "14"
+  313,  "28"
+  314,  "15"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1047,  "Longest winning streak: %d"
+  1048,  "Longest drawing streak: %d"
+  1049,  "Longest losing streak: %d"
+  1050,  "Current streak: %d"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Switching to the Direct3D reference rasterizer, a software device that implements the entire Direct3D feature set, but runs very slowly.\n\nDo you wish to continue?"
+  1101,  "&Don't show again"
+  1102,  "&Yes"
+  1103,  "&No"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "This game cannot be started because Windows is currently running in Safe Mode."
+  1105,  "http://go.microsoft.com/fwlink/?LinkID=130267"
+  1106,  "White Pawn"
+  1107,  "White Knight"
+  1108,  "White Bishop"
+  1109,  "White Rook"
+  1110,  "White Queen"
+  1111,  "White King"
+  1112,  "Black Pawn"
+  1113,  "Black Knight"
+  1114,  "Black Bishop"
+  1115,  "Black Rook"
+  1116,  "Black Queen"
+  1117,  "Black King"
+  1118,  "Empty"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6000,  "Note: You can turn off this prompt in ""Options."""
+  6001,  "Exit Game"
+  6002,  "What do you want to do with the game in progress?"
+  6003,  "&Save"
+  6004,  "&Don't save"
+  6005,  "Cancel"
+  6006,  "Saved Game Found"
+  6007,  "Do you want to continue your saved game?"
+  6008,  "&Yes"
+  6009,  "&No"
+  6010,  "Reset Statistics"
+  6011,  "Do you want to reset all your statistics to zero?"
+  6012,  "&Yes"
+  6013,  "&No"
+  6014,  "Changed Game Settings"
+  6015,  "These settings won't apply to the game in progress. What do you want to do?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6016,  "Quit and start a &new game with the new settings\nThis counts as a loss in your statistics."
+  6017,  "&Finish the game\nThe new settings apply to your next game."
+  6018,  "Overwrite Saved Game"
+  6019,  "A saved game already exists. Are you sure you want to replace your previously saved game with your current game?"
+  6020,  "Save Game File Error"
+  6021,  "The save game file was either missing or invalid. If the file exists it will be deleted.  A new game will start."
+  6023,  "Always continue saved game"
+  6024,  "Fatal Error"
+  6025,  "An unknown fatal error occurred"
+  6026,  "An unexpected NULL pointer was encountered"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7600,  "Level %1!d!"
+  7601,  "Games Played"
+  7602,  "Games Won"
+  7603,  "Games Drawn"
+  7604,  "Win Percentage"
+  7605,  "Draw Percentage"
+  7606,  "Longest Winning Streak"
+  7607,  "Longest Drawing Streak"
+  7608,  "Longest Losing Streak"
+  7609,  "Current Streak"
+  7610,  "%1!d!"
+  7611,  "%1!d!%%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  62139,  "Select Piece Style"
+  62140,  "Select Board"
+  62141,  "&Randomly choose piece style and board"
+  62142,  "Games played: %1!d!"
+  62143,  "Games won: %1!d!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  62144,  "Games drawn: %1!d!"
+  62145,  "Percentage: %1!d!%%"
+  62146,  "Game Won"
+  62147,  "Game Lost"
+  62148,  "Game Draw"
+  62149,  "Congratulations, you won by checkmate!"
+  62150,  "Sorry, you lost this game. Better luck next time!"
+  62151,  "Checkmate"
+  62152,  "Game Draw"
+  62153,  "What do you want to do?"
+  62154,  "What do you want to do?"
+  62155,  "&Return and try again\nUse Undo to reverse your last moves and try again."
+  62156,  "&End Game"
+  62157,  "Game Over"
+  62158,  "Quit and start a &new game"
+  62159,  "E&xit Game"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  62160,  "The system has run out of memory. Try closing some applications and trying again."
+  62161,  "Level %d"
+  62162,  "Always continue saved game"
+}
+
+173 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F7  , 32778, VIRTKEY, NOINVERT
+  VK_F5  , 32777, VIRTKEY, NOINVERT
+  VK_F2  , 32771, VIRTKEY, NOINVERT
+  VK_F3  , 32772, VIRTKEY, NOINVERT
+  VK_F4  , 32776, VIRTKEY, NOINVERT
+  VK_Z  , 32775, VIRTKEY, NOINVERT, CONTROL
+  VK_F1  , 32784, VIRTKEY, NOINVERT
+}
+
+174 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F  , 32789, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 32781, VIRTKEY, NOINVERT, CONTROL
+  VK_P  , 32782, VIRTKEY, NOINVERT, CONTROL
+  VK_T  , 32783, VIRTKEY, NOINVERT, CONTROL
+  VK_F7  , 32778, VIRTKEY, NOINVERT
+  VK_F5  , 32777, VIRTKEY, NOINVERT
+  VK_F2  , 32771, VIRTKEY, NOINVERT
+  VK_F3  , 32772, VIRTKEY, NOINVERT
+  VK_F4  , 32776, VIRTKEY, NOINVERT
+  VK_Z  , 32775, VIRTKEY, NOINVERT, CONTROL
+  VK_F1  , 32784, VIRTKEY, NOINVERT
+}
+
