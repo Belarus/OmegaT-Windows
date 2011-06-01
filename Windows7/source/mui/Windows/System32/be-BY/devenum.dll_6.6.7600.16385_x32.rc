@@ -1,0 +1,14 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7,  "Default DirectSound Device"
+  8,  "DirectSound: %s"
+  9,  "Default WaveOut Device"
+  10,  "Default MidiOut Device"
+  11,  "Default KS Device"
+  12,  "KS: %s"
+}
+
