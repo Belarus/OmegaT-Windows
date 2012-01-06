@@ -1,0 +1,779 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Parental Controls"
+  101,  "Change Parental Controls settings."
+  110,  "Password protected"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Standard user"
+  113,  "Unknown account type"
+  114,  "Computer administrator"
+  115,  "Standard user - Parental Controls On"
+  116,  "Cannot block this web site.  Web Restrictions have not been configured for %s."
+  117,  "Cannot allow this web site.  Web Restrictions have not been configured for %s."
+  120,  "No Password"
+  121,  "Set up how %s will use the computer"
+  122,  "Control which types of games %s can play"
+  123,  "Can %s play games?"
+  124,  "Which ratings are ok for %s to play?"
+  125,  "If a game has no rating, can %s play it?"
+  126,  "Control specific games %s can and can not play"
+  127,  "Parental Controls cannot be applied to the account ""%s"" because it is an administrator. If you would like to apply Parental Controls to this account, you must change it to a limited user account. Would you like to make this change?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  129,  "Up to %s"
+  134,  "OK"
+  135,  "Cancel"
+  137,  "No rating provided"
+  138,  "You already have some settings on individual games, which might override these changes. To review which specific games you have blocked or allowed, see the ""Block or Allow specific games"" settings."
+  142,  "User Tile"
+  143,  "Picture"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "Password"
+  145,  "Name"
+  146,  "Type"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  164,  "You need to be a member of at least one local group to view Parental Controls."
+  165,  "Parental Controls is currently disabled."
+  166,  "You are a computer administrator and therefore have no Parental Controls settings to view."
+  167,  "You do not have sufficient permissions to open Parental Controls. You must be an administrator to make changes to Parental Controls settings."
+  174,  "Control when %s uses the computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "Control when %s will use the computer"
+  180,  "Summary of Computer Activity for %1 from %2 - %3"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  199,  "Which programs can %s use?"
+  200,  "%s can use all programs"
+  201,  "%s can only use the programs I allow"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  210,  "No Games"
+  211,  "Other parental control settings"
+  212,  "Parental Controls cannot be applied to this account because it is the local administrator account. Do you want to create a standard user account and apply parental controls to it?"
+  213,  "%d blocked"
+  214,  "%1 cannot be added to the list.   This application is never allowed to run."
+  215,  "Parental Controls cannot be applied to the guest account. It is recommended that you turn off the guest account if you are using parental controls for other accounts."
+  216,  "Duplicate Entry"
+  218,  "Current settings for %s"
+  223,  "The selected application is already in the list."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "There was an error and the selected application was not added to the list."
+  225,  "%1 cannot be added to the list.   This application is always allowed to run."
+  226,  "Unable to set user settings for admistrators or unknown users."
+  227,  "Unable to make changes to parental controls settings. If this problem persists, see your system administrator."
+  228,  "The specified account name is not valid, because there is already an account with that name.\n\nPlease type a different name."
+  229,  "The specified account name is not valid, because account names cannot contain the following characters: /\\[]"":;|<>+=,?*\n\nPlease type a different name."
+  230,  "Parental Controls cannot be applied to your own account ""%s"" because it is an administrator. Do you want to create a standard user account and apply parental controls to it?"
+  231,  "Allow Web Site"
+  232,  "Block Web Site"
+  233,  "Allow %s to visit selected web site?"
+  234,  "Allow %s to visit selected web sites?"
+  235,  "Block %s from visiting selected web site?"
+  236,  "Block %s from visiting selected web sites?"
+  237,  ", including unrated games"
+  238,  "None"
+  239,  "All"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  240,  "Can play"
+  241,  "Can not play"
+  242,  "Use Rating"
+  243,  "Always Allow"
+  244,  "Always Block"
+  245,  """%s"" is currently logged in. Changes to parental controls settings may not take effect until their next logon. Do you want to make changes anyway?"
+  246,  "Summary of System Event Computer Activity from %1 - %2"
+  247,  "Visit the %1 website"
+  248,  "Rating System Row"
+  249,  "logo"
+  250,  "%d allowed"
+  251,  "%1 cannot be added to the list because it is a game.   Use Game Restrictions to block it from running."
+  252,  "New account name"
+  253,  "New password"
+  254,  "Confirm new password"
+  255,  "Type a password hint"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  256,  "System Recovery Account Password"
+  257,  "The System Recovery Account is an administrator account built into Windows Vista to assist if problems arise with your own account. This account could also be used to bypass or turn off parental controls. You are setting a password to prevent unwanted access to this account."
+  258,  "Your Account Password"
+  259,  "Your account is an administrator account. Because your account has no password, anyone can use it to bypass or turn off parental controls. Setting a password will help prevent unwanted access to your account."
+  260,  "Your Account and the System Recovery Password"
+  261,  "The System Recovery Account is an administrator account built into Windows Vista to assist if problems arise with your own account. Your account is also an administrator account. Because these accounts have no passwords, anyone can use them to bypass or turn off parental controls. Setting passwords will help prevent unwanted access to these accounts."
+  262,  "One or more administrator accounts do not have a password. As long as an administrator account has no password, any user can bypass or turn off parental controls. Click here to add a password for these accounts."
+  263,  "The local administrator account does not have a password. As long as this account has no password, any user can bypass or turn off parental controls. Click here to add a password for this account."
+  264,  "One or more administrator accounts have no password. Would you like to ensure passwords on these accounts now?"
+  265,  "The passwords you typed do not match. Please retype the new password in both boxes."
+  266,  "The password you typed does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements."
+  267,  "Windows cannot set the password for your account."
+  268,  "Windows cannot set the password for the system recovery account."
+  269,  "Windows is unable to ensure the passwords."
+  270,  "Windows 7 Parental Controls no longer includes the Web Filtering and Activity Reporting features. To add this functionality on this computer, you can install additional controls. "
+  271,  "How do I install  additional controls?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  272,  "Additional controls like Web Filtering and Activity Reporting are installed but not turned on."
+  273,  "%d blocked, "
+  280,  "Executable File Types|*.exe;*.com;*.cmd;*.bat|All Files (*.*)|*.*||"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "User Selection"
+  302,  "User Controls"
+  303,  "Game Controls"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Game Restrictions"
+  305,  "Game Overrides"
+  306,  "Game Rating Systems"
+  307,  "Time Restrictions"
+  308,  "Application Restrictions"
+  309,  "Family Safety Options"
+  312,  "Create New User"
+  313,  "Ensure Passwords"
+  314,  "User Accounts"
+  315,  "How do I install additional controls?"
+  316,  "How do I turn on additional controls?"
+  317,  "If you want to use additional features like Web Filtering and Activity Reporting on this computer, you need to install additional controls."
+  318,  "You can turn on additional controls like Web Filtering and Activity Reporting by selecting a provider from the list below."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Parental Controls"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  529,  "From"
+  530,  "To"
+  531,  "Subject"
+  532,  "Attachment Names"
+  533,  "Client Name"
+  534,  "Client Version"
+  535,  "Reason"
+  536,  "Link"
+  538,  "Action"
+  539,  "Application Name"
+  540,  "Account"
+  541,  "Application Path"
+  543,  "New Name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  544,  "New Address"
+  545,  "Game Version"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  599,  "Unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  616,  "Changed By"
+  617,  "Account Changed"
+  618,  "Setting Affected"
+  619,  "New Setting"
+  620,  "Old Setting"
+  621,  "New Date"
+  622,  "New Time"
+  623,  "Name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  625,  "Type"
+  626,  "Duration/Blocked"
+  630,  "%1 logon(s) - Total Time: %2 : %3"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  640,  "Source"
+  641,  "Player Name"
+  642,  "Player Version"
+  643,  "Explicit"
+  650,  "True"
+  651,  "False"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  675,  "URL Path"
+  676,  "Category List"
+  686,  "Path"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  688,  "Rating"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  713,  "Unknown User"
+  714,  "On"
+  715,  "Off"
+  716,  "Unknown Password or Username"
+  717,  "Outside Allowed Time"
+  718,  "Account Disabled"
+  719,  "Account Expired"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "Workstation Restricted"
+  721,  "Logon Type Restricted"
+  722,  "Password Expired"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  749,  "Status"
+  750,  "File Name"
+  751,  "Local Path"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  752,  "Allowed"
+  753,  "Blocked"
+  754,  "%1 files downloaded: %2"
+  755,  "none"
+  756,  "%1 - %2 time(s): %3"
+  757,  "Old Date"
+  758,  "Old Time"
+  759,  "%1 Account - Made %2 changes to %3 Account: %4"
+  760,  "%1 Account - %2 %3 account(s): %4"
+  761,  "%1 Account - %2 failed logon attempt(s) - %3: %4"
+  762,  "%1 Account - Changed time from %2 %3 to %4 %5"
+  763,  "Limited Users cannot access activity reports."
+  764,  "Created"
+  765,  "Deleted"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  768,  "Add"
+  769,  "Remove"
+  770,  "Still logged on"
+  771,  "System crash or power down"
+  772,  "Elevated"
+  773,  "Demoted"
+  774,  "Less than one second"
+  775,  "%dh %dm %ds"
+  776,  "%dm %ds"
+  777,  "%ds"
+  778,  "Not Blocked"
+  779,  "Email Blocked"
+  780,  "Attachment Blocked"
+  781,  "Recipient Blocked"
+  782,  "Sender Blocked"
+  783,  "IM Blocked"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  784,  "Media Playback Blocked"
+  785,  "Web Blocked"
+  786,  "Gamel Blocked"
+  787,  "Contact Blocked"
+  789,  "Feature Blocked"
+  790,  "Download Blocked"
+  791,  "Rating Blocked"
+  792,  "Descriptor Blocked"
+  793,  "Explicit Blocked"
+  794,  "Bad Password"
+  795,  "Outside logon hours"
+  796,  "Setting change Blocked"
+  797,  "Not explicately allowed"
+  798,  "URL Not in Allow/Block List"
+  799,  "Category Blocked"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "Category Not In Alloc/Block List"
+  802,  "Unrated"
+  803,  "No Access"
+  805,  "Internal Error"
+  806,  "Over Maximum Logon Hours"
+  809,  "Title"
+  810,  "Album Name"
+  811,  "Receiving Account"
+  812,  "Sending Account"
+  813,  "Contact Name"
+  814,  "Contact Address"
+  815,  "Change Type"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "Host Name"
+  817,  "Participants"
+  818,  "Host IP"
+  819,  "Sender"
+  820,  "Recipients"
+  821,  "Game Name"
+  823,  "Message"
+  824,  "Game Play"
+  825,  "File Exchange"
+  826,  "Link Exchange"
+  827,  "SMS Message"
+  828,  "%1 - %2 media played"
+  829,  "%1 - %2 time(s)"
+  830,  "%s"
+  831,  "%1 from %2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  832,  "%1 sent to %2"
+  833,  "Error Parsing Log Files"
+  834,  "%1 - %2 Conversations - Total Time: %3 : %4"
+  835,  "%1 Include %2 - Total Time: %3"
+  836,  "%1 - %2 Link(s): %3"
+  837,  "%1 - %2 link(s)"
+  838,  "%1 - Total Games Played: %2: %3"
+  839,  "%1 - Game(s) Played: %2"
+  840,  "%1 - %2 File(s): %3"
+  841,  "%1 - %2 file(s)"
+  842,  "%1 - %2 Message(s): %3"
+  843,  "%1 - %2 message(s)"
+  844,  "%1 - Sent Video - %2 time(s), Received Video - %3 times"
+  845,  "Sent Video to"
+  846,  "Received Video from"
+  847,  "%1 - Sent Audio - %2 time(s), Received Audio - %3 times"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  848,  "Sent Audio to"
+  849,  "Received Audio from"
+  850,  "Modify"
+  860,  "TV"
+  861,  "DVD"
+  862,  "Other"
+  863,  "Audio"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  864,  "CD Audio"
+  865,  "Video "
+  866,  "Picture"
+  871,  "Still Running"
+  873,  "The %s defines these ratings."
+  874,  "Rating"
+  875,  "Descriptor Row"
+  876,  "Rating Icon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  880,  "Allow List Only"
+  881,  "Kids Only"
+  882,  "Medium"
+  883,  "Low"
+  884,  "Custom"
+  885,  "No Restriction"
+  891,  "Webpage|*.html||"
+  892,  "html"
+  893,  "Failed to export the data to html."
+  894,  "Product Name"
+  895,  "Folder"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  896,  "Description"
+  897,  "File"
+  898,  "<Unknown>"
+  900,  "040904B0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Extension Path"
+  1001,  "Extension Subsystem"
+  1002,  "Extension Image Path"
+  1003,  "Extension Name"
+  1004,  "Extension Sub Title"
+  1005,  "Current Rating System"
+  1006,  "Last Log View"
+  1007,  "Log View Reminder Interval"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1009,  "HTTP Exemption List"
+  1010,  "URL Exemption List"
+  1011,  "Custom Web Filter ID"
+  1012,  "Custom Web Filter Name"
+  1013,  "Locale"
+  1014,  "Allow/Block"
+  1015,  "Game Restrictions"
+  1016,  "Game Allow Unrated"
+  1017,  "Game Max Allowed"
+  1018,  "Game Category - %s"
+  1019,  "User WPC Enabled"
+  1020,  "User Logging Required"
+  1021,  "User Hourly Restrictions"
+  1022,  "User Override Requests"
+  1023,  "User Logon Hours"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1024,  "User App Restrictions"
+  1025,  "Web Filtering"
+  1026,  "Web Download Blocked"
+  1027,  "Web Filter Level"
+  1028,  "Web Category - %s"
+  1029,  "Web Block Unrated"
+  1030,  "WPC Enabled"
+  1031,  "Logging Required"
+  1032,  "Rating System Path"
+  1033,  "Unsuccessful Logon"
+  1034,  "Net Logon Not Started"
+  1035,  "Account Locked"
+  1036,  "Interactive"
+  1037,  "Remote Interactive"
+  1038,  "Unlock"
+  1039,  "%s (%dh)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1040,  "None"
+  1041,  "%s, %s"
+  1042,  "%s - %s"
+  1043,  "URL Domain"
+  1044,  "All Users"
+  1045,  "%s days"
+  1046,  "Provider Logo Picture"
+  1047,  "Time Limits Picture"
+  1048,  "Games Picture"
+  1049,  "Programs Picture"
+  1051,  "Never"
+  1052,  "Yes"
+  1053,  "No"
+  1054,  "By Rating"
+  1055,  "Windows Parental Controls"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1056,  "Warning: Disabling system tray icon"
+  1057,  "Turning off system tray icon also means users will not receive warnings before their time restrictions are enforced."
+  1058,  "No program selected"
+  1059,  "No applications are allowed to run. The user will only be able to run programs needed by the operating system. Are you sure you want these settings?"
+  1063,  "FAT Drive Detected"
+  1064,  "Parental Controls will not function for games installed on FAT partition. You will need to convert any FAT partitions to NTFS to gain the benefits of Parental Controls."
+  1065,  "<a href=""http://www.microsoft.com"">Click here for more information.</a>"
+  1066,  "%1 cannot be added to the list because it is on a removable device or a FAT partition.   This application is always allowed to run."
+  1067,  "%2 can write to the file %1, %2 may be able to use this to run any program, the file is being added to the list."
+  1068,  "Time Zone Changes by other user"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1072,  "%1 application override(s): %2"
+  1074,  "%1 file downloads blocked: %2"
+  1082,  "Hour"
+  1083,  "(None)"
+  1085,  "Other"
+  1086,  "%1 - %2 event(s): %3"
+  1087,  "%1 - none"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1088,  "There are no instant messaging events for this user.  This is likely because the instant messaging application being used does not support parental controls, or this user has not used an instant messaging application during this time period."
+  1089,  "There are no email events for this user.  This is likely because the email application being used does not support parental controls, or this user has not used an email application during this time period."
+  1090,  "There are no media player events for this user.  This is likely because the media player application being used does not support parental controls, or this user has not used a media player application during this time period."
+  1094,  "%s can only use allowed programs"
+  1095,  "Check the programs that can be used:"
+  1096,  "The following programs can be used:"
+  1097,  "No Web Browsing Allowed"
+  1098,  "You have selected to only allow websites which are on the allow list, but have not specified any allowed websites.  Effectively, no web browsing will be allowed for this user.  Are you sure you want to keep these settings?"
+  1099,  "Client Version"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1107,  "Choose a user and set up Parental Controls"
+  1108,  "What can I do with Parental Controls?"
+  1109,  "What can I do with Parental Controls?"
+  1110,  "If you want to apply Parental Controls to someone who isn't in this list, create a new user account for them to use."
+  1111,  "Why do I need an account for this?"
+  1112,  "Why do I need an account for this?"
+  1113,  "Create a new user account"
+  1114,  "Picture"
+  1115,  "Create a new user account"
+  1116,  "Create a new user account"
+  1117,  "Parental Controls:"
+  1118,  "On, enforce current settings"
+  1119,  "Off"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1126,  "Windows Settings"
+  1127,  "Time limits"
+  1128,  "Games"
+  1129,  "Control games by rating, content, or title"
+  1130,  "Allow and block specific programs"
+  1131,  "Allow and block any programs on your computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Web Restrictions:"
+  1137,  "Off"
+  1138,  "Time Limits:"
+  1139,  "On"
+  1140,  "Game Ratings:"
+  1141,  "On"
+  1142,  "Specific Games:"
+  1143,  "On"
+  1144,  "Program Limits:"
+  1145,  "On"
+  1146,  "Parental Controls:"
+  1147,  "Off"
+  1148,  "OK"
+  1149,  "Control which types of games %username% can play"
+  1150,  "Can %username% play games?"
+  1151,  "Yes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1152,  "No"
+  1153,  "Block (or allow) games by rating and content types"
+  1154,  "Set game ratings"
+  1155,  "Set game ratings"
+  1156,  "Maximum allowed rating: "
+  1157,  "Game descriptors blocked: "
+  1158,  "Block (or allow) any game on your computer by name"
+  1159,  "Block or Allow specific games"
+  1160,  "Always blocked: "
+  1161,  "Always allowed: "
+  1162,  "Control which types of games %username% can play"
+  1163,  "If a game has no rating, can %username% play it?"
+  1164,  "Allow games with no rating"
+  1165,  "Block games with no rating"
+  1166,  "Which ratings are ok for %username% to play?"
+  1167,  "The ESRB defines these ratings."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1168,  "Block these types of content"
+  1169,  "Even if a game has an allowed rating, you can block it for the type of content it contains."
+  1170,  "Cancel"
+  1171,  "Control specific games %username% can and can not play"
+  1172,  "Allowed Ratings:"
+  1173,  "Denied Descriptors:"
+  1174,  "Title/Rating"
+  1175,  "Status"
+  1176,  "User Rating Setting"
+  1177,  "Always Allow"
+  1178,  "Always Block"
+  1179,  "Click and drag the hours you want to block or allow."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1187,  "Midnight (AM)"
+  1188,  " Noon (PM)"
+  1189,  "Allowed - Unchecked"
+  1190,  "Allowed "
+  1191,  "Blocked - Checked"
+  1192,  "Blocked "
+  1197,  "Which games rating system do you want to use?"
+  1198,  "This rating system will apply to all users."
+  1199,  "What do these rating systems do?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Which programs can %username% use"
+  1201,  "Use all programs"
+  1202,  "Only use the programs I allow in this list"
+  1203,  "Check the programs that can be used:"
+  1204,  "Add a program to this list:"
+  1205,  "Browse..."
+  1206,  "Check All"
+  1207,  "Uncheck All"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1247,  "Type a name for the new user"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1248,  "This creates a new Windows user account."
+  1249,  "User &must set password at next logon"
+  1250,  "Create account"
+  1251,  "Ensure Administrator Passwords"
+  1252,  "We will apply the same password to both your account and the System Recovery Account.  You can change these passwords separately, from the User Accounts control panel, if you choose."
+  1253,  "If your password contains capital letters, they must be typed the same way every time you log on."
+  1254,  "How to create a strong password"
+  1255,  "How to create a strong password"
+  1256,  "The password hint will be visible to everyone who uses this computer."
+  1257,  "What is a password hint?"
+  1258,  "What is a password hint?"
+  1259,  "Prepare for a forgotten password"
+  1260,  "Prepare for a forgotten password"
+  1261,  "Other Administrator Accounts"
+  1262,  "When administrator accounts have no passwords, they can be used by anyone to bypass or turn off parental controls. If you use parental controls, all administrator accounts should have passwords."
+  1263,  "Force all administrator accounts to set a password at logon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1264,  "All administrator account passwords are set."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1319,  "User Summary"
+  1321,  "What do these rating systems do?"
+  1322,  "More Settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1335,  "Current Settings:"
+  1340,  "Users"
+  1341,  "Additional controls"
+  1342,  "If you want to use additional features like Web Filtering and Activity Reporting on this computer, you need to install additional controls."
+  1343,  "How do I install additional controls?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1344,  "Tell me more about service providers."
+  1345,  "Provider"
+  1346,  "Select a provider:"
+  1347,  "Jump"
+  1348,  "Jump"
+  1349,  "Jump"
+  1350,  "Jump"
+  1351,  "Jump"
+  1352,  "Jump"
+  1353,  "Jump"
+  1354,  "Jump"
+  1355,  "Jump"
+  1356,  "Jump"
+  1357,  "Jump"
+  1358,  "Jump"
+  1359,  "Jump"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1360,  "press"
+  1361,  "press"
+  1362,  "Jump"
+  1363,  "Jump"
+  1364,  "Jump"
+  1365,  "Jump"
+  1366,  "Jump"
+}
+

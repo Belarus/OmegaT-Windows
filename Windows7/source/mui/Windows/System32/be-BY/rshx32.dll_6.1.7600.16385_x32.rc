@@ -1,0 +1,107 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 DIALOGEX 5, 5, 241, 89
+CAPTION "Error Applying Security"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "An error occurred while applying security information to:", 102, Static, 0x50020000, 36, 7, 198, 9, 0x0
+  CONTROL "", 100, Static, 0x50020000, 36, 23, 198, 9, 0x0
+  CONTROL "Unknown error", 101, Static, 0x50020000, 36, 39, 198, 18, 0x0
+  CONTROL "&Continue", 1, Button, 0x50010001, 130, 71, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 184, 71, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2,  "Security"
+  3,  "None"
+  9,  "%1 (%2)"
+  10,  "Unknown error (0x%1!08x!)"
+  11,  "You do not have permission to read the contents of directory %1. Do you want to replace the directory permissions with permissions granting you Full Control?\n\nAll permissions will be replaced if you press Yes."
+  12,  "Changing ownership of:"
+  13,  "Setting permissions on:"
+  14,  "Setting audit information on:"
+  15,  "Setting security information on:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Full control"
+  17,  "Read"
+  18,  "Write"
+  19,  "Traverse / execute"
+  20,  "Modify"
+  21,  "Read, write & execute"
+  22,  "Write & execute"
+  23,  "Read & execute"
+  24,  "List folder contents"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "Delete"
+  33,  "Read permissions"
+  34,  "Change permissions"
+  35,  "Take ownership"
+  36,  "Synchronize"
+  38,  "List folder / read data"
+  39,  "Create files / write data"
+  40,  "Create folders / append data"
+  41,  "Read extended attributes"
+  42,  "Write extended attributes"
+  43,  "Traverse folder / execute file"
+  44,  "Delete subfolders and files"
+  45,  "Read attributes"
+  46,  "Write attributes"
+  47,  "Create named pipe"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "This folder only"
+  49,  "This folder, subfolders and files"
+  50,  "This folder and subfolders"
+  51,  "This folder and files"
+  52,  "Subfolders and files only"
+  53,  "Subfolders only"
+  54,  "Files only"
+  55,  "Remotely setting permissions on the folder at the root of a share removes all inherited permissions from the root folder and all subfolders. To set permissions without removing the inherited permissions, click No and either change the permissions on a child folder or make the change while logged in locally.\n\nDo you want to continue?"
+  56,  "Remotely setting auditing entries on the folder at the root of a share removes all inherited auditing entries from the root folder and all subfolders. To set auditing entries without removing the inherited auditing entries, click No and either change the auditing entries on a child folder or make the change while logged in locally.\n\nDo you want to continue?"
+  59,  "Permissions editor for files and folders"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "Print"
+  65,  "Manage this printer"
+  66,  "Manage documents"
+  67,  "Delete"
+  68,  "Read permissions"
+  69,  "Change permissions"
+  70,  "Take ownership"
+  71,  "Full control"
+  72,  "This printer only"
+  73,  "Documents only"
+  74,  "This printer and documents"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  82,  "Stopping the propagation of permission settings leads to an inconsistent state, in which some objects have the settings but others don't. If you made the change by mistake, you should apply the correct change immediately to achieve a consistent state."
+  83,  "Stopping the propagation of auditing settings leads to an inconsistent state, in which some objects have the settings but others don't. If you made the change by mistake, you should apply the correct change immediately to achieve a consistent state."
+  84,  "Stopping the propagation of the owner leads to an inconsistent state, in which some objects have the setting but others don't. If you made the change by mistake, you should apply the correct change immediately to achieve a consistent state."
+  85,  "You are about to change the permission settings on the root directory of the startup disk, which can result in unexpected access problems and reduce security. Do you want to continue?"
+  86,  "You are about to change the permission settings on system folders, which can result in unexpected access problems and reduce security. Do you want to continue?"
+  87,  "Windows Security"
+}
+
