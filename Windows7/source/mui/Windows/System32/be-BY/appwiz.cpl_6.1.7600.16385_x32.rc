@@ -1,0 +1,401 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+200 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x90c800cc
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "This wizard helps you to create shortcuts to local or network programs, files, folders, computers, or Internet addresses.", 4294967295, Static, 0x50020000, 0, 7, 310, 28, 0x0
+  CONTROL "&Type the location of the item:", 1002, Static, 0x50020000, 0, 37, 310, 8, 0x0
+  CONTROL "", 1003, Edit, 0x50810080, 0, 47, 233, 14, 0x0
+  CONTROL "B&rowse...", 1004, Button, 0x50010000, 237, 47, 50, 14, 0x0
+  CONTROL "Click Next to continue.", 4294967295, Static, 0x50020000, 0, 77, 233, 8, 0x0
+}
+
+201 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x90c800cc
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Select a folder to place this shortcut in:", 4294967295, Static, 0x50020000, 0, 7, 310, 10, 0x0
+  CONTROL "", 1022, "SysTreeView32", 0x50810028, 0, 17, 187, 70, 0x0
+  CONTROL "New &Folder...", 1027, Button, 0x50010000, 132, 93, 55, 14, 0x0
+}
+
+202 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x90c800cc
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Type a name for this shortcut:", 4294967295, Static, 0x50020000, 0, 7, 310, 10, 0x0
+  CONTROL "", 1020, Edit, 0x50810080, 0, 17, 187, 14, 0x0
+  CONTROL "Click Finish to create the shortcut.", 4294967295, Static, 0x50020000, 0, 48, 310, 8, 0x0
+}
+
+306 DIALOGEX 0, 0, 235, 115
+CAPTION "Run Installation Program"
+STYLE 0x90c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Please specify the uninstall program location", 1031, Static, 0x50020000, 7, 7, 221, 34, 0x0
+  CONTROL "&Command line for the uninstall program:", 1002, Static, 0x50020000, 7, 57, 124, 8, 0x0
+  CONTROL "", 1003, Edit, 0x50810080, 7, 69, 165, 14, 0x0
+  CONTROL "B&rowse...", 1004, Button, 0x50010000, 178, 69, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 122, 94, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 178, 94, 50, 14, 0x0
+}
+
+307 DIALOGEX 20, 20, 244, 95
+CAPTION "Warning"
+STYLE 0x90c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1013, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "There are other users logged on to this computer.", 65535, Static, 0x50020000, 37, 8, 200, 10, 0x0
+  CONTROL "If you uninstall this program while another user is running it, the program might not uninstall completely.", 65535, Static, 0x50020000, 37, 23, 200, 18, 0x0
+  CONTROL "To properly uninstall or change this program, switch to and log off each user before you continue.", 1017, Static, 0x50020000, 37, 46, 200, 18, 0x0
+  CONTROL "&Switch User", 1014, Button, 0x50010000, 78, 76, 50, 14, 0x0
+  CONTROL "&Continue", 1, Button, 0x50010000, 133, 76, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 188, 76, 50, 14, 0x0
+}
+
+400 DIALOGEX 20, 20, 212, 200
+CAPTION "Remove Shortcuts/Folders"
+STYLE 0x90c800cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&To remove an item from the Start menu, select the item and click Remove.", 1031, Static, 0x50020000, 10, 10, 192, 16, 0x0
+  CONTROL "", 1022, "SysTreeView32", 0x50810023, 10, 32, 192, 138, 0x0
+  CONTROL "&Remove", 1030, Button, 0x50010000, 98, 176, 50, 14, 0x0
+  CONTROL "Close", 1, Button, 0x50010001, 152, 176, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  21,  "Size"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43,  "Name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  68,  "%1 for %2 (%3)"
+  69,  "Microsoft Windows"
+  70,  "Critical Update"
+  71,  "Hotfix"
+  72,  "Security Update"
+  73,  "Service Pack"
+  74,  "Software Update"
+  75,  "Update"
+  76,  "Update Rollup"
+  77,  "Driver"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  83,  "Help"
+  89,  "Please wait..."
+  95,  "A program configuration specifies default programs for certain activities, such as Web browsing or sending e-mail, and which programs are accessible from the Start menu, desktop, and other locations.\r\n\r\nChoose a configuration:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "OK"
+  97,  "Cancel"
+  98,  "Applying Changes"
+  99,  "Enabling access:"
+  100,  "Removing access:"
+  101,  "Setting as default application:"
+  102,  "Computer Manufacturer"
+  103,  "Sets programs specified by your computer manufacturer as defaults, and enables or removes access to the programs shown below."
+  104,  "%MICROSOFT_COMPANYNAME% %WINDOWS_GENERIC%"
+  105,  "Sets programs included in %MICROSOFT_COMPANYNAME% %WINDOWS_GENERIC% as defaults, and enables or removes access to the programs shown below."
+  106,  "Non-%MICROSOFT_COMPANYNAME%"
+  107,  "Sets non-%MICROSOFT_COMPANYNAME% programs (when available) as defaults, and enables or removes access to the programs shown below."
+  108,  "Custom"
+  109,  "Note: If a program does not respond to your choice to enable or remove access to it, please contact the vendor of that program."
+  110,  "Web browser :"
+  111,  "Use my current Web browser"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Choose a default Web browser"
+  113,  "E-mail program :"
+  114,  "Use my current e-mail program"
+  115,  "Choose a default e-mail program"
+  116,  "Media player :"
+  117,  "Use my current media player"
+  118,  "Choose a default media player"
+  119,  "Instant messaging program :"
+  120,  "Use my current instant messaging program"
+  121,  "Choose a default instant messaging program"
+  122,  "Virtual machine for Java :"
+  123,  "Use my current virtual machine for Java"
+  124,  "Choose a default virtual machine for Java"
+  125,  "Enable access to this program"
+  126,  "Enable access:"
+  127,  "Remove access:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "%1, %2"
+  129,  "You do not have permission to set program access and defaults."
+  130,  "Set Program Access and Computer Defaults"
+  131,  "Setting Defaults..."
+  132,  "Choose a default web browser :"
+  133,  "Choose a default e-mail program :"
+  134,  "Choose a default media player :"
+  135,  "Choose a default instant messaging program :"
+  136,  "Choose a default virtual machine for Java :"
+  137,  "Use my current Microsoft e-mail program"
+  138,  "Enable access to this program (%1)"
+  139,  "Parser Error"
+  143,  "Installed On"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "An error occurred while trying to uninstall %1.\n\nIt has already been uninstalled."
+  152,  "Are you sure you want to uninstall this update?"
+  153,  "Update"
+  155,  "Get new programs from the network or online."
+  156,  "Get Programs"
+  157,  "Installed Updates"
+  158,  "Uninstall a program"
+  159,  "Programs and Features"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "Uninstall or change programs on your computer."
+  162,  "Uninstall or change an application"
+  165,  "Uninstall"
+  166,  "Uninstall this program."
+  167,  "Change"
+  168,  "Change the installation of this program."
+  169,  "Repair"
+  170,  "Repair the installation of this program."
+  171,  "Uninstall/Change"
+  172,  "Uninstall or change this program."
+  173,  "&Uninstall"
+  174,  "&Change"
+  175,  "R&epair"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "&Uninstall/Change"
+  177,  "&Install"
+  178,  "Install"
+  179,  "Installs a program"
+  180,  "Uninstall or change a program"
+  182,  "Install a program from the network"
+  183,  "Your system administrator has disabled Programs and Features."
+  184,  "Uninstall an update"
+  185,  "Your system administrator has disabled Get Programs."
+  186,  "Windows Features"
+  187,  "Turn Windows features on or off."
+  188,  "Turn Windows features on or off"
+  189,  "To turn a feature on, select its check box. To turn a feature off, clear its check box. A filled box means that only part of the feature is turned on."
+  190,  "System Restore"
+  191,  "Restores system to chosen restore point."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Microsoft Windows"
+  193,  "Please wait while Windows makes changes to features. This might take several minutes."
+  194,  "An error has occurred. Not all of the features were successfully changed."
+  196,  "Searching the network for available programs..."
+  197,  "There are no programs available to install from the network."
+  200,  "Currently installed programs"
+  201,  "%d programs installed"
+  202,  "Currently installed updates"
+  203,  "%d updates installed"
+  204,  "Available programs"
+  205,  "%d programs available"
+  206,  "There are no programs available to install from the network.  Insert a disc to install a new program"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  210,  "No programs are installed on this computer."
+  211,  "Searching for installed programs..."
+  212,  "No updates are installed on this computer."
+  213,  "Searching for installed updates..."
+  214,  "Tasks"
+  215,  "See also"
+  216,  "Your system administrator has disabled Installed Updates."
+  217,  "View installed updates"
+  220,  "Install a program from the network"
+  221,  "Uninstall a program"
+  222,  "To uninstall a program, select it from the list and then click Uninstall, Change, or Repair."
+  223,  "To install a program, select it from the list and then click Install."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "To uninstall an update, select it from the list and then click Uninstall or Change."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Windows Update"
+  501,  "An error has occurred. Not all of the updates were successfully uninstalled."
+  503,  "Microsoft Windows"
+  504,  "Please wait while the updates are being uninstalled. This might take several minutes."
+  505,  "The following Windows features will also be turned off because they are dependent on %1. Do you want to continue?"
+  506,  "Turning off %1 might affect other Windows features and programs installed on your computer, including default settings. Do you want to continue?"
+  507,  "<A HREF=""%1"">Go online to learn more</A>"
+  508,  "Other Windows features and programs installed on your computer might also be affected, including default settings.\n<A HREF=""%1"">Go online to learn more</A>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Programs and Features"
+  1001,  "Please wait until the current program is finished uninstalling or being changed."
+  1002,  "This is '%1!ls!' Window Title"
+  1003,  "And this is main instruction of the '%1!ls!' dialog (Version = %3!d!)"
+  1004,  "Yes"
+  1005,  "No"
+  1006,  "Don't Install"
+  1007,  "Command link text\nThis is command link explanation"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "Some content text some link"
+  1009,  "This is verification text"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2001,  "Programs and Features"
+  2003,  "The file %1 cannot be found."
+  2012,  "A shortcut named %1 already exists in this folder. Do you want to replace it?"
+  2013,  "Choose a Title"
+  2014,  "exe"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2016,  "Browse"
+  2020,  "Setup Programs@*Instal*.exe;*Setup*.exe;Felrak.exe;Imposta.exe;KUR.exe;Yükle*.exe;Ayarla.exe;*.msi@Programs@*.exe;*.com;*.bat;*.cmd@All Files@*.*"
+  2027,  "Unable to create shortcut."
+  2028,  "install@setup@uninst@unwise@felrak@imposta@kur@Yükle@Ayarla"
+  2031,  "An error occurred while trying to uninstall %1. It may have already been uninstalled.\n\nWould you like to remove %1 from the Programs and Features list?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2032,  "An error occurred while trying to uninstall %1. It may have already been uninstalled.\n\nWould you like to remove %1 from the Installed Updates list?"
+  2035,  "The system folder %1 can not be deleted."
+  2036,  "NEWGRP"
+  2037,  "Program Group"
+  2038,  "No folder selected."
+  2042,  "An error occurred while trying to uninstall %s. You do not have access to %s.\n You can specify the new uninstall program below."
+  2044,  "You do not have sufficient access to remove %1 from the Programs and Features list.\nPlease contact your system administrator."
+  2045,  "You do not have sufficient access to uninstall %1.\nPlease contact your system administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2060,  "The shortcut name you entered either contained characters that are invalid for file names or was too long."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2072,  "Select the target of the shortcut below:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2200,  "Create Shortcut"
+  2201,  "What item would you like to create a shortcut for?"
+  2202,  "Where would you like to place the shortcut?"
+  2203,  "What would you like to name the shortcut?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12309,  "Last Used On"
+  12312,  "Your system administrator has disabled Set Program Access and Computer Defaults."
+  12313,  "Your system administrator has disabled Windows Features."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12325,  "Are you sure you want to uninstall %s?"
+  12327,  "Programs and Features"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12800,  "Publisher"
+  12801,  "Version"
+  12802,  "Registered Owner"
+  12803,  "Registered Company"
+  12805,  "Support Link"
+  12806,  "Support Telephone"
+  12807,  "Help Link"
+  12808,  "Location"
+  12809,  "Source"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12816,  "Contact"
+  12817,  "Comments"
+  12818,  "Readme"
+  12819,  "Update Info Link"
+  12820,  "Program"
+  12822,  "Product ID"
+  12823,  "Update ID"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  13056,  "Create New Shortcut"
+  13057,  "Microsoft Windows"
+  13058,  "This program will not run"
+}
+
