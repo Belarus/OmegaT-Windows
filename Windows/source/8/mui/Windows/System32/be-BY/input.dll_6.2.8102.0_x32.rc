@@ -1,0 +1,736 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 267, 214
+CAPTION "Add Input Language"
+STYLE 0x80cc00c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Select the language to add using the checkboxes below.", 4294967295, Static, 0x50020000, 7, 7, 194, 10, 0x0
+  CONTROL "", 1001, "SysTreeView32", 0x50810137, 7, 20, 194, 190, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 210, 7, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 210, 24, 50, 14, 0x0
+  CONTROL "&Preview...", 1019, Button, 0x50010000, 210, 41, 50, 14, 0x0
+}
+
+106 DIALOGEX 0, 0, 263, 236
+CAPTION "Language Bar"
+STYLE 0x90c001c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Language Bar ", 4294967295, Button, 0x50020007, 7, 6, 247, 61, 0x0
+  CONTROL "&Floating On Desktop", 1011, Button, 0x50030009, 17, 16, 142, 14, 0x0
+  CONTROL "&Docked in the taskbar", 1012, Button, 0x50010009, 17, 32, 142, 14, 0x0
+  CONTROL "&Hidden", 1013, Button, 0x50010009, 17, 50, 142, 14, 0x0
+  CONTROL "Show the Language bar as transparent when i&nactive", 1014, Button, 0x50010003, 7, 73, 246, 10, 0x0
+  CONTROL "Show add&itional Language bar icons in the taskbar", 1015, Button, 0x50010003, 7, 90, 246, 10, 0x0
+  CONTROL "Show t&ext labels on the Language bar", 1016, Button, 0x50010003, 7, 107, 246, 10, 0x0
+}
+
+107 DIALOGEX 0, 0, 263, 236
+CAPTION "Advanced Key Settings"
+STYLE 0x90c001c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "To turn off Caps Lock", 1030, Button, 0x50000007, 7, 7, 247, 26, 0x0
+  CONTROL "Press the CAPS &LOCK key", 1031, Button, 0x50030009, 14, 17, 121, 11, 0x0
+  CONTROL "Press the SHI&FT key", 1032, Button, 0x50000009, 141, 17, 110, 11, 0x0
+  CONTROL "Hot keys for input languages", 1033, Button, 0x50000007, 7, 37, 247, 191, 0x0
+  CONTROL "Action", 1034, Static, 0x50020000, 17, 47, 63, 9, 0x0
+  CONTROL "&Key sequence", 1035, Static, 0x50020002, 157, 47, 88, 9, 0x0
+  CONTROL "", 1036, ListBox, 0x50a10053, 15, 58, 232, 151, 0x0
+  CONTROL "&Change Key Sequence...", 1037, Button, 0x50030000, 141, 209, 106, 14, 0x0
+}
+
+108 DIALOGEX 0, 0, 271, 103
+CAPTION "Change Key Sequence"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 214, 63, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 214, 80, 50, 14, 0x0
+  CONTROL "Switch Input Language", 4294967295, Button, 0x50000007, 7, 14, 94, 80, 0x0
+  CONTROL "&Not Assigned", 1090, Button, 0x50030009, 14, 28, 83, 10, 0x0
+  CONTROL "&Ctrl + Shift", 1091, Button, 0x50010009, 14, 43, 83, 10, 0x0
+  CONTROL "&Left Alt + Shift", 1092, Button, 0x50010009, 14, 58, 83, 10, 0x0
+  CONTROL "&Grave Accent (`)", 1093, Button, 0x50010009, 14, 75, 83, 10, 0x0
+  CONTROL "Switch Keyboard Layout", 4294967295, Button, 0x50000007, 112, 15, 94, 80, 0x0
+  CONTROL "N&ot Assigned", 1094, Button, 0x50030009, 116, 29, 83, 10, 0x0
+  CONTROL "C&trl + Shift", 1095, Button, 0x50010009, 116, 44, 83, 10, 0x0
+  CONTROL "Le&ft Alt + Shift", 1096, Button, 0x50010009, 116, 58, 83, 10, 0x0
+  CONTROL "G&rave Accent (`)", 1097, Button, 0x50010009, 116, 76, 83, 10, 0x0
+}
+
+111 DIALOGEX 5, 100, 298, 77
+CAPTION "Change Key Sequence"
+STYLE 0x90c801c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1080, Static, 0x50020000, 16, 5, 273, 10, 0x0
+  CONTROL "", 4294967295, Button, 0x50000007, 12, 17, 218, 48, 0x0
+  CONTROL "&Enable Key Sequence", 1050, Button, 0x50010003, 17, 17, 85, 8, 0x0
+  CONTROL "+", 4294967295, Static, 0x50020001, 98, 37, 8, 10, 0x0
+  CONTROL "", 1051, ComboBox, 0x50210003, 24, 35, 80, 80, 0x0
+  CONTROL "&Key:", 4294967295, Static, 0x50020002, 110, 37, 23, 8, 0x0
+  CONTROL "", 1081, ComboBox, 0x50210003, 137, 35, 81, 60, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 239, 25, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 239, 47, 50, 14, 0x0
+}
+
+112 DIALOGEX 0, 0, 196, 63
+CAPTION "Text Services and Input Languages"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1100, Static, 0x50020001, 3, 7, 189, 20, 0x0
+  CONTROL "&Do not show me this message again.", 1101, Button, 0x50010003, 27, 33, 137, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 30, 47, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 107, 47, 50, 14, 0x0
+}
+
+113 DIALOGEX 0, 0, 253, 103
+CAPTION "Text Services and Input Languages"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1102, Static, 0x50020001, 3, 7, 250, 60, 0x0
+  CONTROL "&Do not show me this message again.", 1101, Button, 0x50010003, 60, 73, 130, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 50, 87, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 150, 87, 50, 14, 0x0
+}
+
+114 DIALOGEX 0, 0, 253, 93
+CAPTION "Text Services and Input Languages"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1103, Static, 0x50020001, 3, 7, 250, 60, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 100, 77, 50, 14, 0x0
+}
+
+900 DIALOGEX 0, 0, 334, 140
+CAPTION "Keyboard Layout Preview"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 220, 122, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 277, 122, 50, 14, 0x0
+  CONTROL "", 2000, Button, 0x50000007, 5, 35, 20, 20, 0x0
+  CONTROL "", 2001, Static, 0x50020001, 7, 43, 16, 10, 0x0
+  CONTROL "", 2002, Button, 0x50000007, 27, 35, 20, 20, 0x0
+  CONTROL "", 2003, Static, 0x50020001, 29, 43, 16, 10, 0x0
+  CONTROL "", 2004, Button, 0x50000007, 49, 35, 20, 20, 0x0
+  CONTROL "", 2005, Static, 0x50020001, 51, 43, 16, 10, 0x0
+  CONTROL "", 2006, Button, 0x50000007, 71, 35, 20, 20, 0x0
+  CONTROL "", 2007, Static, 0x50020001, 73, 43, 16, 10, 0x0
+  CONTROL "", 2008, Button, 0x50000007, 93, 35, 20, 20, 0x0
+  CONTROL "", 2009, Static, 0x50020001, 95, 43, 16, 10, 0x0
+  CONTROL "", 2010, Button, 0x50000007, 117, 35, 20, 20, 0x0
+  CONTROL "", 2011, Static, 0x50020001, 119, 43, 16, 10, 0x0
+  CONTROL "", 2012, Button, 0x50000007, 139, 35, 20, 20, 0x0
+  CONTROL "", 2013, Static, 0x50020001, 141, 43, 16, 10, 0x0
+  CONTROL "", 2014, Button, 0x50000007, 161, 35, 20, 20, 0x0
+  CONTROL "", 2015, Static, 0x50020001, 163, 43, 16, 10, 0x0
+  CONTROL "", 2016, Button, 0x50000007, 183, 35, 20, 20, 0x0
+  CONTROL "", 2017, Static, 0x50020001, 185, 43, 16, 10, 0x0
+  CONTROL "", 2018, Button, 0x50000007, 205, 35, 20, 20, 0x0
+  CONTROL "", 2019, Static, 0x50020001, 207, 43, 16, 10, 0x0
+  CONTROL "", 2020, Button, 0x50000007, 227, 35, 20, 20, 0x0
+  CONTROL "", 2021, Static, 0x50020001, 229, 43, 16, 10, 0x0
+  CONTROL "", 2022, Button, 0x50000007, 249, 35, 20, 20, 0x0
+  CONTROL "", 2023, Static, 0x50020001, 251, 43, 16, 10, 0x0
+  CONTROL "", 2024, Button, 0x50000007, 271, 35, 20, 20, 0x0
+  CONTROL "", 2025, Static, 0x50020001, 273, 43, 16, 10, 0x0
+  CONTROL "", 2026, Button, 0x50000007, 37, 55, 20, 20, 0x0
+  CONTROL "", 2027, Static, 0x50020001, 39, 63, 16, 10, 0x0
+  CONTROL "", 2028, Button, 0x50000007, 59, 55, 20, 20, 0x0
+  CONTROL "", 2029, Static, 0x50020001, 61, 63, 16, 10, 0x0
+  CONTROL "", 2030, Button, 0x50000007, 81, 55, 20, 20, 0x0
+  CONTROL "", 2031, Static, 0x50020001, 83, 63, 16, 10, 0x0
+  CONTROL "", 2032, Button, 0x50000007, 103, 55, 20, 20, 0x0
+  CONTROL "", 2033, Static, 0x50020001, 105, 63, 16, 10, 0x0
+  CONTROL "", 2034, Button, 0x50000007, 125, 55, 20, 20, 0x0
+  CONTROL "", 2035, Static, 0x50020001, 127, 63, 16, 10, 0x0
+  CONTROL "", 2036, Button, 0x50000007, 147, 55, 20, 20, 0x0
+  CONTROL "", 2037, Static, 0x50020001, 149, 63, 16, 10, 0x0
+  CONTROL "", 2038, Button, 0x50000007, 169, 55, 20, 20, 0x0
+  CONTROL "", 2039, Static, 0x50020001, 171, 63, 16, 10, 0x0
+  CONTROL "", 2040, Button, 0x50000007, 191, 55, 20, 20, 0x0
+  CONTROL "", 2041, Static, 0x50020001, 193, 63, 16, 10, 0x0
+  CONTROL "", 2042, Button, 0x50000007, 213, 55, 20, 20, 0x0
+  CONTROL "", 2043, Static, 0x50020001, 215, 63, 16, 10, 0x0
+  CONTROL "", 2044, Button, 0x50000007, 235, 55, 20, 20, 0x0
+  CONTROL "", 2045, Static, 0x50020001, 237, 63, 16, 10, 0x0
+  CONTROL "", 2046, Button, 0x50000007, 257, 55, 20, 20, 0x0
+  CONTROL "", 2047, Static, 0x50020001, 259, 63, 16, 10, 0x0
+  CONTROL "", 2048, Button, 0x50000007, 279, 55, 20, 20, 0x0
+  CONTROL "", 2049, Static, 0x50020001, 281, 63, 16, 10, 0x0
+  CONTROL "", 2050, Button, 0x50000007, 301, 55, 26, 20, 0x0
+  CONTROL "", 2051, Static, 0x50020001, 303, 63, 22, 10, 0x0
+  CONTROL "", 2052, Button, 0x50000007, 45, 75, 20, 20, 0x0
+  CONTROL "", 2053, Static, 0x50020001, 47, 83, 16, 10, 0x0
+  CONTROL "", 2054, Button, 0x50000007, 67, 75, 20, 20, 0x0
+  CONTROL "", 2055, Static, 0x50020001, 69, 83, 16, 10, 0x0
+  CONTROL "", 2056, Button, 0x50000007, 89, 75, 20, 20, 0x0
+  CONTROL "", 2057, Static, 0x50020001, 91, 83, 16, 10, 0x0
+  CONTROL "", 2058, Button, 0x50000007, 111, 75, 20, 20, 0x0
+  CONTROL "", 2059, Static, 0x50020001, 113, 83, 16, 10, 0x0
+  CONTROL "", 2060, Button, 0x50000007, 133, 75, 20, 20, 0x0
+  CONTROL "", 2061, Static, 0x50020001, 135, 83, 16, 10, 0x0
+  CONTROL "", 2062, Button, 0x50000007, 155, 75, 20, 20, 0x0
+  CONTROL "", 2063, Static, 0x50020001, 157, 83, 16, 10, 0x0
+  CONTROL "", 2064, Button, 0x50000007, 177, 75, 20, 20, 0x0
+  CONTROL "", 2065, Static, 0x50020001, 179, 83, 16, 10, 0x0
+  CONTROL "", 2066, Button, 0x50000007, 199, 75, 20, 20, 0x0
+  CONTROL "", 2067, Static, 0x50020001, 201, 83, 16, 10, 0x0
+  CONTROL "", 2068, Button, 0x50000007, 221, 75, 20, 20, 0x0
+  CONTROL "", 2069, Static, 0x50020001, 223, 83, 16, 10, 0x0
+  CONTROL "", 2070, Button, 0x50000007, 243, 75, 20, 20, 0x0
+  CONTROL "", 2071, Static, 0x50020001, 245, 83, 16, 10, 0x0
+  CONTROL "", 2072, Button, 0x50000007, 265, 75, 20, 20, 0x0
+  CONTROL "", 2073, Static, 0x50020001, 267, 83, 16, 10, 0x0
+  CONTROL "", 2074, Button, 0x50000007, 56, 95, 20, 20, 0x0
+  CONTROL "", 2075, Static, 0x50020001, 59, 103, 16, 10, 0x0
+  CONTROL "", 2076, Button, 0x50000007, 79, 95, 20, 20, 0x0
+  CONTROL "", 2077, Static, 0x50020001, 81, 103, 16, 10, 0x0
+  CONTROL "", 2078, Button, 0x50000007, 101, 95, 20, 20, 0x0
+  CONTROL "", 2079, Static, 0x50020001, 103, 103, 16, 10, 0x0
+  CONTROL "", 2080, Button, 0x50000007, 123, 95, 20, 20, 0x0
+  CONTROL "", 2081, Static, 0x50020001, 125, 103, 16, 10, 0x0
+  CONTROL "", 2082, Button, 0x50000007, 145, 95, 20, 20, 0x0
+  CONTROL "", 2083, Static, 0x50020001, 147, 103, 16, 10, 0x0
+  CONTROL "", 2084, Button, 0x50000007, 167, 95, 20, 20, 0x0
+  CONTROL "", 2085, Static, 0x50020001, 169, 103, 16, 10, 0x0
+  CONTROL "", 2086, Button, 0x50000007, 189, 95, 20, 20, 0x0
+  CONTROL "", 2087, Static, 0x50020001, 191, 103, 16, 10, 0x0
+  CONTROL "", 2088, Button, 0x50000007, 211, 95, 20, 20, 0x0
+  CONTROL "", 2089, Static, 0x50020001, 213, 103, 16, 10, 0x0
+  CONTROL "", 2090, Button, 0x50000007, 233, 95, 20, 20, 0x0
+  CONTROL "", 2091, Static, 0x50020001, 235, 103, 16, 10, 0x0
+  CONTROL "", 2092, Button, 0x50000007, 255, 95, 20, 20, 0x0
+  CONTROL "", 2093, Static, 0x50020001, 257, 103, 16, 10, 0x0
+  CONTROL "", 2094, Button, 0x50000007, 5, 55, 29, 20, 0x0
+  CONTROL "Tab", 2095, Static, 0x50020001, 7, 63, 25, 10, 0x0
+  CONTROL "", 2096, Button, 0x50000007, 5, 75, 38, 20, 0x0
+  CONTROL "Caps", 2097, Static, 0x50020001, 7, 83, 34, 10, 0x0
+  CONTROL "", 2098, Button, 0x50000007, 5, 95, 49, 20, 0x0
+  CONTROL "Shift", 2099, Static, 0x50020001, 7, 103, 45, 10, 0x0
+  CONTROL "", 2100, Button, 0x50000007, 277, 95, 50, 20, 0x0
+  CONTROL "Shift", 2101, Static, 0x50020001, 279, 103, 46, 10, 0x0
+  CONTROL "", 2102, Button, 0x50000007, 287, 75, 40, 20, 0x0
+  CONTROL "Enter", 2103, Static, 0x50020001, 289, 83, 36, 10, 0x0
+  CONTROL "", 2104, Button, 0x50000007, 293, 35, 34, 20, 0x0
+  CONTROL "BackSp", 2105, Static, 0x50020001, 295, 43, 30, 10, 0x0
+  CONTROL "Layout Name:", 4294967295, Static, 0x50020000, 7, 16, 50, 10, 0x0
+  CONTROL "", 901, Static, 0x50020000, 60, 16, 250, 20, 0x0
+  CONTROL "", 902, Static, 0x50000043, 222, 5, 32, 32, 0x0
+  CONTROL "&Change Icon...", 903, Button, 0x50010000, 267, 15, 60, 15, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Text Services and Input Languages"
+  2,  "Customizes settings for text input of languages"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2001,  "Between input languages"
+  2002,  "To %s - %s"
+  2003,  "Ctrl+"
+  2004,  "Left Alt+"
+  2005,  "Shift+"
+  2010,  "Confirmation"
+  2011,  "There are profiles that will be enabled with your change\r\n"
+  2012,  "There are profiles that will be disabled with your change\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2020,  "Keyboard"
+  2021,  "Speech"
+  2022,  "Handwriting"
+  2023,  "Reference"
+  2024,  "Proofing"
+  2025,  "Action"
+  2026,  "Other"
+  2030,  " (64Bit Only)"
+  2031,  " (32Bit Only)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2032,  "%s is available only on 32 bit processes.\r\nDo you want to make this as a default input item?"
+  2033,  "The following input methods are available only on 32 bit processes.\r\n%sDo you want to include them in Default User Account?"
+  2034,  "The following input methods are available only on 32 bit processes.\r\n%sThese can not be applied to System Accounts."
+  2035,  "..."
+  2036,  "Show More..."
+  2037,  "Close"
+  2038,  "Text Services and Input Languages"
+  2039,  "The property setting for %s is not available."
+  2040,  "Ctrl"
+  2041,  "Ctrl + Shift"
+  2042,  "Left Alt + Shift"
+  2043,  "Other Languages"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2200,  "(None)"
+  2201,  "Space"
+  2202,  "Page_Up"
+  2203,  "Page_Down"
+  2204,  "End"
+  2205,  "Home"
+  2206,  "F1"
+  2207,  "F2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2208,  "F3"
+  2209,  "F4"
+  2210,  "F5"
+  2211,  "F6"
+  2212,  "F7"
+  2213,  "F8"
+  2214,  "F9"
+  2215,  "F10"
+  2216,  "F11"
+  2217,  "F12"
+  2218,  "SEMICLN"
+  2219,  "EQUAL"
+  2220,  "COMMA"
+  2221,  "MINUS"
+  2222,  "PERIOD"
+  2223,  "SLASH"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2224,  "'`'"
+  2225,  "LBRACKET"
+  2226,  "BSLASH"
+  2227,  "RBRACKET"
+  2228,  "QUOTE"
+  2229,  "A"
+  2230,  "B"
+  2231,  "C"
+  2232,  "D"
+  2233,  "E"
+  2234,  "F"
+  2235,  "G"
+  2236,  "H"
+  2237,  "I"
+  2238,  "J"
+  2239,  "K"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2240,  "L"
+  2241,  "M"
+  2242,  "N"
+  2243,  "O"
+  2244,  "P"
+  2245,  "Q"
+  2246,  "R"
+  2247,  "S"
+  2248,  "T"
+  2249,  "U"
+  2250,  "V"
+  2251,  "W"
+  2252,  "X"
+  2253,  "Y"
+  2254,  "Z"
+  2255,  "(None)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2256,  "0"
+  2257,  "1"
+  2258,  "2"
+  2259,  "3"
+  2260,  "4"
+  2261,  "5"
+  2262,  "6"
+  2263,  "7"
+  2264,  "8"
+  2265,  "9"
+  2266,  "~"
+  2267,  "Grave Accent"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2300,  "Chinese (Traditional) IME - Resend result string"
+  2301,  "Resend the previous result string to this application."
+  2302,  "Chinese (Traditional) IME - Previous Composition"
+  2303,  "Bring up the previous string to the application."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2304,  "Chinese (Traditional) IME - UI Style Toggle"
+  2305,  "Toggle the UI style between caret unrelated UI and the caret related UI."
+  2306,  "Chinese (Traditional) IME - Ime/NonIme Toggle"
+  2307,  "Toggle between IME and non IME."
+  2308,  "Chinese (Traditional) IME - Shape Toggle"
+  2309,  "Toggle the shape conversion mode of IME."
+  2310,  "Chinese (Traditional) IME - Punctuation Toggle"
+  2311,  "Toggle the symbol conversion mode of IME."
+  2312,  "Chinese (Simplified) IME - Ime/NonIme Toggle"
+  2313,  "Toggle between IME and non IME."
+  2314,  "Chinese (Simplified) IME - Shape Toggle"
+  2315,  "Toggle the shape conversion mode of IME."
+  2316,  "Chinese (Simplified) IME - Punctuation Toggle"
+  2317,  "Toggle the symbol conversion mode of IME."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3000,  "(Default)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "US"
+  5001,  "Belgian (Period)"
+  5002,  "Belgian French"
+  5003,  "Portuguese (Brazil ABNT)"
+  5004,  "Canadian French"
+  5005,  "Canadian French (Legacy)"
+  5007,  "Danish"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5008,  "Dutch"
+  5009,  "Finnish"
+  5010,  "French"
+  5011,  "German"
+  5012,  "German (IBM)"
+  5013,  "Icelandic"
+  5014,  "Irish"
+  5015,  "Italian"
+  5016,  "Italian (142)"
+  5017,  "Latin American"
+  5018,  "Norwegian"
+  5019,  "Portuguese"
+  5020,  "Spanish"
+  5021,  "Spanish Variation"
+  5022,  "Swedish"
+  5023,  "Swiss French"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5024,  "Swiss German"
+  5025,  "United Kingdom"
+  5026,  "United States-International"
+  5027,  "United States-Dvorak for left hand"
+  5028,  "United States-Dvorak for right hand"
+  5029,  "Albanian"
+  5030,  "Croatian"
+  5031,  "Czech"
+  5032,  "Czech (QWERTY)"
+  5033,  "Hungarian"
+  5034,  "Hungarian 101-key"
+  5035,  "Polish (Programmers)"
+  5036,  "Polish (214)"
+  5037,  "Romanian (Legacy)"
+  5038,  "Serbian (Latin)"
+  5039,  "Slovak"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5040,  "Slovak (QWERTY)"
+  5041,  "Slovenian"
+  5042,  "Estonian"
+  5043,  "Latvian"
+  5044,  "Latvian (QWERTY)"
+  5045,  "Lithuanian IBM"
+  5046,  "Greek"
+  5047,  "Greek Latin"
+  5048,  "Greek (220)"
+  5049,  "Greek (319)"
+  5050,  "Greek (220) Latin"
+  5051,  "Greek (319) Latin"
+  5052,  "Belarusian"
+  5053,  "Bulgarian (Typewriter)"
+  5054,  "Bulgarian (Latin)"
+  5055,  "Russian"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5056,  "Russian (Typewriter)"
+  5057,  "Serbian (Cyrillic)"
+  5058,  "Ukrainian"
+  5059,  "Turkish F"
+  5060,  "Turkish Q"
+  5061,  "Japanese"
+  5062,  "Japanese Input System (MS-IME2002)"
+  5063,  "Korean"
+  5064,  "Korean Input System (MS-IME2002)"
+  5065,  "Chinese (Traditional) - US Keyboard"
+  5066,  "Microsoft Phonetic"
+  5067,  "Microsoft ChangJie"
+  5068,  "Chinese (Traditional) - Big5 Code"
+  5069,  "Chinese (Traditional) - DaYi"
+  5070,  "Chinese (Traditional) - Unicode"
+  5071,  "Chinese (Traditional) - Alphanumeric"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5072,  "Chinese (Simplified) - US Keyboard"
+  5073,  "Chinese (Simplified) - QuanPin"
+  5074,  "Chinese (Simplified) - ShuangPin"
+  5075,  "Chinese (Simplified) - ZhengMa"
+  5076,  "Chinese (Simplified) - Microsoft Pinyin ABC Input Style"
+  5077,  "Chinese (Simplified) - NeiMa"
+  5079,  "Thai Kedmanee"
+  5080,  "Thai Pattachote"
+  5081,  "Thai Kedmanee (non-ShiftLock)"
+  5082,  "Thai Pattachote (non-ShiftLock)"
+  5083,  "Hebrew"
+  5084,  "Arabic (101)"
+  5085,  "Arabic (102)"
+  5086,  "Arabic (102) AZERTY"
+  5087,  "Czech Programmers"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5088,  "Lithuanian"
+  5089,  "Belgian (Comma)"
+  5090,  "Microsoft New Phonetic"
+  5091,  "Microsoft Pinyin NewExperience"
+  5092,  "United States-Dvorak"
+  5093,  "Microsoft New ChangJie"
+  5094,  "Assamese"
+  5095,  "Bengali"
+  5096,  "Devanagari - INSCRIPT"
+  5097,  "Gujarati"
+  5098,  "Kannada"
+  5099,  "Malayalam"
+  5100,  "Odia"
+  5101,  "Punjabi"
+  5102,  "Tamil"
+  5103,  "Telugu"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5104,  "Marathi"
+  5105,  "Hindi Traditional"
+  5107,  "Cantonese Phonetic"
+  5108,  "Faeroese"
+  5109,  "Macedonian (F.Y.R.O. Macedonia)"
+  5110,  "Canadian Multilingual Standard"
+  5111,  "Microsoft Quick"
+  5112,  "Chinese (Traditional) - Array"
+  5113,  "Kazakh"
+  5114,  "Uzbek Cyrillic"
+  5115,  "Azeri Cyrillic"
+  5116,  "Tatar"
+  5117,  "Azeri Latin"
+  5118,  "Vietnamese"
+  5119,  "Georgian (Legacy)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5120,  "Armenian Eastern (Legacy)"
+  5121,  "Armenian Western (Legacy)"
+  5122,  "Greek Polytonic"
+  5123,  "US English Table for IBM Arabic 238_L"
+  5124,  "Persian"
+  5125,  "Scottish Gaelic"
+  5126,  "Portuguese (Brazil ABNT2)"
+  5127,  "Mongolian Cyrillic"
+  5128,  "Kyrgyz Cyrillic"
+  5129,  "Urdu"
+  5130,  "Syriac"
+  5131,  "Syriac Phonetic"
+  5132,  "Divehi Phonetic"
+  5133,  "Divehi Typewriter"
+  5135,  "Bengali"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5136,  "Bengali - INSCRIPT (Legacy)"
+  5137,  "Finnish with Sami"
+  5138,  "Norwegian with Sami"
+  5139,  "Malayalam"
+  5140,  "Maltese 47-Key"
+  5141,  "Maltese 48-Key"
+  5142,  "Sami Extended Finland-Sweden"
+  5143,  "Sami Extended Norway"
+  5144,  "Swedish with Sami"
+  5145,  "United Kingdom Extended"
+  5146,  "Maori"
+  5148,  "Bashkir"
+  5149,  "Microsoft New Quick"
+  5150,  "Turkmen"
+  5151,  "Tajik"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5154,  "Tibetan (PRC)"
+  5155,  "Bosnian (Cyrillic)"
+  5156,  "Inuktitut - Latin"
+  5158,  "Mongolian (Mongolian Script)"
+  5159,  "Pashto (Afghanistan)"
+  5160,  "Sakha"
+  5161,  "Khmer"
+  5162,  "Lao"
+  5163,  "Sorbian Standard (Legacy)"
+  5164,  "Sorbian Extended"
+  5165,  "Uyghur (Legacy)"
+  5166,  "Sinhala"
+  5167,  "Sinhala - Wij 9"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5168,  "Luxembourgish"
+  5169,  "Nepali"
+  5170,  "Greenlandic"
+  5171,  "Inuktitut - Naqittaut"
+  5172,  "Lithuanian Standard"
+  5173,  "Bulgarian (Phonetic)"
+  5174,  "Macedonian (F.Y.R.O. Macedonia) - Standard"
+  5175,  "Romanian (Standard)"
+  5176,  "Romanian (Programmers)"
+  5177,  "Assamese - INSCRIPT"
+  5178,  "Bengali - INSCRIPT"
+  5179,  "Ukrainian (Enhanced)"
+  5180,  "Bulgarian"
+  5181,  "Georgian (Ergonomic)"
+  5182,  "Georgian (QWERTY)"
+  5183,  "Microsoft IME"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5184,  "Sorbian Standard"
+  5185,  "Uyghur"
+  5186,  "Sesotho sa Leboa"
+  5187,  "Hausa"
+  5188,  "Igbo"
+  5189,  "Yoruba"
+  5190,  "Wolof"
+  5191,  "Setswana"
+  5192,  "Chinese (Traditional, Hong Kong S.A.R.) - US Keyboard"
+  5193,  "Chinese (Simplified, Singapore) - US Keyboard"
+  5194,  "Chinese (Traditional, Macao S.A.R.) - US Keyboard"
+  5195,  "Bulgarian (Phonetic Traditional)"
+  5196,  "English (India)"
+  5197,  "Microsoft Old Hangul"
+  5198,  "Hawaiian"
+  5199,  "Central Kurdish"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5200,  "Khmer (NIDA)"
+  5201,  "Cherokee Phonetic"
+  5202,  "Myanmar"
+  5203,  "Russian - Mnemonic"
+  5204,  "New Tai Lue"
+  5205,  "Tai Le"
+  5206,  "Ogham"
+  5207,  "Tifinagh (Basic)"
+  5208,  "Tifinagh (Full)"
+  5209,  "Cherokee Nation"
+  5210,  "Lisu (Basic)"
+  5211,  "Lisu (Standard)"
+  5212,  "N’Ko"
+  5213,  "Persian (Standard)"
+  5214,  "Hebrew (Standard)"
+  5215,  "Georgian Ministry of Education and Science Schools"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5216,  "Georgian (Old Alphabets)"
+  5217,  "Armenian Phonetic"
+  5218,  "Armenian Typewriter"
+  5219,  "Phags-pa"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5300,  "Microsoft Pinyin SimpleFast"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5700,  "Microsoft IME"
+  5701,  "Microsoft New Phonetic IME"
+  5702,  "Microsoft Phonetic IME"
+  5703,  "Microsoft New ChangJie IME"
+  5704,  "Microsoft ChangJie IME"
+  5705,  "Microsoft New Quick IME"
+  5706,  "Microsoft Quick IME"
+  5707,  "Microsoft Pinyin IME"
+  5708,  "Microsoft ABC IME"
+  5709,  "Microsoft IME"
+  5710,  "Microsoft DaYi IME"
+  5711,  "Microsoft Array IME"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5712,  "Microsoft QuanPin IME"
+  5713,  "Microsoft ZhengMa IME"
+  5714,  "Microsoft ShuangPin IME"
+  5715,  "Amharic Input Method"
+  5716,  "Yi Input Method"
+}
+

@@ -1,0 +1,2418 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+102 DIALOGEX 0, 0, 252, 263
+CAPTION "Alternate Phone Numbers"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Specify alternate phone numbers you want to use to make this connection.", 1018, Static, 0x50020000, 7, 7, 238, 16, 0x0
+  CONTROL "&Phone numbers:", 1019, Static, 0x50020000, 7, 30, 238, 8, 0x0
+  CONTROL "", 1012, "SysListView32", 0x5081848d, 7, 41, 214, 144, 0x0
+  CONTROL "Move &up", 1017, Button, 0x50010040, 227, 51, 18, 16, 0x0
+  CONTROL "Move &down", 1015, Button, 0x50010040, 227, 72, 18, 16, 0x0
+  CONTROL "&Add...", 1013, Button, 0x50010000, 7, 190, 68, 14, 0x0
+  CONTROL "&Edit...", 1016, Button, 0x50010000, 81, 190, 67, 14, 0x0
+  CONTROL "De&lete", 1014, Button, 0x50010000, 154, 190, 67, 14, 0x0
+  CONTROL "If a &number fails, try the next number", 1011, Button, 0x50012403, 8, 212, 237, 10, 0x0
+  CONTROL "&Move successful numbers to top of the list", 1010, Button, 0x50012403, 8, 225, 237, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 140, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 242, 50, 14, 0x0
+}
+
+103 DIALOGEX 6, 18, 248, 166
+CAPTION "Network Connections"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1029, Static, 0x50000000, 7, 7, 234, 35, 0x0
+  CONTROL "C&onnections:", 65535, Static, 0x50020000, 7, 48, 234, 10, 0x0
+  CONTROL "List1", 1677, "SysListView32", 0x5081440d, 7, 59, 234, 57, 0x0
+  CONTROL "&Don't ask me again until the next time I log on", 1022, Button, 0x50010003, 10, 127, 220, 10, 0x0
+  CONTROL "&Settings", 1026, Button, 0x50010000, 7, 145, 50, 14, 0x0
+  CONTROL "&Connect...", 1024, Button, 0x50010001, 130, 145, 50, 14, 0x0
+  CONTROL "Cancel", 1025, Button, 0x50010000, 191, 145, 50, 14, 0x0
+}
+
+104 DIALOGEX 6, 18, 263, 263
+CAPTION "Line Bundling Errors"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32516, 1031, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "One or more additional lines did not connect. ", 1033, Static, 0x50020000, 40, 13, 216, 16, 0x0
+  CONTROL "", 1032, "SysListView32", 0x50818401, 40, 83, 216, 136, 0x0
+  CONTROL "&Do not use the failed lines in the future", 1030, Button, 0x50012403, 40, 226, 216, 10, 0x0
+  CONTROL "&Accept", 1, Button, 0x50010001, 79, 242, 50, 14, 0x0
+  CONTROL "&Hang Up", 2, Button, 0x50010000, 133, 242, 50, 14, 0x0
+  CONTROL "If only a single line connected, the server might not be configured to accept multi-link calls. to avoid unnecessary connection charges, select the 'Do not use the failed lines' check box.", 65535, Static, 0x50020000, 40, 36, 216, 40, 0x0
+}
+
+107 DIALOGEX 0, 0, 252, 167
+CAPTION ""
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Phone number", 1053, Button, 0x50000007, 7, 7, 238, 92, 0x0
+  CONTROL "&Area code:", 1055, Static, 0x50020000, 17, 20, 48, 8, 0x0
+  CONTROL "", 1049, ComboBox, 0x50210002, 17, 31, 48, 129, 0x0
+  CONTROL "&Phone number:", 1057, Static, 0x50000000, 71, 20, 138, 8, 0x0
+  CONTROL "", 1051, Edit, 0x50810080, 71, 30, 163, 14, 0x0
+  CONTROL "&Country/region code:", 1056, Static, 0x50000000, 17, 50, 219, 8, 0x0
+  CONTROL "", 1054, ComboBox, 0x50210103, 17, 61, 218, 93, 0x0
+  CONTROL "&Use dialing rules", 1048, Button, 0x50012403, 17, 81, 217, 10, 0x0
+  CONTROL "Co&mment", 1052, Button, 0x50000007, 7, 103, 238, 35, 0x0
+  CONTROL "", 1050, Edit, 0x50810080, 17, 115, 218, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 139, 146, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 146, 50, 14, 0x0
+}
+
+108 DIALOGEX 6, 18, 212, 100
+CAPTION "Change Password"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Your password on the remote network has expired. Type and confirm a new password, and then click OK.", 1062, Static, 0x50020000, 7, 7, 198, 24, 0x0
+  CONTROL "&New password:", 1064, Static, 0x50020000, 8, 41, 102, 8, 0x0
+  CONTROL "", 1060, Edit, 0x508100a0, 115, 38, 90, 14, 0x0
+  CONTROL "&Confirm new password:", 1061, Static, 0x50020000, 8, 59, 102, 8, 0x0
+  CONTROL "", 1058, Edit, 0x508100a0, 115, 56, 90, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 99, 80, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 80, 50, 14, 0x0
+}
+
+109 DIALOGEX 6, 18, 212, 117
+CAPTION "Change Password"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Your password on the remote network has expired. Type and confirm a new password, and then click OK.", 1062, Static, 0x50020000, 7, 7, 198, 24, 0x0
+  CONTROL "&Old password:", 1063, Static, 0x50020000, 7, 41, 102, 8, 0x0
+  CONTROL "", 1059, Edit, 0x508100a0, 115, 38, 90, 14, 0x0
+  CONTROL "&New password:", 1064, Static, 0x50020000, 7, 59, 102, 8, 0x0
+  CONTROL "", 1060, Edit, 0x508100a0, 115, 56, 90, 14, 0x0
+  CONTROL "&Confirm new password:", 1061, Static, 0x50020000, 7, 77, 102, 8, 0x0
+  CONTROL "", 1058, Edit, 0x508100a0, 115, 74, 90, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 99, 96, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 96, 50, 14, 0x0
+}
+
+110 DIALOGEX 12, 16, 227, 100
+CAPTION "Callback"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You have 'Set By Caller' callback privileges on the server. To have the server call you back at the number below, click OK. To skip callback, click Cancel.", 1066, Static, 0x50020080, 7, 7, 213, 32, 0x0
+  CONTROL "&Enter your modem's phone number:", 1067, Static, 0x50000000, 7, 46, 213, 8, 0x0
+  CONTROL "", 1065, Edit, 0x50810080, 7, 57, 213, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 114, 79, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 170, 79, 50, 14, 0x0
+}
+
+111 DIALOGEX 6, 19, 281, 228
+CAPTION "Error Connecting to %1"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 1068, Static, 0x50020003, 7, 7, 20, 20, 0x0
+  CONTROL "", 1070, Static, 0x50020000, 40, 10, 216, 92, 0x0
+  CONTROL "Do not dial=88", 1, Button, 0x50030001, 29, 200, 104, 14, 0x0
+  CONTROL "&Close", 2, Button, 0x50010000, 135, 200, 54, 14, 0x0
+  CONTROL "&Diagnose", 1069, Button, 0x50010000, 209, 200, 54, 14, 0x0
+  CONTROL "&Enable logging", 1712, Button, 0x50010003, 28, 134, 62, 10, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 14, 134, 10, 10, 0x0
+  CONTROL "For logging options, see <A>diagnostics</A>", 1716, "Link Window", 0x50010000, 38, 144, 143, 14, 0x0
+  CONTROL "If you continue to receive error messages, you can enable logging for analysis.", 1735, Static, 0x50020000, 28, 108, 225, 20, 0x0
+  CONTROL "Logging options can also be accessed by clicking the Remote Access Preferences menu item under the Advanced menu of the Network Connection Folder.", 1736, Static, 0x50020000, 38, 162, 232, 31, 0x0
+}
+
+113 DIALOGEX 21, 46, 217, 60
+CAPTION "Connecting %1..."
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 563, 1417, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 1097, Static, 0x50020080, 39, 7, 171, 32, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 84, 39, 50, 14, 0x0
+}
+
+115 DIALOGEX 0, 0, 228, 170
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 84, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 14, 103, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 100, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 14, 103, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 100, 154, 112, 0x0
+  CONTROL "Dialing &from:", 1415, Static, 0x50020000, 14, 119, 46, 8, 0x0
+  CONTROL "", 1414, ComboBox, 0x50210103, 62, 118, 87, 112, 0x0
+  CONTROL "Dialing &Rules", 1108, Button, 0x50010000, 155, 117, 60, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 140, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 149, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 149, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 149, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 149, 50, 14, 0x0
+}
+
+116 DIALOGEX 0, 0, 228, 209
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 7, 137, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 10, 142, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 157, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 169, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 169, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 185, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 191, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 191, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 191, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 191, 50, 14, 0x0
+}
+
+117 DIALOGEX 0, 0, 228, 229
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 138, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 135, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 7, 155, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 10, 159, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 175, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 187, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 187, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 202, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 208, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 208, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 208, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 208, 50, 14, 0x0
+}
+
+118 DIALOGEX 0, 0, 228, 263
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 138, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 135, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 7, 156, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 10, 164, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 180, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 192, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 192, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 209, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 14, 218, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 215, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 14, 218, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 215, 154, 112, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 233, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 242, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 242, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 242, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 242, 50, 14, 0x0
+}
+
+119 DIALOGEX 0, 0, 228, 244
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 6, 138, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 10, 144, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 159, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 171, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 171, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 6, 187, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 13, 198, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 61, 195, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 13, 198, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 61, 195, 154, 112, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 6, 215, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 223, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 223, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 223, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 223, 50, 14, 0x0
+}
+
+121 DIALOGEX 6, 18, 212, 134
+CAPTION "ISDN Configuration"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Line type:", 1155, Static, 0x50020000, 7, 8, 43, 8, 0x0
+  CONTROL "", 1153, ComboBox, 0x50210043, 57, 7, 148, 42, 0x0
+  CONTROL "&Negotiate line type", 1150, Button, 0x50032403, 57, 24, 148, 10, 0x0
+  CONTROL "    ", 1152, Button, 0x50020007, 7, 48, 198, 51, 0x0
+  CONTROL "&Use old proprietary protocol", 1149, Button, 0x50012403, 13, 48, 102, 10, 0x0
+  CONTROL "&Channels to use:", 1154, Static, 0x50000000, 16, 64, 72, 8, 0x0
+  CONTROL "", 1151, Edit, 0x50810080, 101, 61, 94, 14, 0x0
+  CONTROL "&Enable hardware compression", 1148, Button, 0x50012403, 16, 82, 118, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030000, 99, 113, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 113, 50, 14, 0x0
+}
+
+122 DIALOGEX 6, 18, 212, 70
+CAPTION "ISDN Configure"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Line type:", 1155, Static, 0x50020000, 7, 8, 38, 8, 0x0
+  CONTROL "", 1153, ComboBox, 0x50210043, 57, 7, 148, 43, 0x0
+  CONTROL "&Negotiate line type", 1150, Button, 0x50032403, 57, 24, 148, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030000, 99, 48, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 48, 50, 14, 0x0
+}
+
+124 DIALOGEX 6, 17, 348, 273
+CAPTION ""
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1161, Edit, 0x50a30044, 7, 6, 334, 236, 0x0
+  CONTROL "", 1162, Button, 0x40020001 | NOT WS_VISIBLE, 7, 252, 50, 14, 0x0
+  CONTROL "&Done", 1, Button, 0x50030000, 234, 252, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 291, 252, 50, 14, 0x0
+}
+
+125 DIALOGEX 12, 16, 252, 189
+CAPTION "Modem Configuration"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1758, 1238, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Modem", 65535, Static, 0x40000000 | NOT WS_VISIBLE, 25, 27, 24, 8, 0x0
+  CONTROL "", 1235, Edit, 0x50010880, 40, 7, 205, 16, 0x0
+  CONTROL "&Maximum speed (bps):", 1243, Static, 0x50020000, 7, 36, 95, 8, 0x0
+  CONTROL "", 1239, ComboBox, 0x50210043, 109, 34, 136, 186, 0x0
+  CONTROL "Modem &protocol", 1244, Static, 0x50020000, 7, 52, 95, 8, 0x0
+  CONTROL "", 1245, ComboBox, 0x50210043, 109, 50, 136, 186, 0x0
+  CONTROL "Hardware features", 1237, Button, 0x50020007, 7, 68, 238, 57, 0x0
+  CONTROL "E&nable hardware flow control", 1232, Button, 0x50012403, 17, 82, 217, 10, 0x0
+  CONTROL "En&able modem error control", 1231, Button, 0x50012403, 17, 95, 217, 10, 0x0
+  CONTROL "Enable m&odem compression", 1229, Button, 0x50012403, 17, 108, 217, 10, 0x0
+  CONTROL "Enable mo&dem speaker", 1230, Button, 0x50032403, 7, 145, 238, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 139, 160, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 160, 50, 14, 0x0
+}
+
+126 DIALOGEX 0, 0, 262, 126
+CAPTION "Select Network Component Type"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Click the type of network component you want to install:", 65535, Static, 0x50020000, 7, 7, 176, 8, 0x0
+  CONTROL "", 1251, "SysListView32", 0x5081c04d, 7, 20, 188, 58, 0x0
+  CONTROL "", 65535, Button, 0x50000007, 7, 81, 188, 30, 0x0
+  CONTROL "", 1250, Static, 0x50020000, 12, 90, 177, 17, 0x0
+  CONTROL "&Add...", 1252, Button, 0x50010001, 205, 20, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 205, 38, 50, 14, 0x0
+}
+
+146 DIALOGEX 6, 18, 227, 215
+CAPTION "Autodial"
+STYLE 0x50c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "If you are disconnected from a network, autodial attempts to connect to a network whenever you try to access remote information.", 65535, Static, 0x50020000, 7, 7, 213, 32, 0x0
+  CONTROL "&Enable autodial by location:", 1006, Static, 0x50020000, 7, 46, 213, 8, 0x0
+  CONTROL "", 1004, "SysListView32", 0x5083c401, 7, 57, 213, 109, 0x0
+  CONTROL "Al&ways ask me before autodialing", 1496, Button, 0x50012403, 7, 173, 213, 9, 0x0
+  CONTROL "&Disable autodial while I am logged on", 1550, Button, 0x50012403, 7, 188, 213, 9, 0x0
+}
+
+148 DIALOGEX 6, 18, 227, 215
+CAPTION "Callback"
+STYLE 0x50c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "When you dial into a server, it can offer to call you back to reduce your phone charges. Specify your callback preferences. (Callback is not supported for virtual private network (VPN) connections.)", 1043, Static, 0x50020000, 7, 4, 213, 43, 0x0
+  CONTROL "&No callback", 1041, Button, 0x50032409, 7, 48, 213, 10, 0x0
+  CONTROL "A&sk me during dialing when the server offers", 1040, Button, 0x50012409, 7, 61, 213, 10, 0x0
+  CONTROL "Al&ways call me back at the number(s) below:", 1042, Button, 0x50012409, 7, 74, 213, 10, 0x0
+  CONTROL "", 1037, "SysListView32", 0x50838401, 19, 85, 189, 94, 0x0
+  CONTROL "&Edit...", 1039, Button, 0x50010000, 104, 184, 50, 14, 0x0
+  CONTROL "&Delete", 1038, Button, 0x50010000, 159, 184, 50, 14, 0x0
+}
+
+149 DIALOGEX 6, 18, 317, 144
+CAPTION ""
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You need to set the dial-in credentials that remote routers will use when connecting to this interface. A user account will be created on this router with the information that you enter here.", 1094, Static, 0x50020000, 21, 2, 275, 29, 0x0
+  CONTROL "&User name:", 1078, Static, 0x50000000, 29, 42, 69, 8, 0x0
+  CONTROL "", 1074, Edit, 0x58810080, 117, 41, 175, 12, 0x0
+  CONTROL "&Password:", 1077, Static, 0x50000000, 29, 59, 69, 8, 0x0
+  CONTROL "", 1073, Edit, 0x508100a0, 117, 57, 175, 12, 0x0
+  CONTROL "&Confirm password:", 1075, Static, 0x50000000, 29, 75, 69, 8, 0x0
+  CONTROL "", 1071, Edit, 0x508100a0, 117, 73, 175, 12, 0x0
+}
+
+150 DIALOGEX 6, 18, 317, 144
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You need to set the dial out credentials that this interface will use when connecting to the remote router.  These credentials must match the dial in credentials configured on the remote router.", 1094, Static, 0x50020000, 21, 2, 275, 33, 0x0
+  CONTROL "&User name:", 1096, Static, 0x50000000, 29, 42, 69, 8, 0x0
+  CONTROL "", 1091, Edit, 0x50810080, 117, 40, 175, 12, 0x0
+  CONTROL "&Domain:", 1093, Static, 0x50000000, 29, 58, 69, 8, 0x0
+  CONTROL "", 1089, Edit, 0x50810088, 117, 56, 175, 12, 0x0
+  CONTROL "&Password:", 1095, Static, 0x50000000, 29, 74, 69, 8, 0x0
+  CONTROL "", 1090, Edit, 0x508100a0, 117, 72, 175, 12, 0x0
+  CONTROL "&Confirm password:", 1092, Static, 0x50000000, 29, 90, 69, 8, 0x0
+  CONTROL "", 1088, Edit, 0x508100a0, 117, 88, 175, 12, 0x0
+}
+
+151 DIALOGEX 0, 0, 227, 215
+CAPTION "Networking"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This c&onnection uses the following items:", 1684, Static, 0x50020000, 8, 7, 213, 10, 0x0
+  CONTROL "", 1251, "SysListView32", 0x5081c40d, 7, 18, 213, 70, 0x0
+  CONTROL "I&nstall...", 1252, Button, 0x50010000, 7, 93, 67, 14, 0x0
+  CONTROL "&Uninstall", 1254, Button, 0x50010000, 80, 93, 67, 14, 0x0
+  CONTROL "P&roperties", 1253, Button, 0x50010000, 153, 93, 67, 14, 0x0
+  CONTROL "Description", 1585, Button, 0x50000007, 7, 113, 213, 43, 0x0
+  CONTROL "", 1250, Static, 0x50020000, 16, 126, 195, 25, 0x0
+  CONTROL "<A>For more information</A>", 1511, "Link Window", 0x50010000, 8, 197, 184, 8, 0x0
+}
+
+153 DIALOGEX 0, 0, 227, 215
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Type of VPN:", 1583, Static, 0x50020000, 7, 3, 213, 8, 0x0
+  CONTROL "", 1418, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Advanced &Settings", 1598, Button, 0x50010000, 152, 28, 69, 14, 0x0
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 40, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 50, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 68, 213, 122, 0x0
+  CONTROL "Use &Extensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 80, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 124, 201, 10, 0x0
+  CONTROL "Use machine certi&ficates", 1541, Button, 0x50010009, 12, 124, 201, 10, 0x0
+  CONTROL "&Verify the Name and Usage attributes of the server’s certificate", 1801, Button, 0x50012403, 22, 136, 190, 17, 0x0
+  CONTROL "Use preshared ke&y for authentication", 1802, Button, 0x50000009, 12, 156, 201, 10, 0x0
+  CONTROL "&Key:", 1803, Static, 0x50020000, 22, 168, 30, 12, 0x0
+  CONTROL "", 1804, Edit, 0x50810080, 52, 168, 160, 12, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 210, 120, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 91, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 106, 50, 14, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 136, 190, 10, 0x0
+  CONTROL "&Challenge Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 149, 188, 10, 0x0
+  CONTROL "&Microsoft CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 162, 190, 10, 0x0
+  CONTROL "<A>For more information</A>", 1485, "Link Window", 0x50010000, 7, 197, 184, 8, 0x0
+}
+
+154 DIALOGEX 0, 0, 227, 230
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Type of VPN:", 1583, Static, 0x50020000, 7, 3, 213, 8, 0x0
+  CONTROL "", 1418, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Advanced &settings", 1598, Button, 0x50010000, 152, 28, 69, 14, 0x0
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 40, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 50, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 68, 213, 154, 0x0
+  CONTROL "Use &Extensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 80, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 124, 201, 10, 0x0
+  CONTROL "Use &machine certificates", 1541, Button, 0x50010009, 12, 124, 201, 10, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 200, 120, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 91, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 106, 50, 14, 0x0
+  CONTROL "EAP-MSCHAPv2 will be used for IKEv2 VPN type. Select any of these protocols for other VPN types.", 1595, Static, 0x50020000, 23, 135, 182, 22, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 161, 190, 10, 0x0
+  CONTROL "Challenge &Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 174, 188, 10, 0x0
+  CONTROL "Microsoft &CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 187, 190, 10, 0x0
+  CONTROL "&Automatically use my Windows logon name and password (and domain, if any)", 1174, Button, 0x50012403, 34, 200, 178, 19, 0x0
+}
+
+155 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Connec&t using:", 1124, Static, 0x50020000, 7, 7, 193, 8, 0x0
+  CONTROL "", 1128, "SysListView32", 0x50814c0d, 7, 17, 193, 44, 0x200
+  CONTROL "&Up", 1132, Button, 0x50010040, 204, 18, 16, 14, 0x0
+  CONTROL "&Down", 1131, Button, 0x50010040, 204, 36, 16, 14, 0x0
+  CONTROL "A&ll devices call the same numbers", 1119, Button, 0x50012403, 7, 68, 137, 14, 0x0
+  CONTROL "Di&al only first available device", 1745, Button, 0x50012403, 7, 82, 137, 14, 0x0
+  CONTROL "C&onfigure...", 1130, Button, 0x50010000, 150, 66, 50, 14, 0x0
+  CONTROL "Sample type", 1125, Button, 0x50020007, 7, 101, 213, 94, 0x0
+  CONTROL "Ar&ea code:", 1133, Static, 0x50020000, 17, 116, 48, 8, 0x0
+  CONTROL "", 1122, ComboBox, 0x50210002, 17, 126, 48, 110, 0x0
+  CONTROL "&Phone number:", 1135, Static, 0x50020000, 71, 116, 139, 8, 0x0
+  CONTROL "", 1123, Edit, 0x50810080, 71, 126, 84, 14, 0x0
+  CONTROL "Alter&nates", 1129, Button, 0x50010000, 161, 126, 50, 14, 0x0
+  CONTROL "Country/re&gion code:", 1134, Static, 0x50020000, 17, 146, 197, 8, 0x0
+  CONTROL "", 1126, ComboBox, 0x50210103, 17, 157, 193, 130, 0x0
+  CONTROL "U&se dialing rules", 1121, Button, 0x50012403, 17, 177, 101, 11, 0x0
+  CONTROL "Dialing &Rules", 1136, Button, 0x50010000, 161, 175, 50, 14, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 201, 214, 24, 0x0
+}
+
+156 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Connect using:", 1124, Static, 0x50020000, 7, 7, 194, 8, 0x0
+  CONTROL "", 1127, "SysListView32", 0x5880ec0d, 7, 18, 213, 15, 0x0
+  CONTROL "C&onfigure...", 1130, Button, 0x50010000, 169, 38, 50, 14, 0x0
+  CONTROL "Sample text", 1125, Button, 0x50020007, 7, 57, 213, 100, 0x0
+  CONTROL "Ar&ea code:", 1133, Static, 0x50020000, 17, 72, 48, 8, 0x0
+  CONTROL "", 1122, ComboBox, 0x50210002, 17, 83, 48, 119, 0x0
+  CONTROL "&Phone number:", 1135, Static, 0x50020000, 71, 72, 140, 8, 0x0
+  CONTROL "", 1123, Edit, 0x50810080, 71, 83, 84, 14, 0x0
+  CONTROL "Alter&nates", 1129, Button, 0x50010000, 161, 83, 50, 14, 0x0
+  CONTROL "Country/re&gion code:", 1134, Static, 0x50020000, 17, 103, 193, 8, 0x0
+  CONTROL "", 1126, ComboBox, 0x50210103, 17, 114, 193, 130, 0x0
+  CONTROL "U&se dialing rules", 1121, Button, 0x50012403, 17, 134, 136, 20, 0x0
+  CONTROL "Dialing &Rules", 1136, Button, 0x50010000, 161, 132, 50, 14, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+160 DIALOGEX 6, 18, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Type a name for this demand dial interface.  A common practice is to name interfaces after the network or router to which they connect.", 1158, Static, 0x50020000, 21, 2, 275, 26, 0x0
+  CONTROL "&Interface name:", 1159, Static, 0x50000000, 21, 30, 275, 8, 0x0
+  CONTROL "", 1157, Edit, 0x50810080, 21, 41, 275, 12, 0x0
+  CONTROL "I &know all about demand-dial interfaces and would rather edit the properties directly", 1156, Button, 0x48012403 | NOT WS_VISIBLE, 30, 100, 169, 31, 0x0
+}
+
+161 DIALOGEX 0, 0, 227, 215
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 3, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 31, 213, 105, 0x0
+  CONTROL "Use E&xtensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 42, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 82, 201, 10, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 190, 140, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 52, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 67, 50, 14, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 94, 190, 10, 0x0
+  CONTROL "&Challenge Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 107, 188, 10, 0x0
+  CONTROL "&Microsoft CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 120, 190, 10, 0x0
+  CONTROL "Interactive logon and scripting", 1177, Button, 0x50020007, 7, 140, 213, 49, 0x0
+  CONTROL "Run &script:", 1172, Button, 0x50012403, 14, 153, 53, 10, 0x0
+  CONTROL "List of available scriptst:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 72, 200, 140, 5, 0x0
+  CONTROL "", 1179, ComboBox, 0x50210042, 72, 152, 140, 104, 0x0
+  CONTROL "&Edit...", 1182, Button, 0x50010000, 106, 168, 50, 14, 0x0
+  CONTROL "&Browse...", 1181, Button, 0x50010000, 161, 168, 50, 14, 0x0
+}
+
+162 DIALOGEX 0, 0, 227, 230
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 3, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 31, 213, 128, 0x0
+  CONTROL "Use E&xtensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 42, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 82, 201, 10, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 220, 120, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 52, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 67, 50, 14, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 94, 190, 10, 0x0
+  CONTROL "&Challenge Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 107, 188, 10, 0x0
+  CONTROL "&Microsoft CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 120, 190, 10, 0x0
+  CONTROL "&Automatically use my Windows logon name and password (and domain, if any)", 1174, Button, 0x50012403, 34, 133, 178, 19, 0x0
+  CONTROL "Interactive logon and scripting", 1177, Button, 0x50020007, 7, 165, 213, 58, 0x0
+  CONTROL "S&how terminal window", 1173, Button, 0x50012403, 14, 176, 198, 11, 0x0
+  CONTROL "Run &script:", 1172, Button, 0x50012403, 14, 189, 53, 10, 0x0
+  CONTROL "List of avaiable scriptst:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 72, 220, 140, 5, 0x0
+  CONTROL "", 1179, ComboBox, 0x50210042, 72, 188, 140, 104, 0x0
+  CONTROL "&Edit...", 1182, Button, 0x50010000, 106, 204, 50, 14, 0x0
+  CONTROL "&Browse...", 1181, Button, 0x50010000, 161, 204, 50, 14, 0x0
+}
+
+163 DIALOGEX 0, 0, 227, 215
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 3, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 31, 213, 106, 0x0
+  CONTROL "Use &Extensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 42, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 82, 201, 10, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 210, 120, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 52, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 67, 50, 14, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 94, 190, 10, 0x0
+  CONTROL "&Challenge Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 107, 188, 10, 0x0
+  CONTROL "&Microsoft CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 120, 190, 10, 0x0
+  CONTROL "<A>For more information</A>", 1485, "Link Window", 0x50010000, 7, 197, 184, 8, 0x0
+}
+
+164 DIALOGEX 0, 0, 227, 215
+CAPTION "Security"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Data encryption:", 1546, Static, 0x50020000, 7, 3, 128, 8, 0x0
+  CONTROL "", 1495, ComboBox, 0x50210003, 7, 13, 213, 46, 0x0
+  CONTROL "Authentication", 1547, Button, 0x50000007, 7, 31, 213, 128, 0x0
+  CONTROL "Use &Extensible Authentication Protocol (EAP)", 1544, Button, 0x50030009, 12, 42, 197, 8, 0x0
+  CONTROL "Allow these &protocols", 1545, Button, 0x50010009, 12, 82, 201, 10, 0x0
+  CONTROL "List of available EAP Packages:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 22, 200, 120, 5, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210103, 22, 52, 191, 42, 0x0
+  CONTROL "P&roperties", 1035, Button, 0x50010000, 164, 67, 50, 14, 0x0
+  CONTROL "&Unencrypted password (PAP)", 1491, Button, 0x50032403, 22, 94, 190, 10, 0x0
+  CONTROL "&Challenge Handshake Authentication Protocol (CHAP)", 1494, Button, 0x50012403, 22, 107, 188, 10, 0x0
+  CONTROL "&Microsoft CHAP Version 2 (MS-CHAP v2)", 1492, Button, 0x50012403, 22, 120, 190, 10, 0x0
+  CONTROL "&Automatically use my Windows logon name and password (and domain, if any)", 1174, Button, 0x50012403, 34, 133, 178, 19, 0x0
+}
+
+165 DIALOGEX 0, 0, 227, 215
+CAPTION "Networking"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "This c&onnection uses the following items:", 1684, Static, 0x50020000, 8, 7, 213, 10, 0x0
+  CONTROL "", 1251, "SysListView32", 0x5081c40d, 7, 18, 213, 84, 0x0
+  CONTROL "I&nstall...", 1252, Button, 0x50010000, 7, 109, 67, 14, 0x0
+  CONTROL "&Uninstall", 1254, Button, 0x50010000, 80, 109, 67, 14, 0x0
+  CONTROL "P&roperties", 1253, Button, 0x50010000, 153, 109, 67, 14, 0x0
+  CONTROL "Description", 1585, Button, 0x50000007, 7, 129, 213, 43, 0x0
+  CONTROL "", 1250, Static, 0x50020000, 16, 142, 195, 25, 0x0
+}
+
+167 DIALOGEX 0, 0, 227, 205
+CAPTION "Options"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Dialing options", 1289, Button, 0x50000007, 7, 7, 213, 77, 0x0
+  CONTROL "&Display progress while connecting", 1284, Button, 0x50010003, 16, 17, 200, 10, 0x0
+  CONTROL "&Prompt for name and password, certificate, etc.", 1554, Button, 0x50010003, 16, 29, 200, 10, 0x0
+  CONTROL "Include &Windows logon domain", 1555, Button, 0x50010003, 16, 41, 200, 10, 0x0
+  CONTROL "Prompt for phone &number", 1285, Button, 0x50012403, 16, 53, 200, 10, 0x0
+  CONTROL "&Keep this connection connected when switching users", 1744, Button, 0x50012403, 16, 65, 200, 10, 0x0
+  CONTROL "Redialing options", 1290, Button, 0x50000007, 7, 89, 213, 87, 0x0
+  CONTROL "&Redial attempts:", 1300, Static, 0x50020000, 16, 104, 115, 8, 0x0
+  CONTROL "", 1287, Edit, 0x50812080, 141, 101, 69, 14, 0x0
+  CONTROL "&Time between redial attempts:", 1301, Static, 0x50020000, 16, 119, 115, 8, 0x0
+  CONTROL "", 1292, ComboBox, 0x50210003, 141, 116, 70, 123, 0x0
+  CONTROL "Idle ti&me before hanging up:", 1299, Static, 0x50020000, 16, 134, 115, 8, 0x0
+  CONTROL "", 1291, ComboBox, 0x50210003, 141, 131, 70, 108, 0x0
+  CONTROL "Idl&e threshold:", 1738, Static, 0x50020000, 16, 149, 115, 8, 0x0
+  CONTROL "", 1739, ComboBox, 0x50210003, 141, 146, 70, 108, 0x0
+  CONTROL "Redial if &line is dropped", 1286, Button, 0x50012403, 16, 163, 199, 10, 0x0
+  CONTROL "PPP Settin&gs...", 1419, Button, 0x50010000, 7, 182, 60, 14, 0x0
+}
+
+172 DIALOGEX 6, 18, 317, 144
+CAPTION ""
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Some dial-up servers and routers require an interactive login after connecting. You can run a script automatically to respond for you.", 1339, Static, 0x50020000, 21, 2, 275, 27, 0x0
+  CONTROL "Show &terminal window", 1462, Button, 0x50010003, 21, 28, 162, 10, 0x0
+  CONTROL "&Run script:", 1463, Button, 0x50010003, 21, 42, 58, 10, 0x0
+  CONTROL "List of available scripts:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 29, 90, 120, 5, 0x0
+  CONTROL "", 1334, ComboBox, 0x50210142, 29, 55, 275, 88, 0x0
+  CONTROL "&Edit...", 1335, Button, 0x50010000, 201, 71, 50, 14, 0x0
+  CONTROL "Br&owse...", 1465, Button, 0x50010000, 254, 71, 50, 14, 0x0
+}
+
+175 DIALOGEX 6, 18, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Completing the Demand-Dial Interface Wizard.", 1352, Static, 0x50020000, 122, 2, 178, 32, 0x0
+  CONTROL "You have successfully completed the Demand-Dial Interface Wizard.", 1354, Static, 0x50000000, 122, 41, 178, 18, 0x0
+  CONTROL "When you click Finish, this wizard creates the interface and enables it on the router. To edit the interface, in the Routing and Remote Access snap-in,  click Network Interfaces. Select the interface, and then click Properties.", 1355, Static, 0x50000000, 122, 66, 178, 44, 0x0
+}
+
+179 DIALOGEX 6, 18, 317, 143
+CAPTION ""
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select the &modem or adapter this interface will use.", 1356, Static, 0x50020000, 21, 2, 275, 11, 0x0
+  CONTROL "", 1355, "SysListView32", 0x5081c415, 21, 14, 275, 80, 0x0
+}
+
+180 DIALOGEX 6, 18, 317, 143
+CAPTION ""
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Enter the phone number of the dial-up server or router you are calling. Alternate phone numbers, if any, are dialed automatically if the primary number cannot be reached.", 1360, Static, 0x50020000, 21, 2, 275, 42, 0x0
+  CONTROL "&Phone number or address:", 1361, Static, 0x50000000, 21, 50, 275, 8, 0x0
+  CONTROL "", 1358, Edit, 0x50810080, 21, 62, 275, 14, 0x0
+  CONTROL "&Alternates...", 1359, Button, 0x50010000, 246, 80, 50, 14, 0x0
+}
+
+183 DIALOGEX 6, 18, 317, 144
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select all that apply:", 1388, Static, 0x50020000, 21, 0, 275, 9, 0x0
+  CONTROL "Route &IP packets on this interface.", 1386, Button, 0x50012503, 32, 14, 275, 11, 0x0
+  CONTROL "&Add a user account so a remote router can dial in", 1382, Button, 0x50012503, 32, 29, 275, 11, 0x0
+  CONTROL "Send a &plain-text password if that is the only way to connect", 1385, Button, 0x50012503, 32, 44, 275, 11, 0x0
+  CONTROL "&Use scripting to complete the connection with the remote router", 1384, Button, 0x50012503, 32, 59, 275, 22, 0x0
+  CONTROL "<A>For more information</A>", 1400, "Link Window", 0x50010000, 21, 134, 143, 10, 0x0
+}
+
+497 DIALOGEX 0, 0, 212, 89
+CAPTION "Connect Using Smart Card"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Connection user name:", 1399, Static, 0x50020000, 7, 7, 198, 8, 0x0
+  CONTROL "", 1394, Edit, 0x50810080, 7, 17, 198, 14, 0x0
+  CONTROL "&Smart card PIN:", 498, Static, 0x50020000, 7, 38, 198, 8, 0x0
+  CONTROL "", 499, Edit, 0x508100a0, 7, 48, 198, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 101, 68, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 68, 50, 14, 0x0
+}
+
+500 DIALOGEX 12, 16, 215, 173
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Re-enter your user name and password", 1396, Static, 0x50020000, 7, 6, 199, 9, 0x0
+  CONTROL "Windows could not connect using the user name and password you provided.\n\nYou can leave the domain box empty, since domain names are not needed to connect to the Internet.", 65535, Static, 0x50020000, 7, 20, 199, 50, 0x0
+  CONTROL "&User name:", 1399, Static, 0x50020000, 7, 78, 44, 8, 0x0
+  CONTROL "", 1394, Edit, 0x50810080, 73, 75, 132, 14, 0x0
+  CONTROL "&Password:", 1397, Static, 0x50000000, 7, 96, 45, 8, 0x0
+  CONTROL "", 1393, Edit, 0x508100a0, 73, 93, 132, 14, 0x0
+  CONTROL "&Domain:", 1395, Static, 0x50000000, 7, 114, 53, 8, 0x0
+  CONTROL "", 1392, Edit, 0x50810088, 73, 111, 132, 14, 0x0
+  CONTROL "&Remember this user name and password", 1391, Button, 0x50012003, 7, 129, 180, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 100, 152, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 152, 50, 14, 0x0
+  CONTROL "", 1398, Static, 0x50020010, 7, 146, 198, 1, 0x0
+}
+
+502 DIALOGEX 20, 60, 212, 68
+CAPTION "PPP Settings"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Enable LCP extensions", 1423, Button, 0x50012403, 7, 7, 198, 10, 0x0
+  CONTROL "E&nable software compression", 1424, Button, 0x50012403, 7, 20, 198, 10, 0x0
+  CONTROL "Negotiate &multi-link for single-link connections", 1557, Button, 0x50012403, 7, 33, 198, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 99, 49, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 49, 50, 14, 0x0
+}
+
+528 DIALOGEX 0, 0, 227, 215
+CAPTION "Connections"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Logon privileges", 1582, Button, 0x50000007, 7, 7, 213, 63, 0x0
+  CONTROL "Non-administrators might be allowed to create or modify connections before logging on.", 1581, Static, 0x50020000, 16, 21, 196, 24, 0x0
+  CONTROL "Allo&w creating and modifying connections before logon", 1497, Button, 0x50012403, 16, 52, 190, 10, 0x0
+}
+
+532 DIALOGEX 0, 0, 263, 263
+CAPTION "Router Callback"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "When you dial into a router, it can offer to call you back to reduce your phone charges or to increase security. Specify your callback preferences.", 1043, Static, 0x50020000, 7, 7, 249, 24, 0x0
+  CONTROL "&No callback", 1501, Button, 0x50032409, 7, 38, 249, 10, 0x0
+  CONTROL "Al&ways call me back at the number(s) below:", 1502, Button, 0x50012409, 7, 51, 249, 10, 0x20
+  CONTROL "", 1503, "SysListView32", 0x50838401, 19, 63, 224, 143, 0x0
+  CONTROL "&Edit...", 1504, Button, 0x50010000, 138, 211, 50, 14, 0x0
+  CONTROL "&Delete", 1505, Button, 0x50010000, 194, 211, 50, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 7, 233, 249, 1, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 150, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 206, 242, 50, 14, 0x0
+}
+
+539 DIALOGEX 0, 0, 228, 154
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 123, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 133, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 133, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 133, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 133, 50, 14, 0x0
+}
+
+540 DIALOGEX 0, 0, 228, 182
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 123, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 10, 136, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 132, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 10, 136, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 132, 154, 112, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 155, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 163, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 163, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 163, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 163, 50, 14, 0x0
+}
+
+541 DIALOGEX 0, 0, 228, 198
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 5, 120, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 10, 134, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 131, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 10, 134, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 131, 154, 112, 0x0
+  CONTROL "Dialing &from:", 1415, Static, 0x50020000, 10, 150, 46, 8, 0x0
+  CONTROL "", 1414, ComboBox, 0x50210103, 62, 149, 87, 112, 0x0
+  CONTROL "Dialing &Rules", 1108, Button, 0x50010000, 155, 148, 60, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 171, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 179, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 179, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 179, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 179, 50, 14, 0x0
+}
+
+547 DIALOGEX 0, 0, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Welcome to the Demand-Dial Interface Wizard.", 1530, Static, 0x50020000, 122, 8, 188, 32, 0x0
+  CONTROL "This wizard helps you create a demand-dial connection to connect this router to other routers.", 1531, Static, 0x50020000, 122, 43, 188, 31, 0x0
+  CONTROL "To continue, click Next.", 1532, Static, 0x50020000, 122, 85, 188, 22, 0x0
+}
+
+550 DIALOGEX 0, 0, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x40c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Enter the name or IP address of the router you are connecting to.", 1535, Static, 0x50020000, 21, 6, 275, 18, 0x0
+  CONTROL "&Host name or IP address (such as microsoft.com or 157.54.0.1 or 3ffe:1234::1111 ):", 1537, Static, 0x50020000, 21, 32, 273, 16, 0x0
+  CONTROL "", 1536, Edit, 0x50810080, 21, 52, 275, 14, 0x0
+}
+
+551 DIALOGEX 0, 0, 228, 169
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 117, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 140, 211, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 150, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 150, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 150, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 150, 50, 14, 0x0
+}
+
+552 DIALOGEX 0, 0, 228, 201
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 119, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 116, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 137, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 10, 150, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 146, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 10, 150, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 146, 154, 112, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 169, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 177, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 177, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 177, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 177, 50, 14, 0x0
+}
+
+553 DIALOGEX 0, 0, 228, 217
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 117, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 5, 138, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 10, 152, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 149, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 10, 152, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 149, 154, 112, 0x0
+  CONTROL "Dialing &from:", 1415, Static, 0x50020000, 10, 168, 46, 8, 0x0
+  CONTROL "", 1414, ComboBox, 0x50210103, 62, 167, 87, 112, 0x0
+  CONTROL "Dialing &Rules", 1108, Button, 0x50010000, 155, 166, 60, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 189, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 197, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 197, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 197, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 197, 50, 14, 0x0
+}
+
+554 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Connec&t using:", 1124, Static, 0x50020000, 7, 7, 193, 8, 0x0
+  CONTROL "", 1128, "SysListView32", 0x50814c0d, 7, 17, 193, 44, 0x200
+  CONTROL "&Up", 1132, Button, 0x50010040, 204, 18, 16, 14, 0x0
+  CONTROL "&Down", 1131, Button, 0x50010040, 204, 36, 16, 14, 0x0
+  CONTROL "A&ll devices call the same numbers", 1119, Button, 0x50012403, 7, 68, 137, 12, 0x0
+  CONTROL "C&onfigure...", 1130, Button, 0x50010000, 150, 66, 50, 14, 0x0
+  CONTROL "Sample type", 1125, Button, 0x50020007, 7, 101, 213, 56, 0x0
+  CONTROL "&Phone number:", 1135, Static, 0x50020000, 19, 116, 191, 8, 0x0
+  CONTROL "", 1123, Edit, 0x50810080, 17, 126, 138, 14, 0x0
+  CONTROL "Alter&nates", 1129, Button, 0x50010000, 161, 126, 50, 14, 0x0
+  CONTROL "Di&al only first available device", 1745, Button, 0x50012403, 7, 82, 137, 14, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+555 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "C&onfigure...", 1130, Button, 0x50010000, 170, 38, 50, 14, 0x0
+  CONTROL "&Phone number:", 1135, Static, 0x50020000, 8, 72, 194, 8, 0x0
+  CONTROL "", 1123, Edit, 0x50810080, 8, 83, 152, 14, 0x0
+  CONTROL "Alter&nates", 1129, Button, 0x50010000, 170, 83, 50, 14, 0x0
+  CONTROL "Connec&t using:", 1124, Static, 0x50020000, 7, 7, 194, 8, 0x0
+  CONTROL "", 1127, "SysListView32", 0x5880ec0d, 7, 18, 213, 15, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+560 DIALOGEX 6, 18, 238, 86
+CAPTION "Initial Connection"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 6, Button, 0x50010001, 73, 65, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 131, 65, 50, 14, 0x0
+  CONTROL 32516, 1575, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "", 1576, Static, 0x50020000, 40, 10, 180, 33, 0x0
+  CONTROL "&Don't display this reminder again", 1579, Button, 0x50012403, 40, 47, 180, 11, 0x0
+}
+
+567 DIALOGEX 0, 0, 317, 143
+CAPTION "New Connection Wizard"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Type the name of your service in the following box. If you leave the box blank, Windows will automatically detect and configure your service when you connect.", 65535, Static, 0x50020000, 21, 3, 275, 25, 0x0
+  CONTROL "&Service name (optional):", 65535, Static, 0x50020000, 21, 31, 144, 8, 0x0
+  CONTROL "", 1593, Edit, 0x50810080, 21, 42, 275, 14, 0x0
+}
+
+568 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Service name:", 1686, Static, 0x50020000, 7, 7, 214, 10, 0x0
+  CONTROL "", 1594, Edit, 0x50810080, 7, 17, 213, 14, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+569 DIALOGEX 0, 0, 246, 80
+CAPTION "IKEv2"
+STYLE 0x40c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1752, Button, 0x50000007, 7, 9, 230, 90, 0x0
+  CONTROL "&Mobility", 1760, Button, 0x50010403, 14, 9, 40, 10, 0x0
+  CONTROL "&Network outage time:", 1682, Static, 0x50020000, 17, 27, 106, 8, 0x0
+  CONTROL "", 1683, ComboBox, 0x50210003, 127, 25, 70, 108, 0x0
+}
+
+570 DIALOGEX 0, 0, 246, 80
+CAPTION "L2TP"
+STYLE 0x40c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Key:", 1602, Static, 0x50020000, 20, 22, 30, 12, 0x0
+  CONTROL "Use &preshared key for authentication", 1604, Button, 0x50000009, 8, 8, 206, 8, 0x0
+  CONTROL "", 1605, Edit, 0x50810080, 42, 21, 172, 12, 0x0
+  CONTROL "Use &certificate for authentication", 1775, Button, 0x50000009, 8, 40, 206, 8, 0x0
+  CONTROL "&Verify the Name and Usage attributes of the server’s certificate", 1776, Button, 0x50012403, 19, 54, 220, 17, 0x0
+}
+
+574 DIALOGEX 0, 0, 227, 215
+CAPTION "Sharing"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 575, Static, 0x50020000, 7, 60, 213, 100, 0x0
+}
+
+590 DIALOGEX 0, 0, 317, 144
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "To activate this demand-dial connection, you must add a static route to the network. Specify the IP address of the remote networks this network will communicate with.", 65535, Static, 0x50020000, 7, 11, 303, 20, 0x0
+  CONTROL "&Static Routes:", 65535, Static, 0x50020000, 7, 34, 160, 8, 0x0
+  CONTROL "List1", 1692, "SysListView32", 0x5081800d, 7, 46, 303, 62, 0x0
+  CONTROL "&Add", 1693, Button, 0x50010000, 7, 111, 50, 14, 0x0
+  CONTROL "&Remove", 1694, Button, 0x50010000, 61, 111, 50, 14, 0x0
+}
+
+591 DIALOGEX 0, 0, 249, 143
+CAPTION "Static Route"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Remote network support using IPv4", 4294967295, Button, 0x50000007, 7, 3, 235, 56, 0x0
+  CONTROL "Remote network support using IPv6", 4294967295, Button, 0x50000007, 7, 61, 235, 58, 0x0
+  CONTROL "&Remote Network Support using IPv4", 1761, Button, 0x50000009, 11, 3, 130, 8, 0x0
+  CONTROL "Remote Network &Support using IPv6", 1762, Button, 0x50000009, 11, 61, 130, 8, 0x0
+  CONTROL "&Destination:", 1766, Static, 0x50020000, 16, 15, 64, 8, 0x0
+  CONTROL "", 1695, "SysIPAddress32", 0x50010000, 91, 13, 100, 12, 0x0
+  CONTROL "&Network Mask:", 1767, Static, 0x50020000, 16, 28, 70, 8, 0x0
+  CONTROL "", 1696, "SysIPAddress32", 0x50010000, 91, 27, 100, 12, 0x0
+  CONTROL "Me&tric:", 1768, Static, 0x50020000, 16, 43, 59, 8, 0x0
+  CONTROL "", 1698, Edit, 0x50812080, 91, 41, 30, 12, 0x0
+  CONTROL "D&estination:", 1769, Static, 0x50020000, 16, 75, 62, 8, 0x0
+  CONTROL "", 1763, "msctls_netaddress", 0x50810080, 91, 74, 142, 12, 0x0
+  CONTROL "&Prefix Length:", 1770, Static, 0x50020000, 16, 90, 72, 8, 0x0
+  CONTROL "", 1764, Edit, 0x50812080, 91, 88, 20, 12, 0x0
+  CONTROL "&Metric:", 1771, Static, 0x50020000, 16, 105, 61, 8, 0x0
+  CONTROL "", 1765, Edit, 0x50812080, 91, 103, 30, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 133, 122, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 192, 122, 50, 14, 0x0
+}
+
+592 DIALOGEX 0, 0, 227, 148
+CAPTION "Diagnostics"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Enable logging", 1708, Button, 0x50010003, 32, 97, 146, 10, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 20, 97, 10, 10, 0x0
+  CONTROL "&Clear Log", 1703, Button, 0x50010000, 31, 112, 65, 15, 0x0
+  CONTROL "&Generate Report", 1705, Button, 0x50010000, 125, 112, 70, 15, 0x0
+  CONTROL "Logging options", 65535, Button, 0x50000007, 8, 35, 210, 98, 0x0
+  CONTROL "You can enable logging to create log files to record connection errors. To view or save log files as one report or send them in one e-mail message, click Generate Report.", 65535, Static, 0x50020000, 20, 50, 185, 38, 0x0
+  CONTROL "The options you select apply to all your remote access connections.", 65535, Static, 0x50020000, 8, 5, 212, 25, 0x0
+}
+
+593 DIALOGEX 0, 0, 244, 213
+CAPTION "Generate Diagnostic Report"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&View  report", 1731, Button, 0x50030009, 17, 18, 51, 10, 0x0
+  CONTROL "&Save report to this file", 1719, Button, 0x50010009, 17, 31, 195, 10, 0x0
+  CONTROL "Send report to this e-&mail address:", 1723, Button, 0x50010009, 18, 78, 197, 10, 0x0
+  CONTROL "&Enter path and file name:", 1734, Static, 0x50020000, 27, 44, 140, 8, 0x0
+  CONTROL "", 1721, Edit, 0x50810080, 26, 58, 144, 14, 0x0
+  CONTROL "&Browse", 1730, Button, 0x50010000, 175, 58, 50, 14, 0x0
+  CONTROL "", 1726, Edit, 0x50810080, 26, 90, 198, 14, 0x0
+  CONTROL "&Generate summary report", 1732, Button, 0x50010003, 31, 166, 189, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 114, 191, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 179, 191, 50, 14, 0x0
+  CONTROL "A normal report will take several minutes to generate. A summary report will take less time to generate but will contain less information.", 65535, Static, 0x50020000, 21, 126, 205, 31, 0x0
+  CONTROL "Report Size", 65535, Button, 0x50000007, 11, 117, 224, 65, 0x0
+  CONTROL "Report Generation Options", 65535, Button, 0x50000007, 10, 5, 225, 105, 0x0
+}
+
+594 DIALOGEX 0, 0, 259, 63
+CAPTION "Diagnostic Report"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Cancel", 2, Button, 0x50010000, 198, 41, 50, 14, 0x0
+  CONTROL "Progress1", 1733, "msctls_progress32", 0x50800001, 10, 19, 240, 10, 0x0
+  CONTROL "Generating report...", 65535, Static, 0x50020000, 11, 5, 110, 10, 0x0
+  CONTROL "Finished: 0%", 1737, Static, 0x50020002, 165, 6, 82, 8, 0x0
+  CONTROL "", 1740, Static, 0x50020000, 12, 36, 173, 20, 0x0
+}
+
+595 DIALOGEX 0, 0, 228, 146
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 103, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 119, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 119, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 119, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 119, 50, 14, 0x0
+}
+
+1420 DIALOGEX 0, 0, 228, 156
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 84, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 14, 103, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 100, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 14, 103, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 100, 154, 112, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 125, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50010001, 8, 134, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 134, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 134, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 134, 50, 14, 0x0
+}
+
+1421 DIALOGEX 0, 0, 228, 257
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 7, 137, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 9, 143, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 157, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 169, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 169, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 188, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 14, 197, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 194, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 14, 197, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 194, 154, 112, 0x0
+  CONTROL "Dialing &from:", 1415, Static, 0x50020000, 14, 213, 46, 8, 0x0
+  CONTROL "", 1414, ComboBox, 0x50210103, 62, 212, 87, 112, 0x0
+  CONTROL "Dialing &Rules", 1108, Button, 0x50010000, 155, 211, 60, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 230, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 237, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 237, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 237, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 237, 50, 14, 0x0
+}
+
+1422 DIALOGEX 0, 0, 228, 278
+CAPTION "Connect %1"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1678, 1100, Static, 0x5000000e, 8, 6, 219, 85, 0x0
+  CONTROL "&User name:", 1413, Static, 0x50020000, 10, 102, 50, 8, 0x0
+  CONTROL "", 1104, Edit, 0x50810080, 62, 99, 154, 14, 0x0
+  CONTROL "&Password:", 1112, Static, 0x50020000, 10, 120, 50, 8, 0x0
+  CONTROL "", 1103, Edit, 0x508100a0, 62, 117, 154, 14, 0x0
+  CONTROL "Do&main:", 1110, Static, 0x50020000, 10, 138, 50, 8, 0x0
+  CONTROL "", 1102, Edit, 0x50810088, 62, 135, 154, 14, 0x0
+  CONTROL "", 65535, Static, 0x5000100c, 7, 155, 214, 1, 0x0
+  CONTROL "&Save this user name and password for the following users:", 1101, Button, 0x50032503, 10, 162, 203, 13, 0x0
+  CONTROL "Me o&nly", 1622, Button, 0x50032509, 21, 178, 193, 11, 0x0
+  CONTROL "&Anyone who uses this computer", 1623, Button, 0x50012509, 21, 190, 193, 11, 0x0
+  CONTROL "", 1638, Static, 0x50000003, 10, 190, 10, 10, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 205, 214, 1, 0x0
+  CONTROL "D&ial:", 1412, Static, 0x50020000, 14, 215, 48, 8, 0x0
+  CONTROL "", 1416, ComboBox, 0x50210042, 62, 212, 154, 112, 0x0
+  CONTROL "&Connect:", 1437, Static, 0x50020000, 14, 215, 48, 8, 0x0
+  CONTROL "", 1401, ComboBox, 0x50210103, 62, 212, 154, 112, 0x0
+  CONTROL "Dialing &from:", 1415, Static, 0x50020000, 14, 231, 46, 8, 0x0
+  CONTROL "", 1414, ComboBox, 0x50210103, 62, 230, 87, 112, 0x0
+  CONTROL "Dialing &Rules", 1108, Button, 0x50010000, 155, 229, 60, 14, 0x0
+  CONTROL "", 65535, Static, 0x5002100c, 7, 250, 214, 1, 0x0
+  CONTROL "&Dial", 1590, Button, 0x50030001, 8, 256, 50, 14, 0x0
+  CONTROL "Cancel", 1591, Button, 0x50010000, 62, 256, 50, 14, 0x0
+  CONTROL "Pr&operties", 1107, Button, 0x50010000, 116, 256, 50, 14, 0x0
+  CONTROL "&Help", 1592, Button, 0x50010000, 170, 256, 50, 14, 0x0
+}
+
+1425 DIALOGEX 0, 0, 227, 230
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Host name or IP address of destination (such as microsoft.com or 157.54.0.1 or 3ffe:1234::1111):", 1430, Static, 0x50020000, 7, 7, 214, 18, 0x0
+  CONTROL "", 1427, Edit, 0x50810080, 7, 28, 213, 14, 0x0
+  CONTROL "First connect", 1431, Button, 0x50000007, 7, 50, 213, 78, 0x0
+  CONTROL "Windows can first connect to a public network, such as the Internet, before trying to establish this virtual connection.", 1432, Static, 0x50020000, 17, 63, 193, 24, 0x0
+  CONTROL "&Dial another connection first:", 1428, Button, 0x50010003, 17, 94, 183, 10, 0x0
+  CONTROL "List of available RAS connections:", 65535, Static, 0x48020000 | NOT WS_VISIBLE, 29, 215, 120, 5, 0x0
+  CONTROL "", 1429, ComboBox, 0x50210103, 29, 106, 182, 87, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+1426 DIALOGEX 0, 0, 227, 205
+CAPTION "Options"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Dialing options", 1289, Button, 0x50000007, 7, 7, 213, 65, 0x0
+  CONTROL "&Display progress while connecting", 1284, Button, 0x50010003, 16, 17, 200, 10, 0x0
+  CONTROL "&Prompt for name and password, certificate, etc.", 1554, Button, 0x50010003, 16, 29, 200, 10, 0x0
+  CONTROL "Include &Windows logon domain", 1555, Button, 0x50010003, 16, 41, 200, 10, 0x0
+  CONTROL "&Keep this connection connected when switching users", 1744, Button, 0x50012403, 16, 55, 200, 10, 0x0
+  CONTROL "Redialing options", 1290, Button, 0x50000007, 7, 77, 213, 92, 0x0
+  CONTROL "&Redial attempts:", 1300, Static, 0x50020000, 16, 92, 115, 8, 0x0
+  CONTROL "", 1287, Edit, 0x50812080, 141, 89, 69, 14, 0x0
+  CONTROL "&Time between redial attempts:", 1301, Static, 0x50020000, 16, 107, 115, 8, 0x0
+  CONTROL "", 1292, ComboBox, 0x50210003, 141, 104, 70, 123, 0x0
+  CONTROL "Idle ti&me before hanging up:", 1299, Static, 0x50020000, 16, 122, 115, 8, 0x0
+  CONTROL "", 1291, ComboBox, 0x50210003, 141, 119, 70, 108, 0x0
+  CONTROL "Idl&e threshold:", 1738, Static, 0x50020000, 16, 137, 115, 8, 0x0
+  CONTROL "", 1739, ComboBox, 0x50210003, 141, 134, 70, 108, 0x0
+  CONTROL "Redial if &line is dropped", 1286, Button, 0x50012403, 16, 152, 199, 10, 0x0
+  CONTROL "PPP Settin&gs...", 1419, Button, 0x50010000, 7, 182, 60, 14, 0x0
+}
+
+1433 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Host name or IP address of destination (such as microsoft.com or 157.54.0.1 or 3ffe:1234::1111):", 1430, Static, 0x50020000, 7, 7, 214, 18, 0x0
+  CONTROL "", 1427, Edit, 0x50810080, 7, 28, 213, 14, 0x0
+  CONTROL "<A>For more information</A>", 1435, "Link Window", 0x50010000, 8, 197, 184, 8, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 169, 214, 24, 0x0
+}
+
+1434 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Service name:", 1686, Static, 0x50020000, 7, 7, 214, 10, 0x0
+  CONTROL "", 1594, Edit, 0x50810080, 7, 17, 213, 14, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+1436 DIALOGEX 0, 0, 227, 215
+CAPTION "General"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select a location closest to your office.", 1045, Static, 0x50020000, 7, 7, 196, 45, 0x0
+  CONTROL "VPN &Destination:", 1046, Static, 0x50020000, 7, 60, 61, 9, 0x0
+  CONTROL "", 1047, ComboBox, 0x50210103, 16, 73, 196, 71, 0x0
+  CONTROL "<A HREF=""http://go.microsoft.com/fwlink/?LinkId=190175"">privacy statement</A>", 1759, "SysLink", 0x50010002, 7, 187, 214, 24, 0x0
+}
+
+1448 DIALOGEX 10, 20, 233, 62
+CAPTION "Network Connections"
+STYLE 0x90c80040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "C&hoose a network connection:", 1456, Static, 0x50020000, 7, 7, 219, 10, 0x0
+  CONTROL "", 1457, ComboBox, 0x50210103, 7, 17, 219, 140, 0x0
+  CONTROL "&Connect...", 1449, Button, 0x50010001, 7, 39, 50, 14, 0x0
+  CONTROL "&Properties", 1460, Button, 0x50010000, 61, 39, 59, 14, 0x0
+  CONTROL "&New...", 1459, Button, 0x50010000, 126, 39, 45, 14, 0x0
+  CONTROL "Close", 1455, Button, 0x50010000, 176, 39, 50, 14, 0x0
+}
+
+1466 DIALOGEX 6, 18, 263, 263
+CAPTION ""
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Sample text", 1469, Static, 0x50020000, 7, 7, 249, 8, 0x0
+  CONTROL "", 1470, Edit, 0x50810080, 7, 17, 193, 14, 0x0
+  CONTROL "&Add", 1471, Button, 0x50010000, 96, 36, 50, 14, 0x0
+  CONTROL "&Replace", 1472, Button, 0x50010000, 151, 36, 50, 14, 0x0
+  CONTROL "Sample text", 1473, Static, 0x50020000, 7, 57, 193, 8, 0x0
+  CONTROL "", 1474, ListBox, 0x50a10001, 7, 68, 193, 140, 0x0
+  CONTROL "", 1475, Button, 0x50030080, 206, 68, 50, 14, 0x0
+  CONTROL "&Down", 1476, Button, 0x50010080, 206, 86, 50, 14, 0x0
+  CONTROL "D&elete", 1477, Button, 0x50010000, 151, 211, 50, 14, 0x0
+  CONTROL "", 1479, Static, 0x50000010, 7, 233, 249, 1, 0x0
+  CONTROL "OK", 1, Button, 0x50030000, 151, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 206, 242, 50, 14, 0x0
+}
+
+1467 DIALOGEX 6, 18, 263, 263
+CAPTION ""
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Sample text", 1469, Static, 0x50020000, 7, 7, 193, 8, 0x0
+  CONTROL "", 1470, Edit, 0x50810080, 7, 17, 193, 14, 0x0
+  CONTROL "&Add", 1471, Button, 0x50010000, 96, 36, 50, 14, 0x0
+  CONTROL "&Replace", 1472, Button, 0x50010000, 151, 36, 50, 14, 0x0
+  CONTROL "Sample text", 1473, Static, 0x50020000, 7, 57, 193, 8, 0x0
+  CONTROL "", 1474, ListBox, 0x50a10001, 7, 68, 193, 135, 0x0
+  CONTROL "&Up", 1475, Button, 0x50030080, 206, 68, 50, 14, 0x0
+  CONTROL "&Down", 1476, Button, 0x50010080, 206, 86, 50, 14, 0x0
+  CONTROL "D&elete", 1477, Button, 0x50010000, 151, 204, 50, 14, 0x0
+  CONTROL "Sample text", 1478, Button, 0x50012403, 7, 225, 249, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030000, 151, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 206, 242, 50, 14, 0x0
+}
+
+1468 DIALOGEX 6, 18, 263, 263
+CAPTION ""
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Sample text", 1469, Static, 0x50020000, 7, 7, 249, 8, 0x0
+  CONTROL "", 1470, Edit, 0x50810080, 7, 17, 249, 14, 0x0
+  CONTROL "&Add", 1471, Button, 0x50010000, 151, 36, 50, 14, 0x0
+  CONTROL "&Replace", 1472, Button, 0x50010000, 206, 36, 50, 14, 0x0
+  CONTROL "Sample text", 1473, Static, 0x50020000, 7, 57, 197, 8, 0x0
+  CONTROL "", 1474, ListBox, 0x50a10003, 7, 68, 249, 140, 0x0
+  CONTROL "D&elete", 1477, Button, 0x50030000, 206, 211, 50, 14, 0x0
+  CONTROL "", 1479, Static, 0x50000010, 7, 233, 249, 1, 0x0
+  CONTROL "OK", 1, Button, 0x50030000, 151, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 206, 242, 50, 14, 0x0
+}
+
+1480 DIALOGEX 0, 0, 227, 61
+CAPTION "Phone Number Editor"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Type the new phone number:", 1481, Static, 0x50020000, 7, 7, 213, 8, 0x0
+  CONTROL "", 1482, Edit, 0x50810080, 7, 17, 213, 15, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 114, 40, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 170, 40, 50, 14, 0x0
+}
+
+1780 DIALOGEX 0, 0, 227, 205
+CAPTION "Options"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Connection type", 1289, Button, 0x50000007, 7, 7, 213, 55, 0x0
+  CONTROL "&Demand-dial", 1506, Button, 0x50022409, 16, 20, 199, 9, 0x0
+  CONTROL "Idle ti&me before hanging up:", 1299, Static, 0x50000000, 27, 31, 99, 8, 0x0
+  CONTROL "", 1291, ComboBox, 0x50210003, 141, 29, 70, 108, 0x0
+  CONTROL "&Persistent connection", 1507, Button, 0x50002409, 16, 45, 197, 9, 0x0
+  CONTROL "Dialing policy", 1290, Button, 0x50000007, 7, 65, 213, 48, 0x0
+  CONTROL "&Redial attempts:", 1300, Static, 0x50020000, 16, 79, 121, 8, 0x0
+  CONTROL "", 1287, Edit, 0x50812080, 141, 76, 70, 14, 0x0
+  CONTROL "A&verage redial intervals:", 1301, Static, 0x50020000, 16, 96, 121, 8, 0x0
+  CONTROL "", 1292, ComboBox, 0x50210003, 141, 94, 70, 123, 0x0
+  CONTROL "Call&back", 1302, Button, 0x50010000, 8, 178, 50, 14, 0x0
+  CONTROL "PPP Settin&gs...", 1419, Button, 0x50010000, 65, 178, 60, 14, 0x0
+  CONTROL "&Keep this connection connected when switching users", 1744, Button, 0x50012403, 13, 122, 200, 10, 0x0
+  CONTROL "<A>For more information</A>", 1510, "Link Window", 0x50010000, 8, 197, 184, 8, 0x0
+}
+
+1781 DIALOGEX 0, 0, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Connect using a &modem, ISDN adapter, or other device", 1531, Button, 0x50022509, 21, 16, 248, 15, 0x0
+  CONTROL "Connect using &virtual private networking (VPN)", 1532, Button, 0x50002509, 21, 35, 248, 15, 0x0
+  CONTROL "Connect &using PPP over Ethernet (PPPoE)", 1688, Button, 0x50000009, 21, 55, 270, 12, 0x0
+  CONTROL "<A>For more information </A>", 1777, "Link Window", 0x50010000, 21, 135, 235, 8, 0x0
+}
+
+1782 DIALOGEX 0, 0, 317, 143
+CAPTION "Demand-Dial Interface Wizard"
+STYLE 0x40c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Automatic selection", 1534, Button, 0x50022509, 21, 16, 275, 11, 0x0
+  CONTROL "&Point to Point Tunneling Protocol (PPTP)", 1532, Button, 0x50002509, 21, 35, 275, 11, 0x0
+  CONTROL "&Layer 2 Tunneling Protocol (L2TP)", 1533, Button, 0x50002509, 21, 54, 275, 11, 0x0
+  CONTROL "&IKEv2", 1800, Button, 0x50002509, 21, 73, 275, 11, 0x0
+  CONTROL "<A>For more information </A>", 1778, "Link Window", 0x50010000, 21, 135, 235, 8, 0x0
+}
+
+7000 DIALOGEX 0, 0, 212, 103
+CAPTION "General"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&User name:", 65535, Static, 0x50020200, 7, 10, 83, 12, 0x0
+  CONTROL "", 7001, Edit, 0x50810080, 97, 7, 108, 14, 0x0
+  CONTROL "&Full name:", 65535, Static, 0x50020000, 7, 28, 83, 12, 0x0
+  CONTROL "", 7002, Edit, 0x50810080, 97, 25, 108, 14, 0x0
+  CONTROL "&Password:", 65535, Static, 0x50020000, 7, 46, 83, 12, 0x0
+  CONTROL "", 7003, Edit, 0x508100a0, 97, 43, 108, 14, 0x0
+  CONTROL "&Confirm password:", 65535, Static, 0x50020000, 7, 64, 83, 12, 0x0
+  CONTROL "", 7004, Edit, 0x508100a0, 97, 61, 108, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 98, 82, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 82, 50, 14, 0x0
+}
+
+7005 DIALOGEX 0, 0, 227, 215
+CAPTION "Callback"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Do not allow callback", 7009, Button, 0x50032409, 7, 7, 213, 10, 0x0
+  CONTROL "All&ow the caller to set the callback number", 7006, Button, 0x50002409, 7, 20, 213, 10, 0x0
+  CONTROL "Al&ways use the following callback number:", 7007, Button, 0x50002409, 7, 33, 213, 10, 0x0
+  CONTROL "", 7008, Edit, 0x50830080, 19, 44, 201, 14, 0x0
+}
+
+7010 DIALOGEX 0, 0, 227, 205
+CAPTION "General"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Incoming connections", 4294967295, Button, 0x50020007, 7, 7, 213, 108, 0x0
+  CONTROL "Allow incoming connections on these devices.", 4294967295, Static, 0x50020000, 17, 19, 193, 8, 0x0
+  CONTROL "&Devices:", 4294967295, Static, 0x50020000, 17, 31, 29, 8, 0x0
+  CONTROL "", 7011, "SysListView32", 0x50834405, 17, 41, 193, 47, 0x200
+  CONTROL "&Enable multilink", 7012, Button, 0x50032403, 17, 96, 65, 10, 0x0
+  CONTROL "P&roperties", 7013, Button, 0x50030000, 150, 94, 60, 14, 0x0
+  CONTROL "Virtual private network", 4294967295, Button, 0x50020007, 7, 120, 213, 49, 0x0
+  CONTROL "Allo&w others to make private connections to my computer by tunneling through the Internet or other network", 7014, Button, 0x50032403, 17, 133, 193, 27, 0x0
+}
+
+7016 DIALOGEX 0, 0, 264, 177
+CAPTION "Incoming IP Properties"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Network access", 4294967295, Button, 0x50000007, 7, 7, 250, 32, 0x0
+  CONTROL "Allow &callers to access my local area network", 7017, Button, 0x50012503, 20, 20, 229, 9, 0x0
+  CONTROL "IP address assignment", 4294967295, Button, 0x50000007, 7, 43, 250, 108, 0x0
+  CONTROL "&Assign IP addresses automatically using DHCP", 7019, Button, 0x50032409, 20, 56, 231, 10, 0x0
+  CONTROL "S&pecify IP addresses", 7020, Button, 0x50012409, 20, 71, 231, 10, 0x0
+  CONTROL "&From:", 4294967295, Static, 0x50020000, 29, 87, 53, 8, 0x0
+  CONTROL "", 7018, "SysIPAddress32", 0x50010000, 90, 85, 100, 12, 0x0
+  CONTROL "&To:", 4294967295, Static, 0x50020000, 29, 102, 53, 8, 0x0
+  CONTROL "", 7021, "SysIPAddress32", 0x50010000, 90, 101, 100, 12, 0x0
+  CONTROL "Total:", 4294967295, Static, 0x50020000, 29, 119, 53, 10, 0x0
+  CONTROL "", 7024, Static, 0x50020000, 90, 118, 60, 12, 0x20000
+  CONTROL "Allo&w calling computer to specify its own IP address", 7022, Button, 0x50032403, 20, 134, 231, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 155, 156, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 207, 156, 50, 14, 0x0
+}
+
+7033 DIALOGEX 0, 0, 214, 50
+CAPTION "Incoming Protocol Properties"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Allow &callers to access my local area network", 7034, Button, 0x50012503, 7, 7, 200, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 101, 29, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 157, 29, 50, 14, 0x0
+}
+
+7035 DIALOGEX 0, 0, 227, 215
+CAPTION "Networking"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Network components:", 4294967295, Static, 0x50020000, 7, 7, 213, 9, 0x0
+  CONTROL "", 7036, "SysListView32", 0x5081440d, 7, 17, 213, 89, 0x200
+  CONTROL "&Install...", 7037, Button, 0x50030000, 7, 113, 67, 14, 0x0
+  CONTROL "&Uninstall", 7038, Button, 0x50030000, 80, 113, 67, 14, 0x0
+  CONTROL "P&roperties", 7039, Button, 0x50030000, 153, 113, 67, 14, 0x0
+  CONTROL "Description", 4294967295, Button, 0x50000007, 7, 138, 213, 69, 0x0
+  CONTROL "<protocol description>", 7040, Static, 0x50020000, 17, 150, 193, 48, 0x0
+}
+
+7042 DIALOGEX 0, 0, 227, 215
+CAPTION "Users"
+STYLE 0x40c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Users allowed to connect:", 4294967295, Static, 0x50020000, 7, 7, 213, 8, 0x0
+  CONTROL "", 7043, "SysListView32", 0x5083440d, 7, 19, 213, 83, 0x200
+  CONTROL "&New...", 7044, Button, 0x50030000, 7, 107, 67, 14, 0x0
+  CONTROL "&Delete", 7045, Button, 0x50030000, 80, 107, 67, 14, 0x0
+  CONTROL "P&roperties", 7046, Button, 0x50030000, 153, 107, 67, 14, 0x0
+  CONTROL "Re&quire all users to secure their passwords and data", 7048, Button, 0x50012403, 7, 151, 213, 12, 0x0
+  CONTROL "Al&ways allow directly connected devices such as handheld computers to connect without providing a password", 7049, Button, 0x50012403, 7, 167, 213, 23, 0x0
+  CONTROL "Note that other factors, such as a disabled user account, may affect a user's ability to connect.", 4294967295, Static, 0x50020000, 7, 125, 212, 23, 0x0
+}
+
+7049 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Select the check box next to a name to allow that person access to this computer and network.", 65535, Static, 0x50020000, 1, 1, 275, 17, 0x0
+  CONTROL "&User accounts on this computer:", 65535, Static, 0x50020000, 1, 28, 143, 40, 0x0
+  CONTROL "", 7043, "SysListView32", 0x5083440d, 1, 39, 241, 66, 0x0
+  CONTROL "&Add someone…", 7044, Button, 0x50030000, 11, 110, 80, 14, 0x0
+  CONTROL "Account &Properties", 7046, Button, 0x50030000, 146, 110, 80, 14, 0x0
+}
+
+7050 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Through the &Internet", 7014, Button, 0x50010003, 5, 1, 141, 10, 0x0
+  CONTROL "Another computer can connect to this one using a virtual private network (VPN) connection.", 65535, Static, 0x50020000, 18, 12, 266, 17, 0x0
+  CONTROL "Through a &dial-up modem", 7069, Button, 0x50010003, 5, 39, 130, 10, 0x0
+  CONTROL "", 7011, "SysListView32", 0x5083440d, 18, 54, 253, 50, 0x0
+}
+
+7051 DIALOGEX 0, 0, 317, 132
+CAPTION ""
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Select the check box next to each type of networking software that should be enabled for incoming connections.", 65535, Static, 0x50020000, 1, 1, 275, 20, 0x0
+  CONTROL "Networking &software:", 65535, Static, 0x50020000, 1, 22, 262, 8, 0x0
+  CONTROL "", 7036, "SysListView32", 0x5081440d, 1, 32, 275, 46, 0x0
+  CONTROL "&Install...", 7037, Button, 0x50030000, 88, 80, 60, 14, 0x0
+  CONTROL "&Uninstall", 7038, Button, 0x50030000, 152, 80, 60, 14, 0x0
+  CONTROL "&Properties", 7039, Button, 0x50030000, 216, 80, 60, 14, 0x0
+  CONTROL "Description:", 65535, Static, 0x50020000, 1, 95, 275, 8, 0x0
+  CONTROL "<protocol description>", 7040, Static, 0x50020000, 1, 105, 275, 38, 0x0
+}
+
+7052 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x80c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Virtual private connections to your computer through the Internet are possible only if your computer has a known name or IP address on the Internet.", 65535, Static, 0x50020000, 21, 1, 275, 23, 0x0
+  CONTROL "&Allow virtual private connections", 7053, Button, 0x50032409, 31, 65, 265, 10, 0x0
+  CONTROL "&Do not allow virtual private connections", 7054, Button, 0x50002409, 31, 80, 265, 10, 0x0
+  CONTROL "Do you want to allow virtual private connections to this computer?", 65535, Static, 0x50020000, 21, 52, 275, 8, 0x0
+  CONTROL "If you allow VPN connections, the system will modify the Windows Firewall settings to allow your computer to send and receive VPN packets.", 7062, Static, 0x50020000, 21, 25, 275, 25, 0x0
+}
+
+7063 DIALOGEX 0, 0, 264, 122
+CAPTION "Incoming IPv6 Properties"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Network access", 4294967295, Button, 0x50000007, 7, 7, 250, 56, 0x0
+  CONTROL "Allow &callers to access my local area network", 7064, Button, 0x50012503, 19, 20, 226, 9, 0x0
+  CONTROL "IPv6 Prefix assignment", 4294967295, Button, 0x50000007, 7, 67, 250, 31, 0x0
+  CONTROL "Pre&fix:", 4294967295, Static, 0x50020000, 19, 82, 35, 8, 0x0
+  CONTROL "", 7065, "msctls_netaddress", 0x50810080, 62, 80, 160, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 155, 102, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 207, 102, 50, 14, 0x0
+  CONTROL "&Private Adapter:", 7068, Static, 0x50020000, 19, 34, 91, 8, 0x0
+  CONTROL "", 7067, ComboBox, 0x50210103, 19, 43, 205, 30, 0x0
+}
+
+19900 DIALOGEX 0, 0, 156, 44
+CAPTION "Dial-Up Networking"
+STYLE 0x80c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 563, 19901, Static, 0x50000003, 10, 10, 18, 20, 0x0
+  CONTROL "Waiting for services to start...", 19902, Static, 0x50020000, 45, 16, 105, 8, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  187,  "&No, do not dial"
+  188,  "You (or a program) have requested information from %1. Which connection do you want to use?"
+  189,  "Add Alternate Phone Number"
+  190,  "Dial only first available device"
+  191,  "Dial all devices"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "Dial devices only as needed"
+  193,  "Enter a user name and password with access to the remote network domain."
+  195,  "The area code must contain only the digits 0 to 9."
+  196,  "The entry name must contain at least one non-blank character and cannot begin with a period.  Choose a different name."
+  198,  "The custom authentication configuration DLL could not be loaded. Make sure the custom authentication package is correctly installed."
+  199,  "The connection selected was established by the Multiprotocol router.\nPlease use the 'Routing and RAS Admin' tool to hang up the connection."
+  200,  "Comment"
+  201,  "The custom authentication package configuration failed."
+  202,  "TCP/IP is not installed or is disabled for Routing and Remote Access. In Control Panel, start Network, go to the Services page, choose 'Routing and Remote Access Service' Properties, and press the Network button."
+  204,  "Do you want to remove the selected device(s) from the list?"
+  205,  "Do you want to delete %1 from the phonebook?"
+  206,  "Do you want to disconnect from %1?"
+  207,  "A file named %1 already exists. Do you want to overwrite it?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Syntax errors were found in the script. Do you want to view the error log?"
+  209,  "'%1' is now connected.  "
+  210,  "Right-click the Dial-Up Networking Monitor on the task bar to hang up or check the status of your connection."
+  212,  "Connected successfully."
+  214,  "lnk"
+  215,  "Dial-up shortcut files (*.rnk)"
+  216,  "*.rnk"
+  217,  "Create Dial-Up Shortcut"
+  218,  "Link to %1 failed.  Reconnect pending..."
+  219,  "Cannot retrieve framing information."
+  220,  "Cannot retrieve port information."
+  221,  "Cannot retrieve projection information."
+  222,  "Cannot load connection list."
+  223,  "Client:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "Details"
+  225,  "Device:"
+  226,  "Network:"
+  227,  "(not connected)"
+  228,  "&Connect..."
+  229,  "Hang &Up"
+  230,  "Dial-up Connection"
+  231,  "Modem configuration set to defaults"
+  232,  "COM1"
+  233,  "Remote Router"
+  234,  "Modem or device"
+  235,  "Enter a username for this interface's account on the remote router."
+  236,  "An entry named %1 already exists. Please choose a different name."
+  237,  "You may want to allow sending your password without encryption."
+  238,  "Password Encryption"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  241,  "Phone &number:"
+  242,  "Call Me Back At"
+  243,  "Edit Alternate Phone Number"
+  244,  "Since this connection is currently active, some settings will not take effect until the next time you dial it."
+  245,  "There are no connections available to all users. You must log on before dialing."
+  246,  "The phonebook is empty.\n\nTo add an entry, click OK."
+  247,  "Due to import/export restrictions, data encryption is not available in this version of Windows."
+  249,  "Error %1: %2"
+  250,  "%1\n\nError %2: %3"
+  251,  "%1\n\nError %2: %3\nDiagnostic: %4"
+  252,  "%1\n\nError %2: %3\nFail Code: %4"
+  253,  "%1\n\nError %2: %3\n\nPress F1 for more information."
+  254,  "%1\n\nError %2: %3\nName: %4"
+  255,  "%1\n\n%4"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  256,  "%1\n\nError %2: %3\nResponse: %4"
+  257,  "Fail Code: 0x%1\n"
+  258,  "Name: %1\n"
+  259,  "%1 CP reported error %2: %3\n"
+  260,  "%1 CP connected successfully.\n"
+  261,  "You can choose which dial-up protocol to use."
+  262,  "Choose Dial-up Protocol"
+  263,  "Click Finish to save '%1'."
+  264,  "netcfg.hlp"
+  265,  "&Move successful number to the top of the list on connection"
+  266,  "&New phone number:"
+  267,  "&Phone numbers:"
+  268,  "Phone Numbers"
+  269,  "You may enter a fixed IP address."
+  270,  "IP Address"
+  271,  "The Internet protocols (TCP/IP), are not installed or are disabled for Remote Access. In Control Panel, start Network, go to the Services page, choose 'Remote Access Service' Properties, and then click Network."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  272,  "TCP/IP"
+  273,  "IPsec, default policy"
+  275,  " (the current location)"
+  276,  "ISDN"
+  277,  "All available ISDN lines multi-linked"
+  278,  "64K Digital"
+  279,  "56K Digital"
+  280,  "56K Voice"
+  281,  "You may need a special procedure before connecting."
+  282,  "Choose Logon Options"
+  283,  "%d%%"
+  284,  "Phone number for %s"
+  285,  "&New location:"
+  286,  "&Locations:"
+  287,  "Locations"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  288,  "This device will be used to make the connection."
+  289,  "Select a Device"
+  290,  "Multiple lines cannot be bundled unless you are calling a PPP server."
+  291,  "Modem"
+  292,  "The modem is not installed."
+  293,  "Microsoft Point-to-Point Encryption, 128-bit RSA/RC4"
+  294,  "Microsoft Point-to-Point Encryption, 40-bit RSA/RC4"
+  295,  "Multiple Lines"
+  296,  "(Click Configure to set)"
+  297,  "You may enter fixed DNS and WINS addresses."
+  298,  "Name Server Addresses"
+  300,  "PPP"
+  301,  "PPP multi-link"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "A personal phonebook has been created and initialized with the contents of the system phonebook."
+  305,  "No alternate phonebook is selected."
+  306,  "That device cannot be dynamically configured."
+  307,  "The entry cannot be deleted because it is connected."
+  308,  "No entry is selected. To create an entry, click New."
+  309,  "A non-zero IP address must be supplied when 'specify an IP address' is selected."
+  311,  "(none)"
+  312,  "'%1' is already in the list."
+  313,  "Help secure my password and my data"
+  314,  "The %1 protocol cannot be selected because it is not installed or is disabled for Remote Access.  To change, in Control Panel start Network, choose Services page, Remote Access Properties, and click Network."
+  315,  "Cannot save password."
+  316,  "Cannot display data."
+  317,  "Cannot get auto-dial information."
+  318,  "Cannot load dialog."
+  319,  "Cannot disable shared access."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Cannot load property page."
+  321,  "Cannot load phonebook."
+  322,  "Cannot load RAS Manager port information."
+  323,  "Cannot read user preferences from registry."
+  324,  "Cannot load script information."
+  325,  "Cannot view script.log with Notepad."
+  326,  "Cannot edit switch.inf with Notepad."
+  327,  "Cannot load TAPI information."
+  329,  "Cannot create new phonebook."
+  330,  "Cannot enable shared access."
+  331,  "Cannot connect the phonebook entry."
+  332,  "Cannot get send/receive buffer."
+  333,  "Cannot get status information for a port."
+  334,  "Cannot retrieve protocol information."
+  335,  "Cannot receive buffer from device."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  336,  "Cannot send buffer to device."
+  337,  "Cannot retrieve data."
+  338,  "Cannot save TAPI information."
+  339,  "Cannot save data."
+  340,  "The script has halted."
+  341,  "The script has halted due to an error. Do you want to view the error log?"
+  342,  "Cannot set auto-dial information."
+  343,  "Cannot delete saved password."
+  344,  "Cannot write phonebook."
+  345,  "Writing preferences to registry"
+  346,  "Cannot write the shortcut file."
+  347,  "OK"
+  348,  "Cannot configure incoming connections."
+  349,  "Because this connection was started by an application with restricted privileges, you cannot change the properties of the connection. Please use the Network and Sharing Center or Network Connections folder to change the connection settings."
+  350,  "The Password and Confirm password fields do not match."
+  351,  "The New Password and Confirm New Password fields do not match."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  352,  "pbk"
+  353,  "Dial-Up Phonebook"
+  354,  "*.pbk"
+  355,  "Open Phonebook"
+  356,  "Clone Phonebook Entry"
+  357,  "Edit Phonebook Entry"
+  358,  "New Phonebook Entry"
+  359,  "Phone number"
+  360,  "Phone numbers"
+  361,  "Network Connections"
+  362,  "You must select at least one network protocol."
+  363,  "Before you can call PPP servers you must install a network protocol."
+  364,  "&New prefix:"
+  365,  "&Prefixes:"
+  366,  "Phone Number Prefixes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  369,  "Point-to-point protocol settings to use when %1 initiates a demand-dial connection on interface %2:"
+  370,  "[To change the saved password, click here]"
+  371,  "Removed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  407,  "&Redial"
+  408,  "You have chosen to disable one or more transports. Doing so requires the routing managers and routing protocols for the disabled transports to be removed from this demand-dial connection.\nTo continue, click Yes. \n \n\n\n\n\n\nTo re-enable the transports, click No."
+  410,  "Demand-dial interface dial-in account."
+  411,  "You now need to set the dial-out credentials that interface '%1' will use when connecting to the remote router. These credentials must match the dial-in credentials configured on the remote router. When connecting to a \n \n\n\n\n\n\nWindows NT4/2000 router, the user name must also match the interface name of the remote router."
+  412,  "mpradmin.hlp"
+  413,  "&Move successful number or address to the top of the list on connection"
+  414,  "&New phone number or address:"
+  415,  "&Phone numbers or addresses:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  416,  "Numbers and Addresses"
+  420,  "All devices connected."
+  421,  "Receiving registration results..."
+  422,  "Sending callback information..."
+  423,  "Sending new password..."
+  424,  "Calculating link speed..."
+  425,  "Checking authentication status..."
+  426,  "Registering your computer on the network..."
+  427,  "Retrying authentication..."
+  428,  "Verifying user name and password..."
+  429,  "Authenticated."
+  430,  "Connecting through %1..."
+  431,  "Dialing..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  432,  "Modems connecting..."
+  433,  "Connecting over cable..."
+  434,  "Dialing %1..."
+  436,  "Post-connecting through %1..."
+  437,  "Pre-connecting through %1..."
+  438,  "Connected."
+  439,  "Device connected."
+  440,  "Disconnected."
+  441,  "Modem connected."
+  442,  "Cable connected."
+  443,  "Opening port..."
+  444,  "Applying configured settings"
+  445,  "Port opened."
+  446,  "Post-connect complete."
+  447,  "Pre-connect complete."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  448,  "Preparing for callback..."
+  449,  "Checking network protocol connections..."
+  450,  "Verifying user name and password..."
+  451,  "Connected, bundling additional lines..."
+  452,  "Unknown state."
+  453,  "Waiting for callback..."
+  454,  "Waiting for modem reset..."
+  455,  "Make the phone number change permanent?"
+  456,  "scp"
+  457,  "*.scp"
+  458,  "Dial-up script files (*.scp)"
+  459,  "Browse Dial-Up Scripts"
+  460,  "You must select at least one modem or adapter."
+  461,  "Phone number"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  464,  "Status"
+  465,  "&New suffix:"
+  466,  "&Suffixes:"
+  467,  "Phone Number Suffixes"
+  470,  "Manual Modem Command Terminal"
+  471,  "After Dial Terminal"
+  472,  "Before Dial Terminal"
+  474,  "10 minutes"
+  475,  "10 seconds"
+  476,  "1 hour"
+  477,  "1 minute"
+  478,  "24 hours"
+  479,  "2 hours"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  480,  "2 minutes"
+  481,  "30 minutes"
+  482,  "30 seconds"
+  483,  "3 seconds"
+  484,  "4 hours"
+  485,  "4 minutes"
+  486,  "5 minutes"
+  487,  "5 seconds"
+  488,  "8 hours"
+  489,  "never"
+  492,  "Discard multiple line settings for the entry?"
+  493,  "Unavailable device"
+  495,  "Remote Access Preferences"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Cannot enable on-demand dialing."
+  502,  "Cannot disable on-demand dialing."
+  505,  "VPN1"
+  511,  "When Internet Connection Sharing is enabled, your network adapter will be set to use IP address 192.168.0.1. This might cause your computer to lose connectivity with other computers on your network. If these other computers have static IP addresses, set them to obtain their IP addresses automatically. Are you sure you want to enable Internet Connection Sharing?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  513,  "%1 using '%2'"
+  514,  "&Connect"
+  515,  "Let the server determine encryption"
+  516,  "Always encrypt my data"
+  517,  "Use MPPE-40 data encryption"
+  518,  "Use MPPE-128 data encryption"
+  519,  "The current encryption selection requires MS-CHAP or EAP authentication."
+  520,  "Custom Authentication Message"
+  521,  "Connecting to %1..."
+  523,  "Automatic"
+  524,  "Point to Point Tunneling Protocol (PPTP)"
+  525,  "Layer 2 Tunneling Protocol with IPsec (L2TP/IPsec)"
+  526,  "IKEv2"
+  527,  "Secure Socket Tunneling Protocol (SSTP)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  529,  "Virtual Private Connection"
+  530,  "Use any form of authentication required including clear text. Do not encrypt data."
+  531,  "Use any form of authentication that requires passwords to be encrypted. Do not encrypt data."
+  532,  "Type a name for the entry."
+  533,  "Encrypt passwords and data."
+  534,  "Type a port number between 1 and 65535."
+  535,  "Specify custom authentication and data encryption with the Settings button."
+  536,  "Use any form of authentication that requires encrypted passwords. Do not encrypt data."
+  537,  "Encrypt passwords and data."
+  538,  "Specify custom authentication and data encryption with the Settings button."
+  539,  "The port number is already used by another entry.\nEnter a unique port number."
+  540,  "Enter one or more ports for incoming responses."
+  541,  "Select the entry you want to delete."
+  542,  "1 second"
+  543,  "Select the entry you want to modify."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  576,  "20 minutes"
+  579,  "Specify a name for this connection to your workplace."
+  581,  "Network Application Settings"
+  582,  "Type a name for this connection in the following box."
+  584,  "Type the name of your ISP in the following box."
+  585,  "Advanced Properties"
+  586,  "Please type the IP address of the server computer on the private network."
+  587,  "Advanced Settings"
+  588,  "The entry name begins with a period or contains characters that are not valid. \nChoose a different name."
+  589,  "Properties"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  597,  "Diagnostic Report"
+  598,  "The destination address is an IPv6 address.PPTP does not work over IPv6. The VPN connection type will be set to Automatic."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1512,  "Communications Port"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1523,  " channel"
+  1528,  "Direct Connection"
+  1529,  "Select a device for this connection."
+  1530,  "Verdana Bold"
+  1531,  "12"
+  1532,  "Connection Type"
+  1533,  "Select the type of demand-dial interface you want to create."
+  1534,  "Select a Device"
+  1535,  "This is the device that will be used to make the connection."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1536,  "Phone Number"
+  1537,  "Type the phone number of the remote server or router you are calling."
+  1538,  "VPN Type"
+  1539,  "Select the type of VPN connection you want to create."
+  1540,  "Destination Address"
+  1541,  "What is the name or address of the remote router?"
+  1548,  "Router Scripting"
+  1549,  "You can set up a script for connecting to the remote router."
+  1550,  "Dial-In Credentials"
+  1551,  "Configure the user name and password that the remote router will use when it dials in to this server."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1552,  "Dial-Out Credentials"
+  1553,  "Supply the user name and password to be used when connecting to the remote router."
+  1554,  "Interface Name"
+  1555,  "You can type a friendly name for this connection."
+  1556,  "No available devices"
+  1557,  "A user account named %1 already exists on the local computer. Should the demand-dial interface be configured to use this user account?"
+  1559,  "Allow unsecured password"
+  1560,  "Require secured password"
+  1561,  "Use smart card"
+  1562,  "You must select at least one password authentication protocol."
+  1563,  "No encryption allowed (server will disconnect if it requires encryption)"
+  1564,  "Optional encryption (connect even if no encryption)"
+  1565,  "Require encryption (disconnect if server declines)"
+  1566,  "Maximum strength encryption (disconnect if server declines)"
+  1567,  " (encryption enabled)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1570,  "The selected EAP package does not provide encryption keys. Select an EAP package that does provide keys or choose not to encrypt."
+  1571,  "The current encryption selection requires EAP or MS-CHAP v2 logon security method."
+  1572,  "Protocols and Security"
+  1573,  "Select transports and security options for this connection."
+  1574,  "The protocols you have selected include PAP and/or CHAP.  If one of these is negotiated, data encryption will not occur. Do you want to keep these settings?"
+  1575,  "To connect to '%1', you must first be connected to '%2'.  Do you want  to connect to '%2' now?"
+  1576,  "Connecting over parallel cable..."
+  1577,  "Connecting over infrared..."
+  1578,  "Parallel cable connected."
+  1579,  "Infrared connected."
+  1580,  "This connection was configured to use a data encryption strength that is not supported by the installed software. The security properties of this connection have been reset to the available encryption strengths."
+  1582,  "Please enter a user name."
+  1583,  "This user name and password will be saved for your own use. There is already a user name and password saved for all other users of this connection. Do you want to delete the user name and password saved for all other users?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1584,  "For example, you could type the name of your workplace or the name of a server you will connect to."
+  1585,  "Account Information"
+  1586,  "The request cannot be completed at this time. The system must first be restarted before any configuration changes can be made."
+  1587,  "The request cannot be completed because another network property dialog box is open. Please close all other dialog boxes and then try again."
+  1588,  "The request cannot be completed because access has been denied."
+  1589,  "The following message was received from your service provider:\r\n\r\n%1"
+  1590,  "Reconnect %1"
+  1591,  "Service Name"
+  1592,  "What is the name of the service that provides your broadband connection?"
+  1593,  "You will need an account name and password to sign in to your account"
+  1594,  "PPPOE1-0"
+  1595,  "Point-to-Point Protocol over Ethernet (PPPoE)"
+  1596,  "Type of &broadband connection to make:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1606,  "You must select an EAP method for this connection."
+  1607,  "Custom Encryption"
+  1611,  "Broadband Connection"
+  1612,  "You have selected to use a preshared key but you have not entered one. \nPlease enter a preshared key."
+  1613,  "Cannot Commit Credentials"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1634,  "Because the Windows Management Instrumentation (WMI) service has been disabled, Windows cannot display the properties of this connection or the home network.\n\nTo configure the properties of this connection or your home network, first enable the WMI service. To do this, in Administrative Tools in Control Panel, double-click Services, right-click Windows Management Instrumentation, and then click Start."
+  1635,  "Windows cannot display the properties of this connection. The Windows Management Instrumentation (WMI) information might be corrupted. To correct this, use System Restore to restore Windows to an earlier time (called a restore point). System Restore is located in the System Tools folder in Accessories."
+  1646,  "Allow incoming echo request"
+  1647,  "Allow incoming timestamp request"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1648,  "Allow incoming mask request"
+  1649,  "Allow incoming router request"
+  1650,  "Allow outgoing destination unreachable"
+  1651,  "Allow outgoing source quench"
+  1652,  "Allow outgoing parameter problem"
+  1653,  "Allow outgoing time exceeded"
+  1654,  "Allow redirect"
+  1655,  "log"
+  1656,  "*.log"
+  1657,  "Firewall log files (*.log)"
+  1658,  "Browse"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1665,  "Messages sent to this computer will be repeated back to the sender. This is commonly used for troubleshooting, for example, to ping a computer."
+  1666,  "Data sent to this computer can be acknowledged with a confirmation message indicating the time that the data was received."
+  1667,  "This computer will listen for and respond to requests for more information about the public network to which it is attached."
+  1668,  "This computer will respond to requests for information about the routes it recognizes."
+  1669,  "Data sent over the Internet that fails to reach this computer due to an error will be discarded and acknowledged with a ""destination unreachable"" message explaining the failure."
+  1670,  "When this computer's ability to process incoming data cannot keep up with the rate of a transmission, data will be dropped and the sender will be asked to slow down."
+  1671,  "When this computer discards data it has received due to a problematic header, it will reply to the sender with a ""bad header"" error message."
+  1672,  "When this computer discards an incomplete data transmission because the entire transmission required more time than allowed, it will reply to the sender with a ""time expired"" message."
+  1673,  "Data sent from this computer will be rerouted if the default path changes."
+  1675,  "The value entered for the log file size is not valid. Enter a value between 1 and 32767 KB."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1685,  "Your user account does not have permission to use this connection. Usually, this is because you are logged in as Guest."
+  1686,  "Type a user name and password. (If you have forgotten an existing account name or password, contact your network administrator.)"
+  1688,  "ISP N&ame"
+  1689,  "Company N&ame"
+  1690,  "What is the phone number you will use to make this connection?\n"
+  1691,  "Static Routes for Remote Networks"
+  1692,  "A static route is a manually defined, permanent route between two networks."
+  1693,  "Destination"
+  1694,  "Network Mask/Prefix length"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1696,  "Metric"
+  1697,  "Destination is required."
+  1698,  "Network mask is required."
+  1699,  "Metric is required."
+  1700,  "Invalid mask."
+  1701,  "Cannot add duplicate route."
+  1702,  "Cannot load diagnostic functions"
+  1704,  "Enter a valid file name."
+  1706,  "Enter a valid e-mail address."
+  1710,  "No diagnostic log file is available."
+  1711,  "Unable to launch explorer.exe to load the diagnostic log file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1713,  "This process can take several minutes. Do you want to continue?"
+  1715,  "Cannot export log to the file you specified. There might not be enough disk space."
+  1717,  "Cannot send the log. Make sure that Microsoft Outlook is installed and configured correctly."
+  1718,  "Generating report..."
+  1720,  "Writing to file is finished."
+  1722,  "Sending e-mail is finished."
+  1724,  "Operation was unsuccessful."
+  1727,  "Browse for Folder"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1728,  "Finished"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1749,  "PPTP does not work over IPv6. The VPN connection type will be set to Automatic."
+  1750,  "The current VPN connection settings include PPTP as the connection type and PAP as an allowed authentication protocol. Data is not encrypted when PPTP and PAP are used. Change the security settings or use a different connection type."
+  1751,  "The protocols you have selected include PAP and/or CHAP. The current VPN selection might not encrypt data. Do you want to keep the VPN selection?"
+  1753,  "TCP/IPv6"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1772,  "Invalid prefix length."
+  1773,  "Invalid destination address"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1850,  "6 seconds"
+  1851,  "9 seconds"
+  1852,  "12 seconds"
+  1853,  "15 seconds"
+  1854,  "6 minutes"
+  1855,  "12 minutes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1856,  "15 minutes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7301,  "Incoming TCP/IP Properties"
+  7302,  "You must choose a value from %1 to %2 for this field."
+  7306,  "Incoming Connections Error"
+  7307,  "Incoming Connections General Error"
+  7308,  "Incoming Connections"
+  7309,  "Incoming Connections Networking Error"
+  7310,  "Incoming Connections Multilink Status Error"
+  7311,  "Incoming Connections Error"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7312,  "Incoming Connections Initialization Error"
+  7313,  "Incoming Connections TCP/IP Properties Error"
+  7315,  "Incoming Connections Error"
+  7316,  "Generic"
+  7317,  "Device"
+  7318,  "Miscellaneous Database"
+  7319,  "User Database"
+  7320,  "Protocol Database"
+  7321,  "You must enter a logon name for the new user or press cancel."
+  7322,  "The password you entered was too short."
+  7323,  "The passwords entered are not the same.  Please re-enter them."
+  7324,  "An internal error has occurred.  "
+  7325,  "Listview"
+  7326,  "An error has occurred while attempting to commit the changes you have made to the local user database.  "
+  7327,  "You have insufficient privileges to add a user to the local system database.  "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7328,  "The user you are trying create already exists in the local user database."
+  7329,  "The user was not added to the local user database because the password you entered was rejected."
+  7330,  "Unable to reload the system user database because of an internal error."
+  7331,  "An internal error has occurred:  The local user database handle is corrupt."
+  7332,  "Unable to load the resources necessary to display the user tab."
+  7333,  "An internal error occurred while attempting to rollback the changes you made to the local user database.  "
+  7334,  "The device database handle is corrupt."
+  7335,  "Unable to load the resources necessary to display the general tab."
+  7336,  "An error has occurred while attempting to commit some of the device/vpn related changes you have made.  "
+  7337,  "An internal error occurred."
+  7338,  "An internal error occurred: The networking component database handle is corrupt."
+  7339,  "An internal error has occurred.  "
+  7340,  "An error has occurred while attempting to commit the changes you have made to the networking components."
+  7341,  "An internal error occurred."
+  7342,  "Unable to commit the changes you made to the TCP/IP protocol to the system.  "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7344,  "Unable to display the TCPIP properties."
+  7346,  "Unable to load TCP/IP properties from the system.  "
+  7348,  "Incoming Connections depend on the Routing and Remote Access service which was unable to start.  For more information, check the system event log."
+  7349,  "Unable to allow the editing of networking components at this time because they are currently being modified elsewhere."
+  7350,  "The new user you entered was not added to the local user database because  the name or password entered violated a system policy (it was too large, too small, or ill-formed).  "
+  7351,  "The system is unable to delete the requested user.  "
+  7352,  "Unable to remove the selected network component because it is in use."
+  7353,  "Incoming Connections Warning"
+  7354,  "Any users that you delete will be permanently removed from the system even if cancel is pressed.  Are you sure you want to permanently remove %s? "
+  7355,  "You are about to switch to a system management console.  This Incoming Connections property sheet will be closed and any changes you may have made will be committed to the system.  Is it ok to continue?"
+  7356,  "Your Network Mask value has been changed.  A zero bit in a mask can only be followed by other zero bits.  For example, a Network Mask value, expressed in decimal dotted notation, of 255.255.0.0, is valid, but 255.0.255.0 is not.  \n"
+  7357,  "Who may connect to this computer?"
+  7358,  "You can specify the users who can connect to this computer."
+  7359,  "How will people connect?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7360,  "You can choose the devices your computer uses to accept incoming connections."
+  7361,  "Incoming Virtual Private Network (VPN) Connection"
+  7362,  "Another computer can connect to yours through a VPN connection"
+  7363,  "Networking software allows this computer to accept connections from other kinds of computers"
+  7364,  "Networking software allows this computer to accept connections from other kinds of computers."
+  7365,  "Completing the New Connection Wizard"
+  7366,  " "
+  7367,  "Incoming Connections"
+  7371,  "No hardware capable of accepting calls is installed."
+  7372,  " "
+  7373,  "Assign specified &network number:"
+  7374,  "Assign &network numbers sequentially from:"
+  7375,  "New User"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7378,  "No devices capable of accepting direct connections are currently installed."
+  7379,  "New Incoming Connection Warning"
+  7380,  "Because Routing and Remote access is already configured, you must use the Routing and Remote Access system console to configure this machine to receive incoming connections.  Cancel changes and switch to this console?\n"
+  7381,  "A&ssign network number automatically"
+  7382,  "A&ssign network numbers automatically"
+  7384,  "to"
+  7385,  "Communications Port (%s)"
+  7386,  "Network Connections does not display some specialized options for inbound connections that have been set using the Local User Manager or Remote Access Policy consoles.  For complete and correct information on incoming connections, you will need to use these consoles."
+  7387,  "The user callback mode you have selected requires you to enter a valid callback number."
+  7388,  "Windows must reboot to complete the operation.  Is it ok to reboot now?"
+  7389,  "The currently selected device has no configuration options available."
+  7390,  "Invalid Range"
+  7391,  "You have requested that '%1' be disabled for Incoming Connections.  In order to disable this, you must stop the 'Server' service.  Once stopped, any shared directories or printers on this computer will no longer be available to any other computer.  Do you want to bring up a system console that will allow you to stop the 'Server' service?\r\n\nUnder Computer Management, click System Tools and then click Services.  In the right pane, right-click Server and click stop."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7392,  "This serial port is not enabled for use in a direct connection to another computer.  It will be enabled after you complete this wizard.  You can then configure the port speed and other properties by right-clicking the icon for this connection and selecting Properties.\n"
+  7393,  "Incoming Connections"
+  7394,  "The IP address pool you've entered is invalid."
+  7395,  "The mask provided is invalid."
+  7396,  "The start address entered for the TCP/IP pool is invalid.  It must lie between 1.0.0.0 and 224.0.0.0 and it must not be in the form 127.x.x.x."
+  7397,  "The TCP/IP pool entered is invalid because the address is more specific than the mask."
+  7398,  "The start address must be less than the end address."
+  7399,  "The Routing and Remote Access Service is in the process of stopping.  Until it stops, the Incoming Connections option is not available.  Please wait a few moments and retry."
+  7400,  "%s (%s)"
+  7401,  "%s (%d channels)"
+  7403,  "You must enable at least one Internet Protocol."
+  7406,  "You do not have sufficient privileges to set up Incoming Connections"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7410,  "&Allow access"
+  7411,  "Invalid IPv6 prefix"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  29900,  "Cannot load the Remote Access Connection Manager service."
+  29901,  "Cannot load the file MPRAPI.DLL in the system32 directory."
+}
+

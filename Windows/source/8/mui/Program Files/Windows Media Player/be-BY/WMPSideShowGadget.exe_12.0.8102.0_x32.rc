@@ -1,0 +1,64 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "tracks"
+  1001,  "track"
+  1002,  "Elapsed time"
+  1003,  "Volume"
+  1004,  "Play or pause"
+  1005,  "Previous track"
+  1006,  "Next track"
+  1007,  "Play"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "Pause"
+  1009,  "Stop"
+  1010,  "Playlists"
+  1011,  "Artists"
+  1012,  "Albums"
+  1013,  "Genres"
+  1014,  "Media library"
+  1015,  "Now playing"
+  1018,  "Now Playing List"
+  1019,  "Play now"
+  1020,  "Add to Now Playing List"
+  1021,  "Media library home"
+  1022,  "Previous %d items"
+  1023,  "Next %d items"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1024,  "No selected music"
+  1025,  "Increase volume"
+  1026,  "Decrease volume"
+  1027,  "Mute"
+  1028,  "Muted"
+  1029,  "Playing"
+  1030,  "Paused"
+  1031,  "Stopped"
+  1032,  "Browse Media Library"
+  1033,  "Go to Now Playing List"
+  1034,  "Go to Current Track"
+  1035,  "Unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Windows Media Player"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Play music on your computer by using a Windows SideShow-compatible device."
+}
+

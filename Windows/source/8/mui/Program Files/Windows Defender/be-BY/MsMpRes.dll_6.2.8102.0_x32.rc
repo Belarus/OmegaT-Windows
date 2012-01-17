@@ -1,0 +1,1112 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+237 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "__HELP__"
+  {
+    MENUITEM "Get offline &help", 40008
+    MENUITEM SEPARATOR
+    MENUITEM "&Submit malicious software sample", 40034
+    MENUITEM SEPARATOR
+    MENUITEM "Customer &experience improvement program", 40036
+    MENUITEM "View &privacy statement", 40031
+    MENUITEM "View &license agreement", 40035
+    MENUITEM SEPARATOR
+    MENUITEM "&Check for software updates", 40014
+    MENUITEM "&About $(ShortBrandName)", 40015
+  }
+}
+
+259 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "__HISTORY__"
+  {
+    MENUITEM "&All detected items $(ShortBrandName)", 40050
+    MENUITEM "&Quarantined items $(ShortBrandName)", 40051
+    MENUITEM "Allo&wed items $(ShortBrandName)", 40052
+  }
+}
+
+156 DIALOGEX 0, 0, 316, 214
+CAPTION "-"
+STYLE 0x80c8004a
+EXSTYLE 0x80
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 7201, Static, 0x5000000d, 0, 0, 315, 31, 0x0
+  CONTROL "", 7202, Static, 0x5000000d, 74, 11, 217, 13, 0x0
+  CONTROL "", 7204, Static, 0x50020000, 11, 46, 35, 10, 0x0
+  CONTROL "", 7205, Static, 0x50020000, 11, 46, 35, 10, 0x0
+  CONTROL "", 7206, "SysLink", 0x50010000, 101, 98, 196, 14, 0x20
+  CONTROL "", 7207, "SysLink", 0x56010000, 9, 167, 205, 12, 0x20
+  CONTROL "OK", 1, Button, 0x50010001, 180, 192, 60, 14, 0x0
+}
+
+157 DIALOGEX 0, 0, 316, 214
+CAPTION "-"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 3058, Static, 0x50020000, 11, 46, 35, 10, 0x0
+  CONTROL "", 3052, "SysLink", 0x50010000, 101, 98, 196, 14, 0x0
+  CONTROL "OK ", 1, Button, 0x50010001, 180, 192, 60, 14, 0x0
+  CONTROL "", 3053, "SysLink", 0x50010000, 9, 167, 205, 12, 0x0
+  CONTROL "", 3054, Static, 0x5000000d, 74, 11, 217, 13, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 248, 192, 60, 14, 0x0
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 315, 31, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 286, 7, 30, 24, 0x20
+  CONTROL "", 3056, Static, 0x5000000d, 5, 7, 26, 21, 0x20
+}
+
+237 DIALOGEX 0, 0, 339, 223
+CAPTION "$(BrandName)"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 339, 31, 0x0
+  CONTROL "", 3056, Static, 0x5000000d, 5, 3, 26, 21, 0x20
+  CONTROL "", 3054, Static, 0x5000000d, 13, 9, 313, 13, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 292, 3, 36, 21, 0x20
+  CONTROL "© 2012 Microsoft. All rights reserved.", 1005, Static, 0x50020000, 13, 37, 313, 8, 0x0
+  CONTROL "System information:", 1006, Static, 0x50020000, 13, 53, 313, 8, 0x0
+  CONTROL "", 1007, Static, 0x50020000, 13, 167, 313, 35, 0x20
+  CONTROL "&OK", 1, Button, 0x50010001, 271, 202, 55, 14, 0x0
+  CONTROL "", 1013, Static, 0x40000007 | NOT WS_VISIBLE, 13, 66, 313, 65, 0x20
+}
+
+238 DIALOGEX 0, 0, 316, 211
+CAPTION ""
+STYLE 0x80cc0048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Select:", 1025, Static, 0x50020000, 7, 7, 280, 11, 0x0
+  CONTROL "", 1000, "SysTreeView32", 0x50810037, 7, 21, 302, 159, 0x0
+  CONTROL "&OK", 1, Button, 0x50010001, 181, 190, 60, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 249, 190, 60, 14, 0x0
+}
+
+314 DIALOGEX 0, 0, 282, 130
+CAPTION "$(BrandName)"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 281, 33, 0x0
+  CONTROL "", 3056, Static, 0x5000000d, 5, 7, 26, 18, 0x20
+  CONTROL "", 3054, Static, 0x5000000d, 11, 10, 238, 14, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 233, 7, 35, 26, 0x20
+  CONTROL "", 1023, Static, 0x5000000d, 14, 36, 261, 60, 0x20
+  CONTROL "&Close", 1, Button, 0x50010001, 225, 109, 50, 14, 0x0
+}
+
+333 DIALOGEX 0, 0, 354, 190
+CAPTION "$(BrandName) Sample Submission"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 348, 31, 0x0
+  CONTROL "", 3056, Static, 0x5000000d, 5, 3, 26, 21, 0x20
+  CONTROL "", 3054, Static, 0x5000000d, 7, 9, 217, 13, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 300, 3, 36, 21, 0x20
+  CONTROL "$(ShortBrandName) detected items on your computer that may have not yet been classified for risks. Sending the files listed below can help Microsoft analysts determine if these items are malicious.", 1012, Static, 0x50020000, 7, 37, 333, 26, 0x0
+  CONTROL "To help protect other users' privacy, some files are hidden. Click 'View all' to see these files. ", 1022, Static, 0x40020000 | NOT WS_VISIBLE, 7, 64, 269, 18, 0x0
+  CONTROL "", 1010, "SysListView32", 0x50818805, 7, 83, 269, 89, 0x0
+  CONTROL "&View all", 1021, Button, 0x40010000 | NOT WS_VISIBLE, 282, 64, 65, 14, 0x0
+  CONTROL "&Send", 1, Button, 0x50010001, 282, 138, 65, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 282, 155, 65, 14, 0x0
+  CONTROL "", 1024, Static, 0x48020000 | NOT WS_VISIBLE, 7, 172, 270, 13, 0x0
+}
+
+392 DIALOGEX 0, 0, 320, 230
+CAPTION ""
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 320, 31, 0x0
+  CONTROL "", 3056, Static, 0x5000000d, 5, 3, 26, 21, 0x20
+  CONTROL "", 3054, Static, 0x5000000d, 13, 9, 320, 13, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 292, 3, 36, 21, 0x20
+  CONTROL "", 394, Static, 0x50020000, 15, 42, 280, 26, 0x0
+  CONTROL "", 395, Static, 0x50020000, 15, 77, 280, 35, 0x0
+  CONTROL "", 396, Button, 0x50000009, 15, 143, 300, 12, 0x0
+  CONTROL "", 397, Button, 0x50000009, 15, 155, 300, 12, 0x0
+  CONTROL "&OK", 1, Button, 0x50010001, 184, 209, 60, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010001, 248, 209, 60, 14, 0x0
+}
+
+1221 DIALOGEX 0, 0, 380, 327
+CAPTION "$(BrandName) Alert"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 3057, Static, 0x5000000d, 0, 0, 380, 38, 0x0
+  CONTROL "", 3056, Static, 0x5000000d, 5, 4, 22, 17, 0x20
+  CONTROL "", 3054, Static, 0x5000000d, 9, 12, 270, 13, 0x0
+  CONTROL "", 3055, Static, 0x5000000d, 255, 7, 30, 24, 0x20
+  CONTROL "", 1015, Static, 0x5000000d, 7, 43, 365, 18, 0x20
+  CONTROL "", 1020, "msctls_progress32", 0x40000001 | NOT WS_VISIBLE, 7, 63, 365, 10, 0x0
+  CONTROL "", 1005, "SysListView32", 0x5081880d, 7, 75, 365, 59, 0x0
+  CONTROL "", 1016, Static, 0x5000000d, 7, 138, 365, 154, 0x20
+  CONTROL "Show &details >>", 1017, Button, 0x50010000, 7, 307, 67, 14, 0x0
+  CONTROL "Apply ac&tions", 1019, Button, 0x50010000, 234, 307, 67, 14, 0x0
+  CONTROL "I&gnore", 2, Button, 0x50010000, 305, 307, 67, 14, 0x0
+}
+
+6001 DIALOGEX 0, 0, 358, 243
+CAPTION "$(BrandName)  Microsoft Software License Terms"
+STYLE 0x80cc00c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 1013, Static, 0x40000007 | NOT WS_VISIBLE, 7, 7, 344, 200, 0x20
+  CONTROL "&Print", 1026, Button, 0x50010000, 7, 222, 55, 14, 0x0
+  CONTROL "&Close", 1, Button, 0x50010001, 296, 222, 55, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5,  "$(ShortBrandName) could not access the updates on the server because the authentication failed or the authentication method isn't supported."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  22,  "$(ShortBrandName) can't update definitions while another installation is in progress or while the system is pending a required restart."
+  27,  "$(ShortBrandName) couldn't install the definition updates because it couldn't find the drive where the updates were saved."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  34,  "$(ShortBrandName) couldn't download the definition updates. This may be caused by a missing system file, an incorrect system setting, or a problem with a registry file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  103,  "$(BrandName)"
+  104,  "Windows Defender"
+  105,  "Full scan"
+  106,  "Quick scan"
+  107,  "Today"
+  108,  "Applying actions..."
+  109,  "Please wait while we validate the licensing state of Windows on this PC.\n\nThis may take a few seconds..."
+  111,  "This copy of $(ShortBrandName) will expire in %1 days.\nTo continue using $(ShortBrandName) to help protect your computer, contact your security administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "This copy of $(ShortBrandName) has expired.\nYour computer may be vulnerable to malware.\nTo continue using $(ShortBrandName), contact your security administrator."
+  113,  "Custom..."
+  114,  "Not available"
+  116,  "Some of the actions you selected can't be applied while other programs are running. Save your work, close your programs (including web browsers), and then click 'OK'."
+  117,  "Actions in progress. Please wait..."
+  119,  "&Quarantined items"
+  123,  "Category:"
+  124,  "Advanced"
+  126,  "Changed:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "To complete the cleanup, you'll need to restart your computer."
+  129,  "&Restart now"
+  130,  "Home"
+  131,  "To complete the cleanup, you'll need to run a full scan to check for any remains of this threat."
+  132,  "%1!s! (%2!s!)"
+  133,  "Scan your computer for malicious software, including viruses, spyware, and unwanted software."
+  134,  "&Select an action to apply:"
+  136,  "Name"
+  137,  "Alert level"
+  138,  "Recommendation"
+  140,  "Configuration change"
+  141,  "Allow this configuration change only if you trust its origin. If you don't agree to this change, you should run a quick scan on your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "Actions taken on &programs:"
+  147,  "To complete the cleanup, you'll need to restart your computer. Do you want to restart now?"
+  148,  "Select an action"
+  149,  "To continue, select an action for each detected item."
+  150,  "High"
+  151,  "Medium"
+  152,  "Low"
+  153,  ":"
+  155,  "Elevated"
+  158,  "$(ShortBrandName) encountered the following error:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "Scanning..."
+  161,  "Validating Windows running on this computer..."
+  166,  "Do you want to save the settings you changed?"
+  167,  "Recommended action"
+  168,  "Remove"
+  169,  "Scan all &downloads"
+  170,  "Scan files and attachments that you download from the internet."
+  171,  "&Save changes"
+  172,  "&Cancel"
+  173,  "Scheduled scan"
+  174,  "&Run a scheduled scan on my computer (recommended)"
+  175,  "&When:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "&Around:"
+  177,  "Daily"
+  180,  "Error code 0x%1!0x!."
+  184,  "&Close"
+  185,  "Severe"
+  186,  "Unknown"
+  187,  "Real-time protection"
+  188,  "Turn on real-time protectio&n (recommended)"
+  189,  "&Turn on"
+  190,  "Real-time protection is turned off. You should turn it on."
+  191,  "Extension"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "File type"
+  193,  "Real-time protection isn't available in safe mode."
+  201,  "Microsoft SpyNet is the online community that helps you choose how to respond to potential threats. The community also helps stop the spread of new malicious software infections.\r\n\r\nYou can choose to send basic or additional information about detected software. Additional information helps Microsoft create new definitions and help it to protect your computer. This information can include things like the location of detected items on your computer if harmful software was removed. The information will be automatically collected and sent."
+  202,  "Severe alert level: Indicates a widespread or exceptionally malicious threat, similar to viruses or worms, which can compromise your privacy and the security of your computer, and could even damage your computer.\r\n\r\nRecommended action:\r\nRemove immediately."
+  203,  "High alert level:  Indicates an item that might collect your personal information and negatively affect your privacy or damage your computer.\r\n\r\nRecommended action:\r\nRemove immediately."
+  204,  "Medium alert level: Indicates an item that might affect your privacy or make changes to your computer, which could negatively affect your computing experience.\r\n\r\nRecommended action:\r\nReview the alert details to see why the software was detected. If you don't like what the software does or if you don't recognize and trust the publisher, consider blocking or removing the software."
+  205,  "Low level alert: Indicates potentially unwanted software that might collect information about you or your computer or change how your computer works, but is operating according to the licensing agreement terms displayed when you installed the software.\r\n\r\nRecommended action:\r\nThis software is typically benign when it runs on your computer, unless it was installed without your knowledge. If you're not sure whether to allow it, review the alert details or check to see if you recognize and trust the publisher of the software."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  209,  "Scan options:"
+  218,  "Not defined"
+  219,  "$(ShortBrandName) Version: %1!s!\r\n"
+  220,  "<a href=""$(URL_About)"">View more information about this program online</a>"
+  221,  "<a href=""Help://DisplayEULA"">View license agreement</a>"
+  222,  "Allow %1!d!%%"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "Excluding certain files and locations can help speed up a scan, but may leave your computer less protected.\nTo add multiple files or locations, use a semicolon to separate the entries in the text box.\n\nFile locations:"
+  225,  "&Add"
+  226,  "&Remove"
+  228,  "&Browse..."
+  232,  "File path"
+  233,  "$(URL_TrheatInfo)&name=%1!s!&threatid=%2!I32u!"
+  234,  "Get more information about this item online."
+  236,  "Remove &all"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  241,  "$(ShortBrandName) is using the latest virus and spyware definition updates against potential threats."
+  242,  "Update was canceled."
+  249,  "%1!s! at %2!s!"
+  251,  "&I do not want to join SpyNet"
+  252,  "&Basic membership"
+  255,  "Action taken"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  274,  "Delete &history"
+  275,  "Date"
+  276,  "&Remove"
+  277,  "R&estore"
+  278,  "Retrieving SpyNet Community Rating..."
+  279,  "To help protect your computer, you'll need to restart it. Click here for more information."
+  280,  "Restoring quarantined threats to your computer can harm your privacy, your security, or your computer's performance. Are you sure you want to restore them?"
+  281,  "Scan ty&pe:"
+  282,  "Limit CPU usage during scan to:"
+  283,  "Chec&k for the latest virus and spyware definitions before running a scheduled scan"
+  284,  "Default actions"
+  285,  "Choose the action to display or apply by default when $(ShortBrandName) detects potential threats with the following alert levels.\n<a href=""Help://AlertLevels"">What are actions and alert levels?</a>"
+  286,  "&High alert level:"
+  287,  "$(ShortBrandName) is scanning your computer..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  288,  "To complete the cleanup, you'll need to restart your computer manually."
+  289,  "Virus and spyware definitions are up to date."
+  290,  "$(ShortBrandName) has been turned off and isn't monitoring your computer."
+  292,  "Additional help options"
+  293,  "&Scan now"
+  296,  "%1!s! bytes"
+  301,  "Allo&wed items"
+  302,  "Remove items from this list to enable $(ShortBrandName) to continue monitoring them."
+  303,  "&Medium alert level:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "&Low alert level:"
+  306,  "Real-time protection alerts you when viruses, spyware, or other potentially unwanted software attempts to install itself or run on your computer."
+  309,  "Start time:"
+  310,  "Time elapsed:"
+  311,  "Digitally signed by:"
+  312,  "If you would like to use this program, <a href=""Command://EnableProduct"">click here to turn it on</a>. "
+  313,  "Scan &archive files"
+  314,  "&Advanced membership"
+  315,  "Send basic information to Microsoft about software that $(ShortBrandName) detects, including where the software came from, the actions that you apply or that $(ShortBrandName) applies automatically, and whether the actions were successful. In some instances, personal information might unintentionally be sent to Microsoft. However, Microsoft will not use this information to identify you or to contact you."
+  316,  "No information will be sent to Microsoft. You won't be alerted if unclassified software is detected running on your computer."
+  317,  "In addition to basic information, $(ShortBrandName) sends more information to Microsoft about malicious software, spyware, and potentially unwanted software, including the location of the software, file names, how the software operates, and how it has impacted your computer. In some instances, personal information might unintentionally be sent to Microsoft; however, Microsoft will not use this information to identify you or contact you."
+  319,  "&Daily quick scan time around:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  321,  "<A HREF=""$(PrivacyLink)"">Privacy statement.</A> "
+  323,  "Checkpoint:"
+  330,  "Couldn't open the $(ShortBrandName) window"
+  333,  "Create a system &restore point"
+  335,  "For your protection, some settings are managed by your security administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  336,  "If you're using another program that checks for harmful or unwanted software, use Windows Action Center to check that program's status.\n\n"
+  338,  "To help protect your computer against harmful or potentially unwanted software, contact your security administrator to enable the program via group policy."
+  339,  "Active"
+  340,  "You haven't run a scan on your computer for a while. This could put your computer at risk."
+  341,  "You haven't scanned your computer for the past %1!d! days."
+  343,  "Virus and spyware definitions haven't been updated for at least 7 days."
+  349,  "&Start now"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  354,  "History"
+  356,  "Settings"
+  363,  "Disinfect"
+  367,  "Se&vere alert level:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  389,  "SpyNet Community Rating: %1!s!"
+  390,  "&Resolve now"
+  391,  "&Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Customer experience improvement program"
+  401,  "Join our customer experience improvement program"
+  402,  "To help Microsoft improve $(ShortBrandName), we would like to collect information about how you use this product without interrupting you for your feedback."
+  403,  "By joining our customer experience improvement program, you can help make $(ShortBrandName) a better product.\n\nNo information is collected to identify or contact you."
+  404,  "<a href=""$(URL_SqmOptInInfo)"">Tell me more about the program</a>"
+  405,  "I &want to join the customer experience improvement program"
+  406,  "I &don't want to join the customer experience improvement program"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  439,  "Update"
+  440,  "Make sure that your computer is using the latest updates to help protect against potential threats."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  451,  "Recommendation:"
+  452,  "Description:"
+  453,  "Items:"
+  454,  "Detected changes:"
+  455,  "Detected by:"
+  456,  "Product name:"
+  457,  "Description:"
+  458,  "Path:"
+  459,  "Publisher:"
+  460,  "Size:"
+  461,  "Version:"
+  462,  "Type:"
+  463,  "Creation date:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  464,  "Original name:"
+  466,  "Original: "
+  467,  "New: "
+  468,  "Definition file"
+  469,  "Heuristics"
+  470,  "Summary:"
+  471,  "Added:"
+  472,  " (New)"
+  473,  " (Changed)"
+  474,  " (Deleted)"
+  475,  "Removed:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  480,  "file type unknown"
+  481,  "application"
+  482,  "dynamic link library (DLL)"
+  483,  "drive"
+  484,  "font"
+  485,  "device driver (VXD)"
+  486,  "static library (.lib)"
+  487,  "Engine Version: %1!s!\r\n"
+  488,  "Antimalware Client Version: %1!s!\r\n"
+  489,  "S&tart the scheduled scan only when my computer is on but not in use"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  527,  "Quick scan checks the areas that malicious software, including viruses, spyware, and unwanted software, are most likely to infect.\r\n\r\nFull scan checks all the files on your hard disk and checks all running programs. Depending on your system, this scan can take more than one hour.\r\n\r\nCustom scan checks only the locations and files that you select."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  530,  "Scan your computer for malicious software,\r\nincluding viruses, spyware, and unwanted software."
+  533,  "Save changes."
+  534,  "Cancel and close settings."
+  535,  "Remove all quarantined items from your computer."
+  536,  "Remove this quarantined item from your computer."
+  537,  "Allow this item to run on your computer."
+  538,  "Delete all previously detected items from the history."
+  539,  "Add to the excluded list."
+  540,  "Remove from the excluded list."
+  541,  "Don't show details about the selected item."
+  542,  "Remove will delete the threat from your computer permanently.\r\n\r\nQuarantine will disable the item and leave it in this state until you decide what to do with it.\r\n\r\nAllow will enable the detected item and allow you to use it."
+  543,  "Show me more details about the selected item."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  544,  "Apply the actions you selected to the detected items."
+  545,  "Don't take any action at this point."
+  546,  "Cancel the scan."
+  547,  "Show me more information about these detected items."
+  548,  "Block potential threat detected in an opened webpage."
+  549,  "Clean my computer and remove potential threats."
+  550,  "Restart my computer to complete the cleanup."
+  551,  "Real-time protection monitors your computer all the time and alerts you when potential threats, such as viruses and spyware, are trying to install themselves or run on your computer. To help protect your computer, make sure real-time protection is always on."
+  552,  "Virus and spyware definitions contain information about potential threats that could harm your computer. To help protect your computer, make sure that the virus and spyware definitions are always up to date."
+  553,  "Detected item"
+  554,  "Recommendation"
+  555,  "Program name"
+  556,  "Remove all allowed items from the Allowed items list."
+  557,  "Remove this item from the Allowed items list."
+  558,  "Start the $(ShortBrandName) program to help protect your computer."
+  559,  "Turn on real-time protection and monitor my computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  560,  "Browse for an item to exclude."
+  562,  "Select the processes you wish to exclude:"
+  563,  "Select the files or locations you want to exclude:"
+  564,  "Select the drives and folders you want to scan:"
+  565,  "Learn how to get genuine Windows."
+  566,  "To help protect your computer, $(ShortBrandName) automatically tries to update virus and spyware definitions on a daily basis. However, because the definitions haven’t been updated lately, you should update your definitions manually by clicking the Update tab."
+  567,  "Allow &item"
+  568,  "Allowing threats can harm your privacy, your security, or your computer's performance. Are you sure you want to allow them?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1007,  "Warning: This software program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it may result in severe civil or criminal penalties, and will be prosecuted to the fullest extent of the law."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "Policy Name: %1!s!\r\n"
+  1009,  "Policy Applied: %1!s! at %2!s!\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1058,  "$(ShortBrandName) can't start the update service because it's been disabled by the security administrator or as a result of a problem in the registry data."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1166,  "Actions completed."
+  1167,  "Restart required."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1170,  "This program is turned off by group policy"
+  1173,  "&Use this program"
+  1174,  "When the setting is on, this program will alert all users if spyware or other potentially unwanted software attempts to run or install itself on this computer."
+  1176,  "Helps protect against viruses, spyware, and other potentially unwanted software"
+  1177,  "Allow non administrators on this computer to view all the detected items in the History tab. By default, some items are hidden to protect user privacy."
+  1180,  "Protect my system from &viruses and other malicious software (recommended)"
+  1181,  "Protect my system from s&pyware and potentially unwanted software (recommended)"
+  1182,  "Administrator"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1603,  "$(ShortBrandName) couldn't install the definition updates. Please try again later."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1618,  "Another installation is already in progress. Please complete that installation before you try to install the defnition updates."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2001,  "<A HREF=""view://Scan"">Scan your computer</A> "
+  2002,  "<A HREF=""view://ScanResults"">View scan results</A> "
+  2003,  "<A HREF=""view://RTPThreats"">Remove unwanted programs</A> "
+  2004,  "<A HREF=""view://RTPPotentialThreats"">Review unknown programs</A> "
+  2006,  "<A HREF=""view://Settings"">View or change settings</A> "
+  2007,  "<A HREF=""view://QuarantinedPrograms"">Manage quarantined items</A> "
+  2008,  "<A HREF=""view://ActionHistory"">View action history</A> "
+  2009,  "<A HREF=""view://Summary"">Home</A> "
+  2010,  "Preliminary scan results show that malicious or potentially unwanted software might exist on your system. You can review detected items when the scan has completed."
+  2012,  "ShowDefaultBranding (Do not localize)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2150,  "None"
+  2152,  "Block"
+  2154,  "Revert"
+  2155,  "Quarantine"
+  2156,  "Remove"
+  2157,  "Don't know"
+  2158,  "Allow"
+  2159,  "Unspecified"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2160,  "Allowed"
+  2161,  "Denied"
+  2162,  "Reverted"
+  2163,  "Quarantined"
+  2164,  "Removed"
+  2165,  "Disinfected"
+  2166,  "Updating..."
+  2167,  "Cleaning..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3001,  "&Open"
+  3003,  "&Cancel scan"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3009,  "$(ShortBrandName) detected 1 potential threat on your computer."
+  3011,  "$(ShortBrandName) is monitoring your computer and helping to protect it."
+  3012,  "Scan completed on %1!I64d! items."
+  3013,  "$(ShortBrandName) detected %1!d! potential threats on your computer."
+  3014,  "$(ShortBrandName) detected %1!d! potential threats on your computer."
+  3015,  "Scan completed on 1 item."
+  3016,  "No threats were detected on your computer during this scan."
+  3020,  "Review item that hasn't been classified"
+  3021,  "Review items that haven't been classified: %1!d! total"
+  3022,  "$(ShortBrandName) detected 1 potential threat on an opened webpage and suspended your access to it.\n\nYou should block this page unless you trust the website."
+  3023,  "$(ShortBrandName) detected %1!d! potential threats on an opened webpage and suspended your access to it.\n\nYou should block this page unless you trust the website."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3024,  "&Block"
+  3028,  "<a href=""ReviewActiveThreats"">Show details</a> "
+  3029,  "Not found"
+  3030,  "Succeeded"
+  3031,  "Error encountered"
+  3036,  "%1!s! around %2!s! (%3!s!)"
+  3037,  "Real-time protection:"
+  3038,  "On"
+  3039,  "Off"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3040,  "Disabled"
+  3042,  "Detected items"
+  3043,  "Status"
+  3051,  "Percent complete:"
+  3052,  "Items scanned:"
+  3053,  "Item:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3059,  "%1!02u!:%2!02u!:%3!02u!"
+  3060,  "Help"
+  3063,  "Check your computer's status, run a scan, and more."
+  3065,  "Summarized view of the items detected in previous scans and the actions that were taken."
+  3066,  "Decide how you want $(ShortBrandName) to run on your computer."
+  3067,  "Get help and support for $(ShortBrandName)."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3076,  "Error found: 0x%1!0x!."
+  3081,  "$(ShortBrandName) isn't monitoring your computer because the program's service stopped. You should restart it now."
+  3084,  "Get genuine now"
+  3085,  "$(URL_ValidateGenuine)"
+  3086,  "Do you want to see the error details?"
+  3087,  "$(PrivacyLink)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3088,  "Scan type:"
+  3089,  "This may take some time, depending on the scan type selected…"
+  3091,  "&View details"
+  3092,  "$(URL_SampleSubmission)"
+  3095,  "Another scan is in progress. Wait for the first scan to finish or cancel it before starting a new scan."
+  3096,  "Show the list of detected items.\r\nYou must be the security administrator on this computer to be able to view items."
+  3097,  "This first-time scan can take several minutes to complete. Please wait…"
+  3098,  "Windows did not pass genuine validation.\n$(ShortBrandName) will become disabled if you do not resolve this issue.\nTo continue using $(ShortBrandName), click 'Resolve now' and get genuine Windows.\n\nIf you have already resolved this issue, click 'Run a validation check'."
+  3099,  "<a href=""RunValidationCheck"">Run a validation check</a>"
+  3100,  "Windows did not pass genuine validation.\n$(ShortBrandName) has been disabled.\nTo continue using $(ShortBrandName), click 'Resolve now' and get genuine Windows.\n\nYou can run another validation check after this issue has been resolved."
+  3101,  "Show the list of quarantined items.\r\nYou must be the security administrator on this computer to be able to view items."
+  3102,  "Show the list of allowed items.\r\nYou must be the security administrator on this computer to be able to view items."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3208,  "$(URL_GetGenuine)&PartnerId=258"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "Virus definition version:"
+  5001,  "Spyware definition version:"
+  5002,  "Network Inspection System Engine Version: %1!s!\r\n"
+  5003,  "Antivirus definition: %1!s!\r\n"
+  5004,  "Antispyware definition: %1!s!\r\n"
+  5005,  "Excluding certain file types can help speed up a scan, but may leave your computer less protected.\nTo add multiple file extensions, use a semicolon to separate the entries in the text box.\n\nFile extensions:"
+  5006,  "Network Inspection System Definition Version: %1!s!\r\n"
+  5007,  "&Enable Network Inspection System"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5008,  "Monitor all files"
+  5009,  "Monitor only incoming files"
+  5010,  "Monitor only outgoing files"
+  5011,  "&Monitor file and program activity on your computer"
+  5012,  "$(ShortBrandName) successfully applied selected actions and is monitoring your computer for threats.\n\nRefresh the Web page that was blocked to see content."
+  5013,  "Increase your protection against network-based exploits."
+  5014,  "Applying your actions...\nThis might take a few seconds."
+  5015,  "$(ShortBrandName) successfully applied your actions and will continue monitoring your computer."
+  5016,  "$(ShortBrandName) encountered one or more errors while applying your actions. For more information, refer to the Status column below."
+  5017,  "Cl&ean computer"
+  5018,  "To help protect your computer, $(ShortBrandName) automatically removed these potential threats."
+  5019,  "&Show details"
+  5020,  "T&ake recommended actions"
+  5021,  "Suspended"
+  5022,  "Excluding certain processes that run on your computer can help speed up a scan, but may leave your computer less protected.\nTo add multiple processes, use a semicolon to separate the entries in the text box.\nAdd only files that have one of the following extensions: .exe, .com or .scr.\n\nProcess names:"
+  5023,  "$(ShortBrandName) detected %1!d! potential threats on a website you are currently browsing in Internet Explorer. Your access to this site may be partially suspended until you take an action.\n If you trust this webpage, select 'Allow' in the 'Recommendation' column and 'Apply actions' button. <a href=""Help://AlertLevels"">What are alert levels?</a>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5024,  "$(ShortBrandName) detected 1 potential threat on a website you are currently browsing in Internet Explorer. Your access to this site may be partially suspended until you take an action.\n If you trust this webpage, select 'Allow' in the 'Recommendation' column and 'Apply actions' button. <a href=""Help://AlertLevels"">What are alert levels?</a>"
+  5025,  "$(ShortBrandName) detected 1 potential threat that might compromise your privacy or damage your computer. Your access to these items may be suspended until you take an action.\n Click 'Show details' to learn more. <a href=""Help://AlertLevels"">What are alert levels?</a>"
+  5026,  "&Apply recommended actions: Help protect your computer by applying the actions above after $(ShortBrandName) detects potential threats."
+  5027,  "A file extension cannot contain these characters: \\ /:""<>|?*"
+  5028,  "An exclusion cannot contain these characters: /""<>|"
+  5029,  "Excluded files and locations"
+  5030,  "Excluded file types"
+  5031,  "Excluded processes"
+  5032,  "A process exclusion should have have one of the following extensions: .exe, .com or .scr"
+  5033,  "Although the Exclusion text box can contain multiple items, each individual item cannot exceed %1!d! characters"
+  5034,  "$(ShortBrandName) detected %1!d! potential threats that might compromise your privacy or damage your computer. Your access to these items may be suspended until you take an action.\n Click 'Show details' to learn more. <a href=""Help://AlertLevels"">What are alert levels?</a>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5040,  "Enable &behavior monitoring"
+  5042,  "Check for certain patterns of suspicious activity."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5100,  "To help protect user privacy, these items are hidden.\r\nClick 'View details' to see the items."
+  5101,  "Allow all users to view the full &History results"
+  5102,  "Microsoft SpyNet"
+  5103,  "To help protect user privacy, these items are hidden.\r\nTo view these items, you'll need to log on as an security administrator on this computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6000,  "$(ShortBrandName) is monitoring your computer and helping to protect it."
+  6002,  "$(ShortBrandName) requires up-to-date virus and spyware definitions. You'll need to install the latest definition updates before scanning your computer."
+  6003,  "$(ShortBrandName) is downloading the latest virus and spyware definitions. You'll need to complete this download before scanning your computer.\r\n\r\nYou may close or minimize the $(ShortBrandName) window during this update."
+  6012,  "Searching..."
+  6013,  "Downloading..."
+  6014,  "Installing..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6031,  "Retrieving data from your system to prepare for your scan..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6032,  "Scan for malicious software and unwanted software in archive files such as .ZIP or .CAB files."
+  6035,  "Scan re&movable drives"
+  6036,  "Scan for malicious software and unwanted software in the contents of removable drives such as USB flash drives, when running a full scan."
+  6038,  "Create a system restore point on your computer before applying actions to detected items."
+  6039,  "Remove &quarantined files after:"
+  6040,  "Quarantined files remain disabled until you allow them or remove them."
+  6041,  "1 day"
+  6042,  "2 days"
+  6043,  "3 days"
+  6044,  "4 days"
+  6045,  "1 week"
+  6046,  "2 weeks"
+  6047,  "1 month"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6048,  "3 months"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6101,  "Virus and spyware definitions status - "
+  6102,  "Up to date"
+  6103,  "Out of date"
+  6104,  "$(ShortBrandName) updates your virus and spyware definitions automatically to help protect your computer."
+  6105,  "Your computer isn't using the latest updates on potential threats, which could put it at risk."
+  6106,  "&Update"
+  6107,  "&Cancel update"
+  6108,  "Checking for updates..."
+  6109,  "Virus and spyware definitions are files that $(ShortBrandName) uses to identify malicious or potentially unwanted software on your computer.\nThese definitions are updated automatically. You can also click Update to update definitions on demand. Windows Updates can include important software additions that can help prevent or fix problems, improve how your computer works, or enhance your computing experience."
+  6110,  "$(ShortBrandName) is installing the latest virus and spyware definitions from Microsoft."
+  6111,  "Updating"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6112,  "Check for the latest updates on malicious software,\r\nincluding viruses, spyware, and unwanted software."
+  6113,  "Don't check for the latest updates."
+  6114,  "Connection failed"
+  6115,  "$(ShortBrandName) could not complete the virus and spyware definitions update on %1!s! due to an Internet or network connectivity issue."
+  6116,  "Did you know?"
+  6117,  "Created %1!d! days ago"
+  6118,  "Your virus and spyware definitions haven't been updated lately. You should update them now to help protect your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6201,  "Show &details >>"
+  6202,  "Hide &details <<"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6352,  "You may close or minimize the $(ShortBrandName) window during this update."
+  6360,  "Potential threat details"
+  6361,  "Your actions were applied successfully"
+  6362,  "$(ShortBrandName) automatically removed the detected items"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7070,  "Computer status - "
+  7071,  "Protected"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7072,  "At risk"
+  7073,  "Potentially unprotected"
+  7074,  "Virus and spyware definitions:"
+  7075,  "Virus and spyware definitions are up to date"
+  7079,  "&Quick"
+  7080,  "&Full"
+  7081,  "&Custom..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7090,  "Scan details"
+  7091,  "<A HREF=""view://ScheduleScanSettings"">Change my scan schedule</A> "
+  7092,  "Scheduled scan:"
+  7093,  "Last scan:"
+  7094,  "No scheduled scan performed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7115,  "View the items $(ShortBrandName) detected as potentially harmful and the action that you took on each item:"
+  7116,  "View History:"
+  7117,  "All &detected items"
+  7118,  "Items that were disabled and prevented from running but not removed"
+  7119,  "Items that you've allowed to run on your computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7120,  "Items that were detected on your computer"
+  7122,  "Web page blocked"
+  7123,  "$(BrandName)"
+  7124,  "Attention"
+  7125,  "$(ShortBrandName) detected 1 potential threat and suspended it."
+  7126,  "$(ShortBrandName) detected %1!d! potential threats and suspended them."
+  7127,  "$(ShortBrandName) detected a potential threat on your computer."
+  7128,  "$(ShortBrandName) detected %1!d! potential threats on your computer."
+  7129,  "$(ShortBrandName) blocked access to an open Web page because it detected 1 potential threat on the page."
+  7130,  "&Clean computer"
+  7131,  "$(ShortBrandName) blocked access to an open Web page because it detected %1!d! potential threats on the page."
+  7132,  "Your computer was cleaned"
+  7133,  "$(ShortBrandName) successfully cleaned your computer."
+  7134,  "$(ShortBrandName) is scanning your computer for potential threats."
+  7135,  "<A HREF=""$(URL_TrheatInfo)&name=%1!s!&threatid=%2!I32u!"">%3!s!</A>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7137,  "Show details"
+  7138,  "<A HREF=""ReviewActiveThreats"">%1!s!</A>"
+  7139,  "Click 'Clean computer' to remove this threat."
+  7140,  "$(ShortBrandName) isn't monitoring your computer because the program's service stopped. You should restart it now."
+  7141,  "Click 'Start now' to start the service."
+  7142,  "Click 'Clean computer' to remove these threats."
+  7143,  "Scheduled scan"
+  7145,  "&Help"
+  7146,  "Click Help for more information about this problem."
+  7147,  "Error code: 0x%1!0x!"
+  7148,  "Error description: "
+  7149,  "$(ShortBrandName) couldn't apply the action(s) you selected"
+  7150,  "View details"
+  7151,  "Couldn't start the $(ShortBrandName) service"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7152,  "$(ShortBrandName) couldn't start the scan you requested"
+  7153,  "$(ShortBrandName) couldn't cancel the current scan"
+  7154,  "$(ShortBrandName) couldn't scan your computer"
+  7155,  "$(ShortBrandName) could not complete your computer cleanup"
+  7156,  "$(ShortBrandName) couldn't display the Help"
+  7157,  "$(ShortBrandName) couldn't remove some of the detected threats"
+  7158,  "$(ShortBrandName) couldn't cancel the update"
+  7160,  "Virus and spyware definitions update failed"
+  7162,  "$(CHM_Wnd_Title)"
+  7163,  "$(ShortBrandName) couldn't turn on real-time protection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7176,  "To complete this upgrade, you'll need to restart your computer.\nBecause you're not the security administrator on this computer, you'll need to restart it manually."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7184,  "Support information"
+  7185,  "Restart required"
+  7186,  "To complete the cleanup, you'll need to restart your computer."
+  7187,  "Important: Before restarting, close any open programs running on your computer to prevent loss of data."
+  7190,  "An error has occurred in the program. To fix this problem, try the following:\r\n1. Restart $(ShortBrandName).\r\n2. Restart your computer.\r\n3. Reinstall $(ShortBrandName)."
+  7191,  "Full scan required"
+  7192,  "Click 'Scan now' to run a full scan."
+  7193,  "You should run a full scan to check for any remains of this threat.\n\nUntil you run a full scan, your computer might be at risk."
+  7194,  "$(ShortBrandName) blocked access to an open Web page because it detected 1 potential threat on the page."
+  7195,  "If you trust this Web page, click ‘Show me details’ to unblock this site.\nIf you do not trust this Web page, click 'Block'."
+  7196,  "$(ShortBrandName) blocked access to an open Web page because it detected %1!d! potential threats on the page."
+  7197,  "&Block"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7208,  "The threat is being handled by the security administrator."
+  7209,  "Definitions last checked:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7300,  "Definitions created on:"
+  7301,  "$(ShortBrandName) could not check for virus and spyware definition updates possibly due to an Internet or network connectivity issue."
+  7302,  "$(BrandName)"
+  7303,  "Windows did not pass genuine validation.\n$(ShortBrandName) will become disabled in 1 day or less if you do not resolve this issue.\n\nTo continue using $(ShortBrandName), click 'Go online and resolve now' and get genuine Windows."
+  7304,  "Windows did not pass genuine validation.\n$(ShortBrandName) will become disabled in %1 days if you do not resolve this issue.\n\nTo continue using $(ShortBrandName), click 'Go online and resolve now' and get genuine Windows."
+  7305,  "<a href=""$(URL_GetGenuine)&PartnerId=258"">Go online and resolve now</a>"
+  7306,  "$(BrandName)"
+  7307,  "Windows did not pass genuine validation.\n$(ShortBrandName) has been disabled.\n\nTo continue using $(ShortBrandName), click 'Go online and resolve now' and get genuine Windows."
+  7308,  "Antivirus protection has been disabled. You should enable it now."
+  7309,  "Antispyware protection has been disabled. You should enable it now."
+  7310,  "&Enable"
+  7311,  "&Enable"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7312,  "Enable protection, and monitor my computer."
+  7313,  "Enable protection, and monitor my computer."
+  7314,  "Evaluation period warning"
+  7317,  "Evaluation period expired"
+  7319,  "This copy of $(ShortBrandName) will expire within a day.\nTo continue using $(ShortBrandName) to help protect your computer, contact your security administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7401,  "Some threats could not be removed.\r\n\r\nTo complete the cleanup, you need to download 'Standalone System Sweeper', an advanced malware removal tool from $(ShortBrandName) website, and perform a scan."
+  7402,  "$(URL_Callisto_Download)"
+  7403,  "Some threats could not be removed.\r\nTo complete the cleanup, you need to download 'Standalone System Sweeper', an advanced malware removal tool from $(ShortBrandName) website, and perform a scan."
+  7404,  "&Download now"
+  7405,  "Download 'Standalone System Sweeper'."
+  7406,  "Download required"
+  7407,  "Some threats could not be removed."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7408,  "To complete the cleanup, you need to download 'Standalone System Sweeper', an advanced malware removal tool from $(ShortBrandName) website, and perform a scan."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7500,  "$(URL_OnlineHelp)"
+  7501,  "$(URL_OnlineHelp_Error)"
+  7502,  "$(URL_OnlineHelp_RTP)"
+  7503,  "$(URL_OnlineHelp_AlertLevel)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7504,  "$(URL_OfflineHelp_Error)"
+  7505,  "$(URL_OfflineHelp_RTP)"
+  7506,  "$(URL_OfflineHelp_AlertLevel)"
+  7507,  "$(URL_UpgradeProduct)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12002,  "Your Internet connection has timed out. Please reconnect to the Internet, and then try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12029,  "$(ShortBrandName) couldn't detect an Internet connection. Check your Internet connection, and then try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12152,  "$(ShortBrandName) couldn't connect to the update server. Please try to install the definitions update again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16386,  "$(ShortBrandName) couldn't download the definition updates because your computer is using an older version of the Windows Update client or because Windows couldn't start the service that transfers data."
+  16398,  "The update server can't process your request at the moment. Please try again later."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16428,  "$(ShortBrandName) couldn't install the definition updates because the proxy server or target server names can't be resolved."
+  16431,  "$(ShortBrandName) couldn't install the definition updates because of a problem with the update file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50000,  "$(ShortBrandName) couldn't install the definition updates. Please try again later."
+}
+
+240 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F5  , 40038, VIRTKEY, NOINVERT
+}
+

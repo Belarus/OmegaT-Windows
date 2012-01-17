@@ -1,0 +1,1522 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+108 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&View"
+  {
+    MENUITEM "S&tandard\tAlt+1", 305
+    MENUITEM "&Scientific\tAlt+2", 304
+    MENUITEM "&Programmer\tAlt+3", 306
+    MENUITEM "St&atistics\tAlt+4", 307
+    MENUITEM SEPARATOR
+    MENUITEM "Histor&y\tCtrl+H", 965
+    MENUITEM "D&igit grouping", 303
+    MENUITEM SEPARATOR
+    MENUITEM "&Basic\tCtrl+F4", 973
+    MENUITEM "&Unit conversion\tCtrl+U", 975
+    MENUITEM "&Date calculation\tCtrl+E", 979
+    POPUP "&Worksheets"
+    {
+      MENUITEM SEPARATOR
+    }
+  }
+  POPUP "&Edit"
+  {
+    MENUITEM "&Copy\tCtrl+C", 300
+    MENUITEM "&Paste\tCtrl+V", 301
+    POPUP "&History"
+    {
+      MENUITEM "Copy h&istory", 310, GRAYED
+      MENUITEM "&Edit", 157, GRAYED
+      MENUITEM "Ca&ncel edit\tEsc", 156, GRAYED
+      MENUITEM "C&lear\tCtrl+Shift+D", 1050, GRAYED
+    }
+    POPUP "&Dataset"
+    {
+      MENUITEM "Copy d&ataset", 309, GRAYED
+      MENUITEM "&Edit", 158, GRAYED
+      MENUITEM "Ca&ncel edit\tEsc", 160, GRAYED
+      MENUITEM "C&lear\tD", 1056, GRAYED
+    }
+  }
+  POPUP "&Help"
+  {
+    MENUITEM "&View Help\tF1", 311
+    MENUITEM SEPARATOR
+    MENUITEM "&About Calculator", 302
+  }
+}
+
+106 DIALOGEX 8, 18, 240, 70
+CAPTION "Calculator"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 65535, Static, 0x50000003, 6, 6, 20, 20, 0x0
+  CONTROL "The requested operation may take a very long time to complete.", 65535, Static, 0x50020000, 34, 4, 198, 20, 0x0
+  CONTROL "Do you want to let the calculation continue, or stop the operation now?", 65535, Static, 0x50020000, 34, 31, 198, 20, 0x0
+  CONTROL "&Continue", 4, Button, 0x50010001, 73, 52, 40, 14, 0x0
+  CONTROL "&Stop", 2, Button, 0x50010000, 119, 52, 40, 14, 0x0
+}
+
+235 DIALOGEX 0, 0, 726, 462
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x20
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 186, Static, 0x5000004e, 0, 0, 726, 462, 0x0
+  CONTROL "Select the value you want to calculate", 4294967295, Static, 0x50020080, 18, 14, 688, 45, 0x0
+  CONTROL "", 261, ComboBox, 0x50230103, 18, 52, 688, 112, 0x0
+  CONTROL "", 252, Static, 0x50020000, 18, 102, 340, 26, 0x20
+  CONTROL "", 253, Static, 0x50020000, 18, 142, 340, 26, 0x20
+  CONTROL "", 254, Static, 0x50020000, 18, 182, 340, 26, 0x20
+  CONTROL "", 255, Static, 0x50020000, 18, 222, 340, 26, 0x20
+  CONTROL "", 256, Static, 0x50020000, 18, 262, 340, 26, 0x20
+  CONTROL "", 257, Static, 0x50020000, 18, 302, 340, 26, 0x20
+  CONTROL "", 245, Edit, 0x50830080, 360, 96, 346, 34, 0x28
+  CONTROL "", 246, Edit, 0x50810080, 360, 136, 346, 34, 0x28
+  CONTROL "", 247, Edit, 0x50810080, 360, 176, 346, 34, 0x28
+  CONTROL "", 248, Edit, 0x50810080, 360, 216, 346, 34, 0x28
+  CONTROL "", 249, Edit, 0x50810080, 360, 256, 346, 34, 0x28
+  CONTROL "", 250, Edit, 0x50810080, 360, 296, 346, 34, 0x28
+  CONTROL "Calculate", 260, Button, 0x50010001, 18, 336, 155, 36, 0x0
+  CONTROL "", 262, Edit, 0x50810880, 360, 338, 346, 34, 0x0
+}
+
+707 DIALOGEX 0, 0, 1000, 800
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+}
+
+711 DIALOGEX 0, 0, 380, 554
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x40020
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 186, Static, 0x5000004e, 0, 0, 380, 240, 0x0
+  CONTROL "", 158, Static, 0x50020002, 35, 190, 333, 48, 0x0
+  CONTROL "", 1051, Button, 0x50010000, 289, 10, 34, 26, 0x0
+  CONTROL "", 1052, Button, 0x50010000, 333, 10, 34, 26, 0x0
+  CONTROL "", 187, ListBox, 0x50010161, 13, 44, 358, 116, 0x0
+  CONTROL "", 401, Static, 0x50020000, 9, 202, 27, 29, 0x0
+  CONTROL "0", 150, Static, 0x50020002, 35, 190, 333, 34, 0x0
+  CONTROL "Count = ", 182, Static, 0x50020000, 9, 167, 105, 24, 0x0
+  CONTROL "", 181, Static, 0x50020000, 102, 167, 105, 24, 0x0
+  CONTROL "MC", 122, Button, 0x50000000, 0, 248, 68, 43, 0x0
+  CONTROL "", 83, Button, 0x50000000, 0, 300, 68, 43, 0x0
+  CONTROL "7", 137, Button, 0x50000000, 0, 351, 68, 43, 0x0
+  CONTROL "4", 134, Button, 0x50000000, 0, 402, 68, 43, 0x0
+  CONTROL "1", 131, Button, 0x50000000, 0, 453, 68, 43, 0x0
+  CONTROL "0", 130, Button, 0x50000000, 0, 504, 146, 43, 0x0
+  CONTROL "MR", 123, Button, 0x50000000, 78, 248, 68, 43, 0x0
+  CONTROL "CAD", 1056, Button, 0x50000000, 78, 300, 68, 43, 0x0
+  CONTROL "8", 138, Button, 0x50000000, 78, 351, 68, 43, 0x0
+  CONTROL "5", 135, Button, 0x50000000, 78, 402, 68, 43, 0x0
+  CONTROL "2", 132, Button, 0x50000000, 78, 453, 68, 43, 0x0
+  CONTROL "MS", 124, Button, 0x50000000, 156, 248, 68, 43, 0x0
+  CONTROL "C", 81, Button, 0x50000000, 156, 300, 68, 43, 0x0
+  CONTROL "9", 139, Button, 0x50000000, 156, 351, 68, 43, 0x0
+  CONTROL "6", 136, Button, 0x50000000, 156, 402, 68, 43, 0x0
+  CONTROL "3", 133, Button, 0x50000000, 156, 453, 68, 43, 0x0
+  CONTROL ".", 84, Button, 0x50000000, 156, 504, 68, 43, 0x0
+  CONTROL "M+", 125, Button, 0x50000000, 234, 248, 68, 43, 0x0
+  CONTROL "F-E", 119, Button, 0x50001002, 234, 300, 68, 43, 0x0
+  CONTROL "", 171, Button, 0x50000000, 234, 351, 68, 43, 0x0
+  CONTROL "∑𝑥", 173, Button, 0x50000000, 234, 402, 68, 43, 0x0
+  CONTROL "𝜎", 175, Button, 0x50000000, 234, 453, 68, 43, 0x0
+  CONTROL "±", 80, Button, 0x50000000, 234, 504, 68, 43, 0x0
+  CONTROL "M-", 126, Button, 0x50000000, 312, 248, 68, 43, 0x0
+  CONTROL "Exp", 127, Button, 0x50000000, 312, 300, 68, 43, 0x0
+  CONTROL "", 172, Button, 0x50000000, 312, 351, 68, 43, 0x0
+  CONTROL "∑𝑥²", 174, Button, 0x50000000, 312, 402, 68, 43, 0x0
+  CONTROL "𝜎₋₁", 176, Button, 0x50000000, 312, 453, 68, 43, 0x0
+  CONTROL "Add", 168, Button, 0x50000000, 312, 504, 68, 43, 0x0
+}
+
+712 DIALOGEX 0, 0, 333, 633
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x40020
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 415, Static, 0x5000004e, 0, 0, 18, 16, 0x0
+  CONTROL "", 416, Static, 0x5000004e, 0, 0, 21, 18, 0x0
+  CONTROL "", 417, Static, 0x5000004e, 0, 0, 9, 8, 0x0
+  CONTROL "", 418, Static, 0x5000004e, 0, 0, 18, 13, 0x0
+}
+
+715 DIALOGEX 0, 0, 726, 400
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x40020
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 186, Static, 0x5000004e, 0, 0, 726, 400, 0x0
+  CONTROL "Select the type of unit you want to convert", 4294967295, Static, 0x50020080, 18, 16, 696, 39, 0x0
+  CONTROL "", 221, ComboBox, 0x50210103, 18, 68, 690, 104, 0x0
+  CONTROL "From", 4294967295, Static, 0x50020000, 18, 117, 285, 21, 0x0
+  CONTROL "", 226, Edit, 0x50010080, 18, 148, 690, 36, 0x200
+  CONTROL "", 224, ComboBox, 0x50210103, 18, 190, 690, 104, 0x0
+  CONTROL "To", 4294967295, Static, 0x50020000, 18, 247, 285, 21, 0x0
+  CONTROL "", 227, Edit, 0x50810880, 18, 278, 690, 36, 0x0
+  CONTROL "", 225, ComboBox, 0x50210103, 18, 320, 690, 104, 0x0
+}
+
+720 DIALOGEX 0, 0, 381, 160
+CAPTION ""
+STYLE 0x40000048 | NOT WS_CAPTION
+EXSTYLE 0x80
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 1051, Button, 0x50010000, 276, 9, 34, 26, 0x0
+  CONTROL "", 1052, Button, 0x50010000, 320, 9, 34, 26, 0x0
+  CONTROL "", 153, ListBox, 0x50010161, 0, 42, 381, 116, 0x0
+}
+
+725 DIALOGEX 0, 0, 384, 80
+CAPTION ""
+STYLE 0x40000048 | NOT WS_CAPTION
+EXSTYLE 0x80
+FONT 3, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 404, Static, 0x50020002, 111, 0, 273, 29, 0x0
+  CONTROL "", 401, Static, 0x50020002, 0, 40, 27, 29, 0x0
+  CONTROL "0", 150, Static, 0x50020002, 35, 29, 333, 48, 0x0
+  CONTROL "", 158, Static, 0x50020002, 35, 29, 333, 48, 0x0
+}
+
+730 DIALOGEX 0, 0, 380, 305
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "MC", 122, Button, 0x50000000, 0, 0, 68, 43, 0x0
+  CONTROL "", 83, Button, 0x50000000, 0, 51, 68, 43, 0x0
+  CONTROL "7", 137, Button, 0x50000000, 0, 102, 68, 43, 0x0
+  CONTROL "4", 134, Button, 0x50000000, 0, 154, 68, 43, 0x0
+  CONTROL "1", 131, Button, 0x50000000, 0, 205, 68, 43, 0x0
+  CONTROL "0", 130, Button, 0x50000000, 0, 256, 146, 43, 0x0
+  CONTROL "MR", 123, Button, 0x50000000, 78, 0, 68, 43, 0x0
+  CONTROL "CE", 82, Button, 0x50000000, 78, 51, 68, 43, 0x0
+  CONTROL "8", 138, Button, 0x50000000, 78, 102, 68, 43, 0x0
+  CONTROL "5", 135, Button, 0x50000000, 78, 154, 68, 43, 0x0
+  CONTROL "2", 132, Button, 0x50000000, 78, 205, 68, 43, 0x0
+  CONTROL "MS", 124, Button, 0x50000000, 156, 0, 68, 43, 0x0
+  CONTROL "C", 81, Button, 0x50000000, 156, 51, 68, 43, 0x0
+  CONTROL "9", 139, Button, 0x50000000, 156, 102, 68, 43, 0x0
+  CONTROL "6", 136, Button, 0x50000000, 156, 154, 68, 43, 0x0
+  CONTROL "3", 133, Button, 0x50000000, 156, 205, 68, 43, 0x0
+  CONTROL ".", 84, Button, 0x50000000, 156, 256, 68, 43, 0x0
+  CONTROL "M+", 125, Button, 0x50000000, 234, 0, 68, 43, 0x0
+  CONTROL "±", 80, Button, 0x50000000, 234, 51, 68, 43, 0x0
+  CONTROL "/", 91, Button, 0x50000000, 234, 102, 68, 43, 0x0
+  CONTROL "*", 92, Button, 0x50000000, 234, 154, 68, 43, 0x0
+  CONTROL "-", 94, Button, 0x50000000, 234, 205, 68, 43, 0x0
+  CONTROL "+", 93, Button, 0x50000000, 234, 256, 68, 43, 0x0
+  CONTROL "M-", 126, Button, 0x50000000, 312, 0, 68, 43, 0x0
+  CONTROL "√", 110, Button, 0x50000000, 312, 51, 68, 43, 0x0
+  CONTROL "%", 118, Button, 0x50000000, 312, 102, 68, 43, 0x0
+  CONTROL "1/𝑥", 114, Button, 0x50000000, 312, 154, 68, 43, 0x0
+  CONTROL "=", 121, Button, 0x50000000, 312, 205, 68, 94, 0x0
+}
+
+735 DIALOGEX 0, 0, 770, 305
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "MC", 122, Button, 0x50000000, 390, 0, 68, 43, 0x0
+  CONTROL "", 83, Button, 0x50000000, 390, 51, 68, 43, 0x0
+  CONTROL "7", 137, Button, 0x50000000, 390, 102, 68, 43, 0x0
+  CONTROL "4", 134, Button, 0x50000000, 390, 154, 68, 43, 0x0
+  CONTROL "1", 131, Button, 0x50000000, 390, 205, 68, 43, 0x0
+  CONTROL "0", 130, Button, 0x50000000, 390, 256, 146, 43, 0x0
+  CONTROL "MR", 123, Button, 0x50000000, 468, 0, 68, 43, 0x0
+  CONTROL "CE", 82, Button, 0x50000000, 468, 51, 68, 43, 0x0
+  CONTROL "8", 138, Button, 0x50000000, 468, 102, 68, 43, 0x0
+  CONTROL "5", 135, Button, 0x50000000, 468, 154, 68, 43, 0x0
+  CONTROL "2", 132, Button, 0x50000000, 468, 205, 68, 43, 0x0
+  CONTROL "MS", 124, Button, 0x50000000, 546, 0, 68, 43, 0x0
+  CONTROL "C", 81, Button, 0x50000000, 546, 51, 68, 43, 0x0
+  CONTROL "9", 139, Button, 0x50000000, 546, 102, 68, 43, 0x0
+  CONTROL "6", 136, Button, 0x50000000, 546, 154, 68, 43, 0x0
+  CONTROL "3", 133, Button, 0x50000000, 546, 205, 68, 43, 0x0
+  CONTROL ".", 84, Button, 0x50000000, 546, 256, 68, 43, 0x0
+  CONTROL "M+", 125, Button, 0x50000000, 624, 0, 68, 43, 0x0
+  CONTROL "±", 80, Button, 0x50000000, 624, 51, 68, 43, 0x0
+  CONTROL "/", 91, Button, 0x50000000, 624, 102, 68, 43, 0x0
+  CONTROL "*", 92, Button, 0x50000000, 624, 154, 68, 43, 0x0
+  CONTROL "-", 94, Button, 0x50000000, 624, 205, 68, 43, 0x0
+  CONTROL "+", 93, Button, 0x50000000, 624, 256, 68, 43, 0x0
+  CONTROL "M-", 126, Button, 0x50000000, 702, 0, 68, 43, 0x0
+  CONTROL "√", 110, Button, 0x50000000, 702, 51, 68, 43, 0x0
+  CONTROL "%", 118, Button, 0x50000000, 702, 102, 68, 43, 0x0
+  CONTROL "1/𝑥", 114, Button, 0x50000000, 702, 154, 68, 43, 0x0
+  CONTROL "=", 121, Button, 0x50000000, 702, 205, 68, 94, 0x0
+  CONTROL "", 1079, Static, 0x5000004e, 0, 0, 380, 43, 0x0
+  CONTROL "Degrees", 321, Button, 0x50010004, 15, 8, 128, 26, 0x0
+  CONTROL "Radians", 322, Button, 0x50010004, 144, 8, 132, 26, 0x0
+  CONTROL "Grads", 323, Button, 0x50010004, 277, 8, 99, 26, 0x0
+  CONTROL "", 402, Static, 0x50020201, 0, 51, 68, 43, 0x200
+  CONTROL "Int", 98, Button, 0x50000000, 0, 102, 68, 43, 0x0
+  CONTROL "dms", 115, Button, 0x50000000, 0, 154, 68, 43, 0x0
+  CONTROL "π", 120, Button, 0x50000000, 0, 205, 68, 43, 0x0
+  CONTROL "F-E", 119, Button, 0x50001002, 0, 256, 68, 43, 0x0
+  CONTROL "Inv", 146, Button, 0x50001002, 78, 51, 68, 43, 0x0
+  CONTROL "sinh", 105, Button, 0x50000000, 78, 102, 68, 43, 0x0
+  CONTROL "cosh", 106, Button, 0x50000000, 78, 154, 68, 43, 0x0
+  CONTROL "tanh", 107, Button, 0x50000000, 78, 205, 68, 43, 0x0
+  CONTROL "Exp", 127, Button, 0x50000000, 78, 256, 68, 43, 0x0
+  CONTROL "ln", 108, Button, 0x50000000, 156, 51, 68, 43, 0x0
+  CONTROL "sin", 102, Button, 0x50000000, 156, 102, 68, 43, 0x0
+  CONTROL "cos", 103, Button, 0x50000000, 156, 154, 68, 43, 0x0
+  CONTROL "tan", 104, Button, 0x50000000, 156, 205, 68, 43, 0x0
+  CONTROL "Mod", 95, Button, 0x50000000, 156, 256, 68, 43, 0x0
+  CONTROL "(", 128, Button, 0x50000000, 234, 51, 68, 43, 0x0
+  CONTROL "𝑥²", 111, Button, 0x50000000, 234, 102, 68, 43, 0x0
+  CONTROL "𝑥", 97, Button, 0x50000000, 234, 154, 68, 43, 0x0
+  CONTROL "𝑥³", 112, Button, 0x50000000, 234, 205, 68, 43, 0x0
+  CONTROL "log", 109, Button, 0x50000000, 234, 256, 68, 43, 0x0
+  CONTROL ")", 129, Button, 0x50000000, 312, 51, 68, 43, 0x0
+  CONTROL "n!", 113, Button, 0x50000000, 312, 102, 68, 43, 0x0
+  CONTROL "𝑥", 96, Button, 0x50000000, 312, 154, 68, 43, 0x0
+  CONTROL "∛𝑥", 116, Button, 0x50000000, 312, 205, 68, 43, 0x0
+  CONTROL "10", 117, Button, 0x50000000, 312, 256, 68, 43, 0x0
+}
+
+740 DIALOGEX 0, 0, 770, 411
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 1079, Static, 0x5000004e, 0, 106, 146, 146, 0x0
+  CONTROL "Hex", 313, Button, 0x50010004, 15, 118, 111, 24, 0x0
+  CONTROL "Dec", 314, Button, 0x50010004, 15, 150, 117, 24, 0x0
+  CONTROL "Oct", 315, Button, 0x50010004, 15, 182, 120, 24, 0x0
+  CONTROL "Bin", 316, Button, 0x50010004, 15, 214, 120, 24, 0x0
+  CONTROL "", 1080, Static, 0x5000004e, 0, 259, 146, 146, 0x0
+  CONTROL "Qword", 317, Button, 0x50010004, 15, 270, 126, 24, 0x0
+  CONTROL "Dword", 318, Button, 0x50010004, 15, 302, 126, 24, 0x0
+  CONTROL "Word", 319, Button, 0x50010004, 15, 334, 117, 24, 0x0
+  CONTROL "Byte", 320, Button, 0x50010004, 15, 366, 114, 24, 0x0
+  CONTROL "", 402, Static, 0x50020201, 156, 106, 68, 43, 0x200
+  CONTROL "(", 128, Button, 0x50000000, 156, 157, 68, 43, 0x0
+  CONTROL "RoL", 99, Button, 0x50000000, 156, 208, 68, 43, 0x0
+  CONTROL "Or", 87, Button, 0x50000000, 156, 259, 68, 43, 0x0
+  CONTROL "Lsh", 89, Button, 0x50000000, 156, 310, 68, 43, 0x0
+  CONTROL "Not", 101, Button, 0x50000000, 156, 361, 68, 43, 0x0
+  CONTROL "Mod", 95, Button, 0x50000000, 234, 106, 68, 43, 0x0
+  CONTROL ")", 129, Button, 0x50000000, 234, 157, 68, 43, 0x0
+  CONTROL "RoR", 100, Button, 0x50000000, 234, 208, 68, 43, 0x0
+  CONTROL "Xor", 88, Button, 0x50000000, 234, 259, 68, 43, 0x0
+  CONTROL "Rsh", 90, Button, 0x50000000, 234, 310, 68, 43, 0x0
+  CONTROL "And", 86, Button, 0x50000000, 234, 361, 68, 43, 0x0
+  CONTROL "A", 140, Button, 0x50000000, 312, 106, 68, 43, 0x0
+  CONTROL "B", 141, Button, 0x50000000, 312, 157, 68, 43, 0x0
+  CONTROL "C", 142, Button, 0x50000000, 312, 208, 68, 43, 0x0
+  CONTROL "D", 143, Button, 0x50000000, 312, 259, 68, 43, 0x0
+  CONTROL "E", 144, Button, 0x50000000, 312, 310, 68, 43, 0x0
+  CONTROL "F", 145, Button, 0x50000000, 312, 361, 68, 43, 0x0
+  CONTROL "MC", 122, Button, 0x50000000, 390, 106, 68, 43, 0x0
+  CONTROL "", 83, Button, 0x50000000, 390, 157, 68, 43, 0x0
+  CONTROL "7", 137, Button, 0x50000000, 390, 208, 68, 43, 0x0
+  CONTROL "4", 134, Button, 0x50000000, 390, 259, 68, 43, 0x0
+  CONTROL "1", 131, Button, 0x50000000, 390, 310, 68, 43, 0x0
+  CONTROL "0", 130, Button, 0x50000000, 390, 361, 146, 43, 0x0
+  CONTROL "MR", 123, Button, 0x50000000, 468, 106, 68, 43, 0x0
+  CONTROL "CE", 82, Button, 0x50000000, 468, 157, 68, 43, 0x0
+  CONTROL "8", 138, Button, 0x50000000, 468, 208, 68, 43, 0x0
+  CONTROL "5", 135, Button, 0x50000000, 468, 259, 68, 43, 0x0
+  CONTROL "2", 132, Button, 0x50000000, 468, 310, 68, 43, 0x0
+  CONTROL "MS", 124, Button, 0x50000000, 546, 106, 68, 43, 0x0
+  CONTROL "C", 81, Button, 0x50000000, 546, 157, 68, 43, 0x0
+  CONTROL "9", 139, Button, 0x50000000, 546, 208, 68, 43, 0x0
+  CONTROL "6", 136, Button, 0x50000000, 546, 259, 68, 43, 0x0
+  CONTROL "3", 133, Button, 0x50000000, 546, 310, 68, 43, 0x0
+  CONTROL ".", 84, Button, 0x50000000, 546, 361, 68, 43, 0x0
+  CONTROL "M+", 125, Button, 0x50000000, 624, 106, 68, 43, 0x0
+  CONTROL "±", 80, Button, 0x50000000, 624, 157, 68, 43, 0x0
+  CONTROL "/", 91, Button, 0x50000000, 624, 208, 68, 43, 0x0
+  CONTROL "*", 92, Button, 0x50000000, 624, 259, 68, 43, 0x0
+  CONTROL "-", 94, Button, 0x50000000, 624, 310, 68, 43, 0x0
+  CONTROL "+", 93, Button, 0x50000000, 624, 361, 68, 43, 0x0
+  CONTROL "M-", 126, Button, 0x50000000, 702, 106, 68, 43, 0x0
+  CONTROL "√", 110, Button, 0x50000000, 702, 157, 68, 43, 0x0
+  CONTROL "%", 118, Button, 0x50000000, 702, 208, 68, 43, 0x0
+  CONTROL "1/𝑥", 114, Button, 0x50000000, 702, 259, 68, 43, 0x0
+  CONTROL "=", 121, Button, 0x50000000, 702, 310, 68, 94, 0x0
+  CONTROL "", 1077, Static, 0x5000004e, 0, 0, 770, 98, 0x0
+  CONTROL "0", 700, Static, 0x50020301, 732, 49, 15, 19, 0x0
+  CONTROL "0", 701, Static, 0x50020301, 717, 49, 15, 19, 0x0
+  CONTROL "0", 702, Static, 0x50020301, 702, 49, 15, 19, 0x0
+  CONTROL "0", 703, Static, 0x50020301, 687, 49, 15, 19, 0x0
+  CONTROL "0", 704, Static, 0x50020301, 636, 49, 15, 19, 0x0
+  CONTROL "0", 705, Static, 0x50020301, 621, 49, 15, 19, 0x0
+  CONTROL "0", 706, Static, 0x50020301, 606, 49, 15, 19, 0x0
+  CONTROL "0", 707, Static, 0x50020301, 591, 49, 15, 19, 0x0
+  CONTROL "0", 708, Static, 0x50020301, 540, 49, 15, 19, 0x0
+  CONTROL "0", 709, Static, 0x50020301, 525, 49, 15, 19, 0x0
+  CONTROL "0", 710, Static, 0x50020301, 510, 49, 15, 19, 0x0
+  CONTROL "0", 711, Static, 0x50020301, 495, 49, 15, 19, 0x0
+  CONTROL "0", 712, Static, 0x50020301, 444, 49, 15, 19, 0x0
+  CONTROL "0", 713, Static, 0x50020301, 429, 49, 15, 19, 0x0
+  CONTROL "0", 714, Static, 0x50020301, 414, 49, 15, 19, 0x0
+  CONTROL "0", 715, Static, 0x50020301, 399, 49, 15, 19, 0x0
+  CONTROL "0", 716, Static, 0x50020301, 348, 49, 15, 19, 0x0
+  CONTROL "0", 717, Static, 0x50020301, 333, 49, 15, 19, 0x0
+  CONTROL "0", 718, Static, 0x50020301, 318, 49, 15, 19, 0x0
+  CONTROL "0", 719, Static, 0x50020301, 303, 49, 15, 19, 0x0
+  CONTROL "0", 720, Static, 0x50020301, 252, 49, 15, 19, 0x0
+  CONTROL "0", 721, Static, 0x50020301, 237, 49, 15, 19, 0x0
+  CONTROL "0", 722, Static, 0x50020301, 222, 49, 15, 19, 0x0
+  CONTROL "0", 723, Static, 0x50020301, 207, 49, 15, 19, 0x0
+  CONTROL "0", 724, Static, 0x50020301, 156, 49, 15, 19, 0x0
+  CONTROL "0", 725, Static, 0x50020301, 141, 49, 15, 19, 0x0
+  CONTROL "0", 726, Static, 0x50020301, 126, 49, 15, 19, 0x0
+  CONTROL "0", 727, Static, 0x50020301, 111, 49, 15, 19, 0x0
+  CONTROL "0", 728, Static, 0x50020301, 60, 49, 15, 19, 0x0
+  CONTROL "0", 729, Static, 0x50020301, 45, 49, 15, 19, 0x0
+  CONTROL "0", 730, Static, 0x50020301, 30, 49, 15, 19, 0x0
+  CONTROL "0", 731, Static, 0x50020301, 15, 49, 15, 19, 0x0
+  CONTROL "0", 732, Static, 0x50020301, 732, 8, 15, 19, 0x0
+  CONTROL "0", 733, Static, 0x50020301, 717, 8, 15, 19, 0x0
+  CONTROL "0", 734, Static, 0x50020301, 702, 8, 15, 19, 0x0
+  CONTROL "0", 735, Static, 0x50020301, 687, 8, 15, 19, 0x0
+  CONTROL "0", 736, Static, 0x50020301, 636, 8, 15, 19, 0x0
+  CONTROL "0", 737, Static, 0x50020301, 621, 8, 15, 19, 0x0
+  CONTROL "0", 738, Static, 0x50020301, 606, 8, 15, 19, 0x0
+  CONTROL "0", 739, Static, 0x50020301, 591, 8, 15, 19, 0x0
+  CONTROL "0", 740, Static, 0x50020301, 540, 8, 15, 19, 0x0
+  CONTROL "0", 741, Static, 0x50020301, 525, 8, 15, 19, 0x0
+  CONTROL "0", 742, Static, 0x50020301, 510, 8, 15, 19, 0x0
+  CONTROL "0", 743, Static, 0x50020301, 495, 8, 15, 19, 0x0
+  CONTROL "0", 744, Static, 0x50020301, 444, 8, 15, 19, 0x0
+  CONTROL "0", 745, Static, 0x50020301, 429, 8, 15, 19, 0x0
+  CONTROL "0", 746, Static, 0x50020301, 414, 8, 15, 19, 0x0
+  CONTROL "0", 747, Static, 0x50020301, 399, 8, 15, 19, 0x0
+  CONTROL "0", 748, Static, 0x50020301, 348, 8, 15, 19, 0x0
+  CONTROL "0", 749, Static, 0x50020301, 333, 8, 15, 19, 0x0
+  CONTROL "0", 750, Static, 0x50020301, 318, 8, 15, 19, 0x0
+  CONTROL "0", 751, Static, 0x50020301, 303, 8, 15, 19, 0x0
+  CONTROL "0", 752, Static, 0x50020301, 252, 8, 15, 19, 0x0
+  CONTROL "0", 753, Static, 0x50020301, 237, 8, 15, 19, 0x0
+  CONTROL "0", 754, Static, 0x50020301, 222, 8, 15, 19, 0x0
+  CONTROL "0", 755, Static, 0x50020301, 207, 8, 15, 19, 0x0
+  CONTROL "0", 756, Static, 0x50020301, 156, 8, 15, 19, 0x0
+  CONTROL "0", 757, Static, 0x50020301, 141, 8, 15, 19, 0x0
+  CONTROL "0", 758, Static, 0x50020301, 126, 8, 15, 19, 0x0
+  CONTROL "0", 759, Static, 0x50020301, 111, 8, 15, 19, 0x0
+  CONTROL "0", 760, Static, 0x50020301, 60, 8, 15, 19, 0x0
+  CONTROL "0", 761, Static, 0x50020301, 45, 8, 15, 19, 0x0
+  CONTROL "0", 762, Static, 0x50020301, 30, 8, 15, 19, 0x0
+  CONTROL "0", 763, Static, 0x50020301, 15, 8, 15, 19, 0x0
+  CONTROL "63", 1076, Static, 0x50020000, 15, 27, 28, 21, 0x0
+  CONTROL "47", 1075, Static, 0x50020000, 399, 27, 28, 21, 0x0
+  CONTROL "32", 1074, Static, 0x50020002, 717, 27, 28, 21, 0x0
+  CONTROL "31", 1073, Static, 0x50020000, 15, 69, 28, 21, 0x0
+  CONTROL "15", 1072, Static, 0x50020000, 399, 69, 28, 21, 0x0
+  CONTROL "0", 1071, Static, 0x50020002, 717, 69, 28, 21, 0x0
+}
+
+4000 DIALOGEX 0, 0, 726, 400
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x20
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "", 186, Static, 0x5000004e, 0, 0, 708, 400, 0x0
+  CONTROL "Select the date calculation you want", 4294967295, Static, 0x50020080, 18, 16, 672, 31, 0x0
+  CONTROL "", 4003, ComboBox, 0x50210003, 18, 52, 690, 104, 0x0
+}
+
+4001 DIALOGEX 6, 104, 711, 275
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x20
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "From", 4294967295, Static, 0x50020000, 12, 10, 110, 21, 0x0
+  CONTROL "", 4004, "SysDateTimePick32", 0x50010020, 132, 0, 192, 39, 0x0
+  CONTROL "To", 4294967295, Static, 0x50020000, 410, 10, 100, 21, 0x0
+  CONTROL "", 4005, "SysDateTimePick32", 0x50010020, 510, 0, 192, 39, 0x0
+  CONTROL "Difference (years, months, weeks, days)", 4294967295, Static, 0x50020000, 12, 44, 672, 21, 0x0
+  CONTROL "", 4007, Edit, 0x50810880, 12, 78, 690, 36, 0x0
+  CONTROL "Difference (days)", 4294967295, Static, 0x50020000, 12, 130, 672, 21, 0x0
+  CONTROL "", 4008, Edit, 0x50810880, 12, 159, 690, 36, 0x0
+  CONTROL "Calculate", 4009, Button, 0x50010001, 545, 234, 158, 36, 0x0
+}
+
+4002 DIALOGEX 6, 104, 711, 275
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x20
+FONT 3, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "From", 4294967295, Static, 0x50020000, 12, 10, 100, 21, 0x0
+  CONTROL "", 4006, "SysDateTimePick32", 0x50010020, 121, 0, 192, 39, 0x0
+  CONTROL "Add", 4017, Button, 0x50030009, 338, 5, 155, 26, 0x0
+  CONTROL "Subtract", 4016, Button, 0x50000009, 495, 5, 200, 26, 0x0
+  CONTROL "Year(s)", 4294967295, Static, 0x50020000, 12, 57, 109, 26, 0x0
+  CONTROL "", 4010, Edit, 0x50812080, 121, 49, 93, 36, 0x0
+  CONTROL "", 4021, "msctls_updown32", 0x50000037, 0, 0, 0, 0, 0x0
+  CONTROL "Month(s)", 4294967295, Static, 0x50020002, 224, 57, 150, 26, 0x0
+  CONTROL "", 4011, Edit, 0x50812080, 381, 49, 93, 36, 0x0
+  CONTROL "", 4022, "msctls_updown32", 0x50000037, 0, 0, 0, 0, 0x0
+  CONTROL "Day(s)", 4294967295, Static, 0x50020002, 484, 57, 115, 26, 0x0
+  CONTROL "", 4012, Edit, 0x50812080, 609, 49, 93, 36, 0x0
+  CONTROL "", 4023, "msctls_updown32", 0x50000037, 0, 0, 0, 0, 0x0
+  CONTROL "Date", 4294967295, Static, 0x50020000, 12, 109, 645, 21, 0x0
+  CONTROL "", 4013, Edit, 0x50810880, 12, 140, 690, 36, 0x0
+  CONTROL "Calculate", 4015, Button, 0x50010001, 545, 234, 158, 36, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  0,  "+/-"
+  1,  "C"
+  2,  "CE"
+  3,  "Backspace"
+  4,  "."
+  6,  "And"
+  7,  "Or"
+  8,  "Xor"
+  9,  "Lsh"
+  10,  "Rsh"
+  11,  "/"
+  12,  "*"
+  13,  "+"
+  14,  "-"
+  15,  "Mod"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "yroot"
+  17,  "^"
+  18,  "Int"
+  19,  "RoL"
+  20,  "RoR"
+  21,  "Not"
+  22,  "sin"
+  23,  "cos"
+  24,  "tan"
+  25,  "sinh"
+  26,  "cosh"
+  27,  "tanh"
+  28,  "ln"
+  29,  "log"
+  30,  "sqrt"
+  31,  "x^2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "x^3"
+  33,  "n!"
+  34,  "1/x"
+  35,  "dms"
+  36,  "cuberoot"
+  37,  "powten"
+  38,  "%"
+  39,  "F-E"
+  40,  "Pi"
+  41,  "="
+  42,  "MC"
+  43,  "MR"
+  44,  "MS"
+  45,  "M+"
+  46,  "M-"
+  47,  "Exp"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "("
+  49,  ")"
+  50,  "0"
+  51,  "1"
+  52,  "2"
+  53,  "3"
+  54,  "4"
+  55,  "5"
+  56,  "6"
+  57,  "7"
+  58,  "8"
+  59,  "9"
+  60,  "A"
+  61,  "B"
+  62,  "C"
+  63,  "D"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "E"
+  65,  "F"
+  66,  "frac"
+  67,  "sind"
+  68,  "cosd"
+  69,  "tand"
+  70,  "asind"
+  71,  "acosd"
+  72,  "atand"
+  73,  "sinr"
+  74,  "cosr"
+  75,  "tanr"
+  76,  "asinr"
+  77,  "acosr"
+  78,  "atanr"
+  79,  "sing"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "cosg"
+  81,  "tang"
+  82,  "asing"
+  83,  "acosg"
+  84,  "atang"
+  85,  "asinh"
+  86,  "acosh"
+  87,  "atanh"
+  88,  "powe"
+  89,  "powten"
+  90,  "sqrt"
+  91,  "sqr"
+  92,  "cube"
+  93,  "cubert"
+  94,  "fact"
+  95,  "reciproc"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "degrees"
+  97,  "negate"
+  98,  "Rsh"
+  99,  "Cannot divide by zero"
+  100,  "Invalid input"
+  101,  "Result is undefined"
+  102,  "Error: Positive Infinity"
+  103,  "Error: Negative Infinity"
+  104,  "Operation was canceled"
+  105,  "Not enough memory"
+  106,  "Too many items selected"
+  107,  "Overflow"
+  108,  "Result not defined"
+  109,  "Enter data to calculate"
+  111,  "Unknown character '%c'"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Unknown function"
+  113,  "Number unexpected"
+  114,  "'%c' Unexpected"
+  115,  """%s"" Unexpected"
+  116,  "Mismatched ')'"
+  117,  "Unexpected end of expression"
+  118,  "Result not defined"
+  119,  "Overflow"
+  120,  "Overflow"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  183,  "Add Data"
+  184,  "Esc"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "Hex"
+  201,  "Dec"
+  202,  "Oct"
+  203,  "Bin"
+  204,  "Qword"
+  205,  "Dword"
+  206,  "Word"
+  207,  "Byte"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Degrees"
+  209,  "Radians"
+  210,  "Grads"
+  211,  "Calc does not have enough memory to continue."
+  212,  "The requested function may take a very long time to complete.\rDo you want to abort the operation now?"
+  213,  "calc.hlp"
+  214,  "Cannot open Clipboard."
+  215,  "There is not enough memory for data.\rClose one or more programs, and then try again."
+  216,  "calc.chm"
+  217,  "Calculator"
+  218,  "Add Data"
+  219,  "\r\n__________________\r\n"
+  220,  "..."
+  221,  "Invalid number"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  578,  "&Overwrite"
+  579,  "Do&n't Save"
+  580,  "History File has changed since calculator was opened. Saving your history will overwrite these changes.\rDo you want to continue?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "2*π"
+  701,  "е"
+  702,  "sinh⁻¹"
+  703,  "sin⁻¹"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "cosh⁻¹"
+  705,  "cos⁻¹"
+  706,  "tanh⁻¹"
+  707,  "tan⁻¹"
+  708,  "deg"
+  709,  "Frac"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  750,  "π"
+  751,  "ln"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  752,  "sinh"
+  753,  "sin"
+  754,  "cosh"
+  755,  "cos"
+  756,  "tanh"
+  757,  "tan"
+  758,  "dms"
+  759,  "Int"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  810,  "Re&calculate\t="
+  811,  "Clear"
+  812,  "Cancel"
+  813,  "&Edit\tF2"
+  814,  "C&ommit\t="
+  815,  "&History"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "&Dataset"
+  820,  "This value is not valid."
+  821,  "Expression too long"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  900,  "«"
+  901,  ">"
+  902,  "↑"
+  903,  "↓"
+  904,  "Clear All"
+  910,  "Calculate the difference between two dates"
+  911,  "Add or subtract days to a specified date"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  912,  "years"
+  913,  "year"
+  914,  "months"
+  915,  "month"
+  916,  "weeks"
+  917,  "week"
+  918,  "days"
+  919,  "day"
+  920,  "0"
+  921,  "Error in calculating time difference"
+  922,  "Same dates"
+  923,  "Date out of bound"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  952,  "Enter value"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1302,  "Previous Item"
+  1303,  "Next Item"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1350,  "Result"
+  1351,  "Running History"
+  1352,  "Memory"
+  1353,  "From Value"
+  1354,  "To Value"
+  1355,  "Difference (Years, Months, Weeks, Days)"
+  1356,  "Difference (Days)"
+  1357,  "Result Date"
+  1358,  "Unit Type"
+  1359,  "From Unit"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1360,  "To Unit"
+  1361,  "Output Field"
+  1362,  "Date Time"
+  1363,  "From Date Time Pick"
+  1364,  "To Date Time Pick"
+  1365,  "Date Time Pick"
+  1366,  "Year(s)"
+  1367,  "Month(s)"
+  1368,  "Day(s)"
+  1369,  "Count ="
+  1370,  "Value"
+  1371,  "Result"
+  1372,  "Memory"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1400,  "Grad"
+  1401,  "Radians"
+  1402,  "&&"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1425,  "Statistics"
+  1426,  "Sum"
+  1427,  "Average"
+  1428,  "Sum Of Squares"
+  1429,  "Average Of Squares"
+  1430,  "Standard Deviation"
+  1431,  "Standard Deviation With Population Parameter"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1450,  "Area"
+  1451,  "Energy"
+  1452,  "Temperature"
+  1453,  "Length"
+  1454,  "Power"
+  1455,  "Time"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1456,  "Pressure"
+  1457,  "Angle"
+  1458,  "Velocity"
+  1459,  "Volume"
+  1460,  "Weight/Mass"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1550,  "Degrees Fahrenheit"
+  1551,  "Degrees Celsius"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1552,  "Kelvin"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1620,  "Angstrom"
+  1621,  "Nanometer"
+  1622,  "Microns"
+  1623,  "Millimeters"
+  1624,  "Centimeters"
+  1625,  "Meter"
+  1626,  "Kilometers"
+  1627,  "Inch"
+  1628,  "Rods"
+  1629,  "Feet"
+  1630,  "Yard"
+  1631,  "Fathom"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1632,  "Mile"
+  1633,  "Nautical Miles"
+  1634,  "PICA"
+  1635,  "Hand"
+  1636,  "Link"
+  1637,  "Chain"
+  1638,  "Span"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1650,  "Degree"
+  1651,  "Gradian"
+  1652,  "Radian"
+  1655,  "Pascal"
+  1656,  "Kilo Pascal"
+  1657,  "Millimeter of mercury"
+  1658,  "Bar"
+  1659,  "Atmosphere"
+  1660,  "Pound per square inch (PSI)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1666,  "Square millimeter"
+  1667,  "Square centimeter"
+  1668,  "Square inch"
+  1669,  "Square feet"
+  1670,  "Hectares"
+  1671,  "Square kilometer"
+  1672,  "Square Yard"
+  1673,  "Acres"
+  1674,  "Square mile"
+  1675,  "Square meters"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1685,  "Centimeter per second"
+  1686,  "Miles per hour"
+  1687,  "Feet per second"
+  1688,  "Meter per second"
+  1689,  "Kilometer per hour"
+  1690,  "Knots"
+  1691,  "Mach (at std. atm)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1700,  "Joule"
+  1701,  "Kilojoule"
+  1702,  "Calorie"
+  1703,  "Kilocalorie"
+  1704,  "British Thermal Unit"
+  1705,  "Foot-Pound"
+  1706,  "Electron-Volts"
+  1710,  "Watt"
+  1711,  "Horsepower"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1712,  "Kilowatt"
+  1713,  "BTU/minute"
+  1714,  "Foot-Pound/minute"
+  1720,  "Microsecond"
+  1721,  "Millisecond"
+  1722,  "Second"
+  1723,  "Minute"
+  1724,  "Hour"
+  1725,  "Day"
+  1726,  "Week"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1750,  "Cubic centimeter"
+  1751,  "Liter"
+  1752,  "Cubic meter"
+  1753,  "Cubic inch"
+  1754,  "Fluid ounce (UK)"
+  1755,  "Fluid ounce (US)"
+  1756,  "Pint (US)"
+  1757,  "Pint (UK)"
+  1758,  "Quart (UK)"
+  1759,  "Quart (US)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1760,  "Gallon (UK)"
+  1761,  "Gallon (US)"
+  1762,  "Cubic feet"
+  1763,  "Cubic yard"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1780,  "Milligram"
+  1781,  "Centigram"
+  1782,  "Decigram"
+  1783,  "Dekagram"
+  1784,  "Hectogram"
+  1785,  "Gram"
+  1786,  "Kilogram"
+  1787,  "Tonne"
+  1788,  "Ounce"
+  1789,  "Pound"
+  1790,  "Stone"
+  1791,  "Short ton"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1792,  "Long ton"
+  1793,  "Carat"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "&Mortgage"
+  2001,  "&Vehicle lease"
+  2002,  "&Fuel economy (mpg)"
+  2003,  "F&uel economy (L/100 km)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2101,  "Purchase price"
+  2102,  "Monthly payment"
+  2103,  "Down payment"
+  2104,  "Term (years)"
+  2105,  "Interest rate (%)"
+  2111,  "Lease value"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2112,  "Lease period"
+  2113,  "Payments per year"
+  2114,  "Residual value"
+  2115,  "Periodic payment"
+  2116,  "Interest rate (%)"
+  2121,  "Distance (miles)"
+  2122,  "Fuel used (gallons)"
+  2123,  "Fuel economy (mpg)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2131,  "Distance (kilometers)"
+  2132,  "Fuel used (liters)"
+  2133,  "Fuel economy (L/100 km)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2201,  "This value cannot be blank."
+  2202,  "Unable to calculate"
+  2203,  "This value is not valid."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2301,  "*"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7010,  "&Copy"
+  7011,  "&Paste"
+  7012,  "&Show history"
+  7013,  "&Hide history"
+  7014,  "C&lear history"
+  7015,  "C&lear dataset"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8000,  "Memory clear"
+  8001,  "Memory recall"
+  8002,  "Memory store"
+  8003,  "Memory add"
+  8004,  "Memory subtract"
+  8005,  "Clear entry"
+  8006,  "Clear"
+  8007,  "Backspace"
+  8008,  "Negate"
+  8009,  "Multiply"
+  8010,  "Divide"
+  8011,  "Add"
+  8012,  "Subtract"
+  8013,  "Square root"
+  8014,  "Reciprocal"
+  8015,  "Clear History"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8016,  "Edit History"
+  8017,  "Inverse functions"
+  8018,  "Integer part"
+  8019,  "Degree minute second"
+  8020,  "Factorial"
+  8021,  "Modulo"
+  8022,  "Fractional part"
+  8023,  "Degrees"
+  8024,  "Pi"
+  8025,  "Two times pi"
+  8026,  "Exponential notation"
+  8027,  "Exponential"
+  8028,  "Sine"
+  8029,  "Cosine"
+  8030,  "Tangent"
+  8031,  "Sine inverse"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8032,  "Cosine inverse"
+  8033,  "Tangent inverse"
+  8034,  "Hyperbolic sine"
+  8035,  "Hyperbolic cosine"
+  8036,  "Hyperbolic tangent"
+  8037,  "Hyperbolic sine inverse"
+  8038,  "Hyperbolic cosine inverse"
+  8039,  "Hyperbolic tangent inverse"
+  8040,  "Square"
+  8041,  "Cube"
+  8042,  "Raise to y power"
+  8043,  "Natural log"
+  8044,  "Log"
+  8045,  "Natural anti log"
+  8046,  "Anti log"
+  8047,  "Cube root"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8048,  "Order of y root"
+  8049,  "Rotate on left"
+  8050,  "Rotate on right"
+  8051,  "Or"
+  8052,  "Exclusive or"
+  8053,  "Left shift"
+  8054,  "Right shift"
+  8055,  "Not"
+  8056,  "And"
+  8057,  "Average"
+  8058,  "Average of square"
+  8059,  "Sum"
+  8060,  "Sum of square"
+  8061,  "Standard deviation"
+  8062,  "Standard deviation population"
+  8063,  "Clear dataset value"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8064,  "Clear all dataset values"
+  8065,  "Add dataset value"
+  8066,  "Decimal separator"
+  8067,  "Open parenthesis"
+  8068,  "Close parenthesis"
+  8069,  "Percentage"
+  8070,  "Equals"
+  8071,  "Quadruple Word"
+  8072,  "Double Word"
+  8073,  "Hexadecimal"
+  8074,  "Decimal"
+  8075,  "Octal"
+  8076,  "Binary"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9000,  "Consolas"
+  9001,  "Segoe UI"
+  9002,  "Consolas"
+  9003,  "Segoe UI"
+  9004,  "Segoe UI"
+  9005,  "Consolas"
+  9006,  "Consolas"
+  9007,  "Consolas"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9008,  "Consolas"
+  9009,  "Segoe UI"
+  9010,  "Segoe UI"
+  9011,  "Segoe UI"
+  9012,  "Segoe UI"
+  9013,  "Segoe UI Symbol"
+  9014,  "Segoe UI"
+  9015,  "Segoe UI"
+  9016,  "Segoe UI"
+  9017,  "Segoe UI Symbol"
+  9018,  "Segoe UI"
+  9019,  "Segoe UI"
+  9020,  "Segoe UI"
+  9021,  "Segoe UI"
+  9022,  "Segoe UI"
+  9023,  "Segoe UI"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9024,  "Segoe UI"
+  9025,  "Segoe UI Symbol"
+  9026,  "Segoe UI Symbol"
+  9027,  "Segoe UI"
+  9028,  "Segoe UI"
+  9029,  "Segoe UI Symbol"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9500,  "18"
+  9501,  "18"
+  9502,  "14"
+  9503,  "11"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9504,  "9"
+  9505,  "7"
+  9506,  "6"
+  9507,  "8"
+  9508,  "9"
+  9509,  "7"
+  9510,  "7"
+  9511,  "11"
+  9512,  "9"
+  9513,  "9"
+  9514,  "9"
+  9515,  "12"
+  9516,  "11"
+  9517,  "8"
+  9518,  "8"
+  9519,  "11"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9520,  "8"
+  9521,  "8"
+  9522,  "7"
+  9523,  "10"
+  9524,  "8"
+  9525,  "8"
+  9526,  "8"
+  9527,  "8"
+  9528,  "9"
+  9529,  "9"
+  9530,  "18"
+  9531,  "9"
+  9532,  "18"
+  9533,  "12"
+  9534,  "8"
+  9535,  "10"
+}
+
+900 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33  , 113, ASCII
+  VK_S  , 102, VIRTKEY
+  VK_O  , 103, VIRTKEY
+  VK_T  , 104, VIRTKEY
+  VK_R  , 114, VIRTKEY
+  VK_Y  , 97, VIRTKEY
+  35  , 112, ASCII
+  64  , 110, ASCII
+  VK_Q  , 111, VIRTKEY
+  VK_I  , 146, VIRTKEY
+  VK_M  , 115, VIRTKEY
+  VK_N  , 108, VIRTKEY
+  VK_L  , 109, VIRTKEY
+  VK_V  , 119, VIRTKEY
+  VK_X  , 127, VIRTKEY
+  VK_E  , 127, VIRTKEY
+  VK_P  , 120, VIRTKEY
+  VK_F2  , 155, VIRTKEY
+  VK_F3  , 321, VIRTKEY
+  VK_F4  , 322, VIRTKEY
+  VK_F5  , 323, VIRTKEY
+  VK_D  , 1050, VIRTKEY, SHIFT, CONTROL
+  40  , 1052, VIRTKEY
+  38  , 1051, VIRTKEY
+  34  , 1052, VIRTKEY
+  33  , 1051, VIRTKEY
+  40  , 128, ASCII
+  41  , 129, ASCII
+  59  , 98, ASCII
+  VK_D  , 95, VIRTKEY
+  VK_S  , 105, VIRTKEY, CONTROL
+  VK_O  , 106, VIRTKEY, CONTROL
+  VK_T  , 107, VIRTKEY, CONTROL
+  VK_Y  , 96, VIRTKEY, CONTROL
+  VK_B  , 116, VIRTKEY, CONTROL
+  VK_G  , 117, VIRTKEY, CONTROL
+  VK_RETURN  , 121, VIRTKEY
+  VK_DELETE  , 82, VIRTKEY
+  61  , 121, ASCII
+  43  , 93, ASCII
+  107  , 93, VIRTKEY
+  45  , 94, ASCII
+  42  , 92, ASCII
+  47  , 91, ASCII
+}
+
+901 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_R  , 114, VIRTKEY
+  64  , 110, ASCII
+  VK_F2  , 155, VIRTKEY
+  VK_D  , 1050, VIRTKEY, SHIFT, CONTROL
+  40  , 1052, VIRTKEY
+  38  , 1051, VIRTKEY
+  34  , 1052, VIRTKEY
+  33  , 1051, VIRTKEY
+  37  , 118, ASCII
+  VK_RETURN  , 121, VIRTKEY
+  VK_DELETE  , 82, VIRTKEY
+  61  , 121, ASCII
+  43  , 93, ASCII
+  107  , 93, VIRTKEY
+  40  , 128, ASCII
+  41  , 129, ASCII
+  45  , 94, ASCII
+  42  , 92, ASCII
+  47  , 91, ASCII
+}
+
+902 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_D  , 1056, VIRTKEY
+  VK_F2  , 155, VIRTKEY
+  40  , 1052, VIRTKEY
+  38  , 1051, VIRTKEY
+  34  , 1052, VIRTKEY
+  33  , 1051, VIRTKEY
+  VK_RETURN  , 168, VIRTKEY
+  VK_V  , 119, VIRTKEY
+  VK_A  , 171, VIRTKEY
+  VK_S  , 173, VIRTKEY
+  VK_T  , 175, VIRTKEY
+  VK_A  , 172, VIRTKEY, CONTROL
+  VK_S  , 174, VIRTKEY, CONTROL
+  VK_T  , 176, VIRTKEY, CONTROL
+  VK_X  , 127, VIRTKEY
+  VK_E  , 127, VIRTKEY
+  VK_X  , 127, VIRTKEY, SHIFT
+  VK_E  , 127, VIRTKEY, SHIFT
+}
+
+903 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_A  , 140, VIRTKEY
+  VK_A  , 140, VIRTKEY, SHIFT
+  VK_B  , 141, VIRTKEY
+  VK_B  , 141, VIRTKEY, SHIFT
+  VK_C  , 142, VIRTKEY
+  VK_C  , 142, VIRTKEY, SHIFT
+  VK_D  , 143, VIRTKEY
+  VK_D  , 143, VIRTKEY, SHIFT
+  VK_E  , 144, VIRTKEY
+  VK_E  , 144, VIRTKEY, SHIFT
+  VK_F  , 145, VIRTKEY
+  VK_F  , 145, VIRTKEY, SHIFT
+  VK_F5  , 313, VIRTKEY
+  VK_F6  , 314, VIRTKEY
+  VK_F7  , 315, VIRTKEY
+  VK_F8  , 316, VIRTKEY
+  VK_F2  , 318, VIRTKEY
+  VK_F3  , 319, VIRTKEY
+  VK_F4  , 320, VIRTKEY
+  VK_F12  , 317, VIRTKEY
+  VK_J  , 99, VIRTKEY
+  VK_K  , 100, VIRTKEY
+  37  , 95, ASCII
+  38  , 86, ASCII
+  124  , 87, ASCII
+  126  , 101, ASCII
+  94  , 88, ASCII
+  40  , 128, ASCII
+  41  , 129, ASCII
+  60  , 89, ASCII
+  62  , 90, ASCII
+  32  , 770, ASCII
+  37  , 771, VIRTKEY
+  39  , 772, VIRTKEY
+  VK_RETURN  , 121, VIRTKEY
+  VK_DELETE  , 82, VIRTKEY
+  61  , 121, ASCII
+  43  , 93, ASCII
+  107  , 93, VIRTKEY
+  45  , 94, ASCII
+  42  , 92, ASCII
+  47  , 91, ASCII
+}
+
+904 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3  , 300, ASCII
+  22  , 301, ASCII
+  VK_INSERT  , 300, VIRTKEY, CONTROL
+  VK_INSERT  , 301, VIRTKEY, SHIFT
+}
+
+905 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_C  , 5008, VIRTKEY, ALT
+  49  , 305, VIRTKEY, ALT
+  50  , 304, VIRTKEY, ALT
+  51  , 306, VIRTKEY, ALT
+  52  , 307, VIRTKEY, ALT
+  VK_U  , 975, VIRTKEY, CONTROL
+  VK_E  , 979, VIRTKEY, CONTROL
+  VK_F4  , 973, VIRTKEY, CONTROL
+  VK_H  , 965, VIRTKEY, CONTROL
+}
+
+906 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  "0"  , 130, ASCII
+  "1"  , 131, ASCII
+  "2"  , 132, ASCII
+  "3"  , 133, ASCII
+  "4"  , 134, ASCII
+  "5"  , 135, ASCII
+  "6"  , 136, ASCII
+  "7"  , 137, ASCII
+  "8"  , 138, ASCII
+  "9"  , 139, ASCII
+  46  , 84, ASCII
+  44  , 84, ASCII
+  VK_F9  , 80, VIRTKEY
+  VK_BACK  , 83, VIRTKEY
+  27  , 81, VIRTKEY
+  16  , 125, ASCII
+  17  , 126, ASCII
+  12  , 122, ASCII
+  18  , 123, ASCII
+  3  , 300, ASCII
+  22  , 301, ASCII
+  VK_INSERT  , 300, VIRTKEY, CONTROL
+  VK_INSERT  , 301, VIRTKEY, SHIFT
+  VK_K  , 302, VIRTKEY, SHIFT, CONTROL
+  13  , 124, ASCII
+  VK_F1  , 311, VIRTKEY
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Calculator\r\n"
+  2952790017,  "HistoryToggle has started\r\n"
+  2952790018,  "History toggle has been closed\r\n"
+  2952790019,  "Calculator Command has started\r\n"
+  2952790020,  "Calculator Command has been completed\r\n"
+  2952790021,  "Launching of app has started\r\n"
+  2952790022,  "Launching of app has been closed\r\n"
+  2952790023,  "Closing of app has started\r\n"
+  2952790024,  "App has been closed\r\n"
+  2952790025,  "Reading templates: Start\r\n"
+  2952790026,  "Reading templates: Stop\r\n"
+  2952790027,  "Loading templates: Start\r\n"
+  2952790028,  "Loading templates: Stop\r\n"
+  2952790029,  "Initing template manager: Start\r\n"
+  2952790030,  "Initing template manager: Stop\r\n"
+  2952790031,  "Template formula lookup: Start\r\n"
+  2952790032,  "Template formula lookup: Stop\r\n"
+  2952790033,  "Template parsing error\r\n"
+  2952790034,  "Template validation error\r\n"
+  2952790035,  "GetCategories: Start\r\n"
+  2952790036,  "GetCategories: Stop\r\n"
+  2952790037,  "Unit Conversion error\r\n"
+  2952790038,  "Statistics Calculation has started\r\n"
+  2952790039,  "Statistics Calculation has been completed\r\n"
+  2952790040,  "Recalculation has started\r\n"
+  2952790041,  "Recalculation has been completed\r\n"
+  2952790042,  "Mode change event has started\r\n"
+  2952790043,  "Mode change has been completed\r\n"
+}

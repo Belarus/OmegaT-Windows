@@ -1,0 +1,544 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1146 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "Select &all", 1149
+    MENUITEM "&Clear all", 1150
+    MENUITEM SEPARATOR
+    MENUITEM "E&xpand all", 1175
+    MENUITEM "C&ollapse all", 1176
+  }
+}
+
+1147 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Select item", 1151
+    MENUITEM "&Clear item", 1152
+  }
+}
+
+1148 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "C&ollapse", 1154
+    MENUITEM "E&xpand", 1155
+    MENUITEM "Re&name group", 1156
+    MENUITEM "Add &tags", 1170
+    MENUITEM "&Select group", 1157
+    MENUITEM "&Clear group", 1158
+  }
+}
+
+995 DIALOGEX 0, 0, 307, 237
+CAPTION "Scanners and Cameras"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "If you do not see your device in the list, make sure it is connected to the computer and turned on, then choose Refresh.", 4294967295, Static, 0x50020000, 7, 7, 292, 16, 0x0
+  CONTROL "", 1078, "SysListView32", 0x5081010c, 7, 28, 292, 137, 0x0
+  CONTROL "&Refresh", 1108, Button, 0x50010000, 7, 172, 50, 14, 0x0
+  CONTROL "&Add Device...", 999, Button, 0x50010000, 61, 172, 68, 14, 0x0
+  CONTROL "&Scan Profiles", 998, Button, 0x50010000, 133, 172, 63, 14, 0x0
+  CONTROL "&Properties", 997, Button, 0x50010001, 200, 172, 57, 14, 0x0
+  CONTROL "<a>Do I need to use this to install my scanner or camera?</a>", 1272, "SysLink", 0x50010002, 7, 193, 293, 9, 0x0
+  CONTROL "&Close", 2, Button, 0x50010000, 250, 216, 50, 14, 0x0
+}
+
+1045 DIALOGEX 0, 0, 259, 281
+CAPTION "Import Settings"
+STYLE 0x84c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Settings for: ", 1102, Button, 0x54000007, 7, 9, 245, 175, 0x0
+  CONTROL "", 1095, ComboBox, 0x50210003, 69, 7, 147, 90, 0x0
+  CONTROL "Use &custom location and naming settings", 1096, Button, 0x50010003, 16, 26, 196, 10, 0x0
+  CONTROL "&Import to:", 1097, Static, 0x50020000, 17, 44, 52, 8, 0x0
+  CONTROL "", 1047, "ComboBoxEx32", 0x50210003, 69, 42, 121, 96, 0x0
+  CONTROL "&Browse...", 1048, Button, 0x50010000, 193, 41, 50, 14, 0x0
+  CONTROL "&Folder name:", 1098, Static, 0x50020000, 16, 63, 52, 8, 0x0
+  CONTROL "folder name", 1105, "ComboBoxEx32", 0x50210003, 69, 61, 174, 96, 0x0
+  CONTROL "File &name:", 1099, Static, 0x50020000, 16, 82, 52, 8, 0x0
+  CONTROL "file name", 1106, "ComboBoxEx32", 0x50210003, 69, 80, 174, 96, 0x0
+  CONTROL "Example:", 1110, Static, 0x50028000, 16, 99, 52, 8, 0x0
+  CONTROL "Static", 1109, Static, 0x50028000, 69, 99, 174, 8, 0x0
+  CONTROL "Other options:", 1101, Static, 0x50020000, 16, 114, 218, 8, 0x0
+  CONTROL "&Open Windows Explorer after import", 1051, Button, 0x50012403, 24, 125, 218, 10, 0x0
+  CONTROL "", 1052, Button, 0x50012403, 24, 137, 218, 10, 0x0
+  CONTROL "&Rotate pictures on import", 1055, Button, 0x50012403, 24, 149, 218, 10, 0x0
+  CONTROL "Import videos as &multiple files (not available for HD video)", 1056, Button, 0x50012403, 24, 161, 218, 25, 0x0
+  CONTROL "<a>Change default AutoPlay options</a>", 1094, "SysLink", 0x50030002, 7, 192, 243, 9, 0x0
+  CONTROL "Res&tore defaults", 1107, Button, 0x50010000, 7, 206, 80, 14, 0x0
+  CONTROL "Pl&ugins", 1089, Button, 0x50030000, 73, 206, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 148, 261, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 202, 261, 50, 14, 0x0
+}
+
+1046 DIALOGEX 0, 0, 264, 300
+CAPTION "Import Settings"
+STYLE 0x84c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Settings for: ", 1102, Button, 0x54000007, 7, 9, 249, 194, 0x0
+  CONTROL "", 1095, ComboBox, 0x50210003, 69, 7, 147, 90, 0x0
+  CONTROL "Use &custom location and naming settings", 1096, Button, 0x50010003, 16, 26, 196, 10, 0x0
+  CONTROL "&Import images to:", 1097, Static, 0x50020000, 17, 44, 60, 8, 0x0
+  CONTROL "", 1047, "ComboBoxEx32", 0x50210003, 73, 42, 121, 96, 0x0
+  CONTROL "&Browse...", 1048, Button, 0x50010000, 196, 41, 50, 14, 0x0
+  CONTROL "Import &videos to:", 1104, Static, 0x50020000, 17, 63, 60, 8, 0x0
+  CONTROL "", 1049, "ComboBoxEx32", 0x50210003, 73, 61, 121, 96, 0x0
+  CONTROL "Bro&wse...", 1050, Button, 0x50010000, 196, 60, 50, 14, 0x0
+  CONTROL "&Folder name:", 1098, Static, 0x50020000, 16, 82, 52, 8, 0x0
+  CONTROL "folder name", 1105, "ComboBoxEx32", 0x50210003, 73, 80, 174, 96, 0x0
+  CONTROL "File &name:", 1099, Static, 0x50020000, 16, 101, 52, 8, 0x0
+  CONTROL "file name", 1106, "ComboBoxEx32", 0x50210003, 73, 99, 174, 96, 0x0
+  CONTROL "Example:", 1110, Static, 0x50028000, 16, 118, 52, 8, 0x0
+  CONTROL "Static", 1109, Static, 0x50028000, 73, 118, 174, 8, 0x0
+  CONTROL "Other options:", 1101, Static, 0x50020000, 16, 133, 218, 8, 0x0
+  CONTROL "&Open Windows Explorer after import", 1051, Button, 0x50012403, 24, 144, 218, 10, 0x0
+  CONTROL "", 1052, Button, 0x50012403, 24, 156, 218, 10, 0x0
+  CONTROL "&Rotate pictures on import", 1055, Button, 0x50012403, 24, 168, 218, 10, 0x0
+  CONTROL "Import videos as &multiple files (not available for HD video)", 1056, Button, 0x50012403, 24, 180, 218, 25, 0x0
+  CONTROL "<a>Change default AutoPlay options</a>", 1094, "SysLink", 0x50030002, 7, 211, 243, 9, 0x0
+  CONTROL "Res&tore defaults", 1107, Button, 0x50010000, 7, 225, 80, 14, 0x0
+  CONTROL "Pl&ugins", 1089, Button, 0x50030000, 73, 225, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 148, 280, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 202, 280, 50, 14, 0x0
+}
+
+1062 DIALOGEX 0, 0, 231, 94
+CAPTION "<Title>"
+STYLE 0x80ca08c0
+EXSTYLE 0x10000
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1111, "SysLink", 0x48010000 | NOT WS_VISIBLE, 7, 76, 146, 9, 0x0
+  CONTROL "Cancel", 1072, Button, 0x50010001, 174, 73, 50, 14, 0x0
+}
+
+1063 DIALOGEX 0, 0, 230, 66
+CAPTION ""
+STYLE 0x40080c40 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1001, Static, 0x50000a0e, 7, 7, 60, 52, 0x0
+  CONTROL "<Caption>", 1074, Static, 0x5002408b, 76, 13, 147, 8, 0x0
+  CONTROL "", 1000, "msctls_progress32", 0x50800000, 76, 25, 147, 9, 0x0
+  CONTROL "<Caption>", 1002, Static, 0x5002408b, 76, 37, 147, 8, 0x0
+  CONTROL "<Caption>", 1070, Button, 0x50010003, 76, 49, 147, 10, 0x0
+}
+
+1064 DIALOGEX 0, 0, 230, 66
+CAPTION ""
+STYLE 0x40080c40 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1001, Static, 0x50000a0e, 7, 7, 60, 52, 0x0
+  CONTROL "<Caption>", 1074, Static, 0x5002400c, 76, 13, 147, 8, 0x0
+  CONTROL "", 1075, ComboBox, 0x50210042, 76, 25, 147, 72, 0x0
+}
+
+1065 DIALOGEX 0, 0, 230, 92
+CAPTION "Import Pictures and Videos"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1001, Static, 0x50000a0e, 7, 7, 60, 52, 0x0
+  CONTROL "<Caption>", 1074, Static, 0x5002400c, 76, 13, 147, 8, 0x0
+  CONTROL "", 1075, ComboBox, 0x50210042, 76, 25, 147, 72, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 119, 72, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 173, 72, 50, 14, 0x0
+}
+
+1071 DIALOGEX 0, 0, 335, 214
+CAPTION "Import Pictures and Videos"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "If you do not see your device in the list, make sure it is connected to the computer and turned on, then choose Refresh.", 4294967295, Static, 0x50020000, 7, 7, 292, 16, 0x0
+  CONTROL "", 1078, "SysListView32", 0x5081010c, 7, 28, 320, 130, 0x0
+  CONTROL "&Refresh", 1108, Button, 0x50010000, 7, 165, 50, 14, 0x0
+  CONTROL "I&mport", 1, Button, 0x50010001, 224, 193, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 278, 193, 50, 14, 0x0
+}
+
+1105 DIALOGEX 0, 0, 291, 99
+CAPTION "Import Pictures and Videos"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 1083, Static, 0x50000a07, 7, 7, 38, 31, 0x0
+  CONTROL "{Error Message -- Don't Localize}", 1084, Static, 0x50020080, 49, 7, 236, 8, 0x0
+  CONTROL "What do you want to do?", 1085, Static, 0x50020000, 49, 15, 236, 8, 0x0
+  CONTROL "&Try again", 1080, Button, 0x50010009, 57, 30, 220, 10, 0x0
+  CONTROL "&Skip this file", 1081, Button, 0x50000009, 57, 42, 220, 10, 0x0
+  CONTROL "Skip &all files with errors", 1082, Button, 0x50000009, 57, 54, 220, 10, 0x0
+  CONTROL "&Continue", 1, Button, 0x50030001, 180, 78, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 234, 78, 50, 14, 0x0
+  CONTROL "", 996, Static, 0x40000010 | NOT WS_VISIBLE, 7, 72, 277, 1, 0x0
+}
+
+1107 DIALOGEX 0, 0, 256, 166
+CAPTION "Import Plugins"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Available plugins:", 4294967295, Static, 0x50020000, 7, 7, 185, 8, 0x0
+  CONTROL "", 1087, "SysListView32", 0x5081c90d, 7, 17, 242, 93, 0x0
+  CONTROL "Move &up", 1090, Button, 0x50010000, 7, 117, 50, 14, 0x0
+  CONTROL "Move &down", 1091, Button, 0x50010000, 61, 117, 50, 14, 0x0
+  CONTROL "&Settings...", 1088, Button, 0x50010000, 115, 117, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 145, 145, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 199, 145, 50, 14, 0x0
+}
+
+1112 DIALOGEX 0, 0, 257, 237
+CAPTION ""
+STYLE 0x44000040 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Settings for: ", 1102, Button, 0x54000007, 7, 9, 245, 175, 0x0
+  CONTROL "", 1095, ComboBox, 0x50210003, 69, 7, 147, 90, 0x0
+  CONTROL "Use &custom location and naming settings", 1096, Button, 0x50010003, 16, 26, 196, 10, 0x0
+  CONTROL "&Import to:", 1097, Static, 0x50020000, 17, 44, 52, 8, 0x0
+  CONTROL "", 1047, "ComboBoxEx32", 0x50210003, 69, 42, 121, 96, 0x0
+  CONTROL "&Browse...", 1048, Button, 0x50010000, 193, 41, 50, 14, 0x0
+  CONTROL "&Folder name:", 1098, Static, 0x50020000, 16, 63, 52, 8, 0x0
+  CONTROL "folder name", 1105, "ComboBoxEx32", 0x50210003, 69, 61, 174, 96, 0x0
+  CONTROL "File &name:", 1099, Static, 0x50020000, 16, 82, 52, 8, 0x0
+  CONTROL "file name", 1106, "ComboBoxEx32", 0x50210003, 69, 80, 174, 96, 0x0
+  CONTROL "Example:", 1110, Static, 0x50028000, 16, 99, 52, 8, 0x0
+  CONTROL "Static", 1109, Static, 0x50024000, 69, 99, 174, 8, 0x0
+  CONTROL "Other options:", 1101, Static, 0x50020000, 16, 114, 218, 8, 0x0
+  CONTROL "&Open Windows Explorer after importing files", 1051, Button, 0x50012403, 24, 125, 218, 10, 0x0
+  CONTROL "", 1052, Button, 0x50012403, 24, 137, 218, 10, 0x0
+  CONTROL "&Rotate photos during import", 1055, Button, 0x50012403, 24, 149, 218, 10, 0x0
+  CONTROL "Import videos as &multiple files (not available for HD video)", 1056, Button, 0x50012403, 24, 161, 218, 25, 0x0
+  CONTROL "<a>Change default AutoPlay options</a>", 1094, "SysLink", 0x50030002, 7, 192, 243, 9, 0x0
+  CONTROL "Res&tore defaults", 1107, Button, 0x50010000, 7, 206, 80, 14, 0x0
+  CONTROL "Pl&ugins", 1089, Button, 0x50030000, 73, 206, 50, 14, 0x0
+}
+
+1113 DIALOGEX 0, 0, 261, 256
+CAPTION ""
+STYLE 0x44000040 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Settings for: ", 1102, Button, 0x54000007, 7, 9, 245, 194, 0x0
+  CONTROL "", 1095, ComboBox, 0x50210003, 69, 7, 147, 90, 0x0
+  CONTROL "Use &custom location and naming settings", 1096, Button, 0x50010003, 16, 26, 196, 10, 0x0
+  CONTROL "&Import images to:", 1097, Static, 0x50020000, 17, 44, 60, 8, 0x0
+  CONTROL "", 1047, "ComboBoxEx32", 0x50210003, 73, 42, 121, 96, 0x0
+  CONTROL "&Browse...", 1048, Button, 0x50010000, 196, 41, 50, 14, 0x0
+  CONTROL "Import &videos to:", 1104, Static, 0x50020000, 17, 63, 60, 8, 0x0
+  CONTROL "", 1049, "ComboBoxEx32", 0x50210003, 73, 61, 121, 96, 0x0
+  CONTROL "Bro&wse...", 1050, Button, 0x50010000, 196, 60, 50, 14, 0x0
+  CONTROL "&Folder name:", 1098, Static, 0x50020000, 16, 81, 52, 8, 0x0
+  CONTROL "folder name", 1105, "ComboBoxEx32", 0x50210003, 73, 80, 174, 96, 0x0
+  CONTROL "File &name:", 1099, Static, 0x50020000, 16, 82, 52, 8, 0x0
+  CONTROL "file name", 1106, "ComboBoxEx32", 0x50210003, 69, 80, 174, 96, 0x0
+  CONTROL "Example:", 1110, Static, 0x50028000, 16, 118, 52, 8, 0x0
+  CONTROL "Static", 1109, Static, 0x50024000, 69, 99, 174, 8, 0x0
+  CONTROL "Other options:", 1101, Static, 0x50020000, 16, 133, 218, 8, 0x0
+  CONTROL "&Open Windows Explorer after importing files", 1051, Button, 0x50012403, 24, 144, 218, 10, 0x0
+  CONTROL "", 1052, Button, 0x50012403, 24, 156, 218, 10, 0x0
+  CONTROL "&Rotate photos during import", 1055, Button, 0x50012403, 24, 168, 218, 10, 0x0
+  CONTROL "Import videos as &multiple files (not available for HD video)", 1056, Button, 0x50012403, 24, 180, 218, 25, 0x0
+  CONTROL "<a>Change default AutoPlay options</a>", 1094, "SysLink", 0x50030002, 7, 211, 243, 9, 0x0
+  CONTROL "Res&tore defaults", 1107, Button, 0x50010000, 7, 225, 80, 14, 0x0
+  CONTROL "Pl&ugins", 1089, Button, 0x50030000, 73, 2225, 50, 14, 0x0
+}
+
+1115 DIALOGEX 0, 0, 340, 119
+CAPTION "<Title>"
+STYLE 0x80ca0840
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  102,  "Importing item %1!u! of %2!u!"
+  103,  "The following plugin caused a failure and will be disabled:\n\n%s"
+  105,  "&Tag these pictures (optional):"
+  106,  "Import Pictures and Videos"
+  109,  "Properties are not available for this item"
+  110,  "Locating pictures and videos"
+  111,  "Erasing item %1!u! of %2!u!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  113,  "Erasing Pictures and Videos"
+  114,  "No pictures or videos were found on this device"
+  115,  "The following error occurred while erasing pictures and videos:\n%s"
+  116,  "One or more files were copied to your computer.  Do you want to remove them?"
+  117,  "Are you sure you want to cancel importing?"
+  119,  "One or more imported items could not be deleted.  The most recent error was:\n%s"
+  120,  "This device:\n\n%s\n\nis already being used by ""%s"".\n\nIf another Import Pictures and Videos window is already open, please close it and then try again."
+  121,  "This device:\n\n%s\n\nis already in use."
+  122,  "Erase pictures and videos from camera after they have been copied to your computer."
+  123,  "Unable to start importing pictures due to the following error:\n%s"
+  125,  "Digital Video Cameras"
+  126,  "This plugin doesn&apos;t have any configuration options"
+  127,  "An error occurred displaying configuration settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "Import Plugins"
+  129,  "Choose a location to store your pictures and videos:"
+  130,  "The following error occurred while erasing %s:\n%s"
+  131,  "For these changes to take effect, close Import Pictures and Videos and then start importing again."
+  132,  "Unable to connect to the device due to the following error:\n\n%s"
+  133,  "You have entered an invalid command"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "The following error occurred while importing:\n%s"
+  301,  "The exact error is unknown.  Make a note of this error code, which might be useful if you seek additional help to resolve this problem: %X\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "The following error occurred while finding pictures and videos to import:\n%s"
+  305,  "The following error occurred while importing %s:\n%s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Import pictures and videos"
+  401,  "Windows"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "Date Imported + Name"
+  701,  "Date Taken + Name"
+  702,  "Date Taken Range + Name"
+  703,  "Name + Date Imported"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "Name + Date Taken"
+  705,  "Name + Date Taken Range"
+  706,  "Name"
+  707,  "Downloaded Albums\\Owner Name\\Album Name"
+  708,  "Downloaded Albums\\Album Name"
+  709,  "(None)"
+  710,  "Name"
+  711,  "Original File Name"
+  712,  "Original File Name (Preserve Folders)"
+  713,  "Album Name"
+  714,  "Name + Date Taken"
+  715,  "Date Taken + Name"
+  716,  "Name + Date/Time Taken"
+  717,  "Date/Time Taken + Name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "{DATE_ACQUIRED} Himalayas"
+  801,  "{DATE_TAKEN_2} Himalayas"
+  802,  "{DATE_TAKEN_1} - {DATE_TAKEN_2} Himalayas"
+  803,  "Himalayas {DATE_ACQUIRED}"
+  804,  "Himalayas {DATE_TAKEN_2}"
+  805,  "Himalayas {DATE_TAKEN_1} - {DATE_TAKEN_2}"
+  806,  "Himalayas"
+  807,  "Downloaded Albums\\Owner\\Asia"
+  808,  "Downloaded Albums\\Asia"
+  809,  "Himalayas 001.JPG"
+  810,  "DSC_1234.JPG"
+  811,  "Folder\\DSC_1234.JPG"
+  812,  "Asia 001.JPG"
+  813,  "Himalayas {DATE_TAKEN_1} 11.35.33.JPG"
+  814,  "{DATE_TAKEN_1} 11.35.33 Himalayas.JPG"
+  815,  "Himalayas {DATE_TAKEN_1} 001.JPG"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  816,  "{DATE_TAKEN_1} Himalayas 001.JPG"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1036,  "Cameras and Portable Devices"
+  1037,  "CDs and DVDs"
+  1038,  "Scanners"
+  1039,  "Video cameras"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1040,  "Album download"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "&Next"
+  1121,  "I&mport"
+  1122,  "<a>More options</a>"
+  1133,  "Item %u"
+  1134,  "%1!s! %2!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1143,  "Select all items in this group"
+  1144,  "Expand group"
+  1145,  "Collapse group"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1163,  "Looking for pictures and videos..."
+  1164,  "%d new pictures and videos were found"
+  1165,  "Select the groups you want to import"
+  1166,  "Importing pictures and videos..."
+  1167,  "View all %d items"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1168,  "Add &tags"
+  1169,  "Enter a name"
+  1172,  "That character is not allowed in a tag name"
+  1173,  "Deselect all items in this group"
+  1177,  "Add tags to make it easier to find your pictures and videos. Example: Dad; surfing; beach"
+  1178,  "%1!s! to %2!s!"
+  1179,  "%1!s!, %2!s! to %3!s!"
+  1180,  "%1!s!, %2!s!"
+  1181,  "No date and time information available"
+  1182,  "Cancel"
+  1183,  "&Back"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184,  "%d new photo or video was found"
+  1185,  "Found %d photo or video"
+  1186,  "Your pictures and videos are grouped by date and time. Each group will be saved to a different folder."
+  1189,  "Import &all new items now"
+  1190,  "&Review, organize, and group items to import"
+  1194,  "Select group"
+  1195,  "This folder does not exist. Choose another location."
+  1196,  "You cannot import to this folder.  Choose another location."
+  1197,  "You cannot import video files to a network drive.  Choose another location."
+  1198,  "View 1 item"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Move the slider to change the amount of time between groups."
+  1201,  "1 hour between groups"
+  1203,  "%.1f hours between groups"
+  1204,  "1 day between groups"
+  1205,  "%u days between groups"
+  1206,  "All items in one group"
+  1207,  "1 item"
+  1208,  "%u items"
+  1209,  "1 group"
+  1210,  "%u groups"
+  1211,  "%1!s! selected in %2!s!"
+  1212,  "Adjust g&roups:"
+  1213,  "This item was already imported."
+  1214,  "This item contains an attachment."
+  1215,  "This item contains attachments."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1220,  "D&elete files from device after importing"
+  1221,  "D&elete files from writable CDs and DVDs after importing"
+  1222,  "Settings for"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1270,  "&Erase after importing"
+  1271,  "Found %d pictures and videos"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1301,  "Scanners and Cameras"
+  1302,  "Other Devices"
+  1303,  "Unknown device"
+  1304,  "Imported Pictures and Videos"
+  1305,  "Import Pictures and Videos"
+  1306,  "Pictures and videos that were previously synced to this device weren’t imported. You can manually copy them to your computer using Windows Explorer."
+  1307,  "Looking in"
+  1308,  "Choose a location to store your pictures:"
+  1309,  "Choose a location to store your videos:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1402,  "%u hours between groups"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1439,  "&Collapse all"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1440,  "E&xpand all"
+  1441,  "&Select all"
+}
+
+1 MESSAGETABLE
+{
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-PhotoAcq\r\n"
+}

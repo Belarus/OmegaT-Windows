@@ -1,0 +1,533 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10,  "Saves energy by reducing your computer’s performance where possible."
+  11,  "Power saver"
+  12,  "Favors performance, but may use more energy."
+  13,  "High performance"
+  14,  "Automatically balances performance with energy consumption on capable hardware."
+  15,  "Balanced"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Power plan used when there are no users logged into the system."
+  17,  "System power plan"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50,  "Do nothing"
+  51,  "Do nothing"
+  52,  "Sleep"
+  53,  "Sleep"
+  54,  "Hibernate"
+  55,  "Hibernate"
+  56,  "Shut down"
+  57,  "Shut down"
+  58,  "Do nothing"
+  59,  "Do nothing"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Seconds"
+  81,  "%"
+  82,  "Milliseconds"
+  83,  "Microseconds"
+  84,  "MB"
+  85,  "Minutes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "The default Windows power plan types include Balanced, Power saver, and High performance. The three types are designed to balance power savings while providing performance on demand, maximize power savings, or maximize performance. Many system components use the power plan type to deciding whether to optimize power savings or performance."
+  101,  "Power plan type"
+  102,  "Require a password to unlock the computer when it wakes from sleep."
+  103,  "Require a password on wakeup"
+  104,  "Specify how long your computer is inactive before going to sleep."
+  105,  "Sleep after"
+  106,  "Specify how long your computer is inactive before hibernating."
+  107,  "Hibernate after"
+  108,  "Allow Windows to save your work and enter a low-power state so that you can resume working almost immediately."
+  109,  "Allow hybrid sleep"
+  110,  "Enables system to show a progress bar during transitions to sleep."
+  111,  "Enable Sleep Progress Bar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  114,  "On"
+  115,  "On"
+  116,  "Off"
+  117,  "Off"
+  118,  "No"
+  119,  "Specify sleep settings."
+  120,  "Sleep"
+  121,  "Allow Windows to use the standby states when sleeping your computer."
+  122,  "Allow Standby States"
+  123,  "Yes"
+  124,  "Specify if timed events should be allowed to wake the computer from sleep."
+  125,  "Allow wake timers"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "Idle timeout before the system returns to a low power sleep state after waking unattended."
+  129,  "System unattended sleep timeout"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  150,  "Specifies the policy for devices powering down while the system is running."
+  151,  "Device idle policy"
+  152,  "Favor performance over power savings."
+  153,  "Performance"
+  154,  "Favor power savings over performance."
+  155,  "Power savings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "Configure notification and alarm settings for your battery."
+  201,  "Battery"
+  202,  "Specify the action to take when the battery capacity reaches the critical level."
+  203,  "Critical battery action"
+  204,  "Specify the action that your computer takes when battery capacity reaches the low level."
+  205,  "Low battery action"
+  206,  "Third Low Battery Alarm Action"
+  207,  "Third Low Battery Alarm Action"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Fourth Low Battery Alarm Action"
+  209,  "Fourth Low Battery Alarm Action"
+  210,  "Flags and settings for first low battery alarm"
+  211,  "First low-battery alarm flags"
+  212,  "Specify whether a notification is shown when the battery capacity reaches the low level."
+  213,  "Low battery notification"
+  214,  "Flags and settings for third low battery alarm"
+  215,  "Third low-battery alarm flags"
+  216,  "Flags and settings for fourth low battery alarm"
+  217,  "Fourth low-battery alarm flags"
+  218,  "Percentage of battery capacity remaining that initiates the critical battery action. "
+  219,  "Critical battery level"
+  220,  "Percentage of battery capacity remaining that initiates the low battery action."
+  221,  "Low battery level"
+  222,  "Percent battery power remaining when third low-power action should be taken."
+  223,  "Third power trip point"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "Percent battery power remaining when fourth low-power action should be taken."
+  225,  "Fourth power trip point"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  250,  "Specify what your computer does when you close the lid and press the power buttons."
+  251,  "Power buttons and lid"
+  252,  "Specify the action to take when you press the power button."
+  253,  "Power button action"
+  254,  "Specify the action to take when you press the sleep button."
+  255,  "Sleep button action"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  256,  "Specify the action that your computer takes when you close the lid on your mobile PC."
+  257,  "Lid close action"
+  258,  "Specify the action to take when you press the Start menu power button."
+  259,  "Start menu power button"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Specify power management settings for your hard disk."
+  301,  "Hard disk"
+  302,  "Specify how long your hard drive is inactive before the disk turns off."
+  303,  "Turn off hard disk after"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Allow the system to adapt the harddisk power down timeout based on system usage and recent history."
+  305,  "Enable adaptive powerdown timeout."
+  306,  "The harddisk may reduce its speed after the specified time of inactivity is detected."
+  307,  "Harddisk lowspeed timeout."
+  308,  "Allow the system to adapt the harddisk lowspeed timeout based on system usage and recent history."
+  309,  "Adaptive lowspeed timeout"
+  310,  "Ignore a burst of disk activity up to the specified time when determining if the disk is idle."
+  311,  "Hard disk burst ignore time"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  350,  "Specify power management settings for your computer’s processor."
+  351,  "Processor power management"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  352,  "Processor performance settings which allow the system to lower processor performance (and power consumption) if the system is not doing any work."
+  353,  "Processor throttle setting."
+  354,  "Disable any processor power savings."
+  355,  "Disable"
+  356,  "Lower the maximum frequency of the processor.  Regardless of the workload demands, the processor will run at a reduced frequency, thus drawing less power."
+  357,  "Lower maximum processor frequency"
+  358,  "Adaptively lower the maximum processor frequency, based on remaining battery life.  Regardless of the workload demands, the processor will run at a reduced frequency, thus drawing less power."
+  359,  "Adaptively lower the maximum processor frequency."
+  360,  "Adaptively adjust the processor frequency based on workload demands.  This setting will significantly reduce power consumption of the processor, while have very little effect on performance."
+  361,  "Adaptively adjust processor frequency."
+  362,  "Specify the maximum performance state of your processor (in percentage). "
+  363,  "Maximum processor state"
+  364,  "Specify the minimum performance state of your processor (in percentage). "
+  365,  "Minimum processor state"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  370,  "Specify the cooling mode for your system"
+  371,  "System cooling policy"
+  372,  "Slow the processor before increasing fan speed"
+  373,  "Passive"
+  374,  "Increase fan speed before slowing the processor"
+  375,  "Active"
+  376,  "Specify the upper busy threshold that must be met before increasing the processor's performance state (in percentage)."
+  377,  "Processor performance increase threshold"
+  378,  "Specify the lower busy threshold that must be met before decreasing the processor's performance state (in percentage)."
+  379,  "Processor performance decrease threshold"
+  380,  "Allow processors to use throttle states in addition to performance states."
+  381,  "Allow Throttle States"
+  382,  "Select the ideal processor performance state."
+  383,  "Ideal"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  384,  "Select the processor performance state one closer to ideal than the current processor performance state."
+  385,  "Single"
+  386,  "Select the highest speed/power processor performance state."
+  387,  "Rocket"
+  388,  "Select the lowest speed/power processor performance state."
+  389,  "Rocket"
+  390,  "Specify the algorithm used to select a new performance state when the ideal performance state is higher than the current performance state."
+  391,  "Processor performance increase policy"
+  392,  "Specify the algorithm used to select a new performance state when the ideal performance state is lower than the current performance state."
+  393,  "Processor performance decrease policy"
+  394,  "Specify the minimum number of perf check intervals since the last performance state change before the performance state may be increased."
+  395,  "Processor performance increase time"
+  396,  "Specify the minimum number of perf check intervals since the last performance state change before the performance state may be decreased."
+  397,  "Processor performance decrease time"
+  398,  "Specify the amount that must expire before processor performance states and parked cores may be reevaluated (in milliseconds)."
+  399,  "Processor performance time check interval"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Specify power management settings for your display."
+  401,  "Display"
+  402,  "Specify how long your computer is inactive before your display turns off."
+  403,  "Turn off display after"
+  404,  "Extends the time that Windows waits to turn off the display if you repeatedly turn on the display with the keyboard or mouse."
+  405,  "Adaptive display"
+  406,  "Specify how long your computer is inactive before your display dims."
+  407,  "Dim display after"
+  408,  "Specify timeout threshold within which the user would be considered annoyed."
+  409,  "User annoyance timeout"
+  410,  "Specify the percentage to increase the adaptive timeout by."
+  411,  "Increase adaptive timeout by"
+  412,  "Monitors ambient light sensors to detect changes in ambient light and adjust the display brightness."
+  413,  "Enable adaptive brightness"
+  414,  "Specifies console lock display off timeout"
+  415,  "Console lock display off timeout"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  510,  "Enable or disable passive cooling policy on the system."
+  511,  "Passive Cooling Mode"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  515,  "Specify the normal brightness level of your display."
+  516,  "Display brightness"
+  517,  "Do not allow Windows to wake from sleep on timed events."
+  518,  "Disable"
+  519,  "Allow Windows to wake from sleep on timed events."
+  520,  "Enable"
+  521,  "Specify the brightness level for when your display is dimmed."
+  522,  "Dimmed display brightness"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  550,  "Allow away mode to be enabled for your computer"
+  551,  "Allow Away Mode Policy"
+  552,  "Don't Allow away mode to be enabled"
+  553,  "No"
+  554,  "Allow away mode to be enabled"
+  555,  "Yes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  560,  "Allow programs to prevent machine from going to sleep automatically"
+  561,  "Allow system required policy"
+  562,  "Don't allow programs to prevent machine from going to sleep automatically"
+  563,  "Allow programs to prevent machine from going to sleep automatically"
+  566,  "Allow programs to prevent display from turning off automatically"
+  567,  "Allow display required policy"
+  568,  "Don't allow programs to prevent display from turning off automatically"
+  569,  "Allow programs to prevent display from turning off automatically"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  600,  "PCI Express Power Management Settings"
+  601,  "PCI Express"
+  602,  "Specifies the Active State Power Management (ASPM) policy to use for capable links when the link is idle."
+  603,  "Link State Power Management"
+  604,  "Turn off ASPM for all links."
+  605,  "Off"
+  606,  "Attempt to use the L0S state when link is idle."
+  607,  "Moderate power savings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  608,  "Attempt to use the L1 state when the link is idle."
+  609,  "Maximum power savings"
+  611,  "Batteries"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  700,  "Specify if idle state promotion and demotion values should be scaled based on the current performance state."
+  701,  "Processor idle threshold scaling"
+  702,  "Specify if idle states should be disabled."
+  703,  "Processor idle disable"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  704,  "Specify the time that elapsed since the last idle state promotion or demotion before idle states may be promoted or demoted again (in microseconds)."
+  705,  "Processor idle time check"
+  706,  "Specify the upper busy threshold that must be met before demoting the processor to a lighter idle state (in percentage)."
+  707,  "Processor idle demote threshold"
+  708,  "Specify the lower busy threshold that must be met before promoting the processor to a deeper idle state (in percentage)."
+  709,  "Processor idle promote threshold"
+  710,  "Enable scaling of idle state promotion and demotion values based on the current performance state."
+  711,  "Enable scaling"
+  712,  "Disable scaling of idle state promotion and demotion values based on the current performance state."
+  713,  "Disable scaling"
+  714,  "Enable idle states."
+  715,  "Enable idle"
+  716,  "Disable idle states."
+  717,  "Disable idle"
+  718,  "Time check intervals"
+  719,  "Specify how much processors may opportunistically increase frequency above maximum when allowed by current operating conditions."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  720,  "Processor performance boost policy"
+  721,  "Specify the number of processor performance time check intervals to use when calculating the average utility."
+  722,  "Processor performance history count"
+  723,  "Specify whether the processor performance engine should take latency sensitivity hints into account when selecting a performance state."
+  724,  "Processor performance latency sensitivity hints"
+  725,  "Disabled"
+  726,  "Enabled"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  750,  "Ideal number of cores"
+  751,  "Ideal number of cores"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  752,  "Single core"
+  753,  "Single core"
+  754,  "All possible cores"
+  755,  "All possible cores"
+  756,  "Specify the upper busy threshold that must be met before increasing the number of cores/packages that are unparked (in percentage)."
+  757,  "Processor performance core parking increase threshold"
+  758,  "Specify the lower busy threshold that must be met before decreasing the number of cores/packages that are unparked (in percentage)."
+  759,  "Processor performance core parking decrease threshold"
+  760,  "Specify the number of cores/packages to unpark when more cores are required."
+  761,  "Processor performance core parking increase policy"
+  762,  "Specify the number of cores/packages to park when fewer cores are required."
+  763,  "Processor performance core parking decrease policy"
+  764,  "Specify the maximum number of unparked cores/packages allowed (in percentage)."
+  765,  "Processor performance core parking max cores"
+  766,  "Specify the minimum number of unparked cores/packages allowed (in percentage)."
+  767,  "Processor performance core parking min cores"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  768,  "Specify the minimum number of perf check intervals that must elapse before more cores/packages can be unparked."
+  769,  "Processor performance core parking increase time"
+  770,  "Specify the minimum number of perf check intervals that must elapse before more cores/packages can be parked."
+  771,  "Processor performance core parking decrease time"
+  772,  "Specify whether the core parking engine should distribute utility across processors."
+  773,  "Processor performance core parking utility distribution"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  792,  "Specify the busy threshold that must be met before a parked core is considered overutilized (in percentage)."
+  793,  "Processor performance core parking overutilization threshold"
+  796,  "Specify the busy threshold that must be met when calculating the concurrency of a node."
+  797,  "Processor performance core parking concurrency threshold"
+  798,  "Specify the busy threshold that must be met by all cores in a concurrency set to unpark an extra core."
+  799,  "Processor performance core parking concurrency headroom threshold"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  802,  "No Preference"
+  803,  "Deepest Performance State"
+  804,  "Lightest Performance State"
+  805,  "Specify what performance state a processor enters when parked."
+  806,  "Processor performance core parking parked performance state"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  900,  "Enable forced shutdown for button and lid actions"
+  901,  "Enable forced button/lid shutdown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Idle resiliency settings."
+  1001,  "Idle Resiliency"
+  1002,  "Specifies Processor Idle Resiliency Timer Resolution"
+  1003,  "Processor Idle Resiliency Timer Resolution"
+  1004,  "Specifies IO coalescing timeout"
+  1005,  "IO coalescing timeout"
+  1006,  "Specifies Execution Required power request timeout"
+  1007,  "Execution Required power request timeout"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Presence Aware Power Behavior Settings"
+  1101,  "Presence Aware Power Behavior"
+  1102,  "Specifies Sensor Input Presence Timeout"
+  1103,  "Sensor Input Presence Timeout"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "Specifies Non-sensor Input Presence Timeout"
+  1105,  "Non-sensor Input Presence Timeout"
+  1106,  "Specifies Sensor Presence Display Power Down Timeout"
+  1107,  "Sensor Presence Display Power Down Timeout"
+  1108,  "Allow to enable/disable Sensor Presence Aware Power Behavior"
+  1109,  "Allow Sensor Presence Aware Power Behavior"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1201,  "Specify power management settings for your computer’s memory"
+  1202,  "Memory power management"
+  1203,  "Relocation amount (in MB) of memory to be relocated between power regions"
+  1204,  "Relocation rate per node"
+  1205,  "Specify the maximum PFNs that would be queried on a node in a period"
+  1206,  "PFNs query rate per node"
+  1207,  "Specify the period of memory stats check and periodic tasks"
+  1208,  "Memory stats check interval"
+  1209,  "Memory cooling enable or disable"
+  1210,  "Memory cooling enable"
+  1211,  "Specify the time unit in 2^minutes for access pattern (e.g. 3 here means 8 minutes)"
+  1212,  "Time unit in 2^minutes for access pattern"
+  1213,  "Specify the time units to mark a page as cold"
+  1214,  "Consecutive time units to mark a page as cold"
+  1215,  "Specify the free pages threshold to trigger vacating of pinned channels"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216,  "Free pages threshold to move pages out of pinned channel"
+  1217,  "Specify the Pinned pages number above which to mark a channel as pinned"
+  1218,  "Pinned pages number above which to mark a channel as pinned"
+  1219,  "Specify the period of memory cooling monitoring"
+  1220,  "Monitor check interval"
+  1221,  "Specify the long history count for monitoring"
+  1222,  "Monitor long history"
+  1223,  "Specify the short history count for monitoring"
+  1224,  "Monitor short history"
+  1225,  "Specify the history count for channel power monitoring (used for power state set)"
+  1226,  "Monitor channel power history"
+  1227,  "Specify the percentage of frequency of P0 above which to consider backoff"
+  1228,  "Backoff frequency threshold"
+  1229,  "Specify the high utility threshold above which to consider backoff"
+  1230,  "Backoff high utility threshold"
+  1231,  "Specify the low utility threshold below which to consider backoff turned off"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1232,  "Backoff low utility threshold"
+  1233,  "Specify the idle utility threshold below which to consider backoff for idle"
+  1234,  "Backoff idle utility threshold"
+  1235,  "Specify the resume timeout for a forced hot channel"
+  1236,  "Backoff forced hot channel resume timeout"
+  1237,  "Specify the periodic check interval of a cold channel heat before it enters low power state"
+  1238,  "Backoff channel heat check interval"
+  1239,  "Specify the count that memory cooling channel trend break can tolerant"
+  1240,  "Backoff channel heat break tolerance"
+  1241,  "Specify the maximum number of hot pages a channel should have to put a channel in low power state"
+  1242,  "Maximum hot pages to put channel in low power state"
+}
+

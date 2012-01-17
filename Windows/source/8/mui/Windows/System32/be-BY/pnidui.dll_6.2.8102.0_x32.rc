@@ -1,0 +1,112 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+3014 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "_POP_UP"
+  {
+    MENUITEM "Troubleshoot problems", 3107
+    MENUITEM "Open Network and Sharing Center", 3109
+  }
+}
+
+40101 DIALOGEX 0, 0, 317, 180
+CAPTION ""
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "No, don't let other people see content on my PC\nRecommended for networks in public places", 40302, Button, 0x5003000e, 4, 0, 280, 43, 0x0
+  CONTROL "Yes, let other people see content that I share on my PC\nRecommended for home and work networks", 40318, Button, 0x5001000e, 4, 45, 280, 43, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2,  "Not Connected"
+  8,  "Internet access"
+  15,  "Connection status: unknown"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  35,  "No Internet access"
+  38,  "Wireless networks are available."
+  47,  "Windows Networking"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Network System Icon"
+  60,  "Wireless radio is turned off"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  600,  "Install the printer using the untrusted driver"
+  601,  "Don't install the printer"
+  602,  "Install Homegroup Printer"
+  603,  "Do you want to install the printer on %s?"
+  604,  "This printer has an untrusted driver.  <A>What does this mean?</A>"
+  605,  "Install Homegroup Printer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3011,  "Network System Icon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40500,  "Should other people on the %1!s! network have access to your shared content?"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-PrimaryNetworkIcon\r\n"
+  2415919106,  "Microsoft-Windows-NetworkLocationWizard/Operational\r\n"
+  2952790016,  "NetworkLocationDialog - Location Selected: Category %1 ElevationRequired: %2\r\n"
+  2952790017,  "NetworkLocationDialog - Launched\r\n"
+  2952790117,  "PrimaryNetworkIcon Initialized\r\n"
+  2952790118,  "PrimaryNetworkIcon Resumed\r\n"
+  2952790137,  "PrimaryNetworkIcon: State changed to Disconnected\r\n"
+  2952790139,  "PrimaryNetworkIcon: State changed to Limited\r\n"
+  2952790140,  "PrimaryNetworkIcon: State changed to LocalConnected\r\n"
+  2952790141,  "PrimaryNetworkIcon: State changed to non wireless InternetConnected\r\n"
+  2952790142,  "PrimaryNetworkIcon: State changed to WirelessAvailable\r\n"
+  2952790143,  "PrimaryNetworkIcon: State changed to WLAN InternetConnected\r\n"
+  2952790144,  "PrimaryNetworkIcon: State changed to MBB InternetConnected\r\n"
+  2952790145,  "PrimaryNetworkIcon: State changed to MBB InternetConnected with roaming\r\n"
+  2952790146,  "PrimaryNetworkIcon: State changed to Wireless Disconnected\r\n"
+  2952790148,  "PrimaryNetworkIcon: State changed to Wireless LocalConnected\r\n"
+  2952790149,  "PrimaryNetworkIcon: State changed to Airplane Mode\r\n"
+  2952790177,  "PrimaryNetworkIcon: Network and sharing center selected\r\n"
+  2952790178,  "PrimaryNetworkIcon: VAN UI selected\r\n"
+  2952790179,  "PrimaryNetworkIcon: Troubleshoot selected\r\n"
+  2952790180,  "PrimaryNetworkIcon: Tooltip selected\r\n"
+  2952790217,  "PrimaryNetworkIcon: RightClick Start\r\n"
+  2952790218,  "PrimaryNetworkIcon: RightClick Stop\r\n"
+  2952791017,  "Network location wizard has been suppressed by a system or user registry key.\r\n"
+  2952791018,  "Network location wizard has been suppressed by a user through the UI.\r\n"
+  2952791019,  "Network location wizard has been suppressed because the network is ad-hoc.\r\n"
+  2952791020,  "RunNwCategoryWizard failed.  Details: %1\r\n"
+  2952791021,  "XWizard failed to run the wizard.  Details: %1\r\n"
+  2952791022,  "CanRunTask failed.  Details: %1\r\n"
+  2952791023,  "Network location has been selected.  Network: %1 Location: %2\r\n"
+  2952791024,  "Navigated directly to finish page.  Details: %1\r\n"
+  2952791025,  "Network location selection has been canceled at elevation.  Network: %1 Location: %2\r\n"
+  2952791026,  "Could not register for UI status events.  Details: %1\r\n"
+  2952792017,  "PrimaryNetworkIcon: User notified for interface hotspot\r\n"
+}

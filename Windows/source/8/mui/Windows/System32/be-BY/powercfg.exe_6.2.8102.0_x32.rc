@@ -1,0 +1,1279 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "ON"
+  2,  "OFF"
+  3,  "Hibernation state must be ""on"" or ""off""\n"
+  4,  "System does not support hibernation\n"
+  7,  "Invalid Parameters -- try ""/?"" for help\n"
+  8,  "Out of Memory\n"
+  10,  "Active Power Scheme is Invalid\n"
+  11,  "The scheme could not be imported because a power scheme with the specified GUID already exists.\n"
+  12,  "Unable to create a new power scheme\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Non-admin users cannot modify power settings from a Terminal Services session.\n"
+  17,  "The active power scheme cannot be deleted\n"
+  18,  "The scheme could not be duplicated because a power scheme with the specified GUID already exists.\n"
+  19,  "Group policy override settings exist for this power scheme or power setting.\n"
+  20,  "You do not have the permissions required to perform this action.\n"
+  21,  "This command requires administrator privileges and must be executed from an elevated command prompt.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  705,  "\nExisting Power Schemes (* Active)\n"
+  709,  "-----------------------------------\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  729,  "An unexpected error condition has occurred.  Unable to perform operation.  You may not have permission to perform this operation.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  749,  "Not Supported\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  774,  "You do not have permission to enable or disable the Hibernate feature.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  794,  "NONE"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  814,  "UNKNOWN"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  829,  "Numerical ID               %u\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  834,  "Power Scheme GUID: "
+  839,  "Subgroup GUID: "
+  844,  "Power Setting GUID: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  849,  "Current AC Power Setting Index: "
+  854,  "Current DC Power Setting Index: "
+  859,  "Settings belonging to no subgroup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  864,  "Minimum Possible Setting: "
+  869,  "Maximum Possible Setting: "
+  874,  "Possible Settings increment: "
+  879,  "Possible Settings units: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  884,  "Possible Setting Friendly Name: "
+  889,  "Possible Setting Index: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  909,  "The power scheme, subgroup or setting specified does not exist.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  914,  "You do not have permission to enable or disable device wake.\n"
+  919,  "The file could not be found.\n"
+  924,  "The value specified is malformed, or is not within the range of the target power setting.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  929,  "The power setting has been changed, but could not be applied from a Terminal Services session.\n"
+  934,  "GUID Alias: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1004,  "Hibernation failed with the following error: %s\nThe following items are preventing hibernation on this system.\n"
+  1005,  "\tThere are no reported reasons hibernation does not work.  Ensure that you have permission to enable hibernation on this system.\n"
+  1006,  "\tThe system firmware does not support hibernation.\n"
+  1007,  "\tThe system firmware supports hibernation, but it does not work properly.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1008,  "\tThe platform does not support hibernation.\n"
+  1009,  "\tThere are one or more legacy drivers installed: %s\n"
+  1010,  "\tThe storage drivers do not support hibernation.\n"
+  1011,  "\tThe system could not create the hibernation file.  The specific error code is 0x%x.\n"
+  1012,  "\tAn internal error occurred.\n"
+  1013,  "\tHibernation is not allowed due to the amount of memory installed on the system.\n"
+  1014,  "\tThe system has more than one processor and hibernate will not work properly because of this.\n"
+  1016,  "\tThe previous attempt to hibernate failed.\n"
+  1017,  "\tAn unknown error occurred while enabling hibernation.\n"
+  1018,  "\tAn internal system component has disabled hibernation.\n"
+  1019,  "\tThe current power policy has disabled hibernation.\n"
+  1020,  "\tWindows does not support Hibernate during the upgrade process.\n"
+  1021,  "\tWindows Preinstallation Environment does not support Hibernate.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "\tThere are no reported reasons for the sleep state to not work.\n"
+  1105,  "\tThe system firmware does not support this standby state.\n"
+  1106,  "\tThe system firmware may support this standby state, but it does not work properly.\n"
+  1107,  "\tThe standby state is not supported on this system.  ACPI is not enabled or not supported on this system.\n"
+  1108,  "\tThere are one or more legacy drivers installed which prevent this standby state: %s\n"
+  1109,  "\tAn unexpected error occurred.\n"
+  1110,  "\tAn unexpected error occurred.\n"
+  1111,  "\tThis standby state has a known incompatibility with the system firmware.\n"
+  1112,  "\tThis standby state is not allowed due to the amount of memory installed on the system.\n"
+  1113,  "\tThe system has more than one processor and this standby state will not work properly because of this.\n"
+  1115,  "\tThe previous attempt to standby failed.\n"
+  1116,  "\tAn unknown error occurred while enabling standby.\n"
+  1117,  "\tAn internal system component has disabled this standby state.\n"
+  1118,  "\tThe current power policy has disabled this standby state.\n"
+  1119,  "\tAn unexpected error occurred.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "\tWindows Preinstallation Environment does not support this standby state.\n"
+  1121,  "\tThis standby state is disabled when connected standby is supported.\n"
+  1122,  "\tThe hypervisor does not support this standby state.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1204,  "Standby (S1)"
+  1205,  "Standby (S2)"
+  1206,  "Standby (S3)"
+  1214,  "Unable to retrieve the supported sleep states on the system."
+  1215,  "Unable to retrieve verbose reasons why sleep states are unavailable on this system."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216,  "The following sleep states are available on this system:"
+  1217,  "The following sleep states are not available on this system:"
+  1224,  "Standby"
+  1225,  "("
+  1226,  "S1"
+  1227,  "S2"
+  1228,  "S3"
+  1229,  ")"
+  1230,  "Hibernate"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1232,  "Hybrid Sleep"
+  1233,  "\tHibernation has not been enabled.\n"
+  1234,  "Hybrid Boot"
+  1235,  "\tThis action is disabled in the current system policy.\n"
+  1236,  "\tHibernation is not available.\n"
+  1237,  "\tStandby (S3) is not available.\n"
+  1238,  "Connected"
+  1239,  "Standby (Connected)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1289,  "\tThe hiberfile size has been set to: %I64u bytes.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1304,  "Wake History Count - %d\n"
+  1305,  "Wake History [%d]\n"
+  1306,  "  Wake Source Count - %d\n"
+  1307,  "  Wake Source [%d]\n"
+  1308,  "    Type: Unknown (%d)\n"
+  1309,  "    Type: Device\n"
+  1310,  "    Type: Wake Timer\n"
+  1311,  "    Type: Fixed Feature\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1312,  "    Instance Path: %s\n"
+  1313,  "    Friendly Name: %s\n"
+  1314,  "    Description: %s\n"
+  1315,  "    Manufacturer: %s\n"
+  1316,  "    Unknown (%d)\n"
+  1317,  "    Power Button\n"
+  1318,  "    Sleep Button\n"
+  1319,  "    System Woke Up to Doze to S4\n"
+  1320,  "    Owner: "
+  1321,  "    Owner Supplied Reason: "
+  1323,  "    Windows was not able to record information about wake timer due to low resources.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1334,  "Imported Power Scheme Successfully. GUID: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1404,  "Busy Adjust Threshold: %d\n"
+  1405,  "Time Check: %d\n"
+  1406,  "Increase Time: %d\n"
+  1407,  "Decrease Time: %d\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1408,  "Increase Percent: %d\n"
+  1409,  "Decrease Percent: %d\n"
+  1410,  "Domain Accounting Policy: %d\n"
+  1411,  "Increase Policy: %d\n"
+  1412,  "Decrease Policy: %d\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1424,  "Revision: %d\n"
+  1425,  "Policy Count: %d\n"
+  1426,  "[C%d] Time Check: %d\n"
+  1427,  "[C%d] Demote Percent: %d\n"
+  1428,  "[C%d] Promote Percent: %d\n"
+  1429,  "Scaling Allowed: %d\n"
+  1430,  "Disabled: %d\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1444,  "DISPLAY:\n"
+  1445,  "SYSTEM:\n"
+  1446,  "AWAYMODE:\n"
+  1447,  "Legacy Kernel Caller"
+  1448,  "None.\n"
+  1449,  "EXECUTION:\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1466,  "Could not open the Power Efficiency Diagnostic ETW session.  The ETW session is already in use.  Ensure that no other instances of PowerCfg are currently running.\n"
+  1467,  "Enabling tracing for %d seconds...\n"
+  1468,  "Observing system behavior...\n"
+  1469,  "Analyzing trace data...\n"
+  1470,  "Analysis complete.\n"
+  1471,  "Trace complete.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1472,  "\nNo energy efficiency problems were found.\n\n"
+  1473,  "\nEnergy efficiency problems were found.\n\n"
+  1474,  "%d Errors\n"
+  1475,  "%d Warnings\n"
+  1476,  "%d Informational\n"
+  1477,  "The directory specified to store trace data does not exist.\n"
+  1478,  "The Power Efficiency Diagnostic library (energy.dll) could not be loaded.\n"
+  1479,  "\nSee %s for more details.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1494,  "Timer set by %s expires at %s on %s.\n"
+  1495,  "  Reason: "
+  1496,  "There are no active wake timers in the system.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4000,  "\nPOWERCFG /COMMAND [ARGUMENTS]\n"
+  4001,  "\nCommand List:\n"
+  4002,  "\nDescription:\n"
+  4003,  "\nParameter List:\n"
+  4004,  "\nAlias:\n"
+  4005,  "\nExamples:\n"
+  4006,  "  POWERCFG /%s\n"
+  4010,  "  Enables users to control power settings on a local system.\n\n"
+  4011,  "  For detailed command and option information, run ""POWERCFG /? <COMMAND>""\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4100,  "  /LIST, /L          Lists all power schemes.\n"
+  4110,  "POWERCFG /LIST\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4120,  "  Lists all power schemes.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4180,  "  POWERCFG /LIST\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4200,  "  /QUERY, /Q         Displays the contents of a power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4210,  "POWERCFG /QUERY [<SCHEME_GUID> [<SUB_GUID>]]\n"
+  4220,  "  Displays the contents of the specified power scheme. If neither SCHEME_GUID\n"
+  4221,  "  or SUB_GUID are provided, the settings of the current active power scheme\n"
+  4222,  "  are displayed. If SUB_GUID is not specified, all settings in the specified\n"
+  4223,  "  power scheme are displayed.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4240,  "  <SCHEME_GUID>      Specifies a power scheme GUID. A power scheme GUID is\n"
+  4241,  "                     returned from the ""POWERCFG /LIST"" command.\n\n"
+  4249,  "  <SUB_GUID>         Specifies a power setting subgroup GUID. A power setting\n"
+  4250,  "                     subgroup GUID is returned from the ""POWERCFG /QUERY""\n"
+  4251,  "                     command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4280,  "  POWERCFG /QUERY\n\n"
+  4281,  "  POWERCFG /QUERY 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+  4282,  "                  238c9fa8-0aad-41ed-83f4-97be242c8f20\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4300,  "  /CHANGE, /X        Modifies a setting value in the current power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4310,  "POWERCFG /CHANGE <SETTING> <VALUE>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4320,  "  Modifies a setting value in the current power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4340,  "  <SETTING>    Specifies one of the following options:\n\n"
+  4344,  "    monitor-timeout-ac\n"
+  4349,  "    monitor-timeout-dc\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4354,  "    disk-timeout-ac\n"
+  4359,  "    disk-timeout-dc\n"
+  4364,  "    standby-timeout-ac\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4369,  "    standby-timeout-dc\n"
+  4374,  "    hibernate-timeout-ac\n"
+  4379,  "    hibernate-timeout-dc\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4389,  "  <VALUE>      Specifies the new value, in minutes.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4400,  "  POWERCFG /CHANGE monitor-timeout-ac 5\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4500,  "  /CHANGENAME        Modifies the name and description of a power scheme.\n"
+  4510,  "POWERCFG /CHANGENAME <SCHEME_GUID> <NAME> [<DESCRIPTION>]\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4520,  "  Modifies the name of a power scheme and optionally its description.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4540,  "  <SCHEME_GUID>    Specifies a power scheme GUID. A power scheme GUID is\n"
+  4541,  "                   returned from the ""POWERCFG /LIST"" command.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4549,  "  <NAME>           Specifies the power scheme's new name.\n\n"
+  4559,  "  <DESCRIPTION>    Specifies the power scheme's new description. If no\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4560,  "                   description is specified, only the name is changed.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4580,  "  POWERCFG /CHANGENAME 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+  4581,  "                       ""Customized Balanced""\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4600,  "  /DUPLICATESCHEME   Duplicates a power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4610,  "POWERCFG /DUPLICATESCHEME <SCHEME_GUID> [<DESTINATION_GUID>]\n"
+  4620,  "  Duplicates the specified power scheme. The resulting GUID which represents\n"
+  4621,  "  the new scheme will be displayed.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4640,  "  <SCHEME_GUID>         Specifies a power scheme GUID. A power scheme GUID is\n"
+  4641,  "                        returned from the ""POWERCFG /LIST"" command.\n\n"
+  4649,  "  <DESTINATION_GUID>    Specifies the new power scheme's GUID. If no GUID is\n"
+  4650,  "                        specified, a new GUID will be created.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4680,  "  POWERCFG /DUPLICATESCHEME 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4700,  "  /DELETE, /D        Deletes a power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4710,  "POWERCFG /DELETE <SCHEME_GUID>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4720,  "  Deletes the power scheme with the specified GUID.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4780,  "  POWERCFG /DELETE 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4800,  "  /DELETESETTING     Deletes a power setting.\n"
+  4810,  "POWERCFG /DELETESETTING <SUB_GUID> <SETTING_GUID>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4820,  "  Deletes a power setting.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4840,  "  <SUB_GUID>        Specifies a power setting subgroup GUID. A power setting\n"
+  4841,  "                    subgroup GUID is returned from the ""POWERCFG /QUERY""\n"
+  4842,  "                    command.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4849,  "  <SETTING_GUID>    Specifies a power setting GUID. A power setting GUID is\n"
+  4850,  "                    returned from the ""POWERCFG /QUERY"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4880,  "  POWERCFG /DELETESETTING 238c9fa8-0aad-41ed-83f4-97be242c8f20\n"
+  4881,  "                          29f6c1db-86da-48c5-9fdb-f2b67b1f44da\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4900,  "  /SETACTIVE, /S     Makes a power scheme active on the system.\n"
+  4910,  "POWERCFG /SETACTIVE <SCHEME_GUID>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4920,  "  Makes the specified power scheme active on the system.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4940,  "  <SCHEME_GUID>    Specifies a power scheme GUID. A power scheme GUID is\n"
+  4941,  "                   returned from the ""POWERCFG /LIST"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4980,  "  POWERCFG /SETACTIVE 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5001,  "ERROR:"
+  5002,  "WARNING:"
+  5003,  "SUCCESS:"
+  5004,  "INFO:"
+  5005,  "N/A"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5501,  "Type the password for %s:"
+  5502,  "Passing the user credential for local connection.\n"
+  5503,  "The target system must be running Windows XP or above.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5504,  "The remote system must be running Windows 2000 or above.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5601,  "Invalid syntax. '%s' value is not allowed for '%s' option.\n%s\n"
+  5602,  "Invalid syntax. Specify valid numeric value for '%s'.\n%s\n"
+  5603,  "Invalid syntax. Specifiy valid floating point value for '%s'.\n%s\n"
+  5604,  "Invalid syntax. Mandatory option '%s' is missing.\n%s\n"
+  5605,  "Invalid syntax. '%s' option is not allowed more than '%d' time(s).\n%s\n"
+  5607,  "Invalid argument/option - '%s'.\n%s\n"
+  5608,  "Invalid syntax. Default argument is missing.\n%s\n"
+  5609,  "Length of the command line argument should not exceed 255 characters.\n"
+  5610,  "Invalid syntax. Default option is not allowed more than '%d' time(s).\n%s\n"
+  5611,  "Invalid syntax. Value expected for '%s'.\n%s\n"
+  5612,  "Invalid syntax. '%s' value is not allowed as default argument.\n%s\n"
+  5613,  "Type ""%s /?"" for usage."
+  5614,  "Value for '%s' option cannot be empty.\n%s\n"
+  5615,  "Value for default option cannot be empty.\n%s\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5616,  "Invalid syntax. Specify valid numeric value for default.\n%s\n"
+  5617,  "Invalid syntax. Specifiy valid floating point value for default.\n%s\n"
+  5618,  "Value for default option cannot be more than %d character(s).\n"
+  5619,  "Invalid syntax. Value cannot be specified with '%s' option.\n%s\n"
+  5620,  "Value for '%s' option cannot be more than %d character(s).\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6000,  "  /GETACTIVESCHEME   Retrieves the currently active power scheme.\n"
+  6010,  "POWERCFG /GETACTIVESCHEME\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6020,  "  Retrieves the currently active power scheme.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6080,  "  POWERCFG /GETACTIVESCHEME\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6100,  "  /SETACVALUEINDEX   Sets the value associated with a power setting\n"
+  6101,  "                     while the system is powered by AC power.\n"
+  6110,  "POWERCFG /SETACVALUEINDEX <SCHEME_GUID> <SUB_GUID> <SETTING_GUID>\n"
+  6111,  "                          <SETTING_INDEX>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6120,  "  Sets the value associated with a specified power setting while the system is\n"
+  6121,  "  powered by AC power.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6140,  "  <SCHEME_GUID>      Specifies a power scheme GUID. A power scheme GUID is\n"
+  6141,  "                     returned from the ""POWERCFG /LIST"" command.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6149,  "  <SUB_GUID>         Specifies a power setting subgroup GUID. A power setting\n"
+  6150,  "                     subgroup GUID is returned from the ""POWERCFG /QUERY""\n"
+  6151,  "                     command.\n\n"
+  6159,  "  <SETTING_GUID>     Specifies a power setting GUID. A power setting GUID is\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6160,  "                     returned from the ""POWERCFG /QUERY"" command.\n\n"
+  6169,  "  <SETTING_INDEX>    Specifies which possible value this setting will be set\n"
+  6170,  "                     to. A list of possible values is returned from the\n"
+  6171,  "                     ""POWERCFG /QUERY"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6180,  "  POWERCFG /SETACVALUEINDEX 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+  6181,  "                            238c9fa8-0aad-41ed-83f4-97be242c8f20\n"
+  6182,  "                            29f6c1db-86da-48c5-9fdb-f2b67b1f44da 0\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6200,  "  /SETDCVALUEINDEX   Sets the value associated with a power setting\n"
+  6201,  "                     while the system is powered by DC power.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6210,  "POWERCFG /SETDCVALUEINDEX <SCHEME_GUID> <SUB_GUID> <SETTING_GUID>\n"
+  6211,  "                          <SETTING_INDEX>\n"
+  6220,  "  Sets the value associated with a specified power setting while the system is\n"
+  6221,  "  powered by DC power.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6240,  "  <SCHEME_GUID>      Specifies a power scheme GUID. A power scheme GUID is\n"
+  6241,  "                     returned from the ""POWERCFG /LIST"" command.\n\n"
+  6249,  "  <SUB_GUID>         Specifies a power setting subgroup GUID. A power setting\n"
+  6250,  "                     subgroup GUID is returned from the ""POWERCFG /QUERY""\n"
+  6251,  "                     command.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6259,  "  <SETTING_GUID>     Specifies a power setting GUID. A power setting GUID is\n"
+  6260,  "                     returned from the ""POWERCFG /QUERY"" command.\n\n"
+  6269,  "  <SETTING_INDEX>    Specifies which possible value this setting will be set\n"
+  6270,  "                     to. A list of possible values is returned from the\n"
+  6271,  "                     ""POWERCFG /QUERY"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6280,  "  POWERCFG /SETDCVALUEINDEX 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+  6281,  "                            238c9fa8-0aad-41ed-83f4-97be242c8f20\n"
+  6282,  "                            29f6c1db-86da-48c5-9fdb-f2b67b1f44da 300\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6300,  "  /IMPORT            Imports all power settings from a file.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6310,  "POWERCFG /IMPORT <FILENAME> [<GUID>]\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6320,  "  Imports a power scheme from the specified file.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6340,  "  <FILENAME>    Specifies a fully-qualified path to a file generated by the\n"
+  6341,  "                ""POWERCFG /EXPORT"" command.\n\n"
+  6349,  "  <GUID>        Specifies the GUID for the imported scheme. If no GUID is\n"
+  6350,  "                specified, a new GUID will be created.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6380,  "  POWERCFG /IMPORT c:\\scheme.pow\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6400,  "  /EXPORT            Exports a power scheme to a file.\n"
+  6410,  "POWERCFG /EXPORT <FILENAME> <GUID>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6420,  "  Exports a power scheme, represented by the specified GUID, to the specified\n"
+  6421,  "  file.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6440,  "  <FILENAME>    Specifies a fully-qualified path to a destination file.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6449,  "  <GUID>        Specifies a power scheme GUID. A power scheme GUID is returned\n"
+  6450,  "                from the ""POWERCFG /LIST"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6480,  "  POWERCFG /EXPORT c:\\scheme.pow 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6500,  "  /ALIASES           Displays all aliases and their corresponding GUIDs.\n"
+  6510,  "POWERCFG /ALIASES\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6520,  "  Displays a list of aliases and their corresponding GUIDs. These aliases may\n"
+  6521,  "  be used in place of a GUID in any command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6580,  "  POWERCFG /ALIASES\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6600,  "  /GETSECURITYDESCRIPTOR\n"
+  6601,  "                     Gets a security descriptor associated with a specified\n"
+  6602,  "                     power setting, power scheme, or action.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6610,  "POWERCFG /GETSECURITYDESCRIPTOR <GUID|ACTION>\n"
+  6620,  "  Gets the security descriptor associated with the specified power setting,\n"
+  6621,  "  power scheme, or action.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6640,  "  <GUID>      Specifies a power scheme or a power setting GUID. A power scheme\n"
+  6641,  "              GUID is returned from the ""POWERCFG /LIST"" command. A power\n"
+  6642,  "              setting GUID is returned from the ""POWERCFG /QUERY"" command.\n\n"
+  6649,  "  <ACTION>    Specifies one of the following actions: ActionSetActive,\n"
+  6650,  "              ActionCreate, ActionDefault.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6680,  "  POWERCFG /GETSECURITYDESCRIPTOR 381b4222-f694-41f0-9685-ff5bb260df2e\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6689,  "  POWERCFG /GETSECURITYDESCRIPTOR ActionSetActive\n"
+  6700,  "  /SETSECURITYDESCRIPTOR\n"
+  6701,  "                     Sets a security descriptor associated with a\n"
+  6702,  "                     power setting, power scheme, or action.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6710,  "POWERCFG /SETSECURITYDESCRIPTOR <GUID|ACTION> <SDDL>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6720,  "  Sets a security descriptor associated with the specified power setting, power\n"
+  6721,  "  scheme, or action.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6740,  "  <GUID>      Specifies a power scheme or a power setting GUID. A power scheme\n"
+  6741,  "              GUID is returned from the ""POWERCFG /LIST"" command. A power\n"
+  6742,  "              setting GUID is returned from the ""POWERCFG /QUERY"" command.\n\n"
+  6749,  "  <ACTION>    Specifies one of the following actions: ActionSetActive,\n"
+  6750,  "              ActionCreate, ActionDefault.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6759,  "  <SDDL>      Specifies a valid security descriptor string in SDDL format. An\n"
+  6760,  "              example SDDL string may be obtained from the ""POWERCFG\n"
+  6761,  "              /GETSECURITYDESCRIPTOR"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6780,  "  POWERCFG /SETSECURITYDESCRIPTOR 381b4222-f694-41f0-9685-ff5bb260df2e\n"
+  6781,  "           O:BAG:SYD:P(A;CI;KRKW;;;BU)(A;CI;KA;;;BA)(A;CI;KA;;;SY)(A;CI;KA;;;CO)\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6789,  "  POWERCFG /SETSECURITYDESCRIPTOR ActionSetActive\n"
+  6790,  "           O:BAG:SYD:P(A;CI;KR;;;BU)(A;CI;KA;;;BA)(A;CI;KA;;;SY)(A;CI;KA;;;CO)\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6800,  "  /HIBERNATE, /H     Enables and disables the hibernate feature.\n"
+  6810,  "POWERCFG /HIBERNATE <ON|OFF>\n\n"
+  6814,  "POWERCFG /HIBERNATE /SIZE <PERCENT_SIZE>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6820,  "  Enables/disables the hibernate feature or sets the hiberfile size.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6840,  "  <ON|OFF>                Enables/disables the hibernate feature.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6849,  "  /SIZE <PERCENT_SIZE>    Specifies the desired hiberfile size as a percentage\n"
+  6850,  "                          of the total memory size. The default size cannot be\n"
+  6851,  "                          smaller than 50. This parameter will also cause\n"
+  6852,  "                          hibernate to be enabled.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6880,  "  POWERCFG /HIBERNATE OFF\n\n"
+  6889,  "  POWERCFG /HIBERNATE /SIZE 100\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6900,  "  /AVAILABLESLEEPSTATES, /A\n"
+  6901,  "                     Reports the sleep states available on the system.\n"
+  6910,  "POWERCFG /AVAILABLESLEEPSTATES\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6920,  "  Reports the sleep states available on the system. Attempts to report reasons\n"
+  6921,  "  why sleep states are unavailable.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6980,  "  POWERCFG /AVAILABLESLEEPSTATES\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7000,  "  /DEVICEQUERY       Returns a list of devices that meet specified criteria.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7010,  "POWERCFG /DEVICEQUERY <QUERYFLAG>\n"
+  7020,  "  Returns a list of devices that meet the specified criteria.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7040,  "  <QUERYFLAG>    Specifies one of the following criteria:\n\n"
+  7044,  "    wake_from_S1_supported    Return all devices that support waking the system\n"
+  7045,  "                              from a light sleep state.\n"
+  7049,  "    wake_from_S2_supported    Return all devices that support waking the system\n"
+  7050,  "                              from a deeper sleep state.\n"
+  7054,  "    wake_from_S3_supported    Return all devices that support waking the system\n"
+  7055,  "                              from the deepest sleep state.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7059,  "    wake_from_any             Return all devices that support waking the system\n"
+  7060,  "                              from any sleep state.\n"
+  7064,  "    S1_supported              List devices supporting light sleep.\n"
+  7069,  "    S2_supported              List devices supporting deeper sleep.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7074,  "    S3_supported              List devices supporting deepest sleep.\n"
+  7079,  "    S4_supported              List devices supporting hibernation.\n"
+  7084,  "    wake_programmable         List devices that are user-configurable to wake\n"
+  7085,  "                              the system from a sleep state.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7089,  "    wake_armed                List devices that are currently configured to\n"
+  7090,  "                              wake the system from any sleep state.\n"
+  7094,  "    all_devices               Return all devices present in the system.\n"
+  7099,  "    all_devices_verbose       Return a verbose list of devices.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7120,  "  POWERCFG /DEVICEQUERY wake_armed\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7200,  "  /DEVICEENABLEWAKE  Enables a device to wake the system from a sleep state.\n"
+  7210,  "POWERCFG /DEVICEENABLEWAKE <DEVICENAME>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7220,  "  Enables the specified device to wake the system from a sleep state. \n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7240,  "  <DEVICENAME>    Specifies a device. This device name may be retrieved using\n"
+  7241,  "                  ""POWERCFG /DEVICEQUERY wake_programmable"".\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7280,  "  POWERCFG /DEVICEENABLEWAKE ""Microsoft USB IntelliMouse Optical""\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7300,  "  /DEVICEDISABLEWAKE Disables a device from waking the system from a sleep\n"
+  7301,  "                     state.\n"
+  7310,  "POWERCFG /DEVICEDISABLEWAKE <DEVICENAME>\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7320,  "  Disables the specified device from waking the system from a sleep state. \n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7340,  "  <DEVICENAME>    Specifies a device. This device name may be retrieved using\n"
+  7341,  "                  ""POWERCFG /DEVICEQUERY wake_armed"".\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7380,  "  POWERCFG /DEVICEDISABLEWAKE ""Microsoft USB IntelliMouse Optical""\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7400,  "  /LASTWAKE          Reports information about what woke the system from the\n"
+  7401,  "                     last sleep transition.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7410,  "POWERCFG /LASTWAKE\n"
+  7420,  "  Reports information about what woke the system from the last sleep\n"
+  7421,  "  transition.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7440,  "  <SCHEME_GUID>    Specifies a power scheme GUID. A power scheme GUID is\n"
+  7441,  "                   returned from the ""POWERCFG /LIST"" command.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7480,  "  POWERCFG /LASTWAKE\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7500,  "  /WAKETIMERS        Enumerates active wake timers.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7510,  "POWERCFG /WAKETIMERS\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7520,  "  Enumerates the active wake timers. If enabled, the expiration of a wake timer\n"
+  7521,  "  wakes the system from sleep and hibernate states.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7580,  "  POWERCFG /WAKETIMERS\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7600,  "  /REQUESTS          Enumerates application and driver Power Requests.\n"
+  7610,  "POWERCFG /REQUESTS\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7620,  "  Enumerates application and driver Power Requests. Power Requests prevent the\n"
+  7621,  "  computer from automatically powering off the display or entering a low-power\n"
+  7622,  "  sleep mode.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7680,  "  POWERCFG /REQUESTS"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7700,  "  /REQUESTSOVERRIDE  Sets a Power Request override for a particular Process,\n"
+  7701,  "                     Service, or Driver.\n"
+  7710,  "POWERCFG /REQUESTSOVERRIDE [<CALLER_TYPE> <NAME> <REQUEST>]\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7720,  "  Sets a Power Request override for a particular Process, Service, or Driver.\n"
+  7721,  "  If no parameters are specified, this command displays the current list of\n"
+  7722,  "  Power Request overrides. \n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7740,  "  <CALLER_TYPE>    Specifies one of the following caller types: PROCESS,\n"
+  7741,  "                   SERVICE, DRIVER. This is obtained by calling the\n"
+  7742,  "                   ""POWERCFG /REQUESTS"" command.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7749,  "  <NAME>           Specifies the caller name. This is the name returned from\n"
+  7750,  "                   calling the ""POWERCFG /REQUESTS"" command.\n\n"
+  7759,  "  <REQUEST>        Specifies one or more of the following Power Request Types:\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7760,  "                   DISPLAY, SYSTEM, AWAYMODE.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7780,  "  POWERCFG /REQUESTSOVERRIDE PROCESS wmplayer.exe DISPLAY SYSTEM\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7800,  "  /ENERGY            Analyzes the system for common energy-efficiency and\n"
+  7801,  "                     battery life problems.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7810,  "POWERCFG /ENERGY [/OUTPUT <FILENAME>] [/XML] [/DURATION <SECONDS>]\n\n"
+  7814,  "POWERCFG /ENERGY /TRACE [/D <FILEPATH>] [/XML] [/DURATION <SECONDS>]\n"
+  7820,  "  Analyzes the system for common energy-efficiency and battery life problems.\n"
+  7821,  "  The ENERGY command should be used when the computer is idle and with no open\n"
+  7822,  "  programs or documents. The ENERGY command will generate an HTML report file\n"
+  7823,  "  in the current path. \n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7840,  "  /OUTPUT <FILENAME>     Specify the path and filename to store the energy\n"
+  7841,  "                         report HTML or XML file.\n\n"
+  7849,  "  /XML                   Format the report file as XML.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7859,  "  /DURATION <SECONDS>    Specify the number of seconds to observe system\n"
+  7860,  "                         behavior. Default is 60 seconds.\n\n"
+  7869,  "  /TRACE                 Record system behavior and do not perform analysis.\n"
+  7870,  "                         Trace files will be generated in the current path\n"
+  7871,  "                         unless the /D parameter is specified.\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7879,  "  /D <FILEPATH>          Specify the directory to store trace data. May only be\n"
+  7880,  "                         used with the /TRACE parameter.\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7920,  "  POWERCFG /ENERGY\n\n"
+  7929,  "  POWERCFG /ENERGY /OUTPUT ""longtrace.html"" /DURATION 120\n"
+}
+

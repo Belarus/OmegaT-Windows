@@ -1,0 +1,66 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 227, 210
+CAPTION "Previous Versions"
+STYLE 0x80c001cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 100, 201, Static, 0x50000003, 8, 8, 20, 20, 0x0
+  CONTROL "", 202, "SysLink", 0x50010000, 48, 8, 171, 34, 0x0
+  CONTROL "&Folder versions:", 207, Static, 0x50020000, 8, 46, 211, 10, 0x0
+  CONTROL "", 203, Static, 0x40000000 | NOT WS_VISIBLE, 8, 60, 211, 125, 0x0
+  CONTROL "&Open", 204, Button, 0x50010000, 59, 190, 50, 14, 0x0
+  CONTROL "&Copy...", 205, Button, 0x50010000, 114, 190, 50, 14, 0x0
+  CONTROL "&Restore...", 206, Button, 0x50010000, 169, 190, 50, 14, 0x0
+}
+
+102 DIALOGEX 0, 0, 227, 210
+CAPTION "Previous Versions"
+STYLE 0x80c001cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 100, 201, Static, 0x50000003, 8, 8, 20, 20, 0x0
+  CONTROL "", 202, "SysLink", 0x50010000, 48, 8, 171, 34, 0x0
+  CONTROL "&File versions:", 207, Static, 0x50020000, 8, 46, 211, 10, 0x0
+  CONTROL "", 203, Static, 0x40000000 | NOT WS_VISIBLE, 8, 60, 211, 125, 0x0
+  CONTROL "&Open", 204, Button, 0x50010000, 59, 190, 50, 14, 0x0
+  CONTROL "&Copy...", 205, Button, 0x50010000, 114, 190, 50, 14, 0x0
+  CONTROL "&Restore...", 206, Button, 0x50010000, 169, 190, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1024,  "Previous Versions"
+  1025,  "%1 (%2)"
+  1026,  "The previous version of ""%1"" from %2 no longer exists.  Select a different version and try again."
+  1027,  "Restore point"
+  1028,  "This will replace the current version of this folder on your computer and cannot be undone."
+  1029,  "This will replace the current version of this file on your computer and cannot be undone."
+  1030,  "The folder has been successfully restored to the previous version."
+  1031,  "The file has been successfully restored to the previous version."
+  1032,  "Are you sure you want to restore the previous version of ""%1"" from %2?"
+  1033,  "&Restore"
+  1035,  "This will replace the current version of this folder on the network and cannot be undone."
+  1036,  "This will replace the current version of this file on the network and cannot be undone."
+  1037,  "Restore previous &versions"
+  1038,  "View or restore previous versions of this item"
+  1039,  "Shadow copy"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1040,  "%1, %2"
+  1041,  "Location"
+  1042,  "Searching for previous versions..."
+  1043,  "There are no previous versions available"
+  1044,  "Previous versions are not available for offline files"
+  1045,  "Previous versions of %1"
+  1046,  "Previous versions come from restore points on a server. <A>How do I use previous versions?</A>"
+  1047,  "Previous versions come from shadow copies, which are saved automatically to your computer's hard disk. <A>How do I use previous versions?</A>"
+}
+

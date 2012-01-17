@@ -1,0 +1,391 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+600 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Delete theme", 601
+  }
+}
+
+610 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Save theme", 611
+    MENUITEM "Save &theme for sharing", 612
+  }
+}
+
+700 DIALOGEX 0, 0, 224, 54
+CAPTION "Save Theme As"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "&Theme name:", 4294967295, Static, 0x50020000, 7, 7, 96, 10, 0x0
+  CONTROL "", 701, Edit, 0x50810080, 7, 17, 210, 12, 0x0
+  CONTROL "Save", 1, Button, 0x58010001, 110, 33, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 167, 33, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Personalization"
+  2,  "Change the pictures, colors, and sounds for this computer."
+  3,  "Personalization Related Tasks Pane"
+  4,  "Personalization Main Task Pane"
+  5,  "Window Color and Appearance"
+  6,  "Change the color of your window borders, Start menu, and taskbar"
+  7,  "Theme Gallery"
+  8,  "Change the color of your windows and text"
+  10,  "Pe&rsonalize"
+  11,  "Get help"
+  13,  "Save Theme Pack As"
+  14,  "Desktop Theme Pack (*.deskthemepack)|*.deskthemepack"
+  15,  "Save Theme Error"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Windows could not save your theme. The filename you specified has an extension that is associated with a different file type. Please use extension .deskthemepack instead.\n\nSelected location: %1"
+  17,  "None"
+  18,  "Custom"
+  20,  "High Contrast"
+  21,  "Slide Show"
+  22,  "Solid Color"
+  23,  "One or more of the settings on this page has been disabled by the system administrator."
+  26,  "Automatic"
+  27,  "Multiple Monitors"
+  28,  "Save theme"
+  29,  "Get more themes online"
+  30,  "My Themes"
+  31,  "Aero Themes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "Basic and High Contrast Themes"
+  33,  "Installed Themes"
+  40,  "Desktop Background"
+  41,  "Browse"
+  42,  "All Picture Files|*.bmp;*.jpg;*.jpeg;*.dib"
+  44,  "This file can't be used as a background picture"
+  45,  "This file is not one of the supported file types, which include .bmp, .jpg, .jpeg and .dib. Please close this dialog and select a different picture for your background."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  67,  "Textures"
+  69,  "Vistas"
+  71,  "Light Auras"
+  72,  "Solid Colors"
+  73,  "Nature"
+  74,  "Windows Desktop Backgrounds"
+  79,  "Change desktop icons"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Change mouse pointers"
+  81,  "Display"
+  82,  "Taskbar"
+  83,  "Ease of Access Center"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  101,  "Sky"
+  102,  "Twilight"
+  103,  "Sea"
+  104,  "Leaf"
+  105,  "Lime"
+  106,  "Sun"
+  107,  "Pumpkin"
+  108,  "Ruby"
+  109,  "Fuchsia"
+  110,  "Blush"
+  111,  "Violet"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Lavender"
+  113,  "Taupe"
+  114,  "Slate"
+  115,  "Frost"
+  116,  "Automatic"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  130,  "Customized"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "Personalization Control Panel Error"
+  201,  "Desktop Composition is disabled."
+  202,  "To change appearance properties, please click the 'Open classic appearance properties' link."
+  203,  "There was a problem loading a pre-set color."
+  204,  "There was a problem previewing your color."
+  205,  "There was a problem saving your color."
+  206,  "There was a problem reverting to your original color."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  220,  "This page is not available in this edition of Windows."
+  221,  "Windows Anytime Upgrade"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Security Shield Icon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Photo ListView"
+  401,  "Select a photo or solid color to set as your background."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  503,  "Span"
+  504,  "Fit"
+  505,  "Fill"
+  506,  "Stretch"
+  507,  "Tile"
+  508,  "Center"
+  509,  "10 seconds"
+  510,  "30 seconds"
+  511,  "1 minute"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "3 minutes"
+  513,  "5 minutes"
+  514,  "10 minutes"
+  515,  "15 minutes"
+  516,  "20 minutes"
+  517,  "30 minutes"
+  518,  "1 hour"
+  519,  "2 hours"
+  520,  "3 hours"
+  521,  "4 hours"
+  522,  "6 hours"
+  523,  "12 hours"
+  524,  "1 day"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  560,  "Set as desktop background"
+  561,  "Set for all monitors"
+  562,  "Set for monitor %u"
+  563,  "Set as slideshow"
+  568,  "Window background"
+  569,  "Text"
+  570,  "Hyperlinks"
+  571,  "Disabled text"
+  572,  "Selected text"
+  573,  "Active window title"
+  574,  "Inactive window title"
+  575,  "Button"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  576,  "Window background"
+  577,  "Window text foreground"
+  578,  "Hyperlinks foreground"
+  579,  "Disabled text foreground"
+  580,  "Selected text foreground"
+  581,  "Selected text background"
+  582,  "Active window title foreground"
+  583,  "Active window title background"
+  584,  "Inactive window title background"
+  585,  "Inactive window title background"
+  586,  "Button foreground"
+  587,  "Button background"
+  588,  " Window"
+  589,  "Background"
+  590,  "Background"
+  591,  " Background"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  620,  "Top Rated Photos"
+  621,  "Pictures Library"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  630,  "Browse to the folder containing the pictures you want to use for your desktop background."
+  631,  "Browse to the folder containing the picture you want to set as your desktop background."
+  632,  "Windows Server"
+  633,  "Harmony"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  702,  "Display Settings"
+  703,  "Your system administrator has disabled changing of the theme."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Click a theme to change the desktop background, window color, sounds, and screen saver all at once."
+  1101,  "Change the visuals and sounds on your computer"
+  1103,  "Troubleshoot problems with transparency and other Aero effects"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "click"
+  1105,  "Loading..."
+  1106,  "Desktop Background"
+  1107,  "Loading"
+  1108,  "Window Color"
+  1109,  "Loading"
+  1110,  "Sounds"
+  1111,  "Loading"
+  1112,  "Screen Saver"
+  1113,  "Loading"
+  1114,  "This feature has been disabled"
+  1115,  "Please contact your system administrator for details."
+  1116,  "Desktop Composition is disabled"
+  1118,  "Current color: "
+  1119,  "E&nable transparency"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "This option controls the transparent effect of windows, menus, the Start menu, and the taskbar."
+  1121,  "check"
+  1125,  "Color &intensity:"
+  1126,  "Color intensity"
+  1127,  "Adjust the color intensity of your window borders."
+  1128,  "Toggle color mixer"
+  1129,  "Show or hide the color mixer."
+  1130,  "Hide color mi&xer"
+  1131,  "Show color mi&xer"
+  1132,  "H&ue:"
+  1133,  "Hue"
+  1134,  "Adjust the color of your window borders."
+  1135,  "&Saturation:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Saturation"
+  1137,  "Adjust the saturation of your window borders."
+  1138,  "&Brightness:"
+  1139,  "Brightness"
+  1140,  "Adjust the brightness of your window borders."
+  1142,  "Save changes"
+  1143,  "press"
+  1144,  "Cancel"
+  1145,  "press"
+  1146,  "This feature has been disabled"
+  1147,  "Please contact your system administrator for details."
+  1148,  "Failed to load page"
+  1149,  "Please return to Control Panel to change your background settings."
+  1150,  "Desktop background is turned off during remote connections"
+  1151,  "To show the desktop background, open Remote Desktop Connection settings and select the Desktop background check box. If you can't change your settings, they might be managed by Group Policy. Contact your administrator for assistance."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1152,  "Choose your desktop background"
+  1153,  "Click a picture to make it your desktop background."
+  1154,  "Click a picture to make it your desktop background, or select more than one picture to create a slide show."
+  1155,  "Picture &location:"
+  1156,  "Picture Location"
+  1157,  "&Browse..."
+  1158,  "Select &all"
+  1159,  "&Clear all"
+  1160,  "Picture &position:"
+  1161,  "Background Position"
+  1162,  "Change background color"
+  1163,  "click"
+  1164,  "Color swatch"
+  1165,  "press"
+  1166,  "&More..."
+  1167,  "Choose a different color"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1168,  "click"
+  1169,  "Cha&nge picture every:"
+  1170,  "Change picture every"
+  1171,  "&Shuffle"
+  1172,  "Shuffle"
+  1173,  "Shuffle pictures in the slide show."
+  1174,  "&When using battery power, pause the slide show to save power"
+  1175,  "PauseSlideshow"
+  1176,  "Save changes"
+  1177,  "click"
+  1178,  "Cancel"
+  1179,  "click"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1186,  "Please enable Desktop Composition before setting window colors."
+  1187,  "The Themes service is disabled"
+  1188,  "Please start the Themes service and try again."
+  1189,  "Click a button below to change the color of your window borders, buttons, and text."
+  1190,  "Apply"
+  1191,  "press"
+  1192,  " Foreground"
+  1193,  " Background"
+  1194,  "press"
+  1195,  "press"
+  1196,  "Color scheme:"
+  1197,  "High Contrast Scheme"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  268435508,  "SQM\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-ThemeCPL\r\n"
+}

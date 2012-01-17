@@ -1,0 +1,80 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Notification Area Icons"
+  2,  "Select which icons and notifications appear in the notification area."
+  3,  "System Icons"
+  4,  "Select which system icons appear in the notification area."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  266,  "Click"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Show icon and notifications"
+  401,  "Hide icon and notifications"
+  402,  "Only show notifications"
+  403,  "Clock"
+  404,  "Volume"
+  405,  "Network"
+  406,  "Power"
+  407,  "Turn system icons on or off"
+  408,  "Customize notification icons"
+  409,  "Restore default icon behaviors"
+  410,  "&Always show all icons and notifications on the taskbar"
+  411,  "This notification icon is not currently active"
+  412,  "It will be shown the next time it becomes active."
+  413,  "Action Center"
+  414,  "On"
+  415,  "Off"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  416,  "Help"
+  417,  "Input Indicator"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Select which icons and notifications appear on the taskbar"
+  501,  "If you choose to hide icons and notifications, you won’t be notified about changes or updates. To view hidden icons at any time, click the arrow next to the notification area on the taskbar."
+  502,  "Icons"
+  503,  "Behaviors"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  600,  "Turn system icons on or off"
+  601,  "Turning off a system icon removes the icon and turns off notifications."
+  602,  "System Icons"
+  603,  "Behaviors"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2048,  "Some settings are managed by your system administrator."
+  2050,  "<a>Why can't I change some settings?</a>"
+  2051,  "OK"
+  2052,  "Cancel"
+}
+
+1 MESSAGETABLE
+{
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-TaskbarCPL\r\n"
+}

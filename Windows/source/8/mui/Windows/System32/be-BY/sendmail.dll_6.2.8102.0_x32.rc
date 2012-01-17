@@ -1,0 +1,83 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+400 DIALOGEX 0, 0, 223, 93
+CAPTION ""
+STYLE 0x80ca0bc0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 400, 0, 0
+{
+  CONTROL "", 917, Static, 0x50000a00, 7, 7, 48, 48, 0x0
+  CONTROL "", 406, Static, 0x50020002, 7, 8, 59, 63, 0x0
+  CONTROL "", 1009, ComboBox, 0x50010003, 75, 7, 112, 48, 0x0
+  CONTROL "", 912, Static, 0x50020002, 7, 30, 130, 33, 0x0
+  CONTROL "", 1010, Static, 0x50020000, 140, 30, 50, 30, 0x0
+  CONTROL "", 402, Static, 0x50000080, 61, 13, 113, 8, 0x0
+  CONTROL "", 403, Static, 0x50000080, 61, 43, 113, 8, 0x0
+  CONTROL "", 405, Static, 0x50000080, 61, 52, 90, 8, 0x0
+  CONTROL "", 404, "msctls_progress32", 0x50000000, 61, 27, 155, 8, 0x0
+  CONTROL "&Attach", 1, Button, 0x50010001, 112, 72, 50, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 165, 72, 50, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50021000, 0, 65, 238, 1, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4,  "Mail recipient"
+  5,  "Send Mail Message.url"
+  9,  "The current document type can not be sent as mail. Would you like to send a Shortcut instead?"
+  11,  "Preparing to send:"
+  12,  "Your message is ready to be sent with the following file or link attachments:\r\r\n"
+  13,  "Emailing: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17,  "Shortcut to: %s"
+  18,  "\r\r\nNote: To protect against computer viruses, e-mail programs may prevent sending or receiving certain types of file attachments.  Check your e-mail security settings to determine how attachments are handled."
+  19,  "Attach Files"
+  20,  "Desktop as Shortcut"
+  21,  "Desktop (create shortcut)"
+  22,  "Send Email was unable to resize the following files:\n"
+  23,  "E-mail Files"
+  24,  "These files can't be e-mailed because there's no e-mail program on this computer"
+  25,  "Install an e-mail program and try again."
+  26,  "Mail Service"
+  27,  "Desktop Shortcut"
+  28,  "One or more files have not been attached to the message because their names contain special characters. Please rename the files, or use the e-mail program to attach and send the files."
+  30,  "Picture &size:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  33,  "Total estimated size:"
+  34,  "Small: 800 x 600"
+  35,  "Medium: 1024 x 768"
+  36,  "Large: 1280 x 1024"
+  47,  "Smaller: 640 x 480"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Original Size"
+  57,  "%1!u! of %2!u!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  407,  "Canceling..."
+}
+
+1 MESSAGETABLE
+{
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-SendTo\r\n"
+}

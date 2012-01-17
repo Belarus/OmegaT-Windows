@@ -1,0 +1,13 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 MESSAGETABLE
+{
+  1,  "Windows Setup%0\r\n"
+  2,  "Windows Memory Diagnostic%0\r\n"
+  3,  "Windows Developer Preview%0\r\n"
+  4,  "Windows Server Developer Preview%0\r\n"
+  5,  "Windows PreInstallation Environment%0\r\n"
+  6,  "Earlier Version of Windows%0\r\n"
+  7,  "Microsoft Hyper-V Server Developer Preview%0\r\n"
+}

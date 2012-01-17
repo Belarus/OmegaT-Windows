@@ -1,0 +1,51 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+130 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "ShellContextMenu"
+  {
+    MENUITEM "Open Volume &Mixer", 40001
+    MENUITEM SEPARATOR
+    MENUITEM "&Playback devices", 40005
+    MENUITEM "&Recording devices", 40006
+    MENUITEM "&Sounds", 40007
+    MENUITEM SEPARATOR
+    MENUITEM "&Volume control options", 40009
+  }
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "%1: Muted"
+  2001,  "%1 (Bluetooth): Muted"
+  2002,  "%1 (USB): Muted"
+  2003,  "%1: %2!d!%%"
+  2004,  "%1 (Bluetooth): %2!d!%%"
+  2005,  "%1 (USB): %2!d!%%"
+  2006,  "The Audio Service is not running."
+  2007,  "No Audio Output Device is installed."
+  2008,  "No speakers or headphones are plugged in."
+  2009,  "No Audio Output Device is enabled."
+  2010,  "Open Volume &Mixer"
+  2011,  "&Troubleshoot sound problems"
+  2015,  "Windows can now play sounds from this device"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2016,  "Click here for more information."
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-AudioUI\r\n"
+  2415919106,  "Performance\r\n"
+}

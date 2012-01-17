@@ -1,0 +1,13 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-Documents\r\n"
+  2415919106,  "Performance\r\n"
+}

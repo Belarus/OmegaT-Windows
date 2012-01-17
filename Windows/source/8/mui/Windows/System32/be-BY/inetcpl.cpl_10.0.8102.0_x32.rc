@@ -1,0 +1,2010 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+5382 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "Default"
+  {
+    MENUITEM "&Allow", 5383
+    MENUITEM "&Block", 5384
+    MENUITEM SEPARATOR
+    MENUITEM "R&emove", 5385
+  }
+}
+
+100 DIALOGEX 0, 0, 258, 267
+CAPTION "General"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1301, 1481, Static, 0x50000003, 14, 18, 20, 20, 0x0
+  CONTROL "To c&reate home page tabs, type each address on its own line.", 1484, Static, 0x50020000, 44, 19, 204, 17, 0x0
+  CONTROL "", 1487, Edit, 0x50a11084, 44, 31, 199, 30, 0x0
+  CONTROL "Use &current", 1486, Button, 0x50010000, 65, 67, 58, 14, 0x0
+  CONTROL "Use de&fault", 1485, Button, 0x50010000, 127, 67, 58, 14, 0x0
+  CONTROL "&Use new tab", 405, Button, 0x50010000, 188, 67, 58, 14, 0x0
+  CONTROL 1303, 6431, Static, 0x50000003, 14, 97, 20, 20, 0x0
+  CONTROL "Delete temporary files, history, cookies, saved passwords, and web form information.", 4294967295, Static, 0x50020000, 44, 98, 198, 16, 0x0
+  CONTROL "Delete bro&wsing history on exit", 5504, Button, 0x50012503, 44, 120, 198, 10, 0x0
+  CONTROL "&Delete...", 5501, Button, 0x50010000, 128, 134, 58, 14, 0x0
+  CONTROL "&Settings", 1490, Button, 0x50010000, 188, 134, 58, 14, 0x0
+  CONTROL 4483, 6432, Static, 0x50000003, 14, 162, 20, 20, 0x0
+  CONTROL "Change search defaults.", 4294967295, Static, 0x50020000, 44, 163, 133, 18, 0x0
+  CONTROL "Sett&ings", 5503, Button, 0x50010000, 187, 161, 59, 14, 0x0
+  CONTROL 5507, 6433, Static, 0x50000003, 14, 198, 20, 20, 0x0
+  CONTROL "Change how webpages are displayed in tabs.", 4294967295, Static, 0x50020000, 44, 199, 133, 16, 0x0
+  CONTROL "Se&ttings", 5505, Button, 0x50010000, 187, 196, 59, 14, 0x0
+  CONTROL "C&olors", 1483, Button, 0x50010000, 10, 237, 57, 14, 0x0
+  CONTROL "&Languages", 1495, Button, 0x50010000, 71, 237, 57, 14, 0x0
+  CONTROL "Fo&nts", 1494, Button, 0x50010000, 132, 237, 53, 14, 0x0
+  CONTROL "Acc&essibility", 1496, Button, 0x50010000, 189, 237, 58, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Home page", 1491, Static, 0x50020000, 8, 7, 37, 9, 0x0
+  CONTROL "", 1479, Static, 0x50000010, 47, 11, 201, 1, 0x0
+  CONTROL "Browsing history", 4294967295, Static, 0x50020000, 9, 85, 55, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 65, 90, 185, 1, 0x0
+  CONTROL "Search", 4294967295, Static, 0x50020000, 9, 150, 25, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 35, 154, 213, 1, 0x0
+  CONTROL "Tabs", 4294967295, Static, 0x50020000, 9, 186, 18, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 28, 191, 220, 1, 0x0
+  CONTROL "Appearance", 4294967295, Static, 0x50020000, 9, 224, 39, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 52, 228, 196, 1, 0x0
+}
+
+101 DIALOGEX 0, 0, 252, 191
+CAPTION "[blank]"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1518, Static, 0x50000003, 9, 11, 20, 20, 0x0
+  CONTROL "You can add and remove websites from this zone. All websites in this zone will use the zone's security settings.", 4294967295, Static, 0x50020000, 37, 11, 206, 17, 0x0
+  CONTROL "A&dd this website to the zone:", 4294967295, Static, 0x50020000, 9, 47, 150, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 9, 57, 177, 12, 0x0
+  CONTROL "&Add", 1028, Button, 0x58010000, 193, 56, 50, 14, 0x0
+  CONTROL "&Websites:", 4294967295, Static, 0x50020000, 9, 78, 98, 8, 0x0
+  CONTROL "Websites:", 1026, "SysListView32", 0x50b1c01d, 9, 88, 177, 49, 0x0
+  CONTROL "&Remove", 1003, Button, 0x50010000, 193, 88, 50, 14, 0x0
+  CONTROL "Require &server verification (https:) for all sites in this zone", 1023, Button, 0x50010003, 9, 142, 234, 10, 0x0
+  CONTROL "&Close", 2, Button, 0x50010001, 193, 168, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000005, 0, 0, 0, 0, 0x0
+}
+
+102 DIALOGEX 0, 0, 166, 209
+CAPTION "Colors"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Use &hover color", 1524, Button, 0x50010003, 14, 12, 75, 10, 0x0
+  CONTROL "Colors", 105, Button, 0x50000007, 15, 32, 134, 123, 0x0
+  CONTROL "Use &Windows colors", 107, Button, 0x50012503, 56, 43, 78, 10, 0x0
+  CONTROL 1318, 6430, Static, 0x50000003, 26, 42, 21, 20, 0x0
+  CONTROL "&Text:", 108, Button, 0x5001000b, 56, 60, 74, 12, 0x0
+  CONTROL "&Background:", 109, Button, 0x5001000b, 56, 77, 74, 12, 0x0
+  CONTROL "V&isited:", 111, Button, 0x5001000b, 56, 94, 74, 12, 0x0
+  CONTROL "U&nvisited:", 110, Button, 0x5001000b, 56, 110, 74, 12, 0x0
+  CONTROL "H&over:", 112, Button, 0x5001000b, 56, 126, 74, 12, 0x0
+  CONTROL "<A>How to ignore preset colors</A>", 6302, "SysLink", 0x50010000, 15, 164, 91, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 46, 183, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 100, 183, 50, 14, 0x0
+}
+
+103 DIALOGEX 0, 0, 265, 120
+CAPTION "Websites in the Local Intranet Zone"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1518, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Use the settings below to define which websites are included in the local intranet zone.", 4294967295, Static, 0x50020000, 34, 7, 209, 17, 0x0
+  CONTROL "Automatically &detect intranet network", 1660, Button, 0x50010003, 34, 34, 209, 10, 0x0
+  CONTROL "Include all local (intranet) sites not listed in other &zones", 1011, Button, 0x50010003, 45, 47, 209, 10, 0x0
+  CONTROL "Include all sites that bypass the &proxy server", 1008, Button, 0x50010003, 45, 60, 209, 10, 0x0
+  CONTROL "Include all &network paths (UNCs)", 1540, Button, 0x50010003, 45, 73, 209, 10, 0x0
+  CONTROL "<A>What are intranet settings?</A>", 1625, "SysLink", 0x50010000, 7, 105, 90, 14, 0x0
+  CONTROL "&Advanced", 1532, Button, 0x50010000, 100, 100, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 154, 100, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 208, 100, 50, 14, 0x0
+}
+
+118 DIALOGEX 0, 0, 274, 275
+CAPTION "Security Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Tree1", 1024, "SysTreeView32", 0x50810014, 18, 19, 236, 166, 0x0
+  CONTROL "*Takes effect after you restart Internet Explorer", 6710, Static, 0x50020000, 18, 187, 216, 10, 0x0
+  CONTROL "Reset custom settings", 1514, Button, 0x50000007, 8, 204, 258, 37, 0x0
+  CONTROL "&Reset to:", 4294967295, Static, 0x50020000, 14, 216, 30, 8, 0x0
+  CONTROL "", 1022, ComboBox, 0x50210403, 56, 216, 132, 43, 0x0
+  CONTROL "&Java Custom Settings...", 1538, Button, 0x40010000 | NOT WS_VISIBLE, 48, 248, 96, 14, 0x0
+  CONTROL "R&eset...", 1020, Button, 0x50010000, 202, 215, 52, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 152, 248, 53, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 211, 248, 53, 14, 0x0
+  CONTROL "Settings", 4294967295, Button, 0x50000007, 8, 6, 258, 193, 0x0
+}
+
+200 DIALOGEX 0, 0, 258, 267
+CAPTION "Connections"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 4460, 6430, Static, 0x50000003, 9, 10, 20, 20, 0x0
+  CONTROL "To set up an Internet connection, click Setup.", 4294967295, Static, 0x50020000, 38, 13, 139, 19, 0x0
+  CONTROL "Set&up", 1453, Button, 0x50030000, 181, 10, 66, 14, 0x0
+  CONTROL "Dial-up connections", 1559, "SysTreeView32", 0x50830030, 11, 54, 164, 55, 0x0
+  CONTROL "A&dd...", 1552, Button, 0x50010000, 182, 54, 66, 14, 0x0
+  CONTROL "Add V&PN...", 1558, Button, 0x50010000, 182, 74, 66, 14, 0x0
+  CONTROL "&Remove...", 1549, Button, 0x50010000, 182, 94, 66, 14, 0x0
+  CONTROL "&Settings", 1457, Button, 0x50010000, 182, 114, 66, 14, 0x0
+  CONTROL "Never dial a &connection", 1621, Button, 0x50030009, 14, 138, 224, 10, 0x0
+  CONTROL "Dial &whenever a network connection is not present", 1622, Button, 0x50010009, 14, 150, 221, 10, 0x0
+  CONTROL "Always dial my default c&onnection", 1623, Button, 0x50010009, 14, 162, 224, 10, 0x0
+  CONTROL "Current default:", 1585, Static, 0x50020000, 20, 176, 50, 8, 0x0
+  CONTROL "None", 1583, Static, 0x50020080, 74, 176, 106, 8, 0x0
+  CONTROL "S&et default", 1582, Button, 0x50030000, 181, 172, 66, 14, 0x0
+  CONTROL "&LAN settings", 1580, Button, 0x50030000, 181, 205, 66, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000006, 4, 0, 0, 0, 0x0
+  CONTROL "LAN Settings do not apply to dial-up connections. Choose Settings above for dial-up settings.", 4294967295, Static, 0x50020000, 14, 208, 159, 40, 0x0
+  CONTROL "Choose Settings if you need to configure a proxy server for a connection.", 4294967295, Static, 0x50020000, 12, 116, 166, 18, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Dial-up and Virtual Private Network settings", 4294967295, Static, 0x50020000, 9, 39, 142, 9, 0x0
+  CONTROL "Local Area Network (LAN) settings", 4294967295, Static, 0x50020000, 10, 195, 142, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 152, 43, 95, 1, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 123, 199, 125, 1, 0x0
+}
+
+300 DIALOGEX 0, 0, 258, 267
+CAPTION "Programs"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "File associations", 4294967295, Static, 0x50020000, 8, 6, 78, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 66, 11, 182, 1, 0x0
+  CONTROL 5905, 6431, Static, 0x50000003, 14, 18, 21, 20, 0x0
+  CONTROL "Choose the file type that you want Internet Explorer to open by default.", 4294967295, Static, 0x50020000, 44, 20, 130, 16, 0x0
+  CONTROL "Set &associations", 5908, Button, 0x50010000, 175, 22, 72, 14, 0x0
+  CONTROL "Manage add-ons", 4294967295, Static, 0x50020000, 8, 43, 78, 8, 0x0
+  CONTROL 5901, 6432, Static, 0x50000003, 14, 56, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 68, 48, 180, 1, 0x0
+  CONTROL "Enable or disable browser add-ons installed in your system.", 4294967295, Static, 0x50020000, 44, 57, 130, 24, 0x0
+  CONTROL "&Manage add-ons", 4865, Button, 0x50010000, 175, 59, 72, 14, 0x0
+  CONTROL "HTML editing", 4294967295, Static, 0x50020000, 8, 83, 45, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 55, 87, 193, 1, 0x0
+  CONTROL 4490, 6430, Static, 0x50000003, 14, 94, 21, 20, 0x0
+  CONTROL "Choose the program that you want Internet Explorer to use for editing HTML files.", 4294967295, Static, 0x50020000, 44, 95, 208, 19, 0x0
+  CONTROL "&HTML editor:", 4294967295, Static, 0x50020000, 42, 117, 50, 12, 0x0
+  CONTROL "", 1610, ComboBox, 0x50210103, 105, 115, 139, 59, 0x0
+  CONTROL "Internet programs", 4294967295, Static, 0x50020000, 8, 136, 78, 8, 0x0
+  CONTROL 6623, 6433, Static, 0x50000003, 14, 147, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 72, 140, 176, 1, 0x0
+  CONTROL "Choose the programs you want to use for other Internet services, such as e-mail.", 4294967295, Static, 0x50020000, 44, 150, 130, 25, 0x0
+  CONTROL "&Set programs", 5907, Button, 0x50010000, 175, 152, 72, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+500 DIALOGEX 0, 0, 258, 267
+CAPTION "Security"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 5601, Static, 0x50020000, 8, 3, 238, 13, 0x0
+  CONTROL "", 5602, Static, 0x50020000, 9, 5, 16, 16, 0x0
+  CONTROL "Select a zone to view or change security settings.", 4294967295, Static, 0x50020000, 8, 16, 243, 9, 0x0
+  CONTROL "Select a web content zone to specify its security settings", 1566, "SysListView32", 0x5081c94c, 8, 25, 238, 44, 0x0
+  CONTROL "", 1518, Static, 0x50000003, 9, 78, 20, 20, 0x0
+  CONTROL "Zone Name", 1576, Static, 0x5002000c, 38, 70, 126, 10, 0x0
+  CONTROL "There are no websites in this zone.", 1575, Static, 0x40020000 | NOT WS_VISIBLE, 38, 105, 126, 11, 0x0
+  CONTROL "You have websites in this zone.", 1579, Static, 0x40020000 | NOT WS_VISIBLE, 38, 105, 126, 11, 0x0
+  CONTROL "[blank]", 1516, Static, 0x50020000, 38, 81, 126, 24, 0x0
+  CONTROL "&Sites", 1019, Button, 0x50010000, 180, 73, 66, 14, 0x0
+  CONTROL "Security &level for this zone", 1029, Button, 0x50000007, 8, 119, 243, 107, 0x0
+  CONTROL "Security level indicator", 1567, "msctls_trackbar32", 0x5001060b, 15, 140, 30, 53, 0x0
+  CONTROL "", 1030, Static, 0x50020000, 20, 131, 192, 9, 0x0
+  CONTROL "Level name", 1578, Static, 0x50020000, 50, 143, 160, 10, 0x0
+  CONTROL "Level description", 1568, Static, 0x50020000, 58, 152, 181, 41, 0x0
+  CONTROL "Enable &Protected Mode (requires restarting Internet Explorer)", 1534, Button, 0x50010003, 24, 196, 219, 9, 0x0
+  CONTROL "&Custom level...", 1018, Button, 0x58010000, 108, 208, 66, 14, 0x0
+  CONTROL "&Default level", 1531, Button, 0x50010000, 177, 208, 66, 14, 0x0
+  CONTROL "&Reset all zones to default level", 5600, Button, 0x50010000, 117, 228, 130, 15, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000022, 0, 0, 0, 0, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+513 DIALOGEX 0, 0, 258, 267
+CAPTION "Security"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 5601, Static, 0x50020000, 8, 3, 238, 13, 0x0
+  CONTROL "", 5602, Static, 0x50020000, 9, 5, 16, 16, 0x0
+  CONTROL "Select a zone to view or change security settings.", 4294967295, Static, 0x50020000, 8, 16, 243, 9, 0x0
+  CONTROL "Select a web content zone to specify its security settings", 1566, "SysListView32", 0x5081c94c, 8, 25, 238, 44, 0x0
+  CONTROL "", 1518, Static, 0x50000003, 9, 78, 20, 20, 0x0
+  CONTROL "Zone Name", 1576, Static, 0x5002000c, 38, 70, 126, 10, 0x0
+  CONTROL "There are no websites in this zone.", 1575, Static, 0x40020000 | NOT WS_VISIBLE, 38, 105, 126, 11, 0x0
+  CONTROL "You have websites in this zone.", 1579, Static, 0x40020000 | NOT WS_VISIBLE, 38, 105, 126, 11, 0x0
+  CONTROL "[blank]", 1516, Static, 0x50020000, 38, 81, 126, 24, 0x0
+  CONTROL "&Sites", 1019, Button, 0x50010000, 180, 73, 66, 14, 0x0
+  CONTROL "Security &level for this zone", 1029, Button, 0x50000007, 8, 119, 243, 119, 0x0
+  CONTROL "Security level indicator", 1567, "msctls_trackbar32", 0x5001060b, 15, 140, 30, 53, 0x0
+  CONTROL "", 1030, Static, 0x50020000, 20, 131, 192, 9, 0x0
+  CONTROL "Level name", 1578, Static, 0x50020000, 50, 143, 160, 10, 0x0
+  CONTROL "Level description", 1568, Static, 0x50020000, 58, 152, 181, 41, 0x0
+  CONTROL "Enable 64-&bit Mode (requires restarting Internet Explorer)", 1536, Button, 0x50010003, 24, 196, 219, 9, 0x0
+  CONTROL "Enable &Protected Mode (requires restarting Internet Explorer)", 1534, Button, 0x50010003, 24, 208, 219, 9, 0x0
+  CONTROL "&Custom level...", 1018, Button, 0x58010000, 108, 220, 66, 14, 0x0
+  CONTROL "&Default level", 1531, Button, 0x50010000, 177, 220, 66, 14, 0x0
+  CONTROL "&Reset all zones to default level", 5600, Button, 0x50010000, 117, 240, 130, 15, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000022, 0, 0, 0, 0, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+600 DIALOGEX 0, 0, 258, 267
+CAPTION "Advanced"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Settings", 1439, "SysTreeView32", 0x50810114, 16, 19, 227, 149, 0x0
+  CONTROL "&Restore advanced settings", 1526, Button, 0x50010000, 144, 180, 102, 14, 0x0
+  CONTROL "*Takes effect after you restart Internet Explorer", 4294967295, Static, 0x50020000, 18, 169, 216, 10, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 8, 6, 32, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 37, 10, 211, 1, 0x0
+  CONTROL "Reset Internet Explorer settings", 4294967295, Static, 0x50020000, 8, 198, 243, 43, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 115, 201, 133, 1, 0x0
+  CONTROL "Re&set...", 6010, Button, 0x50010000, 186, 210, 60, 14, 0x0
+  CONTROL "Resets Internet Explorer's settings to their default condition.", 6015, Static, 0x50020000, 16, 210, 165, 18, 0x0
+  CONTROL "You should only use this if your browser is in an unusable state.", 4294967295, Static, 0x50020000, 16, 231, 230, 9, 0x0
+}
+
+749 DIALOGEX 0, 0, 206, 190
+CAPTION "AutoComplete Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "AutoComplete lists possible matches from entries you've typed or visited before.", 765, Static, 0x50020000, 8, 7, 192, 23, 0x0
+  CONTROL "Use AutoComplete for", 763, Button, 0x50000007, 7, 28, 192, 114, 0x0
+  CONTROL "&Address bar", 756, Button, 0x50010003, 13, 41, 179, 10, 0x0
+  CONTROL "Browsing &history", 767, Button, 0x50010003, 25, 53, 168, 10, 0x0
+  CONTROL "Fa&vorites", 768, Button, 0x50010003, 25, 65, 168, 10, 0x0
+  CONTROL "F&eeds", 769, Button, 0x50010003, 25, 77, 168, 10, 0x0
+  CONTROL "Use &Windows Search for better results", 752, Button, 0x50010003, 25, 89, 168, 10, 0x0
+  CONTROL "&Forms", 757, Button, 0x50010003, 13, 101, 179, 10, 0x0
+  CONTROL "User names and &passwords on forms", 759, Button, 0x50010003, 13, 113, 179, 10, 0x0
+  CONTROL "A&sk me before saving passwords", 761, Button, 0x50010003, 25, 125, 168, 10, 0x0
+  CONTROL "&Delete AutoComplete history...", 753, Button, 0x50010000, 88, 148, 110, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 93, 172, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 148, 172, 50, 14, 0x0
+}
+
+750 DIALOGEX 0, 0, 206, 206
+CAPTION "AutoComplete Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "AutoComplete lists possible matches from entries you've typed or visited before.", 765, Static, 0x50020000, 8, 7, 192, 23, 0x0
+  CONTROL "Use AutoComplete for", 763, Button, 0x50000007, 7, 28, 192, 130, 0x0
+  CONTROL "&Address bar", 756, Button, 0x50010003, 13, 41, 179, 10, 0x0
+  CONTROL "Browsing &history", 767, Button, 0x50010003, 25, 53, 168, 10, 0x0
+  CONTROL "Fa&vorites", 768, Button, 0x50010003, 25, 65, 168, 10, 0x0
+  CONTROL "F&eeds", 769, Button, 0x50010003, 25, 77, 168, 10, 0x0
+  CONTROL "Use &Windows Search for better results", 752, Button, 0x50010003, 25, 89, 168, 10, 0x0
+  CONTROL "&Forms", 757, Button, 0x50010003, 13, 101, 179, 10, 0x0
+  CONTROL "User names and &passwords on forms", 759, Button, 0x50010003, 13, 113, 179, 10, 0x0
+  CONTROL "A&sk me before saving passwords", 761, Button, 0x50010003, 25, 125, 168, 10, 0x0
+  CONTROL "&Manage Passwords", 758, Button, 0x50010000, 25, 137, 80, 14, 0x0
+  CONTROL "&Delete AutoComplete history...", 753, Button, 0x50010000, 88, 164, 110, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 93, 188, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 148, 188, 50, 14, 0x0
+}
+
+751 DIALOGEX 0, 0, 186, 119
+CAPTION "Microsoft Wallet"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Cancel", 2, Button, 0x50010001, 67, 98, 50, 14, 0x0
+  CONTROL "Microsoft Wallet provides a secure place to store private information for Internet shopping.", 4294967295, Static, 0x50020000, 14, 14, 159, 27, 0x0
+  CONTROL "View and modify addresses", 4294967295, Static, 0x50020000, 14, 44, 86, 8, 0x0
+  CONTROL "&Addresses...", 309, Button, 0x50010000, 113, 42, 55, 14, 0x0
+  CONTROL "View and modify payments", 4294967295, Static, 0x50020000, 14, 68, 79, 8, 0x0
+  CONTROL "&Payments...", 308, Button, 0x50010000, 113, 68, 55, 14, 0x0
+}
+
+772 DIALOGEX 0, 0, 246, 228
+CAPTION "Feed and Web Slice Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Default schedule", 4294967295, Button, 0x50000007, 9, 9, 229, 85, 0x0
+  CONTROL "Specify how frequently feeds and Web Slices will be downloaded. This setting is ignored for feeds that have a publisher's recommendation greater than the specified value.", 4294967295, Static, 0x50020000, 18, 24, 210, 24, 0x0
+  CONTROL "&Automatically check feeds and Web Slices for updates", 774, Button, 0x50010003, 18, 55, 210, 12, 0x0
+  CONTROL "&Every:", 777, Static, 0x50020000, 29, 72, 40, 8, 0x0
+  CONTROL "", 775, ComboBox, 0x58210003, 73, 70, 116, 30, 0x0
+  CONTROL "Advanced", 4294967295, Button, 0x50000007, 9, 100, 229, 101, 0x0
+  CONTROL "Automatically &mark feed as read when reading a feed", 785, Button, 0x50010003, 18, 115, 210, 10, 0x0
+  CONTROL "&Turn on feed reading view", 776, Button, 0x50010003, 18, 129, 210, 10, 0x0
+  CONTROL "&Play a sound when a feed or Web Slice is found for a webpage", 773, Button, 0x50012003, 18, 143, 210, 20, 0x0
+  CONTROL "Play a sound when a monitored feed or Web Slice is &updated", 786, Button, 0x50010003, 18, 167, 210, 10, 0x0
+  CONTROL "Turn on in page Web &Slice discovery", 787, Button, 0x50010003, 18, 181, 210, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 126, 208, 54, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 185, 208, 54, 14, 0x0
+}
+
+1000 DIALOGEX 0, 0, 213, 184
+CAPTION "Fonts"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The fonts you select here are displayed on webpages and documents that do not have a specified text font.", 4294967295, Static, 0x50020000, 7, 7, 199, 21, 0x0
+  CONTROL "&Language script:", 4294967295, Static, 0x50020000, 7, 35, 58, 9, 0x0
+  CONTROL "", 1002, ComboBox, 0x50210103, 65, 33, 116, 60, 0x0
+  CONTROL "&Webpage font:", 4294967295, Static, 0x50020000, 7, 51, 96, 9, 0x0
+  CONTROL "", 1005, ListBox, 0x50a10003, 7, 63, 96, 65, 0x0
+  CONTROL "", 1435, Edit, 0x40010880 | NOT WS_VISIBLE, 7, 126, 96, 30, 0x20000
+  CONTROL "&Plain text font:", 4294967295, Static, 0x50020000, 110, 51, 96, 9, 0x0
+  CONTROL "", 1007, ListBox, 0x50a10003, 110, 63, 96, 65, 0x0
+  CONTROL "", 1436, Edit, 0x40010880 | NOT WS_VISIBLE, 110, 126, 96, 30, 0x20000
+  CONTROL "OK", 1, Button, 0x50010001, 101, 163, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 156, 163, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000030, 0, 0, 0, 0, 0x0
+  CONTROL "<A>How to ignore preset fonts</A>", 6301, "SysLink", 0x50010000, 8, 166, 90, 11, 0x0
+}
+
+1100 DIALOGEX 0, 0, 262, 247
+CAPTION "Proxy Settings"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Servers", 213, Button, 0x50000007, 6, 6, 249, 132, 0x0
+  CONTROL 1315, 1412, Static, 0x50000003, 12, 18, 20, 20, 0x0
+  CONTROL "Type", 1408, Static, 0x50020000, 42, 18, 46, 10, 0x0
+  CONTROL "Proxy address to use", 1409, Static, 0x50020000, 84, 18, 107, 10, 0x0
+  CONTROL "Port", 1410, Static, 0x50020000, 216, 18, 18, 10, 0x0
+  CONTROL "&HTTP:", 1114, Static, 0x50020000, 42, 39, 46, 10, 0x0
+  CONTROL "", 1103, Edit, 0x50810080, 84, 36, 120, 12, 0x0
+  CONTROL ":", 4294967295, Static, 0x50020001, 206, 36, 8, 10, 0x0
+  CONTROL "", 1108, Edit, 0x50812080, 216, 36, 30, 12, 0x0
+  CONTROL "&Secure:", 1115, Static, 0x50020000, 42, 57, 46, 10, 0x0
+  CONTROL "", 1105, Edit, 0x50810080, 84, 54, 120, 12, 0x0
+  CONTROL ":", 4294967295, Static, 0x50020001, 206, 57, 8, 10, 0x0
+  CONTROL "", 1109, Edit, 0x50812080, 216, 54, 30, 12, 0x0
+  CONTROL "&FTP:", 1116, Static, 0x50020000, 42, 75, 46, 10, 0x0
+  CONTROL "", 1106, Edit, 0x50810080, 84, 72, 120, 12, 0x0
+  CONTROL ":", 4294967295, Static, 0x50020001, 206, 75, 8, 10, 0x0
+  CONTROL "", 1110, Edit, 0x50812080, 216, 72, 30, 12, 0x0
+  CONTROL "So&cks:", 1120, Static, 0x50020000, 42, 93, 36, 10, 0x0
+  CONTROL "", 1112, Edit, 0x50810080, 84, 90, 120, 12, 0x0
+  CONTROL ":", 4294967295, Static, 0x50020001, 206, 93, 8, 10, 0x0
+  CONTROL "", 1113, Edit, 0x50812080, 216, 90, 30, 12, 0x0
+  CONTROL "&Use the same proxy server for all protocols", 1118, Button, 0x50010003, 42, 114, 172, 10, 0x0
+  CONTROL "Exceptions", 218, Button, 0x50000007, 6, 144, 249, 78, 0x0
+  CONTROL 1315, 1413, Static, 0x50000003, 12, 156, 20, 20, 0x0
+  CONTROL "Do &not use proxy server for addresses beginning with:", 1414, Static, 0x50020000, 42, 156, 183, 10, 0x0
+  CONTROL "", 1104, Edit, 0x50a11004, 42, 174, 204, 24, 0x0
+  CONTROL "Use semicolons ( ; ) to separate entries.", 1411, Static, 0x50020000, 42, 204, 183, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 140, 228, 54, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 201, 228, 54, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000001, 0, 0, 0, 0, 0x0
+}
+
+1140 DIALOGEX 0, 0, 222, 111
+CAPTION "Automatic Configuration Settings"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Auto-proxy URL (.JS, .JVS, or .PAC file):", 65535, Static, 0x50000000, 8, 8, 157, 8, 0x0
+  CONTROL "", 1141, Edit, 0x50810080, 11, 19, 200, 14, 0x0
+  CONTROL "Automatically configure e&very ", 65535, Static, 0x50000000, 8, 44, 99, 10, 0x0
+  CONTROL "", 1142, Edit, 0x50810080, 109, 41, 42, 14, 0x0
+  CONTROL "minutes.", 65535, Static, 0x50000000, 156, 44, 50, 10, 0x0
+  CONTROL "Only apply auto&matic configuration settings if the file on the server has changed", 1143, Button, 0x50012403, 8, 64, 200, 18, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 106, 90, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 161, 90, 50, 14, 0x0
+}
+
+1200 DIALOGEX 0, 0, 251, 230
+CAPTION "Certificate Authorities"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Issuers", 4626, Button, 0x50000007, 7, 7, 237, 196, 0x0
+  CONTROL 1310, 4294967295, Static, 0x50000003, 14, 18, 20, 20, 0x0
+  CONTROL "Trust sites, people, and publishers with credentials issued by the following Certifying Authorities.", 4294967295, Static, 0x50020000, 42, 18, 189, 21, 0x0
+  CONTROL "Issuer &Type:", 4294967295, Static, 0x50020000, 41, 43, 50, 11, 0x0
+  CONTROL "", 1510, ComboBox, 0x50210003, 41, 55, 190, 69, 0x0
+  CONTROL "List1", 1201, "SysListView32", 0x50814057, 41, 72, 189, 102, 0x0
+  CONTROL "&View Certificate...", 1202, Button, 0x58010000, 104, 180, 61, 14, 0x0
+  CONTROL "&Delete", 1203, Button, 0x58010000, 169, 180, 61, 14, 0x0
+  CONTROL "Close", 2, Button, 0x50010001, 194, 209, 50, 14, 0x0
+}
+
+1620 DIALOGEX 0, 0, 234, 209
+CAPTION "Fonts"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Font settings", 1001, Button, 0x50000007, 7, 7, 220, 172, 0x0
+  CONTROL "", 1616, ListBox, 0x50a10003, 14, 21, 206, 55, 0x0
+  CONTROL "&Proportional font:", 4294967295, Static, 0x50020000, 14, 82, 65, 9, 0x0
+  CONTROL "", 1613, ComboBox, 0x50210103, 83, 80, 137, 60, 0x0
+  CONTROL "&Fixed-width font:", 4294967295, Static, 0x50020000, 14, 100, 65, 9, 0x0
+  CONTROL "", 1614, ComboBox, 0x50210103, 83, 98, 137, 60, 0x0
+  CONTROL "Font &size:", 4294967295, Static, 0x50020000, 14, 118, 65, 9, 0x0
+  CONTROL "", 1617, ComboBox, 0x50210003, 83, 116, 137, 60, 0x0
+  CONTROL "&Encoding:", 4294967295, Static, 0x50020000, 14, 136, 65, 9, 0x0
+  CONTROL "", 1618, ComboBox, 0x58210103, 83, 134, 137, 60, 0x0
+  CONTROL "Default encoding:", 4294967295, Static, 0x50020000, 14, 158, 65, 9, 0x0
+  CONTROL "(def charset here)", 1615, Static, 0x50020000, 83, 158, 75, 18, 0x0
+  CONTROL "Set as &default", 1619, Button, 0x50010000, 160, 155, 60, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 123, 188, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 177, 188, 50, 14, 0x0
+}
+
+4426 DIALOGEX 0, 0, 225, 164
+CAPTION "New Site Certificate"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 113, 143, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 168, 143, 50, 14, 0x0
+  CONTROL 1310, 6430, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "You have been offered a new site certificate to place in your list of trusted issuers. Please select the services for which this certificate will be used.", 4294967295, Static, 0x50020000, 42, 7, 176, 33, 0x0
+  CONTROL "Enable certificate", 1541, Button, 0x50010003, 42, 41, 148, 10, 0x0
+  CONTROL "Available usages: ", 4294967295, Button, 0x50000007, 42, 59, 176, 68, 0x0
+  CONTROL "Network &client authentication", 1506, Button, 0x50010003, 53, 71, 109, 10, 0x0
+  CONTROL "Network &server authentication", 1507, Button, 0x50010003, 53, 84, 113, 10, 0x0
+  CONTROL "Secure &e-mail", 1508, Button, 0x50010003, 53, 97, 59, 10, 0x0
+  CONTROL "Software &publishing", 1027, Button, 0x50010003, 53, 110, 78, 10, 0x0
+  CONTROL "&View Certificate...", 1202, Button, 0x50010000, 42, 143, 67, 14, 0x0
+}
+
+4448 DIALOGEX 0, 0, 239, 227
+CAPTION "Language Preference"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Language Preference", 4294967295, Button, 0x50000007, 7, 8, 224, 128, 0x0
+  CONTROL "Add the languages you use to read websites, listing in order of preference. Only add the ones you need, as some characters can be used to impersonate websites in other languages.", 4294967295, Static, 0x50020000, 11, 19, 211, 27, 0x0
+  CONTROL "&Language:", 4294967295, Static, 0x50020000, 18, 51, 42, 11, 0x0
+  CONTROL "", 1441, ListBox, 0x50a10101, 16, 62, 153, 67, 0x0
+  CONTROL "Move &up", 1442, Button, 0x50010000, 173, 62, 50, 14, 0x0
+  CONTROL "Move &down", 1443, Button, 0x50010000, 173, 79, 50, 14, 0x0
+  CONTROL "Re&move", 1445, Button, 0x50010000, 173, 96, 50, 14, 0x0
+  CONTROL "&Add...", 1444, Button, 0x50010000, 173, 113, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000004, 0, 0, 0, 0, 0x0
+  CONTROL "Prefix and suffix options", 4294967295, Button, 0x50000007, 9, 141, 222, 63, 0x0
+  CONTROL "Do not add 'www' to the beginning of typed web addresses", 1482, Button, 0x50010003, 17, 153, 205, 10, 0x0
+  CONTROL "Specify the suffix (for example .net) that should be added to typed web addresses when you press Ctrl + Shift + Enter.", 4294967295, Static, 0x50020000, 17, 166, 201, 17, 0x0
+  CONTROL "Suffix:", 4294967295, Static, 0x50020000, 17, 188, 91, 10, 0x0
+  CONTROL "", 1480, Edit, 0x50810080, 187, 186, 35, 12, 0x0
+  CONTROL "  .", 4294967295, Static, 0x50020000, 179, 190, 8, 8, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 129, 208, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 183, 208, 50, 14, 0x0
+}
+
+4449 DIALOGEX 0, 0, 211, 186
+CAPTION "Add Language"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Language:", 4294967295, Static, 0x50020000, 7, 7, 48, 11, 0x0
+  CONTROL "", 1446, ListBox, 0x50a10903, 7, 18, 197, 117, 0x0
+  CONTROL "Use&r defined:", 4294967295, Static, 0x50020000, 7, 145, 50, 9, 0x0
+  CONTROL "", 1447, Edit, 0x50810080, 69, 142, 135, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 100, 165, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 154, 165, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000001, 0, 0, 0, 0, 0x0
+}
+
+4451 DIALOGEX 0, 0, 186, 53
+CAPTION "Delete Files"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete all temporary Internet Explorer files?", 4294967295, Static, 0x50020000, 41, 7, 138, 22, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 75, 32, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 129, 32, 50, 14, 0x0
+}
+
+4452 DIALOGEX 0, 0, 252, 258
+CAPTION "Settings for foo ISP"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Automatic configuration", 1611, Button, 0x50020007, 7, 7, 238, 79, 0x0
+  CONTROL "Automatic configuration may override manual settings.  To ensure the use of manual settings, disable automatic configuration.", 4294967295, Static, 0x50020000, 14, 18, 224, 16, 0x0
+  CONTROL "&Automatically detect settings", 1573, Button, 0x50030003, 14, 39, 218, 10, 0x0
+  CONTROL "Use automatic configuration &script", 1569, Button, 0x50010003, 14, 52, 208, 10, 0x0
+  CONTROL "Add&ress", 1572, Static, 0x50020000, 26, 68, 33, 8, 0x0
+  CONTROL "", 1571, Edit, 0x50810080, 62, 65, 123, 14, 0x0
+  CONTROL "Advanced&...", 1548, Button, 0x50030000, 188, 65, 50, 14, 0x0
+  CONTROL "Proxy server", 1586, Button, 0x50000007, 7, 88, 238, 72, 0x0
+  CONTROL "Use a pro&xy server for this connection (These settings will not apply to other connections).", 1570, Button, 0x50032003, 14, 100, 224, 20, 0x0
+  CONTROL "Addr&ess:", 1471, Static, 0x50020000, 26, 126, 31, 8, 0x0
+  CONTROL "", 1460, Edit, 0x50810080, 62, 124, 58, 12, 0x0
+  CONTROL "Por&t:", 1410, Static, 0x50000000, 130, 126, 18, 8, 0x0
+  CONTROL "", 1461, Edit, 0x50812080, 153, 124, 32, 12, 0x0
+  CONTROL "Advan&ced", 1555, Button, 0x50030000, 188, 124, 50, 14, 0x0
+  CONTROL "&Bypass proxy server for local addresses", 1119, Button, 0x50030003, 26, 140, 177, 11, 0x0
+  CONTROL "Dial-up settings", 1561, Button, 0x50020007, 7, 163, 238, 66, 0x0
+  CONTROL "&User name:", 1473, Static, 0x50000000, 14, 179, 56, 9, 0x0
+  CONTROL "", 1464, Edit, 0x50810080, 82, 176, 103, 14, 0x0
+  CONTROL "&Password:", 1474, Static, 0x50000000, 14, 196, 56, 8, 0x0
+  CONTROL "", 1465, Edit, 0x508100a0, 82, 192, 103, 14, 0x0
+  CONTROL "&Domain:", 1475, Static, 0x50000000, 14, 212, 58, 11, 0x0
+  CONTROL "", 1466, Edit, 0x50810080, 82, 209, 103, 14, 0x0
+  CONTROL "Pr&operties", 1560, Button, 0x50030000, 188, 176, 50, 14, 0x0
+  CONTROL "Ad&vanced", 1584, Button, 0x50010000, 188, 195, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 139, 237, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 237, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000001, 0, 0, 0, 0, 0x0
+}
+
+4454 DIALOGEX 0, 0, 258, 267
+CAPTION "Content"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Parental Controls", 5801, Static, 0x50020000, 8, 7, 56, 8, 0x0
+  CONTROL "", 5805, Static, 0x50000010, 66, 11, 182, 1, 0x0
+  CONTROL 1328, 5804, Static, 0x50000003, 14, 18, 20, 20, 0x0
+  CONTROL "Control the Internet content that can be viewed.", 5803, Static, 0x50020000, 44, 20, 125, 20, 0x0
+  CONTROL "&Parental Controls", 5802, Button, 0x50010000, 172, 17, 74, 14, 0x0
+  CONTROL "Content Advisor", 607, Static, 0x50020000, 8, 48, 53, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 64, 51, 184, 1, 0x0
+  CONTROL 1306, 622, Static, 0x50000003, 14, 58, 21, 20, 0x0
+  CONTROL "Ratings help you control the Internet content that can be viewed on this computer.", 621, Static, 0x50020000, 44, 59, 208, 17, 0x0
+  CONTROL "&Enable...", 601, Button, 0x50010000, 96, 80, 74, 14, 0x0
+  CONTROL "Se&ttings", 619, Button, 0x50010000, 172, 80, 74, 14, 0x0
+  CONTROL "Certificates", 516, Static, 0x50020000, 8, 100, 38, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 49, 104, 199, 1, 0x0
+  CONTROL 1310, 6430, Static, 0x50000003, 14, 111, 21, 20, 0x0
+  CONTROL "Use certificates for encrypted connections and identification.", 4294967295, Static, 0x50020000, 44, 112, 208, 18, 0x0
+  CONTROL "Clear &SSL state", 518, Button, 0x50010000, 20, 134, 74, 14, 0x0
+  CONTROL "&Certificates", 511, Button, 0x50010000, 96, 134, 74, 14, 0x0
+  CONTROL "Pu&blishers", 515, Button, 0x50010000, 172, 134, 74, 14, 0x0
+  CONTROL "AutoComplete", 5800, Static, 0x50020000, 7, 157, 46, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 57, 161, 191, 1, 0x0
+  CONTROL 1322, 6431, Static, 0x50000003, 14, 168, 21, 20, 0x0
+  CONTROL "AutoComplete stores previous entries on webpages and suggests matches for you.", 4294967295, Static, 0x50020000, 44, 169, 125, 25, 0x0
+  CONTROL "Sett&ings", 321, Button, 0x50010000, 172, 167, 74, 14, 0x0
+  CONTROL "Feeds and Web Slices", 770, Static, 0x50020000, 7, 197, 72, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 82, 202, 166, 1, 0x0
+  CONTROL 4498, 6432, Static, 0x50000003, 14, 209, 21, 20, 0x0
+  CONTROL "Feeds and Web Slices provide updated content from websites that can be read in Internet Explorer and other programs.", 4294967295, Static, 0x50020000, 44, 210, 125, 35, 0x0
+  CONTROL "Setti&ngs", 771, Button, 0x50010000, 172, 208, 74, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 247, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+4456 DIALOGEX 0, 0, 224, 50
+CAPTION "Advanced Dial-Up"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Disconnect when connection may no longer be needed", 1556, Button, 0x50010003, 17, 11, 200, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 68, 30, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 123, 30, 50, 14, 0x0
+}
+
+4457 DIALOGEX 0, 0, 226, 162
+CAPTION "Accessibility"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Formatting", 1497, Button, 0x50000007, 7, 7, 212, 61, 0x0
+  CONTROL "Ignore &colors specified on webpages", 1498, Button, 0x50010003, 17, 21, 150, 10, 0x0
+  CONTROL "Ignore font &styles specified on webpages", 1499, Button, 0x50010003, 17, 35, 150, 10, 0x0
+  CONTROL "Ignore font si&zes specified on webpages", 1500, Button, 0x50010003, 17, 50, 150, 10, 0x0
+  CONTROL "User style sheet", 1528, Button, 0x50000007, 7, 73, 212, 60, 0x0
+  CONTROL "Format &documents using my style sheet", 1012, Button, 0x50010003, 17, 86, 150, 10, 0x0
+  CONTROL "S&tyle sheet:", 4730, Static, 0x50020000, 30, 99, 124, 8, 0x0
+  CONTROL "", 1529, Edit, 0x50810080, 30, 110, 124, 14, 0x0
+  CONTROL "&Browse...", 1525, Button, 0x50010000, 161, 110, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 114, 141, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 169, 141, 50, 14, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000001, 0, 0, 0, 0, 0x0
+}
+
+4493 DIALOGEX 20, 20, 240, 134
+CAPTION "Export Personal Certificates"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 129, 113, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 183, 113, 50, 14, 0x0
+  CONTROL 1310, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Internet Explorer will now export the selected personal certificate to a file.", 4294967295, Static, 0x50020000, 35, 7, 194, 18, 0x0
+  CONTROL "Password to encrypt exported certificate with:", 4294967295, Static, 0x50020000, 35, 32, 170, 8, 0x0
+  CONTROL "", 1465, Edit, 0x508100a0, 35, 41, 198, 12, 0x0
+  CONTROL "Confirm password:", 4294967295, Static, 0x50020000, 35, 56, 170, 8, 0x0
+  CONTROL "", 1467, Edit, 0x508100a0, 35, 67, 198, 12, 0x0
+  CONTROL "File name:", 4294967295, Static, 0x50020000, 35, 84, 31, 8, 0x0
+  CONTROL "", 1466, Edit, 0x50810080, 35, 93, 198, 12, 0x0
+}
+
+4495 DIALOGEX 20, 20, 250, 116
+CAPTION "Import Personal Certificates"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 139, 94, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 193, 94, 50, 14, 0x0
+  CONTROL 1310, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Internet Explorer will now import any personal certificates contained in a file.  ", 4294967295, Static, 0x50020000, 36, 7, 194, 18, 0x0
+  CONTROL "Certificate file to import:", 4294967295, Static, 0x50020000, 36, 29, 74, 8, 0x0
+  CONTROL "", 1466, Edit, 0x50810080, 36, 40, 145, 12, 0x0
+  CONTROL "&Browse...", 1535, Button, 0x50010000, 193, 40, 50, 14, 0x0
+  CONTROL "Password:", 4294967295, Static, 0x50020000, 36, 57, 103, 8, 0x0
+  CONTROL "", 1465, Edit, 0x508100a0, 36, 70, 145, 12, 0x0
+}
+
+4859 DIALOGEX 0, 0, 226, 74
+CAPTION "Menus and Dialog Boxes"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "To use the new language settings, Internet Explorer and Windows Mail need to be closed and restarted.", 4294967295, Static, 0x50000000, 32, 7, 187, 16, 0x0
+  CONTROL "Close and restart Internet Explorer and Windows Mail now?", 4294967295, Static, 0x50000000, 32, 30, 187, 16, 0x0
+  CONTROL "Yes", 6, Button, 0x50010001, 61, 53, 50, 14, 0x0
+  CONTROL "No", 7, Button, 0x50010000, 115, 53, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 169, 53, 50, 14, 0x0
+}
+
+4860 DIALOGEX 0, 0, 226, 59
+CAPTION "Menus and Dialog Boxes"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "The language settings have been updated and will take effect the next time you start Internet Explorer or Windows Mail.", 4294967295, Static, 0x50000000, 32, 7, 187, 24, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 88, 38, 50, 14, 0x0
+}
+
+4869 DIALOGEX 0, 0, 190, 53
+CAPTION "Delete Cookies"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete all cookies in the Temporary Internet Files folder?", 4294967295, Static, 0x50020000, 41, 7, 142, 22, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 79, 32, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 133, 32, 50, 14, 0x0
+}
+
+5300 DIALOGEX 0, 0, 258, 267
+CAPTION "Privacy"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 12, 8, 0, 0, 0x0
+  CONTROL "Select a setting for the Internet zone.", 5362, Static, 0x50020000, 8, 20, 184, 19, 0x0
+  CONTROL "Privacy Slider", 5334, "msctls_trackbar32", 0x5001060b, 12, 33, 30, 76, 0x0
+  CONTROL "Level", 5333, Static, 0x50020000, 47, 32, 186, 8, 0x0
+  CONTROL "level description", 1568, Static, 0x50020000, 53, 47, 190, 67, 0x0
+  CONTROL "", 5336, Static, 0x50020000, 47, 42, 186, 8, 0x0
+  CONTROL "", 5337, Static, 0x50020000, 53, 57, 190, 57, 0x0
+  CONTROL "&Sites", 5329, Button, 0x50010000, 10, 115, 55, 14, 0x0
+  CONTROL "&Import", 5301, Button, 0x50010000, 70, 115, 55, 14, 0x0
+  CONTROL "Ad&vanced", 5319, Button, 0x50010000, 130, 115, 56, 14, 0x0
+  CONTROL "&Default", 5318, Button, 0x50010000, 190, 115, 56, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 8, 7, 37, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 38, 11, 210, 1, 0x0
+  CONTROL "Location", 4294967295, Static, 0x50020000, 8, 138, 51, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 39, 143, 209, 1, 0x0
+  CONTROL "Never allow websites to request your physical &location", 5421, Button, 0x50032003, 8, 150, 150, 16, 0x0
+  CONTROL "&Clear Sites", 5420, Button, 0x50010000, 191, 150, 56, 14, 0x0
+  CONTROL "Pop-up Blocker", 4294967295, Static, 0x50020000, 8, 172, 51, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 59, 177, 189, 1, 0x0
+  CONTROL "Turn on Pop-up &Blocker", 5400, Button, 0x50030003, 8, 184, 120, 12, 0x0
+  CONTROL "S&ettings", 5401, Button, 0x50010000, 191, 184, 56, 14, 0x0
+  CONTROL "InPrivate", 4294967295, Static, 0x50020000, 8, 200, 51, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 42, 205, 206, 1, 0x0
+  CONTROL "Disable &toolbars and extensions when InPrivate Browsing starts", 5394, Button, 0x50032003, 8, 212, 240, 24, 0x0
+}
+
+5320 DIALOGEX 0, 0, 248, 166
+CAPTION "Advanced Privacy Settings"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1307, 5335, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "You can choose how cookies are handled in the Internet zone.  This overrides automatic cookie handling.", 65535, Static, 0x50020000, 46, 7, 195, 30, 0x0
+  CONTROL "Cookies", 65535, Button, 0x50000007, 7, 34, 234, 104, 0x0
+  CONTROL "&Override automatic cookie handling", 5321, Button, 0x50012403, 16, 47, 195, 19, 0x0
+  CONTROL "First-party Cookies", 5331, Static, 0x50020000, 27, 72, 86, 8, 0x0
+  CONTROL "&Accept", 5322, Button, 0x50030009, 27, 85, 86, 10, 0x0
+  CONTROL "&Block", 5323, Button, 0x50000009, 27, 96, 86, 10, 0x0
+  CONTROL "&Prompt", 5324, Button, 0x50000009, 27, 107, 86, 10, 0x0
+  CONTROL "Third-party Cookies", 5332, Static, 0x50020000, 124, 72, 104, 8, 0x0
+  CONTROL "A&ccept", 5325, Button, 0x50030009, 125, 85, 86, 10, 0x0
+  CONTROL "B&lock", 5326, Button, 0x50000009, 125, 96, 86, 10, 0x0
+  CONTROL "P&rompt", 5327, Button, 0x50000009, 125, 107, 86, 10, 0x0
+  CONTROL "Al&ways allow session cookies", 5328, Button, 0x50030003, 27, 123, 205, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 136, 145, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 191, 145, 50, 14, 0x0
+}
+
+5371 DIALOGEX 0, 0, 290, 268
+CAPTION "Per Site Privacy Actions"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Manage Sites", 65535, Button, 0x50000007, 7, 7, 275, 234, 0x0
+  CONTROL 1307, 5335, Static, 0x50000003, 13, 17, 21, 20, 0x0
+  CONTROL "You can specify which websites are always or never allowed to use cookies, regardless of their privacy policy.", 65535, Static, 0x50020000, 41, 19, 235, 19, 0x0
+  CONTROL "Type the exact address of the website you want to manage, and then click Allow or Block.", 65535, Static, 0x50020000, 16, 40, 257, 25, 0x0
+  CONTROL "To remove a site from the list of managed sites, select the name of the website and click the Remove button.", 65535, Static, 0x50020000, 16, 63, 257, 18, 0x0
+  CONTROL "Address of &website:", 65535, Static, 0x50020000, 17, 87, 100, 9, 0x0
+  CONTROL "", 5374, Edit, 0x50810080, 16, 98, 201, 14, 0x0
+  CONTROL "&Block", 5376, Button, 0x50010001, 224, 98, 50, 14, 0x0
+  CONTROL "&Allow", 5375, Button, 0x50010000, 224, 116, 50, 14, 0x0
+  CONTROL "Managed web&sites:", 65535, Static, 0x50020000, 17, 133, 95, 9, 0x0
+  CONTROL "Managed websites", 5378, "SysListView32", 0x5081000d, 16, 145, 201, 86, 0x0
+  CONTROL "&Remove", 5377, Button, 0x58010000, 224, 145, 50, 14, 0x0
+  CONTROL "Re&move all", 5379, Button, 0x58010000, 224, 163, 50, 15, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 232, 247, 50, 14, 0x0
+}
+
+5402 DIALOGEX 0, 0, 286, 273
+CAPTION "Pop-up Blocker Settings"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Exceptions", 65535, Button, 0x50000007, 7, 7, 272, 171, 0x0
+  CONTROL 5411, 5412, Static, 0x50000003, 16, 21, 21, 20, 0x0
+  CONTROL "Pop-ups are currently blocked.  You can allow pop-ups from specific websites by adding the site to the list below.", 65535, Static, 0x50020000, 44, 19, 225, 19, 0x0
+  CONTROL "Address of &website to allow:", 65535, Static, 0x50020000, 18, 43, 100, 9, 0x0
+  CONTROL "", 5404, Edit, 0x50810080, 16, 53, 201, 14, 0x0
+  CONTROL "&Add", 5403, Button, 0x58010000, 224, 53, 50, 14, 0x0
+  CONTROL "Allowed &sites:", 65535, Static, 0x50020000, 18, 76, 150, 9, 0x0
+  CONTROL "Allowed sites", 5405, "SysListView32", 0x50b1411d, 16, 86, 201, 86, 0x0
+  CONTROL "&Remove", 5406, Button, 0x58010000, 224, 86, 50, 14, 0x0
+  CONTROL "R&emove all...", 5413, Button, 0x58010000, 224, 104, 50, 14, 0x0
+  CONTROL "Notifications and blocking level:", 65535, Button, 0x50000007, 7, 183, 272, 68, 0x0
+  CONTROL "&Play a sound when a pop-up is blocked.", 5407, Button, 0x50010003, 16, 195, 200, 8, 0x0
+  CONTROL "Show &Notification bar when a pop-up is blocked.", 5417, Button, 0x50010003, 16, 207, 200, 8, 0x0
+  CONTROL "&Blocking level:", 65535, Static, 0x50020000, 16, 221, 200, 8, 0x0
+  CONTROL "", 5416, ComboBox, 0x50210003, 16, 232, 257, 20, 0x0
+  CONTROL "<A>Learn more about Pop-up Blocker</A>", 5418, "SysLink", 0x50010000, 16, 257, 150, 12, 0x0
+  CONTROL "&Close", 1, Button, 0x50010000, 224, 255, 50, 14, 0x0
+}
+
+5500 DIALOGEX 0, 0, 257, 313
+CAPTION "Delete Browsing History"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "P&reserve Favorites website data", 5542, Button, 0x50030003, 10, 7, 218, 10, 0x0
+  CONTROL "Keep cookies and temporary Internet files that enable your favorite websites to retain preferences and display faster.", 4294967295, Static, 0x50020000, 22, 17, 230, 18, 0x0
+  CONTROL "", 4294967295, Static, 0x50000007, 13, 42, 233, 1, 0x20000
+  CONTROL "&Temporary Internet files and website files", 624, Button, 0x50030003, 10, 50, 218, 10, 0x0
+  CONTROL "Copies of webpages, images, and media that are saved for faster viewing.", 4294967295, Static, 0x50020000, 22, 60, 212, 18, 0x0
+  CONTROL "C&ookies", 627, Button, 0x50030003, 10, 80, 218, 10, 0x0
+  CONTROL "Files stored on your computer by websites to save preferences such as login information.", 4294967295, Static, 0x50020000, 22, 90, 212, 24, 0x0
+  CONTROL "&History", 1489, Button, 0x50030003, 10, 110, 218, 10, 0x0
+  CONTROL "List of websites you have visited.", 4294967295, Static, 0x50020000, 22, 120, 212, 10, 0x0
+  CONTROL "Do&wnload History", 1626, Button, 0x50030003, 10, 140, 218, 10, 0x0
+  CONTROL "List of files you have downloaded.", 4294967295, Static, 0x50020000, 22, 150, 212, 10, 0x0
+  CONTROL "&Form data", 5532, Button, 0x50030003, 10, 170, 218, 10, 0x0
+  CONTROL "Saved information that you have typed into forms.", 4294967295, Static, 0x50020000, 22, 180, 212, 18, 0x0
+  CONTROL "&Passwords", 5533, Button, 0x50030003, 10, 200, 218, 10, 0x0
+  CONTROL "Saved passwords that are automatically filled in when you sign in to a website you've previously visited.", 4294967295, Static, 0x50020000, 22, 210, 212, 18, 0x0
+  CONTROL "ActiveX Filtering and Trac&king Protection data", 5544, Button, 0x50030003, 10, 230, 218, 10, 0x0
+  CONTROL "A list of websites excluded from filtering, and data used by Tracking Protection to detect where websites might be automatically sharing details about your visit.", 4294967295, Static, 0x50020000, 22, 240, 230, 26, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 273, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, "SysLink", 0x50010000, 28, 273, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 273, 21, 20, 0x0
+  CONTROL "&Delete", 5543, Button, 0x50010000, 124, 288, 59, 16, 0x0
+  CONTROL "Cancel", 5536, Button, 0x50010001, 187, 288, 60, 16, 0x0
+  CONTROL "<A>About deleting browsing history</A>", 6303, "SysLink", 0x50010000, 13, 292, 102, 20, 0x0
+}
+
+6100 DIALOGEX 0, 0, 250, 274
+CAPTION "Tabbed Browsing Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "&Enable Tabbed Browsing (requires restarting Internet Explorer)", 6101, Button, 0x50030003, 12, 10, 218, 11, 0x0
+  CONTROL "&Warn me when closing multiple tabs", 6108, Button, 0x50010003, 24, 24, 216, 12, 0x0
+  CONTROL "&Always switch to new tabs when they are created", 6102, Button, 0x50010003, 24, 36, 216, 12, 0x0
+  CONTROL "&Show previews for individual tabs in the taskbar*", 6116, Button, 0x50010003, 24, 48, 216, 12, 0x0
+  CONTROL "Enable &Quick Tabs (Ctrl+Q)*", 6103, Button, 0x50010003, 24, 60, 216, 12, 0x0
+  CONTROL "Enable Tab &Groups*", 6110, Button, 0x50010003, 24, 72, 216, 12, 0x0
+  CONTROL "Open each new tab next to the current tab", 6117, Button, 0x50010003, 36, 84, 204, 12, 0x0
+  CONTROL "Open only the &first home page when Internet Explorer starts", 6109, Button, 0x50010003, 24, 96, 216, 12, 0x0
+  CONTROL "When a new tab is opened, open:", 4294967295, Button, 0x50000007, 12, 110, 227, 30, 0x0
+  CONTROL "", 6115, ComboBox, 0x50210003, 24, 122, 139, 20, 0x0
+  CONTROL "When a pop-up is encountered:", 4294967295, Button, 0x50000007, 12, 141, 227, 48, 0x0
+  CONTROL "Let &Internet Explorer decide how pop-ups should open", 6104, Button, 0x50030009, 24, 151, 206, 12, 0x0
+  CONTROL "Always open pop-ups in a new &window", 6105, Button, 0x50010009, 24, 163, 206, 12, 0x0
+  CONTROL "Always open pop-ups in a new &tab", 6106, Button, 0x50010009, 24, 175, 206, 12, 0x0
+  CONTROL "Open links from other programs in:", 4294967295, Button, 0x50000007, 12, 190, 227, 48, 0x0
+  CONTROL "A new wind&ow", 6112, Button, 0x50030009, 24, 200, 206, 12, 0x0
+  CONTROL "A new ta&b in the current window", 6113, Button, 0x50010009, 24, 212, 206, 12, 0x0
+  CONTROL "The &current tab or window", 6114, Button, 0x50010009, 24, 224, 206, 12, 0x0
+  CONTROL "* Takes effect after you restart Internet Explorer", 4294967295, Static, 0x50020000, 12, 240, 218, 12, 0x0
+  CONTROL "&Restore defaults", 6107, Button, 0x50030000, 12, 254, 72, 15, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 126, 254, 54, 15, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 186, 254, 54, 15, 0x0
+}
+
+6401 DIALOGEX 0, 0, 186, 53
+CAPTION "Delete History"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete your history of visited websites?", 4294967295, Static, 0x50020000, 41, 7, 138, 22, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 75, 32, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 129, 32, 50, 14, 0x0
+}
+
+6402 DIALOGEX 0, 0, 186, 53
+CAPTION "Delete Form Data"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete previously saved form data?", 4294967295, Static, 0x50020000, 41, 7, 138, 22, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 75, 32, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 129, 32, 50, 14, 0x0
+}
+
+6403 DIALOGEX 0, 0, 186, 53
+CAPTION "Delete Passwords"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete all previously saved form passwords?", 4294967295, Static, 0x50020000, 41, 7, 138, 22, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 75, 32, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 129, 32, 50, 14, 0x0
+}
+
+6404 DIALOGEX 0, 0, 217, 68
+CAPTION "Delete Browsing History"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6430, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Are you sure you want to delete all Internet Explorer browsing history?", 4294967295, Static, 0x50020000, 41, 7, 169, 22, 0x0
+  CONTROL "Also &delete files and settings stored by add-ons.", 1449, Button, 0x50010003, 43, 30, 167, 10, 0x0
+  CONTROL "<A>What does this delete?</A>", 6303, "SysLink", 0x50010000, 7, 51, 84, 10, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010001, 106, 48, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 160, 48, 50, 14, 0x0
+}
+
+6421 DIALOGEX 0, 0, 251, 54
+CAPTION "Warning!"
+STYLE 0x80c809cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 5906, 6430, Static, 0x50000003, 7, 8, 21, 20, 0x0
+  CONTROL "Are you sure you want to change the settings for this zone?", 4294967295, Static, 0x50020000, 41, 9, 198, 20, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010000, 73, 31, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010001, 130, 31, 50, 14, 0x0
+}
+
+6422 DIALOGEX 0, 0, 251, 72
+CAPTION "Warning!"
+STYLE 0x80c809cc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 5906, 6430, Static, 0x50000003, 7, 8, 21, 20, 0x0
+  CONTROL "Are you sure you want to change the settings for this zone?", 6420, Static, 0x50020000, 41, 9, 198, 20, 0x0
+  CONTROL "The current security settings will put your computer at risk.", 4294967295, Static, 0x50020000, 41, 31, 194, 11, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010000, 73, 49, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010001, 130, 49, 50, 14, 0x0
+}
+
+6603 DIALOGEX 0, 0, 190, 110
+CAPTION "Reset Internet Explorer Settings"
+STYLE 0x90c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Resetting Internet Explorer settings", 4294967295, Static, 0x50020000, 15, 10, 150, 20, 0x0
+  CONTROL "Resetting user customizations", 4294967295, Static, 0x50020000, 45, 30, 140, 12, 0x0
+  CONTROL "Disabling browser add-ons", 4294967295, Static, 0x50020000, 45, 45, 140, 12, 0x0
+  CONTROL "Applying default settings", 6648, Static, 0x50020000, 45, 60, 140, 12, 0x0
+  CONTROL "Removing branding settings", 6647, Static, 0x40020000 | NOT WS_VISIBLE, 45, 60, 140, 12, 0x0
+  CONTROL "Deleting personal settings", 6649, Static, 0x50020000, 45, 75, 140, 12, 0x0
+  CONTROL "", 6604, Static, 0x50000003, 30, 30, 8, 8, 0x0
+  CONTROL "", 6605, Static, 0x50000003, 30, 45, 8, 8, 0x0
+  CONTROL "", 6607, Static, 0x50000003, 30, 60, 8, 8, 0x0
+  CONTROL "", 6606, Static, 0x50000003, 30, 75, 8, 8, 0x0
+  CONTROL "<A>Why did resetting fail?</A>", 6624, "SysLink", 0x50010000, 15, 92, 110, 10, 0x0
+  CONTROL "&Close", 6608, Button, 0x50010000, 130, 89, 50, 14, 0x0
+}
+
+6625 DIALOGEX 0, 0, 225, 55
+CAPTION "Internet Explorer"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6601, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Before you can reset Internet Explorer settings, you \nmust first close all other open windows and programs.", 4294967295, Static, 0x50020000, 40, 7, 190, 25, 0x0
+  CONTROL "<A>Why am I getting this message?</A>", 6623, "SysLink", 0x50010000, 10, 40, 130, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 165, 35, 50, 14, 0x0
+}
+
+6646 DIALOGEX 0, 0, 291, 191
+CAPTION "Reset Internet Explorer Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 32515, 6601, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Are you sure you want to reset all Internet Explorer settings?", 6626, Static, 0x50020000, 35, 10, 254, 22, 0x0
+  CONTROL "Resetting includes:", 4294967295, Static, 0x50020000, 35, 34, 200, 10, 0x0
+  CONTROL 6627, 6650, Static, 0x50000003, 37, 47, 21, 20, 0x0
+  CONTROL "Disable toolbars and add-ons", 4294967295, Static, 0x50020000, 47, 44, 107, 9, 0x0
+  CONTROL 6627, 6651, Static, 0x50000003, 166, 47, 21, 20, 0x0
+  CONTROL "Advanced options", 4294967295, Static, 0x50020000, 176, 44, 99, 9, 0x0
+  CONTROL 6627, 6652, Static, 0x50000003, 37, 57, 21, 20, 0x0
+  CONTROL "Default web browser settings", 4294967295, Static, 0x50020000, 47, 54, 107, 9, 0x0
+  CONTROL 6627, 6653, Static, 0x50000003, 166, 57, 21, 20, 0x0
+  CONTROL "Tabbed browsing settings", 4294967295, Static, 0x50020000, 176, 54, 97, 9, 0x0
+  CONTROL 6627, 6654, Static, 0x50000003, 37, 67, 21, 20, 0x0
+  CONTROL "Privacy settings", 4294967295, Static, 0x50020000, 47, 64, 107, 9, 0x0
+  CONTROL 6627, 6655, Static, 0x50000003, 166, 67, 21, 20, 0x0
+  CONTROL "Pop-up settings", 4294967295, Static, 0x50020000, 176, 64, 90, 9, 0x0
+  CONTROL 6627, 6656, Static, 0x50000003, 37, 77, 21, 20, 0x0
+  CONTROL "Security settings", 4294967295, Static, 0x50020000, 47, 74, 107, 9, 0x0
+  CONTROL "Delete &personal settings", 6644, Button, 0x50010003, 35, 92, 100, 10, 0x0
+  CONTROL "Resets home pages, search providers and Accelerators to default settings. Deletes temporary Internet files, history, cookies, web form information, ActiveX Filtering and Tracking Protection data, and passwords.", 4294967295, Static, 0x50020000, 47, 103, 233, 42, 0x0
+  CONTROL "You must restart Internet Explorer for these changes to take effect.", 4294967295, Static, 0x50020000, 35, 146, 240, 10, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 0, 163, 292, 1, 0x0
+  CONTROL "<A>How does resetting affect my computer?</A>", 6602, "SysLink", 0x50010000, 11, 173, 140, 10, 0x0
+  CONTROL "&Reset", 1, Button, 0x50010000, 176, 171, 50, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 233, 171, 50, 14, 0x0
+}
+
+6700 DIALOGEX 0, 0, 258, 267
+CAPTION "General"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 1303, 6431, Static, 0x50000003, 14, 19, 20, 20, 0x0
+  CONTROL "Delete temporary files, history, cookies, saved passwords, and web form information.", 4294967295, Static, 0x50020000, 44, 20, 198, 16, 0x0
+  CONTROL "&Delete...", 5501, Button, 0x50010000, 126, 40, 58, 14, 0x0
+  CONTROL "&Settings", 1490, Button, 0x50010000, 188, 40, 58, 14, 0x0
+  CONTROL "C&olors", 1483, Button, 0x50010000, 10, 69, 57, 14, 0x0
+  CONTROL "&Languages", 1495, Button, 0x50010000, 71, 69, 57, 14, 0x0
+  CONTROL "Fo&nts", 1494, Button, 0x50010000, 132, 69, 53, 14, 0x0
+  CONTROL "Acc&essibility", 1496, Button, 0x50010000, 189, 69, 58, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Browsing history", 4294967295, Static, 0x50020000, 9, 7, 55, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 65, 12, 185, 1, 0x0
+  CONTROL "Appearance", 4294967295, Static, 0x50020000, 9, 57, 39, 9, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 52, 62, 196, 1, 0x0
+}
+
+6701 DIALOGEX 0, 0, 258, 267
+CAPTION "Content"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Parental Controls", 5801, Static, 0x50020000, 8, 7, 56, 8, 0x0
+  CONTROL "", 5805, Static, 0x50000010, 66, 11, 182, 1, 0x0
+  CONTROL 1328, 5804, Static, 0x50000003, 14, 18, 20, 20, 0x0
+  CONTROL "Control the Internet content that can be viewed.", 5803, Static, 0x50020000, 44, 20, 125, 20, 0x0
+  CONTROL "&Parental Controls", 5802, Button, 0x50010000, 172, 17, 74, 14, 0x0
+  CONTROL "Content Advisor", 607, Static, 0x50020000, 8, 48, 53, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 64, 51, 184, 1, 0x0
+  CONTROL 1306, 622, Static, 0x50000003, 14, 58, 21, 20, 0x0
+  CONTROL "Ratings help you control the Internet content that can be viewed on this computer.", 621, Static, 0x50020000, 44, 59, 208, 17, 0x0
+  CONTROL "&Enable...", 601, Button, 0x50010000, 96, 80, 74, 14, 0x0
+  CONTROL "Se&ttings", 619, Button, 0x50010000, 172, 80, 74, 14, 0x0
+  CONTROL "Certificates", 516, Static, 0x50020000, 8, 100, 38, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 49, 104, 199, 1, 0x0
+  CONTROL 1310, 6430, Static, 0x50000003, 14, 111, 21, 20, 0x0
+  CONTROL "Use certificates for encrypted connections and identification.", 4294967295, Static, 0x50020000, 44, 112, 208, 18, 0x0
+  CONTROL "Clear &SSL state", 518, Button, 0x50010000, 20, 134, 74, 14, 0x0
+  CONTROL "&Certificates", 511, Button, 0x50010000, 96, 134, 74, 14, 0x0
+  CONTROL "Pu&blishers", 515, Button, 0x50010000, 172, 134, 74, 14, 0x0
+  CONTROL "AutoComplete", 5800, Static, 0x50020000, 7, 157, 46, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 57, 161, 191, 1, 0x0
+  CONTROL 1322, 6431, Static, 0x50000003, 14, 168, 21, 20, 0x0
+  CONTROL "AutoComplete stores previous entries on webpages and suggests matches for you.", 4294967295, Static, 0x50020000, 44, 169, 125, 25, 0x0
+  CONTROL "Sett&ings", 321, Button, 0x50010000, 172, 167, 74, 14, 0x0
+  CONTROL "Feeds", 770, Static, 0x50020000, 7, 197, 72, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 82, 202, 166, 1, 0x0
+  CONTROL 4498, 6432, Static, 0x50000003, 14, 209, 21, 20, 0x0
+  CONTROL "Feeds provide updated content from websites that can be read in your browser and other programs.", 4294967295, Static, 0x50020000, 44, 210, 125, 35, 0x0
+  CONTROL "Setti&ngs", 771, Button, 0x50010000, 172, 208, 74, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+6702 DIALOGEX 0, 0, 258, 267
+CAPTION "Programs"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Manage add-ons", 4294967295, Static, 0x50020000, 10, 7, 78, 8, 0x0
+  CONTROL 5901, 6432, Static, 0x50000003, 14, 20, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 69, 12, 179, 1, 0x0
+  CONTROL "Enable or disable browser add-ons installed in your system.", 4294967295, Static, 0x50020000, 44, 21, 130, 24, 0x0
+  CONTROL "&Manage add-ons", 4865, Button, 0x50010000, 175, 18, 72, 14, 0x0
+  CONTROL "Internet programs", 4294967295, Static, 0x50020000, 8, 46, 78, 8, 0x0
+  CONTROL 6623, 6433, Static, 0x50000003, 14, 57, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 72, 50, 176, 1, 0x0
+  CONTROL "Choose the programs you want to use for other Internet services, such as e-mail.", 4294967295, Static, 0x50020000, 44, 60, 130, 25, 0x0
+  CONTROL "&Set programs", 5907, Button, 0x50010000, 175, 57, 72, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+6704 DIALOGEX 0, 0, 258, 267
+CAPTION "Advanced"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Settings", 1439, "SysTreeView32", 0x50810114, 16, 19, 227, 206, 0x0
+  CONTROL "&Restore advanced settings", 1526, Button, 0x50010000, 144, 229, 102, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 8, 6, 32, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 37, 10, 211, 1, 0x0
+}
+
+6705 DIALOGEX 0, 0, 239, 159
+CAPTION "Language Preference"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Language Preference", 4294967295, Button, 0x50000007, 7, 8, 224, 128, 0x0
+  CONTROL "Add the languages you use to read websites, listing in order of preference. Only add the ones you need, as some characters can be used to impersonate websites in other languages.", 4294967295, Static, 0x50020000, 11, 19, 211, 27, 0x0
+  CONTROL "&Language:", 4294967295, Static, 0x50020000, 18, 51, 42, 11, 0x0
+  CONTROL "", 1441, ListBox, 0x50a10101, 16, 62, 153, 67, 0x0
+  CONTROL "Move &up", 1442, Button, 0x50010000, 173, 62, 50, 14, 0x0
+  CONTROL "Move &down", 1443, Button, 0x50010000, 173, 79, 50, 14, 0x0
+  CONTROL "Re&move", 1445, Button, 0x50010000, 173, 96, 50, 14, 0x0
+  CONTROL "&Add...", 1444, Button, 0x50010000, 173, 113, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 129, 140, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 183, 140, 50, 14, 0x0
+}
+
+6709 DIALOGEX 0, 0, 258, 267
+CAPTION "Privacy"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 12, 8, 0, 0, 0x0
+  CONTROL 5390, 5335, Static, 0x50000003, 14, 18, 20, 20, 0x0
+  CONTROL "Select a setting for the Internet zone.", 5362, Static, 0x50020000, 44, 20, 184, 19, 0x0
+  CONTROL "Privacy Slider", 5334, "msctls_trackbar32", 0x5001060b, 12, 43, 30, 76, 0x0
+  CONTROL "Level", 5333, Static, 0x50020000, 47, 42, 186, 8, 0x0
+  CONTROL "level description", 1568, Static, 0x50020000, 53, 57, 190, 67, 0x0
+  CONTROL "&Sites", 5329, Button, 0x50010000, 10, 125, 55, 14, 0x0
+  CONTROL "&Import", 5301, Button, 0x50010000, 70, 125, 55, 14, 0x0
+  CONTROL "Ad&vanced", 5319, Button, 0x50010000, 130, 125, 56, 14, 0x0
+  CONTROL "&Default", 5318, Button, 0x50010000, 190, 125, 56, 14, 0x0
+  CONTROL 5410, 5412, Static, 0x50000003, 14, 160, 20, 20, 0x0
+  CONTROL "Prevent most pop-up windows from appearing.", 4294967295, Static, 0x50020000, 44, 162, 133, 19, 0x0
+  CONTROL "Turn on Pop-up &Blocker", 5400, Button, 0x50030003, 44, 183, 120, 12, 0x0
+  CONTROL "S&ettings", 5401, Button, 0x50010000, 191, 159, 56, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+  CONTROL "Settings", 4294967295, Static, 0x50020000, 8, 7, 37, 9, 0x0
+  CONTROL "Pop-up Blocker", 4294967295, Static, 0x50020000, 8, 149, 51, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 38, 11, 210, 1, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 59, 153, 189, 1, 0x0
+}
+
+6716 DIALOGEX 0, 0, 246, 176
+CAPTION "Feed Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Default schedule", 4294967295, Button, 0x50000007, 9, 9, 229, 85, 0x0
+  CONTROL "Specify how frequently feeds will be downloaded. This setting is ignored for feeds that have a publisher's recommendation greater than the specified value.", 4294967295, Static, 0x50020000, 18, 24, 210, 24, 0x0
+  CONTROL "&Automatically check feeds for updates", 774, Button, 0x50010003, 18, 55, 210, 12, 0x0
+  CONTROL "&Every:", 777, Static, 0x50020000, 29, 72, 40, 8, 0x0
+  CONTROL "", 775, ComboBox, 0x58210003, 73, 70, 116, 30, 0x0
+  CONTROL "Advanced", 4294967295, Button, 0x50000007, 9, 100, 229, 49, 0x0
+  CONTROL "Automatically &mark feed as read when reading a feed", 785, Button, 0x50010003, 18, 115, 210, 10, 0x0
+  CONTROL "&Turn on feed reading view", 776, Button, 0x50010003, 18, 129, 210, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 126, 156, 54, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 185, 156, 54, 14, 0x0
+}
+
+6720 DIALOGEX 0, 0, 257, 275
+CAPTION "Delete Browsing History"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "P&reserve Favorites website data", 5542, Button, 0x50030003, 10, 7, 230, 10, 0x0
+  CONTROL "Keep cookies and temporary Internet files that enable your favorite websites to retain preferences and display faster.", 4294967295, Static, 0x50020000, 22, 17, 212, 18, 0x0
+  CONTROL "", 4294967295, Static, 0x50000007, 13, 42, 233, 1, 0x0
+  CONTROL "&Temporary Internet files", 624, Button, 0x50030003, 10, 50, 218, 10, 0x0
+  CONTROL "Copies of webpages, images, and media that are saved for faster viewing.", 4294967295, Static, 0x50020000, 22, 60, 212, 18, 0x0
+  CONTROL "C&ookies", 627, Button, 0x50030003, 10, 80, 218, 10, 0x0
+  CONTROL "Files stored on your computer by websites to save preferences such as login information.", 4294967295, Static, 0x50020000, 22, 90, 212, 24, 0x0
+  CONTROL "&History", 1489, Button, 0x50030003, 10, 110, 218, 10, 0x0
+  CONTROL "List of websites you have visited.", 4294967295, Static, 0x50020000, 22, 120, 212, 10, 0x0
+  CONTROL "Do&wnload History", 1626, Button, 0x50030003, 10, 140, 218, 10, 0x0
+  CONTROL "List of files you have downloaded.", 4294967295, Static, 0x50020000, 22, 150, 212, 10, 0x0
+  CONTROL "&Form data", 5532, Button, 0x50030003, 10, 170, 218, 10, 0x0
+  CONTROL "Saved information that you have typed into forms.", 4294967295, Static, 0x50020000, 22, 180, 212, 18, 0x0
+  CONTROL "&Passwords", 5533, Button, 0x50030003, 10, 200, 218, 10, 0x0
+  CONTROL "Saved passwords that are automatically filled in when you sign in to a website you've previously visited.", 4294967295, Static, 0x50020000, 22, 210, 212, 18, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 235, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, "SysLink", 0x50010000, 28, 235, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 235, 20, 20, 0x0
+  CONTROL "&Delete", 5543, Button, 0x50010000, 124, 250, 59, 16, 0x0
+  CONTROL "Cancel", 5536, Button, 0x50010001, 187, 250, 60, 16, 0x0
+  CONTROL "<A>About deleting browsing history</A>", 6303, "SysLink", 0x50010000, 13, 254, 102, 20, 0x0
+}
+
+6721 DIALOGEX 20, 20, 253, 171
+CAPTION "Temporary Internet Files"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Internet Explorer stores copies of webpages, images, and media for faster viewing later. ", 4294967295, Static, 0x50020000, 5, 5, 212, 17, 0x0
+  CONTROL "Check for newer versions of stored pages:", 4294967295, Static, 0x50020000, 5, 26, 181, 8, 0x0
+  CONTROL "&Every time I visit the webpage", 618, Button, 0x50010009, 15, 37, 134, 10, 0x0
+  CONTROL "Every time I &start Internet Explorer", 613, Button, 0x50010009, 15, 49, 172, 10, 0x0
+  CONTROL "&Automatically", 615, Button, 0x50010009, 15, 61, 172, 10, 0x0
+  CONTROL "&Never", 614, Button, 0x50010009, 15, 73, 167, 10, 0x0
+  CONTROL "<folder status>", 625, Static, 0x50020000, 3, 112, 60, 8, 0x0
+  CONTROL "<current folder>", 608, Static, 0x50020000, 3, 123, 210, 23, 0x0
+  CONTROL "&Disk space to use (8-1024MB)\r\n   (Recommended: 50-250MB)", 1624, Static, 0x50020000, 5, 88, 109, 17, 0x0
+  CONTROL "", 611, Edit, 0x50812082, 150, 88, 48, 12, 0x0
+  CONTROL "", 626, "msctls_updown32", 0x500000b6, 198, 88, 11, 13, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000002, 0, 0, 0, 0, 0x0
+  CONTROL "&Move folder...", 605, Button, 0x50010000, 3, 152, 65, 14, 0x0
+  CONTROL "View &objects", 1533, Button, 0x50010000, 73, 152, 65, 14, 0x0
+  CONTROL "&View files", 609, Button, 0x50010000, 143, 152, 65, 14, 0x0
+}
+
+6722 DIALOGEX 20, 20, 253, 171
+CAPTION "Temporary Internet Files"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Your browser stores copies of webpages, images, and media for faster viewing later. ", 4294967295, Static, 0x50020000, 5, 5, 212, 17, 0x0
+  CONTROL "Check for newer versions of stored pages:", 4294967295, Static, 0x50020000, 5, 26, 181, 8, 0x0
+  CONTROL "&Every time I visit the webpage", 618, Button, 0x50010009, 15, 37, 134, 10, 0x0
+  CONTROL "Every time I &start Internet Explorer", 613, Button, 0x50010009, 15, 49, 172, 10, 0x0
+  CONTROL "&Automatically", 615, Button, 0x50010009, 15, 61, 172, 10, 0x0
+  CONTROL "&Never", 614, Button, 0x50010009, 15, 73, 167, 10, 0x0
+  CONTROL "<folder status>", 625, Static, 0x50020000, 3, 112, 60, 8, 0x0
+  CONTROL "<current folder>", 608, Static, 0x50020000, 3, 123, 210, 23, 0x0
+  CONTROL "&Disk space to use (8-1024MB)\r\n   (Recommended: 50-250MB)", 1624, Static, 0x50020000, 5, 88, 109, 17, 0x0
+  CONTROL "", 611, Edit, 0x50812082, 150, 88, 48, 12, 0x0
+  CONTROL "", 626, "msctls_updown32", 0x500000b6, 198, 88, 11, 13, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000002, 0, 0, 0, 0, 0x0
+  CONTROL "&Move folder...", 605, Button, 0x50010000, 3, 152, 65, 14, 0x0
+  CONTROL "View &objects", 1533, Button, 0x50010000, 73, 152, 65, 14, 0x0
+  CONTROL "&View files", 609, Button, 0x50010000, 143, 152, 65, 14, 0x0
+}
+
+6723 DIALOGEX 20, 20, 253, 171
+CAPTION "History"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Specify how many days Internet Explorer should save the list of websites you have visited.", 4294967295, Static, 0x50020000, 5, 5, 204, 18, 0x0
+  CONTROL "Days to &keep pages in history:", 4294967295, Static, 0x50020000, 5, 26, 124, 8, 0x0
+  CONTROL "", 1492, Edit, 0x50812080, 158, 24, 32, 12, 0x0
+  CONTROL "", 1493, "msctls_updown32", 0x50820036, 189, 24, 13, 12, 0x0
+}
+
+6724 DIALOGEX 20, 20, 253, 171
+CAPTION "History"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Specify how many days your browser should save the list of websites you have visited.", 4294967295, Static, 0x50020000, 5, 5, 204, 18, 0x0
+  CONTROL "Days to &keep pages in history:", 4294967295, Static, 0x50020000, 5, 26, 124, 8, 0x0
+  CONTROL "", 1492, Edit, 0x50812080, 158, 24, 32, 12, 0x0
+  CONTROL "", 1493, "msctls_updown32", 0x50820036, 189, 24, 13, 12, 0x0
+}
+
+6725 DIALOGEX 20, 20, 253, 171
+CAPTION "Caches and databases"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Enable website caches and databases", 6726, Button, 0x50010003, 10, 10, 181, 8, 0x0
+  CONTROL "Ask when a website's cache or database exceeds:", 4294967295, Static, 0x50020000, 10, 26, 140, 17, 0x0
+  CONTROL "", 6728, Edit, 0x50812000, 170, 26, 40, 12, 0x0
+  CONTROL "MB", 4294967295, Static, 0x50020000, 215, 28, 20, 12, 0x0
+  CONTROL "", 6729, "SysListView32", 0x50810009, 10, 52, 233, 80, 0x0
+  CONTROL "&Delete", 6733, Button, 0x50010000, 189, 142, 54, 14, 0x0
+}
+
+6750 DIALOGEX 0, 0, 258, 267
+CAPTION "Programs"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Default web browser", 4294967295, Static, 0x50020000, 11, 6, 78, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 82, 11, 166, 1, 0x0
+  CONTROL 5905, 6431, Static, 0x50000003, 14, 18, 21, 20, 0x0
+  CONTROL "Internet Explorer is not currently the default web browser", 5904, Static, 0x50020000, 44, 20, 130, 16, 0x0
+  CONTROL "Make &default", 5903, Button, 0x50010000, 175, 22, 72, 14, 0x0
+  CONTROL "Tell me if &Internet Explorer is not the default web browser.", 303, Button, 0x50012503, 44, 43, 208, 18, 0x0
+  CONTROL "Manage add-ons", 4294967295, Static, 0x50020000, 10, 61, 78, 8, 0x0
+  CONTROL 5901, 6432, Static, 0x50000003, 14, 74, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 69, 66, 179, 1, 0x0
+  CONTROL "Enable or disable browser add-ons installed in your system.", 4294967295, Static, 0x50020000, 44, 75, 130, 24, 0x0
+  CONTROL "&Manage add-ons", 4865, Button, 0x50010000, 175, 77, 72, 14, 0x0
+  CONTROL "HTML editing", 4294967295, Static, 0x50020000, 8, 101, 45, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 55, 105, 193, 1, 0x0
+  CONTROL 4490, 6430, Static, 0x50000003, 14, 112, 21, 20, 0x0
+  CONTROL "Choose the program that you want Internet Explorer to use for editing HTML files.", 4294967295, Static, 0x50020000, 44, 113, 208, 19, 0x0
+  CONTROL "&HTML editor:", 4294967295, Static, 0x50020000, 42, 135, 50, 12, 0x0
+  CONTROL "", 1610, ComboBox, 0x50210103, 105, 133, 139, 59, 0x0
+  CONTROL "Internet programs", 4294967295, Static, 0x50020000, 8, 154, 78, 8, 0x0
+  CONTROL 6623, 6433, Static, 0x50000003, 14, 165, 21, 20, 0x0
+  CONTROL "", 4294967295, Static, 0x50000010, 72, 158, 176, 1, 0x0
+  CONTROL "Choose the programs you want to use for other Internet services, such as e-mail.", 4294967295, Static, 0x50020000, 44, 168, 130, 25, 0x0
+  CONTROL "&Set programs", 5907, Button, 0x50010000, 175, 170, 72, 14, 0x0
+  CONTROL "", 6202, Static, 0x50020000, 8, 257, 20, 10, 0x0
+  CONTROL "Some <A>settings</A> are managed by your system administrator.", 6200, Static, 0x50020000, 28, 257, 218, 10, 0x0
+  CONTROL 1327, 6201, Static, 0x50000803, 8, 257, 20, 20, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  105,  "Internet Options"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  778,  "15 minutes"
+  779,  "30 minutes"
+  780,  "1 hour"
+  781,  "4 hours"
+  782,  "1 day"
+  783,  "1 week"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  784,  "%1!d! minutes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1032,  "Allowed levels for this zone: Medium to High"
+  1033,  "Allowed levels for this zone: All"
+  1034,  "Allowed levels for this zone: High"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1484,  "To add mo&re home pages, type each address on its own line."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1491,  "%1s home page tabs"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1581,  "%1 (default)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1652,  "Deleting Temporary Internet Files..."
+  1653,  "Deleting history..."
+  1654,  "Deleting cookies..."
+  1655,  "Deleting forms data..."
+  1656,  "Deleting stored passwords..."
+  1657,  "Delete Browsing History"
+  1658,  "Please wait while the browsing history is deleted."
+  1659,  "Deleting SmartScreen Filter data..."
+  1661,  "Deleting Tracking Protection data..."
+  1662,  "Deleting add-on data..."
+  1663,  "Deleting download history..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1664,  "Deleting website caches..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4300,  "You cannot use the system folder."
+  4301,  "Choose a new location for your Temporary Internet Files folder."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4309,  "Items cannot be moved to shared drivers or folders."
+  4310,  "This folder is a computer name or a special folder."
+  4312,  "Internet Options"
+  4313,  "Configure your Internet display and connection settings."
+  4314,  "Internet Options"
+  4318,  "Disabl&e..."
+  4319,  "&Enable..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4320,  "There is not enough memory to continue. Quit one or more programs, and then try again."
+  4322,  "You need to choose a Dial-Up Networking connection in order to use AutoDial."
+  4325,  "This folder's path has unsupported characters. Try another path."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4474,  "Smallest"
+  4475,  "Smaller"
+  4476,  "Medium"
+  4477,  "Larger"
+  4478,  "Largest"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4602,  "A user-defined string cannot contain any of the following characters:\n\t  [ ] , ; ="
+  4604,  "User Defined [%1]"
+  4607,  "The settings for the proxy server you've chosen to use are blank. This prevents access to the Internet. Do you want to turn off the proxy connection?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4608,  "Invalid Proxy Server"
+  4610,  "None"
+  4612,  "Please select a value between %d and %d for how much disk space Temporary Internet Files may use."
+  4613,  "The amount of disk space currently set aside to store temporary Internet files is above the size limit. To improve performance, the size limit is now 1024 megabytes. Your temporary storage space will be reduced to this size (this might take several minutes)."
+  4614,  "The recommended security level for this zone is ""%s"".\n\nThe security level that you have chosen is lower than this.\n\nAre you sure you want to change the security level?"
+  4615,  "Warning!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4624,  "The site name you entered is not valid. You must use a valid protocol at the beginning of the name, such as http:// or https://."
+  4625,  "Security"
+  4629,  "Sites added to this zone must use the  https:// prefix. This prefix assures a secure connection."
+  4630,  "There was an unexpected error with your zone settings. Unable to add this site."
+  4631,  "css"
+  4632,  "Stylesheets\0*.css\0All Files\0*.*"
+  4633,  "The style sheet you selected could not be found."
+  4634,  "Error"
+  4635,  "Internet Options"
+  4638,  "The site you specified already exists in another zone.  Please remove the site from that zone before adding it to the current zone."
+  4639,  "You have entered an invalid wildcard sequence.\nExamples of valid patterns:\n\t*://*.microsoft.com\n\thttp://*.microsoft.co.jp\n\tftp://157.54.23.41/\n\tfile:\\\\localsvr\\share\n\t*://157.54.100-200.*\nExamples of invalid patterns:\n\thttp://microsoft.*.com\n\tftp://*"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4648,  "%s settings"
+  4649,  "Local Area Network (LAN) Settings"
+  4650,  "Use a pro&xy server for your LAN (These settings will not apply to dial-up or VPN connections)."
+  4653,  "Are you sure you want to delete this Dial-Up Networking connection?"
+  4655,  "You have entered an invalid number of redial attempts."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4656,  "You have entered an invalid redial interval."
+  4657,  "You have entered an invalid autodisconnect time."
+  4659,  "You do not have restart privileges."
+  4660,  "Cannot move Temporary Internet Files."
+  4662,  "This is inside the Temporary Internet Files folder."
+  4665,  "Please select a folder to which you can add items."
+  4666,  "Current location:"
+  4667,  "New location:"
+  4668,  "- Your security settings are below the recommended level, putting your computer at an increased risk of online attack.\n- To change the settings, click Custom level.\n- To use the recommended settings, click Default level."
+  4669,  "- Appropriate for websites that might have harmful content\n- Maximum safeguards\n- Less secure features are disabled"
+  4670,  "- Prompts before downloading potentially unsafe content\n- Unsigned ActiveX controls will not be downloaded"
+  4671,  "- Appropriate for websites on your local network (intranet)\n- Most content will be run without prompting you\n- Unsigned ActiveX controls will not be downloaded\n- Same as Medium level without prompts"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4672,  "- Minimal safeguards and warning prompts are provided\n- Most content is downloaded and run without prompts\n- All active content can run\n- Appropriate for sites that you absolutely trust"
+  4673,  "Custom settings.\n- To change the settings, click Custom level.\n- To use the recommended settings, click Default level."
+  4674,  "High"
+  4675,  "Medium"
+  4676,  "Medium-low"
+  4677,  "Low"
+  4678,  "Custom"
+  4679,  "There won't be enough space in the new location for the currently downloaded content.\nPlease either delete these files first and try again, reduce the size of the folder, or pick another location."
+  4680,  "Windows is unable to gather information about the location you have chosen.\nPlease select another, or verify that you have access rights to the location."
+  4681,  "Temporary Internet Files"
+  4682,  "Access to this feature has been disabled by a restriction set by your system administrator."
+  4683,  "Internet Control Panel"
+  4684,  "Undefined"
+  4686,  "The SSL cache was successfully cleared."
+  4687,  "SSL Cache Cleared Successfully"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4688,  "My Computer"
+  4689,  "Local intranet"
+  4690,  "Trusted sites"
+  4691,  "Internet"
+  4692,  "Restricted sites"
+  4693,  "Your Computer"
+  4694,  "This zone is for all websites that are found on your intranet."
+  4695,  "This zone contains websites that you trust not to damage your computer or your files."
+  4696,  "This zone is for Internet websites, except those listed in trusted and restricted zones."
+  4697,  "This zone is for websites that might damage your computer or your files."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4729,  "Internet"
+  4731,  "Always expand ALT text for images"
+  4732,  "Move system caret with focus/selection changes"
+  4733,  "Enable Suggested Sites"
+  4734,  "Enable web page service to retrieve additional information"
+  4735,  "Use smooth scrolling"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4737,  "Enable FTP folder view (outside of Internet Explorer)"
+  4739,  "Play sounds in webpages"
+  4741,  "Play animations in webpages"
+  4742,  "Show pictures"
+  4743,  "Use Passive FTP (for firewall and DSL modem compatibility)"
+  4744,  "Multimedia"
+  4745,  "Browsing"
+  4746,  "Accessibility"
+  4747,  "Security"
+  4749,  "Do not save encrypted pages to disk"
+  4750,  "Empty Temporary Internet Files folder when browser is closed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4752,  "Use SSL 2.0"
+  4753,  "Use SSL 3.0"
+  4754,  "Use TLS 1.0"
+  4757,  "Warn if changing between secure and not secure mode"
+  4758,  "Warn if POST submittal is redirected to a zone that does not permit posts"
+  4759,  "Warn about certificate address mismatch"
+  4760,  "Check for server certificate revocation"
+  4761,  "Check for publisher's certificate revocation"
+  4762,  "Check for signatures on downloaded programs"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4769,  "Printing"
+  4770,  "Print background colors and images"
+  4771,  "Search from the Address bar"
+  4774,  "ActiveX controls and plug-ins"
+  4775,  "Run ActiveX controls and plug-ins"
+  4776,  "Download signed ActiveX controls"
+  4777,  "Download unsigned ActiveX controls"
+  4778,  "Java"
+  4779,  "Java permissions"
+  4780,  "Allow Scriptlets"
+  4782,  "Scripting"
+  4783,  "Initialize and script ActiveX controls not marked as safe for scripting"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4784,  "Script ActiveX controls marked safe for scripting"
+  4785,  "Access data sources across domains"
+  4786,  "Active scripting"
+  4787,  "Scripting of Java applets"
+  4788,  "User Authentication"
+  4790,  "Logon"
+  4791,  "Downloads"
+  4792,  "File download"
+  4793,  "Font download"
+  4794,  "Miscellaneous"
+  4796,  "Drag and drop or copy and paste files"
+  4797,  "Submit non-encrypted form data"
+  4798,  "Launching programs and files in an IFRAME"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4803,  "Enable"
+  4804,  "Prompt"
+  4805,  "Disable"
+  4806,  "Administrator approved"
+  4807,  "Anonymous logon"
+  4808,  "Prompt for user name and password"
+  4809,  "Automatic logon with current user name and password"
+  4810,  "Automatic logon only in Intranet zone"
+  4814,  "Low safety"
+  4815,  "Medium safety"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4816,  "High safety"
+  4817,  "Custom"
+  4818,  "Disable Java"
+  4822,  "HTTP 1.1 settings"
+  4823,  "Use HTTP 1.1"
+  4824,  "Use HTTP 1.1 through proxy connections"
+  4825,  "Always"
+  4826,  "Never"
+  4827,  "Hover"
+  4828,  "Underline links"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4832,  "Display a notification about every script error"
+  4833,  "Show friendly HTTP error messages"
+  4835,  "Notify when downloads complete"
+  4837,  "Automatically check for Internet Explorer updates"
+  4838,  "Close unused folders in History and Favorites"
+  4839,  "Send UTF-8 URLs"
+  4843,  "Show image download placeholders"
+  4847,  "Just display the results in the main window"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4848,  "Do not submit unknown addresses to your auto-search provider"
+  4849,  "Go to an intranet site for a single word entry in the Address bar"
+  4850,  "Website Data Settings"
+  4851,  "Use inline AutoComplete in the Internet Explorer Address Bar and Open Dialog"
+  4852,  "Use inline AutoComplete in Windows Explorer and Run Dialog"
+  4853,  "Userdata persistence"
+  4854,  "Allow Programmatic clipboard access"
+  4855,  "Navigate windows and frames across different domains"
+  4856,  "Enable personalized favorites menu"
+  4857,  "Windows will now log you off to finish moving Temporary Internet Files.\nDo you want to continue?\n(All other changes have been saved.)"
+  4858,  "Log Off"
+  4861,  "Reuse windows for launching shortcuts (when tabbed browsing is off)"
+  4862,  "Don't prompt for client certificate selection when only one certificate exists"
+  4863,  "Enable Integrated Windows Authentication"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4864,  "Launching applications and unsafe files"
+  4866,  "Force offscreen compositing even under Terminal Server"
+  4867,  "Allow status bar updates via script"
+  4870,  "Allow META REFRESH"
+  4871,  "Enable automatic image resizing"
+  4872,  "Display mixed content"
+  4873,  "Enable visual styles on buttons and controls in webpages"
+  4874,  "Enable third-party browser extensions"
+  4877,  "This site is already in the %s zone."
+  4878,  "The site you specified already exists in the %1 zone.  Would you like to move it to the %2 zone?"
+  4879,  "Allow scripting of Microsoft web browser control"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4880,  "Display enhanced security configuration dialog"
+  4881,  "Allow navigation to local files and folders"
+  4883,  "Use Pop-up Blocker"
+  4884,  "Binary and script behaviors"
+  4885,  "Enable MIME Sniffing"
+  4886,  "Websites in less privileged web content zone can navigate into this zone"
+  4887,  "Allow script-initiated windows without size or position constraints"
+  4889,  "Automatic prompting for ActiveX controls"
+  4890,  "Allow webpages to use restricted protocols for active content"
+  4891,  "Allow active content to run in files on My Computer"
+  4892,  "Allow active content from CDs to run on My Computer"
+  4893,  "High: Block all pop-ups (Ctrl+Alt to override)"
+  4894,  "Medium: Block most automatic pop-ups"
+  4895,  "Low: Allow pop-ups from secure sites"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4896,  "Custom"
+  4897,  "Allow previously unused ActiveX controls to run without prompt"
+  4898,  "Allow websites to open windows without address or status bars"
+  4899,  "Display video and animation on a webpage that does not use external media player"
+  4900,  "Only allow approved domains to use ActiveX without prompt"
+  4901,  "Enable XSS filter"
+  4902,  "Automatically recover from page layout errors with Compatibility View"
+  4907,  "Reset zoom level for new windows and tabs"
+  4908,  "Reset text size to medium for new windows and tabs"
+  4910,  "Use most recent order when switching tabs with Ctrl+Tab"
+  4911,  "Include local directory path when uploading files to a server"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4912,  "Allow websites to prompt for information using scripted windows"
+  4913,  "Enable automatic crash recovery"
+  4914,  "A blank page"
+  4915,  "The new tab page"
+  4916,  "Your first home page"
+  4917,  "Display Accelerator button on selection"
+  4918,  "Enable Caret Browsing for new windows and tabs"
+  4919,  "Play system sounds"
+  4920,  "Accelerated graphics"
+  4921,  "Use software rendering instead of GPU rendering"
+  4922,  "Enable alternative codecs in HTML5 media elements"
+  4923,  "Allow ActiveX Filtering"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "AaBbYyZz"
+  5003,  "Latin"
+  5004,  "Latin"
+  5005,  "ελληνικά"
+  5006,  "Кириллица"
+  5007,  "Հայերեն"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5008,  "עברית"
+  5009,  "العربية"
+  5010,  "देवनागरी"
+  5011,  "বাংলা"
+  5012,  "ਪੰਜਾਬੀ"
+  5013,  "ગુજરાતી"
+  5014,  "ଓଡ଼ିଆ"
+  5015,  "தமிழ்"
+  5016,  "తెలుగు"
+  5017,  "ಕನ್ನಡ"
+  5018,  "മലയാളം"
+  5019,  "ไทย"
+  5020,  "ລາວ"
+  5021,  "AaBbYyZz"
+  5022,  "ქართული"
+  5023,  "한글"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5024,  "日本語"
+  5025,  "繁體中文"
+  5026,  "简体中文"
+  5027,  "AaBbYyZz"
+  5028,  "ᐃᓄᒃᑎᑐᑦ"
+  5029,  "AaBbYyZz"
+  5030,  "AaBbYyZz"
+  5031,  "⠠⠃⠗⠁⠊⠇⠇⠑"
+  5032,  "AaBbYyZz"
+  5033,  "AaBbYyZz"
+  5034,  "AaBbYyZz"
+  5035,  "AaBbYyZz"
+  5036,  "AaBbYyZz"
+  5037,  "AaBbYyZz"
+  5038,  "AaBbYyZz"
+  5039,  "AaBbYyZz"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5040,  "AaBbYyZz"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5304,  "Block All Cookies"
+  5305,  "High"
+  5306,  "Medium High"
+  5307,  "Medium"
+  5308,  "Low"
+  5309,  "Accept All Cookies"
+  5310,  "Custom"
+  5311,  "- Blocks all cookies from all websites\n- Cookies that are already on this computer cannot be read by websites"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5312,  "- Blocks all cookies from websites that do not have a compact privacy policy\n- Blocks cookies that save information that can be used to contact you without your explicit consent"
+  5313,  "- Blocks third-party cookies that do not have a compact privacy policy\n- Blocks third-party cookies that save information that can be used to contact you without your explicit consent\n- Blocks first-party cookies that save information that can be used to contact you without your implicit consent"
+  5314,  "- Blocks third-party cookies that do not have a compact privacy policy\n- Blocks third-party cookies that save information that can be used to contact you without your explicit consent\n- Restricts first-party cookies that save information that can be used to contact you without your implicit consent"
+  5315,  "- Blocks third-party cookies that do not have a compact privacy policy\n- Restricts third-party cookies that save information that can be used to contact you without your implicit consent"
+  5316,  "- Saves cookies from any website.\n- Cookies that are already on this computer can be read by the websites that created them"
+  5317,  "- Advanced or imported settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5351,  "Privacy Import"
+  5352,  "Your privacy settings file was successfully imported."
+  5355,  "Your privacy settings file could not be imported.  It may not be a valid privacy settings file."
+  5356,  "Internet Privacy Preferences\0*.xml\0All Files\0*.*"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5360,  "Select a setting for the Internet zone."
+  5361,  "To set a standard privacy level instead of using custom settings, click the Default button."
+  5363,  "This site cannot be added because it is already in the Restricted sites zone."
+  5365,  "Enable SmartScreen Filter"
+  5368,  "Use SmartScreen Filter"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5380,  "Invalid Domain"
+  5381,  "You have entered an invalid domain. Domains must be\nin the Internet zone and must use the HTTP or HTTPS protocol.\nURLs beginning with xn-- must be valid IDN names.\n\nExamples of valid domains:\n\n    - www.treyresearch.net\n    - http://treyresearch.net\n    - fineartschool.net"
+  5386,  "Domain"
+  5387,  "Setting"
+  5388,  "Always Allow"
+  5389,  "Always Block"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5408,  "Domain"
+  5414,  "Are you sure you want to remove all sites?"
+  5415,  "Remove all sites"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5430,  "Internet Explorer"
+  5431,  "Some of the entries in your home page tab group are not webpages.\r\n\r\nClick OK to remove unsupported entries."
+  5432,  "The number of webpages you've selected for your home page tab group exceeds the maximum supported by Internet Explorer.\r\n\r\nClick OK to remove the additional webpages."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5440,  "Enable .NET Framework setup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5609,  " - Security At Risk"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6000,  "International"
+  6002,  "Send IDN server names"
+  6003,  "Send IDN server names for Intranet addresses"
+  6004,  "Disable script debugging (Internet Explorer)"
+  6005,  "Disable script debugging (Other)"
+  6006,  "Allow software to run or install even if the signature is invalid"
+  6007,  "Always show encoded addresses"
+  6008,  "Show Notification bar for encoded addresses"
+  6013,  "Internet Explorer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6016,  "For changes to take effect, you will need to restart Internet Explorer"
+  6017,  "Internet Explorer"
+  6018,  "Use UTF-8 for mailto links"
+  6019,  "Enable memory protection to help mitigate online attacks"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6300,  "Enable native XMLHTTP support"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6304,  "Enable DOM Storage"
+  6310,  "Block unsecured images with other mixed content"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6400,  ".NET Framework"
+  6401,  "Loose XAML"
+  6402,  "XPS documents"
+  6403,  "XAML browser applications"
+  6410,  " (not secure)"
+  6411,  " (recommended)"
+  6412,  "Your security settings put your computer at risk"
+  6413,  "Internet Explorer is the default web browser."
+  6414,  "Internet Explorer is not currently the default web browser."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6423,  "The current security settings will put your computer at risk."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6440,  "The site name you entered is not a valid IDN URL."
+  6441,  "Invalid URL"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6612,  "Security Settings - My Computer Zone"
+  6613,  "Security Settings - Local Intranet Zone"
+  6614,  "Security Settings - Internet Zone"
+  6615,  "Security Settings - Restricted Sites Zone"
+  6616,  "Security Settings - Trusted Sites Zone"
+  6622,  "Enable websites to use the search pane"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6640,  "Do you want Internet Explorer to delete this network connection?\n\n%s"
+  6641,  "Disconnecting network connection"
+  6642,  "Deleting network connection"
+  6643,  "Internet Explorer was unable to delete this network connection because it is currently in use. Close the connection and try to delete it again"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6711,  "Reset zoom level"
+  6712,  "Reset text size to medium"
+  6714,  "Enable FTP folder view"
+  6715,  "Use inline AutoComplete"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6730,  "Website"
+  6731,  "Storage used"
+  6732,  "Allowed to exceed limit"
+  6734,  "Yes"
+  6735,  "No"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6736,  "%d MB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  6800,  "Use TLS 1.1"
+  6801,  "Use TLS 1.2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  7001,  "- Appropriate for most websites\n- Prompts before downloading potentially unsafe content\n- Unsigned ActiveX controls will not be downloaded"
+  7003,  "Medium-high"
+}
+

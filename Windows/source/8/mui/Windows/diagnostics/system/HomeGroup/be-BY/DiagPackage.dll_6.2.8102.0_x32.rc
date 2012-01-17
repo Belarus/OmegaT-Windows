@@ -1,0 +1,203 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "HomeGroup"
+  2,  "View computers or shared files in a homegroup."
+  3,  "Peer Networking Grouping service isn't running"
+  4,  "The service enables peer networking grouping capabilities. To view the computers in your homegroup, this service must be running."
+  5,  "Start the Peer Networking Grouping service"
+  6,  "Starting the Peer Networking Grouping service might allow you to view computers and shared files in your homegroup."
+  7,  "HomeGroup Provider service isn't running"
+  8,  "This service performs networking tasks associated with configuration and maintenance in homegroups. In order to view the computers in your homegroup, this service must be running."
+  9,  "Start the HomeGroup Provider service"
+  10,  "Starting the HomeGroup Provider service might allow you to view computers and shared files in your homegroup."
+  11,  "This computer is connected to multiple networks"
+  12,  "The configuration of the networks this computer is connected to might cause incorrect or limited HomeGroup functionality."
+  13,  "Disconnect all but your home network"
+  14,  "This computer is connected to multiple networks. This configuration might cause incorrect or limited HomeGroup functionality. The best configuration for HomeGroup is to be connected to a network with the Home network location. Disconnecting any other networks might resolve the problem."
+  15,  "No networks are set to the Home network location"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "To create, join, and access a homegroup, your computer must be connected to a home network. However, you shouldn't change the network location to Private for any network that is not trusted or is in a public place such as an airport or coffee shop, because this would allow other people on that network to see your computer."
+  17,  "Change the network location to Private"
+  18,  "Changing the network location to Private might allow you to view computers and shared files in your homegroup. However, you shouldn't change the network location to Private for any network that is not trusted or is in a public place such as an airport or coffee shop, because this would allow other people on that network to see your computer."
+  19,  "Internet Protocol version 6 (IPv6) is disabled"
+  20,  "Enable Internet Protocol version 6 (IPv6)"
+  21,  "HomeGroup requires IPv6 to function correctly. Enabling IPv6 might fix the problem. You can enable IPv6 for the network adapter by opening Network Connections in Control Panel. Right-click the adapter, and then click properties."
+  22,  "The HomeGroup settings are incorrect"
+  23,  "The settings that are required for HomeGroup to function correctly have errors or are missing."
+  24,  "Repair HomeGroup settings"
+  25,  "The settings that are required for HomeGroup to function correctly have errors or are missing. Windows can repair these settings, which might resolve the problem."
+  26,  "You are not connected to a homegroup"
+  27,  "There is no homegroup on the network."
+  28,  "Connect to a homegroup"
+  29,  "To create or join a homegroup, open Network and Sharing Center in Control Panel, and then click Choose homegroup and sharing options."
+  30,  "My computer isn't visible to other homegroup computers"
+  31,  "To give yourself rights to a folder, double-click the folder in Windows Explorer. You can also modify rights in the security tab of the folder. If you want other homegroup members to be able to access it, share it with the homegroup by clicking the folder and choosing Share with.  Windows prevents you from sharing entire drives (for example, drive C) and some system folders (for example, the Windows, Users, and Program Files folders)."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "%FirewallRootcauseName%"
+  33,  "Apply this fix"
+  34,  "Skip this fix"
+  35,  "Continue troubleshooting without applying this fix."
+  36,  "Change the network location to Private"
+  37,  "Changing the network location to Private might allow you to view computers and shared files in your homegroup. However, you shouldn't change the network location to Private for any network that is not trusted or is in a public place such as an airport or coffee shop, because this would allow other people on that network to see your computer."
+  38,  "A non-Microsoft firewall has been installed on this computer. This firewall might block or limit HomeGroup communications."
+  39,  "%FirewallResolverName%"
+  40,  "User identified problems"
+  41,  "IPv6 is disabled on one or more network adapters."
+  42,  "Some homegroup computers aren't visible"
+  43,  "This computer belongs to a domain"
+  44,  "I can’t share libraries with the homegroup"
+  45,  "Domain-joined computers can’t create homegroups or share content with a homegroup. Domain-joined computers can join existing homegroups and can access content shared by other homegroup members, but they won't be visible on the homegroup. To join a homegroup, open HomeGroup in Control Panel."
+  46,  "I can’t  install or print to a homegroup printer"
+  47,  "This version of Windows can't create a homegroup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "What problem are you encountering?"
+  49,  "Your problem has not yet been resolved. Some problems can't be automatically detected by the HomeGroup troubleshooter."
+  50,  "This fixed the problem"
+  51,  "This did not fix the problem"
+  52,  "Run the HomeGroup troubleshooter on another homegroup computer"
+  53,  "The troubleshooter couldn’t detect any problems on this computer. Try running the HomeGroup troubleshooter on the other homegroup computers. To start the homegroup troubleshooter, open HomeGroup in Control Panel."
+  54,  "This fixed the problem"
+  55,  "This did not fix the problem"
+  56,  "Homegroup computers must be turned on and sharing content"
+  57,  "To view content on other homegroup computers, those computers must be turned on, on the same private network, and sharing content. Homegroup computers that belong to a domain can’t share content and won’t be visible to the rest of the homegroup."
+  58,  "This fixed the problem"
+  59,  "This did not fix the problem"
+  60,  "You might not have rights to share a folder or it might not be allowed by Windows"
+  61,  "This version of Windows can't create a homegroup, but it can join existing homegroups set up by other Windows computers. Only some versions of Windows computers can create homegroups. To join a homegroup, open HomeGroup in Control Panel."
+  62,  "Yes, the problem is fixed"
+  63,  "No, the problem is not fixed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "Some solutions were applied. Is the problem fixed?"
+  65,  "Try attempting the task you were trying to do before."
+  66,  "Troubleshoot printer problems"
+  67,  "Skip this step"
+  68,  "Printers must be installed, shared, and turned on"
+  69,  "To share printers, open HomeGroup in Control Panel and select the Printers check box."
+  70,  "This fixed the problem"
+  71,  "This did not fix the problem"
+  72,  "This computer belongs to a domain"
+  73,  "Domain-joined computers can’t create homegroups or share content with a homegroup. Domain-joined computers can join existing homegroups and can access content shared by other homegroup members, but they won't be visible on the homegroup."
+  74,  "The HomeGroup permissions are incorrect"
+  75,  "This fixed the problem"
+  76,  "This did not fix the problem"
+  77,  "This version of Windows can't create a homegroup"
+  78,  "This version of Windows can't create a homegroup, but it can join existing homegroups set up by other Windows computers. Only some versions of Windows computers can create homegroups."
+  79,  "Troubleshoot network problems"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Change the network location of at least one of your networks to Private"
+  81,  "Changing the network location to Private might allow you to view computers and shared files in your homegroup. However, you shouldn't change the network location to Private for any network that is not trusted or is in a public place such as an airport or coffee shop, because this would allow other people on that network to see your computer."
+  82,  "A problem occurred that can’t be fixed automatically"
+  83,  "The troubleshooter couldn’t fix the problem automatically. Leaving the homegroup and then rejoining it or creating a new homegroup might fix the problem. To leave the homegroup, open HomeGroup in Control Panel, and then click Leave the homegroup. Wait for your content to be removed from the homegroup, and then rejoin the homegroup or create a new one."
+  84,  "Disconnect all but your private network"
+  85,  "This computer is connected to multiple networks. This configuration might cause incorrect or limited HomeGroup functionality. The best configuration for HomeGroup is to be connected to a network with the Private network location. Disconnecting any other networks might resolve the problem."
+  86,  "Connect to a homegroup"
+  87,  "To create a homegroup, open HomeGroup in Control Panel."
+  88,  "Enable Internet Protocol version 6 (IPv6)"
+  89,  "HomeGroup requires IPv6 to function correctly. Enabling IPv6 might fix the problem. You can enable IPv6 for the network adapter by opening Network Connections in Control Panel. Right-click the adapter, and then click properties."
+  90,  "A non-Microsoft firewall is installed on this computer. Windows-certified firewalls are automatically configured to work with HomeGroup. Firewalls that are not Windows-certified might block or limit HomeGroup communications. Allowing HomeGroup to communicate through the firewall might resolve the problem. You can open the non-Microsoft firewall program from your Start menu."
+  91,  "Why can't I access a printer in my homegroup?"
+  92,  "Windows Firewall is incorrectly configured"
+  93,  "Windows Firewall is preventing HomeGroup from communicating."
+  94,  "Allow HomeGroup to communicate through Windows Firewall"
+  95,  "Windows Firewall is preventing HomeGroup from communicating. Windows can automatically enable communication through the firewall, which might resolve the problem."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "Make sure your firewall allows file and printer sharing"
+  97,  "Troubleshoot network problems"
+  98,  "Some HomeGroup problems are network-related. We recommend that you troubleshoot network problems before continuing."
+  99,  "Skip this step"
+  100,  "Domain networks are configured by your system administrator and their locations cannot be changed to Private. You must manually disconnect from the domain network and connect to a private network."
+  101,  "This computer won’t be able to access other homegroup members, and other homegroup members will not be able to access this computer. "
+  102,  "The permissions that are required for HomeGroup to function correctly are incorrect."
+  103,  "Repair HomeGroup permissions"
+  104,  "The permissions that are required for HomeGroup to function correctly are incorrect. Windows can repair these permissions, which might resolve the problem."
+  105,  "Connect to a private network"
+  106,  "Reconfigure the HomeGroup security group"
+  107,  "The configuration of the HomeGroup security group is incorrect. Windows can reconfigure it, which might resolve the problem. You must log off and back on for these changes to take effect."
+  108,  "The HomeGroup security group is incorrectly configured"
+  109,  "Reconfigure the HomeGroup security group"
+  110,  "The configuration of the HomeGroup security group is incorrect. Windows can reconfigure it, which might resolve the problem. You must log off and back on for these changes to take effect."
+  111,  "Apply this fix"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "I will log off after troubleshooting completes."
+  113,  "Skip this fix"
+  114,  "Continue troubleshooting without applying this fix."
+  115,  "A non-Microsoft firewall is installed on this computer. Windows-certified firewalls are automatically configured to work with HomeGroup. Firewalls that are not Windows-certified might block or limit HomeGroup communications. Allowing HomeGroup to communicate through the firewall might resolve the problem. You can open the non-Microsoft firewall program from your Start menu."
+  116,  "%FirewallInteractionName%"
+  117,  "Networking home computers running different versions of Windows"
+  118,  "Networking home computers running different versions of Windows"
+  119,  "This fixed the problem"
+  120,  "This did not fix the problem"
+  121,  "All homegroup computers must have the correct time"
+  122,  "As a security precaution, all homegroup computers must have synchronized clocks. Ensure that the date and time is correct on all computers that are joined to the homegroup or that you would like to join to the homegroup. You can set the clock by opening Date and Time in Control Panel or by clicking the clock in the Taskbar."
+  123,  "Run the HomeGroup troubleshooter on the computer that created the homegroup"
+  124,  "Run the HomeGroup troubleshooter on the computer that created the homegroup. After troubleshooting on the other computer, try to join the homegroup again by opening HomeGroup in Control Panel."
+  125,  "I’m trying to create a homegroup"
+  126,  "I’m trying to join a homegroup"
+  127,  "Another computer has already created a homegroup on my network"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "Connect to a homegroup"
+  129,  "This computer is not part of a homegroup. Are you trying to create a homegroup or join an existing homegroup?"
+  130,  "Suggest manual resolutions"
+  131,  "HomeGroup information needs to be refreshed"
+  132,  "Refresh HomeGroup information"
+  133,  "Open Network and Sharing Center"
+  134,  "Open Network and Sharing Center"
+  135,  "Open Network and Sharing Center"
+  136,  "Open Network Connections"
+  137,  "Open HomeGroup"
+  138,  "Open HomeGroup"
+  139,  "Open HomeGroup"
+  140,  "Open HomeGroup"
+  141,  "Open Action Center"
+  142,  "Open HomeGroup"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  198,  "Status"
+  199,  "Not to be specified outside of MSDT application."
+  200,  "Network"
+  201,  "HomeGroup"
+  202,  "Home Group"
+  203,  "Firewall"
+  204,  "Peer"
+  205,  "Peer Networking"
+}
+

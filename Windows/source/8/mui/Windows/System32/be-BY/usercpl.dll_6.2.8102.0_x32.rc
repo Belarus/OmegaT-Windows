@@ -1,0 +1,583 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "User Accounts"
+  2,  "Change user account settings and passwords for people who share this computer."
+  3,  "Click here to type"
+  4,  "Change this person's account information, such as the account type, name, password, or picture, or delete this account."
+  5,  "Change the guest account picture or prevent guest access to this computer."
+  6,  "Provide computer access for people without a user account on this computer."
+  7,  "The Welcome screen shows the names of everyone with a user account for this computer. This screen appears when you start the computer or switch users."
+  8,  "In the Start menu you can choose a computer activity, such as reading new e-mail messages or browsing the Web. This menu is personalized for everyone who shares this computer."
+  9,  "A password hint can help you remember your password."
+  10,  "A password hint can help this person remember his or her password."
+  11,  "Windows cannot open the User Accounts control panel."
+  12,  "The current user account is not recognized. Restart the computer and then open User Accounts."
+  13,  "The passwords you typed do not match. Please retype the new password in both boxes."
+  14,  "The password you typed is incorrect. Please retype your current password."
+  15,  "The password you typed does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Windows cannot change the password."
+  17,  "Windows cannot remove the password.  Password and/or account policies require the account to have a password."
+  18,  "The account name is not allowed.\nAccount names cannot contain the following characters: / \\ [ ] "" : ; | < > + = , ? *\nPlease enter a different name."
+  19,  "The account name cannot be used because it is a reserved name.\nPlease enter a different name."
+  20,  "The user name cannot be the same as the computer name.\n\nPlease type a different name."
+  21,  "The specified group does not exist."
+  22,  "An account named '%s' already exists. Type a different name."
+  23,  "The specified picture is an unknown type or is not valid. Select a different picture."
+  24,  "No camera or scanner is available. Make sure the camera is connected and is turned on, and then try again."
+  30,  "The account you want to delete is logged on.  Before you delete it, you should switch to that user account and log off of that account.  If you continue without doing this, there is a risk of data loss.  Do you still wish to continue?"
+  31,  "The Guest account is logged on. Before you can turn off the Guest account, you must switch to the Guest account and log it off."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  34,  "Windows cannot delete the account that is currently logged in."
+  37,  "Password protected"
+  38,  "Guest account"
+  39,  "Standard user"
+  40,  "Unknown account type"
+  41,  "Administrator"
+  42,  "Guest account is on"
+  43,  "Guest account is off"
+  44,  "Windows cannot remove the password."
+  45,  "User Accounts"
+  46,  "This action cannot be performed due to an account restriction. Please contact your administrator."
+  47,  "Local Account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Create New Account"
+  49,  "Change an Account"
+  51,  "Rename Account"
+  52,  "Turn on Guest Account"
+  53,  "Change Guest Options"
+  54,  "Manage Accounts"
+  55,  "Change Your Name"
+  56,  "Delete Account"
+  57,  "Confirm Deletion"
+  58,  "Change Password"
+  59,  "Change Account Type"
+  60,  "Change Your Password"
+  62,  "Create Password"
+  63,  "Create Your Password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64,  "Remove Password"
+  65,  "Remove Your Password"
+  66,  "Change Your Account Type"
+  67,  "Windows failed to start the advanced options dialog."
+  68,  "The account name already exists.\nThere’s already an account, or group, with this name.  Please enter a different name."
+  69,  "User account picture"
+  70,  "User account tile"
+  71,  "User Accounts Control Panel"
+  72,  "Administrator privileges required"
+  73,  "New password"
+  74,  "Confirm new password"
+  75,  "Type a password hint"
+  76,  "Current password"
+  78,  "New account name"
+  79,  "Help"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Image Files (*.bmp,*.gif,*.jpg,*.png)|*.bmp;*.dib;*.gif;*.jpg;*.jpe;*.jpeg;*.png;*.rle|Bitmap (*.bmp,*.dib,*.rle)|*.bmp;*.dib;*.rle|GIF (*.gif)|*.gif|JPEG (*.jpg)|*.jpg|PNG (*.png)|*.png|All Files (*.*)|*"
+  91,  "This program is blocked by group policy. For more information, contact your system administrator."
+  92,  "User Accounts Related Tasks Pane"
+  93,  "User Accounts Main Task Pane"
+  94,  "List of users"
+  95,  "User Account Control Panel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Create a password reset disk"
+  101,  "Link online IDs"
+  102,  "Manage your file encryption certificates"
+  103,  "Configure advanced user profile properties"
+  104,  "Change my environment variables"
+  105,  "Parental Controls"
+  106,  "Manage your credentials"
+  107,  "Manage your fingerprint data"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  121,  "The username or password is incorrect.  Please try again."
+  122,  "Windows could not create the account."
+  123,  "Please enter a username and a password."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  130,  "Add a user"
+  140,  "Create a local account"
+  141,  "Add a domain account"
+  143,  "Create your new local account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "Enter the following information to create a local account."
+  145,  "Type the user name and domain of a user to give them permission to user this computer."
+  146,  "Confirm password"
+  147,  "Required"
+  148,  "The user name must contain visible characters"
+  149,  "The user name cannot contain these characters:\n"" / \\ [ ] : | < > + = ; , ? * %"
+  150,  "The passwords do not match"
+  151,  "The new password and the confirmation password do not match. Type the same password in both boxes."
+  152,  "A password hint is required"
+  153,  "Please enter a password hint."
+  154,  "The specified account name is not valid, because there is already an account with that name. Please type a different name."
+  155,  "The user name already exists"
+  156,  "Please enter a valid domain"
+  158,  "Other Windows account options"
+  159,  "User name:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "You're almost done"
+  161,  "The following user will be able to log on to this computer and access system resources."
+  162,  "What level of access do you want to grant this user?"
+  163,  "Example: someone@example.com"
+  164,  "Invalid email address"
+  169,  "%s:"
+  170,  "Allow a member of your domain to use this computer."
+  171,  "Online accounts allow users to access their preferences on multiple computers."
+  172,  "Local accounts can only use this computer."
+  173,  "What type of user account do you want to add to this computer?"
+  174,  "Add a %s"
+  175,  "Enter the email address of an existing online account to add them to this computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "Create a new %s"
+  179,  "Confirm existing password"
+  180,  "To make changes to your account, we need to verify your current Windows password."
+  182,  "Enter your Windows password"
+  183,  "Enter your %s password"
+  184,  "Incorrect password"
+  185,  "The password you entered is incorrect."
+  186,  "Change to an online account"
+  187,  "Connect to an online account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  193,  "The next time you log on to Windows, use the email address and password of your online account, shown below."
+  194,  "You are about to connect your domain account to your online account. The settings that you selected might not take effect until you log off."
+  195,  "Change to a local account"
+  196,  "Disconnect my domain account"
+  197,  "Disconnect my domain account from my online account"
+  198,  "When you disconnect your domain account, you will lose access to data and settings provided by your Online ID.\n\nIf you want to restore these capabilities in the future, you can reconnect your account."
+  199,  "The next time you log on to Windows, you will use the local account which you just created."
+  200,  "Your online account will not be deleted, but you will no longer use it to log in to Windows. Enter the following information to change to local account."
+  201,  "Change this account to a local account"
+  202,  "With a local account, you won't log on to Windows with your e-mail address. You will not be able to use advanced capabilities of Windows such as roaming your settings. \n\nYou can change back to an online account at any time."
+  203,  "Failed to create the user account.  Code: 0x%1!x!"
+  204,  "The user account '%1' does not exist.\n\nPlease check the name and domain and try again."
+  205,  "Could not add %1.\n\nThis domain user already has an account on this machine."
+  206,  "%1 User"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  220,  "Some settings are managed by your system administrator. <a href=""ca607790-adf6-41a7-abd8-0a1f2feb70b1"">Why can't I change some settings?</a>"
+  221,  "You are logged on with a roaming user profile. Roaming options are currently unavailable."
+  222,  "Windows is running in safe mode. Roaming options are currently unavailable."
+  223,  "You are logged on with a temporary profile. Roaming options are currently unavailable."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "&Standard user"
+  1101,  "&Administrator"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1108,  "Make changes to your user account"
+  1109,  "Change your account name"
+  1110,  "Create a password for your account"
+  1111,  "Change your password"
+  1114,  "Change your account type"
+  1115,  "Manage another account"
+  1116,  "Manage User Accounts"
+  1117,  "To change your password, press Ctrl+Alt+Del and select Change a password."
+  1119,  "Make changes to %username%'s account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "Change Name"
+  1121,  "Create password"
+  1122,  "Change password"
+  1123,  "Remove Password"
+  1128,  "Create a new user"
+  1129,  "What do you want to change about the guest account?"
+  1130,  "Turn off the guest account"
+  1133,  "This name will appear on the Welcome screen and on the Start menu."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Cancel"
+  1142,  "Type a new account name for %username%'s account"
+  1145,  "Do you want to turn on the guest account?"
+  1146,  "If you turn on the guest account, people who do not have an account can use the guest account to log on to the computer. Password-protected files, folders, or settings are not accessible to guest users."
+  1147,  "Turn On"
+  1148,  "Choose the user you would like to change"
+  1150,  "Additional things you can do"
+  1151,  "Set up Parental Controls"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1155,  "Type a new account name"
+  1157,  "Do you want to keep %username%'s files?"
+  1158,  "Before you delete %username%'s account, Windows can automatically save the contents of %username%'s desktop and Documents, Favorites, Music, Pictures and Videos folders to a new folder called '%username%' on your desktop. However, Windows cannot save %username%'s e-mail messages and other settings."
+  1159,  "Delete Files"
+  1160,  "Keep Files"
+  1161,  "Are you sure you want to delete %username%'s account?"
+  1162,  "You are deleting the account, but keeping the files."
+  1163,  "%username% will no longer be able to log on, and all of %username%'s settings will be deleted. However, %username%'s files will be saved on your desktop in a folder called '%username%'"
+  1164,  "Delete Account"
+  1165,  "Change %username%'s password"
+  1166,  "You are resetting the password for %username%.  If you do this, %username% will lose all personal certificates and stored passwords for Web sites or network resources."
+  1167,  "You are changing the password for %username%.  If you do this, %username% will lose all EFS-encrypted files, personal certificates, and stored passwords for Web sites or network resources."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1168,  "If %username% has forgotten the password, he or she can use the password reset floppy disk."
+  1169,  "To avoid losing data in the future, ask %username% to make a password reset floppy disk."
+  1172,  "If your password contains capital letters, they must be typed the same way every time you log on."
+  1174,  "The password hint will be visible to everyone who uses this computer."
+  1175,  "Change Account Type"
+  1176,  "Change your password"
+  1182,  "Create a password for %username%'s account"
+  1183,  "You are creating a password for %username%."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184,  "If you do this, %username% will lose all EFS-encrypted files, personal certificates and stored passwords for Web sites or network resources."
+  1185,  "To avoid losing data in the future, ask %username% to make a password reset floppy disk."
+  1186,  "Create a password for your account"
+  1191,  "Remove your password"
+  1192,  "Are you sure you want to remove your password?"
+  1193,  "If you remove your password, other people can gain access to your account and change settings."
+  1194,  "If you remove your password, other people can gain access to your account and change settings."
+  1195,  "If you have forgotten your password, you can use the password reset floppy disk."
+  1197,  "Choose a new account type for %username%"
+  1198,  "Standard account users can use most software and change system settings that do not affect other users or the security of the computer."
+  1199,  "Administrators have complete access to the computer and can make any desired changes. Based on notification settings, administrators may be asked to provide their password or confirmation before making changes that affect other users.\n\nWe recommend that you protect every account with a strong password."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Select your new account type"
+  1203,  "You must assign another user on this computer to have an administrator account before you can change this user's account type. This ensures that there is always at least one user with a computer administrator account on this computer."
+  1206,  "Why is a standard account recommended?"
+  1207,  "Windows will delete all of %username%'s files, and then delete %username%'s account."
+  1213,  "Change User Account Control settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216,  "Change the account name"
+  1217,  "Create a password"
+  1218,  "Change the password"
+  1221,  "Change the account type"
+  1222,  "Delete the account"
+  1223,  "Manage another account"
+  1226,  "If the password contains capital letters, they must be typed the same way every time."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1245,  "&Name:"
+  1246,  "&Password:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1262,  "Password &hint:"
+  1263,  "&Domain:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1264,  "B&rowse..."
+  1265,  "click"
+  1270,  "&Other:"
+  1271,  "Other Account Groups"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1287,  "Connect Account"
+  1288,  "Connect my Domain Account to a Windows Live ID"
+  1292,  "Enable Touch Access"
+  1293,  "Disable Touch Access"
+  1294,  "Disconnect Windows Live ID"
+  1295,  "Change to a local account"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1296,  "Make changes to my account in the Settings App"
+  1297,  "Add a new user in the Settings App"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1536,  "OK"
+  1537,  "Cancel"
+  1538,  "Select which of your settings you want to roam with you"
+  1539,  "When you use your connected password to log on to different computers and devices, the personal settings you care about will travel with you and automatically be available."
+  1540,  "<a href=""d7e3737d-949f-492d-983d-f648e71d4270"">Learn more about connected passwords and roaming</a>"
+  1541,  "Learn more about connected passwords and roaming"
+  1542,  "Settings to roam"
+  1543,  "Personalization"
+  1544,  "Desktop background image, glass color"
+  1545,  "Accessibility"
+  1546,  "Ease of access control panel, magnifier, on screen keyboard, narrator, and speech recognition settings"
+  1547,  "Language Settings"
+  1548,  "Language profile, text prediction preferences, and IME dictionary"
+  1549,  "Application Settings"
+  1550,  "Application settings and search history"
+  1551,  "Windows Settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1552,  "Taskbar, Explorer, search, and mouse settings"
+  1553,  "Credentials"
+  1554,  "Wireless network profiles and saved website credentials"
+  1555,  "Network options"
+  1556,  "Enable roaming on paid networks"
+  1557,  "Enable roaming on low bandwidth"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2101,  "Users"
+  2102,  "Change your account or add new ones."
+  2103,  "Users"
+  2104,  "Your account"
+  2105,  "Your account information"
+  2106,  "Change your password"
+  2107,  "Create a password"
+  2108,  "To change your password, press Ctrl+Alt+Del and select Change a password"
+  2111,  "Change"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2112,  "Remove"
+  2113,  "Log on to Windows with a Windows Live ID to use Windows Developer Preview features such as roaming and easy sign-on to Microsoft services."
+  2114,  "Switch to a Windows Live ID"
+  2115,  "Apply your Windows Live ID roaming settings to your domain account"
+  2116,  "Connect your Windows Live ID"
+  2117,  "Connected to %1"
+  2118,  "Disconnect your Windows Live ID"
+  2119,  "Other users"
+  2120,  "Add a user"
+  2121,  "Other account information"
+  2122,  "To add a user to this computer, open Desktop Control Panel and click User Accounts"
+  2123,  "PIN Logon"
+  2124,  "Create a PIN"
+  2125,  "Change"
+  2126,  "Remove"
+  2127,  "loading users"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2901,  "You're signed in to this PC with your old password. Sign in again with your current password, or reset it."
+  2902,  "Reset your password"
+  2903,  "It looks like your email address changed. Do you want to use this email address with your Windows Live ID? "
+  2904,  "Confirm or deny"
+  2905,  "You need to get a parent's permission to finish setting up your Windows Live account."
+  2906,  "Ask a parent"
+  2907,  "Your Windows Live ID has expired."
+  2908,  "Update your account"
+  2909,  "Someone might have misused your Windows Live ID, so we suspended your account to help protect it."
+  2910,  "Get your Windows Live ID back"
+  2911,  "To finish setting up your Windows Live ID, you need to verify your email address."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2912,  "Verify email address"
+  2913,  "We need a little more info from you if you want to keep using your Windows Live ID."
+  2914,  "Add some more info"
+  2915,  "We noticed that some changes were made to your Windows Live account, and we want to make sure it was you who made them."
+  2916,  "Yes, it was me"
+  2917,  "Adding some more info to your Windows Live account can help you get it back if you forget your password or lose access some other way."
+  2918,  "Add some more info"
+  2919,  "To help make your account more secure and make it easier to sync your shared settings, let us know that this PC is yours."
+  2920,  "Claim this PC"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3010,  "Cancel"
+  3011,  "Next"
+  3012,  "Skip"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3150,  "Add User"
+  3151,  "Log on with a Windows Live ID"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3152,  "Connect to a Windows Live ID"
+  3153,  "Change to a local account"
+  3154,  "Disconnect your Domain Account"
+  3155,  "Change your password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3200,  "←"
+  3201,  "→"
+  3202,  "This is a required field."
+  3203,  "Close"
+  3204,  "Finish"
+  3205,  "What email address would this person like to use to log on to Windows? (If they already have a Windows Live ID, enter it here.)"
+  3206,  "Windows Live ID"
+  3207,  "Enter a valid email address.\nExample: someone@live.com"
+  3208,  "Create a new Windows Live ID"
+  3209,  "More about logon options"
+  3210,  "Windows Live ID (aka email address)"
+  3211,  "There are two options for logging on to a PC that's running Windows Developer Preview."
+  3212,  "Local account"
+  3213,  "Set up any email address with a password that you can use to log on to your PC."
+  3214,  "So it looks and feels like your own, Windows Live will sync some settings across the PCs you use."
+  3215,  "Windows Live will sync settings like your browser favorites and history, shortcuts, languages, and passwords for the services you care about."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3216,  "Windows Live ID"
+  3217,  "Local account"
+  3218,  "Make sure you remember the password. If you forget, we'll show you the hint."
+  3219,  "User name"
+  3220,  "Invalid username"
+  3221,  "Password"
+  3222,  "Invalid password"
+  3223,  "The passwords you typed do not match. Please retype a new password in both boxes."
+  3224,  "Retype password"
+  3225,  "Password hint"
+  3226,  "Your password hint cannot contain your password."
+  3227,  "We're sorry, but something went wrong. This user wasn't added to this PC."
+  3228,  "We're sorry, but something went wrong. This user wasn't added to this PC.\n\tCode: 0x%1!x!"
+  3229,  "We're sorry, but something went wrong. This user wasn't added to this PC.\n\tCode: 0x%1!x!"
+  3230,  "To make changes to your account, we need to verify your current password."
+  3231,  "Current password"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3232,  "You have not entered the correct password.\nPlease type your password again."
+  3233,  "Choose which shared settings you want to sync between the PCs you use."
+  3234,  "Personalization"
+  3235,  "Desktop theme"
+  3236,  "Accessibility"
+  3237,  "Language settings"
+  3238,  "Application settings"
+  3239,  "Web browser settings"
+  3240,  "Windows settings"
+  3241,  "Credentials"
+  3242,  "One or more of these settings has been blocked by your system administrator."
+  3243,  "The following user will be able to log on to this computer."
+  3244,  "You're almost done changing your account. Next time you log on to Windows, use your Windows Live ID and password."
+  3245,  "You've connected your domain account to a Windows Live ID. You'll be able to use Windows Live ID services without signing in, and your personal settings will roam."
+  3246,  "You've connected your domain account to a Windows Live ID. You'll be able to use Windows Live ID services without signing in."
+  3247,  "We're ready to change your account. Remember, you'll be logged off automatically, so make sure your work is saved.\n\nNext time you log on to Windows, use your new password."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3248,  "You're about to disconnect your domain account from your Windows Live ID."
+  3249,  "You've changed your password. Next time you log on to Windows, use your new password."
+  3250,  "Enter the following information for your new password."
+  3251,  "You can use an account on this PC only, instead of logging on with your Windows Live ID. Save your work now, because you'll need to log off to do this.\n\nFirst, we need to verify your current password."
+  3252,  "Log off and finish"
+  3253,  "Enter the following information. You'll log on to Windows with a local account from now on."
+  3254,  "New password"
+  3255,  "Let this person know they'll need to be connected to the Internet to log on for the first time."
+  3256,  "Create a local user to log on to only this PC."
+  3257,  "Doesn't sync the things that you care about between the PCs that you use."
+  3258,  "•"
+  3259,  "We're sorry, but something went wrong. Your account wasn't changed to this Windows Live ID.\n\tCode: 0x%1!x!"
+  3260,  "We're sorry, but something went wrong. Your Windows Live ID was not connected to this domain account.\n\tCode: 0x%1!x!"
+  3261,  "We're sorry, but something went wrong. Your password may not have been changed.\n\tCode: 0x%1!x!"
+}
+
+1 MESSAGETABLE
+{
+  268435508,  "SQM\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177284,  "Information\r\n"
+  2415919105,  "Microsoft-Windows-User Control Panel\r\n"
+}

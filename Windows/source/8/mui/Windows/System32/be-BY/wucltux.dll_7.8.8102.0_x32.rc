@@ -1,0 +1,557 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+31 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&View details", 1
+    MENUITEM "&Copy details", 3
+  }
+}
+
+32 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Copy details", 3
+    MENUITEM "&Hide update", 2
+  }
+}
+
+33 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "Get &help", 5
+    MENUITEM "&Copy details", 3
+    MENUITEM "Copy &error code", 4
+  }
+}
+
+34 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&View details", 1
+    MENUITEM "&Copy details", 3
+  }
+}
+
+35 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP ""
+  {
+    MENUITEM "&Copy details", 3
+    MENUITEM "&Hide updates", 2
+  }
+}
+
+64309 DIALOGEX 0, 0, 213, 146
+CAPTION "Proxy authentication"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL 64201, 4294967295, Static, 0x5000000e, 0, 0, 213, 37, 0x0
+  CONTROL "Enter the credentials for proxy authentication", 4294967295, Static, 0x50020000, 10, 48, 152, 8, 0x0
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 10, 66, 66, 10, 0x0
+  CONTROL "", 64440, Edit, 0x50810080, 78, 65, 100, 12, 0x0
+  CONTROL "&Password:", 4294967295, Static, 0x50020000, 10, 83, 66, 10, 0x0
+  CONTROL "", 64441, Edit, 0x508100a0, 78, 82, 100, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 104, 126, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 157, 126, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Windows Update"
+  2,  "Delivers software updates and drivers, and provides automatic updating options."
+  3,  "Windows Update"
+  4,  "Check for software and driver updates, choose automatic updating settings, or view installed updates."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  71,  "Windows Update"
+  73,  "Change settings"
+  74,  "View update history"
+  75,  "Restore hidden updates"
+  78,  "Select updates to install"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  81,  "1 important update"
+  82,  "%d important updates"
+  83,  "%1, %2"
+  84,  "1 update"
+  85,  "%d updates"
+  86,  "%s MB"
+  87,  "%s KB"
+  88,  "1 hour"
+  89,  "%1!lu! hours"
+  92,  "%1!lu! minutes"
+  93,  "%1 %2"
+  94,  "Download and install updates for your computer"
+  95,  "Install updates for your computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  96,  "Not configured (not recommended)"
+  97,  "Never check for updates (not recommended)"
+  98,  "Notify you to download and install new updates"
+  99,  "Notify you to install new updates"
+  100,  "Automatically install new updates every day at %s (recommended)"
+  101,  "Automatically install new updates every Sunday at %s"
+  102,  "Automatically install new updates every Monday at %s"
+  103,  "Automatically install new updates every Tuesday at %s"
+  104,  "Automatically install new updates every Wednesday at %s"
+  105,  "Automatically install new updates every Thursday at %s"
+  106,  "Automatically install new updates every Friday at %s"
+  107,  "Automatically install new updates every Saturday at %s"
+  109,  "Today at %s"
+  110,  "Yesterday at %s"
+  111,  "%1 at %2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Error code %X"
+  113,  "Without the latest updates, your computer is more vulnerable to security attacks and performance problems."
+  114,  "%1 - %2"
+  115,  "Recommended"
+  116,  "Name"
+  117,  "Type"
+  118,  "Published"
+  119,  "Important"
+  120,  "Optional"
+  121,  "Today"
+  122,  "Yesterday"
+  123,  "Status"
+  124,  "Date Installed"
+  125,  "Successful"
+  126,  "Failed"
+  127,  "Canceled"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "Downloading updates..."
+  129,  "Downloading %1!lu! updates (%2 total, %3!lu!%% complete)"
+  130,  "Downloading 1 update (%2 total, %3!lu!%% complete)"
+  131,  "&Stop download"
+  132,  "Installing updates..."
+  133,  "Installing update %1!lu! of %2!lu!..."
+  134,  "Preparing to install..."
+  135,  "(Uninstall:) %s"
+  136,  "%1 (%2!lu!)"
+  137,  "Updates"
+  138,  "Total missing updates: %1!lu!"
+  139,  "Code %1!X!"
+  140,  "%1 %2"
+  141,  "Succeeded: 1 update"
+  142,  "Succeeded: %1!lu! updates"
+  143,  "Failed: 1 update"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "Failed: %1!lu! updates"
+  145,  "Canceled: 1 update"
+  146,  "Canceled: %1!lu! updates"
+  147,  "Not needed: 1 update"
+  148,  "Not needed: %1!lu! updates"
+  152,  "Windows could not search for new updates"
+  157,  "&Restore update"
+  158,  "&Hide update"
+  159,  "Downloading and installing updates..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "If you opt out, you will no longer receive updates from %1. Do you want to continue?"
+  161,  "Your administrator requires this update to be installed by %1 at %2."
+  162,  "Your administrator requires this update to be installed by today at %s."
+  163,  "Windows Update"
+  164,  "Please read and accept the license terms (%1!lu! of %2!lu!)"
+  165,  "Windows Update"
+  166,  "These updates will not be installed."
+  167,  "&Don't ask me again to install these updates"
+  168,  "%1. "
+  169,  "You need to provide administrator permission"
+  170,  "To complete this task, you need to log on as an administrator or ask an administrator to complete the task for you."
+  171,  "Restart now to finish installing updates."
+  173,  "1 optional update"
+  174,  "%1!lu! optional updates"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  178,  "For Windows and other products from %s"
+  179,  "From %s"
+  180,  "You will receive updates from %1."
+  182,  "Managed by your system administrator"
+  183,  "More updates are available."
+  184,  "%1 (Failed)"
+  185,  "Pending"
+  187,  "For Windows only."
+  188,  "Windows Update"
+  189,  "Check for updates managed by your system administrator"
+  191,  "Windows Update encountered an unknown error."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "You might incur additional charges if you continue with the download. Press 'Continue' if you wish to continue."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  222,  "Restarting in: %1!d! min, %2!d! sec"
+  223,  "Restart &now"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  226,  "Windows can't update important files and services while the system is using them. Make sure to save your files before restarting."
+  235,  "Restarting to finish installing important updates"
+  236,  "&Dismiss"
+  237,  "Your PC will restart in %1!d! minutes, %2!d! seconds%3"
+  238,  "Your PC will restart in %1!d! seconds%2"
+  239,  "."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  240,  ".."
+  241,  "..."
+  242,  "Restarting to finish installing important updates%1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "%1 is also available"
+  301,  "%1 are also available"
+  302,  "%1 is available"
+  303,  "%1 are available"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "No important updates available"
+  305,  "There are no important updates available for your computer."
+  306,  "There are no updates available for your computer."
+  308,  "%d optional updates"
+  318,  "Important updates"
+  319,  "Important and recommended updates"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Optional updates"
+  321,  "Recommended and optional updates"
+  322,  "Total selected: %s"
+  323,  "Total selected: %s, %s"
+  324,  "No updates are selected."
+  325,  "Importance"
+  326,  "Size"
+  327,  "Select optional updates to install"
+  328,  "Review optional updates"
+  329,  "Select important updates to install"
+  330,  "Review important updates"
+  331,  "Review all important updates"
+  333,  "Downloaded"
+  334,  "Install updates automatically (recommended)"
+  335,  "Download updates but let me choose whether to install them"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  336,  "Check for updates but let me choose whether to download and install them"
+  337,  "Never check for updates (not recommended)"
+  338,  "Please select an option:"
+  339,  "Download and install your selected updates"
+  340,  "Install your selected updates"
+  341,  "%1!lu! important updates"
+  345,  "Windows Update cannot currently check for updates, because the service is not running. You may need to restart your computer."
+  347,  "Before Windows Update can check for updates, you must first configure Windows Update's settings. You can do this using the 'Change settings' link located below the 'Check for updates' link."
+  348,  "Windows Update is currently already checking for, downloading, or installing updates."
+  349,  "Windows Update cannot currently check for updates, because updates on this computer are controlled by your system administrator."
+  350,  "Check for updates"
+  351,  "Change settings"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  352,  "View update history"
+  353,  "Restore hidden updates"
+  354,  "Updates: frequently asked questions"
+  355,  "Security Center"
+  356,  "Installed Updates"
+  358,  "Windows Anytime Upgrade"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  371,  "%1 selected"
+  372,  "%1 selected"
+  373,  "The updates were successfully installed"
+  374,  "Some updates were not installed"
+  375,  "1 pending important update"
+  376,  "%d pending important updates"
+  377,  "%1!lu! pending important updates"
+  378,  "An error occurred while checking for new updates for your computer."
+  379,  "Some updates were not downloaded"
+  380,  "&Hide updates"
+  381,  "&Restore updates"
+  382,  "Updates are available for your computer"
+  383,  "Important updates are available for your computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  384,  "%1 selected, %2"
+  385,  "An error occurred while attempting to retrieve the list of applicable updates for your computer. To continue, please close and reopen the Windows Update control panel. (Error code: %1!X!)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  450,  "Check"
+  451,  "Uncheck"
+  452,  "%1, %2"
+  453,  "Important update list, 1 update"
+  454,  "Important update list, %d updates"
+  455,  "Optional update list, 1 update"
+  456,  "Optional update list, %d updates"
+  457,  "Important update list, 1 update"
+  458,  "Important update list, %d updates"
+  459,  "Optional update list, 1 update"
+  460,  "Optional update list, %d updates"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  475,  "&Give me updates for Microsoft products and check for new optional Microsoft software when I update Windows"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Standard User Control"
+  1001,  "Allow standard users to install programs and updates with Windows Update."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Choose how Windows can install updates"
+  1102,  "When your computer is online, Windows can automatically check for important updates and install them using these settings. When new updates are available, you can also install them before shutting down the computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1105,  "Check the Status column to ensure all important updates were successful. To remove an update, see <a id=""actionViewInstalledUpdates"">Installed Updates</a>."
+  1107,  "Recommended updates"
+  1108,  "Windows can't update important files and services while the system is using them. Save any open files, and then restart the computer."
+  1110,  "Windows can't update important files and services while the system is using them. Make sure to save your files before restarting."
+  1112,  "Update type: "
+  1117,  "Give me &recommended updates the same way I receive important updates"
+  1118,  "Restore hidden updates"
+  1119,  "Cancel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1121,  "Installation date: "
+  1124,  "Installation status: "
+  1125,  "Error details: "
+  1128,  "See also"
+  1131,  "Windows Update"
+  1132,  "&Install updates"
+  1135,  "Select the updates you want to install"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Try &again"
+  1140,  "Checking for updates..."
+  1141,  "&Stop installation"
+  1144,  "Most recent check for updates:"
+  1145,  "Updates were installed:"
+  1146,  "%lastSuccessfulInstallTime%"
+  1147,  "View update history"
+  1149,  "Turn on automatic updating"
+  1150,  "Turn on &automatic updates"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1152,  "Always install the latest updates to enhance your computer's security and performance."
+  1153,  "Updates are not being installed automatically"
+  1154,  "Turn on automatic updating to help improve the security and performance of your computer and allow standard users to install updates on this computer."
+  1156,  "&Restore"
+  1157,  "Review your update history"
+  1158,  "OK"
+  1162,  "Let me choose"
+  1163,  "You decide which updates are installed automatically, when they happen, and who can install updates."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1170,  "Error(s) found:"
+  1173,  "Get help with this error"
+  1174,  "Some settings are managed by your system administrator. "
+  1175,  "More information."
+  1176,  "After restoring updates, you can choose to install them. We suggest you restore all important updates."
+  1177,  "Updates help improve the security and performance of your computer.  It's important to install them as soon as they become available."
+  1178,  "Install updates automatically (recommended)"
+  1181,  "Install new Windows Update software"
+  1182,  "&Install now"
+  1183,  "To check for updates, you must first install an update for Windows Update. Your automatic updating settings will not change."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184,  "To install the update, Windows Update will automatically close and re-open."
+  1185,  "Check for updates for your computer"
+  1186,  "&Check for updates"
+  1188,  "&Restart now"
+  1195,  "More information: "
+  1196,  "Help and Support: "
+  1197,  "Download size: "
+  1198,  "You may need to restart your computer for this update to take effect."
+  1199,  "To continue using Windows Update, you need to install this update. After installing it, you might still need to install other important updates for your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1201,  "Print"
+  1202,  "I &accept the license terms"
+  1203,  "I &decline"
+  1204,  "Help"
+  1205,  "Install important and recommended updates as they become available. Allow standard users to install updates on this computer."
+  1209,  "Note: Windows Update might update itself automatically first when checking for other updates.  Read our <a id=""actionPrivacyStatement"">privacy statement online</a>."
+  1210,  "You have not hidden any updates for your computer."
+  1211,  "You have not tried to install any updates for your computer."
+  1213,  "Troubleshoot problems with installing updates"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1218,  "Learn about installing Windows updates"
+  1224,  "Help"
+  1225,  "You receive updates: "
+  1226,  "You checked online for updates from %1."
+  1227,  "Check online for updates from %1"
+  1229,  "Who can install updates"
+  1230,  "Allow all &users to install updates on this computer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1232,  "&Important updates"
+  1233,  "&I"
+  1246,  "More information"
+  1247,  "More information (2)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1248,  "More information (3)"
+  1249,  "Support information"
+  1250,  "Horizontal"
+  1251,  "Used to change horizontal viewing area"
+  1252,  "Vertical"
+  1253,  "Used to change vertical viewing area"
+  1254,  "Let me choose my settings"
+  1255,  "No updates are currently selected."
+  1256,  "There are no updates available for your computer."
+  1259,  "Update has finished downloading and is ready for install"
+  1260,  "Update is ready for downloading"
+  1261,  "Download is pending; please select this update to start downloading"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1264,  "You may need to restart your computer after installing this update."
+  1265,  "You will need to restart your computer after installing this update."
+  1266,  "Published: "
+  1267,  "Important"
+  1268,  "Optional"
+  1269,  "Recommended Update"
+  1276,  "Get updates for other Microsoft products. "
+  1277,  "Find out more"
+  1279,  "An error occurred while attempting to retrieve the list of applicable updates for your computer. To continue, please close and reopen the Windows Update control panel."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1281,  "Time until reboot"
+  1284,  "Con&tinue"
+  1285,  "Updates will be automatically installed during the "
+  1287,  "Updates will not be automatically installed during the maintenance window."
+  1288,  "maintenance window."
+  1290,  "Reboot your machine to finish installation of previously installed updates."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64501,  "Every day"
+  64502,  "Every Sunday"
+  64503,  "Every Monday"
+  64504,  "Every Tuesday"
+  64505,  "Every Wednesday"
+  64506,  "Every Thursday"
+  64507,  "Every Friday"
+  64508,  "Every Saturday"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  64531,  "Enter the credentials for proxy authentication"
+  64532,  "Password Required"
+}
+

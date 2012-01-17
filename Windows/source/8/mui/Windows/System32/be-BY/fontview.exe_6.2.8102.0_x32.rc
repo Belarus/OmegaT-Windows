@@ -1,0 +1,62 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Segoe UI"
+}
+
+100 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_I  , 201, VIRTKEY, ALT
+  "I"  , 201, ASCII
+  "i"  , 201, ASCII
+  VK_S  , 204, VIRTKEY, ALT
+  "S"  , 204, ASCII
+  "s"  , 204, ASCII
+  VK_P  , 200, VIRTKEY, ALT
+  "P"  , 200, ASCII
+  "p"  , 200, ASCII
+  VK_R  , 202, VIRTKEY, ALT
+  "R"  , 202, ASCII
+  "r"  , 202, ASCII
+  VK_N  , 203, VIRTKEY, ALT
+  "N"  , 203, ASCII
+  "n"  , 203, ASCII
+  38  , 300, VIRTKEY
+  40  , 301, VIRTKEY
+  33  , 302, VIRTKEY
+  34  , 303, VIRTKEY
+}
+
+1 MESSAGETABLE
+{
+  1,  "The requested file %1 is not a valid font file.\r\n"
+  2,  "Windows Font Viewer\r\n"
+  3,  "There is not enough free memory for this operation.\r\n"
+  4,  "%1 (TrueType)\r\n"
+  5,  "Font name: %1\r\n"
+  6,  "File size: %1!d! KB\r\n"
+  7,  "Version: %1\r\n"
+  8,  "%1\r\n"
+  9,  "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ \r\n"
+  10,  "1234567890.:,; ' "" (!?) +-*/=\r\n"
+  11,  "The quick brown fox jumps over the lazy dog. 1234567890\r\n"
+  12,  "&Install\r\n"
+  13,  "Use &shortcut\r\n"
+  14,  "&Print\r\n"
+  15,  "%1 & %2\r\n"
+  16,  "< P&revious\r\n"
+  17,  "&Next >\r\n"
+  18,  "%1 (OpenType)\r\n"
+  19,  "%1 (Type1)\r\n"
+  20,  "%1OpenType Layout,\r\n"
+  21,  "%1Digitally Signed,\r\n"
+  22,  "%1TrueType\r\n"
+  23,  "%1PostScript\r\n"
+  24,  "%1Outlines\r\n"
+  25,  "%1, Single Master\r\n"
+  26,  "%1, Multiple Master\r\n"
+}

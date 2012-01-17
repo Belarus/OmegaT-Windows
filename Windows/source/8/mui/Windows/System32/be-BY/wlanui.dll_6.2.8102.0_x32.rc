@@ -1,0 +1,202 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 235, 245
+CAPTION "Connection"
+STYLE 0x40c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Name:", 15080, Static, 0x50020000, 9, 14, 48, 8, 0x0
+  CONTROL "Profile name", 15081, Static, 0x50024000, 82, 14, 140, 8, 0x0
+  CONTROL "SSID:", 1101, Static, 0x50020000, 9, 27, 48, 8, 0x0
+  CONTROL "Network type:", 15071, Static, 0x50020000, 9, 40, 48, 8, 0x0
+  CONTROL "some ssid network", 1100, Static, 0x50024000, 82, 27, 140, 8, 0x0
+  CONTROL "Adhoc network", 15073, Static, 0x50024000, 82, 40, 140, 8, 0x0
+  CONTROL "Network availability:", 1127, Static, 0x50020000, 9, 53, 70, 8, 0x0
+  CONTROL "some rights", 1128, Static, 0x50024000, 82, 53, 140, 8, 0x0
+}
+
+102 DIALOGEX 0, 0, 235, 245
+CAPTION "Connection"
+STYLE 0x40c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Name:", 15080, Static, 0x50020000, 9, 14, 48, 8, 0x0
+  CONTROL "Profile name", 15081, Static, 0x50024080, 82, 14, 140, 8, 0x0
+  CONTROL "SSID:", 1101, Static, 0x50020000, 9, 27, 48, 8, 0x0
+  CONTROL "Network type:", 15071, Static, 0x50020000, 9, 40, 48, 8, 0x0
+  CONTROL "some ssid network", 1100, Static, 0x50024080, 82, 27, 140, 8, 0x0
+  CONTROL "??? network", 15073, Static, 0x50024000, 82, 40, 140, 8, 0x0
+  CONTROL "Network availability:", 1127, Static, 0x50020000, 9, 53, 70, 8, 0x0
+  CONTROL "some rights", 1128, Static, 0x50024000, 82, 53, 140, 8, 0x0
+  CONTROL "Connect auto&matically when this network is in range", 1104, Button, 0x50012403, 10, 77, 206, 10, 0x0
+  CONTROL "Connect to a more &preferred network if available", 1105, Button, 0x50012403, 10, 90, 206, 12, 0x0
+  CONTROL "C&onnect even if the network is not broadcasting its name (SSID)", 1106, Button, 0x50012403, 10, 103, 226, 10, 0x0
+  CONTROL "&Enable %s connection settings", 15075, Button, 0x50010003, 10, 116, 206, 10, 0x0
+  CONTROL "&Configure...", 1107, Button, 0x50010000, 21, 129, 50, 15, 0x0
+}
+
+103 DIALOGEX 0, 0, 235, 245
+CAPTION "Security"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "S&ecurity type:", 1110, Static, 0x50020000, 9, 21, 67, 10, 0x0
+  CONTROL "", 1111, ComboBox, 0x50210003, 81, 19, 123, 80, 0x0
+  CONTROL "E&ncryption type:", 1113, Static, 0x50020000, 9, 38, 63, 10, 0x0
+  CONTROL "", 1112, ComboBox, 0x50210003, 81, 36, 123, 53, 0x0
+  CONTROL "Network security &key", 1114, Static, 0x40020000 | NOT WS_VISIBLE, 9, 55, 68, 8, 0x0
+  CONTROL "", 1115, Edit, 0x408100a0 | NOT WS_VISIBLE, 81, 53, 123, 14, 0x0
+  CONTROL "", 1116, Edit, 0x40810080 | NOT WS_VISIBLE, 81, 53, 123, 14, 0x0
+  CONTROL "", 1134, Static, 0x50000003, 68, 72, 16, 16, 0x0
+  CONTROL "S&how characters", 1117, Button, 0x40010003 | NOT WS_VISIBLE, 81, 73, 77, 10, 0x0
+  CONTROL "Key &Index:", 1126, Static, 0x40020000 | NOT WS_VISIBLE, 9, 93, 67, 10, 0x0
+  CONTROL "", 1125, ComboBox, 0x50210003, 81, 91, 20, 80, 0x0
+  CONTROL "&Configure...", 1124, Button, 0x50010000, 155, 53, 50, 15, 0x0
+  CONTROL "Ch&oose a network authentication method:", 1118, Static, 0x50020000, 9, 85, 200, 8, 0x0
+  CONTROL "", 1119, ComboBox, 0x50210003, 9, 95, 143, 70, 0x0
+  CONTROL "&Settings", 1120, Button, 0x50010000, 155, 94, 50, 15, 0x0
+  CONTROL "&Remember my credentials for this connection each time I'm logged on", 1121, Button, 0x50012403, 10, 112, 178, 16, 0x0
+  CONTROL "A&dvanced settings", 1129, Button, 0x50010000, 9, 180, 80, 15, 0x0
+  CONTROL 18001, 1130, Static, 0x50000003, 9, 210, 16, 16, 0x0
+  CONTROL "The changes you have made will delete the saved credentials", 1131, Static, 0x50020000, 35, 215, 200, 16, 0x0
+  CONTROL "Your input credentials will not be saved due to the changes you have made", 1132, Static, 0x50020000, 35, 210, 200, 16, 0x0
+}
+
+104 DIALOGEX 0, 0, 235, 245
+CAPTION "802.11 settings"
+STYLE 0x90c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Fast roaming", 16013, Button, 0x50000007, 7, 7, 220, 85, 0x0
+  CONTROL "Enable Pairwise Master &Key (PMK) caching", 16014, Button, 0x50010003, 16, 19, 180, 10, 0x0
+  CONTROL "PMK time to &live (minutes):", 16015, Static, 0x50020000, 28, 32, 95, 10, 0x0
+  CONTROL "", 16016, Edit, 0x50812080, 168, 31, 50, 12, 0x0
+  CONTROL "", 16025, "msctls_updown32", 0x500001b6, 35, 202, 12, 14, 0x0
+  CONTROL "&Number of entries in PMK cache:", 16017, Static, 0x50020000, 28, 46, 118, 8, 0x0
+  CONTROL "", 16018, Edit, 0x50812080, 168, 45, 50, 12, 0x0
+  CONTROL "", 16026, "msctls_updown32", 0x50000136, 206, 45, 12, 14, 0x0
+  CONTROL "This network uses &pre-authentication ", 16019, Button, 0x50012003, 16, 61, 137, 10, 0x0
+  CONTROL "&Maximum pre-authentication attempts:", 16020, Static, 0x50020000, 28, 74, 125, 8, 0x0
+  CONTROL "", 16021, Edit, 0x50812080, 168, 73, 50, 12, 0x0
+  CONTROL "", 16027, "msctls_updown32", 0x50000036, 206, 73, 12, 14, 0x0
+  CONTROL "Enable &Federal Information Processing Standards (FIPS) compliance for this network", 16022, Button, 0x50012403, 7, 98, 207, 17, 0x0
+}
+
+105 DIALOGEX 0, 0, 235, 245
+CAPTION "802.1X settings"
+STYLE 0x90c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 16000, Button, 0x50000007, 7, 7, 220, 55, 0x0
+  CONTROL "S&pecify authentication mode:", 16001, Button, 0x50010003, 16, 7, 108, 8, 0x0
+  CONTROL "", 16002, ComboBox, 0x50210003, 28, 22, 120, 70, 0x0
+  CONTROL "Save &credentials", 16009, Button, 0x50010000, 155, 22, 70, 14, 0x0
+  CONTROL "Replace &credentials", 16011, Button, 0x50010000, 155, 22, 70, 14, 0x0
+  CONTROL "&Delete credentials for all users", 16028, Button, 0x50010003, 28, 42, 108, 8, 0x0
+  CONTROL "", 16003, Button, 0x50000007, 7, 69, 220, 112, 0x0
+  CONTROL "Enable &single sign on for this network", 16004, Button, 0x50010003, 16, 69, 135, 10, 0x0
+  CONTROL "Perform immediately b&efore user logon", 16005, Button, 0x50022409, 28, 85, 184, 10, 0x0
+  CONTROL "Perform immediately a&fter user logon", 16006, Button, 0x50002409, 28, 97, 184, 10, 0x0
+  CONTROL "&Maximum delay (seconds):", 16007, Static, 0x50020000, 28, 109, 126, 12, 0x0
+  CONTROL "", 16008, Edit, 0x50812080, 160, 108, 55, 12, 0x0
+  CONTROL "", 16023, "msctls_updown32", 0x50000136, 203, 108, 11, 12, 0x0
+  CONTROL "A&llow additional dialogs to be displayed during single sign on", 16010, Button, 0x50012403, 28, 123, 186, 20, 0x0
+  CONTROL "This network uses separate &virtual LANs for machine and user authentication", 16012, Button, 0x50012403, 28, 143, 184, 20, 0x0
+  CONTROL 18001, 16031, Static, 0x50000003, 9, 210, 16, 16, 0x0
+  CONTROL "The changes you have made will delete the saved credentials", 16029, Static, 0x50020000, 35, 215, 200, 16, 0x0
+  CONTROL "Your input credentials will not be saved due to the changes you have made", 16030, Static, 0x50020000, 35, 210, 200, 16, 0x0
+  CONTROL "The credentials stored with the profile are invalid", 16032, Static, 0x50020000, 35, 215, 200, 16, 0x0
+  CONTROL "The credentials stored with the profile have expired", 16033, Static, 0x50020000, 35, 215, 200, 16, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  15086,  "Error Saving Wireless Profile"
+  15087,  "Windows has encountered an error saving the wireless profile.\nSpecific error: "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  15088,  "Windows has encountered an error saving the EAP properties.\nSpecific error: "
+  15089,  "Windows has encountered an error saving the credentials."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17100,  "Shared"
+  17101,  "No authentication (Open)"
+  17102,  "WPA-Enterprise"
+  17103,  "WPA-Personal"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17104,  "WPA2-Enterprise"
+  17105,  "WPA2-Personal"
+  17106,  "802.1X"
+  17107,  "&Enable %s connection settings"
+  17108,  "&Use %s security settings"
+  17109,  "Access point"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17200,  "None"
+  17201,  "WEP"
+  17202,  "WEP"
+  17203,  "WEP"
+  17204,  "TKIP"
+  17205,  "AES"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17300,  "Error"
+  17301,  "Wireless Network Properties"
+  17302,  "%1 Wireless Network Properties"
+  17303,  "The network key you entered is not valid. \nType the key again, using 5 or 13 characters."
+  17304,  "The network key you entered is not valid. \nType the key again, using 5 or 13 characters; or 10 or 26 characters using digits 0-9 and letters A-F."
+  17305,  "The network key you entered is not valid. \nType the key again, using at least 8 characters."
+  17306,  "The network key you entered is not valid. \nType the key again, using a maximum length of 63 characters; or 64 characters using digits 0-9 and letters A-F."
+  17310,  "These settings are managed by your system administrator."
+  17311,  "The security and encryption types in this profile are not supported by the hardware."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17312,  "The EAP method type in this profile is not installed on this machine."
+  17313,  "The EAP method type in this profile is not valid for wireless connections."
+  17314,  "Please select a valid security and encryption type."
+  17315,  "User authentication"
+  17316,  "User or computer authentication"
+  17317,  "Computer authentication"
+  17318,  "Guest authentication"
+  17320,  "Advanced settings"
+  17321,  "Save credentials"
+  17322,  "Replace credentials"
+  17323,  "Saving your credentials allows your computer to connect to the network when you’re not logged on (for example, to download updates). "
+  17324,  "OK"
+  17325,  "Cancel"
+  17326,  "Saving your credentials allows your computer to connect to the network when you’re not logged on (for example, to download updates). \n\nThe user credentials entered are not valid. Please try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17404,  "All users"
+  17405,  "Me only"
+}
+

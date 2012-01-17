@@ -1,0 +1,283 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+1 DIALOGEX 0, 0, 244, 200
+CAPTION "Date and Time"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 113, "ClockWndMain", 0x50000010, 7, 10, 81, 77, 0x0
+  CONTROL "Date:", 4294967295, Static, 0x50020000, 92, 20, 143, 8, 0x0
+  CONTROL "", 118, Edit, 0x50000844, 91, 30, 144, 20, 0x0
+  CONTROL "Time:", 4294967295, Static, 0x50020000, 92, 50, 143, 8, 0x0
+  CONTROL "", 114, Edit, 0x50000880, 91, 60, 144, 10, 0x0
+  CONTROL "Change &date and time...", 116, Button, 0x50030000, 140, 72, 96, 12, 0x0
+  CONTROL "", 120, Static, 0x50001008, 10, 95, 226, 1, 0x0
+  CONTROL "Time zone", 154, Static, 0x50020000, 10, 91, 35, 8, 0x0
+  CONTROL "", 122, Edit, 0x50020880, 8, 105, 228, 10, 0x0
+  CONTROL "Change time &zone...", 126, Button, 0x50030000, 140, 117, 96, 12, 0x0
+  CONTROL "", 125, Static, 0x50020000, 10, 139, 226, 25, 0x0
+  CONTROL "&Notify me when the clock changes", 127, Button, 0x50032403, 10, 164, 226, 12, 0x0
+}
+
+2 DIALOGEX 0, 0, 244, 190
+CAPTION "Internet Time"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 820, Static, 0x50020000, 8, 10, 228, 22, 0x0
+  CONTROL "", 823, Static, 0x50020000, 8, 40, 228, 8, 0x0
+  CONTROL "", 825, Static, 0x50020000, 8, 62, 228, 48, 0x0
+  CONTROL "&Change settings...", 827, Button, 0x50010000, 144, 116, 92, 12, 0x0
+  CONTROL "<A ID=""HelpMe"">What is Internet time synchronization?</A>", 824, "SysLink", 0x50010000, 8, 178, 228, 20, 0x0
+}
+
+3 DIALOGEX 0, 0, 244, 193
+CAPTION "Date and Time Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Set the date and time:", 4294967295, Static, 0x50020000, 8, 8, 228, 8, 0x0
+  CONTROL "&Date:", 101, Static, 0x50020000, 8, 26, 120, 8, 0x0
+  CONTROL "", 111, "SysMonthCal32", 0x50010098, 8, 36, 120, 90, 0x0
+  CONTROL "&Time:", 102, Static, 0x50020000, 138, 26, 112, 8, 0x0
+  CONTROL "", 113, "ClockWndMain", 0x50000011, 146, 36, 81, 70, 0x0
+  CONTROL "", 117, "DigitalClock", 0x50010010, 158, 110, 80, 16, 0x0
+  CONTROL "The date on this computer is outside the supported date range for this calendar type.", 716, Static, 0x40020000 | NOT WS_VISIBLE, 8, 128, 235, 18, 0x0
+  CONTROL "", 112, Static, 0x50020080, 8, 148, 228, 8, 0x0
+  CONTROL "<A ID=""IntlCpl"">Change calendar settings</A>", 115, "SysLink", 0x50010000, 8, 160, 120, 8, 0x0
+  CONTROL "OK", 1, Button, 0x58010000, 140, 173, 45, 12, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 191, 173, 45, 12, 0x0
+}
+
+4 DIALOGEX 0, 0, 244, 112
+CAPTION "Time Zone Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Set the time zone:", 4294967295, Static, 0x50020000, 8, 4, 228, 8, 0x0
+  CONTROL "&Time zone:", 101, Static, 0x50020000, 8, 22, 228, 8, 0x0
+  CONTROL "", 122, ComboBox, 0x50210003, 8, 32, 228, 136, 0x0
+  CONTROL "A&utomatically adjust clock for Daylight Saving Time", 127, Button, 0x50030003, 8, 47, 228, 10, 0x0
+  CONTROL "Current date and time:", 4294967295, Static, 0x50020000, 8, 63, 82, 8, 0x0
+  CONTROL "", 401, Edit, 0x50000880, 91, 63, 145, 12, 0x0
+  CONTROL "New date and time:", 404, Static, 0x40020000 | NOT WS_VISIBLE, 8, 75, 82, 8, 0x0
+  CONTROL "", 402, Edit, 0x40000880 | NOT WS_VISIBLE, 91, 75, 145, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 140, 92, 45, 12, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 191, 92, 45, 12, 0x0
+}
+
+5 DIALOGEX 0, 0, 244, 120
+CAPTION "Internet Time Settings"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Configure Internet time settings:", 4294967295, Static, 0x50020000, 8, 4, 228, 8, 0x0
+  CONTROL "&Synchronize with an Internet time server", 820, Button, 0x50030003, 8, 18, 228, 10, 0x0
+  CONTROL "S&erver:", 822, Static, 0x50020002, 8, 34, 43, 8, 0x0
+  CONTROL "", 821, ComboBox, 0x50210042, 54, 32, 110, 76, 0x0
+  CONTROL "&Update now", 826, Button, 0x50010000, 170, 32, 66, 12, 0x0
+  CONTROL "", 825, Static, 0x50020000, 8, 55, 228, 40, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 140, 100, 45, 12, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 191, 100, 45, 12, 0x0
+}
+
+350 DIALOGEX 0, 0, 244, 190
+CAPTION "Additional Clocks"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Additional clocks can display the time in other time zones. You can view them by clicking on or hovering over the taskbar clock.", 4294967295, Static, 0x50020000, 8, 10, 228, 32, 0x0
+  CONTROL "", 4294967295, Button, 0x50000007, 7, 41, 230, 69, 0x0
+  CONTROL "S&how this clock", 351, Button, 0x50030003, 13, 41, 60, 8, 0x0
+  CONTROL "S&elect time zone:", 357, Static, 0x50020000, 13, 53, 120, 8, 0x0
+  CONTROL "", 353, ComboBox, 0x50210003, 13, 63, 218, 136, 0x0
+  CONTROL "E&nter display name:", 359, Static, 0x50020000, 13, 82, 120, 8, 0x0
+  CONTROL "", 355, Edit, 0x58810080, 13, 92, 120, 12, 0x0
+  CONTROL "", 4294967295, Button, 0x50000007, 7, 116, 230, 69, 0x0
+  CONTROL "Sh&ow this clock", 352, Button, 0x50030003, 13, 116, 60, 8, 0x0
+  CONTROL "Sele&ct time zone:", 358, Static, 0x50020000, 13, 128, 120, 8, 0x0
+  CONTROL "", 354, ComboBox, 0x50210003, 13, 138, 218, 136, 0x0
+  CONTROL "En&ter display name:", 360, Static, 0x50020000, 13, 157, 120, 8, 0x0
+  CONTROL "", 356, Edit, 0x58810080, 13, 167, 120, 12, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  51,  "Date and Time"
+  52,  "Set the date, time, and time zone for your computer."
+  53,  "You do not have permission to perform this task. Please contact your computer administrator for help."
+  54,  "Your changes could not be saved."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  151,  "Date in Gregorian: %1!s!"
+  152,  "(GMT%1!+03d!:%2!02u!) Unknown time zone"
+  153,  "[Date out of range]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "An error occurred"
+  161,  "The date on this computer is outside the supported date range for this calendar type."
+  162,  "Windows can only display dates between %1 and %2 for the %3 calendar.\n\nWould you like to change your calendar type?"
+  163,  "Unable to continue"
+  170,  "Daylight Saving Time is not observed by this time zone."
+  171,  "Daylight Saving Time begins on %1!s! at %2!s!."
+  172,  "Daylight Saving Time ends on %1!s! at %2!s!."
+  173,  "The clock is not set to adjust for this change."
+  174,  "There are no upcoming Daylight Saving Time changes."
+  175,  "The clock is set to go forward 1 hour at that time."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  176,  "The clock is set to go back 1 hour at that time."
+  177,  "The clock is set to go forward %1!u! minutes at that time."
+  178,  "The clock is set to go back %1!u! minutes at that time."
+  179,  "This clock will go forward 1 hour at that time."
+  180,  "This clock will go back 1 hour at that time."
+  181,  "This clock will go forward %1!u! minutes at that time."
+  182,  "This clock will go back %1!u! minutes at that time."
+  183,  "The clock does not require adjustment."
+  184,  "Daylight Saving Time began on %1!s! at %2!s!."
+  185,  "Daylight Saving Time ended on %1!s! at %2!s!."
+  186,  "The clock went forward 1 hour at that time."
+  187,  "The clock went back 1 hour at that time."
+  188,  "The clock went forward %1!u! minutes at that time."
+  189,  "The clock went back %1!u! minutes at that time."
+  190,  "This clock went forward 1 hour at that time."
+  191,  "This clock went back 1 hour at that time."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  192,  "This clock went forward %1!u! minutes at that time."
+  193,  "This clock went back %1!u! minutes at that time."
+  201,  "Date and Time Tooltip"
+  202,  "Local time"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  302,  "Change date and time settings..."
+  303,  "Calendar Control"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Clock Control"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Date and Time Information"
+  321,  "Go to Today"
+  322,  "Hyperlink which launches the Date and Time control panel"
+  323,  "Your computer's date is outside the display range for this calendar."
+  324,  "Your current time zone is not recognized. Please select a valid time zone using the link below."
+  330,  "Press"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  363,  "Clock 1"
+  364,  "Clock 2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  500,  "Please wait while Windows synchronizes with %1!s!"
+  501,  "Next synchronization: %1!s! at %2!s!"
+  502,  "The clock was successfully synchronized with %3!s! on %1!s! at %2!s!."
+  503,  "The clock was successfully synchronized on %1!s! at %2!s!."
+  504,  "An error occurred while Windows was synchronizing with %1!s!.  %2!s!"
+  505,  "An error occurred while Windows was synchronizing with %1!s!."
+  506,  "The clock was most recently synchronized on %1!s! at %2!s!."
+  508,  "Windows can't synchronize automatically with the time server because the time difference is too great. Please update your time manually."
+  509,  "An error occurred getting the status of the last synchronization.  %1!s!"
+  510,  "Unable to start the Windows Time service. Please try again later."
+  511,  "An error occurred while Windows was synchronizing.  %1!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "The Windows Time service is not running. \n\nInternet time synchronization cannot occur while this service is stopped. Please start the Windows Time service or contact your system administrator."
+  513,  "This computer is set to automatically synchronize with '%1!s!'."
+  514,  "This computer is not set to automatically synchronize with an Internet time server."
+  515,  "This computer is set to automatically synchronize on a scheduled basis."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  717,  "Current date: %1!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  722,  "This time is not valid due to Daylight Saving Time.\n"
+  723,  "Please choose a time before %1!s! or after %2!s!.\n"
+  724,  "Your current time zone is not recognized. Please select a valid time zone."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1186,  "The clock did not adjust for this change."
+  1187,  "Hour"
+  1188,  "Minute"
+  1189,  "Second"
+  1190,  "Time Marker"
+}
+
+1 MESSAGETABLE
+{
+  268435505,  "Response Time\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  805306398,  "Date/Time Control Panel Applet data table operations\r\n"
+  805306399,  "Date/Time Control Panel Applet initialization\r\n"
+  805306400,  "Date/Time Control Panel Applet configuration changes\r\n"
+  805306401,  "Date/Time Control Panel Applet operations\r\n"
+  805306402,  "Date/Time Control Panel Applet cleanup operations\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  1879048222,  "Date/Time Control Panel Applet date/time functionality\r\n"
+  1879048223,  "Date/Time Control Panel Applet time zone functionality\r\n"
+  1879048224,  "Date/Time Control Panel Applet extra clocks functionality\r\n"
+  2415919105,  "Microsoft-Windows-DateTimeControlPanel\r\n"
+  2415919106,  "Operational\r\n"
+  2415919107,  "Analytical\r\n"
+  2415919108,  "Debug\r\n"
+  2952791017,  "Time zone operation failed because the required time zone names are missing or corrupt. To correct this error, you will need to update the ""%1"" to have correct values in one of the following subkeys: ""%2"" or ""%3"".\r\n"
+  2952791018,  "Time zone operation failed because the required time zone data is missing or corrupt. To correct this error, you will need to update the values of the ""%1"" to have a correct value in the ""%2"" subkey.\r\n"
+  2952791019,  "The attempt to set the system time failed with the following parameters: wYear: %1, wMonth: %2, wDayOfWeek: %3, wDay: %4, wHour: %5, wMinute: %6, wSecond: %7, wMilliseconds: %8. SetLocalTime () returned error. Error code is %9.  Error message is: ""%10"".\r\n"
+  2952791020,  "The attempt to set the time zone with the following parameters failed. Bias: %1 minute(s), Standard name: ""%2"", StandardDate.wYear: %3, StandardDate.wMonth: %4, StandardDate.wDayOfWeek: %5, StandardDate.wDay: %6, StandardDate.wHour: %7, StandardDate.wMinute: %8, StandardDate.wSecond: %9, StandardDate.wMilliseconds: %10, Standard bias: %11 minute(s), Daylight saving name: ""%12"", DaylightDate.wYear: %13, DaylightDate.wMonth: %14, DaylightDate.wDayOfWeek: %15, DaylightDate.wDay: %16, DaylightDate.wHour: %17, DaylightDate.wMinute: %18, DaylightDate.wSecond: %19, DaylightDate.wMilliseconds: %20, Daylight saving bias: %21 minute(s). SetTimeZoneInformation() returned error.  Error code is %22. Error message is: ""%23"".\r\n"
+  2952791021,  "The attempt to set the system time zone to ""%1"" returned error. Error code is %2. The time zone has been made obsolete.\r\n"
+  2952791022,  "The attempt to set the system time zone to ""%1"" returned error. Error code is %2. The time zone is unrecognized.\r\n"
+  2952791023,  "The attempt to set the system time zone to ""%1"" returned error. Error code is %2. The time zone data is unreadable.\r\n"
+  2952810016,  "The system time was set successfully with the following parameters: wYear: %1, wMonth: %2, wDayOfWeek: %3, wDay: %4, wHour: %5, wMinute: %6, wSecond: %7, wMilliseconds: %8.\r\n"
+  2952810017,  "The system time zone was set successfully to ""%1"".\r\n"
+  2952820018,  "The time zone was set successfully with the following parameters. Bias: %1 minute(s), Standard name: ""%2"", StandardDate.wYear: %3, StandardDate.wMonth: %4, StandardDate.wDayOfWeek: %5, StandardDate.wDay: %6, StandardDate.wHour: %7, StandardDate.wMinute: %8, StandardDate.wSecond: %9, StandardDate.wMilliseconds: %10, Standard bias: %11 minute(s), Daylight saving name: ""%12"", DaylightDate.wYear: %13, DaylightDate.wMonth: %14, DaylightDate.wDayOfWeek: %15, DaylightDate.wDay: %16, DaylightDate.wHour: %17, DaylightDate.wMinute: %18, DaylightDate.wSecond: %19, DaylightDate.wMilliseconds: %20, Daylight saving bias: %21 minute(s).\r\n"
+  2952856556,  "The attempt to set the system time zone to ""%1"" returned error. Error code is %2. Error message is: ""%3"".\r\n"
+}

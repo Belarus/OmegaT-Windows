@@ -1,0 +1,1042 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+256 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Sho&w title", 2, MFT_STRING, MFS_ENABLED
+  }
+}
+
+257 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Close toolbar", 1, MFT_STRING, MFS_ENABLED
+    MENUITEM "Disable add, close, drag and drop (IEAK)", 3, MFT_STRING, MFS_ENABLED
+    MENUITEM "Disable resizing (IEAK)", 4, MFT_STRING, MFS_ENABLED
+  }
+}
+
+259 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Always on top", 6, MFT_STRING, MFS_ENABLED
+    MENUITEM "A&uto-hide", 8, MFT_STRING, MFS_ENABLED
+  }
+}
+
+263 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&File", 32768, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Create &shortcut", 41029, MFT_STRING, MFS_GRAYED
+    MENUITEM "&Delete", 40995, MFT_STRING, MFS_ENABLED
+    MENUITEM "Rena&me", 40996, MFT_STRING, MFS_ENABLED
+    MENUITEM "P&roperties", 40997, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Close", 40993, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Edit", 32832, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Cu&t\tCtrl+X", 41025, MFT_STRING, MFS_GRAYED
+    MENUITEM "&Copy\tCtrl+C", 41026, MFT_STRING, MFS_GRAYED
+  }
+  POPUP "&View", 32896, MFT_STRING, MFS_ENABLED, 0
+  {
+    POPUP "&Explorer Bar", 41520, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "Placeholder", 41531, MFT_STRING, MFS_ENABLED
+      MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+      MENUITEM "Placeholder", 41532, MFT_STRING, MFS_ENABLED
+    }
+    MENUITEM "", 32897, MFT_SEPARATOR, MFS_ENABLED
+    POPUP "&Go To", 33104, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "&Back\tAlt+Left Arrow", 41249, MFT_STRING, MFS_ENABLED
+      MENUITEM "&Forward\tAlt+Right Arrow", 41250, MFT_STRING, MFS_ENABLED
+      MENUITEM "&Up one level\tAlt+Up Arrow", 40994, MFT_STRING, MFS_ENABLED
+    }
+    MENUITEM "&Refresh", 41504, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Tools", 32960, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Map &network drive...", 41089, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Disconnect network drive...", 41090, MFT_STRING, MFS_ENABLED
+    MENUITEM "Open &Sync Center...", 41096, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Folder &options...", 41251, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Internet options...", 41329, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Help", 33024, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Is this copy of Windows &legal?", 41220, MFT_STRING, MFS_ENABLED
+    MENUITEM "&About Windows", 41218, MFT_STRING, MFS_ENABLED
+  }
+}
+
+264 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&Toolbars", 41473, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "", 41480, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Lock the tool&bars", 41484, MFT_STRING, MFS_ENABLED
+  }
+}
+
+265 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Close", 1, MFT_STRING, MFS_ENABLED |MFS_DEFAULT
+  }
+}
+
+266 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "&File", 32768, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Close", 40993, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Edit", 32832, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+  }
+  POPUP "&View", 32896, MFT_STRING, MFS_ENABLED, 0
+  {
+    POPUP "&Toolbars", 41473, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    }
+    POPUP "&Explorer Bar", 41520, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "Placeholder", 41531, MFT_STRING, MFS_ENABLED
+      MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+      MENUITEM "Placeholder", 41532, MFT_STRING, MFS_ENABLED
+    }
+    MENUITEM "", 32897, MFT_SEPARATOR, MFS_ENABLED
+    POPUP "&Go To", 33104, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "&Back\tAlt+Left Arrow", 41249, MFT_STRING, MFS_ENABLED
+      MENUITEM "&Forward\tAlt+Right Arrow", 41250, MFT_STRING, MFS_ENABLED
+      MENUITEM "&Up one level\tAlt+Up Arrow", 40994, MFT_STRING, MFS_ENABLED
+    }
+    MENUITEM "&Refresh", 41504, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Tools", 32960, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Map &network drive...", 41089, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Disconnect network drive...", 41090, MFT_STRING, MFS_ENABLED
+    MENUITEM "Open &Sync Center...", 41096, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Folder &options...", 41251, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Internet options...", 41329, MFT_STRING, MFS_ENABLED
+  }
+  POPUP "&Help", 33024, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Is this copy of Windows &legal?", 41220, MFT_STRING, MFS_ENABLED
+    MENUITEM "&About Windows", 41218, MFT_STRING, MFS_ENABLED
+  }
+}
+
+268 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    POPUP "&Toolbars", -1, MFT_STRING, MFS_ENABLED, 0
+    {
+      MENUITEM "&Desktop", 3, MFT_STRING, MFS_ENABLED
+      MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+      MENUITEM "&New toolbar...", 1, MFT_STRING, MFS_ENABLED
+    }
+  }
+}
+
+272 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 272, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "&Copy address", 1281, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Copy address as text", 1282, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Edit address", 1280, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Delete history", 1283, MFT_STRING, MFS_ENABLED
+  }
+}
+
+273 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 273, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Cu&t", 1284, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Copy", 1285, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Paste", 1286, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Delete", 1287, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "&Select All", 1288, MFT_STRING, MFS_ENABLED
+  }
+}
+
+275 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  MENUITEM "Auto-&hide", 1538, MFT_STRING, MFS_ENABLED
+}
+
+3400 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Exp&and", 8, MFT_STRING, MFS_ENABLED
+    MENUITEM "Coll&apse", 9, MFT_STRING, MFS_ENABLED
+    MENUITEM "&Open", 1, MFT_STRING, MFS_ENABLED
+    MENUITEM "Sort &by name", 10, MFT_STRING, MFS_ENABLED
+  }
+}
+
+41728 MENUEX
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  POPUP "", 0, MFT_STRING, MFS_ENABLED, 0
+  {
+    MENUITEM "Co&llapse group\tLeft Arrow", 28757, MFT_STRING, MFS_ENABLED
+    MENUITEM "Expan&d group\tRight Arrow", 28758, MFT_STRING, MFS_ENABLED
+    MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
+    MENUITEM "Expand all &groups", 28755, MFT_STRING, MFS_ENABLED
+    MENUITEM "Collapse all gro&ups", 28756, MFT_STRING, MFS_ENABLED
+  }
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  724,  "Cannot find '%1!ws!'. Make sure the path or Internet address is correct."
+  726,  "Windows Explorer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  748,  "Click the folder that you want to move the selected files to."
+  750,  "(empty)"
+  751,  "%s-NEW"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  800,  "Contains commands for working with the selected items."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  864,  "Contains edit commands."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  928,  "Contains commands for manipulating the view."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  992,  "Contains tools commands."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1030,  "Folder Options"
+  1031,  "Internet Options"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1056,  "Contains commands for displaying Help."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1136,  "Contains commands for browsing to various pages."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3004,  "Favorites"
+  3005,  "History"
+  3006,  "Feeds"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3009,  "Namespace Tree Control"
+  3010,  "Tree View"
+  3011,  "Move here"
+  3014,  "Open in new tab"
+  3015,  "Open '%s' in a Tab Group"
+  3016,  "Delete this page from Favorites"
+  3017,  "Refresh this feed"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  8192,  "User canceled a hung navigation."
+  8193,  "The user cancelled the navigation after %d seconds."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9025,  "Closes the window."
+  9026,  "Goes up one level."
+  9027,  "Deletes the selected items."
+  9028,  "Renames the selected item."
+  9029,  "Displays the properties of the selected items."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9057,  "Removes the current selection and copies it onto the Clipboard."
+  9058,  "Copies the current selection onto the Clipboard."
+  9059,  "Inserts the items you have copied or cut into the selected location."
+  9060,  "Selects all items on this page."
+  9061,  "Creates shortcuts to the selected items."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9121,  "Connects to a network drive."
+  9122,  "Disconnects from a network drive."
+  9128,  "Updates all offline content."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9250,  "Displays program information, version number, and copyright."
+  9252,  "Displays instructions and information to determine if Microsoft software is genuine."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9281,  "Goes to the previous page."
+  9282,  "Goes to the next page."
+  9283,  "Enables you to change settings."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9361,  "Enables you to change settings."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9505,  "Shows or hides toolbars."
+  9516,  "Locks the sizes and positions of the toolbars."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9530,  "Stops the current page from loading."
+  9531,  "Maximizes window to full screen."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9536,  "Refreshes the contents of the current page."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9552,  "Shows or hides an Explorer bar."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12352,  "Address Bar"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12387,  "New Toolbar - Choose a folder"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12545,  "'%1!ls!' is currently unavailable."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12608,  "Desktop"
+  12609,  "Windows"
+  12614,  "%1 - %2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12624,  "|Back|Forward|Stop|Refresh|Home|Search|Favorites|Print|Size|Edit|Tools|Media|History|Mail|Full Screen||"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12656,  "|Go      |Stop    |Refresh||"
+  12657,  "Go to ""%s"""
+  12658,  "|Auto-hide|Close||"
+  12661,  "Stop loading ""%s"""
+  12662,  "Refresh ""%s"" (F5)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12675,  "Previous Locations"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12896,  "A&ddress"
+  12897,  "Search"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12915,  "Internet &options..."
+  12916,  " (Mixed)"
+  12917,  "Unknown Zone"
+  12919,  "Folders"
+  12921,  "Folder Options..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12936,  "http://www.%s.com"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  13120,  "..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  13137,  "&Address"
+  13138,  "&Links"
+  13140,  "&Desktop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  13824,  " Search"
+  13825,  "Computing items..."
+  13826,  "Type to search the current view"
+  13827,  "See other options"
+  13829,  "Address: %s"
+  13830,  " Search %1"
+  13831,  "No filter matches."
+  13832,  "Add a search filter"
+  13833,  "Search Results in %1"
+  13834,  "Clear search history"
+  13835,  "Clear your search history."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  14337,  "Recent Pages"
+  14338,  "|Search|Clear||"
+  14339,  "Microsoft Windows"
+  14340,  "The %s toolbar isn't compatible with this version of Windows"
+  14341,  "If you continue, the toolbar might appear incorrectly. To check for an updated version, go to the software publisher's website.\n\nDo you want this toolbar on your taskbar?"
+  14342,  "Up to ""%s"" (Alt + Up Arrow)"
+  14343,  "Up one level (Alt + Up Arrow)"
+  14344,  "Up to ""%s..."" (Alt + Up Arrow)"
+  14345,  "%s (Alt + Left Arrow)"
+  14346,  "%s (Alt + Right Arrow)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  14384,  "Sync"
+  14385,  "Synchronize this folder at multiple locations"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  14400,  "&Address bar history"
+  14401,  "Clear your address bar history."
+  14402,  "&About Windows"
+  14403,  "About Windows"
+  14404,  "Is this &genuine Windows?"
+  14405,  "Confirm that this software is genuine."
+  14406,  "Genuine Windows"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  14416,  "Set as background"
+  14417,  "Set a picture as your desktop background."
+  14418,  "Fax"
+  14419,  "Fax the selected items."
+  14420,  "Fax"
+  14421,  "Legacy toolbars"
+  14422,  "Turn on and off installed Toolbars and Explorer Bars."
+  14423,  "Legacy toolbars"
+  14424,  "File History"
+  14425,  "Search again in File History"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  24320,  "%1 parent list"
+  24321,  "%1 sibling list"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  28672,  "You have chosen to close the ""%1"" toolbar."
+  28673,  "You have chosen to close a toolbar window."
+  28674,  "Confirm Toolbar Close"
+  28675,  "%1\n\nTo add a toolbar to your desktop, right-click an existing toolbar, click Toolbars, and then click an item."
+  28676,  "A toolbar is already hidden on this side of your screen.\nYou can have only one auto-hide toolbar per side."
+  28677,  "Toolbar"
+  28679,  "Disconnect Net Drive"
+  28680,  "The network provider %2 reported the following error: %3(%1!d!)."
+  28681,  "Windows Explorer"
+  28683,  "http://go.microsoft.com/fwlink/?LinkId=3448&clcid=%#04lx"
+  28684,  "Cannot create toolbar."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  28690,  "Toolbars"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  34304,  "Search Box"
+  34305,  "Search"
+  34306,  "Clear"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41216,  "Fetching..."
+  41217,  "Horizontal Scroll Bar"
+  41218,  "Vertical Scroll Bar"
+  41219,  "Items View"
+  41220,  "Expand Group"
+  41221,  "Collapse Group"
+  41222,  "Header"
+  41223,  "Filter dropdown"
+  41224,  "Filter dropdown (filtered)"
+  41225,  "Count"
+  41226,  "Overflow button"
+  41227,  "Filtered"
+  41228,  "Sorted (Ascending)"
+  41229,  "Sorted (Ascending), Filtered"
+  41230,  "Sorted (Descending)"
+  41231,  "Sorted (Descending), Filtered"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41232,  "%1!d! items"
+  41233,  "%1!d! item"
+  41234,  "%1!d! items selected"
+  41235,  "%1!d! item selected"
+  41236,  "%1!s!, %2!s!"
+  41237,  "item %1!d! of %2!d!"
+  41238,  "Group Header"
+  41239,  "%1!s! %2!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41473,  "Search again in:"
+  41474,  "%1:"
+  41475,  "(%1!u!)"
+  41476,  "(Empty)"
+  41477,  "(Show all %1!d!)"
+  41478,  "This folder is empty."
+  41479,  "Unspecified"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41728,  "Extra Large Icons"
+  41729,  "Large Icons"
+  41730,  "Medium Icons"
+  41731,  "Small Icons"
+  41732,  "List"
+  41733,  "Details"
+  41734,  "Tiles"
+  41735,  "Content"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41744,  "File and folder view reentrancy"
+  41745,  "The file and folder view encountered an unexpected state"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49920,  "F"
+  49921,  "Home"
+  49922,  "Clipboard"
+  49923,  "Advanced options"
+  49924,  "Organize"
+  49926,  "Open"
+  49927,  "Select"
+  49928,  "Share"
+  49929,  "Send"
+  49930,  "Share with"
+  49933,  "View"
+  49934,  "Layout"
+  49935,  "Current view"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49936,  "Panes"
+  49937,  "Show/hide"
+  49939,  "Network"
+  49940,  "Open"
+  49941,  "Configure"
+  49942,  "Computer"
+  49943,  "Open"
+  49944,  "Network"
+  49945,  "Configure"
+  49946,  "HomeGroup"
+  49947,  "Manage"
+  49950,  "Search Tools"
+  49951,  "Search"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49952,  "Location"
+  49953,  "Refine"
+  49954,  "Options"
+  49955,  "Close"
+  49956,  "Recycle Bin Tools"
+  49957,  "Manage"
+  49958,  "Manage"
+  49959,  "Restore"
+  49960,  "Compressed Folder Tools"
+  49961,  "Library Tools"
+  49962,  "Manage"
+  49963,  "Manage"
+  49965,  "Picture Tools"
+  49966,  "Manage"
+  49967,  "View"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49968,  "Rotate"
+  49969,  "Music Tools"
+  49970,  "Play"
+  49971,  "Video Tools"
+  49972,  "Play"
+  49974,  "Disk Tools"
+  49975,  "Drive"
+  49976,  "Rewritable media"
+  49977,  "Protect"
+  49978,  "Manage"
+  49979,  "Disc Image Tools"
+  49980,  "Actions"
+  49981,  "Manage"
+  49982,  "Shortcut Tools"
+  49983,  "Actions"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49984,  "Application Tools"
+  49985,  "Application"
+  49986,  "Run"
+  49987,  "Pin"
+  49988,  "Recycle Bin Tools"
+  49989,  "Manage"
+  49990,  "Manage"
+  49991,  "Compressed Folder Tools"
+  49992,  "Extract"
+  49993,  "Library Tools"
+  49994,  "Manage"
+  49995,  "Manage"
+  49997,  "Extract"
+  49998,  "Removable media"
+  49999,  "Clear h&istory"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50000,  "In non-indexed locations"
+  50002,  "Application menu"
+  50003,  "Explorer"
+  50004,  "Click here to open new windows, manage libraries, get help, and other Explorer actions."
+  50005,  "H"
+  50006,  "V"
+  50007,  "PS"
+  50008,  "T"
+  50009,  "CO"
+  50010,  "CP"
+  50011,  "N"
+  50012,  "W"
+  50013,  "D"
+  50014,  "Y"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50016,  "L"
+  50017,  "G"
+  50018,  "CF"
+  50019,  "S"
+  50020,  "R"
+  50021,  "Z"
+  50022,  "M"
+  50023,  "F"
+  50024,  "PR"
+  50025,  "I"
+  50026,  "O"
+  50027,  "PE"
+  50028,  "CH"
+  50029,  "H"
+  50030,  "E"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50032,  "SA"
+  50033,  "SN"
+  50034,  "SI"
+  50035,  "S"
+  50036,  "V"
+  50037,  "N"
+  50038,  "C"
+  50039,  "G"
+  50040,  "JS"
+  50041,  "JR"
+  50042,  "JZ"
+  50043,  "JL"
+  50044,  "JP"
+  50045,  "JM"
+  50046,  "JV"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50048,  "JD"
+  50049,  "JD"
+  50050,  "JT"
+  50051,  "JA"
+  50052,  "JR"
+  50053,  "JZ"
+  50054,  "JL"
+  50055,  "N"
+  50056,  "N"
+  50057,  "R"
+  50058,  "WI"
+  50059,  "P"
+  50060,  "A"
+  50061,  "F"
+  50062,  "L"
+  50063,  "D"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50064,  "C"
+  50065,  "R"
+  50066,  "A"
+  50067,  "S"
+  50068,  "P"
+  50069,  "S"
+  50070,  "O"
+  50071,  "H"
+  50072,  "H"
+  50073,  "A"
+  50074,  "G"
+  50075,  "X"
+  50077,  "B"
+  50078,  "E"
+  50079,  "F"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50080,  "W"
+  50081,  "A"
+  50082,  "R"
+  50083,  "Z"
+  50084,  "O"
+  50085,  "C"
+  50086,  "A"
+  50087,  "D"
+  50088,  "G"
+  50089,  "A"
+  50090,  "D"
+  50091,  "A"
+  50092,  "SF"
+  50093,  "N"
+  50095,  "N"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50096,  "E"
+  50097,  "SA"
+  50098,  "F"
+  50099,  "P"
+  50100,  "D"
+  50101,  "HP"
+  50102,  "HF"
+  50103,  "HH"
+  50104,  "HS"
+  50105,  "R"
+  50106,  "D"
+  50107,  "AP"
+  50108,  "AD"
+  50109,  "N"
+  50110,  "S"
+  50111,  "R"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50112,  "S"
+  50113,  "T"
+  50114,  "P"
+  50115,  "J"
+  50116,  "M"
+  50117,  "M"
+  50118,  "D"
+  50119,  "A"
+  50120,  "C"
+  50121,  "U"
+  50122,  "S"
+  50123,  "C"
+  50124,  "F"
+  50125,  "A"
+  50126,  "S"
+  50127,  "D"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50128,  "E"
+  50129,  "I"
+  50130,  "P"
+  50131,  "R"
+  50132,  "T"
+  50133,  "M"
+  50134,  "L"
+  50135,  "Y"
+  50136,  "Z"
+  50137,  "X"
+  50138,  "O"
+  50139,  "V"
+  50140,  "X"
+  50141,  "E"
+  50142,  "O"
+  50143,  "A"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50144,  "R"
+  50145,  "A"
+  50146,  "M"
+  50147,  "D"
+  50148,  "P"
+  50149,  "I"
+  50150,  "O"
+  50151,  "R"
+  50152,  "N"
+  50153,  "S"
+  50154,  "B"
+  50155,  "RL"
+  50156,  "RR"
+  50157,  "P"
+  50158,  "A"
+  50159,  "L"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50160,  "A"
+  50161,  "J"
+  50162,  "S"
+  50163,  "E"
+  50164,  "L"
+  50165,  "O"
+  50166,  "M"
+  50167,  "P"
+  50168,  "F"
+  50169,  "C"
+  50170,  "D"
+  50171,  "M"
+  50172,  "B"
+  50173,  "O"
+  50174,  "A"
+  50175,  "A"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50176,  "R"
+  50177,  "T"
+  50179,  "B"
+  50180,  "E"
+  50181,  "O"
+  50182,  "A"
+  50183,  "M"
+  50184,  "D"
+  50185,  "P"
+  50186,  "I"
+  50187,  "O"
+  50188,  "R"
+  50189,  "N"
+  50190,  "PR"
+  50191,  "O"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  50192,  "L"
+  50193,  "SS"
+  50194,  "Navigation Pane"
+  50195,  "New"
+  50196,  "A"
+  50197,  "Easy access"
+  50198,  "Favorite places"
+  50199,  "A"
+  50200,  "O"
+}
+
+256 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F6  , 41008, VIRTKEY, NOINVERT
+  VK_F5  , 41504, VIRTKEY, NOINVERT
+  VK_F5  , 41504, VIRTKEY, NOINVERT, CONTROL
+  VK_R  , 41504, VIRTKEY, NOINVERT, CONTROL
+  VK_TAB  , 41008, VIRTKEY, NOINVERT
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, SHIFT
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, CONTROL
+  VK_TAB  , 41008, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  37  , 41249, VIRTKEY, ALT
+  39  , 41250, VIRTKEY, ALT
+  38  , 40994, VIRTKEY, NOINVERT, ALT
+  VK_BACK  , 41010, VIRTKEY, NOINVERT
+  VK_W  , 40993, VIRTKEY, NOINVERT, CONTROL
+  VK_F4  , 40993, VIRTKEY, NOINVERT, CONTROL
+  27  , 41498, VIRTKEY, NOINVERT
+  VK_E  , 40998, VIRTKEY, NOINVERT, SHIFT, CONTROL
+  VK_N  , 40999, VIRTKEY, NOINVERT, SHIFT, CONTROL
+}
+
+259 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F3  , 4100, VIRTKEY, NOINVERT
+  VK_E  , 4100, VIRTKEY, NOINVERT, CONTROL
+  VK_F  , 4100, VIRTKEY, NOINVERT, CONTROL
+}
+
+260 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_Z  , 28699, VIRTKEY, NOINVERT, CONTROL
+  VK_Y  , 28704, VIRTKEY, NOINVERT, CONTROL
+}
+
+ACCEL_MERGEEXPLORER ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_X  , 41025, VIRTKEY, NOINVERT, CONTROL
+  VK_C  , 41026, VIRTKEY, NOINVERT, CONTROL
+  VK_V  , 41027, VIRTKEY, NOINVERT, CONTROL
+  VK_F2  , 40996, VIRTKEY, NOINVERT
+  VK_INSERT  , 41026, VIRTKEY, NOINVERT, CONTROL
+  VK_INSERT  , 41027, VIRTKEY, NOINVERT, SHIFT
+  VK_DELETE  , 40995, VIRTKEY, NOINVERT
+  VK_DELETE  , 40995, VIRTKEY, NOINVERT, SHIFT
+  VK_D  , 40995, VIRTKEY, NOINVERT, CONTROL
+  VK_RETURN  , 40997, VIRTKEY, NOINVERT, ALT
+}
+

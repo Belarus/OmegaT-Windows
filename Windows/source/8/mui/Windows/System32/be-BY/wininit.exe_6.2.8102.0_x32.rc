@@ -1,0 +1,48 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Notifying services that Windows is shutting down"
+  1001,  "Stopping services"
+  1002,  "Shutting down"
+  1003,  "Windows is preparing to shut down"
+  1004,  "Restarting"
+  1005,  "Starting Windows Update service"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3000,  "The system process '%s' terminated unexpectedly with status code %d.  The system will now shut down and restart."
+  3001,  "Windows has encountered a critical problem and will restart automatically in one minute. Please save your work now."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4000,  "Windows will shut down in %d minutes.\n\n Shutdown will start on %s."
+  4001,  "The scheduled shutdown has been cancelled."
+  4002,  "Windows will shut down in less than a minute."
+  4003,  "Windows will shut down in 1 minute."
+}
+
+1 MESSAGETABLE
+{
+  11,  "Custom dynamic link libraries are being loaded for every application. The system administrator should review the list of libraries to ensure they are related to trusted applications. Please visit http://support.microsoft.com/kb/197571 for more information.\r\n"
+  268435512,  "Classic\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1073742825,  "%1\r\n"
+  1342177283,  "Warning\r\n"
+  1342177284,  "Information\r\n"
+  2147486651,  "Windows start-up process has failed to start the remote shutdown server.\r\n"
+  2147486652,  "Windows start-up process has failed to synchronize with the local security subsystem during setup.\r\n"
+  2415919105,  "Microsoft-Windows-Wininit\r\n"
+  2415919106,  "System\r\n"
+  3221226487,  "A critical system process, %1, failed with status code %2.  The machine must now be restarted.\r\n"
+  3221228474,  "Windows start-up process has unexpectedly terminated.\r\n"
+  3221228477,  "Windows start-up process has failed to terminate system processes.\r\n"
+}

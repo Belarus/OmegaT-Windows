@@ -1,0 +1,589 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 316, 183
+CAPTION ""
+STYLE 0x46000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+}
+
+102 DIALOGEX 0, 0, 339, 191
+CAPTION ""
+STYLE 0x56000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "Summary View ListView Control", 1000, "SysListView32", 0x56011809, 72, 32, 234, 111, 0x0
+}
+
+103 DIALOGEX 0, 0, 339, 191
+CAPTION ""
+STYLE 0x4e000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "Detailed View URL:", 1003, Static, 0x50020000, 5, 5, 16, 8, 0x0
+  CONTROL "", 1004, Edit, 0x50010880, 25, 3, 157, 12, 0x0
+  CONTROL "Detailed View Tab Control", 1001, "SysTabControl32", 0x56010000, 28, 33, 261, 143, 0x0
+}
+
+104 DIALOGEX 0, 0, 339, 191
+CAPTION "Headers Dialog"
+STYLE 0x4ec00448
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "Headers ListView", 1006, "SysListView32", 0x56011809, 72, 32, 234, 111, 0x0
+}
+
+105 DIALOGEX 0, 0, 339, 191
+CAPTION "Body Dialog"
+STYLE 0x4ec00448
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "No data to view.", 1011, Static, 0x50020001, 5, 5, 16, 8, 0x0
+  CONTROL "This data could not be rendered.", 1010, Static, 0x50020001, 5, 5, 16, 8, 0x0
+  CONTROL "", 1015, Edit, 0x50210804, 25, 3, 157, 12, 0x0
+}
+
+106 DIALOGEX 0, 0, 339, 191
+CAPTION "Cookies Dialog"
+STYLE 0x4ec00448
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "Cookies ListView", 1007, "SysListView32", 0x56011809, 72, 32, 234, 111, 0x0
+}
+
+107 DIALOGEX 0, 0, 339, 191
+CAPTION "Timings Dialog"
+STYLE 0x4ec00448
+EXSTYLE 0x10000
+FONT 8, "Ms Shell Dlg", 400, 0, 0
+{
+  CONTROL "Timings ListView", 1008, "SysListView32", 0x56019809, 72, 32, 234, 111, 0x0
+  CONTROL "Timing Graph", 1013, Static, 0x50020100, 5, 5, 16, 8, 0x0
+  CONTROL "", 1014, Edit, 0x50210804, 25, 3, 157, 12, 0x0
+}
+
+108 DIALOGEX 0, 0, 339, 191
+CAPTION ""
+STYLE 0x4e000448 | NOT WS_CAPTION
+EXSTYLE 0x10000
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Initiator ListView", 1017, "SysListView32", 0x56019809, 72, 32, 234, 111, 0x0
+  CONTROL "", 1018, Edit, 0x50010804, 72, 32, 72, 12, 0x0
+  CONTROL "", 1019, "RichEdit50W", 0x50010000, 86, 76, 140, 12, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40000,  "F12 Network Inspector"
+  40001,  "F12 Network Inspection Toolbar"
+  40002,  "Network Inspection Summary View ListView"
+  40003,  "Network Inspection Detailed View Tab Control"
+  40004,  "Network Inspection Summary View Status Bar"
+  40005,  "Network Inspection Request Headers ListView"
+  40006,  "Network Inspection Response Headers ListView"
+  40007,  "Network Inspection Cookies ListView"
+  40008,  "Network Inspection Timings ListView"
+  40009,  "Network Inspection Timings Graph"
+  40010,  "\t"
+  40011,  "\r\n"
+  40012,  "No timing data"
+  40013,  "Wait=%1!d!, Start=%2!d!, Request=%3!d!, Response=%4!d!, Gap=%5!d!"
+  40014,  "%1!d!\t%2!d!\t%3!d!\t%4!d!\t%5!d!"
+  40015,  "Title: %1!s!, Duration: %2!d!, Description: %3!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40016,  "Items: %1!s!"
+  40017,  "Sent: %1!s!"
+  40018,  "Received: %1!s!"
+  40019,  "URL:"
+  40020,  "Request"
+  40021,  "Response"
+  40022,  "Sent"
+  40023,  "Received"
+  40025,  "Click"
+  40026,  "Network Inspection Body Image Window"
+  40027,  "Network Inspection Body Image"
+  40028,  "Network Inspection Body Image Information"
+  40029,  "Network Inspection Initiator ListView"
+  40030,  "Network Inspection Body Hyperlink"
+  40031,  "File: %1!s! \r\n\r\nType: %2!s! \r\n\r\nSize: %3!s! \r\n\r\nDimensions: %4!d! x %5!d! \r\n\r\nColors: %6!d! bit "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40032,  "\r\n\r\nFrame Count: %1!d!"
+  40033,  "File:%1!s!, Type:%2!s!, Size:%3!s!, Dimensions:%4!d! x %5!d!, Colors:%6!d! bit"
+  40034,  ", Frame Count:%1!d!"
+  40035,  "Internet Explorer Network Inspector"
+  40036,  "Select element by click (Ctrl + B)"
+  40037,  "Clear browser cache... (Ctrl + R)"
+  40038,  "Export captured traffic"
+  40039,  "Close detailed view"
+  40040,  "View next entry (Ctrl + .)"
+  40041,  "View previous entry (Ctrl + ,)"
+  40042,  "Clear all entries"
+  40043,  "Enable network traffic capturing (F5)"
+  40044,  "Disable network traffic capturing (Shift + F5)"
+  40045,  "Open detailed view"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40050,  "Start capturing"
+  40051,  "Stop capturing"
+  40052,  "Back to summary view"
+  40053,  "Next >"
+  40054,  "< Prev"
+  40055,  "Clear"
+  40056,  "%1!d! / %2!d!"
+  40057,  "&Copy"
+  40058,  "Select &all"
+  40059,  "Sort by"
+  40060,  "&Save as..."
+  40061,  "Go to detailed view"
+  40062,  "Always show sizes as bytes"
+  40063,  "Always show times in milliseconds"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40064,  "Save as..."
+  40065,  "Copy URL"
+  40070,  "(Aborted)"
+  40071,  "(Error)"
+  40072,  "(Pending...)"
+  40073,  "(File)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40080,  "Initiator"
+  40081,  "Timings"
+  40090,  "Timeline of network events"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40100,  "Requested URL"
+  40101,  "HTTP method verb"
+  40102,  "HTTP response code"
+  40103,  "Content type received"
+  40104,  "Total data received in bytes"
+  40105,  "Total time taken in milliseconds"
+  40110,  "Identifier of the key-value pair"
+  40111,  "Value of the key-value pair"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40112,  "Cookie sent and received"
+  40113,  "Timing name"
+  40114,  "Offset from the start in milliseconds"
+  40115,  "Duration of the event in milliseconds"
+  40116,  "Cookie expiry date"
+  40117,  "Cookie domain"
+  40118,  "Cookie path"
+  40119,  "Cookie can only be accesses via HTTPS"
+  40120,  "Cookie cannot be accessed by script"
+  40121,  "The Internet Explorer subsystem that initiated the download (if known)"
+  40122,  "An attribute of the initiator of this download"
+  40123,  "The value of the property of this download"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40200,  "URL"
+  40201,  "Method"
+  40202,  "Result"
+  40203,  "Type"
+  40204,  "Received (B)"
+  40205,  "Taken (ms)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40210,  "Key"
+  40211,  "Value"
+  40212,  "Direction"
+  40213,  "Name"
+  40214,  "Offset (ms)"
+  40215,  "Duration (ms)"
+  40216,  "Expires"
+  40217,  "Domain"
+  40218,  "Path"
+  40219,  "Secure"
+  40220,  "HTTP only"
+  40221,  "Received"
+  40222,  "Taken"
+  40223,  "Offset"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40224,  "Duration"
+  40230,  "Property"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40250,  "Wait"
+  40251,  "Start"
+  40252,  "Request"
+  40253,  "Response"
+  40254,  "Gap"
+  40255,  "Cache read"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40256,  "Load (event)"
+  40257,  "DOMContentLoaded (event)"
+  40260,  "The time since the start of the page navigation to when this request started."
+  40261,  "The time from when the request was initially created to when the request is sent."
+  40262,  "Time to first byte. The time taken to send the request and receive the first response from the server."
+  40263,  "The time taken to receive the response data from the server."
+  40264,  "The time between completion of this request and the page being loaded."
+  40265,  "The time taken to read the data from the cache."
+  40266,  "The time the page load event occurred."
+  40267,  "The time the page DOMContentLoaded event occurred."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40400,  "Request headers"
+  40401,  "Request body"
+  40402,  "Response headers"
+  40403,  "Response body"
+  40404,  "Cookies"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40500,  "Request headers sent to the server"
+  40501,  "Request data sent to the server"
+  40502,  "Response headers received from the server"
+  40503,  "Response data received from the server"
+  40504,  "Cookies sent and received"
+  40505,  "The initiator of the request"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40600,  "Network Inspection Error"
+  40601,  "An unknown error has occurred."
+  40602,  "Unable to export captured network data."
+  40603,  "Unable to copy image to the clipboard."
+  40604,  "Unable to save image file."
+  40605,  "Unable to save file."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40700,  "Yes"
+  40701,  "No"
+  40702,  "Unknown"
+  40703,  "At end of session"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40704,  "Image"
+  40705,  "File"
+  40706,  "All files"
+  40707,  "<Binary File Data Not Shown>\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40800,  "Comma Separated Values"
+  40801,  "csv"
+  40802,  "XML"
+  40803,  "xml"
+  40804,  "NetworkData"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40900,  "Unknown"
+  40901,  "BMP"
+  40902,  "PNG"
+  40903,  "ICO"
+  40904,  "JPEG"
+  40905,  "TIFF"
+  40906,  "GIF"
+  40907,  "WMP"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  40950,  "%1!s! bytes"
+  40951,  "%1!s! B"
+  40952,  "%1!s! KB"
+  40953,  "%1!s! MB"
+  40954,  "%1!s! GB"
+  40955,  "%1!s! ms"
+  40956,  "%1!s! s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41000,  "[Failed to save response body from %1!s!]"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  41100,  "Title: %1!s!, Offset: %2!d!, Description: %3!s!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  42000,  "Find"
+  42001,  "Search term not found"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43000,  "script reload"
+  43001,  "image viewer"
+  43002,  "ActiveX Control initialization"
+  43003,  "JS Library XMLHttpRequest"
+  43004,  "Flash"
+  43005,  "unknown"
+  43006,  "refresh"
+  43007,  "click"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43008,  "navigate"
+  43009,  "frame navigate"
+  43010,  "HTML Component"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43100,  "Download initiated by the tokenization of the 'src' attribute of a 'script' element."
+  43101,  "Download initiated by the tokenization of the 'background' attribute of a 'table' element."
+  43102,  "Download initiated by the tokenization of the 'src' attribute of an 'input' element of type 'image'."
+  43103,  "Download initiated by the tokenization of the 'lowsrc' attribute of an 'input' element of type 'image'."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43104,  "Download initiated by the tokenization of the 'src' attribute of an 'img' element."
+  43105,  "Download initiated by the tokenization of the 'lowsrc' attribute of an 'img' element."
+  43106,  "Download initiated by the tokenization of the 'xlink:href' attribute of a SVG 'image' element."
+  43107,  "Download initiated by the tokenization of the 'src' attribute of a 'bgsound' element."
+  43108,  "Download initiated by the tokenization of the 'href' attribute of a 'link' element with a 'rel' attribute containing 'stylesheet'."
+  43109,  "Download initiated by the image viewer."
+  43110,  "Download initiated by CSS lookahead for '@import'."
+  43111,  "Download initiated due to the rerunning of a previously executed script whose text has already been freed."
+  43112,  "Download initiated due to the rerunning of a previously executed script whose text has already been freed."
+  43113,  "Download initiated by the 'src' attribute of a 'script' element being added to the document."
+  43114,  "Download initiated by an update to the 'src' attribute of a 'script' element."
+  43115,  "Download initiated by a 'background-image' CSS property."
+  43116,  "Download initiated by a 'background-image' CSS property (this download was deferred to allow continued page execution)."
+  43117,  "Download initiated by an update to the 'src' attribute of an 'img' element."
+  43118,  "Download initiated by an update to the 'lowsrc' attribute of an 'img' element."
+  43119,  "Download initiated by the 'src' attribute of an 'img' element being added to the document."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43120,  "Download initiated by the 'lowsrc' attribute of an 'img' element being added to the document."
+  43121,  "Download initiated by an update to the 'src' attribute of an 'input' element of type 'image'."
+  43122,  "Download initiated by an update to the 'lowsrc' attribute of an 'input' element of type 'image'."
+  43123,  "Download initiated by an update to the 'dynsrc' attribute of an 'input' element of type 'image'."
+  43124,  "Download initiated by the 'dynsrc' attribute of an 'img' element being added to the document."
+  43125,  "Download initiated by an update to the 'dynsrc' attribute of an 'img' element."
+  43126,  "Download initiated by an update to the 'href' attribute of a 'link' element with a 'rel' attribute containing 'stylesheet'."
+  43127,  "Download initiated by the 'href' attribute of a 'link' element with a 'rel' attribute containing 'stylesheet' being added to the document."
+  43128,  "Download initiated by an update to the 'src' attribute of a 'bgsound' element."
+  43129,  "Download initiated by the 'icon' attribute of an HTA application."
+  43130,  "Download initiated by the initialization of an ActiveX control.  In IE7 modes and below, 'object' elements with an image 'type' attribute are also created through ActiveX."
+  43131,  "Download initiated when interpreting a 'cursor: url(...)' in CSS."
+  43132,  "Download initiated when interpreting a 'src: url(...)' in an '@font-face' CSS rule."
+  43133,  "Download initiated when interpreting an '@import' rule in CSS."
+  43134,  "Download initiated when an '@import' rule is added using the DOM CSS interfaces."
+  43135,  "Download initiated by an update to the 'href' property of a stylesheet '@import' rule."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43136,  "Download initiated when interpreting the 'data' attribute of an 'object' element with an image mime type."
+  43137,  "Download initiated by an update to the 'data' attribute of an 'object' element with an image mime type."
+  43138,  "Download initiated by an update to the 'href' pseudo attribute of an XML processing instruction with an 'xml-stylesheet' target."
+  43139,  "Download initiated by the 'href' pseudo attribute of an XML processing instruction with an 'xml-stylesheet' target being added to the document."
+  43140,  "Download initiated by the 'manifest' attribute of an html document."
+  43141,  "Download initiated by a 'webworker' when it is started off."
+  43142,  "Download initiated by a 'webworker' when it calls 'importScripts'."
+  43143,  "Download initiated by an update to the 'src' attribute of a 'track' element."
+  43150,  "Download initiated by a navigation of the main HTML document."
+  43151,  "Download initiated by a user click on a hyperlink."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43152,  "Download initiated by a navigation of a frame."
+  43153,  "Download initiated by setting the 'window.location' of a frame."
+  43154,  "Download initiated by the addition of a frame element via 'innerHtml'."
+  43155,  "Download initiated by the addition of a frame element via 'document.write'."
+  43156,  "Download initiated by the addition of a frame element via 'appendChild'."
+  43157,  "Download initiated by the addition of a frame element via setting of 'src'."
+  43158,  "Download initiated by the processing of a frame element."
+  43159,  "Download initiated by 'innerHtml'."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43175,  "Download initiated by the evaluation of a 'javascript:' script URL."
+  43176,  "Download initiated by a user refresh (F5) of the document."
+  43177,  "Download initiated by the use of an HTML Component / DHTML behavior property."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43200,  "No download initiator info available."
+  43201,  "Download initiator info was invalid or corrupt."
+  43202,  "HTML Preparsing (speculative download)"
+  43203,  "XML Preparsing (speculative download)"
+  43204,  "Document Processing"
+  43205,  "This download occurred as a speculative download during HTML preparsing."
+  43206,  "This download occurred as a speculative download during XML preparsing."
+  43207,  "This download occurred during the processing of the document."
+  43208,  "This download occurred as a speculative lookahead past a script element prior to that element's execution."
+  43209,  "This download occurred following a preparser restart (often due to either document mode switching or mismatched content encoding between a meta tag in the document and the BOM or a server header)."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43225,  "Stage"
+  43226,  "Document ID"
+  43227,  "Preparser ID"
+  43228,  "Lookahead preparser"
+  43229,  "Lookahead ID"
+  43230,  "Lookahead count"
+  43231,  "Preparser restarted"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43232,  "Element"
+  43233,  "Type"
+  43234,  "Attribute"
+  43235,  "Action"
+  43236,  "CSS rule"
+  43237,  "CSS property"
+  43238,  "Processing instruction target"
+  43239,  "Pseudo attribute"
+  43240,  "Frame ID"
+  43241,  "Frame URL"
+  43242,  "Non-standard CSS property"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43250,  "Speculative parsing"
+  43251,  "Property change"
+  43252,  "Initialization"
+  43253,  "Processing"
+  43254,  "Redownloading"
+  43255,  "Yes"
+  43256,  "No"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43275,  "Details:"
+  43276,  "Initiated from <a>%1!s!, line %2!u!</a>"
+  43277,  "Initiated from <a>%1!s!, line %2!u! character %3!u!</a>"
+  43278,  "%1!s!, line %2!u!"
+  43279,  "%1!s!, line %2!u! character %3!u!"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  43285,  "Trouble finding source"
+  43286,  "Source code is not available for this location"
+  43290,  "Request included the 'x-flash-version' header."
+  43291,  "Request included the 'X-Requested-With' header with a value of 'XMLHttpRequest' which is added by certain js libraries when using XMLHttpRequest."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  51002,  "Word wrap"
+  51004,  "Go to line..."
+}
+
+49998 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  19  , 50006, ASCII
+  7  , 50005, ASCII
+  "w"  , 50007, ASCII, ALT
+}
+
+49999 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  188  , 50004, VIRTKEY, NOINVERT, CONTROL
+  190  , 50003, VIRTKEY, NOINVERT, CONTROL
+  27  , 50008, VIRTKEY, NOINVERT
+}
+
+50000 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F5  , 50001, VIRTKEY, NOINVERT
+  VK_F5  , 50002, VIRTKEY, NOINVERT, SHIFT
+}
+

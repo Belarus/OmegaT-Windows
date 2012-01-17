@@ -1,0 +1,45 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  204,  "Connecting"
+  205,  "Disconnecting"
+  206,  "Connected"
+  207,  "Connected"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Connected"
+  209,  "Connected"
+  210,  "This connection is not available because there is a problem with your modem or network adapter"
+  211,  "Dormant: Server Unavailable"
+  212,  "Dormant: Waiting to reconnect"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  300,  "Dial-up and VPN"
+  301,  "This connection requires an active Internet connection"
+  302,  "Your network administrator has blocked you from connecting to this network"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  310,  "Dial-up and VPN"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  400,  "Status"
+  401,  "Status"
+  402,  "Properties"
+  403,  "Properties"
+}
+

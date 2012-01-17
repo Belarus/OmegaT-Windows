@@ -1,0 +1,108 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  103,  "Automatic Updates"
+  104,  "Enables the download and installation of Windows updates. If this service is disabled, this computer will not be able to use the Automatic Updates feature or the Windows Update Web site."
+  105,  "Windows Update"
+  106,  "Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API."
+  107,  "Windows Update"
+  108,  "Windows Update Agent %1"
+  109,  "The Windows Update Agent enables your computer to search for and install updates from an update service.  The agent can automatically update itself as needed to communicate with the update service when Windows searches for new updates."
+  110,  "A Windows update did not install properly. Sending the following information to Microsoft can help improve the software."
+  111,  "Windows Update installation problem"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Microsoft Corporation."
+  115,  "Initiates scheduled install of updates on the machine."
+  116,  "Launched when scheduled maintenance completes on the machine."
+  117,  "This task is used to start the Windows Update service when needed to perform scheduled operations such as scans."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5000,  "Installing update %1!lu! of %2!lu!%3"
+  5001,  "Updates are being installed (%1!lu! of %2!lu!)%3"
+  5002,  "Do not turn off or unplug your computer; it will turn off automatically."
+  5003,  "Please do not power off or unplug your machine.\nInstalling update %1!lu!% of %2!lu!%3"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  5010,  "..      "
+  5011,  " ..     "
+  5012,  "  ..    "
+  5013,  "   ..   "
+  5014,  "    ..  "
+  5015,  "     .. "
+  5016,  "      .."
+}
+
+1 MESSAGETABLE
+{
+  16,  "Unable to Connect: Windows is unable to connect to the automatic updates service and therefore cannot download and install updates according to the set schedule. Windows will continue to try to establish a connection.\r\n"
+  17,  "Installation Ready: The following updates are downloaded and ready for installation. To install the updates, an administrator should log on to this computer and Windows will prompt with further instructions: %1\r\n"
+  18,  "Installation Ready: The following updates are downloaded and ready for installation. This computer is currently scheduled to install these updates on %1 at %2: %3\r\n"
+  19,  "Installation Successful: Windows successfully installed the following update: %1\r\n"
+  20,  "Installation Failure: Windows failed to install the following update with error %1: %2.\r\n"
+  21,  "Restart Required: To complete the installation of the following updates, the computer must be restarted. Until this computer has been restarted, Windows cannot search for or download new updates: %1\r\n"
+  22,  "Restart Required: To complete the installation of the following updates, the computer will be restarted within %1 minutes: %2\r\n"
+  23,  "Uninstallation Successful: Windows successfully uninstalled the following update: %1\r\n"
+  24,  "Uninstallation Failure: Windows failed to uninstall the following update with error %1: %2\r\n"
+  27,  "Automatic Updates is now paused.\r\n"
+  28,  "Automatic Updates is now resumed.\r\n"
+  32,  "Windows Update cannot connect to the server. Please check the connection to server %1.\r\n"
+  33,  "Windows Update was unable to connect to proxy server %1 because valid credentials (user name and password) were required, but were either not available or were incorrect. Please check your proxy credentials, and then try searching again for updates.\r\n"
+  268435457,  "Connection\r\n"
+  268435458,  "Check for Updates\r\n"
+  268435459,  "Download\r\n"
+  268435460,  "Installation\r\n"
+  268435461,  "Success\r\n"
+  268435462,  "Failure\r\n"
+  268435463,  "Reboot\r\n"
+  268435464,  "State\r\n"
+  268435465,  "SelfUpdate\r\n"
+  268435466,  "Service\r\n"
+  268435467,  "Health\r\n"
+  268435468,  "Performance\r\n"
+  268435505,  "Response Time\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  805306378,  "SelfUpdate\r\n"
+  805306379,  "Check for Updates\r\n"
+  805306380,  "Download\r\n"
+  805306381,  "Installation\r\n"
+  805306382,  "Uninstallation\r\n"
+  805306383,  "Reboot\r\n"
+  805306384,  "State Change\r\n"
+  805306385,  "State Change\r\n"
+  805306386,  "Other\r\n"
+  1342177282,  "Error\r\n"
+  1342177283,  "Warning\r\n"
+  1342177284,  "Information\r\n"
+  1879048193,  "Windows Update Agent\r\n"
+  1879048194,  "Automatic Updates\r\n"
+  2415919105,  "Microsoft-Windows-WindowsUpdateClient\r\n"
+  2415919106,  "System\r\n"
+  2952790041,  "Windows Update failed to check for updates with error %1.\r\n"
+  2952790042,  "Windows Update sucessfully found %1 updates.\r\n"
+  2952790045,  "Windows Update lost connectivity.\r\n"
+  2952790046,  "Windows Update established connectivity.\r\n"
+  2952790047,  "Windows Update failed to download an update.\r\n"
+  2952790050,  "The Windows Update Client Core component failed to install a self-update with error %1.\r\n"
+  2952790051,  "The Windows Update Client Auxillary component failed to install a self-update with error %1.\r\n"
+  2952790052,  "The Windows Update Client Core component was successfully updated from version %1 to version %2.\r\n"
+  2952790053,  "The Windows Update Client Auxillary was successfully updated from version %1 to version %2.\r\n"
+  2952790054,  "Windows Update received a service stop request.\r\n"
+  2952790055,  "Windows Update received a service shutdown request.\r\n"
+  2952790056,  "An update was detected.\r\n"
+  2952790057,  "An update was downloaded.\r\n"
+  2952790058,  "There has been a change in the health of Windows Update.\r\n"
+}
