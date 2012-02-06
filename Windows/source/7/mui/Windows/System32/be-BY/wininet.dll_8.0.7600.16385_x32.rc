@@ -1,0 +1,739 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+101 DIALOGEX 0, 0, 249, 186
+CAPTION "Choose a digital certificate"
+STYLE 0x80c808c8
+EXSTYLE 0x400
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Certificates List", 4022, "SysListView32", 0x5081800d, 39, 46, 192, 85, 0x0
+  CONTROL "&View Certificate...", 1630, Button, 0x50010000, 166, 135, 67, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 138, 165, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 192, 165, 50, 14, 0x0
+  CONTROL 32515, 4050, Static, 0x50000003, 14, 20, 20, 20, 0x0
+  CONTROL "The website you want to view requests identification. Please choose a certificate.", 4294967295, Static, 0x50020080, 40, 20, 171, 24, 0x0
+  CONTROL "Identification", 4294967295, Button, 0x50000007, 7, 7, 235, 150, 0x0
+  CONTROL "&More Info...", 1632, Button, 0x50010000, 100, 135, 61, 14, 0x0
+}
+
+102 DIALOGEX 0, 0, 326, 92
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 118, 4050, Static, 0x50000003, 14, 7, 20, 20, 0x0
+  CONTROL "This page requires a secure connection which includes server authentication.  ", 65535, Static, 0x50020000, 42, 7, 177, 17, 0x0
+  CONTROL "The Certificate Issuer for this site is untrusted or unknown.  Do you wish to proceed?", 65535, Static, 0x50020000, 42, 32, 177, 21, 0x0
+  CONTROL "&No", 2, Button, 0x50010001, 98, 64, 50, 14, 0x0
+  CONTROL "&View Certificate", 1630, Button, 0x50010000, 151, 64, 69, 14, 0x0
+  CONTROL "&More Info", 1181, Button, 0x50010000, 223, 64, 50, 14, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010000, 45, 64, 50, 14, 0x0
+}
+
+104 DIALOGEX 0, 0, 266, 252
+CAPTION "Privacy Alert"
+STYLE 0x80c00ac0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 151, 153, Static, 0x50000003, 14, 7, 21, 20, 0x0
+  CONTROL "A website has requested to save a file on your computer called a ""cookie.""  This file may be used to track usage information. Do you want to allow this?", 1058, Static, 0x50020000, 35, 7, 217, 44, 0x0
+  CONTROL "Apply my &decision to all cookies from this website", 1013, Button, 0x50012403, 41, 48, 218, 10, 0x0
+  CONTROL "&Allow Cookie", 6, Button, 0x50010001, 50, 66, 50, 14, 0x0
+  CONTROL "&Block Cookie", 7, Button, 0x50010000, 103, 66, 50, 14, 0x0
+  CONTROL "&More Info", 1011, Button, 0x50010000, 156, 66, 50, 14, 0x0
+  CONTROL "Help", 1012, Button, 0x50010000, 209, 66, 50, 14, 0x0
+  CONTROL "Cookie Information", 1023, Button, 0x50000007, 7, 87, 252, 162, 0x0
+  CONTROL "Name", 65535, Static, 0x50020000, 16, 100, 36, 10, 0x0
+  CONTROL "", 1014, Edit, 0x50810880, 51, 99, 197, 12, 0x0
+  CONTROL "Domain", 65535, Static, 0x50020000, 16, 113, 30, 10, 0x0
+  CONTROL "", 1016, Edit, 0x50810880, 51, 112, 197, 12, 0x0
+  CONTROL "Path", 65535, Static, 0x50020000, 16, 126, 35, 10, 0x0
+  CONTROL "", 1017, Edit, 0x50810880, 51, 125, 197, 12, 0x0
+  CONTROL "Expires", 65535, Static, 0x50020000, 16, 139, 33, 10, 0x0
+  CONTROL "", 1018, Edit, 0x50810880, 51, 138, 128, 12, 0x0
+  CONTROL "Secure", 65535, Static, 0x50020000, 190, 139, 31, 10, 0x0
+  CONTROL "", 1019, Edit, 0x50810880, 223, 138, 24, 12, 0x0
+  CONTROL "Data", 65535, Static, 0x50020000, 16, 152, 27, 10, 0x0
+  CONTROL "", 1010, Edit, 0x50a10844, 51, 151, 197, 40, 0x0
+  CONTROL "3rd Party", 65535, Static, 0x50020000, 16, 193, 33, 10, 0x0
+  CONTROL "", 1059, Edit, 0x50810880, 51, 192, 24, 12, 0x0
+  CONTROL "Session", 65535, Static, 0x50020000, 88, 193, 31, 10, 0x0
+  CONTROL "", 1060, Edit, 0x50810880, 119, 192, 24, 12, 0x0
+  CONTROL "Compact Policy", 65535, Static, 0x50020000, 16, 206, 30, 20, 0x0
+  CONTROL "", 1061, Edit, 0x50a10844, 51, 205, 197, 40, 0x0
+}
+
+106 DIALOGEX 0, 0, 206, 119
+CAPTION "Internet Explorer Auto-Proxy Script Download"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 6, Button, 0x50010001, 72, 90, 50, 14, 0x0
+  CONTROL "Due to network or related problems, Internet Explorer could not download your Auto-Proxy Script. \n\nClick OK to continue with standard proxy settings.", 65535, Static, 0x50020080, 23, 15, 163, 61, 0x0
+}
+
+107 DIALOGEX 0, 0, 207, 132
+CAPTION ""
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 6, Button, 0x50010001, 72, 97, 50, 14, 0x0
+  CONTROL "Due to errors, Internet Explorer could not execute your Auto-Proxy Script. \n\nClick OK to continue with standard proxy settings.", 65535, Static, 0x50020080, 20, 22, 163, 61, 0x0
+}
+
+109 DIALOGEX 0, 0, 183, 174
+CAPTION "Dial-up Connection"
+STYLE 0x80c80ac8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 143, 4050, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "Select the service you want to connect to.", 4294967295, Static, 0x50020000, 48, 7, 128, 25, 0x0
+  CONTROL "Co&nnect to:", 1025, Static, 0x50020000, 7, 37, 41, 8, 0x0
+  CONTROL "", 1048, ComboBox, 0x50210103, 57, 35, 119, 54, 0x0
+  CONTROL "Connect &automatically", 1036, Button, 0x50010003, 57, 58, 107, 10, 0x0
+  CONTROL "&Connect", 1026, Button, 0x50010001, 7, 79, 50, 14, 0x0
+  CONTROL "Se&ttings...", 1041, Button, 0x50010000, 64, 79, 50, 14, 0x0
+  CONTROL "Work &Offline", 2, Button, 0x50010000, 126, 78, 50, 14, 0x0
+  CONTROL "", 1012, Edit, 0x50811844, 7, 106, 169, 48, 0x0
+  CONTROL "", 4294967295, "NativeFontCtl", 0x50000005, 0, 0, 6, 6, 0x0
+}
+
+110 DIALOGEX 0, 0, 216, 55
+CAPTION "Webpage unavailable while offline"
+STYLE 0x80c80ac8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Connect", 1026, Button, 0x50010001, 106, 37, 50, 14, 0x0
+  CONTROL "&Stay Offline", 1028, Button, 0x50010000, 160, 37, 50, 14, 0x0
+  CONTROL "The webpage you requested is not available offline.", 65535, Static, 0x50020000, 39, 8, 171, 10, 0x0
+  CONTROL "To view this page, click Connect.", 65535, Static, 0x50020000, 39, 19, 127, 8, 0x0
+  CONTROL 142, 4050, Static, 0x50000003, 7, 8, 21, 20, 0x0
+}
+
+117 DIALOGEX 0, 0, 226, 94
+CAPTION "Internet Redirection"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 6, Button, 0x50010001, 115, 74, 50, 14, 0x0
+  CONTROL 116, 4050, Static, 0x50000003, 13, 8, 20, 20, 0x0
+  CONTROL "You are about to be redirected to a new internet site.", 65535, Static, 0x50020000, 36, 8, 182, 16, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 168, 74, 50, 14, 0x0
+  CONTROL "Any information you exchanged with the current site could be retransmitted to the new internet site you are about to connect with.  Do you wish to continue?", 65535, Static, 0x50020000, 36, 27, 182, 24, 0x0
+  CONTROL "&In the future, do not show this warning", 1001, Button, 0x50010003, 36, 59, 158, 8, 0x0
+}
+
+121 DIALOGEX 0, 0, 275, 66
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&No", 2, Button, 0x50010001, 142, 45, 50, 14, 0x0
+  CONTROL 118, 4050, Static, 0x50000003, 10, 10, 20, 20, 0x0
+  CONTROL "The Internet site you are about to view uses a certificate that has expired or is not yet valid. Do you wish to proceed ?", 65535, Static, 0x50020000, 37, 10, 224, 22, 0x0
+  CONTROL "&View Certificate", 1630, Button, 0x50010000, 194, 45, 69, 14, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010000, 90, 45, 50, 14, 0x0
+}
+
+125 DIALOGEX 0, 0, 252, 170
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 118, 4050, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "The identity of this web site or the integrity of this connection cannot be verified.", 65535, Static, 0x50020000, 36, 7, 209, 37, 0x0
+  CONTROL "The security certificate was issued by a company you have not chosen to trust. View the certificate to determine whether you want to trust the certifying authority.", 128, Static, 0x50020000, 54, 43, 191, 26, 0x0
+  CONTROL "The security certificate has expired or is not yet valid.", 129, Static, 0x50020000, 54, 79, 191, 12, 0x0
+  CONTROL "The name on the security certificate is invalid or does not match the name of the site", 130, Static, 0x50020000, 54, 100, 191, 20, 0x0
+  CONTROL "", 131, Static, 0x50000003, 36, 44, 16, 16, 0x0
+  CONTROL "", 132, Static, 0x50000003, 36, 80, 16, 16, 0x0
+  CONTROL "", 133, Static, 0x50000003, 36, 101, 16, 16, 0x0
+  CONTROL "Do you want to proceed?", 65535, Static, 0x50020000, 36, 128, 209, 12, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010000, 32, 149, 60, 14, 0x0
+  CONTROL "&No", 2, Button, 0x50010001, 96, 149, 60, 14, 0x0
+  CONTROL "&View Certificate", 1630, Button, 0x50010000, 160, 149, 60, 14, 0x0
+}
+
+141 DIALOGEX 0, 0, 282, 66
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 1, Button, 0x50010001, 90, 45, 50, 14, 0x0
+  CONTROL 118, 4050, Static, 0x50000003, 10, 10, 20, 20, 0x0
+  CONTROL "Revocation information for the security certificate for this site is not available. Do you want to proceed?", 65535, Static, 0x50020000, 37, 10, 224, 22, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 142, 45, 50, 14, 0x0
+  CONTROL "&View Certificate", 1630, Button, 0x50010000, 194, 45, 69, 14, 0x0
+}
+
+1175 DIALOGEX 0, 0, 220, 74
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 6, Button, 0x50010001, 111, 54, 50, 14, 0x0
+  CONTROL "&No", 7, Button, 0x50010000, 163, 54, 50, 14, 0x0
+  CONTROL 119, 4050, Static, 0x50000003, 14, 7, 20, 20, 0x0
+  CONTROL "You are about to send information over the Internet. It might be possible for other people to see what you are sending.", 65535, Static, 0x50020000, 42, 7, 162, 28, 0x0
+  CONTROL "&In the future, do not show this warning", 1001, Button, 0x50010003, 45, 39, 158, 8, 0x0
+}
+
+1177 DIALOGEX 0, 0, 226, 90
+CAPTION "Security Alert"
+STYLE 0x80c80ac0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 115, 69, 50, 14, 0x0
+  CONTROL 116, 4050, Static, 0x50000003, 14, 7, 20, 20, 0x0
+  CONTROL "You are about to view pages over a secure connection.", 65535, Static, 0x50020000, 42, 7, 177, 16, 0x0
+  CONTROL "&In the future, do not show this warning", 1001, Button, 0x50010003, 41, 53, 158, 8, 0x0
+  CONTROL "&More Info", 1181, Button, 0x50010000, 168, 69, 50, 14, 0x0
+  CONTROL "Any information you exchange with this site cannot be viewed by anyone else on the web.", 65535, Static, 0x50020000, 41, 25, 177, 24, 0x0
+}
+
+1178 DIALOGEX 0, 0, 226, 89
+CAPTION "Security Alert"
+STYLE 0x80c80ac0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 1, Button, 0x50010001, 56, 69, 50, 14, 0x0
+  CONTROL "&No", 2, Button, 0x50010000, 112, 69, 50, 14, 0x0
+  CONTROL 118, 4050, Static, 0x50000003, 14, 7, 20, 20, 0x0
+  CONTROL "You are about to leave a secure Internet connection.  It will be possible for others to view information you send.", 65535, Static, 0x50020000, 42, 7, 177, 25, 0x0
+  CONTROL "Do you want to continue?", 65535, Static, 0x50020000, 42, 37, 177, 8, 0x0
+  CONTROL "&In the future, do not show this warning", 1001, Button, 0x50010003, 42, 52, 158, 8, 0x0
+  CONTROL "&More Info", 1181, Button, 0x50010000, 168, 69, 50, 14, 0x0
+}
+
+1179 DIALOGEX 0, 0, 300, 84
+CAPTION "Security Warning"
+STYLE 0x90c808c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Yes", 2, Button, 0x50010001, 189, 63, 50, 14, 0x0
+  CONTROL "&No", 1, Button, 0x50010000, 243, 63, 50, 14, 0x0
+  CONTROL "&More Info", 1181, Button, 0x50010000, 7, 63, 58, 14, 0x0
+  CONTROL "Do you want to view only the webpage content that was delivered securely?", 154, Static, 0x50020080, 34, 12, 259, 20, 0x0
+  CONTROL "This webpage contains content that will not be delivered using a secure HTTPS connection, which could compromise the security of the entire webpage.", 65535, Static, 0x50020080, 34, 32, 259, 30, 0x0
+  CONTROL 155, 4050, Static, 0x50000003, 7, 7, 20, 20, 0x0
+}
+
+1188 DIALOGEX 0, 0, 282, 90
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&No", 2, Button, 0x50010001, 98, 62, 50, 14, 0x0
+  CONTROL 118, 4050, Static, 0x50000003, 14, 7, 20, 20, 0x0
+  CONTROL "A secure connection with this site cannot be verified. Would you still like to proceed?", 65535, Static, 0x50020000, 45, 6, 228, 18, 0x0
+  CONTROL "The certificate you are viewing does not match the name of the site you are trying to view.  ", 65535, Static, 0x50020000, 45, 34, 228, 21, 0x0
+  CONTROL "&View Certificate", 1630, Button, 0x50010000, 151, 62, 69, 14, 0x0
+  CONTROL "&More Info", 1181, Button, 0x50010000, 223, 62, 50, 14, 0x0
+  CONTROL "&Yes", 1, Button, 0x50010000, 45, 62, 50, 14, 0x0
+}
+
+1303 DIALOGEX 0, 0, 224, 88
+CAPTION "Security Alert"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&No", 7, Button, 0x50010001, 166, 68, 50, 14, 0x0
+  CONTROL "&Yes", 6, Button, 0x50010000, 113, 68, 50, 14, 0x0
+  CONTROL 118, 4050, Static, 0x50000003, 13, 8, 20, 20, 0x0
+  CONTROL "You are about to be redirected to a connection that is not secure.", 65535, Static, 0x50020000, 34, 8, 182, 16, 0x0
+  CONTROL "The information you are sending to the current site might be retransmitted to a nonsecure site. Do you wish to continue?", 65535, Static, 0x50020000, 34, 27, 182, 34, 0x0
+}
+
+4014 DIALOGEX 0, 0, 212, 78
+CAPTION "Work Offline"
+STYLE 0x80c80ac0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Work Offline", 2008, Button, 0x50010001, 104, 57, 48, 14, 0x0
+  CONTROL "&Try Again", 1053, Button, 0x50010000, 157, 57, 48, 14, 0x0
+  CONTROL "No connection to the Internet is currently available. To view Internet content that has been saved on your computer, click Work Offline.", 65535, Static, 0x50020000, 41, 8, 164, 31, 0x0
+  CONTROL "Click Try Again to attempt to connect.", 65535, Static, 0x50020000, 41, 43, 164, 8, 0x0
+  CONTROL 143, 4050, Static, 0x50000003, 7, 8, 21, 20, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  9,  "Please enter your authentication information."
+  10,  "Subject:\r\n%1\r\nIssuer:\r\n%2\r\nEffective Date:\t%3\r\nExpiration Date:\t%4\r\nSecurity Protocol:\t%5\r\nSignature Type:\t%6\r\nEncryption Type:\t%7\r\nPrivacy Strength:\t%9 (%8!u! bits)"
+  11,  "High"
+  12,  "Medium"
+  13,  "Low"
+  14,  "Subject"
+  15,  "Issuer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Effective date"
+  17,  "Expiration date"
+  18,  "Security protocol"
+  20,  "Encryption type"
+  21,  "Certificate usage"
+  22,  "The certificate you are viewing has expired. "
+  23,  "The certificate is not valid. Make sure the time on your computer is correct."
+  24,  "The certificate you are viewing does not match the name of the site you are trying to view.  "
+  25,  "This certificate was issued by an unknown security agency."
+  26,  "Comment"
+  27,  "This certificate is corrupted, and its authenticity cannot be verified."
+  28,  "FTP root at %s"
+  29,  "FTP directory %s at %s"
+  30,  "<A HREF="".."">Up to higher level directory</A><BR>"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  35,  "     Directory"
+  37,  "Temporary Internet Files"
+  38,  "Cookies"
+  39,  "History"
+  40,  "The certificate you are viewing has been revoked."
+  41,  "Fingerprint"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Refresh in Offline Mode"
+  113,  "Do you want to refresh by going online?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  134,  "The security certificate is from a trusted certifying authority."
+  135,  "The security certificate date is valid."
+  136,  "The security certificate has a valid name matching the name of the page you are trying to view."
+  139,  "Security Alert"
+  140,  "The security certificate for this site has been revoked.\n\nThis site should not be trusted."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1800,  "You have received a ""cookie"" (Internet  information stored on your computer)   from %1\r\n\r\nThe contents are:\r\n\r\n%2\r\n\r\nIt expires on %3\r\n\r\nDo you want to accept it? If you click No, the page you are trying to view may not display correctly."
+  1801,  "Security Alert"
+  1802,  "Yes"
+  1803,  "No"
+  1804,  "End of session"
+  1806,  "Unknown"
+  1807,  "SSL 2.0"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1808,  "SSL 3.0"
+  1809,  "PCT 1.0"
+  1810,  "TLS 1.0"
+  1811,  "Unknown Cipher"
+  1812,  "MD2"
+  1813,  "MD4"
+  1814,  "MD5"
+  1815,  "SHA"
+  1816,  "MAC"
+  1817,  "HMAC"
+  1818,  "RSA"
+  1819,  "DSS"
+  1820,  "RSA"
+  1821,  "DES"
+  1822,  "2 KeyTriple DES"
+  1823,  "Triple DES"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1824,  "RC2"
+  1825,  "RC4"
+  1826,  "RC5"
+  1827,  "SEAL"
+  1828,  "Diffie Hellman store and forward"
+  1829,  "Diffie Hellman Ephemeral"
+  1830,  "KEY (Fortezza)"
+  1831,  "SKIPJACK (Fortezza)"
+  1832,  "TEK (Fortezza)"
+  1833,  "%1!s! with %2!d! bit encryption (%3!s!)."
+  1834,  "%1!s! with %2!d! bit hash key."
+  1835,  "%1!s! with %2!d! bit exchange (%3!s!)"
+  1836,  "Unknown Hash"
+  1837,  "Unknown Key Exchange"
+  1838,  "Hash type"
+  1839,  "Key Exchange"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1840,  "No Signature"
+  1841,  "DESX "
+  1842,  "Any Key Exchange"
+  1843,  "Hughes MD5"
+  1844,  "Cylink MEK"
+  1845,  "SHA and MD5"
+  1846,  "SSL3 Master Key"
+  1847,  "SSL Master Hash"
+  1848,  "SSL MAC Key"
+  1849,  "SSL Encryption Key"
+  1850,  "PCT1 Master Key"
+  1851,  "SSL2 Master Key"
+  1852,  "TLS1 Master Key"
+  1853,  "TLS1 PRF"
+  1854,  "OWF Hash"
+  1855,  "AES 128"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1856,  "AES 192"
+  1857,  "AES 256"
+  1858,  "AES"
+  1859,  "SHA 256"
+  1860,  "SHA 384"
+  1861,  "SHA 512"
+  1862,  "Algorithm %u"
+  1863,  "TLS 1.1"
+  1864,  "TLS 1.2"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1900,  "Internet Explorer was unable to export this certificate"
+  1901,  "Error exporting certificate"
+  1902,  "Internet Explorer was unable to import this certificate"
+  1903,  "Error importing certificate"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "rasapi32.dll"
+  2001,  "Connected to %s."
+  2002,  "inetcfg.dll"
+  2003,  "Redialing in %d seconds."
+  2004,  "Dialing attempt %d."
+  2005,  "Dialing..."
+  2006,  "Verifying user name and password..."
+  2007,  "Cancel"
+  2008,  "Work &Offline"
+  2009,  "Connected to remote computer."
+  2010,  "Failed to connect to remote computer."
+  2011,  "Certificate Information"
+  2012,  "This type of document does not have a security certificate"
+  2013,  "Connect to "
+  2014,  "Unable to establish a connection."
+  2015,  "Unable to establish a connection. Ensure dial-up networking is configured correctly."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2016,  "The line is busy."
+  2017,  "No answer."
+  2019,  "No dial tone. Make sure the modem is correctly connected to the computer and phone line."
+  2020,  "Could not detect modem. It may be in use, turned off, or not installed properly."
+  2021,  "Unable to connect because of a configuration error."
+  2022,  "Invalid user name or password."
+  2023,  "&Domain"
+  2024,  "Realm"
+  2025,  "Site:"
+  2026,  "Firewall:"
+  2027,  "The server %1 at %2 requires a username and password."
+  2028,  "The server %1 at %2 requires a username and password.\r\n\r\nWarning: This server is requesting that your username and password be sent in an insecure manner (basic authentication without a secure connection)."
+  2029,  "Connecting to %1."
+  2030,  "Connect to %1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4013,  "LAN Connection"
+  4015,  "\\ras\\rasphone.pbk"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4018,  "Confirm use of Proxy Server"
+  4019,  "Internet Explorer has automatically configured a proxy server for this connection.  Is a proxy server used on this connection?"
+  4021,  "The website ""%ls"" has requested to save a file on your computer called a ""cookie.""  This file may be used to track usage information. Do you want to allow this?"
+  4023,  "Name"
+  4024,  "Issuer"
+  4025,  "Internet Options"
+}
+
+1 MESSAGETABLE
+{
+  12000,  "INTERNET_ERROR_BASE\r\n"
+  12001,  "No more Internet handles can be allocated\r\n"
+  12002,  "The operation timed out\r\n"
+  12003,  "The server returned extended information\r\n"
+  12004,  "An internal error occurred in the Microsoft Internet extensions\r\n"
+  12005,  "The URL is invalid\r\n"
+  12006,  "The URL does not use a recognized protocol\r\n"
+  12007,  "The server name or address could not be resolved\r\n"
+  12008,  "A protocol with the required capabilities was not found\r\n"
+  12009,  "The option is invalid\r\n"
+  12010,  "The length is incorrect for the option type\r\n"
+  12011,  "The option value cannot be set\r\n"
+  12012,  "Microsoft Internet Extension support has been shut down\r\n"
+  12013,  "The user name was not allowed\r\n"
+  12014,  "The password was not allowed\r\n"
+  12015,  "The login request was denied\r\n"
+  12017,  "The operation has been canceled\r\n"
+  12018,  "The supplied handle is the wrong type for the requested operation\r\n"
+  12019,  "The handle is in the wrong state for the requested operation\r\n"
+  12020,  "The request cannot be made on a Proxy session\r\n"
+  12021,  "The registry value could not be found\r\n"
+  12022,  "The registry parameter is incorrect\r\n"
+  12023,  "Direct Internet access is not available\r\n"
+  12024,  "No context value was supplied\r\n"
+  12025,  "No status callback was supplied\r\n"
+  12026,  "There are outstanding requests\r\n"
+  12027,  "The information format is incorrect\r\n"
+  12028,  "The requested item could not be found\r\n"
+  12029,  "A connection with the server could not be established\r\n"
+  12030,  "The connection with the server was terminated abnormally\r\n"
+  12031,  "The connection with the server was reset\r\n"
+  12032,  "The action must be retried\r\n"
+  12033,  "The proxy request is invalid\r\n"
+  12034,  "User interaction is required to complete the operation\r\n"
+  12036,  "The handle already exists\r\n"
+  12037,  "The date in the certificate is invalid or has expired\r\n"
+  12038,  "The host name in the certificate is invalid or does not match\r\n"
+  12039,  "A redirect request will change a non-secure to a secure connection\r\n"
+  12040,  "A redirect request will change a secure to a non-secure connection\r\n"
+  12041,  "Mixed secure and non-secure connections\r\n"
+  12042,  "Changing to non-secure post\r\n"
+  12043,  "Data is being posted on a non-secure connection\r\n"
+  12044,  "A certificate is required to complete client authentication\r\n"
+  12045,  "The certificate authority is invalid or incorrect\r\n"
+  12046,  "Client authentication has not been correctly installed\r\n"
+  12047,  "An error has occurred in a Wininet asynchronous thread. You may need to restart\r\n"
+  12048,  "The protocol scheme has changed during a redirect operaiton\r\n"
+  12049,  "There are operations awaiting retry\r\n"
+  12050,  "The operation must be retried\r\n"
+  12051,  "There are no new cache containers\r\n"
+  12052,  "A security zone check indicates the operation must be retried\r\n"
+  12106,  "The requested operation is invalid\r\n"
+  12110,  "There is already an FTP request in progress on this session\r\n"
+  12111,  "The FTP session was terminated\r\n"
+  12112,  "FTP Passive mode is not available\r\n"
+  12130,  "A gopher protocol error occurred\r\n"
+  12131,  "The locator must be for a file\r\n"
+  12132,  "An error was detected while parsing the data\r\n"
+  12133,  "There is no more data\r\n"
+  12134,  "The locator is invalid\r\n"
+  12135,  "The locator type is incorrect for this operation\r\n"
+  12136,  "The request must be for a gopher+ item\r\n"
+  12137,  "The requested attribute was not found\r\n"
+  12138,  "The locator type is not recognized\r\n"
+  12150,  "The requested header was not found\r\n"
+  12151,  "The server does not support the requested protocol level\r\n"
+  12152,  "The server returned an invalid or unrecognized response\r\n"
+  12153,  "The supplied HTTP header is invalid\r\n"
+  12154,  "The request for a HTTP header is invalid\r\n"
+  12155,  "The HTTP header already exists\r\n"
+  12156,  "The HTTP redirect request failed\r\n"
+  12157,  "An error occurred in the secure channel support\r\n"
+  12158,  "The file could not be written to the cache\r\n"
+  12159,  "The TCP/IP protocol is not installed properly\r\n"
+  12160,  "The HTTP request was not redirected\r\n"
+  12161,  "A cookie from the server must be confirmed by the user\r\n"
+  12162,  "A cookie from the server has been declined acceptance\r\n"
+  12163,  "The computer is disconnected from the network\r\n"
+  12164,  "The server is unreachable\r\n"
+  12165,  "The proxy server is unreachable\r\n"
+  12166,  "The proxy auto-configuration script is in error\r\n"
+  12167,  "Could not download the proxy auto-configuration script file\r\n"
+  12168,  "The HTTP redirect request must be confirmed by the user\r\n"
+  12169,  "The supplied certificate is invalid\r\n"
+  12170,  "The supplied certificate has been revoked\r\n"
+  12171,  "The Dialup failed because file sharing was turned on and a failure was requested if security check was needed\r\n"
+  12175,  "Content decoding has failed\r\n"
+  268435457,  "Flagged on all WinINet events dealing with creation or destruction of INTERNET handles\r\n"
+  268435458,  "Flagged on all WinINet events dealing with processing of HTTP requests and responses\r\n"
+  268435459,  "Flagged on all WinINet events dealing with network operations (TCP, DNS)\r\n"
+  268435460,  "Flagged on all WinINet events dealing with authentication\r\n"
+  268435461,  "Flagged on all WinINet events dealing with HTTPS\r\n"
+  268435462,  "Flagged on all WinINet events dealing with AUTOPROXY\r\n"
+  268435463,  "Flagged on all WinINet events dealing with Cookies\r\n"
+  268435464,  "Flagged on all WinINet IE events\r\n"
+  268435498,  "Flagged on all WinINet events dealing with potential personally identifiable information\r\n"
+  268435505,  "Response Time\r\n"
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  805306379,  "Fail\r\n"
+  1342177282,  "Error\r\n"
+  1342177284,  "Information\r\n"
+  1342177285,  "Verbose\r\n"
+  1879048692,  "WININET_ROOT_HANDLE_CREATED\r\n"
+  1879048693,  "WININET_OPEN_URL_HANDLE_CREATED\r\n"
+  1879048694,  "WININET_CONNECT_HANDLE_CREATED\r\n"
+  1879048695,  "WININET_HTTP_REQUEST_HANDLE_CREATED\r\n"
+  1879048696,  "WININET_HANDLE_CLOSED\r\n"
+  1879048697,  "WININET_HANDLE_CREATE_FAILED\r\n"
+  1879048698,  "WININET_HANDLE_CLOSE_FAILED\r\n"
+  1879048699,  "WININET_HTTP_REQUEST\r\n"
+  1879048700,  "WININET_HTTP_RESPONSE\r\n"
+  1879048701,  "WININET_HTTP_CONNECTION_CLOSED\r\n"
+  1879048702,  "WININET_KEEP_ALIVE_CONNECTION_REUSED\r\n"
+  1879048703,  "WININET_KEEP_ALIVE_CONNECTION_POOLED\r\n"
+  1879048704,  "WININET_KEEP_ALIVE_CONNECTION_CLOSED\r\n"
+  1879048705,  "WININET_HTTP_RESPONSE_BODY_RECEIVED\r\n"
+  1879048706,  "WININET_TCP_CONNECTION\r\n"
+  1879048707,  "WININET_DNS_QUERY\r\n"
+  1879048708,  "WININET_NETWORK_CHANGE_DETECTED\r\n"
+  1879048709,  "WININET_COOKIE_HEADER_RECEIVED\r\n"
+  1879048710,  "WININET_COOKIE_STORED\r\n"
+  1879048711,  "WININET_COOKIE_DELETED\r\n"
+  1879048712,  "WININET_COOKIE_BLOCKED\r\n"
+  1879048713,  "WININET_COOKIE_P3P_REJECTED\r\n"
+  1879048714,  "WININET_COOKIE_REQUEST_HEADER_CREATED\r\n"
+  1879048715,  "WININET_COOKIE_ADDED_TO_HEADER\r\n"
+  1879048716,  "WININET_AUTH_RESPONSE_RECEIVED\r\n"
+  1879048717,  "WININET_AUTH_CLIENT_SETS_USERNAME\r\n"
+  1879048718,  "WININET_AUTH_CLIENT_SETS_PASSWORD\r\n"
+  1879048719,  "WININET_AUTH_USING_CACHED_CREDS\r\n"
+  1879048720,  "WININET_AUTH_USING_DEFAULT_CREDS\r\n"
+  1879048721,  "WININET_AUTH_CLIENT_ADD_HEADERS\r\n"
+  1879048722,  "WININET_HTTPS_NEGOTIATION\r\n"
+  1879048723,  "WININET_HTTPS_SERVER_CERT_ERROR\r\n"
+  1879048724,  "WININET_HTTPS_SERVER_CERT_VALIDATED\r\n"
+  1879048725,  "WININET_HTTPS_CLIENT_CERT_REQUIRED\r\n"
+  1879048726,  "WININET_HTTPS_CLIENT_CERT_UNAVAILABLE\r\n"
+  1879048727,  "WININET_HTTPS_CLIENT_CERT_SELECTED\r\n"
+  1879048728,  "WININET_HTTPS_RENEGOTIATION\r\n"
+  1879048729,  "WININET_AUTOPROXY_SEARCH\r\n"
+  1879048730,  "WININET_AUTOPROXY_DHCP\r\n"
+  1879048731,  "WININET_AUTOPROXY_DNS\r\n"
+  1879048732,  "WININET_AUTOPROXY_DOWNLOAD\r\n"
+  1879048733,  "WININET_AUTOPROXY_FIND_INFO_FOR_URL\r\n"
+  1879048734,  "WININET_TEST_EVENT\r\n"
+  1879048735,  "WININET_BLOCKING_AUTOPROXY_DETERMINATION\r\n"
+  1879048736,  "WININET_TRANSFER\r\n"
+  1879048737,  "WININET_AUTOPROXY_SWPAD\r\n"
+  1879048738,  "WININET_REQUEST_HEADER\r\n"
+  1879048739,  "WININET_RESPONSE_HEADER\r\n"
+  1879048772,  "WININET_AUTOPROXY_PERFTRACK_HOST_IP_LOOKUP\r\n"
+  1879048773,  "WININET_AUTOPROXY_PERFTRACK_SWPAD_LOOKUP\r\n"
+  1879048774,  "WININET_AUTOPROXY_PERFTRACK_KNOWN_DETECTION\r\n"
+  1879048775,  "WININET_AUTOPROXY_PERFTRACK_UNKNOWN_DETECTION\r\n"
+  1879048776,  "WININET_AUTOPROXY_PERFTRACK_SCRIPT_DOWNLOAD\r\n"
+  1879048779,  "WININET_AUTOPROXY_PERFTRACK_ALL\r\n"
+  2415919105,  "Microsoft-Windows-WinINet\r\n"
+  2952790117,  "Session handle %1 created: UserAgent=%3, AccessType=%5, ProxyList=%7, ProxyBypassList=%9, Flags=%10\r\n"
+  2952790118,  "Handle %1 created by InternetOpenURL: SessionHandle=%2,URL=%4, Headers=%6, Flags=%7\r\n"
+  2952790119,  "Handle %1 created by InternetConnect: SessionHandle=%2, Server=%4:%5, %7, Flags=%8\r\n"
+  2952790120,  "Request handle %1 created by HttpOpenRequest: ConnectionHandle=%2, %4, Target=%6, Ver=%8, Referrer=%10, Media types=%12, Flags=%13\r\n"
+  2952790121,  "Handle %1 closed successfully\r\n"
+  2952790122,  "Failed to create handle: ParentHandle=%1, Error=%2\r\n"
+  2952790123,  "Handle %1 failed to close: Error=%2\r\n"
+  2952790124,  "Request handle %1 Server Details: Server=%3 Port=%4 Service=%6\r\n"
+  2952790216,  "HTTP request was received from API: RequestHandle=%1\r\n"
+  2952790217,  "HTTP request was sent successfully: RequestHandle=%1, SocketHandle=%2, %4, CookieSent= %5\r\n"
+  2952790218,  "HTTP request send failed: Handle=%1, Error=%2\r\n"
+  2952790219,  "HTTP response (%1) received: RequestHandle=%2, SocketHandle=%3, %5, ContentLength=%7\r\n"
+  2952790220,  "HTTP response failed: Handle=%1, Error=%2\r\n"
+  2952790221,  "HTTP connection (Handle=%1, SocketHandle=%2) closed due to the following reason: %4\r\n"
+  2952790222,  "Keep-alive connection is re-used: ConnectionHandle=%1, SocketHandle=%2\r\n"
+  2952790223,  "Connection is returned to keep-alive pool: RequestHandle=%1, SocketHandle=%2\r\n"
+  2952790224,  "Keep-alive connection is closed: ConnectionHandle=%1, SocketHandle=%2\r\n"
+  2952790225,  "HTTP response entity body received: RequestHandle=%1\r\n"
+  2952790226,  "HTTP Request Headers RequestHandle=%1 %3\r\n"
+  2952790227,  "HTTP Response Headers RequestHandle=%1 %3\r\n"
+  2952790317,  "TCP connection to server %2 established: ConnectionHandle=%3, SocketHandle=%4, LocalPort=%5\r\n"
+  2952790318,  "TCP connection to %2 for connection handle %3 failed: Error=%4\r\n"
+  2952790319,  "TCP connection closed successfully: SocketHandle=%1\r\n"
+  2952790320,  "DNS query for %2 hostname is sent: Handle=%3\r\n"
+  2952790321,  "DNS query for %2 hostname is complete: Handle=%3, Addresses=%5\r\n"
+  2952790322,  "DNS query for %2 hostname failed: Handle=%3 Error=%4\r\n"
+  2952790323,  "Re-used DNS cache, query for %2 hostname is complete: Handle=%3, Addresses=%5\r\n"
+  2952790324,  "A network change was detected: Handle=%1\r\n"
+  2952790517,  "Received response including a cookie header: URL=%2\r\n"
+  2952790518,  "Client has stored a cookie in the cookie jar: Domain=%2, Path=%4, Name=%6, Value=%8\r\n"
+  2952790519,  "Client has deleted a cookie in the cookie jar: Domain=%2, Path=%4, Name=%6, Value=%8\r\n"
+  2952790520,  "Client has rejected a cookie sent by the server: Domain=%2, Path=%4, Name=%6, Value=%8\r\n"
+  2952790521,  "Server cookie was rejected by the client's P3P policy: Domain=%2, Path=%4, Name=%6, Value=%8\r\n"
+  2952790522,  "A cookie header was created for the request: URL=%2\r\n"
+  2952790523,  "Cookie added to the request header: Domain=%2, Path=%4, Name=%6, Value=%8\r\n"
+  2952790617,  "Auth response received: RequestHandle=%1, Scheme=%3, IsProxy=%4\r\n"
+  2952790618,  "Client sets username: RequestHandle=%1, IsProxy=%2\r\n"
+  2952790619,  "Client sets password: RequestHandle=%1, IsProxy=%2\r\n"
+  2952790620,  "Using cached credentials: RequestHandle=%1, IsProxy=%2\r\n"
+  2952790621,  "Using default credentials: RequestHandle=%1, IsProxy=%2\r\n"
+  2952790622,  "Client adds authorization headers to an HTTP request: RequestHandle=%1, Scheme=%3, IsProxy=%4\r\n"
+  2952790717,  "Client begins SSL negotiation: RequestHandle=%1\r\n"
+  2952790718,  "SSL negotiation between client and server has completed successfully: RequestHandle=%1\r\n"
+  2952790719,  "SSL negotiation failed: RequestHandle=%1, Error=%2\r\n"
+  2952790720,  "Error validating server certificate (SCHANNEL error): RequestHandle=%1, Error=%2\r\n"
+  2952790721,  "Server certificate validated: RequestHandle=%1, CertHash=%3, WarningFlags=%4\r\n"
+  2952790722,  "Server requires a client certificate for client authorization: RequestHandle=%1\r\n"
+  2952790723,  "There is no client certificate available: RequestHandle=%1\r\n"
+  2952790724,  "The selected client certificate will be used for the SSL transaction: RequestHandle=%1, CertHash=%3\r\n"
+  2952790727,  "Client begins SSL renegotiation: RequestHandle=%1\r\n"
+  2952790728,  "SSL renegotiation between client and server has completed successfully: RequestHandle=%1\r\n"
+  2952790729,  "SSL renegotiation failed: RequestHandle=%1, Error=%2\r\n"
+  2952790817,  "Client begins attempts to locate the WPAD configuration file: ConnectionName=%2, DetectFlags=%3\r\n"
+  2952790818,  "Begin search for configuration file using DHCP: Interface=%2\r\n"
+  2952790819,  "WPAD configuration file found using DHCP: Interface=%2, ConfigurationURL=%4\r\n"
+  2952790820,  "Search for WPAD configuration file using DHCP failed: Interface=%2, ConfigurationURL=%4, Error=%5\r\n"
+  2952790821,  "Begin search for configuration file using DNS: DetectFlags=%1\r\n"
+  2952790822,  "WPAD configuration file found using DNS: ConfigurationURL=%2, DetectFlags=%3\r\n"
+  2952790823,  "Search for WPAD configuration file using DNS failed: DetectFlags=%1, Error=%2\r\n"
+  2952790824,  "Search for WPAD configruation file failed: Error=%1\r\n"
+  2952790825,  "Begin downloading the configuration file from the configuration URL: ConfigurationURL=%2\r\n"
+  2952790826,  "Client successfully downloaded the configuration file from the configuration URL: ConfigurationURL=%2\r\n"
+  2952790827,  "Downloading the configuration file from the configuration URL failed: ConfigurationURL=%2, Error=%3\r\n"
+  2952790828,  "The downloaded configuration file could not be used: ConfigurationURL=%2, MIMEType=%4, Error=%5\r\n"
+  2952790829,  "Searching for Proxy Information for the URL: URL=%2\r\n"
+  2952790830,  "Client has successfully retrieved proxy data for accessing a specified resource: URL=%2, ProxyString=%4\r\n"
+  2952790831,  "Error locating proxy information for the URL: URL=%2, Error=%3\r\n"
+  2952790832,  "Blocking autoproxy determination started\r\n"
+  2952790833,  "Blocking autoproxy determination stopped\r\n"
+  2952790834,  "WinInet Activity Transfer Event\r\n"
+  2952790835,  "AutoProxy SWPAD Decision (%1) NumConnections (%2)\r\n"
+  2952790836,  "Autoproxy host IP lookup started\r\n"
+  2952790837,  "Autoproxy host IP lookup stopped\r\n"
+  2952790838,  "Autoproxy SWPAD lookup started\r\n"
+  2952790839,  "Autoproxy SWPAD lookup stopped\r\n"
+  2952790840,  "Autoproxy Detection with SWPAD ON started\r\n"
+  2952790841,  "Autoproxy Detection with SWPAD ON stopped\r\n"
+  2952790842,  "Autoproxy Detection with SWPAD UNKNOWN started\r\n"
+  2952790843,  "Autoproxy Detection with SWPAD UNKNOWN stopped\r\n"
+  2952790844,  "Autoproxy Script Download Started\r\n"
+  2952790845,  "Autoproxy Script Download Stopped\r\n"
+  2952790850,  "Autoproxy full scenario started\r\n"
+  2952790851,  "Autoproxy full scenario stopped\r\n"
+  3489660929,  "WPAD_NETWORK_DECISION_OFF\r\n"
+  3489660930,  "WPAD_NETWORK_DECISION_ON\r\n"
+  3489660931,  "WPAD_NETWORK_DECISION_UNKNOWN\r\n"
+}

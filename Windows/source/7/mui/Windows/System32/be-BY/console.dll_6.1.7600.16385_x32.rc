@@ -1,0 +1,174 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+100 DIALOGEX 0, 0, 233, 226
+CAPTION " Options "
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Cursor Size", 65535, Button, 0x50000007, 10, 11, 120, 44, 0x0
+  CONTROL "&Small", 105, Button, 0x50030009, 14, 23, 84, 10, 0x0
+  CONTROL "&Medium", 106, Button, 0x50000009, 14, 33, 84, 10, 0x0
+  CONTROL "&Large", 107, Button, 0x50000009, 14, 43, 84, 10, 0x0
+  CONTROL "Command History", 65535, Button, 0x50020007, 10, 57, 120, 59, 0x0
+  CONTROL "&Buffer Size:", 65535, Static, 0x50020000, 14, 71, 78, 9, 0x0
+  CONTROL "", 108, Edit, 0x50830000, 92, 69, 31, 12, 0x0
+  CONTROL "", 109, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Number of Buffers:", 65535, Static, 0x50020000, 14, 86, 78, 9, 0x0
+  CONTROL "", 110, Edit, 0x50830000, 92, 84, 31, 12, 0x0
+  CONTROL "", 111, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Discard Old Duplicates", 112, Button, 0x50010003, 14, 101, 108, 9, 0x0
+  CONTROL "Edit Options", 65535, Button, 0x50000007, 141, 57, 86, 59, 0x0
+  CONTROL "&QuickEdit Mode", 103, Button, 0x50030003, 146, 71, 75, 10, 0x0
+  CONTROL "&Insert Mode", 104, Button, 0x50030003, 146, 85, 75, 10, 0x0
+  CONTROL "&AutoComplete", 118, Button, 0x50030003, 146, 99, 75, 10, 0x0
+  CONTROL "Display Options", 117, Button, 0x50020007, 141, 11, 86, 44, 0x0
+  CONTROL "&Window", 101, Button, 0x50030009, 144, 25, 64, 12, 0x0
+  CONTROL "F&ull Screen", 102, Button, 0x50000009, 144, 37, 64, 12, 0x0
+  CONTROL "Default code page", 116, Button, 0x50020007, 10, 118, 217, 34, 0x0
+  CONTROL "", 113, ComboBox, 0x50230903, 24, 132, 188, 78, 0x0
+}
+
+114 DIALOGEX 0, 0, 233, 226
+CAPTION " Options "
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Cursor Size", 65535, Button, 0x50000007, 10, 11, 120, 44, 0x0
+  CONTROL "&Small", 105, Button, 0x50030009, 14, 23, 84, 10, 0x0
+  CONTROL "&Medium", 106, Button, 0x50000009, 14, 33, 84, 10, 0x0
+  CONTROL "&Large", 107, Button, 0x50000009, 14, 43, 84, 10, 0x0
+  CONTROL "Command History", 65535, Button, 0x50020007, 10, 57, 120, 59, 0x0
+  CONTROL "&Buffer Size:", 65535, Static, 0x50020000, 14, 71, 78, 9, 0x0
+  CONTROL "", 108, Edit, 0x50830000, 92, 69, 31, 12, 0x0
+  CONTROL "", 109, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Number of Buffers:", 65535, Static, 0x50020000, 14, 86, 78, 9, 0x0
+  CONTROL "", 110, Edit, 0x50830000, 92, 84, 31, 12, 0x0
+  CONTROL "", 111, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Discard Old Duplicates", 112, Button, 0x50010003, 14, 101, 108, 9, 0x0
+  CONTROL "Edit Options", 65535, Button, 0x50000007, 141, 57, 86, 59, 0x0
+  CONTROL "&QuickEdit Mode", 103, Button, 0x50030003, 146, 71, 75, 10, 0x0
+  CONTROL "&Insert Mode", 104, Button, 0x50030003, 146, 85, 75, 10, 0x0
+  CONTROL "Display Options", 117, Button, 0x50020007, 141, 11, 86, 44, 0x0
+  CONTROL "&Window", 101, Button, 0x50030009, 144, 25, 64, 12, 0x0
+  CONTROL "F&ull Screen", 102, Button, 0x50000009, 144, 37, 64, 12, 0x0
+  CONTROL "Current code page", 116, Button, 0x50020007, 10, 118, 217, 34, 0x0
+  CONTROL "", 115, Static, 0x50020000, 26, 134, 184, 8, 0x0
+}
+
+200 DIALOGEX 0, 0, 233, 226
+CAPTION " Font "
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Window Preview", 206, Static, 0x50020000, 5, 4, 109, 8, 0x0
+  CONTROL "", 215, "WOAWinPreview", 0x50800000, 5, 17, 109, 83, 0x0
+  CONTROL "&Bold fonts", 203, Button, 0x50030003, 60, 104, 60, 10, 0x0
+  CONTROL "&Font", 201, Static, 0x50020000, 5, 104, 20, 8, 0x0
+  CONTROL "", 202, ListBox, 0x50a10053, 5, 117, 109, 42, 0x0
+  CONTROL "&Size", 212, Static, 0x50020000, 118, 4, 60, 8, 0x0
+  CONTROL "", 214, ListBox, 0x50a11001, 118, 17, 50, 83, 0x0
+  CONTROL "", 213, ComboBox, 0x50210900, 118, 17, 30, 86, 0x0
+  CONTROL "", 207, Button, 0x50000007, 5, 169, 218, 46, 0x0
+  CONTROL "", 216, "WOAFontPreview", 0x50800000, 12, 179, 118, 30, 0x0
+  CONTROL "Each character is:", 204, Static, 0x50000000, 133, 179, 75, 8, 0x0
+  CONTROL "", 210, Static, 0x50000002, 134, 189, 12, 8, 0x0
+  CONTROL "screen pixels wide", 208, Static, 0x50000000, 148, 189, 65, 8, 0x0
+  CONTROL "screen pixels high", 209, Static, 0x50000000, 148, 199, 65, 8, 0x0
+  CONTROL "", 211, Static, 0x50000002, 134, 199, 12, 8, 0x0
+}
+
+300 DIALOGEX 0, 0, 233, 226
+CAPTION " Layout "
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Window Preview", 206, Static, 0x50020000, 5, 4, 109, 8, 0x0
+  CONTROL "", 215, "WOAWinPreview", 0x50800000, 5, 17, 109, 83, 0x0
+  CONTROL "Screen Buffer Size", 65535, Button, 0x50000007, 118, 11, 110, 42, 0x0
+  CONTROL "&Width:", 65535, Static, 0x50020000, 122, 25, 54, 9, 0x0
+  CONTROL "", 301, Edit, 0x50830080, 186, 23, 36, 12, 0x0
+  CONTROL "", 302, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Height:", 65535, Static, 0x50020000, 122, 39, 54, 9, 0x0
+  CONTROL "", 303, Edit, 0x50830080, 186, 37, 36, 12, 0x0
+  CONTROL "", 304, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "Window Size", 65535, Button, 0x50000007, 118, 55, 110, 42, 0x0
+  CONTROL "W&idth:", 65535, Static, 0x50020000, 122, 69, 54, 9, 0x0
+  CONTROL "", 305, Edit, 0x50830080, 186, 67, 36, 12, 0x0
+  CONTROL "", 306, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "H&eight:", 65535, Static, 0x50020000, 122, 83, 54, 9, 0x0
+  CONTROL "", 307, Edit, 0x50830080, 186, 81, 36, 12, 0x0
+  CONTROL "", 308, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "Window Position", 65535, Button, 0x50000007, 118, 99, 110, 57, 0x0
+  CONTROL "&Left:", 65535, Static, 0x50020000, 122, 113, 54, 9, 0x0
+  CONTROL "", 309, Edit, 0x50830080, 186, 111, 36, 12, 0x0
+  CONTROL "", 310, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Top:", 65535, Static, 0x50020000, 122, 127, 54, 9, 0x0
+  CONTROL "", 311, Edit, 0x50830080, 186, 125, 36, 12, 0x0
+  CONTROL "", 312, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "Let system &position window", 313, Button, 0x50030003, 122, 142, 100, 10, 0x0
+}
+
+400 DIALOGEX 0, 0, 233, 226
+CAPTION " Colors "
+STYLE 0x50c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Screen &Text", 401, Button, 0x50030009, 10, 10, 84, 12, 0x0
+  CONTROL "Screen &Background", 402, Button, 0x50000009, 10, 22, 84, 12, 0x0
+  CONTROL "&Popup Text", 403, Button, 0x50000009, 10, 34, 84, 12, 0x0
+  CONTROL "Pop&up Background", 404, Button, 0x50000009, 10, 46, 84, 12, 0x0
+  CONTROL "", 405, "cpColor", 0x50830000, 10, 85, 13, 13, 0x0
+  CONTROL "", 406, "cpColor", 0x50800000, 23, 85, 13, 13, 0x0
+  CONTROL "", 407, "cpColor", 0x50800000, 36, 85, 13, 13, 0x0
+  CONTROL "", 408, "cpColor", 0x50800000, 49, 85, 13, 13, 0x0
+  CONTROL "", 409, "cpColor", 0x50800000, 62, 85, 13, 13, 0x0
+  CONTROL "", 410, "cpColor", 0x50800000, 75, 85, 13, 13, 0x0
+  CONTROL "", 411, "cpColor", 0x50800000, 88, 85, 13, 13, 0x0
+  CONTROL "", 412, "cpColor", 0x50800000, 101, 85, 13, 13, 0x0
+  CONTROL "", 413, "cpColor", 0x50800000, 114, 85, 13, 13, 0x0
+  CONTROL "", 414, "cpColor", 0x50800000, 127, 85, 13, 13, 0x0
+  CONTROL "", 415, "cpColor", 0x50800000, 140, 85, 13, 13, 0x0
+  CONTROL "", 416, "cpColor", 0x50800000, 153, 85, 13, 13, 0x0
+  CONTROL "", 417, "cpColor", 0x50800000, 166, 85, 13, 13, 0x0
+  CONTROL "", 418, "cpColor", 0x50800000, 179, 85, 13, 13, 0x0
+  CONTROL "", 419, "cpColor", 0x50800000, 192, 85, 13, 13, 0x0
+  CONTROL "", 420, "cpColor", 0x50800000, 205, 85, 13, 13, 0x0
+  CONTROL "Selected Screen Colors", 65535, Button, 0x50000007, 10, 119, 213, 46, 0x0
+  CONTROL "", 421, "WOAFontPreview", 0x50820000, 15, 129, 204, 31, 0x0
+  CONTROL "Selected Popup Colors", 65535, Button, 0x50000007, 10, 169, 213, 46, 0x0
+  CONTROL "", 422, "WOAFontPreview", 0x50820000, 15, 179, 204, 31, 0x0
+  CONTROL "Selected Color Values", 65535, Button, 0x50000007, 120, 9, 94, 56, 0x0
+  CONTROL "&Red:", 65535, Static, 0x50020000, 124, 23, 54, 9, 0x0
+  CONTROL "", 423, Edit, 0x50830080, 167, 21, 30, 12, 0x0
+  CONTROL "", 424, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "&Green:", 65535, Static, 0x50020000, 124, 37, 54, 9, 0x0
+  CONTROL "", 425, Edit, 0x50830080, 167, 35, 30, 12, 0x0
+  CONTROL "", 426, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+  CONTROL "B&lue:", 65535, Static, 0x50020000, 124, 51, 54, 9, 0x0
+  CONTROL "", 427, Edit, 0x50830080, 167, 49, 30, 12, 0x0
+  CONTROL "", 428, "msctls_updown32", 0x500000b6, 0, 0, 0, 0, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Console"
+  2,  "Configures console properties."
+  3,  "Console Windows"
+  4,  "Raster Fonts"
+  5,  "Point size should be between %d and %d"
+  6,  "Selected Font"
+  8,  "Error Updating Shortcut"
+  9,  "Unable to modify the shortcut:\n%s.\nCheck to make sure it has not been deleted or renamed."
+}
+
+1 MESSAGETABLE
+{
+  1000,  "%1 : %2%0\r\n"
+}
