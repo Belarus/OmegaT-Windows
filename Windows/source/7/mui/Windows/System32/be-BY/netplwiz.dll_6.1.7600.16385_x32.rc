@@ -1,0 +1,505 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+105 DIALOGEX 0, 0, 252, 218
+CAPTION "Users"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Use the list below to grant or deny users access to your computer, and to change passwords and other settings.", 1060, Static, 0x50020000, 35, 7, 210, 18, 0x0
+  CONTROL "Users must &enter a user name and password to use this computer.", 1022, Button, 0x50012403, 7, 34, 238, 10, 0x0
+  CONTROL "&Users for this computer:", 1033, Static, 0x50020000, 7, 49, 98, 8, 0x0
+  CONTROL "Users for this computer:", 1001, "SysListView32", 0x5081001d, 7, 60, 238, 72, 0x0
+  CONTROL "A&dd...", 1014, Button, 0x50010000, 87, 137, 50, 14, 0x0
+  CONTROL "&Remove", 1003, Button, 0x50010000, 141, 137, 50, 14, 0x0
+  CONTROL "Pr&operties", 1017, Button, 0x50010000, 195, 137, 50, 14, 0x0
+  CONTROL "Password for <user>", 1015, Button, 0x50000007, 7, 157, 238, 54, 0x0
+  CONTROL "", 1034, Static, 0x50000003, 16, 171, 20, 20, 0x0
+  CONTROL "To change the password for <user>, click Reset Password.", 1019, Static, 0x50020000, 42, 171, 196, 16, 0x0
+  CONTROL "Reset &Password...", 1021, Button, 0x50010000, 153, 189, 84, 14, 0x0
+  CONTROL 102, 1032, Static, 0x50000003, 7, 7, 20, 20, 0x0
+}
+
+106 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Specify the drive letter for the connection and the folder that you want to connect to:", 4294967295, Static, 0x50020000, 0, 0, 310, 16, 0x0
+  CONTROL "&Drive:", 4294967295, Static, 0x50020000, 0, 23, 40, 8, 0x0
+  CONTROL "", 1036, ComboBox, 0x50210083, 41, 20, 102, 300, 0x0
+  CONTROL "F&older:", 4294967295, Static, 0x50020000, 0, 39, 40, 8, 0x0
+  CONTROL "", 1034, ComboBox, 0x50210042, 41, 36, 168, 73, 0x0
+  CONTROL "&Browse...", 1035, Button, 0x50010000, 213, 36, 50, 14, 0x0
+  CONTROL "Example: \\\\server\\share", 4294967295, Static, 0x50020000, 41, 54, 310, 8, 0x0
+  CONTROL "&Reconnect at logon", 1038, Button, 0x50010003, 41, 66, 156, 10, 0x0
+  CONTROL "Connect using different &credentials", 1044, Button, 0x50010003, 41, 80, 156, 10, 0x0
+  CONTROL "<A>Connect to a Web site that you can use to store your documents and pictures</A>.", 1045, "Link Window", 0x50010000, 41, 94, 310, 16, 0x0
+}
+
+111 DIALOGEX 0, 0, 294, 154
+CAPTION "Add New User"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Type the domain and user name of a user to give them permission to use this computer.", 4294967295, Static, 0x50020000, 100, 7, 187, 16, 0x0
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 100, 32, 49, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 150, 30, 137, 12, 0x0
+  CONTROL "&Domain:", 4294967295, Static, 0x50020000, 100, 51, 49, 8, 0x0
+  CONTROL "", 1028, Edit, 0x50810088, 150, 48, 137, 12, 0x0
+  CONTROL "B&rowse...", 1027, Button, 0x50010000, 237, 69, 50, 14, 0x0
+  CONTROL 127, 4294967295, Static, 0x5000004e, 0, 0, 88, 155, 0x0
+  CONTROL "To continue, click Next.", 4294967295, Static, 0x50020000, 100, 102, 187, 8, 0x0
+}
+
+112 DIALOGEX 0, 0, 212, 53
+CAPTION "Map Network Drive"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Cancel", 2, Button, 0x50010000, 80, 30, 50, 14, 0x0
+  CONTROL "Attempting to connect to WHEE-BONG! (built at runtime from string resources)", 1047, Static, 0x50020000, 7, 7, 198, 16, 0x0
+}
+
+113 DIALOGEX 0, 0, 256, 116
+CAPTION "Automatically Log On"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL 126, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "You can set up your computer so that users do not have to type a user name and password to log on. To do this, specify a user that will be automatically logged on below:", 4294967295, Static, 0x50020000, 35, 7, 214, 24, 0x0
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 7, 40, 75, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 83, 38, 166, 12, 0x0
+  CONTROL "&Password:", 4294967295, Static, 0x50020000, 7, 58, 75, 8, 0x0
+  CONTROL "", 1013, Edit, 0x508100a0, 83, 56, 166, 12, 0x0
+  CONTROL "&Confirm Password:", 4294967295, Static, 0x50020000, 7, 76, 75, 8, 0x0
+  CONTROL "", 1009, Edit, 0x508100a0, 83, 74, 166, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 143, 95, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 199, 95, 50, 14, 0x0
+}
+
+114 DIALOGEX 0, 0, 250, 214
+CAPTION "Group Membership"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "What level of access do you want to grant this user?", 4294967295, Static, 0x50020000, 7, 7, 198, 8, 0x0
+  CONTROL "Administrators have complete access to the computer and can make any desired changes. Based on notification settings, administrators may be asked to provide their password or confirmation before making changes that affect other users.", 4294967295, Static, 0x50020000, 19, 67, 186, 43, 0x0
+  CONTROL "Standard account users can use most software and change system settings that do not affect other users.", 4294967295, Static, 0x50020000, 19, 33, 186, 24, 0x0
+  CONTROL "&Standard user", 1026, Button, 0x50030009, 7, 22, 90, 10, 0x0
+  CONTROL "&Administrator", 1076, Button, 0x50000009, 7, 56, 88, 10, 0x0
+  CONTROL "&Other:", 1053, Button, 0x50000009, 7, 118, 44, 10, 0x0
+  CONTROL "", 1024, ComboBox, 0x50230103, 54, 116, 151, 200, 0x0
+  CONTROL "Group Description", 1025, Static, 0x50020000, 54, 131, 151, 70, 0x0
+  CONTROL "(Administrators Group)", 4294967295, Static, 0x50020002, 113, 56, 86, 8, 0x0
+  CONTROL "(Users Group)", 4294967295, Static, 0x50020002, 113, 23, 86, 8, 0x0
+}
+
+115 DIALOGEX 0, 0, 212, 188
+CAPTION "General"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 7, 8, 48, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 56, 7, 149, 12, 0x0
+  CONTROL "&Full name:", 4294967295, Static, 0x50020000, 7, 27, 48, 8, 0x0
+  CONTROL "", 1012, Edit, 0x50810080, 56, 25, 149, 12, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 7, 44, 48, 8, 0x0
+  CONTROL "", 1023, Edit, 0x50810080, 56, 43, 149, 12, 0x0
+}
+
+116 DIALOGEX 0, 0, 212, 68
+CAPTION "Reset Password"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "New &password:", 4294967295, Static, 0x50020000, 7, 8, 87, 8, 0x0
+  CONTROL "", 1013, Edit, 0x508100a0, 95, 7, 110, 12, 0x0
+  CONTROL "&Confirm new password:", 4294967295, Static, 0x50020000, 7, 27, 87, 8, 0x0
+  CONTROL "", 1009, Edit, 0x508100a0, 95, 25, 110, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010000, 101, 46, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 155, 46, 50, 14, 0x0
+}
+
+118 DIALOGEX 0, 0, 252, 218
+CAPTION "Advanced"
+STYLE 0x48c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Passwords", 4294967295, Button, 0x50000007, 7, 7, 238, 62, 0x0
+  CONTROL "You can manage the passwords you have stored on this computer", 1062, Static, 0x50020000, 14, 21, 224, 24, 0x0
+  CONTROL "&Manage Passwords", 1068, Button, 0x50010000, 160, 48, 78, 14, 0x0
+  CONTROL "Advanced user management", 4294967295, Button, 0x50000007, 7, 72, 238, 54, 0x0
+  CONTROL 102, 4294967295, Static, 0x50000003, 14, 86, 20, 20, 0x0
+  CONTROL "Local Users and Groups can be used to perform advanced user management tasks.", 4294967295, Static, 0x50020000, 41, 86, 197, 16, 0x0
+  CONTROL "Ad&vanced", 1005, Button, 0x50010000, 188, 105, 50, 14, 0x0
+  CONTROL "Secure logon", 4294967295, Button, 0x50000007, 7, 129, 238, 78, 0x0
+  CONTROL "For added security, you can require users to press Ctrl+Alt+Delete before logging on. This guarantees that the authentic Windows logon prompt appears, protecting the system from programs that mimic a logon to retrieve password information.", 1064, Static, 0x50020000, 41, 143, 197, 40, 0x0
+  CONTROL "&Require users to press Ctrl+Alt+Delete", 1048, Button, 0x50010003, 41, 190, 150, 10, 0x0
+  CONTROL 125, 1063, Static, 0x50000003, 14, 143, 20, 20, 0x0
+}
+
+4420 DIALOGEX 0, 0, 317, 160
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "What level of access do you want to grant <user>?", 1054, Static, 0x50020000, 0, 0, 275, 8, 0x0
+  CONTROL "Administrators have complete access to the computer and can make any desired changes. Based on notification settings, administrators might be asked to provide their password or confirmation before making changes that affect other users.", 4294967295, Static, 0x50020000, 12, 60, 282, 27, 0x0
+  CONTROL "&Standard account", 1026, Button, 0x50020009, 0, 15, 106, 10, 0x0
+  CONTROL "&Administrator", 1076, Button, 0x50000009, 0, 49, 88, 10, 0x0
+  CONTROL "&Other:", 1053, Button, 0x50000009, 0, 95, 44, 10, 0x0
+  CONTROL "Standard account users can use most software and change system settings that do not affect other users.", 4294967295, Static, 0x50000000, 12, 26, 295, 20, 0x0
+  CONTROL "", 1024, ComboBox, 0x50210103, 45, 93, 179, 200, 0x0
+  CONTROL "Group Description", 1025, Static, 0x50020000, 45, 110, 230, 39, 0x0
+}
+
+4421 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "•  Your user name", 4294967295, Static, 0x50020000, 7, 0, 215, 8, 0x0
+  CONTROL "•  Your logon password", 4294967295, Static, 0x50020000, 7, 10, 210, 8, 0x0
+  CONTROL "•  Your user account domain name", 4294967295, Static, 0x50020000, 7, 20, 241, 12, 0x0
+  CONTROL "You might also need:", 4294967295, Static, 0x50020000, 0, 37, 251, 8, 0x0
+  CONTROL "•  Your computer name", 4294967295, Static, 0x50020000, 7, 50, 242, 8, 0x0
+  CONTROL "If you don't have this information, contact your network administrator.", 4294967295, Static, 0x50020000, 0, 79, 275, 17, 0x0
+  CONTROL "•  Your computer domain name", 4294967295, Static, 0x50020000, 7, 62, 235, 8, 0x0
+}
+
+4422 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 0, 6, 49, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 69, 3, 164, 12, 0x0
+  CONTROL "&Password:", 4294967295, Static, 0x50020000, 0, 24, 49, 8, 0x0
+  CONTROL "", 1013, Edit, 0x508100a0, 69, 21, 164, 12, 0x0
+  CONTROL "&Domain name:", 4294967295, Static, 0x50020000, 0, 42, 49, 8, 0x0
+  CONTROL "", 1028, Edit, 0x50810088, 69, 40, 164, 12, 0x0
+  CONTROL "Log on using a dial-up &connection", 4501, Button, 0x50010003, 0, 61, 275, 10, 0x0
+}
+
+4423 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "To close this wizard, click Finish.", 1057, Static, 0x50020000, 0, 0, 190, 134, 0x0
+}
+
+4424 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "My &company uses a network with a domain", 1028, Button, 0x50002409, 0, 0, 308, 14, 0x0
+  CONTROL "My co&mpany uses a network without a domain", 4504, Button, 0x50002409, 0, 15, 306, 15, 0x0
+}
+
+4425 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Click Next, even if you don't know the workgroup name.", 4294967295, Static, 0x50020000, 0, 25, 306, 21, 0x0
+  CONTROL "&Workgroup:", 4294967295, Static, 0x50020000, 0, 6, 69, 8, 0x0
+  CONTROL "", 4504, Edit, 0x50810088, 70, 4, 159, 12, 0x0
+}
+
+4428 DIALOGEX 46, 21, 247, 105
+CAPTION "Domain User Name and Password"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 7, 31, 54, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50830080, 62, 29, 178, 12, 0x0
+  CONTROL "&Password:", 4294967295, Static, 0x50020000, 7, 49, 54, 8, 0x0
+  CONTROL "", 1013, Edit, 0x508100a0, 62, 47, 178, 12, 0x0
+  CONTROL "&Domain:", 4294967295, Static, 0x50020000, 7, 67, 54, 8, 0x0
+  CONTROL "", 1028, Edit, 0x50810088, 62, 64, 178, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 136, 84, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 190, 84, 50, 14, 0x0
+  CONTROL "Type the name and password of an account with permission to join the domain.", 4509, Static, 0x50020000, 7, 7, 220, 20, 0x0
+}
+
+4429 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Formatted using IDS_COMPNOTFOUND", 4253, Static, 0x50020000, 0, 0, 275, 24, 0x0
+  CONTROL "C&omputer name:", 4294967295, Static, 0x50020000, 0, 31, 69, 8, 0x0
+  CONTROL "", 4505, Edit, 0x50810088, 70, 28, 159, 12, 0x0
+  CONTROL "Computer &domain:", 4294967295, Static, 0x50020000, 0, 49, 69, 8, 0x0
+  CONTROL "", 1028, Edit, 0x50810088, 70, 46, 159, 12, 0x0
+}
+
+4430 DIALOGEX 0, 0, 294, 201
+CAPTION "Add New User"
+STYLE 0x90c800c0
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL 127, 4294967295, Static, 0x5000004e, 0, 0, 88, 155, 0x0
+  CONTROL "What level of access do you want to grant this user?", 4294967295, Static, 0x50020000, 100, 7, 187, 8, 0x0
+  CONTROL "Administrators have complete access to the computer and can make any desired changes. Based on notification settings, administrators may be asked to provide their password or confirmation before making changes that affect other users.", 4294967295, Static, 0x50020000, 112, 72, 175, 46, 0x0
+  CONTROL "Standard account users can use most software and change system settings that do not affect other users.", 4294967295, Static, 0x50020000, 112, 33, 175, 27, 0x0
+  CONTROL "&Standard user", 1026, Button, 0x50030009, 100, 21, 96, 10, 0x0
+  CONTROL "&Administrator", 1076, Button, 0x50000009, 100, 62, 89, 10, 0x0
+  CONTROL "&Other:", 1053, Button, 0x50000009, 100, 123, 44, 10, 0x0
+  CONTROL "", 1024, ComboBox, 0x50230103, 147, 123, 140, 200, 0x0
+  CONTROL "Group Description", 1025, Static, 0x50020000, 147, 138, 140, 40, 0x0
+  CONTROL "(Administrators Group)", 4294967295, Static, 0x50020002, 203, 62, 84, 8, 0x0
+  CONTROL "(Users Group)", 4294967295, Static, 0x50020002, 202, 21, 85, 8, 0x0
+}
+
+4431 DIALOGEX 0, 0, 294, 154
+CAPTION "Add New User"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&Password:", 4294967295, Static, 0x50020000, 100, 24, 71, 8, 0x0
+  CONTROL "", 1013, Edit, 0x508100a0, 172, 22, 115, 12, 0x0
+  CONTROL "&Confirm password:", 4294967295, Static, 0x50020000, 100, 42, 71, 8, 0x0
+  CONTROL "", 1009, Edit, 0x508100a0, 172, 40, 115, 12, 0x0
+  CONTROL 127, 4294967295, Static, 0x5000004e, 0, 0, 88, 155, 0x0
+  CONTROL "Type and confirm a password for this user.", 4294967295, Static, 0x50020000, 100, 7, 171, 8, 0x0
+  CONTROL "To continue, click Next.", 4294967295, Static, 0x50020000, 100, 73, 187, 8, 0x0
+}
+
+4432 DIALOGEX 0, 0, 294, 154
+CAPTION "Add New User"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL 127, 4294967295, Static, 0x5000004e, 0, 0, 88, 155, 0x0
+  CONTROL "&User name:", 4294967295, Static, 0x50020000, 100, 24, 49, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 150, 22, 137, 12, 0x0
+  CONTROL "&Full name:", 4294967295, Static, 0x50020000, 100, 41, 49, 8, 0x0
+  CONTROL "", 1012, Edit, 0x50810080, 150, 40, 137, 12, 0x0
+  CONTROL "&Description:", 4294967295, Static, 0x50020000, 100, 58, 49, 8, 0x0
+  CONTROL "", 1023, Edit, 0x50810080, 150, 57, 137, 12, 0x0
+  CONTROL "Enter the basic information for the new user.", 4294967295, Static, 0x50020000, 100, 7, 187, 8, 0x0
+  CONTROL "To continue, click Next.", 4294967295, Static, 0x50020000, 100, 90, 187, 8, 0x0
+}
+
+4433 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "&This computer is part of a business network; I use it to connect to other computers at work", 1021, Button, 0x50002409, 0, 1, 275, 20, 0x0
+  CONTROL "This is a home &computer; it's not part of a business network", 1022, Button, 0x50002409, 0, 20, 275, 20, 0x0
+}
+
+4434 DIALOGEX 0, 0, 317, 143
+CAPTION ""
+STYLE 0x40000040 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "The domain user will have access to all files, folders, and programs on this computer and all shared files, folders, and programs on the network.", 4294967295, Static, 0x50020000, 0, 0, 312, 24, 0x0
+  CONTROL "&Add the following domain user account:", 1051, Button, 0x50030009, 0, 25, 147, 10, 0x0
+  CONTROL "D&o not add a domain user account", 1052, Button, 0x50000009, 0, 82, 138, 10, 0x0
+  CONTROL "&User name:", 1041, Static, 0x50020000, 12, 45, 55, 8, 0x0
+  CONTROL "", 1010, Edit, 0x50810080, 75, 42, 207, 12, 0x0
+  CONTROL "User &domain:", 1030, Static, 0x50020000, 12, 64, 55, 8, 0x0
+  CONTROL "", 1028, Edit, 0x50810088, 75, 61, 207, 12, 0x0
+}
+
+21000 DIALOGEX 0, 0, 313, 200
+CAPTION "Disconnect Network Drives"
+STYLE 0x80c808c8
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Select the network drive(s) you want to disconnect, then click OK.", 4294967295, Static, 0x50020000, 7, 7, 286, 8, 0x0
+  CONTROL "&Network Drives:", 4294967295, Static, 0x50020000, 7, 23, 286, 8, 0x0
+  CONTROL "", 1071, Static, 0x50000000, 7, 33, 300, 140, 0x10000
+  CONTROL "OK", 1, Button, 0x50010001, 202, 179, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 257, 179, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4448,  "What network folder would you like to map?"
+  4449,  "Map Network Drive"
+  4450,  "Join a Domain or Workgroup"
+  4451,  "Type your computer workgroup name"
+  4456,  "Choose an account type"
+  4458,  "Is your company network on a domain?"
+  4461,  "You will need the following information"
+  4463,  "Type the computer name and computer domain name"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4465,  "Type your user name, password, and domain name for your domain account"
+  4466,  "User Account and Domain Information"
+  4467,  "You must restart your computer to apply these changes"
+  4471,  "An account for this computer (""%1!ls!"") has been found in the domain ""%2!ls!"". \n\n Would you like to use this?"
+  4477,  "Select the option that describes your network"
+  4479,  "Windows cannot find an account for your computer in the %1 domain. (Your computer domain can be different from your user account domain.)\n\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  4480,  "Before restarting, save any open files and close all programs."
+  4481,  "Before restarting, save any open files and close all programs."
+  4482,  "The changes made require the computer to be restarted."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12009,  "The user account %1 cannot be added to the local group %2."
+  12010,  "The user account '%1' (in domain '%2') does not exist.\n\nPlease check the name and domain and try again."
+  12013,  "The system could not log you on.  Make sure your user name and domain are correct, then type your password again.  Letters in passwords must be typed using the correct case.  \n\nMake sure that Caps Lock is not accidentally on."
+  12014,  "The passwords you typed do not match.  Type the password for this account in both text boxes."
+  12015,  "The domain name ""%1"" is either invalid or does not exist."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12111,  "Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12120,  "Windows"
+  12121,  "There are currently open files on this device.  If you do not close the files before disconnecting from the network device, data may be lost.  Do you want to disconnect the device anyway?"
+  12122,  "The device %1 is already connected to %2.  Do you wish to replace the current connection with %3?"
+  12123,  "The device %1 has a remembered connection to %2.  Do you wish to replace the current connection with %3?"
+  12124,  "The network path %1 could not be found."
+  12126,  "The drive could not be mapped because no network was found."
+  12127,  "An unexpected error has occurred."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12150,  "Windows cannot access %1 as %2 due to the following error:"
+  12152,  "Verdana Bold"
+  12153,  "12"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12164,  "The open files or folders on this device could not be closed automatically. Close these files or folders and try again."
+  12166,  "Add User Wizard"
+  12169,  "User Name"
+  12170,  "Domain"
+  12171,  "Group"
+  12174,  "%1"
+  12175,  "%1"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12176,  "Full Name: %1,\nComment: %2"
+  12180,  "The network user name you entered does not appear to be valid. Please type a valid user name or click Browse to search for a network user."
+  12181,  "You chose to remove %1 from this computer's user list. %1 will no longer be allowed to use this computer.\n\nAre you sure you want to remove %1?"
+  12182,  "User Accounts"
+  12183,  "The user %1 could not be removed.\n"
+  12185,  "Password for %1"
+  12186,  "To change the password for %1, click Reset Password."
+  12187,  "An error occurred while trying to add the user."
+  12188,  "The user %1 could not be added because this user already has permission to use this computer."
+  12191,  "The user %1 could not be added because a group exists with the same name."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12195,  "To change your password, press Ctrl-Alt-Del and select Change Password."
+  12196,  "You cannot change the password for %1."
+  12199,  "The supplied password does not meet the requirements for passwords on this computer.\nIt may be too short, too long, or too simple."
+  12200,  "The full name for %1 could not be updated."
+  12201,  "The group membership for %1 could not be updated."
+  12202,  "The password for %1 could not be set."
+  12203,  "The user name for %1 could not be changed."
+  12204,  "The description for %1 could not be changed."
+  12205,  "The user %1 could not be added because the supplied password does not meet the requirements for passwords on this computer.\nIt may be too short, too long, or too simple."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12210,  "Select a shared network folder"
+  12212,  "The Add Network Location wizard could not be launched due to an unexpected error."
+  12213,  "Attempting to connect to %1..."
+  12214,  "The network folder specified is currently mapped using a different user name and password.\nTo connect using a different user name and password, first disconnect any existing mappings to this network share."
+  12218,  "Do you want to enable a domain user account on this computer?"
+  12220,  "What level of access do you want to grant %1?"
+  12222,  "The user %1 could not be added to the %2 group because %1 does not exist."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12228,  "The mapped network drive could not be created because the following error has occurred:\n\n%1"
+  12229,  "Your computer could not be joined to the domain because the following error has occurred:\n\n%1"
+  12230,  "Your computer was joined to the domain using your computer's old name because the following error has occurred:\n\n%1"
+  12231,  "Another computer in the domain is already using the specified new computer name."
+  12232,  "The user could not be added because the following error has occurred:\n\n%1"
+  12233,  "You have made changes to your user account. You must log off and log back on for these changes to take effect.\n\nDo you want to log off now?"
+  12234,  "User Accounts"
+  12235,  "The user could not be created because the following error has occurred:\n\n%1"
+  12236,  "The user %1 could not be granted Standard user access because %1 does not exist."
+  12238,  "The computer name you entered can not be used because:\n\n%1"
+  12239,  "Windows couldn't map the network drive because an error occurred. Contact your network administrator for assistance."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12240,  "The user name you entered is invalid. User names can not contain any of the following characters:\n  * + , / : ; < = > ? [ \\ ] |"
+  12241,  "The workgroup name ""%1"" is invalid."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  13000,  "Disconnect Network Drive"
+  13001,  "There are currently files or folders open on %1, connected to %2. If you disconnect with files open, data may be lost.\n\nDo you want to disconnect this network drive anyway?"
+  13002,  "%1, connected to %2, could not be disconnected because an error has occurred:\n\n%3"
+  13003,  "You have no network drives to disconnect."
+  13005,  "Disconnect Network Drives"
+}
+
+22000 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  VK_F5  , 4512, VIRTKEY, NOINVERT
+}
+

@@ -1,0 +1,421 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+41 DIALOGEX 8, 10, 225, 262
+CAPTION "Virtual Memory"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Automatically manage paging file size for all drives", 1141, Button, 0x50030003, 11, 8, 205, 10, 0x0
+  CONTROL "Paging file size for each drive", 1140, Button, 0x50020007, 7, 20, 211, 163, 0x0
+  CONTROL "&Drive  [Volume Label]", 1142, Static, 0x50020000, 14, 30, 71, 8, 0x0
+  CONTROL "Paging File Size (MB)", 1143, Static, 0x50020000, 117, 30, 70, 8, 0x0
+  CONTROL "", 1160, ListBox, 0x50b10083, 13, 40, 205, 52, 0x0
+  CONTROL "Selected drive:", 1144, Static, 0x50020000, 14, 92, 80, 8, 0x0
+  CONTROL "", 1161, Static, 0x50020000, 87, 92, 90, 8, 0x0
+  CONTROL "Space available:", 1146, Static, 0x50020000, 14, 101, 56, 8, 0x0
+  CONTROL "", 1162, Static, 0x50020000, 87, 101, 52, 8, 0x0
+  CONTROL "&Custom size:", 1176, Button, 0x50030009, 14, 113, 53, 10, 0x0
+  CONTROL "S&ystem managed size", 1177, Button, 0x50000009, 14, 155, 84, 10, 0x0
+  CONTROL "&No paging file", 1178, Button, 0x50000009, 14, 167, 59, 10, 0x0
+  CONTROL "&Initial size (MB):", 1169, Static, 0x50020000, 16, 125, 54, 8, 0x0
+  CONTROL "", 1163, Edit, 0x50810080, 87, 122, 50, 14, 0x0
+  CONTROL "Ma&ximum size (MB):", 1170, Static, 0x50020000, 16, 141, 68, 8, 0x0
+  CONTROL "", 1164, Edit, 0x50810080, 87, 138, 50, 14, 0x0
+  CONTROL "&Set", 1165, Button, 0x50010000, 163, 165, 50, 14, 0x0
+  CONTROL "Total paging file size for all drives", 4294967295, Button, 0x50000007, 7, 186, 211, 50, 0x0
+  CONTROL "Minimum allowed:", 1148, Static, 0x50020000, 15, 198, 62, 8, 0x0
+  CONTROL "", 1166, Static, 0x50020000, 88, 198, 52, 8, 0x0
+  CONTROL "Recommended:", 1150, Static, 0x50020000, 15, 209, 51, 8, 0x0
+  CONTROL "", 1167, Static, 0x50020000, 88, 209, 52, 8, 0x0
+  CONTROL "Currently allocated:", 1152, Static, 0x50020000, 15, 220, 65, 8, 0x0
+  CONTROL "", 1168, Static, 0x50020000, 88, 220, 82, 8, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 116, 242, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 170, 242, 50, 14, 0x0
+}
+
+42 DIALOGEX 10, 15, 227, 71
+CAPTION ""
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Variable &name:", 100, Static, 0x50020000, 7, 14, 50, 8, 0x0
+  CONTROL "", 101, Edit, 0x50810080, 75, 12, 145, 12, 0x0
+  CONTROL "Variable &value:", 102, Static, 0x50020000, 7, 32, 50, 8, 0x0
+  CONTROL "", 103, Edit, 0x50810080, 75, 30, 145, 12, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 116, 50, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 170, 50, 50, 14, 0x0
+}
+
+100 DIALOGEX 0, 0, 256, 235
+CAPTION "User Profiles"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 2, 1004, Static, 0x50000043, 8, 11, 21, 20, 0x0
+  CONTROL "User profiles store settings for your desktop and other information related to your user account. You can create a different profile on each computer you use, or you can select a roaming profile that is the same on every computer you use.", 1005, Static, 0x50020000, 37, 9, 210, 40, 0x0
+  CONTROL "&Profiles stored on this computer:", 4294967295, Static, 0x50020000, 8, 55, 210, 8, 0x0
+  CONTROL "", 1000, "SysListView32", 0x5081801d, 8, 66, 240, 87, 0x200
+  CONTROL "&Change Type...", 1002, Button, 0x50010000, 81, 160, 60, 14, 0x0
+  CONTROL "&Delete", 1001, Button, 0x50010000, 145, 160, 50, 14, 0x0
+  CONTROL "Copy &To...", 1003, Button, 0x50010000, 199, 160, 50, 14, 0x0
+  CONTROL "To create new user accounts, open <A>User Accounts</A> in Control Panel.", 1006, "Link Window", 0x50010000, 8, 185, 230, 19, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 145, 214, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 199, 214, 50, 14, 0x0
+}
+
+103 DIALOGEX 6, 18, 227, 223
+CAPTION "Advanced"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Processor scheduling", 203, Button, 0x50000007, 7, 8, 213, 64, 0x0
+  CONTROL "Choose how to allocate processor resources.", 208, Static, 0x50020000, 14, 20, 199, 16, 0x0
+  CONTROL "Adjust for best performance of:", 210, Static, 0x50020000, 14, 40, 199, 8, 0x0
+  CONTROL "&Programs", 204, Button, 0x50010009, 14, 52, 75, 12, 0x0
+  CONTROL "Background &services", 205, Button, 0x50010009, 96, 52, 85, 12, 0x0
+  CONTROL "Virtual memory", 206, Button, 0x50000007, 7, 79, 213, 66, 0x0
+  CONTROL "A paging file is an area on the hard disk that Windows uses as if it were RAM.", 209, Static, 0x50020000, 14, 91, 199, 16, 0x0
+  CONTROL "Total paging file size for all drives:", 207, Static, 0x50020000, 14, 111, 125, 8, 0x0
+  CONTROL "", 202, Static, 0x50020000, 147, 111, 50, 8, 0x0
+  CONTROL "&Change...", 201, Button, 0x50010000, 163, 124, 50, 14, 0x0
+}
+
+104 DIALOGEX 6, 18, 256, 266
+CAPTION "Startup and Recovery"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "System startup", 304, Button, 0x50000007, 7, 12, 242, 95, 0x0
+  CONTROL "Default operating &system:", 308, Static, 0x50020000, 14, 26, 100, 8, 0x0
+  CONTROL "", 300, ComboBox, 0x50210003, 14, 37, 224, 46, 0x0
+  CONTROL "&Time to display list of operating systems:", 303, Button, 0x50010002, 14, 56, 150, 8, 0x0
+  CONTROL "", 301, Edit, 0x50810080, 179, 54, 30, 12, 0x0
+  CONTROL "", 302, "msctls_updown32", 0x500000b7, 0, 0, 8, 13, 0x0
+  CONTROL "seconds", 305, Static, 0x50020000, 215, 56, 25, 8, 0x0
+  CONTROL "Time to &display recovery options when needed:", 309, Button, 0x50010002, 14, 70, 163, 8, 0x0
+  CONTROL "", 311, Edit, 0x50810080, 179, 68, 30, 12, 0x0
+  CONTROL "", 312, "msctls_updown32", 0x500000b7, 0, 0, 8, 13, 0x0
+  CONTROL "seconds", 310, Static, 0x50020000, 215, 70, 25, 8, 0x0
+  CONTROL "System failure", 601, Button, 0x50000007, 7, 111, 242, 126, 0x0
+  CONTROL "&Write an event to the system log", 603, Button, 0x50010003, 14, 124, 148, 10, 0x0
+  CONTROL "Automatically &restart", 608, Button, 0x50010003, 14, 138, 148, 10, 0x0
+  CONTROL "Write debugging information", 612, Button, 0x50000007, 12, 153, 227, 76, 0x0
+  CONTROL "", 610, ComboBox, 0x50210103, 17, 168, 151, 49, 0x0
+  CONTROL "Dump &file:", 611, Static, 0x50020000, 17, 188, 150, 8, 0x0
+  CONTROL "", 606, Edit, 0x50810080, 17, 196, 153, 12, 0x0
+  CONTROL "&Overwrite any existing file", 607, Button, 0x50010003, 17, 212, 125, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 141, 245, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 245, 50, 14, 0x0
+}
+
+105 DIALOGEX 6, 18, 252, 245
+CAPTION "Environment Variables"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 411, Button, 0x50000007, 7, 12, 238, 100, 0x0
+  CONTROL "", 402, "SysListView32", 0x5031801d, 14, 25, 224, 58, 0x200
+  CONTROL "&New...", 412, Button, 0x50010000, 80, 90, 50, 14, 0x0
+  CONTROL "&Edit...", 413, Button, 0x50010000, 134, 90, 50, 14, 0x0
+  CONTROL "&Delete", 414, Button, 0x50010000, 188, 90, 50, 14, 0x0
+  CONTROL "&System variables", 415, Button, 0x50000007, 7, 116, 238, 100, 0x0
+  CONTROL "", 400, "SysListView32", 0x5031801d, 14, 129, 224, 58, 0x200
+  CONTROL "Ne&w...", 407, Button, 0x50010000, 80, 194, 50, 14, 0x0
+  CONTROL "Ed&it...", 408, Button, 0x50010000, 134, 194, 50, 14, 0x0
+  CONTROL "De&lete", 409, Button, 0x50010000, 188, 194, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 141, 224, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 195, 224, 50, 14, 0x0
+}
+
+110 DIALOGEX 7, 20, 225, 103
+CAPTION "Change Profile Type"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 1024, Static, 0x50020000, 7, 11, 206, 28, 0x0
+  CONTROL "&Roaming profile", 1021, Button, 0x50010009, 60, 49, 145, 10, 0x0
+  CONTROL "&Local profile", 1020, Button, 0x50010009, 60, 63, 145, 10, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 60, 82, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 122, 82, 50, 14, 0x0
+}
+
+111 DIALOGEX 6, 18, 261, 133
+CAPTION "Copy To"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Copy &profile to", 1035, Button, 0x50000007, 8, 9, 185, 52, 0x0
+  CONTROL "", 1030, Edit, 0x50810080, 15, 23, 167, 12, 0x0
+  CONTROL "&Browse", 1031, Button, 0x50010000, 15, 41, 50, 14, 0x0
+  CONTROL "Permitted to use", 1034, Button, 0x50000007, 8, 77, 185, 48, 0x0
+  CONTROL "", 1032, Static, 0x50020000, 15, 91, 167, 8, 0x0
+  CONTROL "&Change", 1033, Button, 0x50010000, 15, 105, 50, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 204, 13, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 204, 30, 50, 14, 0x0
+}
+
+112 DIALOGEX 6, 18, 227, 267
+CAPTION "Visual Effects"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Select the settings you want to use for the appearance and performance of Windows on this computer.", 2030, Static, 0x50020000, 7, 6, 208, 18, 0x0
+  CONTROL "&Let Windows choose what's best for my computer", 2021, Button, 0x50030009, 7, 32, 200, 8, 0x0
+  CONTROL "Adjust for &best appearance", 2022, Button, 0x50000009, 7, 44, 200, 8, 0x0
+  CONTROL "Adjust for best &performance", 2023, Button, 0x50000009, 7, 56, 200, 8, 0x0
+  CONTROL "&Custom:", 2024, Button, 0x50000009, 7, 68, 200, 8, 0x0
+  CONTROL "Tree1", 2020, "SysTreeView32", 0x50830014, 7, 80, 213, 180, 0x0
+}
+
+115 DIALOGEX 0, 0, 256, 226
+CAPTION "Advanced"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "You must be logged on as an Administrator to make most of these changes.", 100, Static, 0x50020000, 10, 8, 246, 20, 0x0
+  CONTROL "Performance", 109, Button, 0x50000007, 7, 22, 242, 53, 0x0
+  CONTROL "Visual effects, processor scheduling, memory usage, and virtual memory", 101, Static, 0x50020000, 14, 34, 226, 20, 0x0
+  CONTROL "&Settings...", 102, Button, 0x50010000, 193, 54, 49, 14, 0x0
+  CONTROL "User Profiles", 4294967295, Button, 0x50000007, 7, 79, 242, 53, 0x0
+  CONTROL "Desktop settings related to your logon", 103, Static, 0x50020000, 14, 91, 226, 20, 0x0
+  CONTROL "S&ettings...", 104, Button, 0x50010000, 193, 111, 49, 14, 0x0
+  CONTROL "Startup and Recovery", 4294967295, Button, 0x50000007, 7, 136, 242, 53, 0x0
+  CONTROL "System startup, system failure, and debugging information", 107, Static, 0x50020000, 14, 148, 226, 20, 0x0
+  CONTROL "Se&ttings...", 108, Button, 0x50010000, 193, 168, 49, 14, 0x0
+  CONTROL "Enviro&nment Variables...", 106, Button, 0x50010000, 164, 196, 85, 14, 0x0
+}
+
+2000 DIALOGEX 0, 0, 256, 226
+CAPTION "Hardware"
+STYLE 0x48c00040
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Device Manager", 2004, Button, 0x50000007, 7, 12, 242, 62, 0x0
+  CONTROL "", 2001, Static, 0x50000043, 14, 24, 21, 20, 0x0
+  CONTROL "The Device Manager lists all the hardware devices installed on your computer. Use the Device Manager to change the properties of any device.", 2002, Static, 0x50020000, 45, 24, 195, 30, 0x0
+  CONTROL "&Device Manager", 2003, Button, 0x50010000, 124, 53, 118, 14, 0x0
+  CONTROL "Device Installation Settings", 4294967295, Button, 0x50000007, 7, 79, 242, 65, 0x0
+  CONTROL "", 2005, Static, 0x50000043, 14, 91, 21, 20, 0x0
+  CONTROL "Choose whether Windows downloads driver software for your devices and detailed information about them.", 2006, Static, 0x50020000, 45, 91, 195, 30, 0x0
+  CONTROL "Device Installation &Settings", 2008, Button, 0x50010000, 124, 123, 118, 14, 0x0
+}
+
+4104 DIALOGEX 0, 0, 224, 267
+CAPTION "Data Execution Prevention"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Data Execution Prevention (DEP) helps protect against damage from viruses and other security threats. <A ID=""HelpMe"">How does it work?</A>", 14009, "SysLink", 0x50010000, 43, 17, 174, 26, 0x0
+  CONTROL 10, 14011, Static, 0x50000003, 7, 19, 21, 20, 0x0
+  CONTROL "", 14026, Button, 0x40000007 | NOT WS_VISIBLE, 7, 45, 166, 46, 0x20
+  CONTROL "&Turn on DEP for essential Windows programs and services only", 14012, Button, 0x50012409, 7, 46, 209, 20, 0x0
+  CONTROL "T&urn on DEP for all programs and services except those I select:", 14013, Button, 0x50012409, 7, 66, 209, 20, 0x0
+  CONTROL "", 14005, "SysTreeView32", 0x50810134, 7, 90, 209, 108, 0x0
+  CONTROL "A&dd...", 14007, Button, 0x50010000, 110, 203, 50, 14, 0x0
+  CONTROL "R&emove", 14006, Button, 0x50010000, 166, 203, 50, 14, 0x0
+  CONTROL "", 14014, Static, 0x40020000 | NOT WS_VISIBLE, 7, 224, 208, 24, 0x0
+  CONTROL "OK", 14039, Button, 0x50010000, 110, 242, 50, 14, 0x0
+  CONTROL "Cancel", 14040, Button, 0x50010000, 167, 242, 50, 14, 0x0
+}
+
+4105 DIALOGEX 0, 0, 283, 135
+CAPTION "Data Execution Prevention - Microsoft Windows"
+STYLE 0x80c80acc
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "To help protect your computer, Windows has closed this program.", 14028, Static, 0x50020000, 10, 10, 250, 23, 0x0
+  CONTROL "", 14037, Static, 0x40000003 | NOT WS_VISIBLE, 10, 35, 21, 20, 0x0
+  CONTROL "Name:", 14031, Static, 0x50020000, 36, 33, 36, 8, 0x0
+  CONTROL "Application Friendly Name", 14033, Static, 0x50020000, 75, 33, 186, 8, 0x0
+  CONTROL "Publisher:", 14032, Static, 0x50020000, 36, 46, 32, 8, 0x0
+  CONTROL "Application Publisher", 14034, Static, 0x50020000, 75, 46, 186, 8, 0x0
+  CONTROL "Close Message", 1, Button, 0x50010001, 206, 64, 65, 14, 0x0
+  CONTROL "Change Settings", 14027, Button, 0x50010000, 137, 64, 65, 14, 0x0
+  CONTROL "Data Execution Prevention helps protect against damage from viruses or other threats. Some programs might not run correctly when it is turned on. For an updated version of this program, contact the publisher. <A ID=""HelpMe"">What else should I do?</A>", 14029, "SysLink", 0x50010000, 10, 90, 263, 40, 0x0
+  CONTROL "Data Execution Prevention helps protect against damage from viruses and other security threats. <A ID=""HelpMe"">What should I do?</A>", 14030, "SysLink", 0x50010000, 10, 90, 263, 40, 0x0
+  CONTROL "", 14035, Static, 0x50000010, 0, 84, 285, 1, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3,  "System Properties"
+  7,  "%SystemRoot%\\MEMORY.DMP"
+  8,  "&User variables for %s"
+  9,  "Name"
+  10,  "Size"
+  11,  "Type"
+  12,  "Status"
+  13,  "Modified"
+  15,  "Local"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Roaming"
+  17,  "Mandatory"
+  18,  "Are you sure you want to delete the profile for the following user: %s?"
+  19,  "Confirm Delete"
+  20,  "Select a directory to place the profile in:"
+  21,  "Profile Error"
+  22,  "Account Unknown"
+  23,  "Account Deleted"
+  24,  "When %s logs onto this computer, should the operating system use the roaming profile or just the locally cached copy of the roaming profile?"
+  25,  "%.500s already exists. The current contents of this directory or this file will be deleted during this operation.  Are you sure you want to continue?"
+  26,  "Confirm Copy"
+  27,  "Profile not deleted completely. Error - "
+  28,  "Failed to set Security on the Destination Profile. Error - "
+  29,  "Failed to copy Registry file %s. Error - "
+  30,  "Backup"
+  31,  "Temporary"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "ReadOnly"
+  35,  "Performance Options"
+  36,  "To create new user accounts, <A>click here</A>."
+  37,  "Default Profile"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  55,  "netid.dll"
+  56,  "Windows created a temporary paging file on your computer because of a problem that occurred with your paging file configuration when you started your computer.  The total paging file size for all disk drives may be somewhat larger than the size you specified."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  75,  "(none)"
+  76,  "Small memory dump (128 KB)"
+  77,  "Kernel memory dump"
+  78,  "Complete memory dump"
+  79,  "Dump file:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  80,  "Small dump directory:"
+  81,  "Small memory dump (256 KB)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Insufficient memory for this operation;\r\rclose one or more Windows applications to increase available memory."
+  101,  "System Properties"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  114,  "Please enter a value between %d and %d seconds. "
+  118,  "Cannot open USER Environment section in Registry.\nPossible registry corruption. "
+  119,  "Cannot save new Environment variables in Registry.\nPossible registry corruption. "
+  121,  "You are not logged onto Windows as a member of the user group that has the right to view the workstation's Virtual Memory settings."
+  123,  "The initial paging file size must be between %d MB and %d MB, and cannot exceed the amount of free space on the drive you have selected."
+  124,  "Enter a maximum page file size that is greater than or equal to the initial page file size, and less than %d MB."
+  125,  "There is not enough space on this drive for the paging file size specified.  Please enter a smaller number or free some disk space."
+  126,  "Drive %c: is too small for the maximum paging file size specified.  Please enter a smaller number."
+  127,  "Could not read the current virtual memory settings."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  128,  "MB"
+  130,  "Drive %c: does not have enough free space for the maximum paging file size specified.  If you continue with this setting, the paging file will only grow to the size of the available free space."
+  131,  "Cannot open SYSTEM Environment section in Registry.\nPossible registry corruption."
+  132,  "You are not logged onto Windows as a member of the user group that has the right to view the workstation's Recovery settings."
+  135,  "Another file exists with the file name ""%s"".  Do you wish to overwrite the existing file with a page file?"
+  136,  "There is not enough space on this drive to create the page file size specified.  At least %d Megabytes of free disk space must be left after the page file is created.  Specify a smaller page file size or free some disk space."
+  138,  "Windows might not be able to record details that could help identify system errors because your current paging file is disabled or less than %d megabytes. Click OK to return to the Virtual Memory settings window, enable the paging file, and set the size to a value over %d megabytes, or click Cancel to change your memory dump selection."
+  139,  "If you disable the paging file or set the initial size to less than %d megabytes and a system error occurs, Windows might not record details that could help identify the problem. Do you want to continue?"
+  140,  "If you want to write debugging information to a file, you must enter a file name."
+  141,  "Debugging information can be written only to local, writable disk drives.  Please specify a path on a local disk drive."
+  142,  "The debugging information file path may be invalid or is currently inaccessible.  Do you wish to change it?"
+  143,  "The path for the debugging information file is too long.  Please specify a path that is less than %ld characters."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144,  "The debugging information file path must be a fully qualified path such as c:\\windir\\memory.log"
+  150,  "Enter a numeric value for the initial page file size."
+  151,  "Enter a numeric value for the maximum page file size."
+  152,  "The changes you have made require you to restart your computer before they can take effect."
+  153,  "Unable to determine the current paging file size.  The value reported as the current paging file size may be incorrect."
+  154,  "Cannot open SYSTEM Environment section in Registry.\nYou are not logged on as an administrator. "
+  155,  "Full memory dumps are not allowed for systems with more than 2GB of memory.\nPlease contact Microsoft Support for information on a workaround."
+  156,  "You cannot set a pagefile on a BitLocker volume that is locked. Please unlock the volume and try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  160,  "Variable"
+  161,  "Value"
+  164,  "System managed"
+  165,  "None"
+  170,  "Cannot open USER Environment section in Registry.\nYou are not logged on as an administrator. "
+  171,  "Cannot save new Environment variables in Registry.\nYou are not logged on as an administrator. "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "New System Variable"
+  201,  "Edit System Variable"
+  202,  "New User Variable"
+  203,  "Edit User Variable"
+  204,  "You must be logged on to this computer as an administrator to change Windows Update settings."
+  205,  "Computer Name"
+  206,  "Hardware"
+  207,  "Advanced"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "System Protection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3000,  "Directory <%.200s> could not be deleted. Please delete the directory and retry."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  14050,  "Data Execution Prevention"
+  14051,  "Executable Files@*.exe@"
+  14052,  "Disabling Data Execution Prevention for a Windows program or service\nmay expose your computer to damage from viruses or other threats.\n\nTo continue disabling Data Execution Prevention, click OK."
+  14053,  "You can not set DEP attributes on 64-bit executables."
+  14054,  "To use these settings, you must be a computer administrator and you must use the bcdedit.exe file. For more information, search the Microsoft Knowledge Base online."
+  14055,  "Your computer's processor does not support hardware-based DEP. However, Windows can use DEP software to help prevent some types of attacks."
+  14056,  "To change these settings, you must be an administrator for this computer."
+  14057,  "This program must run with data execution protection (DEP) enabled. You cannot turn off DEP for this program."
+  14058,  "Your computer's processor supports hardware-based DEP."
+}
+
