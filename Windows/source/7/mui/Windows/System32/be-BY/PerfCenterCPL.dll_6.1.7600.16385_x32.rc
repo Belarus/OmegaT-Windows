@@ -1,0 +1,254 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "Performance Information and Tools"
+  2,  "Get information about your computer's speed and performance. If solutions to performance problems are available, Windows lets you know."
+  3,  "Advanced Tools"
+  4,  "Advanced Tools"
+  10,  "Manage startup programs"
+  11,  "Adjust visual effects"
+  12,  "Adjust indexing options"
+  13,  "Adjust power settings"
+  14,  "Open disk cleanup"
+  15,  "Advanced tools"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Security center"
+  17,  "Problem reports and solutions"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  36,  "The performance settings on this computer are managed by your network administrator through Group Policy.  Your administrator has turned off the features on this page."
+  37,  "Windows is currently running in safe mode. Performance details are currently unavailable."
+  39,  "Windows Experience Index"
+  40,  "Rating this computer ..."
+  41,  "This might take a few minutes. Your screen might flash"
+  42,  "during the rating."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  48,  "Your Windows Experience Index has not yet been established."
+  49,  "Your Windows Experience Index needs to be refreshed"
+  52,  "New hardware detected"
+  53,  "Refresh Now"
+  54,  "(unrated)"
+  55,  "Unable to show performance details"
+  56,  "The Windows Experience Index is not applicable while on batteries."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  210,  "An error prevented the solution from being displayed."
+  211,  "Performance"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  402,  "Administrator privileges required"
+  403,  "Windows Experience Index score"
+  404,  "Exclamation image"
+  405,  "Lightbulb image"
+  406,  "Manufacturer's link image"
+  407,  "Windows Experience Index score (small)"
+  408,  "score"
+  409,  "Help"
+  410,  "Main Window"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  501,  "Component"
+  502,  "Details"
+  503,  "Subscore"
+  504,  "Base score"
+  505,  "Determined by lowest subscore"
+  506,  "System"
+  509,  "Total amount of system memory"
+  510,  "Storage"
+  511,  "Total size of hard disk(s)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  512,  "Graphics"
+  513,  "Display adapter type"
+  515,  "Primary monitor resolution"
+  516,  "Secondary monitor resolution"
+  517,  "%ix%i"
+  518,  "DirectX version"
+  519,  "Print this page"
+  520,  "Network"
+  521,  "Model"
+  522,  "Manufacturer"
+  523,  "Network Adapter"
+  524,  "More details about my computer"
+  525,  "%s GB"
+  526,  "%s MB"
+  527,  "%s KB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  528,  "%s B"
+  529,  "%s B"
+  530,  "%s RAM"
+  531,  "DirectX 9.0 or better"
+  532,  "DirectX 8 or earlier"
+  533,  "Disk partition (%c:)"
+  534,  "%s Free (%s Total)"
+  535,  "Media drive (%c:)"
+  536,  "DVD"
+  537,  "CD"
+  538,  "%s MB"
+  539,  "Total available graphics memory"
+  540,  "Shared system memory"
+  541,  "Dedicated graphics memory"
+  542,  "Dedicated system memory"
+  543,  "Not detected"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  544,  "System type"
+  545,  "Number of processor cores"
+  546,  "64-bit capable"
+  547,  "Yes"
+  548,  "No"
+  549,  "32-bit operating system"
+  550,  "64-bit operating system"
+  552,  "Display adapter driver version"
+  553,  "Notes"
+  554,  "The gaming graphics score is based on the primary graphics adapter.  If this system has linked or multiple graphics adapters, some software applications may see additional performance benefits."
+  555,  "Caution: Based on the results of the WinSAT Disk assessment, your system drive may have slower response times under some workloads. Performance results will depend on the specific applications used and the amount of memory available.   If your experience is satisfactory, no action is needed."
+  556,  "Your system disk may be capable of scoring higher than 5.9.  However, the test to determine this requires 1GB of contiguous free space.  Try deleting unused files, then running the Disk Defragmenter before re-running the assessment."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  600,  "View Details Error"
+  601,  "Could not display details page."
+  602,  "Create Details Error"
+  603,  "Could not create details page."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  650,  "Performance Information and Tools"
+  651,  "<a href=""help"">Click here for Windows help </a>"
+  652,  "The Windows Experience Index for your system could not be computed."
+  653,  "Windows was unable to calculate the Windows Experience Index."
+  654,  "Cannot read data from the registry"
+  655,  "Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  710,  "Standard VGA Graphics Adaptor"
+  711,  "Desktop performance for %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1100,  "Modify the schedule used to automatically defragment your hard disk."
+  1101,  "Component"
+  1102,  "What is rated"
+  1103,  "Subscore"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1104,  "Base score"
+  1110,  "View advanced information about your computer's performance"
+  1111,  "Determined by lowest subscore"
+  1112,  "View and print detailed performance and system information"
+  1113,  "What do these numbers mean?"
+  1115,  "Generate a system health report"
+  1116,  "View details about system health and performance."
+  1117,  "Enter Your Title"
+  1118,  "Default solutions text"
+  1119,  "The Windows Experience Index assesses key system components on a scale of 1.0 to 7.9."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1120,  "Your scores are current"
+  1121,  "Clear all Windows Experience Index scores and re-rate the system"
+  1122,  "Force a complete re-run of all Windows Experience Index tests."
+  1123,  "Open Resource Monitor"
+  1124,  "View real-time system resource usage and manage active services and applications."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1173,  "Open Disk Defragmenter"
+  1181,  "Tips for improving your computer's performance."
+  1182,  "Rate and improve your computer's performance"
+  1183,  "Performance issues"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184,  "No issues reported.  "
+  1185,  "Your computer has a Windows Experience Index base score of"
+  1186,  "Rate this computer"
+  1188,  "Re-run the assessment"
+  1189,  "View performance details in Event log"
+  1190,  "View details of problems affecting Windows performance."
+  1191,  "View advanced system details in System Information"
+  1192,  "View details about the hardware and software components on your computer."
+  1193,  "Adjust the appearance and performance of Windows"
+  1194,  "Select settings to change visual effects, processor and memory usage, and virtual memory."
+  1195,  "Open Performance Monitor"
+  1196,  "View graphs of system performance and collect data logs."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200,  "Last update: %LastChecked%"
+  1202,  "Open Task Manager"
+  1203,  "Get information about the programs and processes that are currently running on your computer."
+  1205,  "Learn more about scores and software online"
+  1207,  "View ways to increase your score"
+  1209,  "Processor:"
+  1210,  "Calculations per second"
+  1212,  "Memory (RAM):"
+  1213,  "Memory operations per second"
+  1215,  "Primary hard disk:"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216,  "Disk data transfer rate"
+  1218,  "Graphics:"
+  1219,  "Desktop performance for Aero"
+  1221,  "Gaming graphics:"
+  1222,  "3D business and gaming graphics performance"
+  1223,  "Use these tools to get additional performance information"
+}
+

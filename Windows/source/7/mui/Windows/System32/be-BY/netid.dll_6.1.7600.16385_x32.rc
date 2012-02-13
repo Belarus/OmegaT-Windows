@@ -1,0 +1,314 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+103 DIALOGEX 0, 0, 214, 221
+CAPTION "Computer Name/Domain Changes"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "(message goes here)", 1017, "Link Window", 0x50010000, 7, 7, 200, 40, 0x0
+  CONTROL "&Computer name:", 65535, Static, 0x50020000, 7, 48, 82, 8, 0x0
+  CONTROL "", 1002, Edit, 0x50810480, 7, 58, 200, 14, 0x0
+  CONTROL "Full computer name:", 1016, Static, 0x50020000, 7, 76, 200, 10, 0x0
+  CONTROL "", 1001, Edit, 0x50000880, 7, 86, 200, 14, 0x0
+  CONTROL "&More...", 1003, Button, 0x50010000, 157, 102, 50, 14, 0x0
+  CONTROL "Member of", 1018, Button, 0x50000007, 7, 121, 200, 73, 0x0
+  CONTROL "&Domain:", 1008, Button, 0x50030009, 17, 132, 119, 10, 0x0
+  CONTROL "&Workgroup:", 1004, Button, 0x50010009, 17, 161, 119, 10, 0x0
+  CONTROL "", 116, Edit, 0x50830080, 28, 142, 169, 14, 0x0
+  CONTROL "&Find my domain", 1010, Button, 0x48010000 | NOT WS_VISIBLE, 7, 200, 62, 14, 0x0
+  CONTROL "", 1007, Edit, 0x50810488, 28, 172, 169, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 103, 200, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 157, 200, 50, 14, 0x0
+}
+
+104 DIALOGEX 0, 0, 260, 125
+CAPTION "DNS Suffix and NetBIOS Computer Name"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Primary DNS suffix of this computer:", 65535, Static, 0x50020000, 7, 7, 113, 8, 0x0
+  CONTROL "", 1011, Edit, 0x50810080, 7, 17, 246, 14, 0x0
+  CONTROL "&Change primary DNS suffix when domain membership changes", 115, Button, 0x50010003, 7, 37, 225, 10, 0x0
+  CONTROL "&NetBIOS computer name:", 65535, Static, 0x50020000, 7, 57, 82, 8, 0x0
+  CONTROL "", 1013, Edit, 0x50810888, 7, 67, 133, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 149, 104, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 203, 104, 50, 14, 0x0
+  CONTROL "This name is used for interoperability with older computers and services.", 13, Static, 0x50020000, 7, 87, 225, 8, 0x0
+}
+
+106 DIALOGEX 0, 0, 214, 221
+CAPTION "Computer Name Changes"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "(message goes here)", 1017, "Link Window", 0x50010000, 7, 7, 200, 40, 0x0
+  CONTROL "&Computer name:", 65535, Static, 0x50020000, 7, 48, 82, 8, 0x0
+  CONTROL "", 1002, Edit, 0x50810480, 7, 58, 200, 14, 0x0
+  CONTROL "Full computer name:", 1016, Static, 0x50020000, 7, 76, 200, 10, 0x0
+  CONTROL "", 1001, Edit, 0x50000880, 7, 86, 200, 14, 0x0
+  CONTROL "&More...", 1003, Button, 0x50010000, 157, 102, 50, 14, 0x0
+  CONTROL "Member of", 1018, Button, 0x40000007 | NOT WS_VISIBLE, 7, 121, 200, 89, 0x0
+  CONTROL "(invisible don't touch)", 1008, Button, 0x48030009 | NOT WS_VISIBLE, 17, 132, 119, 10, 0x0
+  CONTROL "(invisible don't touch)", 1004, Button, 0x48010009 | NOT WS_VISIBLE, 17, 161, 119, 10, 0x0
+  CONTROL "", 116, Edit, 0x48830080 | NOT WS_VISIBLE, 28, 142, 169, 14, 0x0
+  CONTROL "(invisible don't touch)", 1010, Button, 0x48010000 | NOT WS_VISIBLE, 7, 200, 62, 14, 0x0
+  CONTROL "&Workgroup:", 65535, Static, 0x50020000, 7, 121, 52, 8, 0x0
+  CONTROL "", 1007, Edit, 0x50810488, 7, 131, 200, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 103, 200, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 157, 200, 50, 14, 0x0
+}
+
+112 DIALOGEX 6, 18, 252, 218
+CAPTION "Computer Name"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Computer &description:", 65535, Static, 0x50020000, 7, 35, 77, 8, 0x0
+  CONTROL "", 122, Edit, 0x50810080, 90, 33, 155, 12, 0x0
+  CONTROL "For example: ""Kitchen Computer"" or ""Mary's Computer"".", 13, Static, 0x50020000, 90, 50, 155, 17, 0x0
+  CONTROL "Full computer name:", 120, Static, 0x50020000, 7, 70, 77, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50000880, 90, 70, 155, 12, 0x0
+  CONTROL "Domain:", 117, Static, 0x50020000, 7, 85, 77, 8, 0x0
+  CONTROL "", 116, Edit, 0x50000880, 90, 85, 155, 12, 0x0
+  CONTROL "To use a wizard to join a domain or workgroup, click Network ID.", 1028, Static, 0x50020000, 7, 106, 168, 24, 0x0
+  CONTROL "&Network ID...", 119, Button, 0x50010000, 185, 106, 60, 14, 0x0
+  CONTROL "To rename this computer or change its domain or workgroup, click Change.", 1027, Static, 0x50020000, 7, 137, 168, 24, 0x0
+  CONTROL "&Change...", 115, Button, 0x50010000, 185, 137, 60, 14, 0x0
+  CONTROL "(message text appears here)", 1017, Static, 0x50000000, 7, 168, 238, 46, 0x0
+  CONTROL "", 113, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Windows uses the following information to identify your computer on the network.", 121, Static, 0x50000000, 40, 9, 205, 16, 0x0
+  CONTROL "", 1026, Static, 0x50000003, 7, 214, 20, 20, 0x0
+  CONTROL "Changes will take effect after you restart this computer.", 1019, Static, 0x50020000, 25, 215, 209, 16, 0x0
+}
+
+114 DIALOGEX 6, 18, 252, 218
+CAPTION "Computer Name"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Computer &description:", 65535, Static, 0x50020000, 7, 35, 77, 8, 0x0
+  CONTROL "", 122, Edit, 0x50810080, 90, 33, 155, 12, 0x0
+  CONTROL "For example: ""Kitchen Computer"" or ""Mary's Computer"".", 13, Static, 0x50020000, 90, 50, 155, 17, 0x0
+  CONTROL "Full computer name:", 120, Static, 0x50020000, 7, 70, 77, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50000880, 90, 70, 155, 12, 0x0
+  CONTROL "Workgroup:", 117, Static, 0x50020000, 7, 85, 77, 8, 0x0
+  CONTROL "", 116, Edit, 0x50000880, 90, 85, 155, 12, 0x0
+  CONTROL "To rename this computer or change its domain or workgroup, click Change.", 1027, Static, 0x50020000, 7, 106, 178, 24, 0x0
+  CONTROL "&Change...", 115, Button, 0x50010000, 195, 106, 50, 14, 0x0
+  CONTROL "(message text appears here)", 1017, Static, 0x50000000, 7, 168, 238, 46, 0x0
+  CONTROL "", 113, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Windows uses the following information to identify your computer on the network.", 121, Static, 0x50000000, 40, 9, 205, 16, 0x0
+  CONTROL "", 1026, Static, 0x50000003, 7, 214, 20, 20, 0x0
+  CONTROL "Changes will take effect after you restart this computer.", 1019, Static, 0x50020000, 25, 215, 209, 16, 0x0
+  CONTROL "(invisible don't touch)", 1028, Static, 0x48020000 | NOT WS_VISIBLE, 8, 110, 67, 8, 0x0
+  CONTROL "(invisible don't touch)", 119, Button, 0x48010000 | NOT WS_VISIBLE, 215, 71, 50, 14, 0x0
+}
+
+1020 DIALOGEX 6, 18, 252, 218
+CAPTION "Computer Name"
+STYLE 0x90c000c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Computer &description:", 65535, Static, 0x50020000, 7, 35, 77, 8, 0x0
+  CONTROL "", 122, Edit, 0x50810080, 90, 33, 155, 12, 0x0
+  CONTROL "For example: ""IIS Production Server"" or ""Accounting Server"".", 13, Static, 0x50020000, 90, 50, 155, 17, 0x0
+  CONTROL "Full computer name:", 120, Static, 0x50020000, 7, 70, 77, 8, 0x0
+  CONTROL "", 1001, Edit, 0x50000880, 90, 70, 155, 12, 0x0
+  CONTROL "Domain:", 117, Static, 0x50020000, 7, 85, 77, 8, 0x0
+  CONTROL "", 116, Edit, 0x50000880, 90, 85, 155, 12, 0x0
+  CONTROL "To rename this computer or change its domain or workgroup, click Change.", 1027, Static, 0x50020000, 7, 106, 178, 18, 0x0
+  CONTROL "&Change...", 115, Button, 0x50010000, 195, 106, 50, 14, 0x0
+  CONTROL "(message text appears here)", 1017, Static, 0x50020000, 7, 137, 238, 46, 0x0
+  CONTROL "", 113, Static, 0x50000003, 7, 7, 20, 20, 0x0
+  CONTROL "Windows uses the following information to identify your computer on the network.", 121, Static, 0x50000000, 40, 9, 205, 16, 0x0
+  CONTROL "", 1026, Static, 0x50000003, 7, 214, 20, 20, 0x0
+  CONTROL "Changes will take effect after you restart this computer.", 1019, Static, 0x50020000, 25, 215, 209, 16, 0x0
+  CONTROL "(invisible, don't touch)", 119, Button, 0x48010000 | NOT WS_VISIBLE, 163, 106, 82, 14, 0x0
+  CONTROL "(invisible don't touch)", 1028, Static, 0x48020000 | NOT WS_VISIBLE, 8, 110, 67, 8, 0x0
+}
+
+3209 DIALOGEX 0, 0, 305, 209
+CAPTION "(window title goes here)"
+STYLE 0x80c808c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 248, 7, 50, 14, 0x0
+  CONTROL "&Details >>", 3207, Button, 0x50010000, 248, 24, 50, 14, 0x0
+  CONTROL "", 3208, Edit, 0x50210804, 7, 103, 291, 99, 0x20000
+  CONTROL 32513, 4294967295, Static, 0x50000003, 7, 7, 21, 20, 0x0
+  CONTROL "(error message here)", 3212, Static, 0x50020000, 36, 7, 209, 78, 0x0
+  CONTROL "", 3221, Static, 0x50001004, 7, 92, 291, 1, 0x20000
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1,  "* Unknown *"
+  2,  "WORKGROUP"
+  3,  "The following error occurred while attempting to read domain membership information:"
+  4,  "Computer Name/Domain Changes"
+  5,  "Workgroup:"
+  6,  "Domain:"
+  7,  "The domain name ""%1"" does not conform to Internet Domain Name Service specifications, although it is a legal Microsoft name.  You must use Microsoft DNS server for non-standard names."
+  8,  "The domain name ""%1"" is not properly formatted.  Periods (.) are used to separate domains.  Each domain is limited to %2!d! characters.  Example: domain-1.microsoft.com."
+  9,  "The DNS name ""%1"" is too long.  The name may not be longer than %2!d! bytes."
+  10,  "The new computer name ""%1"" is too long.  The name may not be longer than %2!d! bytes."
+  11,  "The new computer name entered is not properly formatted.  Standard names may contain letters (a-z, A-Z), numbers (0-9), and hyphens (-), but no spaces or periods (.).  The name may not consist entirely of digits."
+  12,  "The following error occurred validating the name ""%1""."
+  13,  "The following error occurred attempting to join the domain ""%1"":"
+  14,  "The following error occurred attempting to change the computer name to ""%1"":"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  16,  "Changing the Primary Domain DNS name of this computer to ""%1"" failed. The name will remain ""%2"". \nThe error was:"
+  17,  "The following error occurred attempting to unjoin the domain ""%1"":"
+  18,  "The following error occurred attempting to join the workgroup ""%1"":"
+  19,  "The following error occurred attempting to rename the computer to ""%1"":"
+  20,  "This computer was disjoined from the domain ""%1"", but the computer account could not be disabled.  You should contact your network administrator with this information."
+  22,  "Welcome to the %1 workgroup."
+  23,  "Welcome to the %1 domain."
+  24,  "Before restarting, save any open files and close all programs."
+  25,  "You can change the name and the membership of this computer. Changes might affect access to network resources. <A>More information</A>"
+  26,  "You can change the name of this computer.  You must start the Workstation service before you can change this computer's domain membership."
+  27,  "Enter the name and password of an account with permission to rename this computer in the domain."
+  28,  "The NetBIOS name of the computer is limited to %1!d! bytes, which is %2!d! characters in this case.  The NetBIOS name will be shortened to ""%3"", which may cause conflicts under NetBIOS name resolution."
+  29,  "The computer name ""%1"" contains one or more non-standard characters. Standard characters include letters (A-Z, a-z), digits (0-9), and hyphens (-). Using a non-standard name will prevent other users from finding your computer on the network, unless your network is using the Microsoft DNS Server."
+  30,  "The computer name ""%1"" contains one or more characters that could not be converted to a NetBIOS name.  The error was:"
+  31,  "The NetBIOS name of the computer contains characters that are not allowed.  Characters that are not allowed in NetBIOS names include * = + [ ] \\ | ; : "" , < > / and ?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32,  "The following error occurred modifying the computer description."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  202,  "system32"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "An error with no description has occurred."
+  225,  "The system is low on memory. Close some programs, then click Retry.\r\nClick Cancel to attempt to continue."
+  226,  "Low Memory Error"
+  227,  "The operation failed. (0x%1!08X!)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1021,  "Note: Only Administrators can change the identification of this computer."
+  1022,  "Note: The identification of the computer cannot be changed because:"
+  1023,  "- The computer is a domain controller."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1024,  "- The Certification Authority Service is installed on this computer."
+  1025,  "- The Workstation service is not running. Open the Services snap-in (services.msc) to ensure it is running and set its Startup Type as ""Automatic""."
+  1029,  "The new computer name ""%1"" is a number.  The name may not be a number."
+  1030,  "The new computer name ""%1"" contains characters that are not allowed. Characters that are not allowed include ` ~ ! @ # $ %% ^ & * ( ) = + _ [ ] { } \\ | ; : . ' "" , < > / and ?"
+  1031,  "The first domain of the domain name ""%1"" is a number.  The first domain may not be a number."
+  1032,  "The domain name ""%1"" contains characters that are not allowed.  Standard DNS names may contain letters (a-z, A-Z), numbers (0-9), and hyphens, but no spaces.  Periods (.) are used to separate domains.  Example: domain-1.microsoft.com."
+  1033,  "The new computer name may not be the same as the Workgroup name."
+  1034,  "The new computer name may not be the same as the Domain name."
+  1035,  "- Active Directory is being installed or removed on this computer."
+  1036,  "- This computer has not been restarted since Active Directory was installed or removed."
+  1037,  "To rename this computer, click Change."
+  1038,  "- The computer is a domain controller undergoing upgrade. Please complete the Active Directory Installation Wizard."
+  1039,  "The Active Directory Installation Wizard is currently running. You must complete or exit the wizard before you can change the computer name or domain."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1040,  "- The Active Directory Installation Wizard is currently running. Please complete or exit the wizard."
+  1041,  "The computer is a domain controller undergoing upgrade. You must complete the Active Directory Installation Wizard before you can change the computer name or domain."
+  1042,  "The Certification Authority Service is installed on this computer. You must remove that service before you can change the computer name or domain."
+  1043,  "Active Directory is being installed or removed on this computer. The computer name or domain information cannot be changed."
+  1044,  "This computer has not been restarted since Active Directory was installed or removed. The computer name or domain information cannot be changed."
+  1045,  "The Workstation service is not running. The computer name or domain information cannot be changed. Open the Services snap-in (services.msc) to start the Workstation service and set its Startup Type as ""Automatic""."
+  1046,  "The following error occurred attempting to change the DNS suffix synchronization flag:"
+  1047,  "Enter the name and password of an account with permission to remove this computer from the domain."
+  1048,  "The NetBIOS computer name ""%1"" is a number.  The name may not be a number.  You must have at least one non-numeric character within the first %2!d! bytes of the computer name."
+  1049,  "The Workgroup name ""%1"" is too long.  The name may not be longer than %2!d! bytes."
+  1050,  "The computer cannot be joined to the domain ""%1"" because there is not enough disk space on either the computer or a domain controller of the domain."
+  1051,  "The join operation was not successful.  The error was:"
+  1052,  "Enter the name and password of an account with permission to join the domain."
+  1053,  "The computer failed to join the domain ""%1"". Please contact your domain administrator and indicate that the computer failed to update the dnsHostName and/or servicePrincipalName (SPN) attribute in its Active Directory computer account. Once the problem is resolved, you may join the computer to the ""%1"" domain."
+  1054,  "The computer failed to join the domain ""%1"". Please do one of the following: \n-- Configure the computer to update its primary DNS suffix when domain membership changes. \n-- Configure the computer's primary DNS suffix to match the Active Directory domain DNS name or any other allowed primary DNS suffix. For the list of the allowed DNS suffixes contact your domain administrator. \n-- Contact your domain administrator to allow computers that are members of the ""%1"" domain to have ""%2"" as their primary DNS suffix. \nOnce the recommended configuration is performed, you may join the computer to the ""%1"" domain."
+  1055,  "The attempt to rename the computer to ""%1"" failed. Please contact your domain administrator and indicate that the computer failed to update the dnsHostName and/or servicePrincipalName (SPN) attribute in its Active Directory computer account."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1056,  "The attempt to rename the computer to ""%1"" failed. Please do one of the following: \n-- Configure the computer's primary DNS suffix to match the Active Directory domain DNS name or any other allowed primary DNS suffix. For the list of the allowed DNS suffixes contact your domain administrator. \n-- Contact your domain administrator to allow computers that are members of the ""%2"" domain to have ""%3"" as their primary DNS suffix."
+  1059,  "Domain controllers cannot be moved from one domain to another, they must first be demoted. Renaming this domain controller may cause it to become temporarily unavailable to users and computers. For information on renaming domain controllers, including alternate renaming methods, see Help and Support. To continue renaming this domain controller, click OK."
+  1064,  "The following error occurred validating the name ""%1"".\n\nYou were not connected because a duplicate (potentially the shorter NETBIOS) name exists on the network. Choose a different name."
+  1065,  "- A computer running %WINDOWS_LONG% cannot be joined to a domain. "
+  1066,  "You can change the name and workgroup membership of this computer. You cannot join a computer running %WINDOWS_LONG% to a domain. <A>More information</A>"
+  1067,  "Do you want to use this non-standard computer name?"
+  1068,  "You must restart your computer to apply these changes"
+  1069,  "The name of this computer has been changed.  You must restart this computer for the name change to take effect before you can change its domain membership."
+  1070,  "The join operation was not successful. This could be because an existing computer account having name ""%1"" was previously created using a different set of credentials. Use a different computer name, or contact your administrator to remove any stale conflicting account.  The error was:"
+  1071,  "The name of this computer has been changed.  You must restart this computer for the previous name change to take effect before you can make further changes to its name or domain membership."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1072,  "The following error occurred validating the name ""%1"".\n\nA duplicate (potentially the shorter NETBIOS) name exists on the network. You should choose a different name. Would you still like to attempt this operation?"
+  1073,  "The following error occurred validating the name ""%1"".\n\nA duplicate (potentially the shorter NETBIOS) name exists on the network. You should choose a different name for this computer."
+  1074,  "You do not have an active local SAM admin account. Please enable or create an admin account before you disjoin the domain."
+  1075,  "After you leave the domain, you will need to know the password of the local administrator account to log in to your computer. Click OK to continue."
+  1076,  "The following error occurred when checking domain functional level: %1"
+  1077,  "You cannot change the name of this computer, because it is a domain controller of a domain with Win2000 domain functionality."
+  1078,  "After you leave the domain, you will need to know the password of the local administrator account to log in to your computer. Click OK to continue."
+  1079,  "Changing the Primary Domain DNS name of this computer to ""%1"" failed. The name will remain ""%2"". Please check if ""%1"" is valid for current domain. \nThe error was:"
+  1080,  "Enter the name and password of an account with permission to update the DNS name for this computer in the domain."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3201,  "(no addresses found)"
+  3202,  ". (the root zone)"
+  3203,  "The error was: ""%1""\r\n(error code 0x%2!08X! %3)"
+  3204,  "The following error occurred when DNS was queried for the service location (SRV) resource record used to locate an Active Directory Domain Controller (AD DC) for domain ""%1"":\r\n\r\n%2\r\n\r\nThe query was for the SRV record for %3\r\n\r\nCommon causes of this error include the following:\r\n\r\n- The DNS servers used by this computer contain incorrect root hints. This computer is configured to use DNS servers with the following IP addresses:\r\n\r\n%4\r\n- One or more of the following zones contains incorrect delegation:\r\n\r\n%5\r\n\r\n"
+  3206,  "The following error occurred when DNS was queried for the service location (SRV) resource record used to locate an Active Directory Domain Controller (AD DC) for domain ""%1"":\r\n\r\n%2\r\n\r\nThe query was for the SRV record for %3\r\n\r\nThe DNS servers used by this computer for name resolution are not responding. This computer is configured to use DNS servers with the following IP addresses:\r\n\r\n%4\r\nVerify that this computer is connected to the network, that these are the correct DNS server IP addresses, and that at least one of the DNS servers is running.\r\n\r\n"
+  3210,  "&Details >>"
+  3211,  "An Active Directory Domain Controller (AD DC) for the domain ""%1"" could not be contacted.\r\n\r\nEnsure that the domain name is typed correctly.\r\n\r\nIf the name is correct, click Details for troubleshooting information."
+  3213,  "No diagnostic information is available."
+  3214,  "The domain name ""%1"" might be a NetBIOS domain name.  If this is the case, verify that the domain name is properly registered with WINS.\r\n\r\nIf you are certain that the name is not a NetBIOS domain name, then the following information can help you troubleshoot your DNS configuration.\r\n\r\n"
+  3215,  "The following error occurred when DNS was queried for the service location (SRV) resource record used to locate an Active Directory Domain Controller (AD DC) for domain ""%1"":\r\n\r\n%2\r\n\r\nThe query was for the SRV record for %3\r\n\r\nCommon causes of this error include the following:\r\n\r\n- The DNS SRV records required to locate a AD DC for the domain are not registered in DNS. These records are registered with a DNS server automatically when a AD DC is added to a domain. They are updated by the AD DC at set intervals. This computer is configured to use DNS servers with the following IP addresses:\r\n\r\n%5\r\n- One or more of the following zones do not include delegation to its child zone:\r\n\r\n%4\r\n\r\n"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3216,  "(no Active Directory Domain Controllers found)"
+  3217,  "DNS was successfully queried for the service location (SRV) resource record used to locate a domain controller for domain ""%1"":\r\n\r\nThe query was for the SRV record for %2\r\n\r\nThe following domain controllers were identified by the query:\r\n%3\r\n\r\nHowever no domain controllers could be contacted.\r\n\r\nCommon causes of this error include:\r\n\r\n- Host (A) or (AAAA) records that map the names of the domain controllers to their IP addresses are missing or contain incorrect addresses.\r\n\r\n- Domain controllers registered in DNS are not connected to the network or are not running.\r\n\r\n"
+  3218,  "DNS was successfully queried for the service location (SRV) resource record used to locate a domain Controller for domain ""%1"":\r\n\r\nThe query was for the SRV record for %2\r\n\r\nHowever, no domain controllers were identified in the query results. This might be because the domain controllers have been registered with the incorrect record type.\r\n\r\n"
+  3219,  "An error occurred when DNS was queried for the service location (SRV) resource record used to locate an Active Directory Domain Controller (AD DC) for domain ""%1"".\r\n\r\n%2\r\n\r\nThe query was for the SRV record for %3\r\n\r\n"
+  3220,  "<< &Details"
+  3222,  "Active Directory Domain Controller Not Found"
+  3223,  "Note: This information is intended for a network administrator.  If you are not your network's administrator, notify the administrator that you received this information, which has been recorded in the file %1.\r\n\r\n"
+  3224,  "Note: This information is intended for a network administrator.  If you are not your network's administrator, notify the administrator that you received this information.\r\n\r\n"
+}
+

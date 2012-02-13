@@ -1,0 +1,183 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+512 DIALOGEX 0, 0, 205, 63
+CAPTION "Disable Offline Files"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "OK", 1, Button, 0x50010001, 73, 42, 50, 14, 0x0
+  CONTROL "Remote connections are not supported when Offline Files are in use. Please <A>disable Offline File support</A> first.", 537, "Link Window", 0x50010000, 7, 7, 191, 29, 0x0
+}
+
+513 DIALOGEX 0, 0, 250, 185
+CAPTION "Remote Desktop Users"
+STYLE 0x80c820c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "The users listed below can connect to this computer, and any members of the Administrators group can connect even if they are not listed.", 550, Static, 0x50020000, 7, 7, 236, 19, 0x0
+  CONTROL "List1", 531, "SysListView32", 0x5081c013, 7, 26, 236, 58, 0x200, 0x3a9a
+  CONTROL "... already has access", 542, Static, 0x40020000 | NOT WS_VISIBLE, 7, 93, 236, 10, 0x0
+  CONTROL "A&dd...", 532, Button, 0x50010000, 7, 107, 50, 14, 0x0, 0x3a9b
+  CONTROL "&Remove", 533, Button, 0x50010000, 62, 107, 50, 14, 0x0, 0x3a9c
+  CONTROL "To create new user accounts or add users to other groups, go to Control Panel and open <A>User Accounts</A>.", 534, "Link Window", 0x50010000, 7, 128, 236, 29, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 136, 164, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 193, 164, 50, 14, 0x0
+}
+
+514 DIALOGEX 0, 0, 256, 226
+CAPTION "Remote"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 500, 551, Static, 0x50000003, 6, 6, 21, 20, 0x0
+  CONTROL "Select the ways that this computer can be used from another location.", 550, Static, 0x50020000, 31, 6, 213, 23, 0x0
+  CONTROL "Remote Assistance", 553, Button, 0x50000007, 6, 36, 244, 100, 0x0
+  CONTROL "Allow &Remote Assistance connections to this computer", 556, Button, 0x50012003, 12, 50, 232, 16, 0x0
+  CONTROL "<A>What happens when I enable Remote Assistance?</A>", 557, "Link Window", 0x50010000, 12, 74, 232, 18, 0x0
+  CONTROL "Ad&vanced...", 555, Button, 0x50010000, 181, 114, 62, 14, 0x0
+}
+
+703 DIALOGEX 0, 0, 268, 121
+CAPTION "Remote Desktop Connection"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 603, Static, 0x50000003, 11, 11, 20, 20, 0x0
+  CONTROL "Remote Desktop Firewall exception will be enabled", 4294967295, Static, 0x50020000, 46, 7, 172, 8, 0x0
+  CONTROL "You chose to enable Remote Desktop Connection for all network connections on this computer.", 4294967295, Static, 0x50020000, 46, 23, 172, 16, 0x0
+  CONTROL "To enable it for selected network connections, open", 4294967295, Static, 0x50020000, 46, 55, 172, 16, 0x0
+  CONTROL "<A>Windows Firewall with Advanced Security</A>", 704, "Link Window", 0x50010000, 46, 75, 166, 8, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 108, 100, 50, 14, 0x0
+}
+
+710 DIALOGEX 0, 0, 248, 80
+CAPTION "Remote Desktop"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "", 603, Static, 0x50000003, 11, 11, 20, 20, 0x0
+  CONTROL "This computer is set up to go to sleep or hibernation when not in use. While the computer sleeps or hibernates, people cannot connect to it remotely. To change this setting, go to <A>Power Options</A> in Control Panel.", 709, "Link Window", 0x50010000, 46, 11, 162, 40, 0x0
+  CONTROL "OK", 1, Button, 0x50010001, 99, 60, 50, 14, 0x0
+}
+
+9000 DIALOGEX 0, 0, 256, 226
+CAPTION "Remote"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Remote Assistance", 9004, Button, 0x50000007, 6, 6, 244, 88, 0x0
+  CONTROL "Allow &Remote Assistance connections to this computer", 556, Button, 0x50012003, 12, 20, 232, 16, 0x0
+  CONTROL "<A>What happens when I enable Remote Assistance?</A>", 557, "Link Window", 0x50010000, 12, 44, 232, 18, 0x0
+  CONTROL "Ad&vanced...", 555, Button, 0x50010000, 181, 77, 62, 14, 0x0
+  CONTROL "Allow users to &connect remotely to this computer", 530, Button, 0x50010003, 12, 101, 232, 10, 0x0, 0x3a99
+  CONTROL "<A>What is Remote Desktop?</A>", 539, "Link Window", 0x50010000, 23, 141, 221, 10, 0x0
+  CONTROL "&Select Remote Users...", 541, Button, 0x50010000, 147, 154, 96, 14, 0x0
+  CONTROL "Remote Desktop", 9005, Button, 0x50000007, 6, 89, 244, 126, 0x0
+  CONTROL "Full computer name:", 9007, Static, 0x50020000, 24, 115, 117, 8, 0x0
+  CONTROL "?", 538, Static, 0x50020000, 23, 128, 220, 8, 0x0
+  CONTROL "All&ow connections only from computers running Windows Vista", 543, Button, 0x50010003, 24, 140, 220, 14, 0x0
+  CONTROL "<A>Windows Firewall</A> will be configured to allow Remote Desktop connections to this computer.", 9003, "Link Window", 0x50010000, 18, 194, 228, 20, 0x0
+}
+
+9001 DIALOGEX 0, 0, 256, 226
+CAPTION "Remote"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Remote Assistance", 9004, Button, 0x50000007, 6, 6, 244, 98, 0x0
+  CONTROL "Allow &Remote Assistance connections to this computer", 556, Button, 0x50012003, 12, 20, 232, 16, 0x0
+  CONTROL "<A>What happens when I enable Remote Assistance?</A>", 557, "Link Window", 0x50010000, 12, 44, 232, 18, 0x0
+  CONTROL "Ad&vanced...", 555, Button, 0x50010000, 180, 84, 62, 14, 0x0
+  CONTROL "Remote Desktop", 9005, Button, 0x50000007, 5, 112, 244, 99, 0x0
+  CONTROL "&Enable Remote Desktop on this computer", 530, Button, 0x50010003, 11, 126, 172, 10, 0x0, 0x3a99
+  CONTROL "Important: To allow user to connect remotely to this computer, you must add them to the Remote Desktop Users Group. For step-by-step instructions, see <A>To add users to the Remote Desktop Users group</A>.", 9009, "Link Window", 0x50010000, 23, 139, 218, 32, 0x0
+  CONTROL "All&ow connections only from computers running Windows Vista", 543, Button, 0x50010003, 24, 172, 220, 14, 0x0
+  CONTROL "For more information, see <A>Remote Desktop Session Host Server Help</A>.", 539, "Link Window", 0x50010000, 23, 194, 218, 14, 0x0
+}
+
+9002 DIALOGEX 0, 0, 256, 226
+CAPTION "Remote"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Remote Assistance", 9004, Button, 0x50000007, 6, 6, 244, 76, 0x0
+  CONTROL "Allow &Remote Assistance connections to this computer", 556, Button, 0x50012003, 12, 20, 232, 16, 0x0
+  CONTROL "<A>What happens when I enable Remote Assistance?</A>", 557, "Link Window", 0x50010000, 12, 45, 165, 18, 0x0
+  CONTROL "Ad&vanced...", 555, Button, 0x50010000, 181, 60, 62, 14, 0x0
+  CONTROL "Remote Desktop", 9005, Button, 0x50000007, 6, 93, 244, 124, 0x0
+  CONTROL "", 706, Static, 0x40000003 | NOT WS_VISIBLE, 12, 111, 16, 16, 0x0
+  CONTROL "<A>You must enable the Windows Firewall exception for Remote Desktop.</A>", 702, "Link Window", 0x50010000, 23, 111, 224, 16, 0x0
+  CONTROL "Click an option, and then specify who can connect, if needed.", 708, Static, 0x50020000, 12, 111, 219, 8, 0x0
+  CONTROL "&Don't allow connections to this computer", 600, Button, 0x50010409, 12, 130, 196, 10, 0x0
+  CONTROL "A&llow connections from computers running any version of Remote Desktop (less secure)", 601, Button, 0x50012409, 12, 148, 196, 17, 0x0
+  CONTROL "Allow connections only from computers running Remote Desktop with &Network Level Authentication (more secure)", 602, Button, 0x50012409, 12, 172, 196, 17, 0x0
+  CONTROL "", 603, Static, 0x40000003 | NOT WS_VISIBLE, 11, 174, 16, 16, 0x0
+  CONTROL "This computer supports multiple RDP listeners. Use Remote Desktop Session Host Configuration Tool or Group Policy to set up user authentication.", 16000, Static, 0x40020000 | NOT WS_VISIBLE, 23, 170, 224, 26, 0x0
+  CONTROL "<A>Help me choose</A>", 539, "Link Window", 0x50010000, 12, 200, 120, 14, 0x0
+  CONTROL "&Select Users...", 541, Button, 0x50010000, 181, 196, 62, 14, 0x0
+}
+
+17000 DIALOGEX 0, 0, 256, 127
+CAPTION "Remote"
+STYLE 0x80c800c0
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Remote Desktop", 9005, Button, 0x50000007, 6, 4, 244, 114, 0x0
+  CONTROL "Click an option, and then specify who can connect, if needed.", 4294967295, Static, 0x50020000, 12, 17, 219, 8, 0x0
+  CONTROL "&Don't allow connections to this computer", 600, Button, 0x50010009, 12, 31, 196, 10, 0x0
+  CONTROL "Allow connections from computers running any version of &Remote Desktop", 601, Button, 0x50012009, 12, 49, 196, 16, 0x0
+  CONTROL "Allow connections only from computers running Remote Desktop with &Network Level Authentication", 602, Button, 0x50012009, 12, 72, 196, 16, 0x0
+  CONTROL "<A>Help me choose</A>", 539, "Link Window", 0x50010000, 12, 97, 120, 14, 0x0
+  CONTROL "&Select Users...", 541, Button, 0x50010000, 181, 97, 62, 14, 0x0
+  CONTROL "", 603, Static, 0x40000003 | NOT WS_VISIBLE, 11, 71, 21, 20, 0x0
+  CONTROL "This computer supports multiple RDP listeners. Use Remote Desktop Session Host Configuration Tool or Group Policy to set up user authentication.", 16000, Static, 0x40020000 | NOT WS_VISIBLE, 24, 69, 220, 26, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  520,  "Cannot save settings in Registry."
+  521,  "The following error occurred while attempting to save properties for group %s on computer %s:"
+  522,  "Remote Sessions"
+  523,  "The controls on this property page are disabled because you do not have sufficient privileges to access them.\nPlease contact your administrator."
+  524,  "Remote Desktop cannot be enabled at this time.  Log off, log back on, and then enable Remote Desktop."
+  525,  "%s already has access."
+  526,  "User accounts must have passwords.\n\nAny user account that you use to connect remotely must have a password. Also, if you are sharing an Internet connection or using a firewall, the correct port must be open to allow remote connections."
+  527,  "Remote"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  605,  "Remote Desktop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  705,  "This setting cannot be enabled because the listener settings have been deleted. Use Remote Desktop Session Host Configuration tool to create a new listener."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10000,  "Remote"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11010,  "Users cannot connect remotely to this computer because port 3389 could not be opened in Windows Firewall"
+  11012,  "The Windows Firewall service is not running\n\nWindows cannot automatically enable or disable Remote Desktop because the Windows Firewall service is not running.\n\nTo fix this problem, open Control Panel, click Administrative Tools, click Services, double-click Windows Firewall, and then click Start. Then, on the Remote tab in System Properties, enable or disable Remote Desktop."
+}
+

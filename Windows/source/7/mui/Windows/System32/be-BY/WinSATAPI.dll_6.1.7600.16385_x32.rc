@@ -1,0 +1,111 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  105,  "ERROR: WinSAT failed to run"
+  106,  "ERROR: Unable to communicate with WinSAT"
+  107,  "ERROR: Unable to create cancel Event"
+  108,  "ERROR: Unable to create a thread for asynchronous communication with WinSAT"
+  109,  "ERROR: The XML returned from WinSAT was malformed"
+  110,  "ERROR: Unable to execute the XPath command: %ws"
+  111,  "ERROR: Cannot Initiate Assessment due to Win32 Error\n       %s"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  112,  "Microsoft"
+  113,  "Microsoft Windows System Assessment Tool (WinSAT)"
+  114,  "Measures a system's performance and capabilities"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10000,  "%s Free (%s Total)"
+  10001,  "MB Total available graphics memory"
+  10002,  "Memory (RAM):"
+  10003,  "MB/s"
+  10004,  "Processor:"
+  10005,  "MB/s"
+  10006,  "Primary hard disk:"
+  10007,  "MB/s"
+  10008,  "Graphics:"
+  10009,  "F/s"
+  10010,  "Gaming graphics:"
+  10011,  "F/s"
+  10012,  "ERROR: Out of memory"
+  10013,  "Windows Experience Index"
+  10014,  "Windows Experience Index : Unrated"
+  10015,  "shell::::{26EE0668-A00A-44D7-9371-BEB064C98683}\0\\::{78F3955E-3B90-4184-BD14-5397C15F1EFC}"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10016,  "Not detected"
+  10017,  "Not detected"
+  10018,  "Information not available from remote desktop"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11001,  "The WinSAT API is not initialized"
+  11002,  "The WinSAT API is in use by another program"
+  11003,  "Cannot get the system directory"
+  11006,  "WinSAT.EXE is not running"
+  11007,  "Waiting for an event timed out"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11008,  "Waiting for an event was abandoned"
+  11009,  "The WinSAT command line is empty"
+  11010,  "The WinSAT command line is too long"
+  11011,  "WinSAT could not be initiated"
+  11012,  "The window handle is invalid"
+  11013,  "Cannot start WinSAT"
+  11014,  "Cannot connect to WinSAT"
+  11015,  "The string is too large"
+  11016,  "The data does not belong to the WiNSAT API"
+  11017,  "The WinSAT.EXE program does not exist"
+  11018,  "There are no WinSAT results available"
+  11019,  "Bad WinSAT information type requested"
+  11020,  "Assessment is running"
+  11021,  "WinSAT completed successfully"
+  11022,  "Assessment could not complete due to interference"
+  11023,  "An error caused winsat to fail"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11024,  "WinSAT was canceled"
+  11025,  "The command passed to WinSAT was invalid"
+  11026,  "WinSAT not run with Administrator privileges"
+  11027,  "WinSAT is already running"
+}
+
+1 MESSAGETABLE
+{
+  805306368,  "Info\r\n"
+  805306369,  "Start\r\n"
+  805306370,  "Stop\r\n"
+  1342177280,  "Log Always\r\n"
+  1342177284,  "Information\r\n"
+  2952790016,  "%1 %2 %3 %4\r\n"
+  2952790017,  "WinSAT Application Start: %1\r\n"
+  2952790018,  "WinSAT Application Command Line %2\r\n"
+  2952790019,  "WinSAT Application Stop: %1\r\n"
+  2952790020,  "ERROR: %3\r\n"
+  2952790021,  "COM ERROR: %4 %6\r\n"
+  2952790022,  "ERROR: %2\r\n"
+  2952790023,  "ERROR: %1 %3\r\n"
+  2952790024,  "%2\r\n"
+  2952790025,  "%1:%3\r\n"
+  2952790026,  "%1\r\n"
+}

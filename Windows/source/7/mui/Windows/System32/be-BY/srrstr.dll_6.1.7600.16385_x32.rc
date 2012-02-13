@@ -1,0 +1,198 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+12 DIALOGEX 32, 10, 260, 218
+CAPTION "System Protection"
+STYLE 0x90c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 101, 4294967295, Static, 0x50000003, 7, 7, 10, 10, 0x0
+  CONTROL "Use system protection to undo unwanted system changes and restore previous versions of files. <a id=""e9911b8c-818c-487d-8dd6-349a9cd36649"">What is system protection?</a>", 1210, "SysLink", 0x50010002, 35, 7, 205, 24, 0x0
+  CONTROL "System Restore", 4294967295, Static, 0x50020000, 7, 41, 50, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50001008, 59, 45, 185, 1, 0x0
+  CONTROL "You can undo system changes by reverting your computer to a previous restore point.", 319, Static, 0x50020000, 10, 58, 140, 24, 0x0
+  CONTROL "&System Restore...", 1211, Button, 0x50010000, 151, 59, 105, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50001008, 69, 104, 180, 1, 0x0
+  CONTROL "Protection Settings", 4294967295, Static, 0x50030000, 7, 100, 60, 8, 0x0
+  CONTROL "", 1204, "SysListView32", 0x5031000d, 14, 112, 227, 50, 0x200
+  CONTROL "Configure restore settings, manage disk space, and delete restore points.", 1202, Static, 0x50020000, 14, 170, 155, 24, 0x0
+  CONTROL "C&onfigure...", 1217, Button, 0x50010000, 172, 170, 70, 14, 0x0
+  CONTROL "Create a restore point right now for the drives that have system protection turned on.", 1212, Static, 0x50020000, 14, 198, 155, 24, 0x0
+  CONTROL "&Create...", 1206, Button, 0x50010000, 172, 198, 70, 14, 0x0
+}
+
+1240 DIALOGEX 32, 10, 270, 267
+CAPTION ""
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Restore Settings", 4294967295, Static, 0x50020000, 7, 4, 80, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50001008, 65, 8, 195, 1, 0x0
+  CONTROL "System Protection can keep copies of system settings and previous versions of files. Select what you would like to be able to restore:", 1234, Static, 0x50020000, 14, 16, 240, 16, 0x0
+  CONTROL "Restore system settings and previous versions of files", 1223, Button, 0x50000009, 24, 36, 230, 10, 0x0
+  CONTROL "Only restore previous versions of files", 1224, Button, 0x50000009, 24, 50, 230, 10, 0x0
+  CONTROL "Turn off system protection", 1225, Button, 0x50000009, 24, 64, 230, 10, 0x0
+  CONTROL "", 1235, Static, 0x50000003, 10, 80, 20, 40, 0x0
+  CONTROL "Using system protection on a drive that contains system image backups will cause other shadow copies to be deleted faster than normal", 340, Static, 0x50020000, 40, 80, 210, 40, 0x0
+  CONTROL "Disk Space Usage", 4294967295, Static, 0x50020000, 7, 104, 80, 8, 0x0
+  CONTROL "", 4294967295, Static, 0x50001008, 69, 108, 191, 1, 0x0
+  CONTROL "You can adjust the maximum disk space used for system protection. As space fills up, older restore points will be deleted to make room for new ones.", 4294967295, Static, 0x50020000, 14, 120, 246, 28, 0x0
+  CONTROL "Current Usage:", 4294967295, Static, 0x50020000, 14, 152, 70, 8, 0x0
+  CONTROL "", 1232, Static, 0x50020000, 80, 152, 100, 8, 0x0
+  CONTROL "&Max Usage:", 4294967295, Static, 0x50020000, 14, 173, 70, 8, 0x0
+  CONTROL "&M", 1221, "msctls_trackbar32", 0x50030001, 74, 171, 184, 20, 0x0
+  CONTROL "", 1230, Static, 0x50020000, 125, 192, 100, 8, 0x0
+  CONTROL "Delete all restore points (this includes system settings and previous versions of files).", 1228, Static, 0x50020000, 14, 210, 176, 30, 0x0
+  CONTROL "&Delete", 1226, Button, 0x50010000, 210, 213, 50, 14, 0x0
+  CONTROL "", 4294967295, Static, 0x50001008, 7, 235, 252, 1, 0x200
+  CONTROL "&OK", 1, Button, 0x50010001, 99, 245, 50, 14, 0x0
+  CONTROL "&Cancel", 2, Button, 0x50010000, 154, 245, 50, 14, 0x0
+  CONTROL "&Apply", 1231, Button, 0x58010000, 209, 245, 50, 14, 0x0
+}
+
+1241 DIALOGEX 0, 0, 186, 34
+CAPTION "System Protection"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Deleting all restore points...", 4294967295, Static, 0x50020000, 7, 6, 172, 9, 0x0
+  CONTROL "", 1402, "msctls_progress32", 0x50800000, 7, 19, 172, 8, 0x0
+}
+
+1301 DIALOGEX 0, 0, 270, 110
+CAPTION "System Protection"
+STYLE 0x80c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Create a restore point", 1210, Static, 0x50020000, 7, 7, 254, 14, 0x0
+  CONTROL "Type a description to help you identify the restore point. The current date and time are added automatically.", 1302, "SysLink", 0x50010002, 7, 25, 259, 23, 0x0
+  CONTROL "", 1303, Edit, 0x50810080, 7, 53, 256, 14, 0x0
+  CONTROL "", 1306, Static, 0x50000010, 0, 80, 271, 1, 0x0
+  CONTROL "&Create", 1, Button, 0x50010001, 158, 88, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 212, 88, 50, 14, 0x0
+}
+
+1401 DIALOGEX 0, 0, 186, 34
+CAPTION "System Protection"
+STYLE 0x80c000c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 400, 0, 0
+{
+  CONTROL "Creating a restore point...", 4294967295, Static, 0x50020000, 7, 6, 172, 9, 0x0
+  CONTROL "", 1402, "msctls_progress32", 0x50800000, 7, 19, 172, 8, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  256,  "System Protection"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  272,  "Monitoring"
+  274,  "Turned off"
+  278,  "Available Drives"
+  279,  "Status"
+  282,  "Offline"
+  283,  "Configuration is disabled by your system administrator."
+  284,  "Existing restore points on the drive will be deleted and new restore points will not be created."
+  285,  "Existing restore points on the disk will be deleted and new restore points will not be created. You will not be able to use System Restore to undo unwanted system changes on all drive."
+  286,  "Restore point creation is disabled by your system administrator."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  297,  "System Checkpoint"
+  298,  "There was an unexpected error in the property page:\r\n\r\n%1!s!\r\n\r\n Please close the property page and try again."
+  300,  "Most recent restore point"
+  301,  "None"
+  302,  "Restore Points"
+  303,  "Are you sure you want to turn off system protection on this drive?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  304,  "Are you sure you want to turn off system protection on this drive?"
+  305,  "Are you sure you want to stop protecting your system settings on this disk?"
+  306,  "Scheduled Checkpoint"
+  307,  "You will not be able to use System Restore to undo unwanted system changes."
+  308,  "Could not apply the settings for the following reason:\r\n%1!s!"
+  309,  "Could not create the scheduled task for the following reason:\r\n%1!s!"
+  310,  "Could not delete the scheduled task for the following reason:\r\n%1!s!"
+  311,  "Could not configure the disk space used for system protection for the following reason:\r\n%1!s!"
+  312,  "Could not rescan the drives for the following reason:\r\n%1!s!"
+  313,  "Missing drive"
+  314,  "Searching..."
+  315,  "Create a restore point right now for the drives that have system protection turned on."
+  316,  "To create a restore point, first enable protection by selecting a drive and clicking Configure."
+  317,  "(System)"
+  318,  "(Missing)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  320,  "Microsoft Corporation"
+  321,  "Microsoft Corporation"
+  322,  "This task creates regular system protection points."
+  323,  "Usage"
+  324,  "Protection"
+  325,  "Off"
+  326,  "On"
+  329,  "You will not be able to undo unwanted system changes or restore previous versions of files on this drive. Are you sure you want to continue?"
+  332,  "KB"
+  333,  "MB"
+  334,  "GB"
+  335,  "TB"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  336,  "bytes"
+  337,  "Some of your older restore points will be deleted, are you sure you want to continue?"
+  338,  "Your new disk space setting is not large enough to store all existing restore points."
+  340,  "Using system protection on a drive that contains other shadow copies will cause older system restore points to be deleted faster than normal."
+  341,  "You will not be able to undo your programs and system settings using System Restore"
+  342,  "You will not be able to obtain previous versions of your files"
+  343,  "Protecting your system allows you to undo unwanted system changes. Protecting your documents allows you to restore previous versions of your files."
+  344,  "System Restore is disabled by your system administrator."
+  345,  "This will delete all restore points on this drive. This might include older system image backups."
+  346,  "&Continue"
+  347,  "Cl&ose"
+  348,  "Cancel"
+  349,  "No"
+  350,  "Yes"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1250,  "System Protection for "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1304,  "The restore point could not be created for the following reason:\r\n\r\n%1!s!\r\n\r\nPlease try again."
+  1305,  "The restore point was created successfully."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1403,  "The restore points were deleted successfully."
+  1404,  "The restore points could not be deleted for the following reason:\r\n\r\n%1!s!\r\n\r\nPlease try again."
+  1405,  "%1!lu!%% (%2)"
+  1406,  "%1!lu! bytes"
+  1407,  "%1 %2"
+}
+
