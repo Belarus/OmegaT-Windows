@@ -1,0 +1,253 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+3050 DIALOGEX 0, 0, 317, 154
+CAPTION "Discovery Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Windows will continue to look for new devices and display them here.", 4414, Static, 0x40000000 | NOT WS_VISIBLE, 0, 0, 310, 16, 0x0
+  CONTROL "", 4410, Static, 0x40000000 | NOT WS_VISIBLE, 0, 18, 310, 110, 0x0
+  CONTROL "<A>What if Windows doesn’t find my device?</A>", 4427, "SysLink", 0x40010000 | NOT WS_VISIBLE, 0, 146, 317, 8, 0x0
+  CONTROL "Connecting to device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 293, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+}
+
+3052 DIALOGEX 0, 0, 317, 154
+CAPTION "PIN Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "This will verify that you are connecting to the correct device.", 4442, Static, 0x50020000, 0, 0, 220, 16, 0x0
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4425, Edit, 0x50810080, 0, 20, 80, 12, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "The code is either displayed on your device or in the information that came with the device.", 4294967295, Static, 0x50020000, 0, 34, 220, 24, 0x0
+  CONTROL "", 4294967294, Static, 0x40020000 | NOT WS_VISIBLE, 10, 95, 210, 40, 0x0
+  CONTROL "<A>What if I can’t find the device pairing code?</A>", 4427, "SysLink", 0x50010000, 0, 146, 317, 8, 0x0
+  CONTROL "Adding device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 288, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+  CONTROL "", 4428, Static, 0x40000003 | NOT WS_VISIBLE, 0, 95, 8, 8, 0x0
+}
+
+3053 DIALOGEX 0, 0, 317, 154
+CAPTION "Passkey Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "This will verify that you are connecting to the correct device.", 4442, Static, 0x50020000, 0, 0, 220, 16, 0x0
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "", 4440, Static, 0x50020000, 0, 20, 220, 24, 0x0
+  CONTROL "Note:", 4446, Static, 0x50020000, 0, 48, 220, 8, 0x0
+  CONTROL "After you type this code, you might need to press Enter, OK, or a similar button on your device.", 4294967295, Static, 0x50020000, 0, 58, 220, 24, 0x0
+  CONTROL "<A>How do I enter this code on my device?</A>", 4427, "SysLink", 0x50010000, 0, 146, 317, 8, 0x0
+  CONTROL "Waiting for you to enter this pairing code on your device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 288, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+}
+
+3054 DIALOGEX 0, 0, 317, 154
+CAPTION "Pairing Selection Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "&Create a pairing code for me\nThe device has a keypad.", 4451, Button, 0x5001000e, 0, 0, 190, 45, 0x0
+  CONTROL "&Enter the device’s pairing code\nThe device comes with a pairing code.\nCheck for one on the device or in the device manual.", 4450, Button, 0x5001000e, 0, 47, 190, 50, 0x0
+  CONTROL "&Pair without using a code\nThis type of device, such as a mouse, does not require a secure connection.", 4452, Button, 0x5001000e, 0, 99, 190, 45, 0x0
+  CONTROL "<A> How can I tell if my device has a pairing code?</A>", 4427, "SysLink", 0x50010000, 0, 146, 317, 8, 0x0
+}
+
+3055 DIALOGEX 0, 0, 317, 154
+CAPTION "Numeric Compare Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "This will verify that you are connecting to the correct device.", 4442, Static, 0x50020000, 0, 0, 220, 16, 0x0
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "123456", 4440, Static, 0x50020200, 0, 20, 220, 20, 0x0
+  CONTROL "Does the code above match the code on the device:", 4294967295, Static, 0x50020000, 0, 44, 220, 8, 0x0
+  CONTROL "&Yes", 4420, Button, 0x50030009, 0, 56, 220, 8, 0x0
+  CONTROL "&No", 4421, Button, 0x50000009, 0, 66, 220, 8, 0x0
+  CONTROL "The &device is not displaying a code", 4423, Button, 0x50000009, 0, 76, 220, 8, 0x0
+  CONTROL "<A>What if this code does not match the code on my device?</A>", 4427, "SysLink", 0x50010000, 0, 146, 317, 8, 0x0
+  CONTROL "Adding device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 288, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+}
+
+3056 DIALOGEX 0, 0, 317, 154
+CAPTION "Just Works Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "Ensure that this is the device you want to add to your computer.", 4415, Static, 0x50020000, 0, 0, 220, 24, 0x0
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "Adding device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 288, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+}
+
+3057 DIALOGEX 0, 0, 317, 154
+CAPTION "Pairing Success Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 4494, "SysLink", 0x50010000, 0, 0, 210, 140, 0x0
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+}
+
+3058 DIALOGEX 0, 0, 317, 154
+CAPTION "Pairing Failed Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "", 4496, Static, 0x50000003, 0, 0, 16, 16, 0x0
+  CONTROL "", 4494, "SysLink", 0x50010000, 20, 0, 200, 144, 0x0
+  CONTROL "<A>How can I fix device adding errors?</A>", 4427, "SysLink", 0x50010000, 0, 146, 317, 8, 0x0
+}
+
+3059 DIALOGEX 0, 0, 317, 154
+CAPTION "List Item Page"
+STYLE 0x40c00048
+EXSTYLE 0x0
+FONT 9, "Segoe UI", 0, 0, 0
+{
+  CONTROL "", 4430, Static, 0x50000003, 250, 0, 55, 55, 0x0
+  CONTROL "", 4431, Edit, 0x50000805, 240, 56, 75, 24, 0x0
+  CONTROL "", 5000, "SysListView32", 0x50a10808, 0, 18, 220, 100, 0x20
+  CONTROL "Adding device...", 4412, Static, 0x40020000 | NOT WS_VISIBLE, 12, 131, 288, 8, 0x0
+  CONTROL "", 4413, "SysAnimate32", 0x50000006, 0, 131, 8, 8, 0x20
+  CONTROL "Select a network from the list and hit the ""Next"" button.", 4294967295, Static, 0x50020000, 0, 0, 220, 16, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "Select a device to add to this computer"
+  201,  "Select a pairing option"
+  202,  "This device has been successfully added to this computer"
+  203,  "&Close"
+  204,  "Adding this device to this computer failed"
+  205,  "Removing Device"
+  206,  "Removing Device..."
+  207,  "Configuring device..."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Compare pairing codes between your computer and this device"
+  209,  "Type the following code into your device"
+  210,  "Enter the pairing code for the device"
+  211,  "Connecting with this device"
+  212,  "Finish connection to this device"
+  213,  "Select a network for your device"
+  214,  "Searching for devices...  Make sure your device is discoverable."
+  215,  "Available Devices View"
+  216,  "This device is now ready to connect to your Wi-Fi network"
+  217,  "Make sure you trust the person asking you to add this device. Ensure that this is the device you want to add to your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  290,  "&Try Again"
+  291,  "&Close"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  342,  "Adding the device failed resulting in an unknown error. The reported error code is: 0x%x.\n\nContact your device manufacturer for assistance."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  360,  "Add a Device Error"
+  361,  "Windows cannot complete the current operation.  The following error code occurred [%x]."
+  362,  "The code you entered is not the correct code for this device. Check the code and try again."
+  363,  "You don’t have permission to add this device to your computer.\n\nMake sure you’re logged on as an administrator or enter the correct information if Windows asks you for the name and password of an administrator account."
+  364,  "You’ve cancelled adding this device to your computer."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  801,  "Windows is unable to connect to the device.\n\nMake sure your device is turned on and in discovery mode.\n\nIf your device uses batteries, make sure they are fresh or fully charged.\n\nMake sure your device is close enough to your computer to make a wireless connection."
+  802,  "The device indicates a hardware failure.\n\nMake sure your device is turned on and in discovery mode.\n\nCheck your device’s documentation for any special requirements. You might need to install special software or security certificates.\n\nCheck for any firmware or software updates for your device.\n\nContact the device’s manufacturer."
+  803,  "Adding this device failed because of an authentication error.\n\nThis might be due to the use of an incorrect pairing code.\n\nTry adding again using the correct pairing code for the device. You might need to refer to your device’s documentation for details.\n\nCheck your device’s documentation to see if you need to first install special software or security certificates.\n\nCheck for any firmware or software updates for your device."
+  804,  "It took too long to add this device. Devices usually stay in discovery mode for only a short period of time to prevent power drain.\n\nTry adding the device again."
+  805,  "Adding the device failed because it is busy communicating with other devices.\n\nDisconnect or turn off any other devices that are using this device.\n\nMove the device out of range of other devices it may be communicating with."
+  806,  "Adding the device failed because it does not support this type of authentication.\n\nTry adding again, and check that the pairing code is correct.\n\nTry to add the device without using a pairing code"
+  807,  "You cannot use this device with your computer until you enable a required Windows service.\n\nEnable and start the ""PnP-X IP Bus Enumerator"" service from the <A ID=""idServices"">Control Panel's Administrative Tools</A>.\n\nTry adding again."
+  808,  "Windows does not have any network profiles for this device to use.\n\nCreate a network profile from the <A ID=""idWireless"">Manage Wireless Networks</A> and try again."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  901,  "Adding the device failed because the device displayed a different pairing code than the computer.\n\n Try adding again.\n\nMake sure that you check the display on the correct device."
+  902,  "Adding the device failed because the device didn’t display a pairing code.\n\nTry adding again.\n\nMake sure that you are adding the correct device.\n\nMake sure the device is close enough to your computer to make a connection.\n\nMake sure your device’s display is functioning properly."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  950,  "%1!s!\n\nWarning\nTo help protect your computer from someone accessing it without your permission, only make your computer discoverable when you want a Bluetooth device to find your computer. Disable discovery when you no longer need it."
+  951,  "Windows is now checking for drivers and will install them if necessary. You may need to wait for this to finish before your device is ready to use.\n\nTo verify if this device finished installing properly, look for it in <A>Devices and Printers</A>."
+  952,  "You may need to wait a few minutes for the device to connect to the Wi-Fi network.\n\nTo verify if your device is connected, look in the <A ID=""idNetworkFolder"">Network folder</A>."
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1000,  "Adding device..."
+  1001,  "Configuring Wi-Fi settings for your device…"
+  1002,  "Waiting for your device to connect to the Wi-Fi network…"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  3205,  "Add a device"
+}
+
+1 MESSAGETABLE
+{
+  256,  "There are %1!d! user(s) connected to %2. If you stop sharing %2, they will be disconnected. Do you want to continue?\r\n"
+  257,  "There are %1!d! file(s) open by %2!d! user(s) connected to %3. If you stop sharing %3, the files will close, which may cause these users to lose data. Do you want to continue?\r\n"
+  258,  "You are sharing %1 as %2. Others may be using files in this folder. If you delete the folder, it will no longer be shared. Are you sure you want to delete it?\r\n"
+  259,  "You are sharing %1 as %2. The folder will not be shared after you move or rename it. Are you sure you want to continue?\r\n"
+  260,  "You are already sharing %1 using the name %2. Do you want to share %3 using the name %2 instead?\r\n"
+  261,  "This folder is shared more than once. Are you sure you wish to remove all these shares?\r\n"
+  262,  "If the share name is longer than 12 characters, this folder cannot be accessed by computers running Windows 98SE, Windows Millennium Edition, Windows NT 4.0, or earlier operating systems. To make the folder fully accessible, name it using 12 characters or fewer.\r\n\r\nDo you want to use the share name ""%1"" anyway?\r\n"
+  276,  "This share is required for the machine to act properly as a domain controller. Removing it will cause a loss of functionality on all clients that this domain controller serves.  Are you sure you wish to stop sharing %1?\r\n"
+  277,  "This share was created for administrative purposes only.  The share will reappear when the Server service is stopped and restarted or the computer is rebooted.  Are you sure you wish to stop sharing %1?\r\n"
+  2147483911,  "Unknown error 0x%1!08lx!.\r\n"
+  2147483912,  "An error occurred while trying to share %1. %2\r\nThe shared resource was not created at this time.\r\n"
+  2147483913,  "An error occurred while trying to modify share %1. %2\r\n"
+  2147483914,  "An error occurred while trying to delete share %1. %2\r\n"
+  2147483915,  "Error invoking the security editor.\r\n"
+  2147483916,  "You must type a share name for this resource.\r\n"
+  2147483917,  "The share name contains invalid characters.\r\n"
+  2147483918,  "The share name %1 is not accessible from some MS-DOS workstations. Are you sure you want to use the share name?\r\n"
+  2147483919,  "The share name %1 already exists for this resource. Please choose another share name.\r\n"
+  2147483920,  "This has been shared for administrative purposes. The permissions cannot be set.\r\n"
+  2147483921,  "The share names ADMIN$ and IPC$ are reserved and may not be used.\r\n"
+  2147483922,  "Windows cannot enable recycling for this share.  Make sure you have write permissions on this folder.\r\n"
+  2147483923,  "Windows cannot turn off recycling for this share.  Make sure you have delete permissions on this folder\r\n"
+}
