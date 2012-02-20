@@ -1,0 +1,243 @@
+#pragma code_page(65001)
+#include <resources.h>
+
+99 DIALOGEX 132, 64, 227, 60
+CAPTION "Save Scheme"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Save this cursor scheme as:", 65535, Static, 0x50020000, 7, 7, 144, 9, 0x0
+  CONTROL "", 300, Edit, 0x50810080, 7, 17, 212, 14, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 116, 39, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50030000, 169, 39, 50, 14, 0x0
+}
+
+100 DIALOGEX 0, 0, 252, 218
+CAPTION "Buttons"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Button configuration", 94, Button, 0x50000007, 7, 7, 238, 71, 0x0
+  CONTROL "&Switch primary and secondary buttons", 101, Button, 0x50030002, 13, 17, 139, 14, 0x0
+  CONTROL "", 103, "PropertyMouseButtonControl", 0x50020000, 173, 13, 65, 62, 0x0
+  CONTROL "Select this check box to make the button on the right the one you use for primary functions such as selecting and dragging.", 95, Static, 0x50020000, 13, 33, 155, 37, 0x0
+  CONTROL "Double-click speed", 97, Button, 0x50000007, 7, 79, 238, 66, 0x0
+  CONTROL "Spee&d:", 65535, Static, 0x50020000, 13, 119, 46, 9, 0x0
+  CONTROL "Slow", 65535, Static, 0x50020000, 45, 119, 46, 9, 0x0
+  CONTROL "Fast", 65535, Static, 0x50020000, 141, 119, 15, 8, 0x0
+  CONTROL "", 105, "msctls_trackbar32", 0x50030401, 63, 119, 78, 16, 0x0
+  CONTROL "Double-click the folder to test your setting. If the folder does not open or close, try using a slower setting.", 124, Static, 0x50020000, 13, 89, 158, 25, 0x0
+  CONTROL "", 106, Static, 0x50001203, 198, 100, 39, 37, 0x0
+  CONTROL "ClickLock", 99, Button, 0x50000007, 7, 146, 238, 65, 0x0
+  CONTROL "&Turn on ClickLock", 114, Button, 0x50030002, 13, 158, 72, 10, 0x0
+  CONTROL "Enables you to highlight or drag without holding down the mouse button. To set, briefly press the mouse button. To release, click the mouse button again.", 125, Static, 0x50020000, 13, 173, 217, 25, 0x0
+  CONTROL "S&ettings...", 115, Button, 0x50014000, 174, 156, 63, 14, 0x0
+}
+
+101 DIALOGEX 0, 0, 252, 218
+CAPTION "Pointers"
+STYLE 0x94c000c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "&Scheme", 94, Button, 0x50000007, 7, 7, 178, 53, 0x0
+  CONTROL "", 113, ComboBox, 0x50210103, 13, 21, 165, 160, 0x0
+  CONTROL "Sa&ve As...", 111, Button, 0x50010000, 74, 39, 50, 14, 0x0
+  CONTROL "&Delete", 112, Button, 0x50010000, 128, 39, 50, 14, 0x0
+  CONTROL "", 110, Static, 0x50001203, 191, 11, 53, 48, 0x0
+  CONTROL "&Customize:", 65535, Static, 0x50020000, 7, 66, 100, 9, 0x0
+  CONTROL "", 101, ListBox, 0x50a10151, 7, 77, 237, 103, 0x0
+  CONTROL "&Enable pointer shadow", 114, Button, 0x50010003, 7, 184, 100, 10, 0x0
+  CONTROL "Use De&fault", 103, Button, 0x50010000, 140, 184, 50, 14, 0x0
+  CONTROL "&Browse...", 102, Button, 0x50010000, 194, 184, 50, 14, 0x0
+  CONTROL "A&llow themes to change mouse pointers", 115, Button, 0x50010003, 7, 202, 200, 10, 0x0
+}
+
+102 DIALOGEX 0, 0, 94, 44
+CAPTION ""
+STYLE 0x44000044 | NOT WS_CAPTION
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Preview:", 94, Static, 0x50020000, 4, 4, 36, 9, 0x0
+  CONTROL "", 400, Static, 0x50001203, 44, 0, 45, 42, 0x0
+}
+
+103 DIALOGEX 0, 0, 252, 218
+CAPTION "Pointer Options"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Motion", 94, Button, 0x50000007, 7, 6, 238, 61, 0x0
+  CONTROL 104, 106, Static, 0x50000003, 13, 17, 20, 20, 0x0
+  CONTROL "Sele&ct a pointer speed:", 65535, Static, 0x50020000, 42, 19, 120, 8, 0x0
+  CONTROL "Slow", 65535, Static, 0x50020002, 42, 36, 17, 9, 0x0
+  CONTROL "Fast", 65535, Static, 0x50020000, 143, 36, 16, 9, 0x0
+  CONTROL "", 101, "msctls_trackbar32", 0x50030401, 61, 32, 80, 16, 0x0
+  CONTROL "&Enhance pointer precision", 116, Button, 0x50010003, 42, 53, 151, 10, 0x0
+  CONTROL "Snap To", 97, Button, 0x50000007, 7, 71, 238, 38, 0x0
+  CONTROL "A&utomatically move pointer to the default button in a dialog box", 109, Button, 0x50012403, 42, 83, 182, 17, 0x0
+  CONTROL 108, 110, Static, 0x50000003, 13, 83, 20, 20, 0x0
+  CONTROL "Visibility", 98, Button, 0x50000007, 7, 113, 238, 98, 0x0
+  CONTROL "&Display pointer trails", 103, Button, 0x50010003, 42, 126, 192, 13, 0x0
+  CONTROL 600, 105, Static, 0x50000003, 13, 125, 20, 20, 0x0
+  CONTROL "Short", 107, Static, 0x50020000, 42, 143, 17, 9, 0x0
+  CONTROL "Long", 108, Static, 0x50020000, 143, 143, 20, 8, 0x0
+  CONTROL "", 104, "msctls_trackbar32", 0x50030401, 61, 139, 80, 16, 0x0
+  CONTROL 601, 112, Static, 0x50000003, 13, 160, 20, 20, 0x0
+  CONTROL 602, 113, Static, 0x50000003, 15, 185, 20, 20, 0x0
+  CONTROL "&Hide pointer while typing", 114, Button, 0x50010003, 42, 165, 174, 10, 0x0
+  CONTROL "&Show location of pointer when I press the CTRL key", 115, Button, 0x50010003, 42, 190, 196, 10, 0x0
+}
+
+104 DIALOGEX 0, 0, 252, 218
+CAPTION "Speed"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Character repeat", 106, Button, 0x50000007, 7, 7, 237, 146, 0x0
+  CONTROL 105, 65535, Static, 0x50000003, 21, 24, 18, 20, 0x0
+  CONTROL "Long", 65535, Static, 0x50020000, 56, 38, 17, 9, 0x0
+  CONTROL "Short", 65535, Static, 0x50020000, 210, 38, 17, 9, 0x0
+  CONTROL "Repeat &delay:", 65535, Static, 0x50020000, 56, 24, 46, 9, 0x0
+  CONTROL "", 100, "msctls_trackbar32", 0x50010401, 75, 38, 134, 18, 0x0
+  CONTROL 106, 65535, Static, 0x50000003, 21, 70, 18, 20, 0x0
+  CONTROL "Slow", 65535, Static, 0x50020000, 56, 84, 18, 9, 0x0
+  CONTROL "Fast", 65535, Static, 0x50020000, 210, 84, 16, 8, 0x0
+  CONTROL "&Repeat rate:", 65535, Static, 0x50020000, 56, 70, 41, 9, 0x0
+  CONTROL "", 101, "msctls_trackbar32", 0x50010401, 75, 84, 134, 18, 0x0
+  CONTROL "Click here and hold down a key to &test repeat rate:", 65535, Static, 0x50020000, 21, 115, 187, 9, 0x0
+  CONTROL "", 102, Edit, 0x50810080, 21, 125, 209, 14, 0x0
+  CONTROL "None", 65535, Static, 0x50020000, 56, 176, 20, 9, 0x0
+  CONTROL "Fast", 65535, Static, 0x50020000, 210, 176, 16, 9, 0x0
+  CONTROL "", 103, Static, 0x50000000, 21, 174, 18, 20, 0x0
+  CONTROL "", 104, Static, 0x50000004, 29, 180, 1, 8, 0x0
+  CONTROL "Cursor &blink rate", 107, Button, 0x50000007, 7, 157, 237, 49, 0x0
+  CONTROL "", 105, "msctls_trackbar32", 0x50010401, 75, 176, 134, 18, 0x0
+}
+
+106 DIALOGEX 0, 0, 252, 218
+CAPTION "Hardware"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+}
+
+108 DIALOGEX 0, 0, 252, 218
+CAPTION "Wheel"
+STYLE 0x80c800c4
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL "Vertical Scrolling", 94, Button, 0x50020007, 7, 7, 238, 78, 0x0
+  CONTROL 603, 101, Static, 0x50000003, 13, 18, 20, 20, 0x0
+  CONTROL "Roll the wheel one notch to scroll:", 102, Static, 0x50020000, 42, 20, 140, 12, 0x0
+  CONTROL "The following &number of lines at a time:", 103, Button, 0x50030009, 42, 37, 195, 10, 0x0
+  CONTROL "&One screen at a time", 104, Button, 0x50010009, 42, 68, 197, 10, 0x0
+  CONTROL "", 105, Edit, 0x50832081, 69, 49, 50, 14, 0x0
+  CONTROL "", 106, "msctls_updown32", 0x500200b6, 105, 46, 11, 18, 0x0
+  CONTROL "Horizontal Scrolling", 100, Button, 0x50020007, 7, 88, 238, 78, 0x0
+  CONTROL 608, 108, Static, 0x50000003, 13, 99, 20, 20, 0x0
+  CONTROL "&Tilt the wheel to scroll the following number of characters at a time:", 109, Static, 0x50020000, 42, 101, 140, 24, 0x0
+  CONTROL "", 110, Edit, 0x50832081, 69, 130, 50, 14, 0x0
+  CONTROL "", 111, "msctls_updown32", 0x500200b6, 105, 127, 11, 18, 0x0
+}
+
+116 DIALOGEX 0, 0, 188, 86
+CAPTION "Settings for ClickLock"
+STYLE 0x90c800c8
+EXSTYLE 0x0
+FONT 8, "MS Shell Dlg", 0, 0, 0
+{
+  CONTROL 607, 111, Static, 0x50020003, 7, 7, 21, 20, 0x0
+  CONTROL "&Adjust how long you need to hold down a mouse or trackball button before your click is ""locked.""", 117, Static, 0x50020000, 32, 7, 145, 40, 0x0
+  CONTROL "Short", 118, Static, 0x50020002, 29, 36, 28, 10, 0x0
+  CONTROL "Long", 119, Static, 0x50020000, 135, 36, 28, 10, 0x0
+  CONTROL "", 120, "msctls_trackbar32", 0x50034401, 59, 33, 74, 20, 0x0
+  CONTROL "OK", 1, Button, 0x50030001, 78, 65, 50, 14, 0x0
+  CONTROL "Cancel", 2, Button, 0x50010000, 131, 65, 50, 14, 0x0
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  100,  "Mouse"
+  101,  "Customize your mouse settings, such as the button configuration, double-click speed, mouse pointers, and motion speed."
+  102,  "Keyboard"
+  103,  "Customize your keyboard settings, such as the cursor blink rate and the character repeat rate."
+  110,  "explorer.exe hcp://help/tshoot/tsInputDev.htm"
+  111,  "explorer.exe hcp://help/tshoot/tsInputDev.htm"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  200,  "Cursors (*.ani, *.cur)*.ani;*.curAnimated Cursors (*.ani)*.aniStatic Cursors (*.cur)*.curAll Files*.*"
+  201,  "Confirm Scheme Removal"
+  204,  "The %s file, which contains the '%s' cursor, is either missing or corrupt."
+  205,  "Browse"
+  207,  "Normal Select"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  208,  "Busy"
+  209,  "Working In Background"
+  210,  "Unavailable"
+  211,  "Text Select"
+  212,  "Precision Select"
+  213,  "Vertical Resize"
+  214,  "Horizontal Resize"
+  215,  "Diagonal Resize 1"
+  216,  "Diagonal Resize 2"
+  217,  "Move"
+  218,  "Help Select"
+  219,  "Handwriting"
+  220,  "Alternate Select"
+  221,  "(None)"
+  222,  " (system scheme)"
+  223,  "Replace Scheme?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  224,  "The Cursor Scheme name you selected is already in use.  Do you want to replace the original scheme?"
+  225,  "Link Select"
+  230,  "Are you sure you want to completely remove the scheme '%s' from your system?"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1007,  "Magnified"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1011,  "Windows Black"
+  1012,  "Windows Black (extra large)"
+  1013,  "Windows Black (large)"
+  1015,  "Windows Inverted"
+  1016,  "Windows Inverted (extra large)"
+  1017,  "Windows Inverted (large)"
+  1018,  "Windows Standard (extra large)"
+  1019,  "Windows Standard (large)"
+  1020,  "Windows Aero"
+  1021,  "Windows Aero (large)"
+  1022,  "Windows Aero (extra large)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  2000,  "Animated Cursor"
+}
+
